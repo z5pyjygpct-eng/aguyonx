@@ -3,6 +3,526 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-12-31,Cash on hand (ending balance),$0,,VA,,"From official Schedule H, November 2025 election cycle",H,504103,2026-08-31
 summary,2026-12-31,Raised this cycle,"$8,852.67",,,,Total receipts this election cycle (Schedule H),H,504103,2026-08-31
 summary,2026-12-31,Spent this cycle,"$38,938.50",,,,Total disbursements this election cycle (Schedule H),H,504103,2026-08-31
+contribution,2024-12-28,Carlton Abbott,$150,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-23,Steven Chisholm,$300,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-25,Virginia Dunn,"$5,000",Richmond,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-29,Gale Harvey,"$1,000",Hampton,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-27,John Hummel,$200,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-28,James Lawrence,$250,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-28,Ted Lynch,$200,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-29,William Roberts,$250,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-29,Thomas Rooks,$250,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-27,Secure Progress,"$1,000",Fairfax Station,VA,pac,,A,442788,2025-06-11
+contribution,2024-12-29,Claire Stephens,$150,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-29,Claire Stephens,$50,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2024-12-23,Georgia Ann Tetrault,$200,Williamsburg,VA,individual,,A,442788,2025-06-11
+contribution,2025-03-31,Christine Payne,$250,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-01-06,Bill Roberts,$250,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-31,Christina Sizemore,$200,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-01-17,Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-02-17,Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-17,Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-29,Robert Baldwin,$500,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-31,Aaron Bruhl,$250,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-31,David Cassidy,$100,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-02-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-02-26,Matthew Huth Connolly,"$2,000",Toano,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-31,William Croom,"$1,000",Clearwater,FL,individual,,A,442826,2025-06-11
+contribution,2025-03-26,Rene Dejager,"$1,000",Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-25,Matthew Fass,"$1,000",Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-02-21,Amy Fox,$100,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-21,Amy Fox,$50,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-31,Gale Harvey,"$2,000",Hampton,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-31,Historic Triangle Democrats,"$1,000",Williamsburg,VA,party,,A,442826,2025-06-11
+contribution,2025-03-31,Kathy Hornsby,$250,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-30,Lori Jacobson,$500,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-10,Alison Lennarz,$250,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-01-18,Michael Levine,"$1,000",Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-03-31,David Malmquist,$50,Williamsburg,VA,individual,,A,442826,2025-06-11
+contribution,2025-04-30,Nancy Abbott,$125,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-25,Abby Anderson,$100,Newport News,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-31,Brenda Baker,$250,Los Altos,CA,individual,,A,442830,2025-06-11
+contribution,2025-05-04,Alfred Brassel,$120,Yorktown,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-30,camilla buchanan,$25,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-13,camilla buchanan,$100,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-13,camilla buchanan,$25,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-31,camilla buchanan,$25,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-24,Stair Calhoun,$250,Falls Church,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-06,David Cassidy,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-08,Cheryl Chang,$250,Hillsboro,OR,individual,,A,442830,2025-06-11
+contribution,2025-04-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-21,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,442830,2025-06-11
+contribution,2025-05-07,Mary Ellen Cullom,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-30,John Curtis,"$1,000",Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-30,William Downey,$500,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-31,David Feldman,$200,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-03,David Fly,$100,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-06-05,David Fly,$100,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-21,Amy Fox,$50,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-21,Amy Fox,$50,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-06-01,Cynthia Gibson,$100,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-07,Franz Gross,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-10,Keith Hanger,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-10,michael hanger,$200,Lanexa,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-27,Helen Hansen,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-08,Therese Harding,$200,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-26,Larry Hartsough,$150,Berkeley,CA,individual,,A,442830,2025-06-11
+contribution,2025-05-10,Gale Harvey,"$2,000",Hampton,VA,individual,,A,442830,2025-06-11
+contribution,2025-06-04,Anne Henry,$250,Newport News,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-14,Loren Hershey,$185,Oakton,VA,individual,,A,442830,2025-06-11
+contribution,2025-06-04,Historic Triangle Democrats,"$1,000",Williamsburg,VA,party,,A,442830,2025-06-11
+contribution,2025-05-04,Kathy Hornsby,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-10,Christie Hudgins,$200,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-10,John Hummel,$300,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-05,John Hummel,$200,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-30,Lori Jacobson,$50,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-08,Lori Jacobson,"$1,000",Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-30,Lori Jacobson,$50,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-19,John Kern,$100,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-25,Ursula Korneitchouk,$300,Cleveland,OH,individual,,A,442830,2025-06-11
+contribution,2025-05-31,Dean Kostov,$500,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-04,James Lawrence,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-29,Alison Lennarz,$100,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-31,Alison Lennarz,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-06,Christine Llewellyn,$150,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-28,Joshua Lubbers,$100,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-13,John Lynch,$500,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-25,Robert McNutt,$112.50,Chatham,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-26,Dr. Lisa Mensch,"$1,000",Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-08,Mrs. Monika Florence Miller,$200,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-02,Jose Morey,$500,Newport News,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-08,John O'Farrell,$500,Atherton,CA,individual,,A,442830,2025-06-11
+contribution,2025-05-08,geoff perkins,$200,Topping,VA,individual,,A,442830,2025-06-11
+contribution,2025-06-03,Eric Peterson,$200,Norfolk,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-30,Michael Potter,$200,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-25,Debbie Ramer,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-28,Agnieszka Reynolds,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-14,Lynda Robb,$250,Arlington,VA,individual,,A,442830,2025-06-11
+contribution,2025-06-05,John Robinson,$200,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-25,Edgard Segura,$200,Leesburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-06,Simonds for Delegate,$500,Newport News,VA,candidate,,A,442830,2025-06-11
+contribution,2025-05-29,Elizabeth Simons,"$5,000",San Francisco,CA,individual,,A,442830,2025-06-11
+contribution,2025-04-30,Christina Sizemore,$100,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-31,Christina Sizemore,$200,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-17,Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-27,Georgia Ann Tetrault,$500,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-17,Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-13,Donna Thomas,$100,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-29,Jennifer Tierney,$250,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-04-26,Terryl Dewayne Times,$500,Williamsburg,VA,individual,,A,442830,2025-06-11
+contribution,2025-05-10,York County Professional Fire Fighters and Emergency Medical Services PAC,"$1,000",Yorktown,VA,pac,,A,442830,2025-06-11
+contribution,2025-06-30,314 Action Victory Fund,"$2,500",Washington,DC,pac,,A,447541,2025-07-14
+contribution,2025-06-25,Reinier Beeuwkes,"$1,000",Concord,MA,individual,,A,447541,2025-07-14
+contribution,2025-06-10,Elizabeth Broderick,$500,Hampton,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-13,Camilla Buchanan,$25,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-25,Camilla Buchanan,$100,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-06,Center for Freethought Equality PAC,$250,Washington,DC,pac,,A,447541,2025-07-14
+contribution,2025-06-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,George Colombo,$50,Los Lunas,NM,individual,,A,447541,2025-07-14
+contribution,2025-06-26,Victoria Costanzo,$500,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-29,William Croom,"$1,000",Clearwater,FL,individual,,A,447541,2025-07-14
+contribution,2025-06-30,John Curtis,"$1,000",Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-09,Gary Cusack,$100,Yorktown,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,David Dafhashy,$250,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-29,Gerald Wallace DeWitt,$100,Roseland,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-17,Everytown for Gun Safety Action Fund,"$1,000",New York,NY,pac,,A,447541,2025-07-14
+contribution,2025-06-28,Daniel Finck,"$1,000",Yorktown,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-21,Amy Fox,$50,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,Amy Fox,$50,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-21,John Hummel,$200,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-13,Lori Jacobson,$250,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,Lori Jacobson,$50,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-09,Jim Lang,$500,Chesapeake,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-13,Betty Leviner,$250,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-06,Janice Lockwood,$10,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-06,Janice Lockwood,$25,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-23,Joshua Lubbers,$100,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,Ted Lynch,$500,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,David Malmquist,$50,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-19,John McGlennon,$250,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,Christine Payne,$250,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,James Bowles Pender Jr,$25,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,James Bowles Pender Jr,$25,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-13,Rick Platt,$100,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,John Robinson,$50,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,Cynthia Sarver,$50,Boston,MA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,Katherine Shearer,"$1,000",Emory,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,Diann Smith,$200,Yorktown,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-29,Juliana Smith,$200,Toano,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,Sonjia Smith,"$10,000",Charlottesville,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-20,William Sussman,$25,New York,NY,individual,,A,447541,2025-07-14
+contribution,2025-06-24,William Sussman,$50,New York,NY,individual,,A,447541,2025-07-14
+contribution,2025-06-13,Angela Taormina,$100,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-13,Georgia Ann Tetrault,$200,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-17,Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-12,Michael Tierney,$500,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-30,Laura Tripp,$250,Williamsburg,VA,individual,,A,447541,2025-07-14
+contribution,2025-06-16,Vindman for Congress,$500,Dumfries,VA,candidate,,A,447541,2025-07-14
+contribution,2025-06-06,Elizabeth Wash,"$1,000",Yorktown,VA,individual,,A,447541,2025-07-14
+contribution,2025-08-12,Nancy Abbott,$200,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-25,Marilyn Adams,$300,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-26,Manjula Ambur,$100,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-22,Kaaren Ancarrow,$100,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-22,William Taylor Andersen,$250,Hayes,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-30,Alex Bastani,$500,Falls Church,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-27,Laura Berol,"$1,000",Falls Church,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-15,William Blakemore,$200,Reston,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-16,barbara boardman,$250,Mclean,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-07,Alfred Brassel,$100,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-31,Alfred Brassel,$100,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-26,Donna Aileen Briede,$200,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-24,Elizabeth Broderick,$250,Hampton,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-26,Aaron Bruhl,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-02,camilla Marie buchanan,$10,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-13,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-25,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-31,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-13,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-25,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-31,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-27,Judith Graves Campbell,$300,Seaford,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-20,David George Cassidy,$150,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-11,Rural Caucus,$250,Berryville,VA,party,,A,457495,2025-10-05
+contribution,2025-08-20,Theresa Cavanaugh,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-19,Center for Freethought Equality PAC,$250,Washington,DC,pac,,A,457495,2025-10-05
+contribution,2025-07-22,Steven Chisholm,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-08,Pamela Cipriano,$500,Charlottesville,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-20,Clean Virginia Fund,"$25,000",Charlottesville,VA,pac,,A,457495,2025-10-05
+contribution,2025-07-07,Michael Corrigan,$250,Reston,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-24,Jonathan Croly,$200,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-24,William Croom,"$1,000",Clearwater,FL,individual,,A,457495,2025-10-05
+contribution,2025-08-31,William Croom,$100,Clearwater,FL,individual,,A,457495,2025-10-05
+contribution,2025-08-10,Mary Ellen Patricia Cullom,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-25,John Curtis,"$1,000",Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-09,Gary Cusack,$100,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-09,Gary Cusack,$100,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-16,Elizabeth De Falcon,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-24,fred denn,$35,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-31,Margerie DuBois,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-12,james dudley,$250,Gloucester,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-30,Nancy Eberhardt,$500,Richmond,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-12,Virginia Sherwood Elwell,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-31,Quinn Emmett,"$2,000",Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-06,Roberta Falquet,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-06,Roberta Falquet,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-29,Diane Feineis,$20,Virginia Beach,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-01,David Fly,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-01,David Fly,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-14,Robert M Foster,$200,Jacksonville,FL,individual,,A,457495,2025-10-05
+contribution,2025-07-21,Amy Fox,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-21,Amy Fox,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-12,Friends of Don Beyer,"$5,000",Arlington,VA,business,,A,457495,2025-10-05
+contribution,2025-07-02,Joshua Galun,$115.39,Washington,DC,individual,,A,457495,2025-10-05
+contribution,2025-07-17,Dave Gilbert,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-28,Gloucester County Democratic Committee,$500,Hayes,VA,party,,A,457495,2025-10-05
+contribution,2025-07-18,Green Advocacy Project,"$20,000",Washington,DC,business,,A,457495,2025-10-05
+contribution,2025-08-24,Franz Gross,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-28,Franz Gross,$450,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-18,Keith Hanger,$150,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-28,Keith Hanger,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-28,Michael William Hanger,$100,Lanexa,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-07,Helen Hansen,$500,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-30,Leah Hardenbergh,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-30,Leah Hardenbergh,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-22,John Murrah Harding II,$200,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-22,Larry Hartsough,$50,Berkeley,CA,individual,,A,457495,2025-10-05
+contribution,2025-07-26,Gale Harvey,"$10,000",Hampton,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-15,Robert Randolph Hatten,"$1,500",Gloucester,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-28,Anne Henry,$250,Newport News,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-12,Jill Beth Herman,$150,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-07,Loren Hershey,$185,Oakton,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-12,Loren Hershey,$185,Oakton,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-04,Christie Hudgins,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-17,Invest in Virginia's Future,$250,Reston,VA,pac,,A,457495,2025-10-05
+contribution,2025-08-14,Ellen Irmiter,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-24,Ernest Isenstadt,$200,Mclean,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-30,Lori Jacobson,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-30,Lori Jacobson,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-10,Peter Kageleiry,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-10,Peter Kageleiry,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-12,Alan Kennedy,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-19,John Kern,$50,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-18,Dawn Kinard,$35,Newport News,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-09,Jay Kraemer,$250,Falls Church,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-12,James Lawrence,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-25,Alison Lennarz,$500,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-11,Rebecca Leser,$100.69,Hampton,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-06,Janice Lockwood,$5,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-17,Maria Long,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-20,EMILY MCCOY,$500,Tappahannock,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-31,Charles Francis McGovern,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-31,Robert Walton McNutt Jr,$50,Chatham,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-19,Peter Mellette,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-12,Mary Christine Miller,$151,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-13,Susan Miller,$500,Richmond,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-16,Stephanie Moore,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-13,Karol Moorman,$10,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-25,Karol Moorman,$10,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-15,John Morrill,$500,Mclean,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-27,Kathryn Nelson,"$1,000",Falls Church,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-12,Warren Nelson,$350,Arlington,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-14,Jay Paul,$500,Newport News,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-26,Herbert Payne,$200,New York,NY,individual,,A,457495,2025-10-05
+contribution,2025-07-30,James Bowles Pender Jr,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-31,James Bowles Pender Jr,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-31,Eric Peterson,$100,Norfolk,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-23,Rick Platt,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-26,Tiffany Reaves,$500,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-12,Detta Kaye Rich,$200,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-19,William Lee Roberts Jr,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-19,William Lee Roberts Jr,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-26,John Robinson,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-26,John Robinson,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-24,JONATHAN SCHEERER,$100,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-22,Marc Sher,$500,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-04,Diann Smith,$20,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-30,Diann Smith,$200,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-30,Diann Smith,$200,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-03,Shawke Soueidan,$500,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-17,Matthew Sowd,$700,Herndon,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-25,Jane Frances Stevens,$200,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-04,Kathy Swayne,$200,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-17,David and Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-17,David and Georgia Ann Tetrault,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-28,Mark Thomas,$25,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-27,Tomas Torres,"$5,000",Houston,TX,individual,,A,457495,2025-10-05
+contribution,2025-07-03,Ron Turner,$500,Charlottesville,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-15,Mev Vakiener,$200,Fairfax,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-25,Jacques van Montfrans,$100,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-26,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,,A,457495,2025-10-05
+contribution,2025-07-22,Forrest Reynolds White,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-23,Forrest Reynolds White,$250,Williamsburg,VA,individual,,A,457495,2025-10-05
+contribution,2025-07-23,Margaret Shaughnessy Whitehead,$250,Yorktown,VA,individual,,A,457495,2025-10-05
+contribution,2025-08-19,WinVirginia,"$5,000",Vienna,VA,pac,,A,457495,2025-10-05
+contribution,2025-09-25,ATU,"$2,000",Silver Spring,MD,business,,A,470023,2025-11-27
+contribution,2025-09-30,Lamont Bagby,"$2,500",Richmond,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-23,Michelle Bedford Sheeler,$200,Poquoson,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-02,Ellen Bender,$250,New York,NY,individual,,A,470023,2025-11-27
+contribution,2025-09-13,WILLIAM berlinghof,$125,Dresher,PA,individual,,A,470023,2025-11-27
+contribution,2025-09-20,Diane Berry,$125,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-01,David Brakman,"$1,000",Newport News,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-04,Darrell Branscome,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-13,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-25,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Sarah Carey,$200,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-29,Robert Casey,$500,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-27,Steven Chisholm,$50,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-26,Clean Virginia Fund,"$40,000",Charlottesville,VA,pac,,A,470023,2025-11-27
+contribution,2025-09-25,Clayton Clemens,$500,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-18,Climate Cabinet,"$4,000",San Francisco,CA,business,,A,470023,2025-11-27
+contribution,2025-09-20,Michael Corrigan,$250,Reston,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,William Croom,$100,Clearwater,FL,individual,,A,470023,2025-11-27
+contribution,2025-09-30,William Croom,"$1,000",Clearwater,FL,individual,,A,470023,2025-11-27
+contribution,2025-09-09,Gary Cusack,$100,Yorktown,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-16,Elizabeth De Falcon,$50,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-19,fred denn,$50,Yorktown,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,William Downey,$500,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-23,Paula Dubberly,$250,Alexandria,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Margerie DuBois,$25,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-22,james dudley,$100,Gloucester,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-27,James Eachus,$500,Sarasota,FL,individual,,A,470023,2025-11-27
+contribution,2025-09-06,Roberta Falquet,$50,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-09,Diane Feineis,$5,Virginia Beach,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-16,Diane Feineis,$10,Virginia Beach,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-29,Diane Feineis,$20,Virginia Beach,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,George Feldman,$150,Manakin Sabot,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-03,Caroline Rebecca Fetter,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-01,David Fly,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-21,Amy Fox,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-26,Carl Friedrichs,$200,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Friends of Randy Riffle,$105,Williamsburg,VA,candidate,,A,470023,2025-11-27
+contribution,2025-09-01,Archibald Fripp,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-05,Christopher Gareis,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-26,Gwen Goodkin,$250,Charlottesville,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-23,Green Advocacy Project,"$15,000",Washington,DC,business,,A,470023,2025-11-27
+contribution,2025-09-19,Jennifer Greenlee,$500,Reston,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-01,Jaylan Haley,$100,Jonesboro,GA,individual,,A,470023,2025-11-27
+contribution,2025-09-18,Kenneth Hannsgen,$250,Blacksburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-25,Helen Hansen,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Leah Hardenbergh,$25,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-17,Gale Harvey,"$15,000",Hampton,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Clyde Haulman,$200,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-10,Thomson Mason Hirst,"$10,000",Alexandria,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-23,Historic Triangle Dems,"$1,000",Williamsburg,VA,business,,A,470023,2025-11-27
+contribution,2025-09-28,Katherine Hoffmann,$200,Falls Church,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-03,Jean Hudson,$200,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-13,Lori Jacobson,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Lori Jacobson,$50,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-15,James Walkinshaw for Braddock Supervisor,"$1,000",Springfield,VA,candidate,,A,470023,2025-11-27
+contribution,2025-09-17,Jane Fonda Climate PAC,"$5,000",Washington,DC,pac,,A,470023,2025-11-27
+contribution,2025-09-05,Chris Johansen,$250,Grafton,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-23,Margaret Kageleiry,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-10,Peter Kageleiry,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-29,Mary Kayrouz,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-26,Karen kellog,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Alan Kennedy,$50,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-02,Brigitte Kerpsack,"$1,000",New York,NY,individual,,A,470023,2025-11-27
+contribution,2025-09-26,Eric Laufer,"$1,250",New York,NY,individual,,A,470023,2025-11-27
+contribution,2025-09-04,James Lawrence,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Leaders for an Equitable Tomorrow PAC,"$2,500",Richmond,VA,pac,,A,470023,2025-11-27
+contribution,2025-09-22,Michael Levine,$500,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Betty Leviner,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-24,Jennieleigh Little,$50,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Paymaun Lotfi,$250,Mclean,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-02,Sasha Maliniak,$200,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-04,Robert Margrave,$25,Arlington,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-15,Robert Margrave,$10,Arlington,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-24,Robert Margrave,$50,Arlington,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-24,Cynthia McClintock,$75,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-19,EMILY MCCOY,"$1,000",Tappahannock,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-20,FRED MCCOY,$250,Tappahannock,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-25,David McNally,$100,Alexandria,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-23,Susan Miller,$250,Richmond,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-13,Karol Moorman,$10,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-25,Karol Moorman,$10,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Kathryn Nelson,"$1,000",Falls Church,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-06,Linwood Nelson,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-07,William Pakula,"$1,000",Falls Church,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Christine Payne,"$1,000",Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-23,Dee Pendley,$100,Linden,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Sonya Peretti-Hull,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-26,Giovanna Randall,"$1,250",New York,NY,individual,,A,470023,2025-11-27
+contribution,2025-09-20,Lynda Robb,$100,Arlington,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-08,John Robinson,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-02,Karen Rose,$200,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-02,Leon Rubis,$150,Vienna,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Wendy Ruffle,$50,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Donald G Schilling,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-02,Harlan Eugene Schone,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-08,Secure Progress,$450,Fairfax Station,VA,pac,,A,470023,2025-11-27
+contribution,2025-09-05,Shannon Taylor for Virginia,"$1,000",Henrico,VA,candidate,,A,470023,2025-11-27
+contribution,2025-09-22,Barbara Simons,"$1,500",San Francisco,CA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Diann Smith,$200,Yorktown,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-23,pamela smith,$250,Alexandria,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Susan Stern,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-21,Parker Stokes,$207,Newport News,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-17,David Joseph Tetrault,$25,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-25,David Joseph Tetrault,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-26,Mark Thomas,$25,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Jennifer Tierney,$500,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-23,Barbara Timko,$100,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-11,Laura Tripp,$250,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-15,UFCW Local 400 ABC PAC,"$1,000",Landover,MD,pac,,A,470023,2025-11-27
+contribution,2025-09-26,United Steelworkers Disrict 8 MD/VA Non-Federal Account,$250,Frankfort,KY,business,,A,470023,2025-11-27
+contribution,2025-09-05,VA NOW,$200,Falls Church,VA,business,,A,470023,2025-11-27
+contribution,2025-09-23,Mev Vakiener,$100,Fairfax,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-28,Mev Vakiener,$200,Fairfax,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-17,Jacques Van Montfrans,$100,Yorktown,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-25,VEA Fund,$500,Richmond,VA,business,,A,470023,2025-11-27
+contribution,2025-09-10,Virginia AFL-CIO,"$1,000",Richmond,VA,business,,A,470023,2025-11-27
+contribution,2025-09-26,Virginia AFL-CIO,"$2,000",Richmond,VA,business,,A,470023,2025-11-27
+contribution,2025-09-25,Virginia Chapter Sierra Club AC,"$1,000",Richmond,VA,business,,A,470023,2025-11-27
+contribution,2025-09-16,Virginia House Democratic Caucus,"$25,000",Richmond,VA,party,,A,470023,2025-11-27
+contribution,2025-09-23,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,,A,470023,2025-11-27
+contribution,2025-09-30,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,,A,470023,2025-11-27
+contribution,2025-09-30,Elizabeth Wash,$500,Yorktown,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Judy Wason,$500,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-19,john williams,$200,Williamsburg,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-15,WinVA,"$3,000",Herndon,VA,business,,A,470023,2025-11-27
+contribution,2025-09-10,Leonard Yang,$500,Winchester,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-22,314 Action Victory Fund,"$12,500",Washington,DC,pac,,A,470023,2025-11-27
+contribution,2025-09-23,William J Ackerman,$100,Clifton,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-22,Manjula Ambur,$200,Yorktown,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-30,Kaaren Ancarrow,$50,Yorktown,VA,individual,,A,470023,2025-11-27
+contribution,2025-09-05,William Taylor Andersen,$250,Hayes,VA,individual,,A,470023,2025-11-27
+contribution,2025-10-07,Marilyn Adams,$50,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-21,William Taylor Andersen,$250,Hayes,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-20,Jayne Barnard,$30,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-09,Stanley Barr,$250,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-11,Nancy Bleeker,$100,Mclean,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-22,barbara boardman,$50,Mclean,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,Alfred Brassel,"$1,000",Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-07,Alfred Bray,$125,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-09,Elizabeth Broderick,$100,Hampton,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-10,Aaron Bruhl,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-05,camilla Marie buchanan,$400,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-13,camilla Marie buchanan,$25,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-15,Barbara Carlson,$125,San Francisco,CA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,Monica Chandler,$30,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-09,Cheryl Chang,$100,Hillsboro,OR,individual,,A,470024,2025-11-27
+contribution,2025-10-07,Steven Chisholm,$200,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-15,Nancy Combs,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-14,Elizabeth Cranwell,$250,Vinton,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-15,JONATHAN Croly,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-07,John Curtis,"$1,000",Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-09,Gary Cusack,$100,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,Elizabeth De Falcon,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-09,Margerie DuBois,$25,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-20,Margerie DuBois,$25,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,Fairfax County Democratic Committee Federal Account,"$1,000",Fairfax,VA,business,,A,470024,2025-11-27
+contribution,2025-10-06,Roberta Falquet,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-09,Diane Feineis,$5,Virginia Beach,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,Diane Feineis,$10,Virginia Beach,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,Robert Fell,$200,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-22,Meredith Fernandez,$250,Lanexa,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-01,David Fly,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-12,David Forrest,$25,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-13,David Forrest,$50,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-21,Amy Fox,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-10,Corinne Garland,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-15,Corinne Garland,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-11,John Gudgel,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-08,Roger Guernsey,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-02,Charles Hamm,$250,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-01,Elise Hayes,$200,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-01,Loren Hershey,$185,Oakton,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-14,Historic Triangle Dems,"$1,000",Williamsburg,VA,business,,A,470024,2025-11-27
+contribution,2025-10-07,Katherine Hoffmann,$400,Falls Church,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-10,Michael Hudson,$10,Blacksburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,John Hummel,$250,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-06,Ellen Irmiter,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-10,Ernest Isenstadt,$200,Mclean,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-10,Peter Kageleiry,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,Alan Kennedy,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-07,John Kern,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-22,Jean King,$25,Livermore,CA,individual,,A,470024,2025-11-27
+contribution,2025-10-13,Betty Leviner,$250,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-07,Joshua Lubbers,$200,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-18,Ted Edward Lynch,$200,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,David Malmquist,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-22,Robert Margrave,$50,Arlington,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-04,Tyla Matteson,$200,North Chesterfield,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-22,EMILY MCCOY,$500,Tappahannock,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-10,Mary Mcgonigle,$50,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-10,Robert Walton McNutt Jr,$100,Chatham,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-15,Kerry Mellette,$150,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-19,Thomas Menaker,$25,New City,NY,individual,,A,470024,2025-11-27
+contribution,2025-10-02,Ron Millar,$100,Arlington,VA,pac,,A,470024,2025-11-27
+contribution,2025-10-13,Buck Miller,$25,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-18,Buck Miller,$12.50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-11,Karol Moorman,$10,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-19,John Moskow,$250,Chadds Ford,PA,individual,,A,470024,2025-11-27
+contribution,2025-10-12,Kathryn Nelson,$500,Falls Church,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,Marilyn Frances Nendza,$250,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-13,Rick Platt,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-01,Anne Rasmussen,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-16,Repro Rising Virginia PAC,$500,Alexandria,VA,pac,,A,470024,2025-11-27
+contribution,2025-10-15,John Robinson,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-10,Nicole McCormick Santiago,$12.50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-09,JONATHAN SCHEERER,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-10,Pamela Schnabel,$50,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-17,SEIU,"$5,000",Washington,DC,business,,A,470024,2025-11-27
+contribution,2025-10-05,James Simpson,$250,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-05,Christina Sizemore,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-06,Elton Smith,$250,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-15,Francine Spinelli,$300,Yorktown,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-15,Barbara Timko,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-15,Tomas Torres,"$2,500",Houston,TX,individual,,A,470024,2025-11-27
+contribution,2025-10-15,Tommy Turner,$100,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-07,Virginia House Democratic Caucus,"$125,000",Richmond,VA,party,,A,470024,2025-11-27
+contribution,2025-10-14,Virginia House Democratic Caucus,"$175,000",Richmond,VA,party,,A,470024,2025-11-27
+contribution,2025-10-15,Virginia House Democratic Caucus,"$140,000",Richmond,VA,party,,A,470024,2025-11-27
+contribution,2025-10-21,Virginia House Democratic Caucus,"$300,000",Richmond,VA,party,,A,470024,2025-11-27
+contribution,2025-10-23,Virginia House Democratic Caucus,"$125,000",Richmond,VA,party,,A,470024,2025-11-27
+contribution,2025-10-06,Eric Werner,$250,Norfolk,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-11,Forrest (Hap) White,$250,Williamsburg,VA,individual,,A,470024,2025-11-27
+contribution,2025-10-14,WinVA,"$3,000",Herndon,VA,business,,A,470024,2025-11-27
+contribution,2025-10-13,Leonard Yang,$100,Winchester,VA,individual,,A,470024,2025-11-27
 contribution,2025-10-24,Karol Moorman,$10,Williamsburg,VA,individual,,A,480893,2026-01-20
 contribution,2025-10-24,Inese Verzemnieks,$30,Westminster,CO,individual,,A,480893,2026-01-20
 contribution,2025-10-24,Donald Wells,$50,Charlottesville,VA,individual,,A,480893,2026-01-20
@@ -160,6 +680,61 @@ contribution,2026-07-04,David and Georgia Ann Tetrault,$25,Williamsburg,VA,indiv
 contribution,2026-07-05,Elizabeth Webster,$25,Hayes,VA,individual,,A,504103,2026-08-31
 contribution,2026-07-07,Christine Payne,$250,Williamsburg,VA,individual,,A,504103,2026-08-31
 contribution,2026-07-08,Steven Chisholm,$50,Williamsburg,VA,individual,,A,504103,2026-08-31
+in_kind,2024-12-29,David Dafashy,$350,Williamsburg,VA,individual,Food and  Beverages,B,442788,2025-06-11
+in_kind,2025-01-01,Historic Triangle Democrats,$750,Williamsburg,VA,party,Office Space,B,442826,2025-06-11
+in_kind,2025-02-01,Historic Triangle Democrats,$750,Williamsburg,VA,party,Office Space,B,442826,2025-06-11
+in_kind,2025-03-01,Historic Triangle Democrats,$750,Williamsburg,VA,party,Office Space,B,442826,2025-06-11
+in_kind,2025-04-01,Historic Triangle Democrats,$750,Williamsburg,VA,party,Office Space,B,442830,2025-06-11
+in_kind,2025-05-01,Historic Triangle Democrats,$750,Williamsburg,VA,party,Office Space,B,442830,2025-06-11
+in_kind,2025-06-01,Historic Triangle Democrats,$750,Williamsburg,VA,party,Office Space,B,442830,2025-06-11
+in_kind,2025-04-23,Lori Jacobson,$450,Williamsburg,VA,individual,Event food and drinks,B,442830,2025-06-11
+in_kind,2025-08-29,Democratic Party of Virginia,"$10,254.47",Richmond,VA,party,Mail Production / Postage,B,457495,2025-10-05
+in_kind,2025-08-31,Everytown for Gun Safety Action Fund,$173,New York,NY,pac,Video production staff time,B,457495,2025-10-05
+in_kind,2025-08-31,Everytown for Gun Safety Action Fund,$867.04,New York,NY,pac,Candidate support staff time,B,457495,2025-10-05
+in_kind,2025-07-01,Historic Triangle Democrats,$750,Williamsburg,VA,party,Office Space,B,457495,2025-10-05
+in_kind,2025-08-01,Historic Triangle Democrats,$750,Williamsburg,VA,party,Office Space,B,457495,2025-10-05
+in_kind,2025-07-31,Virginia House Democratic Caucus,"$22,500",Richmond,VA,party,Polling,B,457495,2025-10-05
+in_kind,2025-09-26,Democratic Party of Virginia,"$10,674.15",Richmond,VA,party,Mail Production / Postage,B,470023,2025-11-27
+in_kind,2025-09-26,Everytown for Gun Safety Action Fund,$195.57,New York,NY,pac,Staff time,B,470023,2025-11-27
+in_kind,2025-09-26,Everytown for Gun Safety Action Fund,$231.66,New York,NY,pac,list use phone minutes and staff time for voter outreach.,B,470023,2025-11-27
+in_kind,2025-09-19,Progressive Turnout Project,$250,Evanston,IL,business,Staff time,B,470023,2025-11-27
+in_kind,2025-09-12,Red Wine & Blue,$86.43,Cleveland,OH,business,Staff Time for Organizing and GOTV,B,470023,2025-11-27
+in_kind,2025-09-26,Red Wine & Blue,$12.72,Cleveland,OH,business,Staff Time for Organizing and GOTV,B,470023,2025-11-27
+in_kind,2025-09-30,UNITE HERE,$457.26,New York,NY,business,Salaries & benefits,B,470023,2025-11-27
+in_kind,2025-09-18,Virginia House Democratic Caucus,"$8,500",Richmond,VA,party,Polling,B,470023,2025-11-27
+in_kind,2025-09-26,Campaign for a Family Friendly Economy PAC,"$5,724.61",Washington,DC,pac,Mail,B,470023,2025-11-27
+in_kind,2025-09-26,Campaign for a Family Friendly Economy PAC,"$3,557.21",Washington,DC,pac,Postage,B,470023,2025-11-27
+in_kind,2025-09-26,Campaign for a Family Friendly Economy PAC,"$5,743.23",Washington,DC,pac,GOTV Buttons,B,470023,2025-11-27
+in_kind,2025-09-26,Campaign for a Family Friendly Economy PAC,"$3,667",Washington,DC,pac,Postage,B,470023,2025-11-27
+in_kind,2025-09-30,Campaign for a Family Friendly Economy PAC,"$6,408.96",Washington,DC,pac,Cost Comparatives,B,470023,2025-11-27
+in_kind,2025-09-30,Campaign for a Family Friendly Economy PAC,"$4,523.18",Washington,DC,pac,Postage,B,470023,2025-11-27
+in_kind,2025-09-25,Clean Virginia Fund,$25.58,Charlottesville,VA,pac,Meal,B,470023,2025-11-27
+in_kind,2025-09-02,Democratic Party of Virginia,"$12,225.08",Richmond,VA,party,Mail Production / Postage,B,470023,2025-11-27
+in_kind,2025-09-02,Democratic Party of Virginia,"$10,353.99",Richmond,VA,party,Mail Production / Postage,B,470023,2025-11-27
+in_kind,2025-09-11,Democratic Party of Virginia,"$12,755.39",Richmond,VA,party,Mail Production / Postage,B,470023,2025-11-27
+in_kind,2025-09-15,Democratic Party of Virginia,"$9,579.96",Richmond,VA,party,Mail production / postage,B,470023,2025-11-27
+in_kind,2025-09-15,Democratic Party of Virginia,"$10,674.15",Richmond,VA,party,Mail production / postage,B,470023,2025-11-27
+in_kind,2025-09-19,Democratic Party of Virginia,"$10,674.15",Richmond,VA,party,Mail production / postage,B,470023,2025-11-27
+in_kind,2025-09-25,Democratic Party of Virginia,"$8,855.61",Richmond,VA,party,Mail Production / Postage,B,470023,2025-11-27
+in_kind,2025-10-03,Campaign for a Family Friendly Economy PAC,"$8,068.50",Washington,DC,pac,Child Care Comparative,B,470024,2025-11-27
+in_kind,2025-10-03,Campaign for a Family Friendly Economy PAC,"$5,354.53",Washington,DC,pac,Postage,B,470024,2025-11-27
+in_kind,2025-10-20,Campaign for a Family Friendly Economy PAC,"$4,802",Washington,DC,pac,Production,B,470024,2025-11-27
+in_kind,2025-10-20,Campaign for a Family Friendly Economy PAC,"$2,825.06",Washington,DC,pac,Postage,B,470024,2025-11-27
+in_kind,2025-10-02,Democratic Party of Virginia,"$12,833.73",Richmond,VA,party,Mail production / postage,B,470024,2025-11-27
+in_kind,2025-10-07,Democratic Party of Virginia,$549.41,Richmond,VA,party,Printing,B,470024,2025-11-27
+in_kind,2025-10-10,Democratic Party of Virginia,"$9,609.37",Richmond,VA,party,Mail Production / Postage,B,470024,2025-11-27
+in_kind,2025-10-15,Democratic Party of Virginia,"$5,958.01",Richmond,VA,party,Mail Production / Postage,B,470024,2025-11-27
+in_kind,2025-10-15,Democratic Party of Virginia,"$11,960.84",Richmond,VA,party,Mail Production / Postage,B,470024,2025-11-27
+in_kind,2025-10-15,Democratic Party of Virginia,"$10,340.10",Richmond,VA,party,Mail Production / Postage,B,470024,2025-11-27
+in_kind,2025-10-23,Everytown for Gun Safety Action Fund,"$50,000",New York,NY,pac,digital media ad buys and production,B,470024,2025-11-27
+in_kind,2025-10-23,Everytown for Gun Safety Action Fund,$677.51,New York,NY,pac,staff time related to digital video production.,B,470024,2025-11-27
+in_kind,2025-10-23,Everytown for Gun Safety Action Fund,$211.87,New York,NY,pac,staff time for candidate support.,B,470024,2025-11-27
+in_kind,2025-10-15,Planned Parenthood Virginia PAC,"$11,814.52",Richmond,VA,pac,Mail,B,470024,2025-11-27
+in_kind,2025-10-03,Progressive Turnout Project,"$1,000",Evanston,IL,business,Fellows / staff time,B,470024,2025-11-27
+in_kind,2025-10-17,Progressive Turnout Project,"$1,000",Evanston,IL,business,staff time,B,470024,2025-11-27
+in_kind,2025-10-10,Red Wine & Blue,$6.50,Cleveland,OH,business,Staff Time for Organizing and GOTV,B,470024,2025-11-27
+in_kind,2025-10-07,Virginia Chapter Sierra Club AC,"$7,500",Richmond,VA,business,Digital advertising,B,470024,2025-11-27
+in_kind,2025-10-23,Virginians for the Commonwealth,"$6,250",Richmond,VA,business,Field and Canvassing Services,B,470024,2025-11-27
 in_kind,2025-10-24,Planned Parenthood Virginia PAC,"$5,616",Richmond,VA,pac,Tele-Town Hall Program,B,480893,2026-01-20
 in_kind,2025-10-24,Progress Now,"$8,000",Earlysville,VA,pac,digital advertisements,B,480893,2026-01-20
 in_kind,2025-10-24,Red Wine & Blue,$8.03,Cleveland,OH,business,Staff Time for Organizing and GOTV,B,480893,2026-01-20
@@ -179,6 +754,337 @@ in_kind,2025-11-12,Democratic Party of Virginia,$219.61,Richmond,VA,party,Printi
 in_kind,2025-12-05,New Virginia Majority,$893.04,Alexandria,VA,business,Digital outreach,B,480896,2026-01-20
 in_kind,2026-06-09,Clean Virginia Fund,"$2,500",Charlottesville,VA,pac,Research,B,495828,2026-07-14
 in_kind,2026-06-25,Clean Virginia Fund,"$15,000",Charlottesville,VA,pac,Research,B,495828,2026-07-14
+other_receipt,2025-05-06,York County Treasurer,$352.80,Yorktown,VA,business,Primary Filing Fee,C,442830,2025-06-11
+expenditure,2024-01-02,Politimetrics,"$2,691.58",Williamsburg,VA,business,Campaign Services,D,410537,2024-07-15
+expenditure,2024-02-15,Politimetrics,"$1,000",Williamsburg,VA,business,Campaign Services,D,410537,2024-07-15
+expenditure,2024-02-22,Politimetrics,$500,Williamsburg,VA,business,Campaign Services,D,410537,2024-07-15
+expenditure,2024-03-08,Politimetrics,$450,Williamsburg,VA,business,Campaign Services,D,410537,2024-07-15
+expenditure,2024-03-11,Politimetrics,$40,Williamsburg,VA,business,Campaign Services,D,410537,2024-07-15
+expenditure,2024-10-01,PolitiMetrics,"$5,321.92",Williamsburg,VA,business,Campaign Services,D,442788,2025-06-11
+expenditure,2024-12-08,ActBlue Technical Services,$0.99,Somerville,MA,business,Credit Card Fees,D,442788,2025-06-11
+expenditure,2024-12-22,ActBlue Technical Services,$5.94,Somerville,MA,business,Credit Card Fees,D,442788,2025-06-11
+expenditure,2024-12-29,ActBlue Technical Services,$117.97,Somerville,MA,business,Credit Card Fees,D,442788,2025-06-11
+expenditure,2024-12-31,ActBlue Technical Services,$0.40,Somerville,MA,business,Credit Card Fees,D,442788,2025-06-11
+expenditure,2025-01-03,Democratic Party of Virginia,$942.06,Richmond,VA,party,VoteBuilder,D,442826,2025-06-11
+expenditure,2025-01-03,NGP,$175,Washington,DC,business,NGP,D,442826,2025-06-11
+expenditure,2025-01-03,Wells Fargo Bank,$25,Williamsburg,VA,business,Banking Fee,D,442826,2025-06-11
+expenditure,2025-01-06,Google LLC,$11.29,Mountain View,CA,business,Tech Services,D,442826,2025-06-11
+expenditure,2025-01-12,ActBlue Technical Services,$9.88,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-01-16,Vultr,$300,West Palm Beach,FL,business,Website Hosting and Services,D,442826,2025-06-11
+expenditure,2025-01-19,ActBlue Technical Services,$40.49,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-01-26,ActBlue Technical Services,$14.82,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-02-02,ActBlue Technical Services,$0.99,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-02-03,Google LLC,$12.96,Mountain View,CA,business,Tech Services,D,442826,2025-06-11
+expenditure,2025-02-07,NGP,$175,Washington,DC,business,NGP,D,442826,2025-06-11
+expenditure,2025-02-09,ActBlue Technical Services,$3.95,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-02-20,PolitiMetrics,"$1,000",Williamsburg,VA,business,Campaign Services,D,442826,2025-06-11
+expenditure,2025-02-23,ActBlue Technical Services,$4.94,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-03-02,ActBlue Technical Services,$10.89,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-03-03,Google LLC,$12.96,Mountain View,CA,business,Tech Services,D,442826,2025-06-11
+expenditure,2025-03-05,NGP,$175,Washington,DC,business,NGP,D,442826,2025-06-11
+expenditure,2025-03-09,ActBlue Technical Services,$3.95,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-03-16,ActBlue Technical Services,$14.82,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-03-23,ActBlue Technical Services,$7.32,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-03-25,York County Treasurer,$352.80,Yorktown,VA,business,Primary Filing Fee,D,442826,2025-06-11
+expenditure,2025-03-30,ActBlue Technical Services,$127.21,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-03-31,ActBlue Technical Services,$95.91,Somerville,MA,business,Credit Card Fees,D,442826,2025-06-11
+expenditure,2025-04-02,Google LLC,$12.96,Mountain View,CA,business,Tech Services,D,442830,2025-06-11
+expenditure,2025-04-03,NGP,$175,Washington,DC,business,NGP,D,442830,2025-06-11
+expenditure,2025-04-06,ActBlue Technical Services,$29.75,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-04-13,ActBlue Technical Services,$23.53,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-04-20,ActBlue Technical Services,$5.68,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-04-21,Caleb William Fulford,$640,Yorktown,VA,individual,Campaign Staff,D,442830,2025-06-11
+expenditure,2025-04-22,PolitiMetrics,"$2,000",Williamsburg,VA,business,Campaign Services,D,442830,2025-06-11
+expenditure,2025-04-23,U.S. Department of the Treasury,$52.80,Austin,TX,business,Federal Payroll Taxes,D,442830,2025-06-11
+expenditure,2025-04-27,ActBlue Technical Services,$114.82,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-04-30,Amazon,$85.59,Seattle,WA,business,Computer Equipment,D,442830,2025-06-11
+expenditure,2025-04-30,Amazon,$117.69,Seattle,WA,business,Office Equipment,D,442830,2025-06-11
+expenditure,2025-04-30,CAVA,$38.79,Williamsburg,VA,business,Campaign Lunch,D,442830,2025-06-11
+expenditure,2025-04-30,Democracy Engine LLC,$18.63,Washington,DC,business,Transaction Fees,D,442830,2025-06-11
+expenditure,2025-05-01,Amazon,$37.44,Seattle,WA,business,Office Supplies,D,442830,2025-06-11
+expenditure,2025-05-02,Caleb William Fulford,"$2,000",Yorktown,VA,individual,Campaign Staff,D,442830,2025-06-11
+expenditure,2025-05-02,Google LLC,$18.80,Mountain View,CA,business,Tech Services,D,442830,2025-06-11
+expenditure,2025-05-02,Google LLC,$1.43,Mountain View,CA,business,Tech Services,D,442830,2025-06-11
+expenditure,2025-05-02,Relay,$3,New York,NY,business,Transfer Fee,D,442830,2025-06-11
+expenditure,2025-05-04,ActBlue Technical Services,$233.25,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-05-05,"Buffer, Inc",$22.04,San Francisco,CA,business,Social Media Tech,D,442830,2025-06-11
+expenditure,2025-05-05,"Buffer, Inc",$36,San Francisco,CA,business,Social Media Tech,D,442830,2025-06-11
+expenditure,2025-05-05,"Numero, Inc.",$990,Costa Mesa,CA,business,Tech Subscription,D,442830,2025-06-11
+expenditure,2025-05-06,PolitiMetrics,"$1,000",Williamsburg,VA,business,Campaign Services,D,442830,2025-06-11
+expenditure,2025-05-07,Best Buy,$181.89,Williamsburg,VA,business,Audio Equipment,D,442830,2025-06-11
+expenditure,2025-05-07,Democracy Engine LLC,$7.98,Washington,DC,business,Transaction Fees,D,442830,2025-06-11
+expenditure,2025-05-07,U.S. Department of the Treasury,$165,Austin,TX,business,Federal Payroll Taxes,D,442830,2025-06-11
+expenditure,2025-05-08,"Buffer, Inc",$9.84,San Francisco,CA,business,Social Media Tech,D,442830,2025-06-11
+expenditure,2025-05-10,Quicklution,$159.98,Mellieha,MA,business,Softward,D,442830,2025-06-11
+expenditure,2025-05-11,ActBlue Technical Services,$188.30,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-05-14,Democracy Engine LLC,$35.85,Washington,DC,business,Transaction Fees,D,442830,2025-06-11
+expenditure,2025-05-15,Caleb William Fulford,"$2,000",Yorktown,VA,individual,Campaign Staff,D,442830,2025-06-11
+expenditure,2025-05-15,Relay,$3,New York,NY,business,Transfer Fee,D,442830,2025-06-11
+expenditure,2025-05-15,Shell,$69.20,Highland Springs,VA,business,Fuel,D,442830,2025-06-11
+expenditure,2025-05-16,Relay,$30,New York,NY,business,Subscription Fee,D,442830,2025-06-11
+expenditure,2025-05-18,ActBlue Technical Services,$67.12,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-05-21,Democracy Engine LLC,$7.15,Washington,DC,business,Transaction Fees,D,442830,2025-06-11
+expenditure,2025-05-22,U.S. Department of the Treasury,$165,Austin,TX,business,Federal Payroll Taxes,D,442830,2025-06-11
+expenditure,2025-05-25,ActBlue Technical Services,$83.14,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-05-28,Democracy Engine LLC,$2.27,Washington,DC,business,Transaction Fees,D,442830,2025-06-11
+expenditure,2025-05-29,U.S. Department of the Treasury,$50,Austin,TX,business,Federal Payroll Taxes,D,442830,2025-06-11
+expenditure,2025-06-01,ActBlue Technical Services,$148.06,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-06-01,Kroger Fuel Center,$60,Grafton,VA,business,Fuel,D,442830,2025-06-11
+expenditure,2025-06-02,"Block, Inc",$41,San Francisco,CA,business,Payroll Service,D,442830,2025-06-11
+expenditure,2025-06-02,"Buffer, Inc",$72,San Francisco,CA,business,Social Media Tech,D,442830,2025-06-11
+expenditure,2025-06-02,Google LLC,$25.08,Mountain View,CA,business,Tech Services,D,442830,2025-06-11
+expenditure,2025-06-02,Google LLC,$12.78,Mountain View,CA,business,Tech Services,D,442830,2025-06-11
+expenditure,2025-06-02,Virginia Department of Taxation,$6.94,Richmond,VA,business,VA Payroll Taxes,D,442830,2025-06-11
+expenditure,2025-06-04,Democracy Engine LLC,$199.15,Washington,DC,business,Transaction Fees,D,442830,2025-06-11
+expenditure,2025-06-04,"Numero, Inc.",$675,Costa Mesa,CA,business,Tech Subscription,D,442830,2025-06-11
+expenditure,2025-06-05,ActBlue Technical Services,$46.86,Somerville,MA,business,Credit Card Fees,D,442830,2025-06-11
+expenditure,2025-06-05,"Campaign Verify, Inc",$95,Washington,DC,business,Campaign Verification,D,442830,2025-06-11
+expenditure,2025-06-06,Caleb William Fulford,"$2,515.28",Yorktown,VA,individual,Campaign Staff,D,447541,2025-07-14
+expenditure,2025-06-06,Caleb William Fulford,"$2,000",Yorktown,VA,individual,Campaign Staff,D,447541,2025-07-14
+expenditure,2025-06-06,PolitiMetrics,"$2,000",Williamsburg,VA,business,Campaign Services,D,447541,2025-07-14
+expenditure,2025-06-06,Relay,$3,New York,NY,business,Transfer Fee,D,447541,2025-07-14
+expenditure,2025-06-08,ActBlue Technical Services,$61.42,Somerville,MA,business,Credit Card Fees,D,447541,2025-07-14
+expenditure,2025-06-11,Democracy Engine LLC,$5.27,Washington,DC,business,Transaction Fees,D,447541,2025-07-14
+expenditure,2025-06-14,L2,"$5,088.52",Plainsboro,NJ,business,Analytics,D,447541,2025-07-14
+expenditure,2025-06-15,ActBlue Technical Services,$123.56,Somerville,MA,business,Credit Card Fees,D,447541,2025-07-14
+expenditure,2025-06-15,Democratic Party of Virginia,$500,Richmond,VA,party,Blue Gala 2025,D,447541,2025-07-14
+expenditure,2025-06-16,Marathon,$63.41,Chesapeake,VA,business,Fuel,D,447541,2025-07-14
+expenditure,2025-06-16,Relay,$3,New York,NY,business,Transfer Fee,D,447541,2025-07-14
+expenditure,2025-06-16,Relay,$30,New York,NY,business,Subscription Fee,D,447541,2025-07-14
+expenditure,2025-06-18,CAVA,$42.62,Williamsburg,VA,business,Campaign Lunch,D,447541,2025-07-14
+expenditure,2025-06-18,Democracy Engine LLC,$3.29,Washington,DC,business,Transaction Fees,D,447541,2025-07-14
+expenditure,2025-06-21,Shell,$71.03,Yorktown,VA,business,Fuel,D,447541,2025-07-14
+expenditure,2025-06-22,ActBlue Technical Services,$35.70,Somerville,MA,business,Credit Card Fees,D,447541,2025-07-14
+expenditure,2025-06-25,Democracy Engine LLC,$2.37,Washington,DC,business,Transaction Fees,D,447541,2025-07-14
+expenditure,2025-06-25,"Ratliff Enterprises, Inc",$379.95,Glendale,AZ,business,Buttons,D,447541,2025-07-14
+expenditure,2025-06-27,Amazon,$261.15,Seattle,WA,business,Office Equipment,D,447541,2025-07-14
+expenditure,2025-06-29,ActBlue Technical Services,$141.96,Somerville,MA,business,Credit Card Fees,D,447541,2025-07-14
+expenditure,2025-06-30,7-Eleven,$60,Williamsburg,VA,business,Fuel,D,447541,2025-07-14
+expenditure,2025-06-30,ActBlue Technical Services,$76.45,Somerville,MA,business,Credit Card Fees,D,447541,2025-07-14
+expenditure,2025-06-30,Democracy Engine LLC,$12.70,Washington,DC,business,Transaction Fees,D,447541,2025-07-14
+expenditure,2025-07-01,Google LLC,$99,Mountain View,CA,business,Google Cloud,D,457495,2025-10-05
+expenditure,2025-07-01,"Numero, Inc.",$675,Costa Mesa,CA,business,Tech Subscription,D,457495,2025-10-05
+expenditure,2025-07-01,Relay,$3,New York,NY,business,Transfer Fee,D,457495,2025-10-05
+expenditure,2025-07-02,7-Eleven,$68.34,Williamsburg,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-07-02,"Block, Inc",$41,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-07-02,"Block, Inc",$81.68,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-07-02,"Buffer, Inc",$72,San Francisco,CA,business,Social Media Tech,D,457495,2025-10-05
+expenditure,2025-07-02,Caleb William Fulford,"$1,610.32",Yorktown,VA,individual,Campaign Staff,D,457495,2025-10-05
+expenditure,2025-07-02,Google LLC,$32.84,Mountain View,CA,business,Tech Services,D,457495,2025-10-05
+expenditure,2025-07-02,Google LLC,$36.37,Mountain View,CA,business,Tech Services,D,457495,2025-10-05
+expenditure,2025-07-03,U.S. Department of the Treasury,$461,Austin,TX,business,Federal payroll taxes,D,457495,2025-10-05
+expenditure,2025-07-06,ActBlue Technical Services,$80.36,Somerville,MA,business,Credit Card Fees,D,457495,2025-10-05
+expenditure,2025-07-09,"Block, Inc",$15.27,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-07-09,Democracy Engine LLC,$1.37,Washington,DC,business,Transaction Fees,D,457495,2025-10-05
+expenditure,2025-07-12,biBerk Business Insurance,$137.70,Omaha,NE,business,Insurance,D,457495,2025-10-05
+expenditure,2025-07-13,ActBlue Technical Services,$116.23,Somerville,MA,business,Credit Card Fees,D,457495,2025-10-05
+expenditure,2025-07-14,PolitiMetrics,"$2,000",Williamsburg,VA,business,Campaign Services,D,457495,2025-10-05
+expenditure,2025-07-15,7-Eleven,$66.10,Williamsburg,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-07-15,biBerk Business Insurance,$86.70,Omaha,NE,business,Insurance,D,457495,2025-10-05
+expenditure,2025-07-16,Democracy Engine LLC,$1.48,Washington,DC,business,Transaction Fees,D,457495,2025-10-05
+expenditure,2025-07-16,Relay,$30,New York,NY,business,Bank fee,D,457495,2025-10-05
+expenditure,2025-07-18,Caleb William Fulford,"$1,610.92",Yorktown,VA,individual,Payroll,D,457495,2025-10-05
+expenditure,2025-07-18,Relay,$3,New York,NY,business,Bank fee,D,457495,2025-10-05
+expenditure,2025-07-20,7-Eleven,$68.21,Williamsburg,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-07-20,ActBlue Technical Services,$111.33,Somerville,MA,business,Credit Card Fees,D,457495,2025-10-05
+expenditure,2025-07-21,"Block, Inc",$81.08,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-07-21,Lucas Laing,"$2,158.50",Northampton,MA,individual,Payroll,D,457495,2025-10-05
+expenditure,2025-07-21,U.S. Department of the Treasury,"$1,349",Austin,TX,business,Federal payroll taxes,D,457495,2025-10-05
+expenditure,2025-07-23,Democracy Engine LLC,$1.66,Washington,DC,business,Transaction Fees,D,457495,2025-10-05
+expenditure,2025-07-25,"Block, Inc",$99.60,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-07-25,"Block, Inc",$14.16,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-07-26,Kroger Fuel Center,$30.42,Grafton,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-07-27,ActBlue Technical Services,$158.55,Somerville,MA,business,Credit Card Fees,D,457495,2025-10-05
+expenditure,2025-07-29,7-Eleven,$68.95,Williamsburg,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-07-29,"Buffer, Inc",$1.75,San Francisco,CA,business,Social Media Tech,D,457495,2025-10-05
+expenditure,2025-07-29,Williamsburg Regional Library,$45,Williamsburg,VA,business,Event space,D,457495,2025-10-05
+expenditure,2025-07-30,Democracy Engine LLC,$0.25,Washington,DC,business,Transaction fees,D,457495,2025-10-05
+expenditure,2025-08-01,Canva,$30,Austin,TX,business,Design software,D,457495,2025-10-05
+expenditure,2025-08-01,"Numero, Inc.",$675,Costa Mesa,CA,business,Tech subscription,D,457495,2025-10-05
+expenditure,2025-08-02,Canva,$40,Austin,TX,business,Design software,D,457495,2025-10-05
+expenditure,2025-08-03,ActBlue Technical Services,$156.51,Somerville,MA,business,Credit Card Fees,D,457495,2025-10-05
+expenditure,2025-08-04,"Block, Inc",$47,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-08-04,"Buffer, Inc",$84,San Francisco,CA,business,Social media tech,D,457495,2025-10-05
+expenditure,2025-08-04,Flywire Global Corp,$109.10,Boston,MA,business,Digital marketing,D,457495,2025-10-05
+expenditure,2025-08-04,Google LLC,$42.64,Mountain View,CA,business,Tech services,D,457495,2025-10-05
+expenditure,2025-08-04,Google LLC,$57.97,Mountain View,CA,business,Tech services,D,457495,2025-10-05
+expenditure,2025-08-05,"Gusto, Inc","$2,470.78",San Francisco,CA,business,Payroll taxes,D,457495,2025-10-05
+expenditure,2025-08-05,"Gusto, Inc","$6,050.34",San Francisco,CA,business,Payroll,D,457495,2025-10-05
+expenditure,2025-08-06,7-Eleven,$69.59,Williamsburg,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-08-06,Bottoms Up Pizza,$250.38,Richmond,VA,business,Event food,D,457495,2025-10-05
+expenditure,2025-08-06,PolitiMetrics,"$2,000",Williamsburg,VA,business,Campaign Services,D,457495,2025-10-05
+expenditure,2025-08-07,ActBlue Technical Services,$167.25,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-08,Relay,$3,New York,NY,business,Bank fee,D,457495,2025-10-05
+expenditure,2025-08-09,Marathon,$64.84,Chesapeake,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-08-09,"Sling, LLC",$8.17,Brooklyn,NY,business,Campaign tech,D,457495,2025-10-05
+expenditure,2025-08-10,ActBlue Technical Services,$32.03,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-10,Zapier,$29.99,San Francisco,CA,business,Campaign software,D,457495,2025-10-05
+expenditure,2025-08-11,ActBlue Technical Services,$14.85,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-11,"FH Strategies, LLC","$5,500",Albany,NY,business,Fundraising Consulting,D,457495,2025-10-05
+expenditure,2025-08-12,ActBlue Technical Services,$24.11,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-12,Adobe,$29.99,San Jose,CA,business,Campaign software,D,457495,2025-10-05
+expenditure,2025-08-12,"Ratliff Enterprises, Inc",$394.99,Glendale,AZ,business,Buttons,D,457495,2025-10-05
+expenditure,2025-08-13,ActBlue Technical Services,$3.37,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-14,ActBlue Technical Services,$15.81,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-15,"Gusto, Inc","$6,050.33",San Francisco,CA,business,Payroll,D,457495,2025-10-05
+expenditure,2025-08-15,"Gusto, Inc","$2,468.82",San Francisco,CA,business,Payroll taxes,D,457495,2025-10-05
+expenditure,2025-08-15,Kroger Fuel Center,$68,Grafton,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-08-16,Relay,$30,New York,NY,business,Subscription fee,D,457495,2025-10-05
+expenditure,2025-08-17,ActBlue Technical Services,$81.76,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-18,ActBlue Technical Services,$5.34,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-18,Vultr,$200,West Palm Beach,FL,business,Website hosting & services,D,457495,2025-10-05
+expenditure,2025-08-19,ActBlue Technical Services,$32.82,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-20,ActBlue Technical Services,$11.86,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-20,Democracy Engine LLC,$0.52,Washington,DC,business,Transaction fees,D,457495,2025-10-05
+expenditure,2025-08-20,Relay,$3,New York,NY,business,Bank fee,D,457495,2025-10-05
+expenditure,2025-08-20,Sena Kozar Strategies,"$14,000",Washington,DC,business,Media Production,D,457495,2025-10-05
+expenditure,2025-08-20,Sena Kozar Strategies,$187.40,Washington,DC,business,Retreat Expenses,D,457495,2025-10-05
+expenditure,2025-08-21,ActBlue Technical Services,$4.94,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-21,"Block, Inc",$87.73,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-08-21,Dover Strategy Group,"$5,945.37",Dunedin,FL,business,Digital Advertising,D,457495,2025-10-05
+expenditure,2025-08-21,Relay,$5,New York,NY,business,Bank fee,D,457495,2025-10-05
+expenditure,2025-08-21,Wells Fargo Bank,$25,Williamsburg,VA,business,Wire fee,D,457495,2025-10-05
+expenditure,2025-08-23,Amazon,$121.50,Seattle,WA,business,Office supplies,D,457495,2025-10-05
+expenditure,2025-08-23,Relay,$3,New York,NY,business,Bank fee,D,457495,2025-10-05
+expenditure,2025-08-24,ActBlue Technical Services,$83.78,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-24,Walmart,$170.72,Williamsburg,VA,business,Office supplies,D,457495,2025-10-05
+expenditure,2025-08-25,ActBlue Technical Services,$22.13,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-25,Amazon,$21.38,Seattle,WA,business,Office supplies,D,457495,2025-10-05
+expenditure,2025-08-25,Relay,$3,New York,NY,business,Bank fee,D,457495,2025-10-05
+expenditure,2025-08-25,Sena Kozar Strategies,"$6,997.02",Washington,DC,business,Media Production,D,457495,2025-10-05
+expenditure,2025-08-25,Virginia House Democratic Caucus,"$15,300",Richmond,VA,party,Campaign services,D,457495,2025-10-05
+expenditure,2025-08-26,ActBlue Technical Services,$27.65,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-26,"Block, Inc",$35,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-08-26,The Home Depot,$25.67,Williamsburg,VA,business,Office supplies,D,457495,2025-10-05
+expenditure,2025-08-26,Walmart,$32.33,Williamsburg,VA,business,Office supplies,D,457495,2025-10-05
+expenditure,2025-08-26,Wawa,$13.29,Williamsburg,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-08-26,Wawa,$13.29,Williamsburg,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-08-27,ActBlue Technical Services,$239.97,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-27,Chick-fil-a,$113.22,Williamsburg,VA,business,Event food,D,457495,2025-10-05
+expenditure,2025-08-27,Sal's by Victor,$369.60,Williamsburg,VA,business,Event food,D,457495,2025-10-05
+expenditure,2025-08-27,Starbucks,$163.73,Williamsburg,VA,business,Event food & beverage,D,457495,2025-10-05
+expenditure,2025-08-28,ActBlue Technical Services,$37.94,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-08-28,Relay,$5,New York,NY,business,Bank fee,D,457495,2025-10-05
+expenditure,2025-08-28,Virginia House Democratic Caucus,"$10,300",Richmond,VA,party,Campaign services,D,457495,2025-10-05
+expenditure,2025-08-29,"Block, Inc",$87.73,San Francisco,CA,business,Payroll Service,D,457495,2025-10-05
+expenditure,2025-08-29,"Gusto, Inc","$2,334.28",San Francisco,CA,business,Payroll taxes,D,457495,2025-10-05
+expenditure,2025-08-29,"Gusto, Inc","$6,050.34",San Francisco,CA,business,Payroll,D,457495,2025-10-05
+expenditure,2025-08-29,Relay,$5,New York,NY,business,Bank fee,D,457495,2025-10-05
+expenditure,2025-08-29,Virginia House Democratic Caucus,"$12,300",Richmond,VA,party,Campaign services,D,457495,2025-10-05
+expenditure,2025-08-30,Lightfoot Pit Stop,$46,Williamsburg,VA,business,Fuel,D,457495,2025-10-05
+expenditure,2025-08-30,Virginia Department of Elections,$3.26,Richmond,VA,business,Fee,D,457495,2025-10-05
+expenditure,2025-08-30,Virginia Department of Elections,$142,Richmond,VA,business,Filing fee,D,457495,2025-10-05
+expenditure,2025-08-31,ActBlue Technical Services,$58.20,Somerville,MA,business,Credit card fee,D,457495,2025-10-05
+expenditure,2025-09-01,ActBlue Technical Services,$58.51,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-01,Canva,$40.40,Austin,TX,business,Design software,D,470023,2025-11-27
+expenditure,2025-09-01,Hampton Democratic Commitee,$250,Hampton,VA,business,Event ticket,D,470023,2025-11-27
+expenditure,2025-09-01,Vultr,$204,West Palm Beach,FL,business,Cloud services,D,470023,2025-11-27
+expenditure,2025-09-02,ActBlue Technical Services,$85.08,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-02,"Buffer, Inc",$84,San Francisco,CA,business,Social media tech,D,470023,2025-11-27
+expenditure,2025-09-02,Google LLC,$63.20,Mountain View,CA,business,Tech services,D,470023,2025-11-27
+expenditure,2025-09-02,Google LLC,$45.36,Mountain View,CA,business,Tech services,D,470023,2025-11-27
+expenditure,2025-09-02,"Numero, Inc.",$675,Costa Mesa,CA,business,Tech subscription,D,470023,2025-11-27
+expenditure,2025-09-03,ActBlue Technical Services,$16.24,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-03,Flywire Global Corp,$211.56,Boston,MA,business,Digital marketing,D,470023,2025-11-27
+expenditure,2025-09-03,PolitiMetrics,"$2,000",Williamsburg,VA,business,Campaign Services,D,470023,2025-11-27
+expenditure,2025-09-03,Wells Fargo Bank,$25,Williamsburg,VA,business,Wire fee,D,470023,2025-11-27
+expenditure,2025-09-04,ActBlue Technical Services,$27.90,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-04,"Gusto, Inc",$91,San Francisco,CA,business,Payroll fee,D,470023,2025-11-27
+expenditure,2025-09-04,PolitiMetrics,"$10,000",Williamsburg,VA,business,Campaign Services,D,470023,2025-11-27
+expenditure,2025-09-04,Sena Kozar Strategies,"$12,396.08",Washington,DC,business,TV production & advertising,D,470023,2025-11-27
+expenditure,2025-09-05,Relay,$5,New York,NY,business,Bank fee,D,470023,2025-11-27
+expenditure,2025-09-06,Kroger Fuel Center,$70.96,Grafton,VA,business,Fuel,D,470023,2025-11-27
+expenditure,2025-09-07,ActBlue Technical Services,$69.93,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-08,ActBlue Technical Services,$9.75,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-09,ActBlue Technical Services,$6.93,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-10,ActBlue Technical Services,$427.77,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-11,ActBlue Technical Services,$12.09,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-14,ActBlue Technical Services,$50.74,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-15,ActBlue Technical Services,$98.21,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-15,Dover Strategy Group,"$4,412",Dunedin,FL,business,Digital advertising,D,470023,2025-11-27
+expenditure,2025-09-16,ActBlue Technical Services,$44.02,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-16,"Gusto, Inc","$2,176.39",San Francisco,CA,business,Payroll tax,D,470023,2025-11-27
+expenditure,2025-09-16,"Gusto, Inc","$6,118.14",San Francisco,CA,business,Payroll,D,470023,2025-11-27
+expenditure,2025-09-17,ActBlue Technical Services,$19.36,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-17,Democracy Engine LLC,$0.24,Washington,DC,business,credit card fees,D,470023,2025-11-27
+expenditure,2025-09-17,"FH Strategies, LLC","$5,500",Albany,NY,business,Fundraising consulting,D,470023,2025-11-27
+expenditure,2025-09-17,Relay,$30,New York,NY,business,Bank fee,D,470023,2025-11-27
+expenditure,2025-09-18,ActBlue Technical Services,$22.98,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-18,GMMB,"$9,759",Washington,DC,business,Media buying,D,470023,2025-11-27
+expenditure,2025-09-18,Wells Fargo Bank,$26,Williamsburg,VA,business,Wire fee,D,470023,2025-11-27
+expenditure,2025-09-21,ActBlue Technical Services,$110.05,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-22,ActBlue Technical Services,$124.36,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-22,Economy Printing,"$2,064.68",Portsmouth,VA,business,Printing,D,470023,2025-11-27
+expenditure,2025-09-23,ActBlue Technical Services,$36.88,Somerville,MA,business,Credit card fees,D,470023,2025-11-27
+expenditure,2025-09-23,Virginia House Democratic Caucus,"$54,200",Richmond,VA,party,Contribution,D,470023,2025-11-27
+expenditure,2025-09-23,Wells Fargo Bank,$40,Williamsburg,VA,business,Wire fee,D,470023,2025-11-27
+expenditure,2025-09-24,ActBlue Technical Services,$61.21,Somerville,MA,business,Credit card fee,D,470023,2025-11-27
+expenditure,2025-09-24,Dover Strategy Group,"$16,475",Dunedin,FL,business,Digital advertising,D,470023,2025-11-27
+expenditure,2025-09-24,Virginia House Democratic Caucus,"$19,600",Richmond,VA,party,Contribution,D,470023,2025-11-27
+expenditure,2025-09-24,Wells Fargo Bank,$25,Williamsburg,VA,business,Wire fee,D,470023,2025-11-27
+expenditure,2025-09-25,ActBlue Technical Services,$47.78,Somerville,MA,business,Credit Card Fee,D,470023,2025-11-27
+expenditure,2025-09-25,GMMB,"$29,856",Washington,DC,business,Media buying,D,470023,2025-11-27
+expenditure,2025-09-25,Wells Fargo Bank,$40,Williamsburg,VA,business,Wire fee,D,470023,2025-11-27
+expenditure,2025-09-26,GMMB,"$67,935",Washington,DC,business,Media buying,D,470023,2025-11-27
+expenditure,2025-09-26,Wells Fargo Bank,$40,Williamsburg,VA,business,Wire fee,D,470023,2025-11-27
+expenditure,2025-09-28,ActBlue Technical Services,$290.12,Somerville,MA,business,Credit Card Fee,D,470023,2025-11-27
+expenditure,2025-09-29,ActBlue Technical Services,$40.59,Somerville,MA,business,Credit Card Fee,D,470023,2025-11-27
+expenditure,2025-09-29,Dover Strategy Group,"$11,237",Dunedin,FL,business,Digital advertising,D,470023,2025-11-27
+expenditure,2025-09-30,ActBlue Technical Services,$280.15,Somerville,MA,business,Credit Card Fee,D,470023,2025-11-27
+expenditure,2025-10-01,ActBlue Technical Services,$23.22,Somerville,MA,business,Credit Card Fee,D,470024,2025-11-27
+expenditure,2025-10-01,Dover Strategy Group,"$11,237",Dunedin,FL,business,Digital advertising,D,470024,2025-11-27
+expenditure,2025-10-01,"Gusto, Inc","$2,488.44",San Francisco,CA,business,Payroll taxes,D,470024,2025-11-27
+expenditure,2025-10-01,"Gusto, Inc","$6,778.06",San Francisco,CA,business,Payroll,D,470024,2025-11-27
+expenditure,2025-10-01,Virginia House Democratic Caucus,"$12,900",Richmond,VA,party,Contribution,D,470024,2025-11-27
+expenditure,2025-10-01,Wells Fargo Bank,$25,Williamsburg,VA,business,Wire fee,D,470024,2025-11-27
+expenditure,2025-10-02,ActBlue Technical Services,$24.32,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-02,QR.IO,$35,Beaverton,OR,business,Tech services,D,470024,2025-11-27
+expenditure,2025-10-03,GMMB,"$74,559",Washington,DC,business,Media buying,D,470024,2025-11-27
+expenditure,2025-10-03,"Gusto, Inc",$91,San Francisco,CA,business,Payroll fee,D,470024,2025-11-27
+expenditure,2025-10-03,Virginia House Democratic Caucus,"$10,400",Richmond,VA,party,Contribution,D,470024,2025-11-27
+expenditure,2025-10-03,Wells Fargo Bank,$65,Williamsburg,VA,business,Wire fees,D,470024,2025-11-27
+expenditure,2025-10-05,ActBlue Technical Services,$75.99,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-06,ActBlue Technical Services,$33.26,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-06,Canva,$50,Austin,TX,business,Design software,D,470024,2025-11-27
+expenditure,2025-10-06,Dover Strategy Group,"$18,424",Dunedin,FL,business,Digital advertising,D,470024,2025-11-27
+expenditure,2025-10-07,ActBlue Technical Services,$82.78,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-07,Sena Kozar Strategies,"$19,490.88",Washington,DC,business,TV production & filming,D,470024,2025-11-27
+expenditure,2025-10-07,Wells Fargo Bank,$25,Williamsburg,VA,business,Wire fee,D,470024,2025-11-27
+expenditure,2025-10-08,ActBlue Technical Services,$5.98,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-08,"Buffer, Inc",$84,San Francisco,CA,business,Social media tech,D,470024,2025-11-27
+expenditure,2025-10-08,GDA Wins,$905,Washington,DC,business,Lit pieces,D,470024,2025-11-27
+expenditure,2025-10-08,Wells Fargo Bank,$25,Williamsburg,VA,business,Wire fee,D,470024,2025-11-27
+expenditure,2025-10-09,ActBlue Technical Services,$29.60,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-09,"FH Strategies, LLC","$6,500",Albany,NY,business,Fundraising consulting,D,470024,2025-11-27
+expenditure,2025-10-09,GDA Wins,"$1,155",Washington,DC,business,Lit pieces,D,470024,2025-11-27
+expenditure,2025-10-09,Wells Fargo Bank,$25,Williamsburg,VA,business,Wire fee,D,470024,2025-11-27
+expenditure,2025-10-10,GMMB,"$74,415",Washington,DC,business,Media buying,D,470024,2025-11-27
+expenditure,2025-10-10,Google LLC,$52.68,Mountain View,CA,business,Tech services,D,470024,2025-11-27
+expenditure,2025-10-10,Google LLC,$103.89,Mountain View,CA,business,Tech services,D,470024,2025-11-27
+expenditure,2025-10-10,Virginia House Democratic Caucus,"$21,700",Richmond,VA,party,Contribution,D,470024,2025-11-27
+expenditure,2025-10-10,Wells Fargo Bank,$80,Williamsburg,VA,business,Wire fees,D,470024,2025-11-27
+expenditure,2025-10-12,ActBlue Technical Services,$94.24,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-13,ActBlue Technical Services,$28.39,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-14,ActBlue Technical Services,$30.32,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-14,Dover Strategy Group,"$19,324",Dunedin,FL,business,Digital advertising,D,470024,2025-11-27
+expenditure,2025-10-15,ActBlue Technical Services,$151.45,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-16,ActBlue Technical Services,$14.72,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-16,GMMB,"$100,224",Washington,DC,business,Media buying,D,470024,2025-11-27
+expenditure,2025-10-16,"Gusto, Inc","$2,401.37",San Francisco,CA,business,Payroll tax,D,470024,2025-11-27
+expenditure,2025-10-16,"Gusto, Inc","$6,778.06",San Francisco,CA,business,Payroll,D,470024,2025-11-27
+expenditure,2025-10-16,Virginia House Democratic Caucus,"$6,000",Richmond,VA,party,Contribution,D,470024,2025-11-27
+expenditure,2025-10-16,Wells Fargo Bank,$80,Williamsburg,VA,business,Wire fees,D,470024,2025-11-27
+expenditure,2025-10-17,GMMB,"$174,865",Washington,DC,business,Media buying,D,470024,2025-11-27
+expenditure,2025-10-17,Wells Fargo Bank,$40,Williamsburg,VA,business,Wire fee,D,470024,2025-11-27
+expenditure,2025-10-19,ActBlue Technical Services,$55.81,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-20,ActBlue Technical Services,$8.82,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-21,ActBlue Technical Services,$19.06,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-21,Dover Strategy Group,"$56,636",Dunedin,FL,business,Digital advertising,D,470024,2025-11-27
+expenditure,2025-10-22,ActBlue Technical Services,$39.26,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
+expenditure,2025-10-22,GMMB,"$185,038",Washington,DC,business,Media buying,D,470024,2025-11-27
+expenditure,2025-10-22,Sena Kozar Strategies,"$21,301.29",Washington,DC,business,TV production & filming,D,470024,2025-11-27
+expenditure,2025-10-22,Wells Fargo Bank,$80,Williamsburg,VA,business,Wire fees,D,470024,2025-11-27
+expenditure,2025-10-23,ActBlue Technical Services,$0.15,Somerville,MA,business,Credit card fee,D,470024,2025-11-27
 expenditure,2025-10-24,GMMB,"$130,944",Washington,DC,business,Media buying,D,480893,2026-01-20
 expenditure,2025-10-24,Wells Fargo Bank,$40,Williamsburg,VA,business,Wire fee,D,480893,2026-01-20
 expenditure,2025-10-26,ActBlue Technical Services,$44.87,Somerville,MA,business,Credit card fee,D,480893,2026-01-20

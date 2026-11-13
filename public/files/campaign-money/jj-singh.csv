@@ -3,6 +3,639 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$26,689.81",,VA,,"From official Schedule H, November 2025 election cycle",H,495357,2026-07-14
 summary,2026-06-30,Raised this cycle,"$9,176.01",,,,Total receipts this election cycle (Schedule H),H,495357,2026-07-14
 summary,2026-06-30,Spent this cycle,"$11,249.81",,,,Total disbursements this election cycle (Schedule H),H,495357,2026-07-14
+contribution,2024-12-19,William Baer,$125,Bethesda,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Kamaljit S. Bajwa,$250,Sterling,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-25,James Baldwin,$250,Oak Park,IL,individual,,A,467217,2025-10-30
+contribution,2024-11-24,Catherine Barnes,$150,Charlottesville,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-20,Catherine Barnes,$200,Charlottesville,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Patricia Bates,$250,New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Ishwen Kaur Batra,$250,Peachtree Corners,GA,individual,,A,467217,2025-10-30
+contribution,2024-11-19,Gunvir Baveja,"$1,000",Chantilly,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-10,Ellen Bender,$125,New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-10,David Berol,"$1,000",Falls Church,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-23,Barbara Best,$200,Vienna,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-20,Ravinder Bhalla,$500,Hoboken,NJ,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Harbir Bhatia,$500,Santa Clara,CA,individual,,A,467217,2025-10-30
+contribution,2024-11-24,Nancy Bleeker,$250,Mclean,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-22,Nancy Bleeker,$125,Mclean,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Michele Blitz,$250,Herndon,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-13,Blue Hen Federal PAC,"$2,500",Washington,DC,pac,,A,467217,2025-10-30
+contribution,2024-11-21,Maxwell Borella,"$1,000",Laguna Beach,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-10,Elizabeth Braun,$125,Pelham,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-06,George Brown,$250,Alexandria,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-16,Roderick Brown,$500,Chantilly,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-10,carrie bruns,$200,Reston,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Erika Bucci,$250,Larchmont,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-07,Sandy Budhraja,$250,Corona Del Mar,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Scott Busby,$250,Takoma Park,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-26,Stair Calhoun,$250,Falls Church,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-12,Wesley Callender,$250,Great Falls,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-05,Joshua Canfield,$500,Memphis,TN,individual,,A,467217,2025-10-30
+contribution,2024-12-19,"Capital One Services, LLC",$500,Mc Lean,VA,business,,A,467217,2025-10-30
+contribution,2024-12-08,Richard Capriola,$500,Atlanta,GA,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Cedar Mountain Stone Corp,$250,Pine City,NY,business,,A,467217,2025-10-30
+contribution,2024-11-18,Henry J. Charrabe,"$5,000",Hartsdale,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Chemund Contracting Group,$250,Pine City,NY,business,,A,467217,2025-10-30
+contribution,2024-12-23,Justin Chhabra,$750,Philadelphia,PA,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Liza Cirlot Looser,"$1,000",Flowood,MS,individual,,A,467217,2025-10-30
+contribution,2024-11-20,Clean Virginia,"$2,500",Charlottesville,VA,business,,A,467217,2025-10-30
+contribution,2024-11-26,Clean Virginia,"$5,000",Charlottesville,VA,business,,A,467217,2025-10-30
+contribution,2024-12-18,Clean Virginia,"$2,500",Charlottesville,VA,business,,A,467217,2025-10-30
+contribution,2024-12-10,Sue Coleman,$250,Goode,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Randi Cosentino,$500,Mclean,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-24,Sara Crocker,$120,Barrington,RI,individual,,A,467217,2025-10-30
+contribution,2024-11-12,Christopher Cummings,"$1,000",Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-14,Christopher Cummings,"$1,000",Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-23,Brian Cunningham,$150,Wilmington,DE,individual,,A,467217,2025-10-30
+contribution,2024-12-10,Peter Curtin,$120,La Jolla,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-02,David Curtis,"$5,000",Saint Simons Island,GA,individual,,A,467217,2025-10-30
+contribution,2024-11-14,Milan Dalal,$500,Alexandria,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-29,Scott Daubin,"$2,000",New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-20,John Dearie,$500,Great Falls,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Democratic Asian Americans of VA,$500,Falls Church,VA,business,,A,467217,2025-10-30
+contribution,2024-12-16,Deosi LLC,$500,Vienna,VA,business,,A,467217,2025-10-30
+contribution,2024-12-12,Rohit Dewan,$250,Miami Beach,FL,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Sartaj Singh Dhami,"$1,000",Rockville,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Satnam S Dhami,"$1,000",Chantilly,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-01,Manpreet Dhillon,$200,Boston,MA,individual,,A,467217,2025-10-30
+contribution,2024-12-17,Janet Dalton Dickinson,$250,South Chesterfield,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-07,DJ DiDonna,$250,Cambridge,MA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Rene Ding,$250,Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Diane Dodge,$250,Longmont,CO,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Dulles Area Democrats,$500,Reston,VA,party,,A,467217,2025-10-30
+contribution,2024-12-07,Bill Dunn,$250,Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-19,George Economides,$150,Fairfax,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-19,Gilbert Eisner,$125,Chevy Chase,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Elect Elizabeth Bennett-Parker,$500,Alexandria,VA,candidate,,A,467217,2025-10-30
+contribution,2024-12-16,Quinn Emmett,$500,Williamsburg,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Helen Fall,$100,Fairfax,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Alan Farkas,$125,Chevy Chase,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Roberta Finkelstein,$250,Alexandria,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-12,claude fontheim,$500,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-02,Erin Frackleton,$250,Glen,NH,individual,,A,467217,2025-10-30
+contribution,2024-12-23,Free and Fair Democracy PAC,$500,Sacramento,CA,pac,,A,467217,2025-10-30
+contribution,2024-12-16,"Freedom Virginia, Inc.","$1,000",Norfolk,VA,business,,A,467217,2025-10-30
+contribution,2024-12-14,Thomas Freeman,$125,Snowflake,AZ,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Friends of Saddam Alzan Salim,$250,Merrifield,VA,candidate,,A,467217,2025-10-30
+contribution,2024-12-11,Betsy Gardiner,$250,Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-12,Stacia George,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-11-21,Justin German,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Baldev Ghumman,$200,Chantilly,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-12,Ed Gibson,$200,Berryville,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Kiran Gill,$500,North Hollywood,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-03,Christina Gleason,$500,Wilmington,DE,individual,,A,467217,2025-10-30
+contribution,2024-12-26,Vanessa Goh,$250,Saint Paul,MN,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Deborah Gordon,$250,Sacramento,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-20,GOTV PAC,"$7,500",Washington,DC,pac,,A,467217,2025-10-30
+contribution,2024-12-20,Bryan Graham,$250,Fairfax,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-15,Jennifer Gregorski,"$1,000",Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-18,Dennis Griesing,$500,Leesburg,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Shireen Gujral,$501,Fairfax,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-19,David Hallock,$250,Richmond,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-21,HBAV BUILD PAC,"$1,500",Richmond,VA,pac,,A,467217,2025-10-30
+contribution,2024-11-18,David Heifetz,$500,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-23,Adam Heilemann,$500,Boston,MA,individual,,A,467217,2025-10-30
+contribution,2024-11-22,Tamara Heimur,$500,Vienna,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Joy Heyrman,$125,Batesville,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-21,William H Hill,$250,Falls Church,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-10,Catherine Hillery,$500,Newport,RI,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Larrine Holbrooke,$250,New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-12,Robert Hoopes,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Megan Hull,$500,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,467217,2025-10-30
+contribution,2024-11-22,Indian American Impact Fund,"$3,000",Washington,DC,pac,,A,467217,2025-10-30
+contribution,2024-12-21,Invest in Virginia's Future,$250,Reston,VA,business,,A,467217,2025-10-30
+contribution,2024-12-12,Arben Istrefi,$250,Ashburn,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-12,Jonathon Jones,$500,Falls Church,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-14,Joshua Kagan,$500,Alexandria,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-14,Jasjit Kalra,$500,Ashburn,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-22,Lynn Kamarck,$150,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-23,Herschel Kanter,$250,Sterling,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-23,M ark Katz,$250,Piedmont,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-12,Andrew Kauders,$500,Chevy Chase,MD,individual,,A,467217,2025-10-30
+contribution,2024-11-17,Tresa Kaur,$250,Pittstown,NJ,individual,,A,467217,2025-10-30
+contribution,2024-12-01,Darshan Khalsa,$500,Reston,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Darshan Khalsa,$150,Reston,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-04,Jag Khalsa,$250,Aldie,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-22,Jonathan Kott,$500,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-11-22,Jonathan Kott,$500,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-11-24,Jay Kraemer,$250,Falls Church,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-10,Betsy Krieger,$250,Baltimore,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-23,Betsy Krieger,$300,Baltimore,MD,individual,,A,467217,2025-10-30
+contribution,2024-11-20,Paul Krizek,$250,Alexandria,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-12,John Kunkel,"$1,000",Ashburn,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-21,John Kunkel,$500,Ashburn,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Suchada Langley,$125,Vienna,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-26,Allan Lee,$250,Alexandria,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-03,Douglas Lee,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-01,Samuel Leone,$500,Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-18,Jason Leung,"$1,000",Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Julia Leventhal,$250,Bethesda,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-19,Christopher Lewis,$250,Broadlands,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-24,Elizabeth Livengood,$120,Erlangen,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-04,Tripat M Singh,$500,Fairfax Station,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Julia Maher,$233.34,Los Angeles,CA,individual,,A,467217,2025-10-30
+contribution,2024-11-21,Jasbir S. Makar,$250,Weirton,WV,individual,,A,467217,2025-10-30
+contribution,2024-12-04,Tom Mancinelli,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-07,Eileen Martin,$250,Leesburg,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Marty for Delegate,$250,Leesburg,VA,candidate,,A,467217,2025-10-30
+contribution,2024-12-17,Hardeep Matharoo,$250,Chantilly,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-17,McGuireWoods,$250,Richmond,VA,business,,A,467217,2025-10-30
+contribution,2024-12-25,Michael McKeon,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Stacy McOmber,$250,Brambleton,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-26,Lawrence Meinert,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-11-14,Daniel Meshel,$250,Dumfries,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-30,Rev. Dr. David Milam,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-15,Merrilee Miller,"$1,000",Reston,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-06,Susan Miller,$250,Richmond,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-20,Laurie Minerbi,$150,Bethesda,MD,individual,,A,467217,2025-10-30
+contribution,2024-11-27,Kirit Minhas,$300,Newark,DE,individual,,A,467217,2025-10-30
+contribution,2024-12-14,Donald Molony,$125,Houston,TX,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Donald Molony,$25,Houston,TX,individual,,A,467217,2025-10-30
+contribution,2024-12-05,Jessica Monte,$250,Brambleton,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-05,Anjan Mukherjee,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-10,Sean Murray,"$1,500",Parker,CO,individual,,A,467217,2025-10-30
+contribution,2024-12-04,Chris Neary,$250,Wilmington,DE,individual,,A,467217,2025-10-30
+contribution,2024-12-04,Zachary Neumann,$250,Denver,CO,individual,,A,467217,2025-10-30
+contribution,2024-11-19,Albert Norweb,"$1,000",Pinecrest,FL,individual,,A,467217,2025-10-30
+contribution,2024-12-10,Sarah O'Neill,"$2,000",New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Sarah O'Neill,"$1,500",New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Donna ONeill,$750,Jupiter,FL,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Megan ONeill,$250,New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-11-13,Todd Oreinstein,"$1,000",Pacific Palisades,CA,individual,,A,467217,2025-10-30
+contribution,2024-11-25,Jung Paik,"$1,500",Newton,MA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,James Paoli,$500,Wilmington,DE,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Charuni Patibanda,$120,Wilmington,DE,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Ashley Pease,$333.33,Tarzana,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Susan Pederson,$125,Vienna,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Catherine Pennebaker,$500,Seattle,WA,individual,,A,467217,2025-10-30
+contribution,2024-12-16,Aki Peritz,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-23,William Plapinger,$250,New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-10,Vahe Poladian,$250,Chicago,IL,individual,,A,467217,2025-10-30
+contribution,2024-12-16,Frank Poli,$250,Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-19,Abigail Pound,$500,Columbus,OH,individual,,A,467217,2025-10-30
+contribution,2024-11-19,Puryear Trucking,"$1,000",Chesapeake,VA,business,,A,467217,2025-10-30
+contribution,2024-12-12,Christopher Putala,$500,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-20,Nishen Radia,"$5,000",Los Angeles,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-07,Thomas Radtke,$250,Reston,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-16,Arun Rao,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-11-12,Connie Reeves,"$1,000",Solomons,MD,individual,,A,467217,2025-10-30
+contribution,2024-11-14,Connie Reeves,"$1,000",Solomons,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-05,Jeff Ressin,$250,Vienna,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-19,David Reuther,$120,Orange,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-12,Daniel Ritter,$250,Bethesda,MD,individual,,A,467217,2025-10-30
+contribution,2024-11-29,Jean Robinson,$400,Oakton,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-19,Karen Rodd,$250,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-26,Alexandra B. Rokita,"$1,000",Dunn Loring,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-06,Isaac Roldan,$250,Brooklyn,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-14,Megan Rosan,$120,Bethesda,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Kevin Rowe,"$1,000",Laguna Niguel,CA,individual,,A,467217,2025-10-30
+contribution,2024-11-12,Jared Rubin,$250,South Pasadena,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Satinder Sachdeva,$500,Woodbridge,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Chattar Singh Saini,$200,Mclean,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Chattar Singh Saini,$100,Mclean,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Surinder Sandhu,$200,Annandale,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-05,Martin Schuh,$199,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-10,Elisabeth Scotto-Lavino,"$1,000",Leesburg,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-19,Secure Progress,"$1,000",Clifton,VA,pac,,A,467217,2025-10-30
+contribution,2024-12-11,Secure Progress,"$1,000",Clifton,VA,pac,,A,467217,2025-10-30
+contribution,2024-11-16,Matt Segneri,$250,Newton,MA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,SEIU COPE,"$2,000",Washington,DC,business,,A,467217,2025-10-30
+contribution,2024-11-21,Jamie Beth Serlin,$250,Havertown,PA,individual,,A,467217,2025-10-30
+contribution,2024-11-14,Sameer Shantaram,$250,Arlington,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Rajiv Sharma,$200,Beaverton,OR,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Satpal Sidhu,$101,Lynden,WA,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Sukhwinder Sidhu,$500,Reisterstown,MD,individual,,A,467217,2025-10-30
+contribution,2024-11-18,Julie Simeone,"$1,000",Cortlandt Manor,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Marcus Simon,"$1,000",Falls Church,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-18,Ashley Simpson Baird,$250,Alexandria,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-18,Amardeep Singh Bhalla,$501,Hoboken,NJ,individual,,A,467217,2025-10-30
+contribution,2024-12-19,Singh Family Trust,"$5,000",Warren,NJ,business,,A,467217,2025-10-30
+contribution,2024-12-21,Singh PAC NC,"$2,000",West Bloomfield,MI,pac,,A,467217,2025-10-30
+contribution,2024-12-09,Aman Singh,$100,South Riding,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Aman Singh,$200,South Riding,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Amarpreet Singh,"$1,000",Anaheim,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Amrit Singh,$500,Richmond,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-16,Daljeet Singh,$101,Coral Springs,FL,individual,,A,467217,2025-10-30
+contribution,2024-11-27,Dilpreet Singh,"$2,500",Fairfax Station,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Dilpreet Singh,"$5,000",Fairfax Station,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-10,GURTEJ SINGH,$120,Evans,GA,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Harinder Singh,$500,Fairfax Station,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Mandeep Singh,"$3,300",Augusta,GA,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Navdeep Singh,$250,Broadlands,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-17,Paul Singh,$200,Woodbridge,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-19,Permvir Singh,$250,Annandale,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Pritpal Singh,$500,Fremont,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Ranjit Singh,"$1,000",Vienna,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-18,Rick Singh,"$5,000",New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-11-19,Rick Singh,"$5,000",New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-23,Sarabjit Singh,"$2,500",Franklin Lakes,NJ,individual,,A,467217,2025-10-30
+contribution,2024-12-03,Suniland Manju Singh,"$1,001",Silver Spring,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-17,Victoria Skellcerf,$125,Eugene,OR,individual,,A,467217,2025-10-30
+contribution,2024-11-14,Emily Slota,"$10,000",Napa,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Caroline Smith,$250,Royal Oak,MI,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Sonjia Smith,"$7,500",Charlottesville,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Jalmeen Soni,$200,Mc Lean,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-06,Jasjeet Sood,"$1,000",Greenwich,CT,individual,,A,467217,2025-10-30
+contribution,2024-12-19,Jennifer Spaziano,$120,Foster,RI,individual,,A,467217,2025-10-30
+contribution,2024-12-12,Andrew Sridhar,$120,Chantilly,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-17,Blake Stacey,$250,Somerville,MA,individual,,A,467217,2025-10-30
+contribution,2024-11-19,Jonathan Stahler,$500,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Jonathan Stahler,$500,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Beth Stekler,$125,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-22,Beth Stekler,$50,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-18,Robert Stewart,$250,Delray Beach,FL,individual,,A,467217,2025-10-30
+contribution,2024-12-07,Lisa Stransky,"$2,000",Potomac,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Edward Sullivan,$250,Santa Barbara,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-14,Shelley Tamres,$400,Sterling,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-15,Benjamin Taylor,$500,Northville,MI,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Bethany Teachman,$500,Charlottesville,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-26,The PAC for America?s Future,"$15,000",Washington,DC,pac,,A,467217,2025-10-30
+contribution,2024-11-19,Jimmy J. Tran,$250,Dallas,TX,individual,,A,467217,2025-10-30
+contribution,2024-12-09,Adam Trost,$120,Clifton,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-20,Christina Tsafoulias,$200,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-11-18,Kristen Umstattd,$250,Leesburg,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-18,VA Beverage Association PAC,"$1,000",Richmond,VA,pac,,A,467217,2025-10-30
+contribution,2024-12-17,VADPAC Exempt Functions Account H,"$1,000",Richmond,VA,pac,,A,467217,2025-10-30
+contribution,2024-12-17,Virginia AFL-CIO,"$1,000",Richmond,VA,business,,A,467217,2025-10-30
+contribution,2024-12-19,Virginia Association of Health Plans PAC,$500,Richmond,VA,pac,,A,467217,2025-10-30
+contribution,2024-12-17,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,467217,2025-10-30
+contribution,2024-12-19,Virginia Credit Union PAC,$250,Lynchburg,VA,pac,,A,467217,2025-10-30
+contribution,2024-12-17,Virginia Hospital & Healthcare Association,$500,Richmond,VA,business,,A,467217,2025-10-30
+contribution,2024-12-19,Virginia House Democratic Caucus,"$35,000",Richmond,VA,party,,A,467217,2025-10-30
+contribution,2024-12-19,Virginia Manufactured & Modular Housing Assoc. PAC,$250,Henrico,VA,pac,,A,467217,2025-10-30
+contribution,2024-12-18,Virginia Wine Wholesalers PAC,"$2,000",Richmond,VA,pac,,A,467217,2025-10-30
+contribution,2024-12-07,Virginians for Suhas Subramanyam,"$1,000",Ashburn,VA,candidate,,A,467217,2025-10-30
+contribution,2024-12-08,John von Knorring,$250,Reston,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-17,Eric Wall,"$1,000",New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-12-12,Daryl Weade,$120,Glen Allen,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-13,Peter Webster,"$2,500",Alexandria,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Peter Webster,"$1,000",Alexandria,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-17,Alison Weinberg,$500,Bethesda,MD,individual,,A,467217,2025-10-30
+contribution,2024-11-21,Robert Weinberg,"$1,000",Sewickley,PA,individual,,A,467217,2025-10-30
+contribution,2024-12-23,Stevenson Weitz,$125,Washington,DC,individual,,A,467217,2025-10-30
+contribution,2024-12-08,Betsy Wice,$250,Philadelphia,PA,individual,,A,467217,2025-10-30
+contribution,2024-11-20,Youth Save Democracy PAC,$500,Fresno,CA,pac,,A,467217,2025-10-30
+contribution,2024-12-11,Youth Save Democracy PAC,"$1,500",Fresno,CA,pac,,A,467217,2025-10-30
+contribution,2024-12-19,John Abbott,$500,Sacramento,CA,individual,,A,467217,2025-10-30
+contribution,2024-12-07,Bennett Adams,$500,Atlanta,GA,individual,,A,467217,2025-10-30
+contribution,2024-11-22,Vaibhav Agarwal,$260,Winchester,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-07,Robert Ainsley,$250,Williamsburg,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-20,Debi Alexander,$125,Reston,VA,individual,,A,467217,2025-10-30
+contribution,2024-12-21,Alexandria Democratic Committee,"$1,000",Alexandria,VA,party,,A,467217,2025-10-30
+contribution,2024-12-08,Arthur Altschul,$250,New York,NY,individual,,A,467217,2025-10-30
+contribution,2024-11-19,Peter appel,$200,Mclean,VA,individual,,A,467217,2025-10-30
+contribution,2024-11-20,Casey Babbitt,$150,Somerville,MA,individual,,A,467217,2025-10-30
+contribution,2024-11-12,Daniel Bachner,$750,Bethesda,MD,individual,,A,467217,2025-10-30
+contribution,2024-12-11,Daniel Bachner,$250,Bethesda,MD,individual,,A,467217,2025-10-30
+contribution,2025-01-03,Peter appel,$200,Mclean,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-04,Hilary Bok,$120,Baltimore,MD,individual,,A,436605,2025-04-15
+contribution,2025-01-05,Emily Brown,"$1,000",Tappahannock,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-04,Mary Byrne,"$2,000",Arlington,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-03,Laura Jane Cohen,$500,Burke,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-05,Sean Coit,$250,Philadelphia,PA,individual,,A,436605,2025-04-15
+contribution,2025-01-06,Comstock Hospitality Holdings,"$5,000",Reston,VA,business,,A,436605,2025-04-15
+contribution,2025-01-01,Milan Dalal,$500,Alexandria,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-04,Loren Hershey,"$1,000",Oakton,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-06,IBEW PAC Voluntary Fund,"$3,000",Washington,DC,pac,,A,436605,2025-04-15
+contribution,2025-01-06,Amrit Kalotra,$500,Mclean,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-01,Christopher & Emily Kimm,$500,Reston,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-04,Andan Lauber,$500,Campbell,CA,individual,,A,436605,2025-04-15
+contribution,2025-01-01,Steve Napolitano,$250,Reading,MA,individual,,A,436605,2025-04-15
+contribution,2025-01-06,NARAL Pro-Choice Virginia PAC,"$1,000",Alexandria,VA,pac,,A,436605,2025-04-15
+contribution,2025-01-04,Raymond H. Plaut,"$1,000",Blacksburg,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-04,William Pugh,"$1,000",Bethesda,MD,individual,,A,436605,2025-04-15
+contribution,2025-01-06,Ranjeev Puri,"$1,000",Canton,MI,individual,,A,436605,2025-04-15
+contribution,2025-01-01,Harpreet Sandhu,$250,Vallejo,CA,individual,,A,436605,2025-04-15
+contribution,2025-01-04,Ellen Semonoff,$166.67,Cambridge,MA,individual,,A,436605,2025-04-15
+contribution,2025-01-05,Scott Shenker,"$2,500",Berkeley,CA,individual,,A,436605,2025-04-15
+contribution,2025-01-07,Manjit Singh,"$1,500",Germantown,MD,individual,,A,436605,2025-04-15
+contribution,2025-01-01,Rupinder Singh,"$2,000",Cypress,TX,individual,,A,436605,2025-04-15
+contribution,2025-01-03,Ravi Upadhyay,$250,Alexandria,VA,individual,,A,436605,2025-04-15
+contribution,2025-01-04,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,A,436605,2025-04-15
+contribution,2025-01-06,Virginia Trial Lawyers Political Action Committee,"$2,000",Richmond,VA,pac,,A,436605,2025-04-15
+contribution,2025-03-25,AFSCME,"$2,500",Washington,DC,business,,A,436617,2025-04-15
+contribution,2025-03-11,Derek Aguirre,$250,Grosse Pointe Farms,MI,individual,,A,436617,2025-04-15
+contribution,2025-03-01,Gurjeet Dhaliwal,$500,Bakersfield,CA,individual,,A,436617,2025-04-15
+contribution,2025-02-24,Loren Hershey,$185,Oakton,VA,individual,,A,436617,2025-04-15
+contribution,2025-02-24,James Walkinshaw for Braddock Supervisor,$125,Springfield,VA,candidate,,A,436617,2025-04-15
+contribution,2025-02-27,John Kunkel,$500,Ashburn,VA,individual,,A,436617,2025-04-15
+contribution,2025-03-17,John Kunkel,$500,Ashburn,VA,individual,,A,436617,2025-04-15
+contribution,2025-03-26,Jasbir S. Makar,$250,Weirton,WV,individual,,A,436617,2025-04-15
+contribution,2025-03-19,Eileen Martin,$50,Leesburg,VA,individual,,A,436617,2025-04-15
+contribution,2025-03-28,Satinder Sachdeva,$250,Woodbridge,VA,individual,,A,436617,2025-04-15
+contribution,2025-03-28,Elisabeth Scotto-Lavino,$500,Leesburg,VA,individual,,A,436617,2025-04-15
+contribution,2025-03-06,Singh PAC Federal,"$2,000",West Bloomfield,MI,pac,,A,436617,2025-04-15
+contribution,2025-03-05,Rick Singh,"$1,500",New York,NY,individual,,A,436617,2025-04-15
+contribution,2025-03-09,Jalmeen Soni,$200,Mc Lean,VA,individual,,A,436617,2025-04-15
+contribution,2025-03-26,Mary Tondreau,$250,Ashburn,VA,individual,,A,436617,2025-04-15
+contribution,2025-02-24,UFCW Local 400 ABC PAC,$250,Hyattsville,MD,pac,,A,436617,2025-04-15
+contribution,2025-03-22,Kristen Umstattd,$250,Leesburg,VA,individual,,A,436617,2025-04-15
+contribution,2025-05-30,Imran Akram,"$1,000",Great Falls,VA,individual,,A,442160,2025-06-09
+contribution,2025-05-01,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,442160,2025-06-09
+contribution,2025-05-01,Anheuser Busch,$250,Williamsburg,VA,business,,A,442160,2025-06-09
+contribution,2025-04-03,James Baldwin,$500,Oak Park,IL,individual,,A,442160,2025-06-09
+contribution,2025-04-29,Melissa Beene,$250,Arlington,VA,individual,,A,442160,2025-06-09
+contribution,2025-05-12,sandhya budhraja,$250,Corona Del Mar,CA,individual,,A,442160,2025-06-09
+contribution,2025-04-23,Clean Virginia,"$5,000",Charlottesville,VA,business,,A,442160,2025-06-09
+contribution,2025-05-21,Danielle Dooley,$200,Washington,DC,individual,,A,442160,2025-06-09
+contribution,2025-04-01,John Kunkel,"$1,000",Ashburn,VA,individual,,A,442160,2025-06-09
+contribution,2025-05-03,John Kunkel,"$1,000",Ashburn,VA,individual,,A,442160,2025-06-09
+contribution,2025-05-20,Metro Virginia PAC M301,$250,Washington,DC,pac,,A,442160,2025-06-09
+contribution,2025-06-04,Mid Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,442160,2025-06-09
+contribution,2025-05-16,Service Corporation International Political Action Committee,$750,Houston,TX,pac,,A,442160,2025-06-09
+contribution,2025-05-13,Amarpreet Singh,$500,Anaheim,CA,individual,,A,442160,2025-06-09
+contribution,2025-05-20,Dilpreet Singh,"$1,000",Fairfax Station,VA,individual,,A,442160,2025-06-09
+contribution,2025-05-27,Virgina Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,A,442160,2025-06-09
+contribution,2025-05-15,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,442160,2025-06-09
+contribution,2025-06-04,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,A,442160,2025-06-09
+contribution,2025-05-07,Virginia Sheriffs Association PAC,$250,Richmond,VA,pac,,A,442160,2025-06-09
+contribution,2025-05-01,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,A,442160,2025-06-09
+contribution,2025-06-29,Vaibhav Agarwal,$275,Winchester,VA,individual,,A,448425,2025-07-15
+contribution,2025-06-29,Gunvir Baveja,"$1,000",Chantilly,VA,individual,,A,448425,2025-07-15
+contribution,2025-06-26,Amitai Bin-Nun,$200,Pittsburgh,PA,individual,,A,448425,2025-07-15
+contribution,2025-06-28,Erin Frackleton,$250,Glen,NH,individual,,A,448425,2025-07-15
+contribution,2025-06-18,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,448425,2025-07-15
+contribution,2025-06-19,John Kunkel,$500,Ashburn,VA,individual,,A,448425,2025-07-15
+contribution,2025-06-30,John Kunkel,$500,Ashburn,VA,individual,,A,448425,2025-07-15
+contribution,2025-06-06,Gerrine Pan,$300,Danville,CA,individual,,A,448425,2025-07-15
+contribution,2025-06-30,Amman Seehra,$201,Robbinsville,NJ,individual,,A,448425,2025-07-15
+contribution,2025-06-09,Tejinder Singh,$100,Fairfax Station,VA,individual,,A,448425,2025-07-15
+contribution,2025-08-28,Anu Aggarwal,$101,Lorton,VA,individual,,A,454176,2025-09-15
+contribution,2025-07-28,Derek Aguirre,$250,Petaluma,CA,individual,,A,454176,2025-09-15
+contribution,2025-08-07,Derek Aguirre,$200,Petaluma,CA,individual,,A,454176,2025-09-15
+contribution,2025-08-24,Sunita Ahir,$101,Annandale,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-24,Krishan Ahuja,$202,Aldie,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-07,Sargam Kaur Arora,$250,San Mateo,CA,individual,,A,454176,2025-09-15
+contribution,2025-08-07,Loren Bale,$499,San Francisco,CA,individual,,A,454176,2025-09-15
+contribution,2025-08-09,Swarnjit Singh Bhatia,$251,Norwich,CT,individual,,A,454176,2025-09-15
+contribution,2025-08-24,Nila Bhavsar,$101,Lorton,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-13,Gurpal Bhuller,"$1,000",Vienna,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-14,David Bibo,$250,Washington,DC,individual,,A,454176,2025-09-15
+contribution,2025-08-07,Tejratan Bindra,$499,San Francisco,CA,individual,,A,454176,2025-09-15
+contribution,2025-08-07,Patrick Brannelly,$499,Piedmont,CA,individual,,A,454176,2025-09-15
+contribution,2025-08-25,Manjeet Brar,$101,Great Falls,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-06,Ryan Buckley,$250,Lafayette,CA,individual,,A,454176,2025-09-15
+contribution,2025-07-16,Ravdeep Chanana,$500,Darien,CT,individual,,A,454176,2025-09-15
+contribution,2025-08-14,Clean Virginia,"$5,000",Charlottesville,VA,business,,A,454176,2025-09-15
+contribution,2025-07-15,Andrew Coolen,$250,Ashburn,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-25,Indu Dhingra,$101,Lorton,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-11,Jason Elliott,$120,Sacramento,CA,individual,,A,454176,2025-09-15
+contribution,2025-07-07,Rajvir Goomer,$500,East Windsor,NJ,individual,,A,454176,2025-09-15
+contribution,2025-08-28,Vinay Gupta,$202,Lorton,VA,individual,,A,454176,2025-09-15
+contribution,2025-07-17,Dana Hamerschlag,$250,Lansdowne,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-05,HCA for Good Government,"$1,000",Richmond,VA,business,,A,454176,2025-09-15
+contribution,2025-08-07,Gautham Iyer,$250,San Francisco,CA,individual,,A,454176,2025-09-15
+contribution,2025-08-25,JBG Smith Builds PAC,"$1,000",Arlington,VA,pac,,A,454176,2025-09-15
+contribution,2025-08-26,Darshan Khalsa,$25,Reston,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-27,Rohini Khera,$101,Reston,VA,individual,,A,454176,2025-09-15
+contribution,2025-07-15,Amitpal Kohli,"$1,000",Lewisville,TX,individual,,A,454176,2025-09-15
+contribution,2025-08-14,John Kunkel,"$1,000",Ashburn,VA,individual,,A,454176,2025-09-15
+contribution,2025-07-23,Loudoun Career Firefighters PAC,"$2,000",Leesburg,VA,pac,,A,454176,2025-09-15
+contribution,2025-08-25,Shakuntla Mahajan,$202,Potomac,MD,individual,,A,454176,2025-09-15
+contribution,2025-07-16,Tejinderpal Malik,$101,Chappaqua,NY,individual,,A,454176,2025-09-15
+contribution,2025-08-04,Jeanette Mellinger,$500,San Francisco,CA,individual,,A,454176,2025-09-15
+contribution,2025-08-07,Jessica Monte,$250,Brambleton,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-24,Meena Munjal,$101,Lorton,VA,individual,,A,454176,2025-09-15
+contribution,2025-07-02,Ravjot Pasricha,$250,Alexandria,VA,individual,,A,454176,2025-09-15
+contribution,2025-07-14,Kevin Quigley,$250,Arlington,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-25,Realtors Political Action Commitee of Virginia,"$1,000",Glen Allen,VA,pac,,A,454176,2025-09-15
+contribution,2025-08-07,Harpreet Sandhu,$250,Vallejo,CA,individual,,A,454176,2025-09-15
+contribution,2025-08-24,Rashmi Sharma,$100,Beltsville,MD,individual,,A,454176,2025-09-15
+contribution,2025-08-24,Rashmi Sharma,$100,Beltsville,MD,individual,,A,454176,2025-09-15
+contribution,2025-08-07,Tawanda Sibanda,$500,San Francisco,CA,individual,,A,454176,2025-09-15
+contribution,2025-07-03,Prabhdeep Singh,"$1,001",Brooklyn,NY,individual,,A,454176,2025-09-15
+contribution,2025-07-02,TJ Singh,"$1,000",Alexandria,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-05,Emily Slota,"$5,000",Napa,CA,individual,,A,454176,2025-09-15
+contribution,2025-07-16,Kathryn Smith,$250,Leesburg,VA,individual,,A,454176,2025-09-15
+contribution,2025-07-15,Lindsey Davis Stover,$250,Mclean,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-28,Lindsey Davis Stover,$250,Mclean,VA,individual,,A,454176,2025-09-15
+contribution,2025-08-18,UpVote PAC,"$1,000",Chesterfield,VA,pac,,A,454176,2025-09-15
+contribution,2025-07-01,VEA Fund,$250,Richmond,VA,business,,A,454176,2025-09-15
+contribution,2025-08-26,Virginia Radiology PAC,$500,Richmond,VA,pac,,A,454176,2025-09-15
+contribution,2025-08-22,Virginia Trial Lawyers Political Action Committee,"$1,000",Richmond,VA,pac,,A,454176,2025-09-15
+contribution,2025-07-20,Charles Yawson,"$2,500",Freeport,NY,individual,,A,454176,2025-09-15
+contribution,2025-09-27,Gurdeep Ahluwalia,$500,Ellicott City,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Shashi Anand,$200,Chantilly,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Jaspreet Aneja,$500,Fulton,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Ramandeep Bakshi,$250,Great Falls,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Surinder Bakshi,$150,North Potomac,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-22,Poonam Bansal,$120,Alexandria,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Neha Bawa,$250,Vienna,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Neha Bawa,"$1,001",Vienna,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Satish Bhatia,$200,Potomac,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-11,Purvi Bhatt,$101,Fairfax,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-22,Bloom Energy,"$1,000",San Jose,CA,business,,A,460684,2025-10-15
+contribution,2025-09-27,Vikram Brar,$500,Glen Allen,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-11,Care Advantage,"$1,500",North Chesterfield,VA,business,,A,460684,2025-10-15
+contribution,2025-09-28,Banjot Chanana,"$1,001",Bethesda,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Henry J. Charrabe,"$5,000",Hartsdale,NY,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Krishan Chhabra,$151,Vienna,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Suman Chhabra,$501,Alexandria,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Hardeep Chiraya,$500,Bethesda,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Constructure Inc.,$251,Chantilly,VA,business,,A,460684,2025-10-15
+contribution,2025-09-21,Dadoo Foundation,$251,Fairfax,VA,business,,A,460684,2025-10-15
+contribution,2025-09-26,Michael Daubin,$500,New York,NY,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Beant Deau,$500,Burke,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-26,Simon Flax,$250,Ladera Ranch,CA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Friends of Stella Pekarsky,$200,Centreville,VA,business,,A,460684,2025-10-15
+contribution,2025-09-20,Rebecca Geller,$101,Fairfax Station,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-15,Jon GOLD,$500,Westport,CT,individual,,A,460684,2025-10-15
+contribution,2025-09-09,Harpreet Grewal,$200,Glen Allen,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Shireen Gujral,$501,Fairfax,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Kamlesh Gulati,$101,Mclean,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-26,Jasmin Guleria,$500,Brooklyn,NY,individual,,A,460684,2025-10-15
+contribution,2025-09-22,Avantika Gupta,$251,Bethesda,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Dr. Jai Gupta,"$2,501",Mclean,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Madan Gupta,"$1,000",Clifton,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-22,Raj Gupta,$201,Leesburg,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Rekha Gupta,$101,Alexandria,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Dr. Suresh Gupta,$501,Potomac,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-11,HBAV BUILD PAC,"$1,000",Richmond,VA,pac,,A,460684,2025-10-15
+contribution,2025-09-22,Christina Hu,$250,Brooklyn,NY,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,460684,2025-10-15
+contribution,2025-09-26,Gurbir Johal,"$2,500",Monroe,NJ,individual,,A,460684,2025-10-15
+contribution,2025-09-17,Sanjeev Johari,$202,Woodbridge,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Jasjit Kalra,$251,Ashburn,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-22,Raj Kapoor,$501,Fairfax Station,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-12,Darshan Khalsa,$251,Reston,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-26,Darshan Khalsa,$25,Reston,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Harinder Kohli,$201,Mclean,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,John Koza,$500,Los Altos,CA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,"KS Cuba, Inc.",$251,Cuba,NY,business,,A,460684,2025-10-15
+contribution,2025-09-16,John Kunkel,"$1,000",Ashburn,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Jason Leung,"$1,000",Arlington,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-19,Tejinderpal Malik,$102,Chappaqua,NY,individual,,A,460684,2025-10-15
+contribution,2025-09-11,Inderpreet Singh Mann,$250,Glen Allen,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,jatinder mann,$101,Manassas,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Harmeet Matta,$250,Ellicott City,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Jasprit Matta,"$2,500",Ellicott City,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-17,Daniel Meshel,$120,Dumfries,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Anju Nijhawan,$101,Fairfax Station,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Sujata Nohria,$200,Yorktown,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-11,NOVEC,"$1,000",Manassas,VA,business,,A,460684,2025-10-15
+contribution,2025-09-30,Donna ONeill,$250,Jupiter,FL,individual,,A,460684,2025-10-15
+contribution,2025-09-08,Larry Pantzer,$120,Aldie,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Malti Parekh,$200,Arlington,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-11,PsychMD PAC,$500,Richmond,VA,pac,,A,460684,2025-10-15
+contribution,2025-09-16,Sahiba Rathore,$108,Fairfax,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-12,Connie Reeves,"$1,000",Solomons,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Kanwaljit Rekhi,$500,Potomac,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Sapna Rohatgi,$500,Centreville,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-10,Gurpreet Sandhu,$250,Manakin Sabot,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Shakun Sapra,$200,Fairfax,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Pushpa Saraff,$201,Fairfax,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Sarndeep Sarkaria,$500,Gainesville,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Saund Builders Inc.,$251,Fairfax,VA,business,,A,460684,2025-10-15
+contribution,2025-09-13,Robert Scotto-Lavino,$200,Leesburg,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Arjun Sethi,$500,Fairfax Station,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-22,Madhu Sethi,$200,Ashton,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Maninder Singh Sethi,$101,Reston,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-11,Nitin Sethi,$500,Glen Allen,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Rashmi Sharma,$51,Beltsville,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-19,Sheetz,$250,Altoona,PA,business,,A,460684,2025-10-15
+contribution,2025-09-08,Baljit Sidhu,$250,Chester,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-11,Dr. Bimaljit Singh Sidhu,$250,Glen Allen,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Gurminder Singh Bhatti,$251,Fairfax Station,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-23,Agan Singh,$500,Hoboken,NJ,individual,,A,460684,2025-10-15
+contribution,2025-09-22,Devinder Singh,$500,Lorton,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Dilpreet Singh,"$1,000",Fairfax Station,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-25,Gurbinder Singh,"$2,000",Aldie,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Hardayal Singh,$250,Oak Ridge,NJ,individual,,A,460684,2025-10-15
+contribution,2025-09-12,Harinder Singh,$502,Fairfax Station,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-10,Jaswinder Singh,$500,Glen Allen,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Malkit Singh,$200,Chantilly,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-20,Manisha Singh,$101,Springfield,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Manmeet Singh,$500,Gaithersburg,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Manpreet Singh,"$1,000",Potomac,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Navdeep Singh,$501,Herndon,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Permvir Singh,$200,Annandale,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Ravinder Singh,"$1,001",Vienna,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Sajjan Singh,$250,Potomac,MD,individual,,A,460684,2025-10-15
+contribution,2025-09-28,Sarabjit Singh,"$1,000",Franklin Lakes,NJ,individual,,A,460684,2025-10-15
+contribution,2025-09-23,Satwant Singh,$250,Glen Rock,NJ,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Tarwinder Singh,"$5,000",Monmouth Junction,NJ,individual,,A,460684,2025-10-15
+contribution,2025-09-13,Tripat Singh,$202,Fairfax Station,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-10,Yogi Singh,$500,Richmond,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-21,Jalmeen Soni,$100,Mc Lean,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-26,Alexander Stein,$250,Wood Ridge,NJ,individual,,A,460684,2025-10-15
+contribution,2025-09-27,Sahej Suri,$250,Orlando,FL,individual,,A,460684,2025-10-15
+contribution,2025-09-10,Andrew Thornton,$150,Richmond,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-22,UFCW Local 400 ABC PAC,$250,Hyattsville,MD,pac,,A,460684,2025-10-15
+contribution,2025-09-11,Manu Uppal,$101,Mclean,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-11,VA Beverage Association PAC,$750,Richmond,VA,pac,,A,460684,2025-10-15
+contribution,2025-09-11,VADPAC Exempt Functions Account H,"$2,500",Richmond,VA,pac,,A,460684,2025-10-15
+contribution,2025-09-21,Asha Vardan,$150,Fairfax,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-25,Virginia Hospital & Healthcare Association,$500,Richmond,VA,business,,A,460684,2025-10-15
+contribution,2025-09-11,Virginia Preservation PAC,$500,Richmond,VA,pac,,A,460684,2025-10-15
+contribution,2025-09-11,Virginia Wine Wholesalers PAC,"$1,000",Richmond,VA,pac,,A,460684,2025-10-15
+contribution,2025-09-21,Surinder Wahi,$250,Alexandria,VA,individual,,A,460684,2025-10-15
+contribution,2025-09-25,Eric Wall,$250,New York,NY,individual,,A,460684,2025-10-15
+contribution,2025-09-22,Guan Yang,$250,New York,NY,individual,,A,460684,2025-10-15
+contribution,2025-10-16,Azfar Abbasi,$500,Vienna,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-06,Ryan Abraham,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-21,ARDA-Resort Owners Coalition PAC,"$1,000",Washington,DC,pac,,A,465459,2025-10-27
+contribution,2025-10-04,Manuj Bhandari,$300,Arlington,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-07,David Bibo,$100,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-07,David Bowes,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Joseph Britton,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-23,Joshua Canfield,$500,Memphis,TN,individual,,A,465459,2025-10-27
+contribution,2025-10-20,"Capital One Services, LLC",$500,Mc Lean,VA,business,,A,465459,2025-10-27
+contribution,2025-10-07,Brian Castro,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Amarjit Singh Chatha,$200,Chantilly,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Balwinder Chatha,$501,Chantilly,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-08,SEIU COPE,"$1,000",Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-02,Thomas Mancinelli,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-10,Alexander Martin,$250,Austin,TX,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Harbans Matharoo,$120,Aldie,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-07,Ryan McConaghy,$250,Alexandria,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-07,Michael McKeon,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Meads Liquors Inc,$500,Oxon Hill,MD,business,,A,465459,2025-10-27
+contribution,2025-10-07,Lawrence Meinert,$500,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-03,Rev. Dr. David Milam,"$1,000",Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-06,Rachel Niebling,$250,Arlington,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-14,Todd Orenstein,"$1,000",Los Angeles,CA,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Jaspal Singh Othee,$250,Centreville,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Mohinder Singh Othi,$250,Fairfax,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Navinder Singh Othi,$250,Fairfax,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-10,Peter Paskhaver,$150,Hoboken,NJ,individual,,A,465459,2025-10-27
+contribution,2025-10-07,Christopher Putala,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-01,Ms. Soma N. Reddy,$101,Lorton,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-15,Jared Rubin,$250,South Pasadena,CA,individual,,A,465459,2025-10-27
+contribution,2025-10-02,Jamie Serlin,$250,Philadelphia,PA,individual,,A,465459,2025-10-27
+contribution,2025-10-01,Julie Simeone,$750,Cortlandt Manor,NY,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Dilgeer Singh,$250,Chantilly,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-02,Dr. Inderjit Singh,$501,Fairfax Station,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-03,Rick Singh,"$10,000",New York,NY,individual,,A,465459,2025-10-27
+contribution,2025-10-20,Christopher Cummings,"$2,000",Arlington,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-10,David Curtis,"$5,000",Saint Simons Island,GA,individual,,A,465459,2025-10-27
+contribution,2025-10-11,Milan Dalal,"$1,000",Alexandria,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-07,Danielle Damm,$250,Fredericksburg,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Davinder Singh Deo,$200,Centreville,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-03,Ryan Doherty,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-06,Quinn Emmett,$500,Williamsburg,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-03,Tamara Fucile,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-07,Stacia George,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-02,Justin German,$150,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-07,Robert Hoopes,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-01,Joshua Kagan,$120,Alexandria,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-15,Amrit Kalotra,$500,Mclean,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-02,Jordan Kane,$250,Mclean,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Paramjit Kaur,$500,Ashburn,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-03,Israel Klein,$500,Chevy Chase,MD,individual,,A,465459,2025-10-27
+contribution,2025-10-07,Jonathan Kott,"$1,000",Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-07,Sophia Lalani,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-06,Kimberly Love,$250,Silver Spring,MD,individual,,A,465459,2025-10-27
+contribution,2025-10-15,Jasbir S. Makar,$501,Weirton,WV,individual,,A,465459,2025-10-27
+contribution,2025-10-20,Gurpreet Malik,$250,Chappaqua,NY,individual,,A,465459,2025-10-27
+contribution,2025-10-10,Tajinderpal Malik,$103,Chappaqua,NY,individual,,A,465459,2025-10-27
+contribution,2025-10-17,Tajinderpal Malik,$104,Chappaqua,NY,individual,,A,465459,2025-10-27
+contribution,2025-10-03,Savneet Singh,"$1,000",New Hartford,NY,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Shamsher Singh,$500,Centreville,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Simarjit Singh,$200,Aldie,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-04,Tejpal Singh,$500,Centreville,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-05,Kathryn Smith,$400,Leesburg,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-06,Jonathan Stahler,$500,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-06,Ronald Storhaug,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-14,Benjamin Taylor,$200,Northville,MI,individual,,A,465459,2025-10-27
+contribution,2025-10-03,Anastacio Teodoro,$150,Darien,CT,individual,,A,465459,2025-10-27
+contribution,2025-10-06,Jacqueline Thomas,$250,Washington,DC,individual,,A,465459,2025-10-27
+contribution,2025-10-21,Virginia Beer Wholesalers Association,$500,Richmond,VA,business,,A,465459,2025-10-27
+contribution,2025-10-04,Virginia Chapter Sierra Club PAC,$250,Richmond,VA,pac,,A,465459,2025-10-27
+contribution,2025-10-02,Virginia Maritime Association Political Action Committee,$500,Norfolk,VA,pac,,A,465459,2025-10-27
+contribution,2025-10-21,Virginia Optometric Association,$250,Henrico,VA,business,,A,465459,2025-10-27
+contribution,2025-10-07,Todd Webster,"$1,000",Alexandria,VA,individual,,A,465459,2025-10-27
+contribution,2025-10-27,Gurleen Singh Chatha,$500,Chantilly,VA,individual,,A,472812,2025-12-04
+contribution,2025-10-31,Chiropractic Political Action Committee of VA,$500,Henrico,VA,pac,,A,472812,2025-12-04
+contribution,2025-10-27,Manjinder Kaur Deol,$500,Chantilly,VA,individual,,A,472812,2025-12-04
+contribution,2025-10-27,Manjit Singh Deol,$500,Chantilly,VA,individual,,A,472812,2025-12-04
+contribution,2025-11-03,Sartaj Singh Dhami,$120,Fairfax,VA,individual,,A,472812,2025-12-04
+contribution,2025-11-03,Manpreet Dhanjal,$101,Vienna,VA,individual,,A,472812,2025-12-04
+contribution,2025-11-03,Kiran Gill,$120,North Hollywood,CA,individual,,A,472812,2025-12-04
+contribution,2025-11-03,GURBIR GREWAL,$500,Glen Rock,NJ,individual,,A,472812,2025-12-04
+contribution,2025-10-27,Indian American Impact Fund,"$1,000",Washington,DC,pac,,A,472812,2025-12-04
+contribution,2025-11-03,Tresa Kaur,$250,Pittstown,NJ,individual,,A,472812,2025-12-04
+contribution,2025-10-26,Darshan Khalsa,$25,Reston,VA,individual,,A,472812,2025-12-04
+contribution,2025-11-26,Darshan Khalsa,$25,Reston,VA,individual,,A,472812,2025-12-04
+contribution,2025-11-04,Samuel Leone,$500,Arlington,VA,individual,,A,472812,2025-12-04
+contribution,2025-11-03,Behrad Mahdi,$250,Columbus,OH,individual,,A,472812,2025-12-04
+contribution,2025-10-30,Tajinderpal Malik,$105,Chappaqua,NY,individual,,A,472812,2025-12-04
+contribution,2025-11-03,Tajinderpal Malik,$106,Chappaqua,NY,individual,,A,472812,2025-12-04
+contribution,2025-10-27,Amandeep Kaur Man,$500,Chantilly,VA,individual,,A,472812,2025-12-04
+contribution,2025-11-08,Medical Society of Virginia PAC,"$1,000",Richmond,VA,pac,,A,472812,2025-12-04
+contribution,2025-11-05,Mid-Atlantic Laborers Political Education Fund,"$2,500",Reston,VA,business,,A,472812,2025-12-04
+contribution,2025-11-11,Janie Orenstein,$200,Pacific Palisades,CA,individual,,A,472812,2025-12-04
+contribution,2025-10-30,Rajinder Sachar,$200,East Amherst,NY,individual,,A,472812,2025-12-04
+contribution,2025-11-03,Jimmy J. Tran,$120,Dallas,TX,individual,,A,472812,2025-12-04
+contribution,2025-10-29,VA Operators for Skill,"$1,000",Richmond,VA,business,,A,472812,2025-12-04
+contribution,2025-11-03,VA Society of Anesthesiologists PAC,"$2,500",Richmond,VA,pac,,A,472812,2025-12-04
+contribution,2025-11-03,Virginia Association of Health Plans PAC,$500,Richmond,VA,pac,,A,472812,2025-12-04
+contribution,2025-10-24,Virginia CRNAs Who Care About Health Care Political Action Committee,$500,Roanoke,VA,pac,,A,472812,2025-12-04
+contribution,2025-10-30,Robert Weinberg,$500,Sewickley,PA,individual,,A,472812,2025-12-04
+contribution,2025-11-03,Gunvir Baveja,"$2,000",Chantilly,VA,individual,,A,472812,2025-12-04
+contribution,2025-11-01,Roderick Brown,$250,Chantilly,VA,individual,,A,472812,2025-12-04
+contribution,2025-11-03,Wesley Callender,$150,Great Falls,VA,individual,,A,472812,2025-12-04
+contribution,2025-10-27,Deep Kaur Chatha,$500,Chantilly,VA,individual,,A,472812,2025-12-04
 contribution,2025-12-23,Capital Results LLC,$250,Richmond,VA,business,,A,478519,2026-01-14
 contribution,2025-12-02,"Carbon Solutions Group, LLC",$250,Chicago,IL,business,,A,478519,2026-01-14
 contribution,2025-12-02,HBAV BUILD PAC,"$1,000",Richmond,VA,pac,,A,478519,2026-01-14
@@ -13,6 +646,291 @@ contribution,2026-06-24,Altria Client Services LLC,"$1,000",Richmond,VA,business
 contribution,2026-04-17,Clean Virginia,"$7,500",Charlottesville,VA,business,,A,495357,2026-07-14
 contribution,2026-04-08,Commercial Develpers PAC,$500,Alexandria,VA,pac,,A,495357,2026-07-14
 contribution,2026-05-29,Beant Deu,$101,Burke,VA,individual,,A,495357,2026-07-14
+in_kind,2024-12-17,Democratic Party of Virginia,"$4,476.60",Richmond,VA,party,Mail Production and Postage,B,467217,2025-10-30
+in_kind,2024-12-23,Democratic Party of Virginia,"$3,893.25",Richmond,VA,party,Mail Production and Postage,B,467217,2025-10-30
+in_kind,2024-12-23,Democratic Party of Virginia,"$7,896.35",Richmond,VA,party,Mail Production and Postage,B,467217,2025-10-30
+in_kind,2024-11-22,Kannan for Virginia,"$1,111.32",Ashburn,VA,candidate,Endorsement Text Messages,B,467217,2025-10-30
+in_kind,2024-11-22,Kannan for Virginia,"$4,000",Ashburn,VA,candidate,Endorsement Phone Calls,B,467217,2025-10-30
+in_kind,2024-11-21,Quorum Creative LLC,"$7,000",South Portland,ME,business,Video Production Services,B,467217,2025-10-30
+in_kind,2024-12-21,SEIU COPE,"$6,100",Washington,DC,business,Digital Advertising,B,467217,2025-10-30
+in_kind,2024-12-16,Two Capitols Consulting,$507.32,Richmond,VA,business,Event Space and Catering,B,467217,2025-10-30
+in_kind,2024-12-10,Virginia House Democratic Caucus,"$5,600",Richmond,VA,party,Mailing,B,467217,2025-10-30
+in_kind,2024-12-11,Virginia House Democratic Caucus,"$12,834.12",Richmond,VA,party,Polling,B,467217,2025-10-30
+in_kind,2024-12-11,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Research,B,467217,2025-10-30
+in_kind,2025-01-05,Planned Parenthood Virginia PAC,$999.55,Richmond,VA,pac,Staff Time and Support,B,436605,2025-04-15
+in_kind,2025-03-31,Loudoun LLC,"$4,318.82",Baltimore,MD,business,Office Rent,B,436617,2025-04-15
+in_kind,2025-09-10,Realtors Political Action Commitee of Virginia,$489.50,Glen Allen,VA,pac,Event Food & Beverage,B,460684,2025-10-15
+in_kind,2025-09-27,Dilpreet Singh,"$1,050",Fairfax Station,VA,individual,In Kind Food and Beverage,B,460684,2025-10-15
+in_kind,2025-10-20,Democratic Party of Virginia,"$6,537.38",Richmond,VA,party,Mail Production and Postage,B,465459,2025-10-27
+in_kind,2025-10-20,Democratic Party of Virginia,"$4,203.77",Richmond,VA,party,Mail Production and Postage,B,465459,2025-10-27
+in_kind,2025-10-20,Democratic Party of Virginia,"$9,958.24",Richmond,VA,party,Mail Production and Postage,B,465459,2025-10-27
+in_kind,2025-10-24,Julia Leventhal,$500,Bethesda,MD,individual,Event F&B,B,472812,2025-12-04
+other_receipt,2025-04-30,Sage Media Planning and Placement,$386.01,Washington,DC,business,Refund of Advertising Overpayment,C,442160,2025-06-09
+other_receipt,2025-09-17,Raise More,$350,Brooklyn,NY,business,Refund,C,460684,2025-10-15
+other_receipt,2025-10-15,Four Lions Media,"$21,192.38",Rockville,MD,business,Refund,C,465459,2025-10-27
+expenditure,2024-11-18,Squarespace,$36,New York,NY,business,Website Hosting,D,467217,2025-10-30
+expenditure,2024-11-18,The UPS Store,$146.20,Sterling,VA,business,Shipping,D,467217,2025-10-30
+expenditure,2024-11-19,BerlinRosen,"$9,317.44",Washington,DC,business,Print and Digital Advertising,D,467217,2025-10-30
+expenditure,2024-11-19,Phoneburner,$165,Laguna Beach,CA,business,Phone Banking,D,467217,2025-10-30
+expenditure,2024-11-19,Truist,$20,Ashburn,VA,business,Bank Fees,D,467217,2025-10-30
+expenditure,2024-11-19,Truist,$5,Ashburn,VA,business,Bank Fees,D,467217,2025-10-30
+expenditure,2024-11-21,ASAP Printing & Mailing Co,$169.60,Alexandria,VA,business,Printing of Business Cards,D,467217,2025-10-30
+expenditure,2024-11-21,Matthew Bond,"$4,892",Mount Rainier,MD,individual,Phone Banking,D,467217,2025-10-30
+expenditure,2024-11-21,Walmart Supercenter,$43.16,Sterling,VA,business,Office Supplies,D,467217,2025-10-30
+expenditure,2024-11-23,Krish Gupta,$50,Arlington,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-23,Allie Guzulaitis,$70,Leesburg,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-23,Owen Kathart,$20,Vienna,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-23,NGP VAN,$789,Washington,DC,business,Software,D,467217,2025-10-30
+expenditure,2024-11-23,Scale to Win,"$1,832.09",Santa Ana,CA,business,Text Message Software,D,467217,2025-10-30
+expenditure,2024-11-23,Walmart Supercenter,$541,Sterling,VA,business,Office Supplies,D,467217,2025-10-30
+expenditure,2024-11-25,7-Eleven,$25.40,Sterling,VA,business,Meals,D,467217,2025-10-30
+expenditure,2024-11-25,Neha Badev,$100,Falls Church,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-25,Sohen Cheluvadi,$320,Glen Allen,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-25,CVS,$38.20,Herndon,VA,business,Office Supplies,D,467217,2025-10-30
+expenditure,2024-11-25,Brandon Green,$190,Arlington,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-25,Finn Hagler,$140,Ashburn,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-25,Harris Teeter,$54.08,Broadlands,VA,business,Food for Event,D,467217,2025-10-30
+expenditure,2024-11-25,Loudoun County Democratic Committee,"$2,000",Leesburg,VA,business,Filing Fee,D,467217,2025-10-30
+expenditure,2024-11-25,Pranav Palleti,$360,Herndon,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-25,Panera Bread,$65.86,Chantilly,VA,business,Meals,D,467217,2025-10-30
+expenditure,2024-11-25,Grace Verughese,$180,Chantilly,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-26,BerlinRosen,"$31,594.64",Washington,DC,business,Print and Digital Advertising,D,467217,2025-10-30
+expenditure,2024-11-26,Sam Edwards,$400,Richmond,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-26,Reilly Grant,$440,Washington,DC,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-26,Rocket Lawyer,$59.97,San Francisco,CA,business,Legal Services,D,467217,2025-10-30
+expenditure,2024-11-26,Truist,$36,Ashburn,VA,business,Bank Fees,D,467217,2025-10-30
+expenditure,2024-11-26,Truist,$36,Ashburn,VA,business,Bank Fees,D,467217,2025-10-30
+expenditure,2024-11-26,Truist,$36,Ashburn,VA,business,Bank Fees,D,467217,2025-10-30
+expenditure,2024-11-27,Kaustav Guttikonda,$320,Ashburn,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-27,Hannah Kim,$220,Fairfax,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-29,Evie Nyiasi,$250,Leesburg,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-11-29,Rithvik Vanteru,$160,Ashburn,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-12-02,Patrick Brown,$310,Alexandria,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-12-02,Monika Craven,$100,Arlington,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-12-02,Joel Desante,$500,Alexandria,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-12-02,Declan Galvin,$220,Leesburg,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-12-03,Dante Aralilhali,$100,Richmond,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-12-03,Grassroots Analytics,$250,Washington,DC,business,Software,D,467217,2025-10-30
+expenditure,2024-12-03,Katie Helge,$170,Leesburg,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-12-04,Jackson Covey,"$2,000",Falls Church,VA,individual,Consultant - Digital,D,467217,2025-10-30
+expenditure,2024-12-05,ASAP Printing & Mailing Co,$583,Alexandria,VA,business,Printing of Yard Signs,D,467217,2025-10-30
+expenditure,2024-12-06,NGP VAN,$175,Washington,DC,business,Software,D,467217,2025-10-30
+expenditure,2024-12-08,Delta Hotels Richmond Downtown,$105.67,Richmond,VA,business,Lodging,D,467217,2025-10-30
+expenditure,2024-12-09,Content Media Co,"$2,369",Rockville,MD,business,Digital Advertising,D,467217,2025-10-30
+expenditure,2024-12-09,Harris Teeter,$53.44,Broadlands,VA,business,Food for Event,D,467217,2025-10-30
+expenditure,2024-12-09,Zoom,$16.79,San Jose,CA,business,Software,D,467217,2025-10-30
+expenditure,2024-12-10,Connor Quin,$20,Vienna,VA,individual,Canvassing,D,467217,2025-10-30
+expenditure,2024-12-11,Guitar Center,$98,Fairfax,VA,business,Event Materials,D,467217,2025-10-30
+expenditure,2024-12-12,ASAP Printing & Mailing Co,$312.70,Alexandria,VA,business,Printing of Yard Signs,D,467217,2025-10-30
+expenditure,2024-12-12,Lucas Harrington,"$4,500",Washington,DC,individual,Consultant - Finance,D,467217,2025-10-30
+expenditure,2024-12-13,Jackson Boaz,$500,Washington,DC,individual,Website Design,D,467217,2025-10-30
+expenditure,2024-12-13,CVS,$21.52,Herndon,VA,business,Office Supplies,D,467217,2025-10-30
+expenditure,2024-12-16,Maddie Barbee,"$2,903",Bristow,VA,individual,Consultant - Finance,D,467217,2025-10-30
+expenditure,2024-12-16,"Blue Husky Group, LLC","$3,000",Peachtree Corners,GA,business,Consultant - Strategy,D,467217,2025-10-30
+expenditure,2024-12-16,Lucas Harrington,"$5,950",Washington,DC,individual,Consultant - Finance,D,467217,2025-10-30
+expenditure,2024-12-16,Squarespace,$36,New York,NY,business,Website Hosting,D,467217,2025-10-30
+expenditure,2024-12-17,Democratic Party of Virginia,"$6,781.14",Richmond,VA,party,Printing of Mail,D,467217,2025-10-30
+expenditure,2024-12-17,Democratic Party of Virginia,"$4,566.13",Richmond,VA,party,Printing of Mail,D,467217,2025-10-30
+expenditure,2024-12-17,Symmetry Media,"$38,333",Washington,DC,business,Digital Advertising,D,467217,2025-10-30
+expenditure,2024-12-17,Winning Connection Inc.,$750,Washington,DC,business,Phone Banking,D,467217,2025-10-30
+expenditure,2024-12-19,Phoneburner,$165,Laguna Beach,CA,business,Phone Banking,D,467217,2025-10-30
+expenditure,2024-12-20,Sage Media Planning and Placement,"$13,000",Washington,DC,business,Digital Advertising,D,467217,2025-10-30
+expenditure,2024-12-23,Content Media Co,"$2,474",Rockville,MD,business,Digital Advertising,D,467217,2025-10-30
+expenditure,2024-12-23,Symmetry Media,"$18,333",Washington,DC,business,Digital Advertising,D,467217,2025-10-30
+expenditure,2024-12-23,Truist,$227,Ashburn,VA,business,Bank Fees,D,467217,2025-10-30
+expenditure,2024-12-24,Democratic Party of Virginia,"$5,243.90",Richmond,VA,party,Printing of Mail,D,467217,2025-10-30
+expenditure,2024-12-24,Microsoft,$23.76,Redmond,WA,business,Software,D,467217,2025-10-30
+expenditure,2024-12-24,Pray Tell,$118.80,Philadelphia,PA,business,Meals,D,467217,2025-10-30
+expenditure,2024-12-24,Sage Media Planning and Placement,"$12,500",Washington,DC,business,Digital Advertising,D,467217,2025-10-30
+expenditure,2024-12-26,ActBlue Technical Services,"$5,098.46",West Somerville,MA,business,Credit Card Processing Fees,D,467217,2025-10-30
+expenditure,2024-12-26,McKenna Media,"$1,119.01",Baltimore,MD,business,Consultant - Communications,D,467217,2025-10-30
+expenditure,2024-12-26,Rocket Lawyer,$59.97,San Francisco,CA,business,Legal Services,D,467217,2025-10-30
+expenditure,2025-01-02,Content Media Co,"$2,500",Rockville,MD,business,Digital Advertising,D,436605,2025-04-15
+expenditure,2025-01-02,Singh PAC NC,"$2,000",West Bloomfield,MI,pac,Contribution Refund,D,436605,2025-04-15
+expenditure,2025-01-03,NGP VAN,$175,Washington,DC,business,Software,D,436605,2025-04-15
+expenditure,2025-01-06,The Home Depot,$30.67,Ashburn,VA,business,Office Supplies,D,436605,2025-04-15
+expenditure,2025-01-06,Tropical Smoothie,$24.71,Ashburn,VA,business,Meals,D,436605,2025-04-15
+expenditure,2025-01-06,Uber,$61.89,San Francisco,CA,business,Travel,D,436605,2025-04-15
+expenditure,2025-01-07,ActBlue Technical Services,$753.07,West Somerville,MA,business,Credit Card Processing Fees,D,436605,2025-04-15
+expenditure,2025-01-07,Content Media Co,"$1,625",Rockville,MD,business,Digital Advertising,D,436605,2025-04-15
+expenditure,2025-01-08,Maddie Barbee,"$7,500",Bristow,VA,individual,Consultant - Finance,D,436617,2025-04-15
+expenditure,2025-01-08,Exxon A-Plus,$22.59,Ashburn,VA,business,Canvassing Supplies,D,436617,2025-04-15
+expenditure,2025-01-09,Zoom,$16.79,San Jose,CA,business,Software,D,436617,2025-04-15
+expenditure,2025-01-10,The UPS Store,$59.32,Sterling,VA,business,Shipping,D,436617,2025-04-15
+expenditure,2025-01-12,Matt Fisher,$3.19,Mill Valley,CA,individual,Contribution Refund,D,436617,2025-04-15
+expenditure,2025-01-12,Lucas Harrington,"$6,750",Washington,DC,individual,Consultant - Finance,D,436617,2025-04-15
+expenditure,2025-01-13,Kannan for Virginia,"$29,267.93",Ashburn,VA,business,Coordinated Field Reimbursement,D,436617,2025-04-15
+expenditure,2025-01-15,Virginia House of Delegates,$74,Richmond,VA,business,Office Flag,D,436617,2025-04-15
+expenditure,2025-01-16,Squarespace,$36,New York,NY,business,Website Hosting,D,436617,2025-04-15
+expenditure,2025-01-21,Phoneburner,$165,Laguna Beach,CA,business,Phone Banking,D,436617,2025-04-15
+expenditure,2025-01-21,Truist,$505,Ashburn,VA,business,Bank Fees,D,436617,2025-04-15
+expenditure,2025-01-27,Rocket Lawyer,$59.97,San Francisco,CA,business,Legal Services,D,436617,2025-04-15
+expenditure,2025-02-06,Joshua Cobb,$350,Fredericksburg,VA,individual,Consultant - Field,D,436617,2025-04-15
+expenditure,2025-02-06,Hannah Eaves,"$1,069.33",Arlington,VA,individual,Travel Reimbursement,D,436617,2025-04-15
+expenditure,2025-02-06,NGP VAN,$175,Washington,DC,business,Software,D,436617,2025-04-15
+expenditure,2025-02-07,Virginia State Capitol,$150,Richmond,VA,business,Office Materials,D,436617,2025-04-15
+expenditure,2025-02-10,ASAP Printing & Mailing Co,$418.70,Alexandria,VA,business,Printing of Campaign Materials,D,436617,2025-04-15
+expenditure,2025-02-10,Zoom,$16.79,San Jose,CA,business,Software,D,436617,2025-04-15
+expenditure,2025-02-12,"Blue Husky Group, LLC","$4,215",Peachtree Corners,GA,business,Consultant - Strategy,D,436617,2025-04-15
+expenditure,2025-02-18,Squarespace,$36,New York,NY,business,Website Hosting,D,436617,2025-04-15
+expenditure,2025-02-18,The UPS Store,$420,Sterling,VA,business,PO Box Rental,D,436617,2025-04-15
+expenditure,2025-02-19,Phoneburner,$165,Laguna Beach,CA,business,Phone Banking,D,436617,2025-04-15
+expenditure,2025-02-21,Truist,$101,Ashburn,VA,business,Bank Fees,D,436617,2025-04-15
+expenditure,2025-02-26,Rocket Lawyer,$59.97,San Francisco,CA,business,Legal Services,D,436617,2025-04-15
+expenditure,2025-03-10,Zoom,$16.79,San Jose,CA,business,Software,D,436617,2025-04-15
+expenditure,2025-03-17,Squarespace,$36,New York,NY,business,Website Hosting,D,436617,2025-04-15
+expenditure,2025-03-19,Phoneburner,$165,Laguna Beach,CA,business,Phone Banking,D,436617,2025-04-15
+expenditure,2025-03-21,Truist,$37,Ashburn,VA,business,Bank Fees,D,436617,2025-04-15
+expenditure,2025-03-30,ActBlue Technical Services,$159.95,West Somerville,MA,business,Credit Card Processing Fees,D,436617,2025-04-15
+expenditure,2025-03-31,Marty for Delegate,$250,Leesburg,VA,candidate,Contribution,D,436617,2025-04-15
+expenditure,2025-04-01,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Dues,D,442160,2025-06-09
+expenditure,2025-04-04,Zoom,$13.38,San Jose,CA,business,Software,D,442160,2025-06-09
+expenditure,2025-04-07,NGP VAN,$183.75,Washington,DC,business,Software,D,442160,2025-06-09
+expenditure,2025-04-09,Zoom,$99.74,San Jose,CA,business,Software,D,442160,2025-06-09
+expenditure,2025-04-16,Squarespace,$36,New York,NY,business,Website Hosting,D,442160,2025-06-09
+expenditure,2025-04-16,T-Mobile,$182.33,Sterling,VA,business,Telecommunications,D,442160,2025-06-09
+expenditure,2025-04-18,Target,$22.66,Sterling,VA,business,Office Supplies,D,442160,2025-06-09
+expenditure,2025-04-21,Truist,$103,Ashburn,VA,business,Bank Fees,D,442160,2025-06-09
+expenditure,2025-04-22,Loudoun County Democratic Committee,$500,Leesburg,VA,business,Contribution,D,442160,2025-06-09
+expenditure,2025-04-23,Raise More,$175,Brooklyn,NY,business,Software,D,442160,2025-06-09
+expenditure,2025-04-28,NGP VAN,$183.75,Washington,DC,business,Software,D,442160,2025-06-09
+expenditure,2025-04-30,ActBlue Technical Services,$73.66,West Somerville,MA,business,Credit Card Processing Fees,D,442160,2025-06-09
+expenditure,2025-04-30,Rick's Custom Frame + Gallery,$191.10,Richmond,VA,business,Frame Purchase,D,442160,2025-06-09
+expenditure,2025-05-02,NGP VAN,$183.75,Washington,DC,business,Software,D,442160,2025-06-09
+expenditure,2025-05-07,Andrea Tovar,$300,Ashburn,VA,individual,Consulting,D,442160,2025-06-09
+expenditure,2025-05-09,Zoom,$99.74,San Jose,CA,business,Software,D,442160,2025-06-09
+expenditure,2025-05-15,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,442160,2025-06-09
+expenditure,2025-05-16,Squarespace,$36,New York,NY,business,Website Hosting,D,442160,2025-06-09
+expenditure,2025-05-21,Truist,$37,Ashburn,VA,business,Bank Fees,D,442160,2025-06-09
+expenditure,2025-05-23,Raise More,$175,Brooklyn,NY,business,Software,D,442160,2025-06-09
+expenditure,2025-05-26,Robert Scotto-Lavino,$312,Leesburg,VA,individual,Consulting and Mileage Reimbursement,D,442160,2025-06-09
+expenditure,2025-05-31,ActBlue Technical Services,$159.03,West Somerville,MA,business,Credit Card Processing Fees,D,442160,2025-06-09
+expenditure,2025-05-31,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,442160,2025-06-09
+expenditure,2025-06-01,Janine Perky,$2.50,Palo Alto,CA,individual,Contribution Refund,D,442160,2025-06-09
+expenditure,2025-06-05,ActBlue Technical Services,$3.96,West Somerville,MA,business,Credit Card Processing Fees,D,442160,2025-06-09
+expenditure,2025-06-09,Zoom,$100.79,San Jose,CA,business,Software,D,448425,2025-07-15
+expenditure,2025-06-11,Printing & Graphics of VA Inc.,$529.09,Richmond,VA,business,Printing of Campaign Materials,D,448425,2025-07-15
+expenditure,2025-06-12,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,448425,2025-07-15
+expenditure,2025-06-16,Squarespace,$36,New York,NY,business,Website Hosting,D,448425,2025-07-15
+expenditure,2025-06-18,Meriwether-Godsey Inc,"$6,024",Lynchburg,VA,business,Catering,D,448425,2025-07-15
+expenditure,2025-06-20,Treasurer of Virginia,"$1,796.22",Richmond,VA,business,Printed Materials,D,448425,2025-07-15
+expenditure,2025-06-23,Jon Pepper for School Board,$250,Aldie,VA,candidate,Contribution,D,448425,2025-07-15
+expenditure,2025-06-23,Raise More,$175,Brooklyn,NY,business,Software,D,448425,2025-07-15
+expenditure,2025-06-23,Truist,$15,Ashburn,VA,business,Bank Fees,D,448425,2025-07-15
+expenditure,2025-06-25,Eileen Martin,$694.86,Leesburg,VA,individual,T-Shirts,D,448425,2025-07-15
+expenditure,2025-06-25,Robert Scotto-Lavino,$250,Leesburg,VA,individual,Consulting,D,448425,2025-07-15
+expenditure,2025-06-26,Eileen Martin,$250,Leesburg,VA,individual,Consulting,D,448425,2025-07-15
+expenditure,2025-06-27,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,448425,2025-07-15
+expenditure,2025-06-30,ActBlue Technical Services,$133.90,West Somerville,MA,business,Credit Card Processing Fees,D,448425,2025-07-15
+expenditure,2025-06-30,NGP VAN,$183.75,Washington,DC,business,Software,D,448425,2025-07-15
+expenditure,2025-07-01,MaryKay Rodarte,$2.40,Phelan,CA,individual,Reimbursement,D,454176,2025-09-15
+expenditure,2025-07-02,Four Lions Media,"$1,390",Rockville,MD,business,Printed Materials,D,454176,2025-09-15
+expenditure,2025-07-02,NGP VAN,$183.75,Washington,DC,business,Software,D,454176,2025-09-15
+expenditure,2025-07-07,Canva,$15,Austin,TX,business,Software,D,454176,2025-09-15
+expenditure,2025-07-14,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,454176,2025-09-15
+expenditure,2025-07-16,Squarespace,$36,New York,NY,business,Website Hosting,D,454176,2025-09-15
+expenditure,2025-07-23,Raise More,$175,Brooklyn,NY,business,Software,D,454176,2025-09-15
+expenditure,2025-07-23,Truist,$15,Ashburn,VA,business,Bank Fees,D,454176,2025-09-15
+expenditure,2025-07-30,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,454176,2025-09-15
+expenditure,2025-07-31,ActBlue Technical Services,$408.58,West Somerville,MA,business,Credit Card Processing Fees,D,454176,2025-09-15
+expenditure,2025-08-02,NGP VAN,$183.75,Washington,DC,business,Software,D,454176,2025-09-15
+expenditure,2025-08-07,Canva,$15,Austin,TX,business,Software,D,454176,2025-09-15
+expenditure,2025-08-12,Eileen Martin,$500,Leesburg,VA,individual,Consulting,D,454176,2025-09-15
+expenditure,2025-08-12,Robert Scotto-Lavino,$500,Leesburg,VA,individual,Consulting,D,454176,2025-09-15
+expenditure,2025-08-12,Andrea Tovar,"$1,000",Ashburn,VA,individual,Consulting,D,454176,2025-09-15
+expenditure,2025-08-12,Virginia House Democratic Caucus,"$24,750",Richmond,VA,party,Caucus Contribution,D,454176,2025-09-15
+expenditure,2025-08-19,Squarespace,$36,New York,NY,business,Website Hosting,D,454176,2025-09-15
+expenditure,2025-08-21,Truist,$15,Ashburn,VA,business,Bank Fees,D,454176,2025-09-15
+expenditure,2025-08-25,Raise More,$175,Brooklyn,NY,business,Software,D,454176,2025-09-15
+expenditure,2025-08-30,Aroma Restaurant,$500,Fairfax,VA,business,Venue Rental,D,454176,2025-09-15
+expenditure,2025-08-31,ActBlue Technical Services,$355.70,West Somerville,MA,business,Credit Card Processing Fees,D,454176,2025-09-15
+expenditure,2025-09-02,Walkinshaw for Congress,$250,Merrifield,VA,candidate,Contribution,D,460684,2025-10-15
+expenditure,2025-09-03,Lisa for Virginia,$250,Midlothian,VA,business,Contribution,D,460684,2025-10-15
+expenditure,2025-09-05,Channing Brooks,$200,Williamsburg,VA,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-09-05,Canva,$15,Austin,TX,business,Software,D,460684,2025-10-15
+expenditure,2025-09-07,Virginia House Democratic Caucus,"$15,000",Richmond,VA,party,Contribution,D,460684,2025-10-15
+expenditure,2025-09-08,Four Lions Media,$220,Rockville,MD,business,Printed Materials,D,460684,2025-10-15
+expenditure,2025-09-12,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-09-16,Squarespace,$36,New York,NY,business,Website Hosting,D,460684,2025-10-15
+expenditure,2025-09-18,Alamo Rental Car,$187.55,Saint Louis,MO,business,Campaign related travel.,D,460684,2025-10-15
+expenditure,2025-09-18,Channing Brooks,$50,Williamsburg,VA,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-09-18,Costco,$21.49,Sterling,VA,business,Event Supplies,D,460684,2025-10-15
+expenditure,2025-09-18,Harris Teeter,$12.65,Broadlands,VA,business,Event Supplies,D,460684,2025-10-15
+expenditure,2025-09-18,Laura McCarty,$50,Leesburg,VA,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-09-18,Network Nova,$255.19,Falls Church,VA,business,Event Participation,D,460684,2025-10-15
+expenditure,2025-09-18,South Asian Impact Foundation,$309.27,Washington,DC,business,Event Attendance,D,460684,2025-10-15
+expenditure,2025-09-18,Ewan Thompson,$50,Arlington,VA,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-09-18,United Airlines,$571.03,Chicago,IL,business,Campaign related travel,D,460684,2025-10-15
+expenditure,2025-09-21,Aroma Restaurant,$975,Fairfax,VA,business,Venue Rental,D,460684,2025-10-15
+expenditure,2025-09-21,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Contribution,D,460684,2025-10-15
+expenditure,2025-09-23,Mike Hanes,$1.44,Morehead City,NC,individual,Refund,D,460684,2025-10-15
+expenditure,2025-09-23,Truist,$59,Ashburn,VA,business,Bank Fees,D,460684,2025-10-15
+expenditure,2025-09-23,Truist,$54.04,Ashburn,VA,business,Bank Fees,D,460684,2025-10-15
+expenditure,2025-09-25,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Contribution,D,460684,2025-10-15
+expenditure,2025-09-26,Amtrak,$424,Washington,DC,business,Campaign-related travel,D,460684,2025-10-15
+expenditure,2025-09-26,Lucas Harrington,"$1,080",Washington,DC,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-09-26,Lucas Harrington,"$1,000",Washington,DC,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-09-26,Lucas Harrington,$600,Washington,DC,individual,Reimbursement,D,460684,2025-10-15
+expenditure,2025-09-26,Harris Teeter,$111.55,Broadlands,VA,business,Event F&B,D,460684,2025-10-15
+expenditure,2025-09-26,Punjabi Junction,$257.90,Sterling,VA,business,Food & Beverage,D,460684,2025-10-15
+expenditure,2025-09-26,Spot Hero,$38.17,Chicago,IL,business,Parking,D,460684,2025-10-15
+expenditure,2025-09-26,The Boardroom,$204.69,New York,NY,business,Event F&B,D,460684,2025-10-15
+expenditure,2025-09-26,Uber,$18.36,San Francisco,CA,business,Travel,D,460684,2025-10-15
+expenditure,2025-09-26,Uber,$38.36,San Francisco,CA,business,Travel,D,460684,2025-10-15
+expenditure,2025-09-27,Steve Barrett,$500,Alexandria,VA,individual,Event Photography,D,460684,2025-10-15
+expenditure,2025-09-27,Andrea Tovar,$500,Ashburn,VA,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-09-30,ActBlue Technical Services,$694.24,West Somerville,MA,business,Transaction Fees,D,460684,2025-10-15
+expenditure,2025-09-30,ASAP Printing & Mailing Co,$901,Alexandria,VA,business,Printed Materials,D,460684,2025-10-15
+expenditure,2025-09-30,Four Lions Media,"$6,254.42",Rockville,MD,business,Printed Materials,D,460684,2025-10-15
+expenditure,2025-09-30,Four Lions Media,"$4,228.80",Rockville,MD,business,Printed Materials,D,460684,2025-10-15
+expenditure,2025-09-30,Four Lions Media,"$10,709.16",Rockville,MD,business,Printed Materials,D,460684,2025-10-15
+expenditure,2025-09-30,Eileen Martin,"$1,000",Leesburg,VA,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-09-30,Optimal,$500,Washington,DC,business,Digital Advertising,D,460684,2025-10-15
+expenditure,2025-09-30,Andrea Tovar,"$1,000",Ashburn,VA,individual,Consulting,D,460684,2025-10-15
+expenditure,2025-10-01,Loudoun County Democratic Committee,"$1,600",Leesburg,VA,business,Printed materials,D,465459,2025-10-27
+expenditure,2025-10-01,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Contribution,D,465459,2025-10-27
+expenditure,2025-10-02,NGP VAN,$367.50,Washington,DC,business,Software,D,465459,2025-10-27
+expenditure,2025-10-04,Virginia House Democratic Caucus,"$2,500",Richmond,VA,party,Contribution,D,465459,2025-10-27
+expenditure,2025-10-05,Canva,$15,Austin,TX,business,Software,D,465459,2025-10-27
+expenditure,2025-10-07,Virginia House Democratic Caucus,"$2,500",Richmond,VA,party,Contribution,D,465459,2025-10-27
+expenditure,2025-10-09,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Contribution,D,465459,2025-10-27
+expenditure,2025-10-12,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Contribution,D,465459,2025-10-27
+expenditure,2025-10-15,Democratic Party of Virginia,"$9,958.24",Richmond,VA,party,Printed materials,D,465459,2025-10-27
+expenditure,2025-10-15,Lucas Harrington,$690,Washington,DC,individual,Reimbursement,D,465459,2025-10-27
+expenditure,2025-10-15,Ted's Bulletin,$137.96,Ashburn,VA,business,F&B,D,465459,2025-10-27
+expenditure,2025-10-16,Democratic Party of Virginia,"$5,370.58",Richmond,VA,party,Printed materials,D,465459,2025-10-27
+expenditure,2025-10-16,Squarespace,$36,New York,NY,business,Website Hosting,D,465459,2025-10-27
+expenditure,2025-10-20,Democratic Party of Virginia,"$8,679.90",Richmond,VA,party,Printed materials,D,465459,2025-10-27
+expenditure,2025-10-20,Ewan Thompson,"$1,400",Arlington,VA,individual,Consulting,D,465459,2025-10-27
+expenditure,2025-10-20,Andrea Tovar,"$2,000",Ashburn,VA,individual,Consulting,D,465459,2025-10-27
+expenditure,2025-10-20,Virginia House Democratic Caucus,"$2,500",Richmond,VA,party,Contribution,D,465459,2025-10-27
+expenditure,2025-10-21,Truist,$15,Ashburn,VA,business,Bank Fees,D,465459,2025-10-27
+expenditure,2025-10-22,Lucas Harrington,"$4,250",Washington,DC,individual,Consulting,D,465459,2025-10-27
+expenditure,2025-10-23,ActBlue Technical Services,$749.87,West Somerville,MA,business,Transaction Fees,D,465459,2025-10-27
+expenditure,2025-10-23,Scale to Win,"$1,234",Santa Ana,CA,business,Text Message Software,D,465459,2025-10-27
+expenditure,2025-10-23,Virginia House Democratic Caucus,"$2,500",Richmond,VA,party,Contribution,D,465459,2025-10-27
+expenditure,2025-10-27,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Contribution,D,472812,2025-12-04
+expenditure,2025-10-29,K&R Branding Solutions,$747.50,Chantilly,VA,business,Campaign apparel,D,472812,2025-12-04
+expenditure,2025-10-29,Loudoun County,$10.26,Leesburg,VA,business,Temporary sign permit,D,472812,2025-12-04
+expenditure,2025-10-30,Arben for Sterling,$200,Ashburn,VA,business,Contribution,D,472812,2025-12-04
+expenditure,2025-10-31,Lucas Harrington,$75,Washington,DC,individual,Travel Reimbursement,D,472812,2025-12-04
+expenditure,2025-10-31,Ewan Thompson,$75,Arlington,VA,individual,Travel Reimbursement,D,472812,2025-12-04
+expenditure,2025-11-04,NGP VAN,$183.75,Washington,DC,business,Software,D,472812,2025-12-04
+expenditure,2025-11-04,Scale to Win,$644.21,San Francisco,CA,business,Text Message Software,D,472812,2025-12-04
+expenditure,2025-11-05,Canva,$15,Austin,TX,business,Software,D,472812,2025-12-04
+expenditure,2025-11-05,Lucas Harrington,"$1,000",Washington,DC,individual,Consulting,D,472812,2025-12-04
+expenditure,2025-11-05,Eileen Martin,$250,Leesburg,VA,individual,Consulting,D,472812,2025-12-04
+expenditure,2025-11-05,Ewan Thompson,$500,Arlington,VA,individual,Consulting,D,472812,2025-12-04
+expenditure,2025-11-05,Andrea Tovar,$250,Ashburn,VA,individual,Consulting,D,472812,2025-12-04
+expenditure,2025-11-10,Mike Jones for Senate,$300,Richmond,VA,candidate,Contribution,D,472812,2025-12-04
+expenditure,2025-11-10,Virginia Asian American and Pacific Islander Caucus Fund,$500,Virginia Beach,VA,business,Contribution,D,472812,2025-12-04
+expenditure,2025-11-11,Megan Davies,$120,Brambleton,VA,individual,Consulting,D,472812,2025-12-04
+expenditure,2025-11-12,Debra Gardner for Delegate,$200,North Chesterfield,VA,candidate,Contribution,D,472812,2025-12-04
+expenditure,2025-11-17,Squarespace,$36,New York,NY,business,Website Hosting,D,472812,2025-12-04
+expenditure,2025-11-19,Kannan for Virginia,"$1,000",Ashburn,VA,business,Contribution,D,472812,2025-12-04
+expenditure,2025-11-20,Friends of Rachna Sizemore Heizer 2025,$250,Springfield,VA,business,Contribution,D,472812,2025-12-04
+expenditure,2025-11-21,Truist,$55,Ashburn,VA,business,Bank Fees,D,472812,2025-12-04
+expenditure,2025-11-26,ActBlue Technical Services,$209.63,West Somerville,MA,business,Transaction Fees,D,472812,2025-12-04
 expenditure,2025-12-04,Canva,$15,Austin,TX,business,Software,D,478519,2026-01-14
 expenditure,2025-12-16,Squarespace,$36,New York,NY,business,Website Hosting,D,478519,2026-01-14
 expenditure,2025-12-22,Truist,$15,Ashburn,VA,business,Bank Fees,D,478519,2026-01-14

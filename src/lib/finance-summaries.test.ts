@@ -65,8 +65,32 @@ test("display helpers format official dates, sources, and percents in plain lang
   assert.equal(reportXmlUrl("495571"), "https://cfreports.elections.virginia.gov/Report/ReportXML/495571");
   assert.match(sourceLine(kilgore.latestReport), /filed July 14, 2026 \(Report 495571\)/);
   const late = lateFilingCount(kilgore.filings);
-  assert.equal(late.total, 22);
+  // 2021 scheduled reports were added when the 2021 state files were filled in (29 reports since Jan 2021).
+  assert.equal(late.total, 29);
   assert.equal(late.late, 4);
+  assert.ok(kilgore.filings?.every((f) => f.end >= "2021-01-01"));
+});
+
+test("Kilgore money history runs from 2021 to the latest report and matches official report XML totals", () => {
+  const h = kilgore.history;
+  assert.ok(h);
+  assert.equal(h.from, "2021-01-01");
+  assert.deepEqual(
+    h.years.map((y) => y.year),
+    [2026, 2025, 2024, 2023, 2022, 2021],
+  );
+  assert.ok(h.reports.every((r) => r.end >= "2021-01-01"));
+  // Checked against cfreports.elections.virginia.gov/Report/ReportXML/{id} on 2026-11-12.
+  const byId = Object.fromEntries(h.reports.map((r) => [r.reportId, r]));
+  assert.equal(byId["237971"].receiptsCents, 1_483_000);
+  assert.equal(byId["237971"].endingBalanceCents, 5_138_146);
+  assert.equal(byId["361382"].disbursementsCents, 28_841_421);
+  assert.equal(byId["431078"].endingBalanceCents, 20_473_023);
+  for (const y of h.years) {
+    assert.ok(y.donors.length <= 25);
+    assert.ok(y.donors.every((d) => (d.gifts ?? []).every((g) => (g.date ?? "").startsWith(String(y.year)))));
+  }
+  assert.equal(h.years.find((y) => y.year === 2026)?.raisedCents, kilgore.raisedCycleCents);
 });
 
 test("Kilgore spending categories include itemized payees so a category can be opened to see who was paid", () => {

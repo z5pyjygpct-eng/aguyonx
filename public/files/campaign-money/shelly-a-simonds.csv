@@ -3,6 +3,246 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$30,620.66",,VA,,"From official Schedule H, November 2025 election cycle",H,494952,2026-07-13
 summary,2026-06-30,Raised this cycle,"$14,310.20",,,,Total receipts this election cycle (Schedule H),H,494952,2026-07-13
 summary,2026-06-30,Spent this cycle,"$21,411.34",,,,Total disbursements this election cycle (Schedule H),H,494952,2026-07-13
+contribution,2025-01-02,Suzy Breit,"$1,500",Virginia Beach,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-07,Raymond Cingale,$500,Williamsburg,VA,individual,,A,435891,2025-04-14
+contribution,2025-01-02,SEIU COPE,$500,Washington,DC,individual,,A,435891,2025-04-14
+contribution,2025-03-07,Hanh Deniston,$200,Colonial Heights,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-09,Allan DeWall,$50,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-14,Allan DeWall,$25,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-26,Allan DeWall,$50,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-05,W. Hardy Eshbaugh,$300,Oxford,OH,individual,,A,435891,2025-04-14
+contribution,2025-03-05,Bintao Feng,$250,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-19,Joshua Goff,$500,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-02-23,Mark Goldstein,$10,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-05,Mark Goldstein,$100,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-23,Mark Goldstein,$10,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-14,Griffin Tanner Oasis LLC,"$1,000",Newport News,VA,business,,A,435891,2025-04-14
+contribution,2025-03-06,Sue Gunter,$250,Alexandria,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-25,Stanley Gutkowski,$150,Herndon,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-31,Anne Henry,$500,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-02-23,Loren Hershey,$185,Oakton,VA,individual,,A,435891,2025-04-14
+contribution,2025-01-06,Home Builders Association of Virginia BuildPAC,"$2,500",Richmond,VA,pac,,A,435891,2025-04-14
+contribution,2025-03-31,Ms. Kathy Y. Hornsby,$250,Williamsburg,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-24,Brad Jones,$250,Alexandria,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-26,Mr. Jay M Klebanoff,$250,Virginia Beach,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-27,Fred Kohlman,$300,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-31,Julia Maher,$500,Los Angeles,CA,individual,,A,435891,2025-04-14
+contribution,2025-03-17,Thomas W. Meehan,$500,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-10,Elizabeth Micklem,$250,Alexandria,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-26,Michael Millard-Lowe,$200,Norfolk,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-21,Patricia Moseley,$250,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-01-02,Warren L. Nelson,$200,Arlington,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-19,Beth Newsom,$250,Arlington,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-09,Elizabeth Anne Parker,"$1,000",Yorktown,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-31,Jay S. Paul,$500,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-16,Ben Redekop,$50,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-21,Ben Redekop,$100,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-07,Stephanie Ridder,$250,Flint Hill,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-05,Riverview Property Management LLC,"$1,000",Newport News,VA,business,,A,435891,2025-04-14
+contribution,2025-03-17,Thomas C. Spavins,$250,Arlington,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-10,Dianne Stoddard,"$2,000",Vienna,VA,individual,,A,435891,2025-04-14
+contribution,2025-01-02,Sugar Creek Realty,$250,Saint Louis,MO,business,,A,435891,2025-04-14
+contribution,2025-03-08,Dr. Gary A. Tanner,$500,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-01-06,VaOurWay,"$1,000",Richmond,VA,pac,,A,435891,2025-04-14
+contribution,2025-01-04,VEA Fund for Children and Public Education,"$5,000",Richmond,VA,pac,,A,435891,2025-04-14
+contribution,2025-03-10,Christina Verderosa,$150,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-09,Lee Vreeland,$500,Newport News,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-06,Baylee Wang,$500,Williamsburg,VA,individual,,A,435891,2025-04-14
+contribution,2025-03-21,Westmoreland Development LLC,$500,Newport News,VA,business,,A,435891,2025-04-14
+contribution,2025-05-30,"American HealthCare, LLC","$1,000",Roanoke,VA,business,,A,474054,2025-12-30
+contribution,2025-05-25,Abby F. Anderson,$250,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-04-28,Jean Stephens Arrington,$200,Richmond,VA,individual,,A,474054,2025-12-30
+contribution,2025-04-03,Glen Besa,$125,North Chesterfield,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-11,Ellen Breslow Newhouse,$250,New York,NY,individual,,A,474054,2025-12-30
+contribution,2025-05-23,Ellen Breslow Newhouse,$250,New York,NY,individual,,A,474054,2025-12-30
+contribution,2025-04-26,Randolph W. Butler,$200,Falls Church,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-02,Randolph W. Butler,$200,Falls Church,VA,individual,,A,474054,2025-12-30
+contribution,2025-04-26,Raymond Cingale,$250,Williamsburg,VA,individual,,A,474054,2025-12-30
+contribution,2025-04-24,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,A,474054,2025-12-30
+contribution,2025-06-04,Linda Collins,$200,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-04-30,Mr. John R. Curtis Jr.,$250,Williamsburg,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-08,Barbara D. Davis,$250,Arlington,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-08,Camelia Deller,$200,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-19,Tara Epes,$200,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-08,Bintao Feng,$250,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-12,Ms. Lynne Julia Fiscella,$500,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-06-02,Paul A. Fiscella,$200,Williamsburg,VA,individual,,A,474054,2025-12-30
+contribution,2025-06-05,Nancy Guy,$500,Virginia Beach,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-12,Ms. Gale A. Harvey,"$2,000",Hampton,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-30,Ms. Kathy Y. Hornsby,$250,Williamsburg,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-21,Mary Kate Kitay,$200,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-04-11,James T. Lang,$250,Chesapeake,VA,individual,,A,474054,2025-12-30
+contribution,2025-04-04,James Lawrence,$250,Williamsburg,VA,individual,,A,474054,2025-12-30
+contribution,2025-04-28,James Lawrence,$100,Williamsburg,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-03,Kevin Lynch,$200,Charlottesville,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-15,Ms. Andria P. McClellan,$250,Norfolk,VA,individual,,A,474054,2025-12-30
+contribution,2025-06-02,Barry D Menser,$250,Hampton,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-22,Marlene Montandon,$200,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-08,Richard Patton,$200,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-06-05,Jay S. Paul,$500,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-06-04,Keith Perkins,$200,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-16,Ben Redekop,$100,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-08,Neil J. Rice,$250,Prattville,AL,individual,,A,474054,2025-12-30
+contribution,2025-05-15,Mr. Louis Farthing Ryan,"$1,000",Norfolk,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-12,Oliver Semmes,"$1,000",Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-07,Warren A Stewart,$200,Norfolk,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-07,Parker Stokes,$200,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-10,John Henry Stover,$100,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-10,John Henry Stover,$250,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-31,Eugene Sullivan,$200,Reston,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-16,The Virginia Apartment Management Associaton PAC,$500,Richmond,VA,pac,,A,474054,2025-12-30
+contribution,2025-05-07,The Virginia Forward PAC,"$1,000",Springfield,VA,pac,,A,474054,2025-12-30
+contribution,2025-05-02,Jennifer W Tierney,$250,Williamsburg,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-04,Peter Torcicollo,$250,Plainfield,NJ,individual,,A,474054,2025-12-30
+contribution,2025-05-09,"United Food and Commercial Workers International Union, AFL-CIO, CLC",$500,Landover,MD,pac,,A,474054,2025-12-30
+contribution,2025-04-29,VA Manufacturing & Modular Housing Association PAC,$250,Henrico,VA,pac,,A,474054,2025-12-30
+contribution,2025-05-14,VaOurWay,$500,Richmond,VA,pac,,A,474054,2025-12-30
+contribution,2025-06-02,Virginia American Federation of Labor and Congress of Industrial Organizations,$500,Richmond,VA,business,,A,474054,2025-12-30
+contribution,2025-05-09,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,474054,2025-12-30
+contribution,2025-05-21,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,A,474054,2025-12-30
+contribution,2025-04-24,"Williams Mullen Clark & Dobbins, P.C.",$250,Richmond,VA,business,,A,474054,2025-12-30
+contribution,2025-06-02,Mr. Alan Steven Witt,$250,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-27,Patrick M. Wright,$200,Newport News,VA,individual,,A,474054,2025-12-30
+contribution,2025-05-05,York Co. Professional Firefighters & Emergency Medical Services PAC,"$1,500",Yorktown,VA,pac,,A,474054,2025-12-30
+contribution,2025-06-16,Maritsa Alger,$250,Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-06,Christopher P. Watkins Jr.,$250,Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-17,Bob Beard,$250,Charlottesville,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-11,Capital Results,$500,Richmond,VA,business,,A,474058,2025-12-30
+contribution,2025-06-09,Commissioner of the Revenue Political Action Committee,$250,Staunton,VA,pac,,A,474058,2025-12-30
+contribution,2025-06-27,Joshua M David,$500,Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-27,Rebecca P. Fass,"$1,300",Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-07,Bintao Feng,$250,Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-14,Mr. Pax Goodson,$250,Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-16,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,474058,2025-12-30
+contribution,2025-06-07,Rolland Johnson,$250,Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-06,Kevin Jordan,$200,Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-07,Susan M. Lang,$250,Chesapeake,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-27,Mid-Atlantic Pipe Traders Association,$500,Columbia,MD,business,,A,474058,2025-12-30
+contribution,2025-06-07,Ross A. Mugler,$250,Hampton,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-23,Christine Payne,$200,Williamsburg,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-09,Mrs. Carolyn Rye,$150,Virginia Beach,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-07,Michelle Bedford Sheeler,$300,Poquoson,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-07,Mickey A Simonds,$200,Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-07,Mrs. Diane L. Sinclair,$200,Newport News,VA,individual,,A,474058,2025-12-30
+contribution,2025-06-07,TAV-PAC,$500,Virginia Beach,VA,pac,,A,474058,2025-12-30
+contribution,2025-06-27,Margaret Ullman,$125,Newtown,PA,individual,,A,474058,2025-12-30
+contribution,2025-06-27,VEA Fund for Children and Public Education,$500,Richmond,VA,pac,,A,474058,2025-12-30
+contribution,2025-06-09,Virginia Beer Wholesalers Association Political Action Committee,$500,Richmond,VA,pac,,A,474058,2025-12-30
+contribution,2025-07-18,"Altria Client Services, LLC","$1,500",Richmond,VA,business,,A,474059,2025-12-30
+contribution,2025-08-20,"Amazon.com Services, LLC",$500,Washington,DC,business,,A,474059,2025-12-30
+contribution,2025-08-27,"American Federation of State, County, and Municipal Employees","$3,000",Washington,DC,business,,A,474059,2025-12-30
+contribution,2025-07-18,Anheuser Busch Companies,$250,Saint Louis,MO,business,,A,474059,2025-12-30
+contribution,2025-08-15,Neal D. Barnard MD,$200,Washington,DC,individual,,A,474059,2025-12-30
+contribution,2025-08-29,"Capital One Services, LLC",$500,Reston,VA,business,,A,474059,2025-12-30
+contribution,2025-08-18,Peter Cari,$250,Arlington,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-20,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,A,474059,2025-12-30
+contribution,2025-08-15,Eilene C. Cohhn,$400,Bethesda,MD,individual,,A,474059,2025-12-30
+contribution,2025-08-08,Communications Workers of America Committee on Political Education,$500,Lanham,MD,business,,A,474059,2025-12-30
+contribution,2025-08-15,Bradley D Jones,$500,Alexandria,VA,individual,,A,474059,2025-12-30
+contribution,2025-07-21,Paul Dain,$10,Evanston,IL,individual,,A,474059,2025-12-30
+contribution,2025-07-21,Paul Dain,$100,Evanston,IL,individual,,A,474059,2025-12-30
+contribution,2025-07-21,Paul Dain,$50,Evanston,IL,individual,,A,474059,2025-12-30
+contribution,2025-08-13,Everytown for Gun Safety Action Fund,"$1,000",New York,NY,business,,A,474059,2025-12-30
+contribution,2025-08-22,Kevin E. Fowler,$150,Suffolk,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-21,Rebecca Francese,$150,Hampton,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-21,Rebecca Francese,$150,Hampton,VA,individual,,A,474059,2025-12-30
+contribution,2025-07-18,David C. Frederick,"$2,500",Washington,DC,individual,,A,474059,2025-12-30
+contribution,2025-07-21,Ann Glynn,$25.25,Evanston,IL,individual,,A,474059,2025-12-30
+contribution,2025-08-15,Greater VA Carpenters PEC,"$5,000",Ashland,VA,pac,,A,474059,2025-12-30
+contribution,2025-08-08,Hampton Roads Business Roundtable PAC,"$1,000",Norfolk,VA,pac,,A,474059,2025-12-30
+contribution,2025-08-29,International Union of Operating Engineers Local No. 147,"$1,000",Norfolk,VA,business,,A,474059,2025-12-30
+contribution,2025-07-14,Karla T. Jurvetson,$250,Los Altos,CA,individual,,A,474059,2025-12-30
+contribution,2025-08-15,Steve Kehrli,$750,Norfolk,VA,individual,,A,474059,2025-12-30
+contribution,2025-07-09,James Lawrence,$250,Williamsburg,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-20,William H. Leighty,$250,Richmond,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-22,Monty Mason,$250,Williamsburg,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-29,McGuireWoods,$250,Richmond,VA,business,,A,474059,2025-12-30
+contribution,2025-08-16,Austin Morrill,$50,Centreville,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-25,Austin Morrill,$50,Centreville,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-30,Austin Morrill,$50,Centreville,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-20,David Mumford,$500,Newport News,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-15,Ingrid Newkirk,$250,Norfolk,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-22,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,A,474059,2025-12-30
+contribution,2025-08-16,Ben Redekop,$100,Newport News,VA,individual,,A,474059,2025-12-30
+contribution,2025-07-12,Naomi Rhodes,$50,Newport News,VA,individual,,A,474059,2025-12-30
+contribution,2025-07-22,Naomi Rhodes,$50,Newport News,VA,individual,,A,474059,2025-12-30
+contribution,2025-07-28,Naomi Rhodes,$50,Newport News,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-05,Naomi Rhodes,$50,Newport News,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-15,Naomi Rhodes,$50,Newport News,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-22,Naomi Rhodes,$25,Newport News,VA,individual,,A,474059,2025-12-30
+contribution,2025-07-15,Susan Ryan,"$1,000",Wellesley,MA,individual,,A,474059,2025-12-30
+contribution,2025-08-22,Willard B. Stouffer Jr.,$150,San Marcos,TX,individual,,A,474059,2025-12-30
+contribution,2025-08-20,"Strata Solar, LLC",$500,Durham,NC,business,,A,474059,2025-12-30
+contribution,2025-08-21,Leonard Tengco,$125,Vienna,VA,individual,,A,474059,2025-12-30
+contribution,2025-08-20,Virginia American Federation of Labor and Congress of Industrial Organizations,$500,Richmond,VA,business,,A,474059,2025-12-30
+contribution,2025-08-08,Virginia Hospital & Healthcare Association Political Action Committee,$500,Richmond,VA,pac,,A,474059,2025-12-30
+contribution,2025-07-18,Virginia Sheriffs' Association,$250,Richmond,VA,pac,,A,474059,2025-12-30
+contribution,2025-08-08,WinVirginia,"$1,000",Richmond,VA,pac,,A,474059,2025-12-30
+contribution,2025-08-22,York Co. Professional Firefighters & Emergency Medical Services PAC,$250,Yorktown,VA,pac,,A,474059,2025-12-30
+contribution,2025-09-25,Barry Boothe,$500,San Francisco,CA,individual,,A,474060,2025-12-30
+contribution,2025-09-24,"Caesars Enterprises, Inc.","$1,000",Las Vegas,NV,business,,A,474060,2025-12-30
+contribution,2025-09-19,Michael Casey,$200,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-16,Comcast Corporation,$500,Philadelphia,PA,business,,A,474060,2025-12-30
+contribution,2025-09-30,"Comstock Holdings Companies, Inc.","$5,000",Reston,VA,business,,A,474060,2025-12-30
+contribution,2025-09-23,Cozen O'Connor,$500,Philadelphia,PA,business,,A,474060,2025-12-30
+contribution,2025-09-15,Timothy M. Dolan Jr.,$120,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-23,DRIVE Committee,$500,Washington,DC,pac,,A,474060,2025-12-30
+contribution,2025-09-02,Michelle Ferebee,$250,Hampton,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-15,William H Ferguson III,$500,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-11,Joshua Goff,$250,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-19,Diane Griffiths,$200,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-19,Ms. Gale A. Harvey,"$5,000",Hampton,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-18,Hassan Hassan,$150,Yorktown,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-30,Clyde A Haulman,$150,Williamsburg,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-11,Anne Henry,$500,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-15,Hon. Daun S. Hester,$200,Norfolk,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-28,Katherine Hoffmann,$150,Falls Church,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-24,Home Builders Association of Virginia BuildPAC,"$3,000",Richmond,VA,pac,,A,474060,2025-12-30
+contribution,2025-09-23,"Hunton Andrews Kurth, LLC",$500,Richmond,VA,business,,A,474060,2025-12-30
+contribution,2025-09-23,Counterspark Inc.,$250,Washington,DC,individual,,A,474060,2025-12-30
+contribution,2025-09-15,International Brotherhood of Electrical Workers PAC Voluntary Fund,"$1,000",Washington,DC,pac,,A,474060,2025-12-30
+contribution,2025-09-04,James Lawrence,$250,Williamsburg,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-23,"Macaulay Jamerson Satterlund & Sessa, P.C.",$250,Richmond,VA,business,,A,474060,2025-12-30
+contribution,2025-09-16,Julia Maher,$250,Los Angeles,CA,individual,,A,474060,2025-12-30
+contribution,2025-09-12,RC Miller,$500,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-30,Kathryn Nelson,"$2,000",Falls Church,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-12,Diana Onken,$500,Fairfield,CT,individual,,A,474060,2025-12-30
+contribution,2025-09-21,Nancy Petters,$500,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-19,Karla M. Polito,$150,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-30,Naomi Rhodes,$25,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-30,Rouse for Senate,$500,Virginia Beach,VA,candidate,,A,474060,2025-12-30
+contribution,2025-09-16,Rajinder Singh,$250,Williamsburg,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-26,John Henry Stover,$120,Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-09-30,Tidewater Builders Association PAC,"$2,000",Chesapeake,VA,pac,,A,474060,2025-12-30
+contribution,2025-09-29,United Steelworkers,$500,Frankfort,KY,business,,A,474060,2025-12-30
+contribution,2025-09-23,UpVote Virginia PAC,$500,Richmond,VA,pac,,A,474060,2025-12-30
+contribution,2025-09-19,"Victory Parking Management, LLC","$1,000",Newport News,VA,business,,A,474060,2025-12-30
+contribution,2025-09-15,Virginia American Federation of Labor and Congress of Industrial Organizations,"$1,000",Richmond,VA,business,,A,474060,2025-12-30
+contribution,2025-09-29,Virginia American Federation of Labor and Congress of Industrial Organizations,"$1,000",Richmond,VA,business,,A,474060,2025-12-30
+contribution,2025-09-23,Virginia Beverage Association PAC,$750,Richmond,VA,pac,,A,474060,2025-12-30
+contribution,2025-09-23,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,474060,2025-12-30
+contribution,2025-09-24,Virginia Hospitality & Travel,$500,Richmond,VA,business,,A,474060,2025-12-30
+contribution,2025-09-30,Mr. Robert E. Yancey,"$2,500",Newport News,VA,individual,,A,474060,2025-12-30
+contribution,2025-10-01,Ruth Amundsen,$500,Norfolk,VA,individual,,A,474062,2025-12-30
+contribution,2025-10-16,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,A,474062,2025-12-30
+contribution,2025-10-09,SEIU COPE,"$1,000",Washington,DC,individual,,A,474062,2025-12-30
+contribution,2025-10-13,"Freedom Virginia, Inc.","$1,000",Arlington,VA,business,,A,474062,2025-12-30
+contribution,2025-10-16,Barbara J Fried Esq,"$1,000",Crozet,VA,individual,,A,474062,2025-12-30
+contribution,2025-10-18,Julianne Helms Favin,$500,Gaithersburg,MD,individual,,A,474062,2025-12-30
+contribution,2025-10-02,Julia Lathrop,$500,San Francisco,CA,individual,,A,474062,2025-12-30
+contribution,2025-10-21,Old Dominion Highway Contractors Association,$250,Charlottesville,VA,pac,,A,474062,2025-12-30
+contribution,2025-10-02,Elizabeth Parker,"$1,500",Newport News,VA,individual,,A,474062,2025-12-30
+contribution,2025-10-21,Reynolds Services Company,"$1,000",Winston Salem,NC,business,,A,474062,2025-12-30
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$1,000",Portsmouth,VA,business,,A,474062,2025-12-30
+contribution,2025-10-21,Sentara Health Plans,$250,Virginia Beach,VA,business,,A,474062,2025-12-30
+contribution,2025-10-16,United Association of Journeymen and Apprentices of the Plumbing and Pipe Fitting Industry,$500,Norfolk,VA,business,,A,474062,2025-12-30
+contribution,2025-10-16,VA Sierra Club Political Action Committee,$250,Richmond,VA,pac,,A,474062,2025-12-30
+contribution,2025-10-16,Virginia Cable Telecommunications Association,"$1,000",Richmond,VA,pac,,A,474062,2025-12-30
+contribution,2025-10-16,Virginia Maritime Association Maritime Issues Council PAC,$500,Norfolk,VA,pac,,A,474062,2025-12-30
+contribution,2025-11-06,John Koza,$500,Los Altos,CA,individual,,A,474064,2025-12-30
+contribution,2025-10-24,Christine Payne,$300,Williamsburg,VA,individual,,A,474064,2025-12-30
+contribution,2025-10-24,Dianne Stoddard,"$1,000",Vienna,VA,individual,,A,474064,2025-12-30
+contribution,2025-11-14,"Strata Solar, LLC",$500,Durham,NC,business,,A,474064,2025-12-30
 contribution,2025-12-03,International Union of Painters and Allied Trades,$250,Hanover,MD,pac,,A,475651,2026-01-08
 contribution,2026-01-13,"Arrow International, Inc.",$500,Cleveland,OH,business,,A,494952,2026-07-13
 contribution,2026-04-17,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,494952,2026-07-13
@@ -14,7 +254,273 @@ contribution,2026-06-08,Textron Political Action Committee,$250,Providence,RI,pa
 contribution,2026-01-09,Vantage Data Centers Management,$500,Santa Clara,CA,business,,A,494952,2026-07-13
 contribution,2026-04-30,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,494952,2026-07-13
 contribution,2026-04-30,Virginia Sheriffs' Association,$250,Richmond,VA,pac,,A,494952,2026-07-13
+in_kind,2025-05-14,Realtors Political Action Committee of Virginia,$578.54,Glen Allen,VA,pac,Event Food & Beverages,B,474054,2025-12-30
+in_kind,2025-08-23,Janice Duarte,$61,Pleasanton,CA,individual,Postcard Postage,B,474059,2025-12-30
+in_kind,2025-08-31,Everytown for Gun Safety Action Fund,$173,New York,NY,business,Staff time for video production,B,474059,2025-12-30
+in_kind,2025-08-31,Save the Children Action Network,$453.55,Washington,DC,business,Staff Time,B,474059,2025-12-30
+in_kind,2025-08-31,Save the Children Action Network,$20.25,Washington,DC,business,Graphic Design for Endorsement,B,474059,2025-12-30
+in_kind,2025-09-22,Sandra Johnson,$301.84,Fitchburg,WI,individual,Postage and Party Supplies,B,474060,2025-12-30
+in_kind,2025-09-19,Dawn Ramirez,$255.20,Newport News,VA,individual,Food and Drinks for a Fundraiser,B,474060,2025-12-30
+in_kind,2025-09-23,Ms. Shelly Simonds,$102.25,Newport News,VA,individual,Event Food,B,474060,2025-12-30
+in_kind,2025-09-23,Virginia Credit Union PAC,$497.76,Richmond,VA,pac,Food & Fundraiser Hosting,B,474060,2025-12-30
+in_kind,2025-09-02,Virginia State Building & Construction Trades Council,$401.02,Richmond,VA,business,Labor Breakfast,B,474060,2025-12-30
+in_kind,2025-09-08,Vote For Equality,$521.27,Washington,DC,pac,Staff Time,B,474060,2025-12-30
+in_kind,2025-10-26,Virginians for the Commonwealth,"$2,875",Richmond,VA,business,Field and Canvassing Services,B,474064,2025-12-30
+in_kind,2025-10-27,Virginians for the Commonwealth,"$1,000",Richmond,VA,business,Field and Canvassing Services,B,474064,2025-12-30
+in_kind,2025-10-29,Virginians for the Commonwealth,"$1,000",Richmond,VA,business,Field and Canvassing Services,B,474064,2025-12-30
+in_kind,2025-10-30,Virginians for the Commonwealth,"$2,725",Richmond,VA,business,Field and Canvassing Services,B,474064,2025-12-30
 in_kind,2026-05-14,Realtors Political Action Committee of Virginia,$578.54,Glen Allen,VA,pac,Event Food & Beverages,B,494952,2026-07-13
+expenditure,2025-01-01,Google LLC,$12.69,Mountain View,CA,business,Google Suite,D,435891,2025-04-14
+expenditure,2025-01-01,Google LLC,$64.80,Mountain View,CA,business,Software,D,435891,2025-04-14
+expenditure,2025-01-02,Kelly Fleming,"$1,500",Denver,CO,individual,Finance Consulting,D,435891,2025-04-14
+expenditure,2025-01-05,ActBlue,$87.89,Somerville,MA,business,Merchant Service Fee,D,435891,2025-04-14
+expenditure,2025-01-06,Truist Bank,$4.95,Newport News,VA,business,Bank Fee,D,435891,2025-04-14
+expenditure,2025-01-10,"Treasurer, City of Newport News",$352.80,Newport News,VA,business,Filing Fee,D,435891,2025-04-14
+expenditure,2025-01-10,Truist Bank,$149,Newport News,VA,business,Bank Fee,D,435891,2025-04-14
+expenditure,2025-01-12,ActBlue,$4.39,Somerville,MA,business,Merchant Service Fee,D,435891,2025-04-14
+expenditure,2025-01-14,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,435891,2025-04-14
+expenditure,2025-01-31,Tara Epes,"$1,125",Newport News,VA,individual,Campaign Services,D,435891,2025-04-14
+expenditure,2025-01-31,U.S. Department of the Treasury,$38.26,Washington,DC,business,Payroll Taxes,D,435891,2025-04-14
+expenditure,2025-01-31,Cheryl Wilfred,$230.87,Williamsburg,VA,individual,Campaign Services,D,435891,2025-04-14
+expenditure,2025-02-03,Google LLC,$76.41,Mountain View,CA,business,Software,D,435891,2025-04-14
+expenditure,2025-02-03,Google LLC,$12.77,Mountain View,CA,business,Google Suite,D,435891,2025-04-14
+expenditure,2025-02-03,Michaels,$42.26,Newport News,VA,business,Supplies,D,435891,2025-04-14
+expenditure,2025-02-03,Staples,$26.16,Cherry Hill,NJ,business,Supplies,D,435891,2025-04-14
+expenditure,2025-02-18,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,435891,2025-04-14
+expenditure,2025-02-21,Truist Bank,$5,Newport News,VA,business,Bank Fee,D,435891,2025-04-14
+expenditure,2025-02-23,ActBlue,$10.68,Somerville,MA,business,Merchant Service Fee,D,435891,2025-04-14
+expenditure,2025-02-28,Tara Epes,$150,Newport News,VA,individual,Campaign Services,D,435891,2025-04-14
+expenditure,2025-02-28,U.S. Department of the Treasury,$38.26,Washington,DC,business,Payroll Taxes,D,435891,2025-04-14
+expenditure,2025-02-28,Cheryl Wilfred,$230.87,Williamsburg,VA,individual,Campaign Services,D,435891,2025-04-14
+expenditure,2025-03-02,ActBlue,$1.98,Somerville,MA,business,Merchant Service Fee,D,435891,2025-04-14
+expenditure,2025-03-03,Google LLC,$12.77,Mountain View,CA,business,Google Suite,D,435891,2025-04-14
+expenditure,2025-03-03,Google LLC,$79.20,Mountain View,CA,business,Software,D,435891,2025-04-14
+expenditure,2025-03-03,NGP VAN Inc.,"$1,050",Washington,DC,business,Database Management,D,435891,2025-04-14
+expenditure,2025-03-04,Newport News Parks & Recreation,$125,Newport News,VA,business,Event Space Rental,D,435891,2025-04-14
+expenditure,2025-03-06,Friends of Don Scott,$120,Portsmouth,VA,business,Event Tickets,D,435891,2025-04-14
+expenditure,2025-03-08,Costco,$142.59,Newport News,VA,business,Event Food,D,435891,2025-04-14
+expenditure,2025-03-09,ActBlue,$117.55,Somerville,MA,business,Merchant Service Fee,D,435891,2025-04-14
+expenditure,2025-03-09,Jay Jones for Virginia,$250,Williamsburg,VA,business,Donation,D,435891,2025-04-14
+expenditure,2025-03-09,Newport News Parks & Recreation,$10,Newport News,VA,business,Event Space Rental,D,435891,2025-04-14
+expenditure,2025-03-10,Shelly Simonds,$141,Newport News,VA,individual,Catering Reimbursement,D,435891,2025-04-14
+expenditure,2025-03-14,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,435891,2025-04-14
+expenditure,2025-03-16,ActBlue,$105.11,Somerville,MA,business,Merchant Service Fee,D,435891,2025-04-14
+expenditure,2025-03-20,Lerrah Fenty,$50,Newport News,VA,individual,Graphic Design,D,435891,2025-04-14
+expenditure,2025-03-20,Jenna Gomez,$100,Newport News,VA,individual,Graphic Design,D,435891,2025-04-14
+expenditure,2025-03-20,Skrimp Shack,$120.31,Newport News,VA,business,Lunch Meeting,D,435891,2025-04-14
+expenditure,2025-03-21,Truist Bank,$5,Newport News,VA,business,Bank Fee,D,435891,2025-04-14
+expenditure,2025-03-23,ActBlue,$50.78,Somerville,MA,business,Merchant Service Fee,D,435891,2025-04-14
+expenditure,2025-03-26,OfficeMax,$36.86,Newport News,VA,business,Copies,D,435891,2025-04-14
+expenditure,2025-03-27,Golden Corral,$31.19,Newport News,VA,business,Lunch Meeting,D,435891,2025-04-14
+expenditure,2025-03-30,ActBlue,$75.08,Somerville,MA,business,Merchant Service Fee,D,435891,2025-04-14
+expenditure,2025-03-31,ActBlue,$93.25,Somerville,MA,business,Merchant Service Fee,D,435891,2025-04-14
+expenditure,2025-03-31,Tara Epes,$450,Newport News,VA,individual,Campaign Services,D,435891,2025-04-14
+expenditure,2025-03-31,Kelly Fleming,"$3,000",Denver,CO,individual,Finance Consulting,D,435891,2025-04-14
+expenditure,2025-03-31,U.S. Department of the Treasury,$381,Washington,DC,business,Payroll Taxes,D,435891,2025-04-14
+expenditure,2025-03-31,Virginia Department of Taxation,$51,Richmond,VA,business,Payroll Taxes,D,435891,2025-04-14
+expenditure,2025-03-31,Virginia Employment Commission,$1.28,Richmond,VA,business,1st Quarter State Unemployment Tax (SUTA),D,435891,2025-04-14
+expenditure,2025-03-31,Cheryl Wilfred,"$1,721",Williamsburg,VA,individual,Campaign Services,D,435891,2025-04-14
+expenditure,2025-04-02,Google LLC,$12.77,Mountain View,CA,business,Google Suite,D,474054,2025-12-30
+expenditure,2025-04-02,Google LLC,$81.75,Mountain View,CA,business,Software,D,474054,2025-12-30
+expenditure,2025-04-03,Commonwealth Victory Fund,$650,Richmond,VA,business,2024 Homestead Charges,D,474054,2025-12-30
+expenditure,2025-04-04,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Dues 2025,D,474054,2025-12-30
+expenditure,2025-04-06,ActBlue,$24.11,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-04-13,ActBlue,$4.08,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-04-14,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,474054,2025-12-30
+expenditure,2025-04-15,Christopher Newport University Education Foundation,$110,Newport News,VA,business,Conference Fee,D,474054,2025-12-30
+expenditure,2025-04-16,Democratic Party of Virginia,$975.64,Richmond,VA,party,Contribution,D,474054,2025-12-30
+expenditure,2025-04-17,OfficeMax,$44.09,Newport News,VA,business,Office Supplies,D,474054,2025-12-30
+expenditure,2025-04-17,United States Postal Service,$328.50,Newport News,VA,business,Stamps,D,474054,2025-12-30
+expenditure,2025-04-19,Staples,$50.49,Cherry Hill,NJ,business,Copies,D,474054,2025-12-30
+expenditure,2025-04-20,ActBlue,$9.88,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-04-21,Truist Bank,$5,Newport News,VA,business,Bank Fee,D,474054,2025-12-30
+expenditure,2025-04-24,Rural Caucus of the Democratic Party of Virginia,$165,Richmond,VA,party,Event Ticket,D,474054,2025-12-30
+expenditure,2025-04-27,ActBlue,$9.30,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-04-30,Tara Epes,$825,Newport News,VA,individual,Campaign Services,D,474054,2025-12-30
+expenditure,2025-04-30,Kelly Fleming,"$3,000",Denver,CO,individual,Finance Consulting,D,474054,2025-12-30
+expenditure,2025-04-30,U.S. Department of the Treasury,$381,Washington,DC,business,Payroll Taxes,D,474054,2025-12-30
+expenditure,2025-04-30,Cheryl Wilfred,"$1,721",Newport News,VA,individual,Campaign Services,D,474054,2025-12-30
+expenditure,2025-05-02,Google LLC,$12.77,Mountain View,CA,business,Google Suite,D,474054,2025-12-30
+expenditure,2025-05-02,Google LLC,$92.40,Mountain View,CA,business,Software,D,474054,2025-12-30
+expenditure,2025-05-03,Costco,$303.51,Newport News,VA,business,Event Food,D,474054,2025-12-30
+expenditure,2025-05-04,ActBlue,$49.40,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-05-05,Dollar Tree,$17.23,Newport News,VA,business,Event Supplies,D,474054,2025-12-30
+expenditure,2025-05-05,E Mart International Supermarket,$32.44,Newport News,VA,business,Event Food,D,474054,2025-12-30
+expenditure,2025-05-05,Food Lion,$14.19,Newport News,VA,business,Event Food,D,474054,2025-12-30
+expenditure,2025-05-05,Downey For Virginia,$500,Williamsburg,VA,individual,Donation,D,474054,2025-12-30
+expenditure,2025-05-05,Jessica Anderson for Delegate,$500,Williamsburg,VA,candidate,Donation,D,474054,2025-12-30
+expenditure,2025-05-06,Virginia House Democratic Caucus,"$9,000",Richmond,VA,party,Dues 2025,D,474054,2025-12-30
+expenditure,2025-05-08,Network NoVA,$203.52,Falls Church,VA,business,Event,D,474054,2025-12-30
+expenditure,2025-05-11,ActBlue,$56.31,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-05-15,Education Week,$39,Bethesda,MD,business,Subscription,D,474054,2025-12-30
+expenditure,2025-05-15,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,474054,2025-12-30
+expenditure,2025-05-18,ActBlue,$110.62,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-05-21,Truist Bank,$5,Newport News,VA,business,Bank Fee,D,474054,2025-12-30
+expenditure,2025-05-23,United States Postal Service,$210,Newport News,VA,business,P.O. Box Fee,D,474054,2025-12-30
+expenditure,2025-05-25,ActBlue,$39.92,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-05-29,Kelly Fleming,"$3,000",Denver,CO,individual,Finance Consulting,D,474054,2025-12-30
+expenditure,2025-05-31,Tara Epes,$300,Newport News,VA,individual,Campaign Services,D,474054,2025-12-30
+expenditure,2025-05-31,U.S. Department of the Treasury,$381,Washington,DC,business,Payroll Taxes,D,474054,2025-12-30
+expenditure,2025-05-31,Cheryl Wilfred,"$1,721",Newport News,VA,individual,Campaign Services,D,474054,2025-12-30
+expenditure,2025-06-01,ActBlue,$17.78,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-06-01,Thrive Peninsula,"$1,000",Newport News,VA,business,June 2025 - Sept. 2025 Rent,D,474054,2025-12-30
+expenditure,2025-06-02,Google LLC,$12.77,Mountain View,CA,business,Google Suite,D,474054,2025-12-30
+expenditure,2025-06-02,Google LLC,$99.17,Mountain View,CA,business,Software,D,474054,2025-12-30
+expenditure,2025-06-02,National Caucus of Environmental Legislatures,$250,Washington,DC,business,Conference Fee,D,474054,2025-12-30
+expenditure,2025-06-04,Trader Joe's,$162.12,Newport News,VA,business,Event Food,D,474054,2025-12-30
+expenditure,2025-06-05,ActBlue,$84.08,Somerville,MA,business,Merchant Service Fee,D,474054,2025-12-30
+expenditure,2025-06-06,Kroger,$94.95,Yorktown,VA,business,Event Food,D,474058,2025-12-30
+expenditure,2025-06-07,Wawa,$9.97,Newport News,VA,business,Ice for Event,D,474058,2025-12-30
+expenditure,2025-06-08,ActBlue,$47.41,Somerville,MA,business,Merchant Service Fee,D,474058,2025-12-30
+expenditure,2025-06-13,Golden Corral,$32.89,Newport News,VA,business,Lunch Meeting,D,474058,2025-12-30
+expenditure,2025-06-15,ActBlue,$22.92,Somerville,MA,business,Merchant Service Fee,D,474058,2025-12-30
+expenditure,2025-06-16,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,474058,2025-12-30
+expenditure,2025-06-17,Virginia Young Democrates,$125,Richmond,VA,business,Donation,D,474058,2025-12-30
+expenditure,2025-06-18,Rapture Restaurant,$30.15,Charlottesville,VA,business,Lunch Meeting,D,474058,2025-12-30
+expenditure,2025-06-18,Wawa,$51.55,Sandston,VA,business,Gas,D,474058,2025-12-30
+expenditure,2025-06-22,ActBlue,$24.11,Somerville,MA,business,Merchant Service Fee,D,474058,2025-12-30
+expenditure,2025-06-23,Truist Bank,$5,Newport News,VA,business,Bank Fee,D,474058,2025-12-30
+expenditure,2025-06-25,Tara Epes,$14.60,Newport News,VA,individual,Stamps,D,474058,2025-12-30
+expenditure,2025-06-28,Hilton McLean Tysons Corner,$159.05,Mclean,VA,business,Lodging,D,474058,2025-12-30
+expenditure,2025-06-29,ActBlue,$89.05,Somerville,MA,business,Merchant Service Fee,D,474058,2025-12-30
+expenditure,2025-06-30,ActBlue,$2.26,Somerville,MA,business,Merchant Service Fee,D,474058,2025-12-30
+expenditure,2025-06-30,Tara Epes,$750,Newport News,VA,individual,Campaign Services,D,474058,2025-12-30
+expenditure,2025-06-30,Kelly Fleming,"$3,000",Denver,CO,individual,Finance Consulting,D,474058,2025-12-30
+expenditure,2025-06-30,NGP VAN Inc.,"$1,102.50",Washington,DC,business,Database Management,D,474058,2025-12-30
+expenditure,2025-06-30,U.S. Department of the Treasury,$381,Washington,DC,business,Payroll Taxes,D,474058,2025-12-30
+expenditure,2025-06-30,Virginia Department of Taxation,$153,Richmond,VA,business,Payroll Taxes,D,474058,2025-12-30
+expenditure,2025-06-30,Virginia Employment Commission,$5.51,Richmond,VA,business,2nd Quarter State Unemployment Tax (SUTA),D,474058,2025-12-30
+expenditure,2025-06-30,Cheryl Wilfred,"$1,721",Newport News,VA,individual,Campaign Services,D,474058,2025-12-30
+expenditure,2025-07-02,Google LLC,$12.76,Mountain View,CA,business,Google Suite,D,474059,2025-12-30
+expenditure,2025-07-02,Google LLC,$100.80,Mountain View,CA,business,Software,D,474059,2025-12-30
+expenditure,2025-07-06,ActBlue,$7.83,Somerville,MA,business,Merchant Service Fee,D,474059,2025-12-30
+expenditure,2025-07-08,Virginia House of Delegates,"$1,918.28",Richmond,VA,business,2025 Session Postage,D,474059,2025-12-30
+expenditure,2025-07-13,ActBlue,$24.26,Somerville,MA,business,Merchant Service Fee,D,474059,2025-12-30
+expenditure,2025-07-15,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,474059,2025-12-30
+expenditure,2025-07-20,ActBlue,$82.16,Somerville,MA,business,Merchant Service Fee,D,474059,2025-12-30
+expenditure,2025-07-21,Truist Bank,$5,Newport News,VA,business,Bank Fee,D,474059,2025-12-30
+expenditure,2025-07-27,ActBlue,$22.67,Somerville,MA,business,Merchant Service Fee,D,474059,2025-12-30
+expenditure,2025-07-30,"Ethos Campaigns, LLC","$3,500",Nashville,TN,business,Video Production,D,474059,2025-12-30
+expenditure,2025-07-30,Elizabeth Paschall,$550,Virginia Beach,VA,individual,Video Production,D,474059,2025-12-30
+expenditure,2025-07-31,Tara Epes,$600,Newport News,VA,individual,Campaign Services,D,474059,2025-12-30
+expenditure,2025-07-31,U.S. Department of the Treasury,$381,Washington,DC,business,Payroll Taxes,D,474059,2025-12-30
+expenditure,2025-07-31,Cheryl Wilfred,"$1,721",Newport News,VA,individual,Campaign Services,D,474059,2025-12-30
+expenditure,2025-08-01,Google LLC,$100.80,Mountain View,CA,business,Software,D,474059,2025-12-30
+expenditure,2025-08-01,Google LLC,$12.77,Mountain View,CA,business,Google Suite,D,474059,2025-12-30
+expenditure,2025-08-03,ActBlue,$2.73,Somerville,MA,business,Merchant Service Fee,D,474059,2025-12-30
+expenditure,2025-08-08,"Ethos Campaigns, LLC","$2,202.77",Nashville,TN,business,Video Production,D,474059,2025-12-30
+expenditure,2025-08-08,OfficeMax,$91.55,Newport News,VA,business,Copies,D,474059,2025-12-30
+expenditure,2025-08-10,ActBlue,$14.30,Somerville,MA,business,Merchant Service Fee,D,474059,2025-12-30
+expenditure,2025-08-13,Angelo's Steak & Pancake,$35,Newport News,VA,business,Event Space Rental,D,474059,2025-12-30
+expenditure,2025-08-15,OfficeMax,$13.56,Newport News,VA,business,Office Supplies,D,474059,2025-12-30
+expenditure,2025-08-15,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,474059,2025-12-30
+expenditure,2025-08-17,ActBlue,$46.83,Somerville,MA,business,Merchant Service Fee,D,474059,2025-12-30
+expenditure,2025-08-18,Network Solutions,$9.99,Jacksonville,FL,business,Website,D,474059,2025-12-30
+expenditure,2025-08-21,Truist Bank,$5,Newport News,VA,business,Bank Fee,D,474059,2025-12-30
+expenditure,2025-08-24,ActBlue,$60.48,Somerville,MA,business,Merchant Service Fee,D,474059,2025-12-30
+expenditure,2025-08-27,American Airlines,$374.97,Fort Worth,TX,business,Travel,D,474059,2025-12-30
+expenditure,2025-08-28,Lillie Pearl,$55.54,Richmond,VA,business,Lunch Meeting,D,474059,2025-12-30
+expenditure,2025-08-29,Tara Epes,$525,Newport News,VA,individual,Campaign Services,D,474059,2025-12-30
+expenditure,2025-08-31,ActBlue,$28.08,Somerville,MA,business,Merchant Service Fee,D,474059,2025-12-30
+expenditure,2025-08-31,U.S. Department of the Treasury,$381,Washington,DC,business,Payroll Taxes,D,474059,2025-12-30
+expenditure,2025-08-31,Cheryl Wilfred,"$1,721",Newport News,VA,individual,Campaign Services,D,474059,2025-12-30
+expenditure,2025-09-02,Kelly Fleming,"$3,000",Denver,CO,individual,Finance Consulting,D,474060,2025-12-30
+expenditure,2025-09-02,Google LLC,$100.80,Mountain View,CA,business,Software,D,474060,2025-12-30
+expenditure,2025-09-02,Google LLC,$12.80,Mountain View,CA,business,Google Suite,D,474060,2025-12-30
+expenditure,2025-09-02,"Mission Control, Inc.","$4,349.50",Glastonbury,CT,business,Mailer,D,474060,2025-12-30
+expenditure,2025-09-04,NGP VAN Inc.,"$1,102.50",Washington,DC,business,Database Management,D,474060,2025-12-30
+expenditure,2025-09-07,ActBlue,$22.73,Somerville,MA,business,Merchant Service Fee,D,474060,2025-12-30
+expenditure,2025-09-10,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Contribution,D,474060,2025-12-30
+expenditure,2025-09-11,"Printing & Graphics of Virginia, Inc.",$282.49,Richmond,VA,business,Note Cards,D,474060,2025-12-30
+expenditure,2025-09-14,ActBlue,$98.65,Somerville,MA,business,Merchant Service Fee,D,474060,2025-12-30
+expenditure,2025-09-15,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,474060,2025-12-30
+expenditure,2025-09-16,"GoDaddy, Inc.",$236.52,Tempe,AZ,business,Domain Renewal,D,474060,2025-12-30
+expenditure,2025-09-18,Costco,$28.59,Newport News,VA,business,Event Food,D,474060,2025-12-30
+expenditure,2025-09-21,ActBlue,$83.39,Somerville,MA,business,Merchant Service Fee,D,474060,2025-12-30
+expenditure,2025-09-22,Truist Bank,$5,Newport News,VA,business,Bank Fee,D,474060,2025-12-30
+expenditure,2025-09-23,United States Postal Service,"$2,479.42",Newport News,VA,business,Newport News Democrats Mailer,D,474060,2025-12-30
+expenditure,2025-09-24,Newport News Parks & Recreation,$75,Newport News,VA,business,Event Space Rental,D,474060,2025-12-30
+expenditure,2025-09-24,Virginia Living Museum,$125,Newport News,VA,business,Event Ticket,D,474060,2025-12-30
+expenditure,2025-09-26,Harris Teeter,$147.87,Newport News,VA,business,Intern Lunch,D,474060,2025-12-30
+expenditure,2025-09-26,Trader Joe's,$4.03,Newport News,VA,business,Intern Lunch,D,474060,2025-12-30
+expenditure,2025-09-28,ActBlue,$42.92,Somerville,MA,business,Merchant Service Fee,D,474060,2025-12-30
+expenditure,2025-09-29,Kelly Fleming,"$3,000",Denver,CO,individual,Finance Consulting,D,474060,2025-12-30
+expenditure,2025-09-30,ActBlue,$86.91,Somerville,MA,business,Merchant Service Fee,D,474060,2025-12-30
+expenditure,2025-09-30,Tara Epes,"$1,350",Newport News,VA,individual,Campaign Services,D,474060,2025-12-30
+expenditure,2025-09-30,U.S. Department of the Treasury,$381,Washington,DC,business,Payroll Taxes,D,474060,2025-12-30
+expenditure,2025-09-30,Virginia Department of Taxation,$153,Richmond,VA,business,Payroll Taxes,D,474060,2025-12-30
+expenditure,2025-09-30,Cheryl Wilfred,"$1,721",Newport News,VA,individual,Campaign Services,D,474060,2025-12-30
+expenditure,2025-10-02,"Ethos Campaigns, LLC","$8,750",Nashville,TN,business,Video Production,D,474062,2025-12-30
+expenditure,2025-10-02,"Gibson Universal, LLC","$2,517.04",Henrico,VA,business,Signs,D,474062,2025-12-30
+expenditure,2025-10-02,Google LLC,$12.78,Mountain View,CA,business,Google Suite,D,474062,2025-12-30
+expenditure,2025-10-02,Google LLC,$100.80,Mountain View,CA,business,Software,D,474062,2025-12-30
+expenditure,2025-10-03,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Contribution,D,474062,2025-12-30
+expenditure,2025-10-05,ActBlue,$109.75,Somerville,MA,business,Merchant Service Fee,D,474062,2025-12-30
+expenditure,2025-10-06,OfficeMax,$47.29,Newport News,VA,business,Office Supplies,D,474062,2025-12-30
+expenditure,2025-10-08,Newport News Parks & Recreation,$75,Newport News,VA,business,Event Space Rental,D,474062,2025-12-30
+expenditure,2025-10-09,Shannon Jones for Commonwealth's Attorney,$250,Newport News,VA,business,Donation,D,474062,2025-12-30
+expenditure,2025-10-11,Panera Bread,$7.93,Newport News,VA,business,Lunch,D,474062,2025-12-30
+expenditure,2025-10-12,ActBlue,$49.20,Somerville,MA,business,Merchant Service Fee,D,474062,2025-12-30
+expenditure,2025-10-14,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,474062,2025-12-30
+expenditure,2025-10-14,United States Postal Service,$62.40,Newport News,VA,business,Stamps,D,474062,2025-12-30
+expenditure,2025-10-16,"Ethos Campaigns, LLC","$11,250",Nashville,TN,business,Video Production,D,474062,2025-12-30
+expenditure,2025-10-18,Arshak Avetisyan,$60,Reston,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Tanasia Baldwin,$165,Newport News,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Brandon Brown,$105,Richmond,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Deshaun Foster,$210,Newport News,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Amelia Hainer,$105,Newport News,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Zane Hassan,$30,Yorktown,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Miwaka (Mimi) Lemi,$210,Newport News,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,April Lin,$210,Newport News,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Adair Loos,$30,Williamsburg,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Adrian Martinez-Lopez,$180,Newport News,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Lamont Pounds,$135,Newport News,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Ariana Reason,$105,Newport News,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Christopher Tillmon,$135,Stafford,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-18,Melissa Yarbough,$165,Ashburn,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-19,ActBlue,$26.48,Somerville,MA,business,Merchant Service Fee,D,474062,2025-12-30
+expenditure,2025-10-21,Morgan Gross,$127.50,Newport News,VA,individual,Internship Stipend,D,474062,2025-12-30
+expenditure,2025-10-21,Truist Bank,$45,Newport News,VA,business,Bank Fee,D,474062,2025-12-30
+expenditure,2025-10-22,Virginia Peninsula Chamber of Commerce,$90,Newport News,VA,business,Event Tickets,D,474062,2025-12-30
+expenditure,2025-10-22,Walgreens,$62.96,Newport News,VA,business,Digital Photo,D,474062,2025-12-30
+expenditure,2025-10-23,ActBlue,$8.90,Somerville,MA,business,Merchant Service Fee,D,474062,2025-12-30
+expenditure,2025-10-23,Golden Corral,$32.89,Newport News,VA,business,Business Meeting,D,474062,2025-12-30
+expenditure,2025-10-23,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Dues,D,474062,2025-12-30
+expenditure,2025-10-24,Costco,$92.13,Newport News,VA,business,Intern Lunch,D,474064,2025-12-30
+expenditure,2025-10-24,OfficeMax,$78.28,Newport News,VA,business,Copies,D,474064,2025-12-30
+expenditure,2025-10-26,ActBlue,$51.35,Somerville,MA,business,Merchant Service Fee,D,474064,2025-12-30
+expenditure,2025-10-30,Tara Epes,"$1,762.50",Newport News,VA,individual,Campaign Services,D,474064,2025-12-30
+expenditure,2025-10-31,Kelly Fleming,"$3,000",Denver,CO,individual,Finance Consulting,D,474064,2025-12-30
+expenditure,2025-10-31,Harris Teeter,$66.57,Newport News,VA,business,Intern Lunch,D,474064,2025-12-30
+expenditure,2025-10-31,Newport News Parks & Recreation,$125,Newport News,VA,business,Event Space Rental,D,474064,2025-12-30
+expenditure,2025-10-31,U.S. Department of the Treasury,$381,Washington,DC,business,Payroll Taxes,D,474064,2025-12-30
+expenditure,2025-10-31,Cheryl Wilfred,"$1,721",Newport News,VA,individual,Campaign Services,D,474064,2025-12-30
+expenditure,2025-11-01,Tanasia Baldwin,$165,Newport News,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-01,Deshaun Foster,$210,Newport News,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-01,Google LLC,$12.85,Mountain View,CA,business,Google Suite,D,474064,2025-12-30
+expenditure,2025-11-01,Google LLC,$100.80,Mountain View,CA,business,Software,D,474064,2025-12-30
+expenditure,2025-11-01,Miwaka (Mimi) Lemi,$165,Newport News,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-01,April Lin,$225,Newport News,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-01,Adair Loos,$120,Williamsburg,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-01,Adrian Martinez-Lopez,$240,Newport News,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-01,Lamont Pounds,$165,Newport News,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-02,ActBlue,$0.42,Somerville,MA,business,Merchant Service Fee,D,474064,2025-12-30
+expenditure,2025-11-02,"Bookings Holding, Inc.",$213.96,Norwalk,CT,business,Lodging,D,474064,2025-12-30
+expenditure,2025-11-04,Smokey Bones,$221.92,Newport News,VA,business,Event Food,D,474064,2025-12-30
+expenditure,2025-11-07,Washington Post,$170,Washington,DC,business,Subscription,D,474064,2025-12-30
+expenditure,2025-11-09,ActBlue,$0.99,Somerville,MA,business,Merchant Service Fee,D,474064,2025-12-30
+expenditure,2025-11-11,OfficeMax,$169.35,Newport News,VA,business,Office Supplies,D,474064,2025-12-30
+expenditure,2025-11-13,Arshak Avetisyan,$150,Reston,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-13,Morgan Gross,$150,Newport News,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-13,Amelia Hainer,$82.50,Newport News,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-13,Newport News Democratic Committee Inc.,$500,Newport News,VA,business,Election Day Operations,D,474064,2025-12-30
+expenditure,2025-11-13,Ariana Reason,$75,Newport News,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-13,Christopher Tillmon,$75,Stafford,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-13,Melissa Yarbough,$150,Ashburn,VA,individual,Internship Stipend,D,474064,2025-12-30
+expenditure,2025-11-14,Pressable WordPress Hosting,$31,San Antonio,TX,business,Website Hosting,D,474064,2025-12-30
+expenditure,2025-11-15,Education Week,$39,Bethesda,MD,business,Subscription,D,474064,2025-12-30
+expenditure,2025-11-16,ActBlue,$0.40,Somerville,MA,business,Merchant Service Fee,D,474064,2025-12-30
+expenditure,2025-11-21,Truist Bank,$60,Newport News,VA,business,Bank Fee,D,474064,2025-12-30
 expenditure,2025-11-30,ActBlue,$0.09,Somerville,MA,business,Merchant Service Fee,D,475651,2026-01-08
 expenditure,2025-11-30,Tara Epes,$225,Newport News,VA,individual,Campaign Services,D,475651,2026-01-08
 expenditure,2025-11-30,U.S. Department of the Treasury,$38.26,Washington,DC,business,Payroll Taxes,D,475651,2026-01-08
@@ -99,3 +605,15 @@ expenditure,2026-06-30,Tara Epes,$375,Newport News,VA,individual,Campaign Servic
 expenditure,2026-06-30,Tara Epes,$15.60,Newport News,VA,individual,Stamps,D,494952,2026-07-13
 expenditure,2026-06-30,U.S. Department of the Treasury,$38.26,Washington,DC,business,Payroll Taxes,D,494952,2026-07-13
 expenditure,2026-06-30,Cheryl Wilfred,$230.87,Newport News,VA,individual,Campaign Services,D,494952,2026-07-13
+loan,2025-04-27,Shelly Simonds,$160.27,Newport News,VA,individual,R,E,474054,2025-12-30
+loan,2025-05-31,Shelly Simonds,$95.21,Newport News,VA,individual,R,E,474054,2025-12-30
+loan,2025-04-25,Shelly Simonds,$123.53,Newport News,VA,individual,R,E,474054,2025-12-30
+loan,2025-06-29,Shelly Simonds,$95.21,Newport News,VA,individual,P,E,474058,2025-12-30
+loan,2025-06-29,Shelly Simonds,$160.27,Newport News,VA,individual,P,E,474058,2025-12-30
+loan,2025-06-29,Shelly Simonds,$123.53,Newport News,VA,individual,P,E,474058,2025-12-30
+loan,2025-06-18,Cheryl Wilfred,$18.94,Newport News,VA,individual,R,E,474058,2025-12-30
+loan,2025-07-24,Cheryl Wilfred,$18.94,Newport News,VA,individual,P,E,474059,2025-12-30
+debt,2025-04-25,Ms. Shelly Simonds,$123.53,Newport News,VA,individual,Lodging,F,474054,2025-12-30
+debt,2025-04-27,Ms. Shelly Simonds,$160.27,Newport News,VA,individual,Lodging,F,474054,2025-12-30
+debt,2025-05-31,Ms. Shelly Simonds,$95.21,Newport News,VA,individual,Event Food,F,474054,2025-12-30
+debt,2025-06-18,Cheryl Wilfred,$18.94,Newport News,VA,individual,Parking,F,474058,2025-12-30

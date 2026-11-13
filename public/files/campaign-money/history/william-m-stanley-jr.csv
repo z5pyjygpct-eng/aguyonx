@@ -1,0 +1,670 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2021-06-03,Virginia Trail Lawyers Association,"$3,000",Richmond,VA,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-03-03,Verizon Good Government Club of Virginia,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-03-03,Virginia Automobile & Truck Dealers,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-03,Virginia Automobile & Truck Dealers,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-01-08,McGuireWoods,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-21,"Altria Client Services, Inc","$2,500",Richmond,VA,business,,Client Services,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-01-08,Dominion Political Action Committee,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-03,Dominion Political Action Committee,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-04-20,"Capital One Services, LLC","$2,500",Reston,VA,business,,Financial,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-03,American Electric Power PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-01-08,Omega Protein,$250,Houston,TX,business,,Health Products,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-01-08,Washington Gas Light Company PAC,$250,Washington,DC,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-03,Ben J Davenport Jr,"$2,500",Chatham,VA,individual,First Piedmont Corp,Chairman,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-01-08,Comcast Corporation,$500,Philadelphia,PA,business,,Cable and Telecommunications,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-21,John C Lee Jr,"$1,000",Clarksville,VA,individual,Retired,Retired,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-01-08,Virginia Trial Lawyers PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-01-08,"CenturyTel, Inc",$500,Monroe,LA,business,,Telecommunications,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-21,Fred V Woodson JR,"$2,500",Martinsville,VA,individual,Retired,Retired,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-01-12,"FTP Power, LLC","$1,000",Salt Lake City,UT,business,,Power,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-01-08,Meridian Waste Acquistions LLC,"$1,000",Charlotte,NC,business,,Waste Mgmt,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-03-03,CC Procurement,$500,Chelmsford,MA,business,,Precurement Software,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-03,LKQ Corporation,"$1,000",Antioch,TX,business,,Government Relations,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-21,Sadler Brothers Oil Co. Inc,"$2,500",Emphoria,VA,business,,Oil/Energy,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-21,"Orion Capital, LLC","$2,500",Martinsville,VA,business,,Financial,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-06-21,"Oval Marketing, LLC",$500,Martinsville,VA,business,,Marketing,,A,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-02-19,Commonwealth Park Suites Hotel,$29.68,Richmond,VA,,,,Lodging,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-02-26,Commonwealth Park Suites Hotel,$389.96,Richmond,VA,,,,Lodging,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-06-09,Walmart Super Center,$65.17,Rocky Mount,VA,,,,Office Supplies,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-01-08,The Carroll News,$48.70,Miamisburg,OH,,,,newspaper subscription,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-04-23,Aztec Rental,$92.66,Moneta,VA,,,,Chair & Table rentals for fundraiser,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-05-27,Aztec Rental,$9.48,Moneta,VA,,,,Equipment Rental,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-06-09,Kroger,$74.41,Hardy,VA,,,,Fundraiser supplies,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-02-16,"Expedia, Inc",$264.68,Washington,DC,,,,Lodging,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-01-25,MailChimp.com,$220,Atlanta,GA,,,,Mailing services,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-02-23,MailChimp.com,$200,Atlanta,GA,,,,Mailing Services,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-24,MailChimp.com,$200,Atlanta,GA,,,,Mailing Services,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-05-24,MailChimp.com,$400,Atlanta,GA,,,,Mailing Services,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-06-24,MailChimp.com,$200,Atlanta,GA,,,,Mailing Services,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-02-05,Amazon,$179.96,Seattle,WA,,,,Office eqpt (printer),D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-03,Amazon,$58.94,Seattle,WA,,,,Printing Supplies,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-04,Amazon,$34.71,Seattle,WA,,,,Computer Items,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-30,Amazon,$14.73,Seattle,WA,,,,Printer Supplies,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-31,Amazon,$147.71,Seattle,WA,,,,Printer,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-04-22,Amazon,$241.13,Seattle,WA,,,,Office Equipment,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-22,USPS at Chatham,$139.20,Chatham,VA,,,,Postage,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-30,USPS at Chatham,$122,Chatham,VA,,,,Postage,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-30,USPS at Chatham,$122,Chatham,VA,,,,Postage,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-06-09,ABC Store # 213,$435.84,Hardy,VA,,,,Suppy for fundraiser,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-04-28,"Primland, LTD","$17,250",Meadows of Dan,VA,,,,Fundraiser at Primland,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-06-09,"Primland, LTD",$160,Meadows of Dan,VA,,,,Misc Items & tips for fundraiser,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-06-21,"Primland, LTD","$1,705.69",Meadows of Dan,VA,,,,"Fundraiser Expense (lodging, Food & Golf)",D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-02-24,Rotary Club of Smith Mountain Lake,$500,Hardy,VA,,,,Marketing Sponsor,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-11,Hackworth for Virginia,"$2,500",Cedar Bluff,VA,,,,Contribution,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-15,Greenbrier Hotel,$439,White Sulphur Springs,WV,,,,Lodging,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+expenditure,2021-03-25,FOP # 79,$100,Providence Forge,VA,,,,Sponsorship,D,245774,2021-01-01 to 2021-06-30,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Allen Allen Allen & Allen,"$2,500",Richmond,VA,business,,Lawyers,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-07-07,Virginia Automobile & Truck Dealers,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Virginia Automobile & Truck Dealers,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,HCA for Good Government,"$1,000",Reston,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-10-05,Realtors Political Action Committee,"$2,500",Glen Allen,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-15,Dominion Political Action Committee,"$25,000",Richmond,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,AT&T,$500,Richmond,VA,business,,Telecommunications,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-10-05,Maritime Issues Council,"$1,000",Norfolk,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,Cable Service,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-07-21,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-08-13,Equitrams Midstream Corp,"$1,000",Canonsburg,VA,business,,Natural Gas,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-08-13,Golden Piedmont Labs LLC,"$1,000",South Boston,VA,business,,CBD Growers,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-10-05,Roanoke Gas,"$1,000",Roanoke,VA,business,,Utilities,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-10-05,"Green Ridge Recycling & Disposal Facility, LLC",$500,Clifton ark,NY,business,,Recycling & Disposal,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-10-05,"Cypress Creek Renewables, LLC",$500,Santa Monica,CA,business,,Solar & Solar Projects,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-10-05,"Capital Results, LLC",$500,Richmond,VA,business,,Public Relations &  Govt Affairs,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Verizon,"$2,000",Washington,DC,business,,Telecommunications,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,"STRATA Solar, LLC","$1,000",Durham,NC,business,,Solar,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Westrock Shared Services LLC,$750,Atlanta,GA,business,,Pulp & Paper,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Viada PAC,$500,Virginia Beach,VA,pac,,Political Action Committe,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,"Acadia Healthcare Company, Inc  FEDPAC",$500,Franklin,TN,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-15,Lumen Technologies Service Group,$500,Monroe,LA,business,,Software Technologies,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Committee For Effective Government,$500,Virginia Beach,VA,pac,,Political Action committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-10-05,Washington Gas Light Company PAC,$250,Washington,DC,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,Beer Wholesalers,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Lawrence Distributing Company,$500,Danville,VA,business,,Distributing,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Comcast Corporation,$500,Philadelphia,PA,business,,Cable and Telecommunications,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,The Boeing Company PAC,$500,Arlington,VA,pac,,Political Action committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-08-13,Virginia Beverage Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-08-13,"Metis Services, Inc","$1,000",Roanoke,VA,business,,Occupation Insurance,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Virginia Oil & Gas Association PAC,$400,Abingdon,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Virginia Land Title Association,$500,Alpharetta,GA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-09-20,VAD Pac,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-09-13,Dr Mark A Crabtree,$250,Martinsville,VA,individual,Self,Dentist,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-08-13,"Pfizer, Inc",$750,Memphis,TN,business,,Pharmaceutical,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,Norfolk Southern  Corporation,$500,Norfolk,VA,business,,Railroad,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,"The Williams Company, Inc","$2,500",Tulsa,OK,business,,Energy,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-10-05,Waste Management,$750,Houston,TX,business,,Waste Management,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-07-21,Mondelez Global LLC,$250,Deerfield,IL,business,,Food Groups,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-07-21,Anthem Blue Cross Blue Shield,$500,Cincinnate,OH,business,,Insurance,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-07-21,"7-Eleven, Inc",$750,Irving,TX,business,,Convenience Store,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-08-13,"Amazon.com Services, Inc","$2,000",Seattle,WA,business,,On Line Sales,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-09-13,"Dharma Pharmaceuticals, LLC",$500,Bristol,VA,business,,Pharmaceuticals,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-12-03,"Repubic Services, Inc",$500,Phoenix,AZ,business,,Waste Services,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-07-07,"Green Leaf Medical of Virginia, LLC",$500,Richmond,VA,business,,Medical,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2021-08-13,John P Newberry,"$5,000",Bland,VA,individual,Venco Business Solutions,Business Executive,,A,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-12-16,Commonwealth Park Suites Hotel,$223.60,Richmond,VA,,,,Lodging,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-12-07,Treasurer of Virginia,$147,Richmond,VA,,,,Billed Misc Items,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-12-03,Virginia Rebublican Senate Caucus,"$9,500",Williamsburg,VA,,,,Virginia senate Republican Caucas,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-10-28,Kroger,$519.23,Hardy,VA,,,,Meals & refreshments for Fundraiser,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-07-21,Virginia Senate Republican Caucus,"$9,500",Williamsburg,VA,,,,Virginia Senate Caucas dues,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-11-23,Virginia Public Access Project,$500,Richmond,VA,,,,Contribution,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-10-16,Martinsville Bulletin,$260,Martinsville,VA,,,,Newspaper subscription,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-09-20,Vigilant Websites,$219,Lynchburg,VA,,,,Web site Maintenance,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-07-26,MailChimp.com,$200,Atlanta,GA,,,,Mailing Services,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-08-23,MailChimp.com,$200,Atlanta,GA,,,,Mailing Services,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-09-23,MailChimp.com,$200,Atlanta,GA,,,,Mailing Services,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-10-25,MailChimp.com,$200,Atlanta,GA,,,,Mailing Services,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-11-23,MailChimp.com,$200,Atlanta,GA,,,,Mailing Services,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-12-23,MailChimp.com,$200,Atlanta,GA,,,,Mailing Services,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-09-20,EZPass,$70,Richmond,VA,,,,EZ Pass,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-12-14,EZPass,$50,Richmond,VA,,,,EZ Pass,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-07-01,Kroger Fuel,$33.22,Hardy,VA,,,,Fuel,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-07-07,Araat Ruriton Club,$50,Araat,VA,,,,Marketing Ad,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-07-13,Proud Patroits of Smith Mountain Lake,$250,Moneta,VA,,,,Contribution,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-07-15,Friends of Otto Wachman,$500,Stoney Creek,VA,,,,Contribution,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-07-30,Va 5th GOP District,"$1,000",Moneta,VA,,,,Contribution,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-09-20,Freinds of Mike Cherry,$500,Midlothian,VA,,,,Contribution,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-12-15,Forest Sheetz,$45.32,Forest,VA,,,,Fuel,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+expenditure,2021-12-15,Heas Energy eatery,$39.69,Lynchburg,VA,,,,Meals,D,274391,2021-07-01 to 2021-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-01-04,Virginia Trail Lawyers Association,"$3,000",Richmond,VA,pac,,Political Action Committee,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-01-04,Huntington Ingalls Industries,$500,Newport News,VA,business,,Ship Building,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-01-04,McGuireWoods,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-01-04,Virginia BankPAC,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-01-04,Commercial Development PAC,$500,Alexandria,VA,pac,,Political Action Committee,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-01-04,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,Law Offices,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-01-04,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law Firm,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-01-04,"POM of Virginia, LLC",$500,Duluth,GA,business,,Skill Games,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-01-04,ULT PAC,$500,Richmond,VA,pac,,Computer Games,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-05-11,Danny Poteet,$300,Reston,VA,individual,Retired,Retired,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-05-11,Brett Glymph,$150,Warrenton,VA,individual,Virginia Outdoors Foundatiom,Executive Director,,A,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-03-08,The Carroll News,$54.70,Miamisburg,OH,,,,Subscriptions,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-03-08,Senate of Virginia,$52.81,Richmond,VA,,,,Marketing Materials,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-01-24,MailChimp.com,$200,Atlanta,GA,,,,Mailing Service,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-02-23,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-03-23,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-04-22,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-05-23,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-06-23,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-02-11,Plaza Azteca,$153.72,Richmond,VA,,,,Lodging,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-02-28,EZPass,$70,Richmond,VA,,,,Travel Tolls,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-02-21,halo,$909,Sterling,IL,,,,Marketing Materials,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-02-28,halo,$112,Sterling,IL,,,,Marketing Materials,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-04-01,Levy at Richmond,"$2,188.11",Richmond,VA,,,,Meals,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-04-15,Findlays In WV,$250,Charleston,WV,,,,Donation,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+expenditure,2022-05-02,Chad Monday,$155,Moneta,VA,,,,Reimbursements,D,289566,2022-01-01 to 2022-06-30,CC-12-00109,Stanley For Senate
+contribution,2022-12-13,Huntington Ingalls Industries,$500,Newport News,VA,business,,Ship Building,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-07-26,"Altria Client Services, Inc","$1,000",Richmond,VA,business,,Client Services,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-12-13,HCA for Good Government,"$1,000",Reston,VA,pac,,Political Action Committee,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-09-21,Realtors Political Action Committee,"$5,000",Glen Allen,VA,pac,,Political Action Committee,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-08-23,Dominion Political Action Committee,"$25,000",Richmond,VA,pac,,Political Action Committee,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-30,AT&T,$500,Richmond,VA,business,,Telecommunications,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-08-15,"Capital One Services, LLC","$1,500",Reston,VA,business,,Financial,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-12-13,Maritime Issues Council,"$1,000",Norfolk,VA,pac,,Political Action Committee,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-14,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,Political Action Committee,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-30,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,Cable Service,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-14,Virginia Manufactured & Modular PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-09-21,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,Beer Wholesalers,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-09-21,Lawrence Distributing Company,"$1,000",Danville,VA,business,,Distributing,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-14,Comcast Corporation,$500,Philadelphia,PA,business,,Cable and Telecommunications,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-07-26,Virginia Trial Lawyers PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-12-13,Virginia Land Title Association,$500,Alpharetta,GA,pac,,Political Action Committee,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-14,Anheuser Busch Companies,$500,New York,NY,business,,Beverages/Brewing Company,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-10-11,VAD Pac,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-07-26,Waste Management,$500,Houston,TX,business,,Waste Management,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-09-21,Waste Management,"$1,000",Houston,TX,business,,Waste Management,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-14,WestRock,$750,Norcross,GA,business,,Paper & Packaging,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-08-19,Anthem Blue Cross Blue Shield,$500,Cincinnate,OH,business,,Insurance,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-14,"Amazon.com Services, Inc","$3,000",Seattle,WA,business,,On Line Sales,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-09-06,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,business,,Law Firm,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-14,"Green Ridge Recycling & Disposal Facility, LLC","$1,000",Clifton ark,NY,business,,Recycling & Disposal,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-11-14,Verizon,"$1,000",Washington,DC,business,,Telecommunications,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-12-13,"STRATA Solar, LLC","$1,000",Durham,NC,business,,Solar,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-07-06,Amusement and Music Operators,"$1,000",Brandy Station,VA,business,,currency-operated machine industry,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-07-26,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Retail,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-08-19,VA Beverage Ass PAC,"$1,000",Norton,VA,pac,,beverage bottlers and distributors,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-09-21,"GETTY & ASSOCIATES, P.C.","$1,000",Locust Grove,VA,business,,Law Firm,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-10-11,Commonwealth Sportsmen's Alliance,$250,Powhatan,VA,business,,Trade Association,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-10-11,American Chemistry Council,$500,Washington,DC,business,,Chemistry Industry,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2022-12-30,Virginia Asian American Store Owners Association PAC,"$10,000",Richmond,VA,pac,,Retail,,A,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-09-19,Walmart Super Center,$63.70,Rocky Mount,VA,,,,Office Supplies - checks,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-09-19,Walmart Super Center,$63.05,Rocky Mount,VA,,,,Office Supplies - deposit slips,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-07-22,Treasurer of Virginia,$645,Richmond,VA,,,,Flags & Frames,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-08-29,Treasurer of Virginia,$33,Richmond,VA,,,,Frames,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-07-15,Virginia Senate Republican Caucus,"$9,500",Williamsburg,VA,,,,Virginia Senate Caucas dues,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-12-13,Virginia Senate Republican Caucus,"$9,500",Williamsburg,VA,,,,Virginia Senate Caucus dues,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-09-16,"Expedia, Inc",$167.33,Washington,DC,,,,Lodging,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-07-21,Virginia Public Access Project,$250,Richmond,VA,,,,Contribution,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-12-06,Vigilant Websites,$275,Lynchburg,VA,,,,Web site Maintenance,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-07-25,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-08-23,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-09-23,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-10-24,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-11-23,MailChimp.com,$225,Atlanta,GA,,,,Mailing Services,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-08-12,Phil Rapp,$32.74,Medlothian,VA,,,,reimbursement - postage,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-11-04,Amazon,$70.56,Seattle,WA,,,,Office Supplies,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-09-12,American National Bank,$36,Hardy,VA,,,,Bank Service Charge,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-11-17,Intuit Quickbooks,$799,Greenville,SC,,,,Accounting software,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-08-24,Araat Ruriton Club,$50,Araat,VA,,,,Marketing Ad,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-08-10,"Eagle Graphics, LLC",$75,Rocky Mount,VA,,,,Web site Maintenance,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-08-17,DR Concessions,"$8,604.97",WOODFORD,VA,,,,"Location, Meals & refreshments for Fundraiser",D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-09-12,Virginia's 9th Congressional District Republican Committee,$500,Saltville,VA,,,,Contribution,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-11-16,"CSGA Group, LLC","$5,000",Moneta,VA,,,,Contract Services,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-12-19,"CSGA Group, LLC","$4,000",Moneta,VA,,,,Contract Services,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-11-29,Sadler for Virginia,"$5,000",Emporia,VA,,,,Contributions,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-12-26,Tom Garrett for Delegate,"$2,000",Scottsville,VA,,,,Contributions,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+expenditure,2022-12-26,Kevin Adams for Senate,"$3,000",Virginia Beach,VA,,,,Contributions,D,307919,2022-07-01 to 2022-12-31,CC-12-00109,Stanley For Senate
+contribution,2023-03-23,Virginia Sheriffs' Association,$250,Richmond,VA,pac,,Political Action Committee,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-06,McGuireWoods,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-03-23,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,Political Action Committee,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-06,Omega Protein,$500,Houston,TX,business,,Health Products,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-03-23,The Boeing Company PAC,$500,Arlington,VA,pac,,Political Action committee,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-06,Virginia Trial Lawyers PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-06,"Metis Services, Inc","$1,000",Roanoke,VA,business,,Occupation Insurance,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-06,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,Law Offices,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-10,Commission of Revenue PAC,$500,Newport News,VA,pac,,Political Action Committee,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-06,Cozen O'Connor,$500,Philadelphia,PA,business,,Attorney/Law offices,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-10,CC Procurement,$500,Chelmsford,MA,business,,Precurement Software,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-03-31,"Orion Capital, LLC","$10,000",Martinsville,VA,business,,Financial,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-06,"Green Leaf Medical of Virginia, LLC",$500,Richmond,VA,business,,Medical,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-10,Vision Management Services,$500,Chicago,IL,business,,Vision,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-01-10,Beamer James,$500,Richmond,VA,individual,Dominion Energy,Lobbyist,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-03-14,WinRed,$192.12,Arlington,VA,business,,Fundraising platform,,A,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+in_kind,2023-01-09,"Troutman Pepper Hamliton Sanders, LLP","$1,541.99",Richmond,VA,business,,Law Firm,Fundraising dinner,B,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+in_kind,2023-01-09,Electric Cooperatives of Virginia PAC,"$1,541.98",Glen Allen,VA,pac,,Political Action Committee,Fundraiser,B,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-02-03,The Franklin News Post,$82.99,Rocky Mount,VA,,,,Subscriptions,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-03-09,Galax Gazette,$104.99,Galax,VA,,,,subscriptions,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-03-09,USPS,$146,Glade Hill,VA,,,,"post office box, mailing",D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-01-23,MailChimp.com,$265,Atlanta,GA,,,,Mailing services,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-02-23,MailChimp.com,$265,Atlanta,GA,,,,mailing services,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-03-23,MailChimp.com,$265,Atlanta,GA,,,,mailing services,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-03-31,Richmond International Raceway,"$6,000",Richmond,VA,,,,fundraiser  location,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-03-14,Franklin County Treasurer,$360,Rocky Mount,VA,,,,Primary Filing,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-02-17,Halo Branded Solutions,$878.67,Chicago,IL,,,,marketing materials,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-03-09,Rotary Club of Smith Mountain Lake,$500,Hardy,VA,,,,marketing sponsorship,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-03-31,Levy at Richmond,"$1,908.13",Richmond,VA,,,,Meals fundraising,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-01-16,"CSGA Group, LLC","$4,000",Moneta,VA,,,,Contract Services,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-02-14,"CSGA Group, LLC","$4,000",Moneta,VA,,,,Contract services,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+expenditure,2023-03-14,"CSGA Group, LLC","$4,000",Moneta,VA,,,,contract service,D,317046,2023-01-01 to 2023-03-31,CC-12-00109,Stanley For Senate
+contribution,2023-05-02,Engineering Companies of Virginia PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-05-02,David Foley,$500,Stafford,VA,individual,"Pets Plus, Inc.",Pet store owner,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-05-02,"Connect Holding II, LLC dba Brightspeed",$500,Fayetteville,NC,business,,Internet,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-05-09,Barry Nelson,"$5,000",Martinsville,VA,individual,Autos By Nelson,Auto Dealer,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-05-02,Virginia State Police Association,"$1,000",Richmond,VA,pac,,Political Action Committe,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-05-02,"Christian & Barton, LLP",$500,Richmond,VA,business,,Attorneys At Law,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-05-24,Dominion Political Action Committee,"$25,000",Richmond,VA,pac,,Political Action Committee,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-05-02,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,Political Action Committee,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-05-02,HBAV BUILD-PAC,"$5,000",Richmond,VA,pac,,Home Builders Association PAC,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-05-02,Virginia Trial Lawyers PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+expenditure,2023-04-26,Treasurer of Virginia,$349.02,Richmond,VA,,,,frames and flags,D,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+expenditure,2023-05-02,Virginia Senate Republican Caucus,"$9,500",Williamsburg,VA,,,,Virginia Senate Caucus Dues,D,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+expenditure,2023-04-24,MailChimp.com,$265,Atlanta,GA,,,,mailing services,D,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+expenditure,2023-05-23,MailChimp.com,$265,Atlanta,GA,,,,mailing services,D,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+expenditure,2023-04-20,"CSGA Group, LLC","$4,000",Moneta,VA,,,,contract services,D,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+expenditure,2023-05-16,"CSGA Group, LLC","$4,000",Moneta,VA,,,,contract services,D,328473,2023-04-01 to 2023-06-08,CC-12-00109,Stanley For Senate
+contribution,2023-06-16,"Republic Services, Inc",$500,Phoenix,AZ,business,,Waste Management Services,,A,337011,2023-06-09 to 2023-06-30,CC-12-00109,Stanley For Senate
+contribution,2023-06-16,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,Cable Service,,A,337011,2023-06-09 to 2023-06-30,CC-12-00109,Stanley For Senate
+contribution,2023-06-16,Sriram Peddibhotla,$500,Mclean,VA,individual,SAIC,IT/Developer,,A,337011,2023-06-09 to 2023-06-30,CC-12-00109,Stanley For Senate
+expenditure,2023-06-13,Treasurer of Virginia,$100,Richmond,VA,,,,fee,D,337011,2023-06-09 to 2023-06-30,CC-12-00109,Stanley For Senate
+expenditure,2023-06-23,MailChimp.com,$265,Atlanta,GA,,,,Mailing services,D,337011,2023-06-09 to 2023-06-30,CC-12-00109,Stanley For Senate
+expenditure,2023-06-13,"CSGA Group, LLC","$4,000",Moneta,VA,,,,"contract services, campaign consulting",D,337011,2023-06-09 to 2023-06-30,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,Verizon,"$1,000",Washington,DC,business,,Telecommunications,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,Paul Goldean,"$2,500",Charlotte,NC,individual,Pace O Matic,CEO,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,Service Corporation International PAC,$750,Houston,TX,pac,,Funeral,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,"Enbridge Energy, Inc.",$500,Houston,TX,business,,energy,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,Huntington Ingalls Industries,$500,Newport News,VA,business,,Ship Building,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-07-11,"Altria Client Services, Inc","$2,500",Richmond,VA,business,,Client Services,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,Virginia Retail Federation PAC,$750,Richmond,VA,pac,,Political Action Committee,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,Virginia Wine Wholesalers,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-07-11,Anheuser Busch Companies,$500,New York,NY,business,,Beverages/Brewing Company,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,VAD Pac,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,Walter Cooper Brown,$500,Rocky Mount,VA,individual,Franklin County,Attorney,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-07-11,Walmart,$500,Bentonville,AR,business,,Retail,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-08-30,Virginia Loggers Association,$250,Goochland,VA,business,,Logging,,A,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-08-02,The Carroll News,$87.95,Miamisburg,OH,,,,subscriptions,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-07-11,"Monumental Consulting, LLC","$1,500",Richmond,VA,,,,Fundraising expense,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-07-24,MailChimp.com,$265,Atlanta,GA,,,,mailing services,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-08-02,Ararat Ruritan Club,$50,Ararat,VA,,,,ad,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-08-28,Friends of Siobhan Dunnavant,"$15,000",Henrico,VA,,,,Contributions,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-07-15,"CSGA Group, LLC","$4,000",Moneta,VA,,,,contract services,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-08-15,"CSGA Group, LLC","$4,000",Moneta,VA,,,,contract services,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-08-16,Martinsville Sheriff's Department,$100,Martinsville,VA,,,,sponsorship,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-08-28,Diggs for Senate,"$15,000",Yorktown,VA,,,,Contributions,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-08-28,Segura for Virginia,"$5,000",Alexandria,VA,,,,contributions,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+expenditure,2023-08-28,Frends of Tara Durant,"$5,000",Alexandra,VA,,,,Contributions,D,348434,2023-07-01 to 2023-08-31,CC-12-00109,Stanley For Senate
+contribution,2023-09-20,Dominion Political Action Committee,"$25,000",Richmond,VA,pac,,Political Action Committee,,A,354844,2023-09-01 to 2023-09-30,CC-12-00109,Stanley For Senate
+expenditure,2023-09-12,The Franklin News Post,$160.99,Rocky Mount,VA,,,,Subscriptions,D,354844,2023-09-01 to 2023-09-30,CC-12-00109,Stanley For Senate
+expenditure,2023-09-12,Treasurer of Virginia,$44.50,Richmond,VA,,,,frames & flags,D,354844,2023-09-01 to 2023-09-30,CC-12-00109,Stanley For Senate
+expenditure,2023-09-25,MailChimp.com,$265,Atlanta,GA,,,,Mailing subscriptions,D,354844,2023-09-01 to 2023-09-30,CC-12-00109,Stanley For Senate
+expenditure,2023-09-15,"CSGA Group, LLC","$4,000",Moneta,VA,,,,Contract services,D,354844,2023-09-01 to 2023-09-30,CC-12-00109,Stanley For Senate
+expenditure,2023-09-26,Adams For Senate,"$2,500",Virginia Beach,VA,,,,Contributions,D,354844,2023-09-01 to 2023-09-30,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Omega Protein,"$1,000",Houston,TX,business,,Health Products,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,Beer Wholesalers,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Lawrence Distributing Company,"$1,000",Danville,VA,business,,Distributing,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,The Boeing Company PAC,$500,Arlington,VA,pac,,Political Action committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Virginia Trial Lawyers PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Williams Mullen Clark & Dobbins,"$2,000",Richmond,VA,business,,Law Offices,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Virginia Land Title Association,$500,Alpharetta,GA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-25,"The Williams Company, Inc","$2,500",Tulsa,OK,business,,Energy,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-25,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,business,,Law Firm,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-23,VA Apts Mgmt Assoc. PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-25,VA Mortgage Bankers PAC,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,CC Procurement,$500,Chelmsford,MA,business,,Precurement Software,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-25,Roanoke Gas,"$1,000",Roanoke,VA,business,,Utilities,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,"STRATA Solar, LLC",$500,Durham,NC,business,,Solar,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,"STRATA Solar, LLC",$500,Durham,NC,business,,Solar,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,"Acadia Healthcare Company, Inc  FEDPAC",$500,Franklin,TN,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,VA Beverage Ass PAC,"$1,500",Norton,VA,pac,,beverage bottlers and distributors,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Vision Management Services,$500,Chicago,IL,business,,Vision,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Humane Society Legislative Fund of Virginia PAC,"$1,000",Washington,DC,pac,,humane society,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,TRUIST Virginia PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,National Right to Work Committe PAC,$250,Springfield,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,"Tenaska Virginia Partners, LP",$500,Scottsville,VA,business,,energy,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Virginia Bankers Association,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,McGuireWoods,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,Realtors Political Action Committee,"$5,000",Glen Allen,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-25,Realtors Political Action Committee,"$2,500",Glen Allen,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-06,"Capital One Services, LLC","$1,000",Reston,VA,business,,Financial,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-25,American Electric Power PAC,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-25,Floyd County Republican Committee,$500,Indian Valley,VA,pac,,political committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-25,VA Operators of Skill,"$25,000",Richmond,VA,business,,Skill Games,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-10-25,CRNA PAC,$500,Forest Hill,MD,pac,,Political Action Committee,,A,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+in_kind,2023-10-24,"Executive Press, Inc","$1,250",Fairfax,VA,business,,Printing and Service,printing and mailing,B,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+expenditure,2023-10-24,"Executive Press, Inc","$4,449.84",Fairfax,VA,,,,printing and mailing,D,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+expenditure,2023-10-23,MailChimp.com,$265,Atlanta,GA,,,,mailing services,D,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+expenditure,2023-10-12,Friends of Siobhan Dunnavant,"$15,000",Henrico,VA,,,,contributions,D,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+expenditure,2023-10-12,Kevin Adams for Senate,"$2,500",Virginia Beach,VA,,,,contribution,D,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+expenditure,2023-10-12,Woolf for Senate,"$5,000",Williamsburg,VA,,,,contributions,D,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+expenditure,2023-10-12,Friends of Tara Durant,"$15,000",Alexandria,VA,,,,contributions,D,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+expenditure,2023-10-12,"Eagle Graphics, LLC","$4,500",Moneta,VA,,,,Signs,D,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+expenditure,2023-10-12,Meredith Smith for Commonwealths Attorney,$500,Gasburg,VA,,,,contributions,D,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+expenditure,2023-10-16,"CSGA Group, LLC","$4,000",Moneta,VA,,,,Contracting services,D,368419,2023-10-01 to 2023-10-26,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,"Altria Client Services, Inc","$2,500",Richmond,VA,business,,Client Services,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,HCA for Good Government,"$1,000",Reston,VA,pac,,Political Action Committee,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,Virginia Lifepoint Hospitals PAC,"$1,000",Richlands,VA,pac,,Poltical Action Committee,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,Virginia Credit Union PAC,"$1,000",Lynchburg,VA,pac,,Political Action Committee,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,"Automated Healthcare Solutions, LLC","$1,000",Miramar,FL,business,,Healthcare,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,VAMICPAC,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,Virginia Poultry Federation PAC,$300,Harrisonburg,VA,pac,,Political Action Committee,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,"Metis Services, Inc","$1,000",Roanoke,VA,business,,Occupation Insurance,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,Commission of Revenue PAC,$250,Newport News,VA,pac,,Political Action Committee,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,American Chemistry Council,$250,Washington,DC,business,,Promotion of Chemistry,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,ULT PAC,$500,Richmond,VA,pac,,Computer Games,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,Political Action Committee,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+contribution,2023-11-29,Committee to Expand the Middle Class Candidate Committee,$750,San Rafael,CA,candidate,,Candidate Committee,,A,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-11-24,MailChimp.com,$265,Atlanta,GA,,,,mailing services,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-10-27,American National Bank & Trust Company,$25,Hardy,VA,,,,Bank Service Charge,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-11-16,Intuit Quickbooks,$949,Greenville,SC,,,,Bookkeeping softwar,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-10-27,Friends of Siobhan Dunnavant,"$25,000",Henrico,VA,,,,Donation,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-11-10,"CSGA Group, LLC","$1,561",Moneta,VA,,,,Contract Services,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-10-27,Diggs for Senate,"$20,000",Yorktown,VA,,,,Donation,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-10-27,Segura for Virginia,"$20,000",Alexandria,VA,,,,Donation,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-10-27,Friends of Tara Durant,"$25,000",Alexandria,VA,,,,Donation,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-10-27,Martinsville Speedway,"$1,250",Martinsville,VA,,,,Fundraising location,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-10-27,Friends of Candidate Cobler,$500,Martinsville,VA,,,,Donation,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-10-27,Wythe County Republican Committee,$500,Max Meadows,VA,,,,Donation,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-10-27,Republican Party of Carroll County,$500,Hillsville,VA,,,,Donation,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-11-06,Friends of Glen Sturtevant,"$2,500",Midlothian,VA,,,,Donation,D,384025,2023-10-27 to 2023-11-30,CC-12-00109,Stanley For Senate
+expenditure,2023-12-02,Treasurer of Virginia,$44.50,Richmond,VA,,,,Frames and Flags,D,389513,2023-12-01 to 2023-12-31,CC-12-00109,Stanley For Senate
+expenditure,2023-12-01,"Monumental Consulting, LLC","$7,909.96",Richmond,VA,,,,Fundraising expense,D,389513,2023-12-01 to 2023-12-31,CC-12-00109,Stanley For Senate
+expenditure,2023-12-18,Go Daddy.com,$39.99,Scottsdale,AZ,,,,Website Expense,D,389513,2023-12-01 to 2023-12-31,CC-12-00109,Stanley For Senate
+expenditure,2023-12-18,Go Daddy.com,$100.68,Scottsdale,AZ,,,,Website Expense,D,389513,2023-12-01 to 2023-12-31,CC-12-00109,Stanley For Senate
+expenditure,2023-12-26,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,389513,2023-12-01 to 2023-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-03-15,ACE Development Company,"$1,000",Salt Lake City,UT,business,,energy,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-05,"Virginia Optometric Association, PAC",$500,Richmond,VA,pac,,Political Action Committee,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-09,Virginia Sheriffs' Association,$500,Richmond,VA,pac,,Political Action Committee,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-09,McGuireWoods,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-08,Dominion Political Action Committee,"$15,000",Richmond,VA,pac,,Political Action Committee,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-03-15,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,Political Action Committee,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-10,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,Political Action Committee,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-10,Virginia Credit Union PAC,"$2,000",Lynchburg,VA,pac,,Political Action Committee,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-05,John C Lee Jr,"$1,000",Clarksville,VA,individual,Retired,Retired,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-06-19,Virginia Trial Lawyers PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-10,"NiSource, Inc  Pac",$500,Columbus,OH,pac,,Political Action Committee,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-06-19,Anthem Blue Cross Blue Shield,$500,Cincinnate,OH,business,,Insurance,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-05,"Amazon.com Services, Inc","$1,500",Seattle,WA,business,,On Line Sales,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-05,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-05,Cozen O'Connor,$250,Philadelphia,PA,business,,Attorney/Law offices,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-09,Paul Goldean,"$5,000",Charlotte,NC,individual,Pace O Matic,CEO,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-05-07,VA Operators of Skill,"$5,000",Richmond,VA,business,,Skill Games,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-05,IGT Global Solutions,"$2,500",Knoxville,TN,business,,Game Technology,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-05,Community-Owned Power PAC,"$5,000",Richmond,VA,pac,,PAC,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-09,Albers & Company,"$1,000",Arlington,VA,business,,lobby,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-09,Asian American Business Owners Assoc PAC,"$1,000",Washington,DC,pac,,PAC,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-09,Virginia Future PAC,"$1,000",Woodbridge,VA,pac,,PAC,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-01-09,VOW Pac,"$1,000",Richmond,VA,pac,,PAC,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-03-15,Building A Remarkable Virginia PAC,"$2,000",Reston,VA,pac,,PAC,,A,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-05-07,USPS,$102,Hardy,VA,,,,mailing services,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-04-19,Treasurer of Virginia,$294.50,Richmond,VA,,,,Frames and Flags,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-01-29,Microsoft Office Products,$12,Redmond,WA,,,,Software,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-02-27,Microsoft Office Products,$12,Redmond,WA,,,,software,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-03-27,Microsoft Office Products,$12,Redmond,WA,,,,Software,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-04-29,Microsoft Office Products,$12,Redmond,WA,,,,Software,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-05-29,Microsoft Office Products,$12,Redmond,WA,,,,Software,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-01-08,Virginia Rebublican Senate Caucus,"$9,500",Williamsburg,VA,,,,Dues,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-02-29,FedEx,$92.99,Richmond,VA,,,,mailing services,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-04-04,Galax Gazette,$104.99,Galax,VA,,,,subscriptions,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-01-23,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-02-23,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-03-25,MailChimp.com,$300,Atlanta,GA,,,,Mailing services,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-05-22,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-05-23,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-06-24,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-01-25,"Pinmart, inc",$139.50,Elk Grove,IL,,,,marketing materials,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-03-15,Rotary Club of Smith Mountain Lake,$500,Hardy,VA,,,,donation,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-04-04,"CSGA Group, LLC",$199.02,Moneta,VA,,,,contract services,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-01-05,Mulchi for Senate,"$2,000",Clarksville,VA,,,,Donation,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-02-02,Totally Promotional,$307.27,Coldwater,OH,,,,marketing,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-02-05,Full Armor Custom Apparel,$774.17,Rocky Mount,VA,,,,marketing,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-02-12,VCU Massey Comprehensive Cancer Center,$250,Richmond,VA,,,,Donation,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-03-15,Meriwether Godsey,$481.31,Lynchburg,VA,,,,donated meals for event,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-03-18,Chris Williams,"$1,200",Martinsville,VA,,,,Fundraising event - room and food,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+expenditure,2024-05-22,TopGolf,"$1,037.22",Richmonda,VA,,,,Fundraising expense,D,407940,2024-01-01 to 2024-06-30,CC-12-00109,Stanley For Senate
+contribution,2024-12-30,Allen Allen Allen & Allen,"$2,500",Richmond,VA,business,,Lawyers,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-30,"Virginia Optometric Association, PAC",$500,Richmond,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-08-12,Virginia State Police Association,$500,Richmond,VA,pac,,Political Action Committe,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-29,McGuireWoods,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-07-08,"Altria Client Services, Inc","$2,500",Richmond,VA,business,,Client Services,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-10-15,"Altria Client Services, Inc","$2,000",Richmond,VA,business,,Client Services,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-29,Realtors Political Action Committee,"$2,500",Glen Allen,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-09-05,Waste Management,"$1,000",Washington,DC,business,,Waste Management,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-07-18,Dominion Political Action Committee,"$10,000",Richmond,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-16,Dominion Political Action Committee,"$50,000",Richmond,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-08-15,"Capital One Services, LLC","$1,000",Reston,VA,business,,Financial,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-07,"Capital One Services, LLC",$500,Reston,VA,business,,Financial,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-08-12,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-18,American Electric Power PAC,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-30,Commercial Development PAC,$500,Alexandria,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-30,Delta Dental of Virginia,$500,Roanoke,VA,business,,Dental Health,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-30,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-11,Hunton Andrews Kurth LLP,"$2,000",Richmond,VA,business,,Law Firm,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-10-15,VA Apts Mgmt Assoc. PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-08-12,"MVP, LLC","$2,000",Cannonsburg,PA,business,,Pipelines,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-09-05,Verizon,"$1,000",Washington,DC,business,,Telecommunications,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-15,"Tenaska Virginia Partners, LP","$1,000",Scottsville,VA,business,,energy,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-09-27,VA Operators of Skill,"$1,000",Richmond,VA,business,,Skill Games,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-10-15,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,Political Action Committee,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-10-15,Albers & Company,"$1,000",Arlington,VA,business,,lobby,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-07-08,Atmos Energy Corporation PAC,"$1,000",Dallas,TX,pac,,PAC,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-08-12,"Sentara Health Administration, Inc.","$1,000",Virginia Beach,VA,business,,Insurance,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-08-12,CSX Transportation Inc,$500,Jacksonville,FL,business,,transportation,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-10-12,"H E Chip Slate, II PC","$1,000",Stuart,VA,business,,legal,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-10-12,Mark Snesavage,$250,Woodbridge,VA,individual,Fredericksburg Area Builders Association,homebuilders,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-30,Comstock Hospitality Holdings,"$5,000",Reston,VA,business,,Hospitality,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-21,VA Digital Infrastructure PAC,"$2,500",Leesburg,VA,pac,,PAC,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2024-12-12,"Vantage Data Centers Management Co, LLC",$500,Santa Clara,CA,business,,Data,,A,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-07-02,Microsoft Office Products,$12,Redmond,WA,,,,Software,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-07-26,Microsoft Office Products,$12,Redmond,WA,,,,software,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-08-27,Microsoft Office Products,$12,Redmond,WA,,,,Software,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-09-30,Microsoft Office Products,$12,Redmond,WA,,,,Software,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-10-28,Microsoft Office Products,$12,Redmond,WA,,,,Software,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-09-03,"Expedia, Inc",$188.32,Washington,DC,,,,Travel Fundraiser,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-09-12,"Expedia, Inc",$189.31,Washington,DC,,,,Travel-Fundraiser,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-07-23,MailChimp.com,$300,Atlanta,GA,,,,Mailing Services,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-08-23,MailChimp.com,$300,Atlanta,GA,,,,Mailing Services,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-09-23,MailChimp.com,$300,Atlanta,GA,,,,Mailing services,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-10-23,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-08-01,Residence Inn,$249.54,Richmond,VA,,,,hotel expense for fundraiser,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-09-12,"CSGA Group, LLC",$525,Moneta,VA,,,,contracting services,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-07-26,TopGolf,$392.15,Richmonda,VA,,,,Fundraising expense,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-07-26,TopGolf,$671.46,Richmonda,VA,,,,Fundraising Expense,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-08-08,Aaron Arnold,$640,Moneta,VA,,,,"Reimbursement for fundraising expense, room and food",D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-09-07,Dominion Raceway,"$7,257.60",Woodford,VA,,,,Fundraising event,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-09-12,9th District Republican Committee,$500,Bristol,VA,,,,Donation,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+expenditure,2024-10-21,Noah Webster Educational Foundation,"$5,000",Bedford,VA,,,,Donation,D,429699,2024-07-01 to 2024-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-05-15,Virginia Sheriffs' Association,$500,Richmond,VA,pac,,Political Action Committee,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-16,Virginia Automobile & Truck Dealers,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-23,"Altria Client Services, Inc","$2,500",Richmond,VA,business,,Client Services,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-02-28,Virginia Lifepoint Hospitals PAC,$500,Richlands,VA,pac,,Poltical Action Committee,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-16,Waste Management,$500,Washington,DC,business,,Waste Management,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-05-15,"Republic Services, Inc",$500,Phoenix,AZ,business,,Waste Management Services,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-26,"Republic Services, Inc",$500,Phoenix,AZ,business,,Waste Management Services,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-23,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,Political Action Committee,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-02-28,Omega Protein,$500,Houston,TX,business,,Health Products,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-23,Virginia Retail Federation PAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-02-28,Virginia Manufactured & Modular PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-16,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,Beer Wholesalers,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-16,Lawrence Distributing Company,"$1,000",Danville,VA,business,,Distributing,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-23,Virginia Trial Lawyers Association,"$3,000",Richmond,VA,business,,,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-02-28,HBAV BUILD-PAC,"$5,000",Richmond,VA,pac,,Home Builders Association PAC,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-16,Virginia Wine Wholesalers,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-05-16,Williams Mullen Clark & Dobbins,$750,Richmond,VA,business,,Law Offices,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-16,VA Beverage Ass PAC,$750,Norton,VA,pac,,beverage bottlers and distributors,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-02-28,Virginia Asian American Store Owners Association PAC,$500,Richmond,VA,pac,,Retail,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-03-12,Vision Management Services,$500,Chicago,IL,business,,Vision,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-05-15,David Foley,"$1,000",Stafford,VA,individual,"Pets Plus, Inc.",Pet store owner,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-02-28,VA Operators of Skill,"$1,000",Richmond,VA,business,,Skill Games,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-02-28,VOW Pac,"$1,000",Richmond,VA,pac,,PAC,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-05-16,Atmos Energy Corporation PAC,"$1,000",Dallas,TX,pac,,PAC,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-02-28,Virginia Assisted Associated Living PAC,$500,Henrico,VA,pac,,PAC,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-06-16,Smurfit Westrock,"$1,000",Atlanta,GA,business,,Manufacturing,,A,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-03-03,Treasurer of Virginia,$40,Richmond,VA,,,,Flag for constituent,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-03-03,The Carroll News,$88,Miamisburg,OH,,,,subscription,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-03-03,Virginia Senate Republican Caucus,"$12,000",Williamsburg,VA,,,,Dues,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-05-09,Virginia Senate Republican Caucus,"$26,500",Williamsburg,VA,,,,Dues,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-03-27,"Monumental Consulting, LLC","$3,650",Richmond,VA,,,,Fundraising Expense,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-02-24,Vigilant Websites,$350,Lynchburg,VA,,,,Website,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-02-04,MailChimp.com,$300,Atlanta,GA,,,,"postage, mailing services",D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-03-03,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-04-03,MailChimp.com,$300,Atlanta,GA,,,,mail service,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-05-05,MailChimp.com,$300,Atlanta,GA,,,,Mailing services,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-06-03,MailChimp.com,$300,Atlanta,GA,,,,mailing service,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-03-03,Phil Rapp,"$4,232.52",Medlothian,VA,,,,Reimbursement for operation expenses,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-02-25,Intuit Quickbooks,$235,Greenville,SC,,,,Accounting software,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-04-24,Intuit Quickbooks,$235,Greenville,SC,,,,Accounting Software,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-05-27,Intuit Quickbooks,$235,Greenville,SC,,,,Accounting Software,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-06-25,Intuit Quickbooks,$235,Greenville,SC,,,,Accounting Software,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-01-04,Winsome For Governor,"$5,000",Richmond,VA,,,,Donation,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-02-11,Legacy Strategy Group,"$2,233.41",Lynchburg,VA,,,,"t-shirts, marketing material, donation",D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-03-03,South Boston Speedway,"$1,350",South Boston,VA,,,,Fundraising expense,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-03-05,Subscriber Renewals,$104.99,Paducah,KY,,,,Subscriptions,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+expenditure,2025-05-09,Cornett for Delegate,"$2,500",Independence,VA,,,,Donation,D,447932,2025-01-01 to 2025-06-30,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,Huntington Ingalls Industries,$500,Newport News,VA,business,,Ship Building,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-19,McGuireWoods,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-09-09,Realtors Political Action Committee,"$2,500",Glen Allen,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-08-01,Dominion Political Action Committee,"$75,000",Richmond,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-07,Dominion Political Action Committee,"$100,000",Richmond,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-11,Dominion Political Action Committee,"$50,000",Richmond,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-19,AT&T,$500,Richmond,VA,business,,Telecommunications,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-11-13,T-Mobile USA,$500,Atlanta,GA,business,,Telecommunications,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-07-14,"Capital One Services, LLC","$1,000",Reston,VA,business,,Financial,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,Maritime Issues Council,"$1,000",Norfolk,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-19,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,Delta Dental of Virginia,$500,Roanoke,VA,business,,Dental Health,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-07-14,Comcast Corporation,$500,Philadelphia,PA,business,,Cable and Telecommunications,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,VAMICPAC,$500,Richmond,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-09-22,Virginia Wine Wholesalers,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-19,"Metis Services, Inc","$1,000",Roanoke,VA,business,,Occupation Insurance,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,Law Offices,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-09-22,Anheuser Busch Companies,$250,New York,NY,business,,Beverages/Brewing Company,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-07,VAD Pac,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-11-17,Dr Mark A Crabtree,$500,Martinsville,VA,individual,Self,Dentist,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-11-13,Cigna,$500,Philadelphia,PA,business,,HealthCare,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-11-17,"Amazon.com Services, Inc","$2,000",Seattle,WA,business,,On Line Sales,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,VA Apts Mgmt Assoc. PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,VA Mortgage Bankers PAC,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-07,"MVP, LLC","$1,000",Cannonsburg,PA,business,,Pipelines,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-09-22,CC Procurement,$500,Chelmsford,MA,business,,Precurement Software,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,Roanoke Gas,"$1,000",Roanoke,VA,business,,Utilities,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,ULT PAC,$500,Richmond,VA,pac,,Computer Games,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-07,Vision Management Services,"$2,000",Chicago,IL,business,,Vision,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-04,WinRed,$960.60,Arlington,VA,business,,Fundraising platform,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-18,WinRed,"$2,651.50",Arlington,VA,business,,Fundraising platform,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-31,WinRed,$480.30,Arlington,VA,business,,Fundraising platform,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-19,"Tenaska Virginia Partners, LP","$1,000",Scottsville,VA,business,,energy,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-07,Community-Owned Power PAC,"$2,500",Richmond,VA,pac,,PAC,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-07,Albers & Company,"$1,000",Arlington,VA,business,,lobby,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-09-09,Virginia Future PAC,"$1,000",Woodbridge,VA,pac,,PAC,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-12-19,"Vantage Data Centers Management Co, LLC",$500,Santa Clara,CA,business,,Data,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-07-14,"DoorDash, LLC","$2,000",Sausalito,CA,business,,App based delivery service,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-08-05,PMI US Coprorate Services,"$5,000",San Rafael,CA,business,,Tobacco and nicotine,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-09-22,CUPAC,"$5,000",Naperville,IL,pac,,PAC,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-07,Kevin Laine,$250,Ridgeway,VA,individual,Valley Star,Executive Vice President,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,Virginia Contractor Procurement Alliance,"$1,000",Ashland,VA,business,,Procurement Reform,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-11-13,Publix Super Markets,$500,Lakeland,FL,business,,foodstore,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2025-10-30,Samuel Alexander,$500,Boones Mill,VA,individual,Retired,Retired,,A,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+in_kind,2025-12-30,Dominion Political Action Committee,$850.92,Richmond,VA,pac,,Political Action Committee,Food and Beverage for event,B,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-07,Treasurer of Virginia,$48,Richmond,VA,,,,flags and framing constituent,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-09,Aztec Rental,$384.54,Moneta,VA,,,,chairs/tables fundraiser,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-12-19,Virginia Public Access Project,$511.95,Richmond,VA,,,,Contribution,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-12-22,Virginia Public Access Project,$511.55,Richmond,VA,,,,Donation,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-08-22,Senate Republican Caucus,"$1,500",Williamsburg,VA,,,,Caucus dues,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-09-09,Senate Republican Caucus,"$12,000",Williamsburg,VA,,,,Caucus Dues,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-07-03,MailChimp.com,$300,Atlanta,GA,,,,mailing service,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-08-04,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-09-03,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-03,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-11-03,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-12-03,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-12-19,Patrick County Republican Committee,$500,Claudville,VA,,,,donation,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-09-09,Franklin County Republican Committee,$500,Rocky Mount,VA,,,,Contributions,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-07-01,Richard J Crouse,$638.79,Chatham,VA,,,,Contract services,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-09-09,Richard J Crouse,"$1,000",Chatham,VA,,,,Contract Services,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-09,Richard J Crouse,"$1,085",Chatham,VA,,,,contract services,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-07-25,Intuit Quickbooks,$235,Greenville,SC,,,,bookkeeping software,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-08-25,Intuit Quickbooks,$275,Greenville,SC,,,,bookkeeping software,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-09-24,Intuit Quickbooks,$275,Greenville,SC,,,,bookkeeping software,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-24,Intuit Quickbooks,$275,Greenville,SC,,,,bookkeeping software,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-11-24,Intuit Quickbooks,$275,Greenville,SC,,,,Bookkeeping services,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-12-24,Intuit Quickbooks,$275,Greenville,SC,,,,bookkeeping software,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-08-22,Proud Patroits of Smith Mountain Lake,$500,Moneta,VA,,,,Donation,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-08,Aaron Arnold,$113.66,Moneta,VA,,,,reimbursement for fundraiser expense,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-09-15,Dominion Raceway,$22.55,Woodford,VA,,,,fundraiser expense,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-09-17,Dominion Raceway,"$7,140",Woodford,VA,,,,Refreshments and location for fundraiser,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-07,Back 40 BBQ,"$2,000",Ferrum,VA,,,,refreshments/food for fundraiser,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-08,Kim Taylor For Delegate,"$2,000",Sutherland,VA,,,,donation,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-08,Chris Obenshain for Delegate,"$2,000",Blacksburg,VA,,,,donation,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-08,Friends of Carrie Coyner,"$1,000",Chester,VA,,,,donation,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-12-19,"Disruptor Radio, LLC","$1,000",Washington,DC,,,,advertisement,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-09,Republican Attorney Generals Associations,"$100,000",Washington,DC,,,,donation,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-10-09,Atlantic Union Bank,$30,Glen Allen,VA,,,,bank service fee,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+expenditure,2025-12-19,Atlantic Union Bank,$35,Glen Allen,VA,,,,Bank service fee,D,479859,2025-07-01 to 2025-12-31,CC-12-00109,Stanley For Senate
+contribution,2026-01-12,Dominion Political Action Committee,"$25,000",Richmond,VA,pac,,Political Action Committee,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-05-06,Dominion Political Action Committee,"$50,000",Richmond,VA,pac,,Political Action Committee,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-01-13,Commission of Revenue PAC,$250,Newport News,VA,pac,,Political Action Committee,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-01-13,"7-Eleven, Inc","$2,500",Irving,TX,business,,Convenience Store,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-01-13,"7-Eleven, Inc","$1,000",Irving,TX,business,,Convenience Store,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-04-29,William A Pace II,"$2,500",Chatham,VA,individual,Retired,Retired,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-01-13,"Acadia Healthcare Company, Inc  FEDPAC",$500,Franklin,TN,pac,,Political Action Committee,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-01-13,"POM of Virginia, LLC","$5,000",Duluth,GA,business,,Skill Games,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-04-29,"POM of Virginia, LLC","$5,000",Duluth,GA,business,,Skill Games,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-04-29,Paul Goldean,"$2,500",Charlotte,NC,individual,Pace O Matic,CEO,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-04-27,VA Operators of Skill,"$5,000",Richmond,VA,business,,Skill Games,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-01-13,VA Digital Infrastructure PAC,"$2,500",Leesburg,VA,pac,,PAC,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-01-13,Organizing for VA Seniors PAC,"$2,500",Fairfax,VA,pac,,PAC,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-01-13,NOVA Distro,"$5,000",Manassas,VA,business,,Wholesaler,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+contribution,2026-01-12,Carbon Solutions Group,$500,Chicago,IL,business,,energy,,A,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-30,T-Mobile USA,$138.17,Atlanta,GA,,,,telphone,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-18,T-Mobile USA,$98.05,Atlanta,GA,,,,telephone communications,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-16,T-Mobile USA,$101.23,Atlanta,GA,,,,"telephone, telecommunications",D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-04-10,Martinsville Bulletin,$14.99,Martinsville,VA,,,,subcription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-07,Martinsville Bulletin,$14.99,Martinsville,VA,,,,Subscription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-04,Martinsville Bulletin,$14.99,Martinsville,VA,,,,subscription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-01-05,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-02-03,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-03,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-04-03,MailChimp.com,$300,Atlanta,GA,,,,mailing services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-04,MailChimp.com,$334,Atlanta,GA,,,,mailing services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-03,MailChimp.com,$334,Atlanta,GA,,,,mailing services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-04-03,Danville Register,$19.99,Richmond,VA,,,,subscription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-01,Danville Register,$19.99,Richmond,VA,,,,Subscriptions,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-29,Danville Register,$19.99,Richmond,VA,,,,subscriptions,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-26,Danville Register,$19.99,Richmond,VA,,,,subscription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-26,Richard J Crouse,$402.42,Chatham,VA,,,,Reimbursement for fundraiser event location,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-27,Richard J Crouse,$60,Chatham,VA,,,,Reimbursement for gas for event,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-02-08,Thomas Graziano,"$3,000",Richmond,VA,,,,contract services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-11,Stanley & Stanley,"$4,031.21",Moneta,VA,,,,reimbursement for fundraising event,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-30,"Facebook, Inc",$43.27,Menio Park,CA,,,,"media, advertising,",D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-04-30,"Facebook, Inc",$55.80,Menio Park,CA,,,,social media,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-11,"Facebook, Inc",$85,Menio Park,CA,,,,social media,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-11,"Facebook, Inc",$85,Menio Park,CA,,,,social media,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-13,"Facebook, Inc",$85,Menio Park,CA,,,,social media,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-01,"Facebook, Inc",$20,Menio Park,CA,,,,social media,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-09,"Facebook, Inc",$85,Menio Park,CA,,,,social media,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-30,"Facebook, Inc",$34.11,Menio Park,CA,,,,social media,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-01-26,Intuit Quickbooks,$275,Greenville,SC,,,,bookkeeping,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-02-24,Intuit Quickbooks,$275,Greenville,SC,,,,Bookkeeping services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-24,Intuit Quickbooks,$275,Greenville,SC,,,,Bookkeeping services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-04-24,Intuit Quickbooks,$275,Greenville,SC,,,,Bookkeeping services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-26,Intuit Quickbooks,$275,Greenville,SC,,,,bookkeeping services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-24,Intuit Quickbooks,$275,Greenville,SC,,,,bookkeeping services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-05,"CSGA Group, LLC",$226.90,Moneta,VA,,,,contract services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-30,South Boston Speedway,$636,South Boston,VA,,,,fundraiser meal,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-04-09,"Disruptor Radio, LLC","$1,000",Washington,DC,,,,donation,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-01-05,Martinsville/Henry County SPCA,"$1,000",Martinsville,VA,,,,Donation,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-02-08,Laura L Vozzella,"$5,320",Henrico,VA,,,,Contract services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-26,Laura L Vozzella,"$5,440",Henrico,VA,,,,Contract services,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-10,Virginia Department of Elections,$2.19,Richmond,VA,,,,filing,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-10,Virginia Department of Elections,$95.60,Richmond,VA,,,,Filing,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-03-09,Solid Stone Fabrics,"$2,870.10",Martinsville,VA,,,,donation,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-02-20,C.P. Dean Company,$824.68,Richmond,VA,,,,Marketing materials,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-04-07,The Roanoke Times,$14.99,Roanoke,VA,,,,subscription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-05,The Roanoke Times,$14.99,Roanoke,VA,,,,subscription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-02,The Roanoke Times,$14.99,Roanoke,VA,,,,subscriptions,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-30,The Roanoke Times,$14.99,Roanoke,VA,,,,subscription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-04-29,Richmond Times-Dispatch,$24.99,Mechanicsville,VA,,,,subscriptions,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-27,Richmond Times-Dispatch,$24.99,Mechanicsville,VA,,,,subscriptions,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-24,Richmond Times-Dispatch,$24.99,Mechanicsville,VA,,,,subscription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-04-28,Daily Progress,$24.99,Charlottesville,VA,,,,subscriptions,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-05-26,Daily Progress,$24.99,Charlottesville,VA,,,,Subscriptions,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-23,Daily Progress,$24.99,Charlottesville,VA,,,,subscription,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate
+expenditure,2026-06-03,Grayson County Republican Committee,$500,Independence,VA,,,,donation,D,494761,2026-01-01 to 2026-06-30,CC-12-00109,Stanley For Senate

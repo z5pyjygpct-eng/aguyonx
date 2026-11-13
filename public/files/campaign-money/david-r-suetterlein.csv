@@ -3,6 +3,109 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$248,583.03",,VA,,"From official Schedule H, November 2027 election cycle",H,497211,2026-07-15
 summary,2026-06-30,Raised this cycle,"$298,698.15",,,,Total receipts this election cycle (Schedule H),H,497211,2026-07-15
 summary,2026-06-30,Spent this cycle,"$106,990.88",,,,Total disbursements this election cycle (Schedule H),H,497211,2026-07-15
+contribution,2024-06-24,Anheuser Busch,$250,St. Louis,MO,business,,A,409886,2024-07-15
+contribution,2024-05-15,Clean Virginia Fund,"$10,000",Charlottesville,VA,business,,A,409886,2024-07-15
+contribution,2024-06-28,Nikki Thacker,$125,Richmond,VA,individual,,A,409886,2024-07-15
+contribution,2024-10-11,Comcast Corporation,$500,Philadelphia,PA,business,,A,431637,2025-01-15
+contribution,2024-10-02,HCA for Good Government,"$3,000",Reston,VA,business,,A,431637,2025-01-15
+contribution,2024-12-10,Virginia Hospital & Healthcare Association Political Action Committee,"$1,000",Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-02,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-11-07,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-11,Virginia Optometric Association,$500,Glen Allen,VA,business,,A,431637,2025-01-15
+contribution,2024-10-22,Virginia Optometric Association,$500,Glen Allen,VA,business,,A,431637,2025-01-15
+contribution,2024-12-23,McGuireWoods State PAC,"$1,000",Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-09-24,Realtors Political Action Committee of Virginia,"$2,500",Glen Allen,VA,pac,,A,431637,2025-01-15
+contribution,2024-12-23,Transurban USA,$500,New York,NY,business,,A,431637,2025-01-15
+contribution,2024-12-19,Delta Dental of Virginia,$250,Roanoke,VA,business,,A,431637,2025-01-15
+contribution,2024-10-23,Joe Blackstock,$200,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-12-31,Joe Blackstock,$100,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-07-23,EYE PAC,$250,Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-25,Omega Protein,$500,Calais,ME,business,,A,431637,2025-01-15
+contribution,2024-12-27,Commonwealth Sportsmen's Alliance PAC,"$1,000",Powhatan,VA,pac,,A,431637,2025-01-15
+contribution,2024-12-20,Commercial Development PAC,$500,Alexandria,VA,pac,,A,431637,2025-01-15
+contribution,2024-08-23,Verizon Good Government Club of Virginia,$500,Richmond,VA,business,,A,431637,2025-01-15
+contribution,2024-10-22,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,431637,2025-01-15
+contribution,2024-12-19,Virginia Sheriffs' Association Political Action Committee,$250,Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-12-14,VPTA-PAC,$500,Clifton,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-25,Anheuser Busch,$200,St. Louis,MO,business,,A,431637,2025-01-15
+contribution,2024-11-26,Patricia Tryal,$25,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-11-28,Patricia Tryal,$10,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-12-28,Patricia Tryal,$10,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-12-10,Norfolk Southern Corporation,"$1,000",Norfolk,VA,business,,A,431637,2025-01-15
+contribution,2024-10-11,Sandra Gates,$125,Troutville,VA,individual,,A,431637,2025-01-15
+contribution,2024-12-31,Sandra Gates,$125,Troutville,VA,individual,,A,431637,2025-01-15
+contribution,2024-10-03,Gary Duerk,$250,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-08-16,Reed Smith LLP Political Action Committee,$500,Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-07,Virginia Lynch,$175,Thaxton,VA,individual,,A,431637,2025-01-15
+contribution,2024-10-11,Charles Nave,$500,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-11-12,Brown & Son LLC,$250,Salem,VA,business,,A,431637,2025-01-15
+contribution,2024-08-08,"Republic Services, Inc",$500,Phoenix,AZ,business,,A,431637,2025-01-15
+contribution,2024-10-22,Virginia Independent Auto Dealers PAC,$500,Virginia Beach,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-18,John Saunders,$250,Salem,VA,individual,,A,431637,2025-01-15
+contribution,2024-10-22,Chiropractic Political Action Committee of VA,$500,Afton,VA,pac,,A,431637,2025-01-15
+contribution,2024-11-13,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,431637,2025-01-15
+contribution,2024-09-03,Copart,$500,Fairfield,CA,business,,A,431637,2025-01-15
+contribution,2024-10-16,Darlene DeHart,$125,Moneta,VA,individual,,A,431637,2025-01-15
+contribution,2024-09-03,Vision Management Services,$500,Chicago,IL,business,,A,431637,2025-01-15
+contribution,2024-12-03,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,A,431637,2025-01-15
+contribution,2024-09-24,Virginia Maritime Association Political Action Committee,$500,Norfolk,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-14,Philip Montano,$125,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-12-19,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,431637,2025-01-15
+contribution,2024-10-24,Coyner Spring Service Center Inc,$250,Blue Ridge,VA,business,,A,431637,2025-01-15
+contribution,2024-10-23,Michael Galliher,$125,Salem,VA,individual,,A,431637,2025-01-15
+contribution,2024-10-13,Cameron Johnson,$250,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-10-23,Walter Cooper Brown IV,$200,Rocky Mount,VA,individual,,A,431637,2025-01-15
+contribution,2024-10-23,David Bowers,$100,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-08-08,LKQ Corporation,$500,Anitoch,TN,business,,A,431637,2025-01-15
+contribution,2024-10-11,Virginia CRNAs Who Care About Healthcare PAC,$500,Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-23,Virginia CRNAs Who Care About Healthcare PAC,"$2,500",Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-11,"John T Morgan Roofing and Sheet Metal Company, Inc",$200,Roanoke,VA,business,,A,431637,2025-01-15
+contribution,2024-10-23,John Massoud,$500,Strasburg,VA,individual,,A,431637,2025-01-15
+contribution,2024-10-22,Principal Advantage Government Relations Group LLC,$500,Williamsburg,VA,business,,A,431637,2025-01-15
+contribution,2024-10-22,"Enterprise Holdings, Inc Political Action Committee",$500,St. Louis,MO,pac,,A,431637,2025-01-15
+contribution,2024-10-25,McKesson Corporation Employee Political Fund,$500,Washington,DC,business,,A,431637,2025-01-15
+contribution,2024-10-29,P. Jason Peters,$125,Vinton,VA,individual,,A,431637,2025-01-15
+contribution,2024-11-01,Virginia Assisted Living Association PAC,$500,Henrico,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-24,Mitchell’s Towing and Recovery,$500,Roanoke,VA,business,,A,431637,2025-01-15
+contribution,2024-12-19,Coca-Cola Consolidated,$750,Charlotte,NC,business,,A,431637,2025-01-15
+contribution,2024-12-19,Humana,$500,Lexington,KY,business,,A,431637,2025-01-15
+contribution,2024-11-18,Edwin Speare,$125,Woodbridge,VA,individual,,A,431637,2025-01-15
+contribution,2024-11-19,Monica Cardiff,$125,Alexandria,VA,individual,,A,431637,2025-01-15
+contribution,2024-12-31,Mital Gandhi,$250,Ashburn,VA,individual,,A,431637,2025-01-15
+contribution,2024-12-31,Stanley Smith,$250,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-12-30,WALPAC for Responsible Government Political Action Committee,$500,Bentonville,AR,pac,,A,431637,2025-01-15
+contribution,2024-12-18,United,$250,Houston,TX,business,,A,431637,2025-01-15
+contribution,2024-10-01,The Good Fund,$500,Springfield,VA,business,,A,431637,2025-01-15
+contribution,2024-11-19,Stephen Rosenthal,$120,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-10-23,"Robert Young's Auto & Truck, Inc.","$2,500",Roanoke,VA,business,,A,431637,2025-01-15
+contribution,2024-10-24,"G & J Recovery, Inc.",$500,"Roanoke,",VA,business,,A,431637,2025-01-15
+contribution,2024-07-11,Robert McNichols,"$10,000",Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2024-09-24,Williams Mullen,$750,Richmond,VA,business,,A,431637,2025-01-15
+contribution,2024-12-30,HBAV Build-PAC,"$2,500",Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-12-03,Virginia Automobile & Truck Dealers Political Action Committee,"$2,000",Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-12-30,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,A,431637,2025-01-15
+contribution,2024-09-25,Virginia Beverage Association Political Action Committee,$750,Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-09-03,VADPAC,"$1,000",Richmond,VA,pac,,A,431637,2025-01-15
+contribution,2024-10-07,Michael Wray,$250,Roanoke,VA,individual,,A,431637,2025-01-15
+contribution,2025-03-17,Robert McNichols,"$20,000",Roanoke,VA,individual,,A,448181,2025-07-15
+contribution,2025-06-24,Altria Client Services LLC,"$1,500",Richmond,VA,business,,A,448181,2025-07-15
+contribution,2025-03-28,Patricia Tryal,$10,Roanoke,VA,individual,,A,448181,2025-07-15
+contribution,2025-04-28,Patricia Tryal,$10,Roanoke,VA,individual,,A,448181,2025-07-15
+contribution,2025-05-28,Patricia Tryal,$10,Roanoke,VA,individual,,A,448181,2025-07-15
+contribution,2025-06-28,Patricia Tryal,$10,Roanoke,VA,individual,,A,448181,2025-07-15
+contribution,2025-06-30,Terry VandeLinde,"$1,000",Roanoke,VA,individual,,A,448181,2025-07-15
+contribution,2025-06-24,"Republic Services, Inc",$500,Phoenix,AZ,business,,A,448181,2025-07-15
+contribution,2025-04-23,Clean Virginia Fund,"$10,000",Charlottesville,VA,business,,A,448181,2025-07-15
+contribution,2025-06-30,John Saunders,$100,Salem,VA,individual,,A,448181,2025-07-15
+contribution,2025-06-12,Nikki Thacker,$125,Mechanicsville,VA,individual,,A,448181,2025-07-15
+contribution,2025-03-18,Shelor Motor Mile,"$10,000",Christiansburg,VA,business,,A,448181,2025-07-15
+contribution,2025-04-28,Heywood Fralin,"$2,000",Roanoke,VA,individual,,A,448181,2025-07-15
+contribution,2025-05-27,Waste Management,$500,Houston,TX,business,,A,448181,2025-07-15
+contribution,2025-03-10,Elevance Health Inc.,$500,Cincinnati,OH,business,,A,448181,2025-07-15
+contribution,2025-05-13,"CVS Pharmacy, Inc",$500,Woonsocket,RI,business,,A,448181,2025-07-15
+contribution,2025-05-27,Smurfit Westrock,$500,Atlanta,GA,business,,A,448181,2025-07-15
+contribution,2025-06-21,Peggy Johnson,$200,Salem,VA,individual,,A,448181,2025-07-15
+contribution,2025-05-03,Donald Ratliff,$500,Big Stone,VA,individual,,A,448181,2025-07-15
 contribution,2025-12-03,HBAV Build-PAC,"$2,500",Richmond,VA,pac,,A,479849,2026-01-15
 contribution,2025-09-26,Virginia Automobile & Truck Dealers Political Action Committee,"$2,500",Richmond,VA,pac,,A,479849,2026-01-15
 contribution,2025-09-26,Virginia Beverage Association Political Action Committee,$500,Richmond,VA,pac,,A,479849,2026-01-15
@@ -125,6 +228,147 @@ contribution,2026-05-08,Jefferson Treass,$125,Vinton,VA,individual,,A,497211,202
 contribution,2026-04-06,Community Solar Action Fund PAC,"$1,000",Washington,DC,pac,,A,497211,2026-07-15
 contribution,2026-01-07,White Birch Holdings,$500,Roanoke,VA,business,,A,497211,2026-07-15
 contribution,2026-01-08,The Good Fund,$250,Roanoke,VA,business,,A,497211,2026-07-15
+in_kind,2024-10-23,Joseph McNamara,$218.14,Roanoke,VA,individual,Food and Event Supplies,B,431637,2025-01-15
+expenditure,2024-03-22,USPS - Cave Spring Branch,$81.60,Roanoke,VA,business,Postage,D,409886,2024-07-15
+expenditure,2024-04-24,USPS - Cave Spring Branch,$382.70,Roanoke,VA,business,Post Office Box and Postage,D,409886,2024-07-15
+expenditure,2024-04-30,Sheetz - Apperson Drive,$95.32,Salem,VA,business,Fuel,D,409886,2024-07-15
+expenditure,2024-01-09,Virginia Senate Republican Caucus,"$4,750",Williamsburg,VA,party,Contribution,D,409886,2024-07-15
+expenditure,2024-04-11,Kroger - Brambleton,$96.12,Roanoke,VA,business,Fuel,D,409886,2024-07-15
+expenditure,2024-02-07,"Amazon.com, Inc",$22.04,Seattle,WA,business,Office Supplies,D,409886,2024-07-15
+expenditure,2024-02-20,Massey Cancer Center,$250,Richmond,VA,business,Contribution,D,409886,2024-07-15
+expenditure,2024-04-22,Virginia Agribusiness Council,$99.38,North Chesterfield,VA,business,Ticket to Event,D,409886,2024-07-15
+expenditure,2024-01-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,409886,2024-07-15
+expenditure,2024-02-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,409886,2024-07-15
+expenditure,2024-03-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,409886,2024-07-15
+expenditure,2024-04-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,409886,2024-07-15
+expenditure,2024-05-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,409886,2024-07-15
+expenditure,2024-06-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,409886,2024-07-15
+expenditure,2024-03-11,Cox Communciations,$289.80,Roanoke,VA,business,Communications,D,409886,2024-07-15
+expenditure,2024-03-21,Salem Times Register,$7.50,Salem,VA,business,Newspaper,D,409886,2024-07-15
+expenditure,2024-06-21,Salem Times Register,$7.50,Salem,VA,business,Newspaper,D,409886,2024-07-15
+expenditure,2024-04-07,Hilton Norfolk The Main,$176.59,Norfolk,VA,business,Lodging,D,409886,2024-07-15
+expenditure,2024-05-15,Truist,$15,Charlotte,NC,business,Bank Fee,D,409886,2024-07-15
+expenditure,2024-06-30,Anedot,$113.70,New Orleans,LA,business,Internet Payment Processor,D,409886,2024-07-15
+expenditure,2024-01-11,Rumbleup,"$1,373",Washington,DC,business,Text Messaging,D,409886,2024-07-15
+expenditure,2024-02-18,Godaddy.com LLC,$70.32,Tempe,AZ,business,Website,D,409886,2024-07-15
+expenditure,2024-03-13,Godaddy.com LLC,$110.85,Tempe,AZ,business,Website,D,409886,2024-07-15
+expenditure,2024-03-15,Godaddy.com LLC,$22.17,Tempe,AZ,business,Website,D,409886,2024-07-15
+expenditure,2024-06-25,Godaddy.com LLC,$71.88,Tempe,AZ,business,Website,D,409886,2024-07-15
+expenditure,2024-03-09,"Graphicsland, Inc",$524.92,Tinley Park,IL,business,Printing,D,409886,2024-07-15
+expenditure,2024-06-29,"Graphicsland, Inc",$583.91,Tinley Park,IL,business,Printing,D,409886,2024-07-15
+expenditure,2024-03-12,Poe & Cronk Real Estate Group,"$2,249.10",Roanoke,VA,business,Office Rent,D,409886,2024-07-15
+expenditure,2024-06-03,BP - Electric Road,$89.61,Roanoke,VA,business,Fuel,D,409886,2024-07-15
+expenditure,2024-02-16,Virginia Capitol Correspondents Association,$70,Richmond,VA,business,Ticket to Virginia Capitol Correspondents Association Dinner,D,409886,2024-07-15
+expenditure,2024-02-20,"CityParking, Inc.",$8,Richmond,VA,business,Parking,D,409886,2024-07-15
+expenditure,2024-03-06,The Virginia Shop,$6.36,Richmond,VA,business,Postcards,D,409886,2024-07-15
+expenditure,2024-04-13,City of Norfolk,$13,Norfolk,VA,business,Parking,D,409886,2024-07-15
+expenditure,2024-04-13,Timber Ridge Pit Stop,$110.10,Lexington,VA,business,Fuel,D,409886,2024-07-15
+expenditure,2024-06-01,Holiday Inn Express - Hampton Coliseum Central,$459.36,Hampton,VA,business,Lodging,D,409886,2024-07-15
+expenditure,2024-06-01,Colonial Downs Pit Stop,$70.39,New Kent,VA,business,Fuel,D,409886,2024-07-15
+expenditure,2024-06-15,Michael Zessin,"$1,000",Roanoke,VA,individual,Political Work,D,409886,2024-07-15
+expenditure,2024-06-15,Salem High School,"$1,200",Salem,VA,business,Football Program Advertising,D,409886,2024-07-15
+expenditure,2024-09-14,Salem Republican Committee,$500,Salem,VA,business,Contribution,D,431637,2025-01-15
+expenditure,2024-08-07,Roanoke County Republican Committee,"$1,000",Roanoke,VA,business,Contribution,D,431637,2025-01-15
+expenditure,2024-08-06,USPS - Cave Spring Branch,$292,Roanoke,VA,business,Postage,D,431637,2025-01-15
+expenditure,2024-08-12,USPS - Cave Spring Branch,$5.70,Roanoke,VA,business,Postage,D,431637,2025-01-15
+expenditure,2024-08-19,USPS - Cave Spring Branch,$73,Roanoke,VA,business,Postage,D,431637,2025-01-15
+expenditure,2024-09-30,USPS - Cave Spring Branch,$64.25,Roanoke,VA,business,Postage,D,431637,2025-01-15
+expenditure,2024-10-01,USPS - Cave Spring Branch,$29.20,Roanoke,VA,business,Postage,D,431637,2025-01-15
+expenditure,2024-10-15,USPS - Cave Spring Branch,$481.80,Roanoke,VA,business,Postage and PO Box Rental,D,431637,2025-01-15
+expenditure,2024-11-01,USPS - Cave Spring Branch,$455,Roanoke,VA,business,Postage,D,431637,2025-01-15
+expenditure,2024-12-06,USPS - Cave Spring Branch,$146,Roanoke,VA,business,Postage,D,431637,2025-01-15
+expenditure,2024-12-16,USPS - Cave Spring Branch,$292,Roanoke,VA,business,Postage,D,431637,2025-01-15
+expenditure,2024-07-03,WalMart - Clearbrook,$38.18,Roanoke,VA,business,Candy for Events,D,431637,2025-01-15
+expenditure,2024-10-23,WalMart - Clearbrook,$253.59,Roanoke,VA,business,Food for Event,D,431637,2025-01-15
+expenditure,2024-08-23,Southern Graphics,$79.69,Roanoke,VA,business,Printing,D,431637,2025-01-15
+expenditure,2024-08-30,Southern Graphics,$82.85,Roanoke,VA,business,Printing,D,431637,2025-01-15
+expenditure,2024-09-30,Southern Graphics,$770.42,Roanoke,VA,business,Printing,D,431637,2025-01-15
+expenditure,2024-11-04,Southern Graphics,$115.55,Roanoke,VA,business,Printing,D,431637,2025-01-15
+expenditure,2024-10-05,Ninth District Republican Committee,$250,Wytheville,VA,business,Contribution,D,431637,2025-01-15
+expenditure,2024-12-02,Republican Party of Virginia,$483.88,Richmond,VA,party,Contribution,D,431637,2025-01-15
+expenditure,2024-09-03,Sam's Club - Roanoke,$48.21,Roanoke,VA,business,Candy for Event,D,431637,2025-01-15
+expenditure,2024-10-25,Sam's Club - Roanoke,$149.56,Roanoke,VA,business,Candy for Event,D,431637,2025-01-15
+expenditure,2024-08-17,Roanoke City Republican Committee,$100,Roanoke,VA,business,Contribution,D,431637,2025-01-15
+expenditure,2024-08-01,Treasurer of Virginia,$378.52,Richmond,VA,business,Flags and Legislative Expenses,D,431637,2025-01-15
+expenditure,2024-08-30,Montgomery County Republican Committee,$34,Christiansburg,VA,business,Luncheon Tickets,D,431637,2025-01-15
+expenditure,2024-09-20,Sheetz - Zion Crossroads,$47.03,Zion Crossroads,VA,business,Fuel,D,431637,2025-01-15
+expenditure,2024-09-21,Sheetz - Zion Crossroads,$11.64,Zion Crossroads,VA,business,Fuel,D,431637,2025-01-15
+expenditure,2024-08-09,Knights Booster Foundation - Football,$350,Roanoke,VA,business,Advertising,D,431637,2025-01-15
+expenditure,2024-10-21,"Amazon.com, Inc",$117.86,Seattle,WA,business,Food and Event Supplies,D,431637,2025-01-15
+expenditure,2024-07-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,431637,2025-01-15
+expenditure,2024-08-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,431637,2025-01-15
+expenditure,2024-09-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,431637,2025-01-15
+expenditure,2024-10-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,431637,2025-01-15
+expenditure,2024-11-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,431637,2025-01-15
+expenditure,2024-12-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,431637,2025-01-15
+expenditure,2024-09-20,Orbitz,$171.24,Chicago,IL,business,Lodging in Norfolk,D,431637,2025-01-15
+expenditure,2024-09-24,Cox Communciations,$329.55,Roanoke,VA,business,Communications,D,431637,2025-01-15
+expenditure,2024-10-23,Vinton War Memorial,$500,Vinton,VA,business,Event Space,D,431637,2025-01-15
+expenditure,2024-09-21,Salem Times Register,$7.50,Salem,VA,business,Newspaper,D,431637,2025-01-15
+expenditure,2024-12-21,Salem Times Register,$7.50,Salem,VA,business,Newspaper,D,431637,2025-01-15
+expenditure,2024-12-31,Anedot,$136.80,New Orleans,LA,business,Internet Payment Processor,D,431637,2025-01-15
+expenditure,2024-07-06,Godaddy.com LLC,$95.88,Tempe,AZ,business,Website,D,431637,2025-01-15
+expenditure,2024-07-07,Godaddy.com LLC,$88.68,Tempe,AZ,business,Website,D,431637,2025-01-15
+expenditure,2024-10-03,Godaddy.com LLC,$95.88,Tempe,AZ,business,Website,D,431637,2025-01-15
+expenditure,2024-08-01,Poe & Cronk Real Estate Group,"$2,142",Roanoke,VA,business,Office Rent,D,431637,2025-01-15
+expenditure,2024-12-18,Holiday Inn Express - Richmond Midtown,$127.91,Richmond,VA,business,Lodging,D,431637,2025-01-15
+expenditure,2024-11-08,CVS - Colonial Avenue,$42.13,Roanoke,VA,business,Photos,D,431637,2025-01-15
+expenditure,2024-10-23,Ashley Brei,$300,Roanoke,VA,individual,Photography,D,431637,2025-01-15
+expenditure,2024-10-07,BP - Electric Road,$50.27,Roanoke,VA,business,Fuel,D,431637,2025-01-15
+expenditure,2024-12-18,"CityParking, Inc.",$4,Richmond,VA,business,Parking,D,431637,2025-01-15
+expenditure,2024-11-15,Michael Zessin,"$1,000",Roanoke,VA,individual,Political Work,D,431637,2025-01-15
+expenditure,2024-07-27,Winsome PAC,"$5,000",Richmond,VA,pac,Contribution,D,431637,2025-01-15
+expenditure,2024-08-01,FP1 Strategies,"$10,808.65",Arlington,VA,business,Mail and Television Advertising,D,431637,2025-01-15
+expenditure,2024-09-06,Citgo - Lake Wright,$46.47,Virginia Beach,VA,business,Fuel,D,431637,2025-01-15
+expenditure,2024-09-13,Texaco - Oak Grove,$49.47,Roanoke,VA,business,Fuel,D,431637,2025-01-15
+expenditure,2024-09-23,Wyndham - Norfolk Downtwon,$15,Norfolk,VA,business,Parking,D,431637,2025-01-15
+expenditure,2024-09-20,Marriott Virginia Beach,$281.88,Virginia Beach,VA,business,Lodging and Event Expenses,D,431637,2025-01-15
+expenditure,2024-10-15,Vinton Chamber of Commerce,$31,Vinton,VA,business,Vinton Fall Festival,D,431637,2025-01-15
+expenditure,2024-10-17,Virginia ABC - Roanoke Office,$55,Roanoke,VA,business,Banquet License,D,431637,2025-01-15
+expenditure,2024-11-04,CVS - Electric Road,$18.51,Salem,VA,business,Clipboards,D,431637,2025-01-15
+expenditure,2024-12-03,Salem High School Debate Team,$200,Salem,VA,business,Contribution,D,431637,2025-01-15
+expenditure,2024-12-06,BP - Charlottesville,$47.41,Charlottesville,VA,business,Fuel,D,431637,2025-01-15
+expenditure,2024-12-10,Sonesta Suites,$310.90,Charlottesvile,VA,business,Lodging,D,431637,2025-01-15
+expenditure,2024-12-17,USPS - Melrose,$365,Roanoke,VA,business,Postage,D,431637,2025-01-15
+expenditure,2024-12-19,Obenshain for Delegate,"$1,000",Blacksburg,VA,candidate,Contribution,D,431637,2025-01-15
+expenditure,2024-12-01,Friends of Tumay II,"$1,000",Ashburn,VA,business,Contribution,D,431637,2025-01-15
+expenditure,2025-03-04,USPS - Cave Spring Branch,$368.65,Roanoke,VA,business,PO Box Rental and Postage,D,448181,2025-07-15
+expenditure,2025-03-11,USPS - Cave Spring Branch,$6.15,Roanoke,VA,business,Postage,D,448181,2025-07-15
+expenditure,2025-04-23,USPS - Cave Spring Branch,$440.40,Roanoke,VA,business,Postage,D,448181,2025-07-15
+expenditure,2025-03-14,WalMart - Clearbrook,$50.29,Roanoke,VA,business,Materials and candy for event,D,448181,2025-07-15
+expenditure,2025-04-25,WalMart - Clearbrook,$44.70,Roanoke,VA,business,Materials and candy for event,D,448181,2025-07-15
+expenditure,2025-04-25,Sam's Club - Roanoke,$18.82,Roanoke,VA,business,Candy for event,D,448181,2025-07-15
+expenditure,2025-01-07,Virginia Senate Republican Caucus,"$15,000",Williamsburg,VA,party,Contribution,D,448181,2025-07-15
+expenditure,2025-04-25,Kroger - Brambleton,$49.55,Roanoke,VA,business,Fuel,D,448181,2025-07-15
+expenditure,2025-02-27,Commonwealth Sportsmen's Alliance PAC,"$1,000",Powhatan,VA,pac,December 2024 Contribution Returned by Bank,D,448181,2025-07-15
+expenditure,2025-01-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,448181,2025-07-15
+expenditure,2025-03-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,448181,2025-07-15
+expenditure,2025-04-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,448181,2025-07-15
+expenditure,2025-05-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,448181,2025-07-15
+expenditure,2025-06-28,MailChimp,$340,Atlanta,GA,business,Email Service,D,448181,2025-07-15
+expenditure,2025-04-12,Shell - Electric Road,$46.95,Roanoke,VA,business,Fuel,D,448181,2025-07-15
+expenditure,2025-03-10,Cox Communciations,$267,Roanoke,VA,business,Communications,D,448181,2025-07-15
+expenditure,2025-03-21,Salem Times Register,$7.50,Salem,VA,business,Newspaper,D,448181,2025-07-15
+expenditure,2025-06-21,Salem Times Register,$7.50,Salem,VA,business,Newspaper,D,448181,2025-07-15
+expenditure,2025-04-19,Kroger - Lakeside,$63.43,Salem,VA,business,Fuel,D,448181,2025-07-15
+expenditure,2025-06-30,Anedot,$107.10,New Orleans,LA,business,Internet Payment Processor,D,448181,2025-07-15
+expenditure,2025-01-06,Rumbleup,$100,Washington,DC,business,Text Messaging,D,448181,2025-07-15
+expenditure,2025-02-18,Godaddy.com LLC,$70.32,Tempe,AZ,business,Website,D,448181,2025-07-15
+expenditure,2025-03-13,Godaddy.com LLC,$110.85,Tempe,AZ,business,Website,D,448181,2025-07-15
+expenditure,2025-03-14,Godaddy.com LLC,$22.17,Tempe,AZ,business,Website,D,448181,2025-07-15
+expenditure,2025-06-25,Godaddy.com LLC,$95.88,Tempe,AZ,business,Website,D,448181,2025-07-15
+expenditure,2025-02-28,"Graphicsland, Inc",$308.79,Tinley Park,IL,business,Printing,D,448181,2025-07-15
+expenditure,2025-04-22,"Graphicsland, Inc",$308.79,Tinley Park,IL,business,Printing,D,448181,2025-07-15
+expenditure,2025-03-14,Spartan Silk Screen Co.,$525.14,Salem,VA,business,Printing,D,448181,2025-07-15
+expenditure,2025-02-01,Poe & Cronk Real Estate Group,"$2,151",Roanoke,VA,business,Office Rent,D,448181,2025-07-15
+expenditure,2025-03-07,Holiday Inn Express - Richmond Midtown,$127.91,Richmond,VA,business,Lodging,D,448181,2025-07-15
+expenditure,2025-03-06,BP - Electric Road,$42.16,Roanoke,VA,business,Fuel,D,448181,2025-07-15
+expenditure,2025-01-08,"CityParking, Inc.",$6,Richmond,VA,business,Parking,D,448181,2025-07-15
+expenditure,2025-01-22,Senate of Virginia,$98,Richmond,VA,business,Session Parking for Legislative Assistant,D,448181,2025-07-15
+expenditure,2025-04-02,Senate of Virginia,$180.04,Richmond,VA,business,Session Expenses,D,448181,2025-07-15
+expenditure,2025-05-13,USPS - Salem,$17.59,Salem,VA,business,Postage,D,448181,2025-07-15
+expenditure,2025-05-31,Michael Zessin,"$1,000",Roanoke,VA,individual,Political Work,D,448181,2025-07-15
+expenditure,2025-06-26,Miyares for Virginia,"$1,000",Virginia Beach,VA,business,Contribution,D,448181,2025-07-15
 expenditure,2025-08-12,Salem Republican Committee,$500,Salem,VA,business,Contribution,D,479849,2026-01-15
 expenditure,2025-08-01,Roanoke County Republican Committee,"$1,000",Roanoke,VA,business,Contribution,D,479849,2026-01-15
 expenditure,2025-08-07,USPS - Cave Spring Branch,$522.60,Roanoke,VA,business,Postage,D,479849,2026-01-15

@@ -3,6 +3,106 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$544,478.87",,VA,,"From official Schedule H, November 2027 election cycle",H,495300,2026-07-14
 summary,2026-06-30,Raised this cycle,"$960,774.91",,,,Total receipts this election cycle (Schedule H),H,495300,2026-07-14
 summary,2026-06-30,Spent this cycle,"$441,814.23",,,,Total disbursements this election cycle (Schedule H),H,495300,2026-07-14
+contribution,2024-06-04,Thomas Bates,"$1,000",Virginia Beach,VA,individual,,A,406237,2024-07-06
+contribution,2024-01-08,Virginia Automobile and Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,406237,2024-07-06
+contribution,2024-06-20,"Capital One Services, LLC","$1,000",Reston,VA,business,,A,406237,2024-07-06
+contribution,2024-01-07,Dominion PAC,"$20,000",Richmond,VA,pac,,A,406237,2024-07-06
+contribution,2024-06-17,Dominion PAC,"$15,000",Richmond,VA,pac,,A,406237,2024-07-06
+contribution,2024-06-20,Virginia Manufactured & Modular Housing,$250,Henrico,VA,pac,,A,406237,2024-07-06
+contribution,2024-06-26,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,406237,2024-07-06
+contribution,2024-01-02,Transurban USA Inc,$500,New York,NY,business,,A,406237,2024-07-06
+contribution,2024-06-20,Truckers PAC,$250,Richmond,VA,pac,,A,406237,2024-07-06
+contribution,2024-06-27,Anheuser-Busch,$500,St. Louis,MO,business,,A,406237,2024-07-06
+contribution,2024-01-02,Commonwealth Sportsman's Alliance PAC,$500,Powhatan,VA,pac,,A,406237,2024-07-06
+contribution,2024-06-18,Virginia Independent Auto Dealers PAC,$500,Virginia Beach,VA,pac,,A,406237,2024-07-06
+contribution,2024-01-08,GOPAC,$500,Arlington,VA,pac,,A,406237,2024-07-06
+contribution,2024-06-21,GOPAC,"$25,000",Arlington,VA,pac,,A,406237,2024-07-06
+contribution,2024-01-08,Janet Settle,$250,Abiegdon,VA,individual,,A,406237,2024-07-06
+contribution,2024-06-26,Virginia Transportation Construction Alliance,"$1,000",Richmond,VA,pac,,A,406237,2024-07-06
+contribution,2024-04-20,John Owens,"$2,082.03",Virginia Beach,VA,individual,,A,406237,2024-07-06
+contribution,2024-01-05,Kristin Allen,$104.10,Richmond,VA,individual,,A,406237,2024-07-06
+contribution,2024-01-08,Virginia Manufacturers Assoc PAC,$250,Richmond,VA,pac,,A,406237,2024-07-06
+contribution,2024-01-08,Virginia Asian American Store Owners Association PAC,$500,Richmond,VA,pac,,A,406237,2024-07-06
+contribution,2024-06-26,Virginia Asian American Store Owners Association PAC,"$1,000",Richmond,VA,pac,,A,406237,2024-07-06
+contribution,2024-01-03,Chris Anuswith,$104.10,Virginia Beach,VA,individual,,A,406237,2024-07-06
+contribution,2024-01-08,Access Point Public Affairs LLC,$250,Virginia Beach,VA,business,,A,406237,2024-07-06
+contribution,2024-06-20,"Altria Client Services, LLC","$2,500",Richmond,VA,business,,A,406237,2024-07-06
+contribution,2024-01-02,J & J Ventures Gaming LLC,"$1,000",Effingham,IL,business,,A,406237,2024-07-06
+contribution,2024-01-08,VA Operators for Skill,"$5,000",Richmond,VA,business,,A,406237,2024-07-06
+contribution,2024-05-03,VA Operators for Skill,"$1,500",Richmond,VA,business,,A,406237,2024-07-06
+contribution,2024-01-08,Tobacco Company Restaurant,"$2,000",Richmond,VA,business,,A,406237,2024-07-06
+contribution,2024-01-08,Macaulay Jamerson Satterlund & Sessa,$250,Richmond,VA,business,,A,406237,2024-07-06
+contribution,2024-01-08,Enterprise Holdings Inc PAC,$500,St. Louis,MO,pac,,A,406237,2024-07-06
+contribution,2024-01-08,Sentara Health Administration Inc,"$1,000",Virginia Beach,VA,business,,A,406237,2024-07-06
+contribution,2024-01-09,Asian American Business Owners Association PAC,"$1,000",Roanoke,VA,pac,,A,406237,2024-07-06
+contribution,2024-03-26,Andrew Cohen,$250,Virginia Beach,VA,individual,,A,406237,2024-07-06
+contribution,2024-06-10,Center for Health and Cancer Prevention PLC,$500,Virginia Beach,VA,business,,A,406237,2024-07-06
+contribution,2024-06-20,American Airlines PAC,$250,Washington,DC,pac,,A,406237,2024-07-06
+contribution,2024-10-31,Virginia Sheriff's Association PAC,$500,Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-12-09,Virginia Association of Health Plans PAC,$500,Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-11-22,HCA for Good Government,"$1,000",Reston,VA,pac,,A,427074,2025-01-07
+contribution,2024-10-28,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,427074,2025-01-07
+contribution,2024-08-25,George Kotarides,$500,Virginia Beach,VA,individual,,A,427074,2025-01-07
+contribution,2024-09-23,ARDA ROC PAC,"$1,000",Washington,DC,pac,,A,427074,2025-01-07
+contribution,2024-09-17,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,A,427074,2025-01-07
+contribution,2024-12-11,Virginia Beer Wholesalers Association PAC,"$2,500",Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-12-17,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-12-11,Hoffman Beverage Company,"$2,000",Chesapeake,VA,business,,A,427074,2025-01-07
+contribution,2024-12-30,American Electric Power Company of Virginia Committee for Responsible Government,"$1,500",Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-12-16,Dominion PAC,"$55,000",Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-12-16,Norfolk Southern Corporation,"$1,000",Atlanta,GA,business,,A,427074,2025-01-07
+contribution,2024-11-07,Truckers PAC,$500,Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-10-21,Virginia Apartment Management Association PAC,"$1,000",Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-12-20,Atlantic Dominion Distributors,"$1,000",Virginia Beach,VA,business,,A,427074,2025-01-07
+contribution,2024-12-11,Virginia Credit Union PAC,"$1,000",Lynchburg,VA,pac,,A,427074,2025-01-07
+contribution,2024-11-26,Associated Distributors LLC,$750,Sandston,VA,business,,A,427074,2025-01-07
+contribution,2024-10-22,Virginia Natural Gas Inc,"$1,000",Virginia Beach,VA,business,,A,427074,2025-01-07
+contribution,2024-11-22,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,427074,2025-01-07
+contribution,2024-07-16,Advanced Towing Company LLC,"$3,000",Arlington,VA,business,,A,427074,2025-01-07
+contribution,2024-11-22,Premium Distributors of VA,"$1,000",Chantilly,VA,business,,A,427074,2025-01-07
+contribution,2024-11-07,Matthew Benka,$250,Richmond,VA,individual,,A,427074,2025-01-07
+contribution,2024-11-07,Virginia Contractor Procurement Alliance,$500,Richmond,VA,business,,A,427074,2025-01-07
+contribution,2024-12-20,Pharmaceutical Research and Manufacturers of America (PhRMA),$500,Washington,DC,business,,A,427074,2025-01-07
+contribution,2024-07-22,LKQ Corporation,$500,Antioch,TN,business,,A,427074,2025-01-07
+contribution,2024-08-20,Amazon Services LLC,"$3,000",Seattle,WA,business,,A,427074,2025-01-07
+contribution,2024-11-07,Virginia Manufacturers Assoc PAC,$500,Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-08-19,Copart,$500,Fairfield,CA,business,,A,427074,2025-01-07
+contribution,2024-11-06,Treasurers Association of Virginia PAC,$500,Virginia Beach,VA,pac,,A,427074,2025-01-07
+contribution,2024-11-25,Virginia Spirits Association,$500,North Chesterfield,VA,business,,A,427074,2025-01-07
+contribution,2024-12-20,Robin D Ray,"$1,000",Virginia Beach,VA,individual,,A,427074,2025-01-07
+contribution,2024-12-17,"Wendell Distributing Co, Inc.",$750,Cape Charles,VA,business,,A,427074,2025-01-07
+contribution,2024-11-22,CP&O Virginia PAC,"$1,500",Norfolk,VA,pac,,A,427074,2025-01-07
+contribution,2024-11-07,Virginia Asian American Store Owners Association PAC,"$1,000",Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-10-30,Dr. Jearald Cable,"$2,500",Richmond,VA,individual,,A,427074,2025-01-07
+contribution,2024-11-07,Nancy J Stets,$200,Virginia Beach,VA,individual,,A,427074,2025-01-07
+contribution,2024-11-12,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,A,427074,2025-01-07
+contribution,2024-10-16,Visa,$500,Austin,TX,business,,A,427074,2025-01-07
+contribution,2024-12-23,VA Operators for Skill,"$8,500",Richmond,VA,business,,A,427074,2025-01-07
+contribution,2024-11-07,Enterprise Holdings Inc PAC,"$1,000",St. Louis,MO,pac,,A,427074,2025-01-07
+contribution,2024-07-02,Virginia Propane Gas Association PAC,$750,Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-08-13,Barry Cross,$520.51,Chesapeake,VA,individual,,A,427074,2025-01-07
+contribution,2024-08-07,Truist Virginia PAC,$500,Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-09-25,"T-Mobile US, Inc",$500,Bellevue,WA,business,,A,427074,2025-01-07
+contribution,2024-09-25,Textron PAC,$500,Providence,RI,pac,,A,427074,2025-01-07
+contribution,2024-10-04,Employees of RTX Corporation PAC,$250,Arlington,VA,pac,,A,427074,2025-01-07
+contribution,2024-09-19,Chesapeake Utilities Corporation,"$3,000",Dover,DE,business,,A,427074,2025-01-07
+contribution,2024-09-27,"Novartis Services, Inc.","$1,000",Washington,DC,business,,A,427074,2025-01-07
+contribution,2024-11-25,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,business,,A,427074,2025-01-07
+contribution,2024-12-03,"CareFirst Management Company, LLC",$500,Owings Mills,MD,business,,A,427074,2025-01-07
+contribution,2024-12-09,The Boeing Company PAC,"$1,000",Arlington,VA,pac,,A,427074,2025-01-07
+contribution,2024-12-16,Delta Dental of Virginia,$750,Roanoke,VA,business,,A,427074,2025-01-07
+contribution,2024-12-30,VAMICPAC,"$1,000",Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-12-30,United,$250,Houston,TX,business,,A,427074,2025-01-07
+contribution,2024-12-30,Battlefield Service Center,$250,Manassas,VA,business,,A,427074,2025-01-07
+contribution,2024-12-30,Johnson Brothers Service Distributing,$750,Lorton,VA,business,,A,427074,2025-01-07
+contribution,2024-12-11,Virginia State Police Association,$500,Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-08-27,Verizon,"$1,000",Washington,DC,business,,A,427074,2025-01-07
+contribution,2024-12-16,Virginia Automobile and Truck Dealers PAC,"$2,000",Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-11-04,Virginia Farm Bureau AgPAC,$500,Richmond,VA,pac,,A,427074,2025-01-07
+contribution,2024-11-26,Comcast Corporation,$500,Philadelphia,PA,business,,A,427074,2025-01-07
+contribution,2024-09-09,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,427074,2025-01-07
+contribution,2024-10-18,Virginia Wine Wholesalers,"$2,500",Richmond,VA,business,,A,427074,2025-01-07
+contribution,2024-12-18,Reed Smith LLP,"$1,000",Richmond,VA,pac,,A,427074,2025-01-07
 contribution,2025-05-16,Bruce Mills,$600,Virginia Beach,VA,individual,,A,483569,2026-03-26
 contribution,2025-01-06,Virginia Automobile and Truck Dealers PAC,$500,Richmond,VA,pac,,A,483569,2026-03-26
 contribution,2025-05-09,Virginia Automobile and Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,483569,2026-03-26
@@ -226,8 +326,33 @@ contribution,2026-03-31,H L Marks,"$1,000",Virginia Beach,VA,individual,,A,49530
 contribution,2026-04-03,Robert Farhat,$500,Virginia Beach,VA,individual,,A,495300,2026-07-14
 contribution,2026-04-06,Donald Ratliff,$520.51,Big Stone Gap,VA,individual,,A,495300,2026-07-14
 contribution,2026-04-22,Darwin J Rogers,$520.51,Virginia Beach,VA,individual,,A,495300,2026-07-14
+in_kind,2024-01-08,Virginia Credit Union PAC,$253.20,Lynchburg,VA,pac,Catering,B,406237,2024-07-06
 in_kind,2025-10-07,Advantus Strategies LLC,$292.18,Richmond,VA,business,Catering,B,483570,2026-03-26
 in_kind,2025-10-28,Republican Party of Virginia,"$6,360",Richmond,VA,party,Direct Mailings,B,483570,2026-03-26
+other_receipt,2024-01-31,Integrity Bank for Business,$0.38,Virginia Beach,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-02-29,Integrity Bank for Business,$0.27,Virginia Beach,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-03-29,Integrity Bank for Business,$0.17,Virginia Beach,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-04-30,Integrity Bank for Business,$0.15,Virginia Beach,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-05-31,Integrity Bank for Business,$0.09,Virginia Beach,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-06-28,Integrity Bank for Business,$0.18,Virginia Beach,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-01-31,Atlantic Union Bank,$0.50,Richmond,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-02-29,Atlantic Union Bank,$0.47,Richmond,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-03-29,Atlantic Union Bank,$0.49,Richmond,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-04-30,Atlantic Union Bank,$0.43,Richmond,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-05-31,Atlantic Union Bank,$0.44,Richmond,VA,business,Interest,C,406237,2024-07-06
+other_receipt,2024-06-28,Atlantic Union Bank,$0.48,Richmond,VA,business,Interest earned,C,406237,2024-07-06
+other_receipt,2024-07-31,Integrity Bank for Business,$0.48,Virginia Beach,VA,business,Interest,C,427074,2025-01-07
+other_receipt,2024-08-30,Integrity Bank for Business,$0.41,Virginia Beach,VA,business,Interest,C,427074,2025-01-07
+other_receipt,2024-09-30,Integrity Bank for Business,$0.42,Virginia Beach,VA,business,Interest,C,427074,2025-01-07
+other_receipt,2024-10-31,Integrity Bank for Business,$0.40,Virginia Beach,VA,business,Interest,C,427074,2025-01-07
+other_receipt,2024-11-29,Integrity Bank for Business,$0.39,Virginia Beach,VA,business,Interest Earned,C,427074,2025-01-07
+other_receipt,2024-12-31,Integrity Bank for Business,$0.60,Virginia Beach,VA,business,Interest Earned,C,427074,2025-01-07
+other_receipt,2024-07-31,Atlantic Union Bank,$0.61,Richmond,VA,business,Interest,C,427074,2025-01-07
+other_receipt,2024-08-30,Atlantic Union Bank,$0.61,Richmond,VA,business,Interest,C,427074,2025-01-07
+other_receipt,2024-09-30,Atlantic Union Bank,$0.59,Richmond,VA,business,Interest Earned,C,427074,2025-01-07
+other_receipt,2024-10-31,Atlantic Union Bank,$0.60,Richmond,VA,business,Interest,C,427074,2025-01-07
+other_receipt,2024-11-29,Atlantic Union Bank,$0.50,Richmond,VA,business,Interest Earned,C,427074,2025-01-07
+other_receipt,2024-12-31,Atlantic Union Bank,$0.73,Richmond,VA,business,Interest Earned,C,427074,2025-01-07
 other_receipt,2025-03-14,Mr. William Scott Humphrey,$15.68,Land O Lakes,FL,individual,Refund,C,483569,2026-03-26
 other_receipt,2025-01-31,Integrity Bank for Business,$0.59,Virginia Beach,VA,business,Interest,C,483569,2026-03-26
 other_receipt,2025-02-28,Integrity Bank for Business,$0.40,Virginia Beach,VA,business,Interest,C,483569,2026-03-26
@@ -249,6 +374,171 @@ other_receipt,2026-03-31,Integrity Bank for Business,$3.14,Virginia Beach,VA,bus
 other_receipt,2026-04-30,Integrity Bank for Business,$2.91,Virginia Beach,VA,business,Interest Earned,C,495300,2026-07-14
 other_receipt,2026-05-29,Integrity Bank for Business,$2.88,Virginia Beach,VA,business,Interest,C,495300,2026-07-14
 other_receipt,2026-06-30,Integrity Bank for Business,$3.18,Virginia Beach,VA,business,Interest,C,495300,2026-07-14
+expenditure,2024-01-30,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,406237,2024-07-06
+expenditure,2024-02-28,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,406237,2024-07-06
+expenditure,2024-03-06,Jill Eyler,$297.26,Virginia Beach,VA,individual,Reimbursement of Office Expenses,D,406237,2024-07-06
+expenditure,2024-03-27,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff pay,D,406237,2024-07-06
+expenditure,2024-04-29,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,406237,2024-07-06
+expenditure,2024-05-29,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff pay,D,406237,2024-07-06
+expenditure,2024-01-02,Liskey and Sons Printing,"$5,370.62",Norfolk,VA,business,Print services,D,406237,2024-07-06
+expenditure,2024-04-25,Papa Johns Store 2070,$68.23,Virginia Beach,VA,business,Hospitality,D,406237,2024-07-06
+expenditure,2024-06-28,Papa Johns Store 2070,$185.18,Virginia Beach,VA,business,Meals,D,406237,2024-07-06
+expenditure,2024-05-20,Fastenal,$18.56,Virginia Beach,VA,business,Zip ties and fasteners,D,406237,2024-07-06
+expenditure,2024-01-02,Cape Henry Rotary,$250,Virginia Beach,VA,business,Membership Dues,D,406237,2024-07-06
+expenditure,2024-01-12,Republican Party of Virginia Beach,$150,Virginia Beach,VA,party,Advertisement,D,406237,2024-07-06
+expenditure,2024-01-11,Constant Contact,$261,New York,NY,business,Email Marketing Subscription,D,406237,2024-07-06
+expenditure,2024-02-12,Constant Contact,$261,New York,NY,business,Email Marketing,D,406237,2024-07-06
+expenditure,2024-03-11,Constant Contact,$261,New York,NY,business,Email marketing,D,406237,2024-07-06
+expenditure,2024-04-11,Constant Contact,$261,New York,NY,business,Email marketing,D,406237,2024-07-06
+expenditure,2024-05-13,Constant Contact,$261,New York,NY,business,Email Marketing,D,406237,2024-07-06
+expenditure,2024-06-11,Constant Contact,$261,New York,NY,business,Email Marketing Subscription,D,406237,2024-07-06
+expenditure,2024-03-06,Treasurer of Virginia,$128,Richmond,VA,business,Flags,D,406237,2024-07-06
+expenditure,2024-03-27,Treasurer of Virginia,$251.11,Richmond,VA,business,Postage,D,406237,2024-07-06
+expenditure,2024-06-17,Treasurer of Virginia,$557.68,Richmond,VA,business,"Flags, letterhead, business cards",D,406237,2024-07-06
+expenditure,2024-01-09,Virginia Senate Republican Caucus,"$7,000",Williamsburg,VA,party,Dues,D,406237,2024-07-06
+expenditure,2024-05-20,Virginia Senate Republican Caucus,$500,Williamsburg,VA,party,Dues,D,406237,2024-07-06
+expenditure,2024-01-30,Amazon,$58.38,Seattle,WA,business,Office Supplies,D,406237,2024-07-06
+expenditure,2024-02-23,Bottoms Up Pizza,$670.35,Richmond,VA,business,Senate Page Event,D,406237,2024-07-06
+expenditure,2024-03-04,Microsoft Corporation,$99.99,Redmond,WA,business,Software subscription,D,406237,2024-07-06
+expenditure,2024-03-27,21st Street Art Gallery,$238.50,Virginia Beach,VA,business,Framing service,D,406237,2024-07-06
+expenditure,2024-05-14,21st Street Art Gallery,$445.20,Virginia Beach,VA,business,Presentation/Framing,D,406237,2024-07-06
+expenditure,2024-03-29,Allied Products Corporation,"$5,834",Kansas City,MO,business,US Flags,D,406237,2024-07-06
+expenditure,2024-01-10,Amazon Services LLC,$43.43,Seattle,WA,business,Office supplies,D,406237,2024-07-06
+expenditure,2024-01-10,Amazon Services LLC,$262.87,Seattle,WA,business,Office supplies,D,406237,2024-07-06
+expenditure,2024-02-13,Canva Inc,$119,Wilmington,DE,business,Software subscription,D,406237,2024-07-06
+expenditure,2024-01-03,WinRed,$4.10,Arlington,VA,business,Fundraising fees,D,406237,2024-07-06
+expenditure,2024-01-05,WinRed,$4.10,Arlington,VA,business,Fundraising fees,D,406237,2024-07-06
+expenditure,2024-03-26,WinRed,$9.85,Arlington,VA,business,Fundraising processing fees,D,406237,2024-07-06
+expenditure,2024-04-20,WinRed,$82.03,Arlington,VA,business,Fundraising processing fees,D,406237,2024-07-06
+expenditure,2024-01-17,Richmond Times-Dispatch,$21.99,Richmond,VA,business,Newspaper Subscription,D,406237,2024-07-06
+expenditure,2024-02-16,Richmond Times-Dispatch,$21.99,Richmond,VA,business,Newspaper subscription,D,406237,2024-07-06
+expenditure,2024-03-29,Richmond Times-Dispatch,$21.99,Richmond,VA,business,Newspaper subscription,D,406237,2024-07-06
+expenditure,2024-04-16,Richmond Times-Dispatch,$28.99,Richmond,VA,business,Newspaper subscription,D,406237,2024-07-06
+expenditure,2024-05-14,Richmond Times-Dispatch,$28.99,Richmond,VA,business,Newspaper subscription,D,406237,2024-07-06
+expenditure,2024-06-11,Richmond Times-Dispatch,$28.99,Richmond,VA,business,Newspaper subscription,D,406237,2024-07-06
+expenditure,2024-04-26,"Twitter, Inc.",$84,San Francisco,CA,business,Service subscription,D,406237,2024-07-06
+expenditure,2024-02-08,Monica Rudolph,$500,Virginia Beach,VA,individual,Campaign Work Performed,D,406237,2024-07-06
+expenditure,2024-06-04,"Paypal, Inc.",$29.39,San Jose,CA,business,Processing fees,D,406237,2024-07-06
+expenditure,2024-06-21,Atlantic Union Bank,$15,Richmond,VA,business,Bank fee,D,406237,2024-07-06
+expenditure,2024-06-28,WalMart,$54.49,Virginia Beach,VA,business,Event Hospitality,D,406237,2024-07-06
+expenditure,2024-01-04,Friends of John Napier,"$1,000",Virginia Beach,VA,business,Contribution,D,406237,2024-07-06
+expenditure,2024-01-02,Mulchi for Senate,"$1,500",Clarksville,VA,candidate,Contribution,D,406237,2024-07-06
+expenditure,2024-01-12,Charles Mehle,$250,Virginia Beach,VA,individual,Reimbursement for print materials,D,406237,2024-07-06
+expenditure,2024-02-28,Matthew Villanueva,"$1,500",Richmond,VA,individual,Session Internship pay,D,406237,2024-07-06
+expenditure,2024-03-06,Cindy Shearin,$78,N. Prince George,VA,individual,Reimbursement for event catering,D,406237,2024-07-06
+expenditure,2024-04-12,Department of Motor Vehicles,$175,Richmon,VA,business,Commemorative license plates,D,406237,2024-07-06
+expenditure,2024-05-01,Creative Direct,"$2,500",Richmond,VA,business,Advertising/Direct Mail campaign services,D,406237,2024-07-06
+expenditure,2024-05-15,Mallards at the Wharf,$368.33,Onancock,VA,business,Hospitality/Dining,D,406237,2024-07-06
+expenditure,2024-05-15,The Island House Restaurant,$412.84,Wachapreague,VA,business,Hospitality/Dining,D,406237,2024-07-06
+expenditure,2024-05-15,The Island House Restaurant,$739.75,Wachapreague,VA,business,Hospitality/Dining,D,406237,2024-07-06
+expenditure,2024-05-16,Corner Bakery LLC,$49.37,Onancock,VA,business,Hospitality,D,406237,2024-07-06
+expenditure,2024-05-16,El Maguey Mexican,$225.30,Exmore,VA,business,Hospitality/Dining,D,406237,2024-07-06
+expenditure,2024-05-19,The Home Depot,$265.91,Virginia Beach,VA,business,Storage containers,D,406237,2024-07-06
+expenditure,2024-06-02,Claytons,$518.49,Virginia Beach,VA,business,Hospitality/Dining,D,406237,2024-07-06
+expenditure,2024-03-08,Mama Cucina,$100,Glen Allen,VA,business,Hospitality/Dining,D,406237,2024-07-06
+expenditure,2024-03-07,Aysha Vaughan,$500,Chesapeake,VA,individual,Staff pay,D,406237,2024-07-06
+expenditure,2024-02-23,City Parking,$140,Richmond,VA,business,Parking,D,406237,2024-07-06
+expenditure,2024-02-26,The Boathouse,$390.24,Richmond,VA,business,Hospitality/Dining,D,406237,2024-07-06
+expenditure,2024-02-08,Dementi Studio,$100.70,Richmond,VA,business,Photography,D,406237,2024-07-06
+expenditure,2024-06-06,"Meriwether Godsey, Inc.",$232.92,Lynchburg,VA,business,Hospitality,D,406237,2024-07-06
+expenditure,2024-06-27,Jason Snyder,$400,Virginia Beach,VA,individual,Campaign work performed,D,406237,2024-07-06
+expenditure,2024-06-25,Domino's #4214,$34.50,Virginia Beach,VA,business,Meals,D,406237,2024-07-06
+expenditure,2024-06-25,Domino's #4214,$41.75,Virginia Beach,VA,business,Meals,D,406237,2024-07-06
+expenditure,2024-06-27,Domino's #4214,$34.50,Virginia Beach,VA,business,Meals,D,406237,2024-07-06
+expenditure,2024-06-28,Dunkin Store 359253,$89.19,Virginia Beach,VA,business,Event Hospitality,D,406237,2024-07-06
+expenditure,2024-07-23,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,427074,2025-01-07
+expenditure,2024-07-30,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff pay,D,427074,2025-01-07
+expenditure,2024-08-29,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,427074,2025-01-07
+expenditure,2024-09-27,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,427074,2025-01-07
+expenditure,2024-10-22,Jill Eyler,$724.25,Virginia Beach,VA,individual,Staff Reimbursement of Expenses,D,427074,2025-01-07
+expenditure,2024-10-31,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,427074,2025-01-07
+expenditure,2024-11-26,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,427074,2025-01-07
+expenditure,2024-12-17,Jill Eyler,"$7,500",Virginia Beach,VA,individual,Staff Pay,D,427074,2025-01-07
+expenditure,2024-12-28,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,427074,2025-01-07
+expenditure,2024-08-06,Liskey and Sons Printing,$962.48,Norfolk,VA,business,Print services,D,427074,2025-01-07
+expenditure,2024-12-11,Liskey and Sons Printing,"$5,490.28",Norfolk,VA,business,"Print, postage and handling services",D,427074,2025-01-07
+expenditure,2024-07-22,Papa Johns Store 2070,$152.63,Virginia Beach,VA,business,Hospitality,D,427074,2025-01-07
+expenditure,2024-09-06,Star Spangled Ball,$400,Virginia Beach,VA,business,Advertising/Marketing,D,427074,2025-01-07
+expenditure,2024-09-19,Star Spangled Ball,$500,Virginia Beach,VA,business,Contribution,D,427074,2025-01-07
+expenditure,2024-07-20,Target,$57.11,Virginia Beach,VA,business,Concessions,D,427074,2025-01-07
+expenditure,2024-07-22,Target,$14.04,Virginia Beach,VA,business,Hospitality,D,427074,2025-01-07
+expenditure,2024-11-04,Restaurant Depot,$218.83,Virginia Beach,VA,business,Campaign Supplies,D,427074,2025-01-07
+expenditure,2024-07-08,Cape Henry Rotary,$500,Virginia Beach,VA,business,Event sponsorship,D,427074,2025-01-07
+expenditure,2024-09-19,Republican Party of Virginia,$700,Richmond,VA,party,Printing Services,D,427074,2025-01-07
+expenditure,2024-10-31,Republican Party of Virginia,"$1,500",Richmond,VA,party,Literature,D,427074,2025-01-07
+expenditure,2024-09-25,Cox Football Booster Club,$250,Virginia Beach,VA,business,Advertising,D,427074,2025-01-07
+expenditure,2024-07-11,Constant Contact,$261,New York,NY,business,Email Marketing Platform,D,427074,2025-01-07
+expenditure,2024-08-12,Constant Contact,$261,New York,NY,business,Email Marketing Platform,D,427074,2025-01-07
+expenditure,2024-09-11,Constant Contact,$282,New York,NY,business,Email Marketing,D,427074,2025-01-07
+expenditure,2024-10-11,Constant Contact,$282,New York,NY,business,Email Marketing,D,427074,2025-01-07
+expenditure,2024-11-12,Constant Contact,$282,New York,NY,business,Email Marketing,D,427074,2025-01-07
+expenditure,2024-12-11,Constant Contact,$282,New York,NY,business,Constant Contact,D,427074,2025-01-07
+expenditure,2024-10-02,Treasurer of Virginia,$329.50,Richmond,VA,business,Flags and resolution frames,D,427074,2025-01-07
+expenditure,2024-11-26,Treasurer of Virginia,$98,Richmond,VA,business,Parking,D,427074,2025-01-07
+expenditure,2024-12-16,Treasurer of Virginia,$205.50,Richmond,VA,business,Flags,D,427074,2025-01-07
+expenditure,2024-10-22,Virginia Senate Republican Caucus,"$8,750",Williamsburg,VA,party,Caucus Dues,D,427074,2025-01-07
+expenditure,2024-11-25,Virginia Public Safety Foundation,$257.50,Glen Allen,VA,business,Contribution,D,427074,2025-01-07
+expenditure,2024-11-05,China Moon,$121.65,Virginia Beach,VA,business,Meals,D,427074,2025-01-07
+expenditure,2024-09-09,21st Street Art Gallery,$165,Virginia Beach,VA,business,Framing Resolution,D,427074,2025-01-07
+expenditure,2024-10-21,Department of Elections,$100,Ricmond,VA,business,Fee,D,427074,2025-01-07
+expenditure,2024-10-09,Coastal Virginia Building Industry Association,$300,Virginia Beach,VA,business,Sponsorship,D,427074,2025-01-07
+expenditure,2024-12-17,William Scott Humphrey,"$2,500",Land O Lakes,FL,individual,Staff pay,D,427074,2025-01-07
+expenditure,2024-07-08,Rotary Club of Cape Henry,$250,Virginia Beach,VA,business,Dues,D,427074,2025-01-07
+expenditure,2024-08-25,WinRed,$19.70,Arlington,VA,business,Fundraising fees,D,427074,2025-01-07
+expenditure,2024-07-09,Richmond Times-Dispatch,$28.99,Richmond,VA,business,Newspaper Subscription,D,427074,2025-01-07
+expenditure,2024-08-09,Richmond Times-Dispatch,$28.99,Richmond,VA,business,Newspaper subscription,D,427074,2025-01-07
+expenditure,2024-09-06,Richmond Times-Dispatch,$28.99,Richmond,VA,business,Newspaper Subscription,D,427074,2025-01-07
+expenditure,2024-10-04,Richmond Times-Dispatch,$28.99,Richmond,VA,business,Newspaper Subscription,D,427074,2025-01-07
+expenditure,2024-11-01,Richmond Times-Dispatch,$28.99,Richmond,VA,business,Newspaper Subscription,D,427074,2025-01-07
+expenditure,2024-10-09,Bay Legacy Management,$103.50,Virginia Beach,VA,business,Postage,D,427074,2025-01-07
+expenditure,2024-12-23,Kenul Nejan Vantwest,$320,Virginia Beach,VA,individual,Work performed,D,427074,2025-01-07
+expenditure,2024-12-15,Alex Strauss,$200,Virginia Beach,VA,individual,Campaign work performed,D,427074,2025-01-07
+expenditure,2024-12-23,Alex Strauss,$400,Virginia Beach,VA,individual,Work performed,D,427074,2025-01-07
+expenditure,2024-07-22,Food Lion #0171,$10.08,Virginia Beach,VA,business,Hospitality,D,427074,2025-01-07
+expenditure,2024-12-09,Food Lion #0171,$15.15,Virginia Beach,VA,business,Event catering,D,427074,2025-01-07
+expenditure,2024-07-03,WalMart,$66.22,Virginia Beach,VA,business,Event concessions,D,427074,2025-01-07
+expenditure,2024-07-03,WalMart,$9.64,Virginia Beach,VA,business,Hospitality,D,427074,2025-01-07
+expenditure,2024-07-22,WalMart,$7.06,Virginia Beach,VA,business,Hospitality,D,427074,2025-01-07
+expenditure,2024-07-17,James Donegan,$464,Vienna,VA,individual,Campaign work performed,D,427074,2025-01-07
+expenditure,2024-07-23,James Donegan,$332,Vienna,VA,individual,Campaign work performed,D,427074,2025-01-07
+expenditure,2024-08-27,James Donegan,$192,Vienna,VA,individual,Campaign work performed,D,427074,2025-01-07
+expenditure,2024-09-16,James Donegan,$416,Vienna,VA,individual,Campaign Work Performed,D,427074,2025-01-07
+expenditure,2024-10-23,James Donegan,"$2,000",Vienna,VA,individual,Campaign work performed,D,427074,2025-01-07
+expenditure,2024-10-31,James Donegan,"$1,257.70",Vienna,VA,individual,Campaign work performed,D,427074,2025-01-07
+expenditure,2024-11-17,James Donegan,"$2,072.63",Vienna,VA,individual,Campaign Work Performed,D,427074,2025-01-07
+expenditure,2024-11-21,"Coastal Business Solutions, LLC","$4,165.80",Chesapeake,VA,business,Campaign signs & banner,D,427074,2025-01-07
+expenditure,2024-07-08,Virginia Beach Kiwanis,$300,Virginia Beach,VA,business,Event Sponsorship,D,427074,2025-01-07
+expenditure,2024-12-09,Mission BBQ,$260.69,Virginia Beach,VA,business,Catering,D,427074,2025-01-07
+expenditure,2024-10-31,Charles Mehle,"$7,500",Virginia Beach,VA,individual,Reimbursement of Expenses,D,427074,2025-01-07
+expenditure,2024-10-16,The Home Depot,$685.35,Virginia Beach,VA,business,Campaign Material Storage,D,427074,2025-01-07
+expenditure,2024-07-15,Claytons,$402.79,Virginia Beach,VA,business,Food and dining,D,427074,2025-01-07
+expenditure,2024-07-11,Jason Snyder,"$1,500",Virginia Beach,VA,individual,Campaign work performed,D,427074,2025-01-07
+expenditure,2024-07-03,Cash Green for City Council,"$1,000",Virginia Beach,VA,business,Contribution,D,427074,2025-01-07
+expenditure,2024-07-11,Bay Local,$23.95,Virginia Beach,VA,business,Dining,D,427074,2025-01-07
+expenditure,2024-08-27,Friends of Ryan Gilliam,$500,Virginia Beach,VA,business,Campaign contribution,D,427074,2025-01-07
+expenditure,2024-08-27,Friends of Shannon Kendrick,"$1,000",Virginia Beach,VA,business,Campaign Contribution,D,427074,2025-01-07
+expenditure,2024-07-08,Google,$1.99,Mountain View,CA,business,Software,D,427074,2025-01-07
+expenditure,2024-08-07,Google,$1.99,Mountain View,CA,business,Software,D,427074,2025-01-07
+expenditure,2024-07-19,Aldi Store #61,$27.17,Virginia Beach,VA,business,Concessions,D,427074,2025-01-07
+expenditure,2024-07-24,Aldi Store #61,$2.72,Virginia Beach,VA,business,Hospitality,D,427074,2025-01-07
+expenditure,2024-08-28,The Committee to Elect Vincent Smith 2024,$500,Virginia Beach,VA,business,Contribution,D,427074,2025-01-07
+expenditure,2024-09-04,Fil Fest USA,$100,Virginia Beach,VA,business,Advertisement,D,427074,2025-01-07
+expenditure,2024-08-28,Marian Manor,"$1,000",Virginia Beach,VA,business,Sponsorship,D,427074,2025-01-07
+expenditure,2024-09-04,United States Postal Service,$29.20,Virginia Beach,VA,business,Postage,D,427074,2025-01-07
+expenditure,2024-09-06,Friends of David Doughty,$300,Eastville,VA,business,Sponsorship,D,427074,2025-01-07
+expenditure,2024-10-15,Ryan Gilliam,"$1,000",Virginia Beach,VA,individual,Campaign Work Performed,D,427074,2025-01-07
+expenditure,2024-09-09,Google,$1.99,Mountain View,CA,business,Cloud storage,D,427074,2025-01-07
+expenditure,2024-09-23,Staples Inc.,$317.02,Framingham,MA,business,Office Supplies,D,427074,2025-01-07
+expenditure,2024-09-05,McDonald Garden Center,$29.20,Virginia Beach,VA,business,Postage,D,427074,2025-01-07
+expenditure,2024-12-04,McDonald Garden Center,$14.55,Virginia Beach,VA,business,Postage,D,427074,2025-01-07
+expenditure,2024-09-24,Easy Bistro & Bar,$316.82,Chattanooga,TN,business,Dining,D,427074,2025-01-07
+expenditure,2024-10-09,Noah Moreland for School Board,$500,Virginia Beach,VA,candidate,Contribution,D,427074,2025-01-07
+expenditure,2024-09-12,Rose for Virginia Beach,$500,Virginia Beach,VA,business,Contribution,D,427074,2025-01-07
+expenditure,2024-10-07,Google,$1.99,Mountain View,CA,business,Cloud Storage,D,427074,2025-01-07
+expenditure,2024-11-17,Simeon Morrison,$96,Norfolk,VA,individual,Campaign Work Performed,D,427074,2025-01-07
+expenditure,2024-11-21,Hampton Roads Council of Veterans Organizations,$250,Virginia Beach,VA,business,Luncheon,D,427074,2025-01-07
+expenditure,2024-11-25,Google,$1.99,Mountain View,CA,business,Cloud Storage,D,427074,2025-01-07
+expenditure,2024-12-24,Google,$1.99,Mountain View,CA,business,Cloud storage,D,427074,2025-01-07
 expenditure,2025-01-03,Jill Eyler,$186.90,Virginia Beach,VA,individual,Reimbursement,D,483569,2026-03-26
 expenditure,2025-01-30,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,483569,2026-03-26
 expenditure,2025-02-27,Jill Eyler,"$2,000",Virginia Beach,VA,individual,Staff Pay,D,483569,2026-03-26
@@ -628,6 +918,12 @@ loan,2025-02-05,William DeSteph,$230.94,Virginia Beach,VA,individual,R,E,483569,
 loan,2025-02-02,William DeSteph,$34.42,Virginia Beach,VA,individual,R,E,483569,2026-03-26
 loan,2025-01-06,William DeSteph,$254.91,Virginia Beach,VA,individual,R,E,483569,2026-03-26
 loan,2025-07-02,William DeSteph,$62.64,Virginia Beach,VA,individual,R,E,483570,2026-03-26
+debt,2019-10-21,William DeSteph,"$65,000",Virginia Beach,VA,individual,,F,406237,2024-07-06
+debt,2019-10-17,Virgina Republican Senate Caucus,"$25,000",Williamsburg,VA,business,,F,406237,2024-07-06
+debt,2020-09-25,GOPAC,"$35,000",Arlington,VA,pac,,F,406237,2024-07-06
+debt,2019-10-21,William DeSteph,"$65,000",Virginia Beach,VA,individual,,F,427074,2025-01-07
+debt,2019-10-17,Virgina Republican Senate Caucus,"$25,000",Williamsburg,VA,business,,F,427074,2025-01-07
+debt,2020-09-25,GOPAC,"$35,000",Arlington,VA,pac,,F,427074,2025-01-07
 debt,2020-09-25,GOPAC,"$35,000",Arlington,VA,pac,,F,483569,2026-03-26
 debt,2019-10-21,William DeSteph,"$65,000",Virginia Beach,VA,individual,,F,483569,2026-03-26
 debt,2019-10-17,Virgina Republican Senate Caucus,"$25,000",Williamsburg,VA,business,,F,483569,2026-03-26

@@ -61,6 +61,49 @@ export type FinanceSpendItem = {
   category?: string;
 };
 
+export type FinanceHistoryVendor = { name: string; cents: number; count: number; items?: FinanceSpendItem[] };
+
+export type FinanceHistoryYear = {
+  year: number;
+  raisedCents: number;
+  spentCents: number;
+  endingBalanceCents?: number;
+  reports: number;
+  giftCount: number;
+  giftCents: number;
+  paymentCount: number;
+  paymentCents: number;
+  donorCount: number;
+  vendorCount: number;
+  committees: string[];
+  donors: FinanceDonor[];
+  vendors: FinanceHistoryVendor[];
+};
+
+export type FinanceHistoryReport = {
+  reportId: string;
+  committeeCode: string;
+  committeeName: string;
+  start: string;
+  end: string;
+  filed: string;
+  amendment: number;
+  receiptsCents: number;
+  disbursementsCents: number;
+  endingBalanceCents: number | null;
+  hasSchedules: boolean;
+};
+
+export type FinanceHistory = {
+  from: string;
+  through: string | null;
+  committees: { committeeCode: string; committeeName: string; current: boolean }[];
+  years: FinanceHistoryYear[];
+  reports: FinanceHistoryReport[];
+  csvPath: string | null;
+  note: string;
+};
+
 export type FinanceSummary = {
   lisId: string;
   slug: string;
@@ -117,6 +160,7 @@ export type FinanceSummary = {
   loans?: { name: string; cents: number; date: string; balanceCents: number; item: string }[];
   debts?: { name: string; cents: number; date: string; item: string }[];
   filings?: FinanceFiling[];
+  history?: FinanceHistory;
   csvPath?: string;
   verification?: {
     matchedOfficialXml: boolean;

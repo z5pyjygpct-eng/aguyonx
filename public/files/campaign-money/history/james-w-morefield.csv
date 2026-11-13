@@ -1,0 +1,923 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2021-01-04,HBAV BUILD-PAC,"$1,000",Richmond,VA,pac,,PAC,,A,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-03-31,Lawton Mullins,"$1,000",Wise,VA,individual,Natural Resource Services,Construction,,A,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-01-06,Virginia Manufactured & Modular Housing Association PAC,$500,Richmond,VA,pac,,PAC,,A,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-01-05,POM of Virginia,"$1,000",Duluth,GA,business,,Gaming,,A,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-01-25,ConstantContact.com,$65,Unknown,,,,,Email Service,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-02-23,ConstantContact.com,$65,Unknown,,,,,Email Service,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-03-25,ConstantContact.com,$65,Unknown,,,,,Email Service,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-01-05,Patty Adams,$70,Tazewell,VA,,,,Cleaning Fee,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-02-12,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-03-11,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-03-25,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-03-11,Treasurer of Virginia,$74,Richmond,VA,,,,State Flags,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-01-12,Wal-Mart,$83.19,Pounding Mill,VA,,,,Office Equipment,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-01-12,Wal-Mart,$93.72,Pounding Mill,VA,,,,Office Equipment,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-02-24,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-03-29,Town of Tazewell,$200,Tazewell,VA,,,,Soccer Team Sponsorship,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-03-01,USPS,$39,Pounding Mill,VA,,,,Postal Fee,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-02-04,MCV Foundation,$250,Richmond,VA,,,,Cancer Fundraising Drive,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-02-19,Shelly Poston,"$1,000",NA,VA,,,,Harper Children's Comfort Bags,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-03-10,Hackworth for Virginia,"$2,500",Richlands,VA,,,,Contribution,D,237925,2021-01-01 to 2021-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-05-12,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,PAC,,A,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+contribution,2021-04-15,Service Corporation International PAC (SCI/PAC),$750,Houston,TX,pac,,PAC,,A,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+contribution,2021-05-26,"3B Consulting Services, LLC","$2,500",Lebanon,VA,business,,Construction Consulting,,A,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+contribution,2021-05-20,Virginia Sheriff's Association,$500,Richmond,VA,pac,,PAC,,A,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+contribution,2021-05-25,Gary & Linda Taylor,"$2,500",Berea,KY,individual,Na,Na,,A,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+contribution,2021-05-27,Steve VanDyke,"$1,000",Grundy,VA,individual,Self,Self Employed,,A,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+contribution,2021-05-19,Dominion PAC,"$5,000",Richmond,VA,pac,,PAC,,A,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-04-26,ConstantContact.com,$65,Unknown,,,,,Email Service,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-05-25,ConstantContact.com,$65,Unknown,,,,,Email Service,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-04-21,Exxon,$46,Tazewell,VA,,,,Transportation,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-04-21,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-05-26,Verizon,$190.25,NA,,,,,Phones,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-04-28,Vance Graphics,$916.11,Pounding Mill,VA,,,,Signs - Andy Ravotic for Supervisor,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-05-26,PM Quick Mart,$25,Pounding Mill,VA,,,,Transportation,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-05-26,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Rent,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-05-18,Point Broadband,$156.49,NA,,,,,Internet & Phone Service,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-04-27,Friends of Charles Poindexter,"$1,500",Glade Hill,VA,,,,Contribution,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-05-26,Giles GOP,$500,Pearisburg,VA,,,,Contribution,D,241928,2021-04-01 to 2021-05-27,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-10,Mettallurgical Coal Producers Association Virginia Coal & Energy Alliance Inc. PAC,"$1,000",Lebanon,VA,pac,,PAC,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-10,"METIS Services, INC.",$500,Roanoke,VA,business,,Management Company,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-25,Virginia Automobile & Truck Dealers Political Action Committee,$500,Richmond,VA,pac,,PAC,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-22,"Noah Horn Well Drilling, INC.","$2,500",Vansant,VA,business,,Natural Gas Well Driller,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-10,Virginia Lifepoint Hospitals PAC,"$1,500",Richlands,VA,pac,,PAC,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-10,American Electric Power Company Committee For Responsible Government,"$1,000",Richmond,VA,pac,,Utility,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-22,APEX LEASING CORPORATION,"$2,500",Vansant,VA,business,,LEASING,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-18,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-11,"7-Eleven, Inc.","$1,000",Irving,TX,business,,Retailer,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-10,Anthem Blue Cross Blue Shield,$500,Cincinnati,OH,business,,Healthcare,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-26,"Amazon.com Services, Inc.","$1,000","Seattle, WA",VA,business,,Online Retail,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-06-30,"Dharma Pharmaceuticals, LLC.",$500,Bristol,VA,business,,Pharmaceutical,,A,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-14,Shell Oil,$33.50,Abingdon,VA,,,,Transportation,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-28,ConstantContact.com,$65,Unknown,,,,,Email Service,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-04,Patty Adams,$200,Tazewell,VA,,,,Cleaning Fee,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-22,Heritage Hall,$100,Tazewell,VA,,,,Golf Sponsorship,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-24,Verizon,$195.10,NA,,,,,Phones,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-02,Pizza Hut,$176.83,Tazewell,VA,,,,Food for Little League Dinner,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-11,USPS,$11,Pounding Mill,VA,,,,Postage,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-05-28,Sunoco,$60,Cedar Bluff,VA,,,,Transportation,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-03,USPS,$7.95,North Tazewell,VA,,,,Postage,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-24,USPS,$38,North Tazewell,VA,,,,Postal Fee,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-14,The Homestead,$278.69,Hot Springs,VA,,,,Deposit for Caucus Retreat,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-15,The Homestead,$678.74,Hot Springs,VA,,,,Deposit for Caucus Retreat,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-21,Point Broadband,$120.45,NA,,,,,Phones & Internet,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-01,Food Lion,$57.56,Tazewell,VA,,,,Food for Little League Dinner,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-08,Honaker Lions Club,$250,Honaker,VA,,,,Sponsorship,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-06-10,Gas-N-Go,$72,Vansant,VA,,,,Transportation,D,246371,2021-05-28 to 2021-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-08-25,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-08-08,"American HealthCare, LLC","$2,500",Roanoke,VA,business,,Health Care,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-23,Comcast Corporation,$500,Philadelphia,PA,business,,Communications,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-23,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,PAC,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-29,Realtors PAC of Virginia,"$1,000",Glen Allen,VA,pac,,PAC,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-01,"Pepsi Cola Bottling Company, Inc. of Norton, VA","$1,000",Norton,VA,business,,Bottling Company,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-09,Virginia Wine Wholesalers,"$1,500",Richmond,VA,pac,,PAC,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-12,Washington Gas Light Company PAC,$500,Washington,DC,pac,,PAC,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-23,Clyde Stacy,"$5,000",Bristol,VA,individual,NA,NA,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-06,Autry O.V. DeBusk,"$1,000",Powell,TN,individual,DeRoyal,Unknown,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-08-27,"Wellmore Energy Company, LLC","$1,000",Johnson City,TN,business,,Energy,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-08-02,Southern States Police Benevolent Association,"$2,500",McDonough,GA,business,,Police Organization,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-27,"FTP Power, LLC",$500,Salt Lake City,UT,business,,Energy,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-28,Dominion PAC,"$2,500",Richmond,VA,pac,,PAC,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-07-29,"Republic National Distributing Company, LLC","$1,000",Atlanta,GA,business,,Distributing,,A,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-26,ConstantContact.com,$65,Unknown,,,,,Email Service,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-26,ConstantContact.com,$65,Unknown,,,,,Email Service,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-20,Marathon,$83,Tazewell,VA,,,,Transportation,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-10,Exxon,$48,Tazewell,VA,,,,Transportation,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-09,Patty Adams,$200,Tazewell,VA,,,,Cleaning Fee,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-13,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-16,Bellacinos,$106.62,Cedar Bluff,VA,,,,Lunch Meeting,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-23,Verizon,$158.17,NA,,,,,Phones,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-27,Cargo Oil Company,$50,NA,VA,,,,Transportation,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-13,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-09,USPS,$28,Pounding Mill,VA,,,,Postal Fee,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-08,YMCA,$200,Tazewell,VA,,,,Golf Tournament Sponsorship,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-12,Circle K,$72.98,NA,VA,,,,Transportation,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-19,American Express,$438.75,El Paso,TX,,,,Lodging & Transportation,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-26,American Express,$168.84,El Paso,TX,,,,Lodging & Transportation,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-26,American Express,$276.12,El Paso,TX,,,,Lodging & Transportation,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-03,American Express,$608.96,El Paso,TX,,,,Lodging & Transportation,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-04,American Express,$386.25,El Paso,TX,,,,Lodging & Transportation,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-15,USPS,$11,North Tazewell,VA,,,,Postal Fee,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-19,The Homestead,$905.26,Hot Springs,VA,,,,Caucus Retreat,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-02,Point Broadband,$241.18,NA,,,,,Internet & Phones,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-01,Republican Commonwealth Leadership PAC,"$12,000",Henrico,VA,,,,Contribution/Dues,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-20,The Emporium,$101.09,Richlands,VA,,,,Picture Frames for Resolutions,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-07-23,Wise County Republican Party,$300,Wise,VA,,,,Ben Chafin Memorial Event,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-08-03,Historic Crab Orchard Museum,$195,Tazewell,VA,,,,Children's Camp Sponsorship,D,253909,2021-07-01 to 2021-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-22,Virginia Beer Wholesalers Association PAC,$750,Richmond,VA,pac,,PAC,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-24,Virginia Beer Wholesalers Association PAC,$750,Richmond,VA,pac,,PAC,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-20,Maritime Issues Council,$500,Norfolk,VA,pac,,PAC,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-05,VMDAEC Virginia ACRE,$500,Glen Allen,VA,pac,,PAC,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-17,Anheuser Busch Companies,$500,St. Louis,MO,business,,Beer,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-24,Betting on VA Jobs,"$5,000",Richmond,VA,pac,,PAC,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-13,JBG Smith PAC,"$1,000",Arlington,VA,pac,,PAC,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-14,Headwaters Resort Politcal Action Committee,"$1,500",Norfolk,VA,pac,,PAC,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-20,Commissioner of Revenue PAC CORPAC,$250,Newport News,VA,pac,,PAC,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-09-25,"Blue Ridge Beverage CO., INC.",$750,Salem,VA,business,,Beer Distributor,,A,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-27,ConstantContact.com,$65,Unknown,,,,,Email Service,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-20,Marathon,$65,Tazewell,VA,,,,Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-29,Marathon,$69,Tazewell,VA,,,,Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-15,Exxon,$66.50,Tazewell,VA,,,,Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-22,Exxon Waynesboro,$35.20,Waynesboro,VA,,,,Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-10,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-22,VPAP.org,$300,Richmond,VA,,,,Contribution,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-13,Bluefield Dialy Telegraph,$59,Bluefield,WV,,,,Advertising,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-10,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-22,Cargo,$64.09,Tazewell,VA,,,,Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-03,American Express,"$1,550.60",El Paso,TX,,,,Lodging & Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-21,Point Broadband,$119.09,NA,,,,,Internet & Phones,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-01,Grundy Double Quick,$65.25,Grundy,VA,,,,Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-09,Shell Oil,$65.50,Bluefield,VA,,,,Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-22,Exxon,$7.67,NA,VA,,,,Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-25,Exxon,$46.25,NA,VA,,,,Transportation,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-09-27,Friends of Roxann Robinson,"$1,000",Midlothian,VA,,,,Contribution,D,258273,2021-09-01 to 2021-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2021-10-10,Virginia Automobile & Truck Dealers Political Action Committee,$500,Richmond,VA,pac,,PAC,,A,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+contribution,2021-10-17,Virginia Bank PAC,"$1,000",Glen Allen,VA,pac,,PAC,,A,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+contribution,2021-10-02,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Consulting,,A,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+contribution,2021-10-04,"Capital Results, LLC",$250,Richmond,VA,business,,Lobby,,A,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+contribution,2021-10-21,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco,,A,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+contribution,2021-10-10,"The Williams Companies, Inc.",$250,Tulsa,OK,business,,NA,,A,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+contribution,2021-10-05,Caesars Enterprise Service LLC,$500,Las Vegas,NV,business,,Gaming,,A,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+contribution,2021-10-05,Rising Phoenix Holdings Corporation,$500,Utica,NY,pac,,PAC,,A,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+contribution,2021-10-21,"Exacta Systems, LLC","$1,000",Boyton Beach,FL,business,,Gaming,,A,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-05,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-19,FasMart,$72.49,Tazewell,VA,,,,Transportation,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-12,Happy Mart,$57.33,Tazewell,VA,,,,Transportation,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-14,Happy Mart,$63,Tazewell,VA,,,,Transportation,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-01,Verizon,$113.85,NA,,,,,Phones,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-21,Verizon,$111.04,NA,,,,,Phones,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-12,PM Quick Mart,$30,Pounding Mill,VA,,,,Transportation,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-06,Republican Commonwealth Leadership PAC,$375,Henrico,VA,,,,Retreat Spouse Fee,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-14,Republican Commonwealth Leadership PAC,"$10,000",Henrico,VA,,,,Contribution,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-19,Marie March for Delegate,"$2,500",Christiansburg,VA,,,,Contribution,D,262404,2021-10-01 to 2021-10-21,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-06,Norfolk Southern Corporation,$500,Norfolk,VA,business,,Railroad,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-13,REED SMITH LLP,$500,Richmond,VA,pac,,PAC,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-11,Virginia Oil and Gas Association,$200,Abingdon,VA,pac,,PAC,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-06,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beer,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-25,AT&T,$250,Washington,DC,business,,Communications,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-06,Associated Distributors LLC,"$1,000",Sandston,VA,business,,Distributor,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-06,Huntingon Ingalls Industries,"$1,000",Newport News,VA,business,,Ship Builder,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-12,Dominion PAC,"$5,000",Richmond,VA,pac,,PAC,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-25,AVS Companies,"$2,500",Elk Village,IL,business,,Gaming,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-11-25,Verizon,$500,Washington,DC,business,,Communications,,A,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-25,ConstantContact.com,$65,Unknown,,,,,Email Service,D,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-27,Marathon,$81,Tazewell,VA,,,,Transportation,D,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-11-01,Exxon,$70,Tazewell,VA,,,,Transportation,D,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-11-19,Patty Adams,$175,Tazewell,VA,,,,Cleaning Fee,D,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-11-09,Bluefield Dialy Telegraph,$123,Bluefield,WV,,,,Advertisement,D,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-29,USPS,$42,North Tazewell,VA,,,,Postal Fee,D,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-11-15,FasMart,$75,Richlands,VA,,,,Transportation,D,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-10-27,Point Broadband,$240.82,NA,,,,,Internet and Phones,D,269080,2021-10-22 to 2021-11-25,CC-12-00853,Will Morefield for Delegate
+contribution,2021-12-30,Friends of Mountain States,"$1,000",Johnson City,TN,pac,,PAC,,A,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-12-30,"Exacta Systems, LLC",$500,Boyton Beach,FL,business,,Gaming,,A,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2021-12-30,CC Procurement LLC,"$1,000","Chelmsford, MA",VA,business,,NA,,A,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-11-26,ConstantContact.com,$65,Unknown,,,,,Email Service,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-12-27,ConstantContact.com,$65,Unknown,,,,,Email Service,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-12-03,Marathon,$40,Tazewell,VA,,,,Transportation,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-12-01,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-12-14,Patty Adams,$300,Tazewell,VA,,,,Cleaning Fee,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-12-28,Patty Adams,$100,Tazewell,VA,,,,Cleaning Fee,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-11-26,Verizon,$148.92,NA,,,,,Phones,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-12-07,American Express,"$1,500",El Paso,TX,,,,Lodging,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-12-29,USPS,$42,North Tazewell,VA,,,,Postal Fee,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2021-12-29,Point Broadband,$118.59,NA,,,,,Internet & Phones,D,277663,2021-11-26 to 2021-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-01-11,"American HealthCare, LLC","$2,500",Roanoke,VA,business,,Health Care,,A,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2022-06-14,Service Corporation International PAC (SCI/PAC),$750,Houston,TX,pac,,PAC,,A,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2022-06-05,Altria Client Services LLC,$500,Richmond,VA,business,,Tobacco,,A,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2022-01-11,POM of Virginia,"$1,000",Duluth,GA,business,,Gaming,,A,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2022-01-11,Jushi Inc,"$1,000",Boca Raton,VA,business,,Medical Cannabis,,A,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2022-01-11,Virginia Future PAC,$750,Richmond,VA,pac,,PAC,,A,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2022-06-27,Virginia Trial Lawyers Political Action Committee,"$2,500",Richmond,VA,pac,,PAC,,A,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2022-05-28,"Fluor Enterprises, Inc - HQ","$1,000",Aliso Viejo,CA,business,,Construction,,A,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-01-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-01,ConstantContact.com,$65,Unknown,,,,,Email Service,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-31,ConstantContact.com,$65,Unknown,,,,,Email Service,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-05-02,ConstantContact.com,$65,Unknown,,,,,Email Service,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-05-31,ConstantContact.com,$65,Unknown,,,,,Email Service,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-06-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-01-11,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-18,Patty Adams,$350,Tazewell,VA,,,,Cleaning Fee,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-29,Patty Adams,$100,Tazewell,VA,,,,Cleaning Fee,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-05-03,Patty Adams,$150,Tazewell,VA,,,,Cleaning Fee,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-06-07,Patty Adams,$125,Tazewell,VA,,,,Cleaning Fee,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-01-31,Verizon,$205.23,NA,,,,,Phones,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-14,Verizon,$127.55,NA,,,,,Phones,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-04-26,House Republican Campaign Committee,"$1,000",Richmond,VA,,,,Caucus Dues,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-01-20,Meriwether Godsey Catering,$156.09,Richmond,VA,,,,Office Food Cards,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-05-25,9th District Republican Party,$500,Saltville,VA,,,,Contribution,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-17,Treasurer of Virginia,$37,Richmond,VA,,,,State Flag,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-01-07,"Cedar Hill Properties, Inc.","$1,000",Pounding Mill,VA,,,,Office Rent,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-18,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-05-24,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-05-24,Kathy's Custom Catering,"$1,350",Pounding Mill,VA,,,,Department of Social Services Appreciation Luncheon,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-06-07,YMCA,$100,Tazewell,VA,,,,Golf Sponsorship,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-01-24,American Express,"$2,774.82",El Paso,TX,,,,Lodging,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-01-31,American Express,"$1,081.50",El Paso,TX,,,,Lodging,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-02-18,American Express,"$1,081.50",El Paso,TX,,,,Lodging,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-02-28,American Express,"$1,081.50",El Paso,TX,,,,Lodging,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-05-31,American Express,$414.60,El Paso,TX,,,,Caucus Retreat Lodging,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-06-14,American Express,$244,El Paso,TX,,,,House Caucus Retreat,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-04-27,USPS,$84,North Tazewell,VA,,,,Postal Fee,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-01-06,Loves Travel Stop,$71.50,NA,VA,,,,Transportation,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-13,Point Broadband,$357.43,NA,,,,,Office Phones & Internet,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-06-02,Point Broadband,$356.11,NA,,,,,Office Phones & Internet,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-29,St. Jude,$200,Memphis,TN,,,,Contribution,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-06-29,Honaker Lions Club,$250,Honaker,VA,,,,Contribution,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-02-10,Commonwealth Suites Hotel,"$2,500",Richmond,VA,,,,Staff Lodging,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-09,Feedmore.org,$260,Richmond,VA,,,,Contribution,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-03-10,MCV Foundation,$258.94,Richmond,VA,,,,Massey Cancer Center Contribution,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-04-28,Chick-fil-A,$349,Bluefield,WV,,,,School Lunch Sponsorship,D,290559,2022-01-01 to 2022-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-13,McGuire Woods Consulting,$500,Richmond,VA,business,,Public Affairs Solutions,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-16,REED SMITH LLP,$500,Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-07,Virginia Farm Bureau AgPAC,$500,Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-13,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-14,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-30,"Noah Horn Well Drilling, INC.","$2,500",Vansant,VA,business,,Natural Gas Well Driller,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-08,JBG Smith PAC,"$1,000",Arlington,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-07-21,"Republic National Distributing Company, LLC","$1,500",Atlanta,GA,business,,Distributing,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-08,Headwaters Resort Politcal Action Committee,"$1,500",Norfolk,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-09-22,"Blue Ridge Beverage CO., INC.",$500,Salem,VA,business,,Beer Distributor,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-09-09,Caesars Enterprise Service LLC,$500,Las Vegas,NV,business,,Gaming,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-09-16,"Exacta Systems, LLC","$1,000",Boyton Beach,FL,business,,Gaming,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-15,Jushi Inc,"$1,000",Boca Raton,VA,business,,Medical Cannabis,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-09-14,Virginia Beverage Company LLC,$500,Bristol,VA,business,,Wholesaler,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-10-27,AT&T,$250,St. Louis,MO,business,,Communication Company,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-09-09,Molson Coors,$250,Milwaukee,WI,business,,Beer Beverage Company,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-30,Virginia Society of the AIA,$500,Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-02,Sports Betting Alliance,"$1,000",Lubbock,TX,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-02,J & J Ventures Gaming LLC,"$1,000",Effingham,IL,business,,Gaming,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-22,Associated General Contractors of Virginia Inc.,$250,Glen Allen,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-30,Dominion Energy Inc. PAC - Virginia,"$2,500",Richmond,VA,pac,,Utility,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-08,VA Operators for Skill,"$1,000",Richmond,VA,business,,Gaming,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-10-27,Virginia Spirits Association Operating Account,$250,Richmond,VA,business,,Beverage Association,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-30,Charitable Gaming PAC,"$1,000",Richmond,VA,pac,,210 Giant Dr.,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-08,"Bontanaway, Inc.",$500,Richmond,VA,business,,NA,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-22,United,$250,Houston,TX,business,,Airlines,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-12,Virginia Oil and Gas Association,$500,Abingdon,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-28,HBAV BUILD-PAC,"$5,000",Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-21,"American HealthCare, LLC","$2,500",Roanoke,VA,business,,Health Care,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-08-26,Virginia Beer Wholesalers Association PAC,"$1,250",Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-08-26,Virginia Beer Wholesalers Association PAC,"$1,250",Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-10-24,Virginia Hospital Association PAC,$500,Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-07,Virginia Bank PAC,"$1,000",Glen Allen,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-10-21,Maritime Issues Council,"$1,000",Norfolk,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-08-11,Comcast Corporation,$500,Philadelphia,PA,business,,Communications,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-08-17,Realtors PAC of Virginia,"$1,000",Glen Allen,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-07-11,Virginia Wine Wholesalers,"$1,500",Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-05,Virginia Manufactured & Modular Housing Association PAC,$500,Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-31,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Consulting,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-30,APEX LEASING CORPORATION,"$2,500",Vansant,VA,business,,LEASING,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-29,Virginia Sheriff's Association,$250,Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-10-11,Anheuser Busch Companies,$500,St. Louis,MO,business,,Beer,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-12,Betting on VA Jobs,"$5,000",Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-14,"CNX Gas Company, LLC","$1,500",Canonsburg,PA,business,,Natural Gas,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-11-17,Engineering Companies of Virginia PAC,$500,Richmond,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-10-03,"Amazon.com Services, Inc.","$2,000","Seattle, WA",VA,business,,Online Retail,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-10-18,Mettallurgical Coal Producers Association PAC,"$1,000",Grundy,VA,pac,,PAC,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-07,Huntingon Ingalls Industries,"$1,000",Newport News,VA,business,,Ship Builder,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-13,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Riverfront Plaza,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2022-12-21,"METIS Services, INC.",$500,Roanoke,VA,business,,Management Company,,A,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-01,ConstantContact.com,$65,Unknown,,,,,Email Service,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-09-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-10-31,ConstantContact.com,$65,Unknown,,,,,Email Service,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-11-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-12-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-07-06,Patty Adams,$150,Tazewell,VA,,,,Cleaning Fee,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-11,Patty Adams,$150,Tazewell,VA,,,,Cleaning Fee,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-09-20,Patty Adams,$150,Tazewell,VA,,,,Cleaning Fee,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-11-08,Patty Adams,$200,Tazewell,VA,,,,Cleaning Fee,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-12-06,Patty Adams,$350,Tazewell,VA,,,,Cleaning Fee,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-12-29,Patty Adams,$300,Tazewell,VA,,,,Cleaning Fee,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-01,Tazewell County Fair Association,$60,Tazewell,VA,,,,Ad,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-09-02,Your Grate Escape,$663.58,NA,VA,,,,Event Catering,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-05,VPAP.org,$300,Richmond,VA,,,,Contribution,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-12-07,Linden Row Inn,$165.30,Richmond,VA,,,,Lodging,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-12-07,Linden Row Inn,$165.30,Richmond,VA,,,,Lodging,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-11-23,Buchanan County GOP,$500,Grundy,VA,,,,Contribution,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-09-06,Richlands Masonic Lodge,$150,Richlands,VA,,,,Contribution,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-05,Bluefield Dialy Telegraph,$179,Bluefield,WV,,,,Ad,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-05,Bluefield Dialy Telegraph,$179,Bluefield,WV,,,,Ad #2,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-07-08,Treasurer of Virginia,$37,Richmond,VA,,,,State Flag,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-11,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-10-04,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-11-29,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-12,The Voice Newspaper,$476,Whitewood,VA,,,,Ad,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-23,American Express,$145.03,El Paso,TX,,,,Travel,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-10-04,Michael Adams,$75,Tazewell,VA,,,,Office Repair,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-10,Harland Clarke,$78.11,NA,,,,,Bank Checks,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-07-28,Point Broadband,$251.33,NA,,,,,Phones & Internet,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-10-19,Point Broadband,$252.54,NA,,,,,Phones & Internet,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-11-25,Point Broadband,$265.92,NA,,,,,Phones & Internet,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-07-07,Heritage Hall Patient Aid,$100,Tazewell,VA,,,,Contribution,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-08-05,Tazewell Youth Football League,$500,Tazewell,VA,,,,Contribution,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-09-27,Tazewell Primary School,$500,Tazewell,VA,,,,Ice Cream Contribution,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-09-27,Tazewell Primary School,$500,Tazewell,VA,,,,Ice Cream Contribution #2,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-11-15,Tazewell Primary School,$300,Tazewell,VA,,,,Ice Cream Contribution,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-11-15,Tazewell Primary School,$300,Tazewell,VA,,,,Ice Cream Contribution #2,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-09-30,Clintwood Lions Club,$250,Clintwood,VA,,,,Contribution,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-10-24,Town of Richlands,$200,Richlands,VA,,,,Contribution - Railroad Section House,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-12-19,CARE Center of Southwest Virginia,$300,Richlands,VA,,,,Contribution,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2022-12-19,Patricia Adams,$200,Tazewell,VA,,,,Cleaning Fee,D,312548,2022-07-01 to 2022-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-01-10,Virginia Asian American Store Owners Association PAC,"$1,000",Richmond,VA,pac,,PAC,,A,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-01-04,William A Pace III,$125,Chatham,VA,individual,Virginia,Legislative Assistant,,A,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-03-02,"Motorola Solutions, Inc. PAC Multicandidate Committee",$250,Washington,DC,pac,,PAC,,A,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-03-02,Vision Management Services,$500,Chicago,IL,business,,Medical Cannabis,,A,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-02-28,ConstantContact.com,$65,Unknown,,,,,Email Service,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-03-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-10,Exxon Waynesboro,$60.12,Waynesboro,VA,,,,Transportation,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-02-28,USPS,$34,Pounding Mill,VA,,,,Postal Fee,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-31,Verizon,$146.21,NA,,,,,Phones,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-02-28,Verizon,$126.03,NA,,,,,Phones,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-09,Linden Row Inn,$158.46,Richmond,VA,,,,Lodging,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-11,Linden Row Inn,$633.84,Richmond,VA,,,,Lodging,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-02-28,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-13,American Express,"$1,250",El Paso,TX,,,,Lodging,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-25,American Express,"$1,250",El Paso,TX,,,,Lodging,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-02-14,American Express,"$1,400",El Paso,TX,,,,Lodging,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-09,USPS,$45,North Tazewell,VA,,,,Postal Fee,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-09,Loves Travel Stop,$74,NA,VA,,,,Transportation,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-17,Point Broadband,$118,NA,,,,,Phones & Internet,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-03-20,Point Broadband,$267.42,NA,,,,,Phones & Internet,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-03-31,Town of Richlands,$100,Richlands,VA,,,,Contribution - Richlands Section House,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-01-12,Patricia Adams,$300,Tazewell,VA,,,,Cleaning Fee,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-03-14,Patricia Adams,$200,Tazewell,VA,,,,Cleaning Fee,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-02-01,Matteo DiGirolamo,$500,Richmond,VA,,,,Field Work,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-02-13,Thomas Lester,$500,Cedar Bluff,VA,,,,Field Work,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-02-14,Tazewell Basketball Boosters,$150,Tazewell,VA,,,,Contribution,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-03-02,UVA Wise BCM,$825,Wise,VA,,,,Contribution,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-03-06,Stop In Food Stores,$63.78,Waynesboro,VA,,,,Transportation,D,317869,2023-01-01 to 2023-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-05,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+contribution,2023-05-26,Comcast Corporation,$500,Philadelphia,PA,business,,Communications,,A,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-05,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco,,A,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+contribution,2023-04-17,Engineering Companies of Virginia PAC,$500,Richmond,VA,pac,,PAC,,A,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-05,Jushi Inc,"$1,000",Boca Raton,VA,business,,Medical Cannabis,,A,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-05,"POWERHOUSE VA, INC.","$1,000",South Chesterfield,VA,business,,NA,,A,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-01,ConstantContact.com,$65,Unknown,,,,,Email Service,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-04-27,Marathon,$72.25,Tazewell,VA,,,,Transportation,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-05,Pop Shop,$40,Tazewell,VA,,,,Transportation,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-04-19,Verizon,$112.13,NA,,,,,Phones,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-30,Verizon,$123,NA,,,,,Phones,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-12,Pizza Hut,$367.32,Tazewell,VA,,,,Pizza,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-01,Bluefield Dialy Telegraph,$147,Bluefield,WV,,,,Newspaper Ads,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-08,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-11,Kathy's Custom Catering,$450,Pounding Mill,VA,,,,Catering,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-31,YMCA,$100,Tazewell,VA,,,,Golf Hole Sponsorship,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-24,American Express,$522.10,El Paso,TX,,,,Lodging & Transportation,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-05,American Express,$804.76,El Paso,TX,,,,House Caucus Retreat Lodging,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-04-21,USPS,$47,North Tazewell,VA,,,,Postal Fee,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-10,Point Broadband,$270.50,NA,,,,,Phones & Internet,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-04,Republican Commonwealth Leadership PAC,"$15,000",Henrico,VA,,,,Contribution - ROMP,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-04-03,Tazewell Primary School,$300,Tazewell,VA,,,,Special Events Contribution,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-08,Clintwood Lions Club,$500,Clintwood,VA,,,,Contribution,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-01,Town of Richlands,$150,Richlands,VA,,,,Freedom Festival Donation,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-11,Patricia Adams,$150,Tazewell,VA,,,,Cleaning Fee,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-01,Patricia Adams,$200,Tazewell,VA,,,,Cleaning Fee,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-05-30,THS Project Graduation,$250,Tazewell,VA,,,,Contribution,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-07,Shell,$50.25,Beaver,WV,,,,Transportation,D,327516,2023-04-01 to 2023-06-08,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-23,REED SMITH LLP,$500,Richmond,VA,pac,,PAC,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-30,Commercial Development PAC,$500,Alexandria,VA,pac,,PAC,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-30,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,PAC,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-23,"Noah Horn Well Drilling, INC.","$2,500",Vansant,VA,business,,Natural Gas Well Driller,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-29,Anheuser Busch Companies,$500,St. Louis,MO,business,,Beer,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-30,McGuire Woods,"$1,000",Richmond,VA,business,,Law Firm,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-29,Caesars Enterprise Service LLC,"$1,000",Las Vegas,NV,business,,Gaming,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-29,Molson Coors,$250,Milwaukee,WI,business,,Beer Beverage Company,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-23,Dominion Energy Inc. PAC - Virginia,"$5,000",Richmond,VA,pac,,Utility,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-29,Truckers Political Action Committee of VA,$500,Richmond,VA,pac,,PAC,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-29,Virginia CRNA's Who Care About Healthcare PAC,$500,Forest Hill,MD,pac,,PAC,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-06-23,Bizzack Construction LLC.,"$1,500",Lexington,KY,business,,Construction Company,,A,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+in_kind,2023-06-29,Virginia Beer Wholesalers Association PAC,$596.60,Richmond,VA,pac,,PAC,Lunch Event,B,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-30,ConstantContact.com,$65,Unknown,,,,,Email Service,D,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-12,Pop Shop,$73,Tazewell,VA,,,,Transportation,D,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-26,Verizon,$51.92,NA,,,,,Phones,D,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-26,American Express,$428.12,El Paso,TX,,,,Majority Retreat Balance,D,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-30,Point Broadband,$121.79,NA,,,,,Phones & Internet,D,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-23,Hackworth for Virginia,"$1,000",Richlands,VA,,,,Contribution,D,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-16,New Covenant Fellowship Church,$150,Tazewell,VA,,,,Contribution,D,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-29,Karen Greenhalgh for Delegate,"$1,041.02",Virginia Beach,VA,,,,Contribution,D,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-06-30,Sheetz,$74,Richmond,VA,,,,Transportation,D,339982,2023-06-09 to 2023-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-07-13,"Virginia State Police Association, INC.",$500,Richmond,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-07-24,Virginia Lifepoint Hospitals PAC,"$2,500",Richlands,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-14,Virginia Beer Wholesalers Association PAC,"$2,500",Richmond,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-18,VADPAC,"$1,500",Richmond,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-18,Virginia Wine Wholesalers,"$1,500",Richmond,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-07-15,"Capital Results, LLC",$500,Richmond,VA,business,,Lobby,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-25,VA Beverage Association,"$1,000",Richmond,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-14,Betting on VA Jobs,"$7,500",Richmond,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-05,"CNX Gas Company, LLC","$2,500",Canonsburg,PA,business,,Natural Gas,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-18,Headwaters Resort Politcal Action Committee,"$3,000",Norfolk,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-14,"Blue Ridge Beverage CO., INC.",$500,Salem,VA,business,,Beer Distributor,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-21,AT&T,$500,St. Louis,MO,business,,Communication Company,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-31,Enbridge (U.S.) Inc. PAC,$500,Houston,TX,pac,,Energy PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-08-28,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-07-27,HCA for Good Government,$500,Richmond,VA,pac,,PAC,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-07-11,Gate City Investments LLC,"$7,500",Bristol,VA,business,,Investments,,A,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-31,ConstantContact.com,$76,Unknown,,,,,Email Service,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-15,Marathon,$75,Tazewell,VA,,,,Transportation,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-23,Marathon,$76,Tazewell,VA,,,,Transportation,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-31,Verizon,$186.04,NA,,,,,Phones,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-28,Verizon,$129.69,NA,,,,,Phones,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-06,Casaundra Sheppard,$100,Tazewell,VA,,,,Children's Pageant Sponsorship,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-25,Linden Row Inn,$150,Richmond,VA,,,,Lodging,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-25,Linden Row Inn,$150,Richmond,VA,,,,Lodging,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-18,Bluefield Dialy Telegraph,$199,Bluefield,WV,,,,Newspaper Ads,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-18,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-14,The Voice Newspaper,$400,Whitewood,VA,,,,Newspaper Ads,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-02,USPS,$83.20,Pounding Mill,VA,,,,Postal Fee,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-12,American Express,$815.69,El Paso,TX,,,,Lodging & Transportation,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-30,American Express,"$1,004.24",El Paso,TX,,,,Lodging & Transportation,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-03,Point Broadband,$119.45,NA,,,,,Phones & Internet,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-05,Heritage Hall Patient Aid,$200,Tazewell,VA,,,,Contribution,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-11,Patricia Adams,$200,Tazewell,VA,,,,Cleaning Fee,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-08,Patricia Adams,$200,Tazewell,VA,,,,Cleaning Fee,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-24,Stop In Food Stores,$78,Waynesboro,VA,,,,Transportation,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-11,TruPoint Bank,$15,Pounding Mill,VA,,,,Wire Transfer Fee,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-07-13,Pop Shop,$69.50,North Tazewell,VA,,,,Transportation,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-21,Pop Shop,$74,North Tazewell,VA,,,,Transportation,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-07,Corner Mart,$69,Richlands,VA,,,,Transportation,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-16,TCS Fuels,$60.20,Clintwood,VA,,,,Transportation,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-08-30,Kim Taylor for Virginia,"$10,000",Petersburg,VA,,,,Contribution,D,348877,2023-07-01 to 2023-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-30,Huntingon Ingalls Industries,"$1,000",Newport News,VA,business,,Ship Builder,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-30,Dominion Energy Inc. PAC - Virginia,"$5,000",Richmond,VA,pac,,Utility,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-27,Vision Management Services,$500,Chicago,IL,business,,Medical Cannabis,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-18,RAI Services Company,$500,Winston Salem,NC,business,,Services Company,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-25,Walmart Inc.,$500,Bentonville,AR,business,,Retail,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-30,Virginia Bank PAC,"$1,500",Glen Allen,VA,pac,,PAC,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-18,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,PAC,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-25,Virginia Health Care Association,"$1,000",Richmond,VA,pac,,PAC,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-30,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Consulting,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-28,James McGlothlin,"$5,000",Naples,FL,individual,Na,Na,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-09-30,Mettallurgical Coal Producers Association PAC,"$1,500",Grundy,VA,pac,,PAC,,A,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-05,Pop Shop,$74,Tazewell,VA,,,,Transportation,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-08,Treasurer of Virginia,$784.44,Richmond,VA,,,,Postage,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-26,Cargo,$85.25,Tazewell,VA,,,,Transportation,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-13,American Express,$424.21,El Paso,TX,,,,Lodging & Transportation,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-25,American Express,$329.97,El Paso,TX,,,,Lodging & Transportation,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-26,USPS,$28.75,North Tazewell,VA,,,,Postage,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-18,FasMart,$48.50,Richlands,VA,,,,Transportation,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-01,Point Broadband,$119.15,NA,,,,,Internet & Phones,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-25,St. Jude,$250,Memphis,TN,,,,Contribution,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-28,Republican Commonwealth Leadership PAC,"$50,000",Henrico,VA,,,,Contribution,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-13,Patricia Adams,$150,Tazewell,VA,,,,Cleaning Fee,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-09-07,Russell County GOP,$500,Lebanon,VA,,,,Contribution,D,359573,2023-09-01 to 2023-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-10-26,American Electric Power Company Committee For Responsible Government,"$1,000",Washington,DC,pac,,Utility,,A,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+contribution,2023-10-23,"Amazon.com Services, Inc.","$1,500","Seattle, WA",VA,business,,Online Retail,,A,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+contribution,2023-10-15,Donald G & Lora Baker,"$1,000",Clintwood,VA,individual,Self,Attorney,,A,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+contribution,2023-10-15,"American Vending Sales, Inc.","$1,000",Elk Grove Village,IL,business,,Vending Sales,,A,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+contribution,2023-10-15,American Culture Project,"$5,000",Chicago,IL,pac,,PAC,,A,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-02,ConstantContact.com,$76,Unknown,,,,,Email Service,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-03,SWCC Educational Foundation,$500,Richlands,VA,,,,Contribution,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-19,Tazewell County Fair Association,$60,Tazewell,VA,,,,Ad,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-12,Happy Mart,$33.50,Tazewell,VA,,,,Transportation,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-02,Verizon,$110,NA,,,,,Phones,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-26,Verizon,$166.30,NA,,,,,Phones,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-19,Richlands Masonic Lodge,$250,Richlands,VA,,,,Contribution,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-10,Bluefield Dialy Telegraph,$109,Bluefield,WV,,,,Newspaper Ads,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-10,Bluefield Dialy Telegraph,$189,Bluefield,WV,,,,Newspaper Ads,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-06,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-04,USPS,$26.40,North Tazewell,VA,,,,Postal Fee,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-25,USPS,$98,North Tazewell,VA,,,,Postal Fee,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-02,FasMart,$74,Richlands,VA,,,,Transportation,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-17,Point Broadband,$238.81,NA,,,,,Internet & Phones,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-11,Shell Oil,$50,Bluefield,VA,,,,Transportation,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-16,Shell Oil,$70.50,Bluefield,VA,,,,Transportation,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-12,Tazewell Primary School,$500,Tazewell,VA,,,,Ice Cream & Snacks Donation,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-03,Patricia Adams,$150,Tazewell,VA,,,,Cleaning Fee,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-17,Ridgeview Middle School PTO,$250,Clintwood,VA,,,,Contribution,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-23,Tazewell County Public Library Foundation,$250,Tazewell,VA,,,,Contribution,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-24,Sam's Club,$311.14,Bluefield,VA,,,,Candy for Tazewell Trunk or Treat Event,D,367042,2023-10-01 to 2023-10-26,CC-12-00853,Will Morefield for Delegate
+contribution,2023-10-30,HBAV BUILD-PAC,"$5,000",Richmond,VA,pac,,PAC,,A,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-11-06,"METIS Services, INC.",$500,Roanoke,VA,business,,Management Company,,A,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-11-21,Commissioner of Revenue PAC CORPAC,$500,Newport News,VA,pac,,PAC,,A,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-10-30,Omega Protein,"$1,000",Calais,ME,business,,Fishing Operation,,A,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-11-16,Swedish Match,$250,Richmond,VA,business,,Tobacco,,A,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-11-06,Clint S Rudy,$125,Suffolk,VA,individual,NA,NA,,A,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+contribution,2023-11-06,Thomas A Shepley,$125,Chester,VA,individual,NA,NA,,A,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-11-17,Shell Oil,$60,Abingdon,VA,,,,Transportation,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-11-03,ConstantContact.com,$76,Unknown,,,,,Email Service,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-11-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-27,Verizon,$166.30,NA,,,,,Phones,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-11-29,Verizon,$96.80,NA,,,,,Phones,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-11-29,Clinch Valley Community Action,"$1,000",North Tazewell,VA,,,,Clients Utility Payments Assistance Contribution,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-11-16,American Express,"$1,011.29",El Paso,TX,,,,Lodging & Travel,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-11-08,Patricia Adams,$150,Tazewell,VA,,,,Cleaning Fee,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-10-30,Sam's Club,$37.33,Bluefield,VA,,,,Event Halloween Candy,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-11-30,Jeffersonville Women's Club,$300,Tazewell,VA,,,,Christmas Dinner Contribution,D,381927,2023-10-27 to 2023-11-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-12-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,391474,2023-12-01 to 2023-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-12-29,Verizon,$193.65,NA,,,,,Phones,D,391474,2023-12-01 to 2023-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-12-05,US Postal Service,$98,North Tazewell,VA,,,,Postal Fee,D,391474,2023-12-01 to 2023-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-12-18,FasMart,$65.50,Richlands,VA,,,,Transportation,D,391474,2023-12-01 to 2023-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-12-24,Point Broadband,$241.20,Bristol,VA,,,,Internet & Phones,D,391474,2023-12-01 to 2023-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2023-12-12,Patricia Adams,$200,Tazewell,VA,,,,Cleaning Fee,D,391474,2023-12-01 to 2023-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-06-02,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco,,A,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2024-06-29,Anheuser Busch Companies,$500,St. Louis,MO,business,,Beer,,A,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2024-01-04,Jushi Inc,"$1,000",Boca Raton,VA,business,,Medical Cannabis,,A,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2024-06-03,Jushi Inc,$500,Boca Raton,VA,business,,Medical Cannabis,,A,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2024-01-09,Virginia Future PAC,$500,Richmond,VA,pac,,PAC,,A,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2024-01-04,"ACE Development Company LLC c/o AES Distribution Energy, Inc.","$1,000",Salt Lake City,UT,business,,Energy,,A,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2024-01-09,Virginia Oil & Oil Gas Association,$500,Abingdon,VA,pac,,PAC,,A,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2024-01-09,Asian American Business Owners Association PAC,$500,Roanoke,VA,pac,,PAC,,A,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2024-05-15,Virginia Loggers Association Inc. PAC Account,$250,Goochland,VA,pac,,PAC,,A,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-01-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-29,ConstantContact.com,$76,Unknown,,,,,Email Service,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-03-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-05-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-06-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-05-29,Tazewell County Fair Association,$60,Tazewell,VA,,,,Ad,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-03,USPS,$13.60,Pounding Mill,VA,,,,Postal Fee,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-06-27,VPAP.org,$300,Richmond,VA,,,,Contribution,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-01-28,Verizon,$193.86,NA,,,,,Phones,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-03-20,Verizon,$178.06,NA,,,,,Phones,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-01-08,Tazewell County GOP,"$1,000",Tazewell,VA,,,,Contribution,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-07,Vance Graphics,$25,Pounding Mill,VA,,,,Newspaper Ad Design,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-07,Vance Graphics,$499.32,Pounding Mill,VA,,,,Mailer,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-29,House Republican Campaign Committee,"$1,000",Richmond,VA,,,,Dues,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-03-19,Caleb Cruey,$500,Richlands,VA,,,,Mission Trip Sponsorship,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-05-22,Bluefield Dialy Telegraph,$227,Bluefield,WV,,,,Ad,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-17,Treasurer of Virginia,$37,Richmond,VA,,,,State Flag,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-01-03,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-05,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-07,Clinch Valley Community Action,"$6,500",North Tazewell,VA,,,,Clients Utility Payments Assistance Contribution,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-01-02,American Express,$333.97,El Paso,TX,,,,Lodging & Transportation,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-01-16,American Express,$442.05,El Paso,TX,,,,Lodging & Transportation,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-01-25,American Express,$425,El Paso,TX,,,,Lodging,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-07,American Express,$425,El Paso,TX,,,,Lodging,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-15,American Express,$425,El Paso,TX,,,,Lodging,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-24,American Express,$401.30,El Paso,TX,,,,Lodging & Transportation,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-05-20,American Express,$331.98,El Paso,TX,,,,Lodging & Transportation,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-06-03,American Express,$250.07,El Paso,TX,,,,Lodging & Transportation,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-03-13,Point Broadband,$361.80,Bristol,VA,,,,Phones and Internet,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-05-20,Point Broadband,$105.38,Bristol,VA,,,,Phones & Internet,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-29,Republican Commonwealth Leadership PAC,"$5,250",Henrico,VA,,,,Contribution,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-29,MCV Foundation,$500,Richmond,VA,,,,Contribution - Cancer Care,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-05-30,Heritage Hall Patient Aid,$100,Tazewell,VA,,,,Contribution,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-01-09,Patricia Adams,$150,Tazewell,VA,,,,Cleaning Fee,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-06,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-05,Patricia Adams,$150,Tazewell,VA,,,,Cleaning Fee - Office,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-05-13,Patricia Adams,$200,Tazewell,VA,,,,Cleaning Fee - Office,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-05-29,Patricia Adams,$150,Tazewell,VA,,,,Cleaning Fee - Office,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-06-26,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-05,Thomas Lester,$450,Cedar Bluff,VA,,,,Lodging,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-05,Thomas Lester,$450,Cedar Bluff,VA,,,,Lodging,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-02-20,Thomas Lester,$450,Cedar Bluff,VA,,,,Lodging,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-03-04,Thomas Lester,$450,Cedar Bluff,VA,,,,Lodging,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-01-11,Meriwether's Capital Cafe,$150,Richmond,VA,,,,Office Food Gift Cards,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-15,Tazewell High School Art Club,$548,Tazewell,VA,,,,DC Student Trip Sponsorship,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-04-25,Winning Republican Strategies,$100,Washington,DC,,,,Website Maintenance Fee,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-06-11,Brock Alley,$150,Tazewell,VA,,,,Graduation Contribution,D,408329,2024-01-01 to 2024-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2024-11-25,"Virginia State Police Association, INC.",$250,Richmond,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-09,Virginia Lifepoint Hospitals PAC,"$1,000",Richlands,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-07,Virginia Beer Wholesalers Association PAC,"$2,500",Richmond,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-09-12,Comcast Corporation,$500,Philadelphia,PA,business,,Communications,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-07-24,VADPAC,"$1,000",Richmond,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-09-11,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-10,Virginia Wine Wholesalers,"$2,500",Richmond,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-01,Virginia Manufactured & Modular Housing Association PAC,$250,Richmond,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-11-01,Virginia Assisted Living Association PAC,$500,Henrico,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-28,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Consulting,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-26,"Commonwealth Connections, Inc.","$1,000",Big Stone Gap,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-11-08,Betting on VA Jobs,"$5,000",Richmond,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-11-05,"Wellmore Energy Company, LLC","$1,500",Johnson City,TN,business,,Energy,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-07-29,"The Williams Companies, Inc.",$500,Tulsa,OK,business,,NA,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-11-13,"CNX Gas Company, LLC","$2,500",Canonsburg,PA,business,,Natural Gas,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-27,Associated Distributors LLC,"$1,000",Sandston,VA,business,,Distributor,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-11-12,"Amazon.com Services, Inc.","$1,500","Seattle, WA",VA,business,,Online Retail,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-10,Mettallurgical Coal Producers Association PAC,"$1,500",Grundy,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-28,Huntingon Ingalls Industries,"$1,000",Newport News,VA,business,,Ship Builder,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-28,McGuire Woods,$500,Richmond,VA,business,,Law Firm,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-27,Commissioner of Revenue PAC CORPAC,$250,Newport News,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-11,Virginia Beverage Company LLC,"$1,000",Bristol,VA,business,,Wholesaler,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-07,Molson Coors,$250,Milwaukee,WI,business,,Beer Beverage Company,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-11-21,Sports Betting Alliance,"$1,500",Lubbock,TX,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-29,Virginia Spirits Association Operating Account,$500,Richmond,VA,business,,Beverage Association,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-08-05,Vision Management Services,$500,Chicago,IL,business,,Medical Cannabis,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-09-20,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-25,Omega Protein,$500,Calais,ME,business,,Fishing Operation,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-30,Thomas A Shepley,$200,Chester,VA,individual,NA,NA,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-07,Mathew Benka,$250,Richmond,VA,individual,NA,NA,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-07,The Virginia Contractor Procurement Alliance,$500,Richmond,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-11-11,Caesars Enterprise Services LLC,"$2,500",Las Vegas,NV,business,,Casino,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-16,Reed Smith LLP,$500,Pittsburgh,PA,business,,Law Firm,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-11,Strata Solar LLC,$250,Durham,NC,business,,Energy Company,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-10-28,Micron Technology Inc.,$750,Boise,ID,business,,Technology Company,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-26,Johnson Brothers Service Distributing,$500,"Lorton, VA",VA,business,,Distribution Company,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-18,IGT Global Solutions,"$1,000",Reno,NV,business,,NA,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-23,Boyd-Pamumkey Casino PAC,"$3,000",Norfolk,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-30,Commercial Development PAC,$500,Alexandria,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2024-12-09,Virginia Automobile & Truck Dealers Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+in_kind,2024-10-07,The Tobacco Company Restaurant,"$1,450",Richmond,VA,business,,Restaurant,Fundraising Event Food and Beverage,B,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-08-30,ConstantContact.com,$76,Unknown,,,,,Email Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-10-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-12-30,ConstantContact.com,$76,Unknown,,,,,Email Service,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-11,Marathon,$63,Tazewell,VA,,,,Transportation,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-10-30,Marathon,$60.50,Tazewell,VA,,,,Transportation,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-08-27,USPS,$72,Pounding Mill,VA,,,,Postal Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-27,Verizon,$112.72,NA,,,,,Phones,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-28,Verizon,$162.92,NA,,,,,Phones,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-01,Verizon,$172.40,NA,,,,,Phones,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-27,Verizon,$136.63,NA,,,,,Phones,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-26,9th District Republican Party,$250,Saltville,VA,,,,Contribution,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-07,Black Diamond 27,$60.50,Rosedale,VA,,,,Transportation,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-10,Richlands Little League,$250,Richlands,VA,,,,Contribution,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-08-07,Bluefield Dialy Telegraph,$215,Bluefield,WV,,,,Ad,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-13,Bluefield Dialy Telegraph,$328,Bluefield,WV,,,,Ads,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-15,Tazewell Little League,$250,Tazewell,VA,,,,Contribution,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-08-23,Tazewell Little League,$250,Tazewell,VA,,,,Contribution - Tazewell Majors 11-12,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-08-07,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-08-30,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-14,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-11,The Voice Newspaper,$400,Whitewood,VA,,,,Newspaper Ads,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-08,American Express,$428.82,El Paso,TX,,,,Richmond Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-16,American Express,$387.40,El Paso,TX,,,,Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-16,American Express,$493.40,El Paso,TX,,,,Richmond Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-18,American Express,$483.94,El Paso,TX,,,,Richmond Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-20,American Express,$320.30,El Paso,TX,,,,Southern States Energy Board Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-25,American Express,$211.09,El Paso,TX,,,,Southern States Energy Board Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-10-16,American Express,$473.18,El Paso,TX,,,,Richmond Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-12,American Express,$297.57,El Paso,TX,,,,Richmond Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-12,American Express,$208.74,El Paso,TX,,,,Richmond Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-12-16,American Express,$478.15,El Paso,TX,,,,Richmond Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-12-30,American Express,$332.56,El Paso,TX,,,,Richmond Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-12-31,American Express,$262.50,El Paso,TX,,,,Richmond Lodging & Travel,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-10-15,US Postal Service,$100,North Tazewell,VA,,,,Postal Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-14,Point Broadband,$43.72,Bristol,VA,,,,Phones & Internet,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-25,Point Broadband,$89.44,Bristol,VA,,,,Phones & Internet,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-15,Point Broadband,$89.77,Bristol,VA,,,,Phones & Internet,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-12-24,Point Broadband,$90.10,Bristol,VA,,,,Phones & Internet,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-22,Republican Commonwealth Leadership PAC,"$5,250",Henrico,VA,,,,Contribution/Romp,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-13,Shell Oil,$50.01,Bluefield,VA,,,,Transportation,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-07-30,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-05,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-13,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-10-22,Patricia Adams,$300,Tazewell,VA,,,,Office Cleaning Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-11-19,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-12-03,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-12-26,Patricia Adams,$300,Tazewell,VA,,,,Office Cleaning Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-08-17,Winning Republican Strategies,$20.60,Washington,DC,,,,Web Domain Fee,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-13,Pop Shop,$57,Raven,VA,,,,Transportation,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-09-23,Pilot,$63,White Pine,TN,,,,Transportation,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-10-15,Richlands Wrestling Club,$250,Richlands,VA,,,,Contribution,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2024-12-16,Virginia Tech Foundation,$204,Blacksburg,VA,,,,Tickets,D,429367,2024-07-01 to 2024-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-03-27,The United Company,"$10,000",Bristol,VA,business,,Coal Mining,,A,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-03-21,Jushi Inc,"$1,000",Boca Raton,FL,business,,Medical Cannabis,,A,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-03-06,Genworth Financial GNA Corporation,$500,Lynchburg,VA,business,,Insurance,,A,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-03-06,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Developer,,A,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-03-06,Vantage Data Centers Management CO LLC,$500,Santa Clara,CA,business,,Data Center Management,,A,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-03-21,"Communi Carriers, Inc.","$2,500",Oakwood,VA,business,,Transportation,,A,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-03-21,Joe & Lanette Street,"$2,500",Vansant,VA,individual,West River Conveyors,Manufacturing,,A,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-01-30,ConstantContact.com,$82,Unknown,,,,,Email Service,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-02-28,ConstantContact.com,$82,Unknown,,,,,Email Service,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-31,ConstantContact.com,$82,Unknown,,,,,Email Service,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-01-06,Verizon,$91,NA,,,,,Phones,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-23,Verizon,$112.42,NA,,,,,Phones,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-11,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-10,Cargo,$40,Tazewell,VA,,,,Transportation,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-01-06,American Express,$400,El Paso,TX,,,,Lodging,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-01-13,American Express,$400,El Paso,TX,,,,Lodging,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-01-21,American Express,$400,El Paso,TX,,,,Lodging,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-02-03,American Express,$400,El Paso,TX,,,,Lodging,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-07,Point Broadband,$90.32,Bristol,VA,,,,Office Phones,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-02-18,MCV Foundation,$258.80,Richmond,VA,,,,Contribution,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-01-14,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-04,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-25,Patricia Adams,$200,Tazewell,VA,,,,Office Cleaning Fee,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-01-27,Thomas Lester,$811.74,Cedar Bluff,VA,,,,Lodging,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-02-14,Thomas Lester,"$1,342.57",Cedar Bluff,VA,,,,Lodging,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-10,USPS,$24.70,North Tazewell,VA,,,,Postal Fee,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-12,Dickenson GOP,$500,Clintwood,VA,,,,Contribution,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-13,Tazewell County Treasurer,$352.80,Tazewell,VA,,,,Candidate Primary Filing Fee,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-13,Knights Consulting LLC,$500,Nora,VA,,,,Campaign Consulting Fee,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-03-24,Dickenson County Sheriff's Office,"$1,000",Clintwood,VA,,,,Golf Tournament Sponsorship,D,436568,2025-01-01 to 2025-03-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-05-20,Virgil Goode,$250,Rocky Mount,VA,individual,Retired,Retired,,A,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+contribution,2025-06-02,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco,,A,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-30,ConstantContact.com,$82,Waltham,MA,,,,Email Service,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-05-30,ConstantContact.com,$82,Waltham,MA,,,,Email Service,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-06-02,Heritage Hall,$200,Tazewell,VA,,,,Golf Tournament Sponsorship - Patient Aide Tournament,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-30,Verizon,$262.38,NA,,,,,Phones,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-11,Bluefield Dialy Telegraph,$246,Bluefield,WV,,,,Ads,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-10,American Express,$469.73,El Paso,TX,,,,Lodging & Transportation,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-15,American Express,$243.06,El Paso,TX,,,,Lodging & Transportation,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-18,American Express,$150,El Paso,TX,,,,American Coal Council Congressional Event Registration Fee,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-05-23,American Express,$480.43,El Paso,TX,,,,Lodging & Transportation,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-23,Republican Commonwealth Leadership PAC,"$5,250",Henrico,VA,,,,Contribution/ROMP,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-05-15,Tazewell Primary School,$150,Tazewell,VA,,,,Field Trip Sponsorship,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-29,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-05-29,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-06-04,Winning Republican Strategies,$100,Washington,DC,,,,Internet Domain,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-09,Knights Consulting LLC,$500,Nora,VA,,,,Campaign Consulting,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-05-12,Knights Consulting LLC,$500,Nora,VA,,,,Campaign Consulting,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-10,Haysi Kiwanis Club,$250,Haysi,VA,,,,Dickenson County Kids Fishing Day Sponsorship,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-16,Four Seasons YMCA,$500,Tazewell,VA,,,,Contribution,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-04-18,Russell County Public Schools,"$1,500",Lebanon,VA,,,,Baseball/Softball Fields Resurfacing Contribution,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-05-19,Fast Stop,$70,Bluefield,VA,,,,Transportation Fuel,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-05-20,CSGA Group LLC,"$2,600",Lynchburg,VA,,,,Consulting,D,454218,2025-04-01 to 2025-06-05,CC-12-00853,Will Morefield for Delegate
+contribution,2025-06-30,Anheuser Busch Companies,$500,St. Louis,MO,business,,Beer,,A,454228,2025-06-06 to 2025-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-06-30,Virginia EyeCare Clinic LLC,$250,Grundy,VA,business,,Eye Care,,A,454228,2025-06-06 to 2025-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-06-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,454228,2025-06-06 to 2025-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-06-11,Tazewell County Fair Association,$40,Tazewell,VA,,,,Fair Ad,D,454228,2025-06-06 to 2025-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-06-11,"Cedar Hill Properties, Inc.",$500,Pounding Mill,VA,,,,Office Rent,D,454228,2025-06-06 to 2025-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-06-21,Honaker Lions Club,$250,Honaker,VA,,,,Independence Day Celebration Sponsorship,D,454228,2025-06-06 to 2025-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-06-10,Knights Consulting LLC,$500,Nora,VA,,,,Campaign Consulting,D,454228,2025-06-06 to 2025-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-06-26,Richlands Middle School,$250,Richlands,VA,,,,Cheerleaders Uniforms Sponsor,D,454228,2025-06-06 to 2025-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-20,"Virginia State Police Association, INC.",$250,Richmond,VA,pac,,PAC,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-16,Comcast Corporation,$500,Philadelphia,PA,business,,Communications,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-31,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,PAC,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-22,Virginia Manufactured & Modular Housing Association PAC,"$1,000",Richmond,VA,pac,,PAC,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-31,Virginia Future PAC,$250,Richmond,VA,pac,,PAC,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-31,Virginia Beverage Company LLC,$500,Bristol,VA,business,,Wholesaler,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-31,HCA for Good Government,$500,Richmond,VA,pac,,PAC,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-31,Virginia Beer Wholesalers Association PAC,"$1,250",Richmond,VA,pac,,PAC,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-22,Aristotle International Inc FBO Amazon.com Services LLC,"$1,500",Washington,DC,business,,Online Retail,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-18,Virginia Bankers State PAC,"$1,500",Glen Allen,VA,pac,,PAC,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-16,Diego North America Inc,"$1,000",New York,NY,business,,Beverage,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-08-16,Virginia Spirits Association Operating Account,$500,Moseley,VA,business,,Beverage Association,,A,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-18,Tazewell County Fair Association,"$1,000",Tazewell,VA,,,,Kids Day - Dinner Sponsor,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-08,Bluefield Dialy Telegraph,$235,Bluefield,WV,,,,Ads,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-08,The Voice Newspaper,$225,Whitewood,VA,,,,Ad,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-09,Point Broadband,$180.85,Bristol,VA,,,,Phone Service,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-28,Point Broadband,$90.80,Bristol,VA,,,,Phone Service,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-08,Republican Commonwealth Leadership PAC,"$5,250",Henrico,VA,,,,Contribution - ROMP,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-01,Winning Republican Strategies,$103,Washington,DC,,,,Website Domain Fee,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-20,The Tobacco Company Restaurant,"$1,532.96",Richmond,VA,,,,Event Catering,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-08,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-08,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-02,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-30,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-27,Patricia Adams,$150,Tazewell,VA,,,,Office Cleaning Fee,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-07-20,Wayfarer Appalachia,$500,Tazewell,VA,,,,Event Contribution,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-14,Allianz Insurance US,$12,Richmond,VA,,,,Travel Insurance,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-14,The Westin Hotel Richmond,$127.78,Richmond,VA,,,,Lodging,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-19,Shell Service Station,$67,Bluefield,VA,,,,Transportation Fuel,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-21,Stop In Food Stores,$48.25,Waynesboro,VA,,,,Transportation Fuel,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-08,Tazewell Lions Club,$250,Tazewell,VA,,,,Golf Tournament Sponsor,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-25,United States Postal Service,$78,Pounding Mill,VA,,,,Postal Fee,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-21,Delta Hotel Richmond,$467.77,Richmond,VA,,,,Lodging & Meals,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-08,Clintwood Lions Club,$250,Clintwood,VA,,,,Contribution - Donnie Rife Golf Tournament,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-08-08,Whittle for Delegate,"$2,500",Danville,VA,,,,Contribution,D,460925,2025-07-01 to 2025-08-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-09,"CNX Gas Company, LLC","$2,500",Canonsburg,PA,business,,Natural Gas,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-09,Huntingon Ingalls Industries,"$1,000",Newport News,VA,business,,Ship Builder,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-27,Vision Management Services,"$5,000",Chicago,IL,business,,Medical Cannabis,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-27,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,PAC,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-27,RAI Services Company,"$1,000",Winston Salem,NC,business,,Services Company,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-21,Caesars Enterprise Services LLC,"$2,500",Las Vegas,NV,business,,Casino,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-16,Strata Solar LLC,$500,Durham,NC,business,,Energy Company,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-09,Boyd-Pamumkey Casino PAC,"$3,000",Norfolk,VA,pac,,PAC,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-27,Genworth Financial GNA Corporation,"$1,000",Lynchburg,VA,business,,Insurance,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-09,Virginia Beer Wholesalers Association PAC,"$1,250",Richmond,VA,pac,,PAC,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-16,Medical Facilities of America Administrative Consulting Services,"$5,000",Lakewood,NJ,business,,Medical Consulting,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-16,Verano Holdings LLC,"$1,000",Chicago,IL,business,,Cannabis,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-15,Virginia Automobile & Truck Dealers Political Action Committee,"$2,500",Richmond,VA,pac,,PAC,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-16,Virginia Wine Wholesalers,"$2,500",Richmond,VA,pac,,PAC,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-09,"Blue Ridge Beverage CO, Inc.","$1,250",Abingdon,VA,business,,Beverage,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-09-27,Betting on VA Jobs,"$5,000",Richmond,VA,pac,,PAC,,A,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-10,"Expedia, INC.",$12.23,Bellevue,WA,,,,Fee,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-10,"Expedia, INC.",$52.17,Bellevue,WA,,,,Fee,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-08,Vance Graphics,"$1,939.80",Pounding Mill,VA,,,,Signs,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-10,Orchard Creek,$63,Raphine,VA,,,,Transportation Fuel,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-19,Appalachian School of Law,$500,Grundy,VA,,,,Contribution - Golf Tournament Hole Sponsor,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-02,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-25,Shell Service Station,$67.50,Bluefield,VA,,,,Transportation Fuel,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-02,RIchlands Wrestling Club Invitational,$200,Richlands,VA,,,,Contribution - Golf Hole Sponsorship,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-09,American Airlines,$338.18,Fort Worth,TX,,,,Airfare,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-09,Delta Airlines,$369.18,Seattle,WA,,,,Airfare,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-02,Dickenson County GOP,"$1,000",Clintwood,VA,,,,Contribution,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-12,Lucky Dog,$70,Tazewell,VA,,,,Transportation Fuel,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-11,Hilton Hotel,$256.01,Richmond,VA,,,,Lodging,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-18,Dickenson County Fair,"$1,000",Haysi,VA,,,,Contribution,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-22,Fasmart,$57,Pounding Mill,VA,,,,Transportation Fuel,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-09-10,Friends of Chris Obenshain,"$3,500",Blacksburg,VA,,,,Contribution,D,461048,2025-09-01 to 2025-09-30,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,"Natural Resource Services, INC.","$1,000",Wise,VA,business,,Construction,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-17,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Consulting,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,Michael McGlothlin,"$1,000",Grundy,VA,individual,Self,Self,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,J.V. Rainero,$250,Bristol,VA,individual,NA,Self,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,McGuire Woods,"$1,000",Richmond,VA,business,,Law Firm,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,Sports Betting Alliance,"$5,000",Lubbock,TX,pac,,PAC,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-17,Virginia Oil & Gas Association,"$2,500",Abingdon,VA,business,,Oil & Gas Association,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,Jimmie A Street,"$1,000",Bristol,TN,individual,Retired,Retired,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,Conner W McCall,$500,Abingdon,VA,individual,Unknown,Dentist,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,Town Center Urgent Care LLC,"$1,000",Grundy,VA,business,,Health Care,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,Commonwealth Connections INC,"$1,000",Big Stone Gap,VA,business,,Consulting,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,Friends of Ballad Health PAC,$500,Johnson City,TN,pac,,Healthcare PAC,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-20,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,business,,Casino Gaming,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-10-23,William Puckett,$150,Lebanon,VA,individual,Russell County Sheriffs Office,Sheriff's Deputy,,A,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-23,Craig Smith,"$1,800",Pounding Mill,VA,,,,Reception Band,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-22,USPS,$11.90,Pounding Mill,VA,,,,Postal Fee,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-20,Republican Commonwealth Leadership PAC,"$10,000",Henrico,VA,,,,Contribution,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-09,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-01,American Airlines,$40,Fort Worth,TX,,,,Fee,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-07,Hilton Hotel,$152.73,Richmond,VA,,,,Hotel Lodging,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-06,Friends of Chris Obenshain,"$10,000",Blacksburg,VA,,,,Contribution,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-01,Avis Rental,$198.08,Mobile,AL,,,,Rental Car,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-01,Grand Hotel Resort / Grand Marriott,$888.18,Point Clear,AL,,,,Hotel Lodging - SSEB Conference,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-02,Tri-Cities Regional Airport,$52,Blountville,TN,,,,Airport Parking Fee,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-10,The Martha Washington Inn,"$3,500",Abingdon,VA,,,,Event Reception Deposit,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-23,The Martha Washington Inn,"$5,961.55",Abingdon,VA,,,,Reception Event - Lodging - Event - Food,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-21,Marriott,$219.15,Glen Allen,VA,,,,Hotel Lodging & Meals,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-23,Food City,$798.04,Abingdon,VA,,,,Additional Food for 10/23 Reception Event,D,464968,2025-10-01 to 2025-10-23,CC-12-00853,Will Morefield for Delegate
+contribution,2025-11-27,Virginia Hospital Association PAC,$500,Richmond,VA,pac,,PAC,,A,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+contribution,2025-11-07,Betting on VA Jobs,"$5,000",Richmond,VA,pac,,PAC,,A,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+contribution,2025-11-21,Molson Coors,$250,Milwaukee,WI,business,,Beer Beverage Company,,A,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+contribution,2025-11-07,Omega Protein,$500,Calais,ME,business,,Fishing Operation,,A,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+contribution,2025-11-07,Virginia CUPAC,$500,Tallahassee,FL,pac,,Credit Union PAC,,A,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+contribution,2025-11-07,Donald & Lora Baker,"$1,000",Clintwood,VA,individual,Self Employed,Attorney,,A,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+contribution,2025-11-07,American HealthCare LLC,"$1,000",Roanoke,VA,business,,Healthcare,,A,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+contribution,2025-11-04,Cannabis Small Business Association,"$1,000",Leesburg,VA,business,,Cannabis Association,,A,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-24,Vance Graphics,$895.05,Pounding Mill,VA,,,,Signs,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-11-03,Buchanan County GOP,$500,Grundy,VA,,,,Contribution,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-26,Bluefield Dialy Telegraph,$199,Bluefield,WV,,,,Ad,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-11-26,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-11-01,Friends of Chris Obenshain,"$3,500",Blacksburg,VA,,,,Contribution,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-29,Marriott,$255.82,Glen Allen,VA,,,,Lodging & Meals,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-11-17,Marriott,$325.04,Glen Allen,VA,,,,Lodging & Meals,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-27,US Post Postal Service,$121.60,North Tazewell,VA,,,,Postal Fee,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-10-26,Rich Valley Elementary School,$250,Saltville,VA,,,,Williamsburg Field Trip Sponsor,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-11-16,Happy Mart,$52.25,North Tazewell,VA,,,,Transportation Fuel,D,495688,2025-10-24 to 2025-11-27,CC-12-00853,Will Morefield for Delegate
+contribution,2025-12-17,"Meta Platforms, Inc.","$2,500",Menlo Park,CA,business,,Technology,,A,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2025-12-29,Commissioner of Revenue PAC CORPAC,$250,Staunton,VA,pac,,PAC,,A,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-11-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-17,The Westin Hotel Richmond,$168.58,Richmond,VA,,,,Lodging & Meals,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-07,Shell Service Station,$65.50,Bluefield,VA,,,,Transportation Fuel,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-15,Shell Service Station,$63,Bluefield,VA,,,,Transportation Fuel,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-09,Hilton Hotel,$376.96,Richmond,VA,,,,Lodging & Meals,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-03,Harland Clarke,$84.04,San Antonio,TX,,,,Check Order,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-09,Sheetz,$54,Zion Crossroads,VA,,,,Transportation Fuel,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-04,CNHI LLC,$448,Bluefield,WV,,,,Ads,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-02,Cornett for Delegate,"$4,500",Independence,VA,,,,Contribution,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+expenditure,2025-12-02,Honaker Elementary School,$500,Honaker,VA,,,,Christmas Dinner Sponsor,D,495729,2025-11-28 to 2025-12-31,CC-12-00853,Will Morefield for Delegate
+contribution,2026-03-16,HBAV BUILD-PAC,"$2,500",Richmond,VA,pac,,PAC,,A,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2026-06-20,Anheuser Busch Companies,"$1,000",St. Louis,MO,business,,Beer,,A,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2026-03-16,Mettallurgical Coal Producers Association PAC,"$1,500",Grundy,VA,pac,,PAC,,A,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2026-01-12,Jushi Inc,"$1,000",Boca Raton,FL,business,,Medical Cannabis,,A,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2026-01-12,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Developer,,A,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2026-03-16,Vantage Data Centers Management CO LLC,$500,Santa Clara,CA,business,,Data Center Management,,A,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2026-01-12,Organizing for VA Seniors,"$1,000",Fairfax,VA,business,,Healthcare,,A,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+contribution,2026-01-13,Arrow International Inc.,$500,Cleveland,OH,business,,Gaming,,A,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-01-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-02,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-30,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-01,ConstantContact.com,$91,Waltham,MA,,,,Email Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-30,ConstantContact.com,$104,Waltham,MA,,,,Email Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-05-22,Marathon,$102,Tazewell,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-09,Tazewell County Fair Association,$50,Tazewell,VA,,,,Fair Book Advertising,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-01-26,Verizon,$152.44,NA,,,,,Phone Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-02-23,Verizon,$131.71,NA,,,,,Phone Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-23,Verizon,$100.19,NA,,,,,Phone Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-27,Verizon,$136.71,NA,,,,,Phone Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-22,Verizon,$124.33,NA,,,,,Phone Service,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-09,Dickenson County Chamber of Commerce,$250,Clintwood,VA,,,,Business Appreciation Cookout,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-30,The Voice Newspaper,$698.62,Whitewood,VA,,,,Advertising,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-09,Town of Tazewell,$100,Tazewell,VA,,,,Billy Wagner Golf Tournament Hole Sponsor,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-05,American Express,$89.95,El Paso,TX,,,,Uber Fees,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-02-13,Thomas Lester,"$1,413.92",Cedar Bluff,VA,,,,Lodging,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-06,Thomas Lester,"$1,035.70",Cedar Bluff,VA,,,,Lodging,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-02,USPS,$31.20,North Tazewell,VA,,,,Postal Fee,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-01-09,Knights Consulting LLC,"$1,000",Nora,VA,,,,Consulting,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-02-10,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-11,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-15,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-05-20,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-09,Knights Consulting LLC,$500,Nora,VA,,,,Consulting,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-09,Dickenson County Sheriff's Office,$500,Clintwood,VA,,,,Contribution - Donnie Rife Golf Tournament,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-04,The Westin Hotel Richmond,$155.82,Richmond,VA,,,,Lodging,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-25,The Westin Hotel Richmond,$222.08,Richmond,VA,,,,Lodging,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-01,Shell Service Station,$94,Bluefield,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-09,Tazewell Lions Club,$250,Tazewell,VA,,,,Golf Hole Sponsor,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-27,Delta Hotel Richmond,$238.69,Richmond,VA,,,,Lodging,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-09,Dickenson County GOP,$500,Clintwood,VA,,,,Contribution,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-24,Hilton Hotel,$272.09,Richmond,VA,,,,Lodging,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-25,Happy Mart,$74,North Tazewell,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-03,Happy Mart,$74,North Tazewell,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-14,Happy Mart,$61,North Tazewell,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-22,Happy Mart,$65,North Tazewell,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-05-28,Happy Mart,$74,North Tazewell,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-01-05,Drury Inn,$451.04,Glen Allen,VA,,,,Lodging,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-29,Drury Inn,$402.91,Glen Allen,VA,,,,Lodging,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-01-14,Target,$200.91,Richmond,VA,,,,Supplies,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-01-26,Target,$403.74,Richmond,VA,,,,Supplies,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-02-23,Target,$245.08,Richmond,VA,,,,Supplies,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-13,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,,,,Contribution,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-27,HD Media LLC,"$1,349.46",Huntington,WV,,,,Advertising,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-27,BHMVA Newspapers,"$2,160",Bristol,VA,,,,Advertising,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-30,LC News Press - Dickenson Star,$450,Cookeville,TN,,,,Advertising,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-03-30,LC News Press - The Coalfield Progress,$750,Cookeville,TN,,,,Advertising,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-16,Cargo,$90,Tazewell,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-20,Bobby May Advertising Specialties,$839.75,Hurley,VA,,,,Signs,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-04-30,VCE Russell County,$240,Lebanon,VA,,,,4H Camp Sponsorship,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-02,Loves,$72,Bastian,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate
+expenditure,2026-06-29,Circle K,$65.44,Wytheville,VA,,,,Transportation Fuel,D,495732,2026-01-01 to 2026-06-30,CC-12-00853,Will Morefield for Delegate

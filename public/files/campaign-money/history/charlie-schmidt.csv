@@ -1,0 +1,174 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2025-11-15,Ellen Bender,$100,New York,NY,individual,Not Employed,Not Employed,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-09,Ellen Bender,$100,New York,NY,individual,Not Employed,Not Employed,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-19,Ellen Bender,$200,New York,NY,individual,Not Employed,Not Employed,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-22,Glen Besa,$110,North Chesterfield,VA,individual,Brunckhorst Foundation,Executive Director,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-10,jimmy blackford,$350,Richmond,VA,individual,The PlanNineMusic,commercial specialist,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-08,Clean Virginia,"$20,000",Charlottesville,VA,business,,Nonprofit,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-23,Clean Virginia,"$10,000",Charlottesville,VA,business,,Nonprofit,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-11,Brian Davis,$111.11,Richmond,VA,individual,Not Employed,Not Employed,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-11-20,Stephen Doak,$500,Richmond,VA,individual,Doak Contracting Inc,contractor,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-20,Stephen Doak,$50,Richmond,VA,individual,Doak Contracting Inc,contractor,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-09,Vaughn Garland,$200,Richmond,VA,individual,Virginia Commonwealth University,Educator,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-10,Andrew Grigsby,$750,Richmond,VA,individual,Viridiant,Energy Services Director,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-11-24,Helen Hardiman,$200,Disputanta,VA,individual,HOME of VA,lawyer,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-11-20,Kelly Haywood,$250,Great Falls,VA,individual,Kelly Haywood,Producer,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-14,Meredith Hertzler,$200,Glen Allen,VA,individual,Terien LLC,Director of Sales & Marketing,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-23,House Democratic Caucus,"$25,000",Richmond,VA,party,,Political Party Committee,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-15,Robley Jones,$101,Richmond,VA,individual,Retired,Retired,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-11-16,Chris Morrisette,$250,Washington,DC,individual,Dbt,Software,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-19,Sarah O'Neill,"$1,000",New York,NY,individual,Not Employed,Not Employed,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-11-25,Charles Schmidt,"$1,000",Richmond,VA,individual,Richmond Public Library,Librarian,,A,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+in_kind,2025-12-25,Nigel Hawkins,"$3,000",Chesterfield,VA,individual,Richmond Public Library,Archivist Assistant,Consulting,B,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+in_kind,2025-12-14,PolitiMetrics,"$3,800",Williamsburg,VA,business,,LLC,Consulting,B,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+in_kind,2025-12-25,Clement Robbins,"$3,000",Richmond,VA,individual,"Ergatis Consulting, LLC",Owner,Consulting,B,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-11-16,ActBlue,$19.43,Burke,VA,,,,Fee,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-11-23,ActBlue,$44.07,Burke,VA,,,,Fee,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-11-30,ActBlue,$11.86,Burke,VA,,,,Fee,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-02,Google,$1.96,Mountain View,CA,,,,GSuite,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-03,"L2, Inc.",$122.20,Bothell,WA,,,,Data,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-04,USPS - Hopkins Road,$7.80,Richmond,VA,,,,Certified Mail,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-05,Gibson Universal LLC,$678.40,Henrico,VA,,,,Printing,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-07,ActBlue,$8.31,Burke,VA,,,,Fee,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-10,Blue Virginia,$325,Arlington,VA,,,,Advertisement,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-10,Democratic Party of Virginia,"$1,059.58",Richmond,VA,,,,VAN,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-10,Richmond City Democratic Committee,"$2,500",Richmond,VA,,,,Unassembled Caucus Filing Fee,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-11,Gibson Universal LLC,"$2,544",Henrico,VA,,,,Printing,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-11,Krispy Kreme,$18.95,North Chesterfield,VA,,,,Snacks,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-12,Facebook,$53,Menlo Park,CA,,,,Ads,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-12,Facebook,$4.67,Menlo Park,CA,,,,Ads,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-12,Krispy Kreme,$5.69,North Chesterfield,VA,,,,Snacks,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-12,Krispy Kreme,$7.78,North Chesterfield,VA,,,,Snacks,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-14,ActBlue,$95.93,Burke,VA,,,,Fee,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-15,Facebook,$57,Menlo Park,CA,,,,Ads,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-15,Facebook,$61,Menlo Park,CA,,,,Ads,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-15,Krispy Kreme,$19.33,North Chesterfield,VA,,,,Snacks,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-15,Krispy Kreme,$21.89,North Chesterfield,VA,,,,Snacks,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-15,Panera Bread,$67.76,North Chesterfield,VA,,,,Snacks for Volunteers,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-15,Stella's Grocery - Westover Hills,$14.79,Richmond,VA,,,,Snacks for Volunteers,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-16,Riverside Tavern,$706.40,Richmond,VA,,,,Election Night Event,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-18,Linktree,$144,San Francisco,CA,,,,Software,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-19,Canva,$7.50,Austin,TX,,,,Software,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-19,USPS - Hopkins Road,$191,Richmond,VA,,,,PO Box,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-21,ActBlue,$84.14,Burke,VA,,,,Fee,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-22,"NGP VAN, Inc.",$137.50,Washington,DC,,,,Software,D,473943,2025-11-09 to 2025-12-25,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-30,SEIU COPE,"$2,500",Washington,DC,individual,SEIU,Finance,,A,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-26,Victoria Cousins,$200,Richmond,VA,individual,Community Foundation of Greater Richmond,Director,,A,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-26,Friends of Saddam Azlan Salim,$500,Merrifield,VA,candidate,,Candidate Committee,,A,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-30,Megan Hull,$250,Piedmont,CA,individual,Not Employed,Not Employed,,A,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+contribution,2025-12-28,IBEW PAC Voluntary Fund,"$1,500",Washington,DC,pac,,PAC,,A,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+in_kind,2025-12-31,Richmond for All Action Fund,$259,Richmond,VA,pac,,PAC,Advertisement,B,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-28,ActBlue,$49.56,Burke,VA,,,,Fee,D,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-29,Facebook,$104,Menlo Park,CA,,,,Advertisments,D,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-29,Panera Bread,$5.79,North Chesterfield,VA,,,,Snacks for Volunteers,D,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-30,Facebook,$318,Menlo Park,CA,,,,Advertisement,D,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-30,Stella's Grocery - Westover Hills,$12.21,Richmond,VA,,,,Snacks for Volunteers,D,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-30,Zoom,$167.90,San Jose,CA,,,,Video Conferencing,D,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-31,ActBlue,$118.02,Burke,VA,,,,Fee,D,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2025-12-31,Facebook,$582,Menlo Park,CA,,,,Advertisement,D,477973,2025-12-26 to 2025-12-31,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-01-01,Jennifer Carroll Foy for State Senate,"$1,000",Woodbridge,VA,candidate,,Candidate Committee,,A,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-01-01,SEIU COPE,"$2,500",Washington,DC,pac,,Federal PAC,,A,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+in_kind,2026-01-02,Richmond for All Action Fund,$155,Richmond,VA,pac,,PAC,Meta Ads,B,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+in_kind,2026-01-05,Richmond for All Action Fund,$954,Richmond,VA,pac,,PAC,Meta Ads,B,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+in_kind,2026-01-06,Richmond for All Action Fund,$272,Richmond,VA,pac,,PAC,Meta Ads,B,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-01,Google,$11.76,Mountain View,CA,,,,Gsuite,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-01,Google,$2.54,Mountain View,CA,,,,Ads,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-02,Google,$360,Mountain View,CA,,,,Ads,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-03,Google,"$1,050",Mountain View,CA,,,,Ads,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-03,Paramount,"$1,567.28",San Francisco,CA,,,,Advertising,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-04,Google,"$1,000",Mountain View,CA,,,,Ads,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-05,Facebook,"$3,084.07",Menlo Park,CA,,,,Ads,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-05,Google,"$1,000",Mountain View,CA,,,,Ads,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-05,Scale to Win,$447.55,San Francisco,CA,,,,Texting platform,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-06,Google,$500,Mountain View,CA,,,,Ads,D,483366,2026-01-01 to 2026-01-06,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-01-09,Cathy Bruce,$25,Henrico,VA,individual,Richmond and Chesterfield County Library Systems,Library Technician,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-01-31,Kenya Gibson for Council,$250,Richmond,VA,candidate,,Candidate Committee,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-03-20,Jane Alphin,$6,Richmond,VA,individual,Not Employed,Not Employed,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-03-20,Stephen Doak,$50,Richmond,VA,individual,Doak Contracting Inc,contractor,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-04-17,Clean Virginia,"$7,500",Charlottesville,VA,pac,,PAC,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-05-20,Stephen Doak,$50,Richmond,VA,individual,Doak Contracting Inc,contractor,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-05-21,Drew Sarrett,"$1,000",Henrico,VA,individual,Retired,Lawyer,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-05-26,Allen Allen Allen & Allen,"$2,000",Richmond,VA,business,,Law Firm,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-05-26,"Lantz & Robins, P.C. Law Firm",$750,Richmond,VA,business,,Law Firm,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-05-26,Phelan Petty Injury Lawyers,$250,Richmond,VA,business,,Law Firm,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-05-26,Rachel Yates,$250,Henrico,VA,individual,Yates Appellate Law,Lawyer,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-06-01,Commonwealth Law Group,"$1,500",Richmond,VA,business,,Law Firm,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-06-04,Virginia Trial Lawyers Association PAC,"$2,500",Richmond,VA,pac,,PAC,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-06-12,"Cantor Grana Buckner Bucci, P.C.","$1,000",Richmond,VA,business,,Law Firm,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-06-12,"ReidGoodwin, PLC",$250,Richmond,VA,business,,Law Firm,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-06-20,Stephen Doak,$50,Richmond,VA,individual,Doak Contracting Inc,contractor,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+contribution,2026-06-20,Thomas Kirchoff,$3.13,Pittsford,NY,individual,Retired,Attorney,,A,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+in_kind,2026-01-23,Richmond for All Action Fund,$360,Richmond,VA,pac,,PAC,Meta Ads,B,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+in_kind,2026-05-21,Clean Virginia,"$1,000",Charlottesville,VA,pac,,PAC,Social media training,B,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-07,Roku,$505.81,San Jose,CA,,,,Ads,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-08,Disney Campaign Manager,$587.74,New York,NY,,,,Ads,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-08,Ryan Flavin,$615,Reston,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-09,Chesterfield County Democratic Committee,$250,North Chesterfield,VA,,,,Contribution,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-09,"Printersmark, Inc.","$13,758.19",Richmond,VA,,,,Literature,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-09,Walmart,$40.07,Bentonville,AR,,,,Checks,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-11,Friends of Lamont,$500,Richmond,VA,,,,Contribution,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-11,Virginia Legislative Black Caucus,"$1,000",Richmond,VA,,,,Contribution,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-12,Safadi Safwan,$255,Haymarket,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-13,Virginia Future Generations PAC,$500,North Chesterfield,VA,,,,Contribution,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-18,Canva,$7.50,Austin,TX,,,,Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-21,Truist,$88,Richmond,VA,,,,Service charge,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-23,Daniel Baum,$243.33,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-30,Daniel Baum,$305,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-01-31,Roku,$342.73,San Jose,CA,,,,Ads,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-01,Google,$20.10,Mountain View,CA,,,,Office Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-01,Google,$83.74,Mountain View,CA,,,,Ads,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-01,Google,$12.98,Mountain View,CA,,,,Gsuite,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-02,Scale to Win,$485.28,San Francisco,CA,,,,Texting platform,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-06,Daniel Baum,$360,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-13,Daniel Baum,$245,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-13,CVS,$11.64,North Chesterfield,VA,,,,Event supplies,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-18,Canva,$7.50,Austin,TX,,,,Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-20,Daniel Baum,$125,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-23,Truist,$18,Richmond,VA,,,,Service charge,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-23,VCU Development and Alumni Relations,$500,Richmond,VA,,,,Contribution,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-02-27,Daniel Baum,$360,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-03-01,Google,$12.98,Mountain View,CA,,,,Gsuite,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-03-01,Google,$30.75,Mountain View,CA,,,,Office Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-03-01,Google,$42,Mountain View,CA,,,,Office Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-03-06,Daniel Baum,$280,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-03-18,Canva,$15,Austin,TX,,,,Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-04-01,Google,$12.98,Mountain View,CA,,,,Gsuite,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-04-06,House Democratic Caucus,"$7,500",Richmond,VA,,,,Caucus dues,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-04-17,Gwendolyn Otwell,"$2,000",Richmond,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-04-18,Canva,$15,Austin,TX,,,,Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-04-29,Department of Elections,$2.30,Richmond,VA,,,,Fee,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-04-29,Department of Elections,$100,Richmond,VA,,,,Fee,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-04-29,"EveryAction, Inc. USA",$237.50,Austin,TX,,,,Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-04-29,"EveryAction, Inc. USA",$300,Austin,TX,,,,Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-01,Google,$12.95,Mountain View,CA,,,,Gsuite,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-01,Google,$41.72,Mountain View,CA,,,,Office Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-04,Virginia Museum of History & Culture,$5,Richmond,VA,,,,Event parking,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-06,Richmond Crusade For Voters,$500,Richmond,VA,,,,Contribution,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-08,Tazza Kitchen,$74.05,Richmond,VA,,,,Meals,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-13,Mom's Siam 2 Restaurant,$51.07,Richmond,VA,,,,Meals,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-14,Gold Lion Community Cafe,$18.59,Richmond,VA,,,,Meal,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-16,Puritan Cleaners,$44.58,Richmond,VA,,,,Dry-cleaning,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-17,River City Dance and Performing Arts,$50,North Chesterfield,VA,,,,Ads,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-18,Canva,$15,Austin,TX,,,,Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-20,Daniel Baum,$125,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-20,"Passport Labs, Inc.",$5.45,Charlotte,NC,,,,Parking,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-26,Meriwether Godsey,$12.75,Richmond,VA,,,,Meal,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-27,Legal Aid Justice Center,$500,Richmond,VA,,,,Contribution,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-29,Meriwether Godsey,$12.75,Richmond,VA,,,,Meal,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-29,"Spaceship, Inc.",$28.88,Phoenix,AZ,,,,Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-05-29,USPS,$15.60,Richmond,VA,,,,Postage,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-01,Google,$12.89,Mountain View,CA,,,,Gsuite,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-01,Google,$36.84,Mountain View,CA,,,,Office Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-02,Starbucks Coffee Company,$7.41,Richmond,VA,,,,Meal,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-05,Target,$33.91,Richmond,VA,,,,Office supplies,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-08,Salaam Bhatti for Congress,"$1,000",Richmond,VA,,,,Contribution,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-09,Daniel Baum,$255,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-11,Amazon,$52.97,Seattle,WA,,,,Office Supplies,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-11,Victoria Cousins,$837.31,Richmond,VA,,,,Event catering,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-11,Charles Schmidt,$646.80,Richmond,VA,,,,Special session travel,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-12,Amazon,$120.53,Seattle,WA,,,,Office Supplies,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-18,Canva,$15,Austin,TX,,,,Software,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-24,Hacienda Catering,"$1,305.59",Midlothian,VA,,,,Event catering,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-25,Richmond Community Legal Fund,$5.85,Richmond,VA,,,,Event expense,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt
+expenditure,2026-06-29,Daniel Baum,$50,Chesapeake,VA,,,,Payroll,D,497462,2026-01-07 to 2026-06-30,CC-25-00900,Friends of Charlie Schmidt

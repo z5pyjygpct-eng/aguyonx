@@ -1,0 +1,769 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2021-03-15,Dr Cliffod A Roffis,$250,Richmond,VA,individual,Dr. Clifford  Roffis & Associates,Optometrist,,A,237529,2021-01-01 to 2021-03-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-01-05,Truckers Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,237529,2021-01-01 to 2021-03-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-01-04,Commercial Development PAC,$500,Alexandria,VA,pac,,Political Action Committee,,A,237529,2021-01-01 to 2021-03-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-01-04,FedEx Corporation PAC,$500,Memphis,TN,pac,,Pac,,A,237529,2021-01-01 to 2021-03-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-01-07,Jushi INC,"$1,000",Boca Raton,FL,business,,Inc,,A,237529,2021-01-01 to 2021-03-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-03-22,House Democratic Caucus,"$12,500",Richmond,VA,,,,70th district dues,D,237529,2021-01-01 to 2021-03-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-03-22,Celeste Anderson,$500,Mechanicsville,VA,,,,Assistance 2021,D,237529,2021-01-01 to 2021-03-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-04,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-06,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-27,Lionel H Jordan,$250,Mechanicsville,VA,individual,,,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-27,"Christian & Barton, LLP","$1,000",Richmond,VA,business,,Attorneys At Law,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-27,Comcast Corporation,$500,Philadelphia,PA,business,,"Telephone, High-Speed Internet, and Online Service",,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-05,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,business,,Attorneys At Law,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-14,Virginia Trial Lawyers,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-07,VEA FUND,$250,Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-25,Virginia Automobile & Truck Dealers,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-05,Richmond Realtors Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-26,The American Electric Power Company,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-04,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-06,Dr Cliffod A Roffis,$250,Richmond,VA,individual,Dr. Clifford  Roffis & Associates,Optometrist,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-20,Virginia Manufactured & Modular Housing Association,$500,Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-20,Virginia Manufactured & Modular Housing Association,$500,Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-28,Truckers Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-22,Commercial Development PAC,$500,Alexandria,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-22,Commercial Development PAC,$500,Alexandria,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-12,McGuire Woods State PAC Fund,$250,Richmond,VA,pac,,Political Action Committee,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-07,"Capital Results, LLC",$500,Richmond,VA,business,,Public Relations,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-29,Birdie H. Jamison,$250,Richmond,VA,individual,X,X,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-02,Capital One Services,$500,Reston,VA,pac,,PAC,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-28,Green Leaf Medical of Virginia,$500,Richmond,VA,business,,LLC,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-19,Dominion Political Action Committee - Va,"$20,000",Richmond,VA,pac,,PAC,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-05-20,JBG Smith Builds Virginia,"$1,000",ARLINGTON,VA,pac,,PAC,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-04-02,Nina Cox,$250,Richmond,VA,individual,Amberleigh Office Park,Teacher,,A,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-04-30,Norman D Jordan,$550,Richmond,VA,,,,Catering for fundraiser,D,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-04-12,Daytriel McQuinn-Nzassi,$750,Richmond,VA,,,,Treasure,D,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-05-07,Best Buy,"$1,263.59",Mechanicsville,VA,,,,Computer,D,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-04-01,Virginia Legislative Black Caucus,"$1,000",Hampton,VA,,,,Membership dues,D,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-04-01,Democratic Party of Virginia,$899.66,Richmond,VA,,,,Van,D,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-04-30,Felicia D. Cosby,$175,Richmond,VA,,,,fundraiser expense,D,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-04-01,Celeste Anderson,$58.29,Mechanicsville,VA,,,,Reimbursement,D,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-04-30,Celeste Anderson,$500,Mechanicsville,VA,,,,Campaign assistance,D,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-04-27,Food As Art,$750,Richmond,VA,,,,Catering for Fundraiser,D,243260,2021-04-01 to 2021-05-27,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-06-16,Reed Smith LLP,$500,Richmond,VA,pac,,Political Action Committee,,A,248639,2021-05-28 to 2021-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-06-16,Metis Services Inc.,$500,Roanoke,VA,business,,Intelligence & Operations Support,,A,248639,2021-05-28 to 2021-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-06-16,Anthem Blue Cross Blue Shield,$500,Cincinnati,OH,pac,,PAC,,A,248639,2021-05-28 to 2021-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-06-03,House Democratic Caucus,"$25,000",Richmond,VA,,,,Dues,D,248639,2021-05-28 to 2021-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-06-26,Tyler for the House of Delegates,"$5,000",Jarratt,VA,,,,Campaign Contribution,D,248639,2021-05-28 to 2021-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-06-03,Candi King for VA,"$10,000",Dumfries,VA,,,,Campaign Contribution,D,248639,2021-05-28 to 2021-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-06-03,Hala for Virginia,"$2,500",Woodbridge,VA,,,,Campaign Contribution,D,248639,2021-05-28 to 2021-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-07-27,Altria Client Services LLC,"$5,000",Richmond,VA,business,,Tobacco Organization,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-07-06,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Political Action Commitetee,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-08-24,Virginia Sheriffs Association,$250,Richmond,VA,pac,,Political Action Committee,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-08-30,Zelma C. Watkins,$300,Midlothian,VA,individual,Virginia Capital Realty,Realtor,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-07-09,Amazon,"$1,000",Seattle,WA,business,,Corporate,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-07-27,Maritime Issues Council,"$1,000",Norfolk,VA,pac,,PAC,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-08-12,Dominion Political Action Committee - Va,"$5,000",Richmond,VA,pac,,PAC,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-08-24,Chemung Contracting Corp,$250,Pine City,NY,business,,Corp,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-08-24,Cedar Mountain Stone Corp,$250,Pine City,NY,business,,Corp,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-08-24,AFSCME,$500,"NW, Washington",DC,pac,,PAC,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-08-25,Virginia State Farm Agents amd Employee PAC,$250,Midlothian,VA,pac,,PAC,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-08-25,Policy Pathways INC,$250,Henrico,VA,business,,INC,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-07-02,JMGT LLC,$500,"Boca Raton, Fl",VA,business,,LLC,,A,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2021-07-06,Celeste Anderson,$300,Mechanicsville,VA,individual,,,T-Shirt Donations,B,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2021-08-26,Credit Union House,$349.50,Richmond,VA,pac,,PAC,Event,B,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-07-01,House Democratic Caucus,"$10,000",Richmond,VA,,,,Campaign Contributions,D,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-07-30,Delores L McQuinn,"$2,554.13",Richmond,VA,,,,Reimbursement for supplies,D,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-07-30,Daytriel McQuinn-Nzassi,$250,Richmond,VA,,,,Treasure/Finance,D,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-07-09,Lamar Advertising,"$2,200.70",North Chesterfield,VA,,,,Advertisement,D,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-07-05,Celeste Anderson,"$3,050",Mechanicsville,VA,,,,Reimbursment for Yard Signs,D,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-07-30,Celeste Anderson,"$1,000",Mechanicsville,VA,,,,Campaign Work,D,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-07-01,Celeste Anderson,"$1,000",Mechanicsville,VA,,,,Assistance,D,253569,2021-07-01 to 2021-08-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-21,"Virginia State Police Association, Inc.",$150,Richmond,VA,pac,,Political Action Committee,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-14,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,Political Action Committee,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-27,HBAV BUILD PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-26,Clarice L Jordan,$150,Charles City,VA,individual,,Retired,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-21,Huntington Ingalls Industries,"$1,000",Newport,VA,business,,Military Shipbuilding Company,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-26,Virginia Preservation PAC,$500,Richmond,VA,pac,,PAC,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-05,Actblue Virginia,$240.12,Somerville,MA,pac,,PAC,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-19,Actblue Virginia,$528.27,Somerville,MA,pac,,PAC,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-15,Delta Dental of Virginia,$250,Roanoke,VA,pac,,PAC,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-22,Dominion Political Action Committee - Va,"$5,000",Richmond,VA,pac,,PAC,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-23,Chemung Contracting Corp,$500,Pine City,NY,business,,Corp,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-23,Cedar Mountain Stone Corp,$500,Pine City,NY,business,,Corp,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-03,Anna M Gee,"$1,000",Richmond,VA,individual,X,X,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-27,Pamela Oberry,$150,Chesterfield,VA,individual,N/a,Law,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-30,"Virginia Petroleum, Convenience & Grocery Association",$500,Richmond,VA,pac,,Pac,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-27,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,Pac,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-23,LkQ Corporation North America Headquarters,"$1,000",ANTIOCH,TN,business,,CORPORATION,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-22,Powerhouse Gaming,$500,LOOMIS,CA,business,,Inc.,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-15,CWA-Cope,$500,Washington,DC,pac,,PAC,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-27,HNTB Holdings Ltd.,"$1,000",Kansas City,MO,pac,,PAC,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-09-07,Green Ridge Recycling & Disposable Facility,$500,Clifton Park,NY,business,,LLC,,A,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2021-09-20,Hunton Andrews Kurth LLP,$882.43,Richmond,VA,business,,Attorneys At Law,Meet and greet event,B,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2021-09-10,Progressive TURNOUT Project,"$2,500",Chicago,IL,pac,,PAC,Campaign Support,B,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2021-09-10,Secure Progress,"$2,495.29",Fairfax Station,VA,pac,,PAC,Campaign support,B,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-09-05,Celeste Anderson,"$2,000",Mechanicsville,VA,,,,Campaign Consultant/Mananger,D,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-09-30,Celeste Anderson,"$1,008",Mechanicsville,VA,,,,Door-knocker literature,D,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-09-30,Celeste Anderson,$370.01,Mechanicsville,VA,,,,Website and paper products for reception,D,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-09-30,Celeste Anderson,"$1,500",Mechanicsville,VA,,,,Campaign assistant,D,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-09-30,Food As Art,$400,Richmond,VA,,,,Catering,D,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-09-05,Virginia State Conference NAACP,$200,Richmond,VA,,,,Ad,D,259226,2021-09-01 to 2021-09-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-21,Genworth Financial,"$1,000",Lynchburg,VA,business,,Financial Services / Advisors,,A,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-13,Old Dominion Highway PAC,"$1,000",Charlottesville,VA,pac,,Political Action Committee,,A,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-21,Virginia Bank PAC,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-13,Kenneth S. Johnson,"$1,000",Richmond,VA,individual,X,X,,A,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-21,Dominion Political Action Committee - Va,"$10,000",Richmond,VA,pac,,PAC,,A,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-13,Verizon,"$1,000",Washington,DC,pac,,PAC,,A,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2021-10-12,Virginia Automobile & Truck Dealers,$806.65,Richmond,VA,pac,,Political Action Committee,Campaign event,B,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2021-10-10,Celeste Anderson,$587,Mechanicsville,VA,individual,,,Campaign Contribution,B,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2021-10-08,Progressive TURNOUT Project,"$2,500",Chicago,IL,pac,,PAC,Campaign Support,B,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-06,Celeste Anderson,$400,Mechanicsville,VA,,,,Reimbursement for catering,D,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-06,Celeste Anderson,"$1,103.30",Mechanicsville,VA,,,,Reimbursement for Signs,D,263584,2021-10-01 to 2021-10-21,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-02,Edward Baine,"$1,000",Moseley,VA,individual,Dominion,Dominion,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-02,Enterprise Holdings Inc,"$1,000",St. Louis,MO,pac,,Pac,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-02,Wood Products,$500,Sanston,VA,pac,,PAC,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-09,"Committee for Effective Government, Virginia Natural Gas",$500,Virginia Beach,VA,pac,,PAC,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-22,Cynthia Newbille,"$1,000",Richmond,VA,individual,,,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-23,Virginia A.F.L - C.I.O,$500,Richmond,VA,pac,,Political Action Committee,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-22,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,Law Firm,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-09,AT&T Services Inc.,$250,Washington,DC,business,,Telecommunications,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-09,HCA  For Good Government,"$1,000",Reston,VA,pac,,Political Action Committee,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-24,CSX Transportation,$500,Jacksonville,FL,business,,Transportation,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-09,Norfolk Southern Corporation,"$1,000",Norfolk,VA,business,,Rail Way Transportation,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-23,Commercial Development PAC,$500,Alexandria,VA,pac,,Political Action Committee,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-22,TransUrban USA Inc.,"$2,500",Richmond,VA,business,,Toll road manager and operator,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-22,Actblue Virginia,"$1,000",Somerville,MA,pac,,PAC,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-23,Actblue Virginia,$240.12,Somerville,MA,pac,,PAC,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-23,Actblue Virginia,$240.12,Somerville,MA,pac,,PAC,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-23,Actblue Virginia,$961.95,Somerville,MA,pac,,PAC,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-24,Actblue Virginia,$103.33,Somerville,MA,pac,,PAC,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-02,Rising Power PAC,$300,Richmond,VA,pac,,PAC,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-23,T-Mobile,$500,Bellevue,WA,pac,,pac,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-25,Nina Cox,$500,Richmond,VA,individual,Amberleigh Office Park,Teacher,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-23,Exacta Systems LLC,$500,Boynton Beach,FL,business,,LLC,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-10-23,Craig Amelung,$200,Fredericksburg,VA,individual,n/a,n/a,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-02,William Murray,"$1,000",Richmond,VA,individual,Dominion,Dominion,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-02,Robert Blue,"$2,000",Richmond,VA,individual,Dominion,Dominion,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-11-02,Diane Leopold,"$1,500",Midlothian,VA,individual,Dominion,Dominion,,A,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2021-11-02,Dominion Political Action Committee - VA,$987.90,Richmond,VA,pac,,Political Action Committee,Event fundraiser,B,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-30,Sam's  Club,$158.63,Richmond,VA,,,,Campaign day expenses,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-11-02,Norman D Jordan,$254.98,Richmond,VA,,,,Catering for poll workers,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-25,Delores L McQuinn,$649.60,Richmond,VA,,,,Reimbursement,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-26,Delores L McQuinn,"$2,060",Richmond,VA,,,,Reimbursement,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-25,James Minor,$592.50,Richmond,VA,,,,Reimbursement,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-25,Daytriel McQuinn-Nzassi,"$2,000",Richmond,VA,,,,Treasure/campaign,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-28,Virginia Legislative Black Caucus,"$2,500",Hampton,VA,,,,Contribution,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-31,Democratic Caucus of Virginia,"$20,000",Richmond,VA,,,,House Democratic Caucus,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-25,Celeste Anderson,"$2,473.33",Mechanicsville,VA,,,,Reimbursement/ Campaign Consultant,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-11-18,The Treat Shop,$75,Richmond,VA,,,,Treats for VUU Event,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-11-18,Celeste Anderson,$750,Mechanicsville,VA,,,,Campaign Support,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-10-27,Celeste Anderson,$301.63,Mechanicsville,VA,,,,Ink cartridges,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2021-11-02,Celeste Anderson,"$6,000",Mechanicsville,VA,,,,Campaign workers/ election day pay,D,272007,2021-10-22 to 2021-11-25,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-12-30,Richmond Build PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,277684,2021-11-26 to 2021-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-12-30,Commissioner of Revenue,$250,Newport News,VA,pac,,Political Action Committee CDRPAC,,A,277684,2021-11-26 to 2021-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2021-12-30,Donald J Gee,$250,South Hill,VA,individual,Gee lawfirm,Lawyer,,A,277684,2021-11-26 to 2021-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-06-13,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco Organization,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-06-01,"Republic Services, Inc.",$500,Phoenix,AZ,business,,Waste Disposal Company,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-06-13,Comcast Corporation,$500,Philadelphia,PA,business,,"Telephone, High-Speed Internet, and Online Service",,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-05-12,Richmond Realtors Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-05-24,Dr Cliffod A Roffis,$500,Richmond,VA,individual,Dr. Clifford  Roffis & Associates,Optometrist,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-06-16,HCA  For Good Government,"$1,000",Reston,VA,pac,,Political Action Committee,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-06-24,TransUrban USA Inc.,$500,Tyson,VA,business,,Inc,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-05-11,Virginia Sheriffs Association,$250,Richmond,VA,pac,,Political Action Committee,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-05-04,Virginia Association of Health Plans,$500,Richmond,VA,pac,,Pac,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-05-12,Dominion Energy Inc,"$1,000",Richmond,VA,pac,,PAC,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-06-30,Caesars Enterprise Services LLC,$500,Las Vegas,NV,business,,LLC,,A,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-05-18,Sam's  Club,$232.13,Richmond,VA,,,,Food for community,D,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-03-30,Celeste Anderson,$650,Mechanicsville,VA,,,,Support Staff,D,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-03-09,Feedmore,$25,Richmond,VA,,,,DONATION,D,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-02-28,Celeste Anderson,$500,Mechanicsville,VA,,,,Support Staff,D,292727,2022-01-01 to 2022-06-30,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-11-28,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,Genworth Financial,$500,Lynchburg,VA,business,,Financial Services / Advisors,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-11-28,Virginia Automobile & Truck Dealers,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,Virginia Natural Gas,$500,Virginia Beach,VA,pac,,PAC,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-10-26,Virginia Independent Auto Dealers PAC,"$1,000",Midlothian,VA,pac,,Political Action Committee,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-08-08,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Political Action Commitetee,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-08-01,AT&T Services Inc.,$250,Washington,DC,business,,Telecommunications,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-11-28,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-11-28,Truckers Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-11-28,Anheuser-Busch Companies,$250,Washington,DC,business,,Beer & Ale Wholesale Brewery,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-08-01,Mondelez Global  LLC,"$1,250",Washington,DC,business,,Manufacturer,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-07-12,Commercial Development PAC,$500,Alexandria,VA,pac,,Political Action Committee,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-08-08,Huntington Ingalls Industries,"$1,000",Newport,VA,business,,Military Shipbuilding Company,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,Metis Services Inc.,$500,Roanoke,VA,business,,Intelligence & Operations Support,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-12,"Capital Results, LLC",$500,Richmond,VA,business,,Public Relations,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,Cozen O'Connor,$500,Richmond,VA,pac,,PAC,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,General Motors Company,$250,Washington,DC,pac,,PAC,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,Dominion Political Action Committee - Va,"$5,000",Richmond,VA,pac,,PAC,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,Virginia Transportation Construction Alliance,"$1,000",NORTH CHESTERFIELD,VA,pac,,PAC,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,Virginia Transportation Construction Alliance,"$1,000",NORTH CHESTERFIELD,VA,pac,,PAC,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,Nina Cox,$250,Richmond,VA,individual,Amberleigh Office Park,Teacher,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-11-28,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,Pac,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-12-31,LkQ Corporation North America Headquarters,$500,ANTIOCH,TN,business,,CORPORATION,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-11-28,Caesars Enterprise Services LLC,$500,Las Vegas,NV,business,,LLC,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-08-01,Copart General Disbursement,$500,Fairfield,CA,pac,,PAC,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2022-11-28,Merck & Co Inc,$500,Washington,DC,pac,,PAC,,A,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+in_kind,2022-08-08,Broadband Association of Virginia,$184.12,Richmond,VA,pac,,PAC,Food and beverages,B,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-11-24,Sisters Network Central Va,$500,Richmond,VA,,,,Contribution,D,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-09-01,Daytriel McQuinn-Nzassi,$750,Richmond,VA,,,,Treasury work,D,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-07-29,Treasurer of Virginia,"$1,531.25",Richmond,VA,,,,Postage reimbursement,D,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-12-19,Jennifer Mcclellan for Congress,$500,Richmond,VA,,,,Contribution,D,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-11-19,Food Lion,$52.98,Henrico,VA,,,,Community event,D,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-11-20,Newbridge Baptist Church,$250,Henrico,VA,,,,Resource Day,D,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-09-20,Help Me Help You,$750,Richmond,VA,,,,Crab & Q. Community Event,D,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+expenditure,2022-12-06,Nkechi George,$122.34,Mechanicsville,VA,,,,Reimbursement community event,D,311283,2022-07-01 to 2022-12-31,CC-13-00353,McQuinn For the 70th District House Of Delegates
+contribution,2023-01-05,"Christian & Barton, LLP",$250,Richmond,VA,business,,Attorneys At Law,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-05,McGuire Woods State PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-07,Reed Smith LLP,$250,Richmond,VA,pac,,Political Action Committee,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-05,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Law Firm,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-05,The American Electric Power Company,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-07,HBAV BUILD PAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-05,TransUrban USA Inc.,$500,Tyson,VA,business,,Inc,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-03-24,Patrica Gould-Champ,$500,Richmond,VA,individual,Virginia Union University,Reverend,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-07,Actblue Virginia,$480.25,Somerville,MA,pac,,PAC,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-10,Cozen O'Connor,$500,Richmond,VA,pac,,PAC,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-05,Green Leaf Medical of Virginia,$500,Fredrick,MD,business,,LLC,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-05,L.M GUTHRIE  and Associates LLC,$250,Richmond,VA,pac,,PAC,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-01-05,32BJ,$500,New York,NY,pac,,Pac,,A,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-01-09,Sam's  Club,$404.12,Richmond,VA,,,,General Assembly,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-02-11,Sam's  Club,$147.75,Richmond,VA,,,,Black History Event,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-03-02,Norman D Jordan,$600,Richmond,VA,,,,Caterer for Black History Event,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-03-02,Norman D Jordan,$705,Richmond,VA,,,,Food for Black History Program,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-03-29,Democratic Party of Virginia,$985.12,Richmond,VA,,,,Contribution/Van,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-02-28,Lamar Advertising,"$5,000",North Chesterfield,VA,,,,Campaign Billboard,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-03-15,Food Lion,$86.33,Henrico,VA,,,,Campaign kick off,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-02-18,Nkechi George,$184.70,Midlothian,VA,,,,Donuts for GA Pages/10 doz,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-03-24,Nkechi George,$160,Midlothian,VA,,,,Reimbursements,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-02-13,Meriweathers Restaurant,$20,Richmond,VA,,,,Food/lunch,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-03-23,Emily Beer,"$5,559.51",Richmond,VA,,,,Rally signs and door hangers,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-03-20,Henrico Treasurer,$352.80,Richmond,VA,,,,Fees,D,321231,2023-01-01 to 2023-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-27,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-04,"Christian & Barton, LLP","$1,000",Richmond,VA,business,,Attorneys At Law,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-24,"Christian & Barton, LLP",$500,Richmond,VA,business,,Attorneys At Law,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-19,Comcast Corporation,$500,Philadelphia,PA,business,,"Telephone, High-Speed Internet, and Online Service",,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-23,Dominion Political Action Committee - VA,"$20,000",Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-04,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Attorneys At Law,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-19,Reed Smith LLP,$250,Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-03,Reed Smith LLP,$500,Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-04,Virginia A.F.L - C.I.O,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-01,Virginia A.F.L - C.I.O,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-27,Virginia Automobile & Truck Dealers,"$3,000",Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-01,Virginia Automobile & Truck Dealers,"$7,000",Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-04,Virginia Bank PAC,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-21,Virginia Bank PAC,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-20,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-18,Virginia Beer Wholesalers Association,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-30,HBAV BUILD PAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-27,Truckers Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-31,Anheuser-Busch Companies,$500,Washington,DC,business,,Beer & Ale Wholesale Brewery,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-19,Norfolk Southern Corporation,"$1,000",Norfolk,VA,business,,Rail Way Transportation,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-12,Virginia Legislative Black Caucus,"$20,000",Richmond,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-24,Commercial Development PAC,$500,Alexandria,VA,pac,,Political Action Committee,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-12,Huntington Ingalls Industries,"$1,000",Newport,VA,business,,Military Shipbuilding Company,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-23,"Capital Results, LLC",$500,Richmond,VA,business,,Public Relations,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-24,Edward F. and Detta O. Jewett,$250,Richmond,VA,individual,Richmond City,Circuit Court Clerk,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-22,ENERGIZED FOR CHANGE,"$5,000",Springfield,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-31,"Jacquelyn, William S. , H. Joyner",$500,Henrico,VA,individual,X,Retired educator,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-01,"W. Ellery Kellum, Inc.","$2,000",Weems,VA,business,,Seafood Wholesaler,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-19,Amazon,"$1,500",Seattle,WA,business,,Corporate,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-03,Virginia Credit Union,$500,Lynchburg,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-18,Actblue Virginia,$192.10,Somerville,MA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-18,Actblue Virginia,"$1,008.52",Somerville,MA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-26,Actblue Virginia,$48.02,Somerville,MA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-12,Actblue Virginia,"$1,296.67",Somerville,MA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-31,Actblue Virginia,"$4,130.12",Somerville,MA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-01,Actblue Virginia,$960.50,Somerville,MA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-19,Maritime Issues Council,$500,Norfolk,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-24,Maritime Issues Council,$500,Norfolk,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-27,Dominion Political Action Committee - Va,"$5,000",Richmond,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-27,Virginia Transportation Construction Alliance,"$2,000",NORTH CHESTERFIELD,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-24,Zynora Mason,$200,Sandston,VA,individual,X,Minister,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-18,LkQ Corporation North America Headquarters,$500,ANTIOCH,TN,business,,CORPORATION,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-04,Secure Progress,"$1,000",Fairfax Station,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-31,Caesars Enterprise Services LLC,$500,Las Vegas,NV,business,,LLC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-03,Copart General Disbursement,$500,Fairfield,CA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-20,Virginia Natural Gas,$500,Virginia Beach,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-04,VA Operators For Skill,"$1,000",Richmond,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-18,Kathleen Murphy for Delegate,$500,McClean,VA,candidate,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-19,Common Good Virginia,"$7,000",Alexandria,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-20,VIAD,"$1,000",Virginia Beach,VA,pac,,pac,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-27,Lisa Hicks-Thomas,"$1,000",Glen Allen,VA,individual,Dominion,Lawyer,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-04-24,Virginia Maritime Association,$500,Norfolk,VA,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-12,Kdr Trucking,"$1,000",Henrico,VA,business,,LLC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-12,Emily's Lost Federal Fund,"$2,500",Washington,DC,pac,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-15,Dr. Jerald Cable,"$2,000",Richmond,VA,business,,Restaurant,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-23,Sickles for Delegate,"$1,000",Alexandria,VA,candidate,,PAC,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-18,Better Way PAC,$500,Richmond,VA,pac,,Pac,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-25,J Ward for Delegate,"$5,000",Hampton,VA,candidate,,Pac,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-24,Ben Harris,"$1,000",Richmond,VA,individual,Stockpile Male Clothing,Entrepreneur,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-05-24,Davis Brothers Construction Company INC,$500,Richmond,VA,business,,Construction,,A,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2023-04-26,Mosaic Catering and Events,$266.45,Richmond,VA,business,,Catering,Catering,B,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2023-05-23,American Federation of State-,"$5,500",Washington,DC,business,,AFSCME Polling Center,Voter Persuasion ID calls,B,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-04-03,James Minor,"$1,859.44",Richmond,VA,,,,Reimbursement robo calls/ signage,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-04-12,James Minor,$254.36,Richmond,VA,,,,Reimbursement for breakfast/ campaign,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-02,James Minor,"$1,000",Richmond,VA,,,,Canvassing,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-04,James Minor,$750,Richmond,VA,,,,Campaign work,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-07,James Minor,$366.03,Richmond,VA,,,,Reimbursement,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-15,James Minor,$150,Richmond,VA,,,,Stakes for signs,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-16,James Minor,$200,Richmond,VA,,,,Food reimbursement,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-23,James Minor,$750,Richmond,VA,,,,Canvassing signs,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-23,James Minor,$250,Richmond,VA,,,,Beer/ wine for event,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-26,James Minor,$500,Richmond,VA,,,,Reimbursement,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-03,Daytriel McQuinn-Nzassi,$500,Richmond,VA,,,,Campaign work/treasure,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-04,Dzine Online,$900,Richmond,VA,,,,Signs,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-02,Lamar Advertising,$685,North Chesterfield,VA,,,,Balance for Billboards,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-02,Chesterfield County Democratic Committee,$250,Midlothian,VA,,,,Committee,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-04-19,Celeste Anderson,$250,Mechanicsville,VA,,,,Printer Supplies,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-03,Celeste Anderson,$341.44,Mechanicsville,VA,,,,Reimbursement,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-05,Celeste Anderson,$524.36,Mechanicsville,VA,,,,Reimbursement,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-05,Celeste Anderson,$700,Mechanicsville,VA,,,,Consultant work,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-04-19,Nkechi George,$500,Midlothian,VA,,,,Campaign work,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-04,Nkechi George,$500,Midlothian,VA,,,,Campaign work,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-12,Nkechi George,$350,Midlothian,VA,,,,Reimbursement for meet and greet,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-17,Nkechi George,$500,Midlothian,VA,,,,Consultant work,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-05,Nkechi George,$700,Midlothian,VA,,,,Consultant work,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-15,Celeste Anderson,$500,Mechanicsville,VA,,,,Consultant work,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-04-10,Celeste Anderson,$250,Mechanicsville,VA,,,,Campaign Consultant,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-03,Celeste Anderson,$500,Mechanicsville,VA,,,,Campaign consultant,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-02,Lauranette Lee for School Board,$150,Richmond,VA,,,,Contribution school board election,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-08,Charles City Branch NAACP,$500,Charles City,VA,,,,Contributions,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-04-15,HSHS Class of 73 Reunion,$110,Ashland,VA,,,,Contribution,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-04-24,Raven Porter,$110,Richmond,VA,,,,Campaign,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-08,Raven Porter,$750,Richmond,VA,,,,Thanks/ office work,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-08,Jasmyn Taylor,$750,Richmond,VA,,,,Office work/ thanks,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-08,Radio 1,"$3,000",Richmond,VA,,,,Advertisement,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-19,Brenda Jordan- Shelton,$225,Midlothian,VA,,,,Help/ food for virtual event,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-23,Sam's Club,$413.79,Colonial Heights,VA,,,,Food for fundraiser,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-30,New Kent/ Charles City Chronicles,$345.50,West Point,VA,,,,Publishing,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-24,Mr. and Mrs. Smith,$200,Charles City,VA,,,,Host for fundraiser,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-05-11,Mr. And Mrs. Hershel Jones,$50,Henrico,VA,,,,Fundraiser host,D,330382,2023-04-01 to 2023-06-08,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-26,Genworth Financial,"$1,000",Lynchburg,VA,business,,Financial Services / Advisors,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-28,VEA FUND,$500,Richmond,VA,pac,,Political Action Committee,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-11,The American Electric Power Company,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-28,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-15,Mid-Atlantic Labores Political Education Fund,"$2,500",Reston,VA,pac,,Political Action Committee,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-11,Patrica Gould-Champ,$500,Richmond,VA,individual,Virginia Union University,Reverend,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-14,Actblue Virginia,"$3,649.88",Somerville,MA,pac,,PAC,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-14,Actblue Virginia,"$1,008.50",Somerville,MA,pac,,PAC,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-26,Actblue Virginia,$744.36,Somerville,MA,pac,,PAC,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-26,Actblue Virginia,$480.25,Somerville,MA,pac,,PAC,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-29,Actblue Virginia,"$2,929.52",Somerville,MA,pac,,PAC,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-29,Actblue Virginia,$72.03,Somerville,MA,pac,,PAC,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-14,Anna M Gee,"$1,000",Richmond,VA,individual,X,Retired Educator,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-14,Dominion Energy Inc,"$20,000",Richmond,VA,pac,,PAC,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-28,VA Operators For Skill,"$1,000",Richmond,VA,pac,,PAC,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-11,Massie Law Firm,$500,Richmond,VA,pac,,PAC,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-28,Victoria Pratt Davis,$500,Braverman,VA,individual,Retired,Retired,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-28,Awin Management INC,"$1,000",Phoenix,AZ,business,,Inc,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-06-29,Janet and Cornelius Crawley,$125,Chesterfield,VA,individual,Educator,Retired Educator,,A,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-09,James Minor,"$1,000",Richmond,VA,,,,Canvassers,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-14,James Minor,"$3,000",Richmond,VA,,,,Canvassers,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-25,James Minor,"$1,500",Richmond,VA,,,,Election Day,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-24,Daytriel McQuinn-Nzassi,"$1,000",Richmond,VA,,,,Campaign Treasurer,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-26,Tammy Jenkins,$250,Richmond,VA,,,,Campaign work,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-15,Treasurer of Virginia,"$1,762.09",Richmond,VA,,,,2023 Session Posting,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-26,Nkechi George,"$2,000",Midlothian,VA,,,,Campaign Consultant,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-30,Emily Beer,$760,Richmond,VA,,,,Campaign Consultant,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-09,Zippity Print,"$9,700.17",Berea,VA,,,,Quick Books payments- Printing,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-27,Friends of Michelle Mosby,$500,Richmond,VA,,,,Contribution,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-15,Celeste Anderson,"$1,745.89",Mechanicsville,VA,,,,Reimbursement,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-26,Delores McQuinn,"$1,335.43",Henrico,VA,,,,Reimbursement,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-29,Celeste Anderson,$155.37,Mechanicsville,VA,,,,Victory Party,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-26,Celeste Anderson,"$2,000",Mechanicsville,VA,,,,Campaign Consultant,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-20,Celeste Anderson,"$8,000",Mechanicsville,VA,,,,For election day workers,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-15,Effectv,"$4,008.60",Richmond,VA,,,,"Comcast,  TV, Ads",D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-14,Lauren Burke,$300,Suffolk,VA,,,,Advertisement,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-06-30,Norma Brown,$250,Richmond,VA,,,,Campaign worker,D,341140,2023-06-09 to 2023-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-08-29,Altria Client Services LLC,"$1,500",Richmond,VA,business,,Tobacco Organization,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-07-05,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Political Action Commitetee,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-08-28,Virginia Wine Wholesalers,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-08-28,Richmond Realtors Political Action Committee,$750,Richmond,VA,pac,,Political Action Committee,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-08-28,VADPAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-08-28,Dr Cliffod A Roffis,$500,Richmond,VA,individual,Dr. Clifford  Roffis & Associates,Optometrist,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-08-28,Mid-Atlantic Labores Political Education Fund,"$2,500",Reston,VA,pac,,Political Action Committee,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-08-28,Mondelez Global  LLC,"$1,250",Washington,DC,business,,Manufacturer,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-07-05,Capital One Services,$500,Reston,VA,pac,,PAC,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-07-05,Cozen O'Connor,$500,Richmond,VA,pac,,PAC,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-08-28,Merck Sharp & Dohme LLC,$500,Rahway,NJ,pac,,PAC,,A,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-08-03,City of Richmond,$750,Richmond,VA,,,,Renting train station,D,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-08-18,Celeste Anderson,$750,Mechanicsville,VA,,,,Campaign support,D,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-07-20,Nkechi George,$165,Midlothian,VA,,,,Baskets for constituents,D,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-08-18,Brenda Jordan- Shelton,$300,Midlothian,VA,,,,Support,D,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-08-03,Friends of Roscoe Cooper III,"$1,000",Glen Allen,VA,,,,Contribution,D,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-08-03,Friends of Tyrone Nelson,$500,Richmond,VA,,,,Contribution,D,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-08-03,Kim Adams for Virginia,"$5,000",Petersburg,VA,,,,Contribution,D,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-08-29,VA NAACP,$250,Richmond,VA,,,,Journal Ad,D,352112,2023-07-01 to 2023-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-29,Lionel H Jordan,$200,Mechanicsville,VA,individual,Retired,Retired,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-25,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,Political Action Committee,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-11,VA Beverage Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-29,Virginia Sheriffs Association,$250,Richmond,VA,pac,,Political Action Committee,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-25,Virginia Healthcare Association,"$1,000",Richmond,VA,business,,Non-profit,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-29,Roslyn C. Tyler,$200,Jarratt,VA,individual,General Assembly,Delegate,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-29,Birdie H. Jamison,$100,Richmond,VA,individual,City of Richmond,Former.Judge,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-11,Actblue Virginia,$96.05,Somerville,MA,pac,,PAC,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-25,Actblue Virginia,$192.10,Somerville,MA,pac,,PAC,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-29,Betting on Va Jobs,"$2,500",Richmond,VA,pac,,PAC,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-29,Zynora Mason,$100,Sandston,VA,individual,X,Minister,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-21,Anna M Gee,$100,Richmond,VA,individual,X,Retired Educator,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-11,Waste Management,"$1,000",HOUSTON,TX,pac,,PAC,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-11,Effectv,$230.35,San Antonio,TX,business,,Advertising,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-11,"Strata Solar, LLC",$500,Durham,NC,pac,,PAC,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-25,American Traffic Solutions,"$1,000",Mesa,AZ,pac,,PAC,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-29,Stockpile Men's Boutique,$250,Richmond,VA,business,,Retail,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-09-29,Virginia Asian American Store Owners Association,$500,Richmond,VA,pac,,PAC,,A,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-09-28,Norman D Jordan,"$1,300",Richmond,VA,,,,Fundraiser food,D,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-09-28,Charles Willis,$250,Richmond,VA,,,,Dj/ Sound,D,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-09-13,Celeste Anderson,$500,Mechanicsville,VA,,,,Consultant work,D,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-09-28,Paulette Singleton,$287.50,Richmond,VA,,,,Photographer,D,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-09-29,Brianda Washing,$150,Henrico,VA,,,,Baked goods,D,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-09-16,MCV Fondation,$250,Richmond,VA,,,,Sickle Cell Anemia,D,361915,2023-09-01 to 2023-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-17,Hunton Andrews Kurth LLP,"$2,000",Richmond,VA,business,,Attorneys At Law,,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-10,Virginia Automobile & Truck Dealers,"$3,500",Richmond,VA,pac,,Political Action Committee,,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-18,HCA For Good Government,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-10,Virginia Hospital & Health Assoc,$500,Richmond,VA,pac,,Political Action Committee (HOSPAC),,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-17,TransUrban USA Inc.,$500,Tyson,VA,business,,Inc,,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-03,Democracy Engine LLC,$964.70,Washington,DC,pac,,Political Action Committee,,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-18,Amazon,"$1,500",Seattle,WA,business,,Corporate,,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-10,Actblue Virginia,"$1,969.02",Somerville,MA,pac,,PAC,,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-18,Actblue Virginia,"$4,802.50",Somerville,MA,pac,,PAC,,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-18,Actblue Virginia,"$1,104.57",Somerville,MA,pac,,PAC,,A,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2023-10-04,Democratic Party of Virginia,$385.80,Richmond,VA,party,,Political,Mail Production/Postage,B,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2023-10-19,Democratic Party of Virginia,"$1,233.18",Richmond,VA,party,,Political,Mail production/Postage,B,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-03,Norman D Jordan,$300,Richmond,VA,,,,Catering,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-24,Henrico County Democratic Committee,$500,Richmond,VA,,,,Democratic Henrico,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-24,Virginia Legislative Black Caucus,"$10,000",Richmond,VA,,,,Campaign support,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-17,Democratic Party of Virginia,"$10,362.68",Richmond,VA,,,,HD23- MO1 Loan for Candi King,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-17,Democratic Party of Virginia,"$5,000",Richmond,VA,,,,Fundraiser DPVA,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-17,Commonwealth Victory Fund,$550.46,Richmond,VA,,,,Homestead Caucus Retreat,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-03,Celeste Anderson,$500,Mechanicsville,VA,,,,Campaign,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-02,Nkechi George,$500,Midlothian,VA,,,,Fundraiser/ Consultant,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-24,NAACP,$530,Richmond,VA,,,,Freedom Fund table,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-24,NAACP,"$1,060",Richmond,VA,,,,Freedom Fund Table,D,370184,2023-10-01 to 2023-10-26,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-11-28,Reed Smith LLP,$500,Richmond,VA,pac,,Political Action Committee,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-27,Richmond Build PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-11-27,Metis Services Inc.,$500,Roanoke,VA,business,,Intelligence & Operations Support,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-11-03,Capital One Services,"$1,000",Reston,VA,pac,,PAC,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-27,"Al's Towing & Storage, Inc",$500,Sterling,VA,business,,Inc,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-27,"Dominion Towing, Inc",$500,Lorton,VA,business,,Inc,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-27,Battlefield Towing,$500,Chantilly,VA,pac,,PAC,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-27,Dominion Wreaker Service,$500,Woodbridge,VA,pac,,PAC,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-27,General Motors Company,$250,Washington,DC,pac,,PAC,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-11-03,T-Mobile,$500,Bellevue,WA,pac,,pac,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-11-03,CWA-Cope,"$1,000",Washington,DC,pac,,PAC,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-27,Advanced Towing Company,$500,Arlington,VA,business,,LLC,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-10-27,HWS LLC,$500,Falls Church,VA,business,,LLC,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-11-01,Cintra US Services,"$1,000",Austin,TX,business,,LLC,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-11-02,Climate Cabinet Action,$500,San Francisco,CA,pac,,PAC,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-11-03,Omega Protein,"$1,500",Calais,ME,business,,OPERATIONS,,A,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-27,Daytriel McQuinn-Nzassi,"$1,000",Richmond,VA,,,,Campaign Treasure,D,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-27,Celeste Anderson,$600,Mechanicsville,VA,,,,Campaign,D,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-27,Celeste Anderson,$96.63,Mechanicsville,VA,,,,Reimbursement Henrietta Lacks Event,D,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-10-27,Brenda Jordan- Shelton,$200,Midlothian,VA,,,,Mtg Help,D,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-11-28,Delores McQuinn,"$1,184.26",Henrico,VA,,,,Reimbursement,D,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-11-20,Giving Hearts,$500,Rockville,VA,,,,Thanksgiving outreach,D,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-11-20,Democratic House Caucus,"$10,000",Richmond,VA,,,,2023/2024,D,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-11-07,Cash Cash,"$3,000",Henrico,VA,,,,Election Day Expenses,D,385456,2023-10-27 to 2023-11-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-12-11,AT&T Services Inc.,$250,Washington,DC,business,,Telecommunications,,A,394151,2023-12-01 to 2023-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2023-12-12,Norfolk Southern Corporation,"$1,000",Norfolk,VA,business,,Rail Way Transportation,,A,394151,2023-12-01 to 2023-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-12-11,Celeste Anderson,"$2,500",Mechanicsville,VA,,,,Consultant work,D,394151,2023-12-01 to 2023-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-12-11,Cintra US Services,"$1,000",Austin,TX,,,,Reimbursement/Reid,D,394151,2023-12-01 to 2023-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2023-12-30,Eileen for Congress,"$1,000",Sterling,VA,,,,Election Contribution 2023,D,394151,2023-12-01 to 2023-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-01-02,Genworth Financial,$500,Lynchburg,VA,business,,Financial Services / Advisors,,A,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-06-03,Dr Cliffod A Roffis,$250,Richmond,VA,individual,Dr. Clifford  Roffis & Associates,Optometrist,,A,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-01-09,Commissioner of Revenue,$250,Newport News,VA,pac,,Political Action Committee CDRPAC,,A,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-01-02,NiSource Inc. PAC,$250,Chester,VA,pac,,PAC,,A,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-01-04,IBEW Voluntary Fund,$750,Washington,DC,pac,,PAC,,A,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-01-09,Accel Entertainment Gaming LLC,"$1,000",Bolingbrook,IL,pac,,PAC,,A,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-01-09,Virginia Asphalt Association LLC,$500,Richmond,VA,pac,,PAC,,A,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-05-28,James Minor,$100,Richmond,VA,,,,Resource Day,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-02-23,Office Max,$372,Mechanicsville,VA,,,,Cartridge/Supplies,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-01-03,Celeste Anderson,$300,Mechanicsville,VA,,,,Office,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-01-12,Celeste Anderson,"$1,000",Mechanicsville,VA,,,,Consultant work,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-01-24,Celeste Anderson,"$1,000",Mechanicsville,VA,,,,Support staff,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-03-12,Celeste Anderson,"$2,000",Mechanicsville,VA,,,,Office Support,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-05-28,Celeste Anderson,"$1,000",Mechanicsville,VA,,,,Office Support,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-02-22,Nkechi George,$150,Midlothian,VA,,,,Supplies,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-05-02,Nkechi George,$500,Midlothian,VA,,,,Resource Event,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-05-17,Democratic House Caucus,"$7,500",Richmond,VA,,,,2024 dues,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-01-02,Henrico NAACP,$300,Henrico,VA,,,,Freedom Fund Henrico,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-05-28,Eileen for Congress,"$1,000",Sterling,VA,,,,Campaign Contribution,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-02-25,Meriwether Godsey,$218.86,Lynchburg,VA,,,,Reception for Dr. Lonzer,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-03-12,Chardise Waller,"$1,500",Altvista,VA,,,,Intern support/office,D,410449,2024-01-01 to 2024-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-07-09,Altria Client Services LLC,"$2,000",Richmond,VA,business,,Tobacco Organization,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-07-09,"Republic Services, Inc.","$1,000",Phoenix,AZ,business,,Waste Disposal Company,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-06,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-08-01,Comcast Corporation,$500,Philadelphia,PA,business,,"Telephone, High-Speed Internet, and Online Service",,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-10-17,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,business,,Attorneys At Law,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-11,McGuire Woods State PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-07-09,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-08-01,Reed Smith LLP,$250,Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-09-30,Virginia A.F.L - C.I.O,$500,Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-09-30,Virginia Automobile & Truck Dealers,"$4,000",Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-07-09,Virginia Independent Auto Dealers PAC,$250,Midlothian,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-11,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-09-13,HCA For Good Government,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,The American Electric Power Company,$500,Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-09-13,VADPAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-19,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-06,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-19,Richmond Build PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-10-17,Dr Cliffod A Roffis,$200,Richmond,VA,individual,Dr. Clifford  Roffis & Associates,Optometrist,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-10-17,Virginia Manufactured & Modular Housing Association,$250,Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-07-09,Truckers Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-08-01,Mondelez Global  LLC,"$1,250",Washington,DC,business,,Manufacturer,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-10-24,Commercial Development PAC,$250,Alexandria,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-07-09,Virginia Sheriffs Association,$250,Richmond,VA,pac,,Political Action Committee,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-11,Commissioner of Revenue,$250,Newport News,VA,pac,,Political Action Committee CDRPAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-10-17,Virginia Preservation PAC,$500,Richmond,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-09-13,Amazon,"$1,500",Seattle,WA,business,,Corporate,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-08-01,Capital One Services,$500,Reston,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-19,Cozen O'Connor,"$1,000",Richmond,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,"Dominion Towing, Inc","$2,000",Lorton,VA,business,,Inc,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,Battlefield Towing,"$2,000",Chantilly,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-11,Dominion Wreaker Service,"$2,000",Woodbridge,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-09-13,General Motors Company,$250,Washington,DC,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-10-17,T-Mobile,$500,Bellevue,WA,pac,,pac,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-09-13,LkQ Corporation North America Headquarters,$500,ANTIOCH,TN,business,,CORPORATION,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-08-01,Waste Management,"$1,000",HOUSTON,TX,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-09-13,Copart General Disbursement,$500,Fairfield,CA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-06,Merck Sharp & Dohme LLC,$500,Rahway,NJ,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-11,Virginia Natural Gas,$500,Virginia Beach,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-11,VA Operators For Skill,"$1,000",Richmond,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,American Traffic Solutions,$500,Mesa,AZ,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,Advanced Towing Company,"$2,000",Arlington,VA,business,,LLC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,HWS LLC,"$2,000",Falls Church,VA,business,,LLC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-06,Democratic Party of Virginia c/o Blue Wave Political Partners,"$1,431",Washington,DC,party,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,Towing Enterprises LLC,"$2,000",Richmond,VA,business,,LLC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,A-1 Associates LLC,"$1,000",Alexandria,VA,business,,LLC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,Shanks Towing South,"$2,000",Henrico,VA,pac,,Pac,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,Affordable Towing and Recovery Of,"$2,000",Chesapeake,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-12-11,Coca-Cola Consolidated Inc,"$1,000",Charlotte,NC,business,,LLC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-06,Micron Technology Inc,$750,Boise,ID,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-09-30,Service Corporation International,$500,Houston,TX,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,Virginia Assisted Living Association,"$1,000",Henrico,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-10-17,United,$500,Houston,TX,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-10-17,Comstock Hospitality  Holdings,"$1,000",Reston,VA,pac,,PAC,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2024-11-21,Tyrone Nelson,"$1,000",Henrico,VA,individual,Sixth Baptist Church,Pastor,,A,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2024-07-01,Realtors Political Action Committee of Virginia,$244.75,Glen Allen,VA,pac,,Political Action Committee,Food and beverages,B,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2024-10-08,The Virginia Credit Union League,$422.41,Richmond,VA,pac,,PAC,Fundraiser Event w/Del Bennet-Parker,B,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-10-24,Lamar Advertising,"$4,758",North Chesterfield,VA,,,,Billboards,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-09-24,Richmond Branch NAACP,$500,Richmond,VA,,,,Crab&Q Event,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-08-12,Celeste Anderson,$750,Glen Allen,VA,,,,Consultant/Support,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-09-13,Celeste Anderson,"$1,000",Glen Allen,VA,,,,Office Supplies/Consultant,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-10-24,Celeste Anderson,$750,Glen Allen,VA,,,,consultant/riemburstment,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-11-05,Celeste Anderson,$175,Glen Allen,VA,,,,Reinburstment Food & Gas,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-11-06,Celeste Anderson,$350,Glen Allen,VA,,,,Campaign,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-12-20,Celeste Anderson,$382.50,Glen Allen,VA,,,,Mental Health Event,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-12-20,Celeste Anderson,"$1,500",Glen Allen,VA,,,,Cnsultant Work,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-11-15,Nkechi George,$70,Midlothian,VA,,,,Reimburstment,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-11-22,Nkechi George,$150,Midlothian,VA,,,,Reimburstment,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-12-04,Nkechi George,"$1,500",Midlothian,VA,,,,Community Support,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-10-27,Michelle Mosby for Mayor,"$4,000",Richmond,VA,,,,Campaign Contribution,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-12-30,Sam's Club,$202.02,Colonial Heights,VA,,,,Office Supply,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-07-25,Shannon Taylor for Attorney General,$500,Henrico,VA,,,,Attorney General Campaign,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-08-24,Ange Nzassi,$150,Sandston,VA,,,,Music for brunch GOTV,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-12-11,Trevor's Tavern,$500,Richmond,VA,,,,Reception/Campaign,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-10-28,The Links Foundation,"$1,000",Richmond,VA,,,,Contribution Green & White Luncheon,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-11-01,BGC- Baptist General Convention of Virginia,$500,Richmond,VA,,,,Convention,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-12-12,CIT- Chickahominy Indian Tribe,$500,Providence Forge,VA,,,,Contibution to Childcare Center,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2024-11-01,JC for Lynchburg City Council,$500,Lynchburg,VA,,,,Contribution,D,431190,2024-07-01 to 2024-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-01-06,Genworth Financial,$500,Lynchburg,VA,business,,Financial Services / Advisors,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-01-06,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Law Firm,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-01-06,Virginia Hospital & Health Assoc,$500,Richmond,VA,pac,,Political Action Committee (HOSPAC),,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-01-07,TransUrban USA Inc.,$500,Tyson,VA,business,,Inc,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-01-02,SEIU C.O.P.E,$500,Washington,DC,pac,,PAC,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-03-24,AFSCME,"$2,500","NW, Washington",DC,pac,,PAC,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-03-24,Omega Protein,$500,Calais,ME,business,,OPERATIONS,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-01-06,Comstock Hospitality  Holdings,"$4,000",Reston,VA,pac,,PAC,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-01-06,Eva Hardy,"$1,000",Richmond,VA,individual,Consultant,Consultant,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-02-23,Robley Jones,$101,Richmond,VA,individual,Retired,Retired,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-03-24,Loren Hershey,$185,Oakton,VA,individual,Retired,Retired,,A,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-03-16,James Minor,$350,Richmond,VA,,,,Gas/ sig collection,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-01-19,Daytriel McQuinn-Nzassi,$500,Richmond,VA,,,,Treasure,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-03-07,Democratic Party of Virginia,$985.12,Richmond,VA,,,,Contribution,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-02-14,Richmond Branch NAACP,$300,Richmond,VA,,,,Luncheon,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-02-07,Celeste Anderson,"$1,000",Glen Allen,VA,,,,Campaign,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-03-16,Celeste Anderson,$350,Glen Allen,VA,,,,Reimbursement,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-03-16,Celeste Anderson,$200,Glen Allen,VA,,,,Signature Collection,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-03-24,Celeste Anderson,$150,Glen Allen,VA,,,,Meeting campaign refreshments,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-01-19,Celeste Anderson,$750,Mechanicsville,VA,,,,Campaign work,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-02-08,Nkechi George,$250,Midlothian,VA,,,,Reimbursement,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-01-24,Meriweathers Restaurant,$25,Richmond,VA,,,,Food weekly 1/20/25,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-02-22,Democratic House Caucus,"$7,500",Richmond,VA,,,,Dues,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-03-07,Henrico County Department of Finance,$352.80,"4301 E Parham Rd, Henrico, VA 23228",VA,,,,Primary Filing Fee,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-02-20,Peggy Anderson,$50,Lynchburg,VA,,,,Assistance,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-02-20,Andreas Martinez,$25,Richmond,VA,,,,Assistance,D,436830,2025-01-01 to 2025-03-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Lionel H Jordan,$250,Mechanicsville,VA,individual,Retired,Retired,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-14,McGuire Woods State PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-07,Virginia Automobile & Truck Dealers,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-06-01,Virginia Wine Wholesalers,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-07,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Law Firm,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-06-01,VADPAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-14,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-14,HCA  For Good Government,"$1,000",Reston,VA,pac,,Political Action Committee,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-04-07,Anheuser-Busch Companies,$500,Washington,DC,business,,Beer & Ale Wholesale Brewery,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-07,Virginia Legislative Black Caucus,"$33,000",Richmond,VA,pac,,PAC,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-06-01,Huntington Ingalls Industries,"$1,000",Newport,VA,business,,Military Shipbuilding Company,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Patrica Gould-Champ,$500,Richmond,VA,individual,Virginia Union University,Reverend,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Janet K. Copeland,$150,Richmond,VA,individual,X,X,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Capital One Services,"$1,000",Reston,VA,pac,,PAC,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-04-25,SEIU C.O.P.E,$500,Washington,DC,pac,,PAC,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Anna M Gee,$500,Richmond,VA,individual,X,Retired Educator,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,William Murray,"$1,500",Richmond,VA,individual,Dominion,Dominion,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Robert Blue,"$1,000",Richmond,VA,individual,Dominion,Dominion,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Edward Baine,"$1,000",Moseley,VA,individual,Dominion,Dominion,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-06,Dominion Energy Inc,"$30,000",Richmond,VA,pac,,PAC,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Eva Hardy,"$1,000",Richmond,VA,individual,Consultant,Consultant,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-04-25,Robley Jones,$101,Richmond,VA,individual,Retired,Retired,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-04-07,Friends of Angelia Williams,$500,Norfolk,VA,business,,Senate Account,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-04-24,Helmer Sen VA,"$1,000",Clifton,VA,business,,Campaign Account,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-07,Jerald Cable,"$5,000",Richmond,VA,individual,C/O Tobacco Company,Restaurant Owner,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-04-25,Daniel Plaugher,$500,Henrico,VA,individual,Self employed,Self employed,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-07,Country of Henrico-Dept of Finance,$200,Henrico,VA,business,,Country,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Newbille for City Council,$300,Richmond,VA,business,,Campaign,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Jacqueline A. Taylor,$200,Stafford,VA,individual,X,X,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Lisa Reynolds,$200,Richmond,VA,individual,State of VA,State,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-14,Friends of Michelle Maldonado,$300,Bristow,VA,business,,Campaign- House of Delegate,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-16,Michelle Macklin,$250,Richmond,VA,individual,Michelle Macklin,Accountant,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-18,"Benjamin E Harris, Jr.",$250,Richmond,VA,individual,NA,Unemployed,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-18,"Benjamin E Harris, Jr.",$20,Richmond,VA,individual,NA,Unemployed,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-14,Marcietia Glenn,$250,Richmond,VA,individual,NDEC,Pastor,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-18,Bobbi Graves,$120,Richmond,VA,individual,Graves Law PC,Attorney,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-21,Jovonda Hunter,$150,Midlothian,VA,individual,Unknown,Unknown,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-05-20,Chris Hairston,$250,Richmond,VA,individual,Unknown,Unknown,,A,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,Norman D Jordan,$250,Richmond,VA,,,,Catering,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-18,Norman D Jordan,$150,Richmond,VA,,,,Food services/Hat and Sneaker event,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-22,Norman D Jordan,$200,Richmond,VA,,,,Senior Cookout,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-25,Delores L McQuinn,"$1,482.72",Richmond,VA,,,,Reimbursement 24/25,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-30,James Minor,"$2,500",Richmond,VA,,,,"Campaign and Consulting Services
+#3447",D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,Daytriel McQuinn-Nzassi,$500,Richmond,VA,,,,Campaign/Treasure,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-15,Virginia Legislative Black Caucus,"$2,000",Richmond,VA,,,,Dues,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-24,Dzine Online,"$1,075",Richmond,VA,,,,Large campaign signs,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-24,Harbor Sales,$814.50,Sundlersville,MA,,,,Stakes and flyer reimbursement,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,Celeste Anderson,"$1,500",Glen Allen,VA,,,,Campaign work,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,Celeste Anderson,$650.25,Glen Allen,VA,,,,Food & Print Services for Launch Campaign,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-16,Celeste Anderson,$250,Glen Allen,VA,,,,Refreshments for Va Women's Democratic Event,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-08,Celeste Anderson,"$1,500",Glen Allen,VA,,,,Campaign support,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-22,Celeste Anderson,"$2,000",Glen Allen,VA,,,,Campaign consultant,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,Nkechi George,$154.23,Midlothian,VA,,,,Launch Party-Food,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,Nkechi George,$750,Midlothian,VA,,,,Campaign,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-19,Nkechi George,$160,Midlothian,VA,,,,Flyer reimbursement,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-08,Nkechi George,"$1,000",Midlothian,VA,,,,Campaign Support,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-22,Nkechi George,"$1,000",Midlothian,VA,,,,Campaign Consultant,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-30,NORMA Harris,"$1,000","Richmond, Va",VA,,,,Campaign work,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-02,Radio 1,"$3,512",Richmond,VA,,,,Radio ads,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-18,Brenda Jordan- Shelton,$300,Midlothian,VA,,,,Hat and Sneaker Fundraiser,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-05,New Kent/ Charles City Chronicles,$554.10,West Point,VA,,,,Campaign Ads,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-05,Zippity Print,"$1,386.04",Berea,VA,,,,Campaign palm cards,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,Delores McQuinn,$80.44,Henrico,VA,,,,Launch Party Flowers,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,Delores McQuinn,"$1,569.10",Henrico,VA,,,,Office supplies/Black History Program,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-05,Charles City County,$250,Charles City,VA,,,,2025 Eggstravaganza,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-12,Kei'Shawn Hardy,"$2,500",Richmond,VA,,,,Internship,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,In the Beginning Incubator,$250,North Chesterfield,VA,,,,Contributor,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-19,The Treat Shop,$415,Richmond,VA,,,,Donut Contribution,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-30,Moore Campaigns,"$8,538",Washington,DC,,,,Campaign Materials/mailers,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-20,Moore Campaigns,"$8,487.07",Washington,DC,,,,Campaign Materials/mailers,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-18,Kemel Patton,$250,Mechanicsville,VA,,,,Fundraiser event,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-18,Frat House Media,$225,North Chesterfield,VA,,,,Photography Hat and Sneaker Event,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-22,T3 Media LLC,"$2,565",Henrico,VA,,,,Henrico Citizen Advertisement/Newsflash,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-01,Cedar Grove Baptist Church,$300,Providence Forge,VA,,,,Family and Friends Day,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-03,Frame Mart,$309.53,Henrico,VA,,,,Picture Frame/Mekhi Becton,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-16,St. Paul's Baptist Church,$100,Richmond,VA,,,,Community Egg Hunt,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-28,Caroline Richardson,"$2,500",Richmond,VA,,,,Internship,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-05,Wanda Parnell,"$1,061",North Chesterfield,VA,,,,Printed Fans,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-05-16,Missie's Creations,$500,Richmond,VA,,,,Flower Cart,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-05,Shayn Lambert,$225,North Chesterfield,VA,,,,Tea Party Photo Balance,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-28,Spencer Thomas,"$2,500",Chantilly,VA,,,,Internship,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-02,Henrico County NAACP,"$1,000",Richmond,VA,,,,"Contribution
+Check #3445",D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-16,Strength in Unity,$100,Henrico,VA,,,,Egg Hunt,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-16,The Hines Foundation,$100,Richmond,VA,,,,Egg hunt,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-28,Donnette Haynes,$100,Richmond,VA,,,,Flyers,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-04-07,Sign Rocket,"$3,575",Saint Paul,MN,,,,Yard signs/Sign rockets,D,442088,2025-04-01 to 2025-06-05,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-06-09,SEIU C.O.P.E,"$5,000",Washington,DC,pac,,PAC,,A,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2025-06-11,Realtors Political Action Committee of Virginia,"$3,000",Glen Allen,VA,pac,,Political Action Committee,Digital Primary Ads-SWAY,B,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2025-06-16,AFSCME,"$1,980","NW, Washington",DC,pac,,PAC,GOTV calls for McQuinn campaign,B,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-18,James Minor,"$3,000",Richmond,VA,,,,Election Day,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-18,Daytriel McQuinn-Nzassi,"$2,000",Richmond,VA,,,,Campaign work/Treasure,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-16,Sixth Mount Zion Baptisst Church,$200,Richmond,VA,,,,Pastor Nelson Anniversary,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-11,Celeste Anderson,"$2,500",Glen Allen,VA,,,,Campaign 2025,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-17,Celeste Anderson,"$2,350",Glen Allen,VA,,,,Election Day Poll Workers,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-17,Celeste Anderson,$500,Glen Allen,VA,,,,Election Day Expense,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-18,Celeste Anderson,"$2,500",Glen Allen,VA,,,,Campaign,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-11,Nkechi George,"$1,500",Midlothian,VA,,,,Campaign,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-18,Nkechi George,"$2,000",Midlothian,VA,,,,Campaign support,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-17,NAACP,$300,Richmond,VA,,,,Conference,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-18,Trevor's Tavern,$421.90,Richmond,VA,,,,Election Watch Party,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-11,Life Interpretation LLC,$535,Coram,NY,,,,Campaign videos,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-16,Jamestown/Yorktown Foundation,"$1,500",Williamsburg,VA,,,,Contribution,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-28,RCCHS Alumni Association,$500,Charles City,VA,,,,Sponsorship,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-06,Cherry on Top Tees &Co,$145.75,Richmond,VA,,,,Tshirts,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-14,Cherry on Top Tees &Co,$145.75,Richmond,VA,,,,T-Shirts,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-06-16,Virginia Young Democrats,"$1,000",Richmond,VA,,,,Contribution,D,448333,2025-06-06 to 2025-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-03,Altria Client Services LLC,"$2,000",Richmond,VA,business,,Tobacco Organization,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-03,"Republic Services, Inc.","$1,000",Phoenix,AZ,business,,Waste Disposal Company,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-03,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-07,Comcast Corporation,$500,Philadelphia,PA,business,,"Telephone, High-Speed Internet, and Online Service",,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-03,Anheuser-Busch Companies,$250,Washington,DC,business,,Beer & Ale Wholesale Brewery,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-03,"Capital Results, LLC",$500,Richmond,VA,business,,Public Relations,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-14,Dominion Energy Inc,"$25,000",Richmond,VA,pac,,PAC,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-03,Virginia Natural Gas,$500,Virginia Beach,VA,pac,,PAC,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-03,Virginia Maritime Association,$500,Norfolk,VA,pac,,PAC,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-03,Davis Brothers Construction Company INC,$300,Richmond,VA,business,,Construction,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-07-03,Omega Protein,"$1,000",Calais,ME,business,,OPERATIONS,,A,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2025-07-03,Dominion Energy Inc,"$2,509.31",Richmond,VA,pac,,PAC,Food and Beverages,B,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2025-07-03,Dominion Energy Inc,"$1,500",Richmond,VA,pac,,PAC,Food and Beverages,B,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-08-22,Henrico County Democratic Committee,"$1,500",Richmond,VA,,,,Henrico County Blue Bash Gala,D,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-07-03,Daytriel McQuinn-Nzassi,$750,Richmond,VA,,,,Campaign Treasure,D,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-08-01,Virginia House Democratic Caucus,"$25,000",Richmond,VA,,,,Campaign Contribution,D,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-07-03,Celeste Anderson,"$2,500",Glen Allen,VA,,,,Office/Campaign work,D,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-08-01,Celeste Anderson,"$1,000",Glen Allen,VA,,,,Campaign work,D,454698,2025-07-01 to 2025-08-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-17,Genworth Financial,"$1,000",Lynchburg,VA,business,,Financial Services / Advisors,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-15,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,Political Action Committee,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-24,Virginia Beer Wholesalers Association,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-17,LKQ Corporation Employee Good Government Fund,$500,Chicago,IL,pac,,Political Action Committee,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-24,Cozen O'Connor,$500,Richmond,VA,pac,,PAC,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-15,Amazon.com Services LLC,"$1,000",Washington,DC,pac,,PAC,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-15,Virginia Democratic Women Caucus,$250,Burke,VA,pac,,PAC,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-15,Dwight Snead,$250,Glen Allen,VA,individual,Self-employed,Self-employed,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-24,Sheetz,$250,Altoona,PA,pac,,PAC,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-09-29,Political Action Committee,$250,Richmond,VA,pac,,PAC,,A,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+in_kind,2025-09-29,Virginia Realtors RPAC,$319.76,Glen Allen,VA,pac,,PAC,Food/Beverages for 9/22/2025 event,B,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-09-29,BJ's Wholesale,$75.25,Mechanicsville,VA,,,,Stamps,D,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-09-07,Chesterfield County Democratic Committee,$500,Midlothian,VA,,,,Harvest of Champions Fundraiser,D,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-09-16,Celeste Anderson,"$1,500",Glen Allen,VA,,,,Campaign work,D,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-09-29,Delores McQuinn,"$1,026.40",Henrico,VA,,,,"Reimbursement for:
+Panera Bread- $44.92, County Style Doughnuts $69.81, Subway $31.31, Office Max $40.26, Portobello Restaurant $43.95, Food Lion $9.97, Miyabi Sushi $111.36, Zippity Print $547.78, Flowers $127.04",D,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-09-22,Democratic House Caucus,"$25,000",Richmond,VA,,,,Campaign Funds,D,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-09-29,Wix.com.inc,$403.70,New York,NY,,,,"Domain names, Webpage annual subscription",D,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-09-29,Costco,$75.25,Glen Allen,VA,,,,Stamps,D,461565,2025-09-01 to 2025-09-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-10-16,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Attorneys At Law,,A,465781,2025-10-01 to 2025-10-23,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-10-16,IBEW Voluntary Fund,$750,Washington,DC,pac,,PAC,,A,465781,2025-10-01 to 2025-10-23,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-10-16,Premium Distributors of VA LLC,"$1,000",Chantilly,VA,pac,,PAC,,A,465781,2025-10-01 to 2025-10-23,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-10-16,Daytriel McQuinn-Nzassi,"$1,000",Richmond,VA,,,,Campaign,D,465781,2025-10-01 to 2025-10-23,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-10-10,Celeste Anderson,"$1,500",Glen Allen,VA,,,,Campaign,D,465781,2025-10-01 to 2025-10-23,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-10-06,Re-Elect Tyrone Nelson,"$2,500",Richmond,VA,,,,Fundraiser for Tyrone Nelson,D,465781,2025-10-01 to 2025-10-23,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-10-09,NAACP State Virginia Conference,$350,Richmond,VA,,,,Ad for state conference,D,465781,2025-10-01 to 2025-10-23,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-10-30,Mid-Atlantic Labores Political Education Fund,"$2,500",Reston,VA,pac,,Political Action Committee,,A,472206,2025-10-24 to 2025-11-27,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-10-28,Enterprise Holdings Inc,$500,St. Louis,MO,pac,,Pac,,A,472206,2025-10-24 to 2025-11-27,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-10-28,POM of Virginia LLC,"$2,000",Duluth,GA,pac,,PAC,,A,472206,2025-10-24 to 2025-11-27,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-11-04,Celeste Anderson,"$1,500",Glen Allen,VA,,,,Consultant/Election Day,D,472206,2025-10-24 to 2025-11-27,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-11-04,Cash Cash,"$1,500",Henrico,VA,,,,Election Day Poll Workers,D,472206,2025-10-24 to 2025-11-27,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-12-23,Dr Cliffod A Roffis,$250,Richmond,VA,individual,Dr. Clifford  Roffis & Associates,Optometrist,,A,479936,2025-11-28 to 2025-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-11-30,Virginia Hospital & Health Assoc,$500,Richmond,VA,pac,,Political Action Committee (HOSPAC),,A,479936,2025-11-28 to 2025-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-11-30,T-Mobile,$250,Bellevue,WA,pac,,pac,,A,479936,2025-11-28 to 2025-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-11-30,Virginia Transportation Construction Alliance,"$1,000",NORTH CHESTERFIELD,VA,pac,,PAC,,A,479936,2025-11-28 to 2025-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-12-23,Virginia Asphalt Association LLC,$250,Richmond,VA,pac,,PAC,,A,479936,2025-11-28 to 2025-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2025-11-30,Sentara Health Plus,"$1,000",Virginia Beach,VA,pac,,PAC,,A,479936,2025-11-28 to 2025-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2025-12-23,Nkechi George,$500,Midlothian,VA,,,,Campaign work,D,479936,2025-11-28 to 2025-12-31,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2026-01-09,Virginia Automobile & Truck Dealers,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2026-01-13,IBEW Voluntary Fund,"$1,000",Washington,DC,pac,,PAC,,A,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2026-01-13,Comstock Hospitality  Holdings,"$5,000",Reston,VA,pac,,PAC,,A,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2026-01-09,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,PAC,,A,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2026-01-09,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,PAC,,A,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+contribution,2026-01-13,American Electric Power,"$1,500",Washington,DC,pac,,PAC,,A,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-03-29,House Democratic Caucus,"$7,500",Richmond,VA,,,,Dues,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-01-01,Daytriel McQuinn-Nzassi,"$1,000",Richmond,VA,,,,Treasure/Campaign,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-01-01,Celeste Anderson,"$2,500",Glen Allen,VA,,,,Consultation/Campaign Work,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-04-14,Celeste Anderson,"$1,000",Glen Allen,VA,,,,Support for McQuinn,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-03-10,Meriweathers Restaurant,$75,Richmond,VA,,,,Food,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-01-01,A Pink Christmas Foundation,$500,Chester,VA,,,,Breast Cancer Awareness,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-01-01,Marquita Carmichael,$125,Richmond,VA,,,,Support,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-06-15,Marquita Carmichael,$200,Richmond,VA,,,,Assisting work,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-01-01,Penni Sweetburg-Lee,$125,North Chesterfield,VA,,,,Support,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-03-29,Richmond Times Dispatch,$500,Richmond,VA,,,,Event- Women that Drive Richmond,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates
+expenditure,2026-06-14,Continental Societies Inc.,$500,Richmond,VA,,,,Scholarship Support,D,495906,2026-01-01 to 2026-06-30,CC-13-00353,McQuinn For the 81st District House Of Delegates

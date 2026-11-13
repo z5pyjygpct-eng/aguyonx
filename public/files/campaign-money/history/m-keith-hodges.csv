@@ -1,0 +1,694 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2021-03-03,Dominion Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-03-03,PhRMA,$500,Washington,DC,business,,Trade Association,,A,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-03-03,Dharma Pharmaceuticals,$250,Bristo,VA,business,,Pharmaceutical Processor,,A,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-03-03,Mr Carlton S Revere,"$1,000",Hartfield,VA,individual,Revere Gas Inc.,Retired,,A,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-01-19,BB&T Merchant Services,$65.90,Wilson,NC,,,,Merchant Fee,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-02-16,BB&T Merchant Services,$65.90,Wilson,NC,,,,Merchant fee,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-03-13,BB&T Merchant Services,$65.90,Wilson,NC,,,,Merchant fee,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-01-04,BB&T,$24.95,Gloucester,VA,,,,Authnet Gateway,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-01-21,BB&T,$4,Gloucester,VA,,,,Service Charges,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-02-02,BB&T,$24.96,Gloucester,VA,,,,Authnet Gateway,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-02-22,BB&T,$4,Gloucester,VA,,,,Servuice Charges,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-03-02,BB&T,$24.85,Gloucester,VA,,,,Authnet Gateway,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-03-22,BB&T,$4,Gloucester,VA,,,,service charges,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-01-31,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media Consulting,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-02-28,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media Consulting,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-03-31,Consociate Media,"$2,000",Gloucester Point,VA,,,,media consulting,D,237719,2021-01-01 to 2021-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-05-06,EYE PAC,$250,Richmond,VA,pac,,PAC,,A,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+contribution,2021-05-06,Virginia Radiology Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+contribution,2021-04-15,Middlesex County Treasurer,$352.80,Saluda,VA,business,,Local Government,,A,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+contribution,2021-04-30,Entertainment Software Association,$500,Washington,DC,business,,Trade Association,,A,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-05-25,Franktronics,$70,Hayes,VA,,,,Domain Name,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-04-15,BB&T Merchant Services,$65.90,Wilson,NC,,,,merchant fee,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-05-17,BB&T Merchant Services,$65.90,Wilson,NC,,,,merchant fee,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-04-02,BB&T,$24.95,Gloucester,VA,,,,authnet gateway,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-04-21,BB&T,$4,Gloucester,VA,,,,service charges,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-05-04,BB&T,$24.95,Gloucester,VA,,,,authnet gatewat,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-05-21,BB&T,$4,Gloucester,VA,,,,service charges,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-04-28,Consociate Media,"$2,000",Gloucester Point,VA,,,,media consulting,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-05-27,Consociate Media,"$2,000",Gloucester Point,VA,,,,media consulting,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-05-25,Friends of Charles Poindexter,"$1,000",Glade Hill,VA,,,,political contribution,D,242847,2021-04-01 to 2021-05-27,CC-12-01297,Friends of Keith Hodges
+contribution,2021-06-15,Virginia Hospital & Healthcare Association Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,249523,2021-05-28 to 2021-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-06-15,"Merck, Sharp & Dohme Corp",$500,Whitehouse Station,NJ,business,,Pharmaceuticals,,A,249523,2021-05-28 to 2021-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-06-15,Amgen State Political Contributions,$500,Alexandria,VA,business,,Pharmaceutical,,A,249523,2021-05-28 to 2021-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-06-15,BB&T Merchant Services,$65.90,Wilson,NC,,,,Merchant Fee,D,249523,2021-05-28 to 2021-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-06-02,BB&T,$24.95,Gloucester,VA,,,,Authnet Gatewat,D,249523,2021-05-28 to 2021-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-06-21,BB&T,$4,Gloucester,VA,,,,Service Fees,D,249523,2021-05-28 to 2021-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-06-27,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media Consulting,D,249523,2021-05-28 to 2021-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-08-06,EYE PAC,$250,Richmond,VA,pac,,PAC,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-07-16,Virginia Retail Federation,$500,Richmond,VA,pac,,Political Action Committee,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-08-19,"Pfizer, Inc.","$1,000",Memphis,TN,business,,Pharmaceuticals,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-07-29,Virginia Beverage Association,"$1,500",Richmond,VA,business,,Member Association,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-07-16,VADPAC,"$1,500",Richmond,VA,pac,,Dental Association Political Action Committee,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-07-29,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,Political Action,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-07-29,Amazon.com Services Inc.,$500,Seattle,WA,business,,Internet Sales,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-08-19,FTP Power,$500,Salt Lake City,UT,business,,alt,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-08-06,Gilead Sciences,"$1,000",Foster City,CA,business,,Research Biopharmaceuticals,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-08-06,Molina Healthcare,"$1,000",Long Beach,CA,business,,Healthcare Organization,,A,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-07-15,BB&T Merchant Services,$65.90,Wilson,NC,,,,Merchant fee,D,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-08-16,BB&T Merchant Services,$65.90,Wilson,NC,,,,Merchant fee,D,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-07-02,BB&T,$24.95,Gloucester,VA,,,,Authnet Gateway,D,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-07-21,BB&T,$4,Gloucester,VA,,,,Service charges,D,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-08-02,BB&T,$24.95,Gloucester,VA,,,,Authnet gateway,D,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-08-23,BB&T,$4,Gloucester,VA,,,,Service charges,D,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-07-25,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media conculting,D,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-08-26,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media Consulting,D,254523,2021-07-01 to 2021-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-07,Medical Society Of Virginia,$500,Richmond,VA,pac,,PAC,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-25,Realtors Political Action Committe of Virginia,"$1,500",Richmond,VA,pac,,PAC,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-30,Virginia Health Care Association Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-21,EPIC PharmPAC of Virginia,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-21,AT&T,$250,Bedminster,NJ,business,,Utilities,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-07,Waste Management,$750,Houston,TX,business,,Waste Disposal,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-30,Virginia Society of Anesthesiolgists,$500,"Richmond, VA",VA,pac,,"Medical, Political Action Committee",,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-25,Maritime Issues Council,$500,Norfolk,VA,business,,Port Trade Association,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-30,Virginia Beer Wholesalers Association Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-25,Hampton Roads Business Rountable PAC,"$1,000",Norfolk,VA,pac,,Economic Strategy PAC,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-25,Anheuser Busch,$250,St. Louis,MO,business,,Beer Distillery,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-07,PhRMA,"$1,000",Washington,DC,business,,Trade Association,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-30,ORTHO PAC,$500,RICHMOND,VA,pac,,POLITICAL ACTION COMMITTEE,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-09-30,KIDSMD PAC,$250,RICHMOND,VA,pac,,POLITICAL ACTION MEDICAL,,A,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-09-15,BB&T Merchant Services,$65.90,Wilson,NC,,,,MERCHANT FEE,D,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-09-02,BB&T,$24.95,Gloucester,VA,,,,AUTHNET GATEWAR,D,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-09-21,BB&T,$4,Gloucester,VA,,,,SERVICE CHARGES,D,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-09-17,Gloucester Rotary Club,$500,Gloucester,VA,,,,PIG ROAST SPONSOR,D,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-09-16,Consociate Media,"$2,000",Gloucester Point,VA,,,,MEDIA CONSULTING,D,260261,2021-09-01 to 2021-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-18,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,Virginia State Police Association,$150,Richmond,VA,business,,Trade Association,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-07,Virginia Optometric Association,"$1,000",Richmond,VA,business,,Trade Association,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-14,Virginia Sheriff's Association,$250,Richmond,VA,business,,Trade Association,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-18,Virginia Manufactured and Modular Housing Association,$250,Richmond,VA,business,,Member Association,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Lobbyist,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-18,"Reed Smith LLP, PAC",$250,Richmond,VA,pac,,Political Action,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,Comcast Corporation,$500,Phildelphia,PA,business,,Telecommunications,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,Virginia Farm Bureau AgPAC,$500,Richmond,VA,pac,,Agricuture PAC,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,Engineering Companies of Virginia PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,Virginia CRNA-PAC,$500,Charlottesville,VA,pac,,Political Action Committee,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-18,Republic Services C/O Allied Waste Services,$500,Phoenix,AZ,business,,Waste Disposal,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-07,Dr Peter Wilcox,$150,Hayes,VA,individual,Self,Optometrist,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,VIRGINIA SOCIETY OF THE AIA,$500,RICHMOND,VA,business,,ARCHITECTS TRADE ASSOCIATION,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,Betting on VA Jobs PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-20,Virginia Chiropractic Political Action Committee,$500,Afton,VA,pac,,Political Achtion,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-18,"Hunton, Andrews and Kurth, LLP","$1,000",Richmond,VA,business,,Attorney/lobbyist,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-14,Mr Carlton S Revere,"$5,000",Hartfield,VA,individual,"Hartfield Associates, LLC",Real Estate/Development,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,Delaware Corporation,"$1,000",Topping,VA,business,,General Contractin,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-11,Capital Results,$250,Richmond,VA,business,,Government Relations,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-14,"Hartfiels Associates, LLC","$5,000",Hartfield,VA,business,,Real Estate/Development,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-14,Political Action Committee of Tidewater Builders Association,$500,Chesapeake,VA,pac,,Political Action Committee,,A,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+in_kind,2021-10-16,Realtors Political Action Committe of Virginia,"$9,877",Richmond,VA,pac,,PAC,Postal Mailing,B,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-04,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-15,Truist,$65.90,Gloucester,VA,,,,Merchant Fee,D,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-21,Truist,$4,Gloucester,VA,,,,Service Charges,D,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-12,Republican Commonwealth Leadership PAC,"$25,000",Henrico,VA,,,,Political Contribution,D,263417,2021-10-01 to 2021-10-21,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,Altria Client Services,"$1,000",Richmond,VA,business,,Tobacco and Wine Products,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-11-24,Virginia Automobile and Truck Dealers Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,Dominion Political Action Committee,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,Commercial Development PAC,$500,Alexandria,VA,pac,,Political Action Committee,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-11-24,"Reed Smith LLP, PAC",$500,Richmond,VA,pac,,Political Action,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,HCA for Good Government,"$1,000",Reston,VA,business,,Health Care,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,VPTA-PAC,$250,Clifton,VA,pac,,Political Action Committee,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,WestRock,"$1,500",Norcross,GA,business,,Paper Manufacturing,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-11-01,Virginia Oil & Gas Association,$200,Abingdon,VA,business,,Trade Association,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-11-03,Virginia Pharmacists Association Pharmacist Care PAC,"$1,000",Richmond,VA,pac,,Trade Association PAC,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,CC Procurement,$500,CHelmsford,MA,business,,Cannabis pharmaceutical processor,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,Virginia Academy of Nutrition,$250,Fairfax Station,VA,business,,Professional Association,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,Powerhouse Gaming,$250,Loomis,CA,business,,Charitable gaming fundraising,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-10-23,McguireWoods,$250,Richmond,VA,business,,Lobbying firm,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-11-24,Verizon,$500,Washington DC,VA,business,,Communications Company,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-11-01,Strata Solar,$500,Durham,NC,business,,Solar Operations/Developer,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-11-01,Albers & Company,$500,Arlington,VA,business,,Consulting/Lobbying,,A,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-11-02,Truist,$65.90,Gloucester,VA,,,,Merchant,D,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-11-22,Truist,$16,Gloucester,VA,,,,Service Charges,D,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-27,WXGM,$960,Gloucester,VA,,,,Radio AD,D,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-27,WRAR FM,$714,Tappahannock,VA,,,,Radio AD,D,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-27,WRAR FM,$714,Tappahannock,VA,,,,Radio AD,D,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-23,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media Consulting,D,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-11-24,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media Consulting,D,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-26,Gazette Journal,$830,Gloucester,VA,,,,Advertising,D,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-10-26,Republican Commonwealth Leadership PAC,"$15,000",Henrico,VA,,,,Campaign Contribution,D,271044,2021-10-22 to 2021-11-25,CC-12-01297,Friends of Keith Hodges
+contribution,2021-12-20,Virginia Optometric Association,"$2,000",Richmond,VA,business,,Trade Association,,A,278456,2021-11-26 to 2021-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-12-20,CC Procurement,$500,CHelmsford,MA,business,,Cannabis pharmaceutical processor,,A,278456,2021-11-26 to 2021-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2021-12-20,Norfolk Southern Corporation,$500,Norfolk,VA,business,,Transporation Company,,A,278456,2021-11-26 to 2021-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-12-22,Rodney Mike Hazlewood,"$2,500",Newport New,VA,,,,Payroll,D,278456,2021-11-26 to 2021-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-12-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,278456,2021-11-26 to 2021-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-12-15,Truist,$80.90,Gloucester,VA,,,,Merchant Fee,D,278456,2021-11-26 to 2021-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-12-21,Truist,$4,Gloucester,VA,,,,Servie Fee,D,278456,2021-11-26 to 2021-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2021-12-20,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media,D,278456,2021-11-26 to 2021-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-06-06,Altria Client Services,$500,Richmond,VA,business,,Tobacco and Wine Products,,A,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2022-06-10,Virginia Automobile and Truck Dealers Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2022-06-24,Richmond Build PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2022-06-10,National Association of Chain Drug Stores,$250,Arlington,VA,business,,Business Association,,A,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2022-06-10,Republic Services C/O Allied Waste Services,"$1,000",Phoenix,AZ,business,,Waste Disposal,,A,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-01-04,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-01-18,Truist,$65.90,Gloucester,VA,,,,Merchant Fee,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-01-21,Truist,$4,Gloucester,VA,,,,Bank Charges,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-02-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-02-15,Truist,$65.90,Gloucester,VA,,,,Merchant Fee,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-02-22,Truist,$4,Gloucester,VA,,,,Bank Charges,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-03-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-03-15,Truist,$65.90,Gloucester,VA,,,,Merchant Fee,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-03-21,Truist,$4,Gloucester,VA,,,,Bank Charges,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-04-04,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-04-15,Truist,$65.90,Gloucester,VA,,,,Merchant Fee,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-04-21,Truist,$4,Gloucester,VA,,,,Bank Charges,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-05-03,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-05-16,Truist,$65.90,Gloucester,VA,,,,Merchant Fee,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-05-23,Truist,$4,Gloucester,VA,,,,Bank Charges,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-06-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-06-15,Truist,$65.90,Gloucester,VA,,,,Merchant Fee,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-06-21,Truist,$4,Gloucester,VA,,,,Bank Charges,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-01-05,United States Postal Service,$84,Gloucester,VA,,,,Post Office Box,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-02-15,Treasurer of Virginia,$296,Richmond,VA,,,,Virginia Flags,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-01-15,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-02-16,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-03-20,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-04-16,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-05-18,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-06-19,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-04-11,King William GOP,$500,King William,VA,,,,Committee Fundraiser,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-06-01,Donald Sandridge,$130,Gloucester Point,VA,,,,Seafood Festival Tickets,D,292625,2022-01-01 to 2022-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-27,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-25,Realtors Political Action Committe of Virginia,"$2,500",Richmond,VA,pac,,PAC,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-11-27,Virginia State Police Association,$250,Richmond,VA,business,,Trade Association,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-25,Virginia Optometric Association,$500,Richmond,VA,business,,Trade Association,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-19,Virginia Optometric Association,$250,Richmond,VA,business,,Trade Association,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-28,Virginia Sheriff's Association,$250,Richmond,VA,business,,Trade Association,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-27,Virginia Health Care Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-27,HBAV Build PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-11-27,AT&T,$250,Bedminster,NJ,business,,Utilities,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-27,Richmond Build PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-19,Virginia Manufactured and Modular Housing Association,"$1,000",Richmond,VA,business,,Member Association,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-25,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,Lobbyist,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-01,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Shipbuilding,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-25,"Merck, Sharp & Dohme Corp",$650,Whitehouse Station,NJ,business,,Pharmaceuticals,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-11-08,Comcast Corporation,$500,Phildelphia,PA,business,,Telecommunications,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-25,Maritime Issues Council,$500,Norfolk,VA,business,,Port Trade Association,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-25,Virginia Beer Wholesalers Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-25,Engineering Companies of Virginia PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-28,Virginia CRNA-PAC,$500,Charlottesville,VA,pac,,Political Action Committee,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-25,WestRock,"$1,500",Norcross,GA,business,,Paper Manufacturing,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-11-27,Sunovion,$250,Marlborough,MA,business,,Pharmaceuticals,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-01,PhRMA,"$1,000",Washington,DC,business,,Trade Association,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-09-12,Allen S Farmer,"$1,000",Moon,VA,individual,Farmer's Septic Service,Business Owner,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-11-02,Virginia Chiropractic Political Action Committee,$250,Afton,VA,pac,,Political Achtion,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-18,Amazon.com Services Inc.,$500,Seattle,WA,business,,Internet Sales,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-11-07,"Hunton, Andrews and Kurth, LLP","$1,000",Richmond,VA,business,,Attorney/lobbyist,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-18,Gilead Sciences,$500,Foster City,CA,business,,Research Biopharmaceuticals,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-18,Molina Healthcare,"$1,000",Long Beach,CA,business,,Healthcare Organization,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-01,Capital Results,$500,Richmond,VA,business,,Government Relations,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-27,McguireWoods,$500,Richmond,VA,business,,Lobbying firm,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-01,Strata Solar,$500,Durham,NC,business,,Solar Operations/Developer,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-12,MCKESSON CORP EMPLESS POLITICAL FUND,$750,WASHINGTON,DC,business,,PHARMACEUTICAL SUPPLY CHAIN DISTRIBUTION,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-18,MAXIM HEALTHCARE SERVICES,$500,COLUMBIA,MD,business,,HOME HEALTH,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-01,COMMUNITY-OWNED POWER PAC,$500,GLEN ALLEN,VA,pac,,TRADE ASSOCIATION,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-08,ADVANSIX INC. POLITICAL ACTION COMMITTEE,$500,PARISIPPANY,NJ,pac,,CHEMICAL COMPANY,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-10-27,VIRGINIA MANUFACTURERS ASSOCIATION,$250,RICHMOND,VA,business,,TRADE ASSOCIATION,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-19,VIRGINIA NATURAL GAS PAC,$500,VIRGINIA BEACH,VA,pac,,ENERGY COMPANY,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-24,VACBP BEH HEALTH IMPROVEMENT PAC,$250,VIRGINIA BEACH,VA,pac,,HEALTHCARE PAC,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2022-12-25,JUSHI,"$2,500",BOCA RATON,FL,business,,PHARMACEUTICAL PROCESSOR,,A,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+in_kind,2022-10-27,Advantus Strategies,$166.66,Richmond,VA,business,,Lobbying firm,CATERING AND STAFF,B,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-10-26,Franktronics,$70,Hayes,VA,,,,INTERNET DOMAIN,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-12-25,Rodney Mike Hazlewood,"$1,250",Newport New,VA,,,,EMPLOYEE SERVICES,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-07-05,Truist,$24.95,Gloucester,VA,,,,ATUHNET GATEWAY,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-07-15,Truist,$65.90,Gloucester,VA,,,,MERCHANT FEE,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-07-21,Truist,$4,Gloucester,VA,,,,BANK CHARGES,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-08-02,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-08-15,Truist,$65.90,Gloucester,VA,,,,MERCHANT FEE,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-08-22,Truist,$4,Gloucester,VA,,,,BANK CHARGES,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-09-02,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-09-15,Truist,$65.90,Gloucester,VA,,,,MERCHANT FEE,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-09-21,Truist,$4,Gloucester,VA,,,,BANK CHARGES,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-10-04,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-10-15,Truist,"$2,000",Gloucester,VA,,,,MEDIA,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-10-17,Truist,$65.90,Gloucester,VA,,,,MERCHANT FEE,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-10-21,Truist,$4,Gloucester,VA,,,,BANK CHARGES,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-11-02,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-11-15,Truist,$65.90,Gloucester,VA,,,,MERCHANT FEE,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-11-21,Truist,$6,Gloucester,VA,,,,BANK CHARGES,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-12-02,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-12-15,Truist,$80.90,Gloucester,VA,,,,MERCHANT FEE,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-12-21,Truist,$4,Gloucester,VA,,,,BANK CHARGES,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-10-24,Gloucester Rotary Club,$250,Gloucester,VA,,,,PIG ROAST SPONSOR,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-07-15,Consociate Media,"$2,000",Gloucester Point,VA,,,,MEDIA,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-08-18,Consociate Media,"$2,000",Gloucester Point,VA,,,,MEDIA,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-09-15,Consociate Media,"$2,000",Gloucester Point,VA,,,,MEDIA,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-11-20,Consociate Media,"$2,000",Gloucester Point,VA,,,,MEDIA,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2022-12-16,Consociate Media,"$2,000",Gloucester Point,VA,,,,MEDIA,D,310312,2022-07-01 to 2022-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,Realtors Political Action Committe of Virginia,"$2,500",Richmond,VA,pac,,PAC,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,Virginia Hospital & Healthcare Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,Virginia Society of Anesthesiolgists,"$1,000","Richmond, VA",VA,pac,,"Medical, Political Action Committee",,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,HCA for Good Government,"$1,000",Reston,VA,business,,Health Care,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,VIRGINIA SOCIETY OF CPAS POLITICAL ACTION COMMITTEE,$500,GLEN ALLEN,VA,pac,,POLITICAL ACTION COMMITTEE,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,ORTHO PAC,$500,RICHMOND,VA,pac,,POLITICAL ACTION COMMITTEE,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,Omega Protein,$500,Houston,TX,business,,Fisheries/omega3 products,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,CC Procurement,"$1,000",CHelmsford,MA,business,,Cannabis pharmaceutical processor,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,KIDSMD PAC,$250,RICHMOND,VA,pac,,POLITICAL ACTION MEDICAL,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,McguireWoods,$500,Richmond,VA,business,,Lobbying firm,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,PSYCHMD PAC,$250,RICHMOND,VA,pac,,POLITICAL ACTION COMMITTEE,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-01-06,VA OPERATORS FOR SKILL,$500,RICHMOND,VA,business,,SKILL GAMING ALLIANCE,,A,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-01-03,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-01-17,Truist,$65.90,Gloucester,VA,,,,MERCHANT FEE,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-01-23,Truist,$16,Gloucester,VA,,,,BANK CHARGES,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-02-02,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-02-15,Truist,$65.90,Gloucester,VA,,,,MERCHANT FEE,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-02-21,Truist,$4,Gloucester,VA,,,,BANK CHARGES,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-03-02,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-03-15,Truist,$65.90,Gloucester,VA,,,,MERCHANT FEE,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-03-24,Truist,$4,Gloucester,VA,,,,BANK CHARGES,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-01-25,Consociate Media,"$2,000",Gloucester Point,VA,,,,MEDIA CONSULTING,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-02-18,Consociate Media,"$2,000",Gloucester Point,VA,,,,MEDIA CONSULTING,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-03-15,Consociate Media,"$2,000",Gloucester Point,VA,,,,MEDIA CONSULTING,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-01-01,Republican Commonwealth Leadership PAC,"$25,000",Henrico,VA,,,,PAC Contribution,D,320312,2023-01-01 to 2023-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-05,Altria Client Services,"$1,000",Richmond,VA,business,,Tobacco and Wine Products,,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-05-26,Dominion  Resources Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,Political Action Committee,,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-08,Dominion  Resources Political Action Committee - Virginia,"$15,000",Richmond,VA,pac,,Political Action Committee,,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-05-26,Virginia Society of Anesthesiolgists,"$1,000","Richmond, VA",VA,pac,,"Medical, Political Action Committee",,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-05-31,VSHP PAC,$500,RICHMOND,VA,pac,,Member Association PAC,,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-05-26,Comcast Corporation,$500,Phildelphia,PA,business,,Telecommunications,,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-06,Republic Services C/O Allied Waste Services,"$1,000",Phoenix,AZ,business,,Waste Disposal,,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-05-31,JUSHI,"$1,000",BOCA RATON,FL,business,,PHARMACEUTICAL PROCESSOR,,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-05-26,Vertex Pharmaceuticals,$500,Boston,MA,business,,Pharmaceuticals,,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-06,Astellas Pharma Inc,$250,Northbrook,IL,business,,Pharmaceuticals,,A,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-04-04,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-04-15,Truist,$72.97,Gloucester,VA,,,,BANK CHECKS,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-04-17,Truist,$65.89,Gloucester,VA,,,,Merchant fee,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-04-21,Truist,$6,Gloucester,VA,,,,Bank Charges,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-05-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-05-15,Truist,$74.90,Gloucester,VA,,,,Merchant Fee,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-05-22,Truist,$4,Gloucester,VA,,,,Bank Charges,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-04-03,Middlesex County Treasurer,$352.60,Saluda,VA,,,,Primary filing fee,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-04-19,Middlesex County Republican Committee,$550,Hartfield,VA,,,,Banquet Sponsor,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-04-01,Glo-Quips,$50,Gloucester,VA,,,,Advertising,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-04-29,Donald Sandridge,$130,Gloucester Point,VA,,,,Abingdon Ruritan Seafood Festival Tickets,D,329979,2023-04-01 to 2023-06-08,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-30,VPTA-PAC,"$1,000",Clifton,VA,pac,,Political Action Committee,,A,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-30,Anheuser Busch,$500,St. Louis,MO,business,,Beer Distillery,,A,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-16,ORTHO PAC,$500,RICHMOND,VA,pac,,POLITICAL ACTION COMMITTEE,,A,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-30,McguireWoods,$500,Richmond,VA,business,,Lobbying firm,,A,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-29,MAXIM HEALTHCARE SERVICES,$500,COLUMBIA,MD,business,,HOME HEALTH,,A,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-13,Committee to Expand the Middles Class Candidate Committee,"$1,500",San Rafael,CA,candidate,,Political Action Airbnb,,A,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-10,Vision Management Services/Valley-Vision,$250,Chicago,IL,business,,Management Services Provider,,A,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-06-30,Caesars Enterprises LLC,$250,Las Vegas,NV,business,,Entertainment Services/Gaming,,A,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-06-15,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-06-21,Truist,$4,Gloucester,VA,,,,Bank Charges,D,340843,2023-06-09 to 2023-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-25,VIRGINIA MARITIME ASSOCIATION PAC,$500,NORFOLK,VA,pac,,TRADE ASSOCIATION PAC,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-25,J & J VENTURE GAMING LLC,"$1,000",EFFINGHAM,IL,business,,VIDEO GAMING SERVICES COMPANY,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-18,Virginia State Police Association,$250,Richmond,VA,business,,Trade Association,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-25,EYE PAC,$500,Richmond,VA,pac,,PAC,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-05,Virginia Radiology Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-05,Virginia Sheriff's Association,$250,Richmond,VA,business,,Trade Association,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-05,Virginia Retail Federation,$500,Richmond,VA,pac,,Political Action Committee,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-23,Virginia Health Care Association Political Action Committee,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-31,Waste Management,"$1,000",Houston,TX,business,,Waste Disposal,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-25,Virginia Beverage Association,"$1,000",Richmond,VA,business,,Member Association,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-23,VADPAC,"$2,500",Richmond,VA,pac,,Dental Association Political Action Committee,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-23,Virginia Wine Wholesalers,"$1,000",Richmond,VA,business,,Wine Wholesaler Member Association,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-25,"Merck, Sharp & Dohme Corp",$500,Whitehouse Station,NJ,business,,Pharmaceuticals,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-25,Virginia Forest Resources PAC,$500,Richmond,VA,pac,,Forestry PAC,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-17,Virginia CRNA-PAC,"$2,500",Charlottesville,VA,pac,,Political Action Committee,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-25,VIRGINIA SOCIETY OF CPAS POLITICAL ACTION COMMITTEE,$500,GLEN ALLEN,VA,pac,,POLITICAL ACTION COMMITTEE,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-15,"Hunton, Andrews and Kurth, LLP","$1,000",Richmond,VA,business,,Attorney/lobbyist,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-25,Gilead Sciences,"$1,000",Foster City,CA,business,,Research Biopharmaceuticals,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-31,Molina Healthcare,"$1,000",Long Beach,CA,business,,Healthcare Organization,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-31,Strata Solar,"$1,000",Durham,NC,business,,Solar Operations/Developer,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-31,COMMUNITY-OWNED POWER PAC,$500,GLEN ALLEN,VA,pac,,TRADE ASSOCIATION,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-07-07,VIRGINIA NATURAL GAS PAC,$500,VIRGINIA BEACH,VA,pac,,ENERGY COMPANY,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-08-15,Virginia Asian American Store Owners Association PAC,$500,Richmond,VA,pac,,Trade Association PAC,,A,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+in_kind,2023-08-15,Commonwealth Strategy Group,$215.90,Richmond,VA,business,,Government Relations Firm,Fundraiser Catering Costs,B,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-07-05,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-07-21,Truist,$4,Gloucester,VA,,,,Bank Charges,D,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-08-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-08-15,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-08-17,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-08-21,Truist,$6,Gloucester,VA,,,,Bank Charges,D,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-08-25,Republican Commonwealth Leadership PAC,"$60,000",Henrico,VA,,,,Political Contribution,D,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-08-25,Point of Friction PAC,"$1,000",Christiansburg,VA,,,,Political PAC Contribution,D,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-08-25,Friends of Chris Obenshain,$500,Blacksburg,VA,,,,Political Contribution,D,351759,2023-07-01 to 2023-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-07,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-07,Medical Society Of Virginia,"$1,000",Richmond,VA,pac,,PAC,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,Realtors Political Action Committe of Virginia,"$3,000",Richmond,VA,pac,,PAC,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,Veternarians Political Action Committee,$500,Henrico,VA,pac,,Political Action Committee,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,Virginia Automobile and Truck Dealers Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-13,"Pfizer, Inc.",$750,Memphis,TN,business,,Pharmaceuticals,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Shipbuilding,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-11,Virginia Beer Wholesalers Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,Hampton Roads Business Rountable PAC,"$1,000",Norfolk,VA,pac,,Economic Strategy PAC,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,PhRMA,"$1,000",Washington,DC,business,,Trade Association,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-13,Premium Distributors of VA,"$1,000",Chantilly,VA,business,,Beer Distributor,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-13,Capital Results,$500,Richmond,VA,business,,Government Relations,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,VACBP BEH HEALTH IMPROVEMENT PAC,"$1,000",VIRGINIA BEACH,VA,pac,,HEALTHCARE PAC,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,Vision Management Services/Valley-Vision,$500,Chicago,IL,business,,Management Services Provider,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,Stuart for Senate,$250,Montross,VA,candidate,,Political Candidate Fund,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-09-30,James E Barbour,$150,West Point,VA,individual,Retired,Retired,,A,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-09-13,Franktronics,$35,Hayes,VA,,,,Domain name,D,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-09-21,Cardwell Printing,"$6,099.34",Newport News,VA,,,,Signs,D,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-09-05,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-09-15,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-09-21,Truist,$6,Gloucester,VA,,,,Bank Charges,D,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-09-09,Gloucester Rotary Club,$500,Gloucester,VA,,,,Barbecue Sponsor,D,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-09-15,Consociate Media,"$2,000",Gloucester Point,VA,,,,Media,D,360220,2023-09-01 to 2023-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-26,HBAV Build PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-15,Virginia Hospital & Healthcare Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-18,Johnson and Johnson,"$1,000",New Brunswick,NJ,business,,Pharmaceutical Company,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-10,Virginia Society of Anesthesiolgists,$500,"Richmond, VA",VA,pac,,"Medical, Political Action Committee",,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-12,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,Political Action Committee,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-05,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,Lobbyist,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-07,Virginia BankPAC,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,William Pruitt,$125,Williamsburg,VA,individual,Self,Lobbyist,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,Andrew G Bury,$125,Urbanna,VA,individual,Bury & Associates,Attorney,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,Edwin E Smith Jr,$125,Tappahannock,VA,individual,Tappahannock Pharmacy,Pharmacist,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,George W Redd,$500,West Point,VA,individual,Chesapeake Corp.,Retired,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,William S Massey,$250,Shacklefords,VA,individual,Peninsula Agency on Aging,CEO,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,Evan B Vanleeuwen,$125,Gloucester,VA,individual,BB&T,RETIRED BANKER,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,Dr Ronald D Haggerty,"$1,000",Gloucester,VA,individual,Direct Access Internal Medicine,Physician,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,Dr Donald Carver,$250,West Point,VA,individual,TPMG,Physician,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,Marilyn South,$125,Wake,VA,individual,retired,Retired Nurse,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-15,HCA for Good Government,"$1,000",Reston,VA,business,,Health Care,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-05,Bruce V Desimone,$125,Urbanna,VA,individual,Bruce Desimone & Associaes,Consultant,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-05,Alexandra Warhol,$500,Hallieford,VA,individual,retired,Retired,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-05,Josie B Thorpe,$500,Hallieford,VA,individual,retired,Retired,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-11,Virginia Pharmacists Association Pharmacist Care PAC,"$1,000",Richmond,VA,pac,,Trade Association PAC,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-05,McguireWoods,$500,Richmond,VA,business,,Lobbying firm,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-18,ADVANSIX INC. POLITICAL ACTION COMMITTEE,$500,PARISIPPANY,NJ,pac,,CHEMICAL COMPANY,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-26,VA OPERATORS FOR SKILL,"$1,000",RICHMOND,VA,business,,SKILL GAMING ALLIANCE,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-23,Committee to Expand the Middles Class Candidate Committee,$500,San Rafael,CA,candidate,,Political Action Airbnb,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-05,Virginia Law Enforcement Sheriffs,$500,Lawrenceville,VA,business,,Trade Association,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-16,GlaxoSmithKline LLC PAC (GSK PAC),$250,Washington,DC,pac,,Healthcare PAC,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-18,Carefirst Management Co.,$500,Owings Mills,MD,business,,Health Insuriance Provider,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-11,EMPAC,$500,RICHMOND,VA,pac,,Emergency Physicians PAC,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-04,DAN KNOTT,$125,GLOUCESTER,VA,individual,SELF,WATERMAN,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,ASHLEY CHRISCOE,$125,GLOUCESTER,VA,individual,SELF,SOLAR SALES,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,PAT DUNNINGTON,$125,GLOUCESTER,VA,individual,RETIRED,RETIRED,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,WILLIAM RILEE,$125,SHACKLEFORDS,VA,individual,RETIRED,RETIRED FORESTER,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,WILLIAM RILEE,$75,SHACKLEFORDS,VA,individual,RETIRED,RETIRED FORESTER,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,HUNTER RICHARDSON,$125,SHACKLEFORDS,VA,individual,SELF,AGRIBUSINESS,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,ELIZABETH STEWART,$125,URBANNA,VA,individual,SOUTHSIDE SENTINEL,SALES REPRESENTATIVE,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,ANGIE GARRETT,$125,KILMARNOCK,VA,individual,SELF,CHILD DAYCARE,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,RAY FRIEND,$125,GLOUCESTER,VA,individual,RETIRED,RETIRED,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,ALICE FAYE HUNDLEY,$325,CHAMPLAIN,VA,individual,CLOVERFIELD FARM,FARMING,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-02,BRADLEY PROGAR,$125,YORKTOWN,VA,individual,RITE AID,PHARMACIST,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,ARUN KADIMCHERLA,$150,TAPPAHANNOCK,VA,individual,TAPPAHANNOCK PHARMACY,PHARMACY OWNER,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,LEE RAMOS,$250,PORT HAYWOOD,VA,individual,HASKING AUTOMOTIVE,BUSINESS OWNER,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,ROBERTA RACCIOPPI,$125,WEST POINT,VA,individual,WEST POINT HIGH SCHOOL,RETIRED TEACHER,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,MICHAEL CASALE,"$1,000",GRIMSTEAD,VA,individual,HOLE IN THE WALL RESTAURANT,BUSINESS OWNER,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,PETER LEBEL,$125,GLOUCESTER,VA,individual,SENTARA CAREPLEX,PHARMACIST,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,LINDA HEALY,$125,GLOUCESTER,VA,individual,retired,RETIRED BANKER,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-01,BRIAN CAMPBELL,$250,RICHMOND,VA,individual,MEDICINE FOR ALL,EXTERNAL AFFAIRS,,A,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+in_kind,2023-10-05,Three Rivers Seafood,$200,West Point,VA,business,,Retail Seafood Sales/Restaurant,OUTDOOR VENUE SPACE - CATFISH FOR VENUE,B,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-05,Cardwell Printing,"$1,442.17",Newport News,VA,,,,signs,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-03,Truist,$24.95,Gloucester,VA,,,,AUTNET GATEWAY,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-18,Truist,$94.90,Gloucester,VA,,,,Bank Merchant Fee,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-23,Truist,$6,Gloucester,VA,,,,Bank Fee,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-02,Middlesex County Republican Committee,$500,Hartfield,VA,,,,Dinner Event Sponsor,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-06,Donald Sandridge,$150,Gloucester Point,VA,,,,Seafood Festival Tickets,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-05,WALMART,$367.95,Tappahannock,VA,,,,event supplies,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-14,WALMART,$269.67,Tappahannock,VA,,,,Lebanon Church Service drinks/supplies,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-16,Subway,$562.93,Gloucester,VA,,,,Lebanon Church Service Event Food,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-26,Kim Taylor for Delegate,"$1,500",Petersburg,VA,,,,Political Candidate Contribution,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-26,Karen Greenhalgh for Delegate,"$1,500",Virginia Beach,VA,,,,Political Candidate Contribution,D,370271,2023-10-01 to 2023-10-26,CC-12-01297,Friends of Keith Hodges
+contribution,2023-11-16,Virginia Assisted Living Association PAC,"$1,000",Henrico,VA,pac,,Political Action,,A,383576,2023-10-27 to 2023-11-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-10-28,Omega Protein,"$1,000",Houston,TX,business,,Fisheries/omega3 products,,A,383576,2023-10-27 to 2023-11-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-11-06,Amazon.com Services Inc.,$500,Seattle,WA,business,,Internet Sales,,A,383576,2023-10-27 to 2023-11-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-11-06,"Publix North Carolina, LP",$500,Lakeland,FL,business,,Supermarket/Community Retail Pharmacy,,A,383576,2023-10-27 to 2023-11-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-11-16,AQUA VIRGINIA,$500,ROCKVILLE,VA,business,,WASTWATER INFRASTRUCTURE SERVICES,,A,383576,2023-10-27 to 2023-11-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-11-03,Truist,$24.95,Gloucester,VA,,,,Authnet Gatewat,D,383576,2023-10-27 to 2023-11-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-11-15,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,383576,2023-10-27 to 2023-11-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-11-20,Truist,$6,Gloucester,VA,,,,Bank Charges,D,383576,2023-10-27 to 2023-11-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-10-31,Republican Commonwealth Leadership PAC,"$20,000",Henrico,VA,,,,Political Contribution,D,383576,2023-10-27 to 2023-11-30,CC-12-01297,Friends of Keith Hodges
+contribution,2023-12-01,Virginia Optometric Association,$500,Richmond,VA,business,,Trade Association,,A,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-12-01,Dr Peter Wilcox,$300,Hayes,VA,individual,Self,Optometrist,,A,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-12-31,Chiropractic Political Action,$500,Afton,VA,pac,,Political Achtion,,A,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2023-12-31,JUSHI,"$1,000",BOCA RATON,FL,business,,PHARMACEUTICAL PROCESSOR,,A,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-12-05,Franktronics,$35,Hayes,VA,,,,Website domain,D,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-12-25,Rodney Mike Hazlewood,"$1,500",Newport New,VA,,,,Employee wages,D,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-12-04,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-12-15,Truist,$109.90,Gloucester,VA,,,,Merchant fee,D,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-12-21,Truist,$6,Gloucester,VA,,,,Bank Charges,D,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2023-12-29,United States Postal Service,$98,UrbannA,VA,,,,Post Office Box fee,D,393630,2023-12-01 to 2023-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-06-03,Altria Client Services,"$1,000",Richmond,VA,business,,Tobacco and Wine Products,,A,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2024-06-12,"Merck, Sharp & Dohme Corp",$500,Whitehouse Station,NJ,business,,Pharmaceuticals,,A,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2024-06-12,Anheuser Busch,$250,St. Louis,MO,business,,Beer Distillery,,A,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2024-05-07,Republic Services C/O Allied Waste Services,"$1,000",Phoenix,AZ,business,,Waste Disposal,,A,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2024-05-24,ADVANSIX INC. POLITICAL ACTION COMMITTEE,$500,PARISIPPANY,NJ,pac,,CHEMICAL COMPANY,,A,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2024-06-03,JUSHI,$500,BOCA RATON,FL,business,,PHARMACEUTICAL PROCESSOR,,A,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2024-05-24,VA OPERATORS FOR SKILL,"$1,000",RICHMOND,VA,business,,SKILL GAMING ALLIANCE,,A,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2024-05-24,Committee to Expand the Middles Class Candidate Committee,"$1,500",San Rafael,CA,candidate,,Political Action Airbnb,,A,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2024-06-12,VA State Farm & Employees PAC,"$1,011.04",TAPPAHANNOCK,VA,pac,,Political Action Committee,,A,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-01-02,Truist,$24.95,Gloucester,VA,,,,authnet gateway,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-01-18,Truist,$94.90,Gloucester,VA,,,,Merchant fee,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-01-22,Truist,$4,Gloucester,VA,,,,bank service charges,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-02-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gatewat,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-02-15,Truist,$94.90,Gloucester,VA,,,,Merchant fee,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-02-21,Truist,$4,Gloucester,VA,,,,bank service charges,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-03-04,Truist,$24.95,Gloucester,VA,,,,authnet gateway,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-03-15,Truist,$94.90,Gloucester,VA,,,,Merchant fee,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-03-21,Truist,$4,Gloucester,VA,,,,bank service charges,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-04-02,Truist,$24.95,Gloucester,VA,,,,Authnet gateway,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-04-02,Truist,$4,Gloucester,VA,,,,Bank service charges,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-04-15,Truist,$94.90,Gloucester,VA,,,,Merchant fee,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-05-02,Truist,$24.95,Gloucester,VA,,,,authnet gateway,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-05-15,Truist,$94.90,Gloucester,VA,,,,merchant fee,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-05-21,Truist,$4,Gloucester,VA,,,,Service chargess,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-06-04,Truist,$24.95,Gloucester,VA,,,,24.95,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-06-17,Truist,$94.90,Gloucester,VA,,,,Merchant fee,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-06-21,Truist,$4,Gloucester,VA,,,,bank service charges,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-05-17,WNNT FM,$250,Warsaw,VA,,,,advertising,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-05-14,Donald Sandridge,$150,Gloucester Point,VA,,,,Abingdon Seafood Festival Tickets,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-06-14,Deltaville Maritime Museum,$250,Deltaville,VA,,,,Museum donation,D,409910,2024-01-01 to 2024-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-14,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-08-26,Medical Society Of Virginia PAC,"$1,000",Richmond,VA,pac,,PAC,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-21,Medical Society Of Virginia PAC,"$1,000",Richmond,VA,pac,,PAC,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-09-28,Realtors Political Action Committe of Virginia,"$1,500",Richmond,VA,pac,,PAC,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,Realtors Political Action Committe of Virginia,"$2,000",Richmond,VA,pac,,PAC,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,Virginia State Police Association,$250,Richmond,VA,business,,Trade Association,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-14,Virginia Association of Health Plans,$500,Richmond,VA,business,,Trade Association,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-08-20,Virginia Radiology Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-12-03,Virginia Optometric Association,$500,Richmond,VA,business,,Trade Association,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-08-10,Virginia Retail Federation,$500,Richmond,VA,pac,,Political Action Committee,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,HBAV Build PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,EPIC PharmPAC of Virginia,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-08-20,Virginia Society of Anesthesiolgists,"$2,500","Richmond, VA",VA,pac,,"Medical, Political Action Committee",,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-14,Virginia Manufactured and Modular Housing Association,$250,Richmond,VA,business,,Member Association,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-09-28,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Lobbyist,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-12-16,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Shipbuilding,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-14,"Reed Smith LLP, PAC",$500,Richmond,VA,pac,,Political Action,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-12-01,Virginia Assisted Living Association PAC,"$1,000",Henrico,VA,pac,,Political Action,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-12-01,Virginia Assisted Living Association PAC,$500,Henrico,VA,pac,,Political Action,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,Comcast Corporation,$500,Phildelphia,PA,business,,Telecommunications,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-19,HCA for Good Government,"$1,500",Reston,VA,business,,Health Care,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,Virginia Farm Bureau AgPAC,$500,Richmond,VA,pac,,Agricuture PAC,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,Virginia CRNA-PAC,$500,Charlottesville,VA,pac,,Political Action Committee,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-21,PhRMA,"$1,000",Washington,DC,business,,Trade Association,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-14,Omega Protein,"$1,000",Houston,TX,business,,Fisheries/omega3 products,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-23,Chiropractic Political Action,$500,Afton,VA,pac,,Political Achtion,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-12,"Hunton, Andrews and Kurth, LLP","$1,000",Richmond,VA,business,,Attorney/lobbyist,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,Gilead Sciences,$750,Foster City,CA,business,,Research Biopharmaceuticals,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-08-20,MAXIM HEALTHCARE SERVICES,$500,COLUMBIA,MD,business,,HOME HEALTH,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-12-16,VIRGINIA NATURAL GAS PAC,$500,VIRGINIA BEACH,VA,pac,,ENERGY COMPANY,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-08-20,Vertex Pharmaceuticals,"$1,000",Boston,MA,business,,Pharmaceuticals,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,VIRGINIA MARITIME ASSOCIATION PAC,$500,NORFOLK,VA,pac,,TRADE ASSOCIATION PAC,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-12-04,Commissioner of Revenue PAC,$250,Newport News,VA,pac,,Political Action,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-12-24,Boyd-Pamunkey Casino Political Action Committee,"$1,500",Norfolk,VA,pac,,Political Action,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-15,Verizon Good Government Club of Virginia,$500,Richmond,VA,pac,,Political Action,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-10-21,State Farm Federal PAC,$500,Bloomington,IL,pac,,Political Action,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-09-28,"The Williams Companies, Inc.","$1,000",Tulsa,OK,business,,Energy/Natural Gas Company,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2024-11-14,Infiltrator Water Technologies,"$1,000",Old Saybrook,CT,business,,Water Technology/Waste Treatment,,A,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+in_kind,2024-10-21,Realtors Political Action Committe of Virginia,$300.29,Richmond,VA,pac,,PAC,food/beverage for fundraiser,B,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-08-18,Franktronics,$35,Hayes,VA,,,,website services,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-12-24,Rodney Mike Hazlewood,"$1,500",Newport New,VA,,,,wages for Mike Hazlewood campaign work,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-07-02,Truist,$24.95,Gloucester,VA,,,,Authnet gateway,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-07-15,Truist,$94.90,Gloucester,VA,,,,Merchant fee,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-07-22,Truist,$4,Gloucester,VA,,,,Monthly service charge,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-08-02,Truist,$24.95,Gloucester,VA,,,,authnet gateway,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-08-15,Truist,$94.90,Gloucester,VA,,,,merchant fee,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-08-21,Truist,$6,Gloucester,VA,,,,monthly bank charges,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-09-03,Truist,$24.95,Gloucester,VA,,,,authnet gateway,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-09-16,Truist,$94.90,Gloucester,VA,,,,merchant fee,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-09-23,Truist,$4,Gloucester,VA,,,,monthly bank charges,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-10-02,Truist,$24.95,Gloucester,VA,,,,authnet gateway,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-10-15,Truist,$94.90,Gloucester,VA,,,,merchant fee,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-10-21,Truist,$4,Gloucester,VA,,,,monthly bank charges,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-11-04,Truist,$24.95,Gloucester,VA,,,,authnet gateway,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-11-15,Truist,$94.90,Gloucester,VA,,,,merchant fee,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-11-21,Truist,$4,Gloucester,VA,,,,monthly bank charges,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-12-03,Truist,$24.95,Gloucester,VA,,,,authnet gateway,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-12-16,Truist,$109.90,Gloucester,VA,,,,merchant fee,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-12-23,Truist,$6,Gloucester,VA,,,,monthly bank charges,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-08-19,Middlesex County Republican Committee,"$1,000",Hartfield,VA,,,,Sponsor for Barbecue event,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-10-12,Gloucester Rotary Club,$250,Gloucester,VA,,,,pig roast sponsor,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-11-01,WRAR FM,$250,Tappahannock,VA,,,,radio advertising,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2024-11-01,WNNT FM,$250,Warsaw,VA,,,,radio advertising,D,431104,2024-07-01 to 2024-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-01-07,Walgreen's,$500,Deerfield,IL,business,,Pharmacy,,A,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-01-02,VPTA-PAC,$500,Clifton,VA,pac,,Political Action Committee,,A,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-01-07,"Publix North Carolina, LP",$750,Lakeland,FL,business,,Supermarket/Community Retail Pharmacy,,A,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-01-07,Quest Diagnostics Inc. PAC,$250,Secaucus,NJ,pac,,Clinical Laboratory/Diagnostic Testing,,A,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-01-02,Vantage Data Centers Management,$250,Santa Clara,CA,business,,Data Center design and operation,,A,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-01-12,Franktronics,$35,Hayes,VA,,,,IT services,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-03-20,Franktronics,$175,Hayes,VA,,,,It Services/Domain,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-01-02,Truist,$24.95,Gloucester,VA,,,,Authnet gatewat,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-01-16,Truist,$94.90,Gloucester,VA,,,,Bank Merchant Fee,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-01-21,Truist,$4,Gloucester,VA,,,,Bank Service Charges,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-02-05,Truist,$24.95,Gloucester,VA,,,,Authnet gateway,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-02-18,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-02-21,Truist,$8,Gloucester,VA,,,,Bankk Charges,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-03-04,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-03-17,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-03-21,Truist,$5,Gloucester,VA,,,,Bank Charges,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-03-24,Middlesex County Treasurer,$352.80,Saluda,VA,,,,Primary Filing fee,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-01-02,United States Postal Service,$100,Gloucester,VA,,,,Post office box renwal,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-01-12,WRAR FM,$250,Tappahannock,VA,,,,Radio Advertising,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-01-12,WNNT FM,$250,Warsaw,VA,,,,Radio Advertising,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-01-01,Republican Commonwealth Leadership PAC,"$35,000",Henrico,VA,,,,Pac Contribution,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-02-28,King William GOP,"$1,000",King William,VA,,,,Liberty Ball Contribution,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-03-15,Donald Sandridge,$300,Gloucester Point,VA,,,,Ruritan Seafood Festival Tickets,D,436523,2025-01-01 to 2025-03-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-05-08,Virginia Radiology Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+contribution,2025-05-23,Waste Management,$500,Houston,TX,business,,Waste Disposal,,A,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+contribution,2025-06-01,All Points Broadband,$500,Richmond,VA,business,,Internet Connectivity,,A,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+contribution,2025-05-08,"Elevance Health, Inc",$500,Cincinnati,OH,business,,Health Insurance Company,,A,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-04-01,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-04-16,Truist,$94.90,Gloucester,VA,,,,Bank Merchant Fees,D,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-04-21,Truist,$8,Gloucester,VA,,,,Bank Charges,D,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-05-05,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-05-15,Truist,$94.90,Gloucester,VA,,,,Bank Merchant Fees,D,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-05-22,Truist,$8,Gloucester,VA,,,,Bank Fees,D,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-05-27,First District Republican Committee,$500,Newport News,VA,,,,Political Event Sponsor,D,441513,2025-04-01 to 2025-06-05,CC-12-01297,Friends of Keith Hodges
+contribution,2025-06-30,Anheuser Busch,$250,St. Louis,MO,business,,Beer Distillery,,A,449003,2025-06-06 to 2025-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-06-25,William Meagher,$200,Mathews,VA,individual,William Meagher and Associates,Environmental Consultant,,A,449003,2025-06-06 to 2025-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-06-06,Truist,$24.95,Gloucester,VA,,,,Authnet Gatewat,D,449003,2025-06-06 to 2025-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-06-16,Truist,$94.90,Gloucester,VA,,,,Merchant,D,449003,2025-06-06 to 2025-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-06-23,Truist,$8,Gloucester,VA,,,,Bank Fees,D,449003,2025-06-06 to 2025-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-29,Virginia Association of Health Plans,$500,Richmond,VA,business,,Trade Association,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-07-14,VA Home Care and Hospice PAC,$260,Henrico,VA,pac,,Political Action Committee,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-29,Virginia Sheriff's Association,$250,Richmond,VA,pac,,Trade Association PAC,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-07-03,Virginia Retail Federation,$500,Richmond,VA,pac,,Political Action Committee,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-13,Dominion  Energy Political Action Committee - Virginia,"$30,000",Richmond,VA,pac,,Political Action Committee - Energy Utility,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-29,Virginia Manufactured and Modular Housing Association,$500,Richmond,VA,business,,Member Association,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-29,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Lobbyist,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-21,Merck,$500,North Wales,PA,business,,Pharmaceuticals,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-20,Gloucester County Republican Committee,"$1,000",Gloucester,VA,business,,Political Organization,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-21,HCA for Good Government,"$1,500",Reston,VA,business,,Health Care,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-07-03,Republic Services C/O Allied Waste Services,"$1,000",Phoenix,AZ,business,,Waste Disposal,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-21,ORTHO PAC,$500,RICHMOND,VA,pac,,POLITICAL ACTION COMMITTEE,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-29,"Capital One Services, LLC",$500,Reston,VA,business,,Financial Services,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-21,Gilead Sciences,$750,Foster City,CA,business,,Research Biopharmaceuticals,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-21,MAXIM HEALTHCARE SERVICES,$500,COLUMBIA,MD,business,,HOME HEALTH,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-29,VIRGINIA NATURAL GAS PAC,$500,VIRGINIA BEACH,VA,pac,,ENERGY COMPANY,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-29,Vertex Pharmaceuticals,"$1,000",Boston,MA,business,,Pharmaceuticals,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-07-03,"Publix North Carolina, LP",$750,Lakeland,FL,business,,Supermarket/Community Retail Pharmacy,,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-08-21,Abbott Laboratories,$250,Abbott Park,IL,business,,"Medical devices, diagnostics",,A,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-07-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-07-15,Truist,$94.90,Gloucester,VA,,,,Bank merchant fee,D,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-07-21,Truist,$8,Gloucester,VA,,,,Bank Service charges,D,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-08-04,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-08-15,Truist,$94.90,Gloucester,VA,,,,Bank Merchant fee,D,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-08-21,Truist,$5,Gloucester,VA,,,,Bank Service Charges,D,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-08-16,Gloucester County Republican Committee,"$1,000",Gloucester,VA,,,,Fundraiser - Pork and Politics political fundraiser,D,454295,2025-07-01 to 2025-08-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,Realtors Political Action Committe of Virginia,"$1,000",Richmond,VA,pac,,PAC,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-30,Veternarians Political Action Committee,$500,Henrico,VA,pac,,Political Action Committee,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-18,Virginia Automobile and Truck Dealers Political Action Committee,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-18,EPIC PharmPAC of Virginia,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-30,Virginia Hospital & Healthcare Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,"Pfizer, Inc.","$1,000",Memphis,TN,business,,Pharmaceuticals,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-30,Virginia Society of Anesthesiolgists,"$2,500","Richmond, VA",VA,pac,,"Medical, Political Action Committee",,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,Virginia Beverage Association,$750,Richmond,VA,business,,Member Association,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,VADPAC,"$1,500",Richmond,VA,pac,,Dental Association Political Action Committee,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,Comcast Corporation,$500,Phildelphia,PA,business,,Telecommunications,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,Virginia Beer Wholesalers Association Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-30,Hampton Roads Business Rountable PAC,"$1,000",Norfolk,VA,pac,,Economic Strategy PAC,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,Virginia Farm Bureau AgPAC,$500,Richmond,VA,pac,,Agricuture PAC,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-23,Rhodes Consulting,$150,Richmond,VA,business,,Consulting,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-15,Amazon.com Services Inc.,$500,Seattle,WA,business,,Internet Sales,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,"Hunton, Andrews and Kurth, LLP",$500,Richmond,VA,business,,Attorney/lobbyist,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-30,Strata Solar,$500,Durham,NC,business,,Solar Operations/Developer,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,MCKESSON CORP EMPLESS POLITICAL FUND,$500,WASHINGTON,DC,business,,PHARMACEUTICAL SUPPLY CHAIN DISTRIBUTION,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-18,PSYCHMD PAC,$500,RICHMOND,VA,pac,,POLITICAL ACTION COMMITTEE,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-23,Astellas Pharma Inc,$500,Northbrook,IL,business,,Pharmaceuticals,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-30,VIRGINIA MARITIME ASSOCIATION PAC,$500,NORFOLK,VA,pac,,TRADE ASSOCIATION PAC,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,Commissioner of Revenue PAC,$500,Newport News,VA,pac,,Political Action,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-30,Deleware Corporation,"$1,000",Topping,VA,business,,Industrial & Commercial Construction & Real Estate,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-30,"Genworth Financial, Inc.","$1,000",Glen ALlen,VA,business,,financial services company,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-18,"Care Advantage, Inc.","$1,000","North Chesterfield,",VA,business,,Home Health Care Provider,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-09-16,Sheetz,$250,Altoona,PA,business,,Retail Convenience Stores,,A,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-09-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-09-15,Truist,$94.90,Gloucester,VA,,,,Bank Charges,D,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-09-22,Truist,$5,Gloucester,VA,,,,Bank Charge,D,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-09-05,Caldwell Printing,"$4,805.58",Newport News,VA,,,,Signs/Advertising,D,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-09-26,Caldwell Printing,"$4,110.75",Newport News,VA,,,,Signs/Advertising,D,460833,2025-09-01 to 2025-09-30,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-12,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Shipbuilding,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-12,PhRMA,"$1,000",Washington,DC,business,,Trade Association,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-20,Virginia Pharmacists Association Pharmacist Care PAC,$250,Richmond,VA,pac,,Trade Association PAC,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-15,MAXIM HEALTHCARE SERVICES,$500,COLUMBIA,MD,business,,HOME HEALTH,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-15,"The Williams Companies, Inc.",$500,Tulsa,OK,business,,Energy/Natural Gas Company,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-11,Barbaro Perez,$150,Gloucester,VA,individual,Riverside Health Systems,Physician,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-13,Virginia Food Industry Association,$250,Raleigh,NC,pac,,Non Profit Trade Association Political Action Comm,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-13,Virginia CUPAC,$500,Tallahasse,FL,pac,,Virginia Credit Union Political Action,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-13,PMI Corporate Services,"$1,000",San Rafael,CA,business,,Promotion of a Smoke Free Environment Business,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-13,POM of Virginia,"$1,000",Duluth,GA,business,,POM of Virginia,,A,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-14,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-01,WXGM,"$3,024",Gloucester,VA,,,,Radio Advertising,D,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-06,WRAR FM,"$2,520",Tappahannock,VA,,,,Radio Advertising,D,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-06,WNNT FM,"$2,520",Warsaw,VA,,,,Radio Advertising,D,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-04,Donald Sandridge,$300,Gloucester Point,VA,,,,Abingdon Seafood Festival Tickets,D,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-03,Moving Mountains PAC,"$30,000",Richmond,VA,,,,Political Action Committee Contribution,D,465808,2025-10-01 to 2025-10-23,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-31,Virginia Forest Resources PAC,$250,Richmond,VA,pac,,Forestry PAC,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-30,John T White,$500,Arlington,VA,individual,New Points Oysters,Oyster grower,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-30,Alexandra Warhol,$500,Hallieford,VA,individual,retired,Retired,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-30,Josie B Thorpe,$500,Hallieford,VA,individual,retired,Retired,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-11-04,McguireWoods,"$1,000",Richmond,VA,business,,Lobbying firm,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-30,LEE RAMOS,$250,PORT HAYWOOD,VA,individual,HASKING AUTOMOTIVE,BUSINESS OWNER,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-11-24,State Farm Federal PAC,$500,Bloomington,IL,pac,,Political Action,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-30,Harvey B Morgan,$250,Cobbs Creek,VA,individual,"Morgan,s Drug Store",Retired,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-30,Joseph M Syslo,$250,Mathews,VA,individual,Rappahannock Community College,Retired,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-30,John F Flick,$500,Roanoke,VA,individual,Iron Eagle Advisors,Retired,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-10-29,"Sentara Health Administrtion, Inc",$500,Virginia Beach,VA,business,,Health System,,A,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-24,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-24,Truist,$5,Gloucester,VA,,,,Bank Charges,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-11-02,Truist,$24.95,Gloucester,VA,,,,Authnet Gateway,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-11-17,Truist,$94.90,Gloucester,VA,,,,Merchant Fee,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-11-21,Truist,$22,Gloucester,VA,,,,Bank Service Charges,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-24,Caldwell Printing,$550.49,Newport News,VA,,,,Bumper Stickers,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-24,Kim Taylor for Delegate,"$5,000",Petersburg,VA,,,,Political Candiate Contribution,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-24,Friends of Carrie Coyner,"$5,000",Chester,VA,,,,Political Candidate Contribution,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-24,Friends of Chad Green,"$5,000",Seaford,VA,,,,Political Candidate Contribution,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-10-31,Deluxe Business Systems,$479.21,St Paul,VA,,,,Checks,D,472721,2025-10-24 to 2025-11-27,CC-12-01297,Friends of Keith Hodges
+contribution,2025-12-22,Medical Society Of Virginia PAC,"$1,000",Richmond,VA,pac,,PAC,,A,479245,2025-11-28 to 2025-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-12-22,Vantage Data Centers Management,$500,Santa Clara,CA,business,,Data Center design and operation,,A,479245,2025-11-28 to 2025-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2025-12-22,"Metis Services, Inc",$500,Roanoke,VA,business,,"Risk Management, Insurance",,A,479245,2025-11-28 to 2025-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-12-24,Rodney Mike Hazlewood,"$1,500",Newport New,VA,,,,Year end wages for campaign services,D,479245,2025-11-28 to 2025-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-12-02,Truist,$24.95,Gloucester,VA,,,,Autnet Gateway,D,479245,2025-11-28 to 2025-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-12-15,Truist,$109.90,Gloucester,VA,,,,Bank Merchant Fee,D,479245,2025-11-28 to 2025-12-31,CC-12-01297,Friends of Keith Hodges
+expenditure,2025-12-22,Truist,$5,Gloucester,VA,,,,Bank Service Charge,D,479245,2025-11-28 to 2025-12-31,CC-12-01297,Friends of Keith Hodges
+contribution,2026-06-30,Waste Management,$750,Houston,TX,business,,Waste Disposal,,A,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2026-06-16,Virginia CRNA-PAC,$500,Charlottesville,VA,pac,,Political Action Committee,,A,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2026-06-17,Anheuser Busch,$250,St. Louis,MO,business,,Beer Distillery,,A,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2026-06-01,VA OPERATORS FOR SKILL,"$5,000",RICHMOND,VA,business,,SKILL GAMING ALLIANCE,,A,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2026-06-30,GlaxoSmithKline LLC PAC (GSK PAC),$250,Washington,DC,pac,,Healthcare PAC,,A,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2026-01-13,"Comstock Hospitality Holding, LLC","$2,500",Reston,VA,business,,"Developer, Management of Commercial Properties",,A,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+contribution,2026-05-02,VSP VISION,$500,RANCHO CORDOVA,CA,business,,"VISION CARE, EYE CARE BENEFITS",,A,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-01-02,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-01-21,Truist,$5,Gloucester,VA,,,,BANK CHARGES,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-01-26,Truist,$94.90,Gloucester,VA,,,,MERCHANT FEE,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-02-03,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-02-17,Truist,$94.90,Gloucester,VA,,,,MERCHANT FEE,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-02-23,Truist,$5,Gloucester,VA,,,,BANK CHARGES,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-03-03,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-03-16,Truist,$94.90,Gloucester,VA,,,,MERCHANT FEE,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-03-23,Truist,$8,Gloucester,VA,,,,BANK CHARGES,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-04-02,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-04-15,Truist,$94.90,Gloucester,VA,,,,MERCHANT FEE,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-04-21,Truist,$5,Gloucester,VA,,,,BANK CHARGES,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-05-04,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-05-15,Truist,$94.90,Gloucester,VA,,,,MERCHANT FEE,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-05-21,Truist,$5,Gloucester,VA,,,,BANK CHARGES,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-06-02,Truist,$24.95,Gloucester,VA,,,,AUTHNET GATEWAY,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-06-15,Truist,$94.90,Gloucester,VA,,,,MERCHANT FEE,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-06-22,Truist,$5,Gloucester,VA,,,,BANK CHARGES,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-01-03,United States Postal Service,$106,UrbannA,VA,,,,POST OFFICE BOX RENTAL,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-03-19,WXGM,"$2,376",Gloucester,VA,,,,advertising,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-04-09,WRAR FM,$502,Tappahannock,VA,,,,ADVERTISING,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-04-09,WNNT FM,$502,Warsaw,VA,,,,ADVERTISING,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-05-22,Donald Sandridge,$150,Gloucester Point,VA,,,,SEAFOOD FESTIVAL TICKETS,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges
+expenditure,2026-01-10,Moving Mountains PAC,"$8,000",Richmond,VA,,,,POLITICAL CONTRIBUTION,D,497094,2026-01-01 to 2026-06-30,CC-12-01297,Friends of Keith Hodges

@@ -3,6 +3,284 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$72,922.74",,VA,,"From official Schedule H, November 2025 election cycle",H,497068,2026-07-15
 summary,2026-06-30,Raised this cycle,"$17,479.46",,,,Total receipts this election cycle (Schedule H),H,497068,2026-07-15
 summary,2026-06-30,Spent this cycle,"$3,735.24",,,,Total disbursements this election cycle (Schedule H),H,497068,2026-07-15
+contribution,2025-03-13,Mr. Eric T Ackerman,$250,Arlington,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-24,American Federation of State County and Municipal Employees,"$2,500",Washington,DC,business,,A,442842,2025-06-12
+contribution,2025-01-03,"Apex Clean Energy Holdings, LLC","$1,500",Charlottesville,VA,business,,A,442842,2025-06-12
+contribution,2025-01-03,"Apex Clean Energy Holdings, LLC","$1,500",Charlottesville,VA,business,,A,442842,2025-06-12
+contribution,2025-03-24,Judith Bello,$500,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Judy Bello,$500,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-07,Douglas J Bergner,$250,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Mr. James Bierman Jr,$500,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-11,Ms. Ruth H Bollinger,$500,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-31,Jeffrey Breit,$500,Virginia Beach,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-07,Ms. Andrea Lorraine Bridgeman,$500,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-20,John Brown,$500,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-10,Mrs. Amee V. Burgoyne,$200,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Patricia Butler,"$1,000",McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-07,John A Calhoun,$100,Falls Church,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-27,Paul Carver,$200,Arlington,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Linda H Cevasco,$200,Mc Lean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Myung Choi,$200,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-18,John Clarke,$250,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-24,Mrs. Ann S Clough,$250,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-24,John Foust for Supervisor,$250,Mclean,VA,candidate,,A,442842,2025-06-12
+contribution,2025-03-05,Robert E Jordan,$250,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Mr. Herschel Kanter,$250,Sterling,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-24,Kathleen Murphy for Delegate,$500,McLean,VA,candidate,,A,442842,2025-06-12
+contribution,2025-03-17,Sandra Kerrest,$100,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Cherie L Kitchell,$250,Mc Lean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Matt Korn,$500,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Ms. Carol A Langelier,$500,Falls Church,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-11,Ms. Suchada Langley,$200,Vienna,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Mr. Luke P Levasseur,$250,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-11,Abby Mandel,"$1,000",Falls Church,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Eric Masters,"$1,000",Great Falls,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Ms. Suzann W. Matthews,"$1,000",McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-01-07,McGuireWoods LLP,$500,Richmond,VA,business,,A,442842,2025-06-12
+contribution,2025-03-17,Ms. Cindy Miller,$500,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Ms. Joy Oakes,$200,Arlington,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Rick Olson,"$1,000",McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Margaret Power,$250,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-24,Mr. Larry E Rouvelas,"$1,000",Falls Church,VA,individual,,A,442842,2025-06-12
+contribution,2025-01-01,SEIU COPE,$500,Washington,DC,business,,A,442842,2025-06-12
+contribution,2025-03-21,Mr. Charles and Ruth D. Smith,$100,Silver Spring,MD,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Mr. Thomas J. Spulak,"$2,000",McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Mr. Thomas J. Spulak,"$2,000",McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Mr. Robert Stoney,$750,Herndon,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-18,Rip Sullivan,$525.09,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-01-02,VA Operators for Skill,"$1,000",Richmond,VA,business,,A,442842,2025-06-12
+contribution,2025-03-24,Virginia Automobile & Truck Dealers Political Action Committee,"$1,000",Richmond,VA,pac,,A,442842,2025-06-12
+contribution,2025-01-03,Virginia Society of CPAs Political Action Committee,$500,Glen Allen,VA,pac,,A,442842,2025-06-12
+contribution,2025-03-11,Mr. William L Walsh Jr,$150,Arlington,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-13,Mr. Glenn Williams,$25,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Mr. Glenn Williams,$260,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-12,Ms. Jean L Wolff,$150,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-01-03,Commissioner of Revenue PAC,$250,Newport News,VA,pac,,A,442842,2025-06-12
+contribution,2025-03-05,Mr. N. Thomas Connally III,$250,Arlington,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Sally Hill Cooper,$250,Arlington,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-16,Mr. Niels Crone,$200,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Mr. Stephen M. Cumbie,"$1,000",Vienna,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-18,Geoffrey Dodson,$200,Great Falls,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-11,Ms. Karen DuVal,"$1,000",McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Jane P Edmondson,$500,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-18,Mr. Kenneth M Ende,$250,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-27,Thomas Fox,$75,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-24,Mr. David C. Frederick,"$5,000",McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Mrs. Betsy Gardiner,"$2,000",Arlington,VA,individual,,A,442842,2025-06-12
+contribution,2025-02-28,Genworth Financial,"$1,000",Lynchburg,VA,business,,A,442842,2025-06-12
+contribution,2025-03-14,Ms. Nadja Z Golding,$250,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Gail Harrison,$500,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-24,Ramon R Hart,$500,Vienna,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-11,Ms. Karen L Hendrixson,$200,Arlington,VA,individual,,A,442842,2025-06-12
+contribution,2025-02-25,Loren Hershey,$185,Oakton,VA,individual,,A,442842,2025-06-12
+contribution,2025-02-27,William Hewitt,"$1,000",Arlington,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-17,Marylee Beyer Hill,$250,Vienna,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-05,Diana Holcomb Holcomb,$500,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-14,Ik Pyo Hong,$300,Mclean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-15,Mrs. Kirsten E Huber,$200,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-03-11,Mr. Leo Chris Jardot,$500,McLean,VA,individual,,A,442842,2025-06-12
+contribution,2025-05-27,Altria Client Services LLC,"$2,500",Richmond,VA,business,,A,442843,2025-06-12
+contribution,2025-04-09,Mr. Gregory H Brandon,$125,Mclean,VA,individual,,A,442843,2025-06-12
+contribution,2025-05-27,"Capital One Services, LLC","$1,000",Reston,VA,business,,A,442843,2025-06-12
+contribution,2025-04-23,Clean Virginia Fund,"$5,000",Charlottesville,VA,business,,A,442843,2025-06-12
+contribution,2025-05-21,Sally H Cooper,$309.95,Arlington,VA,individual,,A,442843,2025-06-12
+contribution,2025-05-09,David Fitzgerald,$103.45,Mc Lean,VA,individual,,A,442843,2025-06-12
+contribution,2025-05-29,Leslie F Mason,"$1,000",Mc Lean,VA,individual,,A,442843,2025-06-12
+contribution,2025-04-24,Charles Monson,$200,Mc Lean,VA,individual,,A,442843,2025-06-12
+contribution,2025-04-06,Steve Parker,"$2,065.20",Mclean,VA,individual,,A,442843,2025-06-12
+contribution,2025-06-02,Publix North Carolina LP,$500,Lakeland,FL,business,,A,442843,2025-06-12
+contribution,2025-05-29,Frederic H Rogers,$250,McLean,VA,individual,,A,442843,2025-06-12
+contribution,2025-04-03,"Tenaska Virginia Partners,",$500,Omaha,NE,business,,A,442843,2025-06-12
+contribution,2025-05-01,Mr. Thomas P Van Wazer,$500,McLean,VA,individual,,A,442843,2025-06-12
+contribution,2025-05-02,Mr. Thomas P Van Wazer,$20.85,McLean,VA,individual,,A,442843,2025-06-12
+contribution,2025-04-03,"Vantage Data Center Management Co, LLC",$500,Santa Clara,CA,business,,A,442843,2025-06-12
+contribution,2025-04-13,Mr. Glenn Williams,$25,Mclean,VA,individual,,A,442843,2025-06-12
+contribution,2025-05-13,Mr. Glenn Williams,$25,Mclean,VA,individual,,A,442843,2025-06-12
+contribution,2025-06-25,Anheuser-Busch,$500,Washington,DC,business,,A,448260,2025-07-15
+contribution,2025-06-25,Preston Bryant Jr,$250,Richmond,VA,individual,,A,448260,2025-07-15
+contribution,2025-06-12,Chesapeake Climate Action Network,$500,Takoma Park,MD,business,,A,448260,2025-07-15
+contribution,2025-06-30,Comcast Corporation,$500,Philadelphia,PA,business,,A,448260,2025-07-15
+contribution,2025-06-14,Robert Hillfusion,$250,Mclean,VA,individual,,A,448260,2025-07-15
+contribution,2025-06-17,Counterspark Inc.,"$1,000",Washington,DC,individual,,A,448260,2025-07-15
+contribution,2025-06-25,McGuireWoods LLP,$500,Richmond,VA,business,,A,448260,2025-07-15
+contribution,2025-06-17,Walton C Shepherd,$250,Richmond,VA,individual,,A,448260,2025-07-15
+contribution,2025-06-20,Mr. Charles and Ruth D. Smith,$200,Silver Spring,MD,individual,,A,448260,2025-07-15
+contribution,2025-06-23,Mr. Charles and Ruth D. Smith,$100,Silver Spring,MD,individual,,A,448260,2025-07-15
+contribution,2025-06-12,The Doctors Company Virginia PAC,"$1,000",Napa,CA,pac,,A,448260,2025-07-15
+contribution,2025-06-12,The Doctors Company Virginia PAC,"$1,000",Napa,CA,pac,,A,448260,2025-07-15
+contribution,2025-06-23,Virginia Automobile & Truck Dealers Political Action Committee,"$1,500",Richmond,VA,pac,,A,448260,2025-07-15
+contribution,2025-06-12,Virginia Bankers Association State PAC,"$2,500",Glen Allen,VA,pac,,A,448260,2025-07-15
+contribution,2025-06-12,Virginia BankPAC,"$2,500",Glen Allen,VA,pac,,A,448260,2025-07-15
+contribution,2025-06-12,Virginia Land Title Association PAC Account,"$1,000",Centreville,VA,pac,,A,448260,2025-07-15
+contribution,2025-06-12,Virginia Land Title Association PAC Account,"$1,000",Centreville,VA,pac,,A,448260,2025-07-15
+contribution,2025-06-11,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,448260,2025-07-15
+contribution,2025-06-25,Virginia Sierra Club PAC,$500,Richmond,VA,pac,,A,448260,2025-07-15
+contribution,2025-06-13,Mr. Glenn Williams,$25,Mclean,VA,individual,,A,448260,2025-07-15
+contribution,2025-07-30,American Council of Life Insurers PAC,"$1,000",Washington,DC,pac,,A,454174,2025-09-15
+contribution,2025-08-03,IrwinJanet Auerbach,$150,Mc Lean,VA,individual,,A,454174,2025-09-15
+contribution,2025-08-23,Mr. Gregory H Brandon,$100,Mclean,VA,individual,,A,454174,2025-09-15
+contribution,2025-08-19,"CareFirst Management, Co., LLC","$1,500",Owings Mills,MD,business,,A,454174,2025-09-15
+contribution,2025-08-20,Clean Virginia Fund,"$5,000",Charlottesville,VA,business,,A,454174,2025-09-15
+contribution,2025-07-01,DoorDash,"$1,000",San Francisco,CA,business,,A,454174,2025-09-15
+contribution,2025-08-27,"Eastern Gas Transmission and Storage, Inc.",$500,Glen Allen,VA,business,,A,454174,2025-09-15
+contribution,2025-07-03,Mr. Kenneth M Ende,$500,McLean,VA,individual,,A,454174,2025-09-15
+contribution,2025-08-29,Fairfax County Democratic Committee,$500,Falls Church,VA,party,,A,454174,2025-09-15
+contribution,2025-08-07,Genworth Financial,"$2,000",Lynchburg,VA,business,,A,454174,2025-09-15
+contribution,2025-08-28,Hampton Roads Business Roundtable PAC,"$2,500",Norfolk,VA,pac,,A,454174,2025-09-15
+contribution,2025-07-28,Counterspark Inc.,"$20,000",Washington,DC,individual,,A,454174,2025-09-15
+contribution,2025-07-05,Mr. Ernest Jay Isenstadt,$200,McLean,VA,individual,,A,454174,2025-09-15
+contribution,2025-08-28,JBG Smith Builds Virginia PAC,"$5,000",Arlington,VA,pac,,A,454174,2025-09-15
+contribution,2025-07-31,William H Kleinert,$100,Mclean,VA,individual,,A,454174,2025-09-15
+contribution,2025-08-18,Charles Monson,$103.45,Mclean,VA,individual,,A,454174,2025-09-15
+contribution,2025-07-01,Mr. L. Chris Petersen,$500,McLean,VA,individual,,A,454174,2025-09-15
+contribution,2025-08-22,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,A,454174,2025-09-15
+contribution,2025-07-28,Reworld Waste LLC,"$1,500",Reston,VA,business,,A,454174,2025-09-15
+contribution,2025-08-16,Mr. MALCOLM S. SCOTT,$175,Arlington,VA,individual,,A,454174,2025-09-15
+contribution,2025-07-09,Sentara Health Plans,"$1,500",Virginia Beach,VA,business,,A,454174,2025-09-15
+contribution,2025-07-30,Virginia Association of Health Plans,"$2,500",Richmond,VA,business,,A,454174,2025-09-15
+contribution,2025-07-07,Virginia Education Association Fund,$250,Richmond,VA,pac,,A,454174,2025-09-15
+contribution,2025-08-04,"Virginia Maritime Association, Political Action Committee","$1,500",Norfolk,VA,pac,,A,454174,2025-09-15
+contribution,2025-08-07,Virginia Orthopaedic Society PAC,$500,Richmond,VA,pac,,A,454174,2025-09-15
+contribution,2025-08-08,Visa,"$1,000",Austin,TX,business,,A,454174,2025-09-15
+contribution,2025-08-04,Wells Fargo Co. Virginia Employees Good Government Fund,$500,Washington,DC,pac,,A,454174,2025-09-15
+contribution,2025-07-13,Mr. Glenn Williams,$25,Mclean,VA,individual,,A,454174,2025-09-15
+contribution,2025-08-13,Mr. Glenn Williams,$25,Mclean,VA,individual,,A,454174,2025-09-15
+contribution,2025-07-30,David Yensen,"$5,000",Arlington,VA,individual,,A,454174,2025-09-15
+contribution,2025-09-10,"Amazon Services, Inc.","$3,000",Seattle,WA,business,,A,461199,2025-10-15
+contribution,2025-09-13,Mr. Glenn Williams,$25,Mclean,VA,individual,,A,461199,2025-10-15
+contribution,2025-09-25,Bloom Energy Corporation,"$5,000",San Jose,CA,business,,A,461199,2025-10-15
+contribution,2025-09-23,CIGNA POLITICAL ACTION COMMITTEE,$500,Philadelphia,PA,pac,,A,461199,2025-10-15
+contribution,2025-09-18,CVS Health Corporate Office,"$1,500",Woonsocket,RI,business,,A,461199,2025-10-15
+contribution,2025-09-23,Ms. Kimberly Dorgan,$250,McLean,VA,individual,,A,461199,2025-10-15
+contribution,2025-09-15,Earnin,$500,Palo Alto,CA,business,,A,461199,2025-10-15
+contribution,2025-09-25,Energy Transfer PAC,"$2,000",Austin,TX,pac,,A,461199,2025-10-15
+contribution,2025-09-16,Robert Hill,$250,Mclean,VA,individual,,A,461199,2025-10-15
+contribution,2025-09-02,James Walkinshaw for Braddock Supervisor,"$2,000",Springfield,VA,business,,A,461199,2025-10-15
+contribution,2025-09-08,Matt Korn,"$2,000",Mclean,VA,individual,,A,461199,2025-10-15
+contribution,2025-09-19,John R. Koza,$500,Los Altos,CA,individual,,A,461199,2025-10-15
+contribution,2025-09-15,Metro Virginia PAC M301,$500,Washington,DC,pac,,A,461199,2025-10-15
+contribution,2025-09-08,Ms. Cindy Miller,"$2,000",Mclean,VA,individual,,A,461199,2025-10-15
+contribution,2025-09-07,Neil Minow,$50,Mclean,VA,individual,,A,461199,2025-10-15
+contribution,2025-09-19,Northern Virginia Electric Cooperative,"$1,000",Manassas,VA,business,,A,461199,2025-10-15
+contribution,2025-09-15,Pharmaceutical Care Management Association,$500,Washington,DC,business,,A,461199,2025-10-15
+contribution,2025-09-29,Reynolds Services Company,"$1,000",Winston Salem,NC,business,,A,461199,2025-10-15
+contribution,2025-09-02,Janet L Taylor,$100,Mclean,VA,individual,,A,461199,2025-10-15
+contribution,2025-09-15,Virginia Beer Wholesalers Association Political Action Committee,"$1,000",Richmond,VA,pac,,A,461199,2025-10-15
+contribution,2025-09-15,Virginia Beverage Association Political Action Committee,$750,Staunton,VA,pac,,A,461199,2025-10-15
+contribution,2025-09-15,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,A,461199,2025-10-15
+contribution,2025-09-04,Virginia Pharmacists Association,"$1,000",North Chesterfield,VA,business,,A,461199,2025-10-15
+contribution,2025-09-29,Virginia Sheriff's Association Political Action Committee,$250,Richmond,VA,pac,,A,461199,2025-10-15
+contribution,2025-10-07,Sally Hill Cooper,$150,Arlington,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-13,Margot De Ferranti,$250,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-15,Dimension Energy LLC,"$1,500",Atlanta,GA,business,,A,467063,2025-10-30
+contribution,2025-10-15,Ms. Karen DuVal,$250,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-20,Employees of RTX Corporation PAC,$500,Arlington,VA,pac,,A,467063,2025-10-30
+contribution,2025-10-20,Mr. Kenneth M Ende,$250,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-06,David Fitzgerald,$250,Mc Lean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-13,Thomas Fox,$200,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-15,"Freedom Virginia, Inc.","$1,000",Arlington,VA,business,,A,467063,2025-10-30
+contribution,2025-10-08,Leo Galizio,$50,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-03,Mr. David Gardiner,"$2,500",Arlington,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-13,Ms. Kris Gregory,$150,Falls Church,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-15,HCA For Good Government,"$1,500",Reston,VA,business,,A,467063,2025-10-30
+contribution,2025-10-22,HCA For Good Government,"$1,000",Reston,VA,business,,A,467063,2025-10-30
+contribution,2025-10-07,Ms. Karen L Hendrixson,$250,Arlington,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-02,William Hewitt,$100,Arlington,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-06,Diana Holcomb,$258.32,Mc Lean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-17,Jay Howell,$150,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-20,Huntington Ingalls Industries,"$1,500",Newport News,VA,business,,A,467063,2025-10-30
+contribution,2025-10-07,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,business,,A,467063,2025-10-30
+contribution,2025-10-20,Insurance and Financial Advisors Political Action Committee-VA,"$1,000",Richmond,VA,pac,,A,467063,2025-10-30
+contribution,2025-10-07,Invenergy Solar Project Development LLC,"$1,000",Chicago,IL,business,,A,467063,2025-10-30
+contribution,2025-10-17,Joseph Jacobs,$150,Falls Church,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-08,Ms. Nina Janopaul,$500,Arlington,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-22,Nicholas Josefowitz,$500,San Francisco,CA,individual,,A,467063,2025-10-30
+contribution,2025-10-02,Mr. Herschel Kanter,$500,Sterling,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-11,Mr. Herschel Kanter,$350,Sterling,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-04,William H Kleinert,$100,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-08,Ms. Carol A Langelier,"$2,000",Falls Church,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-16,Dennis M Lucey,$250,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-08,Dina Mishra,$150,Arlington,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-16,Charles Monson,$250,Mc Lean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-08,Rick Montfort,$50,Vienna,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-23,RJ Narang,$500,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-17,"Opportunity Financial, LLC","$7,500",Chicago,IL,business,,A,467063,2025-10-30
+contribution,2025-10-13,Lee Outlaw,$150,Vienna,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-17,Ilene R Price,$150,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-03,Thomas W Queen,"$2,500",Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-17,Mr. JAYANT REDDY,$150,Falls Church,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-16,Halsey Rogers,$200,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-16,Ms. Suzanne Romness,$250,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-15,Douglas Sanderson,$150,Mc Lean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-16,Hye K Scarlett,$250,Fairfax Station,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-16,Leah Fried Sedwick,"$1,000",Crozet,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-03,SEIU COPE,"$1,000",Washington,DC,business,,A,467063,2025-10-30
+contribution,2025-10-06,Nancy Simon,$51.83,Mc Lean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-05,Charles Smith,$103.45,Silver Spring,MD,individual,,A,467063,2025-10-30
+contribution,2025-10-16,Harrison Smith,$500,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-15,"Solar Development Grpup, LLC",$500,Maitland,FL,business,,A,467063,2025-10-30
+contribution,2025-10-07,Mr. Thomas J. Spulak,"$2,500",McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-07,"Strata Clean Energy, LLC","$2,500",Durham,NC,business,,A,467063,2025-10-30
+contribution,2025-10-20,Harriet Sullivan,$200,Villanova,PA,individual,,A,467063,2025-10-30
+contribution,2025-10-05,Deborah Tannen,$500,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-15,The AES Corporation,"$1,000",Arlington,VA,business,,A,467063,2025-10-30
+contribution,2025-10-20,"The Williams Companies, Inc.","$1,000",Tulsa,OK,business,,A,467063,2025-10-30
+contribution,2025-10-15,Randy Toll,$500,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-14,United Services Automobile AssociatioN,$500,Reston,VA,business,,A,467063,2025-10-30
+contribution,2025-10-15,Unitedhealth Group Inc,"$1,000",Englewood,CO,business,,A,467063,2025-10-30
+contribution,2025-10-07,Tyson Utt,$200,Henrico,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-08,VA Mortgage Bankers PAC,$500,Glen Allen,VA,pac,,A,467063,2025-10-30
+contribution,2025-10-08,Lauren M Van Wazer,"$1,000",McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-20,Margaret Vanderhye,$250,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-13,Nikhil Verma,$100,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-10,Virginia Farm Bureau Federation PAC,$500,Richmond,VA,pac,,A,467063,2025-10-30
+contribution,2025-10-07,Virginia Natural Gas,"$2,000",Virginia Beach,VA,business,,A,467063,2025-10-30
+contribution,2025-10-08,Virginia State Farm Agents and Employee Political Action Committee,"$1,000",Richmond,VA,pac,,A,467063,2025-10-30
+contribution,2025-10-15,The Hon. Mary Margaret Whipple,$250,Arlington,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-07,American Property Casualty Insurance Association,"$1,000",Chicago,IL,business,,A,467063,2025-10-30
+contribution,2025-10-02,Peter Appel,$150,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-14,Diane C. Basheer,$500,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-13,Lisa W Bennett,$500,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-02,Mr. James Bierman Jr,$150,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-02,Ms. Elisabeth S Bissell,$150,Minocqua,WI,individual,,A,467063,2025-10-30
+contribution,2025-10-02,Sam Black,$250,Washington,DC,individual,,A,467063,2025-10-30
+contribution,2025-10-08,Mr. Ronald A Bleeker,$300,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-13,Anna Brennan,$600,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-17,Ms. Andrea Lorraine Bridgeman,$500,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-11,John Brown,$250,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-08,Carola Bruflat,$300,Vienna,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-13,Patricia B Carroll,$250,Arlington,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-06,Community Solar Action Fund PAC,"$2,000",Washington,DC,pac,,A,467063,2025-10-30
+contribution,2025-10-08,Williams Mullen Clark and Dobbins,"$1,500",Richmond,VA,business,,A,467063,2025-10-30
+contribution,2025-10-13,Mr. Glenn Williams,$25,Mclean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-13,Mr. James Wilson,"$1,000",Washington,DC,individual,,A,467063,2025-10-30
+contribution,2025-10-12,Ms. Jean L Wolff,$150,McLean,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-16,Mary Zinsner,$200,Alexandria,VA,individual,,A,467063,2025-10-30
+contribution,2025-10-07,Benjamin Zuhl,$150,Springfield,VA,individual,,A,467063,2025-10-30
+contribution,2025-11-26,ACE AMERICAN INSURANCE COMPANY,"$1,000",Philadelphia,PA,business,,A,472706,2025-12-04
+contribution,2025-11-03,Altria Client Services LLC,"$5,000",Richmond,VA,business,,A,472706,2025-12-04
+contribution,2025-10-29,American Clean Power Association,"$1,000",Washington,DC,business,,A,472706,2025-12-04
+contribution,2025-11-05,Chesapeake Utilities Corporation,$500,Dover,DE,business,,A,472706,2025-12-04
+contribution,2025-11-14,Thomas Chiang,$100,Herndon,VA,individual,,A,472706,2025-12-04
+contribution,2025-11-12,Geico,$500,Washington,DC,business,,A,472706,2025-12-04
+contribution,2025-11-03,American Healthcare,$500,Roanoke,VA,individual,,A,472706,2025-12-04
+contribution,2025-10-28,William H Kleinert,$100,Mclean,VA,individual,,A,472706,2025-12-04
+contribution,2025-10-28,William H Kleinert,$100,Mclean,VA,individual,,A,472706,2025-12-04
+contribution,2025-11-12,Mid-Atlantic Laborers' Political Education Fund,"$3,500",Reston,VA,business,,A,472706,2025-12-04
+contribution,2025-11-03,"Mountain Valley Pipeline, LLC","$1,000",Canonsburg,PA,business,,A,472706,2025-12-04
+contribution,2025-10-27,NiSource Inc PAC,$500,Columbus,OH,pac,,A,472706,2025-12-04
+contribution,2025-11-12,NoVa Build PAC,"$1,500",Chantilly,VA,pac,,A,472706,2025-12-04
+contribution,2025-10-26,PACE O MATIC LLC,"$1,000",Duluth,GA,business,,A,472706,2025-12-04
+contribution,2025-11-05,Publix North Carolina LP,$500,Lakeland,FL,business,,A,472706,2025-12-04
+contribution,2025-11-04,"Sun Tribe Trading, LLC",$500,Charlottesville,VA,business,,A,472706,2025-12-04
+contribution,2025-10-29,T Mobile US Inc,$250,Bellevue,WA,business,,A,472706,2025-12-04
+contribution,2025-11-03,Transurban USA Inc,$500,Tysons Corner,VA,business,,A,472706,2025-12-04
+contribution,2025-10-29,Troutman Pepper Locke LLP,"$2,500",Atlanta,GA,business,,A,472706,2025-12-04
+contribution,2025-10-29,"United Airlines, Inc Political Action Committee",$500,Chicago,IL,pac,,A,472706,2025-12-04
+contribution,2025-10-29,Verizon,"$1,500",Washington,DC,business,,A,472706,2025-12-04
+contribution,2025-11-13,Virginia Credit Union Political Action Committee,"$2,500",Tallahassee,FL,pac,,A,472706,2025-12-04
+contribution,2025-11-13,Mr. Glenn Williams,$25,Mclean,VA,individual,,A,472706,2025-12-04
+contribution,2025-11-13,Zurich American Insurance Company,"$1,000",Schaumburg,IL,business,,A,472706,2025-12-04
 contribution,2025-12-23,Community Owned Power  Pac,"$1,000",Glen Allen,VA,pac,,A,480148,2026-01-15
 contribution,2025-12-23,Delta Dental of Virginia,$500,Roanoke,VA,business,,A,480148,2026-01-15
 contribution,2025-12-08,Erie Insurance  Committee,$250,Erie,PA,pac,,A,480148,2026-01-15
@@ -31,8 +309,105 @@ contribution,2026-06-30,Thomas Matzzie,$500,Bethesda,MD,individual,,A,497068,202
 contribution,2026-06-15,Robert M Tarakan,$206.70,McLean,VA,individual,,A,497068,2026-07-15
 contribution,2026-06-15,Virginia CRNAs Who Care About Healthcare PAC,$250,Roanoke,VA,pac,,A,497068,2026-07-15
 contribution,2026-01-12,Virginia Society of CPAs Political Action Committee,$500,Glen Allen,VA,pac,,A,497068,2026-07-15
+in_kind,2025-09-18,Democratic Party of Virginia,"$11,046.56",Richmond,VA,party,Political Mailings,B,461199,2025-10-15
+in_kind,2025-10-23,Democratic Party of Virginia,"$9,121.80",Richmond,VA,party,Political Mailing,B,467063,2025-10-30
+in_kind,2025-10-08,Seven Hills Strategy Group,"$1,917.80",Richmond,VA,business,Political Fundraiser Dinner,B,467063,2025-10-30
+in_kind,2025-10-07,Williams Mullen,$523.90,Richmond,VA,business,Food and Reservation at Fundraiser,B,467063,2025-10-30
+in_kind,2025-10-17,Keki Balsara,"$1,421.52",Mclean,VA,individual,Food/Drinks for Political Fundraiser,B,467063,2025-10-30
+in_kind,2025-10-08,Democratic Party of Virginia,"$10,635.89",Richmond,VA,party,Political Mailing,B,467063,2025-10-30
 other_receipt,2026-04-07,NGP VAN,$336,Washington,DC,business,Refund for overpayment,C,497068,2026-07-15
 other_receipt,2026-01-14,PDF Filler,$1.75,Brookline,MA,business,Refund for creating account,C,497068,2026-07-15
+expenditure,2025-01-02,NGP VAN,$38.92,Washington,DC,business,NGP Fees,D,442842,2025-06-12
+expenditure,2025-01-03,NGP VAN,$960,Washington,DC,business,NGP Fees,D,442842,2025-06-12
+expenditure,2025-01-05,ActBlue,$19.75,Somerville,MA,business,Act Blue Fee,D,442842,2025-06-12
+expenditure,2025-02-03,NGP VAN,$28.20,Washington,DC,business,NGP Fees,D,442842,2025-06-12
+expenditure,2025-02-06,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,442842,2025-06-12
+expenditure,2025-02-07,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,442842,2025-06-12
+expenditure,2025-02-25,NGP VAN,$964.85,Washington,DC,business,NGP Monthly Fees,D,442842,2025-06-12
+expenditure,2025-03-02,ActBlue,$7.31,Somerville,MA,business,Act Blue Fee,D,442842,2025-06-12
+expenditure,2025-03-03,NGP VAN,$37.50,Washington,DC,business,NGP Fees,D,442842,2025-06-12
+expenditure,2025-03-03,Squarespace,$276,New York,NY,business,Website Fees,D,442842,2025-06-12
+expenditure,2025-03-04,Squarespace,$14,New York,NY,business,Website Fees,D,442842,2025-06-12
+expenditure,2025-03-05,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,442842,2025-06-12
+expenditure,2025-03-09,ActBlue,$408.48,Somerville,MA,business,Act Blue Fee,D,442842,2025-06-12
+expenditure,2025-03-16,ActBlue,$235.05,Somerville,MA,business,Act Blue Fee,D,442842,2025-06-12
+expenditure,2025-03-23,ActBlue,$446.59,Somerville,MA,business,Act Blue Fee,D,442842,2025-06-12
+expenditure,2025-03-24,Fairfax County Office of Elections,$361.09,Fairfax,VA,business,Election Filing Fee,D,442842,2025-06-12
+expenditure,2025-03-31,ActBlue,$19.75,Somerville,MA,business,Act Blue Fee,D,442842,2025-06-12
+expenditure,2025-03-31,Fairfax County Democratic Committee,$117,Falls Church,VA,business,Campaign Ad Payment,D,442842,2025-06-12
+expenditure,2025-04-02,NGP VAN,$85.81,Washington,DC,business,NGP Fees,D,442843,2025-06-12
+expenditure,2025-04-02,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,442843,2025-06-12
+expenditure,2025-04-03,NGP VAN,$960,Washington,DC,business,NGP Fees,D,442843,2025-06-12
+expenditure,2025-04-04,House Democratic Caucus,"$6,500",Richmond,VA,party,Contribution to House Democratic Caucus,D,442843,2025-06-12
+expenditure,2025-04-13,Act Blue,$0.99,Somerville,MA,individual,Act Blue Fees,D,442843,2025-06-12
+expenditure,2025-04-25,NGP VAN,$504,Washington,DC,business,NGP Fees,D,442843,2025-06-12
+expenditure,2025-05-02,NGP VAN,$169.84,Washington,DC,business,NGP Fees,D,442843,2025-06-12
+expenditure,2025-05-05,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,442843,2025-06-12
+expenditure,2025-05-07,Campaign X Collective,"$3,575.39",Fairfax,VA,business,Campaign Materials Printing,D,442843,2025-06-12
+expenditure,2025-05-07,House Democratic Caucus,"$100,000",Richmond,VA,party,Contribution to House Democratic Caucus,D,442843,2025-06-12
+expenditure,2025-05-13,Act Blue,$0.99,Somerville,MA,individual,Act Blue Fees,D,442843,2025-06-12
+expenditure,2025-05-14,USPS,$102.20,Arlington,VA,business,Stamps/Mailing Supplies,D,442843,2025-06-12
+expenditure,2025-05-16,Act Blue,$1.98,Somerville,MA,individual,Act Blue Fees,D,442843,2025-06-12
+expenditure,2025-06-02,NGP VAN,$156.91,Washington,DC,business,NGP Fees,D,442843,2025-06-12
+expenditure,2025-06-04,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,442843,2025-06-12
+expenditure,2025-06-12,James Baxter Carter,"$1,500",Arlington,VA,individual,Campaign Consulting Fees,D,448260,2025-07-15
+expenditure,2025-06-16,Tyler Levinson,$700,Richmond,VA,individual,Campaign Consulting Fees,D,448260,2025-07-15
+expenditure,2025-06-30,Act Blue,$16.79,Somerville,MA,individual,Act Blue Fees,D,448260,2025-07-15
+expenditure,2025-07-02,James Baxter Carter,"$1,500",Arlington,VA,individual,Campaign Payroll,D,454174,2025-09-15
+expenditure,2025-07-02,NGP VAN,$123.71,Washington,DC,business,NGP Fees,D,454174,2025-09-15
+expenditure,2025-07-03,NGP VAN,$960,Washington,DC,business,NGP Fees,D,454174,2025-09-15
+expenditure,2025-07-14,Act Blue,$7.90,Somerville,MA,individual,Act Blue Fees,D,454174,2025-09-15
+expenditure,2025-07-16,Chain Bridge Bank,$50,McLean,VA,business,Wire Transfer Fee,D,454174,2025-09-15
+expenditure,2025-07-16,House Democratic Caucus,"$35,000",Richmond,VA,party,Donation to House Democratic Caucus,D,454174,2025-09-15
+expenditure,2025-07-30,Act Blue,$0.99,Somerville,MA,individual,Act Blue Fees,D,454174,2025-09-15
+expenditure,2025-08-04,NGP VAN,"$1,188.42",Washington,DC,business,NGP Fees,D,454174,2025-09-15
+expenditure,2025-08-12,James Baxter Carter,"$1,500",Arlington,VA,individual,Campaign Payroll,D,454174,2025-09-15
+expenditure,2025-08-19,Act Blue,$1.98,Somerville,MA,individual,Act Blue Fees,D,454174,2025-09-15
+expenditure,2025-08-28,Act Blue,$0.99,Somerville,MA,individual,Act Blue Fees,D,454174,2025-09-15
+expenditure,2025-09-02,Chain Bridge Bank,$50,McLean,VA,business,Wire Transfer Fee,D,461199,2025-10-15
+expenditure,2025-09-02,House Democratic Caucus,"$43,000",Richmond,VA,party,Donation to VA House Democratic Caucus,D,461199,2025-10-15
+expenditure,2025-09-02,NGP VAN,$102.40,Washington,DC,business,NGP Fees,D,461199,2025-10-15
+expenditure,2025-09-02,NGP VAN,$315,Washington,DC,business,NGP Fees,D,461199,2025-10-15
+expenditure,2025-09-02,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,461199,2025-10-15
+expenditure,2025-09-03,James Baxter Carter,"$1,500",Arlington,VA,individual,Compensation for Campaign Services,D,461199,2025-10-15
+expenditure,2025-09-16,Chain Bridge Bank,$50,McLean,VA,business,Wire Transfer Fee,D,461199,2025-10-15
+expenditure,2025-09-16,Democratic Party of Virginia,"$11,034.36",Richmond,VA,party,Campaign Services,D,461199,2025-10-15
+expenditure,2025-09-24,Campaign X Collective,"$2,933.66",Fairfax,VA,business,Campaign Materials Printing,D,461199,2025-10-15
+expenditure,2025-09-24,Chain Bridge Bank,$50,McLean,VA,business,Wire Transfer Fee,D,461199,2025-10-15
+expenditure,2025-09-24,House Democratic Caucus,"$17,000",Richmond,VA,party,Donation to VA House Democratic Caucus,D,461199,2025-10-15
+expenditure,2025-09-30,Act Blue,$12.87,Somerville,MA,individual,Act Blue Fees 9/1 - 9/30,D,461199,2025-10-15
+expenditure,2025-10-02,GoDaddy.Com,$44.34,Tempe,AZ,business,Website Fees,D,467063,2025-10-30
+expenditure,2025-10-02,NGP VAN,$380.34,Washington,DC,business,NGP Fees,D,467063,2025-10-30
+expenditure,2025-10-03,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,467063,2025-10-30
+expenditure,2025-10-06,J. Gilbert's Wood-Fired Steaks & Seafood McLean,$125,Mclean,VA,business,Political Fundraiser,D,467063,2025-10-30
+expenditure,2025-10-07,James Baxter Carter,"$1,500",Arlington,VA,individual,Political Work,D,467063,2025-10-30
+expenditure,2025-10-07,Chain Bridge Bank,$50,McLean,VA,business,Wire Transfer Fee,D,467063,2025-10-30
+expenditure,2025-10-07,Democratic Party of Virginia,"$10,635.89",Richmond,VA,party,Political Mailing,D,467063,2025-10-30
+expenditure,2025-10-07,GoDaddy.com,$191.76,Scottsdale,AZ,business,Website Fees,D,467063,2025-10-30
+expenditure,2025-10-09,Mark Weiss Associates,"$1,494",Bethesda,MD,business,Yard Signs,D,467063,2025-10-30
+expenditure,2025-10-14,NGP VAN,"$1,008",Washington,DC,business,NGP Fees,D,467063,2025-10-30
+expenditure,2025-10-20,Chain Bridge Bank,$50,McLean,VA,business,Wire Transfer Fee,D,467063,2025-10-30
+expenditure,2025-10-20,House Democratic Caucus,"$28,000",Richmond,VA,party,Contribution,D,467063,2025-10-30
+expenditure,2025-10-21,Facebook Inc.,$100,Washington,DC,business,Digital Advertisement,D,467063,2025-10-30
+expenditure,2025-10-22,Chain Bridge Bank,$50,McLean,VA,business,Wire Transfer Fee,D,467063,2025-10-30
+expenditure,2025-10-22,Democratic Party of Virginia,"$9,121.80",Richmond,VA,party,Political Mailing,D,467063,2025-10-30
+expenditure,2025-10-23,Act Blue,"$1,067.88",Somerville,MA,individual,Act Blue Frees 10/1/25 - 10/23/25,D,467063,2025-10-30
+expenditure,2025-10-24,"Facebook, Inc.",$100,Menlo Park,CA,business,Campaign Ad,D,472706,2025-12-04
+expenditure,2025-10-27,Chain Bridge Bank,$50,McLean,VA,business,Wire Transfer Fee,D,472706,2025-12-04
+expenditure,2025-10-27,"Facebook, Inc.",$100,Menlo Park,CA,business,Campaign Ad,D,472706,2025-12-04
+expenditure,2025-10-27,"Facebook, Inc.",$100,Menlo Park,CA,business,Campaign Ad,D,472706,2025-12-04
+expenditure,2025-10-27,House Democratic Caucus,"$10,000",Richmond,VA,party,Donation to House Democratic Caucus,D,472706,2025-12-04
+expenditure,2025-10-27,lorelei rojas,$495,Falls Church,VA,individual,Political Work/Internship,D,472706,2025-12-04
+expenditure,2025-10-28,"Facebook, Inc.",$100,Menlo Park,CA,business,Campaign Ad,D,472706,2025-12-04
+expenditure,2025-10-31,Campaign X Collective,$500,Fairfax,VA,business,Campaign Graphic Creation,D,472706,2025-12-04
+expenditure,2025-10-31,"Facebook, Inc.",$100,Menlo Park,CA,business,Campaign Ad,D,472706,2025-12-04
+expenditure,2025-11-03,"Facebook, Inc.",$100,Menlo Park,CA,business,Campaign Ad,D,472706,2025-12-04
+expenditure,2025-11-03,"Facebook, Inc.",$100,Menlo Park,CA,business,Campaign Ad,D,472706,2025-12-04
+expenditure,2025-11-03,NGP VAN,$154.26,Washington,DC,business,NGP Fees,D,472706,2025-12-04
+expenditure,2025-11-04,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,472706,2025-12-04
+expenditure,2025-11-05,NGP VAN,"$1,008",Washington,DC,business,NGP Fees,D,472706,2025-12-04
+expenditure,2025-11-10,James Baxter Carter,"$6,500",Arlington,VA,individual,Campaign Work Payment,D,472706,2025-12-04
+expenditure,2025-11-10,"Facebook, Inc.",$98.85,Menlo Park,CA,business,Campaign Ad,D,472706,2025-12-04
 expenditure,2025-12-01,NGP VAN,$97.37,Washington,DC,business,NGP Fees,D,480148,2026-01-15
 expenditure,2025-12-03,NGP VAN,$157.50,Washington,DC,business,NGP Fees,D,480148,2026-01-15
 expenditure,2025-12-03,NGP VAN,$504,Washington,DC,business,NGP Fees,D,480148,2026-01-15

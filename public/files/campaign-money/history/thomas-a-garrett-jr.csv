@@ -1,0 +1,700 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2022-12-13,Christopher West,"$1,000",Alexandria,VA,individual,Self,Consultant,,A,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2022-11-24,Peter Farrell,"$1,000",Richmond,VA,individual,Tuckahoe Holdings,Managing Partner,,A,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2022-11-23,Diane Metheny,$104.10,Mechanicsville,VA,individual,Optima Health,Strategic Growth Manager,,A,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2022-11-23,Jesse Rutherford,"$1,041.02",Shipman,VA,individual,Self,Real Estate,,A,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2022-12-12,VA Conservative Leadership Fund,"$2,900",Alexandria,VA,pac,,Political Action Committee,,A,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2022-11-28,William Tucker,"$1,000",Amherst,VA,individual,Tucker Family Farms,Farmer,,A,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2022-12-30,Stanley for Senate,"$2,000",Moneta,VA,candidate,,Campaign Committee,,A,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2022-12-31,"HummingBirds Consulting, LLC",$500,McLean,VA,business,,Consulting,,A,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2022-11-24,James Cohen,$260.25,Virginia Beach,VA,individual,Retired,Retired,,A,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2022-11-22,Virginia State Corporation Commission,$75,Richmond,VA,,,,Corporation Formation Fee,D,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2022-11-22,Constant Contact,$19.99,Waltham,MA,,,,Email Vendor,D,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2022-12-20,Constant Contact,$45,Waltham,MA,,,,Email Vendor,D,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2022-11-22,Go Daddy Software,$224.16,Scottsdale,AZ,,,,"Domain Name, Web Hosting",D,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2022-11-22,Envato Market,$79,"Melbourne, Victoria, 3053 Australia",,,,,Website Development,D,310074,2022-11-21 to 2022-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-02-28,John Whitlock,"$1,000",Richmond,VA,individual,Whitlock Group,Partern,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-03-15,Joyce Yeatts,$200,Rice,VA,individual,Benchmark Community Bank,Vice President,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-03-01,Craig Williams PLC,"$1,500",Louisa,VA,business,,Legal Firm,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-03-16,Virginia Automobile Dealers Association PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-01-12,Joseph Kubat,$104.10,Williamsburg,VA,individual,retired,Retired,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-01-23,Ira Bishop,$208.20,Gum Spring,VA,individual,Veradigm,Systems Engineer,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-01-31,Joshua Rosene,$500,Lynchburg,VA,individual,Self,Executive Professional,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-03-03,John Chavan,$250,Keswick,VA,individual,University of Virginia,Registered Nurse,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-03-08,Lisa Ron Berry,$104.10,Palmyra,VA,individual,Retired,Retired,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-03-11,Michelle Schumacher,$104.10,Rice,VA,individual,Retired,Retired,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-03-26,John Miska,$104.10,Lynchburg,VA,individual,Retired,Retired,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-03-27,Christian Raymond,$104.10,Pewaukee,WI,individual,Atlas Impressions LLC,Web Designer,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-03-30,Matthew Whitworth,$260.25,Fork Union,VA,individual,Self,Consultant,,A,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-20,Constant Contact,$19.99,Waltham,MA,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-20,Constant Contact,$45,Waltham,MA,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-21,Constant Contact,$19.99,Waltham,MA,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-21,Constant Contact,$45,Waltham,MA,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-21,Constant Contact,$45,Waltham,MA,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-21,Constant Contact,$19.99,Waltham,MA,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-01,Go Daddy Software,$99.99,Scottsdale,AZ,,,,Web Services—SSL Cert.,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-15,Go Daddy Software,$20.36,Scottsdale,AZ,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-25,Jonathan Salazar,"$2,500",Alpharetta,GA,,,,Salary,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-30,Bitly Europe GmbH,$119.88,"33609 Bielefeld, Germany",,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-30,Bitly Europe GmbH,$3.60,"33609 Bielefeld, Germany",,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-05,Best Buy,$63.17,Charlottesville,VA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-30,Best Buy,$84.22,Charlottesville,VA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-30,Granny Bee's LLC,$67.66,Appomattox,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-01,Granny Bee's LLC,$19.69,Appomattox,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-16,Granny Bee's LLC,$19.12,Appomattox,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-30,Marathon Gas,$38.81,Appomattox,VA,,,,Gas,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-02,Thai Fresh,$43,Charlottesville,VA,,,,Meal,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-12,Leonardtown Post Office,$28.75,Leonardtown,MD,,,,Mailing/Shipping,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-09,VistaPrint,$104.23,Waltham,MA,,,,Printing,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-21,VistaPrint,$280.40,Waltham,MA,,,,Printing,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-21,Fandango,$90.04,Beverly Hills,CA,,,,Gift/Giveaway,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-27,Amazon,$42.11,Seattle,WA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-06,Amazon,$413.67,Seattle,WA,,,,Campaign Phone/Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-27,Amazon,$35.76,Seattle,WA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-20,Amazon,$12.72,Seattle,WA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-20,Amazon,$38.46,Seattle,WA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-26,Staples,$60.53,Charlottesville,VA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-27,Staples,$108.09,Charlottesville,VA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-28,Zoho,$20,Pleasanton,CA,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-28,Zoho,$20,Pleasanton,CA,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-03,Kroger,$72.97,Appomattox,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-03,Kroger,$20.02,Appomattox,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-06,Kroger,$49.45,Appomattox,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-03,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-03,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-06,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-06,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-06,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-06,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-15,Robocent,$41.40,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-15,Robocent,$37.56,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-16,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-16,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-16,Robocent,$60,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-29,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-30,Robocent,$30,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-30,Robocent,$41.16,Virginia Beach,VA,,,,Automated Voter Contact,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-08,Scottsville USPS,$13.23,Scottsville,VA,,,,Postage,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-08,Scottsville USPS,$5.90,Scottsville,VA,,,,Shipping/Postage,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-24,Scottsville USPS,$630,Scottsville,VA,,,,Postage,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-10,Theresa's Place,$21.74,Dillwyn,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-13,Monticello Media,$200,Charlottesville,VA,,,,Advertising,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-21,Monticello Media,$40,Charlottesville,VA,,,,Advertising,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-16,CVS Pharmacy,$11.55,Appomattox,VA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-16,Dillwyn Dairy Freez,$7.32,Dillwyn,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-16,Matthew Wisniewski,"$2,700",Lynchburg,VA,,,,Salary,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-17,Cumberland Restaurant,$12.27,Cumberland,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-17,Courthouse Market and Grill,$480,Goochland,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-27,Zachary Werrell,"$2,000",Leonardtown,MD,,,,Salary,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-17,Zachary Werrell,"$1,500",Leonardtown,MD,,,,Salary,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-22,Dollar General,$3.69,Scottsville,VA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-22,Food Lion,$175.51,Scottsville,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-24,Food Lion,$13.91,Scottsville,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-24,Staples,$150.54,Lynchburg,VA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-27,Staples,$53.65,Lynchburg,VA,,,,Office Supplies,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-28,El Mariachi Zions Crossroads,$33.04,Gordonsville,VA,,,,Food,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-27,Appomattox County,$87.50,Appomattox,VA,,,,Facility Rental,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-02-17,Buckingham GOP,$700,Buckingham,VA,,,,Filing Fee,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-16,Goochland County Republican Women,$25,Goochland,VA,,,,Event Fee,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-03-03,Campaign Verify,$95,Washington,DC,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-05,Hallmark,$93.20,Leonardtown,MD,,,,Gift for Supporter,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-01-07,Mailmeteor,$24.99,Cannot Find,VA,,,,Web Services,D,320136,2023-01-01 to 2023-03-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-04-13,Ted Yoho,$500,Welaka,FL,individual,Self,Consultant,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-04-25,Lucy Moses,$104.10,Mineral,VA,individual,Retired,Retired,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-05-18,Nicole Tardiff,$250,Ashburn,VA,individual,Self,Consultant,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-05-22,Mark Hile,$104.10,Henrico,VA,individual,VCU Health,Physicians Assistant,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-05-22,Susan Lascolette,$500,Columbia,VA,individual,Goochland County,Supervisor,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-05-18,VA Beer Wholesalers Assn,"$1,000",Richmond,VA,business,,Lobbying,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-05-15,VA Operators for Skill,$500,Richmond,VA,business,,Lobbying,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-05-06,Robin Williams,$200,Crozier,VA,individual,Retired,Retired,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-05-01,Jeff McWaters,"$1,000",Virginia Beach,VA,individual,Retired,Retired,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-04-26,Gary Hines,$500,Mineral,VA,individual,FUMA,Scout,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-04-24,"Showmasters, Inc.","$3,000",Blacksburg,VA,business,,Gun Show Showrunner,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-04-19,Conservative Opportunity Fund,"$2,500",Rock Hill,SC,pac,,Political Action Committee,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-04-15,Carlyle Gregory,"$1,000",Falls Church,VA,individual,Self,Consultant,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-04-11,Lois Garrett,$200,Louisa,VA,individual,Retired,Retired,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-04-01,Coleman Allen,$500,Richmond,VA,individual,Allen Allen Allen Allen,Attorney,,A,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-21,Constant Contact,$45,Waltham,MA,,,,Web Services,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-22,Constant Contact,$45,Waltham,MA,,,,Web Services,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-14,VistaPrint,$122.87,Waltham,MA,,,,Printing,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-25,VistaPrint,$212.17,Waltham,MA,,,,Printing,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-26,VistaPrint,$424.73,Waltham,MA,,,,Printing and Mailing,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-27,VistaPrint,$424.73,Waltham,MA,,,,Mailing and Printing,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-03,VistaPrint,$424.73,Waltham,MA,,,,Printing and Mailing,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-10,VistaPrint,$414.21,Waltham,MA,,,,Printing and Mailing,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-10,VistaPrint,$414.21,Waltham,MA,,,,Mailing and Printing,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-06,VistaPrint,$113.59,Waltham,MA,,,,Printing,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-08,Amazon,$4.99,Seattle,WA,,,,Prime Video,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-04,Staples,$21.05,Charlottesville,VA,,,,Office Supplies,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-28,Zoho,$20,Pleasanton,CA,,,,Web Services,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-22,Kroger,$7.54,Appomattox,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-03,Robocent,$39.84,Virginia Beach,VA,,,,Automated Texting,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-09,Scottsville USPS,$96,Scottsville,VA,,,,Postage,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-13,Matthew Wisniewski,"$2,700",Lynchburg,VA,,,,Salary,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-15,Matthew Wisniewski,"$2,700",Lynchburg,VA,,,,Salary,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-25,Zachary Werrell,"$3,000",Leonardtown,MD,,,,Consulting Fee,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-22,Staples,$112.29,Lynchburg,VA,,,,Office Supplies,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-03,Sunoco Appomattox,$12.56,Appomattox,VA,,,,fuel,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-03,Vito's Italian Restaurant,$25.28,Cumberland,VA,,,,Meal,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-04,McDonalds Dillwyn,$21.03,Dillwyn,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-17,Beijing Kitchen,$26.30,Scottsville,VA,,,,Campaign Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-22,Beijing Kitchen,$41.12,Scottsville,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-18,Michael's,$7.81,Waynesboro,VA,,,,Office Supplies,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-24,Dominion Outdoors,$134.76,Fischersville,VA,,,,Donor Gift,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-21,Chick-fil-a,$26.38,Charlottesville,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-01,Chick-fil-a,$22.20,Charlottesville,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-12,Chick-fil-a,$24.99,Charlottesville,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-24,5th Street Exxon,$47.80,Charlottesville,VA,,,,Fuel,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-22,5th Street Exxon,$44.19,Charlottesville,VA,,,,Fuel,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-25,Charlottesville USPS,$240,Charlottesville,VA,,,,Stamps,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-04-27,El Vaquero West,$33.43,Palmyra,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-11,El Vaquero West,$21.10,Palmyra,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-19,El Vaquero West,$33.17,Palmyra,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-02,Rodeo's Mexican Restaurant,$31.91,Dillwyn,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-08,Rodeo's Mexican Restaurant,$40.74,Dillwyn,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-17,Kroger,$8.57,Charlottesville,VA,,,,Office Supplies,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-18,Rocco's Italian Restaurant,$22.64,Goochland,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-19,Dunkin Donuts,$331.42,Lynchburg,VA,,,,Food/Beverages,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-22,Lumpkins,$57.64,Scottsville,VA,,,,Campaign Supplies,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-22,Wal-Mart,$32.59,Lynchburg,VA,,,,Office Supplies,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-05-20,Amici's Italian Restaurant,$181,Scottsville,VA,,,,Food,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-08,Duke Oil Company,$37.12,Mineral,VA,,,,Fuel,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-06,Sticker Giant,$190.27,Longmont,CO,,,,Printing,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-05,Beaverdam Quik Stop,$38.01,Beaverdam,VA,,,,Fuel,D,328350,2023-04-01 to 2023-06-08,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-06-09,Matthew Bailey,$250,Appomattox,VA,individual,Self,Lawyer,,A,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-06-09,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Political Action Committee,,A,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-06-16,Elias Hall,$250,Mineral,VA,individual,Retired,Retired,,A,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-06-16,F. W. Billingsley,$300,Mineral,VA,individual,Retired,Retired,,A,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-21,Constant Contact,$19.99,Waltham,MA,,,,Web Services,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-14,Staples,$15.78,Charlottesville,VA,,,,Office Supplies,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-14,Scottsville USPS,$4.15,Scottsville,VA,,,,Postage,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-10,Matthew Wisniewski,$129.42,Lynchburg,VA,,,,Mileage,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-16,Staples,$15.78,Lynchburg,VA,,,,Office Supplies,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-12,Goochland Restaurant,$55.63,Goochland,VA,,,,Food,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-12,Starbucks,$9.43,Midlothian,VA,,,,Food,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-12,The UPS Store,$8.43,Charlottesville,VA,,,,Postage,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-21,The UPS Store,$41.21,Charlottesville,VA,,,,Office Supplies,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-12,Taco Wagon,$28.77,Appomattox,VA,,,,Food,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-13,Delbridge Abigail,$200,Scottsville,VA,,,,Staffing,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-06-16,INNACQNC,$791.96,ERR,NC,,,,Yard Signs,D,340403,2023-06-09 to 2023-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-08-29,Buckingham County Republican Party,"$3,265",New Canton,VA,party,,Republican - State/Local Committees,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-08-29,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,Trial Lawyers,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-08-29,Jonathan Lyle for Supervisor,$500,Manakin Sabot,VA,candidate,,Candidate,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-08-23,McGuire Woods,$250,Richmond,VA,business,,Attorneys/Law Firms,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-08-21,Virginia Dental Association,"$2,500",Richmond,VA,business,,Dentists,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-08-21,Virginia Wine Wholesalers,"$1,500",Richmond,VA,business,,Beverages - Alcohol Distributors/Brokers,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-07-31,Virginia Cable Politcal Action Committee,$500,Richmond,VA,business,,TV-Cable,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-07-31,Huntington Ingalls Industries,$500,Newport News,VA,business,,Defense - Shipbuilding,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-07-10,Acorn West LLC,"$3,150",Louisa,VA,business,,Unknown,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-07-10,Virginia State Police Association,$250,Richmond,VA,business,,Police,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-07-07,Dominion Energy,"$10,000",Richmond,VA,business,,Electric Utilities,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-07-07,Prince Edward County Republican Committee,"$1,000",Farmville,VA,business,,Republican - State/Local Committees,,A,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-07-21,Constant Contact,$22,Waltham,MA,,,,Email,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-07-12,VistaPrint,$175.19,Waltham,MA,,,,Print Materials,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-07-10,Matthew Wisniewski,"$5,000",Lynchburg,VA,,,,Salary,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-07-13,Zachary Werrell,"$5,000",Leonardtown,MD,,,,Consulting Fee,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-09,Food Lion,$46.37,Scottsville,VA,,,,Event Supplies,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-01,El Mariachi Zions Crossroads,$47.57,Gordonsville,VA,,,,Food,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-03,Goochland Restaurant,$28.22,Goochland,VA,,,,Food,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-07-17,Starbucks,$11.21,Midlothian,VA,,,,Food,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-07-12,Taco Wagon,$36.12,Appomattox,VA,,,,Food,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-07-14,INNACQNC,$478.44,ERR,NC,,,,Yard Signs,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-02,Exxon,$23.99,Charlottesville,VA,,,,Fuel,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-14,Exxon,$47.67,Charlottesville,VA,,,,Fuel,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-07,Jennie Wood,$500,Goochland,VA,,,,Salary,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-15,Jennie Wood,$500,Goochland,VA,,,,Salary,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-14,The Omni Homestead Resort,$345.23,Hot Springs,VA,,,,Retreat hotel,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-14,"Aura Sub, LLC",$108,Burlington,MA,,,,Software,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-08-16,Blade HQ,$57.62,Marion,VA,,,,Supplies,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-07-05,WinRed,$1.97,Arlington,VA,,,,Credit Card Fees,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-07-10,WinRed,$1.97,Arlington,VA,,,,Credit Card Fees,D,351800,2023-07-01 to 2023-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-09-11,Brenda Finchum,$104.10,Palmyra,VA,individual,Retired,Retired,,A,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-09-22,William Beverley,$520.51,Glen Allen,VA,individual,Insight,Sales,,A,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-09-23,Jason Beach,$260.25,Palmyra,VA,individual,retired,Retired,,A,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-09-23,Joe Herbert,$260.25,Henrico,VA,individual,Herbert Law,Attorney,,A,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-09-25,Donald Ramirez,$500,Troy,VA,individual,retired,Retired,,A,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-09-27,James Baughn,$250,Fork Union,VA,individual,Baker Consulting,Pipeline Inspector,,A,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-09-05,VA Beverage Association,"$1,000",Richmond,VA,pac,,PAC,,A,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-09-18,Matthew Wisniewski,"$2,400",Lynchburg,VA,,,,Final Bonus,D,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-09-07,Courthouse Market and Grill,$27.18,Goochland,VA,,,,Lunch,D,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-09-21,Zachary Werrell,"$4,500",Leonardtown,MD,,,,Final Bonus,D,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-09-08,Exxon,$36.83,Charlottesville,VA,,,,Gas,D,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-09-05,Jennie Wood,$500,Goochland,VA,,,,Campaign Salary,D,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-09-18,Jennie Wood,$500,Goochland,VA,,,,Campaign Salary,D,365195,2023-09-01 to 2023-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-13,James Baughn,$200,Fork Union,VA,individual,Baker Consulting,Pipeline Inspector,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-13,Mel Sheridan,$250,Kents Store,VA,individual,Fluvanna County,Commissioner of Revenue,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-23,Ronnie Finchum,$300,Troy,VA,individual,Retired,Retired,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-23,"Tenaska Partners,n L.P",$500,Omaha,NE,business,,Power Plant,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-23,Betting on VA Jobs,"$2,500",Richmond,VA,pac,,PAC,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-23,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-23,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,Realtor,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-23,VA Apt. Mgmt. Assoc. PAC,$500,Richmond,VA,pac,,Housing,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-13,Murdoch Matheson,$250,Charlottesville,VA,individual,Frank Hardy Sotheby's Realty,Realtor,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-13,Thomas Gilbert,"$1,000",Gordonsville,VA,individual,Tom Gilbert,Self Employed,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-13,Maurice Perkins,"$1,000",Wellington,FL,individual,Retired,Retired,,A,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+in_kind,2023-10-13,AAP Construction,"$3,000",Louisa,VA,business,,Construction,Event Food,B,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-10-24,Amici's Italian Restaurant,$65.21,Scottsville,VA,,,,Lunch,D,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-10-24,Taco Wagon,$85.99,Appomattox,VA,,,,Lunch,D,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-10-26,Exxon,$43.65,Charlottesville,VA,,,,Gas,D,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-10-06,Jennie Wood,$500,Goochland,VA,,,,Salary,D,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-10-23,Jennie Wood,$900,Goochland,VA,,,,Salary,D,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-10-25,Atlas 42,"$3,090",Glen Allen,VA,,,,Election night event,D,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-10-26,CityParking INC,$12,Richmond,VA,,,,Parking,D,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-10-26,Baker's Crust,$69.39,Richmond,VA,,,,Lunch,D,369172,2023-10-01 to 2023-10-26,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-11-07,John Chavan,$240.15,Keswick,VA,individual,UVA,Registered Nurse,,A,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-11-27,Virginia Automobile Dealers Association PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-11-15,Brenda Finchum,$50,Palmyra,VA,individual,Retired,Retired,,A,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-11-01,Dominion Energy,"$5,000",Richmond,VA,business,,Electric Utilities,,A,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-30,Altria Client Services,"$1,000",Richmond,VA,pac,,PAC,,A,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-10-30,American Electric Power Committee for Responsible Government,$500,Washington,DC,pac,,Utility,,A,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-11-01,Virginia Health Care Association,"$1,000",Richmond,VA,pac,,PAC,,A,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-11-07,Renee Maxey,$250,Farmville,VA,individual,Retired,Retired,,A,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2023-11-20,Capital Results LLC,$500,Richmond,VA,business,,Consulting Firm,,A,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+in_kind,2023-11-04,Republican Party of Virginia,"$3,600",Richmond,VA,party,,Committee,direct mail,B,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-02,Constant Contact,$66,Waltham,MA,,,,email,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-21,Constant Contact,$45,Waltham,MA,,,,Email,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-27,Amazon,$56.85,Seattle,WA,,,,Supplies,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-16,Zachary Werrell,$296.14,Leonardtown,MD,,,,Website reimbursement,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-10,Chick-fil-a,$20.52,Charlottesville,VA,,,,Meeting Food,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-08,El Vaquero West,$47.41,Palmyra,VA,,,,Food,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-07,Amici's Italian Restaurant,$78.09,Scottsville,VA,,,,Campaign Dinner,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-16,Goochland Restaurant,$40.09,Goochland,VA,,,,Meeting,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-02,Starbucks,$10.06,Midlothian,VA,,,,Coffee Meeting,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-10-30,Exxon,$28.01,Charlottesville,VA,,,,Gas,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-09,Exxon,$42.99,Charlottesville,VA,,,,Gas,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-13,Exxon,$34.05,Charlottesville,VA,,,,Gas,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-20,Exxon,$55.31,Charlottesville,VA,,,,Gas,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-02,Jennie Wood,$500,Goochland,VA,,,,Campaign Salary,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-16,Jennie Wood,$500,Goochland,VA,,,,Salary,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-28,Jennie Wood,$500,Goochland,VA,,,,Salary,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-09,Atlas 42,"$1,611.38",Glen Allen,VA,,,,Election night party,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-08,CityParking INC,$4,Richmond,VA,,,,Parking,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-21,CityParking INC,$20,Richmond,VA,,,,Parking,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-21,CityParking INC,$20,Richmond,VA,,,,Parking,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-29,CityParking INC,$20,Richmond,VA,,,,parking,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-01,Wawa,$41.65,Richmond,VA,,,,Gas,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-06,John Newman for Cumberland Supervisor,$200,Cumberland,VA,,,,Campaign Contribution,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-08,FedEx Office,$93.81,Richmond,VA,,,,Election print materials,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-08,FedEx Office,$37.09,Richmond,VA,,,,Campaign print materials,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-09,North Street Press Club,$48.31,Farmville,VA,,,,Campaign Lunch,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-09,Hilton Garden Inn,$188.54,Glen Allen,VA,,,,Hotel,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-09,Office Max,$23.56,Richmond,VA,,,,Office Supplies,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-08,William Janis,"$3,000",St. Petersburg,FL,,,,Campaign Consulting,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-13,Drury Plaza Hotel Richmond,$249.99,Glen Allen,VA,,,,Hotel,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-22,Miller & Rhoads Apartments,$253.95,Richmond,VA,,,,Session housing deposit,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-22,Miller & Rhoads Apartments,$253.95,Richmond,VA,,,,Session housing deposit,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-22,Miller & Rhoads Apartments,$53.95,Richmond,VA,,,,session housing deposit,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-11-29,Costco,"$1,474.81",Glen Allen,VA,,,,Constituent outreach supplies,D,384866,2023-10-27 to 2023-11-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-21,Constant Contact,$45,Waltham,MA,,,,Email,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-22,Amazon,$6.40,Seattle,WA,,,,Office Supplies,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-22,Amazon,$28.38,Seattle,WA,,,,Office Supplies,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-27,Amazon,$20.31,Seattle,WA,,,,Office Supplies,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-29,Amazon,$50.52,Seattle,WA,,,,Office Supplies,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-20,Matthew Wisniewski,"$3,000",Lynchburg,VA,,,,Consulting,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-21,Taco Wagon,$27.50,Appomattox,VA,,,,Lunch,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-15,Exxon,$49.41,Charlottesville,VA,,,,Gas,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-07,Jennie Wood,$500,Goochland,VA,,,,Salary,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-07,CityParking INC,$30,Richmond,VA,,,,Parking,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-01,William Janis,"$3,000",St. Petersburg,FL,,,,Campaign consulting,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-07,Coconut Thai,$37.84,Crozet,VA,,,,Dinner,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-11,Kia of Charlottesville,$103.47,Charlottesville,VA,,,,Car Repair,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-14,USPS,$13.20,Goochland,VA,,,,Postage,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-20,Hardees,$19.07,Goochland,VA,,,,Lunch,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-22,Sheetz,$14.83,Farmville,VA,,,,Gas,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-26,Hannah Nuckols,$70,unknown,VA,,,,Campaign work,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2023-12-27,Abigail Delbridge,$60,Bumpass,VA,,,,Campaign work,D,394382,2023-12-01 to 2023-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-01-05,McGuire Woods,$250,Richmond,VA,business,,Attorneys/Law Firms,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-06-26,Virginia Cable Politcal Action Committee,$500,Richmond,VA,business,,TV-Cable,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-06-26,Altria Client Services,"$1,000",Richmond,VA,pac,,PAC,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-04-24,Miller & Rhoads Apartments,$249,Richmond,VA,business,,,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-04-02,David A. Powell,"$20,000",Troy,VA,individual,Self,Construction,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-06-28,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,PAC,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-06-28,Virginia Forestry Resources PAC,$250,Richmond,VA,pac,,Association,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-01-09,Commonwealth Sportsman's Alliance PAC,$250,Powhatan,VA,pac,,Hunting,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-01-09,Reed Smith LLP,$250,Richmonda,VA,business,,Law Firm,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-01-09,Virginia Sheriffs' Association,$250,Richmond,VA,business,,Association,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-01-05,Hunton Andrews Kurth,$500,Richmond,VA,business,,Law Firm,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-01-02,Dr. Jeffery Michaels,$250,Sandy Hook,VA,individual,Family Vision Care of Richmond,Optometrist,,A,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-15,Thomas A Garrett,$14.29,Scottsville,VA,,,,accidental charge- reimbursed,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-22,Constant Contact,$51,Waltham,MA,,,,Email,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-21,Constant Contact,$51,Waltham,MA,,,,Email,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-03-21,Constant Contact,$51,Waltham,MA,,,,Email,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-04-22,Constant Contact,$51,Waltham,MA,,,,Email,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-21,Constant Contact,$51,Waltham,MA,,,,Email,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-06-21,Constant Contact,$51,Waltham,MA,,,,Email,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-09,Best Buy,$105.99,Charlottesville,VA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-10,Best Buy,$15.88,Charlottesville,VA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-05,Amazon,$31.64,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-11,Amazon,$10.59,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-11,Amazon,$123.70,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-02,Amazon,$54.05,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-05,Amazon,$8.05,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-20,Amazon,$12.33,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-26,Amazon,$13.68,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-26,Amazon,$10.52,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-27,Amazon,$8.37,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-28,Amazon,$7.82,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-28,Amazon,$6.47,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-28,Amazon,$6.47,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-29,Amazon,$52.95,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-29,Amazon,$21.48,Seattle,WA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-05,Staples,$56.75,Charlottesville,VA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-30,Staples,$20.64,Charlottesville,VA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-22,Staples,$87.33,Charlottesville,VA,,,,Mailing Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-23,Staples,$123.98,Charlottesville,VA,,,,Mailing supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-09,Zachary Werrell,$90,Leonardtown,MD,,,,Web Services,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-09,Zachary Werrell,$50,Leonardtown,MD,,,,Web Development,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-10,Zachary Werrell,$60,Leonardtown,MD,,,,Web work,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-23,Chick-fil-a,$31.35,Charlottesville,VA,,,,Meeting,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-08,Taco Wagon,$26.50,Appomattox,VA,,,,Meeting,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-13,Exxon,$48.37,Charlottesville,VA,,,,Fuel,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-02,Jennie Wood,$500,Goochland,VA,,,,Salary,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-11,Jennie Wood,$500,Goochland,VA,,,,Salary,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-16,Jennie Wood,$66.58,Goochland,VA,,,,reimbursement,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-07,Jennie Wood,$500,Goochland,VA,,,,Salary,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-03-06,Jennie Wood,$500,Goochland,VA,,,,Salary,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-29,Jennie Wood,$345,Goochland,VA,,,,Political Work,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-06-28,Jennie Wood,$200,Goochland,VA,,,,Fundraising Consulting,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-08,CityParking INC,$20,Richmond,VA,,,,Parking,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-09,CityParking INC,$20,Richmond,VA,,,,Parking,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-10,CityParking INC,$20,Richmond,VA,,,,Parking,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-11,CityParking INC,$20,Richmond,VA,,,,Parking,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-03-12,CityParking INC,$13,Richmond,VA,,,,Parking,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-12,Costco,$418.54,Glen Allen,VA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-21,Truist,$72,Richmond,VA,,,,Service Charge,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-04-19,Pinos Italian Restaurant,$74.26,Dillwyn,VA,,,,Meeting,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-02,Pinos Italian Restaurant,$66.70,Dillwyn,VA,,,,Meeting,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-05-02,Smokin Eddie's BBQ,$65,Louisa,VA,,,,Meeting,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-04-24,Republican Commonwealth Leadership PAC,"$10,000",Richmond,VA,,,,Contribution,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-22,Hilton Richmond,$173.26,Richmond,VA,,,,Lodging,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-05,Hilton Richmond,$173.26,Richmond,VA,,,,Lodging,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-04-19,Hilton Richmond,$183.07,Richmond,VA,,,,Lodging,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-04-03,EZ Ship,$180,Goochland,VA,,,,PO Box,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-03-01,Meriwether's,$390.49,Richmond,VA,,,,Swearing in ceremony catering,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-14,Strange's Florist,$132.45,Richmond,VA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-05,Dollar Tree,$42.93,Richmond,VA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-02-01,Virginia Department of Motor Vehicles,$94.79,Richmond,VA,,,,Renewal,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-23,Old Original Bookbinders,$289.06,Richmond,VA,,,,Dinner,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-22,The Hop Craft,$55,Richmond,VA,,,,Dinner,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-19,American Legislative Exchange Council,$200,Arlington,VA,,,,Membership,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-08,Verizon Wireless,$446.62,Charlottesville,VA,,,,Phone,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-05,Alphagraphics,$786.48,Henrico,VA,,,,Printing,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-01-05,Target,$100.69,Glen Allen,VA,,,,Supplies,D,410480,2024-01-01 to 2024-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-12-17,Virginia Automobile Dealers Association PAC,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-12-31,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Political Action Committee,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-12-31,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,Trial Lawyers,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-12-05,McGuire Woods,$500,Richmond,VA,business,,Attorneys/Law Firms,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-12-31,Huntington Ingalls Industries,$500,Newport News,VA,business,,Defense - Shipbuilding,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-08-08,Virginia State Police Association,$250,Richmond,VA,business,,Police,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-25,Virginia State Police Association,$250,Richmond,VA,business,,Police,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-10-29,Dominion Energy,"$10,000",Richmond,VA,business,,Electric Utilities,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-10-29,"Tenaska Partners,n L.P","$1,000",Omaha,NE,business,,Power Plant,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-15,Betting on VA Jobs,"$2,500",Richmond,VA,pac,,PAC,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-10-29,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-12-20,Reed Smith LLP,$250,Richmonda,VA,business,,Law Firm,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-07,Virginia Sheriffs' Association,$250,Richmond,VA,business,,Association,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-25,Hunton Andrews Kurth,$500,Richmond,VA,business,,Law Firm,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-07-01,Anheuser Busch Companies,$250,St. Louis,MO,business,,Brewery,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-10-29,"Virginia Asphalt Association, Inc",$250,Richmond,VA,business,,Asphalt Association,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-10-29,Jushi Inc,$500,Boca Raton,FL,business,,Horticulture,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-07,Virginia Beer Wholesalers Association,$500,Richmond,VA,business,,Beer Wholesalers Association,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-07,Virginia Eagle Distribution Company LLC,$500,Verona,VA,business,,Distribution,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-07,Caesars Enterprise Services LLC,"$1,000",Las Vegas,VA,business,,Hospitality,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-07,Washington Gas Light Company PAC,"$1,000",Washington,DC,pac,,Political Action Committee,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-08,Commissioner of Revenue Political Action Committee,$125,Newport News,VA,pac,,Political Action Committee,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-12,Virginia Petroleum & Convenience Marketers PAC,$250,"Richmond, VA",VA,pac,,Political Action Committee,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-25,Virginia Credit Union Political Action Committee,$250,Lynchburg,VA,pac,,Political Action Committee,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-11-25,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,business,,Gaming,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-12-30,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Law Firm,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-12-31,Commercial Development Political Action Committee,$250,Alexandria,VA,pac,,Political Action Committee,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2024-08-14,Jeffery Michaels,$250,Sandy Hook,VA,individual,Family Vision Care,Optometrist,,A,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-07-22,Constant Contact,$51,Waltham,MA,,,,Web Services,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-12-04,Staples,$198.19,Charlottesville,VA,,,,Campaign Supplies,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-08-21,El Mariachi Zions Crossroads,$78.68,Gordonsville,VA,,,,Food,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-11-12,El Mariachi Zions Crossroads,$47.60,Gordonsville,VA,,,,Food,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-12-02,Chick-fil-a,$38.56,Charlottesville,VA,,,,Food,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-11-15,Goochland Restaurant,$57.31,Goochland,VA,,,,Food,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-12-12,Goochland Restaurant,$14.63,Goochland,VA,,,,Food,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-11-25,Jennie Wood,"$2,000",Goochland,VA,,,,Salary,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-12-30,Miller and Rhoads Apartments,$53.95,Richmond,VA,,,,Lodging,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-12-20,Costco,"$1,125.62",Glen Allen,VA,,,,Campaign Supplies,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-11-07,USPS,$32,Goochland,VA,,,,Postage,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-07-03,Hampton by Hilton,$214.06,McLean,VA,,,,Lodging,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-07-08,Treasurer of Virginia,"$1,743.65",Richmond,VA,,,,Postage,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-07-08,Treasurer of Virginia,$100,Richmond,VA,,,,Approp. Chair,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-10-08,Treasurer of Virginia,$37,Richmond,VA,,,,Campaign Supplies,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-08-14,Baine's Books,$3.79,Scottsville,VA,,,,Campaign Supplies,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-09-03,Aura,$108,Boston,MA,,,,Web Services,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-11-13,University of Richmond,$420,Richmond,VA,,,,Campaign Gift for Supporters,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-11-18,Royal Mart,$32.53,Staunton,VA,,,,Fuel,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-12-16,Dominos,$229.80,Forest,VA,,,,Food,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-12-23,Tavern on the James,$93.87,Scottsville,VA,,,,Food,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2024-12-23,The Market,$41.46,Scottsville,VA,,,,Fuel,D,431951,2024-07-01 to 2024-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-02-26,Commonwealth Sportsman's Alliance PAC,$500,Powhatan,VA,pac,,Hunting,,A,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-01-27,Amazon,$10.59,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-02-20,Amazon,$893.59,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-02-25,Amazon,$34.74,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-03,Amazon,$38.91,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-04,Amazon,$45.06,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-05,Amazon,$52.64,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-10,Amazon,$18,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-10,Amazon,$29.48,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-10,Amazon,$25.79,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-12,Amazon,$10.52,Seattle,WA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-01-21,Staples,$66.63,Charlottesville,VA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-31,Cumberland Restaurant,$25.90,Cumberland,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-02-14,Food Lion,$30.72,Scottsville,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-01-24,Michael's,$131.39,Waynesboro,VA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-02-10,Michael's,$100,Waynesboro,VA,,,,Office Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-25,Pinos Italian Restaurant,$82.90,Dillwyn,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-01-10,Hilton Richmond,$6.68,Richmond,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-02-21,Hilton Richmond,$33.47,Richmond,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-02-28,The Market,$48,Scottsville,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-01-03,DMV,$70.43,Orange,VA,,,,Campaign Supplies,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-01-06,Taco Bell,$10.74,Charlottesville,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-01-16,Bookbinders Seafood and Restaurant,$155.76,Richmond,VA,,,,Gifts,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-01-22,Cafe Rustica,$113.54,Richmond,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-01-24,Parkingcor VA St,$7,Richmond,VA,,,,Parking,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-02-10,Wegmans,$69.31,Henrico,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-02-12,MCV Foundation,$104.56,Richmond,VA,,,,Gifts,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-06,Woodridge Farm Brewery,$64.64,Lovingston,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-14,Woodridge Farm Brewery,$37.29,Lovingston,VA,,,,Campaign Meeting Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-03-24,Plaza Azteca,$30.43,Charlottesville,VA,,,,Food,D,436748,2025-01-01 to 2025-03-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-04-04,Amazon,$52.95,Seattle,WA,,,,Office Supplies,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-04-07,Amazon,$42.39,Seattle,WA,,,,Office Supplies,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-02,Staples,$145.42,Charlottesville,VA,,,,Office Supplies,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-04-18,Jennie Wood,"$1,000",Goochland,VA,,,,Staff,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-29,Jennie Wood,"$1,000",Goochland,VA,,,,Staff,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-04-01,USPS,$10.85,Goochland,VA,,,,Postage,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-05,EZ Ship,$190,Goochland,VA,,,,Shipping/Postage,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-04-03,Treasurer of Virginia,$37,Richmond,VA,,,,Flag,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-30,The Market,$45,Scottsville,VA,,,,Food/Fuel,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-04-04,El Cazador,$40.97,Scottsville,VA,,,,Food,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-09,Texas Roadhouse,$37.03,Roanoke,VA,,,,Food,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-22,Exxon Lakeway,$38.87,Abingdon,VA,,,,Food,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-23,The Sessions Hotel,$212.28,Bristol,VA,,,,Lodging,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-02,Omni Hotsprings,$24.67,Hot Springs,VA,,,,Food,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-02,Omni Hotsprings,$30.05,Hot Springs,VA,,,,Food,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-04,Omni Hotsprings,$308.21,Hot Springs,VA,,,,Lodging,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-04,Omni Hotsprings,$28.31,Hot Springs,VA,,,,Food,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-27,Friends of Geary Higgins,$500,Waterford,VA,,,,Donation,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-01,House Republican Campaign Committee,"$2,000",Henrico,VA,,,,Donation,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-25,Friends of Tim Anderson,"$1,000",Virginia Beach,VA,,,,Donation,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-05-01,Friends of Paul Milde,"$1,000",Stafford,VA,,,,Donation,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-04-08,Virginia Department of General Services,$10,Richmond,VA,,,,Parking,D,441781,2025-04-01 to 2025-06-05,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-06-08,Joseph Kubat,$200,Williamsburg,VA,individual,retired,Retired,,A,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-06-09,Donald Ramirez,$500,Troy,VA,individual,retired,Retired,,A,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-06-08,Altria Client Services,"$1,000",Richmond,VA,pac,,PAC,,A,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-06-20,Anheuser Busch Companies,$250,St. Louis,MO,business,,Brewery,,A,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-06-08,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Law Firm,,A,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-06-08,Vellie Hall,$200,Charlotte Court House,VA,individual,HPS Enterprises Inc,Management Consultant,,A,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-30,Amazon,$29.37,Seattle,WA,,,,Campaign Supplies,D,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-30,Staples,$140.94,Charlottesville,VA,,,,Printing/Supplies,D,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-13,The Market,$54.14,Scottsville,VA,,,,Food,D,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-07,Friends of Chad Green,$500,Seaford,VA,,,,Donation,D,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-23,Storm for Virginia,"$1,000",Alexandria,VA,,,,Donation,D,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-23,Friends of David Owen,"$1,000",Manakin Sabot,VA,,,,Donation,D,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-23,Friends of Carrie Coyner,"$1,000",Chesterfield,VA,,,,Donation,D,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-06-12,James River Trails Run,$300,Gladstone,VA,,,,Deposit on Event,D,448198,2025-06-06 to 2025-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-07-10,Virginia Automobile Dealers Association PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-08-04,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,Trial Lawyers,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-07-10,Virginia Cable Politcal Action Committee,$500,Richmond,VA,business,,TV-Cable,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-08-01,Huntington Ingalls Industries,$500,Newport News,VA,business,,Defense - Shipbuilding,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-07-10,Virginia Sheriffs' Association,$250,Richmond,VA,business,,Association,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-07-10,James Wilkinson,$250,Henrico,VA,individual,Retired,Retired,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-07-14,Dominion Electric PAC,"$15,000",Richmond,VA,pac,,PAC,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-08-01,Dominion Electric PAC,"$25,000",Richmond,VA,pac,,PAC,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-08-04,Virginians for Rob Bell,"$2,500",Charlottesville,VA,business,,Campaign Committee,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-08-15,Kenly Noel,$200,Palmyra,VA,individual,Retired,Retired,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-08-20,Friends of Cavalier,"$1,000",Glen Allen,VA,pac,,PAC,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-08-16,Daniel Wagner,$104.10,Arlington,VA,individual,Self,Consultant,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-07-25,Eric Brazeal,$104.10,Broadnax,VA,individual,Sadler Brothers Oil,Service Department,,A,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-17,Jennie Wood,"$1,500",Goochland,VA,,,,Staff,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-08-04,Jennie Wood,"$1,500",Goochland,VA,,,,Staff,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-22,WinRed,$2.05,Arlington,VA,,,,Processing Fee,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-25,WinRed,$4.10,Arlington,VA,,,,Processing Fee,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-08-01,WinRed,$3.94,Arlington,VA,,,,Processing Fee,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-08-16,WinRed,$4.10,Arlington,VA,,,,Processing Fee,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-08-19,FedEx Office,$16.24,Richmond,VA,,,,Campaign Supplies,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-02,USPS,$14.60,Goochland,VA,,,,Postage,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-14,Treasurer of Virginia,$37,Richmond,VA,,,,Flag Purchase,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-15,The Market,$46.95,Scottsville,VA,,,,Fuel,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-08-19,Friends of Tim Anderson,"$7,500",Virginia Beach,VA,,,,Contribution,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-08-19,Storm for Virginia,"$7,500",Alexandria,VA,,,,Contribution,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-12,Friends of David Owen,$500,Manakin Sabot,VA,,,,Campaign Contribution,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-09,Cumberland County Public Schools,$250,Cumberland,VA,,,,sponsorship,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-14,Staples,$28.62,Richmond,VA,,,,Campaign Supplies,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-14,USPS,$29.04,N Chesterfield,VA,,,,Postage,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-12,Friends,"$1,500",Henrico,VA,,,,Campaign Contribution,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-12,Mark Earley for Delegate,"$1,500",Midlothian,VA,,,,Contribution,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-26,"Blue Ridge Law, PLLC","$1,200",Faber,VA,,,,Legal Services,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-15,Friends of Gregory Lee Gorham,"$1,500",Catharpin,VA,,,,Contribution,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-10,Friends of Chris Obenshain,"$1,000",Blacksburg,VA,,,,Contribution,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-12,Winsome Sears for Governor,$500,Richmond,VA,,,,Contribution,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-07-17,Virginia House of Delegates,"$2,128.70",Richmond,VA,,,,Postage,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-08-05,Dollar General,$25.54,Verona,VA,,,,Campaign Supplies,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-08-12,Aura,$199,Boston,MA,,,,Web Services,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-08-13,X.com,$114.99,San Francisco,CA,,,,Web Services,D,453961,2025-07-01 to 2025-08-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-15,Virginia Automobile Dealers Association PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-06,William Pace,$125,Chatham,VA,individual,Virginia House of Delegates,Legislative Assistant,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-15,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Political Action Committee,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-15,Virginia Wine Wholesalers,"$1,000",Richmond,VA,business,,Beverages - Alcohol Distributors/Brokers,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-15,VA Beverage Association,$750,Richmond,VA,pac,,PAC,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-25,Betting on VA Jobs,"$2,500",Richmond,VA,pac,,PAC,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-05,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-02,Abyon LLC,$500,Richmond,VA,business,,Detention Center,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-15,James Chetham,$314.03,Moseley,VA,individual,Captial One,Banker,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-15,Caesars Enterprise Services LLC,"$1,000",Las Vegas,NV,business,,Entertainment Services,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-15,Karen Angulo,"$1,000",Concord,VA,individual,Retired,Retired,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-09-15,Reynolds Services Company,$500,Winston-Salem,NC,business,,Manufacturing,,A,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-09-02,Amazon,$24.37,Seattle,WA,,,,Campaign Supplies,D,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-09-08,Milad Mikhad for Delegate,"$1,000",Henrico,VA,,,,Campaign Contribution,D,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-09-15,Bobby May Advertising Specialties,"$5,011.16",Hurley,VA,,,,Sign Printing,D,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-09-25,Ashleys Market,$46,Afton,VA,,,,Food/Fuel,D,460927,2025-09-01 to 2025-09-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-03,Renee Maxey,$250,Farmville,VA,individual,Retired,Retired,,A,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-03,Commonwealth Sportsman's Alliance PAC,$500,Powhatan,VA,pac,,Hunting,,A,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-03,Virginia Beer Wholesalers Association,$500,Richmond,VA,business,,Beer Wholesalers Association,,A,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-03,Virginia Eagle Distribution Company LLC,$500,Verona,VA,business,,Distribution,,A,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-21,River City Sportsplex,"$1,000",Midlothian,VA,business,,Entertainment,,A,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-03,Frances Baker,$104.10,Manakin Sabot,VA,individual,Hologic,Territory Manager,,A,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-03,WinRed,$4.10,Arlington,VA,,,,Processing Speed,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-15,WinRed,$4.10,Arlington,VA,,,,Processing Fee,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-19,WinRed,$2.05,Arlington,VA,,,,Processing Fee,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-06,Wawa,$28.65,Richmond,VA,,,,Food,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-23,FedEx Office,$21.90,Richmond,VA,,,,Campaign Supplies,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-07,USPS,$59.50,Goochland,VA,,,,Postage,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-22,USPS,$71.40,Goochland,VA,,,,Postage,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-21,Truist,$75,Richmond,VA,,,,Service Charges,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-06,Friends of Geary Higgins,"$2,500",Waterford,VA,,,,Campaign Contribution,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-21,Friends of Tim Anderson,"$3,500",Virginia Beach,VA,,,,Campaign Contribution,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-06,Friends of Paul Milde,"$2,500",Stafford,VA,,,,Campaign Contribution,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-21,Friends of Paul Milde,"$3,500",Stafford,VA,,,,Campaign Contribution,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-06,Friends of Chad Green,"$2,500",Seaford,VA,,,,Campaign Contribution,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-06,Friends of David Owen,"$2,500",Manakin Sabot,VA,,,,Campaign Contribution,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-01,Los Panchos Restaurant,$54.47,Goochland,VA,,,,Food,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-01,McDonalds,$10.36,Gordonsville,VA,,,,Food,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-02,Marathon,$40,New Canton,VA,,,,Fuel,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-14,Kings Dominion,$65.57,Doswell,VA,,,,"Errant Use, Reimbursed 10/27/2025",D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-06,Mike Lamonea for Delegate,"$2,500",Chesapeake,VA,,,,Campaign Contribution,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-06,Friends of Sean Steinway,"$5,000",Alexandria,VA,,,,Campaign Contribution,D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-20,Amrit Ocean Resort,$112.35,Riviera Beach,FL,,,,"Lodging, Refunded",D,466008,2025-10-01 to 2025-10-23,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-28,McGuire Woods,$500,Richmond,VA,business,,Attorneys/Law Firms,,A,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-11-20,Hunton Andrews Kurth,$500,Richmond,VA,business,,Law Firm,,A,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-28,Dr. Jeffery Michaels,$250,Sandy Hook,VA,individual,Family Vision Care of Richmond,Optometrist,,A,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-28,Sriram Peddibhotla,$416.41,McLean,VA,individual,SAIC,IT Principal Architect,,A,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-10-28,Jason Boles,$250,Manakin Sabot,VA,individual,Retired,Retired,,A,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+contribution,2025-11-20,NiSource Inc. PAC,$250,Columbus,OH,pac,,Political Action Committee,,A,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-28,WinRed,$26.26,Arlington,VA,,,,Processing Fee,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-28,Wawa,$20.77,Richmond,VA,,,,Food,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-30,Wawa,$38.08,Richmond,VA,,,,Gas,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-11-16,Wawa,$43.01,Richmond,VA,,,,Fuel,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-11-03,Hardees,$8.05,Goochland,VA,,,,Food,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-28,Hilton Richmond,$9.93,Richmond,VA,,,,Food,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-30,Hilton Richmond,$182.56,Richmond,VA,,,,Lodging,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-31,Hilton Richmond,$685.14,Richmond,VA,,,,Lodging,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-31,Hilton Richmond,$12.04,Richmond,VA,,,,Food,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-11-01,The Market,$52,Scottsville,VA,,,,Fuel,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-29,Cafe Rustica,$184.19,Richmond,VA,,,,Food,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-24,Friends of Paul Milde,"$3,500",Stafford,VA,,,,Contribution,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-24,Friends of Chad Green,"$3,500",Seaford,VA,,,,Contribution,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-24,Friends of Carrie Coyner,"$3,500",Chesterfield,VA,,,,Contribution,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-24,Mark Earley for Delegate,"$3,500",Midlothian,VA,,,,Contribution,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-24,Friends of Sean Steinway,"$3,500",Alexandria,VA,,,,Contribution,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-24,Friends of Ian Lovejoy for Delegate,"$3,500",Manassas,VA,,,,Contribution,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-24,AC Cordoza for Delegate,"$3,500",Fort Monroe,VA,,,,Contribution,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-10-30,Spice of India,$28.11,Richmond,VA,,,,Food,D,471539,2025-10-24 to 2025-11-27,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-12-16,El Mariachi Zions Crossroads,$74.92,Gordonsville,VA,,,,Campaign Food,D,479775,2025-11-28 to 2025-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-12-16,Wawa,$23.08,Richmond,VA,,,,Food,D,479775,2025-11-28 to 2025-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-12-05,Pivot Parking,$30,Unknown,VA,,,,Parking,D,479775,2025-11-28 to 2025-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-12-17,Citgo,$22.45,Goochland,VA,,,,Fuel,D,479775,2025-11-28 to 2025-12-31,CC-22-00719,Tom Garrett for Delegate
+expenditure,2025-12-16,Christopher Thurston,$100,Unknown,VA,,,,Campaign Staff,D,479775,2025-11-28 to 2025-12-31,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-01-09,Virginia Cable Politcal Action Committee,$500,Richmond,VA,business,,TV-Cable,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-01-05,"Tenaska Partners,n L.P","$1,000",Omaha,NE,business,,Power Plant,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-04-24,Altria Client Services,"$1,000",Richmond,VA,pac,,PAC,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-01-12,Dominion Electric PAC,"$10,000",Richmond,VA,pac,,PAC,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-06-03,Dominion Electric PAC,"$5,000",Richmond,VA,pac,,PAC,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-01-12,Virginia Manufactured & Modular Housing Association PAC,$500,Henrico,VA,pac,,PAC,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-01-12,Virginia Manufactured & Modular Housing Association PAC,$500,Henrico,VA,pac,,PAC,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-01-01,"Arrow International, INC",$500,Cleveland,OH,business,,Manufacturing,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-04-22,Virginia Farm Bureau,$500,Richmond,VA,pac,,PAC,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+contribution,2026-01-08,Virginia Bankers Association,$500,Glen Allen,VA,pac,,PAC,,A,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-12,Amazon,$45.57,Seattle,WA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-20,Amazon,$69.23,Seattle,WA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-20,Amazon,$50.08,Seattle,WA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-20,Amazon,$39.96,Seattle,WA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-06-04,Amazon,$43.54,Seattle,WA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-06-05,Amazon,$144.25,Seattle,WA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-14,Wal-Mart,$39.45,Lynchburg,VA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-13,The UPS Store,$17.40,Charlottesville,VA,,,,mail,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-29,Exxon,$35.71,Charlottesville,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-09,Exxon,$49,Charlottesville,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-03-03,Exxon,$48.01,Charlottesville,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-06-05,Exxon,$27.01,Charlottesville,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-13,CityParking INC,$8,Richmond,VA,,,,Parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-14,CityParking INC,$8,Richmond,VA,,,,Parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-19,CityParking INC,$20,Richmond,VA,,,,Parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-23,CityParking INC,$4,Richmond,VA,,,,parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-22,CityParking INC,$32,Richmond,VA,,,,Parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-13,Wawa,$42.41,Richmond,VA,,,,Gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-20,Wawa,$36,Richmond,VA,,,,Gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-22,Wawa,$41.14,Richmond,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-23,Wawa,$33.02,Richmond,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-24,Wawa,$40,Richmond,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-20,Drury Plaza Hotel Richmond,$237.55,Glen Allen,VA,,,,Hotel,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-11,Drury Plaza Hotel Richmond,$276.72,Glen Allen,VA,,,,hotel,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-17,Drury Plaza Hotel Richmond,$174.41,Glen Allen,VA,,,,hotel,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-07,Costco,"$1,599.80",Glen Allen,VA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-04,Sheetz,$36.19,Farmville,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-30,Hilton Richmond,$399.50,Richmond,VA,,,,hotel,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-03-06,Hilton Richmond,$198.84,Richmond,VA,,,,hotel,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-03-06,Hilton Richmond,$8.83,Richmond,VA,,,,hotel,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-28,Meriwether's,$9.55,Richmond,VA,,,,Coffee,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-23,Meriwether's,$4.85,Richmond,VA,,,,coffee,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-23,Meriwether's,$9.10,Richmond,VA,,,,coffee,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-12,Target,$26.88,Glen Allen,VA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-12,Treasurer of Virginia,$37,Richmond,VA,,,,flag,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-15,Royal Mart,$37,Staunton,VA,,,,Gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-27,Royal Mart,$40.01,Staunton,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-03-06,Royal Mart,$32,Staunton,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-06-03,Royal Mart,$46,Staunton,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-05-26,Tavern on the James,$105,Scottsville,VA,,,,Dinner,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-22,The Market,$38,Scottsville,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-05-26,The Market,$11,Scottsville,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-12,Bookbinders Seafood and Restaurant,$244.45,Richmond,VA,,,,Dinner,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-06,Cafe Rustica,$39.48,Richmond,VA,,,,Dinner,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-06-03,Omni Hotsprings,$15.27,Hot Springs,VA,,,,hotel,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-17,Staples,$149.46,Richmond,VA,,,,Office Supplies,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-23,Staples,$90.15,Richmond,VA,,,,printing,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-23,Staples,$70.98,Richmond,VA,,,,printing,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-30,McDonalds,$7.75,Gordonsville,VA,,,,breakfast,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-14,Pivot Parking,$35,Unknown,VA,,,,Parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-24,Pivot Parking,$8,Unknown,VA,,,,parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-06-23,Pivot Parking,$30,Unknown,VA,,,,parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-06-30,Pivot Parking,$30,Unknown,VA,,,,parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-07,Kanak Indian Kitchen,$50.07,Charlottesville,VA,,,,Lunch Meeting,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-12,Thai Noodle House,$65.65,Charlottesville,VA,,,,Lunch Meeting,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-20,Flow Hyundai of Charlottesville,$149.16,Charlottesville,VA,,,,Car maint.,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-20,Krispy Kreme,$13.45,Richmond,VA,,,,Donuts,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-26,BP,$42,Richmond,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-19,BP,$46.16,Richmond,VA,,,,gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-01-27,CJ Blastos,"$1,250",Richmond,VA,,,,Session Aide,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-24,CJ Blastos,$100,Richmond,VA,,,,session aide,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-02-23,The Melting Pot,$296.58,Charlottesville,VA,,,,dinner,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-03-06,Sticker Mule,$815.14,unknown,VA,,,,stickers,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-03-06,Maharaja Fine,$121.38,Charlottesville,VA,,,,dinner,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-16,Taylor Thomas,$600,Palmyra,VA,,,,Video Production,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-05-19,Taylor Thomas,$500,Palmyra,VA,,,,Video Production,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-20,Westin Hotel,"$1,500",Richmond,VA,,,,event space,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-05-01,Westin Hotel,"$1,222.25",Richmond,VA,,,,event,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-20,Guitar Center,$296.75,Richmond,VA,,,,sound equipment,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-22,Guitar Center,$140.95,Richmond,VA,,,,sound equipment,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-28,Farmville Meter,$1,farmville,VA,,,,parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-28,Savour,$56.29,Farmville,VA,,,,dinner,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-04-29,Asian Cafe,$30.69,Mineral,VA,,,,lunch,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-05-04,The Butcher's Son,$136.36,Virginia Beach,VA,,,,dinner,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-05-04,Shell,$90,Virginia Beach,VA,,,,Gas,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-05-08,UVA Parking,$5,charlottesville,VA,,,,parking,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-05-28,Google,$14.99,Richmond,VA,,,,Google,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-06-08,Google,$5.50,Richmond,VA,,,,google,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate
+expenditure,2026-06-29,Google,$14.99,Richmond,VA,,,,Google,D,497465,2026-01-01 to 2026-06-30,CC-22-00719,Tom Garrett for Delegate

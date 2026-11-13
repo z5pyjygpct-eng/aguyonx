@@ -3,6 +3,118 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$102,663.68",,VA,,"From official Schedule H, November 2027 election cycle",H,494006,2026-07-10
 summary,2026-06-30,Raised this cycle,"$235,412.40",,,,Total receipts this election cycle (Schedule H),H,494006,2026-07-10
 summary,2026-06-30,Spent this cycle,"$169,179.55",,,,Total disbursements this election cycle (Schedule H),H,494006,2026-07-10
+contribution,2024-05-03,VA Operators for Skill,"$1,000",Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-06-03,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,407134,2024-07-09
+contribution,2024-01-03,Craig Stevens,$150,Warrenton,VA,individual,,A,407134,2024-07-09
+contribution,2024-01-09,Paul Ingram,"$2,500",Duluth,VA,individual,,A,407134,2024-07-09
+contribution,2024-01-09,Chemung Contracting Corporation,$250,Pine City,NY,business,,A,407134,2024-07-09
+contribution,2024-01-09,Cedar Mountain Stone Corporation,$250,Pine City,NY,business,,A,407134,2024-07-09
+contribution,2024-01-09,VACBP BEH Health Improvement PAC,$250,Virginia Beach,VA,pac,,A,407134,2024-07-09
+contribution,2024-01-09,Virginia Association of Health Plans PAC,$500,Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-01-09,Cozen OConnor,$500,Richmond,VA,business,,A,407134,2024-07-09
+contribution,2024-01-09,Virginia Manufactured and Modular Housing Association PAC,$250,Henrico,VA,pac,,A,407134,2024-07-09
+contribution,2024-03-11,Building a Remarkable Virginia PAC,"$1,000",Reston,VA,pac,,A,407134,2024-07-09
+contribution,2024-03-11,H. Betti Industries Inc.,$500,Carlstadt,NJ,business,,A,407134,2024-07-09
+contribution,2024-03-11,Asian American Business Owners Association PAC,"$1,000",Roanoke,VA,pac,,A,407134,2024-07-09
+contribution,2024-06-06,Virginia Health Care Association PAC,"$1,000",Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-06-07,Republic Services LE03-Awin Management Inc.,$500,Phoenix,AZ,business,,A,407134,2024-07-09
+contribution,2024-06-23,CRNA PAC of Virginia,$500,Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-05-17,Dominion Energy Inc Political Action Committee - Virginia,"$2,500",Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-06-03,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-06-23,Transurban (USA) Inc.,$500,Tysons,VA,business,,A,407134,2024-07-09
+contribution,2024-06-03,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-06-13,HCA For Good Government,"$1,500",Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-01-08,Virginia Automobile and Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-01-05,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,A,407134,2024-07-09
+contribution,2024-03-11,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,A,407134,2024-07-09
+contribution,2024-01-09,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,407134,2024-07-09
+contribution,2024-09-25,"The Buck Law Firm, PC",$500,Fredericksburg,VA,business,,A,429142,2025-01-13
+contribution,2024-09-19,Felix Fraraccio,$250,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-26,Williams Mullin Clark & Dobbins,$500,Richmond,VA,business,,A,429142,2025-01-13
+contribution,2024-09-17,"Johnson Realty Advisors, Inc.","$1,000",Fredericksburg,VA,business,,A,429142,2025-01-13
+contribution,2024-12-30,Virginia Hospital & Healthcare Association PAC,"$1,000",Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-09-26,Virginia Automobile and Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-12-10,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-12-10,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,A,429142,2025-01-13
+contribution,2024-12-27,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,429142,2025-01-13
+contribution,2024-12-10,"Capital One Services, LLC",$500,Reston,VA,business,,A,429142,2025-01-13
+contribution,2024-10-30,Charles G. McDaniel,$500,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-07-16,Anheuser Busch Companies,$250,St. Louis,MO,business,,A,429142,2025-01-13
+contribution,2024-09-25,David Yost,"$1,000",Roanoke,VA,individual,,A,429142,2025-01-13
+contribution,2024-12-30,VA Operators for Skill,"$1,000",Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-10-25,Amazon.com Services LLC,"$2,500",Seattle,WA,business,,A,429142,2025-01-13
+contribution,2024-09-15,John Pruitt,"$1,000",Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-12,WIlliam McDaniel,$500,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-25,Carl Bardy,$250,Spotsylvania,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-23,Huntington Ingalls Industires,$500,Newport News,VA,business,,A,429142,2025-01-13
+contribution,2024-09-25,Pohanka Auto Center Inc,"$5,000",Fredericksburg,VA,business,,A,429142,2025-01-13
+contribution,2024-09-25,Radley Chevrolet,"$5,000",Fredericksburg,VA,business,,A,429142,2025-01-13
+contribution,2024-09-24,Marjorie R Tankersley,$500,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-08,Clinton Van Zandt,"$1,000",Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-25,William Dotson,"$2,500",White Plains,MD,individual,,A,429142,2025-01-13
+contribution,2024-09-25,William Dotson,"$2,500",White Plains,MD,individual,,A,429142,2025-01-13
+contribution,2024-10-25,VADPAC,"$1,000",Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-09-16,Patricia Fatovic,$250,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-06,W. Patrick Wilson,$500,Alexandria,VA,individual,,A,429142,2025-01-13
+contribution,2024-10-25,Anheuser-Busch Companies,$250,St. Louis,MO,business,,A,429142,2025-01-13
+contribution,2024-10-30,Northern Virginia Electric Cooperative,"$1,000",Manassas,VA,business,,A,429142,2025-01-13
+contribution,2024-09-25,Sean Bodin,$150,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-14,Rebecca Jones,$500,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-25,Paul Milde,$250,Stafford,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-23,Patrick Collins,$250,Spotsylvania,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-12,Jennifer Taylor,$500,Spotsylvania,VA,individual,,A,429142,2025-01-13
+contribution,2024-10-25,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,A,429142,2025-01-13
+contribution,2024-09-24,Michael Bowen,"$1,000",Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-10-16,Jeffery Long,"$5,000",Alexandria,VA,individual,,A,429142,2025-01-13
+contribution,2024-10-25,Community Owned Power PAC,"$1,000",Glen Allen,VA,pac,,A,429142,2025-01-13
+contribution,2024-09-13,Ken Accousti,"$1,000",Spotsylvania Courthouse,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-10,Robert Hunter Morin,$500,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-17,Georgia Dimitras,"$1,000",Great Falls,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-12,Daphne Osleger,"$1,000",Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-10-25,Virginia Maritime Association,$500,Norfolk,VA,pac,,A,429142,2025-01-13
+contribution,2024-10-30,Pharmaceutical Research and Manufacturers of America,$500,Washington,DC,business,,A,429142,2025-01-13
+contribution,2024-10-25,Virginia Association of Health Plans PAC,$500,Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-11-20,Virginia Manufactured and Modular Housing Association PAC,$250,Henrico,VA,pac,,A,429142,2025-01-13
+contribution,2024-10-02,CRNA PAC of Virginia,$500,Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-07-16,Eye PAC,$250,Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-09-25,Bethanne H. Elbert,$250,Spotsylvania,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-25,William Gravatt,$250,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-25,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,business,,A,429142,2025-01-13
+contribution,2024-09-25,John E. Chance,$500,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-25,Jo Ann Barnes,$500,Spotsylvania,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-25,Friends of Gerald Childress,$500,Spotsylvania,VA,business,,A,429142,2025-01-13
+contribution,2024-09-25,Charles R. Silkett,"$1,000",Great Falls,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-25,The American Electric Power Company - VA Committee for Responsible Government,$500,Washington,DC,pac,,A,429142,2025-01-13
+contribution,2024-09-26,Virginia Manufacturers Association PAC,$500,Richmnd,VA,pac,,A,429142,2025-01-13
+contribution,2024-10-02,SBM Enterprises LLC,"$5,000",Waterford,VA,business,,A,429142,2025-01-13
+contribution,2024-10-04,Employees of RTX Corporation PAC,$500,Arlington,VA,pac,,A,429142,2025-01-13
+contribution,2024-10-23,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,A,429142,2025-01-13
+contribution,2024-10-28,Reed Smith LLP,$500,Pittsburgh,PA,business,,A,429142,2025-01-13
+contribution,2024-09-14,Don Robinson,$500,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-17,Jennifer Soult,$500,Stafford,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-19,JBR Inc,"$5,000",Fredericksburg,VA,business,,A,429142,2025-01-13
+contribution,2024-09-19,Chet Pai,"$1,000",Stafford,VA,individual,,A,429142,2025-01-13
+contribution,2024-07-29,Dominion Energy Inc Political Action Committee - Virginia,"$2,500",Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-09-26,Dominion Energy Inc Political Action Committee - Virginia,"$20,000",Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-10-09,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-10-30,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-09-25,William Johnson,"$1,000","Fredericksburg, VA",VA,individual,,A,429142,2025-01-13
+contribution,2024-09-25,John F. Fick,"$2,500",Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-19,John Locks,"$1,000",Spotylvania Courthouse,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-23,Jeff Frazier,$500,Spotsylvania,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-24,Michael Smith,$250,Spotsylvania Courthouse,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-24,Thomas Magrino,$250,Fredericksburg,VA,individual,,A,429142,2025-01-13
+contribution,2024-09-24,"Jarrell Properties, Inc",$500,Fredericksburg,VA,business,,A,429142,2025-01-13
+contribution,2024-10-25,Virginia Society of Anesthesiologists PAC,"$1,500",Richmond,VA,pac,,A,429142,2025-01-13
+contribution,2024-10-25,Service Corporation International PAC,$500,Houston,TX,pac,,A,429142,2025-01-13
+contribution,2024-10-30,Virginia Bankers Associate State PAC,"$1,000",Glen Allen,VA,pac,,A,429142,2025-01-13
+contribution,2024-11-08,Commercial Development PAC,$500,Alexandria,VA,pac,,A,429142,2025-01-13
+contribution,2024-11-07,Chiropractic Political Action Committee of Virginia,$500,Alexandria,VA,pac,,A,429142,2025-01-13
+contribution,2024-11-20,Sentara Health Plans,"$1,000",Kingston,NY,business,,A,429142,2025-01-13
+contribution,2024-11-20,Virginia Assisted Living Association PAC,$500,Henrico,VA,pac,,A,429142,2025-01-13
+contribution,2024-11-03,Mary Owen,"$1,000",Falmouth,VA,individual,,A,429142,2025-01-13
+contribution,2024-12-10,RAI Services Company,$500,Winston-Salem,NC,business,,A,429142,2025-01-13
+contribution,2024-12-16,"Humana, Inc.",$500,Lexington,KY,business,,A,429142,2025-01-13
 contribution,2025-05-23,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,475705,2026-01-08
 contribution,2025-01-07,McGuire Woods,"$1,000",Richmond,VA,business,,A,475705,2026-01-08
 contribution,2025-06-02,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,A,475705,2026-01-08
@@ -54,8 +166,100 @@ contribution,2026-01-05,Craig Stevens,$125,Warrenton,VA,individual,,A,494006,202
 contribution,2026-01-13,Virginia Manufactured and Modular Housing Association PAC,$500,Henrico,VA,pac,,A,494006,2026-07-10
 contribution,2026-06-30,Virginia CRNA's Who Care about Healthcare PAC,$500,Roanoke,VA,pac,,A,494006,2026-07-10
 contribution,2026-01-13,Organizing for VA Seniors,"$1,000",Fairfax,VA,pac,,A,494006,2026-07-10
+in_kind,2024-05-28,Virginia Sheriff's Association PAC,$217.70,Richmond,VA,pac,Event Food/Beverage,B,407134,2024-07-09
+in_kind,2024-01-08,Commonwealth Strategy Group,$412.10,Richmond,VA,business,Food,B,407134,2024-07-09
+in_kind,2024-08-21,Capital One,"$1,000",Richmond,VA,business,Event Expense,B,429142,2025-01-13
+in_kind,2024-07-18,Spirit of Virginia,"$4,550",Merrifield,VA,pac,Airfare,B,429142,2025-01-13
 in_kind,2025-05-28,Realtors Political Action Committee of Virginia,$169.59,Glen Allen,VA,pac,Food and Beverage,B,475705,2026-01-08
 in_kind,2026-01-12,Virginia Manufacturers Association PAC,$350,Richmnd,VA,pac,Fundraising Event Expense,B,494006,2026-07-10
+other_receipt,2024-05-01,Mesh Payments,$2.26,New York,NY,business,Return of Fee,C,407134,2024-07-09
+other_receipt,2024-10-30,PEX Card,$10.48,New York City,NY,business,Rebate,C,429142,2025-01-13
+other_receipt,2024-11-04,PEX Card,$50,New York City,NY,business,Refund of Fee,C,429142,2025-01-13
+other_receipt,2024-10-30,Bill.com,$0.75,San Jose,CA,business,Account Verification,C,429142,2025-01-13
+other_receipt,2024-12-05,Doyle Hotel,$228.60,Washington DC,DC,business,Refund of Travel,C,429142,2025-01-13
+expenditure,2024-01-03,Election CFO,"$1,750",Alexandria,VA,business,Consulting,D,407134,2024-07-09
+expenditure,2024-02-06,Election CFO,$450.32,Alexandria,VA,business,Consulting,D,407134,2024-07-09
+expenditure,2024-02-29,Election CFO,$350,Alexandria,VA,business,Consulting,D,407134,2024-07-09
+expenditure,2024-04-03,Election CFO,$389.26,Alexandria,VA,business,Consulting,D,407134,2024-07-09
+expenditure,2024-05-08,Election CFO,$350,Alexandria,VA,business,Consulting,D,407134,2024-07-09
+expenditure,2024-05-31,Election CFO,$352.40,Alexandria,VA,business,Consulting,D,407134,2024-07-09
+expenditure,2024-01-25,MailChimp,$75,Atlanta,GA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-02-26,MailChimp,$75,Atlanta,GA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-03-25,MailChimp,$75,Atlanta,GA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-04-25,MailChimp,$75,Atlanta,GA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-05-28,MailChimp,$75,Atlanta,GA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-06-25,MailChimp,$75,Atlanta,GA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-01-31,WinRed Technical Services,$108.94,Arlington,VA,business,CC Processing,D,407134,2024-07-09
+expenditure,2024-02-01,Stafford Printing,$350.97,Stafford,VA,business,Printing,D,407134,2024-07-09
+expenditure,2024-04-17,Capital One,$100,Richmond,VA,business,Dinner Event,D,407134,2024-07-09
+expenditure,2024-01-09,GotPrint,$143.71,Burbank,CA,business,Printing,D,407134,2024-07-09
+expenditure,2024-05-14,USPS,$54.40,Washington,DC,business,Postage,D,407134,2024-07-09
+expenditure,2024-05-15,Chain Bridge Bank,$12,McLean,VA,business,Bank Fee,D,407134,2024-07-09
+expenditure,2024-01-16,Staples,$43.40,Framingham,MA,business,Office Supplies,D,407134,2024-07-09
+expenditure,2024-06-14,Staples,$39.99,Framingham,MA,business,Utilities,D,407134,2024-07-09
+expenditure,2024-04-04,Kevin Stephens,$273.36,Fredericksburg,VA,individual,Mileage Reimbursement,D,407134,2024-07-09
+expenditure,2024-01-22,Walmart,$81.80,Bentonville,AR,business,Campaign Supplies,D,407134,2024-07-09
+expenditure,2024-04-17,Virginia Agribusiness Council,$99.38,Richmond,VA,business,Dinner Event,D,407134,2024-07-09
+expenditure,2024-01-02,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-01-31,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-03-01,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-04-01,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-05-01,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-05-31,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,407134,2024-07-09
+expenditure,2024-02-07,Amazon,$126.35,Seattle,WA,business,Campaign Supplies,D,407134,2024-07-09
+expenditure,2024-03-15,Amazon,$16.84,Seattle,WA,business,Supplies,D,407134,2024-07-09
+expenditure,2024-01-04,Mulchi 4 Senate,"$1,500",Alexandria,VA,business,Contribution,D,407134,2024-07-09
+expenditure,2024-01-10,Food Lion,$59.69,Salisbury,NC,business,Food,D,407134,2024-07-09
+expenditure,2024-01-16,"Wegmans Food Markets, Inc.",$108.51,Rochester,NY,business,Food,D,407134,2024-07-09
+expenditure,2024-01-16,"Wegmans Food Markets, Inc.",$66.34,Rochester,NY,business,Food,D,407134,2024-07-09
+expenditure,2024-01-16,"Wegmans Food Markets, Inc.",$79.54,Rochester,NY,business,Food,D,407134,2024-07-09
+expenditure,2024-01-19,The Home Depot,$155.26,Atlanta,GA,business,Campaign Supplies,D,407134,2024-07-09
+expenditure,2024-02-09,Sticker Mule,$87.40,Amsterdam,NY,business,Printing,D,407134,2024-07-09
+expenditure,2024-03-14,Dementi Studio,$187.62,Richmond,VA,business,Photography,D,407134,2024-07-09
+expenditure,2024-03-18,Verizon,$21.05,New York,NY,business,Utilities,D,407134,2024-07-09
+expenditure,2024-04-08,Hilton,$176.59,McLean,VA,business,Travel,D,407134,2024-07-09
+expenditure,2024-05-14,Leashes of Valor,$150,Fredericksburg,VA,business,Event Sponsorship,D,407134,2024-07-09
+expenditure,2024-05-29,American Legislative Exchange Council,$200,Arlington,VA,business,Contribution,D,407134,2024-07-09
+expenditure,2024-07-01,Election CFO,$366,Alexandria,VA,business,Consulting,D,429142,2025-01-13
+expenditure,2024-08-06,Election CFO,$406,Alexandria,VA,business,Consulting,D,429142,2025-01-13
+expenditure,2024-09-03,Election CFO,$350,Alexandria,VA,business,Consulting,D,429142,2025-01-13
+expenditure,2024-10-01,Election CFO,$353.63,Alexandria,VA,business,Consulting,D,429142,2025-01-13
+expenditure,2024-10-31,Election CFO,$404.18,Alexandria,VA,business,Consulting,D,429142,2025-01-13
+expenditure,2024-12-02,Election CFO,$392,Alexandria,VA,business,Consulting,D,429142,2025-01-13
+expenditure,2024-07-25,MailChimp,$75,Atlanta,GA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-08-26,MailChimp,$75,Atlanta,GA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-09-26,MailChimp,$75,Atlanta,GA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-10-25,MailChimp,$75,Atlanta,GA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-11-25,MailChimp,$75,Atlanta,GA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-12-26,MailChimp,$75,Atlanta,GA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-09-30,WinRed Technical Services,$19.70,Arlington,VA,business,Fundraising Fee,D,429142,2025-01-13
+expenditure,2024-08-06,Kathryn Roberts,"$10,000",Fredericksburg,VA,individual,Consulting,D,429142,2025-01-13
+expenditure,2024-07-02,THM Consulting LLC,$691.20,Mattawan,MI,business,Consulting,D,429142,2025-01-13
+expenditure,2024-07-30,THM Consulting LLC,"$2,000",Mattawan,MI,business,Consulting,D,429142,2025-01-13
+expenditure,2024-08-06,THM Consulting LLC,$691.20,Mattawan,MI,business,Consulting,D,429142,2025-01-13
+expenditure,2024-08-16,Treasurer of Virginia,$186,Richmond,VA,business,Flags,D,429142,2025-01-13
+expenditure,2024-09-03,Treasurer of Virginia,$40,Richmond,VA,business,Framing,D,429142,2025-01-13
+expenditure,2024-09-30,Anedot,"$1,038.40",New Orleans,LA,business,CC Processing,D,429142,2025-01-13
+expenditure,2024-11-30,Anedot,$40.30,New Orleans,LA,business,CC Processing,D,429142,2025-01-13
+expenditure,2024-09-23,USPS,$219,Washington,DC,business,Postage,D,429142,2025-01-13
+expenditure,2024-07-29,Fredericksburg Chamber of Commerce,$45,Fredericksburg,VA,business,Event Tickets,D,429142,2025-01-13
+expenditure,2024-11-07,Chain Bridge Bank,$12,McLean,VA,business,Bank Fee,D,429142,2025-01-13
+expenditure,2024-12-10,Acquire Digital LLC,"$6,000",Nashville,TN,business,Online Services,D,429142,2025-01-13
+expenditure,2024-10-15,Virginia Consulting Group LLC,$307.43,Alexandria,VA,business,Fundraising,D,429142,2025-01-13
+expenditure,2024-12-03,Virginia Consulting Group LLC,"$8,690",Alexandria,VA,business,Consulting,D,429142,2025-01-13
+expenditure,2024-07-01,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-07-31,Zoom Video Communications,$16.79,San Jose,CA,business,Online services,D,429142,2025-01-13
+expenditure,2024-09-03,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-10-01,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-10-31,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-12-02,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-12-31,Zoom Video Communications,$16.79,San Jose,CA,business,Online Services,D,429142,2025-01-13
+expenditure,2024-09-11,PEX Card,$50,New York City,NY,business,Bank Fee,D,429142,2025-01-13
+expenditure,2024-08-06,"Virginia Senate Republican Caucus, Inc.","$14,000",Williamsburg,VA,party,Contribution,D,429142,2025-01-13
+expenditure,2024-09-22,Marriot Hotel,$54,Bethesda,MD,business,Travel,D,429142,2025-01-13
+expenditure,2024-09-24,Marriot Hotel,$470,Bethesda,MD,business,Travel,D,429142,2025-01-13
+expenditure,2024-12-04,Friends of Tumay,$250,Ashburn,VA,business,Contribution,D,429142,2025-01-13
+expenditure,2024-12-03,Doyle Hotel,$228.60,Washington DC,DC,business,Travel,D,429142,2025-01-13
 expenditure,2025-01-07,Election CFO,$654,Alexandria,VA,business,Consulting,D,475705,2026-01-08
 expenditure,2025-02-04,Election CFO,$666.66,Alexandria,VA,business,Consulting,D,475705,2026-01-08
 expenditure,2025-03-04,Election CFO,$350,Alexandria,VA,business,Consulting,D,475705,2026-01-08

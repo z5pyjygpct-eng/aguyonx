@@ -3,6 +3,314 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$107,693.12",,VA,,"From official Schedule H, November 2025 election cycle",H,494724,2026-07-13
 summary,2026-06-30,Raised this cycle,"$72,785.61",,,,Total receipts this election cycle (Schedule H),H,494724,2026-07-13
 summary,2026-06-30,Spent this cycle,"$67,340.15",,,,Total disbursements this election cycle (Schedule H),H,494724,2026-07-13
+contribution,2024-10-02,Ruby Ainslie,$150,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-10,Amazon.com Services LLC,"$1,000",Seattle,WA,business,,A,430301,2025-01-15
+contribution,2024-10-17,Anheuser Busch,$250,St. Louis,MO,business,,A,430301,2025-01-15
+contribution,2024-09-24,ARDA ROC-PAC,$500,Washington,DC,pac,,A,430301,2025-01-15
+contribution,2024-09-30,Elizabeth Atkinson,$500,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-30,Tara Berger,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-11-14,Betting On VA Jobs,"$2,500",Richmond,VA,pac,,A,430301,2025-01-15
+contribution,2024-11-27,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,A,430301,2025-01-15
+contribution,2024-10-17,"Caesars Enterprise Services, LLC","$1,000",Las Vegas,NV,business,,A,430301,2025-01-15
+contribution,2024-09-29,Sandra Canada,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-26,McLeskey Cheryl,"$1,000",Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-24,Chesapeake Utilities Corporation,"$1,000",Dover,DE,business,,A,430301,2025-01-15
+contribution,2024-09-29,Virginia Chianelli,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-17,Comcast Corporation,$500,Philadelphia,PA,business,,A,430301,2025-01-15
+contribution,2024-10-07,CP&O Virginia PAC,"$1,500",Norfolk,VA,pac,,A,430301,2025-01-15
+contribution,2024-09-28,Barbara T. Creech,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-01,CSX Transportation Inc. State Campaign,$500,Jacksonville,FL,business,,A,430301,2025-01-15
+contribution,2024-10-02,Stacy Cummings,$50,Viginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-08-19,Dominion Political Action Committee,"$2,500",Richmond,VA,pac,,A,430301,2025-01-15
+contribution,2024-09-13,Donald Esslinger,$100,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-27,Lisa Eure,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-30,Joyce Field,$100,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-25,Susan Gelardi,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-12,Hoffman Beverage Company,$500,Chesapeake,VA,business,,A,430301,2025-01-15
+contribution,2024-07-25,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,430301,2025-01-15
+contribution,2024-09-13,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,430301,2025-01-15
+contribution,2024-10-02,Brett Kassir,$200,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-02,Julia E. Keller,$100,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-26,Jen Kiggans,$150,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-08-25,George Kotarides,$500,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-02,Terry E. Lynch,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-29,Bonnie M Biery,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-29,Christy Marscheider,$500,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-02,Richard Matika,$200,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-27,Michael Mauch,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-28,Martha P. McGann,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-07,McGuire Woods,$500,Richmond,VA,business,,A,430301,2025-01-15
+contribution,2024-09-28,Laura McMahon,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-31,"Micron Technology, Inc.",$750,Boise,ID,business,,A,430301,2025-01-15
+contribution,2024-09-24,Reena Patel,$50,Norfolk,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-15,Kieran Poulos,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-13,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,A,430301,2025-01-15
+contribution,2024-09-29,Ruth Robins,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-02,Daniela Seifert,$100,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-13,"Sentara Health Administration, Inc.",$500,Virginia Beach,VA,business,,A,430301,2025-01-15
+contribution,2024-09-13,Service Corporation International,$500,Houston,TX,pac,,A,430301,2025-01-15
+contribution,2024-09-20,Mark Stevens,$100,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-11,Anne Ferrell Tata,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-09-27,Tysha Theurer Edwards,$150,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-07,Transurban (USA) Inc. - CR,$500,Tysons,VA,business,,A,430301,2025-01-15
+contribution,2024-09-10,VADPAC,"$1,000",Henrico,VA,pac,,A,430301,2025-01-15
+contribution,2024-09-04,Virginia Automobile & Truck Dealers,$500,Richmond,VA,pac,,A,430301,2025-01-15
+contribution,2024-08-19,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,A,430301,2025-01-15
+contribution,2024-09-12,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,A,430301,2025-01-15
+contribution,2024-09-04,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,430301,2025-01-15
+contribution,2024-09-13,Virginia Hospital & Healthcare Association Political Action Committee (HOSPAC),$500,Richmond,VA,pac,,A,430301,2025-01-15
+contribution,2024-09-24,Virginia Maritime Association,"$1,000",Norfolk,VA,pac,,A,430301,2025-01-15
+contribution,2024-07-08,Virginia Wine Wholesalers,$750,Richmond,VA,pac,,A,430301,2025-01-15
+contribution,2024-09-26,Mary Wales,$50,Virginia Beach,VA,individual,,A,430301,2025-01-15
+contribution,2024-10-01,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,A,430301,2025-01-15
+contribution,2025-03-31,Susan Allen,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-31,Kim ArrisPotter,$50,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-26,Julia Boyd,$104.10,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-31,Tess Bradlee,$104.10,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-18,Janet Carter,$50,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-27,Martha Sue Cisney,$50,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-01-06,Commissioner of Revenue,$250,Newport News,VA,pac,,A,436516,2025-04-15
+contribution,2025-03-31,Becky Cottrell,$104.10,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-31,Patricia Cox,$104.10,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-27,Lisa Eure,$104.10,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-20,Doreen Fentress,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-21,Joyce Field,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-19,Susan Gelardi,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-01-04,Genworth Financial,$500,Lynchburg,VA,business,,A,436516,2025-04-15
+contribution,2025-03-03,Carol Hickman,$100,Virginia  Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-25,Jessica Clark Hoover,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-26,Marcia A Humphrey,$104.10,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-04,Bruce Johnson,$100,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-26,Breanna Kingsbury,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-25,Bonnie M Biery,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-31,Martha P. McGann,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-26,Virginia Grace Mckinnon,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-26,Virginia Grace Mckinnon,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-26,Laura McMahon,$104.10,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-31,Kristen P. Randolph,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-28,Joy Rios,$104.10,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-26,Molly Rueger,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-31,Catherine Sheppard,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-27,Pat Steele,$50,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-04,Nancy J Stets,$100,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-20,Dona Storey,$50,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-25,Judith Swystun,$52.05,Norfolk,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-21,Anne Ferrell Tata,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-01-04,VA Digital Infrastructure PAC,"$1,500",Richmond,VA,pac,,A,436516,2025-04-15
+contribution,2025-01-04,"Vantage Data Centers Management Co, LLC","$1,000",Santa Clara,CA,business,,A,436516,2025-04-15
+contribution,2025-03-26,Christina Vendetti,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-25,Luanne Wong,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-26,Liliana Yee,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-03-26,Liliana Yee,$52.05,Virginia Beach,VA,individual,,A,436516,2025-04-15
+contribution,2025-04-04,Judy Aspinwall,$104.10,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-05-27,Thomas Bates,$500,Va. Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-05,Amy L. Bernert,$100,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-11,Beth Brannon,$52.05,Chesapeake,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-15,Martha Brophy,$50,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-08,Rhonda Byrd,$50,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Sandra Canada,$50,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-03,Michelle Caplan,$100,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-11,McLeskey Cheryl,"$3,000",Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Columbus Station Apartments,"$1,000",Virginia Beach,VA,business,,A,453843,2025-09-15
+contribution,2025-04-16,Christie N. Craig,$500,Chesapeake,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Barbara T. Creech,"$3,000",Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-05-20,CVS Health,$500,Glen Allen,VA,business,,A,453843,2025-09-15
+contribution,2025-05-08,Dominion Political Action Committee,"$5,000",Richmond,VA,pac,,A,453843,2025-09-15
+contribution,2025-04-01,Kerry Dougherty,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-01,Kerry Dougherty,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-01,Kerry Dougherty,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,"Dragas Companies Realty, Inc.","$1,000",Virginia Beach,VA,business,,A,453843,2025-09-15
+contribution,2025-04-01,Thelma Drake,$100,Norfolk,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-04,Mary Beth Evans,$104.10,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-11,Amberly Ferguson,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-11,Amberly Ferguson,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-02,Amy Goldberg,$100,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-08,Margaret Anne Harrison,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Hawkins Mill,"$1,000",Virginia Beach,VA,business,,A,453843,2025-09-15
+contribution,2025-04-16,Jessica Clark Hoover,$41.64,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-02,Mallory Horbal,$104.10,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-08,Jean Johnson,$104.10,Apo,,individual,,A,453843,2025-09-15
+contribution,2025-04-26,David Keffer,$250,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-07,Margaret Kelsey,$104.10,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Ashley Knox,$208.20,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-02,George Kotarides,$250,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Amy D Longacher,"$1,000",Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Terry E. Lynch,"$3,000",Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-01,Mary Beth Marshall,$260.25,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-01,Debbie Martini,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-08,Erin McGrattan,$104.10,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Taryn Mulcahey,$104.10,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-04,Sommer Nadelstein,$200,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-11,Sharon Pitsilides,"$3,123.05",Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-01,Nancy Porter,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-04,Frank Rabena,"$1,000",Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Cynthia M. Rodriguez,"$3,000",Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-01,Laurel Rohlfs,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-01,Laurel Rohlfs,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-09,Nicole Schacherer,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-05-20,Seven Hills Strategy Group LLC,$250,Richmond,VA,business,,A,453843,2025-09-15
+contribution,2025-04-16,Catherine Sheppard,$104.10,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Jodi Simkins,$104.10,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-12,Jodi Simkins,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,"Spence Crossing Residential, Inc.","$1,000",Virginia Beach,VA,business,,A,453843,2025-09-15
+contribution,2025-04-16,Spence Properties LC,"$1,000",Virginia Beach,VA,business,,A,453843,2025-09-15
+contribution,2025-04-08,Christy Thompson,"$3,123.05",Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-05-07,Tusk & Trunk Club,"$1,000",Virginia Beach,VA,pac,,A,453843,2025-09-15
+contribution,2025-05-28,Virginia Automobile & Truck Dealers,"$2,500",Richmond,VA,pac,,A,453843,2025-09-15
+contribution,2025-05-30,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,A,453843,2025-09-15
+contribution,2025-06-04,Virginia Maritime Association,"$1,000",Norfolk,VA,pac,,A,453843,2025-09-15
+contribution,2025-04-30,Virginia Wine Wholesalers,"$1,200",Richmond,VA,pac,,A,453843,2025-09-15
+contribution,2025-04-16,Mary Wales,$50,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-02,Stephany Wilson,$52.05,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-04-16,Stephany Wilson,$40,Virginia Beach,VA,individual,,A,453843,2025-09-15
+contribution,2025-06-04,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,453843,2025-09-15
+contribution,2025-05-20,Anheuser Busch,$250,St. Louis,MO,business,,A,453843,2025-09-15
+contribution,2025-06-06,CSX Transportation Inc. State Campaign,$250,Jacksonville,FL,business,,A,447599,2025-07-15
+contribution,2025-06-19,Donald Esslinger,$200,Virginia Beach,VA,individual,,A,447599,2025-07-15
+contribution,2025-06-19,Lisa Eure,$250,Virginia Beach,VA,individual,,A,447599,2025-07-15
+contribution,2025-06-16,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,447599,2025-07-15
+contribution,2025-06-19,Martha P. McGann,$100,Virginia Beach,VA,individual,,A,447599,2025-07-15
+contribution,2025-06-10,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,447599,2025-07-15
+contribution,2025-06-11,WM,$750,Houston,TX,business,,A,447599,2025-07-15
+contribution,2025-08-22,Amazon.com Services LLC,"$2,000",Seattle,WA,business,,A,459639,2025-10-13
+contribution,2025-08-19,Thomas Bakke,"$1,000",Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-07-31,Thomas Bates,"$1,000",Va. Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-18,Robert Melchers Berndt,"$2,000",Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-07-29,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,A,459639,2025-10-13
+contribution,2025-08-22,Ramon W. Breeden Jr.,"$10,000",Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-21,Richard Burroughs Sr.,$500,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-19,Heather Carr,$250,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-28,Jeffery F Clay Sr.,$500,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-19,Comcast Corporation,$500,Philadelphia,PA,business,,A,459639,2025-10-13
+contribution,2025-08-16,Becky Cottrell,$500,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-22,Barbara T. Creech,"$5,000",Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-07-30,William J. Davenport,$150,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-27,Bert Ellis,"$10,000",Atlanta,GA,individual,,A,459639,2025-10-13
+contribution,2025-08-28,Donald Esslinger,$104.10,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-08,Rosemary Gomez,"$1,000",Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-14,Peter Hager,$500,Jacksonville,FL,individual,,A,459639,2025-10-13
+contribution,2025-07-29,Hampton Roads Business Roundtable PAC,"$2,500",Norfolk,VA,pac,,A,459639,2025-10-13
+contribution,2025-08-19,HCA for Good Government,$500,Richmond,VA,pac,,A,459639,2025-10-13
+contribution,2025-08-15,Hoffman Beverage Company,$500,Chesapeake,VA,business,,A,459639,2025-10-13
+contribution,2025-07-16,Todd Jared,$250,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-24,George Kotarides,$250,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-07-20,Tiffany Ladner,$500,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-20,Gene Loving,$500,Virginia Beach Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-27,Benito Loyola,$500,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-27,Terri McSweeney,$104.10,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-27,Taunia Merritts,$250,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-27,Taunia Merritts,$100,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-15,"MTS Enterprises, Inc","$1,000",Virginia Beach,VA,business,,A,459639,2025-10-13
+contribution,2025-08-10,William Pace,$125,Chatham,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-07,Michelle Payne,$500,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-26,Kieran Poulos,$520.51,Norfolk,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-23,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,A,459639,2025-10-13
+contribution,2025-08-28,Arthur B. Sandler,"$1,000",Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-15,Stephen V. Scoper MD,"$5,000",Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-20,Nancy J Stets,$200,Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-26,Strong Start PAC,"$2,500",Richmond,VA,pac,,A,459639,2025-10-13
+contribution,2025-08-29,The Franklin Johnston Group,"$2,500",Virginia Beach,VA,business,,A,459639,2025-10-13
+contribution,2025-08-25,Brian Scott Tilley,"$1,000",Virginia Beach,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-27,Virginia Beach Pro Fire & EMS L2924,"$1,000",Virginia Beach,VA,pac,,A,459639,2025-10-13
+contribution,2025-08-20,Virginia Beach Republican Women's Club,$500,Virginia Beach,VA,pac,,A,459639,2025-10-13
+contribution,2025-08-15,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,A,459639,2025-10-13
+contribution,2025-08-08,"Virginia State Police Association, INC.",$250,Richmond,VA,pac,,A,459639,2025-10-13
+contribution,2025-08-19,Walter Wilkins,"$1,000",Norfolk,VA,individual,,A,459639,2025-10-13
+contribution,2025-08-04,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,459639,2025-10-13
+contribution,2025-09-08,Patricia Cox,$260.25,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-25,CP&O Virginia PAC,"$1,500",Norfolk,VA,pac,,A,461102,2025-10-15
+contribution,2025-09-09,Lisa Deaver,$104.10,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-17,"Dragas Companies Realty, Inc.","$1,000",Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-08,Marshall Everett,$104.10,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-10,Margaret Anne Harrison,$50,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-09,Elizabeth Hartz,$260.25,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-10,Susan Hauser,$500,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-17,Hawkins Mill,"$1,000",Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-09,Steven A. Horbal,$104.10,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-18,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,461102,2025-10-15
+contribution,2025-09-10,Todd Jared,$250,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-22,Stephen Long,$500,Richmond,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-09,M M Gunter & Son Inc,"$2,000",Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-17,Michael Mauch,"$1,000",Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-18,Michael McGlynn,$104.10,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-15,McGuire Woods,"$1,000",Richmond,VA,business,,A,461102,2025-10-15
+contribution,2025-09-25,Cheryl McLeskey,"$2,500",Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-28,Page Miyares,$250,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-10,Sommer Nadelstein,$250,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-28,Michael Olivieri,"$2,500",Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-09,PAC of Tidewater Builders Association,$500,Chesapeake,VA,pac,,A,461102,2025-10-15
+contribution,2025-09-09,Tassos J Paphites,"$5,000",Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-27,Sriram Peddibhotla,$500,McLean,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-08,Pembroke Enterprises,"$1,000",Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-30,"Q.E.D. Systems, Inc.","$2,500",Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-09,Kristen P. Randolph,$100,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-09,Kristen P. Randolph,$31.23,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-17,James White Rawles Jr.,"$2,000",Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-16,Jan Rice,$400,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-03,Joy Rios,$104.10,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-28,Tim Robertson,"$2,500",Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-19,S. B. Ballard Construction Company,$500,Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-12,Save the Children Action Network,$500,Washington,DC,business,,A,461102,2025-10-15
+contribution,2025-09-28,William F Seymour IV,$500,Richmond,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-17,"Spence Crossing Residential, Inc.","$1,000",Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-17,Spence Properties LC,"$1,000",Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-12,Studio Center Corporation,"$1,000",Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-09,Zachery Taylor,$104.10,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-23,Transurban (USA) Inc. - CR,$500,Tysons,VA,business,,A,461102,2025-10-15
+contribution,2025-09-18,VADPAC,"$1,000",Henrico,VA,pac,,A,461102,2025-10-15
+contribution,2025-09-30,VCTA,$500,Richmond,VA,pac,,A,461102,2025-10-15
+contribution,2025-09-22,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,461102,2025-10-15
+contribution,2025-09-15,Virginia Hospitality & Travel,$500,Richmond,VA,business,,A,461102,2025-10-15
+contribution,2025-09-23,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,A,461102,2025-10-15
+contribution,2025-09-16,Virginia Wine Wholesalers,"$1,000",Richmond,VA,pac,,A,461102,2025-10-15
+contribution,2025-09-22,David Webb,"$1,000",Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-08,Glen Wheless,$250,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-25,Kent  Jane Alford,$104.10,Richmond,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-09,George F Allen,$503,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-19,ARDA ROC-PAC,$500,Washington,DC,pac,,A,461102,2025-10-15
+contribution,2025-09-30,Betting On VA Jobs,"$2,500",Richmond,VA,pac,,A,461102,2025-10-15
+contribution,2025-09-18,"Caesars Enterprise Services, LLC","$1,000",Las Vegas,NV,business,,A,461102,2025-10-15
+contribution,2025-09-23,"Capital One Services, LLC",$500,Reston,VA,business,,A,461102,2025-10-15
+contribution,2025-09-28,Care Advantage Inc.,"$1,000",North Chesterfield,VA,business,,A,461102,2025-10-15
+contribution,2025-09-22,RADM Nevin P Carr,$500,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-30,Cedar Mountain Stone Corp,$250,Pine City,NY,business,,A,461102,2025-10-15
+contribution,2025-09-30,Chemung Contracting Corp,$250,Pine City,NY,business,,A,461102,2025-10-15
+contribution,2025-09-05,Martha Sue Cisney,$50,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-17,Columbus Station Apartments,"$1,000",Virginia Beach,VA,business,,A,461102,2025-10-15
+contribution,2025-09-09,Benjamin Gray Cottrell,$500,Virginia Beach,VA,individual,,A,461102,2025-10-15
+contribution,2025-09-08,Daniel Cox,$260.25,Virginia BeachBeach,VA,individual,,A,461102,2025-10-15
+contribution,2025-10-20,Beach Suburban Republican Womens Club,$200,Virginia Beach,VA,business,,A,465668,2025-10-27
+contribution,2025-10-09,Birdsong Peanuts,"$3,000",Suffolk,VA,business,,A,465668,2025-10-27
+contribution,2025-10-14,George Clarke IV,"$3,000",Chesapeake,VA,individual,,A,465668,2025-10-27
+contribution,2025-10-01,Andrew Cohen,$100,Virginia Beach,VA,individual,,A,465668,2025-10-27
+contribution,2025-10-02,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,A,465668,2025-10-27
+contribution,2025-10-04,Leroy Davis,$500,Charlotte,NC,individual,,A,465668,2025-10-27
+contribution,2025-10-13,"Engineering & Testing Services, Inc.",$500,Virginia Beach,VA,business,,A,465668,2025-10-27
+contribution,2025-10-14,Genworth Financial,"$1,000",Lynchburg,VA,business,,A,465668,2025-10-27
+contribution,2025-10-09,Margaret C. Gunter,"$2,000",Virginia Beach,VA,individual,,A,465668,2025-10-27
+contribution,2025-10-17,HBAV Build-PAC,"$1,500",Richmond,VA,pac,,A,465668,2025-10-27
+contribution,2025-10-10,John Horan,$104.10,Bradenton,FL,individual,,A,465668,2025-10-27
+contribution,2025-10-03,Vince Mastracco,$520.51,Virginia Beach,VA,individual,,A,465668,2025-10-27
+contribution,2025-10-17,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,465668,2025-10-27
+contribution,2025-10-02,"Pitsilambous, Inc.","$5,000",Virginia Beach,VA,business,,A,465668,2025-10-27
+contribution,2025-10-20,PMI US Corporate Services,"$1,500",San Rafael,CA,business,,A,465668,2025-10-27
+contribution,2025-10-06,Charles J Schoninger,"$2,000",Wilmington,NC,individual,,A,465668,2025-10-27
+contribution,2025-10-06,Donald Schultz,$250,Virginia Beach,VA,individual,,A,465668,2025-10-27
+contribution,2025-10-20,Zachery Taylor,"$1,000",Virginia Beach,VA,individual,,A,465668,2025-10-27
+contribution,2025-11-02,James Altmeyer,$500,Virginia Beach,VA,individual,,A,472446,2025-12-04
+contribution,2025-11-06,"C V International, Inc.",$500,Norfolk,VA,business,,A,472446,2025-12-04
+contribution,2025-11-06,"Enterprise Holdings, Inc.",$500,St. Louis,MO,pac,,A,472446,2025-12-04
+contribution,2025-10-27,Eric Greenwood,$150,Wyndmoor,PA,individual,,A,472446,2025-12-04
+contribution,2025-11-02,Lynne Grubb,$104.10,Canton,GA,individual,,A,472446,2025-12-04
+contribution,2025-11-01,Eliot Harris,$500,Virginia Beach,VA,individual,,A,472446,2025-12-04
+contribution,2025-11-06,James E. Johnson Jr.,"$2,500",Virginia Beach,VA,individual,,A,472446,2025-12-04
+contribution,2025-10-26,Mary Beth  Greg Marshall,$520.51,Virginia Beach,VA,individual,,A,472446,2025-12-04
+contribution,2025-11-01,Clark Neilson,$208.20,Charlotte,NC,individual,,A,472446,2025-12-04
+contribution,2025-10-28,Sriram Peddibhotla,$416.41,McLean,VA,individual,,A,472446,2025-12-04
+contribution,2025-11-06,Sentara Health Plans,$500,Virginia Beach,VA,business,,A,472446,2025-12-04
+contribution,2025-11-06,VA Digital Infrastructure PAC,"$1,500",Richmond,VA,pac,,A,472446,2025-12-04
+contribution,2025-11-06,Virginia Beach Hospitality PAC,"$1,000",Virginia Beach,VA,pac,,A,472446,2025-12-04
+contribution,2025-10-27,Virginia CUPAC,$500,Tallahassee,FL,pac,,A,472446,2025-12-04
 contribution,2025-12-26,"Humana, Inc.",$500,Lexington,KY,business,,A,494738,2026-07-13
 contribution,2026-05-14,Linda Alcox,$52.05,Virginia Beach,VA,individual,,A,494724,2026-07-13
 contribution,2026-05-07,Susan Allen,$100,Virginia Beach,VA,individual,,A,494724,2026-07-13
@@ -137,14 +445,494 @@ contribution,2026-06-25,Lang Williams,$416.41,Virginia Beach,VA,individual,,A,49
 contribution,2026-05-11,Stephany Wilson,$52.05,Virginia Beach,VA,individual,,A,494724,2026-07-13
 contribution,2026-04-29,Julianne Worden,$52.05,Norfolk,VA,individual,,A,494724,2026-07-13
 contribution,2026-05-07,Liliana Yee,$52.05,Virginia Beach,VA,individual,,A,494724,2026-07-13
+in_kind,2024-10-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,430301,2025-01-15
+in_kind,2024-12-02,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,430301,2025-01-15
+in_kind,2024-08-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,430301,2025-01-15
+in_kind,2024-11-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,430301,2025-01-15
+in_kind,2024-07-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,430301,2025-01-15
+in_kind,2024-09-02,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,430301,2025-01-15
+in_kind,2024-09-24,"Capital One Services, LLC",$500,Reston,VA,business,Fundraising Event,B,430301,2025-01-15
+in_kind,2024-11-01,Simple Storage,$110,Virginia Beach,VA,business,Storage Unit,B,430301,2025-01-15
+in_kind,2024-09-02,Simple Storage,$110,Virginia Beach,VA,business,Storage Unit,B,430301,2025-01-15
+in_kind,2024-12-02,Simple Storage,$110,Virginia Beach,VA,business,Storage Unit,B,430301,2025-01-15
+in_kind,2024-08-01,Simple Storage,$110,Virginia Beach,VA,business,Storage Unit,B,430301,2025-01-15
+in_kind,2024-10-01,Simple Storage,$110,Virginia Beach,VA,business,Storage Unit,B,430301,2025-01-15
+in_kind,2024-07-01,Simple Storage,$110,Virginia Beach,VA,business,Storage Unit,B,430301,2025-01-15
+in_kind,2025-03-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,436516,2025-04-15
+in_kind,2025-01-01,900-Laskin-B LLC,"$2,082",Virginia Beach,VA,business,Office Space,B,436516,2025-04-15
+in_kind,2025-04-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,453843,2025-09-15
+in_kind,2025-05-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,453843,2025-09-15
+in_kind,2025-06-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,453843,2025-09-15
+in_kind,2025-05-21,Realtors Political Action Committee of Virginia,$489.50,Glen Allen,VA,pac,Food and Beverage,B,453843,2025-09-15
+in_kind,2025-05-31,Studio Center Corporation,"$1,962.18",Virginia Beach,VA,business,Campaign Advertising,B,453843,2025-09-15
+in_kind,2025-07-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,459639,2025-10-13
+in_kind,2025-08-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,459639,2025-10-13
+in_kind,2025-07-15,Advocates Hub LLC,$500,Chesapeake,VA,pac,Advertising,B,459639,2025-10-13
+in_kind,2025-08-15,Advocates Hub LLC,$500,Chesapeake,VA,pac,Advertising,B,459639,2025-10-13
+in_kind,2025-08-31,Save the Children Action Network,$473.80,Washington,DC,business,Advertising,B,459639,2025-10-13
+in_kind,2025-08-31,Studio Center Corporation,"$4,656.30",Virginia Beach,VA,business,Campaign Advertising,B,459639,2025-10-13
+in_kind,2025-09-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,461102,2025-10-15
+in_kind,2025-09-15,Advocates Hub LLC,$500,Chesapeake,VA,pac,Campaign Media,B,461102,2025-10-15
+in_kind,2025-09-15,"Capital One Services, LLC",$500,Reston,VA,business,Event Supplies,B,461102,2025-10-15
+in_kind,2025-09-28,Jill Hade,"$4,516.24",Virginia Beach,VA,individual,Event Supplies,B,461102,2025-10-15
+in_kind,2025-09-30,Save the Children Action Network,$239.24,Washington,DC,business,Advertising,B,461102,2025-10-15
+in_kind,2025-09-30,Studio Center Corporation,"$1,245.41",Virginia Beach,VA,business,Digital Campaign,B,461102,2025-10-15
+in_kind,2025-09-28,Douglas Wetmore,"$4,516.24",Virginia Beach,VA,individual,Event Supplies,B,461102,2025-10-15
+in_kind,2025-10-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,465668,2025-10-27
+in_kind,2025-10-15,Advocates Hub LLC,$500,Chesapeake,VA,pac,Advertising,B,465668,2025-10-27
+in_kind,2025-10-20,Republican Party of Virginia,"$5,714",Richmond,VA,party,Mailers,B,465668,2025-10-27
+in_kind,2025-10-23,Save the Children Action Network,$53.53,Washington,DC,business,Advertising,B,465668,2025-10-27
+in_kind,2025-11-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,472446,2025-12-04
+in_kind,2025-10-31,Republican Party of Virginia,"$9,647",Richmond,VA,party,Mailers,B,472446,2025-12-04
+in_kind,2025-10-27,Studio Center Corporation,"$1,895",Virginia Beach,VA,business,Campaign Advertising,B,472446,2025-12-04
 in_kind,2025-12-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,Office Space,B,494738,2026-07-13
 in_kind,2025-12-16,Co-Op Power PAC,"$1,089.36",Glen Allen,VA,pac,Event Supplies,B,494738,2026-07-13
 in_kind,2026-04-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,office rent,B,494724,2026-07-13
 in_kind,2026-05-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,office rent,B,494724,2026-07-13
 in_kind,2026-06-01,900-Laskin-B LLC,"$1,041",Virginia Beach,VA,business,office rent,B,494724,2026-07-13
 in_kind,2026-01-01,900-Laskin-B LLC,"$3,123",Virginia Beach,VA,business,Office rent January - March,B,494724,2026-07-13
+other_receipt,2025-05-06,Nimmo Republican Womens Club,$27,Virginia Beach,VA,business,Event Tickets,C,453843,2025-09-15
+other_receipt,2025-06-02,Off Duty Managment,$66.60,Katy,TX,business,Security for event,C,453843,2025-09-15
+other_receipt,2025-04-30,Treasurer Of Virginia Beach,$352.80,Virginia Beach,VA,business,Filing Fee Refund,C,453843,2025-09-15
+other_receipt,2025-11-13,Republican Party of Virginia,$250,Richmond,VA,party,Discounts,C,472446,2025-12-04
+other_receipt,2025-11-17,Republican Party of Virginia,$125,Richmond,VA,party,Discounts,C,472446,2025-12-04
 other_receipt,2026-02-17,"DonorBureau, LLC",$695,Reston,VA,business,refund,C,494724,2026-07-13
 other_receipt,2026-04-01,Star Spangled Ball,$400,Virginia Beach,VA,business,Duplicate check refund,C,494724,2026-07-13
+expenditure,2024-07-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,430301,2025-01-15
+expenditure,2024-07-02,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,430301,2025-01-15
+expenditure,2024-07-08,MailChimp,$110,Atlanta,GA,business,Email service,D,430301,2025-01-15
+expenditure,2024-07-09,Liberty Mutual Insurance,$133.42,Boston,MA,business,Insurance,D,430301,2025-01-15
+expenditure,2024-07-12,Treasurer of Virginia,$453.05,Richmond,VA,business,Postage,D,430301,2025-01-15
+expenditure,2024-07-16,Progressive Graphics,$176.18,Virginia Beach,VA,business,Printing Materials,D,430301,2025-01-15
+expenditure,2024-07-17,United States Post Office,$219,Virginia Beach,VA,business,Stamps,D,430301,2025-01-15
+expenditure,2024-07-18,Kiggans for Congress,$100,Virginia Beach,VA,candidate,Contribution,D,430301,2025-01-15
+expenditure,2024-07-22,Eurasia Cafe,$334.04,Virginia Beach,VA,business,Meeting Expense,D,430301,2025-01-15
+expenditure,2024-07-22,Republican Party of Virginia Beach,$250,Virginia Beach,VA,party,Contribution,D,430301,2025-01-15
+expenditure,2024-07-23,HP Instant Ink,$50.87,Palo Alto,CA,business,Printer Ink,D,430301,2025-01-15
+expenditure,2024-08-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,430301,2025-01-15
+expenditure,2024-08-01,North End Shuttle,$225,Virginia Beach,VA,business,Transportation,D,430301,2025-01-15
+expenditure,2024-08-02,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,430301,2025-01-15
+expenditure,2024-08-05,Hampton Roads Council of Veterans Organizations,$30,Virginia Beach,VA,business,Veterans Day Luncheon,D,430301,2025-01-15
+expenditure,2024-08-06,United States Post Office,$73,Virginia Beach,VA,business,Stamps,D,430301,2025-01-15
+expenditure,2024-08-06,American Legislative Exchange Council ALEC,$200,Arlington,VA,business,Membership Dues,D,430301,2025-01-15
+expenditure,2024-08-07,MailChimp,$110,Atlanta,GA,business,Email service,D,430301,2025-01-15
+expenditure,2024-08-09,Liberty Mutual Insurance,$133.42,Boston,MA,business,Insurance,D,430301,2025-01-15
+expenditure,2024-08-13,Deluxe Checks,$101.50,Shoreview,MN,business,Check Printing,D,430301,2025-01-15
+expenditure,2024-08-13,Virginia Pilot,$250.25,Norfolk,VA,business,Newspaper,D,430301,2025-01-15
+expenditure,2024-08-14,Pollards Chicken,$80.28,Virginia Beach,VA,business,Meeting Expense,D,430301,2025-01-15
+expenditure,2024-08-16,Gina Lane,"$1,000",Virginia Beach,VA,individual,Payroll,D,430301,2025-01-15
+expenditure,2024-08-21,Progressive Graphics,"$1,247.09",Virginia Beach,VA,business,Campaign Materials,D,430301,2025-01-15
+expenditure,2024-08-26,HP Instant Ink,$22.25,Palo Alto,CA,business,Printer Ink,D,430301,2025-01-15
+expenditure,2024-08-27,WinRed,$19.70,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-09-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,430301,2025-01-15
+expenditure,2024-09-04,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,430301,2025-01-15
+expenditure,2024-09-09,MailChimp,$110,Atlanta,GA,business,Email service,D,430301,2025-01-15
+expenditure,2024-09-09,Liberty Mutual Insurance,$133.42,Boston,MA,business,Insurance,D,430301,2025-01-15
+expenditure,2024-09-11,WinRed,$1.97,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-09-15,WinRed,$3.94,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-09-15,WinRed,$3.94,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-09-18,Star Spangled Ball,$400,Virginia Beach,VA,business,Program Ad Sponsor,D,430301,2025-01-15
+expenditure,2024-09-18,Kiggans for Congress,$100,Virginia Beach,VA,candidate,Contribution,D,430301,2025-01-15
+expenditure,2024-09-18,Beach Suburban Republican Womens Club,$28,Virginia Beach,VA,business,Event Tickets,D,430301,2025-01-15
+expenditure,2024-09-19,United States Post Office,$222,Virginia Beach,VA,business,Post Office Box,D,430301,2025-01-15
+expenditure,2024-09-19,Friends of Jason Miyares,$250,Virginia Beach,VA,business,Event Ticket,D,430301,2025-01-15
+expenditure,2024-09-20,WinRed,$3.94,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-09-24,HP Instant Ink,$22.25,Palo Alto,CA,business,Printer Ink,D,430301,2025-01-15
+expenditure,2024-09-25,WinRed,$1.97,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-09-25,WinRed,$9.85,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-09-26,WinRed,$49.25,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-09-26,FedEx Office Print & Ship Center,$42.39,Virginia Beach,VA,business,Printing expense,D,430301,2025-01-15
+expenditure,2024-09-30,Office Max Office Deport,$23.84,Virginia Beach,VA,business,Event Supplies,D,430301,2025-01-15
+expenditure,2024-09-30,Dollar Tree,$11.86,Richmond,VA,business,Event Supplies,D,430301,2025-01-15
+expenditure,2024-10-01,Republican Party of Virginia Beach,$700,Virginia Beach,VA,party,Political Contribution,D,430301,2025-01-15
+expenditure,2024-10-01,WinRed,$17.73,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-10-01,Priscilla Gunter,$750,Virginia Beach,VA,individual,Event Management,D,430301,2025-01-15
+expenditure,2024-10-01,Anne Ferrell Tata,$346.52,Virginia Beach,VA,individual,Reimbursement for Travel Expenses,D,430301,2025-01-15
+expenditure,2024-10-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,430301,2025-01-15
+expenditure,2024-10-02,The Porch on Long Creek,$294.19,Virginia Beach,VA,business,Staff Meal,D,430301,2025-01-15
+expenditure,2024-10-02,WinRed,$100.47,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-10-02,Cody Stageberg,$250,Virginia Beach,VA,individual,AV Setup and music,D,430301,2025-01-15
+expenditure,2024-10-02,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,430301,2025-01-15
+expenditure,2024-10-03,WinRed,$15.76,Arlington,VA,business,Online fee,D,430301,2025-01-15
+expenditure,2024-10-04,WinRed,$45.35,Arlington,VA,business,Online Fee,D,430301,2025-01-15
+expenditure,2024-10-07,MailChimp,$110,Atlanta,GA,business,Email service,D,430301,2025-01-15
+expenditure,2024-10-07,Marriott,$331.96,Charlottesville,VA,business,Hotel expense,D,430301,2025-01-15
+expenditure,2024-10-08,Liberty Mutual Insurance,$130.42,Boston,MA,business,Insurance,D,430301,2025-01-15
+expenditure,2024-10-10,The Gala 417,$540,Virginia Beach,VA,business,Event Hosting Expenses,D,430301,2025-01-15
+expenditure,2024-10-15,CVBIA,$300,Chesapeake,VA,business,Contribution,D,430301,2025-01-15
+expenditure,2024-10-15,Treasurer of Virginia,$37,Richmond,VA,business,State Flag,D,430301,2025-01-15
+expenditure,2024-10-16,Virginia GOP,$268.61,Richmond,VA,party,Event Ticket,D,430301,2025-01-15
+expenditure,2024-10-17,Megan Haynsworth,$250,Virginia Beach,VA,individual,Payroll,D,430301,2025-01-15
+expenditure,2024-10-17,United States Post Office,$438,Virginia Beach,VA,business,Post Office Box,D,430301,2025-01-15
+expenditure,2024-10-17,Tara Berger,$155.44,Virginia Beach,VA,individual,Travel,D,430301,2025-01-15
+expenditure,2024-10-17,Megan Haynsworth,$250,Virginia Beach,VA,individual,Payroll,D,430301,2025-01-15
+expenditure,2024-10-21,Friends of Ryan Gilliam,$500,Virginia Beach,VA,business,Campaign contribution,D,430301,2025-01-15
+expenditure,2024-10-24,HP Instant Ink,$55.11,Palo Alto,CA,business,Printer Ink,D,430301,2025-01-15
+expenditure,2024-10-30,Anne Ferrell Tata,$165.98,Virginia Beach,VA,individual,Reimbursement for Travel Expenses,D,430301,2025-01-15
+expenditure,2024-10-30,G.W.C. Brown Legacy Fund,$150,Norfolk,VA,business,Advertising,D,430301,2025-01-15
+expenditure,2024-10-31,The Jefferson Hotel,$3,Richmond,VA,business,Parking,D,430301,2025-01-15
+expenditure,2024-11-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,430301,2025-01-15
+expenditure,2024-11-04,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,430301,2025-01-15
+expenditure,2024-11-04,21st Street Art Gallery,$159,Virginia Beach,VA,business,Framing for Resolutions,D,430301,2025-01-15
+expenditure,2024-11-07,Virginia Pilot,$250.25,Norfolk,VA,business,Newspaper,D,430301,2025-01-15
+expenditure,2024-11-07,Greater Richmond Convention Center,$8,Richmond,VA,business,Parking for event,D,430301,2025-01-15
+expenditure,2024-11-07,MailChimp,$110,Atlanta,GA,business,Email service,D,430301,2025-01-15
+expenditure,2024-11-11,Anne Ferrell Tata,$343.53,Virginia Beach,VA,individual,Reimbursement for Travel Expenses,D,430301,2025-01-15
+expenditure,2024-11-11,Beach Suburban Republican Womens Club,$75,Virginia Beach,VA,business,Event Tickets,D,430301,2025-01-15
+expenditure,2024-11-12,Virginia GOP,$268.61,Richmond,VA,party,Event Ticket,D,430301,2025-01-15
+expenditure,2024-11-12,Liberty Mutual Insurance,$130.42,Boston,MA,business,Insurance,D,430301,2025-01-15
+expenditure,2024-11-14,The Fresh Market,$131.35,Virginia Beach,VA,business,Event Supplies,D,430301,2025-01-15
+expenditure,2024-11-14,Dollar Tree,$17.23,Richmond,VA,business,Event Supplies,D,430301,2025-01-15
+expenditure,2024-11-14,Dollar Tree,$11.93,Richmond,VA,business,Event Supplies,D,430301,2025-01-15
+expenditure,2024-11-18,Virginia GOP,$250,Richmond,VA,party,Event Ticket,D,430301,2025-01-15
+expenditure,2024-11-18,Republican Party of Virginia Beach,$200,Virginia Beach,VA,party,Contribution,D,430301,2025-01-15
+expenditure,2024-11-20,FedEx Office Print & Ship Center,$127.52,Virginia Beach,VA,business,Printing expense,D,430301,2025-01-15
+expenditure,2024-11-20,Virginia Beach Printing,$371,Virginia Beach,VA,business,Printing,D,430301,2025-01-15
+expenditure,2024-11-25,Megan Haynsworth,$250,Virginia Beach,VA,individual,Payroll,D,430301,2025-01-15
+expenditure,2024-11-25,HP Instant Ink,$22.25,Palo Alto,CA,business,Printer Ink,D,430301,2025-01-15
+expenditure,2024-11-26,Off Duty Managment,$244.76,Katy,TX,business,Security for event,D,430301,2025-01-15
+expenditure,2024-12-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,430301,2025-01-15
+expenditure,2024-12-03,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,430301,2025-01-15
+expenditure,2024-12-03,Megan Haynsworth,$250,Virginia Beach,VA,individual,Payroll,D,430301,2025-01-15
+expenditure,2024-12-04,The Commonwealth,$217.54,Richmond,VA,business,Hotel Expense,D,430301,2025-01-15
+expenditure,2024-12-06,Kimpton The Forum Hotel,$395.38,Charlottesville,VA,business,Republican Advance Lodging,D,430301,2025-01-15
+expenditure,2024-12-07,MailChimp,$110,Atlanta,GA,business,Email service,D,430301,2025-01-15
+expenditure,2024-12-09,Liberty Mutual Insurance,$130.42,Boston,MA,business,Insurance,D,430301,2025-01-15
+expenditure,2024-12-10,Commonwealth Prayer Breakfast,$55.20,Richmond,VA,business,Event Ticket,D,430301,2025-01-15
+expenditure,2024-12-11,Baker's Crust,$127.50,Virginia Beach,VA,business,Meeting expense,D,430301,2025-01-15
+expenditure,2024-12-16,Tara Berger,$54.33,Virginia Beach,VA,individual,Event Management,D,430301,2025-01-15
+expenditure,2024-12-17,Tara Berger,$142.04,Virginia Beach,VA,individual,Reimbursement for Travel Expenses,D,430301,2025-01-15
+expenditure,2024-12-17,Tara Berger,"$1,000",Virginia Beach,VA,individual,Admin Payroll,D,430301,2025-01-15
+expenditure,2024-12-17,Priscilla Gunter,$750,Virginia Beach,VA,individual,Event Management,D,430301,2025-01-15
+expenditure,2024-12-24,HP Instant Ink,$22.25,Palo Alto,CA,business,Printer Ink,D,430301,2025-01-15
+expenditure,2024-12-28,Republican Party of Virginia Beach,$150,Virginia Beach,VA,party,Advertising,D,430301,2025-01-15
+expenditure,2025-01-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,436516,2025-04-15
+expenditure,2025-01-03,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,436516,2025-04-15
+expenditure,2025-01-07,MailChimp,$110,Atlanta,GA,business,Email service,D,436516,2025-04-15
+expenditure,2025-01-09,Priscilla Gunter,$176.88,Virginia Beach,VA,individual,Office Supplies at Session,D,436516,2025-04-15
+expenditure,2025-01-09,Liberty Mutual Insurance,$130.42,Boston,MA,business,Insurance,D,436516,2025-04-15
+expenditure,2025-01-14,Richmond Times Dispatch,$77.13,Richmond,VA,business,Newspaper Subscription,D,436516,2025-04-15
+expenditure,2025-01-14,Harris Teeter,$109.01,Virginia Beach,VA,business,Event Management,D,436516,2025-04-15
+expenditure,2025-01-16,The Commonwealth,$243.12,Richmond,VA,business,Hotel Expense,D,436516,2025-04-15
+expenditure,2025-01-20,Treasurer of Virginia,$47,Richmond,VA,business,Business Cards,D,436516,2025-04-15
+expenditure,2025-01-24,HP Instant Ink,$22.25,Palo Alto,CA,business,Printer Ink,D,436516,2025-04-15
+expenditure,2025-01-27,Angela Chellew,$150,Virginia Beach,VA,individual,Candidate Forms,D,436516,2025-04-15
+expenditure,2025-01-27,Treasurer Of Virginia Beach,$352.80,Virginia Beach,VA,business,Filing Fee,D,436516,2025-04-15
+expenditure,2025-02-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,436516,2025-04-15
+expenditure,2025-02-03,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,436516,2025-04-15
+expenditure,2025-02-04,Virginia Scope,$93,Colonial Heights,VA,business,Newsletter Subscription,D,436516,2025-04-15
+expenditure,2025-02-05,Tara Berger,$900,Virginia Beach,VA,individual,Payroll,D,436516,2025-04-15
+expenditure,2025-02-05,Megan Haynsworth,$250,Virginia Beach,VA,individual,Payroll,D,436516,2025-04-15
+expenditure,2025-02-05,Virginia Pilot,$130,Norfolk,VA,business,Newspaper,D,436516,2025-04-15
+expenditure,2025-02-05,Megan Haynsworth,$30,Virginia Beach,VA,individual,1099 Filing Fees,D,436516,2025-04-15
+expenditure,2025-02-05,"Hampton Roads Council, Navy League of the U.S.",$60,Virginia Beach,VA,business,Event Ticket,D,436516,2025-04-15
+expenditure,2025-02-07,MailChimp,$110,Atlanta,GA,business,Email service,D,436516,2025-04-15
+expenditure,2025-02-08,Liberty Mutual Insurance,$130.42,Boston,MA,business,Insurance,D,436516,2025-04-15
+expenditure,2025-02-10,Men Of Faith,$72,Virginia Beach,VA,business,Contribution,D,436516,2025-04-15
+expenditure,2025-02-10,Megan Haynsworth,$250,Virginia Beach,VA,individual,Payroll,D,436516,2025-04-15
+expenditure,2025-02-18,Virginia Beach Rescue Squad Inc.,$150,Virginia Beach,VA,business,Civic Contribution,D,436516,2025-04-15
+expenditure,2025-02-24,Stephanie Granger,$400,Virginia Beach,VA,individual,Event Management,D,436516,2025-04-15
+expenditure,2025-02-24,HP Instant Ink,$22.25,Palo Alto,CA,business,Printer Ink,D,436516,2025-04-15
+expenditure,2025-02-25,Hampton Roads Chamber of Commerce,$170,Norfolk,VA,business,Event Ticket,D,436516,2025-04-15
+expenditure,2025-03-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,436516,2025-04-15
+expenditure,2025-03-03,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,436516,2025-04-15
+expenditure,2025-03-04,Bob Tata,$432.69,Virginia Beach,VA,individual,Campaign Event,D,436516,2025-04-15
+expenditure,2025-03-05,Beach Suburban Republican Womens Club,$500,Virginia Beach,VA,business,Event Sponsor,D,436516,2025-04-15
+expenditure,2025-03-07,MailChimp,$110,Atlanta,GA,business,Email service,D,436516,2025-04-15
+expenditure,2025-03-08,Siteground Hosting,$599.76,Alexandria,VA,business,Website Hosting,D,436516,2025-04-15
+expenditure,2025-03-10,Men Of Faith,$250,Virginia Beach,VA,business,Contribution,D,436516,2025-04-15
+expenditure,2025-03-11,Liberty Mutual Insurance,$130.37,Boston,MA,business,Insurance,D,436516,2025-04-15
+expenditure,2025-03-13,Court Appointed Special Advocates,$150,Virginia Beach,VA,business,Event Ticket,D,436516,2025-04-15
+expenditure,2025-03-17,21st Street Art Gallery,$381.60,Virginia Beach,VA,business,Framing for Resolutions,D,436516,2025-04-15
+expenditure,2025-03-18,WinRed,$1.97,Arlington,VA,business,Online Fee,D,436516,2025-04-15
+expenditure,2025-03-19,WinRed,$2.05,Arlington,VA,business,Online Fee,D,436516,2025-04-15
+expenditure,2025-03-22,WinRed,$4.02,Arlington,VA,business,Online Fee,D,436516,2025-04-15
+expenditure,2025-03-23,WinRed,$8.20,Arlington,VA,business,Online Fee,D,436516,2025-04-15
+expenditure,2025-03-24,Briana Sewell,$185,Woodbridge,VA,individual,Page Dinner Contribution,D,436516,2025-04-15
+expenditure,2025-03-24,United States Post Office,$150.63,Virginia Beach,VA,business,Postage,D,436516,2025-04-15
+expenditure,2025-03-24,HP Instant Ink,$22.25,Palo Alto,CA,business,Printer Ink,D,436516,2025-04-15
+expenditure,2025-03-25,WinRed,$16.32,Arlington,VA,business,Online Fee,D,436516,2025-04-15
+expenditure,2025-03-25,Princess Anne Republican Women's Club,$40,Virginia Beach,VA,business,Event Ticket,D,436516,2025-04-15
+expenditure,2025-03-25,Virginia Beach Republican Women's Club,$60,Virginia Beach,VA,business,Event Tickets,D,436516,2025-04-15
+expenditure,2025-03-26,WinRed,$34.69,Arlington,VA,business,Online Fee,D,436516,2025-04-15
+expenditure,2025-03-28,House Republican Campaign Committee,"$1,000",Henrico,VA,party,Caucus Dues,D,436516,2025-04-15
+expenditure,2025-03-29,WinRed,$6.07,Arlington,VA,business,Online Fee,D,436516,2025-04-15
+expenditure,2025-04-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,453843,2025-09-15
+expenditure,2025-04-01,WinRed,$8.20,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-02,WinRed,$24.52,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-03,Laurel Rohlfs,$50,Virginia Beach,VA,individual,Refunded Contribution,D,453843,2025-09-15
+expenditure,2025-04-03,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,453843,2025-09-15
+expenditure,2025-04-04,WinRed,$36.90,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-05,WinRed,$22.15,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-07,"Name Badge Productions, LLC",$588.31,Middleton,WI,business,Event Supplies,D,453843,2025-09-15
+expenditure,2025-04-07,MailChimp,$110,Atlanta,GA,business,Email service,D,453843,2025-09-15
+expenditure,2025-04-07,PC/Nametag,$653.68,Chicago,IL,business,Event Supplies,D,453843,2025-09-15
+expenditure,2025-04-08,National Conference of State Legislatures,$755,Washington,DC,business,Annual Summit Meeting,D,453843,2025-09-15
+expenditure,2025-04-08,WinRed,$3.94,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-09,Liberty Mutual Insurance,$132.51,Boston,MA,business,Insurance,D,453843,2025-09-15
+expenditure,2025-04-09,Beach Suburban Republican Womens Club,$28,Virginia Beach,VA,business,Event Ticket,D,453843,2025-09-15
+expenditure,2025-04-09,WinRed,$55.48,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-10,WinRed,$12.06,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-11,WinRed,$143.23,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-12,WinRed,$4.10,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-14,FedEx Office Print & Ship Center,$63.06,Virginia Beach,VA,business,Printing expense,D,453843,2025-09-15
+expenditure,2025-04-15,Off Duty Managment,$274.39,Katy,TX,business,Security for event,D,453843,2025-09-15
+expenditure,2025-04-15,WinRed,$2.05,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-15,Blue Steel Lighting Design,"$1,950",Chesapeake,VA,business,Event Supplies,D,453843,2025-09-15
+expenditure,2025-04-16,WinRed,$247.40,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-16,The Wandering Petal,$540,Virginia Beach,VA,business,Event Supplies,D,453843,2025-09-15
+expenditure,2025-04-17,WinRed,$10.01,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-17,TRW Photos,$250,Virginia Beach,VA,business,Event Photography,D,453843,2025-09-15
+expenditure,2025-04-18,WinRed,$2.05,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-19,WinRed,$30,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-04-19,Virginia Beach Republican Women's Club,$32,Virginia Beach,VA,business,Event Tickets,D,453843,2025-09-15
+expenditure,2025-04-21,Republican Commonwealth Leadership PAC,"$3,750",Henrico,VA,pac,Contribution,D,453843,2025-09-15
+expenditure,2025-04-22,Tara Berger,$200,Virginia Beach,VA,individual,Event Planning,D,453843,2025-09-15
+expenditure,2025-04-22,Megan Haynsworth,$250,Virginia Beach,VA,individual,Payroll,D,453843,2025-09-15
+expenditure,2025-04-22,Priscilla Gunter,"$1,000",Virginia Beach,VA,individual,Event Planning,D,453843,2025-09-15
+expenditure,2025-04-22,Tara Berger,$975,Virginia Beach,VA,individual,Admin Payroll,D,453843,2025-09-15
+expenditure,2025-04-22,Tara Berger,"$1,500",Virginia Beach,VA,individual,Admin Payroll,D,453843,2025-09-15
+expenditure,2025-04-23,Nimmo Republican Womens Club,$27,Virginia Beach,VA,business,Event Tickets,D,453843,2025-09-15
+expenditure,2025-04-24,HP Instant Ink,$22.25,Palo Alto,CA,business,Printer Ink,D,453843,2025-09-15
+expenditure,2025-04-25,"KBSI, LLC","$1,500",Virginia Beach,VA,business,Audio visual,D,453843,2025-09-15
+expenditure,2025-04-27,Winsome for Governor,"$1,000",Richmond,VA,business,Event Ticket,D,453843,2025-09-15
+expenditure,2025-04-29,United States Post Office,$146,Virginia Beach,VA,business,Office Supplies,D,453843,2025-09-15
+expenditure,2025-04-30,WinRed,$9.85,Arlington,VA,business,Online Fee,D,453843,2025-09-15
+expenditure,2025-05-01,21st Street Art Gallery,"$1,855",Virginia Beach,VA,business,Framing for Resolutions,D,453843,2025-09-15
+expenditure,2025-05-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,453843,2025-09-15
+expenditure,2025-05-02,State Corporation Commission,$75,Richmond,VA,business,SCC Fee,D,453843,2025-09-15
+expenditure,2025-05-03,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,453843,2025-09-15
+expenditure,2025-05-07,MailChimp,$110,Atlanta,GA,business,Email service,D,453843,2025-09-15
+expenditure,2025-05-08,Beach Suburban Republican Womens Club,$28,Virginia Beach,VA,business,Event Ticket,D,453843,2025-09-15
+expenditure,2025-05-09,Liberty Mutual Insurance,$132.51,Boston,MA,business,Insurance,D,453843,2025-09-15
+expenditure,2025-05-16,Brian Kirwin,"$2,000",Virginia Beach,VA,individual,Political Consulting,D,453843,2025-09-15
+expenditure,2025-05-16,Susan Allen,"$1,000",Virginia Beach,VA,individual,Grassroots Consulting,D,453843,2025-09-15
+expenditure,2025-05-16,Charles R. Mehle II,"$1,000",Virginia Beach,VA,individual,Voter Data Analysis,D,453843,2025-09-15
+expenditure,2025-05-20,Megan Haynsworth,$250,Virginia Beach,VA,individual,Payroll,D,453843,2025-09-15
+expenditure,2025-05-20,Megan Haynsworth,$38.21,Virginia Beach,VA,individual,Office Supplies,D,453843,2025-09-15
+expenditure,2025-05-27,HP Instant Ink,$25.43,Palo Alto,CA,business,Printer Ink,D,453843,2025-09-15
+expenditure,2025-05-27,Walmart Supercenter,$10.46,Virginia Beach,VA,business,Office Supplies,D,453843,2025-09-15
+expenditure,2025-05-28,Matt Gunter,"$5,557.43",Virginia Beach,VA,individual,Event Supplies,D,453843,2025-09-15
+expenditure,2025-05-29,WinRed,$19.70,Arlington,VA,business,Online fee,D,453843,2025-09-15
+expenditure,2025-05-30,United States Post Office,$146,Virginia Beach,VA,business,Office Supplies,D,453843,2025-09-15
+expenditure,2025-05-30,Ballyhoos K&T Inc,$205.58,Virginia Beach,VA,business,Event expenses,D,453843,2025-09-15
+expenditure,2025-05-31,Tara Berger,"$1,500",Virginia Beach,VA,individual,Admin Payroll,D,453843,2025-09-15
+expenditure,2025-05-31,Priscilla Gunter,$500,Virginia Beach,VA,individual,Event Planning,D,453843,2025-09-15
+expenditure,2025-06-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,453843,2025-09-15
+expenditure,2025-06-03,Florida Coalition for Children,$249,Tallahassee,FL,business,Event Ticket,D,453843,2025-09-15
+expenditure,2025-06-03,Breeze Air,$343,Salt Lake City,UT,business,FCC Annual Conference Travel,D,453843,2025-09-15
+expenditure,2025-06-03,Integrated Solutions: Political,$150,San Diego,CA,business,PAC Software expense,D,453843,2025-09-15
+expenditure,2025-06-03,Integrated Solutions: Political,$500,San Diego,CA,business,Software expense,D,453843,2025-09-15
+expenditure,2025-06-07,MailChimp,$110,Atlanta,GA,business,Email service,D,447599,2025-07-15
+expenditure,2025-06-09,Star Spangled Ball,$400,Virginia Beach,VA,business,Program Ad Sponsor,D,447599,2025-07-15
+expenditure,2025-06-09,Liberty Mutual Insurance,$132.51,Boston,MA,business,Insurance,D,447599,2025-07-15
+expenditure,2025-06-09,Megan Haynsworth,$250,Virginia Beach,VA,individual,Payroll,D,447599,2025-07-15
+expenditure,2025-06-13,Virginia Pilot,$172.12,Norfolk,VA,business,Newspaper,D,447599,2025-07-15
+expenditure,2025-06-13,Virginia House of Delegates,$711.06,Richmond,VA,business,2025 Session Postage,D,447599,2025-07-15
+expenditure,2025-06-17,Red Maverick Media,$470,Henrico,VA,business,Event Stickers,D,447599,2025-07-15
+expenditure,2025-06-17,Red Maverick Media,$863,Henrico,VA,business,Event Handouts,D,447599,2025-07-15
+expenditure,2025-06-20,Republican Party of Norfolk,$65,Norfolk,VA,party,General Fund Contribution,D,447599,2025-07-15
+expenditure,2025-06-22,WinRed,$17.73,Arlington,VA,business,Online fee,D,447599,2025-07-15
+expenditure,2025-06-24,HP Instant Ink,$25.43,Palo Alto,CA,business,Printer Ink,D,447599,2025-07-15
+expenditure,2025-06-24,American Legislative Exchange Council ALEC,$625,Arlington,VA,business,Membership Dues,D,447599,2025-07-15
+expenditure,2025-06-26,United States Post Office,$146,Virginia Beach,VA,business,Office Supplies,D,447599,2025-07-15
+expenditure,2025-07-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,459639,2025-10-13
+expenditure,2025-07-02,Integrated Solutions: Political,$150,San Diego,CA,business,Software expense,D,459639,2025-10-13
+expenditure,2025-07-03,Integrated Solutions: Political,$550,San Diego,CA,business,Software expense,D,459639,2025-10-13
+expenditure,2025-07-07,MailChimp,$110,Atlanta,GA,business,Email service,D,459639,2025-10-13
+expenditure,2025-07-09,United States Post Office,$146,Virginia Beach,VA,business,Office Supplies,D,459639,2025-10-13
+expenditure,2025-07-09,Liberty Mutual Insurance,$132.51,Boston,MA,business,Insurance,D,459639,2025-10-13
+expenditure,2025-07-15,Tara Berger,"$1,500",Virginia Beach,VA,individual,Admin Payroll,D,459639,2025-10-13
+expenditure,2025-07-15,Megan Haynsworth,$350,Virginia Beach,VA,individual,Payroll,D,459639,2025-10-13
+expenditure,2025-07-15,Priscilla Gunter,$500,Virginia Beach,VA,individual,Event Planning,D,459639,2025-10-13
+expenditure,2025-07-15,Star Spangled Ball,$400,Virginia Beach,VA,business,Program Ad Sponsor,D,459639,2025-10-13
+expenditure,2025-07-16,WinRed,$9.85,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-07-20,WinRed,$19.70,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-07-21,"Hampton Roads Council, Navy League of the U.S.",$104.24,Virginia Beach,VA,business,Event Ticket,D,459639,2025-10-13
+expenditure,2025-07-23,United States Post Office,$46.80,Virginia Beach,VA,business,Office Supplies,D,459639,2025-10-13
+expenditure,2025-07-24,HP Instant Ink,$25.43,Palo Alto,CA,business,Printer Ink,D,459639,2025-10-13
+expenditure,2025-07-28,United States Post Office,$78,Virginia Beach,VA,business,Office Supplies,D,459639,2025-10-13
+expenditure,2025-07-30,Priscilla Gunter,$500,Virginia Beach,VA,individual,Event Planning,D,459639,2025-10-13
+expenditure,2025-07-30,Priscilla Gunter,$200,Virginia Beach,VA,individual,Event Planning,D,459639,2025-10-13
+expenditure,2025-07-30,Tara Berger,"$2,000",Virginia Beach,VA,individual,Admin Payroll,D,459639,2025-10-13
+expenditure,2025-08-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,459639,2025-10-13
+expenditure,2025-08-03,Integrated Solutions: Political,$550,San Diego,CA,business,Software expense,D,459639,2025-10-13
+expenditure,2025-08-04,Integrated Solutions: Political,$150,San Diego,CA,business,Software expense,D,459639,2025-10-13
+expenditure,2025-08-04,WinRed,$39.40,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-05,United States Post Office,$78,Virginia Beach,VA,business,Office Supplies,D,459639,2025-10-13
+expenditure,2025-08-06,United States Post Office,$78,Virginia Beach,VA,business,Office Supplies,D,459639,2025-10-13
+expenditure,2025-08-07,MailChimp,$110,Atlanta,GA,business,Email service,D,459639,2025-10-13
+expenditure,2025-08-08,Kirwin Development Strategies,"$2,000",Virginia Beach,VA,business,Consulting/Advertising,D,459639,2025-10-13
+expenditure,2025-08-09,Liberty Mutual Insurance,$132.51,Boston,MA,business,Insurance,D,459639,2025-10-13
+expenditure,2025-08-11,WinRed,$19.70,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-11,WinRed,$3.94,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-13,WinRed,$4.93,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-13,Republican Commonwealth Leadership PAC,"$3,750",Henrico,VA,pac,Contribution,D,459639,2025-10-13
+expenditure,2025-08-16,Colleen Walsh,$100,Virginia Beach,VA,individual,Office Work,D,459639,2025-10-13
+expenditure,2025-08-16,Gabriela Siefert,$100,Virginia Beach,VA,individual,Office Work,D,459639,2025-10-13
+expenditure,2025-08-18,Anne Ferrell Tata,$924.31,Virginia Beach,VA,individual,Reimbursement for Travel Expenses,D,459639,2025-10-13
+expenditure,2025-08-18,Susan Allen,"$1,000",Virginia Beach,VA,individual,General Consulting,D,459639,2025-10-13
+expenditure,2025-08-18,Kirwin Development Strategies,$400,Virginia Beach,VA,business,Consulting/Advertising,D,459639,2025-10-13
+expenditure,2025-08-18,Megan Haynsworth,$300,Virginia Beach,VA,individual,Payroll,D,459639,2025-10-13
+expenditure,2025-08-18,United States Post Office,$78,Virginia Beach,VA,business,Office Supplies,D,459639,2025-10-13
+expenditure,2025-08-18,Virginia Beach Printing,$243.80,Virginia Beach,VA,business,Printing,D,459639,2025-10-13
+expenditure,2025-08-18,Tara Berger,"$2,000",Virginia Beach,VA,individual,Admin Payroll,D,459639,2025-10-13
+expenditure,2025-08-18,WinRed,$19.70,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-18,Chuck Mehle,"$1,000",Virginia Beach,VA,individual,Consulting,D,459639,2025-10-13
+expenditure,2025-08-18,Priscilla Gunter,$500,Virginia Beach,VA,individual,Event Planning,D,459639,2025-10-13
+expenditure,2025-08-20,WinRed,$19.70,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-20,WinRed,$3.94,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-20,WinRed,$78.80,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-21,WinRed,$39.40,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-21,WinRed,$9.85,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-21,WinRed,$39.40,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-22,WinRed,$19.70,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-25,HP Instant Ink,$25.43,Palo Alto,CA,business,Printer Ink,D,459639,2025-10-13
+expenditure,2025-08-25,WinRed,$19.70,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-27,WinRed,$39.40,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-27,WinRed,$9.85,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-28,WinRed,$20.51,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-28,Kiggans for Congress,$500,Virginia Beach,VA,candidate,Contribution,D,459639,2025-10-13
+expenditure,2025-08-28,WinRed,$0.99,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-28,Mark Weiss Associates,$308.58,Bethesda,MD,business,Campaign Supplies,D,459639,2025-10-13
+expenditure,2025-08-29,WinRed,$9.85,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-29,WinRed,$4.10,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-29,WinRed,$3.94,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-29,WinRed,$19.70,Arlington,VA,business,Online fee,D,459639,2025-10-13
+expenditure,2025-08-30,Kyle for VA,"$1,500",Virginia Beach,VA,business,Donation,D,459639,2025-10-13
+expenditure,2025-09-01,Integrated Solutions: Political,$550,San Diego,CA,business,Software expense,D,461102,2025-10-15
+expenditure,2025-09-01,Integrated Solutions: Political,$150,San Diego,CA,business,Software expense,D,461102,2025-10-15
+expenditure,2025-09-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,461102,2025-10-15
+expenditure,2025-09-02,WinRed,$19.70,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-02,WinRed,$4.10,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-02,United States Post Office,$5.22,Virginia Beach,VA,business,Postage,D,461102,2025-10-15
+expenditure,2025-09-03,Virginia Pilot,$27.96,Norfolk,VA,business,Newspaper,D,461102,2025-10-15
+expenditure,2025-09-05,United States Post Office,$78,Virginia Beach,VA,business,Office Supplies,D,461102,2025-10-15
+expenditure,2025-09-05,WinRed,$4.10,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-07,Off Duty Managment,$205.79,Katy,TX,business,Security for event,D,461102,2025-10-15
+expenditure,2025-09-07,MailChimp,$110,Atlanta,GA,business,Email service,D,461102,2025-10-15
+expenditure,2025-09-08,Liberty Mutual Insurance,$132.51,Boston,MA,business,Insurance,D,461102,2025-10-15
+expenditure,2025-09-08,Beach Suburban Republican Womens Club,$28,Virginia Beach,VA,business,Event Ticket,D,461102,2025-10-15
+expenditure,2025-09-08,WinRed,$9.85,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-09,Progressive Graphics,$173.81,Virginia Beach,VA,business,Campaign Materials,D,461102,2025-10-15
+expenditure,2025-09-09,Michael's,$11.63,Virginia Beach,VA,business,Event Supplies,D,461102,2025-10-15
+expenditure,2025-09-09,Right Time Media LLC,$438.52,Charleston,SC,business,Advertising,D,461102,2025-10-15
+expenditure,2025-09-09,Vibe Creative District,$15,Virginia Beach,VA,business,Community Event,D,461102,2025-10-15
+expenditure,2025-09-10,Republican Party of Virginia,"$1,600",Richmond,VA,party,Donation,D,461102,2025-10-15
+expenditure,2025-09-10,WinRed,$10.25,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-10,WinRed,$1.03,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-10,WinRed,$4.10,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-10,WinRed,$10.25,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-10,United States Post Office,$3.80,Virginia Beach,VA,business,Postage,D,461102,2025-10-15
+expenditure,2025-09-11,WinRed,$4.10,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-11,WinRed,$1.23,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-11,WinRed,$4.10,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-11,WinRed,$10.25,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-11,WinRed,$3.94,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-11,WinRed,$4.10,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-12,WinRed,$9.85,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-12,WinRed,$19.70,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-12,WinRed,$9.85,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-12,WinRed,$3.94,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-12,WinRed,$1.97,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-13,Dunkin Donuts,$77.72,Virginia Beach,VA,business,Campaign event supplies,D,461102,2025-10-15
+expenditure,2025-09-14,Shorebreak,$20.70,Virginia Beach,VA,business,Event Managment,D,461102,2025-10-15
+expenditure,2025-09-14,Shorebreak,$20.60,Virginia Beach,VA,business,Summer Reading Challenge,D,461102,2025-10-15
+expenditure,2025-09-16,WinRed,$19.70,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-16,North End Shuttle,$880,Virginia Beach,VA,business,Transportation,D,461102,2025-10-15
+expenditure,2025-09-17,United States Post Office,$234,Virginia Beach,VA,business,PO Box,D,461102,2025-10-15
+expenditure,2025-09-18,Virginia Beach Republican Women's Club,$32,Virginia Beach,VA,business,Event Tickets,D,461102,2025-10-15
+expenditure,2025-09-18,21st Street Art Gallery,$311.52,Virginia Beach,VA,business,Framing for RVA,D,461102,2025-10-15
+expenditure,2025-09-19,WinRed,$39.40,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-22,WinRed,$4.10,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-23,WinRed,$3.94,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-24,WinRed,$39.40,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-24,WinRed,$19.70,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-24,HP Instant Ink,$25.43,Palo Alto,CA,business,Printer Ink,D,461102,2025-10-15
+expenditure,2025-09-25,Megan Haynsworth,$300,Virginia Beach,VA,individual,Payroll,D,461102,2025-10-15
+expenditure,2025-09-25,Priscilla Gunter,$500,Virginia Beach,VA,individual,Event Planning,D,461102,2025-10-15
+expenditure,2025-09-25,Friends of Tim Anderson,"$2,000",Virginia Beach,VA,business,Campaign Donation,D,461102,2025-10-15
+expenditure,2025-09-25,Tara Berger,"$2,000",Virginia Beach,VA,individual,Admin Payroll,D,461102,2025-10-15
+expenditure,2025-09-29,WinRed,$98.50,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-29,WinRed,$4.10,Arlington,VA,business,Online fee,D,461102,2025-10-15
+expenditure,2025-09-30,Virginia Pilot,$27.96,Norfolk,VA,business,Newspaper,D,461102,2025-10-15
+expenditure,2025-10-01,Beach Suburban Republican Womens Club,$32,Virginia Beach,VA,business,Event Ticket,D,465668,2025-10-27
+expenditure,2025-10-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,465668,2025-10-27
+expenditure,2025-10-01,Integrated Solutions: Political,$150,San Diego,CA,business,Software expense,D,465668,2025-10-27
+expenditure,2025-10-01,Integrated Solutions: Political,$550,San Diego,CA,business,Software expense,D,465668,2025-10-27
+expenditure,2025-10-01,WinRed,$19.70,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-02,WinRed,$1.97,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-03,WinRed,$3.94,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-07,WinRed,$20.51,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-07,MailChimp,$110,Atlanta,GA,business,Email service,D,465668,2025-10-27
+expenditure,2025-10-07,CVBIA,$300,Chesapeake,VA,business,Contribution,D,465668,2025-10-27
+expenditure,2025-10-07,John Reid for Virginia,$500,Henrico,VA,business,Donation,D,465668,2025-10-27
+expenditure,2025-10-07,Zoom Video Communications,$157.40,San Jose,CA,business,Zoom Subscription,D,465668,2025-10-27
+expenditure,2025-10-07,Republican Party of Virginia,"$1,200",Richmond,VA,party,Donation,D,465668,2025-10-27
+expenditure,2025-10-07,Virginia Beach Printing,$227.90,Virginia Beach,VA,business,Printing,D,465668,2025-10-27
+expenditure,2025-10-08,WinRed,$19.70,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-08,WinRed,$9.85,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-09,Republican Party of Virginia,"$6,000",Richmond,VA,party,Donation,D,465668,2025-10-27
+expenditure,2025-10-09,Liberty Mutual Insurance,$132.51,Boston,MA,business,Insurance,D,465668,2025-10-27
+expenditure,2025-10-13,American Legislative Exchange Council ALEC,$200,Arlington,VA,business,Membership Dues,D,465668,2025-10-27
+expenditure,2025-10-15,WinRed,$4.10,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-16,WinRed,$118.20,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-20,Friends of David Owen,"$2,000",Richmond,VA,business,State Candidate Donation,D,465668,2025-10-27
+expenditure,2025-10-20,Friends of Tim Anderson,"$2,000",Virginia Beach,VA,business,Campaign Donation,D,465668,2025-10-27
+expenditure,2025-10-20,Kim Taylor for Virginia,"$1,000",Petersburg,VA,business,Contribution,D,465668,2025-10-27
+expenditure,2025-10-20,Storm for Virginia,"$1,000",Alexandria,VA,business,State Candidate Donation,D,465668,2025-10-27
+expenditure,2025-10-20,Go Red Virginia PAC,"$20,000",Virginia Beach,VA,pac,Donation,D,465668,2025-10-27
+expenditure,2025-10-20,Friends of Amanda Batten,"$1,000",Norge,VA,business,Contribution,D,465668,2025-10-27
+expenditure,2025-10-20,Miyares for Virginia,"$1,000",Virginia Beach,VA,business,State Candidate Donation,D,465668,2025-10-27
+expenditure,2025-10-20,Friends of Carrie Coyner,"$2,000",Chesterfield,VA,business,Contribution,D,465668,2025-10-27
+expenditure,2025-10-20,Friends of Paul Milde,"$1,000",Fredericksburg,VA,business,State Candidate Donation,D,465668,2025-10-27
+expenditure,2025-10-21,Right Time Media LLC,$880.86,Charleston,SC,business,Advertising,D,465668,2025-10-27
+expenditure,2025-10-22,WinRed,$2.05,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-22,WinRed,$1.97,Arlington,VA,business,Online fee,D,465668,2025-10-27
+expenditure,2025-10-22,Republican Party of Virginia,"$10,000",Richmond,VA,party,Donation,D,465668,2025-10-27
+expenditure,2025-10-23,Princess Anne Country Club,$919.20,Virginia Beach,VA,business,Event Supplies,D,465668,2025-10-27
+expenditure,2025-10-23,Kirwin Development Strategies,"$1,500",Virginia Beach,VA,business,Consulting/Advertising,D,465668,2025-10-27
+expenditure,2025-10-23,Megan Haynsworth,$300,Virginia Beach,VA,individual,Payroll,D,465668,2025-10-27
+expenditure,2025-10-23,Tara Berger,"$2,000",Virginia Beach,VA,individual,Admin Payroll,D,465668,2025-10-27
+expenditure,2025-10-23,Priscilla Gunter,$500,Virginia Beach,VA,individual,Event Planning,D,465668,2025-10-27
+expenditure,2025-10-23,Anne Ferrell Tata,$403.81,Virginia Beach,VA,individual,Reimbursement for Travel,D,465668,2025-10-27
+expenditure,2025-10-23,Go Red Virginia PAC,"$30,000",Virginia Beach,VA,pac,Donation,D,465668,2025-10-27
+expenditure,2025-10-24,HP Instant Ink,$25.43,Palo Alto,CA,business,Printer Ink,D,472446,2025-12-04
+expenditure,2025-10-27,Fast Custom Transfers,$83.23,Garfield,NJ,business,Election Bags,D,472446,2025-12-04
+expenditure,2025-10-27,Amazon.com Services LLC,$76.31,Seattle,WA,business,Election Day Supplies,D,472446,2025-12-04
+expenditure,2025-10-27,FedEx Office Print & Ship Center,$97.38,Virginia Beach,VA,business,Printing expense,D,472446,2025-12-04
+expenditure,2025-10-28,Amazon.com Services LLC,$127.34,Seattle,WA,business,Office Supplies,D,472446,2025-12-04
+expenditure,2025-10-28,Virginia Pilot,$27.96,Norfolk,VA,business,Newspaper,D,472446,2025-12-04
+expenditure,2025-10-29,United States Post Office,$78,Virginia Beach,VA,business,Stamps,D,472446,2025-12-04
+expenditure,2025-10-29,WinRed,$20.51,Arlington,VA,business,Online fee,D,472446,2025-12-04
+expenditure,2025-10-30,Right Time Media LLC,$915,Charleston,SC,business,Advertising,D,472446,2025-12-04
+expenditure,2025-10-30,FedEx Office Print & Ship Center,$47.17,Virginia Beach,VA,business,Printing expense,D,472446,2025-12-04
+expenditure,2025-10-30,Hilton Multimedia LLC,"$5,000",Suffolk,VA,business,Marketing,D,472446,2025-12-04
+expenditure,2025-10-30,WinRed,$16.41,Arlington,VA,business,Online fee,D,472446,2025-12-04
+expenditure,2025-10-31,Republican Party of Virginia,"$40,000",Richmond,VA,party,Donation,D,472446,2025-12-04
+expenditure,2025-10-31,Fulton Bank,$30,Virginia Beach,VA,business,Bank Fees,D,472446,2025-12-04
+expenditure,2025-11-01,Integrated Solutions: Political,$150,San Diego,CA,business,Software expense,D,472446,2025-12-04
+expenditure,2025-11-01,Integrated Solutions: Political,$550,San Diego,CA,business,Software expense,D,472446,2025-12-04
+expenditure,2025-11-01,900-Laskin-B LLC,$79,Virginia Beach,VA,business,Internet Expense,D,472446,2025-12-04
+expenditure,2025-11-02,WinRed,$3.94,Arlington,VA,business,Online fee,D,472446,2025-12-04
+expenditure,2025-11-03,Baker's Crust,$440.52,Virginia Beach,VA,business,Election Day Supplies,D,472446,2025-12-04
+expenditure,2025-11-05,WinRed,$8.20,Arlington,VA,business,Online fee,D,472446,2025-12-04
+expenditure,2025-11-05,WinRed,$1.97,Arlington,VA,business,Online fee,D,472446,2025-12-04
+expenditure,2025-11-05,WinRed,$19.70,Arlington,VA,business,Online fee,D,472446,2025-12-04
+expenditure,2025-11-05,WinRed,$4.10,Arlington,VA,business,Online fee,D,472446,2025-12-04
+expenditure,2025-11-05,WinRed,$19.70,Arlington,VA,business,Online fee,D,472446,2025-12-04
+expenditure,2025-11-06,Kirwin Development Strategies,$252,Virginia Beach,VA,business,Consulting/Advertising,D,472446,2025-12-04
+expenditure,2025-11-06,Beach Suburban Republican Womens Club,$28,Virginia Beach,VA,business,Event Ticket,D,472446,2025-12-04
+expenditure,2025-11-06,Right Time Media LLC,$752.76,Charleston,SC,business,Advertising,D,472446,2025-12-04
+expenditure,2025-11-07,MailChimp,$110,Atlanta,GA,business,Email service,D,472446,2025-12-04
+expenditure,2025-11-09,Liberty Mutual Insurance,$132.51,Boston,MA,business,Insurance,D,472446,2025-12-04
+expenditure,2025-11-11,Republican Party of Virginia,$535.38,Richmond,VA,party,Event Ticket,D,472446,2025-12-04
+expenditure,2025-11-11,Dozoretz Hospice House of Hampton Roads,$109,Virginia Beach,VA,business,Community Contribution,D,472446,2025-12-04
+expenditure,2025-11-12,Virginia Beach Republican Women's Club,$32,Virginia Beach,VA,business,Event Tickets,D,472446,2025-12-04
+expenditure,2025-11-12,Virginia Beach Republican Women's Club,$100,Virginia Beach,VA,business,Yearly Dues,D,472446,2025-12-04
+expenditure,2025-11-22,Canva,$12.99,San Francisco,CA,business,Marketing Template,D,472446,2025-12-04
+expenditure,2025-11-24,HP Instant Ink,$25.43,Palo Alto,CA,business,Printer Ink,D,472446,2025-12-04
+expenditure,2025-11-25,Virginia Pilot,$27.96,Norfolk,VA,business,Newspaper,D,472446,2025-12-04
 expenditure,2025-11-28,Harris Teeter,$6.74,Virginia Beach,VA,business,Event Supplies,D,494738,2026-07-13
 expenditure,2025-11-30,Tara Berger,"$5,000",Virginia Beach,VA,individual,Admin Payroll,D,494738,2026-07-13
 expenditure,2025-11-30,Megan Haynsworth,$500,Virginia Beach,VA,individual,Payroll,D,494738,2026-07-13

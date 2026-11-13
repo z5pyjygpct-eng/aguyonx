@@ -1,0 +1,1282 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2021-01-04,Friends of Nick Rush,"$1,000",Christiansburg,VA,business,,Campaign Committee,,A,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+contribution,2021-01-04,Virginia Credit Union Political Action Committee,$500,Lynchburg,VA,pac,,Political Action Committee,,A,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+contribution,2021-01-01,Virginia Trial Lawyers PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+contribution,2021-02-22,Sidney Stern,"$1,000",Front Royal,VA,individual,Retired,Retired,,A,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-03-31,Anedot,$42.60,New Orleans,LA,,,,Credit Card Processing,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-01-03,Google,$12,Mountain View,VA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-02-02,Google,$12,Mountain View,VA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-03-02,Google,$12,Mountain View,VA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-03-18,"Tech Team Solutions, LLC",$208,Winchester,VA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-01-01,Mailchimp,$51.99,Atlanta,GA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-02-01,Mailchimp,$51.99,Atlanta,GA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-03-01,Mailchimp,$51.99,Atlanta,GA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-01-03,AddEvent Inc,$24,San Mateo,CA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-02-02,AddEvent Inc,$24,San Mateo,CA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-03-02,AddEvent Inc,$24,San Mateo,CA,,,,Online Services,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-01-05,Gusto,$51,San Francisco,CA,,,,Payroll Processing,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-02-02,Gusto,$51,San Francisco,CA,,,,Payroll Processing,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-01-31,Election CFO,$17.70,Alexandria,VA,,,,Debt Payment for: 07/31/2020 Compliance Consulting,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-01-31,Election CFO,"$1,500",Alexandria,VA,,,,Debt Payment for: 09/30/2020 Compliance Consuling,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-01-31,Election CFO,"$1,500",Alexandria,VA,,,,Compliance Consulting,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-03-12,Winchester City Treasurer,$352.80,Winchester,VA,,,,Filing Fee,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-03-24,Fairfax County Republican Committee,$20,Fairfax,VA,,,,Dues,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-03-23,Robin High,$500,Gore,VA,,,,Campaign Consulting,D,235859,2021-01-01 to 2021-03-31,CC-20-00299,Wiley for Delegate
+contribution,2021-05-27,Garland R Peck Jr,$100,Winchester,VA,individual,Retired,Retired,,A,242714,2021-04-01 to 2021-05-27,CC-20-00299,Wiley for Delegate
+contribution,2021-04-26,Cheryl Robson,$250,Winchester,VA,individual,Valley Vision Optometric Center,Optometrist,,A,242714,2021-04-01 to 2021-05-27,CC-20-00299,Wiley for Delegate
+contribution,2021-05-12,Virginia Wins PAC,"$3,000",Springfield,VA,pac,,Political Action Committee,,A,242714,2021-04-01 to 2021-05-27,CC-20-00299,Wiley for Delegate
+contribution,2021-05-20,Sally Gardner,$250,Winchester,VA,individual,Retired,Retired,,A,242714,2021-04-01 to 2021-05-27,CC-20-00299,Wiley for Delegate
+expenditure,2021-05-27,Anedot,$28.80,New Orleans,LA,,,,Credit Card Processing,D,242714,2021-04-01 to 2021-05-27,CC-20-00299,Wiley for Delegate
+expenditure,2021-05-19,Google,$24,Mountain View,VA,,,,Online Services,D,242714,2021-04-01 to 2021-05-27,CC-20-00299,Wiley for Delegate
+expenditure,2021-04-08,Winchester Republican Committee,$40,Winchester,VA,,,,Contribution,D,242714,2021-04-01 to 2021-05-27,CC-20-00299,Wiley for Delegate
+expenditure,2021-04-30,Kiwani's Club of Blue Ridge,$150,Winchester,VA,,,,Event Sponsorship,D,242714,2021-04-01 to 2021-05-27,CC-20-00299,Wiley for Delegate
+expenditure,2021-04-30,Warren County Young Republicans,$100,Front Royal,VA,,,,Contribution,D,242714,2021-04-01 to 2021-05-27,CC-20-00299,Wiley for Delegate
+contribution,2021-05-31,"Col John Tagnesi USAF, Ret",$100,Winchester,VA,individual,Retired,Retired,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-03,James Prohaska,$150,Stephens City,VA,individual,Retired,Retired,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-16,Thomas Hickman,$50,Winchester,VA,individual,Booz Allen Hamilton,Energy Engineer,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-14,Donald E Ratcliff,$60,Winchester,VA,individual,,,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-27,Elizabeth McIntire,$350,Lake Frederick,VA,individual,Retired,Retired,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-16,Robert Hess,$100,Winchester,VA,individual,Retired,Retired,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-05-31,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-27,Nolan Sanchez,$100,Winchester,VA,individual,Retired,Retired,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-13,Dominion Political Action Committee,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-02,Elaine Cain,$150,Clear Brook,VA,individual,YHB,CPA,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-03,Chris Maher,$500,Clear Brook,VA,individual,Car Credit Nation,Businessman,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-07,Robert Hahn Jr,"$1,000",Middletown,VA,individual,,,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-09,Daniel Best,$500,Stephens City,VA,individual,Retired,Retired,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-10,Daniel Best,$100,Stephens City,VA,individual,Retired,Retired,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-27,Maritime Issues Council,$500,Norfolk,VA,pac,,Political Action Committee,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-06-30,Charles Torpy,$250,Lake Frederick,VA,individual,Retired,Retired,,A,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-06-30,Anedot,$104.60,New Orleans,LA,,,,Credit Card Processing,D,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-06-18,Cody S Hanshaw,"$5,000",Vinton,VA,,,,Campaign Consulting,D,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-06-05,Google,$6.95,Mountain View,VA,,,,Online Services,D,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-06-18,"Tech Team Solutions, LLC",$156,Winchester,VA,,,,Online Services,D,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-06-18,Election CFO,"$2,000",Alexandria,VA,,,,Compliance Consulting,D,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-06-14,Omni Homestead Resort,$324.41,Hot Springs,VA,,,,Travel,D,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-06-08,Domain Registry,$90,Voorhees,NJ,,,,Online Services,D,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-06-30,JDS Solutions LLC,$316.34,Midlothian,VA,,,,Printing,D,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-06-18,The Family Foundation,$50,Richmond,VA,,,,Contribution,D,248962,2021-05-28 to 2021-06-30,CC-20-00299,Wiley for Delegate
+contribution,2021-07-15,Thomas Hickman,$50,Winchester,VA,individual,Booz Allen Hamilton,Energy Engineer,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-14,Elizabeth McIntire,$25,Lake Frederick,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-25,Robert McDonald,$100,White Post,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-25,Gardner B Bates,$250,Stephens City,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-05,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-28,Winchester/Frederick/Clarke Republican Women's Club,$225,Winchester,VA,business,,Republican Women's Club,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-16,Charla Quimby,$75,Winchester,VA,individual,None,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-25,Associated General Contractors of Virginia Inc PAC,$250,Glen Allen,VA,pac,,Political Action Committee,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-25,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,Political Action Committee,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-10,Patrick Sullivan,$25,Winchester,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-02,David Wilkening,$100,Lake Frederick,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-10,Daniel Best,$100,Stephens City,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-14,Daniel Best,$250,Stephens City,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-10,Daniel Best,$100,Stephens City,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-01,H George White Jr,$200,Winchester,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-06,Dixie Beverage Company,"$1,000",Winchester,VA,business,,Wholesale Beverage Distribution,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-06,Altria Client Services LLC,$500,Richmond,VA,business,,Business Consulting,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-13,Julia Bouder,$250,Winchester,VA,individual,N/A,Homemaker,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-14,Mark Leonard,$250,Winchester,VA,individual,Winchester Women's Specialists,Physician,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-15,Elaine Holliday,$250,Winchester,VA,individual,Shenandoah University,Accountant,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-16,Alma Carter,$150,Capon Bridge,WV,individual,FCPS,Education,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-16,Glenn W White,$150,Cross Junction,VA,individual,None,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-25,Virginia Beer Wholesalers Association,$273.27,Richmond,VA,business,,Association,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-25,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Action Committee,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-25,Marilyn King,$200,Front Royal,VA,individual,Self,Real Estate Agent,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-16,Susan Shick,$200,Winchester,VA,individual,Commonwealth of VA,Legislative Assistant,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-31,Capital One Services LLC,$500,Reston,VA,business,,Real Estate,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-07-31,Manju Rani Ludwig,$150,Winchester,VA,individual,ABS,Owner,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-18,JD Guthridge,$250,Richmond,VA,individual,Self,Consultant,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-20,Virginia Professional Fire Fighters COPE Fund,"$5,000",Manassas,VA,business,,Association,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-18,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-18,Virginia BankPAC,$250,Glen Allen,VA,pac,,Political Action Committee,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-23,Anne Dewey-Balzhiser,$150,Stephens City,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-28,Powerhouse Gaming Inc.,$250,Loomis,CA,business,,Fundraising Firm,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-28,Mark A Dyck,$250,Winchester,VA,individual,Gordon,Partner,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-28,Reed Smith LLP VA Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-02,William B Thomasson,$500,Front Royal,VA,individual,Retired,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-08-02,Susan R Carter,$150,Lake Frederick,VA,individual,None,Retired,,A,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-31,Anedot,$123.60,New Orleans,LA,,,,Credit Card Processing,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-07-02,Google,$12,Mountain View,VA,,,,Online Services,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-02,Google,$12,Mountain View,VA,,,,Online Services,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-23,"Tech Team Solutions, LLC",$171.50,Winchester,VA,,,,Online Services,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-07-13,USPS,$55,Washington,DC,,,,Postage,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-23,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-07-10,Handy Mart,$104.82,Mt. Olive,NC,,,,Travel,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-14,Handy Mart,$63.29,Mt. Olive,NC,,,,Food/Beverage,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-07-30,Fairfax County Republican Committee,$580,Fairfax,VA,,,,Contribution,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-17,Omni Homestead Resort,$448.78,Hot Springs,VA,,,,Travel,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-07-08,West Oaks Farm Market,$375,Winchester,VA,,,,Event Space Rental,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-07-18,West Oaks Farm Market,"$1,013.27",Winchester,VA,,,,Event Venue Rental,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-07-11,Havana '59,$400,Richmond,VA,,,,Food/Beverage,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-05,Havana '59,"$1,732.47",Richmond,VA,,,,Food/Beverage,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-07-18,Holiday Inn,$142.79,Atlanta,GA,,,,Travel,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-02,Quality Inn,$85.84,Rockville,MD,,,,Travel,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-04,Harland Clarke,$20.50,San Antonio,TX,,,,Printing,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-07-28,Battlefield Consulting,"$1,952.20",Fredericksburg,VA,,,,Campaign Consulting,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-08-23,Battlefield Consulting,$960.40,Fredericksburg,VA,,,,Fundraising Consulting,D,253183,2021-07-01 to 2021-08-31,CC-20-00299,Wiley for Delegate
+contribution,2021-09-09,H Paige Manuel,$500,Winchester,VA,individual,Oak Crest Realty,Realtor,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-09,Marsha B Barley,$200,Winchester,VA,individual,Retired,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-25,Gerald F Smith Jr,"$2,500",Winchester,VA,individual,Valley Proteins Inc,Agriculture,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-21,Joseph E Kalbach Sr,$250,Winchester,VA,individual,All Point Warehousing,Owner,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-26,Susan S Claytor,$500,Winchester,VA,individual,Retired,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-21,Richard D Kern Jr,$300,Winchester,VA,individual,Kern Motor Co,Sales,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-25,Melanie Henry,$500,Winchester,VA,individual,Retired,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-21,Carlton S Dyke,$100,Winchester,VA,individual,Cavalier Kitchen & Baths,Owner,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-09,Elizabeth McIntire,$100,Lake Frederick,VA,individual,Retired,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-09,P Taylor,$200,Winchester,VA,individual,Retired,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-28,Bill Bayliss,"$1,000",Winchester,VA,individual,Wells Fargo Advisors,Managing Director,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-21,Michael A Smith,$500,Middleburg,VA,individual,Valley Proteins,Vice President,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-21,Jeffrey B Buenttner,$500,Winchester,VA,individual,Self,Real Estate,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-25,Glaize Developments Inc,"$1,000",Winchester,VA,business,,Real Estate,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-17,Jeffrey M Webber,$100,Winchester,VA,individual,Long and Foster,Realtor,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-25,Ross Peter Spicer,$500,Winchester,VA,individual,Frederick County Commonwealth Attorney's Office,Attorney,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-21,Virginia Beverage Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-21,Virginia Wine Wholesalers PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-16,James Stewart,$250,Winchester,VA,individual,Grafton,Execuitve,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-26,Bipin Patel,$101,Winchester,VA,individual,Hotel Squared LLC,Management,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-29,Robert Lefler,$100,Stephens City,VA,individual,Retired,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-26,Betting on VA Jobs PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-17,Douglas J Larkin,$100,Stephens City,VA,individual,None,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-10,Daniel Best,$100,Stephens City,VA,individual,Retired,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-17,Fred L Glaize III,$500,Winchester,VA,individual,Glaize Developments Inc,Owner,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-17,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverages,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-17,Kenneth Plog,$200,Winchester,VA,individual,Retired,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-26,Robert W Claytor,$500,Winchester,VA,individual,HN Funkhouser,President,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-09-30,Edward Kremer,$300,Winchester,VA,individual,Retired,Retired,,A,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-27,Labiosa Liberty PAC,$100,New Castle,VA,,,,Contribution,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-30,Anedot,$93.94,New Orleans,LA,,,,Credit Card Processing,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-03,Google,$12,Mountain View,VA,,,,Online Services,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-21,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Online Services,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-21,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-14,"NW Works, Inc",$200,Winchester,VA,,,,Contribution,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-21,Battlefield Consulting,"$1,089.80",Fredericksburg,VA,,,,Fundraising Consulting,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-01,Ben Baldwin for Delegate,$250,Alexandria,VA,,,,Contribution,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-01,Friends of Christopher Holmes,$250,Henrico,VA,,,,Contribution,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-11,Friends of Josh Ludwig,$200,Winchester,VA,,,,Contribution,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-11,Friends of Josh Ludwig,$150,Winchester,VA,,,,Contribution,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-09,Committee to Elect Jorge Gonzalez,$150,Winchester,VA,,,,Contribution,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-21,FP1 Strategies,"$2,700",Arlington,VA,,,,Marketing Consulting,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-27,Republican Commonwealth Leadership PAC,$550,Woodstock,VA,,,,Contribution,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2021-09-01,Special Love Inc,$150,Winchester,VA,,,,Contribution,D,258467,2021-09-01 to 2021-09-30,CC-20-00299,Wiley for Delegate
+contribution,2021-10-08,James T Holland,$100,Winchester,VA,individual,O'Sullivan Films Corp,Manager,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-05,James C Youngblood,$250,Winchester,VA,individual,First Bank,Banker,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-07,"Perry Engineering Company, Inc","$1,500",Winchester,VA,business,,Engineering,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-01,George Bishop,$100,Winchester,VA,individual,PWCPS,Educator,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-05,John W Truban,$250,Winchester,VA,individual,Owen & Truban,Attorney,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-01,Andy Hershey,$100,Winchester,VA,individual,First Bank,Banker,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-14,Glen Burke,$50,Winchester,VA,individual,Burke Realty Inc,Real Estate Developer,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-07,Stephen R Slaughter,$500,Winchester,VA,individual,Frederick Block Brick & Stone,CEO,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-15,Broc Johnson,$200,Winchester,VA,individual,Winchester Anesthesiologists,Physician,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-21,Virginia Cable PAC,$500,Richmond,VA,pac,,PAC,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-21,Virginia Hospital and Healthcare Assoc PAC,$500,Richmond,VA,pac,,PAC,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-07,Bernard M Swope MD,$200,Winchester,VA,individual,Retired,Retired,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-05,Annandale Millwork and Allied Systems Corp,$500,Winchester,VA,business,,Millwork,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-07,Ask4Teamed LLC,$100,Stephens City,VA,business,,Real Estate,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-19,Gray C Farland,"$1,000",Winchester,VA,individual,Shockey Companies,Construction,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-08,Virginia Citizens Defense League,"$1,000",Newington,VA,pac,,PAC,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-21,Eugene F Dearing III,$250,Winchester,VA,individual,Dearing Beverage Co,Beverage Distributor,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-21,Carolyn Griffin,$250,Winchester,VA,individual,Retired,Retired,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-15,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,Political Action Committee,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-15,Jeffrey L Dickson,$200,Winchester,VA,individual,Self employed,Dentist,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-13,Charles William Orndoff Jr,$200,Clear Brook,VA,individual,"Frederick County, VA",Treasurer,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-15,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-10,Sally Gardner,$50,Winchester,VA,individual,Retired,Retired,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-10,Daniel Best,$100,Stephens City,VA,individual,Retired,Retired,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-21,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Business Consulting,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-15,Amazon.com Services LLC,"$1,000",Seattle,WA,business,,Online Retail,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-14,Whitwell Kelly,$250,Salem,VA,individual,Kelly Insurance LLC,Owner,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-05,Williams Mullen Clark and Dobbins,$250,Richmond,VA,business,,Law firm,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-05,William Truban,$250,Wichester,VA,individual,Owen & Truban,Attorney,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-05,John Willingham,$250,Winchester,VA,individual,Stoneridge Companies,President,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-05,Christopher Francis,$150,Gore,VA,individual,Retired,Retired,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-07,Larry Omps,$500,Winchester,VA,individual,Omps Funeral Homes,President,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-07,Verizon,$500,Washington,DC,business,,Telecomunications,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-07,Capital Results,$250,Richmond,VA,business,,Public Relations,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-10-13,Intuit,$250,San Diego,VA,business,,Financial Software,,A,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-21,Anedot,$48.70,New Orleans,LA,,,,Credit Card Processing,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-03,Google,$12,Mountain View,VA,,,,Online Services,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-14,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Online services,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-05,USPS,$58,Washington,DC,,,,Postage,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-11,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-01,Republican Party of Virginia,"$4,300",Richmond,VA,,,,Contribution,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-11,Battlefield Consulting,$500,Fredericksburg,VA,,,,Consulting,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-15,Republican Commonwealth Leadership PAC,"$5,000",Woodstock,VA,,,,Contribution,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-11,Karen Greenhalgh for Delegate,$250,Virginia Beach,VA,,,,Contribution,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-14,Souled Out Band,"$1,000",Winchester,VA,,,,Entertainment,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-19,Friends of Nick Clemente,$250,Leesburg,VA,,,,Contribution,D,261854,2021-10-01 to 2021-10-21,CC-20-00299,Wiley for Delegate
+contribution,2021-11-01,Richard D Kern Jr,$200,Winchester,VA,individual,Kern Motor Co,Sales,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-11-01,John Marlow,$250,Front Royal,VA,individual,Marlow Motor Co Inc,Auto Dealer,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-11-04,Wiley Incorporated,"$1,000",Gainesville,VA,business,,Real Estate,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-11-01,James R Wilkins Jr,$100,Winchester,VA,individual,Silver Lake Properties,VP,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-11-01,James R Wilkins III,$100,Winchester,VA,individual,Retired,Retired,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-10-25,Edward Browning,$350,Winchester,VA,individual,Valley Car Wash,owner,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-10-25,Jerry Partlow,$200,Winchester,VA,individual,Partlow Insurance Agency,Principal,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-11-01,Jerry Partlow,$100,Winchester,VA,individual,Partlow Insurance Agency,Principal,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-11-01,McGuire Woods,$250,Richmond,VA,business,,Law firm,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-10-30,Kyle Young,$400,Wincheter,VA,individual,Winchester Radiologists,Radiologist,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-11-19,10th District Republican Committee,$300,Potomac Falls,VA,pac,,Political Committee,,A,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+in_kind,2021-10-27,Republican Party of Virginia,"$4,298.70",Richmond,VA,party,,Political Party,Direct mailing,B,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+expenditure,2021-11-25,Anedot,$38.90,New Orleans,LA,,,,CC fees,D,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+expenditure,2021-11-03,Google,$12,Mountain View,VA,,,,Online services,D,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+expenditure,2021-11-12,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Online services,D,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+expenditure,2021-11-02,Piccadilly Brew Pub,$917.90,Winchester,VA,,,,Food and beverage,D,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+expenditure,2021-11-17,Election CFO,$250,Alexandria,VA,,,,Compliance consultikng,D,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+expenditure,2021-10-22,Friends of Roxanne Robinson,$250,Midlothian,VA,,,,Contribution,D,271236,2021-10-22 to 2021-11-25,CC-20-00299,Wiley for Delegate
+contribution,2021-12-13,"Bruce J Keenan, OD, PC",$500,Winchester,VA,business,,Medical,,A,275906,2021-11-26 to 2021-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-12-03,Google,$12,Mountain View,VA,,,,Online Services,D,275906,2021-11-26 to 2021-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-12-14,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,tech services,D,275906,2021-11-26 to 2021-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-12-14,USPS,$188,Washington,DC,,,,PO Box rental,D,275906,2021-11-26 to 2021-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-12-14,Election CFO,$500.36,Alexandria,VA,,,,Compliance Consulting,D,275906,2021-11-26 to 2021-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-12-13,Bill Wiley,$67.86,Winchester,VA,,,,Reimbursement,D,275906,2021-11-26 to 2021-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2021-12-23,Winsome Inaugural Committee,$125,Richmond,VA,,,,Contribution,D,275906,2021-11-26 to 2021-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-06-30,Daniel Best,"$1,000",Stephens City,VA,individual,Retired,Retired,,A,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+contribution,2022-06-13,Altria Client Services LLC,$500,Richmond,VA,business,,Business Consulting,,A,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+contribution,2022-04-04,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Action Committee,,A,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+contribution,2022-06-06,LKQ Corporation N. American Headquarters,$500,Antioch,TN,business,,Auto Parts,,A,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+contribution,2022-04-04,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+contribution,2022-04-04,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,PAC,,A,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+contribution,2022-03-30,Virginia Sheriffs Association,$250,Richmond,VA,pac,,PAC,,A,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+contribution,2022-03-30,Ashby Gap. LLC,$250,Boyce,VA,business,,Recreation,,A,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+contribution,2022-03-22,James Beamer,$125,Richmond,VA,individual,Dominion Energy,Government Affairs,,A,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-06-30,Anedot,$53.94,New Orleans,LA,,,,CC Processing,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-01-03,Google,$12,Mountain View,VA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-02-03,Google,$12,Mountain View,VA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-03-02,Google,$12,Mountain View,VA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-04,Google,$12,Mountain View,VA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-05-02,Google,$12,Mountain View,VA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-06-02,Google,$12,Mountain View,VA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-01-19,"Tech Team Solutions, LLC",$85.75,Winchester,VA,,,,Tech Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-02-16,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Tech Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-03-16,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Tech Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-15,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Tech Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-05-16,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Tech Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-06-15,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Tech Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-02-28,Mailchimp,$51.99,Atlanta,GA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-03-28,Mailchimp,$59,Atlanta,GA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-28,Mailchimp,$59,Atlanta,GA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-05-31,Mailchimp,$59,Atlanta,GA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-06-28,Mailchimp,$59,Atlanta,GA,,,,Online Services,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-05-02,Union Jack Pub & Restaurant,$368.37,Winchester,VA,,,,Food & Beverage,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-01-03,Election CFO,$250,Alexandria,VA,,,,Consulting,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-03-13,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-03-26,Election CFO,$250,Alexandria,VA,,,,Consulting,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-05-10,Election CFO,$250,Alexandria,VA,,,,Consulting,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-06-22,Election CFO,$250,Alexandria,VA,,,,Consulting,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-01-15,Bill Wiley,$165.15,Winchester,VA,,,,Reimbursement,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-01-22,Bill Wiley,$242.92,Winchester,VA,,,,Reimbursement,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-03-14,Bill Wiley,$124.15,Winchester,VA,,,,Reimbursement,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-05-21,Bill Wiley,$40.94,Winchester,VA,,,,Reimbursement,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-06-27,Pifer & Associates LLC,$250,Winchester,VA,,,,Rent,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-08,Robin High,"$1,200",Gore,VA,,,,Culs for AB,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-18,Omni Homestead Resort,$284.41,Hot Springs,VA,,,,Travel,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-06-09,Omni Homestead Resort,$488.64,Hot Springs,VA,,,,Travel,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-06-14,"House Republican Campaign Committee, Inc.","$1,000",Henrico,VA,,,,Caucus Dues,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-02-16,MCV Founation,$100,Richmond,VA,,,,Contribution,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-03-28,Nama & Switch,"$1,153.11",Richmond,VA,,,,Food & Beverage,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-03-28,Nama & Switch,$648.64,Richmond,VA,,,,Food & Beverage,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-03-05,Frederick County Freedom Fighters,$100,Stephenson,VA,,,,Contribution,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-28,ABC Store 901,$189.43,Richmond,VA,,,,Food & Beverage,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-29,Jordan Springs Market,$452.85,Stephenson,VA,,,,Food & Beverage,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-18,Blue Ridge Hospice,$400,Winchester,VA,,,,Contribution,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-07,"Shenandoah Area Council, BSA",$150,Winchester,VA,,,,Sponsorship,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-20,Barbara Marshall,$150,Warrenton,VA,,,,Catering,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-04-30,Howard Marshall,$150,Warrenton,VA,,,,Catering,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-05-19,DeAnglis for City Council,$250,Winchester,VA,,,,Contribution,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2022-05-11,Citizens for Kathy Tagnesi,$250,Winchester,VA,,,,Contribution,D,290344,2022-01-01 to 2022-06-30,CC-20-00299,Wiley for Delegate
+contribution,2022-07-22,Marsha B Barley,$500,Winchester,VA,individual,Retired,Retired,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-07-12,Emily Marlow Beck,"$1,000",Front Royal,VA,individual,Tri State Nissan,Owner,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-08-16,Virginia Automobile & Truck Dealers PAC,"$3,000",Richmond,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-07-25,Ross Peter Spicer,"$1,000",Winchester,VA,individual,Frederick County Commonwealth Attorney's Office,Attorney,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-30,Virginia Beverage Association,$500,Richmond,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-07-20,Virginia Wine Wholesalers PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-30,Dominion Political Action Committee,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-09-20,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-20,HBAV Build PAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-10-11,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-08-31,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-11-29,Maritime Issues Council,$500,Norfolk,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-10-11,Virginia Beer Wholesalers Association,$500,Richmond,VA,business,,Association,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-09-20,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-10,JD Guthridge,$250,Richmond,VA,individual,Self,Consultant,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-09-12,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-30,Virginia BankPAC,$500,Glen Allen,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-09-26,Reed Smith LLP VA Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-11-23,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverages,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-30,Williams Mullen Clark and Dobbins,$250,Richmond,VA,business,,Law firm,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-11-29,Virginia Cable PAC,$500,Richmond,VA,pac,,PAC,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-11-23,Virginia Hospital and Healthcare Assoc PAC,"$1,000",Richmond,VA,pac,,PAC,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-30,Virginia Hospital and Healthcare Assoc PAC,$500,Richmond,VA,pac,,PAC,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-30,McGuire Woods,$250,Richmond,VA,business,,Law firm,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-07-12,Winston Cameron,$250,Winchester,VA,individual,None,Retired,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-07-11,Richmond Area Municipal Contractors Association PAC,"$1,500",Richmond,VA,pac,,PAC,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-07-25,Liza Borches,$500,Charlottesville,VA,individual,Carter Myers Automotive,Automobile Dealer,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-07-29,Stoneridge Companies LLC,"$1,000",Winchester,VA,business,,Real Estate,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-07-29,John Massoud,$250,Strasburg,VA,individual,M&R Taxi,Vice President,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-08-04,Copart,$500,Fairfield,CA,business,,Automotive Auction,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-08-16,Washington Gas Light Company PAC,$500,Washington,DC,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-08-31,"Virginia State Police Association, Inc. PAC",$150,Richmond,VA,pac,,PAC,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-09-12,Virginia Independent Auto Dealers PAC,$500,Midlothian,VA,pac,,PAC,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-09-26,Virginia Eagle Distributing Company LLC,$750,Verona,VA,business,,Beverage Distribution,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-09-26,Transurban (USA) Inc.,$250,Tysons,VA,business,,Transportation,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-09-27,Capital One Services LLC,$500,Reston,VA,business,,Finance,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-12,Capital Results LLC,$500,Richmond,VA,business,,Government Relations,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-20,VA Operators for Skill,"$1,000",Richmond,VA,business,,Trade Association,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-20,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-20,Two Capitals Consulting,$500,Richmond,VA,business,,Government Relations,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2022-12-23,Virginia Transportation Construction Alliance PAC,$500,North Chesterfield,VA,pac,,Political Action Committee,,A,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+in_kind,2022-09-07,Virginia Credit Union League,$328.59,Richmond,VA,business,,Trade Association,Food/Beverage,B,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-12-31,Anedot,$127.72,New Orleans,LA,,,,CC Processing,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-05,Google,$12,Mountain View,VA,,,,Online Services,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-08-02,Google,$11.99,Mountain View,VA,,,,Online Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-02,Google,$12,Mountain View,VA,,,,Website Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-10-03,Google,$12,Mountain View,VA,,,,Online Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-11-02,Google,$12,Mountain View,VA,,,,Online Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-12-02,Google,$12,Mountain View,VA,,,,Online Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-15,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Online Services,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-08-16,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Website Expenses,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-15,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Website Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-10-18,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Website Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-11-15,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Website Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-12-15,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,Website Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-28,Mailchimp,$59,Atlanta,GA,,,,E-mail Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-08-29,Mailchimp,$59,Atlanta,GA,,,,E-mail Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-28,Mailchimp,$59,Atlanta,GA,,,,E-mail Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-10-28,Mailchimp,$59,Atlanta,GA,,,,E-Mail Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-11-28,Mailchimp,$59,Atlanta,GA,,,,E-mail Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-12-28,Mailchimp,$59,Atlanta,GA,,,,E-mail Service,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-23,Frederick County Republican Committee,$790,Winchester,VA,,,,Contribution,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-12-07,USPS,$212,Washington,DC,,,,PO Box Rental,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-11,Piccadilly Brew Pub,$65.10,Winchester,VA,,,,Food/Beverage,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-11,Election CFO,$250,Alexandria,VA,,,,Consulting,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-08-08,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-16,Election CFO,$250,Alexandria,VA,,,,Consulting,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-10-11,Election CFO,$230,Alexandria,VA,,,,Compliance Consulting,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-12-07,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-08-23,Warren County Republican Committee,$250,Front Royal,VA,,,,Contribution,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-29,Bill Wiley,$25.02,Winchester,VA,,,,Reimbursement - Event Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-08-03,Bill Wiley,$63.54,Winchester,VA,,,,Reimbursement - Travel Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-08-23,Bill Wiley,$111.05,Winchester,VA,,,,Reimbursement - Meeting Meal Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-02,Bill Wiley,$21.82,Winchester,VA,,,,Reimbursement - Meeting Meal Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-12-07,Bill Wiley,$27.39,Winchester,VA,,,,Reimbursement - Meeting Meal Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-29,West Oaks Farm Market,$812,Winchester,VA,,,,Event Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-29,West Oaks Farm Market,$354.62,Winchester,VA,,,,Event Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-10-12,West Oaks Farm Market,$54.65,Winchester,VA,,,,Event Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-12-04,Republican Commonwealth Leadership PAC,"$10,000",Woodstock,VA,,,,Contribution,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-08,Treasurer of Virginia,$37,Richmond,VA,,,,VA Flag,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-07-27,Treasurer of Virginia,"$1,366.07",Richmond,VA,,,,Postage,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-08-01,Milano's Sports Bar,$25.33,Winchester,VA,,,,Food/Beverage,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-08-25,Backseat Bar and Grill,$25.81,Winchester,VA,,,,Food/Beverage,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-09,The Commonwealth Hotel,$165.30,Richmond,VA,,,,Travel,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-10-20,The Commonwealth Hotel,$165.30,Richmond,VA,,,,Travel,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-29,AbbaCare Pregnancy Resource Center,$500,Winchester,VA,,,,Contribution,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-10-24,Winchester Rescue Mission,"$1,000",Winchester,VA,,,,Donation,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-12-08,Winchester Rescue Mission,$103,Winchester,VA,,,,Contribution,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-11-09,Top of Virginia Regional Chamber,$70,Winchester,VA,,,,Event Expense,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-02,Virginia Department of Taxation,$20,Richmond,VA,,,,Late Filing Fee,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2022-09-21,The Frederick County Winchester Law Enforcement Foundation,$100,Winchester,VA,,,,Contribution,D,308619,2022-07-01 to 2022-12-31,CC-20-00299,Wiley for Delegate
+contribution,2023-03-07,William Pace,$125,Chatham,VA,individual,Virginia House of Delegates,Legislative Assistant,,A,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-03,Google,$12,Mountain View,VA,,,,Online Service,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-02-02,Google,$12,Mountain View,VA,,,,Online Service,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-03-02,Google,$12,Mountain View,VA,,,,Online Service,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-17,"Tech Team Solutions, LLC",$52,Winchester,VA,,,,IT Services,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-02-15,"Tech Team Solutions, LLC",$57,Winchester,VA,,,,IT Service,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-03-15,"Tech Team Solutions, LLC",$231,Winchester,VA,,,,IT Service,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-30,Mailchimp,$60,Atlanta,GA,,,,E-Mail Servivce,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-02-28,Mailchimp,$60,Atlanta,GA,,,,E-mail Service,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-03-28,Mailchimp,$60,Atlanta,GA,,,,E-mail Service,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-03-07,Frederick County Republican Committee,$803.99,Winchester,VA,,,,Golf Tournament,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-03,USPS,$60,Washington,DC,,,,Postage,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-03-13,Piccadilly Brew Pub,$104.40,Winchester,VA,,,,Food/Beverage,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-03,Election CFO,$500,Alexandria,VA,,,,Compliance Consulting,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-04,Harland Clarke,$22.05,San Antonio,TX,,,,Printing,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-02-21,Backseat Bar and Grill,$41.44,Winchester,VA,,,,Food/Beverage,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-03-30,Backseat Bar and Grill,$48.43,Winchester,VA,,,,Food/Beverages,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-02-15,Virginia Department of Taxation,$10,Richmond,VA,,,,Tax,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-04,Ellen Campbell for Delegate,"$1,000",Fairfield,VA,,,,Contribution,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-05,Commonwealth Prayer Breakfast,$54.67,Richmond,VA,,,,Event Ticket,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-06,Frederick County Treasurer,$352.80,Winchester,VA,,,,Primary Filing Fee,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-09,Chinatown Restaurant,$53.86,Winchester,VA,,,,Food/Beverage,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-01-31,MCV Foundation,$100,Richmond,VA,,,,Contribution,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-02-18,Friends of Heather Lockridge,$500,Winchester,VA,,,,Contribution,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-03-31,WinRed Technical Services LLC,$4.93,Arlington,VA,,,,Online Contribution Processing,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-02-28,Winchester Area Temporary Thermal Shelter,$104.25,Winchester,VA,,,,Contribution,D,316849,2023-01-01 to 2023-03-31,CC-20-00299,Wiley for Delegate
+contribution,2023-05-25,"Col John Tagnesi USAF, Ret",$100,Winchester,VA,individual,Retired,Retired,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-24,J Stanley Crockett,$250,Winchester,VA,individual,Retired,Retired,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-24,Joseph E Kalbach Sr,$200,Winchester,VA,individual,All Point Warehousing,Owner,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-25,Richard D Kern Jr,$500,Winchester,VA,individual,Kern Motor Co,Sales,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-06-02,John P Good Jr,"$1,000",Winchester,VA,individual,Shockey Companies,Contractor,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-06-02,Glaize Developments Inc,"$1,000",Winchester,VA,business,,Real Estate,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-06-02,Virginia Automobile & Truck Dealers PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-25,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-02,LKQ Corporation N. American Headquarters,"$1,000",Antioch,TN,business,,Auto Parts,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-25,Winston Cameron,$100,Winchester,VA,individual,None,Retired,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-02,Copart,$500,Fairfield,CA,business,,Automotive Auction,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-17,Armstrong Frank III,$500,Winchester,VA,individual,National Fruit Product Co,President,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-25,Virginia Society of Anesthesiologists PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-05-25,John Singleton,$500,Winchester,VA,individual,Opportunity Scholars,CEO,,A,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-31,"Anedot, Inc.",$17.20,New Orleans,LA,,,,Credit Card Processing,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-28,Printing Express,"$1,592.14",Harrisonburg,VA,,,,Printing,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-03,Google,$12,Mountain View,VA,,,,Online Services,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-02,Google,$12,Mountain View,VA,,,,Online Services,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-01,Google,$12,Mountain View,VA,,,,Online Services,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-17,"Tech Team Solutions, LLC",$57,Winchester,VA,,,,IT Services,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-16,"Tech Team Solutions, LLC",$57,Winchester,VA,,,,IT Services,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-30,Mailchimp,$60,Atlanta,GA,,,,Online Service,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-12,Election CFO,"$4,000",Alexandria,VA,,,,Compliance Consulting,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-13,Bill Wiley,$99.49,Winchester,VA,,,,Reimbursement - Meeting Meal Expense,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-15,Bill Wiley,$57.89,Winchester,VA,,,,Reimbursement - Office Supplies,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-03,Winchester/Frederick/Clarke Republican Women's Club,$500,Winchester,VA,,,,Event Sponsorship,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-03,Omni Homestead Resort,$310.94,Hot Springs,VA,,,,Travel,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-08,Omni Homestead Resort,$532.37,Hot Springs,VA,,,,Travel,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-17,The Commonwealth Hotel,$165.30,Richmond,VA,,,,Travel,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-03,Photographic Design,$439,INFORMTION REQUESTED,VA,,,,Photography,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-20,Shenandoah Apple Blossom Festival,$775,Winchester,VA,,,,Event Entry & Table,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-12,Friends of Emily Brewer,"$1,000",Smithfield,VA,,,,Contribution,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-04-28,Friends of Ian Lovejoy for Delegate,$250,Manassas,VA,,,,Contribution,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-15,Blue Ridge Kiwanis Club,$150,Winchester,VA,,,,Sponsorship,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-12,Target Corporation,$34.96,Minneapolis,MN,,,,Office Supplies,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-19,Hobby Lobby,$10.53,Oklahoma City,OK,,,,Office Supplies,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-23,Forest Consulting Services,$265,Richmond,VA,,,,Consulting,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+expenditure,2023-05-23,Creative Direct,"$1,500",Richmond,VA,,,,Consulting,D,327338,2023-04-01 to 2023-06-08,CC-20-00299,Wiley for Delegate
+contribution,2023-06-14,Carolyn Griffin,$250,Winchester,VA,individual,Retired,Retired,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-14,Altria Client Services LLC,$500,Richmond,VA,business,,Business Consulting,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-29,Reed Smith LLP VA Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-14,Virginia Cable PAC,$500,Richmond,VA,pac,,PAC,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-30,McGuire Woods,$500,Richmond,VA,business,,Law firm,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-29,Truckers Political Action Committee of VA,$500,Richmond,VA,pac,,PAC,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-30,Stoneridge Companies LLC,"$1,000",Winchester,VA,business,,Real Estate,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-14,Faith N Power,$250,Winchester,VA,individual,Shenandoah University,Professor,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-29,McKesson Corporation Employees PAC,$250,Washington,DC,pac,,PAC,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-29,Caesars Enterprise Services,$250,Las Vegas,NV,business,,Entertainment,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-29,Annheuser Busch,$500,St. Louis,MO,business,,Food and Beverage,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-06-29,Dominion Energy Inc. PAC,"$10,000",Richmond,VA,pac,,PAC,,A,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-30,"Anedot, Inc.",$2.30,New Orleans,LA,,,,CC Processing,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-28,Mailchimp,$60,Atlanta,GA,,,,Online Service,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-29,Election CFO,"$1,000",Alexandria,VA,,,,Compliance,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-29,Karen Greenhalgh for Delegate,$500,Virginia Beach,VA,,,,Contribution,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-28,Treasurer of Virginia,$154.28,Richmond,VA,,,,Filing Fee,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-13,Hobby Lobby,$75.78,Oklahoma City,OK,,,,Office Supplies,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-15,Team Tech Solutions,$169,Winchester,VA,,,,IT Services,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-30,Jewell for Frederick County Supervisor,$500,WINCHESTER,VA,,,,Contribution,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-30,Patrick Henry's Pub and Grille Richmond,$21.87,Richmond,VA,,,,Food and Beverage,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-30,Starr Hill Richmond,$17.36,RICHMOND,VA,,,,Feed and Beverage,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-30,The Greenbrier,$68.56,White Sulphur Springs,WV,,,,Travel,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-06-30,The Greenbrier,$82.39,White Sulphur Springs,WV,,,,Travel,D,337658,2023-06-09 to 2023-06-30,CC-20-00299,Wiley for Delegate
+contribution,2023-07-14,H Paige Manuel,$300,Winchester,VA,individual,Oak Crest Realty,Realtor,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Marsha B Barley,$200,Winchester,VA,individual,Retired,Retired,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-07-20,Gerald F Smith Jr,"$2,500",Winchester,VA,individual,Valley Proteins Inc,Agriculture,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Joseph E Kalbach Sr,$200,Winchester,VA,individual,All Point Warehousing,Owner,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-07-27,"Perry Engineering Company, Inc","$1,500",Winchester,VA,business,,Engineering,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-25,Seth Thatcher,$100,Stephen City,VA,individual,Frederick County,Commissioner of the Revenue,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Cary Nelson,$200,Winchester,VA,individual,H.N. Funkhouser & Co,CPA,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Patty Taylor,$250,Winchester,VA,individual,Retired,Retired,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Bernard M Swope MD,$250,Winchester,VA,individual,Retired,Retired,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-07-20,Annandale Millwork and Allied Systems Corp,$500,Winchester,VA,business,,Millwork,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-10,Eugene F Dearing III,$200,Winchester,VA,individual,Dearing Beverage Co,Beverage Distributor,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-24,Virginia Beverage Association,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-18,VADPAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-18,Virginia Wine Wholesalers PAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-07-27,HBAV Build PAC,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-07-18,Daniel Best,$500,Stephens City,VA,individual,Retired,Retired,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-24,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-10,Capital One Services LLC,$500,Reston,VA,business,,Finance,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-24,Virginia Professional Fire Fighters COPE Fund,"$1,000",Manassas,VA,business,,Association,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Virginia BankPAC,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Reed Smith LLP VA Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-07-20,Virginia Sheriffs Association,$250,Richmond,VA,business,,Association,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-15,James Beamer,$500,Richmond,VA,individual,Dominion Energy,Government Affairs,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-07-14,"Virginia State Police Association, Inc. PAC",$250,Richmond,VA,pac,,PAC,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-24,Virginia Independent Auto Dealers PAC,$250,Midlothian,VA,pac,,PAC,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-07-27,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,PAC,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-10,"Stuart M. Perry, INC","$1,000",Berryville,VA,business,,Asphalt Paving,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-10,Eight South LLC,$500,Winchester,VA,business,,Property Management,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-15,Motorola Solutions Inc Political Action Multicandidate Committee,$250,Washington,DC,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-15,David Lewis,$200,Winchester,VA,individual,WINC,Radio,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-18,Kee Construction Services,$500,Winchester,VA,business,,Construction,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-24,Premium Distributors of Virginia LLC,"$1,000",Chantilly,VA,business,,Beverage Distributor,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Political Action Committee,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Buettner and Son Development LLC,$500,Winchester,VA,business,,Real Estate,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Kathy G Holliday,$400,Star Tannery,VA,individual,None,Retired,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Darlene A Kent,$200,Winchester,VA,individual,None,Retired,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-08-30,Betty DeHaven,$200,Winchester,VA,individual,None,Retired,,A,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+in_kind,2023-08-22,Hunton Andrews Kurth LLP,$174.88,Richmond,VA,business,,Law Firm,Event,B,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-07-31,"Anedot, Inc.",$24.60,New Orleans,LA,,,,CC Processing,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-31,"Anedot, Inc.",$26.90,New Orleans,LA,,,,CC Processing,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-29,Printing Express,"$2,090.21",Harrisonburg,VA,,,,Printing,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-07-03,Google,$12,Mountain View,VA,,,,Online Services,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-02,Google,$12,Mountain View,VA,,,,Online Services,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-07-17,"Tech Team Solutions, LLC",$57,Winchester,VA,,,,IT Services,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-15,"Tech Team Solutions, LLC",$86,Winchester,VA,,,,IT Solutions,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-07-27,Mailchimp,$60,Atlanta,GA,,,,Online Service,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-07,Election CFO,"$2,000",Alexandria,VA,,,,Compliance Consulting,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-09,Winchester Republican Committee,$943.67,Winchester,VA,,,,Event Ticket,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-30,Harland Clarke,$23.40,San Antonio,TX,,,,Printing,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-15,FP1 Strategies,"$1,800",Arlington,VA,,,,Consulting,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-07-20,Amazon.com Services LLC,$94.72,Seattle,WA,,,,Office Supplies,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-07-05,Backseat Bar and Grill,$33.04,Winchester,VA,,,,Food,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-16,Backseat Bar and Grill,$15.57,Winchester,VA,,,,Food,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-10,Top of Virginia Regional Chamber,$45,Winchester,VA,,,,Event Ticket,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-21,Virginia Department of Taxation,$10,Richmond,VA,,,,Taxes,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-21,Virginia Department of Taxation,$10,Richmond,VA,,,,Taxes,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-17,Unos Pizzeria,$245.27,Boston,MA,,,,Food,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-15,John Handley High School Sports Program,$250,Winchester,VA,,,,Advertising,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-24,Veterans Subs,$25.76,Winchester,VA,,,,Food,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-17,Emily Rose Windle,$50,Winchester,VA,,,,Consulting,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-08-26,Robin L Cooke Campaign,$500,Lake Frederick,VA,,,,Contribution,D,349898,2023-07-01 to 2023-08-31,CC-20-00299,Wiley for Delegate
+contribution,2023-09-19,Melanie Henry,$250,Winchester,VA,individual,Retired,Retired,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-29,Stephen Carlton Slaughter,$150,Winchester,VA,individual,Frederick Block Brick & Stone,Owner,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-19,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-29,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-11,Patrick Sullivan,$50,Winchester,VA,individual,Retired,Retired,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-14,Hunton Andrews Kurth LLP,$800,Richmond,VA,business,,Law Firm,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-16,Larry Omps,$250,Winchester,VA,individual,Omps Funeral Homes,President,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-29,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-14,Virginia Society of Anesthesiologists PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-14,James D Thompson,$200,Winchester,VA,individual,None,Retired,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-16,Associated Builders and Contractors PAC,"$2,500",Dulles,VA,pac,,PAC,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-29,Free Americans for Opportunity PAC,"$1,000",Abingdon,VA,pac,,PAC,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-29,"American Traffic Solutions, Inc",$500,Mesa,AZ,business,,Transportation,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-29,Virginia Society of the AIA PAC,$250,Richmond,VA,pac,,PAC,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-09-29,Blaine Dunn,$110,Winchester,VA,individual,Dunn Financial,Financial Advisor,,A,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+in_kind,2023-09-19,Republican Party of Virginia,"$7,081.56",Richmond,VA,party,,Political Party,Direct Mail,B,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-30,"Anedot, Inc.",$2.30,New Orleans,LA,,,,CC Processing,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-01,Google,$12,Mountain View,VA,,,,Online Services,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-18,"Tech Team Solutions, LLC",$57,Winchester,VA,,,,IT Services,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-18,"Tech Team Solutions, LLC",$57,Winchester,VA,,,,IT Services,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-05,Lowe's,$164.92,Mooresville,NC,,,,Campaign Supplies,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-12,Election CFO,$993.39,Alexandria,VA,,,,Compliance Consulting,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-25,Dunkin Donuts,$42.61,Canton,MA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-11,Winchester Republican Committee,$105.35,Winchester,VA,,,,Contribution,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-27,Winchester Republican Committee,"$1,048.19",Winchester,VA,,,,Contribution,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-11,West Oaks Farm Market,$21.49,Winchester,VA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-16,Susan Shick,"$1,500",Winchester,VA,,,,Consulting,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-26,Karen Greenhalgh for Delegate,"$5,000",Virginia Beach,VA,,,,Contribution,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-12,"House Republican Campaign Committee, Inc.","$7,100",Henrico,VA,,,,Donation,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-13,The Commonwealth Hotel,$165.30,Richmond,VA,,,,Travel,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-27,Shenandoah Apple Blossom Festival,$150,Winchester,VA,,,,Campaign Event,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-06,Las Trancas,$45.04,Winchester,VA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-06,Houlihans,$32.05,Leawood,VA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-11,James Charles Winery,$27.38,Winchester,VA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-11,James Charles Winery,$38.96,Winchester,VA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-11,James Charles Winery,$27.38,Winchester,VA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-11,James Charles Winery,$16.85,Winchester,VA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-13,Nature Composed,$126,Middleburg,VA,,,,Florist,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-19,Signet Marketing,$114.24,Winchester,VA,,,,Consulting,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-27,Vibrissa Beer,$51.20,Winchester,VA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-28,Glory Days Grill,$49.40,Winchester,VA,,,,Food and Beverage,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-29,Friends of Geary Higgins,"$10,000",Alexandria,VA,,,,Contribution,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-26,Kim Taylor for Virginia,"$5,000",Petersburg,VA,,,,Contribution,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-09-26,Rotary Club of Winchester,$100,Wincheter,VA,,,,Sponsorship,D,360431,2023-09-01 to 2023-09-30,CC-20-00299,Wiley for Delegate
+contribution,2023-10-02,Dean Cole,$300,Winchester,VA,individual,Retired,Retired,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-19,James Stewart,$200,Winchester,VA,individual,Grafton,Execuitve,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-05,Virginia Hospital and Healthcare Assoc PAC,$500,Richmond,VA,pac,,PAC,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-05,Virginia Hospital and Healthcare Assoc PAC,"$1,000",Richmond,VA,pac,,PAC,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-16,Virginia Transportation Construction Alliance PAC,"$1,000",North Chesterfield,VA,pac,,Political Action Committee,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-03,Ike Casey,$250,Alexandria,VA,individual,American Subcontractors Association of Metro Washington,Executive Director,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-04,Dan Reinhart,$250,New Market,VA,individual,Shenandoah Valley Battlefields Foundation,Chief Operating Officer,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-05,Kenneth L Hunter,$500,Winchester,VA,individual,None,Retired,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-05,The National Right to Work Committee PAC,$250,Springfield,VA,pac,,PAC,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-05,Jeffrey D Kelble,$250,Boyce,VA,individual,Potomac Riverkeeper Network,Environmental,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-13,Kenneth Spence,$250,Winchester,VA,individual,None,Retired,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-16,Norfolk Southern Corp,"$1,000",Atlanta,GA,business,,Transportation,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-16,Commercial Development PAC,$500,Alexandria,VA,pac,,PAC,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-23,Elizabeth Talley,$250,Richmond,VA,individual,None,Retired,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-25,Aqua Virginia Inc,$500,Rockville,VA,business,,Water Utility Service,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-25,Truist Virginia PAC,$500,Richmond,VA,pac,,PAC,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-25,General Motors Company PAC,$250,Washington,DC,pac,,PAC,,A,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+in_kind,2023-10-24,Republican Party of Virginia,"$6,732.05",Richmond,VA,party,,Political Party,Direct Mailing,B,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-26,"Anedot, Inc.",$61.80,New Orleans,LA,,,,CC Processing,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-02,Google,$12,Mountain View,VA,,,,Online Services,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-16,"Tech Team Solutions, LLC",$173,Winchester,VA,,,,IT Services,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-10,USPS,$66.66,Washington,DC,,,,Printing and Postage,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-06,Election CFO,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-18,Winchester Country Club,$35.51,Winchester,VA,,,,Campaign Event,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-06,Susan Shick,"$1,500",Winchester,VA,,,,Consulting,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-16,"House Republican Campaign Committee, Inc.","$7,100",Henrico,VA,,,,Contribution,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-05,AbbaCare Pregnancy Resource Center,$500,Winchester,VA,,,,Contribution,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-11,Friends of Ian Lovejoy for Delegate,"$5,000",Manassas,VA,,,,Contribution,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-02,Silver Diner,$52,Ashburn,VA,,,,Food and Beverage,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-11,Stirrup for Delegate 21,"$5,000",Alexandria,VA,,,,Contribution,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-18,Young Life,"$1,025",Colorado Springs,CO,,,,Contribution,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-23,"Marriott International, Inc",$356.90,Bethesda,MD,,,,Travel,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-19,Crystal City Sports Pub,$21.58,Arlington,VA,,,,Food and Beverage,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-11,Friends of Lee Peters III,"$5,000",Alexandria,VA,,,,Contribution,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-26,IHOP,$45.97,Glendale,CA,,,,Food and Beverage,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-23,Clint A. Nichols Scholarship,$57.04,Winchester,VA,,,,Event Tickets,D,368984,2023-10-01 to 2023-10-26,CC-20-00299,Wiley for Delegate
+contribution,2023-10-28,Susan S Claytor,$500,Winchester,VA,individual,Retired,Retired,,A,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+contribution,2023-10-28,Patrick Sullivan,$100,Winchester,VA,individual,Retired,Retired,,A,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+contribution,2023-11-09,Richmond Area Municipal Contractors Association PAC,"$1,500",Richmond,VA,pac,,PAC,,A,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+contribution,2023-10-28,VA Operators for Skill,"$1,000",Richmond,VA,business,,Trade Association,,A,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+contribution,2023-10-28,The American Electric Power Company  Virginia Committee for Responsible Government,$500,Colunbus,OH,pac,,PAC,,A,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+contribution,2023-10-28,Edward Podboy,$250,Vienna,VA,individual,Miller and Smith,Homebuilders,,A,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+contribution,2023-11-02,Cintra US Services LLC,"$1,000",Austin,TX,business,,Transportation Infrastructure,,A,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-31,"Anedot, Inc.",$4.30,New Orleans,LA,,,,CC Processing,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-30,"Anedot, Inc.",$1.30,New Orleans,LA,,,,CC Processing,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-01,Google,$12,Mountain View,VA,,,,Online Services,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-15,"Tech Team Solutions, LLC",$57,Winchester,VA,,,,IT Solutions,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-27,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-09,Piccadilly Brew Pub,"$1,307.25",Winchester,VA,,,,Food and Beverage,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-06,Election CFO,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-22,Citizens for Les Veach,$500,Winchester,VA,,,,Contribution,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-30,Glory Days Grill,$31.70,Winchester,VA,,,,Food and Beverage,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-29,Young Life,$41.54,Colorado Springs,CO,,,,Event Ticket,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-10-30,Fastsigns,$589.95,Winchester,VA,,,,Campaign Materials,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-03,Fastsigns,$559.61,Winchester,VA,,,,Campaign Materials,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-02,Fat Tuna Grill,$50.53,Williamsburg,VA,,,,Food and Beverage,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+expenditure,2023-11-06,Peter Kirollos,$200,Virginia Beach,VA,,,,Consulting,D,384727,2023-10-27 to 2023-11-30,CC-20-00299,Wiley for Delegate
+contribution,2023-12-08,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco and Food Manufacturing,,A,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+contribution,2023-12-15,Anthem Blue Cross Blue Shield,$500,Cincinnati,OH,business,,Healthcare,,A,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-12-31,"Anedot, Inc.",$4.30,New Orleans,LA,,,,CC Processing,D,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-12-04,Google,$12,Mountain View,VA,,,,Online Services,D,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-12-15,"Tech Team Solutions, LLC",$57,Winchester,VA,,,,Online Services,D,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-12-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-12-20,Frederick County Republican Committee,$35,Winchester,VA,,,,Contribution,D,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-12-18,USPS,$226,Washington,DC,,,,Postage,D,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-12-11,Election CFO,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-12-12,Kim Taylor for Virginia,$250,Petersburg,VA,,,,Contribution,D,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2023-12-11,Melio Payments,$0.53,New York,NY,,,,Bank Fee,D,393368,2023-12-01 to 2023-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-05-23,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,PAC,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-06-21,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,PAC,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-01-08,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-04-19,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Financial Services,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-06-11,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,PAC,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-01-03,Amazon.com Services LLC,$500,Seattle,WA,business,,Online Retail,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-05-23,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-05-23,Virginia Sheriffs Association,$250,Richmond,VA,business,,Association,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-06-11,Virginia Independent Auto Dealers PAC,$250,Midlothian,VA,pac,,PAC,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-05-23,John Singleton,$500,Winchester,VA,individual,Opportunity Scholars,CEO,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-06-11,McKesson Corporation Employees PAC,$500,Washington,DC,pac,,PAC,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-06-11,Premium Distributors of Virginia LLC,"$1,000",Chantilly,VA,business,,Beverage Distributor,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-01-03,AT&T Pioneers,$250,St Louis,MO,business,,Retail,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-01-08,Thomas Patton,"$1,500",Altoona,PA,individual,"Steetz, Inc",Senior Accounting Manager,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-01-08,"Enterprise Holdings, Inc PAC",$500,St Louis,MO,pac,,PAC,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-06-21,Virginia Manufacturers Association PAC,$250,Richmond,VA,pac,,PAC,,A,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-04-30,"Anedot, Inc.",$6.60,New Orleans,LA,,,,CC Processing,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-01-02,Google,$12,Mountain View,VA,,,,Online Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-02,Google,$12,Mountain View,VA,,,,Online Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-01-16,"Tech Team Solutions, LLC",$512,Winchester,VA,,,,IT Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-15,"Tech Team Solutions, LLC",$63,Winchester,VA,,,,IT Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-04-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-05-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-06-18,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-01-29,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-04-29,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-05-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-06-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-24,USPS,$68,Washington,DC,,,,Postage,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-25,Piccadilly Brew Pub,$32.05,Winchester,VA,,,,Food,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-06-21,Piccadilly Brew Pub,$39.75,Winchester,VA,,,,Food,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-01-03,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-07,Election CFO,$258.48,Alexandria,VA,,,,Compliance Consulting,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-29,Election CFO,$253.05,Alexandria,VA,,,,Compliance Consulting,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-04-03,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-05-01,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-05-31,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-04-23,Fairfax County Republican Committee,$35,Fairfax,VA,,,,Contribution,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-06-06,Omni Homestead Resort,$52.66,Hot Springs,VA,,,,Travel,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-11,Republican Commonwealth Leadership PAC,"$1,000",Woodstock,VA,,,,Contribution,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-04-19,Republican Commonwealth Leadership PAC,"$3,750",Woodstock,VA,,,,Contribution,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-06-12,Treasurer of Virginia,$7,Richmond,VA,,,,Postage,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-05-19,Backseat Bar and Grill,$36.54,Winchester,VA,,,,Food,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-06-21,Top of Virginia Regional Chamber,$45,Winchester,VA,,,,Event Ticket,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-27,MCV Foundation,$103.52,Richmond,VA,,,,Contribution,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-26,Blue Sea Philanthropy,$250,Leesburg,VA,,,,Contribution,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-12,Shenandoah Apple Blossom Festival,$336.60,Winchester,VA,,,,Event Tickets,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-04-12,Hobby Lobby,$21.04,Oklahoma City,OK,,,,Supplies,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-25,Unos Pizzeria,$73.33,Boston,MA,,,,Food,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-06-21,Vibrissa Beer,$49.24,Winchester,VA,,,,Food,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-01-16,The Hill Cafe,$60.96,Richmond,VA,,,,Food,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-03,Department of Motor Vehicles,$70.75,Richmond,VA,,,,Fees,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-14,Kroger,$42.10,Cincinnati,OH,,,,Food,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-02-27,Facebook,$128.04,Menlo Park,CA,,,,Advertising,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-11,High School Sports Advertising,"$1,000",Grapevine,TX,,,,Advertising,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-11,Friends of Willie Deutsch,$60.09,Manassas,VA,,,,Contribution,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-03-20,Cranberry's Grocery and Eatery,$21.14,Staunton,VA,,,,Food,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-05-15,Citizens for John Fox,$250,Winchester,VA,,,,Contribution,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-05-24,Hilton,$359.76,McLean,VA,,,,Travel,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-06-04,Jefferson's Restaurant and Taproom,$31.23,Hot Springs,VA,,,,Food,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2024-06-21,Vistaprint,$149.52,Lexington,MA,,,,Printing,D,413047,2024-01-01 to 2024-06-30,CC-20-00299,Wiley for Delegate
+contribution,2024-10-11,William Michael Perry,"$1,000",Winchester,VA,individual,Perry Engineering Company,Engineer,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-12-27,Richard D Kern Jr,$500,Winchester,VA,individual,Kern Motor Co,Sales,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-12-27,John P Good Jr,"$1,000",Winchester,VA,individual,Shockey Companies,Contractor,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-12-27,Virginia Automobile & Truck Dealers PAC,"$3,000",Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-09-05,VADPAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-22,Virginia Wine Wholesalers PAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-11,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-17,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-27,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-09,Capital One Services LLC,$500,Reston,VA,business,,Finance,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-03,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverages,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-09-19,Amazon.com Services LLC,"$1,000",Seattle,WA,business,,Online Retail,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-09,Williams Mullen Clark and Dobbins,$500,Richmond,VA,business,,Law firm,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-09,Williams Mullen Clark and Dobbins,$500,Richmond,VA,business,,Law firm,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-31,Virginia Hospital and Healthcare Assoc PAC,"$1,000",Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-09,LKQ Corporation N. American Headquarters,$500,Antioch,TN,business,,Auto Parts,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-25,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-09-19,Richmond Area Municipal Contractors Association PAC,$500,Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-05,Stoneridge Companies LLC,"$1,000",Winchester,VA,business,,Real Estate,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-30,Copart,$500,Fairfield,CA,business,,Automotive Auction,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-27,Washington Gas Light Company PAC,$500,Washington,DC,pac,,Political Action Committee,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-30,"Virginia State Police Association, Inc. PAC",$250,Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-17,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,Beverage Distribution,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-09-12,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Shipbuilding,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-17,Virginia Society of Anesthesiologists PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-03,Dominion Energy Inc. PAC,"$5,000",Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-25,Dominion Energy Inc. PAC,"$5,000",Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-03,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-27,Premium Distributors of Virginia LLC,"$1,000",Chantilly,VA,business,,Beverage Distributor,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-11,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Political Action Committee,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-17,Associated Builders and Contractors PAC,"$1,000",Dulles,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-12,"American Traffic Solutions, Inc",$500,Mesa,AZ,business,,Transportation,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-11,Virginia Society of the AIA PAC,$500,Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-12-27,Norfolk Southern Corp,$500,Atlanta,GA,business,,Transportation,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-23,Commercial Development PAC,$250,Alexandria,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-04,Truist Virginia PAC,$500,Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-05,The American Electric Power Company  Virginia Committee for Responsible Government,$500,Colunbus,OH,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-22,AT&T Pioneers,$500,St Louis,MO,business,,Retail,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-11,"Enterprise Holdings, Inc PAC","$1,000",St Louis,MO,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-03,Mindy Carlin,$500,Virginia Beach,VA,individual,Access Point Public Affairs,Public Affairs,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-17,Community-Owned Power PAC,$500,Glen Allen,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-25,Heavy Construction Contractors Association PAC,$750,Manassas,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-25,Cozen O'Connor,$500,Philadelphia,PA,individual,Self,Attorney,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-07-25,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-30,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Real Estate,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-23,Laurie Frogale,$500,Winchester,VA,individual,Annandale Millwork and Allied Systems,Vice President of Human Resources,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-19,Christopher West,"$1,000",Alexandria,VA,individual,Jackson West Consulting LLP,Public Affairs,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-21,Matt Benedetti,$250,North Chesterfield,VA,individual,Matt Benedetti & Associates,Consultant,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-08-30,Reed Smith LLP,"$1,000",Pittsburgh,PA,business,,Law Firm,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-09-19,Zurich American Insurance Company,"$1,000",Schaumburg,IL,business,,Insurance,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-04,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-04,Employees of RTX Corporation PAC,$250,Arlington,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-11,American Property Casualty Insurance Association PAC,$750,Chicago,IL,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-11,Continental Casualty Company,$750,Chicago,IL,business,,Insurance,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-17,Mark Perreault,"$3,000",Norfolk,VA,individual,Norfolk Southern Corp.,Attorney,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-17,Childs Frick Burden,$250,Middleburg,VA,individual,Childs Burden Esq,Environmental,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-10-22,Erie Insurance PAC,$500,Erie,PA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-05,Virginia Assisted Living Association PAC,"$1,000",Henrico,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-05,"Micron Technology, Inc",$750,Boise,ID,business,,Technology,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-11-27,Commissioner of Revenue Political Action Committee,$250,Staunton,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-12-27,Fantasy Sports Operator Coalition,$500,Arlington,VA,business,,Entertainment,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-12-27,Boyd-Pamunkey Casino Political Action Committee,"$1,500",Norfolk,VA,pac,,PAC,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2024-12-12,Sports Betting Alliance,$500,Lubbock,TX,business,,Entertainment,,A,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+in_kind,2024-08-21,Capital Results LLC,"$1,896.97",Richmond,VA,business,,Government Relations,Food/Beverage,B,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+in_kind,2024-10-09,Troutman Pepper Hamilton Sanders LLP,$667.71,Richmond,VA,business,,Legal,Food/Beverage,B,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-31,"Anedot, Inc.",$24.60,New Orleans,LA,,,,CC Processing,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-08-31,"Anedot, Inc.",$50.60,New Orleans,LA,,,,CC Processing,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-09-30,"Anedot, Inc.",$4.30,New Orleans,LA,,,,CC Processing,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-08-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-09-16,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-11-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-16,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-29,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-09-27,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-09-30,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-11-27,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-27,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-19,USPS,$68,Washington,DC,,,,Postage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-16,USPS,$414.64,Washington,DC,,,,Postage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-12,USPS,$232,Washington,DC,,,,Postage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-16,Union Jack Pub & Restaurant,$27.36,Winchester,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-05,Piccadilly Brew Pub,$19,Winchester,VA,,,,Food,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-01,Piccadilly Brew Pub,$38.80,Winchester,VA,,,,Food,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-01,Piccadilly Brew Pub,$24.21,Winchester,VA,,,,Food,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-26,Papermill Place,$31.46,Winchester,VA,,,,Food,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-27,Papermill Place,$31.46,Winchester,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-03,Election CFO,$250,Alexandria,VA,,,,Consulting,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-08-06,Election CFO,$250,Alexandria,VA,,,,Consulting,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-09-05,Election CFO,$250,Alexandria,VA,,,,Consulting,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-02,Election CFO,$250,Alexandria,VA,,,,Consulting,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-11-04,Election CFO,$250,Alexandria,VA,,,,Consulting,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-06,Election CFO,$250,Alexandria,VA,,,,Consulting,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-08-26,"NW Works, Inc",$154.35,Winchester,VA,,,,Contribution,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-12,Winchester Republican Committee,$52.05,Winchester,VA,,,,Contribution,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-02,Treasurer of Virginia,"$2,791.76",Richmond,VA,,,,Postage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-09-26,Backseat Bar and Grill,$39.69,Winchester,VA,,,,Food,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-03,AbbaCare Pregnancy Resource Center,$300,Winchester,VA,,,,Contribution,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-11-11,Shenandoah Apple Blossom Festival,$20.89,Winchester,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-08-23,Hobby Lobby,$21.05,Oklahoma City,OK,,,,Office Supplies,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-08,Hobby Lobby,$57.89,Oklahoma City,OK,,,,Office Supplies,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-15,Hobby Lobby,$40,Oklahoma City,OK,,,,Office Supplies,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-11-14,Vibrissa Beer,$32.11,Winchester,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-28,"Marriott International, Inc",$396.30,Bethesda,MD,,,,Travel,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-18,"Marriott International, Inc",$20.64,Bethesda,MD,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-19,Hilton,$82.37,McLean,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-01,Cavalier Autograph,$170.42,Virginia Beach,VA,,,,Food,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-08-16,First Colony Middle School PTO,"$1,000",Reston,VA,,,,Contribution,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-18,Uber,$162.55,San Francisco,CA,,,,Travel,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-08-17,Uber,$35.26,San Francisco,CA,,,,Travel,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-08-17,James Woods High School,$265,Winchester,VA,,,,Contribution,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-18,Allstate Insurance,$216.35,Northbrook,IL,,,,Travel,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-07-25,Neighborhood Italian Kitchen,$38.18,Berryville,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-08-20,Frederick County Law Enforcement Foundation,$500,Winchester,VA,,,,Contribution,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-25,Bill.com,$0.29,San Jose,CA,,,,Tester Transaction,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-11-25,Bill.com,$0.23,San Jose,CA,,,,Tester Transaction,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-25,City of Norfolk,$13,Norfolk,VA,,,,Parking,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-10-17,Chick-fil-A,$54.34,Atlanta,GA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-11-12,Giles Country Club,$99.27,Pearisburg,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-11-12,Giles Country Club,$17.82,Pearisburg,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-11-22,The Martha Washington Inn and Spa,$408.06,Abingdon,VA,,,,Travel,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-16,The Wine Room at Taylor Pavilion,$84.53,Winchester,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-18,Oak Stone Craft Pizza,$118.06,Winchester,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-17,Starbucks,$7.26,Seattle,WA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-31,Hunter's Head Tavern,$111.47,Upperville,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2024-12-18,Bookbinders Seafood and Steakhouse,$214.79,Richmond,VA,,,,Food/Beverage,D,432357,2024-07-01 to 2024-12-31,CC-20-00299,Wiley for Delegate
+contribution,2025-01-04,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+contribution,2025-01-02,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law Firm,,A,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+contribution,2025-01-07,VA Operators for Skill,"$1,000",Richmond,VA,business,,Trade Association,,A,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+contribution,2025-01-07,Heavy Construction Contractors Association PAC,$500,Manassas,VA,pac,,PAC,,A,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+contribution,2025-01-02,FirstEnergy Political Action Committee,"$1,000",Akron,OH,pac,,PAC,,A,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+contribution,2025-01-02,Genworth Financial,$500,Lynchburg,VA,business,,Financial,,A,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+contribution,2025-01-04,J & J Ventures Gaming LLC,"$10,000",Effingham,IL,business,,Gaming,,A,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-28,"Anedot, Inc.",$4.30,New Orleans,LA,,,,CC Processing,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-31,"Anedot, Inc.",$7.60,New Orleans,LA,,,,CC Processing,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-01-15,"Tech Team Solutions, LLC",$317.40,Winchester,VA,,,,IT Services,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-18,"Tech Team Solutions, LLC",$317.40,Winchester,VA,,,,IT Services,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-17,"Tech Team Solutions, LLC",$195.40,Winchester,VA,,,,IT Services,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-01-27,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-28,Mailchimp,$60,Atlanta,GA,,,,Online Services,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-25,Frederick County Republican Committee,$135.23,Winchester,VA,,,,Event Tickets,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-03,USPS,$73,Washington,DC,,,,Postage,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-27,Piccadilly Brew Pub,$27,Winchester,VA,,,,Food,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-01-02,Election CFO,$253,Alexandria,VA,,,,Consulting,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-04,Election CFO,$257.05,Alexandria,VA,,,,Consulting,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-28,Election CFO,"$1,000",Alexandria,VA,,,,Consulting,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-17,Backseat Bar and Grill,$31.27,Winchester,VA,,,,Food,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-01-10,Frederick County Treasurer,$352.80,Winchester,VA,,,,Filing Fee,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-14,MCV Foundation,$207.04,Richmond,VA,,,,Contribution,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-25,Shenandoah Apple Blossom Festival,$500,Winchester,VA,,,,Event Tickets,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-24,Unos Pizzeria,$97.73,Boston,MA,,,,Food,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-18,Hilton,$254.03,McLean,VA,,,,Travel,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-26,James Woods High School,$50,Winchester,VA,,,,Event Tickets,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-01-06,First Bank of Virginia,$12,Strasburg,VA,,,,Bank Fee,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-01-10,Starbucks,$13.03,Seattle,WA,,,,Food,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-25,Starbucks,$3.96,Seattle,WA,,,,Food,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-03,Clayton Spangler Photographic Design,$399,Charleston,WV,,,,Photography,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-05,Puritan Cleaners,$51.33,Richmond,VA,,,,Cleaning,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-07,Commonwealth Conservative PAC,$103.30,Winchester,VA,,,,Event Tickets,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-17,Commonwealth Conservative PAC,$927.19,Winchester,VA,,,,Event Tickets,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-03,Kingsmill Resort,$243.71,Williamsburg,VA,,,,Travel,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-10,Roma Old Town,$32.96,Winchester,VA,,,,Food,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-02-24,Frederick County Middle School PTO,$500,Winchester,VA,,,,Contribution,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-19,Willie Sutton's Saloon,$29.04,Winchester,VA,,,,Food,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-14,Carmine's,$36.80,Washington,DC,,,,Food,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-18,Lucas Cole,$160,White Post,VA,,,,Consulting,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-03-05,Winchester Frederick Clarke Republican Women's Club,$17,White Post,VA,,,,Contribution,D,435454,2025-01-01 to 2025-03-31,CC-20-00299,Wiley for Delegate
+contribution,2025-05-12,Virginia Land Title Association PAC,"$1,000",Centreville,VA,pac,,PAC,,A,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+contribution,2025-04-14,Altria Client Services LLC,"$1,500",Richmond,VA,business,,Financial Services,,A,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+contribution,2025-05-12,Virginia Sheriffs Association PAC,$250,Richmond,VA,pac,,PAC,,A,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+contribution,2025-04-14,Christopher West,"$1,000",Alexandria,VA,individual,Jackson West Consulting LLP,Public Affairs,,A,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+in_kind,2025-05-29,Altria Client Services LLC,"$2,270.81",Richmond,VA,business,,Financial Services,Venue Rental and Catering,B,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-30,"Anedot, Inc.",$44.60,New Orleans,LA,,,,CC Processing,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-28,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-28,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-22,Frederick County Republican Committee,$35,Winchester,VA,,,,Contribution,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-11,Union Jack Pub & Restaurant,$22.89,Winchester,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-14,Election CFO,"$1,016.40",Alexandria,VA,,,,Consulting,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-01,Election CFO,"$1,016",Alexandria,VA,,,,Consulting,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-04,Omni Homestead Resort,$17.21,Hot Springs,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-02,Shenandoah Apple Blossom Festival,$36.50,Winchester,VA,,,,Event Tickets,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-04,Hilton,$266.43,McLean,VA,,,,Travel,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-02,Jefferson's Restaurant and Taproom,$58.19,Hot Springs,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-18,United,$280.22,Chicago,IL,,,,Travel,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-10,National Conference of State Legislators,$755,Denver,CO,,,,Event Tickets,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-08,Giles Country Club,$99.27,Pearisburg,VA,,,,Event Rental,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-08,Giles Country Club,$52,Pearisburg,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-08,Giles Country Club,$7.22,Pearisburg,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-20,Kingsmill Resort,$366.91,Williamsburg,VA,,,,Travel,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-02,Lyft,$13.99,San Francisco,CA,,,,Travel,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-03,The Journal Newspaper,$17.60,Martinsburg,WV,,,,Subscription,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-05,The Journal Newspaper,$17.60,Martinsburg,WV,,,,Subscription,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-14,Flowers By Snellings,$64.65,Winchester,VA,,,,Flowers,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-14,Sportspage Grille,$21.98,Ashland,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-23,Umberto's Pizza and Pasta,$103.19,Winchester,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-04-25,Poblanos Mexican Grill,$111.55,Winchester,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-05-09,Winsome for Governor,"$2,500",Richmond,VA,,,,Contribution,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-02,Rubino's at the Cascades,$44.35,Hot Springs,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-03,Mulligan's,$66.12,Hot Springs,VA,,,,Food,D,442755,2025-04-01 to 2025-06-05,CC-20-00299,Wiley for Delegate
+contribution,2025-06-09,Virginia Automobile & Truck Dealers PAC,"$5,000",Richmond,VA,pac,,PAC,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-09,Virginia Automobile & Truck Dealers PAC,"$5,000",Richmond,VA,pac,,PAC,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-09,CVS Pharmacy,$500,Woonsocket,RI,business,,Healthcare,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-25,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law Firm,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-09,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverages,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-18,Virginia Cable PAC,$500,Richmond,VA,pac,,PAC,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-25,McGuire Woods,$500,Richmond,VA,business,,Law firm,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-09,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,PAC,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-09,Dominion Energy Inc. PAC,"$10,000",Richmond,VA,pac,,PAC,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-18,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,PAC,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-06-09,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,PAC,,A,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-30,"Anedot, Inc.",$8.60,New Orleans,LA,,,,CC Processing,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-17,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-30,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-10,Election CFO,"$1,008",Alexandria,VA,,,,Consulting,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-30,WinRed Technical Services LLC,$1.97,Arlington,VA,,,,CC Processing,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-20,Hobby Lobby,$31.56,Oklahoma City,OK,,,,Supplies,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-30,Cavalier Autograph,$13.60,Virginia Beach,VA,,,,Food,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-16,Uber,$114.78,San Francisco,CA,,,,Travel,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-17,Kingsmill Resort,$576.19,Williamsburg,VA,,,,Travel,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-18,The Journal Newspaper,$17.60,Martinsburg,WV,,,,Subscription,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-10,Town Square Publications,$449,Arlington Heights,IL,,,,Printing,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-06,REC PAC,"$8,500",Fairfax,VA,,,,Contribution,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-16,Paul's Deli & Neighborhood Restaurant,$70.75,Williamsburg,VA,,,,Food,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-16,Colonial Williamsburg Hotel,$66,Williamsburg,VA,,,,Travel,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-16,Berret's Seafood Restaurant and Taphouse Grill,$52.80,Williamsburg,VA,,,,Food,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-16,Legasea Marine,$4.28,Yorktown,VA,,,,Supplies,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-14,Friends of A.C. Cordoza 2021,"$1,000",Fort Monroe,VA,,,,Contribution,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-14,Friends of Amanda Batten,"$1,000",Norge,VA,,,,Contribution,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-13,Friends of Chad Green,"$1,000",Seaford,VA,,,,Contribution,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-06-30,Friends of Carrie Coyner,"$5,000",Chesterfield,VA,,,,Contribution,D,445911,2025-06-06 to 2025-06-30,CC-20-00299,Wiley for Delegate
+contribution,2025-08-02,H Paige Manuel,$521.15,Winchester,VA,individual,Oak Crest Realty,Realtor,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-11,Gerald F Smith Jr,"$2,500",Winchester,VA,individual,Valley Proteins Inc,Agriculture,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-30,Susan S Claytor,$104.48,Winchester,VA,individual,Retired,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-21,Christopher Giblin,$250,Alexandria,VA,individual,Ogilvy Government Relations,Government Relations,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-11,Richard D Kern Jr,$500,Winchester,VA,individual,Kern Motor Co,Sales,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-11,Glaize Developments Inc,$500,Winchester,VA,business,,Real Estate,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-28,Ross Peter Spicer,$156.56,Winchester,VA,individual,Frederick County Commonwealth Attorney's Office,Attorney,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-24,Jim Arnold,$104.48,Cross Junction,VA,individual,Foot Care Center,Podiatrist,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-25,Realtors Political Action Committee of Virginia,"$2,500",Glen Allen,VA,pac,,PAC,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-17,Patrick Sullivan,$100,Winchester,VA,individual,Retired,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-25,Daniel Best,$521.15,Stephens City,VA,individual,Retired,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-20,Debbie Balancia,$104.48,Winchester,VA,individual,Retired,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-29,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-01,John Willingham,"$1,000",Winchester,VA,individual,Stoneridge Companies,President,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-19,C Monty Harris,$208.65,Winchester,VA,individual,Harris Management Company,Owner,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-22,John Jewell,$156.56,Winchester,VA,individual,None,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-26,Phillip S Griffin II,$104.48,Winchester,VA,individual,Self,Attorney,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-29,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,Beverage Distribution,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-18,Capital Results LLC,$500,Richmond,VA,business,,Government Relations,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-23,Darlene A Kent,$104.48,Winchester,VA,individual,None,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-18,Virginia Society of the AIA PAC,$500,Richmond,VA,pac,,PAC,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-15,Mary McFarland,$104.48,Winchester,VA,individual,Retired,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-18,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,PAC,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-11,Boyd-Pamunkey Casino Political Action Committee,"$1,500",Norfolk,VA,pac,,PAC,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-05,Michael Guevremont,$104.48,Winchester,VA,individual,Flatter Inc,Consultant,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-08,Michael Guevremont,$100,Winchester,VA,individual,Flatter Inc,Consultant,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-03,Joseph Crane,$104.48,Winchester,VA,individual,CACI,Operations,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-14,Joseph Crane,$104.48,Winchester,VA,individual,CACI,Operations,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-18,Kathy Tagnesi,$104.48,Winchester,VA,individual,City of Winchester,City Councilor,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-19,Craig Stevens,$521.15,Warrenton,VA,individual,None,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-19,Doordash Inc,$250,San Francisco,CA,business,,Hospitality,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-19,Friends of Timothy Johnson,$200,Bluemont,VA,business,,Campaign Committee,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-24,Timothy Johnson,$104.48,Bluemont,VA,individual,"Northern Valley Law, PLC",Attorney,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-25,Aimee Brumback,$104.48,Berryville,VA,individual,WPS,Teacher,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-28,Paulette Sellery,$104.48,Gainesville,VA,individual,George Scarborough,Bookkeeper,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-07-31,Susan Eicher,$104.48,Bealeton,VA,individual,None,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-05,Greory Price,$104.48,Winchester,VA,individual,na,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-18,Comcast Financial Agency Corporation,$500,Philadelphia,PA,business,,Internet/Cellular Provider,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-18,Ben Cline For Congress Inc,"$1,000",Leesburg,VA,candidate,,Political Campaign,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-16,David Bouffard,$104.48,Winchester,VA,individual,Retired,Retired,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-25,LKQ Corporation Employee Good Government Fund,$500,Washington D.C.,DC,pac,,Political Committee,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-23,Edwin Elvira,"$1,041.98",Winchester,VA,individual,Elvira Landscaping,President,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-29,AIA Virginia PAC,$500,Chesterfield,VA,pac,,Political Action Committee,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-26,Carmen Westbrook,$104.48,Paris,VA,individual,Trans Union,Senior Business Development Executive,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-08-26,Chris Rucker,$521.15,Winchester,VA,individual,Valley Health System,Chief Administrative Officer,,A,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-31,"Anedot, Inc.",$130.03,New Orleans,LA,,,,CC Processing,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-31,"Anedot, Inc.",$232.08,New Orleans,LA,,,,CC Processing,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-12,Printing Express,$684.45,Harrisonburg,VA,,,,Printing,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-28,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-28,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-21,Union Jack Pub & Restaurant,$60.06,Winchester,VA,,,,Food,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-01,Election CFO,"$1,008",Alexandria,VA,,,,Consulting,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-01,Election CFO,"$1,008",Alexandria,VA,,,,Consulting,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-08,"NW Works, Inc",$129.38,Winchester,VA,,,,Contribution,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-15,Republican Commonwealth Leadership PAC,"$3,750",Woodstock,VA,,,,Contribution,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-22,Top of Virginia Regional Chamber,"$1,000",Winchester,VA,,,,Contribution,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-07,"Marriott International, Inc",$962.39,Bethesda,MD,,,,Travel,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-21,Hilton,$344.61,McLean,VA,,,,Travel,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-27,Hilton,$26.50,McLean,VA,,,,Travel,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-11,Vistaprint,$235.98,Lexington,MA,,,,Printing,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-01,Cavalier Autograph,$81.02,Virginia Beach,VA,,,,Food,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-31,James Woods High School,"$1,060",Winchester,VA,,,,Contribution,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-21,The Wine Room at Taylor Pavilion,$57.70,Winchester,VA,,,,Food,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-17,The Journal Newspaper,$17.60,Martinsburg,WV,,,,Subscription,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-18,The Journal Newspaper,$17.60,Martinsburg,WV,,,,Subscription,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-01,Friends of Tim Anderson II,"$1,000",Virginia Beach,VA,,,,Contribution,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-10,Stock Bistro and Bar,$32.24,Richmond,VA,,,,Food,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-14,Dot's Back Inn,$113.43,Richmond,VA,,,,Travel,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-21,Craig Stevens,$250,Warrenton,VA,,,,Contribution Refund,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-19,Braddock Autopark,$4,Winchester,VA,,,,Travel,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-21,Youth Development Center Inc,$41,Winchester,VA,,,,Contribution,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-07-21,MARTIN'S,$22.58,Stephens City,VA,,,,Food,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-05,Conference Direct,$30,Beverly Hills,CA,,,,Online Services,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-27,Indea Grace Photography,$100,Berryville,VA,,,,Photography,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-22,Chilly Hollow Brewing Company,$21.98,Berryville,VA,,,,Food,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-22,Lowes,$10.51,Mooresville,NC,,,,Supplies,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-28,Tsteurasia,$170.24,Viriginia Beach,VA,,,,Food,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-08-27,Acacia Midtown,$153.60,Richmond,VA,,,,Food,D,454091,2025-07-01 to 2025-08-31,CC-20-00299,Wiley for Delegate
+contribution,2025-09-01,Marsha B Barley,$200,Winchester,VA,individual,Retired,Retired,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-04,Susan S Claytor,$200,Winchester,VA,individual,Retired,Retired,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-08,Brian Smith,$200,Winchester,VA,individual,Retired,Retired,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-01,Cary Nelson,$104.48,Winchester,VA,individual,H.N. Funkhouser & Co,CPA,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-16,Virginia Wine Wholesalers PAC,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-03,Kevin Callanan,$250,Stephens City,VA,individual,"CES, LLC",Consultant,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-04,Louise Massoud,$250,Strassburg,VA,individual,Retired,Retired,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-04,Charles William Orndoff Jr,$250,Clear Brook,VA,individual,"Frederick County, VA",Treasurer,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-29,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-16,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,PAC,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-02,Capital One Services LLC,"$1,500",Reston,VA,business,,Finance,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-02,Williams Mullen Clark and Dobbins,$750,Richmond,VA,business,,Law firm,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-16,Richmond Area Municipal Contractors Association PAC,"$1,000",Richmond,VA,pac,,PAC,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-08,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Shipbuilding,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-24,Virginia Society of Anesthesiologists PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-02,McKesson Corporation Employees PAC,$250,Washington,DC,pac,,PAC,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-29,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Political Action Committee,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-08,General Motors Company PAC,$500,Washington,DC,pac,,PAC,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-02,Commonwealth Conservative PAC,"$1,000",Winchester,VA,pac,,Political Action Committee,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-29,Winchester Frederick Clarke Republican Women's Club,$199,White Post,VA,business,,Political Organization,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-04,Paul Burkholder,$120,Winchester,VA,individual,Wells Fargo,Banker,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-08,Sheetz,"$1,000",Altoona,PA,business,,Convenience Store,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-08,Silicon Valley Bank,"$1,000",Santa Clara,CA,business,,Bank,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-01,Jeff Lessar,$200,Winchester,VA,individual,Valley Health,Physician,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-01,Angela Duncan,$104.48,Winchester,VA,individual,MarketPlace REALTY,Real Estate Broker,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-02,Scott Plein,"$1,000",Falls Church,VA,individual,SCP Inc,Executive,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-02,Walter Curt,"$1,000",Port Republic,VA,individual,Power Monitors Inc,CEO,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-02,Robin Owens,$104.48,Winchester,VA,individual,Laurel Rudge Community College,Adult Education Instructor,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-03,McKenzie Roan,$104.48,Winchester,VA,individual,Retired,Retired,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-03,Drew Thomas,$104.48,Royal,VA,individual,"ECS Mid-Atlantic, LLC",Geologist,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-03,Timothy Anderson,$104.48,Winchester,VA,individual,Retired,Retired,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-16,"Aristotle International, INC","$1,500",Washington,DC,business,,Technology Services,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-16,Chemung Contracting Corp,$250,Pine City,NY,business,,Construction Company,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-16,Cedar Mountain Stone Corp,$250,Pine City,NY,business,,Stone Supplier,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-16,Buspatrol America LLC,"$1,000",Lorton,VA,business,,Technology Services,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-18,Thomas Lawson,$500,White Post,VA,individual,"Thomas Moore Lawson, P.C.",President,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-24,Buettner Family Living Partnership,"$1,000",Winchester,VA,business,,Family Practice,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-29,GNA Corporation,"$1,000",Lynchburg,VA,business,,Machine Manufacturer,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-29,Neet Midatlantic,"$1,000",Juno Beach,FL,business,,Energy Provider,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-29,Cozen O'Conner,$500,Philidelphia,PA,business,,Law Firm,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-01,Thomas Gibbs,$104.48,Winchester,VA,individual,Retired,Retired,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-09-01,Clay Perry,$521.15,Winchester,VA,individual,Retired,Retired,,A,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+in_kind,2025-09-03,Shannon Dulaney,"$2,250",Berryville,VA,individual,Chilly Hollow Brewing Co,Owner,Event Venue,B,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-30,"Anedot, Inc.",$250.21,New Orleans,LA,,,,CC Processing,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-29,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-18,City of Winchester,$227.57,Winchester,VA,,,,Utilities,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-25,Village Square Restaurant,$211.65,Winchester,VA,,,,Food,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-03,Union Jack Pub & Restaurant,$252.31,Winchester,VA,,,,Food,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-16,Piccadilly Brew Pub,$98.08,Winchester,VA,,,,Food,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-08,Election CFO,"$1,008",Alexandria,VA,,,,Consulting,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-23,Republican Commonwealth Leadership PAC,"$14,000",Woodstock,VA,,,,Mailers,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-10,Amazon.com Services LLC,$35.79,Seattle,WA,,,,Supplies,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-17,Friends of Ian Lovejoy for Delegate,"$5,000",Manassas,VA,,,,Contribution,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-17,Friends of Geary Higgins,"$5,000",Alexandria,VA,,,,Contribution,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-17,Kim Taylor for Virginia,"$5,000",Petersburg,VA,,,,Contribution,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-11,Lyft,$14.86,San Francisco,CA,,,,Travel,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-12,Lyft,$20.77,San Francisco,CA,,,,Travel,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-23,Lyft,$16.90,San Francisco,CA,,,,Travel,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-24,Lyft,$36.12,San Francisco,CA,,,,Travel,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-17,The Journal Newspaper,$17.60,Martinsburg,WV,,,,Subscription,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-25,Braddock Autopark,$6,Winchester,VA,,,,Travel,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-03,Chilly Hollow Brewing Company,$21.34,Berryville,VA,,,,Food,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-08,Chilly Hollow Brewing Company,$31.52,Berryville,VA,,,,Food,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-15,Lowes,$10.51,Mooresville,NC,,,,Supplies,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-02,Friends of Chris Obenshain,"$1,000",Blacksburg,VA,,,,Contribution,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-02,Justin Pence for Delegate,$250,Edinburg,VA,,,,Contribution,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-02,Buffalo Wild Wings,$85.36,Minneapolis,MN,,,,Food,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-02,IJ Canns American Grill,$65.06,Winchester,VA,,,,Food,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-05,Barker and Schuster,$200,Winchester,VA,,,,Event Entertainment,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-03,Chris Rucker,$521.15,Winchester,VA,,,,Contribution refund,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-08,Sunflower Cottage,$31.48,Middleton,VA,,,,Food,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-10,Mike Lamonea For Delegate,"$5,000",Chesapeake,VA,,,,Contribution,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-10,Microsoft,$19.99,Redmond,WA,,,,Online Services,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-17,Friends of David Owen,"$5,000",Richmond,VA,,,,Contribution,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-30,Friends of Paul Milde,"$2,500",Richmond,VA,,,,Contribution,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+expenditure,2025-09-30,Earley for Delegate,"$2,500",Lessburg,VA,,,,Contribution,D,459353,2025-09-01 to 2025-09-30,CC-20-00299,Wiley for Delegate
+contribution,2025-10-21,VADPAC,$750,Richmond,VA,pac,,Political Action Committee,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-10,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,PAC,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-16,HBAV Build PAC,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-06,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-06,Altria Client Services LLC,"$2,500",Richmond,VA,business,,Financial Services,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-10,Premium Distributors of Virginia LLC,"$1,000",Chantilly,VA,business,,Beverage Distributor,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-10,Catherine Dowling,$100,Winchester,VA,individual,Winchester Anesthesiologists,Anesthesiologist,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-06,RAI Services Company,"$1,000",Winston-Salem,VA,business,,Tobacco - Farmers,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-16,"POM of Virginia, LLC","$1,000",Duluth,GA,business,,Gaming,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-20,Rivers Portsmouth Gaming LLC,"$1,000","Portsmouth, VA",VA,business,,Gaming,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-21,Virginia CUPAC,$500,Tallahassee,FL,pac,,Political Action Committee,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-21,PMI US Corporate Services,"$1,500",San Rafael,CA,business,,Pharmaceutical,,A,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+in_kind,2025-10-07,Republican Party of Virginia,"$13,891.28",Richmond,VA,party,,Political Party,Mailings,B,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-23,"Anedot, Inc.",$2.30,New Orleans,LA,,,,CC Processing,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-03,Printing Express,"$1,708.23",Harrisonburg,VA,,,,Printing,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-03,USPS,$73,Washington,DC,,,,Postage Reimbursement to Glen L,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-09,Village Square Restaurant,$17.79,Winchester,VA,,,,Food,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-14,Election CFO,"$1,024.03",Alexandria,VA,,,,Consulting,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-09,AbbaCare Pregnancy Resource Center,$500,Winchester,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-14,Winchester Rescue Mission,$500,Winchester,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-17,Friends of Ian Lovejoy for Delegate,"$2,000",Manassas,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-17,Friends of Geary Higgins,"$2,000",Alexandria,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-17,Kim Taylor for Virginia,"$2,000",Petersburg,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-15,Crystal City Sports Pub,$60.49,Arlington,VA,,,,Food and beverage,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-16,Crystal City Sports Pub,$51.81,Arlington,VA,,,,Food and beverages,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-23,Starbucks,$8.38,Seattle,WA,,,,Food,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-17,The Journal Newspaper,$19.72,Martinsburg,WV,,,,Subscription,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-17,Friends of Chris Obenshain,"$2,500",Blacksburg,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-17,Friends of Paul Milde,"$2,500",Richmond,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-20,Earley for Delegate,"$2,000",Lessburg,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-07,Moving Mountains PAC,"$10,000",Richmond,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-14,Carrie Coyner for Virginia,"$1,500",Chester,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-14,SQ Vault & Cellar,$95.12,Middleton,VA,,,,Food,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-15,Metropolis Parking,$50.40,Nashville,TN,,,,Parking,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-14,Westin,$600.55,Bethesda,MD,,,,Travel,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-14,Westin,$17.99,Bethesda,MD,,,,Travel,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-16,Westin,$34.97,Bethesda,MD,,,,Travel,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-20,Green for Delegate,"$2,000",Seaford,VA,,,,Contribution,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-22,Bonnie Blue Southern Market & Bakery,$51.58,Winchester,VA,,,,Food,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-23,Claudios Pizzeria,$51.94,Winchester,VA,,,,Food,D,471019,2025-10-01 to 2025-10-23,CC-20-00299,Wiley for Delegate
+contribution,2025-10-24,William Michael Perry,"$1,000",Winchester,VA,individual,Perry Engineering Company,Engineer,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-10-30,Virginia Automobile & Truck Dealers PAC,"$10,000",Richmond,VA,pac,,PAC,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-10-30,Associated General Contractors of Virginia Inc PAC,$500,Glen Allen,VA,pac,,Political Action Committee,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-11-17,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-11-03,Virginia Transportation Construction Alliance PAC,"$1,000",North Chesterfield,VA,pac,,Political Action Committee,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-10-31,Norfolk Southern Corp,$500,Atlanta,GA,business,,Transportation,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-10-24,AT&T Pioneers,$500,St Louis,MO,business,,Retail,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-10-24,"Enterprise Holdings, Inc PAC",$500,St Louis,MO,pac,,PAC,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-10-31,Employees of RTX Corporation PAC,$250,Arlington,VA,pac,,PAC,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-10-24,Sports Betting Alliance,"$5,000",Lubbock,TX,business,,Entertainment,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-10-28,Sriram Peddibhotla,$400,McLean,VA,individual,SAIC,IT Principal Architect,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-10-30,Richard Pifer,$300,Winchester,VA,individual,Self employed,Real Estate Investor,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-11-26,Seven Hills Strategy Group LLC,$250,Richmond,VA,business,,Consulting Firm,,A,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-31,"Anedot, Inc.",$68.90,New Orleans,LA,,,,CC Processing,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-17,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-28,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-06,Piccadilly Brew Pub,"$1,489.95",Winchester,VA,,,,Food,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-04,Election CFO,"$1,008",Alexandria,VA,,,,Consulting,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-24,Republican Party of Virginia,"$10,000",Richmond,VA,,,,Contribution,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-27,FP1 Strategies,$750,Arlington,VA,,,,Consulting,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-06,Backseat Bar and Grill,$36.58,Winchester,VA,,,,Food,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-31,Top of Virginia Regional Chamber,$55,Winchester,VA,,,,Contribution,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-24,Vibrissa Beer,$26.67,Winchester,VA,,,,Food,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-27,First Bank of Virginia,$25,Strasburg,VA,,,,Bank fee,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-25,Commonwealth Conservative PAC,"$1,545.11",Winchester,VA,,,,Contribution,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-19,Frederick County Middle School PTO,"$1,500",Winchester,VA,,,,Contribution,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-19,The Journal Newspaper,$19.72,Martinsburg,WV,,,,Subscription,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-24,Sportspage Grille,$35.12,Ashland,VA,,,,Food,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-30,Battleground Connect,"$1,938.56",Missoula,MT,,,,Texting,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-10-30,Stella's,$221.98,Richmond,VA,,,,Food,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-05,Applebee's,$92.88,Pasadena,CA,,,,Food,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-19,Frederick County Parks & Recreation,$60,Winchester,VA,,,,Contribution,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-25,WinRed,$31.23,Arlington,VA,,,,Online Services,D,472315,2025-10-24 to 2025-11-27,CC-20-00299,Wiley for Delegate
+contribution,2025-12-31,Commercial Development PAC,$500,Alexandria,VA,pac,,PAC,,A,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+contribution,2025-12-22,Commissioner of Revenue Political Action Committee,$250,Staunton,VA,pac,,PAC,,A,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+contribution,2025-12-15,SAFELITE Fulfillment Inc.,$250,Columbus,OH,business,,Auto Glass Business,,A,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+contribution,2025-12-22,Metis Services Inc,$500,Roanoke,VA,business,,Insurance,,A,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+contribution,2025-12-31,VA Digital Infrastructure PAC,"$1,000",Leesburg,VA,pac,,Political Action Committee,,A,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-15,"Tech Team Solutions, LLC",$65.40,Winchester,VA,,,,IT Services,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-28,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-09,USPS,$244,Washington,DC,,,,Shipping,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-11-28,Union Jack Pub & Restaurant,$35.78,Winchester,VA,,,,Food,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-05,Election CFO,"$1,014",Alexandria,VA,,,,Consulting,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-09,Republican Party of Virginia,"$15,000",Richmond,VA,,,,Contribution,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-08,Top of Virginia Regional Chamber,$40,Winchester,VA,,,,Event Ticket,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-22,Shenandoah Apple Blossom Festival,$517.50,Winchester,VA,,,,Event Sponsorship,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-31,Hobby Lobby,$21.04,Oklahoma City,OK,,,,Supplies,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-31,Glory Days Grill,$74.74,Winchester,VA,,,,Food,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-31,First Bank of Virginia,$25,Strasburg,VA,,,,Bank Fee,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-18,Roma Old Town,$29.60,Winchester,VA,,,,Food,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-17,The Journal Newspaper,$19.72,Martinsburg,WV,,,,Subscription,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-11,Metropolis Parking,$10.99,Nashville,TN,,,,Travel,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-09,Golden Corral,$18.34,Raleigh,NC,,,,Food,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-18,Virginia Public Access Project,$102.56,Richmond,VA,,,,Contribution,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-19,The Grill,$26.14,Richmond,VA,,,,Food,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+expenditure,2025-12-31,Terry Kilgore for Delegate,"$8,000",Gate City,VA,,,,Contribution,D,479702,2025-11-28 to 2025-12-31,CC-20-00299,Wiley for Delegate
+contribution,2026-03-16,Daniel Best,$200,Stephens City,VA,individual,Retired,Retired,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-04-16,Daniel Best,$200,Stephens City,VA,individual,Retired,Retired,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-05-16,Daniel Best,$200,Stephens City,VA,individual,Retired,Retired,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-06-16,Daniel Best,$200,Stephens City,VA,individual,Retired,Retired,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-06-03,Altria Client Services LLC,"$1,500",Richmond,VA,business,,Financial Services,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-01-13,Virginia Hospital and Healthcare Assoc PAC,"$1,000",Richmond,VA,pac,,PAC,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-04-03,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-01-13,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,PAC,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-01-07,Transurban (USA) Inc.,$500,Tysons,VA,business,,Transportation,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-06-03,VA Operators for Skill,"$5,000",Richmond,VA,business,,Trade Association,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-01-12,Dominion Energy Inc. PAC,"$10,000",Richmond,VA,pac,,PAC,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-01-13,Heavy Construction Contractors Association PAC,$500,Manassas,VA,pac,,PAC,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-01-07,VA Digital Infrastructure PAC,"$1,000",Leesburg,VA,pac,,PAC,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-01-13,PPE Casino Resorts Petersburg,"$2,000",Baltimore,MD,business,,Hospitality,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+contribution,2026-01-12,James Myers,$500,Winchester,VA,individual,Valley Cycle Center,Owner,,A,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-31,"Anedot, Inc.",$20.30,New Orleans,LA,,,,CC Processing,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-31,"Anedot, Inc.",$8.30,New Orleans,LA,,,,CC Processing,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-30,"Anedot, Inc.",$8.30,New Orleans,LA,,,,CC Processing,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-31,"Anedot, Inc.",$8.30,New Orleans,LA,,,,CC Processing,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-30,"Anedot, Inc.",$8.30,New Orleans,LA,,,,CC Processing,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-15,"Tech Team Solutions, LLC",$341.40,Winchester,VA,,,,IT Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-02-17,"Tech Team Solutions, LLC",$106.90,Winchester,VA,,,,IT Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-16,"Tech Team Solutions, LLC",$74.40,Winchester,VA,,,,IT Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-15,"Tech Team Solutions, LLC",$74.40,Winchester,VA,,,,IT Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-15,"Tech Team Solutions, LLC",$74.40,Winchester,VA,,,,IT Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-15,"Tech Team Solutions, LLC",$74.40,Winchester,VA,,,,IT Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-27,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-28,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-02,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-27,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-28,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-28,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-29,Mailchimp,$85,Atlanta,GA,,,,Online Services,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-02-19,Frederick County Republican Committee,$70,Winchester,VA,,,,Contribution,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-16,Frederick County Republican Committee,$500,Winchester,VA,,,,Event Sponsorship,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-17,USPS,$14.50,Washington,DC,,,,Postage,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-01,Union Jack Pub & Restaurant,$28.48,Winchester,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-18,Union Jack Pub & Restaurant,$71.26,Winchester,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-07,Election CFO,"$1,000",Alexandria,VA,,,,Consulting,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-02-06,Election CFO,$266,Alexandria,VA,,,,Consulting,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-09,Election CFO,$269.94,Alexandria,VA,,,,Consulting,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-06,Election CFO,$261,Alexandria,VA,,,,Consulting,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-04,Election CFO,$258,Alexandria,VA,,,,Consulting,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-05,Election CFO,$258,Alexandria,VA,,,,Consulting,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-12,Handy Mart,$33.35,Mt. Olive,NC,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-06,Handy Mart,$33.35,Mt. Olive,NC,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-03,Omni Homestead Resort,$335.01,Hot Springs,VA,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-01,"House Republican Campaign Committee, Inc.","$10,000",Henrico,VA,,,,Contribution,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-25,Backseat Bar and Grill,$40.68,Winchester,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-15,Hobby Lobby,$50.49,Oklahoma City,OK,,,,Office Supplies,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-04,Unos Pizzeria,$70.14,Boston,MA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-28,Unos Pizzeria,$53.84,Boston,MA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-28,Unos Pizzeria,$10.71,Boston,MA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-06,Vibrissa Beer,$36.90,Winchester,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-18,Glory Days Grill,$152.64,Winchester,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-07,"Marriott International, Inc",$456.48,Bethesda,MD,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-23,The Hill Cafe,$77.67,Richmond,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-02-17,Department of Motor Vehicles,$70.75,Richmond,VA,,,,Fees,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-09,Hilton,$85.50,McLean,VA,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-18,Hilton,$823.89,McLean,VA,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-21,Hilton,"$1,267.53",McLean,VA,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-08,United,$139.35,Chicago,IL,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-08,United,$90,Chicago,IL,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-04,National Conference of State Legislators,$755,Denver,CO,,,,Event Tickets,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-28,Uber,$13.98,San Francisco,CA,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-28,Uber,$13.98,San Francisco,CA,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-13,Starbucks,$3.79,Seattle,WA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-21,Starbucks,$14.92,Seattle,WA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-30,Lyft,$11.95,San Francisco,CA,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-02-18,The Journal Newspaper,$169,Martinsburg,WV,,,,Subscription,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-20,Virginia Public Access Project,$250,Richmond,VA,,,,Contribution,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-07,Enoteca Sogno,$319.86,Richmond,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-12,Best Buy,$42.10,Richfield,MN,,,,Supplies,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-09,Capitol Books,$20,Washington,DC,,,,Office Supplies,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-01-23,Sine Irish Pub,$74.43,Richmond,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-02-20,Virginia Commonwealth University,$250,Richmond,VA,,,,Contribution,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-02,Waterman's Surfside Grille,$124.07,Virginia Beach,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-03,Feed More,$104.90,Richmond,VA,,,,Contribution,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-04,Andrew Rice for Delegate,"$1,000",Virginia Beach,VA,,,,Contribution,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-03-31,Windle for Winchester,"$1,000",Winchester,VA,,,,Contribution,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-16,"First Watch Restaurants, Inc",$42.90,Bradenton,FL,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-20,Education First,$200,Cambridge,MA,,,,Contribution,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-04-23,Bellos Lounge & Restaurant,$330.35,Richmond,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-05-28,Clyde's Willow Creek Farm,$72.22,Broadlands,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-10,Oakhurst Inn,$991.61,Charlottesville,VA,,,,Travel,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-21,The Stockpot Norfolk,$58.34,Norfolk,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate
+expenditure,2026-06-21,Todd Jurich's Bistro,$166.56,Norfolk,VA,,,,Food,D,493390,2026-01-01 to 2026-06-30,CC-20-00299,Wiley for Delegate

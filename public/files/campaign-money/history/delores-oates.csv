@@ -1,0 +1,622 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2022-05-25,George McIntyre,$500,Front Royal,VA,individual,The Apple House Businesses,Owner/Retail,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-28,George McIntyre,$500,Front Royal,VA,individual,The Apple House Businesses,Owner/Retail,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-05-26,Thomas Hinnant,$500,Linden,VA,individual,,Land Development Projects Manager,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-17,Victoria Cook,$250,Strasburg,VA,individual,None,Retired,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-12,William Hammack,$300,St. Petersburg,FL,individual,None,Retired,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-12,Debbie Donehey,$150,Huntly,VA,individual,Griffin Tavern,President,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-27,Jennifer R. Sims,$250,Strasburg,VA,individual,None,Retired,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-28,Elect Melanie Salins for North River School Board,$300,Middletown,VA,candidate,,Candidate Committee,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-28,Jeffrey Lehew,"$1,000",Front Royal,VA,individual,"Via Satellite, Inc",President,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-28,Thomas L. McFadden,$500,Front Royal,VA,individual,None,Retired,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-28,Cody E. Warren,$400,Strasburg,VA,individual,Warren Home Improvements,Owner,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-28,Steven L. Cullers,"$1,000",Bentonville,VA,individual,Cullers Farm LLC,Owner,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-30,Marilyn King,$250,Front Royal,VA,individual,AveryHess Realtors,Realtor,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-30,Amanda Slate,$500,Front Royal,VA,individual,Keller Williams,Realtor,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-06-30,Jamie Spiker,$500,Front Royal,VA,individual,County of Warren,Treasurer,,A,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+in_kind,2022-05-19,Jason Frederick,"$3,000",Bluffton,SC,individual,Standard Communication,Project Manager,Website Design,B,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+in_kind,2022-05-19,Jason Frederick,$88.91,Bluffton,SC,individual,Standard Communication,Project Manager,Website Hosting/E-mail,B,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+expenditure,2022-06-07,"FP1 Strategies, LLC","$1,000",Arlington,VA,,,,Printing,D,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+expenditure,2022-06-07,Chain Bridge Bank,$2.50,McLean,VA,,,,Bank Fee,D,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+expenditure,2022-05-31,Anedot,$55.36,New Orleans,VA,,,,Credit Card Processing,D,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+expenditure,2022-06-30,Anedot,$146,New Orleans,VA,,,,Credit Card Processing,D,307464,2022-05-19 to 2022-06-30,CC-22-00312,Delores for Delegate
+contribution,2022-12-02,Cody Hanshaw II,$100,Vinton,VA,individual,Star City Strategies,Public Affairs,,A,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+contribution,2022-12-29,Marie H. Lundberg,$31,Front Royal,VA,individual,Retired,Retired,,A,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+contribution,2022-07-20,Employees of Raytheon Technologies Corporation PAC,$500,Arlington,VA,pac,,Political Action Committee,,A,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+contribution,2022-08-01,David W. Silek,$200,Front Royal,VA,individual,Self,Attorney,,A,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+contribution,2022-12-30,Kristin Jiles,$250,Front Royal,VA,individual,eSearchPro,CEO,,A,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+contribution,2022-09-22,Cline Construction & Excavating LLC,"$1,000",Front Royal,VA,business,,Construction,,A,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+contribution,2022-10-25,Thomas E. Lee III,$500,Fredericksburg,VA,individual,Lee Curtis Insuranve,Insurance,,A,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+contribution,2022-10-25,HB Henry Construction LLC,"$2,000",Front Royal,VA,business,,Construction,,A,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+contribution,2022-12-22,Bret W. Hrbek,$150,Front Royal,VA,individual,Edward Jones,Financial Advisor,,A,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+in_kind,2022-11-28,Delores Oates,$57.54,Middletown,VA,individual,Foxhound Federal,Vice President of Sales and Delivery,Printing,B,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+in_kind,2022-09-16,Delores Oates,$157.95,Middletown,VA,individual,Foxhound Federal,Vice President of Sales and Delivery,Printing,B,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+in_kind,2022-11-08,Delores Oates,$367.05,Middletown,VA,individual,Foxhound Federal,Vice President of Sales and Delivery,Food/Beverages,B,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+expenditure,2022-08-03,"FP1 Strategies, LLC","$1,675",Arlington,VA,,,,Printing,D,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+expenditure,2022-11-30,"FP1 Strategies, LLC","$1,775.36",Arlington,VA,,,,Printing,D,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+expenditure,2022-07-31,Anedot,$17.16,New Orleans,VA,,,,Credit Card Processing Fees,D,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+expenditure,2022-08-31,Anedot,$2.30,New Orleans,VA,,,,Credit Card Processing,D,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+expenditure,2022-12-31,Anedot,$22.30,New Orleans,VA,,,,Credit Card Processing,D,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+expenditure,2022-07-06,Donna Allanson,$800,CITY,VA,,,,Consulting,D,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+expenditure,2022-07-06,Forest Consulting,$150,Richmond,VA,,,,Political Consulting,D,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+expenditure,2022-11-07,Frederick County Republican Committee,$350,Winchester,VA,,,,Contribution,D,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+expenditure,2022-12-16,Election CFO LLC,"$2,010.55",ALEXANDRIA,VA,,,,Compliance Consulting & Expenses,D,307467,2022-07-01 to 2022-12-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-05,Amber Morris,$100,Front Royal,VA,individual,Mortgage Loan Originator,Loan Officer,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-03,William Hammack,$200,St. Petersburg,FL,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-11,William Hammack,$250,St. Petersburg,FL,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-06,William Hammack,$200,St. Petersburg,FL,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-14,William Hammack,$200,St. Petersburg,FL,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-13,Debbie Donehey,$150,Huntly,VA,individual,Griffin Tavern,President,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-10,Debbie Donehey,$250,Huntly,VA,individual,Griffin Tavern,President,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-13,Thomas L. McFadden,$250,Front Royal,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-13,Thomas L. McFadden,$100,Front Royal,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-30,Marie H. Lundberg,$35,Front Royal,VA,individual,Retired,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-19,Lori Athey Cockrell,$125,Front Royal,VA,individual,Front Royal Virginia,Mayor,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-13,Joshua Ingram,$125,Front Royal,VA,individual,Convergint Technologies,Project Manager,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-09,Marilyn King,$125,Front Royal,VA,individual,AveryHess Realtors,Realtor,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-28,John Bell,$25,Front Royal,VA,individual,Warren County,Commonwealth's Attorney,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-15,Jorie Martin,$250,Front Royal,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-06,Cindy Rutherford,$200,Front Royal,VA,individual,Warren County Schools,Teacher,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-05,Kristin Jiles,$200,Front Royal,VA,individual,eSearchPro,CEO,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-21,Kristin Jiles,$60,Front Royal,VA,individual,eSearchPro,CEO,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-07,Kelly Johnson,$125,Bluemont,VA,individual,Ross and Associates,Attorney,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-10,Angie Moore,$200,Front Royal,VA,individual,Warren County Circuit Court,Clerk of the Court,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-11,Margaret Aders,$200,Front Royal,VA,individual,State Farm,Insurance Agent,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-12,Richard Jamieson,$250,Middletown,VA,individual,Enelytics,Consultant,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-12,William Thomasson,$200,Lake Frederick,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-13,Dan Bogdewic,$200,Rileyville,VA,individual,Retired,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-10,John Marlow,$250,Front Royal,VA,individual,Marlow Motor Co,Auto Dealer,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-10,Gary Oates,$500,Winchester,VA,individual,Long and Foster,Realtor,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-13,Susan Claytor,$500,Winchester,VA,individual,Retired,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-13,Melanie Salins,$200,Middletown,VA,individual,Warren County Public Schools,School Board Member,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-14,Molly Tressler,$250,Woodstock,VA,individual,Timmy French for Senate,Manager,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-14,Susan Shick,$250,Cross Junction,VA,individual,VA House of Delegates,Legislative Director,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-15,Valerie Heard,$200,BENTONVILLE,VA,individual,Mountainside ABA,Behavior Analyst,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-15,George Shanks,$200,Front Royal,VA,individual,Miller Earle and Shanks PLLC,Attorney,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-15,Ross Mcvey,$125,Front Royal,VA,individual,Retired,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-21,Ross Mcvey,$100,Front Royal,VA,individual,Retired,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-15,Lindsay LeHew,$125,Front Royal,VA,individual,Warren County,Attorney,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-15,Jim Beamer,$250,Henrico,VA,individual,Dominion Energy,General Mgr,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-16,Cody Warren,$125,Middletown,VA,individual,Warren - Lee Construction,Contractor,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-16,Linda Logan,$200,Front Royal,VA,individual,Self,Court Reporter,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-19,Cheryl Cullers,$200,Bentonville,VA,individual,Retired,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-19,Carla Repici,$200,Front Royal,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-19,Michael Saunders,$300,Oak Hill,VA,individual,General Dynamics Information Technology,Senior Director,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-19,Edward Murphy,"$1,000",Vienna,VA,individual,Realty Development Services,Principal,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-31,Brandon Monk,$125,Winchester,VA,individual,Self,Self,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-30,Michael Webert For Delegate,"$1,000",Marshall,VA,candidate,,Political Campaign,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-30,Robert Hupman,$500,Bentonville,VA,individual,Hazard Mill Farms,Self,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-15,Jason Frederick,$200,Bluffton,SC,individual,Standard Communication,Project Manager,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-08,Shelly Cook,"$2,500",Front Royal,VA,individual,Cook Realty,Realtor,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-13,Robert Macdougall,$500,Front Royal,VA,individual,TransForm Development,Principal,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-13,Allen W Thrasher,$200,Front Royal,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-21,William Keys,"$1,000",Hume,VA,individual,Retired,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-06,Calvin Gant,$250,Middletown,VA,individual,Covenant Building Maintenance Inc,President,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-03,John Jewell,$200,Winchester,VA,individual,Retired,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-04,Thomas Stelzl,$250,Stephens City,VA,individual,UMC,Pastor,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-22,Thomas Stelzl,$25,Stephens City,VA,individual,UMC,Pastor,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-05,Crystal Cline,$200,Front Royal,VA,individual,Town of Front Royal,Law Enforcement,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-06,James Prohaska,$200,Stephens,VA,individual,None,retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-06,Clifton Good,$200,Middletown,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-06,Kerry Barnhart,$250,Flint Hill,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-07,Daniel Best,$200,Stephens,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-07,Sharon Caldwell,$200,Berryville,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-07,Dennis David,$200,Front Royal,VA,individual,Retired,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-02-13,David McGee,$250,Linden,VA,individual,Connected Logistics,Systems Engineer,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-07,David McGee,$250,Linden,VA,individual,Connected Logistics,Systems Engineer,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-07,Jent Mitchell,$125,STEPHENS CITY,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-08,George McIntyre,$500,Linden,VA,individual,The Apple House,Restaurant,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-09,Jay Marts,$200,Winchester,VA,individual,None,Retired,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-09,Seth Thatcher,$125,Stephens City,VA,individual,Frederick County VA Government,Commissioner of the Revenue,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-09,Sabrina Mullins,$250,Clear Brook,VA,individual,Navy Federal Credit Union,Program Administrator,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-03-10,Travis Dodson,$200,Stephens City,VA,individual,Middletown Firearms,Retail,,A,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+in_kind,2023-03-14,William Hammack,$400,St. Petersburg,FL,individual,None,Retired,Photography Services,B,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+in_kind,2023-01-09,Delores Oates,$19,Middletown,VA,individual,Foxhound Federal,Vice President of Sales and Delivery,Postage,B,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+in_kind,2023-01-20,Delores Oates,$26.69,Middletown,VA,individual,Foxhound Federal,Vice President of Sales and Delivery,Printing,B,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+in_kind,2023-02-28,Delores Oates,$54.38,Middletown,VA,individual,Foxhound Federal,Vice President of Sales and Delivery,Postage,B,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+in_kind,2023-03-31,Delores Oates,$35.02,Middletown,VA,individual,Foxhound Federal,Vice President of Sales and Delivery,Postage,B,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+in_kind,2023-01-05,Jason Frederick,$23.88,Bluffton,SC,individual,Standard Communication,Project Manager,E-mail Service,B,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+in_kind,2023-01-26,Jason Frederick,$12.17,Bluffton,SC,individual,Standard Communication,Project Manager,Domain Registration,B,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-02-06,"FP1 Strategies, LLC","$2,500",Arlington,VA,,,,Consulting,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-03-13,"FP1 Strategies, LLC","$2,500",Arlington,VA,,,,Consulting,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-02-28,Anedot,$48.40,New Orleans,VA,,,,CC Processing,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-03-31,Anedot,$417.30,New Orleans,VA,,,,CC Processing,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-02-08,Election CFO LLC,"$1,000",ALEXANDRIA,VA,,,,Compliance Consulting,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-03-20,Election CFO LLC,"$1,000",ALEXANDRIA,VA,,,,Compliance Consulting,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-02-08,Thomas Chinnant,"$4,000",Linden,VA,,,,Campaign Consulting,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-02-23,Thomas Chinnant,"$4,000",Linden,VA,,,,Campaign Consulting,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-03-23,Thomas Chinnant,"$4,000",Linden,VA,,,,Campaign Consulting,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-01-31,Sam Snead Realy,"$1,000",Front Royal,VA,,,,Rent,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-03-05,Sam Snead Realy,$500,Front Royal,VA,,,,Rent,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+expenditure,2023-03-16,Wayside Inn,"$5,149.96",Middletown,VA,,,,Event Expenses,D,320480,2023-01-01 to 2023-03-31,CC-22-00312,Delores for Delegate
+contribution,2023-05-25,John Stanmeyer,$150,Lake Frederick,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-24,Amber Morris,$50,Front Royal,VA,individual,Mortgage Loan Originator,Loan Officer,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-06-06,Thomas L. McFadden,$50,Front Royal,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-01,Marie H. Lundberg,$35,Front Royal,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-25,Joshua Ingram,$50,Front Royal,VA,individual,Convergint Technologies,Project Manager,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-10,Cindy Rutherford,$150,Front Royal,VA,individual,Warren County Schools,Teacher,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-06-06,Jane S Elliot,$100,Front Royal,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-04-17,John Jewell,$250,Winchester,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-10,Jent Mitchell,$100,STEPHENS CITY,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-03,Seth Thatcher,$100,Stephens City,VA,individual,Frederick County VA Government,Commissioner of the Revenue,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-04-15,William Thomasson,$100,Lake Frederick,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-06-06,Melanie Salins,$50,Middletown,VA,individual,Warren County Public Schools,School Board Member,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-25,Ross Mcvey,$100,Front Royal,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-04-02,Doug Aylestock,$250,Berryville,VA,individual,Blue Ridge Meats,Butchery,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-04-15,Tim Stowe,$500,Winchester,VA,individual,Stowe Engineering,Engineer,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-04-19,Chris Runion,"$1,000",Bridgewater,VA,individual,Eddie Edwards Signs Inc,CEO,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-04-25,Donna Settle,$250,Front Royal,VA,individual,Global InfoTek,VP of BD,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-06-06,Bev McKay,$100,Millwood,VA,individual,Clarke County Board of Supervisors,Member,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-04,Gilbert For Delegate,"$2,000",Woodstock,VA,candidate,,Campaign,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-08,Adalbert von Gontard III,"$2,000",Front Royal,VA,individual,Self,Real Estate,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-20,Nancy Handl,$150,Linden,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-19,Susan Glascock,$150,Middletown,VA,individual,,,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-19,Virginia Beer Wholesalers Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-05-24,Carl Barnhart,$150,Flint Hill,VA,individual,None,Retired,,A,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+in_kind,2023-04-25,Republican Party of Virginia,"$5,274.03",Richmond,VA,party,,Political Party,Direct Mail,B,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+in_kind,2023-04-28,Wiley for Delegate,"$1,592.14",Winchester,VA,candidate,,Campaign,Signs,B,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-04-06,"FP1 Strategies, LLC","$2,500",Arlington,VA,,,,Campaign Consulting,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-04-30,Anedot,$101.70,New Orleans,VA,,,,CC Processing,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-31,Anedot,$150.10,New Orleans,VA,,,,CC Processing,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-08,Melio,$1.50,New York,NY,,,,Payment Processing,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-10,Melio,$1.50,New York,NY,,,,Payment Processing,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-04-04,Election CFO LLC,"$1,016",ALEXANDRIA,VA,,,,Compliance Consulting,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-11,Election CFO LLC,"$1,102.21",ALEXANDRIA,VA,,,,Compliance Consulting,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-06-06,Election CFO LLC,"$1,194.69",ALEXANDRIA,VA,,,,Compliance Consulting,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-04-25,Thomas Chinnant,"$4,000",Linden,VA,,,,Campaign Consulting,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-24,Thomas Chinnant,"$4,000",Linden,VA,,,,Consulting,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-04-26,Town of Front Royal,$332.14,Front Royal,VA,,,,Utilities,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-02,The Coefficient Group LLC,$200,Kansas City,MO,,,,Text Messaging,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-08,The Coefficient Group LLC,$400,Kansas City,MO,,,,Text Messaging,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-10,The Coefficient Group LLC,$400,Kansas City,MO,,,,Texting,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-04-20,Mr Print,$439.02,Purcellville,VA,,,,Printing,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-13,The UPS Store,$162,San Diego,CA,,,,Locker Rental,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+expenditure,2023-05-25,Vibrissa Beer,"$2,166.71",Front Royal,VA,,,,Food/Beverage,D,329377,2023-04-01 to 2023-06-08,CC-22-00312,Delores for Delegate
+contribution,2023-06-30,Marie H. Lundberg,$50,Front Royal,VA,individual,None,Retired,,A,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+contribution,2023-06-30,James Prohaska,$100,Stephens,VA,individual,None,Retired,,A,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+contribution,2023-06-30,Donovan Quimby,$50,Winchester,VA,individual,None,Retired,,A,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+contribution,2023-06-21,Virginia Automobile and Truck Dealers PAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+contribution,2023-06-30,Dominion Energy Inc. Political Action Committee,"$10,000",Richmond,VA,pac,,Political Action Committee,,A,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+contribution,2023-06-30,J. Randall Minchew,$500,Leesburg,VA,individual,Walsh Colucci,Attorney,,A,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+in_kind,2023-06-17,Jason Frederick,$230.86,Bluffton,SC,individual,Standard Communication,Project Manager,Online Services,B,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+expenditure,2023-06-30,Anedot,$12.50,New Orleans,VA,,,,CC Processing,D,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+expenditure,2023-06-13,USPS,$5.89,Washington,DC,,,,Postage,D,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+expenditure,2023-06-30,Mr. Postman Print Shop,$215.64,Whiteville,VA,,,,Printing,D,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+expenditure,2023-06-09,Front Royal,$351.08,Front Royal,VA,,,,Electric Bill,D,340195,2023-06-09 to 2023-06-30,CC-22-00312,Delores for Delegate
+contribution,2023-07-11,William Hammack,$250,St. Petersburg,FL,individual,None,Retired,,A,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+contribution,2023-07-26,"Virginia State Police Association, Inc.",$250,Richmond,VA,business,,Association,,A,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+contribution,2023-07-26,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,PAC,,A,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+contribution,2023-08-12,McGuireWoods,$250,Richmond,VA,business,,Law Firm,,A,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+contribution,2023-08-12,Huntington Ingalls Industries,$500,Newport News,VA,business,,Defense Contractor,,A,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+contribution,2023-08-25,Virginia Professional Fire Fighters,"$1,000",Manassas,VA,business,,Trade Association,,A,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+contribution,2023-08-25,VADPAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+contribution,2023-08-25,Reed Smith LLP VA PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+contribution,2023-08-31,Elaine Holliday,$150,Winchester,VA,individual,B&F Inc,Client Services Manager,,A,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+in_kind,2023-08-31,Virginia Automobile and Truck Dealers PAC,$216.95,Richmond,VA,pac,,Political Action Committee,Food and Beverage,B,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+expenditure,2023-07-05,"FP1 Strategies, LLC","$5,000",Arlington,VA,,,,Consulting,D,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+expenditure,2023-07-31,Anedot,$12.60,New Orleans,VA,,,,CC Processing,D,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+expenditure,2023-08-31,Anedot,$10.90,New Orleans,VA,,,,CC Processing,D,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+expenditure,2023-07-05,Election CFO LLC,"$1,022",Alexandria,VA,,,,Compliance Consulting,D,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+expenditure,2023-08-02,Election CFO LLC,"$1,004",Alexandria,VA,,,,Compliance Consulting,D,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+expenditure,2023-08-11,Top of Virginia Regional Chamber,$45,Winchester,VA,,,,Event Ticket,D,374932,2023-07-01 to 2023-08-31,CC-22-00312,Delores for Delegate
+contribution,2023-09-19,David McGee,$100,Linden,VA,individual,Connected Logistics,Systems Engineer,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-01,Adalbert von Gontard III,"$3,000",Front Royal,VA,individual,Self,Real Estate,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-15,Joanne Summers,$50,Front Royal,VA,individual,None,Retired,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Action Committee,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Virginia Credit Union PAC,$250,Lynchburg,VA,pac,,Political Action Committee,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Charla Quimby,$200,Winchester,VA,individual,None,Retired,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Winchester Frederick Clarke Republican Womens Club,$199,Winchester,VA,business,,Political Organization,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Middletown Training LLC,$750,Middletown,VA,business,,Firearm Range,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Virginia Wine Wholesalers PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,VA Beverage Association PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Virginia Federation of Republican Women,$200,Richmond,VA,business,,Political Organization,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Community-Owned Power PAC,$250,Glen Allen,VA,pac,,Political Action Committee,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-08,Virginia Bankers Association State PAC,$500,Glen Allen,VA,pac,,Political Action Committee,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-18,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Legal,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-09-18,Captal Results LLC,$250,Richmond,VA,business,,Public Relations,,A,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-30,Anedot,$138.10,New Orleans,VA,,,,CC Processing,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-01,Election CFO LLC,"$1,006",Alexandria,VA,,,,Compliance consulting,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-03,The Printing Express,"$1,474.20",Harrisonburg,VA,,,,Printing,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-15,The Printing Express,"$2,000",Harrisonburg,VA,,,,Printing and Postage,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-15,The Printing Express,"$1,028.95",Harrisonburg,VA,,,,Printing and Postage,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-10,New Town Creamery,$340,Stephens City,VA,,,,Food and Drink,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-14,Winchester GOP,$367.19,Winchester,VA,,,,Contribution,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-19,Willies Ice Cream,$234.05,Berryville,VA,,,,Food,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-22,Vistaprint,$126.35,Lexington,MA,,,,Printing,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-27,Vistaprint,$47.37,Lexington,MA,,,,Printing,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+expenditure,2023-09-27,Emily Rose Windle,"$1,500",Winchester,VA,,,,Consulting,D,374933,2023-09-01 to 2023-09-30,CC-22-00312,Delores for Delegate
+contribution,2023-10-06,Dennis David,$100,Front Royal,VA,individual,Retired,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-11,Jent Mitchell,$30,STEPHENS CITY,VA,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-03,Sabrina Mullins,$50,Clear Brook,VA,individual,Navy Federal Credit Union,Program Administrator,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-06,Gary Oates,$250,Winchester,VA,individual,Long and Foster,Realtor,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-06,Gary Oates,$250,Winchester,VA,individual,Long and Foster,Realtor,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-10,Bev McKay,$250,Millwood,VA,individual,Clarke County Board of Supervisors,Member,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-06,Gretchen Coffey,$30,Middletown,VA,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-26,John Massoud,$250,Strasburg,VA,individual,ARLINGTON BLUE TOP CABS,VICE PRESIDENT,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-20,Joanne Summers,$50,Front Royal,VA,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-08,Elizabeth McIntire,$50,Lake Frederick,VA,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-06,Patrick Sullivan,$30,Winchester,VA,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-03,Robert Frogale,$500,Winchester,VA,individual,Annandale Millwork,President,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-03,John Willingham,"$1,000",Winchester,VA,individual,Stoneridge Companies,President,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-08,Sondra LeHew,"$1,000",Front Royal,VA,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-10,A Safer Virginia PAC,"$1,000",Virginia Beach,VA,pac,,PAC,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-20,Blaine Dunn,$110,Winchester,VA,individual,Dunn Financial Advisors,Financial Planner,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-23,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,PAC,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-23,Norfolk Southern Corp,"$1,000","Atlanta, GA",VA,business,,Transportation,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-23,Virginia Hospital and Healthcare Association PAC,$250,Richmond,VA,pac,,PAC,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-23,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-26,H Paige Manuel,$300,Winchester,VA,individual,H Paige Manuel Real estate,Commercial Real Estate,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-23,Elizabeth Talley,$250,Richmond,VA,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-24,Lance Allen,$250,Stephenson,VA,individual,Leidos,Business Development,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-11,James Bergida,$30,Front Royal,VA,individual,Christendom College,Professor,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-03,William Hammack,$520,St. Petersburg,FL,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-06,William Hammack,$520,St. Petersburg,FL,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-05,Steven L. Cullers,$50,Bentonville,VA,individual,Cullers Farm LLC,Owner,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-04,Marilyn King,$50,Front Royal,VA,individual,AveryHess Realtors,Realtor,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-03,Cindy Rutherford,$50,Front Royal,VA,individual,Warren County Schools,Teacher,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-08,John Jewell,$50,Winchester,VA,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-10-10,James Prohaska,$50,Stephens,VA,individual,None,Retired,,A,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+expenditure,2023-10-26,Anedot,$259.60,New Orleans,VA,,,,CC Processing,D,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+expenditure,2023-10-02,Election CFO LLC,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+expenditure,2023-10-13,Shaffers BBQ and Market,"$2,022.05",Middletown,VA,,,,Food and Beverage,D,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+expenditure,2023-10-13,Chris Darlington,"$1,500",Boyce,VA,,,,Food and Beverage,D,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+expenditure,2023-10-12,West Oaks Farm Market,$931.91,Winchester,VA,,,,Event Rental,D,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+expenditure,2023-10-16,Staples,$172.48,Framingham,MA,,,,Office Supplies,D,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+expenditure,2023-10-25,Stitches and Bows,$246.13,Front Royal,VA,,,,Campaign Materials,D,374934,2023-10-01 to 2023-10-26,CC-22-00312,Delores for Delegate
+contribution,2023-11-07,Thomas E. Lee III,$250,Fredericksburg,VA,individual,Lee Curtis Insurance,Insurance,,A,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+contribution,2023-11-07,Linda Logan,$100,Front Royal,VA,individual,Self,Court Reporter,,A,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+contribution,2023-11-04,Keven Walker,$200,Mount Jackson,VA,individual,SVBF,Director,,A,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+in_kind,2023-11-04,Republican Party of Virginia,"$5,000",Richmond,VA,party,,Political Party,Direct Mail,B,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-11-30,Anedot,$12.60,New Orleans,VA,,,,CC Processing,D,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-10-31,Election CFO LLC,"$1,046.89",Alexandria,VA,,,,Compliance Consulting,D,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-11-08,The Coefficient Group LLC,"$1,509.60",Kansas City,MO,,,,Texting,D,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-11-06,Emily Rose Windle,"$1,500",Winchester,VA,,,,Consulting,D,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-11-02,Stitches and Bows,$413.49,Front Royal,VA,,,,Campaign Materials,D,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-10-30,Costco,$154.25,Issaquah,WA,,,,Campaign Supplies,D,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-10-30,House Republican Campaign Committee,"$5,000",Richmond,VA,,,,Contribution,D,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-11-06,Peter Kirollos,$306,Virginia Beach,VA,,,,Consulting,D,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-11-08,Handy Mart,$291.66,Durand,WI,,,,Campaign Supplies,D,384714,2023-10-27 to 2023-11-30,CC-22-00312,Delores for Delegate
+expenditure,2023-12-20,Election CFO LLC,"$1,013.63",Alexandria,VA,,,,Compliance Consulting,D,393372,2023-12-01 to 2023-12-31,CC-22-00312,Delores for Delegate
+expenditure,2023-12-21,USPS,$66,Washington,DC,,,,Postage,D,393372,2023-12-01 to 2023-12-31,CC-22-00312,Delores for Delegate
+expenditure,2023-12-21,USPS,$198,Washington,DC,,,,Postage,D,393372,2023-12-01 to 2023-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-05-31,James Bergida,$100,Front Royal,VA,individual,Christendom College,Professor,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-02,Dominic J. Repici,$175,Front Royal,VA,individual,Retired,Retired,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-04,Robert Macdougall,"$1,000",Front Royal,VA,individual,TransForm Development,Principal,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-04,Daniel Best,$250,Stephens,VA,individual,None,Retired,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-05-29,Jent Mitchell,$100,STEPHENS CITY,VA,individual,None,Retired,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-06,Ross Mcvey,$175,Front Royal,VA,individual,None,Retired,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-05-16,Edward Murphy,$500,Vienna,VA,individual,Realty Development Services,Principal,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-05-22,Robert Hupman,$500,Bentonville,VA,individual,Hazard Mill Farms,Self,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-10,Dominion Energy Inc. Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-10,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-01-09,McGuireWoods,$250,Richmond,VA,business,,Law Firm,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-05-16,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-13,Community-Owned Power PAC,$500,Glen Allen,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-01-09,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-01-07,Commerical Development Political Action Committee,$250,Alexandria,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-01-07,Virginia Future PAC,$500,Richmond,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-01-08,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-05-16,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-03-29,Philip Shenk,$250,Berryville,VA,individual,Self,Farmer,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-05-17,Tonya Sibert,$175,Winchester,VA,individual,Frederick County,Commissioner of the Revenue,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-05-22,Rhonda Torres,$175,Lake Frederick,VA,individual,Retired,Retired,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-10,Altria Client Services LLC,$500,Richmond,VA,business,,Financial Services,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-10,Virginia Independent Auto Dealers PAC,$250,Midlothian,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-05,Craig Stevens,$250,Warrenton,VA,individual,None,Retired,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-13,Shelly Cooke,$200,Front Royal,VA,individual,Self,Entrepeneur,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-06-13,Virginia Manufacturers Association PAC,$250,Richmond,VA,pac,,PAC,,A,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+in_kind,2024-06-12,Delores Oates,$230.71,Middletown,VA,individual,Foxhound Federal,Vice President of Sales and Delivery,Food/Beverage,B,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+in_kind,2024-04-24,Community-Owned Power PAC,"$1,552.78",Glen Allen,VA,pac,,PAC,Fundraising Event Expense,B,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+in_kind,2024-01-05,Realtors Political Action Committee of Virginia,$489.50,Glen Allen,VA,pac,,PAC,Food and Beverage,B,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-06-18,"FP1 Strategies, LLC","$1,663.72",Arlington,VA,,,,Printing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-01-31,Anedot,$3.40,New Orleans,VA,,,,CC Processing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-03-31,Anedot,$2.30,New Orleans,VA,,,,CC Processing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-04-30,Anedot,$6.60,New Orleans,VA,,,,CC Processing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-05-31,Anedot,$52.10,New Orleans,VA,,,,CC Processing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-06-30,Anedot,$97,New Orleans,VA,,,,CC Processing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-02-27,Election CFO LLC,$250,Alexandria,VA,,,,Compliance Consulting,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-03-05,Election CFO LLC,$250,Alexandria,VA,,,,Compliance Consulting,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-03-18,Election CFO LLC,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-04-23,Election CFO LLC,$263.63,Alexandria,VA,,,,Compliance Consulting,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-05-03,Election CFO LLC,$284,Alexandria,VA,,,,Compliance Consulting,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-06-17,Election CFO LLC,$260,Alexandria,VA,,,,Compliance Consulting,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-02-25,Mr. Postman Print Shop,$267.09,Whiteville,NC,,,,Printing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-02-25,Mr. Postman Print Shop,$42.70,Whiteville,NC,,,,Printing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-02-25,Mr. Postman Print Shop,$62.39,Whiteville,NC,,,,Printing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-06-18,Top of Virginia Regional Chamber,$35,Winchester,VA,,,,Event Tickets,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-06-06,Vistaprint,$184.25,Lexington,MA,,,,Printing,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-03-28,House Republican Campaign Committee,"$1,000",Richmond,VA,,,,Contribution,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-05-31,House Republican Campaign Committee,"$2,500",Richmond,VA,,,,Contribution,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-01-11,Tax1099,$0.50,Fayetteville,AR,,,,Online Services,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-01-30,Tax1099,$12.22,Fayetteville,AR,,,,Online Services,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-03-07,Shenandoah Apple Blossom Festival,$49.72,Winchester,VA,,,,Event Tickets,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-03-07,Shenandoah Apple Blossom Festival,$49.72,Winchester,VA,,,,Event Tickets,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-03-08,Shenandoah Apple Blossom Festival,$291.60,Winchester,VA,,,,Event Tickets,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-06-14,Front Royal Golf Club,$460,Front Royal,VA,,,,Event Tickets,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+expenditure,2024-06-18,Arena Sports and Events Center,"$1,805.10",Strasburg,VA,,,,Catering,D,440158,2024-01-01 to 2024-06-30,CC-22-00312,Delores for Delegate
+contribution,2024-11-01,Reed Smith LLP,$250,Richmond,VA,business,,Legal,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-11-22,Virginia Assisted Living Assocation PAC,$500,Henrico,VA,pac,,PAC,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-11-22,Virginia Manufactured & Modular Housing Assocation PAC,$250,Henrico,VA,pac,,PAC,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-11-22,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,PAC,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-12-20,William Deutsch,$105,Stephens CIty,VA,individual,ATCC,Digital Marketing,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-12-30,Caroline Roberts,$250,White Post,VA,individual,Self,Farmer,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-12-31,John P Good Jr,"$1,000",Winchester,VA,individual,Shockey Management Co.,Treasurer,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-09-16,James Prohaska,$25,Stephens,VA,individual,None,Retired,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-11-20,Daniel Best,$100,Stephens,VA,individual,None,Retired,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-12-21,Sharon Caldwell,$100,Berryville,VA,individual,None,Retired,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-09-25,Virginia Beer Wholesalers Association Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-12-31,Virginia Automobile and Truck Dealers PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-08-15,Huntington Ingalls Industries,$500,Newport News,VA,business,,Defense Contractor,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-12-16,Patrick Sullivan,$100,Winchester,VA,individual,None,Retired,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-12-09,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Legal,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-09-25,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,PAC,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-12-31,Norfolk Southern Corp,$500,"Atlanta, GA",VA,business,,Transportation,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-11-22,Virginia Hospital and Healthcare Association PAC,$500,Richmond,VA,pac,,PAC,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-10-23,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-12-31,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-09-25,Virginia Eagle Distributing Company LLC,$500,Verona,VA,business,,Distribution,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-10-23,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverages,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2024-10-23,Caesars Enterprise Services LLC,"$1,000",Las Vegas,NV,business,,Investment Services,,A,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-08-21,Chain Bridge Bank,$12,McLean,VA,,,,Bank Fee,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-09-30,Anedot,$6.70,New Orleans,VA,,,,CC Processing,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-11-30,Anedot,$4.30,New Orleans,VA,,,,CC Processing,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-12-31,Anedot,$28.30,New Orleans,VA,,,,CC Processing,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-07-01,Election CFO LLC,$261.63,Alexandria,VA,,,,Compliance Consulting,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-08-05,Election CFO LLC,$277.75,Alexandria,VA,,,,Compliance Consulting,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-09-03,Election CFO LLC,$254,Alexandria,VA,,,,Compliance Consulting,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-10-07,Election CFO LLC,$250,Alexandria,VA,,,,Compliance Consulting,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-10-31,Election CFO LLC,$264,Alexandria,VA,,,,Compliance Consulting,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-12-05,Election CFO LLC,$262,Alexandria,VA,,,,Compliance Consulting,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-12-10,Top of Virginia Regional Chamber,$70,Winchester,VA,,,,Event Tickets,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-09-24,Treasurer of Virginia,"$2,078.74",Richmond,VA,,,,Postage,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-09-25,Warren County Chamber of Commerce,$51.50,Front Royal,VA,,,,Event Tickets,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-10-16,Warren County High School,$100,Front Royal,VA,,,,Contribution,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+expenditure,2024-12-16,On Cue Sports and Bar Grill,$231.28,Front Royal,VA,,,,Food/Beverage,D,440161,2024-07-01 to 2024-12-31,CC-22-00312,Delores for Delegate
+contribution,2025-03-31,James Bergida,$50,Front Royal,VA,individual,Christendom College,Professor,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-03-31,William Hammack,$250,St. Petersburg,FL,individual,None,Retired,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-03-04,Sharon Caldwell,$500,Berryville,VA,individual,None,Retired,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-03-05,Patrick Sullivan,$100,Winchester,VA,individual,None,Retired,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-01-03,Nathan Stalvey,$150,Winchester,VA,individual,Clarke County Historical Association,Executive Director,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-03-31,Charles Harbaugh IV,$31,Middletown,VA,individual,Access Independence,CEO,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-01-02,Timothy Johnson,$100,Bluemont,VA,individual,"Northern Valley Law, PLC",Attorney,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-01-07,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Real Estate,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-03-31,Hugh Henry,"$1,000",Front Royal,VA,individual,Self,Contractor,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-03-31,Olive Branch LLC,"$1,000",Front Royal,VA,business,,Real Estate,,A,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-01-06,"FP1 Strategies, LLC","$5,000",Arlington,VA,,,,Consulting,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-01-31,Anedot,$10.60,New Orleans,VA,,,,CC Processing,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-03-31,Anedot,$116.20,New Orleans,VA,,,,CC Processing,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-02-26,Frederick County Republican Committee,$108.55,Winchester,VA,,,,Event Tickets,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-01-03,Election CFO LLC,$255,Alexandria,VA,,,,Consulting,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-02-05,Election CFO LLC,$276.04,Alexandria,VA,,,,Consulting,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-03-03,Election CFO LLC,"$1,000",Alexandria,VA,,,,Consulting,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-02-27,The UPS Store,$288,San Diego,CA,,,,Shipping,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-02-25,Top of Virginia Regional Chamber,$65,Winchester,VA,,,,Event Tickets,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-03-04,Top of Virginia Regional Chamber,$200,Winchester,VA,,,,Event Tickets,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-03-20,Top of Virginia Regional Chamber,$40,Winchester,VA,,,,Event Tickets,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-03-10,Shenandoah Apple Blossom Festival,$500,Winchester,VA,,,,Contribution,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-02-12,All for One Services LLC,$147,Colonial Heights,VA,,,,Event Tickets,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-03-12,Blue Ridge Hunt,$150,Front Royal,VA,,,,Contribution,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+expenditure,2025-03-24,Commonwealth Conservative PAC,$206.28,Winchester,VA,,,,Event Tickets,D,440162,2025-01-01 to 2025-03-31,CC-22-00312,Delores for Delegate
+contribution,2025-04-25,Delores Oates,$8.77,Middletown,VA,individual,Foxhound Federal,Vice President of Sales and Delivery,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-05-06,Virginia Automobile and Truck Dealers PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-04-25,Dominion Energy Inc. Political Action Committee,"$5,000",Richmond,VA,pac,,PAC,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-05-28,Charla Quimby,$50,Winchester,VA,individual,None,Retired,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-04-10,Rhonda Torres,$100,Lake Frederick,VA,individual,Retired,Retired,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-05-28,Altria Client Services LLC,$500,Richmond,VA,business,,Financial Services,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-04-14,Christopher West,$500,Alexandria,VA,individual,Jackson West Consulting LLP,Consultant,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-04-15,David Albo,$250,Fairfax Station,VA,individual,Williams Mullen,Attorney,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-05-06,Virginia Hospitality & Travel DBA VRLTA,$500,Richmond,VA,business,,Travel Services,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-05-06,Virginia Cable PAC,$500,Richmond,VA,pac,,PAC,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-05-06,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Law Firm,,A,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-04-30,Anedot,$45.20,New Orleans,VA,,,,CC Processing,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-04-10,The UPS Store,$18.20,San Diego,CA,,,,Shipping,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-05-07,The UPS Store,$20.15,San Diego,CA,,,,Shipping,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-05-29,The UPS Store,$20.15,San Diego,CA,,,,Shipping,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-05-21,House Republican Campaign Committee,"$6,000",Richmond,VA,,,,Contribution,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-05-01,Shenandoah Apple Blossom Festival,$60,Winchester,VA,,,,Event Ticket,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-04-30,Warren County VLA,$100,Front Royal,VA,,,,Event Sponsorship,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-05-02,Orchard View Elementary School,$100,Winchester,VA,,,,Contribution,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-06-02,Friends of Ian Lovejoy for Delegate,"$1,000",Manassas,VA,,,,Contribution,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-06-02,Friends of Geary Higgins,"$1,000",Waterford,VA,,,,Contribution,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-05-28,Hobby Lobby,$215.77,Oklahoma City,OK,,,,Office Supplies,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+expenditure,2025-04-01,Warren County Registrar,$359.57,Front Royal,VA,,,,Filing Fee,D,441908,2025-04-01 to 2025-06-05,CC-22-00312,Delores for Delegate
+contribution,2025-06-21,Wayne Schneider,$100,Winchester,VA,individual,Schneider Decorating,Owner,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-17,Kristin Jiles,$250,Front Royal,VA,individual,eSearchPro,CEO,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-21,Janice Butler Shanks,$100,Front Royal,VA,individual,Warren County Commonwealth Attorney,Administrative Assistant,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-30,John Massoud,$250,Strasburg,VA,individual,ARLINGTON BLUE TOP CABS,VICE PRESIDENT,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-21,Huntington Ingalls Industries,$500,Newport News,VA,business,,Defense Contractor,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-19,Charla Quimby,$100,Winchester,VA,individual,None,Retired,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-13,Rhonda Torres,$100,Lake Frederick,VA,individual,Retired,Retired,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-30,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverages,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-21,Paragon Group LLC,$250,Berryville,VA,business,,Consulting,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-12,Robert W. Claytor,$500,Winchester,VA,individual,HN Funkhouser Company,CEO,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-21,Stephanie W. Dulaney,$250,Berryville,VA,individual,Warfield Homes,Builder,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-06-21,Glen R. Poe,$250,Berryville,VA,individual,"Realty FC, LLC",Realtor,,A,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+expenditure,2025-06-30,Anedot,$44.70,New Orleans,VA,,,,CC Processing,D,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+expenditure,2025-06-27,The UPS Store,$20.15,San Diego,CA,,,,Shipping,D,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+expenditure,2025-06-17,Warren Heritage Society,$108.55,Front Royal,VA,,,,Event Tickets,D,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+expenditure,2025-06-26,Friends of Chris Obenshain,"$1,000",Blacksburg,VA,,,,Contribution,D,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+expenditure,2025-06-26,Friends of Carrie Coyner,"$1,000",Chesterfield,VA,,,,Contribution,D,447116,2025-06-06 to 2025-06-30,CC-22-00312,Delores for Delegate
+contribution,2025-08-17,James Bergida,$50,Front Royal,VA,individual,Christendom College,Professor,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-05,Wayne Schneider,$156.56,Winchester,VA,individual,Schneider Decorating,Owner,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-21,Amanda Slate,"$1,000",Front Royal,VA,individual,Keller Williams,Realtor,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-20,Cindy Rutherford,$104.48,Front Royal,VA,individual,Warren County Schools,Teacher,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-18,Kristin Jiles,$104.48,Front Royal,VA,individual,eSearchPro,CEO,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-07,Thomas E. Lee III,$100,Fredericksburg,VA,individual,Lee Curtis Insurance,Insurance,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-26,James Prohaska,$100,Stephens,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-05,Sharon Caldwell,$200,Berryville,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-25,Sharon Caldwell,$104.48,Berryville,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-27,Jent Mitchell,$52.40,STEPHENS CITY,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-07,Bev McKay,$150,Millwood,VA,individual,Clarke County Board of Supervisors,Member,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-21,Gretchen Coffey,$50,Middletown,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-21,Virginia Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-18,Patrick Sullivan,$100,Winchester,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-27,Sondra LeHew,"$1,041.98",Front Royal,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-21,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-09,Philip Shenk,$260.73,Berryville,VA,individual,Self,Farmer,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-19,Rhonda Torres,$104.48,Lake Frederick,VA,individual,Retired,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-28,Rhonda Torres,$100,Lake Frederick,VA,individual,Retired,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-19,Craig Stevens,$260.73,Warrenton,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-26,William Deutsch,$100,Stephens CIty,VA,individual,ATCC,Digital Marketing,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-29,Commonwealth Conservative PAC,"$2,000",Winchester,VA,pac,,PAC,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-20,Douglas Shaffer,$104.48,Berryville,VA,individual,Clarke County,Building Department,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-14,William Pace,$125,Chatham,VA,individual,Virginia House of Delegates,Legislative Assistant,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-26,Carol Coffelt,$104.48,Boyce,VA,individual,Town of Boyce,Councilwoman,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-07-30,Samantha Barber,$104.48,Middletown,VA,individual,Self,Director of Community Engagement,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-03,Robert Mehr,$104.48,Lake Frederick,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-07,Elizabeth McIntyre,$250,Front Royal,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-09,John Tagnesi,$200,Winchester,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-19,Amazon.com Services LLC,$500,Seattle,WA,business,,Shipping,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-14,Fred Medico,$104.48,Bluemont,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-14,Daniel Pond,$104.48,Front Royal,VA,individual,"Pond Law Group, PC",Lawyer,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-15,Robert Serna,$104.48,Winchester,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-17,Michelle Baker,$104.48,Bluemont,VA,individual,Pearson Smith Realty,Realtor,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-21,Ben Cline for Congress,"$1,000",Leesburg,VA,candidate,,Campaign Committee,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-20,Sharon Warfield,$104.48,Berryville,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-21,Nancy Napolitano,$104.48,Front Royal,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-21,Nancy Napolitano,$208.65,Front Royal,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-22,Jennifer Muenzer,$208.65,Berryville,VA,individual,The Family Trust,Retail,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-22,Lisa Vining,$104.48,Boyce,VA,individual,Navy Federal Credit Union,Member Service Representative,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-22,Gil Snow,$104.48,Williamsburg,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-23,Celeste Borel,$300,White Post,VA,individual,L'Auberge Provencale,Hospitality,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-23,Doug Buzalsky,$130.52,Berryvillw,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-25,Scott Beamer,"$1,000",Bristow,VA,individual,B&B Consulting Enterprises Inc,COO,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-25,Matthew Leeds,$104.48,Berryville,VA,individual,Paragon Group LLC,Recruiter,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-25,David Gum,"$2,500",Berryville,VA,individual,White House Foods,Owner,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-28,Meredith Stone,$105.52,McLean,VA,individual,USPS,Mailman,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-30,Joan Samples,$156.56,Berryville,VA,individual,None,Retired,,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-08-31,Grayson Aylestock,$500,Berryville,VA,individual,Construction,"Valley Land Works, LLC",,A,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+in_kind,2025-07-31,Celeste Borel,$700,White Post,VA,individual,L'Auberge Provencale,Hospitality,Fundraising Event Expense,B,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-31,Anedot,$66.55,New Orleans,VA,,,,CC Processing,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-08-31,Anedot,$432.25,New Orleans,VA,,,,CC Processing,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-03,Election CFO LLC,$342.87,Alexandria,VA,,,,Compliance Consulting,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-08-04,Election CFO LLC,$291,Alexandria,VA,,,,Compliance Consulting,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-08,The UPS Store,$20.15,San Diego,CA,,,,Shipping,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-08-08,The UPS Store,$20.01,San Diego,CA,,,,Shipping,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-08-22,The UPS Store,$20.01,San Diego,CA,,,,Shipping,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-09,Mr. Postman Print Shop,$498.52,Whiteville,NC,,,,Printing,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-08,Top of Virginia Regional Chamber,$80,Winchester,VA,,,,Event Tickets,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-14,Staples,$12.16,Framingham,MA,,,,Printing,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-08-18,On Cue Sports and Bar Grill,$355.55,Front Royal,VA,,,,Food,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-03,Hobby Lobby,$85.18,Oklahoma City,OK,,,,Supplies,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-07,Hobby Lobby,$131.64,Oklahoma City,OK,,,,Supplies,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-03,Signet Marketing,$251.93,Winchester,VA,,,,Printing,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-07-09,Signet Marketing,$396.19,Winchester,VA,,,,Printing,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-08-15,Signet Marketing,$23.59,Winchester,VA,,,,Printing,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-08-05,Catherine McCoy,$300,Bluemont,VA,,,,Consulting,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+expenditure,2025-08-27,Indea Grace Photography,$100,Berryville,VA,,,,Photography,D,453945,2025-07-01 to 2025-08-31,CC-22-00312,Delores for Delegate
+contribution,2025-09-23,Dominion Energy Inc. Political Action Committee,"$3,000",Richmond,VA,pac,,PAC,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-30,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,PAC,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-30,Winchester Frederick Clarke Republican Womens Club,$199,Winchester,VA,business,,Political Organization,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-30,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-29,Rhonda Torres,$100,Lake Frederick,VA,individual,Retired,Retired,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-30,Caesars Enterprise Services LLC,"$1,000",Las Vegas,NV,business,,Gaming,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-30,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,PAC,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-02,Wayne Francis Fox,$104.48,Bluemont,VA,individual,None,Retired,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-03,Susan Eicher,$100,Bealeton,VA,individual,None,Retired,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-01,Linden McLean,$156.56,White Post,VA,individual,Self,Real Estate,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-02,Jean Edwards,$104.48,Winchester,VA,individual,None,Retired,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-03,Kevin Callanan,$250,Stephens City,VA,individual,CES LLC,Fundraiser,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-09-18,Sheetz,$250,Altoona,PA,business,,Convenience Store,,A,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+in_kind,2025-09-03,Shannon Dulaney,"$2,250",Berryville,VA,individual,Warfield Homes Inc,General Manager,Event Venue,B,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-17,"FP1 Strategies, LLC","$2,600",Arlington,VA,,,,Mailing,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-30,Anedot,$58.22,New Orleans,VA,,,,CC Processing,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-01,Election CFO LLC,$282,Alexandria,VA,,,,Consulting,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-10,The UPS Store,$18.06,San Diego,CA,,,,Shipping,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-05,Mr. Postman Print Shop,$576.98,Whiteville,NC,,,,Printing,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-02,Top of Virginia Regional Chamber,$105,Winchester,VA,,,,Event Tickets,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-15,Top of Virginia Regional Chamber,$200,Winchester,VA,,,,Event Tickets,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-03,Staples,$111.59,Framingham,MA,,,,Printing,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-19,Friends of Chris Obenshain,"$1,500",Blacksburg,VA,,,,Contribution,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+expenditure,2025-09-04,Barker and Schuster,$200,Winchester,VA,,,,Fundraising Event Expense,D,459629,2025-09-01 to 2025-09-30,CC-22-00312,Delores for Delegate
+contribution,2025-10-20,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,PAC,,A,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+contribution,2025-10-20,H Paige Manuel,$500,Winchester,VA,individual,H Paige Manuel Real estate,Commercial Real Estate,,A,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+contribution,2025-10-02,Chuck Torpy,$250,Lake Frederick,VA,individual,Self,Tree Farmer,,A,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+contribution,2025-10-12,Mark Griffin,$250,Elder,SD,individual,Seafarers International Union,Merchant Mariner,,A,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+contribution,2025-10-20,HBAV Build-PAC,"$1,500",Richmond,VA,pac,,PAC,,A,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+in_kind,2025-10-21,Republican Party of Virginia,"$8,015.86",Richmond,VA,party,,Political Party,Direct Mail,B,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+expenditure,2025-10-01,Chain Bridge Bank,$25,McLean,VA,,,,Bank Fee,D,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+expenditure,2025-10-23,Anedot,$23.30,New Orleans,VA,,,,CC Processing,D,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+expenditure,2025-10-06,Election CFO LLC,$291.26,Alexandria,VA,,,,Consulting,D,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+expenditure,2025-10-01,Republican Party of Virginia,"$8,250",Richmond,VA,,,,Contribution,D,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+expenditure,2025-10-02,The UPS Store,$20.01,San Diego,CA,,,,Shipping,D,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+expenditure,2025-10-21,The UPS Store,$18.73,San Diego,CA,,,,Shipping,D,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+expenditure,2025-10-02,PXI,"$1,182.20",Harrisonburg,VA,,,,Printing,D,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+expenditure,2025-10-20,Earley for Delegate,"$10,000",Midlothian,VA,,,,Contribution,D,463720,2025-10-01 to 2025-10-23,CC-22-00312,Delores for Delegate
+contribution,2025-10-25,"Virginia State Police Association, Inc.",$250,Richmond,VA,business,,Association,,A,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+contribution,2025-10-25,McGuireWoods,$500,Richmond,VA,business,,Law Firm,,A,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+contribution,2025-10-25,Norfolk Southern Corp,"$1,000","Atlanta, GA",VA,business,,Transportation,,A,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+contribution,2025-10-26,Sriram Peddibhotla,$400,McLean,VA,individual,SAIC,IT Senior Data Architect,,A,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+contribution,2025-10-25,NiSource Inc. PAC,$250,Columbus,OH,pac,,PAC,,A,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+contribution,2025-11-25,"All Points Broadband Partners, LLC",$250,Richmond,VA,business,,Internet Services,,A,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+expenditure,2025-10-31,Anedot,$29.90,New Orleans,VA,,,,CC Processing,D,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+expenditure,2025-11-03,Election CFO LLC,$282.26,Alexandria,VA,,,,Consulting,D,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+expenditure,2025-10-29,The UPS Store,$20.68,San Diego,CA,,,,Shipping,D,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+expenditure,2025-11-22,The UPS Store,$18.73,San Diego,CA,,,,Shipping,D,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+expenditure,2025-11-03,Virginia Farm Bureau Federation AGPAC,$40,Richmond,VA,,,,Contribution,D,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+expenditure,2025-10-31,Battleground Connect,"$2,416.06",Missoula,MT,,,,Texting,D,470610,2025-10-24 to 2025-11-27,CC-22-00312,Delores for Delegate
+contribution,2025-12-22,Virginia Beer Wholesalers Association Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,474762,2025-11-28 to 2025-12-31,CC-22-00312,Delores for Delegate
+contribution,2025-12-30,Craig Stevens,$250,Warrenton,VA,individual,None,Retired,,A,474762,2025-11-28 to 2025-12-31,CC-22-00312,Delores for Delegate
+expenditure,2025-12-31,Anedot,$10.30,New Orleans,VA,,,,CC Processing,D,474762,2025-11-28 to 2025-12-31,CC-22-00312,Delores for Delegate
+expenditure,2025-12-01,Election CFO LLC,$273,Alexandria,VA,,,,Consulting,D,474762,2025-11-28 to 2025-12-31,CC-22-00312,Delores for Delegate
+expenditure,2025-12-23,The UPS Store,$20.68,San Diego,CA,,,,Shipping,D,474762,2025-11-28 to 2025-12-31,CC-22-00312,Delores for Delegate
+expenditure,2025-12-05,Costco,$244.39,Issaquah,WA,,,,Event Supplies,D,474762,2025-11-28 to 2025-12-31,CC-22-00312,Delores for Delegate
+expenditure,2025-12-10,Shenandoah Apple Blossom Festival,$280,Winchester,VA,,,,Event Tickets,D,474762,2025-11-28 to 2025-12-31,CC-22-00312,Delores for Delegate
+expenditure,2025-12-29,Shenandoah Apple Blossom Festival,$517.50,Winchester,VA,,,,Event Sponsorship,D,474762,2025-11-28 to 2025-12-31,CC-22-00312,Delores for Delegate
+contribution,2026-03-16,Daniel Best,$200,Stephens,VA,individual,None,Retired,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-04-16,Daniel Best,$200,Stephens,VA,individual,None,Retired,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-05-16,Daniel Best,$200,Stephens,VA,individual,None,Retired,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-06-16,Daniel Best,$200,Stephens,VA,individual,None,Retired,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-01-09,Dominion Energy Inc. Political Action Committee,"$5,000",Richmond,VA,pac,,PAC,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-06-26,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,PAC,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-01-13,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-06-26,Altria Client Services LLC,$500,Richmond,VA,business,,Financial Services,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-01-13,"Arrow International, Inc.",$500,Cleveland,OH,business,,Manufacturing,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-01-13,Commercial Development Political Action Committee,$250,Alexandria,VA,pac,,PAC,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+contribution,2026-01-13,FirstEnergy Political Action Committee,$500,Akron,OH,pac,,PAC,,A,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-01-13,Anedot,$9.20,New Orleans,VA,,,,CC Processing,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-31,Anedot,$8.30,New Orleans,VA,,,,CC Processing,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-04-30,Anedot,$8.30,New Orleans,VA,,,,CC Processing,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-05-31,Anedot,$8.30,New Orleans,VA,,,,CC Processing,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-30,Anedot,$10.60,New Orleans,VA,,,,CC Processing,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-16,Frederick County Republican Committee,$500,Winchester,VA,,,,Event Sponsorship,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-01-02,Election CFO LLC,$252,Alexandria,VA,,,,Consulting,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-02-02,Election CFO LLC,$312.12,Alexandria,VA,,,,Consulting,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-02,Election CFO LLC,$259.63,Alexandria,VA,,,,Consulting,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-04-03,Election CFO LLC,$261,Alexandria,VA,,,,Consulting,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-05-01,Election CFO LLC,$337.36,Alexandria,VA,,,,Consulting,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-01,Election CFO LLC,$259.63,Alexandria,VA,,,,Consulting,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-05-12,Vibrissa Beer,$11.15,Front Royal,VA,,,,Food,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-05-26,Vibrissa Beer,$20.28,Front Royal,VA,,,,Food,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-01-01,USPS,$156,Washington,DC,,,,Postage,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-01-13,USPS,$34.09,Washington,DC,,,,Shipping,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-31,USPS,$15.60,Washington,DC,,,,Shipping,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-26,USPS,$12.90,Washington,DC,,,,Shipping,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-11,West Oaks Farm Market,$329.12,Winchester,VA,,,,Catering,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-01-01,Staples,$74.73,Framingham,MA,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-25,Staples,$92.65,Framingham,MA,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-05-14,Staples,$51.05,Framingham,MA,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-02,Staples,$42.64,Framingham,MA,,,,Printing,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-02,Staples,$13.25,Framingham,MA,,,,Printing,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-09,Staples,$44.22,Framingham,MA,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-11,Staples,$41.78,Framingham,MA,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-20,Staples,$34.96,Framingham,MA,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-27,Costco,$38.36,Issaquah,WA,,,,Food,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-25,Costco,$31.99,Issaquah,WA,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-30,House Republican Campaign Committee,"$1,000",Richmond,VA,,,,Contribution,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-05-05,House Republican Campaign Committee,"$5,000",Richmond,VA,,,,Contribution,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-02-02,Warren County High School,$251,Front Royal,VA,,,,Contribution,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-04-20,Clarke County Republican Committee,$500,Berryville,VA,,,,Contribution,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-17,Blue Ridge Hunt,$150,Front Royal,VA,,,,Event Ticket,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-02-16,Commonwealth Conservative PAC,$950,Winchester,VA,,,,Contribution,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-31,Hobby Lobby,$59.99,Oklahoma City,OK,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-02,Hobby Lobby,$96.57,Oklahoma City,OK,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-01-06,Commonwealth Prayer Breakfast,$110.40,Richmond,VA,,,,Event Tickets,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-03,Commonwealth Prayer Breakfast,$150,Richmond,VA,,,,Contribution,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-02,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,,,,Contribution,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-30,Dunkin Donuts,$55.16,Canton,MA,,,,Food,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-26,Dunkin Donuts,$55.16,Canton,MA,,,,Food,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-03-31,Warren County Republican Committee,$500,Front Royal,VA,,,,Contribution,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate
+expenditure,2026-06-26,Walmart,$15.29,Bentonville,AR,,,,Supplies,D,496754,2026-01-01 to 2026-06-30,CC-22-00312,Delores for Delegate

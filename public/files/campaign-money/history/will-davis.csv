@@ -1,0 +1,556 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2022-05-19,William Cooper,"$5,000",Wirtz,VA,individual,Cooper Classics Inc,President,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,James Brumfield,$200,Rocky Mount,VA,individual,None,Retired,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,GT Commercial Investments LLC,"$1,500",Moneta,VA,business,,Investment Group,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,Richard B. Jenkins,$150,Rocky Mount,VA,individual,None,Retired,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,Abbie B. Pinckard,$200,Rocky Mount,VA,individual,None,Retired,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,Benjamin H. Ferguson,$200,Wirtz,VA,individual,Wainwright & Co.,Realtor,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,Dr. M. Kevin David,$500,Penhook,VA,individual,Privia Health,Doctor,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,Eddie Shelton,$500,Union Hall,VA,individual,Self,Farmer,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,Tatum B. Ferguson,"$1,000",Roanoke,VA,individual,Ferguson Land & Lumber,Sawmill,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,Mike S. Carter,$400,Rocky Mount,VA,individual,Carter's Jewelry,Business Owner,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,Sandra Hunt,$500,Rocky Mount,VA,individual,None,Retired,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,Suzanne S. Cooper,"$2,500",Rocky Mount,VA,individual,None,Retired,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,William R. Pumphrey,$250,Winchester,KY,individual,None,Retired,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-06-27,William P. Davis,"$6,500",Rocky Mount,VA,individual,Self,Attorney,,A,288640,2022-05-01 to 2022-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2022-09-10,Mildred Shelton,$300,Blade Hill,VA,individual,None,Retired,,A,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2022-09-10,"NAES Management, LLC","$1,000",Mount Pleasant,SC,business,,Real Estate,,A,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2022-09-10,Wesley Naff III,$250,Boonesmill,VA,individual,None,Retired,,A,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2022-09-10,"Davis, Davis, & Davis Attorneys",$250,Radford,VA,business,,Legal,,A,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2022-09-10,"Aaron B. Houchens, P.C.","$2,000",Salem,VA,business,,Legal,,A,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2022-09-10,Marshall Jamison,$200,Calloway,VA,individual,None,Retired,,A,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2022-08-10,Election CFO,$250,ALEXANDRIA,VA,,,,Compliance Consulting,D,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2022-08-10,Election CFO,$250,ALEXANDRIA,VA,,,,Compliance Consulting,D,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2022-08-10,Election CFO,$258.95,ALEXANDRIA,VA,,,,Compliance Consulting,D,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2022-09-13,Election CFO,$250,ALEXANDRIA,VA,,,,Compliance Consulting,D,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2022-12-16,Election CFO,$766.70,ALEXANDRIA,VA,,,,Compliance Consulting,D,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2022-10-24,Foxglove Marketing LLC,"$2,250",Roanoke,VA,,,,Digital Marketing Services,D,310140,2022-07-01 to 2022-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-01-26,William Cooper,"$2,500",Wirtz,VA,individual,Cooper Classics Inc,President,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-15,Marshall Jamison,$200,Callaway,VA,individual,None,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-01-26,Nathan Jamison,"$5,000",Callaway,VA,individual,Jamison Electric,Electrician,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-01-26,Ainsley Cooper Revercomb,$150,Jackson,WY,individual,Cooper Classics,VP of Sales,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-01-26,Steven C. Oakes,$250,Rocky Mount,VA,individual,None,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-01-26,Virgil H. Goode Sr.,$500,Rocky Mount,VA,individual,None,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-01-26,Walter Brown,"$5,000",Rocky Mount,VA,individual,Commonwealth of Virginia,Attorney,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-01-26,W. Colby Brown,"$5,000",Ferrum,VA,individual,None,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-02-23,American HealthCare LLC,$500,Roanoke,VA,business,,Healthcare,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-02-23,Danny Perdue,"$5,000",Rocky Mount,VA,individual,Self Employed,Self Employed,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-02-23,Lynette Betterton,$500,Rocky Mount,VA,individual,Retired,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-02-23,Barbara Chauncey,$250,Rocky Mount,VA,individual,Retired,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-02,Carol Cooper Lee,"$1,200",Penhook,VA,individual,Retired,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-02,Roger Gregory Nester,"$1,000",Moneta,VA,individual,Contech Engineered Solutions LLC,Senior Sales Engineer,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-02,Arthur Donaldson,"$1,000",Mooresville,NC,individual,Retired,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-02,Neva Hart,$500,Hardy,VA,individual,Retired,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-02,Sarah Ferguson,"$2,500",Roanoke,VA,individual,Retired,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-02,Frances Giles,"$1,000",Lynchburg,VA,individual,Retired,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-02-28,Dan Timney,$520.51,Boones Mill,VA,individual,Kroger,Pharmacist,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-02-25,Robert Jeans,$250,Glade Hill,VA,individual,"Cornerstone Land Surveying, Inc.",Surveyor,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-15,Charles M. Aaron,"$1,000",Martinsville,VA,individual,Self,Attorney,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-15,CED Properties LLC,"$5,000",Wirtz,VA,business,,Construction,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-15,Ronald Willard,"$1,000",Penhook,VA,individual,None,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-15,Pamela M. Korpady,$200,Ferrum,VA,individual,None,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-15,"R. Andrew Davis, PC","$1,000",Bedford,VA,business,,Law Firm,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-15,David Corron,"$2,000",Winter Garden,FL,individual,Holiday Inn Club Vacations,VP Financial Planning and Analysis,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-15,Keith Grindstaff,"$1,000",Rocky Mount,VA,individual,Freedom First Federal Credit Union,VP Commercial Lending,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-12,Lee Arnold,$250,Moneta,VA,individual,Clearview Investments Inc.,Manager,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-28,Brian Garland,$250,Glade Hill,VA,individual,Bedford County,Investigator,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-28,Donnie L. Flora,$250,Boones Mill,VA,individual,None,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-28,Heather Bowen,$500,White Post,VA,individual,EverCommerce,Senior SEO Specialist,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-28,Emma Lou Lynch,$250,Rocky Mount,VA,individual,None,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-28,Miles W. Holland Jr.,$150,Boones Mill,VA,individual,Self,Photographer,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-28,William Lee Cooper,$250,New York,NY,individual,"Saks, LLC",SVP - General Manager,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-03-24,William Amos,$500,Union Hall,VA,individual,None,Retired,,A,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-01-09,Election CFO,$250,ALEXANDRIA,VA,,,,Compliance Consulting,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-02-09,Election CFO,"$1,000",ALEXANDRIA,VA,,,,Compliance Consulting,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-03-06,Election CFO,"$1,014",ALEXANDRIA,VA,,,,Compliance Consulting,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-01-30,i77 Strategies LLC,"$5,059",Roanoke,VA,,,,Campaign Consulting,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-02-24,i77 Strategies LLC,"$9,939",Roanoke,VA,,,,"Digital Advertising, Data Services, and consulting",D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-03-01,i77 Strategies LLC,"$1,583.52",Roanoke,VA,,,,Texting,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-03-03,i77 Strategies LLC,"$19,876.80",Roanoke,VA,,,,Printing & postage,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-03-07,i77 Strategies LLC,"$1,899",Roanoke,VA,,,,Canvassing,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-03-27,i77 Strategies LLC,"$5,957.10",Roanoke,VA,,,,Strategic Consulting and Expenses,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-02-10,Chain Bridge Bank,$25,McLean,VA,,,,Bank Fee,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-02-10,Bobby May,"$6,552.31",Hurley,VA,,,,Printing,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-03-14,Bobby May,"$3,591.89",Hurley,VA,,,,Printing,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-02-13,Wordsprint,"$2,267.05",Wytheville,VA,,,,Printing,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-02-28,Wordsprint,$924.95,Wytheville,VA,,,,Printing,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-02-28,Winred Technical Services,$30.36,Arlington,VA,,,,Credit Card Processing,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-03-31,Winred Technical Services,$29.55,Arlington,VA,,,,Credit Card Processing,D,316876,2023-01-01 to 2023-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Abbie B. Pinckard,$200,Rocky Mount,VA,individual,None,Retired,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-06-08,Benjamin H. Ferguson,$100,Wirtz,VA,individual,Wainwright & Co.,Realtor,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,"Davis, Davis, & Davis Attorneys",$500,Radford,VA,business,,Legal,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Carol Cooper Lee,$250,Penhook,VA,individual,Retired,Retired,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-14,Chas Mitchell,$104.10,Rocky Mount,VA,individual,Truist,Financial Advisor,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,John Clements,"$1,000",Roanoke,VA,individual,"J. Randolph Clements, LLC",Physician,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Dennis Hammer,$360,Chantilly,VA,individual,American Systems,Director,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Evelyn Elwell,$500,Hardy,VA,individual,Georg North America,VP of Production,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Johnny Prillaman,$200,Rocky Mount,VA,individual,Rockydale Quarries,Sales Rep,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Burl Clements Jr,$150,Keysville,VA,individual,Stantec,Right of Way Agent,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Creg Matthews,"$2,500",Boones Mill,VA,individual,Wells Fargo,Managing Director,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Virginia Trial Lawyers Political Action Committee,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Dan Joiner,$500,Rocky Mount,VA,individual,FdW Real Estate Group,Realtor,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Carey Garst,"$2,000",Boones Mill,VA,individual,Farmer,Sagamore Farms LTD,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Martha Christine Williams,$250,Austin,TX,individual,ERG Inc,Senior Environmental Manager,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Sue Williams,$200,Glade Hill,VA,individual,Retired,Retired,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Dean Stone,"$1,000",Rocky Mount,VA,individual,Redwood Fuel and Oil,Manager,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,John Frye Jr,"$2,000",Roanoke,VA,individual,Retired,Retired,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Appalachian Restoration and Cleaning Service,"$3,827",Glade Hill,VA,business,,Cleaning,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Everett Wilson,$450,Wirtz,VA,individual,Wilsons Painting and Pressure Washing,Self,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Design and Drafting Solutions,$175,Rocky Mount,VA,business,,Design,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-04-27,Agenacare Housecalls PLLC,$175,Roanoke VA,VA,business,,Healthcare,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-05,Adam Grindstaff,$104.10,Hardy,VA,individual,Atlantic Union Bank,Banking,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Charles H. Nave PC,$150,Roanoke,VA,business,,Legal Services,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Law Offices of Daniel L. Crandall,$500,Roanoke,VA,business,,Law Firm,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Law Offices of Daniel L. Crandall,$150,Roanoke,VA,business,,Law Firm,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Thomson Law Firm PC,$150,Roanoke,VA,business,,Law Firm,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Daniel S. Brown,$500,Roanoke,VA,individual,Woods Rogers & Hazelgrove,Attorney,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,William H. Fralin Jr.,$250,Roanoke,VA,individual,Medical Facilities of America,CEO,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,David B. Lowen,$500,Roanoke,VA,individual,Feti Flynn Lowen & Co,Accountant,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Anthony F. Anderson,$500,Roanoke,VA,individual,Self,Attorney,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Stephen W. Lemon,$150,Roanoke,VA,individual,Martin Hopkins & Lemon PC,Attorney,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Phillip V. Anderson,$500,Roanoke,VA,individual,Frith Anderson & Peake PC,Attorney,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,George Irving Vogel,$250,Roanoke,VA,individual,Vogel and Cromwell LLC,Attorney,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Matthew Richard Huff,$500,Boones Mill,VA,individual,Poe and Cronk Real Estate Group,President,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Matthew E. Kelley,$150,Roanoke,VA,individual,Frith Anderson and Peake,Attorney,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,J. Hatcher Ferguson III,"$1,000",Rocky Mount,VA,individual,Ferguson Land & Lumber Co,Vice President,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Karen B. Waskey,$250,Roanoke,VA,individual,Self,Homemaker,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Peter A. Katt,$150,Fincastle,VA,individual,Crandall and Katt,Attorney,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Sean Workowski,$250,Fincastle,VA,individual,Frith Anderson and Pearce,Partner,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,William B. Hopkins Jr.,$250,Roanoke,VA,individual,Martin Hopkins & Lemon,Attorney,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-05-25,Paul C. Kuhnel,$150,Salem,VA,individual,"Lewis Brisbois Bisgaard and Smith, LLP",Attorney,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-06-06,Jane E. Turner,"$1,000",Penhook,VA,individual,None,Retired,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-06-06,Harriette Liederbach,$200,Youngsville,NC,individual,Franklin Academy Middle School,Teacher,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-06-06,Nancy Dye,$150,Roanoke,VA,individual,None,Retired,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-06-06,Tom Ulbrich,$250,Penhook,VA,individual,MOVEMENT MORTGAGE,FINANCE,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-06-06,Elizabeth Rand,$500,Henrico,VA,individual,Bella Bridesmaid,Retailer,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-06-08,Jeffrey Salmon,$500,Hardy,VA,individual,Virginia Business Systems,Analyst,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-06-08,Lori Cooper,$300,Moneta,VA,individual,Franklin County Public Schools,Teacher,,A,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+in_kind,2023-05-02,Katherine Londos,$674.28,Roanoke,VA,individual,Frith Anderson and Peake PC,Partner,Event Space and Food/Beverage,B,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+in_kind,2023-05-31,Katherine Londos,$674.28,Roanoke,VA,individual,Frith Anderson and Peake PC,Partner,Event Venue,B,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+in_kind,2023-05-02,W Tucker Lemon Esq,$674.27,Roanoke,VA,individual,Martin Hopkins and Lemon PC,President,Event Space and Food/Beverage,B,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+in_kind,2023-05-31,W Tucker Lemon Esq,$674.28,Roanoke,VA,individual,Martin Hopkins and Lemon PC,President,Event Venue,B,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+in_kind,2023-05-29,Davis Davis Davis and Davis,"$5,790",Rocky Mount,VA,business,,Law Firm,Television Advertising,B,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+in_kind,2023-05-29,Davis Davis Davis and Davis,"$5,680",Rocky Mount,VA,business,,Law Firm,Television Advertising,B,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+in_kind,2023-05-31,Bill Cooper,$360,Henrico,VA,individual,None,Retired,Postage,B,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+in_kind,2023-06-08,Tim Reith,$500,Moneta,VA,individual,Lazy A Development,Owner/Operator,Venue Rental,B,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-04-04,Election CFO,"$1,040.91",ALEXANDRIA,VA,,,,Compliance Consulting,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-05-05,Election CFO,"$1,018",ALEXANDRIA,VA,,,,Compliance Consulting,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-06-06,Election CFO,"$1,019.62",ALEXANDRIA,VA,,,,Compliance Consulting,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-04-04,i77 Strategies LLC,"$4,276",Roanoke,VA,,,,Canvassing,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-04-05,i77 Strategies LLC,"$7,875",Roanoke,VA,,,,"Advertising, Texting, and Polling",D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-04-18,i77 Strategies LLC,"$2,861.17",Roanoke,VA,,,,Canvassing,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-04-20,i77 Strategies LLC,"$26,925.18",Roanoke,VA,,,,Voter Contact Mail,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-05-02,i77 Strategies LLC,"$3,416.78",Roanoke,VA,,,,Canvassing,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-05-05,i77 Strategies LLC,$98.75,Roanoke,VA,,,,Campaign Supplies,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-05-10,i77 Strategies LLC,"$4,583.52",Roanoke,VA,,,,Online Advertising,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-05-10,i77 Strategies LLC,"$5,739",Roanoke,VA,,,,Digital Consulting,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-05-12,i77 Strategies LLC,"$1,856.02",Roanoke,VA,,,,Printing,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-05-17,i77 Strategies LLC,"$2,929",Roanoke,VA,,,,Canvassing,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-06-01,i77 Strategies LLC,"$6,375.28",Roanoke,VA,,,,Digital Advertising,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-06-01,i77 Strategies LLC,"$4,632",Roanoke,VA,,,,Canvassing,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-06-01,i77 Strategies LLC,"$1,836",Roanoke,VA,,,,Radio Advertising,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-06-06,i77 Strategies LLC,"$2,400",Roanoke,VA,,,,Public Opinion Research,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-04-30,Winred Technical Services,$43.50,Arlington,VA,,,,CC Processing,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-05-31,Winred Technical Services,$8.04,Arlington,VA,,,,CC Processing,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+expenditure,2023-06-08,Winred Technical Services,$19.70,Arlington,VA,,,,CC Processing,D,329909,2023-04-01 to 2023-06-08,CC-22-00255,Will Davis for Delegate
+contribution,2023-06-29,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,Political Action Committee,,A,336444,2023-06-09 to 2023-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2023-06-15,i77 Strategies LLC,"$2,338",Roanoke,VA,,,,Canvassing,D,336444,2023-06-09 to 2023-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2023-06-30,Winred Technical Services,$3.94,Arlington,VA,,,,CC Processing,D,336444,2023-06-09 to 2023-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-25,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,Political Action Committee,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,Roanoke County Republican Committee,$500,Roanoke,VA,pac,,Political Committee,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,Southern Roofing and Restoration,$500,Roanoke,VA,business,,Roofing,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,Friends of Les Adams,$250,Chatham,VA,business,,Political Campaign,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,Dirk Padgett Law PLLC,"$1,000",Vinton,VA,business,,Law Firm,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,Matthew D Benka,$250,Richmond,VA,individual,MDB Strategies,Lobbyist,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,Lawrence Distributing Co,$500,Danville,VA,business,,Distribution,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,Blue Ridge Beverage Co Inc,$500,Salem,VA,business,,Drink,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,VADPAC,"$1,000",Richmond,VA,pac,,Political Action Comittee,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,William Roscoe Reynolds,$200,Martinsville,VA,individual,None,Retired,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-08-29,P Aden Short Jr,$500,Salem,VA,individual,P.A. Short Distributing Company,Owner,,A,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-07-05,Election CFO,"$1,140",ALEXANDRIA,VA,,,,Compliance Consulting,D,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-08-14,Election CFO,"$1,000",ALEXANDRIA,VA,,,,Compliance Consulting,D,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-07-03,i77 Strategies LLC,"$10,843.82",Roanoke,VA,,,,Consulting,D,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-07-31,i77 Strategies LLC,"$2,539",Roanoke,VA,,,,Consulting,D,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-08-29,i77 Strategies LLC,"$2,539",Roanoke,VA,,,,Consulting,D,351193,2023-07-01 to 2023-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-09-26,Friends of Charles Pointdexter,$200,Glade Hill,VA,business,,Campaign Committee,,A,357309,2023-09-01 to 2023-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-09-26,Virginia Hospital & Healthcare Association PAC,$500,Richmond,VA,pac,,PAC,,A,357309,2023-09-01 to 2023-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-09-26,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,PAC,,A,357309,2023-09-01 to 2023-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-09-26,Franklin County Republican Committee,$450,Rocky Mount,VA,pac,,Political Committee,,A,357309,2023-09-01 to 2023-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2023-09-01,Election CFO,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,357309,2023-09-01 to 2023-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2023-09-22,i77 Strategies LLC,"$2,539",Roanoke,VA,,,,Consulting,D,357309,2023-09-01 to 2023-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2023-09-12,Chain Bridge Bank,$25,McLean,VA,,,,Bank Fee,D,357309,2023-09-01 to 2023-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2023-09-12,Spirit of Virginia,$250,Merrifield,VA,,,,Event Ticket,D,357309,2023-09-01 to 2023-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-10-17,William P. Davis,"$10,000",Rocky Mount,VA,individual,Self,Attorney,,A,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+contribution,2023-10-09,Vision Management Services,$500,Chicago,IL,business,,Medical,,A,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+contribution,2023-10-09,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+contribution,2023-10-09,Michael Wray,$500,Roanoke,VA,individual,Roanoke County Schools,Elected Official,,A,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+contribution,2023-10-09,A Safer Virginia PAC,"$1,000",Virginia Beach,VA,pac,,PAC,,A,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+contribution,2023-10-09,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,PAC,,A,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+contribution,2023-10-09,Chris Runion for Delegate,$500,Bridgewater,VA,candidate,,Campaign Committee,,A,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+contribution,2023-10-09,McGuireWoods,$250,Richmond,VA,business,,Law Firm,,A,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+contribution,2023-10-26,Matthew Moran,$260.25,Midlothian,VA,individual,Creative Direct,Vice President,,A,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-02,Election CFO,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-02,i77 Strategies LLC,$546.34,Roanoke,VA,,,,Consulting,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,i77 Strategies LLC,"$2,539",Roanoke,VA,,,,Consulting,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,i77 Strategies LLC,"$1,539.12",Roanoke,VA,,,,Consulting,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Chain Bridge Bank,$25,McLean,VA,,,,Bank Fee,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Chain Bridge Bank,$25,McLean,VA,,,,Bank Fee,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Chain Bridge Bank,$25,McLean,VA,,,,Bank Fee,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Chain Bridge Bank,$2.50,McLean,VA,,,,Bank Fee,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Chain Bridge Bank,$2.50,McLean,VA,,,,Bank Fee,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-26,Winred Technical Services,$10.25,Arlington,VA,,,,CC Processing,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Stirrup for Delegate,"$2,000",Alexandria,VA,,,,Contribution,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Friends of Ian Lovejoy for Delegate,"$2,000",Manassas,VA,,,,Contribution,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Friends of Lee Peters III,"$2,000",Fredericksburg,VA,,,,Contribution,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Kim Taylor for Virginia,"$2,000",Petersburg,VA,,,,Contribution,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-17,Karen Greenhalgh for Delegate,"$2,000",Virginia Beach,VA,,,,Contribution,D,368952,2023-10-01 to 2023-10-26,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,William Cooper,"$1,000",Wirtz,VA,individual,Cooper Classics Inc,President,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Virgil H. Goode Jr.,$500,Rocky Mount,VA,individual,None,Retired,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,PAC,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Virginia State Police Association Inc PAC,$250,Richmond,VA,pac,,PAC,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,PAC,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Midpoint Chevrolet Buick GMC,"$1,000",Rocky Mount,VA,business,,Car Dealership,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Carolyn H Furrow,"$1,000",Rocky Mount,VA,individual,Carolyn H Furrow PC,Attorney,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,PAC,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Linda D Pinckard,$200,Rocky Mount,VA,individual,None,Retired,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Reed Smith LLP VA PAC,$250,Richmond,VA,pac,,PAC,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-11-02,Phillip A Short,$250,Salem,VA,individual,P.A. Short Distributing Co,Beverage Distributor,,A,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+expenditure,2023-10-31,Election CFO,"$1,050",Alexandria,VA,,,,Compliance Consulting,D,383592,2023-10-27 to 2023-11-30,CC-22-00255,Will Davis for Delegate
+contribution,2023-12-18,Southern States PBA PAC Fund,"$1,000",McDonough,GA,pac,,PAC,,A,393365,2023-12-01 to 2023-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-12-18,Virginia Cable PAC,$500,Richmond,VA,pac,,PAC,,A,393365,2023-12-01 to 2023-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2023-12-18,HCA for Good Government,"$1,000",Richmond,VA,pac,,PAC,,A,393365,2023-12-01 to 2023-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2023-12-08,Election CFO,"$1,028",Alexandria,VA,,,,Compliance Consulting,D,393365,2023-12-01 to 2023-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-06-12,Virginia Trial Lawyers Political Action Committee,"$2,000",Richmond,VA,pac,,PAC,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-05-13,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,PAC,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-06-12,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,PAC,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-01-09,McGuireWoods,$250,Richmond,VA,business,,Law Firm,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-06-12,Virginia State Police Association Inc PAC,$150,Richmond,VA,pac,,PAC,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-01-09,Asian American Business Owners Association PAC,"$1,000",Roanoke,VA,pac,,PAC,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-01-09,H Betti Industries Inc,$500,Carlsdadt,NJ,business,,Distribution,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-01-09,Commercial Development PAC,$250,Alexandria,VA,pac,,PAC,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-01-09,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,PAC,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-05-09,VA Operators for Skill,"$1,000",Richmond,VA,business,,Gaming,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-06-12,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,PAC,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-06-12,Truckers PAC of Virginia,$250,Richmond,VA,pac,,PAC,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-06-12,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Financial Services,,A,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-01-03,Election CFO,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-02-07,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-02-29,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-04-03,Election CFO,$275.26,Alexandria,VA,,,,Compliance Consulting,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-05-03,Election CFO,$251.63,Alexandria,VA,,,,Compliance Consulting,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-06-07,Election CFO,$252,Alexandria,VA,,,,Compliance Consulting,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-01-09,i77 Strategies LLC,$301.40,Roanoke,VA,,,,Consulting,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-01-08,Virginia Alcoholic Beverage Control Authority,$55,Mechanicsville,VA,,,,Event Expense,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-01-29,EZ Pass,$20,Richmond,VA,,,,Travel,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-02-19,EZ Pass,$35,Richmond,VA,,,,Travel,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-01-30,Meriwether Godsey Inc.,$516,Lynchburg,VA,,,,Event Catering,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-02-21,National Rifle Association,$60,Fairfax,VA,,,,Event Ticket,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-01-17,General Assembly Building Cafe,$581.20,Richmond,VA,,,,Food and Beverage,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-03-22,Virginia House of Delegates,$300,Richmond,VA,,,,Flags,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-03-25,House Republican Campaign Committee,"$1,000",Henrico,VA,,,,Contribution,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-03-25,Republican Commonwealth Leadership PAC,"$2,500",Henrico,VA,,,,Contribution,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-04-15,Franklin News Post,$70.99,Rocky Mount,VA,,,,Subscription,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-03-28,The Roanoke Times,$32.99,Roanoke,VA,,,,Subscription,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-04-25,The Roanoke Times,$26,Roanoke,VA,,,,Subscription,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-05-28,The Roanoke Times,$26,Roanoke,VA,,,,Subscription,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-06-24,The Roanoke Times,$26,Roanoke,VA,,,,Subscription,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-03-28,The Vinton Messenger,$50,Salem,VA,,,,Subscription,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-04-19,The Commonwealth Hotel,$173.26,Richmond,VA,,,,Travel,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-04-30,USPS,$68,Washington,DC,,,,Postage,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-06-28,USPS,$68,Washington,DC,,,,Postage,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-04-29,Walmart,$56.34,Bentonville,AR,,,,Supplies,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2024-06-05,Omni Homestead Resort,$78.99,Hot Springs,VA,,,,Travel,D,409181,2024-01-01 to 2024-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2024-09-27,Virginia Beer Wholesalers Association PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-09-27,Blue Ridge Beverage Co Inc,$500,Salem,VA,business,,Beverage Manufacturer,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-31,Virginia Hospital & Healthcare Association PAC,$500,Richmond,VA,pac,,PAC,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-09-27,Vision Management Services,$500,Chicago,IL,business,,Health Care,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-31,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-09-27,Realtors PAC of Virginia,"$1,000",Glen Allen,VA,pac,,PAC,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-31,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-09-27,Virginia Cable PAC,$500,Richmond,VA,pac,,PAC,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-10,HCA for Good Government,"$1,000",Richmond,VA,pac,,PAC,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-31,VA Operators for Skill,"$1,000",Richmond,VA,business,,Gaming,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-09-27,Reed Smith LLP,$250,Pittsburgh,PA,business,,Law Firm,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-10,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverages,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-10,Virginia Manufacturers Association PAC,$250,Richmond,VA,pac,,PAC,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-10,Comcast Financial Agency Corporation,$500,Philadelphia,PA,business,,Cable Communications,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-10,Roanoke Gas PAC,"$1,000",Roanoke,VA,pac,,PAC,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-10,Amazon.com Services LLC,$500,Seattle,WA,business,,Online Retail,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-31,Virginia Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,PAC,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2024-12-31,Virginia Maritime Association Political Action Committee,$500,Norfolk,VA,pac,,PAC,,A,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-07-08,Election CFO,$262,Alexandria,VA,,,,Compliance Consulting,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-08-01,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-09-03,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-09-30,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-10-31,Election CFO,$264,Alexandria,VA,,,,Compliance Consulting,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-12-04,Election CFO,$250,Alexandria,VA,,,,Compliance Consulting,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-08-12,EZ Pass,$35,Richmond,VA,,,,Travel,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-07-30,The Roanoke Times,$26,Roanoke,VA,,,,Subscription,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-08-28,The Roanoke Times,$26,Roanoke,VA,,,,Subscription,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-09-27,The Roanoke Times,$26,Roanoke,VA,,,,Subscription,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-10-29,The Roanoke Times,$26,Roanoke,VA,,,,Subscription,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-11-27,The Roanoke Times,$26,Roanoke,VA,,,,Subscription,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-12-27,The Roanoke Times,$26,Roanoke,VA,,,,Subscription,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-07-01,The Commonwealth Hotel,$182.34,Richmond,VA,,,,Travel,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-07-22,The Commonwealth Hotel,$173.26,Richmond,VA,,,,Travel,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-08-14,The Commonwealth Hotel,$173.26,Richmond,VA,,,,Travel,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-08-16,The Commonwealth Hotel,$173.26,Richmond,VA,,,,Travel,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-11-15,The Commonwealth Hotel,$157,Richmond,VA,,,,Travel,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-12-16,The Commonwealth Hotel,$218.07,Richmond,VA,,,,Travel,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-12-20,The Commonwealth Hotel,$182.56,Richmond,VA,,,,Travel,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-08-01,USPS,$146,Washington,DC,,,,Postage,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-09-13,USPS,$146,Washington,DC,,,,Postage,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-10-21,USPS,$292,Washington,DC,,,,Postage,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-12-16,USPS,$87.60,Washington,DC,,,,Postage,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-08-28,Bobby May Advertising Specialties,"$1,150.35",Hurley,VA,,,,Printing,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-09-23,Hotel 24 South,$209.29,Staunton,VA,,,,Travel,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-12-12,Walgreens,$114.65,Columbia,MD,,,,Printing,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2024-12-13,"Benton-Thomas, Inc.",$19.08,South Boston,VA,,,,Printing,D,428759,2024-07-01 to 2024-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-03-31,Barbara Chauncey,$400,Rocky Mount,VA,individual,Retired,Retired,,A,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-03-06,Carol Cooper Lee,$260.25,Penhook,VA,individual,None,Retired,,A,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-03-14,W Tucker Lemon Esq,$500,Roanoke,VA,individual,Martin Hopkins and Lemon PC,President,,A,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-03-10,Karen B. Waskey,$104.10,Roanoke,VA,individual,None,Retired,,A,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-01-07,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-01-07,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Real Estate,,A,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-01-07,HBAV Build PAC,$500,Richmond,VA,pac,,PAC,,A,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-03-31,Richard Wayne Hall,"$1,000",Martinsville,VA,individual,Orion Capital,Managing Director,,A,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-03-31,Commissioner of Revenue PAC - CORPAC,$125,Staunton,VA,pac,,PAC,,A,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-01-02,Election CFO,$265,Alexandria,VA,,,,Consulting,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-02-03,Election CFO,$272.01,Alexandria,VA,,,,Consulting,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-03-03,Election CFO,"$1,003.63",Alexandria,VA,,,,Consulting,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-03-31,Winred Technical Services,$41.93,Arlington,VA,,,,Fundraising Fee,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-01-31,Clayton Spangler Photographic Design,$499,Charleston,WV,,,,Photography,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-01-13,EZ Pass,$35,Richmond,VA,,,,Travel,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-01-16,EZ Pass,$20,Richmond,VA,,,,Travel,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-02-05,Meriwether Godsey Inc.,$408,Lynchburg,VA,,,,Event Catering,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-01-28,The Roanoke Times,$27.73,Roanoke,VA,,,,Subscription,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-02-25,The Roanoke Times,$27.73,Roanoke,VA,,,,Subscription,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-03-28,The Roanoke Times,$27.73,Roanoke,VA,,,,Subscription,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-01-21,JLK Political Strategies,"$1,001",Richmond,VA,,,,Consulting,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-01-28,JLK Political Strategies,"$1,000",Richmond,VA,,,,Consulting,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-02-24,JLK Political Strategies,"$1,000",Richmond,VA,,,,Consulting,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-02-05,Franklin County Treasurer's Office,$352.80,Rocky Mount,VA,,,,Filing Fee,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-02-05,Squarespace,$43.20,New York,NY,,,,Online Services,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-03-03,Squarespace,$43.20,New York,NY,,,,Online Services,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-03-31,Vinton Messenger,$52,Salem,VA,,,,Subscription,D,434994,2025-01-01 to 2025-03-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-06-03,William Cooper,"$1,000",Wirtz,VA,individual,Cooper Classics Inc,President,,A,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+contribution,2025-06-05,Walter Brown,"$1,000",Rocky Mount,VA,individual,Commonwealth of Virginia,Attorney,,A,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+contribution,2025-04-23,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,PAC,,A,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+contribution,2025-06-03,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,PAC,,A,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+contribution,2025-06-03,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Financial Services,,A,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+contribution,2025-06-03,Michael R Hurd,"$1,000",Roanoke,VA,individual,None,Retired,,A,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-04-02,Election CFO,"$1,019.40",Alexandria,VA,,,,Consulting,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-05-02,Election CFO,"$1,044",Alexandria,VA,,,,Consulting,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-04-09,Virginia House of Delegates,$37,Richmond,VA,,,,Flags,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-05-15,Virginia House of Delegates,$37,Richmond,VA,,,,Flags,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-04-07,The Commonwealth Hotel,$379.90,Richmond,VA,,,,Travel,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-04-03,USPS,$73,Washington,DC,,,,Postage,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-04-02,JLK Political Strategies,"$1,000",Richmond,VA,,,,Consulting,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-05-05,JLK Political Strategies,"$1,000",Richmond,VA,,,,Consulting,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-05-26,JLK Political Strategies,"$1,000",Richmond,VA,,,,Consulting,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-04-03,Squarespace,$44.40,New York,NY,,,,Online Services,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-05-05,Squarespace,$44.40,New York,NY,,,,Online Services,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-06-03,Squarespace,$44.40,New York,NY,,,,Online Services,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+expenditure,2025-04-04,CreateMyTee,$495.20,Ann Arbor,MI,,,,Printing,D,440422,2025-04-01 to 2025-06-05,CC-22-00255,Will Davis for Delegate
+contribution,2025-06-09,Virginia Trial Lawyers Political Action Committee,"$3,000",Richmond,VA,pac,,PAC,,A,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-06-06,Proud Patriots of Smith Mountain Lake PAC,$500,Smith Mountain Lake,VA,pac,,PAC,,A,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-06-23,Comcast Corporation,$500,Philadelphia,PA,business,,Cable Services,,A,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-06-23,Williams Mullen Clark and Dobbins,$250,Richmond,VA,business,,Law Firm,,A,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+in_kind,2025-06-20,Gentry Locke,$174.36,Richmond,VA,business,,Law Firm,Catering,B,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-06-09,Election CFO,"$1,011",Alexandria,VA,,,,Consulting,D,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-06-20,EZ Pass,$70,Richmond,VA,,,,Travel,D,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-06-23,The Commonwealth Hotel,$213.23,Richmond,VA,,,,Travel,D,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-06-09,USPS,$146,Washington,DC,,,,Postage,D,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-06-27,JLK Political Strategies,"$1,000",Richmond,VA,,,,Consulting,D,445558,2025-06-06 to 2025-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-07-16,William Amos,$500,Union Hall,VA,individual,None,Retired,,A,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-08-20,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,PAC,,A,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-07-14,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,PAC,,A,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-07-14,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-08-26,Virginia Cable PAC,$500,Richmond,VA,pac,,PAC,,A,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-08-19,Amazon.com Services LLC,$500,Seattle,WA,business,,Online Retail,,A,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-08-26,Virginia Maritime Association Political Action Committee,$500,Norfolk,VA,pac,,PAC,,A,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-07-01,Election CFO,"$1,024",Alexandria,VA,,,,Consulting,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-08-04,Election CFO,"$1,019",Alexandria,VA,,,,Consulting,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-07-31,Winred Technical Services,$19.70,Arlington,VA,,,,CC Processing,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-08-15,The Commonwealth Hotel,$182.56,Richmond,VA,,,,Travel,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-08-07,USPS,$156,Washington,DC,,,,Postage,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-07-22,JLK Political Strategies,$18.80,Richmond,VA,,,,List Rental,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-07-25,JLK Political Strategies,"$1,000",Richmond,VA,,,,Consulting,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-08-20,JLK Political Strategies,"$1,000",Richmond,VA,,,,Consulting,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-08-25,JLK Political Strategies,$630,Richmond,VA,,,,Printing,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-07-03,Squarespace,$44.40,New York,NY,,,,Online Services,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-08-04,Squarespace,$44.40,New York,NY,,,,Online Services,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-08-25,Highland Belles,$25.91,Dallas,TX,,,,Contribution,D,452261,2025-07-01 to 2025-08-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-30,Tatum B. Ferguson,$500,Roanoke,VA,individual,Ferguson Land & Lumber,Sawmill,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-22,Danny Perdue,"$5,000",Rocky Mount,VA,individual,Self Employed,Self Employed,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-30,Franklin County Republican Committee,$500,Rocky Mount,VA,pac,,Political Committee,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-22,Vision Management Services,$500,Chicago,IL,business,,Health Care,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-30,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-30,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-08,Sheetz,$250,Altoona,PA,business,,Convenience Store,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-23,Virginia Wine Wholesalers PAC,"$1,000",Richmond,VA,pac,,PAC,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-30,Mountain Valley Pipeline LLC,$500,Canonsburg,VA,business,,Pipeline,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-09-30,RAI Services Company,$500,Winston-Salem,NC,business,,Tobacco,,A,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-09-02,Election CFO,"$1,030",Alexandria,VA,,,,Consulting,D,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-09-29,Virginia Alcoholic Beverage Control Authority,$85,Mechanicsville,VA,,,,Event Expense,D,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-09-24,JLK Political Strategies,$300,Richmond,VA,,,,Consulting,D,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-09-26,JLK Political Strategies,"$1,000",Richmond,VA,,,,Consulting,D,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-09-03,Squarespace,$44.40,New York,NY,,,,Online Services,D,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+expenditure,2025-09-25,Wild City Shirt Co.,"$1,121.44",Lynchburg,VA,,,,Campaign Supplies,D,460079,2025-09-01 to 2025-09-30,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,William Cooper,$25,Wirtz,VA,individual,Cooper Classics Inc,President,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-22,William Cooper,"$2,500",Wirtz,VA,individual,Cooper Classics Inc,President,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Mike S. Carter,$125,Rocky Mount,VA,individual,Carter's Jewelry,Business Owner,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-22,Suzanne S. Cooper,"$1,000",Rocky Mount,VA,individual,None,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Wesley Naff III,$250,Boonesmill,VA,individual,None,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Ainsley Cooper Revercomb,$150,Jackson,WY,individual,Cooper Classics,VP of Sales,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Virgil H. Goode Jr.,$250,Rocky Mount,VA,individual,None,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-09,W. Colby Brown,$500,Ferrum,VA,individual,None,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Carol Cooper Lee,$250,Roanoke,VA,individual,None,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Frances Giles,"$1,000",Lynchburg,VA,individual,Retired,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Evelyn Elwell,$250,Hardy,VA,individual,Georg North America,VP of Production,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Creg Matthews,"$2,000",Boones Mill,VA,individual,Wells Fargo,Managing Director,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Virginia Trial Lawyers Political Action Committee,"$2,000",Richmond,VA,pac,,PAC,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-14,W Tucker Lemon Esq,$250,Roanoke,VA,individual,Martin Hopkins and Lemon PC,President,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Jane E. Turner,$625,Penhook,VA,individual,None,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Lori Cooper,$500,Moneta,VA,individual,Franklin County Public Schools,Teacher,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,Virginia Beer Wholesalers Association PAC,$500,Richmond,VA,pac,,PAC,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-13,Michael Wray,$500,Roanoke,VA,individual,Roanoke County Schools,Elected Official,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-13,Virginia State Police Association Inc PAC,$500,Richmond,VA,pac,,PAC,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-13,Realtors PAC of Virginia,"$1,000",Glen Allen,VA,pac,,PAC,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-13,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-21,HCA for Good Government,"$1,000",Richmond,VA,pac,,PAC,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,Ann Arlet Greer,$200,Callaway,VA,individual,Franklin County School Board,School Board Member,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,Ann Arlet Greer,$30,Callaway,VA,individual,Franklin County School Board,School Board Member,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,Chris Anne Carter,$400,Rocky Mount,VA,individual,None,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,ValleyStar,"$1,500",Martinsville,VA,business,,Credit Union,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,Dr. Mark A. Crabtree,"$1,000",Martinsville,VA,individual,Self,Dentist,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,Albers & Company,$500,Arlington,VA,business,,Government Relations,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,Virginia Dental Association PAC,$750,Richmond,VA,pac,,PAC,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-03,Bart Smith,$150,Rocky Mount,VA,individual,MKB Realtors,Real Estate,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-09,"Pom of Virginia, LLC","$1,000",Duluth,GA,business,,Gaming,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,"National Shooting Sports Foundation, Inc.",$500,Shelton,CT,business,,Foundation,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,PMI US Corporate Services,"$1,500",San Rafael,CA,business,,Manufacturing,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Lisa Karr,$125,Penhook,VA,individual,None,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Ben J. Davenport,"$2,500",Chatham,VA,individual,First Piedmont Corp,Executive,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-20,Joseph L. Millehan,"$1,000",Penhook,VA,individual,CCS Inc,Co-Owner,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-21,Joel Shepherd,$250,Roanoke,VA,individual,Virginia Furniture Market,President,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Christopher J. Keller,$250,Bedford,VA,individual,Davis Davis Davis & Davis,Attorney,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Diamond S Farms,$500,Union Hall,VA,business,,Farm,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Julianne B. Naff,$250,Callaway,VA,individual,TCV Trust & Wealth Management,Senior VP,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,J. Randolph Clements LLC,"$2,000",Roanoke,VA,business,,Podiatry and Wound Care,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Jason M. Turner,$500,Penhook,VA,individual,Turner's Dock Building,President,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Cooper Woolson,"$1,000",Rocky Mount,VA,individual,Merrill Lynch,Financial Advisor,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-23,Elizabeth G. Brumfield,$250,Rocky Mount,VA,individual,None,Retired,,A,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+in_kind,2025-10-03,Stanley for Senate,"$1,273.60",Moneta,VA,candidate,,Campaign Committee,Fundraising Event Expense,B,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+in_kind,2025-10-23,Stephanie Ferguson,$250,Glade Hill,VA,individual,VA 811,Construction,Event Staff,B,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-01,Election CFO,"$1,013",Alexandria,VA,,,,Consulting,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-20,Winred Technical Services,$9.85,Arlington,VA,,,,CC Processing,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-22,Blue Ridge Beverage Co Inc,$266.62,Salem,VA,,,,Food,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-03,Virginia Alcoholic Beverage Control Authority,$90,Mechanicsville,VA,,,,Event Expense,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-21,Virginia Alcoholic Beverage Control Authority,$341.10,Mechanicsville,VA,,,,Food,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-07,USPS,$78,Washington,DC,,,,Postage,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-08,USPS,$7.35,Washington,DC,,,,Shipping,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-07,Walmart,$5.07,Bentonville,AR,,,,Event Supplies,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-03,Squarespace,$44.40,New York,NY,,,,Online Services,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-02,Cool Branch Fire and Rescue,$500,Penhook,VA,,,,Contribution,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-02,FedEx,$91.60,Memphis,TN,,,,Shipping,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-02,FedEx,$49.48,Memphis,TN,,,,Printing,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-03,Kroger,$168.61,Cincinnati,OH,,,,Supplies,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-10,Point1 LLC,"$5,400",Mount Pleasant,SC,,,,Printing,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-13,Moving Mountains PAC,"$10,000",Richmond,VA,,,,Contribution,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-08,Hobby Lobby,$15.65,Oklahoma City,OK,,,,Event Supplies,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-21,BJ's,$281.16,Marlborough,MA,,,,Event Supplies,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-21,Food Lion,$64.41,Salisbury,NC,,,,Food,D,465823,2025-10-01 to 2025-10-23,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-29,Arthur Donaldson,$500,Mooresville,NC,individual,Retired,Retired,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-29,Rodney Dean Stone,"$1,000",Rocky Mount,VA,individual,Redwood Fuel and Oil,Manager,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-29,Joanna Gruver,$500,Wirtz,VA,individual,Haywood Jeweler Westlake,Owner,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-29,J. Hatcher Ferguson III,"$1,000",Rocky Mount,VA,individual,Ferguson Land & Lumber Co,Vice President,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-29,Jane E. Turner,"$1,000",Penhook,VA,individual,None,Retired,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-11-03,Virginia Hospital & Healthcare Association PAC,"$1,000",Richmond,VA,pac,,PAC,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-24,Terry Austin for House of Delegates,"$5,000",Buchanan,VA,candidate,,Campaign Committee,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-29,Linda B. Simpson,$250,Penhook,VA,individual,None,Retired,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-29,Richard Wayne Hall,"$2,500",Martinsville,VA,individual,Orion Capital,Managing Director,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-27,Spirit of VMI PAC,"$1,000",Alexandria,VA,pac,,PAC,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-29,William J. Walker,$500,Glade Hill,VA,individual,None,Retired,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-10-28,Sriram Peddibhotla,$416.41,McLean,VA,individual,SAIC,IT Principal  Architect,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-11-03,Alexander Boone,$520.51,Roanoke,VA,individual,Self,Real Estate  Development,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-11-03,Daniel Sullivan,$250,Penhook,VA,individual,Retired,Retired,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-11-03,Michael Schmidt,$125,Rocky Mount,VA,individual,Speedtrap Motors,Auto Dealer,,A,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-11-04,Election CFO,"$1,134",Alexandria,VA,,,,Consulting,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-31,Winred Technical Services,$36.11,Arlington,VA,,,,Fundraising Fees,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-11-27,Winred Technical Services,$20.51,Arlington,VA,,,,CC Processing,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-27,Kim Taylor for Virginia,"$5,000",Petersburg,VA,,,,Contribution,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-31,The Commonwealth Hotel,$646.09,Richmond,VA,,,,Travel,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-24,Walgreens,$12.95,Columbia,MD,,,,Event Supplies,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-11-03,Squarespace,$44.40,New York,NY,,,,Online Services,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-27,Friends of David Owen,"$5,000",Manakin Sabot,VA,,,,Contribution,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-27,Friends of Chad Green,"$1,500",Seaford,VA,,,,Contribution,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-27,Friends of Paul Milde,"$1,500",Stafford,VA,,,,Contribution,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-27,The Farmhouse,$983.70,Moneta,VA,,,,Food,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-11-06,Virginia Department of Elections,$100,Richmond,VA,,,,Late Filing Fee,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-11-10,Buddy's BBQ,$945.36,Rocky Mount,VA,,,,Food,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+expenditure,2025-10-24,Amazon,$18.84,Seattle,WA,,,,Event Supplies,D,472355,2025-10-24 to 2025-11-27,CC-22-00255,Will Davis for Delegate
+contribution,2025-12-30,McGuireWoods,$500,Richmond,VA,business,,Law Firm,,A,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-12-30,Commissioner of Revenue PAC - CORPAC,$250,Staunton,VA,pac,,PAC,,A,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-12-23,Eddie F. Hearp,$125,Roanoke,VA,individual,Hearp & Assoc,Stockbrokers/Financial Advisors,,A,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2025-12-30,"Metis Services, Inc","$1,000",Roanoke,VA,business,,Financial Services,,A,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-12-09,Election CFO,"$1,060.89",Alexandria,VA,,,,Consulting,D,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-12-31,Chain Bridge Bank,$25,McLean,VA,,,,Bank Fee,D,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-12-08,Omni Homestead Resort,$291.24,Hot Springs,VA,,,,Travel,D,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-12-18,Omni Homestead Resort,$222.46,Hot Springs,VA,,,,Travel,D,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-12-03,Squarespace,$44.40,New York,NY,,,,Online Services,D,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-12-05,Aztec Rental Center,$367.74,Salem,VA,,,,Event Supplies,D,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-12-31,Kilgore for Delegate,"$8,000",Gate City,VA,,,,Contribution,D,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+expenditure,2025-12-31,Will Davis for Delegate,$150,Rocky Mount,VA,,,,Lost Check,D,479288,2025-11-28 to 2025-12-31,CC-22-00255,Will Davis for Delegate
+contribution,2026-06-29,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,PAC,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2026-01-13,VA Operators for Skill,"$1,000",Richmond,VA,business,,Gaming,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2026-06-01,VA Operators for Skill,"$5,000",Richmond,VA,business,,Gaming,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2026-06-01,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Financial Services,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2026-01-13,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Real Estate,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2026-01-01,Commissioner of Revenue PAC - CORPAC,$250,Staunton,VA,pac,,PAC,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2026-01-13,PPE Casino Resorts Petersburg,"$1,000",Baltimore,MD,business,,Entertainment,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2026-04-13,Community-Owned Power PAC,$500,Glen Allen,VA,pac,,PAC,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2026-04-24,Dominion Energy Inc. PAC,"$15,000",Richmond,VA,pac,,PAC,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+contribution,2026-06-16,Capital Results LLC,$500,Richmond,VA,business,,Public Relations,,A,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-01-07,Election CFO,"$1,008",Alexandria,VA,,,,Consulting,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-02-11,Election CFO,$287,Alexandria,VA,,,,Consulting,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-03-19,Election CFO,$258,Alexandria,VA,,,,Consulting,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-03-31,Election CFO,$264,Alexandria,VA,,,,Consulting,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-05-07,Election CFO,$303.51,Alexandria,VA,,,,Consulting,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-06-02,Election CFO,$262.63,Alexandria,VA,,,,Consulting,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-04-10,Roanoke County Republican Committee,$250,Roanoke,VA,,,,Contribution,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-03-02,EZ Pass,$70,Richmond,VA,,,,Travel,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-01-28,Meriwether Godsey Inc.,$648,Lynchburg,VA,,,,Event Catering,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-03-24,House Republican Campaign Committee,"$1,000",Mechanicsville,VA,,,,Contribution,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-05-01,House Republican Campaign Committee,"$5,000",Mechanicsville,VA,,,,Contribution,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-06-09,USPS,$156,Washington,DC,,,,Postage,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-01-08,Walmart,$23.57,Bentonville,AR,,,,Food,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-06-03,Omni Homestead Resort,$254.80,Hot Springs,VA,,,,Travel,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-01-14,JLK Political Strategies,"$3,400",Richmond,VA,,,,Consulting,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-01-04,Squarespace,$44.40,New York,NY,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-01-19,Squarespace,$20,New York,NY,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-02-02,Squarespace,$44.40,New York,NY,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-03-02,Squarespace,$44.40,New York,NY,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-04-03,Squarespace,$44.40,New York,NY,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-05-04,Squarespace,$44.40,New York,NY,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-06-03,Squarespace,$44.40,New York,NY,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-01-07,Food Lion,$45.35,Salisbury,NC,,,,Food,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-03-17,Amazon,$101.09,Seattle,WA,,,,Supplies,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-01-19,Constant Contact,$118,Waltham,MA,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-01-26,Constant Contact,$59,Waltham,MA,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-02-25,Constant Contact,$59,Waltham,MA,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-03-25,Constant Contact,$59,Waltham,MA,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-04-27,Constant Contact,$59,Waltham,MA,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-05-25,Constant Contact,$59,Waltham,MA,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-06-25,Constant Contact,$59,Waltham,MA,,,,Online Services,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-03-09,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,,,,Contribution,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-03-23,Dementi Studios,$208.82,Richmond,VA,,,,Printing,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-04-27,Omni Richmond,$738.17,Richmond,VA,,,,Travel,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-04-28,Omni Richmond,$230.26,Richmond,VA,,,,Travel,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-06-22,Omni Richmond,$230.26,Richmond,VA,,,,Travel,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-06-30,Omni Richmond,$230.26,Richmond,VA,,,,Travel,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate
+expenditure,2026-04-29,"Agora Solutions, LLC",$210.54,Lynchburg,VA,,,,Texting,D,496776,2026-01-01 to 2026-06-30,CC-22-00255,Will Davis for Delegate

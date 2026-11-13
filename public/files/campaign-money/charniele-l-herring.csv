@@ -3,6 +3,904 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$442,563.07",,VA,,"From official Schedule H, November 2023 election cycle",H,496410,2026-07-15
 summary,2026-06-30,Raised this cycle,"$271,910.28",,,,Total receipts this election cycle (Schedule H),H,496410,2026-07-15
 summary,2026-06-30,Spent this cycle,"$169,972.63",,,,Total disbursements this election cycle (Schedule H),H,496410,2026-07-15
+contribution,2021-07-20,Charles Curran,$500,McLean,VA,individual,,A,397982,2024-04-12
+contribution,2021-08-02,Dish Network,$500,Englewood,CO,business,,A,397982,2024-04-12
+contribution,2021-08-30,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,397982,2024-04-12
+contribution,2021-08-04,Albert Dwoskin,"$2,500",Mclean,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-19,Emergency Medicine PAC,"$2,500",Richmond,VA,pac,,A,397982,2024-04-12
+contribution,2021-08-16,Erie Insurance PAC,$500,Erie,PA,pac,,A,397982,2024-04-12
+contribution,2021-08-30,Feminist Majority PAC,"$3,000",Arlington,VA,pac,,A,397982,2024-04-12
+contribution,2021-07-26,Golden Piedmont Labs,"$1,500",South Boston,VA,business,,A,397982,2024-04-12
+contribution,2021-08-28,Zack Golden,"$1,000",Arlington,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-01,Steven Hammond,$250,Richmond,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-21,Scott Harris,"$1,000",Marshall,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-16,Mr. Charles L. Herring Sr.,"$2,500",Rancho Cucamonga,CA,individual,,A,397982,2024-04-12
+contribution,2021-08-02,Ms. Marjorie Hobart,$250,Arlington,VA,individual,,A,397982,2024-04-12
+contribution,2021-08-25,Jean Hovey,"$1,500",Richmond,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-08,JMGT,"$5,000",Boca Raton,FL,business,,A,397982,2024-04-12
+contribution,2021-08-02,JPMO Strategies,$500,Richmond,VA,business,,A,397982,2024-04-12
+contribution,2021-08-30,Mary Hughes Knox,$100,Arlington,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-23,J. Hamilton Lambert,$500,Great Falls,VA,individual,,A,397982,2024-04-12
+contribution,2021-08-10,Diane G. Leopold,"$1,000",Midlothian,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-23,MAG Mutual VA PAC,"$3,500",Atlanta,GA,pac,,A,397982,2024-04-12
+contribution,2021-08-10,Metro Virginia PAC,$500,Washington,DC,pac,,A,397982,2024-04-12
+contribution,2021-07-23,David Millard,$500,Alexandria,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-13,Minyon Moore,$250,Washington,DC,individual,,A,397982,2024-04-12
+contribution,2021-08-27,Tram Nguyen,$200,Richmond,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-13,Ms. Gwen Paulson,$25,Alexandria,VA,individual,,A,397982,2024-04-12
+contribution,2021-08-16,Pfizer,"$1,000",Memphis,TN,business,,A,397982,2024-04-12
+contribution,2021-08-24,Pharmaceutical Research and Manufacturers of America,"$2,500",Washington,DC,business,,A,397982,2024-04-12
+contribution,2021-08-25,Quest Diagnostics,$500,Secaucus,NJ,business,,A,397982,2024-04-12
+contribution,2021-08-30,Reed Smith,$500,Richmond,VA,business,,A,397982,2024-04-12
+contribution,2021-08-25,SEIU COPE Fund,"$5,000",Washington,DC,business,,A,397982,2024-04-12
+contribution,2021-08-25,Sentara Employees Political Action Committee,$500,Virginia Beach,VA,pac,,A,397982,2024-04-12
+contribution,2021-07-20,John Shinholser,$500,Mechanicsville,VA,individual,,A,397982,2024-04-12
+contribution,2021-08-30,Mrs. Eleanor Smeal,"$2,000",Arlington,VA,individual,,A,397982,2024-04-12
+contribution,2021-08-02,Truist Virginia PAC,"$1,000",Richmond,VA,pac,,A,397982,2024-04-12
+contribution,2021-07-26,VADPAC,"$2,500",Richmond,VA,pac,,A,397982,2024-04-12
+contribution,2021-07-26,Virginia Beverage Association PAC,"$1,500",Richmond,VA,pac,,A,397982,2024-04-12
+contribution,2021-08-16,Virginia Health Care Association PAC,"$2,500",Richmond,VA,pac,,A,397982,2024-04-12
+contribution,2021-07-23,Virginia Retail Federation PAC,$750,Richmond,VA,pac,,A,397982,2024-04-12
+contribution,2021-07-16,Walgreens,$750,Deerfield,IL,business,,A,397982,2024-04-12
+contribution,2021-07-26,Washington Gas Light Company PAC,$500,Washington,DC,pac,,A,397982,2024-04-12
+contribution,2021-08-30,Waste Management,"$1,000",Houston,TX,business,,A,397982,2024-04-12
+contribution,2021-08-16,"American Federation of State, County, and Municipal Employees","$30,000",Washington,DC,business,,A,397982,2024-04-12
+contribution,2021-08-10,American HealthCare,"$5,000",Roanoke,VA,business,,A,397982,2024-04-12
+contribution,2021-07-16,Stewart Bartley,"$1,000",Alexandria,VA,individual,,A,397982,2024-04-12
+contribution,2021-07-06,Mr. Donald F. Bennett,$25,Alexandria,VA,individual,,A,397982,2024-04-12
+contribution,2021-08-10,Robert Blue,"$2,500",Richmond,VA,individual,,A,397982,2024-04-12
+contribution,2021-08-25,Katharine Bond,$250,Richmond,VA,individual,,A,397982,2024-04-12
+contribution,2021-08-26,Carlos M Brown,"$1,000",Glen Allen,VA,individual,,A,397982,2024-04-12
+contribution,2023-03-09,Alexandria Justice PAC,$500,Alexandria,VA,pac,,A,315757,2023-04-06
+contribution,2023-03-31,"American Federation of State, County, and Municipa","$10,000",Washington,DC,business,,A,315757,2023-04-06
+contribution,2023-03-13,Mr. Frank M. Conner III,"$1,000",Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-01-03,Delta Dental of Virginia,$250,Roanoke,VA,business,,A,315757,2023-04-06
+contribution,2023-03-24,Mr. William P. Dickinson,$150,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-01-10,Dominion Energy  Inc Political Action Committee,"$10,000",Richmond,VA,pac,,A,315757,2023-04-06
+contribution,2023-03-28,Dominion Energy  Inc Political Action Committee,"$25,000",Richmond,VA,pac,,A,315757,2023-04-06
+contribution,2023-03-07,Mr. Joseph Peter P Drennan,$500,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-23,Stefanie Sion Erkiletian,"$5,000",Arlington,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-04,Ms. Joan Fenton,"$1,000",Charlottesville,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-05,Ms. Donna Lou Fossum,$500,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-15,Barbara Fried,"$5,000",Crozet,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-28,Mr. Jere R. Gibber,$250,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-29,Ms. Mary Catherine Gibbs,"$2,500",Chicago,IL,individual,,A,315757,2023-04-06
+contribution,2023-03-13,Maggie Fraser Godbold,$250,Herndon,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-09,Ms. Carolyn Mary Grimes,"$2,500",Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-02-28,Colleen Haddow-Gehrig,$500,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-01-09,HBAV Build-PAC,"$2,500",Richmond,VA,pac,,A,315757,2023-04-06
+contribution,2023-03-17,Jane C. Hilder,$500,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-24,Ms. Julie N Jakopic,$250,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-22,Mary Hughes Knox,$200,Arlington,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-13,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-06,Anne G Little,"$1,000",Fredericksburg,VA,individual,,A,315757,2023-04-06
+contribution,2023-01-06,Joseph Massie,$500,Richmond,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-15,Ms. Suzann W. Matthews,"$2,000",McLean,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-28,Pamela S. McCoach,$250,Falls Church,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-15,Ms. Emily McCoy,"$3,000",Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-27,Harriet C. McGuire,"$1,000",Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-01-09,Northern Virginia Chamber of Commerce PAC,$250,Tysons,VA,pac,,A,315757,2023-04-06
+contribution,2023-03-16,John Onufer,"$2,000",Richmond,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-28,Myrtis Parham,$150,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-01,Mr. Thomas M Parry Jr.,$200,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-29,The Hon. Redella Pepper,$500,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-10,Todd A. Pilot,$250,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-04,Mr. Herbert L. Treger,$500,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-01,Virginia Asian American Store Owners Association,"$1,000",Richmond,VA,business,,A,315757,2023-04-06
+contribution,2023-03-01,Vision Management Services,$500,Chicago,IL,business,,A,315757,2023-04-06
+contribution,2023-03-21,Ms. Leslie S. Wilkes,"$2,000",Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-22,Sharon Wilkinson,$400,Alexandria,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-03,Robert V Witeck,$500,Arlington,VA,individual,,A,315757,2023-04-06
+contribution,2023-03-05,Robert V Witeck,$500,Arlington,VA,individual,,A,315757,2023-04-06
+contribution,2023-04-20,Ronald Abramson,"$7,500",Washington,DC,individual,,A,329441,2023-06-12
+contribution,2023-05-03,Ronald Abramson,"$3,750",Washington,DC,individual,,A,329441,2023-06-12
+contribution,2023-05-16,Ronald Abramson,"$3,750",Washington,DC,individual,,A,329441,2023-06-12
+contribution,2023-04-07,Alexandria Justice PAC,$500,Alexandria,VA,pac,,A,329441,2023-06-12
+contribution,2023-04-04,Ms. Fannie L. Allen,$200,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-06-06,American Healthcare,"$1,000",Roanoke,VA,business,,A,329441,2023-06-12
+contribution,2023-05-09,Atmos Energy Corporation PAC,"$1,000",Dallas,TX,pac,,A,329441,2023-06-12
+contribution,2023-04-11,Virginia Banchoff,$200,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-11,Richard A. Baugh,$500,Harrisonburg,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-25,Arik Ben-Zvi,$500,Washington,DC,individual,,A,329441,2023-06-12
+contribution,2023-05-31,Katharine Boyce Reeder,$500,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-03,James W. Green,$500,Fairfax,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-02,Ms. Carolyn Mary Grimes,"$1,000",Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-19,Ryan Guthrie,$250,Arlington,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-09,Jennifer Hoppe,$100,Arlington,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-24,JBG Smith Companies,"$1,000",Arlington,VA,business,,A,329441,2023-06-12
+contribution,2023-05-18,Carolyn Jefferson-Moss,$500,McLean,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-05,Mr. & Mrs. John Jonas,$250,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-27,Anthony Lewis,"$1,000",Washington,DC,individual,,A,329441,2023-06-12
+contribution,2023-05-24,Laura MacDonald,$250,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-02,McGuireWoods Consulting,"$1,000",Richmond,VA,business,,A,329441,2023-06-12
+contribution,2023-05-02,William Lawrence Murray,"$1,500",Henrico,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-19,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,329441,2023-06-12
+contribution,2023-05-19,Ms. Gwen Paulson,$250,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-01,Ms. Dorathea J. Peters,$150,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-03,Mr. Thomas H. Raycroft,$500,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-05,Allison Ricketts,"$1,000",Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-03,Rivers Portsmouth Gaming,"$1,000",Portsmouth,VA,business,,A,329441,2023-06-12
+contribution,2023-04-21,Saslaw for State Senate,"$1,000",Springfield,VA,candidate,,A,329441,2023-06-12
+contribution,2023-05-01,John M. Shinholser,$500,Mechanicsville,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-31,Diane Smith,"$10,000",Arlington,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-31,Karen Snyder,"$5,000",Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-18,Frances Broaddus-Crutchfield,"$1,000",Midlothian,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-24,Lisa J. Burns,$500,McLean,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-23,Mr. Jerome F Casagrande,$250,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-25,CC Procurement,"$1,000",Chelmsford,MA,business,,A,329441,2023-06-12
+contribution,2023-04-27,Commercial Development PAC,$500,Alexandria,VA,pac,,A,329441,2023-06-12
+contribution,2023-05-30,Commercial Development PAC,$500,Alexandria,VA,pac,,A,329441,2023-06-12
+contribution,2023-04-18,Common Good Virginia,"$7,000",Alexandria,VA,pac,,A,329441,2023-06-12
+contribution,2023-05-01,Ms. Sally Hill Cooper,$250,Arlington,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-01,Copart,$500,Fairfield,CA,business,,A,329441,2023-06-12
+contribution,2023-05-09,CSX Transportation,$500,Jacksonville,FL,business,,A,329441,2023-06-12
+contribution,2023-05-17,Mr. Thomas J. Curcio ESQ.,$200,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-18,Brian Detter,$200,Mclean,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-19,Mr. William P. Dickinson,$100,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-26,Nancy Dipaolo,$100,Arlington,VA,individual,,A,329441,2023-06-12
+contribution,2023-06-01,Nancy Dipaolo,$250,Arlington,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-15,Patrick M. Doherty,$250,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-14,Mr. Andres Domeyko,$250,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-19,Dominion Energy  Inc Political Action Committee,"$10,000",Richmond,VA,pac,,A,329441,2023-06-12
+contribution,2023-04-21,Entertainment Software Association,"$1,000",Washington,DC,business,,A,329441,2023-06-12
+contribution,2023-05-24,Feminist Majority PAC,"$2,500",Arlington,VA,pac,,A,329441,2023-06-12
+contribution,2023-05-30,FirePAC Local 2068,"$1,000",Fairfax,VA,pac,,A,329441,2023-06-12
+contribution,2023-05-16,Edward F. Gerwin Jr,$500,Falls Church,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-25,Justin Gray,$500,Washington,DC,individual,,A,329441,2023-06-12
+contribution,2023-04-17,David G. Speck,$500,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-04-24,Mr. William J. Swedish,$250,Arlington,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-19,Truckers Political Action Committee of A,$250,Richmond,VA,pac,,A,329441,2023-06-12
+contribution,2023-06-01,Virginia Automobile & Truck Dealers PAC,"$10,000",Richmond,VA,pac,,A,329441,2023-06-12
+contribution,2023-04-11,Virginia BankPAC,"$1,000",Glen Allen,VA,pac,,A,329441,2023-06-12
+contribution,2023-04-21,Virginia Beer Wholesalers Association,"$5,000",Richmond,VA,business,,A,329441,2023-06-12
+contribution,2023-05-01,Virginia Cable Political Action Committee,"$2,500",Richmond,VA,pac,,A,329441,2023-06-12
+contribution,2023-05-24,Virginia Chapter Sierra Club PAC,$250,Richmond,VA,pac,,A,329441,2023-06-12
+contribution,2023-05-30,Virginia Health Care Association PAC,"$1,000",Richmond,VA,pac,,A,329441,2023-06-12
+contribution,2023-05-01,Virginia Independent Automobile Dealers Association,$250,Virginia Beach,VA,business,,A,329441,2023-06-12
+contribution,2023-04-21,Virginia Manufactured & Modular Housing Assn PAC,"$1,000",Henrico,VA,pac,,A,329441,2023-06-12
+contribution,2023-04-14,Virginia Sheriffs' Association,$500,Richmond,VA,pac,,A,329441,2023-06-12
+contribution,2023-04-27,Virginia Trial Lawyers Association PAC,"$2,500",Richmond,VA,pac,,A,329441,2023-06-12
+contribution,2023-05-31,Mr. Boyd W. Walker,$105,Alexandria,VA,individual,,A,329441,2023-06-12
+contribution,2023-05-03,Edward L. Weiner,$250,Fairfax,VA,individual,,A,329441,2023-06-12
+contribution,2023-06-12,Altria Client Services,"$1,500",Richmond,VA,business,,A,339524,2023-07-17
+contribution,2023-06-12,Astellas Pharma,$250,Northbrook,IL,business,,A,339524,2023-07-17
+contribution,2023-06-28,Sandra Byrne,$500,Alexandria,VA,individual,,A,339524,2023-07-17
+contribution,2023-06-27,Capital One Services,"$2,500",Reston,VA,business,,A,339524,2023-07-17
+contribution,2023-06-27,Comcast,"$5,000",Philadelphia,PA,business,,A,339524,2023-07-17
+contribution,2023-06-27,DOCPAC of Virginia,$500,Napa,CA,pac,,A,339524,2023-07-17
+contribution,2023-06-30,Dominion Energy Inc Political Action Committee - Virginia,"$50,000",Richmond,VA,pac,,A,339524,2023-07-17
+contribution,2023-06-22,Anna K. Dvorchik,$250,Alexandria,VA,individual,,A,339524,2023-07-17
+contribution,2023-06-29,Timothy Gale,"$1,000",Alexandria,VA,individual,,A,339524,2023-07-17
+contribution,2023-06-21,JMGT,"$1,000",Boca Raton,FL,business,,A,339524,2023-07-17
+contribution,2023-06-27,Patrick Morrison,$250,Falls Church,VA,individual,,A,339524,2023-07-17
+contribution,2023-06-15,Mr. Patrick Mulloy,$75,Alexandria,VA,individual,,A,339524,2023-07-17
+contribution,2023-06-12,Northern Virginia Realtors PAC,"$1,000",Fairfax,VA,pac,,A,339524,2023-07-17
+contribution,2023-06-21,VEA Fund,$500,Richmond,VA,business,,A,339524,2023-07-17
+contribution,2023-06-15,Virginia Future PAC,"$1,000",Richmond,VA,pac,,A,339524,2023-07-17
+contribution,2023-07-18,7-Eleven,$500,Irving,TX,business,,A,350600,2023-09-15
+contribution,2023-08-03,Kim Anderson,$500,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-07-10,Anheuser Busch,"$1,000",Washington,DC,business,,A,350600,2023-09-15
+contribution,2023-08-23,AT&T,$500,Saint Louis,MO,business,,A,350600,2023-09-15
+contribution,2023-08-10,Baltimore Washington Construction & Public Employees Laborers PAC,"$10,000",Reston,VA,pac,,A,350600,2023-09-15
+contribution,2023-07-15,Kristen Brenchley,$500,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-15,Ms. Rosa Byrd,$200,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-07-10,Caesars Enterprise Services,"$1,000",Las Vegas,NV,business,,A,350600,2023-09-15
+contribution,2023-07-27,Mr. Andrew Carroll,$250,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-28,Ryan Compton,$250,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-28,Ryan Compton,$250,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-08,CRNA-PAC,$500,Forest Hill,MD,pac,,A,350600,2023-09-15
+contribution,2023-07-10,Pamela Dorsey,$400,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-03,Judith Feder,$600,McLean,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-31,FirePAC Local 2068,"$5,000",Fairfax,VA,pac,,A,350600,2023-09-15
+contribution,2023-08-16,Freedom Virginia,"$1,500",Arlington,VA,business,,A,350600,2023-09-15
+contribution,2023-07-29,Alys Hart,$250,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-07-20,Matthew Howard,"$1,000",Arlington,VA,individual,,A,350600,2023-09-15
+contribution,2023-07-30,Cynthia Hudson,$500,Glen Allen,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-30,Hunton Andrews Kurth,"$4,000",Richmond,VA,business,,A,350600,2023-09-15
+contribution,2023-07-21,Mary Hynes,$250,Arlington,VA,individual,,A,350600,2023-09-15
+contribution,2023-07-13,Joseph Kaempfer,"$2,500",McLean,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-06,Mr. Herschel Kanter,$500,Arlington,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-06,Mr. Herschel Kanter,$10,Arlington,VA,individual,,A,350600,2023-09-15
+contribution,2023-07-27,Jeremy Kaplan,$400,McLean,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-01,James Kapsis,$500,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-13,Mark Kasman,$250,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-07-11,Christopher Leibig,"$2,500",Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-07-27,Elizabeth Livingston,$500,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-28,Maritime Issues Council,"$1,000",Norfolk,VA,business,,A,350600,2023-09-15
+contribution,2023-08-20,James Massie,$250,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-28,"Merck, Sharpe, & Dohme","$1,000",Rahway,NJ,business,,A,350600,2023-09-15
+contribution,2023-07-28,Metro Virginia PAC,$750,Washington,DC,pac,,A,350600,2023-09-15
+contribution,2023-07-27,David Millard,$200,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-23,Mondelez Global,$500,Chicago,IL,business,,A,350600,2023-09-15
+contribution,2023-08-11,Catherine Morosoff,"$1,000",Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-25,Catherine Morosoff,"$1,000",Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-13,Gregory Papa,$250,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-23,Premium Distributors of Virginia,"$2,000",Chantilly,VA,business,,A,350600,2023-09-15
+contribution,2023-08-18,SEIU COPE Fund,"$2,500",Washington,DC,business,,A,350600,2023-09-15
+contribution,2023-07-30,Thomas Spavins,$250,Arlington,VA,individual,,A,350600,2023-09-15
+contribution,2023-08-30,Strata Solar,$500,Durham,NC,business,,A,350600,2023-09-15
+contribution,2023-08-16,VADPAC,"$3,500",Richmond,VA,pac,,A,350600,2023-09-15
+contribution,2023-08-03,Verizon Good Government Club of Virginia,"$2,500",Washington,DC,pac,,A,350600,2023-09-15
+contribution,2023-08-25,Virginia Beverage Association PAC,"$2,000",Richmond,VA,pac,,A,350600,2023-09-15
+contribution,2023-08-25,Virginia Land Title Association,"$1,000",Alpharetta,GA,business,,A,350600,2023-09-15
+contribution,2023-08-11,Virginia Manufactured & Modular Housing Assn PAC,"$1,000",Henrico,VA,pac,,A,350600,2023-09-15
+contribution,2023-07-21,Virginia Poultry Federation PAC,$300,Harrisonburg,VA,pac,,A,350600,2023-09-15
+contribution,2023-08-23,Virginia Professional Fire Fighters,"$2,500",Manassas,VA,business,,A,350600,2023-09-15
+contribution,2023-08-03,Virginia Radiology PAC,$500,Richmond,VA,pac,,A,350600,2023-09-15
+contribution,2023-07-10,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,350600,2023-09-15
+contribution,2023-07-28,Virginia Society of CPA's PAC,$500,Glen Allen,VA,pac,,A,350600,2023-09-15
+contribution,2023-08-23,Virginia Wine Wholesalers PAC,"$2,500",Richmond,VA,pac,,A,350600,2023-09-15
+contribution,2023-07-10,VPTA-PAC,"$1,000",Clifton,VA,pac,,A,350600,2023-09-15
+contribution,2023-07-10,"Walmart Stores, Inc","$1,000",Bentonville,AR,business,,A,350600,2023-09-15
+contribution,2023-08-05,Paul Wood,$300,Alexandria,VA,individual,,A,350600,2023-09-15
+contribution,2023-09-25,Ahold Delhaize,"$1,000",Salisbury,NC,business,,A,361134,2023-10-16
+contribution,2023-09-01,"American Federation of State, County, and Municipa","$7,500",Washington,DC,business,,A,361134,2023-10-16
+contribution,2023-09-25,American Traffic Solutions,"$1,000",Mesa,AZ,business,,A,361134,2023-10-16
+contribution,2023-09-21,AVS Companies,"$2,500",Elk Grove Village,IL,business,,A,361134,2023-10-16
+contribution,2023-09-25,Bank of America,$500,Washington,DC,business,,A,361134,2023-10-16
+contribution,2023-09-28,Betting on VA Jobs,"$5,000",Henrico,VA,business,,A,361134,2023-10-16
+contribution,2023-09-29,Rudy Brioche,$500,Alexandria,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-29,Mark Bysfield,$250,Alexandria,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-28,CareFirst Management,"$1,000",Owings Mills,MD,business,,A,361134,2023-10-16
+contribution,2023-09-20,Cigna,"$1,000",Philadelphia,PA,business,,A,361134,2023-10-16
+contribution,2023-09-25,Committee for Effective Government Virginia Natural Gas,$500,Virginia Beach,VA,business,,A,361134,2023-10-16
+contribution,2023-09-27,Sally Hill Cooper,$150,Arlington,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-27,Ms. Michele S. Cumberland,$250,Alexandria,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-20,CVS Health,"$1,000",Woonsocket,RI,business,,A,361134,2023-10-16
+contribution,2023-09-28,Gregory Delawie,$250,Alexandria,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-20,Democratic Progress,"$2,000",Denver,CO,business,,A,361134,2023-10-16
+contribution,2023-09-29,Dominion Energy Inc Political Action Committee - Virginia,"$50,000",Richmond,VA,pac,,A,361134,2023-10-16
+contribution,2023-09-25,Entertainment Software Association,$500,Washington,DC,business,,A,361134,2023-10-16
+contribution,2023-09-29,Jatrice Gaiter,"$1,000",Alexandria,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-20,HOSPAC,"$10,000",Glen Allen,VA,pac,,A,361134,2023-10-16
+contribution,2023-09-20,HOSPAC,"$1,000",Glen Allen,VA,pac,,A,361134,2023-10-16
+contribution,2023-09-12,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,361134,2023-10-16
+contribution,2023-09-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-27,Natalie Ludaway,$250,Washington,DC,individual,,A,361134,2023-10-16
+contribution,2023-09-20,Catherine Morosoff,"$1,000",Alexandria,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-27,Glenn Nye,$500,Arlington,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-28,Ray Patel,$500,Chesapeake,VA,individual,,A,361134,2023-10-16
+contribution,2023-09-20,Pfizer,"$1,000",Memphis,TN,business,,A,361134,2023-10-16
+contribution,2023-09-20,Realtors Political Action Committee of Virginia,"$6,500",Glen Allen,VA,pac,,A,361134,2023-10-16
+contribution,2023-09-29,RELX,$500,Washington,DC,business,,A,361134,2023-10-16
+contribution,2023-09-28,Virginia Automobile & Truck Dealers PAC,"$3,000",Richmond,VA,pac,,A,361134,2023-10-16
+contribution,2023-09-29,Virginia BankPAC,"$5,000",Glen Allen,VA,pac,,A,361134,2023-10-16
+contribution,2023-09-25,Virginia Trial Lawyers Association PAC,"$1,000",Richmond,VA,pac,,A,361134,2023-10-16
+contribution,2023-09-25,Vision Management Services,"$1,000",Chicago,IL,business,,A,361134,2023-10-16
+contribution,2023-09-12,Wells Fargo & Co. Virginia Employees Good Government Fund,$500,Minneapolis,MN,business,,A,361134,2023-10-16
+contribution,2023-09-20,David E. Yensen,"$1,000",Arlington,VA,individual,,A,361134,2023-10-16
+contribution,2023-10-10,Abbott Laboratories,$500,Abbott Park,IL,business,,A,369405,2023-10-30
+contribution,2023-10-10,AdvanSix PAC,$500,Parsippany,NJ,pac,,A,369405,2023-10-30
+contribution,2023-10-25,AgPAC,$500,Richmond,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-19,Marietta Allen,$250,Manassas,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-19,Amazon.com Services,"$2,500",Seattle,WA,business,,A,369405,2023-10-30
+contribution,2023-10-04,Apex Clean Energy,"$1,500",Charlottesville,VA,business,,A,369405,2023-10-30
+contribution,2023-10-17,Ward Armstrong,$250,Martinsville,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-24,Andrea Bailey,$250,Dumfries,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-19,Tracy Baynard,$250,Alexandria,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-04,CC Procurement,"$1,000",Chelmsford,MA,business,,A,369405,2023-10-30
+contribution,2023-10-16,CCAN Action Fund,$500,Takoma Park,MD,business,,A,369405,2023-10-30
+contribution,2023-10-25,CCAN Action Fund,$500,Takoma Park,MD,business,,A,369405,2023-10-30
+contribution,2023-10-13,Christian Chu,$250,Arlington,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-06,Mr. Alan Cohen,$250,College Park,MD,individual,,A,369405,2023-10-30
+contribution,2023-10-06,CWA COPE,"$1,000",Washington,DC,business,,A,369405,2023-10-30
+contribution,2023-10-16,Stuart Davis,$250,Arlington,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-05,Delta Dental of Virginia,"$1,000",Roanoke,VA,business,,A,369405,2023-10-30
+contribution,2023-10-14,Nancy Dipaolo,$100,Arlington,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-19,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-10,Jane Edmondson,$250,McLean,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-23,FirePAC Local 2068,"$5,000",Fairfax,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-23,General Motors Company PAC,$500,Washington,DC,pac,,A,369405,2023-10-30
+contribution,2023-10-13,Genworth Financial,"$2,000",Lynchburg,VA,business,,A,369405,2023-10-30
+contribution,2023-10-19,Jere Gibber,$250,Alexandria,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-14,Spencer Griffith,$200,Arlington,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-19,HCA for Good Government,"$1,500",Reston,VA,business,,A,369405,2023-10-30
+contribution,2023-10-19,Shelby Holloway,$500,Alexandria,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-16,HOSPAC,"$5,000",Glen Allen,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-05,Claudia James,$100,Arlington,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-25,JPMO Strategies,$500,Richmond,VA,business,,A,369405,2023-10-30
+contribution,2023-10-13,Pamela McCoach,$50,Falls Church,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-19,Ms. Emily McCoy,"$2,500",Alexandria,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-25,Mr. Robert H. Miller,$150,Alexandria,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-12,Catherine Morosoff,"$1,000",Alexandria,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-19,Catherine Morosoff,"$1,000",Alexandria,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-13,Northern Virginia Labor Federation AFL-CIO,$500,Annandale,VA,business,,A,369405,2023-10-30
+contribution,2023-10-17,Omega Protein,"$1,500",Houston,TX,business,,A,369405,2023-10-30
+contribution,2023-10-17,Chris Petersen,$500,McLean,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-23,Publix,$500,Lakeland,FL,business,,A,369405,2023-10-30
+contribution,2023-10-10,RAI Services Company,$500,Winston Salem,NC,business,,A,369405,2023-10-30
+contribution,2023-10-19,Realtors Political Action Committee of Virginia,"$5,000",Glen Allen,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-23,Todd Stottlemyer,"$2,500",Oakton,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-19,Stratpaths,$500,Alexandria,VA,business,,A,369405,2023-10-30
+contribution,2023-10-25,The American Electric Power Company - Virginia Committee for Responsible Government,"$3,000",Richmond,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-16,Titan America,$500,Norfolk,VA,business,,A,369405,2023-10-30
+contribution,2023-10-25,Transurban USA,"$1,000",New York,NY,business,,A,369405,2023-10-30
+contribution,2023-10-10,USAA,$500,San Antonio,TX,business,,A,369405,2023-10-30
+contribution,2023-10-23,VA Mortgage Bankers PAC,$500,Glen Allen,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-19,Virginia Credit Union PAC,"$1,000",Lynchburg,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-11,Virginia League of Conservation Voters PAC,"$12,500",Richmond,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-23,Virginia Optometric Association,$500,Richmond,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-19,Virginia State Farm Agents and Employee PAC,"$1,000",Williamsburg,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-10,Virginia Transportation Construction Alliance PAC,"$2,500",North Chesterfield,VA,pac,,A,369405,2023-10-30
+contribution,2023-10-24,Kristin Woody,$250,Arlington,VA,individual,,A,369405,2023-10-30
+contribution,2023-10-27,Capital One Services,"$1,000",Reston,VA,business,,A,379163,2023-12-01
+contribution,2023-11-27,Commissioner of Revenue PAC,$250,Newport News,VA,pac,,A,379163,2023-12-01
+contribution,2023-11-13,Covanta Holding Corporation,"$1,000",Morristown,NJ,business,,A,379163,2023-12-01
+contribution,2023-10-31,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,379163,2023-12-01
+contribution,2023-11-07,Ms. Karen Hayes,"$1,000",Alexandria,VA,individual,,A,379163,2023-12-01
+contribution,2023-11-21,IGT Global Solutions,"$2,500",Reno,NV,business,,A,379163,2023-12-01
+contribution,2023-10-27,David Jones,$500,Washington,DC,individual,,A,379163,2023-12-01
+contribution,2023-10-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,379163,2023-12-01
+contribution,2023-11-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,379163,2023-12-01
+contribution,2023-10-27,Michael Levine,$500,Williamsburg,VA,individual,,A,379163,2023-12-01
+contribution,2023-10-29,Ms. Emily McCoy,"$5,000",Alexandria,VA,individual,,A,379163,2023-12-01
+contribution,2023-11-13,Constance McKenna,$100,Alexandria,VA,individual,,A,379163,2023-12-01
+contribution,2023-11-03,Metis Services,"$1,000",Roanoke,VA,business,,A,379163,2023-12-01
+contribution,2023-10-30,NoVA Build PAC,"$2,000",Chantilly,VA,pac,,A,379163,2023-12-01
+contribution,2023-10-31,Pharmaceutical Research and Manufacturers of America,"$1,000",Washington,DC,business,,A,379163,2023-12-01
+contribution,2023-10-31,Reed Smith,"$1,500",Richmond,VA,business,,A,379163,2023-12-01
+contribution,2023-11-02,Steven Royster,$250,Alexandria,VA,individual,,A,379163,2023-12-01
+contribution,2023-10-27,Stephen Starr,$250,Arlington,VA,individual,,A,379163,2023-12-01
+contribution,2023-11-13,Todd Stottlemyer,"$5,000",Oakton,VA,individual,,A,379163,2023-12-01
+contribution,2023-10-31,Strata Solar,$500,Durham,NC,business,,A,379163,2023-12-01
+contribution,2023-10-27,T-Mobile,$500,Bellevue,WA,business,,A,379163,2023-12-01
+contribution,2023-11-29,Truckers Political Action Committee of VA,$500,Richmond,VA,pac,,A,379163,2023-12-01
+contribution,2023-10-30,VAMIC PAC,"$1,000",Richmond,VA,pac,,A,379163,2023-12-01
+contribution,2023-11-29,Virginia Optometric Association,"$1,000",Richmond,VA,pac,,A,379163,2023-12-01
+contribution,2023-10-30,Virginia State Police Association,$250,Richmond,VA,pac,,A,379163,2023-12-01
+contribution,2023-11-27,Virginia Trial Lawyers Association PAC,"$5,000",Richmond,VA,pac,,A,379163,2023-12-01
+contribution,2023-11-03,Visa,"$1,000",Washington,DC,business,,A,379163,2023-12-01
+contribution,2023-10-30,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,A,379163,2023-12-01
+contribution,2023-10-30,Douglas Williams,$250,Arlington,VA,individual,,A,379163,2023-12-01
+contribution,2023-12-18,"Allen, Allen, Allen & Allen","$2,500",Richmond,VA,business,,A,393147,2024-01-16
+contribution,2023-12-18,Anthem Blue Cross Blue Shield,"$2,000",Cincinnati,OH,business,,A,393147,2024-01-16
+contribution,2023-12-18,Genworth Financial,"$1,500",Lynchburg,VA,business,,A,393147,2024-01-16
+contribution,2023-12-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,393147,2024-01-16
+contribution,2023-12-18,Norfolk Southern,"$2,000",Norfolk,VA,business,,A,393147,2024-01-16
+contribution,2023-12-18,Albert Pollard,$750,Irvington,VA,individual,,A,393147,2024-01-16
+contribution,2023-12-18,RAI Services Company,"$1,500",Winston Salem,NC,business,,A,393147,2024-01-16
+contribution,2023-12-22,Virginia Health Care Association PAC,"$5,000",Richmond,VA,pac,,A,393147,2024-01-16
+contribution,2023-12-22,Virginia Poultry Federation PAC,$300,Harrisonburg,VA,pac,,A,393147,2024-01-16
+contribution,2023-12-18,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,393147,2024-01-16
+contribution,2023-12-18,Virginia State Farm Agents and Employee PAC,"$2,500",Williamsburg,VA,pac,,A,393147,2024-01-16
+contribution,2024-06-12,AdvanSix Inc. Political Action Committee,$500,Parsippany,NJ,pac,,A,409541,2024-07-15
+contribution,2024-01-08,AES Distributed Energy,"$5,000",Salt Lake City,UT,business,,A,409541,2024-07-15
+contribution,2024-04-16,Altria Client Services,"$7,500",Richmond,VA,business,,A,409541,2024-07-15
+contribution,2024-06-12,American Council of Life Insurers PAC,"$1,000",Washington,DC,pac,,A,409541,2024-07-15
+contribution,2024-06-28,Anheuser Busch,"$1,000",Washington,DC,business,,A,409541,2024-07-15
+contribution,2024-06-28,Atmos Energy Corporation PAC,"$1,000",Dallas,TX,pac,,A,409541,2024-07-15
+contribution,2024-01-08,Baltimore Washington Construction & Public Employees Laborers PAC,"$5,000",Reston,VA,pac,,A,409541,2024-07-15
+contribution,2024-01-08,Betting on VA Jobs,"$5,000",Henrico,VA,business,,A,409541,2024-07-15
+contribution,2024-01-08,Building A Remarkable Virginia PAC,"$5,000",Reston,VA,pac,,A,409541,2024-07-15
+contribution,2024-03-11,Capital Results,$500,Richmond,VA,business,,A,409541,2024-07-15
+contribution,2024-01-08,Care Advantage,"$1,000",North Chesterfield,VA,business,,A,409541,2024-07-15
+contribution,2024-06-28,Community-Owned Power PAC,"$5,000",Glen Allen,VA,pac,,A,409541,2024-07-15
+contribution,2024-01-08,Cozen O'Connor,"$1,500",Philadelphia,PA,business,,A,409541,2024-07-15
+contribution,2024-01-09,Curo Group of Virginia,"$2,500",Saint Louis,MO,business,,A,409541,2024-07-15
+contribution,2024-01-05,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,409541,2024-07-15
+contribution,2024-06-26,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,409541,2024-07-15
+contribution,2024-01-08,Highland Electric Transportation,"$1,000",Hamilton,MA,business,,A,409541,2024-07-15
+contribution,2024-06-26,Jean Hovey,"$1,000",Richmond,VA,individual,,A,409541,2024-07-15
+contribution,2024-06-28,Hunton Andrews Kurth,"$7,500",Richmond,VA,business,,A,409541,2024-07-15
+contribution,2024-01-08,International Paper PAC,$500,Washington,DC,pac,,A,409541,2024-07-15
+contribution,2024-01-08,JMGT,"$1,000",Boca Raton,FL,business,,A,409541,2024-07-15
+contribution,2024-03-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,409541,2024-07-15
+contribution,2024-04-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,409541,2024-07-15
+contribution,2024-05-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,409541,2024-07-15
+contribution,2024-06-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,409541,2024-07-15
+contribution,2024-01-08,McGuireWoods Consulting,"$2,000",Richmond,VA,business,,A,409541,2024-07-15
+contribution,2024-06-26,Merck & Co.,"$1,000",Rahway,NJ,business,,A,409541,2024-07-15
+contribution,2024-06-26,Mondelez Global,$750,Chicago,IL,business,,A,409541,2024-07-15
+contribution,2024-01-08,NiSource Inc. PAC,"$1,000",Columbus,OH,pac,,A,409541,2024-07-15
+contribution,2024-01-08,PRA Group,"$1,000",Norfolk,VA,business,,A,409541,2024-07-15
+contribution,2024-06-26,Realtors Political Action Committee of Virginia,"$5,000",Glen Allen,VA,pac,,A,409541,2024-07-15
+contribution,2024-06-12,Republic Services,$500,Phoenix,AZ,business,,A,409541,2024-07-15
+contribution,2024-01-08,Smithfield Support Services Corp,"$1,000",Smithfield,VA,business,,A,409541,2024-07-15
+contribution,2024-01-08,Strata Solar,"$1,500",Durham,NC,business,,A,409541,2024-07-15
+contribution,2024-03-11,The American Electric Power Company - Virginia Committee for Responsible Government,"$2,500",Washington,DC,pac,,A,409541,2024-07-15
+contribution,2024-06-12,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,A,409541,2024-07-15
+contribution,2024-03-11,"Tremco CPG INC, PAC",$500,Beachwood,OH,pac,,A,409541,2024-07-15
+contribution,2024-03-18,Virginia Cable Political Action Committee,"$5,000",Richmond,VA,pac,,A,409541,2024-07-15
+contribution,2024-01-05,Virginia Everywhere,"$1,000",Richmond,VA,business,,A,409541,2024-07-15
+contribution,2024-01-06,Virginia Future PAC,"$1,000",Richmond,VA,pac,,A,409541,2024-07-15
+contribution,2024-01-09,Virginia Oil & Gas Association,$500,Abingdon,VA,business,,A,409541,2024-07-15
+contribution,2024-06-26,Virginia Sheriffs' Association,"$1,500",Richmond,VA,pac,,A,409541,2024-07-15
+contribution,2024-01-08,Virginia Transportation Construction Alliance PAC,"$2,500",North Chesterfield,VA,pac,,A,409541,2024-07-15
+contribution,2024-06-26,Virginia Wine Wholesalers PAC,"$3,500",Richmond,VA,pac,,A,409541,2024-07-15
+contribution,2024-11-18,Abbott Laboratories,$250,Abbott Park,IL,business,,A,430395,2025-01-15
+contribution,2024-09-17,AES Distributed Energy,"$5,000",Salt Lake City,UT,business,,A,430395,2025-01-15
+contribution,2024-11-18,"Allen, Allen, Allen & Allen","$2,500",Richmond,VA,business,,A,430395,2025-01-15
+contribution,2024-08-30,Amazon.com Services,"$5,000",Seattle,WA,business,,A,430395,2025-01-15
+contribution,2024-11-18,American Traffic Solutions,"$1,000",Mesa,AZ,business,,A,430395,2025-01-15
+contribution,2024-10-01,ARDA-Resort Owners Coalition PAC,"$1,500",Washington,DC,pac,,A,430395,2025-01-15
+contribution,2024-12-02,Associated Distributors,"$1,500",Sandston,VA,business,,A,430395,2025-01-15
+contribution,2024-09-17,AT&T,$750,Saint Louis,MO,business,,A,430395,2025-01-15
+contribution,2024-10-10,Baltimore Washington Construction,"$5,000",Reston,VA,business,,A,430395,2025-01-15
+contribution,2024-10-10,Capital One Services,$500,Reston,VA,business,,A,430395,2025-01-15
+contribution,2024-11-18,Care Advantage,"$1,000",North Chesterfield,VA,business,,A,430395,2025-01-15
+contribution,2024-11-18,CCBCC Operations,"$1,000",Charlotte,NC,business,,A,430395,2025-01-15
+contribution,2024-09-17,CloudHQ,"$5,000",Washington,DC,business,,A,430395,2025-01-15
+contribution,2024-07-12,Comcast,"$1,000",Philadelphia,PA,business,,A,430395,2025-01-15
+contribution,2024-08-30,Copart,"$1,000",Fairfield,CA,business,,A,430395,2025-01-15
+contribution,2024-12-19,Cozen O'Connor,"$1,000",Philadelphia,PA,business,,A,430395,2025-01-15
+contribution,2024-10-07,CRNA-PAC,"$1,000",Forest Hill,MD,pac,,A,430395,2025-01-15
+contribution,2024-10-10,CSX Transportation Inc State Campaign Account,$500,Jacksonville,FL,business,,A,430395,2025-01-15
+contribution,2024-08-13,CVS Health,"$1,000",Woonsocket,RI,business,,A,430395,2025-01-15
+contribution,2024-07-12,Deloitte PAC,"$2,000",Washington,DC,pac,,A,430395,2025-01-15
+contribution,2024-12-19,Delta Dental of Virginia,$750,Roanoke,VA,business,,A,430395,2025-01-15
+contribution,2024-09-26,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-11-21,Dominion Energy Inc Political Action Committee - Virginia,"$50,000",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-12-04,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-09-17,DoorDash,"$1,000",San Francisco,CA,business,,A,430395,2025-01-15
+contribution,2024-10-10,Employees of RTX Corporation PAC,$500,Arlington,VA,pac,,A,430395,2025-01-15
+contribution,2024-09-17,Entertainment Software Association,"$1,000",Washington,DC,business,,A,430395,2025-01-15
+contribution,2024-07-19,EYE PAC,$500,Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-08-30,General Motors Company PAC,$750,Washington,DC,pac,,A,430395,2025-01-15
+contribution,2024-08-30,HCA for Good Government,"$3,500",Reston,VA,business,,A,430395,2025-01-15
+contribution,2024-12-13,Highland Electric Transportation,$750,Hamilton,MA,business,,A,430395,2025-01-15
+contribution,2024-07-19,Huntington Ingalls Industries,"$2,500",Newport News,VA,business,,A,430395,2025-01-15
+contribution,2024-09-23,JPMO Strategies,$500,Richmond,VA,business,,A,430395,2025-01-15
+contribution,2024-07-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,430395,2025-01-15
+contribution,2024-08-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,430395,2025-01-15
+contribution,2024-09-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,430395,2025-01-15
+contribution,2024-10-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,430395,2025-01-15
+contribution,2024-11-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,430395,2025-01-15
+contribution,2024-12-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,430395,2025-01-15
+contribution,2024-10-10,Maritime Issues Council,"$1,000",Norfolk,VA,business,,A,430395,2025-01-15
+contribution,2024-09-22,Joseph Massie,"$1,000",Richmond,VA,individual,,A,430395,2025-01-15
+contribution,2024-12-19,Metro Virginia PAC,$500,Washington,DC,pac,,A,430395,2025-01-15
+contribution,2024-10-10,Molson Coors,$500,Milwaukee,WI,business,,A,430395,2025-01-15
+contribution,2024-12-13,Norfolk Southern,"$2,000",Norfolk,VA,business,,A,430395,2025-01-15
+contribution,2024-12-19,NoVA Build PAC,$500,Chantilly,VA,pac,,A,430395,2025-01-15
+contribution,2024-11-18,NOVEC,"$1,500",Manassas,VA,business,,A,430395,2025-01-15
+contribution,2024-12-02,NRG Energy,$500,Princeton,NJ,business,,A,430395,2025-01-15
+contribution,2024-11-18,Pfizer,$750,Memphis,TN,business,,A,430395,2025-01-15
+contribution,2024-11-18,Pharmaceutical Research and Manufacturers of America,"$1,000",Washington,DC,business,,A,430395,2025-01-15
+contribution,2024-11-18,Pharmaceutical Research and Manufacturers of America,$500,Washington,DC,business,,A,430395,2025-01-15
+contribution,2024-11-18,Premium Distributors of Virginia,"$2,000",Chantilly,VA,business,,A,430395,2025-01-15
+contribution,2024-08-13,RAI Services Company,"$1,500",Winston Salem,NC,business,,A,430395,2025-01-15
+contribution,2024-09-17,Realtors Political Action Committee of Virginia,"$5,000",Glen Allen,VA,pac,,A,430395,2025-01-15
+contribution,2024-08-30,Reed Smith,"$1,500",Richmond,VA,business,,A,430395,2025-01-15
+contribution,2024-12-02,RELX,$500,Washington,DC,business,,A,430395,2025-01-15
+contribution,2024-11-18,ReWorld Waste,"$2,000",Reston,VA,business,,A,430395,2025-01-15
+contribution,2024-10-04,Rivers Portsmouth Gaming,"$1,000",Portsmouth,VA,business,,A,430395,2025-01-15
+contribution,2024-09-23,Saslaw for State Senate,"$1,500",Springfield,VA,candidate,,A,430395,2025-01-15
+contribution,2024-12-18,SEIU COPE Fund,"$2,000",Washington,DC,business,,A,430395,2025-01-15
+contribution,2024-11-18,Sentara Employees Political Action Committee,"$2,500",Virginia Beach,VA,pac,,A,430395,2025-01-15
+contribution,2024-12-13,SidePrize LLC,"$1,000",Atlanta,GA,business,,A,430395,2025-01-15
+contribution,2024-11-18,Strata Solar,$750,Durham,NC,business,,A,430395,2025-01-15
+contribution,2024-09-23,T-Mobile,$500,Bellevue,WA,business,,A,430395,2025-01-15
+contribution,2024-12-21,The American Electric Power Company - Virginia Committee for Responsible Government,"$5,000",Washington,DC,pac,,A,430395,2025-01-15
+contribution,2024-10-10,The Cigna Group Employee PAC,$750,Philadelphia,PA,pac,,A,430395,2025-01-15
+contribution,2024-08-13,The Medical Society of Virginia PAC,"$1,500",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-11-18,The Medical Society of Virginia PAC,"$1,500",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-09-23,The Williams Companies,"$1,000",Tulsa,OK,business,,A,430395,2025-01-15
+contribution,2024-11-18,"TransCanada USA Services, Inc. PAC",$500,Washington,DC,pac,,A,430395,2025-01-15
+contribution,2024-08-13,Truist Virginia PAC,$500,Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-10-10,Uber Technologies,"$1,000",San Francisco,CA,business,,A,430395,2025-01-15
+contribution,2024-12-02,United Transportation Union PAC,$500,Chester,VA,pac,,A,430395,2025-01-15
+contribution,2024-08-30,USAA,$500,San Antonio,TX,business,,A,430395,2025-01-15
+contribution,2024-12-02,VA Society of Anesthesiologists PAC,"$1,500",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-09-03,VADPAC,"$2,500",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-08-30,Verizon Good Government Club of Virginia,"$5,000",Washington,DC,pac,,A,430395,2025-01-15
+contribution,2024-11-18,Virginia Assisted Living Association PAC,"$1,200",Henrico,VA,pac,,A,430395,2025-01-15
+contribution,2024-10-01,Virginia Automobile & Truck Dealers PAC,"$2,500",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-07-08,Virginia BankPAC,"$2,500",Glen Allen,VA,pac,,A,430395,2025-01-15
+contribution,2024-11-18,Virginia BankPAC,"$2,500",Glen Allen,VA,pac,,A,430395,2025-01-15
+contribution,2024-12-04,Virginia Beer Wholesalers Association,"$10,000",Richmond,VA,business,,A,430395,2025-01-15
+contribution,2024-10-07,Virginia Beverage Association PAC,"$1,500",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-12-04,Virginia Eagle Distributing Company,"$1,000",Verona,VA,business,,A,430395,2025-01-15
+contribution,2024-07-08,Virginia Health Care Association PAC,"$3,500",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-11-18,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,430395,2025-01-15
+contribution,2024-09-23,Virginia Optometric Association,$500,Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-12-05,Virginia Optometric Association,$500,Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-07-19,Virginia Radiology PAC,$500,Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-07-08,Virginia Retail Federation PAC,"$1,000",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-09-17,Virginia Society of the AIA PAC,"$1,000",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-11-18,Virginia Wine Wholesalers PAC,"$3,500",Richmond,VA,pac,,A,430395,2025-01-15
+contribution,2024-11-18,Visa,"$1,500",Washington,DC,business,,A,430395,2025-01-15
+contribution,2024-09-03,Vision Management Services,$500,Chicago,IL,business,,A,430395,2025-01-15
+contribution,2024-07-12,Waste Management,"$1,500",Houston,TX,business,,A,430395,2025-01-15
+contribution,2024-09-17,Williams Mullen Clark & Dobbins,"$2,000",Richmond,VA,business,,A,430395,2025-01-15
+contribution,2025-03-31,Daniel Abramson,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-02-24,All Points Broadband,$500,Richmond,VA,business,,A,436514,2025-04-15
+contribution,2025-03-24,"American Federation of State, County, and Municipal Employees","$15,000",Washington,DC,business,,A,436514,2025-04-15
+contribution,2025-01-05,Arrow International,$500,Cleveland,OH,business,,A,436514,2025-04-15
+contribution,2025-03-31,Tracy Baynard,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-29,Laurence Benenson,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-13,Mr. Donald F. Bennett,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-12,Nancy G Berg,$200,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-25,Bradley Beychok,"$1,000",Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-24,Horace Blackman,$500,Falls Church,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-24,Katharine Boyce Reeder,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-02,Boyd-Pamunkey Casino Political Action Committee,"$3,000",Norfolk,VA,pac,,A,436514,2025-04-15
+contribution,2025-03-31,Jeffrey Breit,$500,Virginia Beach,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-27,Ms. Barbara Brenman,$100,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-10,Mr. David W Briggs,$500,Arlington,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-24,De Anne Bryant,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-31,Molly Burke,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-19,Mr. Gary Burtless,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-21,Ms. Rosa Byrd,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-02,CareFirst Management,"$1,500",Owings Mills,MD,business,,A,436514,2025-04-15
+contribution,2025-03-26,Mr. Jerome Casagrande,$200,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-24,Sean Casey,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-06,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,A,436514,2025-04-15
+contribution,2025-03-28,Commissioner of Revenue PAC,$250,Newport News,VA,pac,,A,436514,2025-04-15
+contribution,2025-02-24,COmmunity-Owned Power PAC,"$1,500",Glen Allen,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-06,Comstock Hospitality Holdings,"$10,000",Reston,VA,business,,A,436514,2025-04-15
+contribution,2025-02-28,CSX Transportation Inc State Campaign Account,$500,Jacksonville,FL,business,,A,436514,2025-04-15
+contribution,2025-03-10,Ms. Michele S. Cumberland,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-24,Nancy DiPaolo,$500,Arlington,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-02,Dominion Energy Inc Political Action Committee - Virginia,"$25,000",Richmond,VA,pac,,A,436514,2025-04-15
+contribution,2025-03-25,Mr. Joseph Peter Drennan,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-12,Anna Dvorchik,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-20,Jane Edmondson,$250,McLean,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-07,Elevance Health,"$2,500",Cincinnati,OH,business,,A,436514,2025-04-15
+contribution,2025-03-29,Stefanie Erkiletian,"$5,000",Arlington,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-25,Judith Feder,$250,McLean,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-31,Ms. Donna Lou Fossum,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-25,Jatrice Gaiter,"$1,000",Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-10,Jere Gibber,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-17,Ms. Mary Catherine Gibbs,"$2,500",Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-02,GNA Corporation,"$2,500",Lynchburg,VA,business,,A,436514,2025-04-15
+contribution,2025-01-06,Government Employees Insurance Company,"$1,000",Washington,DC,business,,A,436514,2025-04-15
+contribution,2025-03-21,James Green,$500,Fairfax,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-24,Ms. Carolyn Grimes,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-07,Ms. Karen Hayes,"$1,000",Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-02,HBAV Build-PAC,"$5,000",Richmond,VA,pac,,A,436514,2025-04-15
+contribution,2025-02-24,Loren W. Hershey,$185,Oakton,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-04,IGT Global Solutions,"$1,500",Reno,NV,business,,A,436514,2025-04-15
+contribution,2025-03-21,Invenergy,"$1,000",Washington,DC,business,,A,436514,2025-04-15
+contribution,2025-03-06,Ms. Julie Jakopic,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-24,Claudia James,$250,Arlington,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-21,Carolyn Jefferson-Moss,"$1,000",McLean,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-28,Sheila Jonas,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-30,Mr. Herschel Kanter,$250,Arlington,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-20,Michael Kreps,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-31,Jeffrey Kurzweil,"$2,500",Great Falls,VA,individual,,A,436514,2025-04-15
+contribution,2025-02-28,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-30,Christopher Leibig,"$1,000",Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-25,Elizabeth Livingston,$400,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-11,Ms. Suzann W. Matthews,"$2,500",McLean,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-21,Pamela McCoach,$250,Falls Church,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-27,Ms. Emily McCoy,"$3,000",Tappahannock,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-05,Harriet McGuire,"$1,000",Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-06,McGuireWoods Consulting,"$1,500",Richmond,VA,business,,A,436514,2025-04-15
+contribution,2025-03-05,David Millard,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-11,Laurel Moran,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-25,Catherine Morosoff,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-19,Patrick Morrison,$260,Falls Church,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-28,Kathryn Puester Nelson,"$2,500",Falls Church,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-02,Novartis Services Inc,"$1,000",East Hanover,NJ,business,,A,436514,2025-04-15
+contribution,2025-03-31,Glenn Nye,$250,Washington,DC,individual,,A,436514,2025-04-15
+contribution,2025-03-21,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-06,Omega Protein,"$1,500",Houston,TX,business,,A,436514,2025-04-15
+contribution,2025-03-03,Redella Pepper,$350,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-29,Dodge Perry,$350,Springfield,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-31,Ms. Rachel Rifkind,$25,Annandale,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-31,Saul Ewing,$500,Washington,DC,business,,A,436514,2025-04-15
+contribution,2025-03-14,David B. Smith,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-24,David Speck,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-26,Lori Swain,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-04,Tenaska Virginia Partners,"$1,000",Omaha,NE,business,,A,436514,2025-04-15
+contribution,2025-03-24,Mr. Herbert Treger,$500,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-02,United Airlines,"$1,250",Houston,TX,business,,A,436514,2025-04-15
+contribution,2025-02-24,VA Chiropractors PAC,"$1,000",Afton,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-02,VA Digital Infrastructure PAC,"$5,000",Leesburg,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-06,VA Operators for Skill,"$10,000",Richmond,VA,business,,A,436514,2025-04-15
+contribution,2025-01-02,VAMIC PAC,$500,Richmond,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-04,Vantage Data Centers Management Co,"$1,000",Santa Clara,CA,business,,A,436514,2025-04-15
+contribution,2025-01-02,Virginia Association of Health Plans PAC,"$1,000",Richmond,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-06,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-02,Virginia BankPAC,"$2,500",Glen Allen,VA,pac,,A,436514,2025-04-15
+contribution,2025-02-24,Virginia BankPAC,"$2,500",Glen Allen,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-06,Virginia Cable Political Action Committee,"$5,000",Richmond,VA,pac,,A,436514,2025-04-15
+contribution,2025-02-24,Virginia Independent Auto Dealers PAC,$500,Midlothian,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-06,Virginia Manufactured & Modular Housing Assn PAC,$500,Henrico,VA,pac,,A,436514,2025-04-15
+contribution,2025-02-24,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-02,Virginia Society of CPA's PAC,"$1,000",Glen Allen,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-02,Virginia Trial Lawyers Association PAC,"$2,000",Richmond,VA,pac,,A,436514,2025-04-15
+contribution,2025-01-04,VPTA-PAC,$500,Clifton,VA,pac,,A,436514,2025-04-15
+contribution,2025-03-26,Jennifer Walker,"$2,500",Rehoboth Beach,DE,individual,,A,436514,2025-04-15
+contribution,2025-03-12,Ms. Holly Wallace,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-01-04,WALPAC for Responsible Government Political Action Committee,"$1,000",Bentonville,AR,pac,,A,436514,2025-04-15
+contribution,2025-03-25,William H Washington,$250,Manassas,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-12,George D. Waters,$250,Washington,DC,individual,,A,436514,2025-04-15
+contribution,2025-03-28,Edward Weiner,$250,Fairfax,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-26,Ms. Leslie Wilkes,"$2,500",Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-27,Sharon Wilkinson,$250,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-04,Robert Witeck,$500,Arlington,VA,individual,,A,436514,2025-04-15
+contribution,2025-03-24,Karen Witt,$100,Alexandria,VA,individual,,A,436514,2025-04-15
+contribution,2025-04-03,Martha Abbott,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-05,Altria Client Services,"$7,500",Richmond,VA,business,,A,445684,2025-07-10
+contribution,2025-06-04,Anheuser Busch,"$1,000",Washington,DC,business,,A,445684,2025-07-10
+contribution,2025-05-16,Atmos Energy Corporation PAC,"$1,000",Dallas,TX,pac,,A,445684,2025-07-10
+contribution,2025-06-02,Kevin Baer,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-09,Andrea Bailey,$150,Dumfries,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-03,Calaneet Balas,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-22,William Berridge,$500,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-22,Robert B. Blancato,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-15,Glenda Booth,$150,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-22,Steve Bouchard,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-24,Margarita S Brose,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-01,Kenneth D Bynum,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-06,Laura Caldwell-Aden,$500,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-16,Capital One Services,"$1,500",Reston,VA,business,,A,445684,2025-07-10
+contribution,2025-06-05,Steve Carey,"$1,000",Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-12,Judith Cefkin,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-22,Cary Citronberg,"$1,000",Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-03,David Cleary,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-04,Ms. Sheila Coates,$500,Herndon,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-04,Comcast,"$1,000",Philadelphia,PA,business,,A,445684,2025-07-10
+contribution,2025-05-29,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,A,445684,2025-07-10
+contribution,2025-06-03,Cindy Covell,$250,Falls Church,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-22,Brian Coyne,$500,Washington,DC,individual,,A,445684,2025-07-10
+contribution,2025-05-16,CVS Health,"$1,000",Woonsocket,RI,business,,A,445684,2025-07-10
+contribution,2025-05-01,Pamela Danner,$250,McLean,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-29,Jon DeNunzio,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-30,Adam Di Vincenzo,$500,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-08,Mr. Andres Domeyko,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-22,Dominion Energy Inc Political Action Committee - Virginia,"$50,000",Richmond,VA,pac,,A,445684,2025-07-10
+contribution,2025-04-18,Geoffrey Drucker,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-03,Feminist Majority Equality Political Action Committee,"$1,000",Arlington,VA,pac,,A,445684,2025-07-10
+contribution,2025-04-10,Bruce Fried,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-08,Edward Gerwin,$500,Falls Church,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-04,Roberto Gomez,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-02,Lisa Guernsey,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-30,Susan Hahn,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-02,Nancy D Hall,$250,Annandale,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-01,Kathleen M. Hamm,$500,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-09,Linda Hardee,$500,McLean,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-28,Steven Haro,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-14,Michael John Hirrel,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-05,Humana Inc.,$500,Lexington,KY,business,,A,445684,2025-07-10
+contribution,2025-06-05,Hunton Andrews Kurth,"$10,000",Richmond,VA,business,,A,445684,2025-07-10
+contribution,2025-04-28,Kelly Johnson,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-22,Barbara Kanninen,"$1,000",Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-02,Perry Lange,$500,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-06,Kenneth Lukas,$250,Falls Church,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-01,Ms. Laurie MacNamara,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-14,Martin Mandelberg,$250,Falls Church,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-06,Anne Marie Marenburg,$500,McLean,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-29,Harriet McGuire,"$1,000",Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-06,Nell Minow,$250,McLean,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-04,Mr. Pat Mulloy,$110,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-06,Katie Papa,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-18,Stephen L. Parker,$250,McLean,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-03,Mr. Thomas Parry,$250,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-03,Margaret Pickering,$250,Mclean,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-02,Publix,$750,Lakeland,FL,business,,A,445684,2025-07-10
+contribution,2025-05-13,Mr. Thomas Raycroft,$500,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-28,Lamine Reese,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-03,David Remus,$500,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-07,Robert Rowan,$500,Mclean,VA,individual,,A,445684,2025-07-10
+contribution,2025-05-14,LaJuanna Russell,"$1,000",Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-02,Service Corporation International PAC,"$1,000",Houston,TX,pac,,A,445684,2025-07-10
+contribution,2025-05-29,Smurfit Westrock,"$1,500",Atlanta,GA,business,,A,445684,2025-07-10
+contribution,2025-06-02,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,A,445684,2025-07-10
+contribution,2025-04-22,The Virginia Forward PAC,"$2,000",Springfield,VA,pac,,A,445684,2025-07-10
+contribution,2025-05-09,Miles Townes,$250,Arlington,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-03,Vindman for Congress,$500,Dumfries,VA,candidate,,A,445684,2025-07-10
+contribution,2025-06-04,Virginia Automobile & Truck Dealers PAC,"$5,000",Richmond,VA,pac,,A,445684,2025-07-10
+contribution,2025-06-02,Virginia BankPAC,"$5,000",Glen Allen,VA,pac,,A,445684,2025-07-10
+contribution,2025-04-14,Virginia Radiology PAC,$500,Richmond,VA,pac,,A,445684,2025-07-10
+contribution,2025-05-29,Virginia Sheriffs' Association,"$1,000",Richmond,VA,pac,,A,445684,2025-07-10
+contribution,2025-06-04,Virginia Trial Lawyers Association PAC,"$2,000",Richmond,VA,pac,,A,445684,2025-07-10
+contribution,2025-05-29,Waste Management,"$2,250",Houston,TX,business,,A,445684,2025-07-10
+contribution,2025-06-02,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,A,445684,2025-07-10
+contribution,2025-04-01,William Wisniewski,$350,Alexandria,VA,individual,,A,445684,2025-07-10
+contribution,2025-04-03,Ronald York,$500,Annandale,VA,individual,,A,445684,2025-07-10
+contribution,2025-06-12,Vicki Arroyo,$500,Arlington,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-18,Brian Busey,$250,Arlington,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-25,Capital One Services,"$1,000",Reston,VA,business,,A,448262,2025-07-15
+contribution,2025-06-25,COmmunity-Owned Power PAC,"$2,000",Glen Allen,VA,pac,,A,448262,2025-07-15
+contribution,2025-06-19,Ryan Compton,$250,Alexandria,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-28,Mary Lynne Corn,$785.05,Falls Church,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-16,Diageo North America,"$1,500",Washington,DC,business,,A,448262,2025-07-15
+contribution,2025-06-28,Stefanie Erkiletian,"$5,000",Arlington,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-24,Stanley Fendley,$250,Falls Church,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-28,GNA Corporation,"$1,000",Lynchburg,VA,business,,A,448262,2025-07-15
+contribution,2025-06-06,Timothy Gray,$250,Alexandria,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-26,JMGT,$500,Boca Raton,FL,business,,A,448262,2025-07-15
+contribution,2025-06-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-28,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,448262,2025-07-15
+contribution,2025-06-25,Republic Services,$500,Phoenix,AZ,business,,A,448262,2025-07-15
+contribution,2025-06-28,Steven Royster,$250,Alexandria,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-22,Dixie Sommers,$500,Alexandria,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-14,John Stephenson,"$1,000",Arlington,VA,individual,,A,448262,2025-07-15
+contribution,2025-06-09,The Medical Society of Virginia PAC,"$2,500",Richmond,VA,pac,,A,448262,2025-07-15
+contribution,2025-06-26,UpVote PAC,"$1,500",Chesterfield,VA,pac,,A,448262,2025-07-15
+contribution,2025-06-20,Virginia Cable Political Action Committee,"$5,000",Richmond,VA,pac,,A,448262,2025-07-15
+contribution,2025-06-20,Virginia Health Care Association PAC,"$5,000",Richmond,VA,pac,,A,448262,2025-07-15
+contribution,2025-06-09,Virginia Retail Federation PAC,$750,Richmond,VA,pac,,A,448262,2025-07-15
+contribution,2025-06-26,Virginia Wine Wholesalers PAC,"$7,500",Richmond,VA,pac,,A,448262,2025-07-15
+contribution,2025-08-24,Abbott Laboratories,$250,Abbott Park,IL,business,,A,453991,2025-09-15
+contribution,2025-07-08,Jessica Almond,$150,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-24,Amazon.com Services,"$5,000",Seattle,WA,business,,A,453991,2025-09-15
+contribution,2025-08-27,"American Federation of State, County, and Municipal Employees","$25,000",Washington,DC,business,,A,453991,2025-09-15
+contribution,2025-08-15,Andrea Bailey,$250,Dumfries,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-17,Boyd-Pamunkey Casino Political Action Committee,"$3,000",Norfolk,VA,pac,,A,453991,2025-09-15
+contribution,2025-07-26,Ms. Julie Smyth Bruns,"$1,000",Arlington,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-24,Care Advantage Inc.,"$2,500",North Chesterfield,VA,business,,A,453991,2025-09-15
+contribution,2025-08-24,CareFirst Management,"$2,000",Owings Mills,MD,business,,A,453991,2025-09-15
+contribution,2025-08-31,Barbara Chow,$250,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-14,Richard Clayton,$250,Falls Church,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-29,Mark Clifford,$250,Springfield,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-29,Cesar Augusto Del Aguila Jr,$350,Herndon,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-23,Richard Disalvo,$250,Great Falls,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-30,Dominion Energy Inc Political Action Committee - Virginia,"$100,000",Richmond,VA,pac,,A,453991,2025-09-15
+contribution,2025-07-01,DoorDash,"$2,000",San Francisco,CA,business,,A,453991,2025-09-15
+contribution,2025-08-01,Fairfax County Democratic Committee,$250,Fairfax,VA,party,,A,453991,2025-09-15
+contribution,2025-07-15,Renee Gentry,$250,Arlington,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-30,Michael Goo,$500,Falls Church,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-25,Ian Gottesman,$250,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-31,Rachel Graham,$250,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-27,Glenn Hediger,"$2,500",Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-03,Diane Heim,$150,Arlington,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-08,Huntington Ingalls Industries,"$2,500",Newport News,VA,business,,A,453991,2025-09-15
+contribution,2025-08-01,Frederick Joyce,"$1,000",Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-17,Jeremy Kaplan,$200,McLean,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-15,Julia Kling,$250,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-01,Kimberley Klingler,$250,Arlington,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-08,Richard Lane,$250,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-30,Toby Latham,$200,Springfield,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-01,Caitlin Leach,$250,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-01,Marsden for Senate,"$2,500",Burke,VA,candidate,,A,453991,2025-09-15
+contribution,2025-07-08,Maxim Healthcare Services,$500,Columbia,MD,business,,A,453991,2025-09-15
+contribution,2025-08-01,Merck Sharp & Dohme LLC,"$1,000",Rahway,NJ,business,,A,453991,2025-09-15
+contribution,2025-07-15,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,453991,2025-09-15
+contribution,2025-08-29,Jean Miller,$250,Arlington,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-30,Mr. Robert Miller,$200,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-01,Adriaen Morse,$250,Falls Church,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-01,Brian Oconnor,$250,Reston,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-17,Ortho PAC,$500,Richmond,VA,pac,,A,453991,2025-09-15
+contribution,2025-08-13,Rodney F. Page,$250,Reston,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-24,Pfizer Inc.,"$1,000",Memphis,TN,business,,A,453991,2025-09-15
+contribution,2025-07-18,PMI US Corporate Services,"$10,000",San Rafael,CA,business,,A,453991,2025-09-15
+contribution,2025-07-30,Realtors Political Action Committee of Virginia,"$5,000",Glen Allen,VA,pac,,A,453991,2025-09-15
+contribution,2025-08-24,Realtors Political Action Committee of Virginia,"$5,000",Glen Allen,VA,pac,,A,453991,2025-09-15
+contribution,2025-08-24,RELX,$500,Washington,DC,business,,A,453991,2025-09-15
+contribution,2025-07-30,ReWorld Waste,"$2,000",Reston,VA,business,,A,453991,2025-09-15
+contribution,2025-07-29,Sandra Richardson,$250,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-15,Frank Roberts,$175,Arlington,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-30,Debra Roepke,$250,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-12,Mr. Gene Rossi,$250,Washington,DC,individual,,A,453991,2025-09-15
+contribution,2025-07-29,Robert Schwartz,$500,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-19,Paige Shevlin,$500,Arlington,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-13,Anne Simmons,$500,Alexandria,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-29,Carol Spisak,$150,Mc Lean,VA,individual,,A,453991,2025-09-15
+contribution,2025-08-14,Todd Stottlemyer,"$5,000",Oakton,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-03,Ms. Nancy E. Tate,$200,Arlington,VA,individual,,A,453991,2025-09-15
+contribution,2025-07-01,VEA Fund,$500,Richmond,VA,business,,A,453991,2025-09-15
+contribution,2025-08-31,Vertex Pharmaceuticals Incorporated Political Contributions,"$1,000",Boston,MA,business,,A,453991,2025-09-15
+contribution,2025-07-24,Virginia Beverage Association PAC,"$2,000",Richmond,VA,pac,,A,453991,2025-09-15
+contribution,2025-07-30,Visa,"$1,500",Washington,DC,business,,A,453991,2025-09-15
+contribution,2025-08-08,Wells Fargo & Co. Virginia Employees Good Government Fund,"$1,000",Minneapolis,MN,business,,A,453991,2025-09-15
+contribution,2025-09-22,AES Distributed Energy,"$7,500",Salt Lake City,UT,business,,A,460941,2025-10-15
+contribution,2025-09-21,Associated Distributors,"$1,500",Sandston,VA,business,,A,460941,2025-10-15
+contribution,2025-09-08,Astellas Pharma,"$1,000",Northbrook,IL,business,,A,460941,2025-10-15
+contribution,2025-09-26,Stephen Baker,$250,Arlington,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-29,Betting on VA Jobs,"$10,000",Henrico,VA,business,,A,460941,2025-10-15
+contribution,2025-09-21,Bloom Energy Corporation,"$5,000",San Jose,CA,business,,A,460941,2025-10-15
+contribution,2025-09-16,Michael Carlin,$500,Virginia Beach,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-29,CC Procurement,$750,Chelmsford,MA,business,,A,460941,2025-10-15
+contribution,2025-09-22,CloudHQ,"$5,000",Washington,DC,business,,A,460941,2025-10-15
+contribution,2025-09-22,Community Solar Action Fund PAC,"$1,000",Washington,DC,pac,,A,460941,2025-10-15
+contribution,2025-09-24,Martin Conway,$500,Fairfax,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-21,Cozen O'Connor,"$1,000",Philadelphia,PA,business,,A,460941,2025-10-15
+contribution,2025-09-17,Dominion Energy Inc Political Action Committee - Virginia,"$150,000",Richmond,VA,pac,,A,460941,2025-10-15
+contribution,2025-09-15,Mr. Joseph Peter Drennan,$250,Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-03,Shana Edwards,"$2,000",Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-15,Jatrice Gaiter,"$1,000",Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-02,General Motors Company PAC,$500,Washington,DC,pac,,A,460941,2025-10-15
+contribution,2025-09-08,Dianne Hardison,$250,Laurel,MD,individual,,A,460941,2025-10-15
+contribution,2025-09-03,Mrs. Marylee Beyer Hill,$250,Vienna,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-22,HOSPAC,"$7,500",Glen Allen,VA,pac,,A,460941,2025-10-15
+contribution,2025-09-06,Richard Huffman,$250,Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-08,JoshCo Group LLC,"$2,500",Las Vegas,NV,business,,A,460941,2025-10-15
+contribution,2025-09-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-04,Byron Marchant,$500,Arlington,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-04,Byron Marchant,$250,Arlington,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-19,Singleton McAllister,$500,Great Falls,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-29,Mr. Robert Miller,$75,Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-29,Mountain Valley Pipeline,"$1,000",Canonsburg,PA,business,,A,460941,2025-10-15
+contribution,2025-09-29,NextEra Energy,"$1,000",Juno Beach,FL,business,,A,460941,2025-10-15
+contribution,2025-09-16,NOVEC,"$2,000",Manassas,VA,business,,A,460941,2025-10-15
+contribution,2025-09-19,Ms. Marian M. Pegram,$150,Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-29,RAI Services Company,"$2,500",Winston Salem,NC,business,,A,460941,2025-10-15
+contribution,2025-09-21,Republic National Distributing Company,"$1,500",Atlanta,GA,business,,A,460941,2025-10-15
+contribution,2025-09-04,Mary Kathryn Rondon,"$1,000",Falls Church,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-26,Tiffeny Sanchez,"$15,000",Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-29,Seven Hills Strategy Group,"$1,000",Richmond,VA,business,,A,460941,2025-10-15
+contribution,2025-09-01,Ann Smolinski,"$1,000",Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-16,Strata Solar,"$2,000",Durham,NC,business,,A,460941,2025-10-15
+contribution,2025-09-16,The American Electric Power Company - Virginia Committee for Responsible Government,"$30,000",Washington,DC,pac,,A,460941,2025-10-15
+contribution,2025-09-21,The Cigna Group Employee PAC,$750,Philadelphia,PA,pac,,A,460941,2025-10-15
+contribution,2025-09-16,The Virginia Forward PAC,"$1,500",Springfield,VA,pac,,A,460941,2025-10-15
+contribution,2025-09-02,"United Airlines, Inc. PAC","$1,000",Chicago,IL,pac,,A,460941,2025-10-15
+contribution,2025-09-29,VA Mortgage Bankers PAC,"$1,000",Glen Allen,VA,pac,,A,460941,2025-10-15
+contribution,2025-09-29,VA Society of Anesthesiologists PAC,"$1,000",Richmond,VA,pac,,A,460941,2025-10-15
+contribution,2025-09-16,VADPAC,"$7,500",Richmond,VA,pac,,A,460941,2025-10-15
+contribution,2025-09-22,Virginia Automobile & Truck Dealers PAC,"$10,000",Richmond,VA,pac,,A,460941,2025-10-15
+contribution,2025-09-29,Virginia Beer Wholesalers Association,"$5,000",Richmond,VA,business,,A,460941,2025-10-15
+contribution,2025-09-16,Virginia CUPAC,"$5,000",Tallahassee,FL,pac,,A,460941,2025-10-15
+contribution,2025-09-29,Virginia Eagle Distributing Company,"$1,000",Verona,VA,business,,A,460941,2025-10-15
+contribution,2025-09-05,Virginia Pharmacists Association PAC,$500,North Chesterfield,VA,pac,,A,460941,2025-10-15
+contribution,2025-09-29,Virginia State Farm Agents and Employee PAC,"$1,500",Bloomington,IL,pac,,A,460941,2025-10-15
+contribution,2025-09-02,Joseph Ward,$500,Manassas,VA,individual,,A,460941,2025-10-15
+contribution,2025-09-19,Nancy Williams,$500,Alexandria,VA,individual,,A,460941,2025-10-15
+contribution,2025-10-02,UnitedHealth Group Inc,"$1,000",Englewood,CO,business,,A,465454,2025-10-27
+contribution,2025-10-22,USAA,"$1,000",San Antonio,TX,business,,A,465454,2025-10-27
+contribution,2025-10-17,VAMICPAC,$500,Richmond,VA,pac,,A,465454,2025-10-27
+contribution,2025-10-17,Virginia Chapter Sierra Club PAC,"$1,500",Richmond,VA,pac,,A,465454,2025-10-27
+contribution,2025-10-22,Virginia Food Industry Association Political Action Committee,$500,Raleigh,NC,pac,,A,465454,2025-10-27
+contribution,2025-10-02,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,465454,2025-10-27
+contribution,2025-10-22,Vision Management Services,"$5,000",Chicago,IL,business,,A,465454,2025-10-27
+contribution,2025-10-22,Walmart Inc,"$1,000",Bentonville,AR,business,,A,465454,2025-10-27
+contribution,2025-10-17,American Property Casualty Insurance Association,"$1,000",Chicago,IL,business,,A,465454,2025-10-27
+contribution,2025-10-22,CRNA-PAC,$500,Forest Hill,MD,pac,,A,465454,2025-10-27
+contribution,2025-10-17,Delta Dental of Virginia,$500,Roanoke,VA,business,,A,465454,2025-10-27
+contribution,2025-10-03,Dominion Energy Inc Political Action Committee - Virginia,"$100,000",Richmond,VA,pac,,A,465454,2025-10-27
+contribution,2025-10-22,Employees of RTX Corporation PAC,"$1,000",Arlington,VA,pac,,A,465454,2025-10-27
+contribution,2025-10-22,Stefanie Erkiletian,"$5,000",Arlington,VA,individual,,A,465454,2025-10-27
+contribution,2025-10-19,Stephen Ewart,$200,Reston,VA,individual,,A,465454,2025-10-27
+contribution,2025-10-06,Eva Hardy,"$2,500",Richmond,VA,individual,,A,465454,2025-10-27
+contribution,2025-10-22,HCA for Good Government,"$3,500",Richmond,VA,business,,A,465454,2025-10-27
+contribution,2025-10-22,Insurance & Financial Advisors Political Action Committee-Virginia,$500,Richmond,VA,pac,,A,465454,2025-10-27
+contribution,2025-10-17,McGuireWoods Consulting,"$2,000",Richmond,VA,business,,A,465454,2025-10-27
+contribution,2025-10-10,Jennie O'Holleran,$500,Richmond,VA,individual,,A,465454,2025-10-27
+contribution,2025-10-21,Rivers Portsmouth Gaming,"$1,000",Portsmouth,VA,business,,A,465454,2025-10-27
+contribution,2025-10-22,Roanoke Gas Political Action Committee,"$2,500",Roanoke,VA,pac,,A,465454,2025-10-27
+contribution,2025-10-10,SEIU COPE Fund,"$20,000",Washington,DC,business,,A,465454,2025-10-27
+contribution,2025-10-17,Sports Betting Alliance,"$25,000",Lubbock,TX,business,,A,465454,2025-10-27
+contribution,2025-10-22,The Williams Companies,"$1,500",Tulsa,OK,business,,A,465454,2025-10-27
+contribution,2025-11-06,"Apex Clean Energy Holdings, LLC","$1,250",Charlottesville,VA,business,,A,472267,2025-12-04
+contribution,2025-10-31,ARDA-Resort Owners Coalition PAC,"$1,000",Washington,DC,pac,,A,472267,2025-12-04
+contribution,2025-11-06,Associated General Contractors of Virginia Inc. - PAC,$500,Glen Allen,VA,pac,,A,472267,2025-12-04
+contribution,2025-10-31,AT&T,$750,Saint Louis,MO,business,,A,472267,2025-12-04
+contribution,2025-10-28,John Blomstrom,"$3,000",Arlington,VA,individual,,A,472267,2025-12-04
+contribution,2025-10-29,CC Procurement,"$2,500",Chelmsford,MA,business,,A,472267,2025-12-04
+contribution,2025-10-31,Charter Communications,"$5,000",Saint Louis,MO,business,,A,472267,2025-12-04
+contribution,2025-11-01,Mr. Thomas Curcio,$250,Alexandria,VA,individual,,A,472267,2025-12-04
+contribution,2025-10-31,Elevance Health,"$2,000",Cincinnati,OH,business,,A,472267,2025-12-04
+contribution,2025-10-31,Entertainment Software Association,"$1,000",Washington,DC,business,,A,472267,2025-12-04
+contribution,2025-11-06,EYE PAC,"$1,000",Richmond,VA,pac,,A,472267,2025-12-04
+contribution,2025-10-31,Freedom Virginia,"$5,000",Arlington,VA,business,,A,472267,2025-12-04
+contribution,2025-11-06,Government Employees Insurance Company,"$1,000",Washington,DC,business,,A,472267,2025-12-04
+contribution,2025-10-31,International Paper PAC,$500,Washington,DC,pac,,A,472267,2025-12-04
+contribution,2025-10-30,Christopher Leibig,$100,Alexandria,VA,individual,,A,472267,2025-12-04
+contribution,2025-11-06,Maritime Issues Council,"$1,000",Norfolk,VA,business,,A,472267,2025-12-04
+contribution,2025-10-31,Constance McKenna,$100,Alexandria,VA,individual,,A,472267,2025-12-04
+contribution,2025-11-06,Micron Technology,"$2,500",Atlanta,ID,business,,A,472267,2025-12-04
+contribution,2025-11-06,Mid-Atlantic Laborers Political Education Fund,"$5,000",Reston,VA,business,,A,472267,2025-12-04
+contribution,2025-10-31,NiSource Inc. PAC,$500,Columbus,OH,pac,,A,472267,2025-12-04
+contribution,2025-10-31,Norfolk Southern Corp.,"$2,500",Atlanta,GA,business,,A,472267,2025-12-04
+contribution,2025-10-31,NoVA Build PAC,"$2,000",Chantilly,VA,pac,,A,472267,2025-12-04
+contribution,2025-10-31,Novartis Services Inc,"$1,000",East Hanover,NJ,business,,A,472267,2025-12-04
+contribution,2025-11-06,Omega Protein,"$1,000",Calais,ME,business,,A,472267,2025-12-04
+contribution,2025-10-31,Pharmaceutical Research and Manufacturers of America,"$1,500",Washington,DC,business,,A,472267,2025-12-04
+contribution,2025-11-06,Plasterers' & Cement Masons' & Shop Hands Political Action Committee,$250,Columbia,MD,pac,,A,472267,2025-12-04
+contribution,2025-10-31,POM of Virginia,"$5,000",Duluth,GA,business,,A,472267,2025-12-04
+contribution,2025-10-31,PsychMD PAC,$500,Richmond,VA,pac,,A,472267,2025-12-04
+contribution,2025-10-31,Publix,$500,Lakeland,FL,business,,A,472267,2025-12-04
+contribution,2025-10-31,Realtors Political Action Committee of Virginia,"$5,000",Glen Allen,VA,pac,,A,472267,2025-12-04
+contribution,2025-10-31,Sentara Health Plans,"$2,500",Virginia Beach,VA,business,,A,472267,2025-12-04
+contribution,2025-10-31,Smithfield Support Services Corp,"$1,500",Lisle,IL,business,,A,472267,2025-12-04
+contribution,2025-11-06,"Sun Tribe Trading, LLC",$750,Charlottesville,VA,business,,A,472267,2025-12-04
+contribution,2025-10-31,"T-Mobile US, Inc",$500,Bellevue,WA,business,,A,472267,2025-12-04
+contribution,2025-10-31,"TransCanada USA Services, Inc. PAC",$500,Washington,DC,pac,,A,472267,2025-12-04
+contribution,2025-11-06,VA Chiropractors PAC,$500,Afton,VA,pac,,A,472267,2025-12-04
+contribution,2025-11-06,VA Digital Infrastructure PAC,"$5,000",Leesburg,VA,pac,,A,472267,2025-12-04
+contribution,2025-10-31,Verizon Good Government Club of Virginia,"$5,000",Washington,DC,pac,,A,472267,2025-12-04
+contribution,2025-10-31,Virginia Beer Wholesalers Association,"$5,000",Richmond,VA,business,,A,472267,2025-12-04
+contribution,2025-11-06,Virginia Forest Resources PAC,$250,Richmond,VA,pac,,A,472267,2025-12-04
+contribution,2025-10-31,Virginia Transportation Construction Alliance PAC,"$5,000",North Chesterfield,VA,pac,,A,472267,2025-12-04
+contribution,2025-11-03,Alex Vogel,"$5,000",Washington,DC,individual,,A,472267,2025-12-04
+contribution,2025-10-31,Washington Gas Light Company PAC,"$1,500",Washington,DC,pac,,A,472267,2025-12-04
 contribution,2025-12-19,All Points Broadband,"$3,000",Richmond,VA,business,,A,479247,2026-01-15
 contribution,2025-12-17,Ms. Michele S. Cumberland,$250,Alexandria,VA,individual,,A,479247,2026-01-15
 contribution,2025-12-23,Everytown for Gun Safety Action Fund,"$2,000",New York,NY,business,,A,479247,2026-01-15
@@ -52,8 +950,538 @@ contribution,2026-01-05,Virginia Trial Lawyers Association PAC,"$3,000",Richmond
 contribution,2026-01-08,VSP Vision,$500,Rancho Cordova,CA,business,,A,496410,2026-07-15
 contribution,2026-01-05,Waymo,"$1,000",Mountain View,CA,business,,A,496410,2026-07-15
 contribution,2026-01-05,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,A,496410,2026-07-15
+in_kind,2021-08-25,Eva Hardy,"$2,688",Richmond,VA,individual,Event venue food & drink,B,397982,2024-04-12
+in_kind,2023-04-25,Commonwealth Strategy Group,$324.21,Richmond,VA,business,Event venue food & drink,B,329441,2023-06-12
+in_kind,2023-05-02,Eva Hardy,"$2,318.10",Richmond,VA,individual,Event venue food & drink,B,329441,2023-06-12
+in_kind,2023-06-01,Hen Quarter,"$1,254.98",Alexandria,VA,business,Event venue food & drink,B,329441,2023-06-12
+in_kind,2023-08-08,Virginia Beer Wholesalers Association,$606.89,Richmond,VA,business,Event venue food & drink,B,350600,2023-09-15
+in_kind,2023-08-08,Virginia Beer Wholesalers Association,"$2,038.55",Richmond,VA,business,Event venue food & drink,B,350600,2023-09-15
+in_kind,2023-09-21,Democratic Party of Virginia,"$1,110.53",Richmond,VA,party,Mail Production & Postage,B,361134,2023-10-16
+in_kind,2023-10-12,Democratic Party of Virginia,"$4,302.16",Richmond,VA,party,Mail Production & Postage,B,369405,2023-10-30
+in_kind,2023-10-13,Democratic Party of Virginia,$78.42,Richmond,VA,party,Mail Production & Postage,B,369405,2023-10-30
+in_kind,2023-10-24,Democratic Party of Virginia,"$3,673.25",Richmond,VA,party,Mail Production & Postage,B,369405,2023-10-30
+in_kind,2024-06-26,Troutman Pepper Hamilton Sanders,"$1,766.10",Richmond,VA,business,Event venue food & drink,B,409541,2024-07-15
+in_kind,2024-06-27,Virginia BankPAC,"$1,266.10",Glen Allen,VA,pac,Event venue food & drink,B,409541,2024-07-15
+in_kind,2024-09-24,Capital One Services,"$2,500",Reston,VA,business,Event venue food & drink,B,430395,2025-01-15
+in_kind,2024-12-16,Dominion Energy Inc Political Action Committee - Virginia,"$1,468.56",Richmond,VA,pac,Event venue food & drink,B,430395,2025-01-15
+in_kind,2024-12-16,Summit Ridge Energy,"$1,468.56",Arlington,VA,business,Event venue food & drink,B,430395,2025-01-15
+in_kind,2024-10-07,Virginia Beer Wholesalers Association,"$2,615.14",Richmond,VA,business,Event venue food & drink,B,430395,2025-01-15
+in_kind,2025-01-06,Commonwealth Strategy Group,$440.95,Richmond,VA,business,Event venue food & drink,B,436514,2025-04-15
+in_kind,2025-06-04,Virginia Beer Wholesalers Association,"$2,728.62",Richmond,VA,business,Event venue food & drink,B,445684,2025-07-10
+in_kind,2025-09-23,HOSPAC,"$3,030.30",Glen Allen,VA,pac,Event Venue Food & Drink,B,460941,2025-10-15
+in_kind,2025-10-28,Democratic Party of Virginia,$759.57,Richmond,VA,party,Printing,B,472267,2025-12-04
 in_kind,2026-01-08,Altria Client Services,"$4,910.28",Richmond,VA,business,Event Venue Food & Drink,B,496410,2026-07-15
+other_receipt,2023-03-13,"Automatic Data Processing, Inc",$32.86,El Paso,TX,business,Payroll Fee Refund,C,315757,2023-04-06
+other_receipt,2024-04-25,Automatic Data Processing,$9.84,El Paso,TX,business,Payroll Fee Refund,C,409541,2024-07-15
+other_receipt,2025-08-31,City of Alexandria Treasury Division,$352.80,Alexandria,VA,business,Filing Fee Refund,C,453991,2025-09-15
 other_receipt,2025-12-31,Friends of Alyia Gaskins,$500,Alexandria,VA,business,Refund of check 2251 on 09/28/2025,C,479247,2026-01-15
+expenditure,2021-07-02,Automatic Data Processing,"$2,920.21",El Paso,TX,business,Payroll Taxes,D,397982,2024-04-12
+expenditure,2021-07-02,Justin Baker,$319.36,Herndon,VA,individual,Salary,D,397982,2024-04-12
+expenditure,2021-07-02,Elizabeth Gallagher,$460.80,Richmond,VA,individual,Salary,D,397982,2024-04-12
+expenditure,2021-07-02,Zachary Gillis,"$3,888.22",Alexandria,VA,individual,Salary,D,397982,2024-04-12
+expenditure,2021-07-02,Marina Hernandez,"$3,282.60",Washington,DC,individual,Salary,D,397982,2024-04-12
+expenditure,2021-07-02,Zachary Rickard,"$1,247.08",Alexandria,VA,individual,Salary,D,397982,2024-04-12
+expenditure,2021-07-04,ActBlue Technical Services,$9.88,Somerville,MA,business,Credit Card Fees,D,397982,2024-04-12
+expenditure,2021-07-06,Alexandria Democratic Committee,"$2,000",Alexandria,VA,business,Campaign Contribution,D,397982,2024-04-12
+expenditure,2021-07-06,Zachary Gillis,$188.18,Alexandria,VA,individual,Travel Reimbursement,D,397982,2024-04-12
+expenditure,2021-07-06,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,397982,2024-04-12
+expenditure,2021-07-06,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Campaign Contribution,D,397982,2024-04-12
+expenditure,2021-07-09,Automatic Data Processing,$84.53,El Paso,TX,business,Payroll Fees,D,397982,2024-04-12
+expenditure,2021-07-11,ActBlue Technical Services,$0.99,Somerville,MA,business,Credit Card Fees,D,397982,2024-04-12
+expenditure,2021-07-18,ActBlue Technical Services,$17.20,Somerville,MA,business,Credit Card Fees,D,397982,2024-04-12
+expenditure,2021-07-25,ActBlue Technical Services,$101.32,Somerville,MA,business,Credit Card Fees,D,397982,2024-04-12
+expenditure,2021-07-26,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,397982,2024-04-12
+expenditure,2021-07-28,Truist Bank,$12.50,Alexandria,VA,business,Bank Fee,D,397982,2024-04-12
+expenditure,2021-08-02,Automatic Data Processing,"$2,920.22",El Paso,TX,business,Payroll Taxes,D,397982,2024-04-12
+expenditure,2021-08-02,Justin Baker,$319.35,Herndon,VA,individual,Salary,D,397982,2024-04-12
+expenditure,2021-08-02,Elizabeth Gallagher,$460.80,Richmond,VA,individual,Salary,D,397982,2024-04-12
+expenditure,2021-08-02,Zachary Gillis,"$3,888.22",Alexandria,VA,individual,Salary,D,397982,2024-04-12
+expenditure,2021-08-02,Marina Hernandez,"$3,282.61",Washington,DC,individual,Salary,D,397982,2024-04-12
+expenditure,2021-08-02,Zachary Rickard,"$1,247.07",Alexandria,VA,individual,Salary,D,397982,2024-04-12
+expenditure,2021-08-08,ActBlue Technical Services,$4.95,Somerville,MA,business,Credit Card Fees,D,397982,2024-04-12
+expenditure,2021-08-13,Automatic Data Processing,$88.75,El Paso,TX,business,Payroll Fees,D,397982,2024-04-12
+expenditure,2021-08-15,ActBlue Technical Services,$140.23,Somerville,MA,business,Credit Card Fees,D,397982,2024-04-12
+expenditure,2021-08-22,ActBlue Technical Services,$1.98,Somerville,MA,business,Credit Card Fees,D,397982,2024-04-12
+expenditure,2021-08-29,ActBlue Technical Services,$353.53,Somerville,MA,business,Credit Card Fees,D,397982,2024-04-12
+expenditure,2021-08-31,ActBlue Technical Services,$7.90,Somerville,MA,business,Credit Card Fees,D,397982,2024-04-12
+expenditure,2023-01-01,"Automatic Data Processing, Inc","$2,224.75",El Paso,TX,business,Payroll Taxes,D,315757,2023-04-06
+expenditure,2023-01-01,Elizabeth Gallagher,$461.75,Richmond,VA,individual,Salary,D,315757,2023-04-06
+expenditure,2023-01-01,Zachary Gillis,"$4,239.21",Alexandria,VA,individual,Salary,D,315757,2023-04-06
+expenditure,2023-01-01,Zachary Rickard,"$1,902.76",Alexandria,VA,individual,Salary,D,315757,2023-04-06
+expenditure,2023-01-02,Fairfax County Democratic Committee,$155.08,Falls Church,VA,business,Event Sponsorship,D,315757,2023-04-06
+expenditure,2023-01-08,ActBlue Virginia,$30.62,West Somerville,MA,business,Credit Card Fees,D,315757,2023-04-06
+expenditure,2023-01-10,Google,$15,Mountain View,CA,business,Website Services,D,315757,2023-04-06
+expenditure,2023-01-13,"Automatic Data Processing, Inc",$91.10,El Paso,TX,business,Payroll Fees,D,315757,2023-04-06
+expenditure,2023-01-19,Amazon,$88.13,Seattle,WA,business,Office Supplies,D,315757,2023-04-06
+expenditure,2023-01-19,Zoom Video Communications,$157.40,San Jose,CA,business,Software Subscription,D,315757,2023-04-06
+expenditure,2023-02-01,"Automatic Data Processing, Inc",$109.40,El Paso,TX,business,Payroll Fees,D,315757,2023-04-06
+expenditure,2023-02-01,"Automatic Data Processing, Inc","$2,200.15",El Paso,TX,business,Payroll Taxes,D,315757,2023-04-06
+expenditure,2023-02-01,Peter Byhouwer,"$4,600",Gaithersburg,MD,individual,Salary,D,315757,2023-04-06
+expenditure,2023-02-01,Elizabeth Gallagher,$461.75,Richmond,VA,individual,Salary,D,315757,2023-04-06
+expenditure,2023-02-01,Zachary Gillis,"$4,439.21",Alexandria,VA,individual,Salary,D,315757,2023-04-06
+expenditure,2023-02-01,Zachary Rickard,"$1,902.76",Alexandria,VA,individual,Salary,D,315757,2023-04-06
+expenditure,2023-02-02,Google,$15,Mountain View,CA,business,Website Services,D,315757,2023-04-06
+expenditure,2023-02-10,"Automatic Data Processing, Inc",$91.10,El Paso,TX,business,Payroll Fees,D,315757,2023-04-06
+expenditure,2023-02-10,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,315757,2023-04-06
+expenditure,2023-02-14,Democratic Party of Virginia,"$1,014.91",Richmond,VA,party,Campaign Contribution,D,315757,2023-04-06
+expenditure,2023-02-14,The Pivot Group,"$1,232.55",Alexandria,VA,business,Mail Services,D,315757,2023-04-06
+expenditure,2023-03-01,"Automatic Data Processing, Inc","$2,178.25",El Paso,TX,business,Payroll Taxes,D,315757,2023-04-06
+expenditure,2023-03-01,Peter Byhouwer,"$4,600",Gaithersburg,MD,individual,Salary,D,315757,2023-04-06
+expenditure,2023-03-01,Elizabeth Gallagher,$461.75,Richmond,VA,individual,Salary,D,315757,2023-04-06
+expenditure,2023-03-01,Zachary Gillis,"$4,439.21",Alexandria,VA,individual,Salary,D,315757,2023-04-06
+expenditure,2023-03-01,Google,$15,Mountain View,CA,business,Website Services,D,315757,2023-04-06
+expenditure,2023-03-01,Zachary Rickard,"$1,902.76",Alexandria,VA,individual,Salary,D,315757,2023-04-06
+expenditure,2023-03-05,ActBlue Virginia,$146.15,West Somerville,MA,business,Credit Card Fees,D,315757,2023-04-06
+expenditure,2023-03-10,"Automatic Data Processing, Inc",$91.10,El Paso,TX,business,Payroll Fees,D,315757,2023-04-06
+expenditure,2023-03-12,ActBlue Virginia,$128.38,West Somerville,MA,business,Credit Card Fees,D,315757,2023-04-06
+expenditure,2023-03-12,Robert V Witeck,$500,Arlington,VA,individual,Contribution Refund,D,315757,2023-04-06
+expenditure,2023-03-15,"Automatic Data Processing, Inc",$10.13,El Paso,TX,business,Payroll Fees,D,315757,2023-04-06
+expenditure,2023-03-17,Zachary Gillis,$997.52,Alexandria,VA,individual,Travel Reimbursement,D,315757,2023-04-06
+expenditure,2023-03-19,ActBlue Virginia,$191.58,West Somerville,MA,business,Credit Card Fees,D,315757,2023-04-06
+expenditure,2023-03-20,City of Alexandria Treasury Division,$352.80,Alexandria,VA,business,Filing Fee,D,315757,2023-04-06
+expenditure,2023-03-26,ActBlue Virginia,$51.36,West Somerville,MA,business,Credit Card Fees,D,315757,2023-04-06
+expenditure,2023-03-31,ActBlue Virginia,$64.20,West Somerville,MA,business,Credit Card Fees,D,315757,2023-04-06
+expenditure,2023-03-31,Zachary Rickard,$167.75,Alexandria,VA,individual,Office Supplies Reimbursement,D,315757,2023-04-06
+expenditure,2023-04-01,"Automatic Data Processing, Inc","$2,336.71",El Paso,TX,business,Payroll Taxes,D,329441,2023-06-12
+expenditure,2023-04-01,Peter Byhouwer,"$4,600",Gaithersburg,MD,individual,Salary,D,329441,2023-06-12
+expenditure,2023-04-01,Elizabeth Gallagher,$461.75,Richmond,VA,individual,Salary,D,329441,2023-06-12
+expenditure,2023-04-01,Zachary Gillis,"$4,507.95",Alexandria,VA,individual,Salary,D,329441,2023-06-12
+expenditure,2023-04-01,Google,$15,Mountain View,CA,business,Website Services,D,329441,2023-06-12
+expenditure,2023-04-01,Zachary Rickard,"$1,902.76",Alexandria,VA,individual,Salary,D,329441,2023-06-12
+expenditure,2023-04-02,ActBlue Virginia,$3.95,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-04-09,ActBlue Virginia,$31.61,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-04-12,Virginia House Democratic Caucus,"$25,000",Richmond,VA,party,Campaign Contribution,D,329441,2023-06-12
+expenditure,2023-04-14,"Automatic Data Processing, Inc",$91.10,El Paso,TX,business,Payroll Fees,D,329441,2023-06-12
+expenditure,2023-04-16,ActBlue Virginia,$37.53,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-04-23,ActBlue Virginia,$341.68,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-04-24,Alexandria Democratic Committee,"$2,000",Alexandria,VA,business,Event Sponsorship,D,329441,2023-06-12
+expenditure,2023-04-24,Fairfax County Democratic Committee,"$2,500",Fairfax,VA,business,Event Sponsorship,D,329441,2023-06-12
+expenditure,2023-04-30,ActBlue Virginia,$93.82,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-05-01,"Automatic Data Processing, Inc","$2,334.87",El Paso,TX,business,Payroll Taxes,D,329441,2023-06-12
+expenditure,2023-05-01,Peter Byhouwer,"$4,600",Gaithersburg,MD,individual,Salary,D,329441,2023-06-12
+expenditure,2023-05-01,Elizabeth Gallagher,$461.75,Richmond,VA,individual,Salary,D,329441,2023-06-12
+expenditure,2023-05-01,Zachary Gillis,"$4,507.95",Alexandria,VA,individual,Salary,D,329441,2023-06-12
+expenditure,2023-05-01,Google,$15,Mountain View,CA,business,Website Services,D,329441,2023-06-12
+expenditure,2023-05-01,Zachary Rickard,"$1,902.75",Alexandria,VA,individual,Salary,D,329441,2023-06-12
+expenditure,2023-05-02,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,329441,2023-06-12
+expenditure,2023-05-07,ActBlue Virginia,$349.59,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-05-12,"Automatic Data Processing, Inc",$91.10,El Paso,TX,business,Payroll Fees,D,329441,2023-06-12
+expenditure,2023-05-14,ActBlue Virginia,$3.95,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-05-21,ActBlue Virginia,$248.86,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-05-28,ActBlue Virginia,$41.30,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-06-01,"Automatic Data Processing, Inc","$2,484.87",El Paso,TX,business,Payroll Taxes,D,329441,2023-06-12
+expenditure,2023-06-01,Peter Byhouwer,"$4,600",Gaithersburg,MD,individual,Salary,D,329441,2023-06-12
+expenditure,2023-06-01,Elizabeth Gallagher,$461.75,Richmond,VA,individual,Salary,D,329441,2023-06-12
+expenditure,2023-06-01,Zachary Gillis,"$4,507.93",Alexandria,VA,individual,Salary,D,329441,2023-06-12
+expenditure,2023-06-01,Google,$15,Mountain View,CA,business,Website Services,D,329441,2023-06-12
+expenditure,2023-06-01,Zachary Rickard,"$1,752.77",Alexandria,VA,individual,Salary,D,329441,2023-06-12
+expenditure,2023-06-04,ActBlue Virginia,$242.36,West Somerville,MA,business,Credit Card Fees,D,329441,2023-06-12
+expenditure,2023-06-09,"Automatic Data Processing, Inc",$91.10,El Paso,TX,business,Payroll Fees,D,339524,2023-07-17
+expenditure,2023-06-20,ActBlue Virginia,$4.29,West Somerville,MA,business,Credit Card Fees,D,339524,2023-07-17
+expenditure,2023-06-21,Truist Bank,$30,Alexandria,VA,business,Bank Fees,D,339524,2023-07-17
+expenditure,2023-06-25,ActBlue Virginia,$9.88,West Somerville,MA,business,Credit Card Fees,D,339524,2023-07-17
+expenditure,2023-06-30,ActBlue Virginia,$69.13,West Somerville,MA,business,Credit Card Fees,D,339524,2023-07-17
+expenditure,2023-07-01,"Automatic Data Processing, Inc","$3,539.29",El Paso,TX,business,Payroll Taxes,D,350600,2023-09-15
+expenditure,2023-07-01,Peter Byhouwer,"$3,500.62",Alexandria,VA,individual,Salary,D,350600,2023-09-15
+expenditure,2023-07-01,Zachary Gillis,"$4,507.95",Alexandria,VA,individual,Salary,D,350600,2023-09-15
+expenditure,2023-07-01,Zachary Rickard,"$1,752.76",Alexandria,VA,individual,Salary,D,350600,2023-09-15
+expenditure,2023-07-03,Google,$15,Mountain View,CA,business,Website Services,D,350600,2023-09-15
+expenditure,2023-07-11,Friends of Karen Keys-Gamarra,"$1,000",Oakton,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-12,Adele for Delegate,"$1,000",Arlington,VA,candidate,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-14,"Automatic Data Processing, Inc",$95.66,El Paso,TX,business,Payroll Fees,D,350600,2023-09-15
+expenditure,2023-07-14,Zachary Gillis,"$1,993.16",Alexandria,VA,individual,Travel Reimbursement,D,350600,2023-09-15
+expenditure,2023-07-15,Cole 4 VA,"$10,000",Stafford,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-15,Elect Atoosa Reaser,"$1,000",Sterling,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-15,Josh Thomas for Delegate,"$10,000",Gainesville,VA,candidate,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-16,ActBlue Virginia,$237,Somerville,MA,business,Credit Card Fees,D,350600,2023-09-15
+expenditure,2023-07-17,Debra Gardner for Delegate,"$1,000",North Chesterfield,VA,candidate,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-17,Destiny for Virginia,"$1,000",Glen Allen,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-17,Michael Jones for Delegate,"$1,000",Richmond,VA,candidate,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-19,Bonita Anthony for Delegate,"$1,000",Norfolk,VA,candidate,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-19,Friends of Kelly Fowler,"$2,500",Virginia Beach,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-19,Friends of Rae C. Cousins,"$1,000",Richmond,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-19,Nadarius Clark for Delegate,"$5,000",Suffolk,VA,candidate,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-19,Phil for Virginia,"$5,000",Norfolk,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-20,Kannan for Delegate,"$1,000",Ashburn,VA,candidate,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-21,Henson for Virginia,"$1,000",Dumfries,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-22,Marty for Delegate,"$1,000",Leesburg,VA,candidate,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-23,ActBlue Virginia,$53.33,Somerville,MA,business,Credit Card Fees,D,350600,2023-09-15
+expenditure,2023-07-27,Friends of Susanna Gibson,"$2,500",Henrico,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-27,Kim Adams for Virginia,"$5,000",Petersburg,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-07-30,ActBlue Virginia,$109.64,Somerville,MA,business,Credit Card Fees,D,350600,2023-09-15
+expenditure,2023-08-01,"Automatic Data Processing, Inc","$3,533.30",El Paso,TX,business,Payroll Taxes,D,350600,2023-09-15
+expenditure,2023-08-01,Peter Byhouwer,"$3,500.62",Alexandria,VA,individual,Salary,D,350600,2023-09-15
+expenditure,2023-08-01,Friends of Michelle Maldonado,"$1,000",Bristow,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-08-01,Zachary Gillis,"$4,507.95",Alexandria,VA,individual,Salary,D,350600,2023-09-15
+expenditure,2023-08-01,Google,$15,Mountain View,CA,business,Website Services,D,350600,2023-09-15
+expenditure,2023-08-01,Zachary Rickard,"$1,752.75",Alexandria,VA,individual,Salary,D,350600,2023-09-15
+expenditure,2023-08-06,ActBlue Virginia,$102.12,Somerville,MA,business,Credit Card Fees,D,350600,2023-09-15
+expenditure,2023-08-09,Fairfax County Democratic Committee,$740,Fairfax,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-08-11,"Automatic Data Processing, Inc",$95.66,El Paso,TX,business,Payroll Fees,D,350600,2023-09-15
+expenditure,2023-08-11,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-08-13,ActBlue Virginia,$10.87,Somerville,MA,business,Credit Card Fees,D,350600,2023-09-15
+expenditure,2023-08-20,ActBlue Virginia,$128.39,Somerville,MA,business,Credit Card Fees,D,350600,2023-09-15
+expenditure,2023-08-25,Friends of Laura Jane Cohen,"$1,000",Burke,VA,business,Campaign Contribution,D,350600,2023-09-15
+expenditure,2023-08-27,ActBlue Virginia,$1.98,Somerville,MA,business,Credit Card Fees,D,350600,2023-09-15
+expenditure,2023-08-28,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,350600,2023-09-15
+expenditure,2023-08-31,ActBlue Virginia,$19.76,Somerville,MA,business,Credit Card Fees,D,350600,2023-09-15
+expenditure,2023-09-01,"Automatic Data Processing, Inc","$3,510.08",El Paso,TX,business,Payroll Taxes,D,361134,2023-10-16
+expenditure,2023-09-01,Peter Byhouwer,"$3,500.62",Alexandria,VA,individual,Salary,D,361134,2023-10-16
+expenditure,2023-09-01,Zachary Gillis,"$4,507.95",Alexandria,VA,individual,Salary,D,361134,2023-10-16
+expenditure,2023-09-01,Google,$15,Mountain View,CA,business,Website Services,D,361134,2023-10-16
+expenditure,2023-09-01,Zachary Rickard,"$1,752.77",Alexandria,VA,individual,Salary,D,361134,2023-10-16
+expenditure,2023-09-07,Katrina Callsen for Delegate,"$1,000",Charlottesville,VA,candidate,Campaign Contribution,D,361134,2023-10-16
+expenditure,2023-09-07,Laufer for Delegate,"$1,000",Charlottesville,VA,candidate,Campaign Contribution,D,361134,2023-10-16
+expenditure,2023-09-10,ActBlue Technical Services,$3.95,Somerville,MA,business,Credit Card Fees,D,361134,2023-10-16
+expenditure,2023-09-15,"Automatic Data Processing, Inc",$95.66,El Paso,TX,business,Payroll Fees,D,361134,2023-10-16
+expenditure,2023-09-20,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Campaign Contribution,D,361134,2023-10-16
+expenditure,2023-09-21,Friends of Travis Nembhard,"$5,000",Manassas,VA,business,Campaign Contribution,D,361134,2023-10-16
+expenditure,2023-09-22,Peter Byhouwer,$425.39,Alexandria,VA,individual,Travel Reimbursement,D,361134,2023-10-16
+expenditure,2023-09-30,ActBlue Technical Services,$152.10,Somerville,MA,business,Credit Card Fees,D,361134,2023-10-16
+expenditure,2023-10-01,"Automatic Data Processing, Inc","$3,510.09",El Paso,TX,business,Payroll Taxes,D,369405,2023-10-30
+expenditure,2023-10-01,Peter Byhouwer,"$3,500.62",Alexandria,VA,individual,Salary,D,369405,2023-10-30
+expenditure,2023-10-01,Zachary Gillis,"$4,507.95",Alexandria,VA,individual,Salary,D,369405,2023-10-30
+expenditure,2023-10-01,Google,$17,Mountain View,CA,business,Website Services,D,369405,2023-10-30
+expenditure,2023-10-01,Zachary Rickard,"$1,752.76",Alexandria,VA,individual,Salary,D,369405,2023-10-30
+expenditure,2023-10-08,ActBlue Technical Services,$25.68,Somerville,MA,business,Credit Card Fees,D,369405,2023-10-30
+expenditure,2023-10-11,Democratic Party of Virginia,"$4,388.19",Richmond,VA,party,Campaign Contribution,D,369405,2023-10-30
+expenditure,2023-10-11,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Campaign Contribution,D,369405,2023-10-30
+expenditure,2023-10-11,Virginia Legislative Black Caucus,"$1,000",Richmond,VA,business,Campaign Contribution,D,369405,2023-10-30
+expenditure,2023-10-13,"Automatic Data Processing, Inc",$95.66,El Paso,TX,business,Payroll Fees,D,369405,2023-10-30
+expenditure,2023-10-15,ActBlue Technical Services,$54.93,Somerville,MA,business,Credit Card Fees,D,369405,2023-10-30
+expenditure,2023-10-17,Democratic Party of Virginia,"$3,493.43",Richmond,VA,party,Campaign Contribution,D,369405,2023-10-30
+expenditure,2023-10-22,ActBlue Technical Services,$154.07,Somerville,MA,business,Credit Card Fees,D,369405,2023-10-30
+expenditure,2023-10-25,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,Campaign Contribution,D,369405,2023-10-30
+expenditure,2023-10-26,ActBlue Technical Services,$23.71,Somerville,MA,business,Credit Card Fees,D,369405,2023-10-30
+expenditure,2023-10-26,Alexandria Democratic Committee,"$2,875",Alexandria,VA,business,Campaign Contribution,D,369405,2023-10-30
+expenditure,2023-10-26,Peter Byhouwer,$62.23,Alexandria,VA,individual,Travel Reimbursement,D,369405,2023-10-30
+expenditure,2023-10-26,Zachary Gillis,$373.45,Alexandria,VA,individual,Travel Reimbursement,D,369405,2023-10-30
+expenditure,2023-10-26,United States Postal Service,$460,Alexandria,VA,business,PO Box Rental,D,369405,2023-10-30
+expenditure,2023-10-26,Virginia Joint Democratic Caucus,$650.49,Richmond,VA,business,Campaign Contribution,D,369405,2023-10-30
+expenditure,2023-10-29,ActBlue Technical Services,$246.88,Somerville,MA,business,Credit Card Fees,D,379163,2023-12-01
+expenditure,2023-10-30,Kathy Tran for Delegate,$625,Springfield,VA,candidate,Campaign Contribution,D,379163,2023-12-01
+expenditure,2023-10-31,Friends of Kelly Fowler,"$10,000",Virginia Beach,VA,business,Campaign Contribution,D,379163,2023-12-01
+expenditure,2023-10-31,Karen for Virginia,"$5,000",Suffolk,VA,business,Campaign Contribution,D,379163,2023-12-01
+expenditure,2023-11-01,"Automatic Data Processing, Inc","$3,510.12",El Paso,TX,business,Payroll Taxes,D,379163,2023-12-01
+expenditure,2023-11-01,Peter Byhouwer,"$3,500.62",Alexandria,VA,individual,Salary,D,379163,2023-12-01
+expenditure,2023-11-01,Zachary Gillis,"$4,507.93",Alexandria,VA,individual,Salary,D,379163,2023-12-01
+expenditure,2023-11-01,Google,$30,Mountain View,CA,business,Website Services,D,379163,2023-12-01
+expenditure,2023-11-01,Lily for Delegate,"$1,000",Blacksburg,VA,candidate,Campaign Contribution,D,379163,2023-12-01
+expenditure,2023-11-01,Zachary Rickard,"$1,752.75",Alexandria,VA,individual,Salary,D,379163,2023-12-01
+expenditure,2023-11-02,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,379163,2023-12-01
+expenditure,2023-11-05,ActBlue Technical Services,$63.21,Somerville,MA,business,Credit Card Fees,D,379163,2023-12-01
+expenditure,2023-11-06,Reservations.com,$254.51,Orlando,FL,business,Lodging,D,379163,2023-12-01
+expenditure,2023-11-07,ActBlue Technical Services,$39.50,Somerville,MA,business,Credit Card Fees,D,379163,2023-12-01
+expenditure,2023-11-07,Harris Teeter,$16.89,Falls Church,VA,business,Volunteer Snacks,D,379163,2023-12-01
+expenditure,2023-11-07,Reservations.com,$21.74,Orlando,FL,business,Lodging,D,379163,2023-12-01
+expenditure,2023-11-08,The Berkeley Hotel,$431.13,Richmond,VA,business,Lodging,D,379163,2023-12-01
+expenditure,2023-11-09,The Berkeley Hotel,$31.80,Richmond,VA,business,Lodging,D,379163,2023-12-01
+expenditure,2023-11-10,"Automatic Data Processing, Inc",$95.66,El Paso,TX,business,Payroll Fees,D,379163,2023-12-01
+expenditure,2023-11-12,ActBlue Technical Services,$1.98,Somerville,MA,business,Credit Card Fees,D,379163,2023-12-01
+expenditure,2023-11-16,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,Campaign Contribution,D,379163,2023-12-01
+expenditure,2023-11-19,ActBlue Technical Services,$201.45,Somerville,MA,business,Credit Card Fees,D,379163,2023-12-01
+expenditure,2023-11-21,Truist Bank,$70,Alexandria,VA,business,Service Fee,D,379163,2023-12-01
+expenditure,2023-12-01,ActBlue Technical Services,$39.50,Somerville,MA,business,Credit Card Fees,D,393147,2024-01-16
+expenditure,2023-12-01,"Automatic Data Processing, Inc","$10,874.83",El Paso,TX,business,Payroll Taxes,D,393147,2024-01-16
+expenditure,2023-12-01,Peter Byhouwer,"$5,203.75",Alexandria,VA,individual,Salary,D,393147,2024-01-16
+expenditure,2023-12-01,Zachary Gillis,"$1,385.78",Alexandria,VA,individual,Travel Reimbursement,D,393147,2024-01-16
+expenditure,2023-12-01,Zachary Gillis,"$9,276.67",Alexandria,VA,individual,Salary,D,393147,2024-01-16
+expenditure,2023-12-01,Google,$30,Mountain View,CA,business,Website Services,D,393147,2024-01-16
+expenditure,2023-12-01,Zachary Rickard,"$6,754.92",Alexandria,VA,individual,Salary,D,393147,2024-01-16
+expenditure,2023-12-04,Hilton Richmond,$509.76,Richmond,VA,business,Lodging,D,393147,2024-01-16
+expenditure,2023-12-15,"Automatic Data Processing, Inc",$95.66,El Paso,TX,business,Payroll Fees,D,393147,2024-01-16
+expenditure,2023-12-31,ActBlue Technical Services,$39.50,Somerville,MA,business,Credit Card Fees,D,393147,2024-01-16
+expenditure,2024-01-01,Automatic Data Processing,"$3,543.72",El Paso,TX,business,Payroll Taxes,D,409541,2024-07-15
+expenditure,2024-01-01,Peter Byhouwer,"$3,509.12",Alexandria,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-01-01,Zachary Gillis,"$4,542.91",Alexandria,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-01-01,Google,$27.28,Mountain View,CA,business,Website Services,D,409541,2024-07-15
+expenditure,2024-01-01,Zachary Rickard,"$1,761.26",Richmond,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-01-05,Zoom Video Communications,$167.90,San Jose,CA,business,Software Subscription,D,409541,2024-07-15
+expenditure,2024-01-07,ActBlue Technical Services,$39.50,Somerville,MA,business,Credit Card Fees,D,409541,2024-07-15
+expenditure,2024-01-12,Automatic Data Processing,$95.66,El Paso,TX,business,Payroll Fees,D,409541,2024-07-15
+expenditure,2024-01-29,Secret Sandwich Society,$53.97,Richmond,VA,business,Staff Meal,D,409541,2024-07-15
+expenditure,2024-01-31,Automatic Data Processing,$102.40,El Paso,TX,business,Payroll Fees,D,409541,2024-07-15
+expenditure,2024-02-01,Automatic Data Processing,"$4,221.49",El Paso,TX,business,Payroll Taxes,D,409541,2024-07-15
+expenditure,2024-02-01,Zachary Gillis,"$2,394.58",Alexandria,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-02-01,Geoffrey Preudhomme,"$6,207.71",Alexandria,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-02-01,Zachary Rickard,"$2,304.12",Richmond,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-02-02,Google,$34.44,Mountain View,CA,business,Website Services,D,409541,2024-07-15
+expenditure,2024-02-09,Automatic Data Processing,$95.66,El Paso,TX,business,Payroll Fees,D,409541,2024-07-15
+expenditure,2024-02-23,Meriwether Godsey,$272.44,Lynchburg,VA,business,Catering,D,409541,2024-07-15
+expenditure,2024-02-26,Zachary Gillis,"$2,012.67",Alexandria,VA,individual,Travel Reimbursement,D,409541,2024-07-15
+expenditure,2024-02-26,Anna Philmlee,$118.36,Centreville,VA,individual,Supplies Reimbursement,D,409541,2024-07-15
+expenditure,2024-02-26,Zachary Rickard,"$4,214.58",Richmond,VA,individual,Travel Reimbursement,D,409541,2024-07-15
+expenditure,2024-02-26,Treasurer of Virginia,$45,Richmond,VA,business,Printing Services,D,409541,2024-07-15
+expenditure,2024-02-26,Treasurer of Virginia,$15,Richmond,VA,business,Printing Services,D,409541,2024-07-15
+expenditure,2024-03-01,Automatic Data Processing,"$3,115.16",El Paso,TX,business,Payroll Taxes,D,409541,2024-07-15
+expenditure,2024-03-01,Orion Fiscella Semmes,"$4,292.71",Newport News,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-03-01,Zachary Gillis,"$2,394.58",Alexandria,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-03-01,Google,$41.16,Mountain View,CA,business,Website Services,D,409541,2024-07-15
+expenditure,2024-03-01,Zachary Rickard,"$2,307.46",Richmond,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-03-08,Automatic Data Processing,$95.66,El Paso,TX,business,Payroll Fees,D,409541,2024-07-15
+expenditure,2024-03-08,Anna Philmlee,$252.46,Centreville,VA,individual,Supplies Reimbursement,D,409541,2024-07-15
+expenditure,2024-03-11,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,409541,2024-07-15
+expenditure,2024-03-31,ActBlue Technical Services,$39.50,Somerville,MA,business,Sevice Fee,D,409541,2024-07-15
+expenditure,2024-04-01,Automatic Data Processing,"$2,136.74",El Paso,TX,business,Payroll Taxes,D,409541,2024-07-15
+expenditure,2024-04-01,Zachary Gillis,"$2,529.58",Alexandria,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-04-01,Google,$35.01,Mountain View,CA,business,Website Services,D,409541,2024-07-15
+expenditure,2024-04-01,Anna Philmlee,"$2,004.12",Centreville,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-04-01,Zachary Rickard,"$2,307.46",Richmond,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-04-05,Automatic Data Processing,$95.66,El Paso,TX,business,Payroll Fees,D,409541,2024-07-15
+expenditure,2024-04-11,Alexandria Young Democrats,$250,Alexandria,VA,business,Event Sponsorship,D,409541,2024-07-15
+expenditure,2024-05-01,Automatic Data Processing,"$3,236.49",El Paso,TX,business,Payroll Taxes,D,409541,2024-07-15
+expenditure,2024-05-01,Zachary Gillis,"$2,146.97",Alexandria,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-05-01,Google,$36,Mountain View,CA,business,Website Services,D,409541,2024-07-15
+expenditure,2024-05-01,Anna Philmlee,"$3,814.44",Centreville,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-05-01,Zachary Rickard,"$1,856.75",Richmond,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-05-05,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,409541,2024-07-15
+expenditure,2024-05-06,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,409541,2024-07-15
+expenditure,2024-05-10,Automatic Data Processing,$95.66,El Paso,TX,business,Payroll Fees,D,409541,2024-07-15
+expenditure,2024-05-23,Alexandria Democratic Committee,$350,Alexandria,VA,business,Event Sponsorship,D,409541,2024-07-15
+expenditure,2024-05-24,Fairfax County Democratic Committee,$400,Fairfax,VA,business,Event Sponsorship,D,409541,2024-07-15
+expenditure,2024-06-01,Automatic Data Processing,"$3,204.99",El Paso,TX,business,Payroll Taxes,D,409541,2024-07-15
+expenditure,2024-06-01,Zachary Gillis,"$2,146.97",Alexandria,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-06-01,Google,$36,Mountain View,CA,business,Website Services,D,409541,2024-07-15
+expenditure,2024-06-01,Anna Philmlee,"$3,814.44",Centreville,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-06-01,Zachary Rickard,"$1,856.75",Richmond,VA,individual,Salary,D,409541,2024-07-15
+expenditure,2024-06-02,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,409541,2024-07-15
+expenditure,2024-06-14,Automatic Data Processing,$95.66,El Paso,TX,business,Payroll Fees,D,409541,2024-07-15
+expenditure,2024-06-23,The Commonwealth Hotel,$718.80,Richmond,VA,business,Lodging,D,409541,2024-07-15
+expenditure,2024-06-30,ActBlue Technical Services,$79,Somerville,MA,business,Service Fee,D,409541,2024-07-15
+expenditure,2024-07-01,Automatic Data Processing,"$3,204.49",El Paso,TX,business,Payroll Taxes,D,430395,2025-01-15
+expenditure,2024-07-01,Zachary Gillis,"$2,146.97",Alexandria,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-07-01,Google,$36,Mountain View,CA,business,Website Services,D,430395,2025-01-15
+expenditure,2024-07-01,Anna Philmlee,"$3,814.44",Centreville,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-07-01,Zachary Rickard,"$1,856.75",Richmond,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-07-08,Automatic Data Processing,$95.66,El Paso,TX,business,Payroll Fees,D,430395,2025-01-15
+expenditure,2024-07-28,ActBlue Technical Services,$0.40,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-08-01,Automatic Data Processing,"$3,204.49",El Paso,TX,business,Payroll Taxes,D,430395,2025-01-15
+expenditure,2024-08-01,Zachary Gillis,"$2,146.97",Alexandria,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-08-01,Google,$36,Mountain View,CA,business,Website Services,D,430395,2025-01-15
+expenditure,2024-08-01,Anna Philmlee,"$3,814.44",Centreville,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-08-01,Zachary Rickard,"$1,856.75",Richmond,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-08-04,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-08-09,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,430395,2025-01-15
+expenditure,2024-08-12,Hyatt Regency Chicago,"$1,591.80",Chicago,IL,business,Lodging,D,430395,2025-01-15
+expenditure,2024-08-18,ActBlue Technical Services,$3.95,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-08-22,Democratic Party of Virginia,"$5,000",Richmond,VA,party,Event Sponsorship,D,430395,2025-01-15
+expenditure,2024-08-25,ActBlue Technical Services,$0.40,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-08-26,Hyatt Regency Chicago,$397.95,Chicago,IL,business,Lodging,D,430395,2025-01-15
+expenditure,2024-09-01,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-09-01,Automatic Data Processing,"$3,204.49",El Paso,TX,business,Payroll Taxes,D,430395,2025-01-15
+expenditure,2024-09-01,Zachary Gillis,"$2,146.97",Alexandria,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-09-01,Google,$36,Mountain View,CA,business,Website Services,D,430395,2025-01-15
+expenditure,2024-09-01,Anna Philmlee,"$3,814.44",Centreville,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-09-01,Zachary Rickard,"$1,856.75",Richmond,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-09-03,Eighth Congressional District Democratic Committee,$280,Falls Church,VA,business,Event Sponsorship,D,430395,2025-01-15
+expenditure,2024-09-03,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,430395,2025-01-15
+expenditure,2024-09-03,Treasurer of Virginia,"$2,411.99",Richmond,VA,business,Postage,D,430395,2025-01-15
+expenditure,2024-09-05,Network Solutions,$185.85,Herndon,VA,business,Domain Registration,D,430395,2025-01-15
+expenditure,2024-09-06,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,430395,2025-01-15
+expenditure,2024-09-22,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-09-28,Elect Sarah Bagley,$250,Alexandria,VA,business,Campaign Contribution,D,430395,2025-01-15
+expenditure,2024-09-28,Friends of Alyia Gaskins,$500,Alexandria,VA,business,Campaign Contribution,D,430395,2025-01-15
+expenditure,2024-09-28,Jacinta Greene for Alexandria City Council,$250,Alexandria,VA,business,Campaign Contribution,D,430395,2025-01-15
+expenditure,2024-10-01,Automatic Data Processing,"$3,204.49",El Paso,TX,business,Payroll Taxes,D,430395,2025-01-15
+expenditure,2024-10-01,Zachary Gillis,"$2,146.97",Alexandria,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-10-01,Google,$36,Mountain View,CA,business,Website Services,D,430395,2025-01-15
+expenditure,2024-10-01,Anna Philmlee,"$3,814.44",Centreville,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-10-01,Zachary Rickard,"$1,856.75",Richmond,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-10-03,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-10-10,United States Postal Service,$474,Alexandria,VA,business,PO Box Rental,D,430395,2025-01-15
+expenditure,2024-10-11,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,430395,2025-01-15
+expenditure,2024-10-20,ActBlue Technical Services,$1.98,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-11-01,Automatic Data Processing,"$3,204.49",El Paso,TX,business,Payroll Taxes,D,430395,2025-01-15
+expenditure,2024-11-01,Zachary Gillis,"$2,146.97",Alexandria,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-11-01,Google,$36,Mountain View,CA,business,Website Services,D,430395,2025-01-15
+expenditure,2024-11-01,Anna Philmlee,"$3,814.44",Centreville,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-11-01,Zachary Rickard,"$1,856.75",Richmond,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-11-03,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-11-04,NGP VAN,"$1,140",Washington,DC,business,Database Services,D,430395,2025-01-15
+expenditure,2024-11-08,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,430395,2025-01-15
+expenditure,2024-11-21,Truist Bank,$15,Alexandria,VA,business,Bank Fee,D,430395,2025-01-15
+expenditure,2024-12-01,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-12-01,Automatic Data Processing,"$5,338.29",El Paso,TX,business,Payroll Taxes,D,430395,2025-01-15
+expenditure,2024-12-01,Zachary Gillis,"$4,011.97",Alexandria,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-12-01,Google,$36,Mountain View,CA,business,Website Services,D,430395,2025-01-15
+expenditure,2024-12-01,Anna Philmlee,"$3,814.44",Centreville,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-12-01,Zachary Rickard,"$3,778.70",Richmond,VA,individual,Salary,D,430395,2025-01-15
+expenditure,2024-12-06,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,430395,2025-01-15
+expenditure,2024-12-22,ActBlue Technical Services,$79,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2024-12-31,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,430395,2025-01-15
+expenditure,2025-01-01,Automatic Data Processing,"$2,360.30",El Paso,TX,business,Payroll Taxes,D,436514,2025-04-15
+expenditure,2025-01-01,Google,$31.88,Mountain View,CA,business,Website Services,D,436514,2025-04-15
+expenditure,2025-01-02,Zachary Gillis,"$2,475.94",Alexandria,VA,individual,Salary,D,436514,2025-04-15
+expenditure,2025-01-02,Anna Philmlee,"$2,217.16",Centreville,VA,individual,Salary,D,436514,2025-04-15
+expenditure,2025-01-02,Zachary Rickard,"$2,061.63",Richmond,VA,individual,Salary,D,436514,2025-04-15
+expenditure,2025-01-05,Fairfax County Democratic Committee,$170,Fairfax,VA,business,Event Sponsorship,D,436514,2025-04-15
+expenditure,2025-01-05,Zoom Video Communications,$167.90,San Jose,CA,business,Software Subscription,D,436514,2025-04-15
+expenditure,2025-01-07,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Campaign Contribution,D,436514,2025-04-15
+expenditure,2025-01-10,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,436514,2025-04-15
+expenditure,2025-01-29,Automatic Data Processing,$112.60,El Paso,TX,business,Payroll Fees,D,436514,2025-04-15
+expenditure,2025-02-01,Automatic Data Processing,"$3,822.62",El Paso,TX,business,Payroll Taxes,D,436514,2025-04-15
+expenditure,2025-02-01,Deyona Burton,"$3,609.31",Jacksonville,FL,individual,Salary,D,436514,2025-04-15
+expenditure,2025-02-01,Zachary Gillis,"$2,041.58",Alexandria,VA,individual,Salary,D,436514,2025-04-15
+expenditure,2025-02-01,Google,$50.40,Mountain View,CA,business,Website Services,D,436514,2025-04-15
+expenditure,2025-02-01,Zachary Rickard,"$3,114.30",Richmond,VA,individual,Salary,D,436514,2025-04-15
+expenditure,2025-02-14,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,436514,2025-04-15
+expenditure,2025-02-21,Zachary Gillis,$352.24,Alexandria,VA,individual,Travel Reimbursement,D,436514,2025-04-15
+expenditure,2025-02-21,Aubrey Hobby,$208.39,Charlottesville,VA,individual,Supplies Reimbursement,D,436514,2025-04-15
+expenditure,2025-02-21,Zachary Rickard,$717.82,Richmond,VA,individual,Supplies Reimbursement,D,436514,2025-04-15
+expenditure,2025-02-21,Truist Bank,$5,Alexandria,VA,business,Bank Fee,D,436514,2025-04-15
+expenditure,2025-02-28,Automatic Data Processing,"$3,781.84",El Paso,TX,business,Payroll Taxes,D,436514,2025-04-15
+expenditure,2025-02-28,Deyona Burton,"$3,609.30",Jacksonville,FL,individual,Salary,D,436514,2025-04-15
+expenditure,2025-02-28,Zachary Gillis,"$2,041.58",Alexandria,VA,individual,Salary,D,436514,2025-04-15
+expenditure,2025-02-28,Zachary Rickard,"$3,114.28",Richmond,VA,individual,Salary,D,436514,2025-04-15
+expenditure,2025-03-01,Google,$50.48,Mountain View,CA,business,Website Services,D,436514,2025-04-15
+expenditure,2025-03-02,ActBlue Technical Services,$46.81,Somerville,MA,business,Service Fee,D,436514,2025-04-15
+expenditure,2025-03-06,City of Alexandria Treasury Division,$352.80,Alexandria,VA,business,Filing Fee,D,436514,2025-04-15
+expenditure,2025-03-06,Democratic Party of Virginia,"$1,014.91",Richmond,VA,party,Contribution,D,436514,2025-04-15
+expenditure,2025-03-07,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,436514,2025-04-15
+expenditure,2025-03-09,ActBlue Technical Services,$128.39,Somerville,MA,business,Service Fee,D,436514,2025-04-15
+expenditure,2025-03-10,Clyde's at Mark Center,"$1,500",Alexandria,VA,business,Event Deposit,D,436514,2025-04-15
+expenditure,2025-03-16,ActBlue Technical Services,$233.08,Somerville,MA,business,Service Fee,D,436514,2025-04-15
+expenditure,2025-03-21,Truist Bank,$5,Alexandria,VA,business,Bank Fee,D,436514,2025-04-15
+expenditure,2025-03-23,ActBlue Technical Services,$157.82,Somerville,MA,business,Service Fee,D,436514,2025-04-15
+expenditure,2025-03-27,Alexandria Young Democrats,$250,Alexandria,VA,business,Contribution,D,436514,2025-04-15
+expenditure,2025-03-30,ActBlue Technical Services,$848.15,Somerville,MA,business,Service Fee,D,436514,2025-04-15
+expenditure,2025-03-31,ActBlue Technical Services,$180.74,Somerville,MA,business,Service Fee,D,436514,2025-04-15
+expenditure,2025-04-01,Automatic Data Processing,"$3,402.22",El Paso,TX,business,Payroll Taxes,D,445684,2025-07-10
+expenditure,2025-04-01,Deyona Burton,"$3,937.92",Jacksonville,FL,individual,Salary,D,445684,2025-07-10
+expenditure,2025-04-01,Zachary Gillis,"$1,991.58",Alexandria,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-04-01,Google,$37.06,Mountain View,CA,business,Website Services,D,445684,2025-07-10
+expenditure,2025-04-01,Aubrey Hobby,"$1,818.81",Charlottesville,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-04-01,Zachary Rickard,"$1,861.73",Richmond,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-04-03,Clyde's at Mark Center,"$3,841.56",Alexandria,VA,business,"Event Venue, Food, & Drink",D,445684,2025-07-10
+expenditure,2025-04-06,ActBlue Technical Services,$117.17,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-04-07,NGP VAN,"$1,197",Washington,DC,business,Database Services,D,445684,2025-07-10
+expenditure,2025-04-11,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,445684,2025-07-10
+expenditure,2025-04-13,ActBlue Technical Services,$40.50,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-04-20,ActBlue Technical Services,$37.54,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-04-21,Truist,$5,Alexandria,VA,business,Bank Fee,D,445684,2025-07-10
+expenditure,2025-04-27,ActBlue Technical Services,$59.26,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-05-01,Automatic Data Processing,"$2,984.71",El Paso,TX,business,Payroll Taxes,D,445684,2025-07-10
+expenditure,2025-05-01,Zachary Gillis,"$1,991.58",Alexandria,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-05-01,Google,$31.20,Mountain View,CA,business,Website Services,D,445684,2025-07-10
+expenditure,2025-05-01,Aubrey Hobby,"$3,407.01",Charlottesville,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-05-01,Zachary Rickard,"$1,861.73",Richmond,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-05-01,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Campaign Contribution,D,445684,2025-07-10
+expenditure,2025-05-02,Fairfax County Democratic Committee,$400,Fairfax,VA,business,Event Sponsorship,D,445684,2025-07-10
+expenditure,2025-05-02,NGP VAN,"$1,197",Washington,DC,business,Database Services,D,445684,2025-07-10
+expenditure,2025-05-04,ActBlue Technical Services,$47.42,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-05-11,ActBlue Technical Services,$140.25,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-05-16,Alexandria Democratic Committee,$500,Alexandria,VA,business,Event Sponsorship,D,445684,2025-07-10
+expenditure,2025-05-16,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,445684,2025-07-10
+expenditure,2025-05-18,ActBlue Technical Services,$86.91,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-05-21,Truist,$5,Alexandria,VA,business,Bank Fee,D,445684,2025-07-10
+expenditure,2025-05-25,ActBlue Technical Services,$49.38,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-06-01,ActBlue Technical Services,$110.61,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-06-01,Automatic Data Processing,"$3,168.11",El Paso,TX,business,Payroll Taxes,D,445684,2025-07-10
+expenditure,2025-06-01,Trenton Fisher,"$1,189.99",Stanardsville,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-06-01,Zachary Gillis,"$1,991.58",Alexandria,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-06-01,Google,$33.98,Mountain View,CA,business,Website Services,D,445684,2025-07-10
+expenditure,2025-06-01,Aubrey Hobby,"$3,407.02",Charlottesville,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-06-01,Zachary Rickard,"$1,950.73",Richmond,VA,individual,Salary,D,445684,2025-07-10
+expenditure,2025-06-05,ActBlue Technical Services,$122.47,Somerville,MA,business,Service Fee,D,445684,2025-07-10
+expenditure,2025-06-08,ActBlue Technical Services,$9.88,Somerville,MA,business,Service Fee,D,448262,2025-07-15
+expenditure,2025-06-13,Automatic Data Processing,$100.44,El Paso,TX,business,Payroll Fees,D,448262,2025-07-15
+expenditure,2025-06-15,ActBlue Technical Services,$64.19,Somerville,MA,business,Service Fee,D,448262,2025-07-15
+expenditure,2025-06-20,Fairfax County Democratic Committee,$110,Fairfax,VA,business,Event Sponsorship,D,448262,2025-07-15
+expenditure,2025-06-20,Virginia Legislative Black Caucus,"$2,000",Richmond,VA,business,Membership Dues,D,448262,2025-07-15
+expenditure,2025-06-20,Virginia Young Democrats,$250,Richmond,VA,business,Event Sponsorship,D,448262,2025-07-15
+expenditure,2025-06-22,ActBlue Technical Services,$104.69,Somerville,MA,business,Service Fee,D,448262,2025-07-15
+expenditure,2025-06-22,Richmond Marriott Short Pump,$209.31,Glen Allen,VA,business,Lodging,D,448262,2025-07-15
+expenditure,2025-06-23,Truist Financial Corporation,$5,Charlotte,NC,business,Bank Fee,D,448262,2025-07-15
+expenditure,2025-06-29,ActBlue Technical Services,$217.26,Somerville,MA,business,Service Fee,D,448262,2025-07-15
+expenditure,2025-06-30,ActBlue Technical Services,$3.95,Somerville,MA,business,Service Fee,D,448262,2025-07-15
+expenditure,2025-07-01,Automatic Data Processing,"$3,425.15",El Paso,TX,business,Payroll Taxes,D,453991,2025-09-15
+expenditure,2025-07-01,Trenton Fisher,"$3,641.59",Stanardsville,VA,individual,Salary,D,453991,2025-09-15
+expenditure,2025-07-01,Zachary Gillis,"$1,992.78",Alexandria,VA,individual,Salary,D,453991,2025-09-15
+expenditure,2025-07-01,Google,$38.40,Mountain View,CA,business,Website Services,D,453991,2025-09-15
+expenditure,2025-07-01,Aubrey Hobby,"$1,819.85",Charlottesville,VA,individual,Salary,D,453991,2025-09-15
+expenditure,2025-07-01,Zachary Rickard,"$1,862.92",Richmond,VA,individual,Salary,D,453991,2025-09-15
+expenditure,2025-07-01,Sunoco,$36.40,Alexandria,VA,business,Gas,D,453991,2025-09-15
+expenditure,2025-07-06,ActBlue Technical Services,$31.61,Somerville,MA,business,Service Fee,D,453991,2025-09-15
+expenditure,2025-07-08,Treasurer of Virginia,"$1,061.27",Richmond,VA,business,Mailing,D,453991,2025-09-15
+expenditure,2025-07-11,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,453991,2025-09-15
+expenditure,2025-07-13,ActBlue Technical Services,$5.93,Somerville,MA,business,Service Fee,D,453991,2025-09-15
+expenditure,2025-07-13,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event Sponsorship,D,453991,2025-09-15
+expenditure,2025-07-18,Zachary Gillis,$228.14,Alexandria,VA,individual,Office Supplies & Travel Reimbursement,D,453991,2025-09-15
+expenditure,2025-07-18,Shell,$42.33,Woodbridge,VA,business,Gas,D,453991,2025-09-15
+expenditure,2025-07-20,ActBlue Technical Services,$33.59,Somerville,MA,business,Service Fee,D,453991,2025-09-15
+expenditure,2025-07-21,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,453991,2025-09-15
+expenditure,2025-07-27,ActBlue Technical Services,$39.50,Somerville,MA,business,Service Fee,D,453991,2025-09-15
+expenditure,2025-07-31,United States Postal Service,$31.40,Alexandria,VA,business,Postage,D,453991,2025-09-15
+expenditure,2025-07-31,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Campaign Contribution,D,453991,2025-09-15
+expenditure,2025-08-01,Automatic Data Processing,"$3,408.33",El Paso,TX,business,Payroll Taxes,D,453991,2025-09-15
+expenditure,2025-08-01,Trenton Fisher,"$3,800.91",Stanardsville,VA,individual,Salary,D,453991,2025-09-15
+expenditure,2025-08-01,Zachary Gillis,"$1,992.78",Alexandria,VA,individual,Salary,D,453991,2025-09-15
+expenditure,2025-08-01,Google,$42.85,Mountain View,CA,business,Website Services,D,453991,2025-09-15
+expenditure,2025-08-01,Aubrey Hobby,"$1,819.86",Charlottesville,VA,individual,Salary,D,453991,2025-09-15
+expenditure,2025-08-01,Zachary Rickard,"$1,862.92",Richmond,VA,individual,Salary,D,453991,2025-09-15
+expenditure,2025-08-03,ActBlue Technical Services,$140.66,Somerville,MA,business,Service Fee,D,453991,2025-09-15
+expenditure,2025-08-04,Curb Mobility LLC,$14,Astoria,NY,business,Taxi Service,D,453991,2025-09-15
+expenditure,2025-08-08,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,453991,2025-09-15
+expenditure,2025-08-10,ActBlue Technical Services,$15.81,Somerville,MA,business,Service Fee,D,453991,2025-09-15
+expenditure,2025-08-17,ActBlue Technical Services,$267.64,Somerville,MA,business,Service Fee,D,453991,2025-09-15
+expenditure,2025-08-21,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,453991,2025-09-15
+expenditure,2025-08-24,ActBlue Technical Services,$37.53,Somerville,MA,business,Service Fee,D,453991,2025-09-15
+expenditure,2025-08-27,GAIN Power,$99,Washington,DC,business,Job Posting,D,453991,2025-09-15
+expenditure,2025-08-31,ActBlue Technical Services,$181.73,Somerville,MA,business,Service Fee,D,453991,2025-09-15
+expenditure,2025-09-01,Alexandria Democratic Committee,$200,Alexandria,VA,business,Event Sponsorship,D,460941,2025-10-15
+expenditure,2025-09-01,Arlington County Democratic Committee,$100,Arlington,VA,business,Event Sponsorship,D,460941,2025-10-15
+expenditure,2025-09-01,Automatic Data Processing,"$3,450.71",El Paso,TX,business,Payroll Taxes,D,460941,2025-10-15
+expenditure,2025-09-01,Trenton Fisher,"$3,641.59",Stanardsville,VA,individual,Salary,D,460941,2025-10-15
+expenditure,2025-09-01,Zachary Gillis,"$1,992.78",Alexandria,VA,individual,Salary,D,460941,2025-10-15
+expenditure,2025-09-01,Google,$44.40,Mountain View,CA,business,Website Services,D,460941,2025-10-15
+expenditure,2025-09-01,Aubrey Hobby,"$1,953.51",Charlottesville,VA,individual,Salary,D,460941,2025-10-15
+expenditure,2025-09-01,Zachary Rickard,"$1,862.92",Richmond,VA,individual,Salary,D,460941,2025-10-15
+expenditure,2025-09-02,NGP VAN,"$1,197",Austin,TX,business,Database Services,D,460941,2025-10-15
+expenditure,2025-09-05,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Campaign Contribution,D,460941,2025-10-15
+expenditure,2025-09-07,ActBlue Technical Services,$227.14,Somerville,MA,business,Service Fee,D,460941,2025-10-15
+expenditure,2025-09-07,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event Sponsorship,D,460941,2025-10-15
+expenditure,2025-09-12,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,460941,2025-10-15
+expenditure,2025-09-13,Exxon,$34.86,Alexandria,VA,business,Gas,D,460941,2025-10-15
+expenditure,2025-09-14,ActBlue Technical Services,$15.81,Somerville,MA,business,Service Fee,D,460941,2025-10-15
+expenditure,2025-09-14,BookOnline,$301.80,Wilmington,DE,business,Lodging,D,460941,2025-10-15
+expenditure,2025-09-21,ActBlue Technical Services,$104.68,Somerville,MA,business,Service Fee,D,460941,2025-10-15
+expenditure,2025-09-22,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,460941,2025-10-15
+expenditure,2025-09-22,Virginia House Democratic Caucus,"$250,000",Richmond,VA,party,Campaign Contribution,D,460941,2025-10-15
+expenditure,2025-09-28,ActBlue Technical Services,$665.58,Somerville,MA,business,Service Fee,D,460941,2025-10-15
+expenditure,2025-09-30,ActBlue Technical Services,$10.87,Somerville,MA,business,Service Fee,D,460941,2025-10-15
+expenditure,2025-09-30,Virginia House Democratic Caucus,"$375,000",Richmond,VA,party,Campaign Contribution,D,460941,2025-10-15
+expenditure,2025-10-01,Automatic Data Processing,"$3,166.58",El Paso,TX,business,Payroll Taxes,D,465454,2025-10-27
+expenditure,2025-10-01,Zachary Gillis,"$1,992.78",Alexandria,VA,individual,Salary,D,465454,2025-10-27
+expenditure,2025-10-01,Google,$39.16,Mountain View,CA,business,Website Services,D,465454,2025-10-27
+expenditure,2025-10-01,Aubrey Hobby,"$3,408.22",Charlottesville,VA,individual,Salary,D,465454,2025-10-27
+expenditure,2025-10-01,Zachary Rickard,"$1,862.92",Richmond,VA,individual,Salary,D,465454,2025-10-27
+expenditure,2025-10-01,Launai Wells,"$1,439.16",Washington,DC,individual,Salary,D,465454,2025-10-27
+expenditure,2025-10-10,Alexandria Democratic Committee,"$2,500",Alexandria,VA,business,Campaign Contribution,D,465454,2025-10-27
+expenditure,2025-10-10,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,465454,2025-10-27
+expenditure,2025-10-10,Zachary Gillis,$227.11,Alexandria,VA,individual,Travel Reimbursement,D,465454,2025-10-27
+expenditure,2025-10-10,Aubrey Hobby,$236.39,Charlottesville,VA,individual,Travel Reimbursement,D,465454,2025-10-27
+expenditure,2025-10-12,ActBlue Technical Services,$118.50,Somerville,MA,business,Service Fee,D,465454,2025-10-27
+expenditure,2025-10-19,ActBlue Technical Services,$7.90,Somerville,MA,business,Service Fee,D,465454,2025-10-27
+expenditure,2025-10-21,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,465454,2025-10-27
+expenditure,2025-10-23,ActBlue Technical Services,$197.50,Somerville,MA,business,Service Fee,D,465454,2025-10-27
+expenditure,2025-10-23,Eighth District Democratic Committee,$280,Falls Church,VA,business,Event Sponsorship,D,465454,2025-10-27
+expenditure,2025-10-27,United States Postal Service,$498,Alexandria,VA,business,PO Box Rental,D,472267,2025-12-04
+expenditure,2025-11-01,Automatic Data Processing,"$3,425.15",El Paso,TX,business,Payroll Taxes,D,472267,2025-12-04
+expenditure,2025-11-01,Zachary Gillis,"$1,992.78",Alexandria,VA,individual,Salary,D,472267,2025-12-04
+expenditure,2025-11-01,Google,$44.40,Mountain View,CA,business,Website Services,D,472267,2025-12-04
+expenditure,2025-11-01,Aubrey Hobby,"$1,819.85",Charlottesville,VA,individual,Salary,D,472267,2025-12-04
+expenditure,2025-11-01,Zachary Rickard,"$1,862.92",Richmond,VA,individual,Salary,D,472267,2025-12-04
+expenditure,2025-11-01,Launai Wells,"$3,641.60",Washington,DC,individual,Salary,D,472267,2025-12-04
+expenditure,2025-11-02,ActBlue Technical Services,$132.33,Somerville,MA,business,Service Fee,D,472267,2025-12-04
+expenditure,2025-11-02,Richmond Marriott,$363.96,Richmond,VA,business,Lodging,D,472267,2025-12-04
+expenditure,2025-11-02,Richmond Marriott,$231.40,Richmond,VA,business,Lodging,D,472267,2025-12-04
+expenditure,2025-11-02,Richmond Marriott,$231.40,Richmond,VA,business,Lodging,D,472267,2025-12-04
+expenditure,2025-11-04,ActBlue Technical Services,$197.50,Somerville,MA,business,Service Fee,D,472267,2025-12-04
+expenditure,2025-11-07,Automatic Data Processing,$105.46,El Paso,TX,business,Payroll Fees,D,472267,2025-12-04
+expenditure,2025-11-14,Kathy Tran for Delegate,$75,Springfield,VA,candidate,Campaign Contribution,D,472267,2025-12-04
+expenditure,2025-11-14,Printersmark,$658,Richmond,VA,business,Yard Signs,D,472267,2025-12-04
+expenditure,2025-11-21,Truist Financial,$5,Charlotte,NC,business,Bank Fee,D,472267,2025-12-04
+expenditure,2025-11-25,GAIN Power,$99,Washington,DC,business,Job Posting,D,472267,2025-12-04
 expenditure,2025-11-30,ActBlue Technical Services,$3.95,Somerville,MA,business,Service Fee,D,479247,2026-01-15
 expenditure,2025-12-01,Automatic Data Processing,"$15,407.26",El Paso,TX,business,Payroll Taxes,D,479247,2026-01-15
 expenditure,2025-12-01,Zachary Gillis,"$6,658.55",Alexandria,VA,individual,Salary,D,479247,2026-01-15

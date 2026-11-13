@@ -1,0 +1,526 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2023-12-18,Ruff for Senate,"$10,000",Clarksville,VA,candidate,,Campaign Committee,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-22,Virginia Senate Republican Caucus,"$15,000",Henrico,VA,party,,Political Committee,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-16,Ross Snare,$104.10,Nokesville,VA,individual,UVA Health,External Affairs,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-20,David Bovenizer,$260.25,Lynchburg,VA,individual,Commonwealth of Virginia,Consigliere,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-20,William Pace,$125,Chatham,VA,individual,Virginia House of Delegates,Legislative Assistant,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-21,Diggs for Senate,"$1,041.02",Yorktown,VA,candidate,,Campaign,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-22,Russ Beaman,$250,Buffalo Junction,VA,individual,None,Retired,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-22,Stephen Horton,$260.25,Richmond,VA,individual,McGuireWoods,Communications,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-28,William Hogg,$104.10,Danville,VA,individual,None,Retired,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-27,Friends of Tommy Norment,"$1,000",Williamsburg,VA,business,,Campaign,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-27,Virginia Wine Wholesalers PAC,"$1,500",Richmond,VA,pac,,PAC,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-27,VA Beverage Association PAC,"$1,000",Richmond,VA,pac,,PAC,,A,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+in_kind,2023-12-28,Realtors PAC of Virginia,"$5,000",Glen Allen,VA,pac,,Political Action Committee,Digital Advertising,B,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-27,Gen2 Strategies LLC,"$16,500",Arlington,VA,,,,Advertising,D,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-19,Pinos Italian,"$1,035",Keysville,VA,,,,Food,D,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-19,Dollar Tree,$113.65,Chesapeake,VA,,,,Event Supplies,D,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-22,PIP,"$1,662.53",Danville,VA,,,,Printing,D,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-26,MailChimp,$75,Atlanta,GA,,,,Online Services,D,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-15,Pittsylvania County GOP,$720,Chatham,VA,,,,Filing Fee,D,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-28,WinRed Technical Services,$91.57,Arlington,VA,,,,Fundraising Fee,D,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-27,Chain Bridge Bank,$2.50,McLean,VA,,,,Bank Fee,D,387909,2023-12-15 to 2023-12-28,CC-23-02485,Mulchi4Senate
+contribution,2023-12-30,Meredith Spencer,$260.25,Kenbridge,VA,individual,Lunenburg County Public Schools,Family Engagement Public Relations Coordinator,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-02,Stuart for Senate,"$1,500",Montross,VA,candidate,,Political Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-02,Peake for Senate,"$1,500",Alexandria,VA,candidate,,Political Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-02,Christie New Craig for Senate,"$1,500",Chesapeake,VA,candidate,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-02,Friends of Bryce Reeves,"$1,500",Fredericksburg,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-02,Friends of Mark Obenshain,"$2,500",Harrisonburg,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-02,Friends of Chris Head,"$1,500",Roanoke,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-02,Suetterlein for Senate,"$2,500",Roanoke,VA,candidate,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-02,Kelley Irby Osborn,$500,Kenbridge,VA,individual,Retired,Retired,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-02,Toni Buchanan,$104.10,Clarksville,VA,individual,Retired,Retired,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-03,Virginia Sheriffs Association Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-03,Virginia Automobile & Truck Dealers PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-03,McGuireWoods,"$1,000",Richmond,VA,business,,Law Firm,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-03,Jeffrey Francsico,$520.51,Nathalie,VA,individual,Francisco Forestry Service Inc,Consulting Forester,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-03,Hackworth for Virginia,"$1,500",Richlands,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-04,Friends of Tara Durant,"$1,500",Alexandria,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-04,VADPAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-04,Hawthorne Farms,"$1,000",Victoria,VA,business,,Farm,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-04,Danny Marshall Election Committee,"$2,500",Danville,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-05,Michael Thomas,$260.25,North Chesterfield,VA,individual,McGuireWoods Consulting,Sr. VP,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-04,John Daniel,$104.10,Danville,VA,individual,Daniel Builders LLC,Owner,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-05,Friends of Emily Brewer,"$1,500",Alexandria,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-01,Bruce Woerner,$250,Clarksville,VA,individual,,,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-01,James Gregory Eanes,$250,Crewe,VA,individual,None,Retired,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-01,David Brankley,$200,Clarksville,VA,individual,Brankley Farms,Farmer,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-05,Spirit of Virginia,"$2,500",Merrifield,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-05,Roanoke Gas PAC,"$2,000",Roanoke,VA,pac,,PAC,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-06,Friends of Bill Desteph for Senate,"$1,500",Virginia Beach,VA,candidate,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-06,Dominion Energy Inc PAC,"$5,000",Richmond,VA,pac,,PAC,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-07,Northern Virginia Electric Cooperative,"$1,000",Manassas,VA,business,,Utilities,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-08,A Safer Virginia PAC,"$1,000",Virginia Beach,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-08,Commonwealth Sportsmen's Alliance PAC,"$1,000",Powhatan,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-08,Stanley for Senate,"$2,000",Moneta,VA,candidate,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-08,Norman D Wagstaff Jr,$500,Clarksville,VA,individual,None,Retired,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-08,Reed Smith LLP VA Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-08,Virgil Hamlin Goode Jr,$200,Rocky Mount,VA,individual,Retired,Retired,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-06,David Pennington,$520.51,Boydton,VA,individual,Point Blank Enterprises,Business Development,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-08,Friends of Dr. Todd Pillion,"$1,500",Abingdon,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-09,Friends of John McGuire,"$1,500",Manakin Sabot,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-09,Virginia Hospital Shared Services Corporation,"$10,000",Richmond,VA,business,,Health Care,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-09,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-09,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-09,Timmy French for the Senate of Virginia,"$1,500",Woodstock,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-09,McDougle for Virginia,"$5,000",Mechanicsville,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-09,Virginia Future PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-09,Friends of Glen Sturtevant,"$1,500",Midlothian,VA,business,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2023-12-31,Diggs for Senate,$520.51,Yorktown,VA,candidate,,Campaign,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2023-12-29,Alexander Rawles,$260.25,Clarksville,VA,individual,Total Leaf Supply,Tobacconist,,A,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+in_kind,2024-01-08,Realtors PAC of Virginia,"$4,958.75",Glen Allen,VA,pac,,Political Action Committee,Direct Mail,B,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+in_kind,2024-01-04,Cozen O'Connor,$180.94,Richmond,VA,business,,Law Firm,Food & Beverage,B,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+in_kind,2024-01-05,Republican Party of Virginia,"$21,837.35",Richmond,VA,party,,Political Party,Direct Mailing,B,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+in_kind,2024-01-08,Spirit of Virginia,"$3,515",Merrifield,VA,pac,,Political Action Committee,Phone Calls,B,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-03,Tammy Mulchi,$2,Clarksville,VA,,,,Reimbursement,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-09,PIP,"$1,509.46",Danville,VA,,,,Printing,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-31,WinRed Technical Services,$178.84,Arlington,VA,,,,Fundraising Fees,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-04,Chain Bridge Bank,$25,McLean,VA,,,,Bank Fee,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-02,Farmville Newmedia LLC,$922.64,Farmville,VA,,,,Advertising,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-02,Womack Publishing,$582.63,Chatham,VA,,,,Advertising,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-02,Womack Publishing,$582.63,Chatham,VA,,,,Advertising,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-03,FP1 Strategies LLC,"$2,000",Arlington,VA,,,,Printing,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-03,Battleground Connect,$750,Missoula,MT,,,,Phone Calls,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-03,Peter Foster,"$1,256.83",N Chesterfield,VA,,,,Consulting,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-03,Imagine This Company,"$2,385",Richmond,VA,,,,Printing,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-03,Starcity Strategies,$500,Vinton,VA,,,,Consulting,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-03,The Coefficient Group,"$2,021.25",Kansas City,MO,,,,Printing & Texting,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-03,The Coefficient Group,"$1,975.70",Kansas City,MO,,,,Phones & Texting,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-05,The Coefficient Group,"$3,748.80",Kansas City,MO,,,,Phones & Texting,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-09,The Coefficient Group,"$9,996.60",Kansas City,MO,,,,Phones & Texting,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-03,Election CFO LLC,"$1,540.11",Alexandria,VA,,,,Compliance Consulting,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-04,"Denbar Communications, Inc.","$1,152",Blackstone,VA,,,,Advertising,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-09,The Mecklenburg Sun,$189,Clarksville,VA,,,,Advertising,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-05,Danville Register and Bee,$510,Carol Stream,IL,,,,Advertising,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-09,Treasurer of Virginia,$147,Richmond,VA,,,,Parking,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+expenditure,2023-12-29,Victoria Messick Website Design,$200,Clarksville,VA,,,,Website Design,D,393428,2023-12-29 to 2024-01-09,CC-23-02485,Mulchi4Senate
+contribution,2024-01-12,Richard W. Harris,$104.10,Kenbridge,VA,individual,None,Retired,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-29,Richard W. Harris,$100,Kenbridge,VA,individual,None,Retired,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-19,Todd Fariss,$250,Farmville,VA,individual,Self,Farmer,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-19,Gary D. Walker,$250,Charlotte Court House,VA,individual,Insurance Agent,Cornerstone Insurance,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-20,Richard E. Rush,$150,Clarksville,VA,individual,Pharmacist,Richard's Pharmacy,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-20,Charles E. Davis,$250,South Hill,VA,individual,None,Retired,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-20,"Morgan Lumber Company, Inc.",$500,Red Oak,VA,business,,Manufacturer and Wholesaler of Lumber,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-29,Brandon D. Spencer,$250,Kenbridge,VA,individual,Project Manager,Kenbridge Construction,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-29,Dorothy W. Thaxton,$200,Clarksville,VA,individual,None,Retired,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-29,Dr. Earl C. Currin Jr.,$250,Lunenburg,VA,individual,None,Retired,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-29,Edsel J. Smith,$500,South Hill,VA,individual,Self,Farmer,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-06-07,Advansix Inc. Political Action Committee,$500,Parsippany,NJ,pac,,Political Action Committee,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-19,Annie Hensley,$25,Clarksville,VA,individual,,,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-04-29,John Daniel,$100,Danville,VA,individual,Daniel Builders LLC,Owner,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-01-10,Virginia Association of Health Plans PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-01-11,Lunenburg Republican Party,$500,Victoria,VA,party,,Political Committee,,A,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-29,Virginia Senate Republican Caucus,"$22,500",Henrico,VA,,,,Contribution,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-23,William Pace,$500,Chatham,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-10,MailChimp,$135,Atlanta,GA,,,,Online Services,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-04-30,WinRed Technical Services,$6.15,Arlington,VA,,,,CC Processing,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-29,Chain Bridge Bank,$2.50,McLean,VA,,,,Bank Fee,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-24,Womack Publishing,$372,Chatham,VA,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-23,FP1 Strategies LLC,"$5,500",Arlington,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-23,Battleground Connect,"$10,000",Missoula,MT,,,,voter contacts,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-10,Peter Foster,"$2,800",N Chesterfield,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-23,Starcity Strategies,"$1,500",Vinton,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-02-29,Election CFO LLC,$271.20,Alexandria,VA,,,,Compliance Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-04-08,Election CFO LLC,$325.63,Alexandria,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-05-03,Election CFO LLC,$288,Alexandria,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-06-25,Election CFO LLC,$278,Alexandria,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-02-01,Anthony Bedell,$100,Ashburn,VA,,,,Contribution Refund,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-10,Melio Payments,$28,New York,NY,,,,Processing Fee,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-11,Melio Payments,$1.50,New York,NY,,,,Bank Fee,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-11,Xtreme Signs & Graphics,$518.50,Brodnax,VA,,,,Printing,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-04-02,Treasurer of Virginia,$325.25,Richmond,VA,,,,Notecards,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-11,Staples,$220.44,Framingham,MA,,,,Office Supplies,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-12,Amazon,$72.94,Seattle,WA,,,,Office Supplies,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-13,Amazon,$74.48,Seattle,WA,,,,Office Supplies,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-13,Amazon,$158.99,Seattle,WA,,,,Office Equipment,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-13,USPS,$108,Washington,DC,,,,PO Box Rental,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-02-06,USPS,$68,Washington,DC,,,,Stamps,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-04-03,USPS,$68,Washington,DC,,,,Postage,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-23,Thomas Hinnant,"$1,100",Linden,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-23,Brady Hillis,$250,INFORMATION REQUESTED,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-03-29,Verizon,$101.08,Basking Ridge,NJ,,,,Phones,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-04-28,Verizon,$70.22,Basking Ridge,NJ,,,,Phones,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-05-29,Verizon,$67.43,Basking Ridge,NJ,,,,Phone,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-06-01,Walmart,$131.81,Bentonville,AR,,,,Office Supplies,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-20,Virginia Scope,$77,Richmond,VA,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-03-15,Virginia Scope,$7,Richmond,VA,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-23,Lake Gaston Gazette,$66,Littleton,NC,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-24,Crewe Burkeville Journal,$28,Crewe,VA,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-24,Farmville Herald,$6.49,Farmville,VA,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-24,The Charlotte Gazette,$49.99,Drakes Branch,VA,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-24,Kenbridge-Victoria Dispatch,$49.99,Victoria,VA,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-25,Nottoway Publishing Co,$55,Blackstone,VA,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-25,Gazette Virginian,$55,South Boston,VA,,,,Subscription,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-01-30,Constant Contact,$35,Burlington,MA,,,,Online Services,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-02-06,Constant Contact,$75,Burlington,MA,,,,Online Services,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-02-29,Constant Contact,$35,Burlington,MA,,,,Online Services,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-03-06,Constant Contact,$75,Burlington,MA,,,,Online Services,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-03-30,Constant Contact,$35,Burlington,MA,,,,Online Services,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-04-06,Constant Contact,$75,Burlington,MA,,,,Online Services,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-03-07,Chick-fil-a,$30,Atlanta,GA,,,,Gifts for Senate Pages,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-03-07,Food Lion,$75,Salisbury,NC,,,,Gifts for Senate Pages,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-03-07,Mama Cucina,$200,Glen Allen,VA,,,,Gift Certificates,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-03-08,C and M Galley Kitchen,$67.16,Richmond,VA,,,,Food,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-03-10,Joe Link,$250,Virginia Beach,VA,,,,Consulting,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2024-04-18,AirBnB,$151.60,San Francisco,CA,,,,Lodging,D,407756,2024-01-10 to 2024-06-30,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Mary Franklin,$100,Ringgold,VA,individual,Virginia House of Delegates,Legislative Aide,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-20,William Pace,$50,Chatham,VA,individual,Virginia House of Delegates,Legislative Assistant,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-18,VA Beverage Association PAC,$750,Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-17,Realtors PAC of Virginia,"$2,500",Glen Allen,VA,pac,,Political Action Committee,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Kelley Irby Osborn,$500,Kenbridge,VA,individual,Retired,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-23,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-23,Virginia Automobile & Truck Dealers PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-26,McGuireWoods,"$1,000",Richmond,VA,business,,Law Firm,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-25,Cozen O'Connor,$500,Richmond,VA,business,,Law Firm,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Danny Marshall Election Committee,"$1,000",Danville,VA,business,,Campaign,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Bruce Woerner,$250,Clarksville,VA,individual,Clarksville,Mayor,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-23,Dominion Energy Inc PAC,"$2,500",Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-17,Dominion Energy Inc PAC,"$10,000",Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-16,Northern Virginia Electric Cooperative,"$1,500",Manassas,VA,business,,Utilities,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Norman D Wagstaff Jr,"$1,000",Clarksville,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-10,Reed Smith LLP VA Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-24,David Pennington,$520.51,Boydton,VA,individual,Point Blank Enterprises,Business Development,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-26,David Pennington,$52.05,Boydton,VA,individual,Point Blank Enterprises,Business Development,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-26,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,Political Action Committee,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-23,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,Political Action Committee,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-23,Richard W. Harris,$250,Kenbridge,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-09,Andrew A. Ferguson,$104.10,Clarksville,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-09,Andrew A. Ferguson,$50,Clarksville,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Catherine G. Younger,$85,Halifax,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-18,Dianne McMahon,$260.25,Danville,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-23,"Morgan Lumber Company, Inc.","$1,000",Red Oak,VA,business,,Manufacturer and Wholesaler of Lumber,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-23,Shirley Wilkins,$88.49,Blackstone,VA,individual,"Moncure Insurance Agency, Inc.",Insurance Agent,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-20,Dorothy W. Thaxton,$52.05,Clarksville,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Dororthy Palya,$100,Clarksville,VA,individual,,,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-11,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco Products,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-11,Golden Leaf Farms,$500,Keysville,VA,business,,Farm,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-11,Virginia Poultry Federation PAC,$500,Harrisonburg,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-11,Virginia Forest Resources PAC,$500,Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-11,Virginia Independent Auto Dealers PAC,$500,Midlothian,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-22,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-23,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-23,Virginia Hospital & Healthcare Association PAC - HOSPAC,$500,Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-25,Community-Owned Power PAC,$500,Glen Allen,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-06,Community-Owned Power PAC,$250,Glen Allen,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-07-25,Shirley C. Donaldson,$200,Farmville,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-08-12,Truist Virginia PAC,$500,Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-08-10,Virginia State Police Association Inc. PAC,$250,Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-08-10,Sentara Health Plans,$500,Virginia Beach,VA,business,,Healthcare,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-08-01,Alexander Boyar,$180,Glen Echo,MD,individual,Self,Builder,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-08-19,Waste Management,"$1,000",Houston,TX,business,,Waste Services,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-15,RIchard Rash,$104.10,Crewe,VA,individual,Nottoway county public schools,Teacher,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-23,"The Williams Companies, Inc.","$2,500",Tulsa,OK,business,,Natural Gas,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-20,Scotty Felton,$260.25,Halifax,VA,individual,Self,Realtor,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-19,Catherine Hughes,$260.25,Bracey,VA,individual,Rudds Creek Marina,Owner,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-23,Catherine Hughes,$100,Bracey,VA,individual,Rudds Creek Marina,Owner,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-18,Patricia Charles,$260.25,Clarksville,VA,individual,Citizens Bank,Training Consultant,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-18,Renee Trent Maxey,$250,Farmville,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Virginia D. Hall,$100,Danville,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Melanie C. Hatchell,$250,Boydton,VA,individual,,,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Phillips Logistics Management Corp.,"$1,000",Martinsville,VA,business,,Logistics,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Victoria M. Messick,$150,Clarksville,VA,individual,Victoria Messick Website Design,Website design,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Frances Harris Schwabenton,$150,Blackstone,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Shanks Associates PC,$250,Danville,VA,business,,Engineering,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-02,Francisco Forestry Service Inc.,$500,Halifax,VA,business,,Forestry,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-26,Melissa Shepherd,$250,Blackstone,VA,individual,Longwood University,Assistant Vice President,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-09-28,Jannon Coley,$20,South Hill,VA,individual,Brunswick Academy,Athletic Director,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-03,Kenneth Bowman,$130.13,Dry Fork,VA,individual,None,Retired,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-29,Anheuser Busch Companies,$500,St. Louis,MO,business,,Beverages,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-10-29,Ceasars Enterprise Services LLC,"$2,500",Las Vegas,NV,business,,Entertainment,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-11-04,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-11-04,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-11-13,Betting on VA Jobs PAC,"$5,000",Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-06,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Law Firm,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-13,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-23,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-23,"MVP, LLC","$2,000",Canonsburg,PA,business,,Energy,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-26,PhRMA,$500,Washington,DC,business,,Pharmaceuticals,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-30,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law firm,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-30,American Electric Power Committee for Responsible Government,"$1,000",washington,DC,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-23,Virginia CRNAs Who Care About Health Care PAC,$250,Richmond,VA,pac,,PAC,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2024-12-31,Transurban (USA) Inc.,$500,Tysons,VA,business,,Transportation,,A,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+in_kind,2024-12-20,Realtors PAC of Virginia,$300.29,Glen Allen,VA,pac,,Political Action Committee,food and beverage,B,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+in_kind,2024-07-16,Virginia Hospital & Healthcare Association,"$1,144.10",Clarksville,VA,business,,Association,Food & Venue,B,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+in_kind,2024-09-16,Woodbine Winery LLC,"$2,500",Buffalo Junction,VA,business,,Winery,Venue rental,B,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-22,Virginia Senate Republican Caucus,"$6,250",Henrico,VA,,,,Dues,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-11-18,Tammy Mulchi,"$1,312.53",Clarksville,VA,,,,Mileage Reimbursement,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-11-18,Tammy Mulchi,$813.38,Clarksville,VA,,,,Mileage Reimbursement,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-08-05,WinRed Technical Services,$7.09,Arlington,VA,,,,CC Processing,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-30,WinRed Technical Services,$135.52,Arlington,VA,,,,Fundraising Fee,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-22,WinRed Technical Services,$13.17,Arlington,VA,,,,Fundraising Fees,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-12-26,Womack Publishing,"$1,066.03",Chatham,VA,,,,Advertising,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-07-03,Election CFO LLC,$254,Alexandria,VA,,,,Consulting,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-08-06,Election CFO LLC,$278,Alexandria,VA,,,,Consulting,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-23,Election CFO LLC,$262,Alexandria,VA,,,,Consulting,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-15,Election CFO LLC,$259.63,Alexandria,VA,,,,Consulting,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-11-05,Election CFO LLC,$335.50,Alexandria,VA,,,,Consulting,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-12-04,Election CFO LLC,$262,Alexandria,VA,,,,Consulting,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-07-01,Hawthorne Farms,"$1,000",Victoria,VA,,,,refund,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-23,Danville Register and Bee,$214.99,Carol Stream,IL,,,,Subscription,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-07-01,Treasurer of Virginia,$180,Richmond,VA,,,,Framing,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-21,Staples,$68.50,Framingham,MA,,,,Printing,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-26,Amazon,$236.80,Seattle,WA,,,,Office Supplies,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-26,Amazon,$122.50,Seattle,WA,,,,Office Supplies,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-27,Amazon,$42.92,Seattle,WA,,,,Office Supplies,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-21,Amazon,$54.74,Seattle,WA,,,,Campaign Supplies,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-07-26,USPS,$73,Washington,DC,,,,Postage,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-12-17,USPS,$100,Washington,DC,,,,P.O. Box Rental,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-12,Victoria Messick Website Design,$147.50,Clarksville,VA,,,,Online Service,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-07-25,Verizon,$202.49,Basking Ridge,NJ,,,,Phones,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-12-26,Farmville Herald,$412.90,Farmville,VA,,,,Advertising,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-12-26,The Charlotte Gazette,$412.90,Drakes Branch,VA,,,,Advertising,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-12-26,Kenbridge-Victoria Dispatch,$412.90,Victoria,VA,,,,Advertising,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-03,Constant Contact,$225,Burlington,MA,,,,Online Services,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-11-27,AirBnB,$250,San Francisco,CA,,,,Travel,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-08-23,South Hill Chamber of Commerce,$300,South Hill,VA,,,,Dues,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-11,FedEx,$32.85,Memphis,TN,,,,Shipping,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-27,Virginia ABC,$175,Alexandria,VA,,,,Beverages,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-06,Conquest Graphics,"$1,202.43",Richmond,VA,,,,Printing,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-10,Conquest Graphics,$281.34,Richmond,VA,,,,Printing,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-03,Been Verified,$174.99,New york,NY,,,,Online Services,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-05,Delta Hotels Marriot - Bayfront Suites,$350.15,Bethesda,MD,,,,Travel,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-19,Marriot Virginia Beach Oceanfront,$385.45,Virginia Beach,VA,,,,Travel,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-21,Marriot Virginia Beach Oceanfront,$533.38,Virginia Beach,VA,,,,Travel,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-09-22,Hotel Madison & Shenandoah Valley Conference Center,$120.16,Harrisonburg,VA,,,,Travel,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-11-22,Hotel Madison & Shenandoah Valley Conference Center,$247.06,Harrisonburg,VA,,,,Travel,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-02,Southern Virginia Regional Housing Summit,$100,Danville,VA,,,,Event Tickets,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-02,Off the Chain Food Truck,"$1,711.12",South Hill,VA,,,,Food,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-02,ABC,$103.58,Mechanicsville,VA,,,,Food,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-02,Sam's Club,$109.88,Bentonville,AZ,,,,Food,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-10-02,Instacart,$36.94,San Francisco,CA,,,,Food,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-12-31,Clarksville Lake County Chamber of Commerce,$50,Clarksville,VA,,,,Event Tickets,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-12-26,BHMG,$510,Omaha,NE,,,,Advertising,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-12-08,GoDaddy,$22.17,Tempe,AZ,,,,Online services,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2024-11-17,FastSpring,$69.99,Santa Barbara,CA,,,,Online Services,D,438246,2024-07-01 to 2024-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-01-06,Ruff for Senate,"$10,475.78",Clarksville,VA,candidate,,Campaign Committee,,A,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+contribution,2025-03-24,Danny Marshall Election Committee,$250,Danville,VA,business,,Campaign,,A,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+contribution,2025-04-16,Commonwealth Sportsmen's Alliance PAC,"$1,000",Powhatan,VA,pac,,Political Action Committee,,A,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+contribution,2025-06-24,Altria Client Services LLC,"$1,500",Richmond,VA,business,,Tobacco Products,,A,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+contribution,2025-01-06,Truckers Political Action Committee of VA,$500,Richmond,VA,pac,,Political Action Committee,,A,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+contribution,2025-01-07,Omega Protein,"$1,000",Calais,ME,business,,Product Company,,A,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+contribution,2025-01-07,Virginia LifePoint Hospitals PAC,$500,richlands,VA,pac,,Political Action Committee,,A,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+contribution,2025-06-06,Duncan Quicke,$104.10,Blackstone,VA,individual,Southside VA Communtiy College,"Coordinator, Truck Driver Training School",,A,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+contribution,2025-06-10,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,Political Action Committee,,A,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-06,Virginia Senate Republican Caucus,"$3,000",Henrico,VA,,,,Contribution,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-06,Virginia Senate Republican Caucus,"$6,250",Henrico,VA,,,,Dues,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-06-30,Tammy Mulchi,$640.40,Clarksville,VA,,,,Mileage Reimbursement,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-05-31,WinRed Technical Services,$2.05,Arlington,VA,,,,Fundraising Fee,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-06-30,WinRed Technical Services,$5.95,Arlington,VA,,,,Fundraising Fee,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-19,Womack Publishing,$586.63,Chatham,VA,,,,Advertising,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-03-18,Womack Publishing,$84,Chatham,VA,,,,Subscription,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-10,FP1 Strategies LLC,"$2,500",Arlington,VA,,,,Printing,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-06,Election CFO LLC,$271,Alexandria,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-06,Election CFO LLC,$295.55,Alexandria,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-03-05,Election CFO LLC,$251.63,Alexandria,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-04-07,Election CFO LLC,$266,Alexandria,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-05-01,Election CFO LLC,$294,Alexandria,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-06-05,Election CFO LLC,$261,Alexandria,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-07,The Mecklenburg Sun,$195,Clarksville,VA,,,,Advertising,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-02,Amazon,$78.24,Seattle,WA,,,,Office Supplies,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-04-21,Amazon,$26.84,Seattle,WA,,,,Office Supplies,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-01,USPS,$73,Washington,DC,,,,Postage,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-01,Verizon,$67.73,Basking Ridge,NJ,,,,Phones,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-01,Verizon,$67.73,Basking Ridge,NJ,,,,Phones,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-01,Verizon,$67.73,Basking Ridge,NJ,,,,Phones,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-01,Verizon,$67.62,Basking Ridge,NJ,,,,Phones,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-01,Verizon,$67.58,Basking Ridge,NJ,,,,Phones,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-29,Verizon,$68.08,Basking Ridge,NJ,,,,Phones,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-26,Verizon,$67.64,Basking Ridge,NJ,,,,Phones,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-21,Virginia Scope,$77,Richmond,VA,,,,Subscription,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-24,The Charlotte Gazette,$51.79,Drakes Branch,VA,,,,Subscription,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-24,Kenbridge-Victoria Dispatch,$51.79,Victoria,VA,,,,Subscription,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-19,Nottoway Publishing Co,$270,Blackstone,VA,,,,Advertising,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-05,Gazette Virginian,$55,South Boston,VA,,,,Subscription,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-19,Gazette Virginian,$250,South Boston,VA,,,,Advertising,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-01,Constant Contact,$75,Burlington,MA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-01,Constant Contact,$75,Burlington,MA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-01,Constant Contact,$110,Burlington,MA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-06,Constant Contact,$110,Burlington,MA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-06,Constant Contact,$110,Burlington,MA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-03-06,Constant Contact,$110,Burlington,MA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-04-06,Constant Contact,$110,Burlington,MA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-05-06,Constant Contact,$110,Burlington,MA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-06-06,Constant Contact,$119,Burlington,MA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-09,Matthew Coff,"$1,000",Norfolk,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-21,Matthew Coff,"$2,000",Norfolk,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-15,Matthew Coff,"$2,000",Norfolk,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-06,Friends of Tumay,"$3,000",Ashburn,VA,,,,Contribution,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-10,Camilla Eggleston,$450,Richmond,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-14,Camilla Eggleston,$225,Richmond,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-21,Camilla Eggleston,$240.25,Richmond,VA,,,,Consulting,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-04-25,Zoom,$67.15,San Jose,CA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-06-30,Zoom,$28.26,San Jose,CA,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-25,Factory Street Brewing,$500,South Boston,VA,,,,Venue Rental,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-25,216 Virginia Ave,$387.73,Clarksville,VA,,,,Travel,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-18,The Hard Shell Downtown,$390.42,Richmond,VA,,,,Food,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-14,4 Imprint,$250.47,Oshkosh,WI,,,,Printing,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-02-05,Courier-Record,$35,Blackstone,VA,,,,Subscription,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-27,Senate of Virginia,$73,Richmond,VA,,,,Postage,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-01-09,GoDaddy,$203.88,Tempe,AZ,,,,Online Services,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2025-06-30,Washington Post,$18,"Washington, D.C",VA,,,,Subscription,D,477548,2025-01-01 to 2025-06-30,CC-23-02485,Mulchi4Senate
+contribution,2025-09-25,Caesars Enterprise Services LLC,"$2,500",Las Vegas,NV,business,,Gaming Equipment,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-10-27,"Enterprise Holdings, Inc./Enterprise Mobility PAC",$500,St. Louis,MO,pac,,PAC,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-11-03,American Electric Power Company - Virginia Committee for Responsible Government,"$2,500",Washington,DC,pac,,PAC,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-11,Fletcher B. Jones,$200,Boydton,VA,individual,Watkins Insurance,Insurance,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-22,Principal Advantage Government Relations Group LLC,$250,Richmond,VA,business,,Government Relations,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-22,Mac Bailey,$500,Keysville,VA,individual,"Golden Leaf Farms, LLC",Cigarrette Manufacturer,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-22,Joseph Waymack,$250,Prince George,VA,individual,,,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-22,Stephen Bailey,"$1,000",Chase City,VA,individual,S & K Famous Brands,Tobacco Manufacturer,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-29,Mark Nutter,$104.10,Boydton,VA,individual,Clarkesville Auto Supply,Sales,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-30,Vicky Burnette,$104.10,Clarksville,VA,individual,Retired,Retired,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-30,Tyler Craddock,$104.10,Henrico,VA,individual,OMG,Lobbyist,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-31,John Goode,$104.10,Blackstone,VA,individual,Retired,Retired,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-09-25,VA Beverage Association PAC,$500,Richmond,VA,pac,,PAC,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-09-09,Realtors PAC of Virginia,"$2,500",Glen Allen,VA,pac,,Political Action Committee,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-22,Kelley Irby Osborn,$250,Kenbridge,VA,individual,Retired,Retired,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-09-25,Virginia Automobile & Truck Dealers PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-11-10,Cozen O'Connor,$500,Richmond,VA,business,,Law Firm,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-09-23,Dominion Energy Inc PAC,"$10,000",Richmond,VA,pac,,PAC,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-22,Dominion Energy Inc PAC,"$10,000",Richmond,VA,pac,,PAC,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-09-25,Northern Virginia Electric Cooperative,"$1,000",Manassas,VA,business,,Utilities,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-09-25,Richard W. Harris,$250,Kenbridge,VA,individual,None,Retired,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-22,Richard W. Harris,$100,Kenbridge,VA,individual,None,Retired,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-22,Charles E. Davis,$250,South Hill,VA,individual,None,Retired,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-11,Dianne McMahon,$250,Danville,VA,individual,None,Retired,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-11-10,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-12-22,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-10-20,"The Williams Companies, Inc.","$2,500",Tulsa,OK,business,,Natural Gas,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-09-25,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverages,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-10-22,Betting on VA Jobs PAC,"$5,000",Richmond,VA,pac,,PAC,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-10-22,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Law Firm,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-10-22,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,PAC,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2025-10-20,Virginia LifePoint Hospitals PAC,$500,richlands,VA,pac,,Political Action Committee,,A,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-29,Virginia Senate Republican Caucus,"$1,500",Henrico,VA,,,,Contribution,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-09-25,Virginia Senate Republican Caucus,"$6,250",Henrico,VA,,,,Dues,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-12-31,Tammy Mulchi,"$1,781.60",Clarksville,VA,,,,Mileage Reimbursement,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-12-31,WinRed Technical Services,$31.46,Arlington,VA,,,,Fundraising Fees,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-12-12,FP1 Strategies LLC,"$1,690.17",Arlington,VA,,,,Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-07-09,Election CFO LLC,$260,Alexandria,VA,,,,Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-01,Election CFO LLC,$262,Alexandria,VA,,,,Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-09-03,Election CFO LLC,$262,Alexandria,VA,,,,Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-10-02,Election CFO LLC,$272.26,Alexandria,VA,,,,Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-10-31,Election CFO LLC,$280.63,Alexandria,VA,,,,Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-12-12,Election CFO LLC,$273,Alexandria,VA,,,,Compliance Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-25,Danville Register and Bee,$332.80,Carol Stream,IL,,,,Subscription,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-11-14,Treasurer of Virginia,$160,Richmond,VA,,,,Office Expense,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-13,Amazon,$115.88,Seattle,WA,,,,Office Supplies,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-25,Amazon,$98.72,Seattle,WA,,,,Office Supplies,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-09-02,Amazon,$13.42,Seattle,WA,,,,Office Supplies,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-07-09,USPS,$73,Washington,DC,,,,Postage,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-11-13,Molly Cayton Waller,$568.86,Clarksville,VA,,,,Reimbursement,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-07-06,Constant Contact,$119,Burlington,MA,,,,Online Services,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-06,Constant Contact,$119,Burlington,MA,,,,Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-09-06,Constant Contact,$119,Burlington,MA,,,,Online Services,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-10-06,Constant Contact,$119,Burlington,MA,,,,Online Services,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-11-06,Constant Contact,$119,Burlington,MA,,,,Online Services,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-12-08,Constant Contact,$119,Burlington,MA,,,,Online Services,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-12-31,Zoom,$56.52,San Jose,CA,,,,Online Services,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-25,Ann Klieves,$110,Brodnax,VA,,,,Event tickets,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-22,John Reid for Virginia,$110,Henrico,VA,,,,Contribution,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-09-17,Mecklenberg County Republican Committee,$150,South Hill,VA,,,,Sponsorship,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-10-09,Julie Coggsdale,"$2,000",North Chesterfield,VA,,,,Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-12-24,Julie Coggsdale,"$2,000",North Chesterfield,VA,,,,Campaign Consulting,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-20,Virginia Hunting Dog Alliance,$41.76,Powhatan,VA,,,,Event ticket,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-08-20,Pizza Pub & Lounge,$45.09,Clarkesville,VA,,,,Food,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-09-29,The Forum Hotel,$54.76,Charlottesville,VA,,,,Event Ticket,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-10-18,Grammarly,$139.95,San Francisco,CA,,,,Online Services,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+expenditure,2025-12-31,Washington Post,$18,"Washington, D.C",VA,,,,Subscription,D,477582,2025-07-01 to 2025-12-31,CC-23-02485,Mulchi4Senate
+contribution,2026-01-05,Meredith Spencer,$250,Kenbridge,VA,individual,Lunenburg County Public Schools,Family Engagement Public Relations Coordinator,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-04-21,Virginia Sheriffs Association Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-09,Dominion Energy Inc PAC,"$30,000",Richmond,VA,pac,,PAC,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-06-30,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Action Committee,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-06,Todd Fariss,$250,Farmville,VA,individual,Self,Farmer,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-06-30,Virginia Harness Horse Association,$250,Saluda,VA,business,,Association,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-06-30,Virginia Hospitality & Travel,$250,Richmond,VA,business,,Hospitality,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-06-30,Gary W Creamer,$500,Bracey,VA,individual,N/A,Retired,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-05,Gary D. Walker,$250,Charlotte Court House,VA,individual,Insurance Agent,Cornerstone Insurance,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-13,Brandon D. Spencer,$250,Kenbridge,VA,individual,Project Manager,Kenbridge Construction,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-12,Charles C. Wright,"$1,000",South Hill,VA,individual,State Farm,Insurance,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-06-30,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-04-21,Community-Owned Power PAC,$500,Glen Allen,VA,pac,,PAC,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-06-30,Waste Management,$750,Houston,TX,business,,Waste Services,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-05,PhRMA,$500,Washington,DC,business,,Pharmaceuticals,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-05,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law firm,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-06-30,Transurban (USA) Inc.,$250,Tysons,VA,business,,Transportation,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-09,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,Political Action Committee,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-04-21,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,Political Action Committee,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-06-30,H. F. Haymore Jr.,"$1,000",Danville,VA,individual,County of Pittsylvania,County Clerk of Court,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-05,Edsel J Smith Farm LLC,$500,South Hill,VA,business,,Agriculture,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-05,Commercial Development Political Action Committee,$500,Alexandria,VA,pac,,PAC,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-12,VA Digital Infrastructure PAC,"$1,500",Leesburg,VA,pac,,PAC,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-06,Virginia Sherriff's Association PAC,$250,Richmond,VA,pac,,PAC,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-13,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,business,,Hospitality,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-09,Jessica B. Ruff,"$1,000",Clarksville,VA,individual,"Sentara Clarksville Family Medicine""",Nurse,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-09,Transburban (USA) Inc.,$500,Tysons,VA,business,,Road Operations,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-04-13,Virginia Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,PAC,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-04-21,Emily Spence,$250,Blackstone,VA,individual,MindAlign Counseling Group,Licensed Professional Councilor,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-05-27,Ann L. Klieves,$260.25,Brodnax,VA,individual,SEMS,Business Owner,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+contribution,2026-01-09,Capital Results,$250,Richmond,VA,business,,Public Affairs,,A,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-01-13,Virginia Senate Republican Caucus,"$6,250",Henrico,VA,,,,Contribution,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-24,Tammy Mulchi,$886.29,Clarksville,VA,,,,Mileage Reimbursement,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-01-31,WinRed Technical Services,$9.85,Arlington,VA,,,,Fundraising Fees,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-31,WinRed Technical Services,$10.25,Arlington,VA,,,,Fundraising Fees,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-01-07,Election CFO LLC,$300,Alexandria,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-02-04,Election CFO LLC,"$2,540.61",Alexandria,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-02-11,Election CFO LLC,$307.63,Alexandria,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-11,Election CFO LLC,$279.84,Alexandria,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-13,Election CFO LLC,$273,Alexandria,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-30,Election CFO LLC,$277.94,Alexandria,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-03,Election CFO LLC,$259,Alexandria,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-16,Xtreme Signs & Graphics,"$2,309.58",Brodnax,VA,,,,Printing,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-02-09,Treasurer of Virginia,$48.55,Richmond,VA,,,,Office Supplies,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-22,Treasurer of Virginia,$330,Richmond,VA,,,,Office Furniture,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-22,Treasurer of Virginia,$173.16,Richmond,VA,,,,Postage,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-22,Treasurer of Virginia,$48,Richmond,VA,,,,Office Furniture,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-12,Farmville Herald,$49,Farmville,VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-12,The Charlotte Gazette,$47,Drakes Branch,VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-18,Nottoway Publishing Co,$75,Blackstone,VA,,,,Printing,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-12,Nottoway Publishing Co,$210,Blackstone,VA,,,,Printing,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-18,Gazette Virginian,$45,South Boston,VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-01-07,Constant Contact,$119,Burlington,MA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-02-06,Constant Contact,$119,Burlington,MA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-06,Constant Contact,$119,Burlington,MA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-06,Constant Contact,$119,Burlington,MA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-06,Constant Contact,$119,Burlington,MA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-08,Constant Contact,$119,Burlington,MA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-01-19,Zoom,$14.27,San Jose,CA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-02-19,Zoom,$14.27,San Jose,CA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-19,Zoom,$14.27,San Jose,CA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-19,Zoom,$14.27,San Jose,CA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-19,Zoom,$14.27,San Jose,CA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-19,Zoom,$14.27,San Jose,CA,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-01-22,GoDaddy,$203.88,Tempe,AZ,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-01-05,Washington Post,$4,"Washington, D.C",VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-02-02,Washington Post,$4,"Washington, D.C",VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-02,Washington Post,$12,"Washington, D.C",VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-30,Washington Post,$12,"Washington, D.C",VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-27,Washington Post,$12,"Washington, D.C",VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-25,Washington Post,$12,"Washington, D.C",VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-02-19,Brett Feinstein,"$2,500",RICHMOND,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-02-24,Brett Feinstein,$500,RICHMOND,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-03,Brett Feinstein,$500,RICHMOND,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-10,Brett Feinstein,$500,RICHMOND,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-13,Brett Feinstein,$500,RICHMOND,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-17,Mecklenberg Sun,$255,Clarksville,VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-27,Virginia Lawyers Weekly,$37,Midlothian,VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-12,The Kenbridge Victoria Dispatch,$47,Farmville,VA,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-27,BridgeTower Media,$37,Greensboro,NC,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-25,BridgeTower Media,$37,Greensboro,NC,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-11,C. P. Dean,$742,Richmond,VA,,,,Supplies,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-24,Zazzle,$282.98,Menlo Park,CA,,,,Supplies,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-03-15,X Corp.,$25,Bastrop,TX,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-04-15,X Corp.,$25,Bastrop,TX,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-05-15,X Corp.,$50,Bastrop,TX,,,,Subscription,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-15,X Corp.,$50,Bastrop,TX,,,,Online Services,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-25,Boilers Creek Thread Press & Laser,"$1,160",Victoria,VA,,,,Supplies,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-02,Parking.com,$25.45,Chicago,IL,,,,Parking,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-03,Parking.com,$25.45,Chicago,IL,,,,Parking,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-09,Parking.com,$25.45,Chicago,IL,,,,Parking,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-18,Parking.com,$22,Chicago,IL,,,,Parking,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-20,Parking.com,$22,Chicago,IL,,,,Parking,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-22,Parking.com,$22,Chicago,IL,,,,Parking,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-22,Parking.com,$22,Chicago,IL,,,,Parking,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-30,Parking.com,$22,Chicago,IL,,,,Parking,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-30,Preston Riddle,$250,South Boston,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate
+expenditure,2026-06-30,Charlie Sink,$250,Yorktown,VA,,,,Consulting,D,497812,2026-01-01 to 2026-06-30,CC-23-02485,Mulchi4Senate

@@ -1,0 +1,910 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2021-01-10,Verizon Communications,"$2,000",Richmond,VA,business,,telephones,,A,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+contribution,2021-01-07,VA Trial Lawyers Association PAC,"$2,000",Richmond,VA,pac,,Trial Lawyers PAC,,A,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+contribution,2021-01-11,"Hunton Andrews Kurth, LLP","$2,000",Richmond,VA,business,,Law firm,,A,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+contribution,2021-01-10,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+contribution,2021-03-21,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+contribution,2021-01-08,AVS Companies,"$1,000",Elk Grove Village,IL,business,,Retail Sales - General,,A,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+contribution,2021-03-31,Bill Leighty,$250,Richmond,VA,individual,n/a,retired,,A,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+expenditure,2021-03-22,House Democratic Caucus,"$20,000",Richmond,VA,,,,House Caucus dues,D,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+expenditure,2021-01-10,Act Blue,$0.99,Cambridge,MA,,,,processing fee,D,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+expenditure,2021-03-14,Act Blue,$0.99,Cambridge,MA,,,,processing fee,D,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+expenditure,2021-03-21,Act Blue,$0.20,Cambridge,MA,,,,processing fee,D,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+expenditure,2021-01-23,BB&T,$11.50,Wilson,NC,,,,bank fee,D,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+expenditure,2021-02-22,BB&T,$4,Wilson,NC,,,,bank fee,D,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+expenditure,2021-03-22,BB&T,$4,Wilson,NC,,,,bank fee,D,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+expenditure,2021-03-31,BB&T,$9.88,Wilson,NC,,,,processing fee,D,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+expenditure,2021-03-22,Fairfax County Dir of Finance,$352.80,Fairfax,VA,,,,Primary Filing Fee,D,237326,2021-01-01 to 2021-03-31,CC-12-01081,Watts for Delegate
+contribution,2021-05-26,VA Sheriffs' Association,$250,Richmond,VA,pac,,Sheriffs' PAC,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-05-26,NV Association of Realtors PAC,"$1,250",Fairfax,VA,pac,,Realtors,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-05-26,VA Health Care Association PAC,$500,Richmond,VA,pac,,Nursing Homes PAC,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-05-27,VA Automobile Dealers Association PAC,"$1,000",Richmond,VA,pac,,new auto dealers,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-04-29,TheDoctorsCompany - DOCPAC,$500,Napa,CA,pac,,medical malpractice insurance,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-05-26,VA Cable Telecommunications Assn,"$1,000",Richmond,VA,pac,,Cable TV Industry PAC,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-05-26,Old Dominion Highway Contractors PAC,$500,Chantilly,VA,pac,,Highway Contractors,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-04-29,Capital One Financial,"$2,500",Richmond,VA,business,,Financial Services,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-04-18,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-05-09,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-05-27,JBG Smith Builds Virginia PAC,"$1,000",Arlington,VA,pac,,Real Estate Developers,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-05-24,International Paper PAC,$500,Washington,DC,pac,,Paper/Packing manufacturers,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-04-28,Service Corporation International PAC,$750,Houston,TX,pac,,Funeral Homes/Cemeteries,,A,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+expenditure,2021-04-29,House Democratic Caucus,"$25,000",Richmond,VA,,,,candidate support,D,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+expenditure,2021-04-18,Act Blue,$1.19,Cambridge,MA,,,,service charge,D,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+expenditure,2021-05-09,Act Blue,$0.99,Cambridge,MA,,,,service charge,D,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+expenditure,2021-05-16,Act Blue,$0.20,Cambridge,MA,,,,service charge,D,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+expenditure,2021-04-21,BB&T,$4,Wilson,NC,,,,service charge,D,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+expenditure,2021-05-21,BB&T,$4,Wilson,NC,,,,service charge,D,240714,2021-04-01 to 2021-05-27,CC-12-01081,Watts for Delegate
+contribution,2021-06-21,VA Certified Public Accountants PAC,"$1,000",Glen Allen,VA,pac,,CPA's,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-21,VA BankPAC,"$1,000",Glen Allen,VA,pac,,Bankers PAC,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-14,Williams Mullen Government Relations,"$1,500",Richmond,VA,business,,Law Firm,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-18,VA Beer Wholesalers Assoc PAC,"$2,500",Richmond,VA,pac,,Beer Distributors,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-30,McGuireWoods PAC,$500,Richmond,VA,pac,,Law Firm PAC,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-21,HCA for Good Government PAC,"$1,500",Reston,VA,pac,,Hospitals,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-21,VA Manufactured & Modular Housing Assoc,$500,Richmond,VA,pac,,Manufactured Homes PAC,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-21,VA Truckers PAC,$250,Richmond,VA,pac,,trucking,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-10,"7-Eleven, Inc.","$1,000",Dallas,TX,business,,convenience stores,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-06-07,State Farm,$500,Midlothian,VA,business,,Insurance Companies,,A,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-01,USPS,$32.40,Merrifield,VA,,,,Bulk Mail Permit annual renewal - 20%,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-13,Act Blue,$0.20,Cambridge,MA,,,,service fee,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-20,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-28,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-21,BB&T,$4,Wilson,NC,,,,service fee,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-01,State Board of Elections,$6.60,Richmond,VA,,,,Nov 2020 voter list -20%,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-01,State Board of Elections,$35.40,Richmond,VA,,,,HD39 currently registered voter list - 20%,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-25,State Board of Elections,$59.40,Richmond,VA,,,,Monthly update subscriptions - 20%,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-01,RCN,$63.88,Newark,NJ,,,,annual email host fee -20%,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-01,LogMeIn,$70,Boston,MA,,,,annual renewal - 20%,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+expenditure,2021-06-29,Party Depot,$41.24,Springfield,VA,,,,event candy,D,248621,2021-05-28 to 2021-06-30,CC-12-01081,Watts for Delegate
+contribution,2021-08-29,Linda and Lynn Daft,$150,Annandale,VA,individual,n/a,retired,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-08-31,Valerie and Bob Sutter,$150,Annandale,VA,individual,GMU,Bob: Professor,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-08-29,Mary and Peter Ansoff,$150,Annandale,VA,individual,NVCC,Mary - Computer Programmer,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-30,Huntington Ingalls - Newport News Shipbuilding,"$1,000",Newport News,VA,business,,"Developer Security Systems, Military",,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-23,Va Retail Federation,$250,Richmond,VA,business,,Retail Merchandizing,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-09,Verizon Communications,"$2,000",Richmond,VA,business,,telephones,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-19,Comcast,"$1,000",Richmond,VA,business,,TV - Cable,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-16,Washington Gas PAC,$250,Washington,DC,pac,,Utility PAC,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-08-29,"Reed Smith, LLP","$1,000",Falls Church,VA,business,,Law Firm,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-08-09,Transurban (USA) Inc.,$500,Alexandria,VA,business,,infrastructure & development,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-27,VA Beverage Association,"$1,500",Richmond,VA,pac,,soft drink PAC,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-27,VA Dental Association PAC,"$1,500",Henrico,VA,pac,,Dentists Association,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-15,VA Wine Wholesalers PAC,"$1,000",Richmond,VA,pac,,Wine Distributors,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-16,Maritime Issues Council,$500,Norfolk,VA,business,,maritime industries advocacy,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-08-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-19,Amazon.com Services Inc,"$2,000",Seattle,WA,business,,web services,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-07-22,MagMutual VA PAC,"$1,000",Atlanta,GA,pac,,Insurance Agents,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-08-20,AFSCME-PAC,$250,Washington,DC,pac,,government employees PAC,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-08-10,AVS Companies,"$5,000",Elk Grove Village,IL,business,,Retail Sales - General,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-08-20,"JMGT, LLC",$500,Boca Raton,FL,business,,Medical Cannabis,,A,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-07-14,House Democratic Caucus,"$25,000",Richmond,VA,,,,candidate support,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-07-21,Imaging Zone,"$1,632.31",Springfield,VA,,,,printing,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-25,Imaging Zone,"$1,860",Springfield,VA,,,,printing,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-24,USPS,"$1,066.70",Merrifield,VA,,,,bulk mailing,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-30,INFOCUS,$650,Warrenton,VA,,,,mail processing,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-07-08,Act Blue,$1.19,Cambridge,MA,,,,service charge,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-07-25,Act Blue,$2.69,Cambridge,MA,,,,service charge,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-01,Act Blue,$4.16,Cambridge,MA,,,,service charge,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-08,Act Blue,$0.99,Cambridge,MA,,,,service charge,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-15,Act Blue,$0.20,Cambridge,MA,,,,service charge,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-22,Act Blue,$11.56,Cambridge,MA,,,,service charge,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-07-28,Costco,$54.75,Springfield,VA,,,,1st class stamps,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-29,Costco,$19.05,Springfield,VA,,,,printer paper,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-07-26,BB&T,$4,Wilson,NC,,,,service charge,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-23,BB&T,$4,Wilson,NC,,,,service charge,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-07-04,Aaron Yohai,$21.09,Burke,VA,,,,event candy,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-07-08,Aaron Yohai,$100,Burke,VA,,,,field work,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-08,Aaron Yohai,$100,Burke,VA,,,,field work,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-07-07,Democratic Asian-Americans of Virginia,$150,Falls Church,VA,,,,event sponsor,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+expenditure,2021-08-19,John R. Lewis HS Athletic Boosters,$100,Springfield,VA,,,,program ad,D,253037,2021-07-01 to 2021-08-31,CC-12-01081,Watts for Delegate
+contribution,2021-09-18,Bob and Ann Grey,$150,Annandale,VA,individual,n/a,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-13,Jim and Judy McConville,$250,Annandale,VA,individual,self,attorney,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-30,Penelope Pickett,$100,Fairfax,VA,individual,n/a,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-18,Marlyn Bolen and Beverly Clement,$200,Annandale,VA,individual,N/A,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-13,Jeanette Rishell,$250,Manassas,VA,individual,Va Cooperative Extension,state employee,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-27,Merry Macke,$125,Springfield,VA,individual,n/a,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-10,David and Julia Ruskin,$150,Annandale,VA,individual,Center for Naval Analysis,mathmetician,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-18,Barbara and Gary Allen,$150,Annandale,VA,individual,n/a,retired teacher,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-30,Barbara and Gary Allen,$200,Annandale,VA,individual,n/a,retired teacher,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-18,Tom and Carolyn Johnson,$250,Annandale,VA,individual,n/a,retired attorney,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-10,Abraham Scott,$250,Springfield,VA,individual,n/a,Retired Military,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-24,Virginia AFL-CIO PAC,$500,Richmond,VA,pac,,Labor Union representation,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-16,John and Maureen Marino,$250,Springfield,VA,individual,self,dentist,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-23,VA Commissioner of Revenue PAC,$250,Newport News,VA,pac,,Constitutional Officers Representation,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-14,Marietta Warden,$250,Annandale,VA,individual,Living Free Health Service,CEO,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-14,Edgar and Rosemary Kley,$117,Springfield,VA,individual,n/a,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-05,David L. Temple Jr,$117,Alexandria,VA,individual,Fairfax County,Education and Workforce,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-01,Herschel Kanter,$250,Arlington,VA,individual,n/a,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-12,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-16,"Anheuser-Busch Companies, Inc.","$1,000",Atlanta,GA,business,,Beverage Company,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-10,Karen Swindells,$200,Annandale,VA,individual,n/a,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-19,Stella Worley,$60,Springfield,VA,individual,n/a,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-10,David Connolly,$200,Springfield,VA,individual,n/a,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-19,Eva Hardy,$500,Richmond,VA,individual,self,counsultant,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-01,SEIU Committee on Political Education,"$1,000",Washington,DC,business,,Labor - Miscellaneous,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-27,Betting on VA Jobs PAC,"$1,500",Richmond,VA,pac,,Gaming - Casinos/Lottery/Bingo,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-30,Capital Results,$500,Richmond,VA,business,,Law firm,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-30,"Intuit, Inc","$1,000",Washington,DC,business,,Information Technology - Software,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-30,"American Traffic Solutions, Inc",$500,Mesa,AZ,business,,Miscellaneous Transportation,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-16,Baltimore Washington Construction & Public Employees Laborers PAC,"$1,500",Camp Springs,MD,pac,,Labor,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-01,Northern Virginia Chamber of Commerce,$250,Tysons Corner,VA,business,,Business support,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-13,VA Restaurant-Lodging-Travel Association,$250,Richmond,VA,business,,Hospitality Industry,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-30,Leonard hopkins,$150,Richmond,VA,individual,N/A,retired,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-09-30,Humane Society Legislative Fund of Virginia PAC,$250,Washington,DC,pac,,animal welfare,,A,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+in_kind,2021-09-14,Democratic Party of Virginia,"$2,733",Richmond,VA,party,,State Democratic Party,mail production,B,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+in_kind,2021-09-10,Progressive Turnout Project,"$2,500",Chicago,IL,business,,voter contact,voter contact,B,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-20,Imaging Zone,"$2,170",Springfield,VA,,,,printing,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-01,Act Blue,$50.93,Cambridge,MA,,,,service fee,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-05,Act Blue,$10.56,Cambridge,MA,,,,service fee,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-12,Act Blue,$11.02,Cambridge,MA,,,,service fee,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-19,Act Blue,$50.20,Cambridge,MA,,,,service fee,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-30,Act Blue,$17.78,Cambridge,MA,,,,service fee,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-30,Act Blue,$6.92,Cambridge,MA,,,,service fee,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-17,Costco,$319.49,Springfield,VA,,,,fundraiser food,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-17,Shoppers,$76.25,Fairfax,VA,,,,fundraiser food,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-17,Dollar Tree,$5.30,Fairfax,VA,,,,fundraiser supplies,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-17,Fairfax Propane,$35,Fairfax,VA,,,,fundraiser supplies,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-21,BB&T,$4,Wilson,NC,,,,service fee,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-30,Fairfax County Democratic Committee,"$5,500",Fairfax,VA,,,,"mailing, field",D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-17,Walmart,$38.87,Fairfax,VA,,,,fundraiser food,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-17,Trader Joe's,$5.50,Fairfax,VA,,,,fundraiser food,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-08,Aaron Yohai,$100,Burke,VA,,,,field work,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-15,Hala Ayala for Lt Governor,$250,"Arlington, VA",VA,,,,candidate support,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+expenditure,2021-09-18,7/11,$21.52,Fairfax,VA,,,,fundraiser supplies,D,260085,2021-09-01 to 2021-09-30,CC-12-01081,Watts for Delegate
+contribution,2021-10-21,FirePac Local 2068,$500,Fairfax,VA,pac,,firefighters,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-18,VA Petroleum Convenience and Grocery Assoc,$250,Richmond,VA,business,,Petroleum Distribution,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-11,VA Automobile Dealers Association PAC,"$1,000",Richmond,VA,pac,,new auto dealers,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-15,VA Hospital & Healthcare Assoc PAC,$500,Richmond,VA,pac,,Hospitals and Health Care,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-18,VA BankPAC,"$1,000",Glen Allen,VA,pac,,Bankers PAC,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-18,"Hunton Andrews Kurth, LLP","$2,000",Richmond,VA,business,,Law firm,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-14,VA Realtors Association PAC,"$1,250",Glen Allen,VA,pac,,Association of Realtors,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-15,"Reynolds American, Inc","$1,000",Winston-Salem,NC,business,,Tobacco products,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-10,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-18,Raytheon,$500,Arlington,VA,business,,Defense - Miscellaneous,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-21,James and Megan Powers,$150,Annandale,VA,individual,"Fairfax, VA",Ophthalmologist,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-21,"Advansix Inc, PAC",$500,Parsippany,NJ,pac,,Chemicals/Plastics,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-12,"Publix Super Markets, Inc",$500,Lakeland,FL,business,,Retail - Grocery Stores,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-20,VA Independent Auto Dealers PAC,$250,Virginia Beach,VA,pac,,Auto Dealers,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-18,Coca-Cola Bottling Co.,"$1,000",Charlotte,NC,business,,soft drink company,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-10-10,Karla Jurvetson,"$1,000",Los Altos,CA,individual,self,physician,,A,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+in_kind,2021-10-14,Democratic Party of Virginia,$649.69,Richmond,VA,party,,State Democratic Party,bulk mail,B,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+in_kind,2021-10-08,Progressive Turnout Project,"$2,500",Chicago,IL,business,,voter contact,canvassing,B,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+in_kind,2021-10-12,Unite Here,$360.91,New York,NY,business,,union action fund,canvassing,B,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+expenditure,2021-10-14,House Democratic Caucus,"$10,000",Richmond,VA,,,,candidate support,D,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+expenditure,2021-10-15,USPS,"$10,029.43",Merrifield,VA,,,,bulk mail,D,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+expenditure,2021-10-10,Act Blue,$45.49,Cambridge,MA,,,,processing fee,D,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+expenditure,2021-10-18,Act Blue,$3.95,Cambridge,MA,,,,processing fee,D,262943,2021-10-01 to 2021-10-21,CC-12-01081,Watts for Delegate
+contribution,2021-11-24,VA Land Title Association PAC,"$1,000",Alpharetta,GA,pac,,Title Companies/Settlement Agencies,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-10-28,Molson Coors,$500,Milwaukee,WI,business,,Beverages - Alcohol Manufacturers,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-11-01,VA Manufactures Association,$500,Richmond,VA,business,,manufacturers association,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-11-22,American Airlines PAC,$500,Washington,DC,pac,,Air Transport,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-11-24,"Strata Solar, LLC",$500,Durham,NC,business,,Alternative Energy,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-11-01,FirePac Local 2068,$250,Fairfax,VA,pac,,firefighters,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-10-29,NV Technology Council TechPAC,"$1,250",Falls Church,VA,pac,,Information Technology PAC,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-11-22,VTCA - PAC,"$1,000",Richmond,VA,pac,,Transportation Construction Industry PAC,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-11-03,Care First Blue Cross Blue Shield,$500,Washington,DC,business,,Health care insurance,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-11-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+in_kind,2021-10-26,Democratic Party of Virginia,$116.15,Richmond,VA,party,,State Democratic Party,mail production,B,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+in_kind,2021-10-29,Unite Here,"$3,730.40",New York,NY,business,,union action fund,canvassing,B,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+expenditure,2021-10-27,Imaging Zone,"$4,370.48",Springfield,VA,,,,printing,D,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+expenditure,2021-10-25,INFOCUS,"$1,418.22",Warrenton,VA,,,,mail preparation,D,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+expenditure,2021-10-22,Act Blue,$0.30,Cambridge,MA,,,,service fee,D,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+expenditure,2021-11-24,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+expenditure,2021-10-26,Costco,$7.94,Springfield,VA,,,,paper,D,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+expenditure,2021-10-22,Truist,$4,Charlotte,NC,,,,service fee,D,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+expenditure,2021-11-22,Truist,$4,Charlotte,NC,,,,service fee,D,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+expenditure,2021-11-09,Aaron Yohai,$200,Burke,VA,,,,field work,D,291323,2021-10-22 to 2021-11-25,CC-12-01081,Watts for Delegate
+contribution,2021-12-15,"AT&T Services, Inc.",$500,Richmond,VA,business,,Communications Corporation,,A,291345,2021-11-26 to 2021-12-31,CC-12-01081,Watts for Delegate
+contribution,2021-12-12,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,291345,2021-11-26 to 2021-12-31,CC-12-01081,Watts for Delegate
+contribution,2021-12-16,Smithfield Foods,"$1,000",Smithfield,VA,business,,food industry,,A,291345,2021-11-26 to 2021-12-31,CC-12-01081,Watts for Delegate
+contribution,2021-12-30,VISA,"$1,000",Austin,TX,business,,Credit Card Companies,,A,291345,2021-11-26 to 2021-12-31,CC-12-01081,Watts for Delegate
+contribution,2021-12-31,"POM of Virginia, LLC",$500,Duluth,GA,business,,Gaming - Games of Skill,,A,291345,2021-11-26 to 2021-12-31,CC-12-01081,Watts for Delegate
+expenditure,2021-12-12,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,291345,2021-11-26 to 2021-12-31,CC-12-01081,Watts for Delegate
+expenditure,2021-12-21,Truist,$4,Charlotte,NC,,,,service fee,D,291345,2021-11-26 to 2021-12-31,CC-12-01081,Watts for Delegate
+expenditure,2021-12-30,Facebook,"$1,500",Washington,DC,,,,check for contribution reported as received 12/20/20 was damaged in the mail and not accepted by bank,D,291345,2021-11-26 to 2021-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-06-15,"Altria Client  Services, Inc.",$500,Richmond,VA,business,,Food/Tobacco Corp,,A,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+contribution,2022-04-26,Facebook,"$1,500",Washington,DC,business,,Information Technology,,A,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+contribution,2022-06-13,Service Corporation International PAC,$500,Houston,TX,pac,,Funeral Homes/Cemeteries,,A,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-02-27,House Democratic Caucus,"$15,000",Richmond,VA,,,,House Democratic Caucus dues,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-04-03,Act Blue,$0.20,Cambridge,MA,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-04-10,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-05-01,Act Blue,$1.98,Cambridge,MA,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-05-08,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-06-12,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-01-24,Truist,$4,Charlotte,NC,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-02-22,Truist,$4,Charlotte,NC,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-03-21,Truist,$4,Charlotte,NC,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-04-21,Truist,$16,Charlotte,NC,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-05-23,Truist,$4,Charlotte,NC,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-06-21,Truist,$4,Charlotte,NC,,,,service fee,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-02-24,State Board of Elections,$19.80,Richmond,VA,,,,20% of voter history HD39,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-04-28,State Board of Elections,$39.60,Richmond,VA,,,,20% of update subscription,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-03-15,RCN,$62.28,Newark,NJ,,,,20% email renewal,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-05-05,USPS - North Springfield Branch,$40.40,Springfield,VA,,,,20% PO box renewal,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-04-07,LogMeIn,$70,Boston,MA,,,,20% annual renewal,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+expenditure,2022-05-04,Ricardo Alfaro,$7.67,Alexandria,VA,,,,20% website renewal,D,308581,2022-01-01 to 2022-06-30,CC-12-01081,Watts for Delegate
+contribution,2022-10-24,Norfolk Southern Corporation,"$1,000",Richmond,VA,business,,Railroad,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-07-29,VA Sheriffs' Association,$250,Richmond,VA,pac,,Sheriffs' PAC,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-11-10,NV Association of Realtors PAC,$500,Fairfax,VA,pac,,Realtors,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-08-18,VA Certified Public Accountants PAC,$500,Glen Allen,VA,pac,,CPA's,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-07-14,Va Retail Federation,$250,Richmond,VA,business,,Retail Merchandizing,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-11-14,VA Automobile Dealers Association PAC,"$2,000",Richmond,VA,pac,,new auto dealers,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-09-14,Verizon Communications,"$1,000",Richmond,VA,business,,telephones,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-09-01,Comcast,"$1,000",Richmond,VA,business,,TV - Cable,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-11-17,"AT&T Services, Inc.",$500,Richmond,VA,business,,Communications Corporation,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-07-29,VA BankPAC,"$1,000",Glen Allen,VA,pac,,Bankers PAC,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-08-04,VA Cable Telecommunications Assn,"$1,000",Richmond,VA,pac,,Cable TV Industry PAC,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-08-25,"Reed Smith, LLP",$500,Falls Church,VA,business,,Law Firm,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-07-29,Old Dominion Highway Contractors PAC,$500,Chantilly,VA,pac,,Highway Contractors,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-08-01,Williams Mullen Government Relations,$250,Richmond,VA,business,,Law Firm,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-30,AEP Virginia Ctte for Responsible Government,"$1,000",Richmond,VA,business,,Power Company,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-08-15,VA Beer Wholesalers Assoc PAC,"$1,000",Richmond,VA,pac,,Beer Distributors,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-08-29,VA Realtors Association PAC,$500,Glen Allen,VA,pac,,Association of Realtors,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-10-11,"RAI - Reynolds American, Inc",$500,Winston-Salem,NC,business,,Tobacco products,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-09,Maritime Issues Council,$500,Norfolk,VA,business,,maritime industries advocacy,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-09-22,HCA for Good Government PAC,"$1,000",Reston,VA,pac,,Hospitals,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-22,VA Manufactured & Modular Housing Assoc,$500,Richmond,VA,pac,,Manufactured Homes PAC,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-08-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-09-11,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-10-09,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-11-13,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-11,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-10-14,RELX INC,$250,Washington,DC,business,,Publishing & Information Services,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-15,Raytheon,$250,Arlington,VA,business,,Defense - Miscellaneous,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-11-09,"Anheuser-Busch Companies, Inc.",$500,Atlanta,GA,business,,Beverage Company,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-10-24,Amazon.com Services Inc,"$1,500",Seattle,WA,business,,web services,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-07-30,"Gentry Locke, LLC",$250,Roanoke,VA,business,,Attorneys/Law Firm,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-07-21,VA Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,agriculture,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-15,Betting on VA Jobs PAC,"$1,500",Richmond,VA,pac,,Gaming - Casinos/Lottery/Bingo,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-02,Capital Results,$500,Richmond,VA,business,,Law firm,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-22,VISA,$500,Austin,TX,business,,Credit Card Companies,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-02,Newport News Shipbuilding,$500,Newport News,VA,business,,ship builiding,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-10-20,JBG Smith Builds Virginia PAC,"$1,000",Arlington,VA,pac,,Real Estate Developers,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-11-28,Baltimore Washington Construction & Public Employees Laborers PAC,"$1,000",Camp Springs,MD,pac,,Labor,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-07-21,Northern Virginia Chamber of Commerce,$250,Tysons Corner,VA,business,,Business support,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-11-28,"Strata Solar, LLC",$500,Durham,NC,business,,Alternative Energy,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-08-04,Copart,$500,Dallas,TX,business,,online auto dealers,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-22,32BJ United American Dream Fund,$250,New York,NY,business,,labor representation,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2022-12-28,EyePAC,$500,Richmond,VA,pac,,ophthalmologists representation,,A,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-10-20,Imaging Zone,"$1,959.08",Springfield,VA,,,,printing newsletters to nonHD39,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-10-14,USPS,$55,Merrifield,VA,,,,20% of Bulk Mail Permit renewal,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-10-20,USPS,"$2,277.56",Merrifield,VA,,,,newsletters to nonHD39,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-12-19,USPS,$406.01,Merrifield,VA,,,,event mailing,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-10-25,INFOCUS,$484.51,Warrenton,VA,,,,mail processing nwsltr to non HD39,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-07-08,Act Blue,$0.99,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-07-24,Act Blue,$9.88,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-08-14,Act Blue,$0.99,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-08-21,Act Blue,$1.98,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-09-04,Act Blue,$0.40,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-09-11,Act Blue,$0.99,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-10-09,Act Blue,$0.99,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-10-30,Act Blue,$2.18,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-11-13,Act Blue,$0.99,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-11-27,Act Blue,$0.20,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-12-11,Act Blue,$0.99,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-12-30,Act Blue,$4.15,Cambridge,MA,,,,transaction fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-07-21,Truist,$4,Charlotte,NC,,,,service fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-08-22,Truist,$4,Charlotte,NC,,,,fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-09-21,Truist,$4,Charlotte,NC,,,,fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-10-21,Truist,$4,Charlotte,NC,,,,fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-11-21,Truist,$4,Charlotte,NC,,,,fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-12-21,Truist,$4,Charlotte,NC,,,,fee,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-07-15,State Board of Elections,$165,Richmond,VA,,,,Registered voter list,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-07-15,State Board of Elections,$39.60,Richmond,VA,,,,20% of voter list update,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-09-09,State Board of Elections,$165,Richmond,VA,,,,HD14 voter data,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-08-23,Adobe,$35.98,San Jose,CA,,,,20% of subscription renewal,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+expenditure,2022-12-21,"HBP, Inc","$1,227.50",Hagerstown,MD,,,,printing event invite,D,308584,2022-07-01 to 2022-12-31,CC-12-01081,Watts for Delegate
+contribution,2023-01-07,Virginia AFL-CIO PAC,$500,Richmond,VA,pac,,Labor Union representation,,A,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+contribution,2023-01-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+contribution,2023-03-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-03-16,House Democratic Caucus,"$5,000",Richmond,VA,,,,dues,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-01-02,INFOCUS,$545,Warrenton,VA,,,,mail processing,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-02-26,Act Blue,$0.20,Cambridge,MA,,,,service charge,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-02-28,Act Blue,$7.91,Cambridge,MA,,,,service charge,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-03-12,Act Blue,$0.99,Cambridge,MA,,,,service charge,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-03-31,Act Blue,$0.99,Cambridge,MA,,,,service charge,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-02-21,Truist,$4,Charlotte,NC,,,,service charge,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-03-21,Truist,$4,Charlotte,NC,,,,service charge,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-03-28,Fairfax County Dir of Finance,$352.80,Fairfax,VA,,,,primary filing fee,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-01-23,Transurban (USA) Inc.,$4,Alexandria,VA,,,,service charge,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+expenditure,2023-03-31,Aaron Yohai,$200,Burke,VA,,,,field work,D,321068,2023-01-01 to 2023-03-31,CC-12-01081,Watts for Delegate
+contribution,2023-05-22,Valerie and Bob Sutter,$200,Annandale,VA,individual,GMU,Bob: Professor,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-06-01,Jim and Judy McConville,$250,Annandale,VA,individual,self,attorney,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-05-31,Marlyn Bolen and Beverly Clement,$200,Annandale,VA,individual,N/A,retired,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-05-21,Mary and Peter Ansoff,$200,Annandale,VA,individual,NVCC,Mary - Computer Programmer,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-05-25,VA Sheriffs' Association,$250,Richmond,VA,pac,,Sheriffs' PAC,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-05-22,Jeanette Rishell,$250,Manassas,VA,individual,Va Cooperative Extension,state employee,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-06-05,"Altria Client  Services, Inc.","$2,500",Richmond,VA,business,,Food/Tobacco Corp,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-06-08,NV Association of Realtors PAC,$750,Fairfax,VA,pac,,Realtors,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-04-04,Barbara and Gary Allen,$150,Annandale,VA,individual,n/a,retired teacher,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-06-08,Barbara and Gary Allen,$100,Annandale,VA,individual,n/a,retired teacher,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-06-01,VA Automobile Dealers Association PAC,"$2,500",Richmond,VA,pac,,new auto dealers,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-04-17,Comcast,"$1,000",Richmond,VA,business,,TV - Cable,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-05-22,Washington Gas PAC,$500,Washington,DC,pac,,Utility PAC,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-06-08,Marietta Warden,$200,Annandale,VA,individual,Living Free Health Service,CEO,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-04-01,George Kralovec,$100,Annandale,VA,individual,n/a,retired,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-04-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-05-14,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-05-28,Ron and Raychel Bartek,$200,Annandale,VA,individual,FARA,Non-profit president,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-05-25,State Farm,"$1,000",Midlothian,VA,business,,Insurance Companies,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-05-04,Copart,$500,Dallas,TX,business,,online auto dealers,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-06-01,George Cody,$300,Alexandria,VA,individual,N/A,retired,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-04-13,Engineering Companies of Virginia PAC,$500,Richmond,VA,pac,,Engineers/Engineering Firms,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-04-15,Gross for Supervisor,$500,Alexandria,VA,candidate,,Candidate for Board of Supervisors,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-04-25,Common Good VA,"$7,000",Alexandria,VA,candidate,,Democrat Leadership - candidate committee,,A,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-05-11,USPS,$924.24,Merrifield,VA,,,,bulk mailing,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-05-17,INFOCUS,$650,Warrenton,VA,,,,mail processing,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-04-02,Act Blue,$13.84,Cambridge,MA,,,,service fee,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-04-09,Act Blue,$1.98,Cambridge,MA,,,,service fee,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-04-16,Act Blue,$7.91,Cambridge,MA,,,,service fee,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-04-23,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-05-14,Act Blue,$0.99,Cambridge,MA,,,,Service fee,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-05-21,Act Blue,$8.89,Cambridge,MA,,,,Service fee,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-05-28,Act Blue,$9.48,Cambridge,MA,,,,Service fee,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-04-21,Truist,$4,Charlotte,NC,,,,service fee,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-05-22,Truist,$4,Charlotte,NC,,,,service fee,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-04-30,Aaron Yohai,$200,Burke,VA,,,,field work,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-05-31,Aaron Yohai,$200,Burke,VA,,,,field work,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+expenditure,2023-05-17,"HBP, Inc","$1,429.50",Hagerstown,MD,,,,printing,D,329662,2023-04-01 to 2023-06-08,CC-12-01081,Watts for Delegate
+contribution,2023-06-23,VA Health Care Association PAC,"$1,000",Richmond,VA,pac,,Nursing Homes PAC,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-30,Va Retail Federation,$500,Richmond,VA,business,,Retail Merchandizing,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-22,Robert and Vivian Miller,$200,Alexandria,VA,individual,n/a,retired,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-30,Commercial Development PAC,$500,Alexandria,VA,pac,,Commerical Real Estate,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-22,TheDoctorsCompany - DOCPAC,$500,Napa,CA,pac,,medical malpractice insurance,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-26,VTCA - PAC,"$1,000",Richmond,VA,pac,,Transportation Construction Industry PAC,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-10,Roy and Louann Meisinger,$200,Annandale,VA,individual,n/a,retired,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-16,Old Dominion Highway Contractors PAC,$500,Chantilly,VA,pac,,Highway Contractors,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-12,Molly and Bill Lynch,$500,Mason Neck,VA,individual,self-employed,Real Estate,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-21,Capital One Financial,"$1,000",Richmond,VA,business,,Financial Services,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-22,VA Beer Wholesalers Assoc PAC,"$1,000",Richmond,VA,pac,,Beer Distributors,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-09,Carl and Carolyn Iddings,$250,Annandale,VA,individual,US Senate Sergeant at Arms,manager,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-09,Herschel Kanter,$200,Arlington,VA,individual,n/a,retired,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-16,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-30,"Anheuser-Busch Companies, Inc.",$500,Atlanta,GA,business,,Beverage Company,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-30,Penelope Earley,$500,Annandale,VA,individual,George Mason University,Professor,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-09,Linda and Lynn Daft,$200,Annandale,VA,individual,n/a,retired,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-28,VA Education Association,$500,Richmond,VA,business,,teachers,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-06-23,VA Certified Public Accountants PAC,"$1,000",Glen Allen,VA,pac,,CPA's,,A,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-13,House Democratic Caucus,"$25,000",Richmond,VA,,,,candidate support,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-09,Act Blue,$15.80,Cambridge,MA,,,,service fee,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-16,Act Blue,$6.13,Cambridge,MA,,,,service fee,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-16,Act Blue,$16.20,Cambridge,MA,,,,service fee,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-21,Truist,$4,Charlotte,NC,,,,service fee,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-15,State Board of Elections,$16.20,Richmond,VA,,,,20% of monthly updates,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-15,State Board of Elections,$39.60,Richmond,VA,,,,20% of monthly updates,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-15,RCN,$62.28,Newark,NJ,,,,20% of website renewal,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-15,USPS - North Springfield Branch,$43.60,Springfield,VA,,,,20% of P.O. box rental,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-16,Fairfax County Democratic Committee,"$2,000",Fairfax,VA,,,,field outreach,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-09,Walmart,$46.48,Fairfax,VA,,,,event food,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-15,LogMeIn,$70,Boston,MA,,,,20% of annual renewal,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-30,Aaron Yohai,$200,Burke,VA,,,,field work,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-09,Safeway - Fairfax,$69.31,Fairfax,VA,,,,event food,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-10,Dixie Pig,$458.04,Woodbridge,VA,,,,event food,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-09,Costco,$166.84,Fairfax,VA,,,,event food,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-09,Party City,$6.36,Springfield,VA,,,,event supplies,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-10,7-11,$4.24,Fairfax,VA,,,,event supplies,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-12,Brooke Rental Center,$36.92,Vienna,VA,,,,event supplies,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+expenditure,2023-06-15,Fedex,$10.39,Fairfax,VA,,,,20% of wallmap printing,D,334553,2023-06-09 to 2023-06-30,CC-12-01081,Watts for Delegate
+contribution,2023-08-15,Verizon Communications,"$1,000",Richmond,VA,business,,telephones,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-08-25,VA Beverage Association,"$1,000",Richmond,VA,pac,,soft drink PAC,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-08-18,VA Dental Association PAC,"$2,500",Henrico,VA,pac,,Dentists Association,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-08-18,VA Wine Wholesalers PAC,"$1,000",Richmond,VA,pac,,Wine Distributors,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-08-31,Maritime Issues Council,$500,Norfolk,VA,business,,maritime industries advocacy,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-07-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-08-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-08-30,Virginia Democratic Women's Caucus,$150,Franklin,VA,pac,,Democratic Political Committee,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-08-28,Baltimore Washington Construction & Public Employees Laborers PAC,"$2,500",Camp Springs,MD,pac,,Labor,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-08-25,"Strata Solar, LLC","$1,000",Durham,NC,business,,Alternative Energy,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-08-29,Mary Cummins,$200,Annandale,VA,individual,n/a,retired,,A,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-07-02,Act Blue,$2.38,Cambridge,MA,,,,service fee,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-07-09,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-07-23,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-08-13,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-08-20,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-08-31,Act Blue,$7.90,Cambridge,MA,,,,service fee,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-07-21,Truist,$16,Charlotte,NC,,,,service charge,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-08-21,Truist,$4,Charlotte,NC,,,,service fee,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-07-13,State Board of Elections,$39.60,Richmond,VA,,,,20% of 6-month voter update,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-07-26,Mark Weiss Associates,"$1,650",Bethesda,MD,,,,yard signs,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-08-17,Mark Weiss Associates,$298.89,Bethesda,MD,,,,shipping,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-07-21,Carbonite,$26.40,Boston,MA,,,,20% of Carbonite renewal,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-07-31,Aaron Yohai,$200,Burke,VA,,,,field work,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-08-31,Aaron Yohai,$200,Burke,VA,,,,field work,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-08-17,Costco,$257.49,Fairfax,VA,,,,20% of computer replacements,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+expenditure,2023-07-03,Party City,$20.50,Springfield,VA,,,,4th of July candy,D,348802,2023-07-01 to 2023-08-31,CC-12-01081,Watts for Delegate
+contribution,2023-09-23,FirePac Local 2068,"$1,000",Fairfax,VA,pac,,firefighters,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-27,VA Automobile Dealers Association PAC,"$1,000",Richmond,VA,pac,,new auto dealers,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-15,VA Hospital & Healthcare Assoc PAC,$500,Richmond,VA,pac,,Hospitals and Health Care,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-15,VA BankPAC,"$1,500",Glen Allen,VA,pac,,Bankers PAC,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-30,Williams Mullen Government Relations,"$1,000",Richmond,VA,business,,Law Firm,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-15,VA Realtors Association PAC,$750,Glen Allen,VA,pac,,Association of Realtors,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-18,"RAI - Reynolds American, Inc",$500,Winston-Salem,NC,business,,Tobacco products,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-27,Metro Virginia PAC,$250,Washington,DC,pac,,Apartment/Office Buildings,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-10,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-27,RELX INC,$250,Washington,DC,business,,Publishing & Information Services,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-10,SEIU Committee on Political Education,$500,Washington,DC,business,,Labor - Miscellaneous,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-27,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,Gaming - Casinos/Lottery/Bingo,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-01,AFSCME-PAC,"$2,000",Washington,DC,pac,,government employees PAC,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-27,Newport News Shipbuilding,$500,Newport News,VA,business,,ship builiding,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-08,VA Independent Auto Dealers PAC,$250,Virginia Beach,VA,pac,,Auto Dealers,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-27,"Food Lion, LLC",$500,Salisbury,NC,business,,retail grocery stores,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-10,Gregory Martin,$250,Annandale,VA,individual,Patient-Centered Outcomes Research Institute,Program Director,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-09-24,Judith Thorne,$250,Reston,VA,individual,N/A,Not employed,,A,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-30,House Democratic Caucus,"$10,000",Richmond,VA,,,,candidate support,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-28,USPS,"$6,600.32",Merrifield,VA,,,,bulk postage,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-10,Act Blue,$30.62,Cambridge,MA,,,,service fee,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-17,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-24,Act Blue,$17.19,Cambridge,MA,,,,service fee,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-21,Truist,$4,Charlotte,NC,,,,service fee,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-30,Aaron Yohai,$200,Burke,VA,,,,field work,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-15,Annandale HS Athletics Boosters,$300,Annandale,VA,,,,ad,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-30,"HBP, Inc","$5,620",Hagerstown,MD,,,,printing,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-13,SpeakEasy Political,"$2,800.13",San Francisco,CA,,,,printing,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+expenditure,2023-09-28,Kathy Tran for Delegate,$625,Springfield,VA,,,,newspaper ad,D,361017,2023-09-01 to 2023-09-30,CC-12-01081,Watts for Delegate
+contribution,2023-10-16,HCA for Good Government PAC,"$1,000",Richmond,VA,pac,,Hospitals,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-16,Commercial Development PAC,$500,Alexandria,VA,pac,,Commerical Real Estate,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-06,VA Trial Lawyers Association PAC,"$2,500",Richmond,VA,pac,,Trial Lawyers PAC,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-16,VA Cable Telecommunications Assn,"$1,000",Richmond,VA,pac,,Cable TV Industry PAC,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-16,"Hunton Andrews Kurth, LLP","$1,000",Richmond,VA,business,,Law firm,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-25,AEP Virginia Ctte for Responsible Government,"$1,000",Richmond,VA,business,,Power Company,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-10,McGuireWoods PAC,$250,Richmond,VA,pac,,Law Firm PAC,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-01,Phillip Niedzielski-Eichner,$150,Oakton,VA,individual,U.S. Nuclear Reg. Comm.,Sr. Executive,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-09,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-10,VA Association of Health Plans,$500,Richmond,VA,business,,HMOs,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-16,Amazon.com Services Inc,"$1,000",Seattle,WA,business,,web services,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-16,VA Truckers PAC,$500,Richmond,VA,pac,,trucking,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-15,JBG Smith Builds Virginia PAC,"$1,000",Arlington,VA,pac,,Real Estate Developers,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-26,airbnb,"$1,000",SAn Rafael,CA,business,,online hospitality rentals,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-16,Chesapeake Climate Action Network,$500,Tacoma Park,MD,business,,Environmental,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-15,General Motors PAC,$250,Washington,DC,pac,,"Auto Manufacturers Location: Detroit, MI",,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-16,Sierra Club Virginia Chapter,$250,Richmond,VA,business,,environment,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-22,Universal Corporation,$500,Richmond,VA,business,,Agribusiness/Tobacco,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-03,VA Asian Am Store Owners Assoc PAC,$500,Richmond,VA,pac,,Gaming - Casinos/Lottery/Bingo,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-25,VA Assoc of Community Based Providers,$500,Virginia Beach,VA,business,,Misc Health Care,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-10,"VA Forest Products, Inc",$250,Sandston,VA,business,,forest products,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-10-18,VA Optometric Assoc PAC,$500,Richmond,VA,pac,,Optometrists,,A,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+in_kind,2023-10-01,Democratic Party of Virginia,"$1,110.53",Richmond,VA,party,,State Democratic Party,mail production,B,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+in_kind,2023-10-17,Democratic Party of Virginia,$235.26,Richmond,VA,party,,State Democratic Party,mail production,B,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-19,House Democratic Caucus,"$5,000",Richmond,VA,,,,candidate support,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-25,House Democratic Caucus,"$10,000",Richmond,VA,,,,candidate Support,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-12,INFOCUS,"$1,899.63",Chantilly,VA,,,,mail prep,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-02,Act Blue,$6.92,Cambridge,MA,,,,service fee,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-09,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-16,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-25,Costco,$49.82,Springfield,VA,,,,"paper, office supplies",D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-21,Truist,$4,Charlotte,NC,,,,service fee,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-20,Annandale Chamber of Commerce,$250,Annandale,VA,,,,parade registration,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-05,"HBP, Inc",$326.70,Hagerstown,MD,,,,printing,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-26,Annandale Today,$120,Annandale,VA,,,,ad,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-20,"El Plaeta, LLC",$875,Washington,DC,,,,ad,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+expenditure,2023-10-24,Walmart.com,$42.12,Bentonville,AZ,,,,parade candy,D,369262,2023-10-01 to 2023-10-26,CC-12-01081,Watts for Delegate
+contribution,2023-11-30,"AT&T Services, Inc.",$500,Richmond,VA,business,,Communications Corporation,,A,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+contribution,2023-11-04,"Reed Smith, LLP","$1,000",Falls Church,VA,business,,Law Firm,,A,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+contribution,2023-11-02,Capital One Financial,"$1,000",Richmond,VA,business,,Financial Services,,A,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+contribution,2023-11-01,VA Commissioner of Revenue PAC,$250,Newport News,VA,pac,,Constitutional Officers Representation,,A,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+contribution,2023-11-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+contribution,2023-10-31,Gerald and Aurora Kassalow,$35,Annandale,VA,individual,N/A,retired,,A,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+contribution,2023-11-03,Capital Results,$500,Richmond,VA,business,,Law firm,,A,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+contribution,2023-11-20,VISA,$500,Austin,TX,business,,Credit Card Companies,,A,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+contribution,2023-11-13,Swedish Match North America Inc.,$250,Richmond,VA,business,,Smokeless Tobacco,,A,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+expenditure,2023-11-01,USPS,$62,Merrifield,VA,,,,20% of bulk permit renewal,D,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+expenditure,2023-10-29,Act Blue,$1.98,Cambridge,MA,,,,service fee,D,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+expenditure,2023-11-05,Act Blue,$4.34,Cambridge,MA,,,,Service fee,D,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+expenditure,2023-11-07,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+expenditure,2023-11-12,Act Blue,$0.99,Cambridge,MA,,,,Service fee,D,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+expenditure,2023-11-23,Truist,$4,Charlotte,NC,,,,service fee,D,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+expenditure,2023-11-01,Adobe,$47.98,San Jose,CA,,,,20% of subscription renewal,D,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+expenditure,2023-10-31,Aaron Yohai,$200,Burke,VA,,,,field work,D,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+expenditure,2023-11-30,Aaron Yohai,$200,Burke,VA,,,,field work,D,383091,2023-10-27 to 2023-11-30,CC-12-01081,Watts for Delegate
+contribution,2023-12-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+contribution,2023-12-31,Pam McCoach,$50,Falls Church,VA,individual,n/a,retired realtor,,A,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+contribution,2023-12-08,Virginia Asphalt Assoc Inc,$500,Richmond,VA,business,,Cement/Concrete/Asphalt industry,,A,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+contribution,2023-12-29,J&J Ventures Gaming LLC,"$1,000",Effingham,IL,business,,Gaming - Casinos/Lottery/Bingo,,A,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+expenditure,2023-12-18,USPS,"$1,377.33",Merrifield,VA,,,,bulk mailing,D,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+expenditure,2023-12-26,INFOCUS,$500,Chantilly,VA,,,,mail processing,D,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+expenditure,2023-12-10,Act Blue,$0.99,Cambridge,MA,,,,processing fee,D,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+expenditure,2023-12-31,Act Blue,$5.74,Cambridge,MA,,,,processing fee,D,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+expenditure,2023-12-21,Truist,$4,Charlotte,NC,,,,service fee,D,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+expenditure,2023-12-29,Breeze Bakery Cafe,$300,Annandale,VA,,,,event room fee,D,391629,2023-12-01 to 2023-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-06-04,Linda and Lynn Daft,$200,Annandale,VA,individual,n/a,retired,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-06,Valerie and Bob Sutter,$200,Annandale,VA,individual,GMU,Bob: Professor,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-15,Marlyn Bolen and Beverly Clement,$200,Annandale,VA,individual,N/A,retired,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-06,VA Sheriffs' Association,$250,Richmond,VA,pac,,Sheriffs' PAC,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-05,Jeanette Rishell,$200,Manassas,VA,individual,Va Cooperative Extension,state employee,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-04-04,Merry Macke,$200,Springfield,VA,individual,n/a,retired,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-04-17,"Altria Client  Services, Inc.","$4,000",Richmond,VA,business,,Food/Tobacco Corp,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-30,VA Certified Public Accountants PAC,$500,Glen Allen,VA,pac,,CPA's,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-15,Barbara and Gary Allen,$150,Annandale,VA,individual,n/a,retired teacher,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-13,TheDoctorsCompany - DOCPAC,$500,Napa,CA,pac,,medical malpractice insurance,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-14,VA BankPAC,"$1,500",Glen Allen,VA,pac,,Bankers PAC,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-05,Michael Long,$200,Haymarket,VA,individual,Fairfax Co Govt - retired,Attorney,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-10,Julie and Howard Gobstein Howard,$150,Annandale,VA,individual,SAID,international development,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-11,Old Dominion Highway Contractors PAC,$500,Chantilly,VA,pac,,Highway Contractors,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-10,Molly and Bill Lynch,"$2,500",Mason Neck,VA,individual,self-employed,Real Estate,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-24,Capital One Financial,"$1,000",Richmond,VA,business,,Financial Services,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-28,VA Beer Wholesalers Assoc PAC,"$2,500",Richmond,VA,pac,,Beer Distributors,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-14,McGuireWoods PAC,$250,Richmond,VA,pac,,Law Firm PAC,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-05-31,Patricia Stewart,$100,Annandale,VA,individual,n/a,retired,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-05-31,N. Leslie Saunders esq,$200,Chester,VA,individual,"Saunders, Patterson & Mack",attorney,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-28,"Anheuser-Busch Companies, Inc.",$500,Atlanta,GA,business,,Beverage Company,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-06,David Connolly,$200,Springfield,VA,individual,n/a,retired,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-06,John Fee,$200,Fairfax,VA,individual,U.S.Tax Court,attorney,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-06,Penelope Earley,$500,Annandale,VA,individual,George Mason University,Professor,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-15,George Cody,$100,Alexandria,VA,individual,N/A,retired,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-05,Mary Cummins,$200,Annandale,VA,individual,n/a,retired,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-14,VA Assoc of Community Based Providers,$500,Virginia Beach,VA,business,,Misc Health Care,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-10,Virginia Asphalt Assoc Inc,$500,Richmond,VA,business,,Cement/Concrete/Asphalt industry,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-04-22,Bipartisan Network PAC,"$1,000",Washington,DC,pac,,criminal justice reform,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-05,Martin and Valli Shepherd,$200,Springfield,VA,individual,"Dorreean, LLC",Director of Quality Assurance,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-10,"Robert J. Surovell, esq",$500,Alexandria,VA,individual,Surovell Markle Isaacs & Levy PLC,attorney,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-14,"Access Point Public Affairs, LLC",$500,Virginia Beach,VA,business,,lobbying firm,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-14,David and Brenda Kepley,$200,Annandale,VA,individual,n/a,retired,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-06-15,Mark Sickles,$250,Alexandria,VA,individual,Virginia House of Delegates,Delegate,,A,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-01-08,House Democratic Caucus,"$20,000",Richmond,VA,,,,dues,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-05-16,USPS,"$1,256.25",Merrifield,VA,,,,bulk mail,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-05-30,INFOCUS,$633.93,Chantilly,VA,,,,bulk mail processing,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-01-07,Act Blue,$5.93,Cambridge,MA,,,,Service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-01-08,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-04-07,Act Blue,$7.90,Cambridge,MA,,,,service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-04-14,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-05-12,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-05-26,Act Blue,$1.58,Cambridge,MA,,,,Service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-02,Act Blue,$26,Cambridge,MA,,,,Service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-11,Act Blue,$15.23,Cambridge,MA,,,,Service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-16,Act Blue,$15.61,Cambridge,MA,,,,Service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-18,Act Blue,$0.99,Cambridge,MA,,,,Service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-14,Safeway - Annandale,$45.07,Annandale,VA,,,,event food,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-09,Dollar Tree,$6.63,Fairfax,VA,,,,event supplies,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-14,Fairfax Propane,$45,Fairfax,VA,,,,event supplies,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-01-22,Truist,$4,Charlotte,NC,,,,service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-02-22,Truist,$4,Charlotte,NC,,,,service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-03-21,Truist,$4,Charlotte,NC,,,,Service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-04-22,Truist,$4,Charlotte,NC,,,,service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-05-21,Truist,$4,Charlotte,NC,,,,service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-21,Truist,$4,Charlotte,NC,,,,service fee,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-05-30,Walmart,$17.94,Fredericksburg,VA,,,,event food,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-14,Trader Joe's,$5.29,Fairfax,VA,,,,event supplies,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-28,Aaron Yohai,$200,Burke,VA,,,,campaign work,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-01-04,"HBP, Inc","$1,855",Hagerstown,MD,,,,printing,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-05-23,"HBP, Inc","$1,961",Hagerstown,MD,,,,printing,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-13,Costco,$395.24,Fairfax,VA,,,,event food,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-17,Brooke Rental Center,$40.08,Vienna,VA,,,,event supplies,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-05-30,Deluxe,$201.65,Cleveland,OH,,,,new checks,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-01-07,Breeze Bakery Café,$44.26,Annandale,VA,,,,event food,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-12,Target,$49.52,Fredericksburg,VA,,,,event supplies,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+expenditure,2024-06-14,Giant,$120.02,Annandale,VA,,,,event food,D,408711,2024-01-01 to 2024-06-30,CC-12-01081,Watts for Delegate
+contribution,2024-12-19,Norfolk Southern Corporation,"$1,000",Richmond,VA,business,,Railroad,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-09-09,"Altria Client  Services, Inc.","$2,500",Richmond,VA,business,,Food/Tobacco Corp,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-10-20,"Altria Client  Services, Inc.","$1,000",Richmond,VA,business,,Food/Tobacco Corp,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-07-26,VA State Police Assoc PAC,$250,Richmond,VA,pac,,State Police PAC,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-26,VA Health Care Association PAC,"$1,000",Richmond,VA,pac,,Nursing Homes PAC,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-13,VA Automobile Dealers Association PAC,"$3,000",Richmond,VA,pac,,new auto dealers,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-08-23,Verizon Communications,"$1,000",Richmond,VA,business,,telephones,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-08-16,Truist,$500,Charlotte,NC,business,,Financial Institution,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-07-19,Commercial Development PAC,$500,Alexandria,VA,pac,,Commerical Real Estate,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-07-11,Comcast,"$1,000",Richmond,VA,business,,TV - Cable,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-26,VA Trial Lawyers Association PAC,"$1,000",Richmond,VA,pac,,Trial Lawyers PAC,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-08-02,Washington Gas PAC,"$1,000",Washington,DC,pac,,Utility PAC,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-07-26,"Reed Smith, LLP","$1,000",Falls Church,VA,business,,Law Firm,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-09-23,Williams Mullen Government Relations,$500,Richmond,VA,business,,Law Firm,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-26,"Hunton Andrews Kurth, LLP","$1,000",Richmond,VA,business,,Law firm,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-07-19,Transurban (USA) Inc.,$500,Alexandria,VA,business,,infrastructure & development,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-09-11,VA Beverage Association,"$1,500",Richmond,VA,pac,,soft drink PAC,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-09-16,VA Realtors Association PAC,"$1,000",Glen Allen,VA,pac,,Association of Realtors,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-10-31,Micron Technology,$750,Manassas,VA,business,,Information Technology,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-06,"RAI - Reynolds American, Inc",$500,Winston-Salem,NC,business,,Tobacco products,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-11-14,VA Commissioner of Revenue PAC,$250,Newport News,VA,pac,,Constitutional Officers Representation,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-10-04,Maritime Issues Council,$500,Norfolk,VA,business,,maritime industries advocacy,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-19,Metro Virginia PAC,$500,Washington,DC,pac,,Apartment/Office Buildings,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-07-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-08-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-09-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-10-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-11-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-08-23,Amazon.com Services Inc,"$2,000",Seattle,WA,business,,web services,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-30,Daniel Dellapenta,$50,Springfield,VA,individual,n/a,retired,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-30,Megan and Michael Ahn,$50,Burke,VA,individual,EPA,environmental specialist,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-11-08,VISA,"$2,000",Austin,TX,business,,Credit Card Companies,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-29,Penelope Earley,$100,Annandale,VA,individual,George Mason University,Professor,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-07-26,Newport News Shipbuilding,$500,Newport News,VA,business,,ship builiding,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-19,Newport News Shipbuilding,$500,Newport News,VA,business,,ship builiding,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-31,Cozen O'Connor,$750,Richmond,VA,business,,Law Firm,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-11-08,Baltimore Washington Construction & Public Employees Laborers PAC,"$2,500",Camp Springs,MD,pac,,Labor,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-09-16,Service Corporation International PAC,$500,Houston,TX,pac,,Funeral Homes/Cemeteries,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-08-30,Copart,$500,Dallas,TX,business,,online auto dealers,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-08-30,General Motors PAC,$250,Washington,DC,pac,,"Auto Manufacturers Location: Detroit, MI",,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-30,Wal*PAC,"$1,000",Bentonville,AZ,pac,,retail corporate PAC,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-30,"Robert J. Surovell, esq",$250,Alexandria,VA,individual,Surovell Markle Isaacs & Levy PLC,attorney,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-26,David and Brenda Kepley,$25,Annandale,VA,individual,n/a,retired,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-09-07,"DoorDash, Inc",$500,San Francisco,CA,business,,Information Technology - Internet,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-09-07,Comstock,"$5,000",Reston,VA,business,,Homebuilders,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-10-01,Textron,$750,Washington,DC,business,,Defense Contractor,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-10-02,Employees of RTX Corporation PAC,$500,Arlington,VA,pac,,Defense Contractor,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-30,Vantage Data Centers Management Co,"$1,000",Santa Clara,CA,business,,Data Centers,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2024-12-31,VA Operators for Skill,"$2,500",Richmond,VA,business,,Gaming - Casinos/Lottery/Bingo,,A,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-12-29,House Democratic Caucus,"$20,000",Richmond,VA,,,,dues,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-12-17,USPS,"$1,246.29",Merrifield,VA,,,,postage,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-12-26,INFOCUS,$534.26,Chantilly,VA,,,,mail processing,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-07-07,Act Blue,$7.90,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-07-14,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-07-28,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-08-11,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-09-08,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-09-15,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-10-06,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-10-13,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-12-08,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-12-10,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-12-29,Act Blue,$10.87,Cambridge,MA,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-07-21,Truist,$4,Charlotte,NC,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-08-21,Truist,$4,Charlotte,NC,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-09-21,Truist,$4,Charlotte,NC,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-10-21,Truist,$4,Charlotte,NC,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-11-21,Truist,$4,Charlotte,NC,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-12-12,Truist,$4,Charlotte,NC,,,,service fee,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+expenditure,2024-12-19,"HBP, Inc","$1,685.40",Hagerstown,MD,,,,printing,D,431330,2024-07-01 to 2024-12-31,CC-12-01081,Watts for Delegate
+contribution,2025-02-24,Linda and Lynn Daft,$200,Annandale,VA,individual,n/a,retired,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-01-05,Suzanne Dorick and Jim Hickey,$50,Springfield,VA,individual,US Postal Service,postal clerk,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-01-05,HCA for Good Government PAC,"$1,000",Richmond,VA,pac,,Hospitals,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-01-07,Robert and Vivian Miller,$200,Alexandria,VA,individual,n/a,retired,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-01-05,Terilee and Jim Edwards-Hewitt,$50,Alexandria,VA,individual,Montgomery College,College Professor,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-03-09,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-01-05,SEIU Committee on Political Education,$500,Washington,DC,business,,Labor - Miscellaneous,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-02-24,VA Independent Auto Dealers PAC,$250,Virginia Beach,VA,pac,,Auto Dealers,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-02-24,Roland Vaughan,$50,Annandale,VA,individual,n/a,retired,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-03-02,Loren Hershey,$185,Oakton,VA,individual,self,attorney,,A,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+in_kind,2025-01-05,Steve Lee,$150,Annandale,VA,individual,Cafe V,Business owner,Food,B,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-01-02,Act Blue,$11.86,Cambridge,MA,,,,service fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-01-05,Act Blue,$35.79,Cambridge,MA,,,,service fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-01-12,Act Blue,$1.98,Cambridge,MA,,,,service fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-03-02,Act Blue,$7.31,Cambridge,MA,,,,Service fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-03-09,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-03-23,Act Blue,$3.95,Cambridge,MA,,,,Service fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-01-21,Truist,$4,Charlotte,NC,,,,service fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-02-21,Truist,$5,Charlotte,NC,,,,service fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-03-21,Truist,$5,Charlotte,NC,,,,service fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+expenditure,2025-03-06,Fairfax County Dir of Finance,$352.80,Fairfax,VA,,,,filing fee,D,436868,2025-01-01 to 2025-03-31,CC-12-01081,Watts for Delegate
+contribution,2025-05-27,Valerie and Bob Sutter,$200,Annandale,VA,individual,GMU,Bob: Professor,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-06-02,Jim and Judy McConville,$200,Annandale,VA,individual,self,attorney,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-15,Jarla and Bill Ulman,$80,Annandale,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-13,Suzanne Dorick and Jim Hickey,$100,Springfield,VA,individual,US Postal Service,postal clerk,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-22,VA Sheriffs' Association,$250,Richmond,VA,pac,,Sheriffs' PAC,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-20,Tom and Nancy Appler,$200,Vienna,VA,individual,Winston & Leer,attorney,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-20,"Altria Client  Services, Inc.","$3,000",Richmond,VA,business,,Food/Tobacco Corp,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-27,Penny Rood,$40,Fairfax,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-06-05,Moe Hedetniemi,$100,Annandale,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-06-05,Va Retail Federation,$500,Richmond,VA,business,,Retail Merchandizing,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-06-05,Comcast,"$1,000",Richmond,VA,business,,TV - Cable,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-06-02,TheDoctorsCompany - DOCPAC,$500,Napa,CA,pac,,medical malpractice insurance,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-20,Carol and Bob Hopper,$40,Falls Church,VA,individual,n/a,Retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-22,Michael Long,$100,Haymarket,VA,individual,Fairfax Co Govt - retired,Attorney,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-20,Patricia Stewart,$100,Annandale,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-13,Nancy Hall,$50,Annandale,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-04-10,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-10,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-20,Pam McCoach,$50,Falls Church,VA,individual,n/a,retired realtor,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-20,Stephen and Martha Kophazi,$100,Annandale,VA,individual,CSV,pharmacist,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-22,Daniel Dellapenta,$100,Springfield,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-06-02,Chuck and Jane Roper,$100,Annandale,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-06-02,John Fee,$100,Fairfax,VA,individual,U.S.Tax Court,attorney,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-27,Penelope Earley,$200,Annandale,VA,individual,George Mason University,Professor,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-06-05,Marie Ann Leyko,$100,Vienna,VA,individual,self,scientist,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-19,Sue Hoffman,$200,Alexandria,VA,individual,N/A,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-14,Kathleen and Terry Powers,$100,Springfield,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-27,Nancy Scott,$50,Fairfax,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-22,Martin and Valli Shepherd,$200,Springfield,VA,individual,"Dorreean, LLC",Director of Quality Assurance,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-28,Frank Spielberg,$80,Falls Church,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-13,"Robert J. Surovell, esq",$250,Alexandria,VA,individual,Surovell Markle Isaacs & Levy PLC,attorney,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-04-25,Virginia Forward PAC,"$1,500",Springfield,VA,pac,,political action committee,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-05-14,Janet Garber,$500,Alexandria,VA,individual,n/a,retired,,A,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-05-07,USPS,"$1,440.56",Merrifield,VA,,,,bulk mailing,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-04-01,Act Blue,$1.98,Cambridge,MA,,,,service fee,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-04-13,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-05-11,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-05-18,Act Blue,$50.18,Cambridge,MA,,,,service fee,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-05-25,Act Blue,$11.06,Cambridge,MA,,,,service fee,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-04-21,Truist,$5,Charlotte,NC,,,,service fee,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-05-21,Truist,$5,Charlotte,NC,,,,service fee,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-04-01,Aaron Yohai,$200,Burke,VA,,,,campaign administration,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-05-01,Aaron Yohai,$200,Burke,VA,,,,campaign administration,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+expenditure,2025-06-01,Aaron Yohai,$200,Burke,VA,,,,campaign administration,D,442386,2025-04-01 to 2025-06-05,CC-12-01081,Watts for Delegate
+contribution,2025-06-23,Barbara Lowrey,$100,Alexandria,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-08,Herschel Kanter,$200,Arlington,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-09,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-30,"Anheuser-Busch Companies, Inc.",$500,Atlanta,GA,business,,Beverage Company,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-16,Susan Clark,$61,Annandale,VA,individual,N/A,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-12,David Whalin,$100,Annandale,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-14,Mark Sickles,$150,Alexandria,VA,individual,Virginia House of Delegates,Delegate,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-16,Nancy Griffin,$200,Annandale,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-30,"DoorDash, Inc","$1,000",San Francisco,CA,business,,Information Technology - Internet,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-08,Lindsay Stewart,$80,Annandale,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-13,Linda and Lynn Daft,$200,Annandale,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-14,Marlyn Bolen and Beverly Clement,$100,Annandale,VA,individual,N/A,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-30,HCA for Good Government PAC,"$1,000",Richmond,VA,pac,,Hospitals,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-17,VA Education Association,$250,Richmond,VA,business,,teachers,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-30,VA Certified Public Accountants PAC,"$1,000",Glen Allen,VA,pac,,CPA's,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-09,Barbara and Gary Allen,$200,Annandale,VA,individual,n/a,retired teacher,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-23,Robert and Vivian Miller,$200,Alexandria,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-16,Roy and Louann Meisinger,$150,Annandale,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-30,Old Dominion Highway Contractors PAC,$500,Chantilly,VA,pac,,Highway Contractors,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-23,Molly and Bill Lynch,"$2,500",Mason Neck,VA,individual,N/A,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-30,Transurban (USA) Inc.,$500,Alexandria,VA,business,,infrastructure & development,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-12,Bill and Sue Chandler,$100,Annandale,VA,individual,MCBI,Govt Relations-Conservation,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-14,Nancy Hall,$40,Annandale,VA,individual,n/a,retired,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-06-08,Terilee and Jim Edwards-Hewitt,$50,Alexandria,VA,individual,Montgomery College,College Professor,,A,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-10,INFOCUS,"$1,833.97",Chantilly,VA,,,,Printing and mail prep,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-06,Act Blue,$4.74,Cambridge,MA,,,,service fee,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-08,Act Blue,$8.89,Cambridge,MA,,,,service fee,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-15,Act Blue,$31.60,Cambridge,MA,,,,service fee,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-29,Act Blue,$16.20,Cambridge,MA,,,,service fees,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-12,Dollar Tree,$6.63,Fairfax,VA,,,,event supplies,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-13,Fairfax Propane,$35,Fairfax,VA,,,,event supplies,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-21,Truist,$5,Charlotte,NC,,,,service fee,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-30,RCN,$124.56,Newark,NJ,,,,20% of 2-yr email provider,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-30,USPS - North Springfield Branch,$93.60,Springfield,VA,,,,20% of 2-yr PO Box rental,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-30,Fairfax County Democratic Committee,"$1,000",Fairfax,VA,,,,campaign field,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-11,Amazon (on line),$34.97,Seattle,WA,,,,event supplies,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-30,Ricardo Alfaro,$8.86,Alexandria,VA,,,,20% of domaine renewal,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-14,Brooke Rental Center,$77.48,Vienna,VA,,,,event supplies,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-13,Walmart,$74.19,Vienna,VA,,,,event food,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-13,Costco,$348.15,Fairfax,VA,,,,event food,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-14,Giant,$126.43,Springfield,VA,,,,party food,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-30,MailChimp,$78.40,Atlanta,GA,,,,20% of email distribution fees,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+expenditure,2025-06-30,Virginia Department of Elections,$96.60,Richmond,VA,,,,20% of voter updates,D,448047,2025-06-06 to 2025-06-30,CC-12-01081,Watts for Delegate
+contribution,2025-08-29,Capital One Financial,"$1,500",Richmond,VA,business,,Financial Services,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-07-07,VA Beer Wholesalers Assoc PAC,"$2,500",Richmond,VA,pac,,Beer Distributors,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-28,VA Realtors Association PAC,"$1,000",Glen Allen,VA,pac,,Association of Realtors,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-29,VA Wine Wholesalers PAC,"$1,000",Richmond,VA,pac,,Wine Distributors,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-07,Fairfax County Democratic Committee,$250,Fairfax,VA,party,,Political Party Committee,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-07-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-08,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-07,Karen Swindells,$200,Annandale,VA,individual,n/a,retired,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-25,Amazon.com Services Inc,"$2,000",Seattle,WA,business,,web services,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-07-24,VISA,"$2,000",Austin,TX,business,,Credit Card Companies,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-27,AFSCME-PAC,"$2,000",Washington,DC,pac,,government employees PAC,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-29,Newport News Shipbuilding,$500,Newport News,VA,business,,ship builiding,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-07,Democratic Party of Virginia,$250,Richmond,VA,party,,State Democratic Party,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-07,Humane World Action Fund of Virginia,$250,Washington,DC,business,,animal welfare,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-20,David Whalin,$100,Annandale,VA,individual,n/a,retired,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-29,"Obvio, Inc",$500,Santa Clara,CA,business,,traffic technology,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-08-30,James Walkinshaw for Braddock Supervisor,"$2,000","Springfield, VA",VA,business,,campaign committee,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-07-17,Marie Ridder,"$1,000",McLean,VA,individual,N/A,Retired,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-07-24,Seven Hills Strategy Group LLC,$750,Richmond,VA,business,,lobbyist,,A,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-07-19,House Democratic Caucus,"$50,000",Richmond,VA,,,,candidate support,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-07-13,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-08-10,Act Blue,$0.99,Cambridge,MA,,,,service fee,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-08-17,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-08-24,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-07-21,Truist,$5,Charlotte,NC,,,,sevice charge,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-08-21,Truist,$5,Charlotte,NC,,,,service fee,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-08-15,Staples,$132.80,Fairfax,VA,,,,office supplies - toner,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-08-25,Adobe,$47.98,San Jose,CA,,,,20% of Adobe annual fee,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-07-01,Aaron Yohai,$200,Burke,VA,,,,campaign services,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+expenditure,2025-08-01,Aaron Yohai,$200,Burke,VA,,,,campaign services,D,459684,2025-07-01 to 2025-08-31,CC-12-01081,Watts for Delegate
+contribution,2025-09-18,VA Petroleum Convenience and Grocery Assoc,$500,Richmond,VA,business,,Petroleum Distribution,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-18,VA Automobile Dealers Association PAC,"$5,000",Richmond,VA,pac,,new auto dealers,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-29,CSX Transportation,$250,Richmond,VA,business,,Railroad,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-18,VA Trial Lawyers Association PAC,"$3,000",Richmond,VA,pac,,Trial Lawyers PAC,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-29,VA Cable Telecommunications Assn,"$1,000",Richmond,VA,pac,,Cable TV Industry PAC,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-18,Williams Mullen Government Relations,$500,Richmond,VA,business,,Law Firm,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-22,"Hunton Andrews Kurth, LLP","$1,000",Richmond,VA,business,,Law firm,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-22,Transurban (USA) Inc.,$500,Alexandria,VA,business,,infrastructure & development,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-30,"RAI - Reynolds American, Inc","$1,000",Winston-Salem,NC,business,,Tobacco products,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-29,Maritime Issues Council,$500,Norfolk,VA,business,,maritime industries advocacy,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-14,George Kralovec,$25,Annandale,VA,individual,n/a,retired,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-30,CWA COPE VA,"$2,000",Lanham,MD,pac,,Labor Union PAC,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-22,Smithfield Foods,"$1,000",Smithfield,VA,business,,food industry,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-18,VA Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,agriculture,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-02,Tracy Baynard,$150,Alexandria,VA,individual,McGuireWoods Consulting LLC,Lobbyist,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-30,Sierra Club Virginia Chapter,$500,Richmond,VA,business,,environment,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-19,Textron,$750,Washington,DC,business,,Defense Contractor,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-18,Freedom Virginia,$500,Norfolk,VA,pac,,Miscellaneous Single-Issue PAC,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-18,John Koza,$500,Los Altos,CA,individual,n/a,retired,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-09-14,Kathrine Hoffmann,$110,Falls Church,VA,individual,n/a,retired,,A,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-21,House Democratic Caucus,"$27,500",Richmond,VA,,,,candidate support,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-12,USPS,$172.91,Merrifield,VA,,,,bulk mail non-GA newsletters,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-12,INFOCUS,$293.08,Chantilly,VA,,,,printing non-GA newsletters,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-15,INFOCUS,$32.97,Chantilly,VA,,,,processing non-GA newsletters,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-01,Act Blue,$0.99,Cambridge,MA,,,,processing fee,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-02,Act Blue,$5.93,Cambridge,MA,,,,processing fee,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-21,Act Blue,$1.98,Cambridge,MA,,,,processing fee,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-28,Act Blue,$4.35,Cambridge,MA,,,,processing fee,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-21,Truist,$5,Charlotte,NC,,,,service fee,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-01,Aaron Yohai,$200,Burke,VA,,,,campaign field,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-06,Costco,$31.97,Fairfax,VA,,,,printer paper,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+expenditure,2025-09-18,ASAP Printing and Graphics,"$2,962.70",Alexandria,VA,,,,printing grip cards,D,459770,2025-09-01 to 2025-09-30,CC-12-01081,Watts for Delegate
+contribution,2025-10-17,"Altria Client  Services, Inc.","$2,500",Richmond,VA,business,,Food/Tobacco Corp,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-20,VA Credit Union League,"$2,500",Lynchburg,VA,business,,Credit Unions,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-23,"AT&T Services, Inc.",$750,Richmond,VA,business,,Communications Corporation,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-23,VTCA - PAC,"$1,000",Richmond,VA,pac,,Transportation Construction Industry PAC,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-17,VA Beverage Association,"$1,000",Richmond,VA,pac,,soft drink PAC,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-17,VA Dental Association PAC,"$1,000",Henrico,VA,pac,,Dentists Association,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-03,SEIU Committee on Political Education,"$1,000",Washington,DC,business,,Labor - Miscellaneous,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-23,"POM of Virginia, LLC","$1,000",Duluth,GA,business,,Gaming - Games of Skill,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-20,Universal Tobacco Corporation,$500,Richmond,VA,business,,Agribusiness/Tobacco,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-20,Swedish Match North America Inc.,"$5,000",Richmond,VA,business,,Smokeless Tobacco,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-20,Employees of RTX Corporation PAC,$500,Arlington,VA,pac,,Defense Contractor,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-23,Enterprise Holdings,$500,St. Louis,MO,business,,Auto Rental,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-23,Norfolk Southern Corporation,$500,Richmond,VA,business,,Railroad,,A,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+expenditure,2025-10-05,Act Blue,$39.50,Cambridge,MA,,,,processing fee,D,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+expenditure,2025-10-16,Annandale Chamber of Commerce,$250,Annandale,VA,,,,parade fee,D,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+expenditure,2025-10-01,Aaron Yohai,$200,Burke,VA,,,,campaign field,D,464971,2025-10-01 to 2025-10-23,CC-12-01081,Watts for Delegate
+contribution,2025-10-28,Verizon Communications,"$2,500",Richmond,VA,business,,telephones,,A,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+contribution,2025-10-30,Washington Gas PAC,$500,Washington,DC,pac,,Utility PAC,,A,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+contribution,2025-11-07,McGuireWoods PAC,$500,Richmond,VA,pac,,Law Firm PAC,,A,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+contribution,2025-11-07,Micron Technology,"$2,500",Manassas,VA,business,,Information Technology,,A,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+contribution,2025-11-07,Mid-Atlantic Laborers Political Education Fund,"$3,500",Reston,VA,business,,Labor - Miscellaneous,,A,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+contribution,2025-10-28,"Publix Super Markets, Inc",$500,Lakeland,FL,business,,Retail - Grocery Stores,,A,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+contribution,2025-10-26,Michael Weinreb,$250,Annandale,VA,individual,n/a,retired,,A,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+contribution,2025-10-30,Sentara Health Administration,$500,Virginia Beach,VA,business,,Hospitals/Health Systems,,A,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+expenditure,2025-11-19,Act Blue,$14.71,Cambridge,MA,,,,service fee,D,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+expenditure,2025-10-25,Truist,$5,Charlotte,NC,,,,service fee,D,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+expenditure,2025-11-25,Truist,$5,Charlotte,NC,,,,service fee,D,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+expenditure,2025-11-01,Aaron Yohai,$200,Burke,VA,,,,campaign field,D,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+expenditure,2025-11-22,Friends of Laura Jane Cohen,$117.65,Burke,VA,,,,event reimbursement,D,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+expenditure,2025-11-27,Kathy Tran for Delegate,$75,"Springfield, VA",VA,,,,shared ad reimbursement,D,472708,2025-10-24 to 2025-11-27,CC-12-01081,Watts for Delegate
+contribution,2025-12-26,VA Commissioner of Revenue PAC,$250,Newport News,VA,pac,,Constitutional Officers Representation,,A,476165,2025-11-28 to 2025-12-31,CC-12-01081,Watts for Delegate
+contribution,2025-12-30,Metro Virginia PAC,$500,Washington,DC,pac,,Apartment/Office Buildings,,A,476165,2025-11-28 to 2025-12-31,CC-12-01081,Watts for Delegate
+contribution,2025-12-18,Wal*PAC,"$1,000",Bentonville,AZ,pac,,retail corporate PAC,,A,476165,2025-11-28 to 2025-12-31,CC-12-01081,Watts for Delegate
+contribution,2025-12-11,Virginia Asphalt Assoc Inc,"$1,000",Richmond,VA,business,,Cement/Concrete/Asphalt industry,,A,476165,2025-11-28 to 2025-12-31,CC-12-01081,Watts for Delegate
+contribution,2025-12-18,Vantage Data Centers Management Co,"$1,000",Santa Clara,CA,business,,Data Centers,,A,476165,2025-11-28 to 2025-12-31,CC-12-01081,Watts for Delegate
+contribution,2025-12-06,UPSPAC,"$1,000",Washington,DC,pac,,package delivery,,A,476165,2025-11-28 to 2025-12-31,CC-12-01081,Watts for Delegate
+expenditure,2025-12-23,Truist,$5,Charlotte,NC,,,,service fee,D,476165,2025-11-28 to 2025-12-31,CC-12-01081,Watts for Delegate
+contribution,2026-01-12,Linda and Lynn Daft,$200,Annandale,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-04,Linda and Lynn Daft,$200,Annandale,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-08,Valerie and Bob Sutter,$200,Annandale,VA,individual,GMU,Bob: Professor,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-01,Jim and Judy McConville,$200,Annandale,VA,individual,self,attorney,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-13,Marlyn Bolen and Beverly Clement,$150,Annandale,VA,individual,N/A,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-01,VA Sheriffs' Association,$500,Richmond,VA,pac,,Sheriffs' PAC,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-01,Tom and Nancy Appler,$200,Vienna,VA,individual,Winston & Leer,attorney,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-16,"Altria Client  Services, Inc.","$2,500",Richmond,VA,business,,Food/Tobacco Corp,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-24,HCA for Good Government PAC,"$1,000",Richmond,VA,pac,,Hospitals,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-13,Barbara and Gary Allen,$200,Annandale,VA,individual,n/a,retired teacher,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-15,Robert and Vivian Miller,$200,Alexandria,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-22,VA BankPAC,"$1,500",Glen Allen,VA,pac,,Bankers PAC,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-15,VA Trial Lawyers Association PAC,"$5,000",Richmond,VA,pac,,Trial Lawyers PAC,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-25,Carolyn Johnson,$300,Annandale,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-13,Roy and Louann Meisinger,$150,Annandale,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-29,Old Dominion Highway Contractors PAC,$500,Chantilly,VA,pac,,Highway Contractors,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-16,Sue Langley,$150,Vienna,VA,individual,self,"Owner, VA Trading LLC",,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-11,Bill and Sue Chandler,$120,Annandale,VA,individual,MCBI,Govt Relations-Conservation,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-13,Terilee and Jim Edwards-Hewitt,$40,Alexandria,VA,individual,Montgomery College,College Professor,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-01-01,George Kralovec,$250,Annandale,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-05-26,George Kralovec,$200,Annandale,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-15,"Anheuser-Busch Companies, Inc.",$500,Atlanta,GA,business,,Beverage Company,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-30,Karen Swindells,$300,Annandale,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-02,Chuck and Jane Roper,$200,Annandale,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-01,Penelope Earley,$200,Annandale,VA,individual,George Mason University,Professor,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-13,George Cody,$200,Alexandria,VA,individual,N/A,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-09,Sylvia Patton,$200,Fairfax Station,VA,individual,self,florist,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-01,"Robert J. Surovell, esq",$250,Alexandria,VA,individual,Surovell Markle Isaacs & Levy PLC,attorney,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-13,Loren Hershey,$500,Oakton,VA,individual,self,attorney,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-06-15,Seven Hills Strategy Group LLC,$750,Richmond,VA,business,,lobbyist,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-01-06,Everytown for Gun Safety Action Fund,"$1,000",New York,NY,business,,Single Issue - Gun Control,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-01-13,"Strobel Investments, LP","$1,500",Branenton,FL,business,,Financial Services,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-01-13,Robin Earl Delmer,"$1,500",Atlanta,GA,individual,Monarch Strategic Ventures,investor,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+contribution,2026-05-26,Henry R. Morin,$200,Annandale,VA,individual,n/a,retired,,A,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-03-19,House Democratic Caucus,"$30,000",Richmond,VA,,,,dues,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-05-15,USPS,"$1,501.95",Merrifield,VA,,,,bulk mail,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-04-24,INFOCUS,"$1,538.78",Chantilly,VA,,,,printing and mail services,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-06-03,INFOCUS,"$2,148.94",Chantilly,VA,,,,printing and mail services,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-01-04,Act Blue,$9.88,Cambridge,MA,,,,service fee,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-01-11,Act Blue,$3.95,Cambridge,MA,,,,service fee,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-01-18,Act Blue,$9.88,Cambridge,MA,,,,service fee,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-05-25,Act Blue,$29.23,Cambridge,MA,,,,service fee,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-05-31,Act Blue,$15.01,Cambridge,MA,,,,service fee,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-06-07,Act Blue,$17.38,Cambridge,MA,,,,service fee,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-06-14,Act Blue,$52.95,Cambridge,MA,,,,service fee,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-06-11,Fairfax Propane,$38,Fairfax,VA,,,,event supplies,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-01-21,Truist,$5,Charlotte,NC,,,,service charge,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-02-23,Truist,$5,Charlotte,NC,,,,service charge,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-03-23,Truist,$5,Charlotte,NC,,,,service charge,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-04-21,Truist,$5,Charlotte,NC,,,,service charge,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-05-21,Truist,$5,Charlotte,NC,,,,service charge,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-06-22,Truist,$5,Charlotte,NC,,,,service charge,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-06-11,Walmart,$59.80,Fairfax,VA,,,,event food and supplies,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-06-11,Costco,$376.47,Fairfax,VA,,,,event food,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-06-15,Brooke Rental Center,$96.56,Vienna,VA,,,,event chair rental,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate
+expenditure,2026-06-12,Giant,$182.07,Springfield,VA,,,,event food,D,494583,2026-01-01 to 2026-06-30,CC-12-01081,Watts for Delegate

@@ -3,6 +3,30 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$24,784.70",,VA,,"From official Schedule H, November 2025 election cycle",H,497012,2026-07-15
 summary,2026-06-30,Raised this cycle,"$17,296.13",,,,Total receipts this election cycle (Schedule H),H,497012,2026-07-15
 summary,2026-06-30,Spent this cycle,"$22,638.48",,,,Total disbursements this election cycle (Schedule H),H,497012,2026-07-15
+contribution,2024-06-20,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,A,411008,2024-07-24
+contribution,2024-03-14,UFCW Local 400 ABC PAC,$250,Landover,MD,pac,,A,411008,2024-07-24
+contribution,2024-04-18,VA Operators for Skill,"$1,000",Richmond,VA,business,,A,411008,2024-07-24
+contribution,2024-05-13,VEA FUND,$250,Richmond,VA,pac,,A,411008,2024-07-24
+contribution,2024-03-14,Virginia AFL-CIO,"$1,000",Richmond,VA,business,,A,411008,2024-07-24
+contribution,2024-03-14,Virginia Automobile & Truck Dealers PAC,$500,Richmond,VA,pac,,A,411008,2024-07-24
+contribution,2024-04-22,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,A,411008,2024-07-24
+contribution,2024-04-22,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,411008,2024-07-24
+contribution,2024-01-10,Virginia Future PAC,$500,Richmond,VA,pac,,A,411008,2024-07-24
+contribution,2024-01-10,Virginia League of Conservation Voters PAC,$125,Richmond,VA,pac,,A,411008,2024-07-24
+contribution,2024-06-30,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,411008,2024-07-24
+contribution,2024-06-11,Virginia Trial Lawyers,"$3,000",Richmond,VA,business,,A,411008,2024-07-24
+contribution,2024-01-09,Accel Entertainment Gaming LLC,"$1,000",Bolingbrook,IL,business,,A,411008,2024-07-24
+contribution,2024-06-14,Altria Client Services LLC,$500,Richmond,VA,business,,A,411008,2024-07-24
+contribution,2024-06-28,Anheuser Busch Companies,$250,Washington,DC,business,,A,411008,2024-07-24
+contribution,2024-05-03,Capital Results LLC,$250,Richmond,VA,business,,A,411008,2024-07-24
+contribution,2024-05-13,Clean Virginia,"$5,000",Charlottesville,VA,business,,A,411008,2024-07-24
+contribution,2024-03-14,Herschel Kanter,$50,Arlington,VA,individual,,A,411008,2024-07-24
+contribution,2024-03-18,Herschel Kanter,$25,Arlington,VA,individual,,A,411008,2024-07-24
+contribution,2024-04-18,Herschel Kanter,$25,Arlington,VA,individual,,A,411008,2024-07-24
+contribution,2024-05-18,Herschel Kanter,$50,Arlington,VA,individual,,A,411008,2024-07-24
+contribution,2024-06-18,Herschel Kanter,$50,Arlington,VA,individual,,A,411008,2024-07-24
+contribution,2024-01-04,McGuire Woods,$250,Richmond,VA,business,,A,411008,2024-07-24
+contribution,2024-01-09,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,411008,2024-07-24
 contribution,2024-11-19,ACE Development Company,$500,Louisville,CO,business,,A,474617,2026-01-04
 contribution,2024-12-27,Allen Allen Allen & Allen,"$2,000",Richmond,VA,business,,A,474617,2026-01-04
 contribution,2024-09-23,Amazon.com Services LLC,$500,Seattle,WA,business,,A,474617,2026-01-04
@@ -318,6 +342,7 @@ contribution,2026-03-18,Mental Health PAC,"$1,000",Washington,DC,pac,,A,497012,2
 contribution,2026-06-02,VEA FUND,$500,Richmond,VA,pac,,A,497012,2026-07-15
 contribution,2026-06-19,Virginia CRNAs Who Care About Healthcare PAC,$500,Forest Hill,MD,pac,,A,497012,2026-07-15
 contribution,2026-06-12,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,497012,2026-07-15
+in_kind,2024-04-16,Gentry Locke,$232.48,Richmond,VA,business,Richmond Fundraiser,B,411008,2024-07-24
 in_kind,2024-09-16,"Capital One Services, LLC",$500,Reston,VA,business,Lobbyist Fundraiser,B,474617,2026-01-04
 in_kind,2024-09-04,Clean Virginia,$16.84,Charlottesville,VA,business,Meal,B,474617,2026-01-04
 in_kind,2024-12-17,Virginia Beer Wholesalers Association,$301.28,Richmond,VA,business,Fundraiser Luncheon,B,474617,2026-01-04
@@ -331,6 +356,7 @@ in_kind,2025-09-20,Christopher & Emily Kimm,$857.06,Reston,VA,individual,Groceri
 in_kind,2025-09-21,Christopher & Emily Kimm,"$2,625",Reston,VA,individual,Catering Services,B,474635,2026-01-04
 in_kind,2025-10-10,Democratic Party of Virginia,"$9,608.31",Richmond,VA,party,Mail Production/Postage,B,474636,2026-01-04
 in_kind,2025-10-10,Democratic Party of Virginia,"$10,934.31",Richmond,VA,party,Mail Production/Postage,B,474636,2026-01-04
+other_receipt,2024-04-26,Amazon,$6.88,Seattle,WA,business,Amazon Refund,C,411008,2024-07-24
 other_receipt,2025-05-02,County of Loudoun,$352.80,Leesburg,VA,business,Refund of Primary Filing Fee,C,474631,2026-01-04
 other_receipt,2025-07-29,Ghazala Hashmi for Virginia,$50,North Chesterfield,VA,business,Refund of incorrect charge,C,474633,2026-01-04
 other_receipt,2025-07-29,Ghazala Hashmi for Virginia,$500,North Chesterfield,VA,business,Refund of incorrect charge,C,474633,2026-01-04
@@ -345,6 +371,95 @@ other_receipt,2026-04-20,AirBnB,$8.46,San Francisco,CA,business,Refund for Cance
 other_receipt,2026-05-11,AirBnB,$542.44,San Francisco,CA,business,Refund for Cancelled Work Travel,C,497012,2026-07-15
 other_receipt,2026-05-11,AirBnB,$686.28,San Francisco,CA,business,Refund for Cancelled Work Travel,C,497012,2026-07-15
 other_receipt,2026-05-29,Hilton,$395.32,Virginia Beach,VA,business,Refund for Cancelled Work Travel,C,497012,2026-07-15
+expenditure,2024-01-02,Google Suite,$19.15,Mountain View,CA,business,Google Suite,D,411008,2024-07-24
+expenditure,2024-01-02,United States Postal Service,$1.10,Sterling,VA,business,mailbox,D,411008,2024-07-24
+expenditure,2024-01-03,NGP VAN,$320,Washington,DC,business,database,D,411008,2024-07-24
+expenditure,2024-01-04,City Parking Inc.,$12,Richmond,VA,business,parking,D,411008,2024-07-24
+expenditure,2024-01-05,GoDaddy,$133.02,Tempe,AZ,business,web domain,D,411008,2024-07-24
+expenditure,2024-01-09,City Parking Inc.,$5,Richmond,VA,business,parking,D,411008,2024-07-24
+expenditure,2024-01-10,Paychex,$286.50,Rochester,NY,business,payroll processing,D,411008,2024-07-24
+expenditure,2024-01-11,Amazon,$18.60,Seattle,WA,business,office supplies,D,411008,2024-07-24
+expenditure,2024-01-14,ActBlue,$0.99,Somerville,MA,business,credit card fee,D,411008,2024-07-24
+expenditure,2024-01-16,Exxon Uppys #23,$46.74,Richmond,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-01-18,Amazon,$45.43,Seattle,WA,business,office supplies,D,411008,2024-07-24
+expenditure,2024-01-18,Merriweathers,$828.21,Richmond,VA,business,"volunteer, staff, and guest reception",D,411008,2024-07-24
+expenditure,2024-01-22,Michaels,"$1,090.42",Alexandria,VA,business,office supplies,D,411008,2024-07-24
+expenditure,2024-01-22,Michaels,$7.41,Alexandria,VA,business,office supplies,D,411008,2024-07-24
+expenditure,2024-01-24,NGP VAN,$320,Washington,DC,business,database,D,411008,2024-07-24
+expenditure,2024-01-24,United States Postal Service,$17.27,Sterling,VA,business,postage,D,411008,2024-07-24
+expenditure,2024-01-25,Costco Gas,$49.29,Sterling,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-02-02,Dementi,$275.60,Richmond,VA,business,GA Composite,D,411008,2024-07-24
+expenditure,2024-02-02,Google Suite,$18,Mountain View,CA,business,Google Suites,D,411008,2024-07-24
+expenditure,2024-02-05,Uppys #62,$76.93,Thornburg,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-02-06,Costco Online,$42.39,Issaquah,WA,business,office supplies,D,411008,2024-07-24
+expenditure,2024-02-06,Costco Online,$68.89,Issaquah,WA,business,office supplies,D,411008,2024-07-24
+expenditure,2024-02-12,Costco Gas,$40.05,Sterling,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-02-14,Whole Foods,$22.23,Richmond,VA,business,food for office staff,D,411008,2024-07-24
+expenditure,2024-02-20,Sheetz #666,$53.79,Sterling,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-02-26,Sheetz #666,$52.03,Sterling,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-02-28,Democratic Asian Americans of Virginia,$15,Falls Church,VA,business,Dues,D,411008,2024-07-24
+expenditure,2024-03-04,Costco Gas,$58.72,Sterling,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-03-04,Google Suite,$18,Mountain View,CA,business,google suites,D,411008,2024-07-24
+expenditure,2024-03-04,NGP VAN,$320,Washington,DC,business,database,D,411008,2024-07-24
+expenditure,2024-03-07,83223- 14TH AND Car,$5,Richmond,VA,business,parking,D,411008,2024-07-24
+expenditure,2024-03-12,Costco Gas,$52.01,Sterling,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-03-16,Kate McDaid,$150,Fredericksburg,VA,individual,Session Aide Parking,D,411008,2024-07-24
+expenditure,2024-03-17,ActBlue,$2.18,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-03-18,Extra Space Storage,$218.19,Sterling,VA,business,storage,D,411008,2024-07-24
+expenditure,2024-03-18,Extra Space Storage,$288,Sterling,VA,business,storage,D,411008,2024-07-24
+expenditure,2024-03-22,United States Postal Service,$40.80,Sterling,VA,business,postage,D,411008,2024-07-24
+expenditure,2024-03-22,United States Postal Service,$13.60,Sterling,VA,business,postage,D,411008,2024-07-24
+expenditure,2024-03-24,ActBlue,$2.38,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-03-25,NGP VAN,$320,Washington,DC,business,database,D,411008,2024-07-24
+expenditure,2024-03-27,VA Department of Taxation,$3.95,Sterling,VA,business,fee,D,411008,2024-07-24
+expenditure,2024-03-27,VA Department of Taxation,$10.08,Sterling,VA,business,fee,D,411008,2024-07-24
+expenditure,2024-03-28,Loudoun County Democratic Committee,$200,Leesburg,VA,business,event fee,D,411008,2024-07-24
+expenditure,2024-03-31,ActBlue,$0.99,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-04-02,Google Suite,$18.57,Mountain View,CA,business,google suites,D,411008,2024-07-24
+expenditure,2024-04-02,IAD Dulles Hourly,$7,Sterling,VA,business,parking,D,411008,2024-07-24
+expenditure,2024-04-06,Atoosa Reaser,$35,Sterling,VA,individual,parking,D,411008,2024-07-24
+expenditure,2024-04-08,NGP VAN,$320,Washington,DC,business,database,D,411008,2024-07-24
+expenditure,2024-04-10,Office Depot,$5.47,Sterling,VA,business,in-house printing,D,411008,2024-07-24
+expenditure,2024-04-10,Office Depot,$25.95,Sterling,VA,business,office supplies,D,411008,2024-07-24
+expenditure,2024-04-14,ActBlue,$0.20,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-04-15,Amazon,$13.76,Seattle,WA,business,office supplies,D,411008,2024-07-24
+expenditure,2024-04-16,GoDaddy,$22.17,Tempe,AZ,business,web domain,D,411008,2024-07-24
+expenditure,2024-04-19,Courtyard Richmond,$173.26,Richmond,VA,business,accommodations,D,411008,2024-07-24
+expenditure,2024-04-19,ParkingCor VA,$18,Richmond,VA,business,parking,D,411008,2024-07-24
+expenditure,2024-04-20,EZ Pass Virginia,$116.95,Clifton Forge,VA,business,Tolls for professional events/meetings (Jan-April),D,411008,2024-07-24
+expenditure,2024-04-21,ActBlue,$2.18,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-04-25,Amazon,$28.61,Seattle,WA,business,office supplies,D,411008,2024-07-24
+expenditure,2024-04-26,Costco Gas,$78.73,Sterling,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-04-28,ActBlue,$1.39,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-04-30,EB Womens Summit,$160.83,Falls Church,VA,business,event fee,D,411008,2024-07-24
+expenditure,2024-05-02,Google Suite,$21.60,Mountain View,CA,business,google suites,D,411008,2024-07-24
+expenditure,2024-05-03,NGP VAN,$320,Washington,DC,business,database,D,411008,2024-07-24
+expenditure,2024-05-04,AirBnB,$217.74,San Francisco,CA,business,accommodations,D,411008,2024-07-24
+expenditure,2024-05-05,SBDigital,$500,Washington,DC,business,website,D,411008,2024-07-24
+expenditure,2024-05-12,ActBlue,$0.20,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-05-16,GoDaddy,$44.34,Tempe,AZ,business,website,D,411008,2024-07-24
+expenditure,2024-05-19,ActBlue,$2.97,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-05-24,Google YouTube,$57.99,San Bruno,CA,business,subscription for news,D,411008,2024-07-24
+expenditure,2024-05-26,ActBlue,$2.38,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-05-29,Jennifer Boysko for Congress,$500,Sterling,VA,candidate,contribution,D,411008,2024-07-24
+expenditure,2024-06-02,ActBlue,$0.99,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-06-03,Google Suite,$21.60,Mountain View,CA,business,Google Suites,D,411008,2024-07-24
+expenditure,2024-06-03,NGP VAN,$320,Washington,DC,business,database,D,411008,2024-07-24
+expenditure,2024-06-10,Costco Gas,$29.45,Sterling,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-06-10,Democratic Asian Americans of Virginia,$250,Falls Church,VA,business,event fee,D,411008,2024-07-24
+expenditure,2024-06-13,NAACP Loudoun,$156.57,Leesburg,VA,business,event ticket,D,411008,2024-07-24
+expenditure,2024-06-13,Ridgetop Coffee,$12.83,Sterling,VA,business,meeting refreshments,D,411008,2024-07-24
+expenditure,2024-06-13,VA Toll,$5.60,Richmond,VA,business,toll payment,D,411008,2024-07-24
+expenditure,2024-06-16,ActBlue,$0.20,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-06-18,ActBlue,$1.98,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-06-20,Marathon Petrolum 20,$31.90,Craigsville,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-06-21,Truist,$7,Sterling,VA,business,Bank Fee,D,411008,2024-07-24
+expenditure,2024-06-23,ActBlue,$0.99,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-06-26,Costco Gas,$75.03,Sterling,VA,business,gas,D,411008,2024-07-24
+expenditure,2024-06-27,"Colonial Parking, Inc.",$15.95,Arlington,VA,business,parking,D,411008,2024-07-24
+expenditure,2024-06-30,ActBlue,$1.78,Somerville,MA,business,credit card processing,D,411008,2024-07-24
+expenditure,2024-06-30,EZ Pass Virginia,$75.03,Clifton Forge,VA,business,Tolls for Professional Events/Meetings (May-June),D,411008,2024-07-24
+expenditure,2024-06-30,Caleigh Lynch,$450,Alexandria,VA,individual,stipend for campaign work,D,411008,2024-07-24
 expenditure,2024-07-02,Google Suite,$18.72,Mountain View,CA,business,Google suite,D,474617,2026-01-04
 expenditure,2024-07-03,NGP VAN,$320,Washington,DC,business,Database,D,474617,2026-01-04
 expenditure,2024-07-03,Atoosa Reaser,$133.38,Sterling,VA,individual,Reimbursement - Travel Accommodations,D,474617,2026-01-04

@@ -3,6 +3,138 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$193,692.48",,VA,,"From official Schedule H, November 2027 election cycle",H,494947,2026-07-13
 summary,2026-06-30,Raised this cycle,"$289,111.41",,,,Total receipts this election cycle (Schedule H),H,494947,2026-07-13
 summary,2026-06-30,Spent this cycle,"$103,182.54",,,,Total disbursements this election cycle (Schedule H),H,494947,2026-07-13
+contribution,2024-01-09,WJZP Management,"$1,000",Edinburg,VA,business,,A,411458,2024-08-06
+contribution,2024-01-09,Virginia Operators For Skill,"$5,000",Richmond,VA,business,,A,411458,2024-08-06
+contribution,2024-05-02,Virginia Operators For Skill,"$5,000",Richmond,VA,business,,A,411458,2024-08-06
+contribution,2024-01-02,Virginia Poultry Federation PAC,$500,Harrisonburg,VA,pac,,A,411458,2024-08-06
+contribution,2024-01-09,Community Owned Power PAC,$500,Glen Allen,VA,pac,,A,411458,2024-08-06
+contribution,2024-04-05,"Altria Client Services, Inc","$1,000",Richmond,VA,pac,,A,411458,2024-08-06
+contribution,2024-01-09,Building a Remarkable Virginia PAC,"$2,000",Reston,VA,pac,,A,411458,2024-08-06
+contribution,2024-01-09,"Accel Entertainment Gaming, LLC","$1,000",Bolingbrook,IL,business,,A,411458,2024-08-06
+contribution,2024-03-20,Virginia Loggers Association,$250,Goochland,VA,pac,,A,411458,2024-08-06
+contribution,2024-04-05,Lindsay Reames,$500,Amelia Court House,VA,individual,,A,411458,2024-08-06
+contribution,2024-09-27,Christina Price,$250,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-11,Marian Logan,"$1,000",Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-30,WJZP Management,"$1,000",Edinburg,VA,business,,A,445303,2025-07-08
+contribution,2024-10-06,Frederick Hepner,$250,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-10,Jessica French,$200,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-11,Theodore Rhea,$250,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-09,William D French Jr,$250,Charlottesville,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-01,H Paige Manuel,"$1,000",Winchester,VA,individual,,A,445303,2025-07-08
+contribution,2024-08-05,Virginia Beverage Association PAC,$750,Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-07-16,Virginia Sheriff's Assoction PAC,$250,Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-19,Virginia Poultry Federation PAC,$500,Harrisonburg,VA,pac,,A,445303,2025-07-08
+contribution,2024-07-18,Dominion Energy Inc Pac Virginia,"$2,500",Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-27,Dominion Energy Inc Pac Virginia,"$10,000",Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-25,Community Owned Power PAC,$500,Glen Allen,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-03,Virginia State Dairymens Assoc,$250,Bridgewater,VA,business,,A,445303,2025-07-08
+contribution,2024-10-03,Heather Loughry,$200,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-08-16,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,445303,2025-07-08
+contribution,2024-10-08,Lee Hepner,$200,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-27,Mark Dotson,$104.10,New Market,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-27,Mark Dotson,$104.10,New Market,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-09,Mark Dotson,$104.10,New Market,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-09,Wayne Sager,$520.21,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-06,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,445303,2025-07-08
+contribution,2024-10-12,Ethel Showman,$200,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-10,Denise Doyle,$500,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-20,Ronald Bruno,$200,Basye,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-01,Marie Rundquist,$104.10,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-01,Marie Rundquist,$104.10,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-12,Marsha Bowman,$200,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-23,Blake Phillips,$104.10,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-23,Blake Phillips,$104.10,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-08-19,Virginia Bankers Assoc State PAC,"$1,500",Glen Allen,VA,pac,,A,445303,2025-07-08
+contribution,2024-10-11,Virginia Bankers Assoc State PAC,"$1,000",Glen Allen,VA,pac,,A,445303,2025-07-08
+contribution,2024-08-20,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-12-09,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-08-15,Virginia Hospital & Healthcare Assoc PAC,$500,Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-11,Realtors Political Action Committee of Virginia,"$2,000",Glen Allen,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-09,Virginia Beer Wholesalers Association PAC,"$2,500",Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-11-11,Virginia Beer Wholesalers Association PAC,$442.46,Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-08-20,Virginia State Police Association,$250,Richmond,VA,business,,A,445303,2025-07-08
+contribution,2024-08-15,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-10-22,Pharmaceutical Research and Manufacturers of America (PhRMA),$500,Washington,DC,pac,,A,445303,2025-07-08
+contribution,2024-12-09,McGuireWoods Consulting LLP (Public Affairs Solutions),"$1,000",Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-12-27,Commonwealth Sportsmen's Alliance PAC,"$1,000",Powhatan,VA,pac,,A,445303,2025-07-08
+contribution,2024-07-23,Waste Management Inc,"$1,000",Washington,DC,business,,A,445303,2025-07-08
+contribution,2024-08-05,HCA for Good Government,$500,Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-08-07,Virginia Society of the American Institute of Architects (AIA),"$1,000",Chesterfield,VA,pac,,A,445303,2025-07-08
+contribution,2024-08-22,McKesson Corporation Employees Political Fund,$250,Washington,DC,pac,,A,445303,2025-07-08
+contribution,2024-08-19,Virginia Manufactured and Modular Housing Association,$500,Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-08-23,Daniel Best,$520.51,Stephens City,VA,individual,,A,445303,2025-07-08
+contribution,2024-08-30,Omega Protein,"$1,000",Calais,ME,business,,A,445303,2025-07-08
+contribution,2024-09-16,James Poplar,$200,Quicksburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-16,Michael Perry,"$1,041.02",Winchester,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-18,American Electric Power Company Virginia Committee for Responsible Government,$500,Roanoke,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-19,Virginia Eagle Distributing Company Inc,"$1,000",Verona,VA,business,,A,445303,2025-07-08
+contribution,2024-09-24,Amazon PAC,"$1,000",Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-24,Patti Menders,$100,Broadlands,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-25,Engineering Companies of Virginia,"$1,000",Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-27,ARDA-Resort Owners Coalition PAC,$500,Washington,DC,pac,,A,445303,2025-07-08
+contribution,2024-10-03,Randy Kibler,"$1,041.02",Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-07,joyce Loy,$104.10,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-07,Tommy Miller,$104.10,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-07,Brenda Miller,$104.10,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-09,Linda Smith,$200,New Market,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-10,Virginia Harness Horse Association,$200,Saluda,VA,business,,A,445303,2025-07-08
+contribution,2024-10-10,Restorative Getaways LLC,$200,Strasburg,VA,business,,A,445303,2025-07-08
+contribution,2024-10-10,Getaway HCF LLC,$200,Strasburg,VA,business,,A,445303,2025-07-08
+contribution,2024-10-10,"Guests, Inc",$200,Strasburg,VA,business,,A,445303,2025-07-08
+contribution,2024-10-10,Gateway Hospitality Strasburg LLC,$200,Strasburg,VA,business,,A,445303,2025-07-08
+contribution,2024-10-10,Michael Rooney,$104.10,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-10,Michael Rooney,$104.10,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-11,Joseph Vancleve,$200,Alexandria,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-12,Fabiana French,$200,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-12,Karla Ortts,$200,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-12,Lori Udall,$200,Hume,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-14,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,A,445303,2025-07-08
+contribution,2024-10-22,Premium Distributors of Virginia Inc,"$1,000",Chantilly,VA,business,,A,445303,2025-07-08
+contribution,2024-10-23,Caroline Haydu,$250,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-23,Amy King,"$1,000",Winchester,VA,individual,,A,445303,2025-07-08
+contribution,2024-11-19,Comcast Financial Agency Corp,$500,Philadelphia,PA,business,,A,445303,2025-07-08
+contribution,2024-11-21,Sports Betting Alliance,"$1,000",Lubbock,TX,pac,,A,445303,2025-07-08
+contribution,2024-11-21,Comstock Hospitality Holdings,"$5,000",Reston,VA,business,,A,445303,2025-07-08
+contribution,2024-12-05,Reed Smith,$500,Pittsburgh,PA,business,,A,445303,2025-07-08
+contribution,2024-12-11,Vantage Data Centers Management Company,$500,Santa Clara,CA,business,,A,445303,2025-07-08
+contribution,2024-12-18,Boyd-Pamunkey Casino PAC,"$2,000",Norfolk,VA,pac,,A,445303,2025-07-08
+contribution,2024-12-19,Williams Mullins Clark & Dobbins,$500,Richmond,VA,business,,A,445303,2025-07-08
+contribution,2024-12-19,Virginia Futures PAC,$500,Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2024-12-19,First Energy PAC,"$2,500",Akron,OH,pac,,A,445303,2025-07-08
+contribution,2024-12-20,Commercial Development PAC,$500,Alexandria,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-18,Noah Hepner,$200,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-12,Joshua Stephens,$200,Quicksburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-27,Eric Dalke,$500,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-30,William B Holtzman,"$5,000",Mount Jackson,VA,individual,,A,445303,2025-07-08
+contribution,2024-11-15,Amy F Barbour,$260.25,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-12,Massanutten View Farm LLC,$250,Woodstock,VA,business,,A,445303,2025-07-08
+contribution,2024-10-10,Devon F Pence,$500,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-11,Shelley F Schechtel,$300,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-12,W. C. Hockman,$200,Lebanon Church,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-15,Catherine Dalke,"$1,000",Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-09,Kathy Black,$520.51,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-04,Hannah Schechtel,$104.10,Gloucester Point,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-04,Hannah Schechtel,$104.10,Gloucester Point,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-07,Nancy L Barnett,$104.10,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-07,Nancy L Barnett,$104.10,Edinburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-08,Timber Ridge Fruit Farm LLC,"$2,500",Gore,VA,business,,A,445303,2025-07-08
+contribution,2024-09-19,Mark A Montrey,$100,Basye,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-12,Jadwyn LLC,"$1,000",Woodstock,VA,business,,A,445303,2025-07-08
+contribution,2024-09-16,Missy Hockman,$300,Strasburg,VA,individual,,A,445303,2025-07-08
+contribution,2024-10-12,Randolph Buckley,$250,White Post,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-18,Dennis Brown,$104.10,Woodstock,VA,individual,,A,445303,2025-07-08
+contribution,2024-09-27,Virginia Operators For Skill,"$5,000",Richmond,VA,business,,A,445303,2025-07-08
+contribution,2024-12-02,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,A,445303,2025-07-08
+contribution,2024-09-09,Washington Gas Light Company PAC,"$1,000",Washington,DC,pac,,A,445303,2025-07-08
+contribution,2024-10-10,Virginia Wine Wholesalers PAC,"$1,500",Richmond,VA,pac,,A,445303,2025-07-08
+contribution,2025-06-05,"Altria Client Services, Inc","$1,500",Richmond,VA,pac,,A,446218,2025-07-12
+contribution,2025-01-07,Fantasy Sports Operator Coalition,"$1,000",Arlington,VA,pac,,A,446218,2025-07-12
+contribution,2025-01-07,"Sentara Health Administration, Inc",$500,Virginia Beach,VA,business,,A,446218,2025-07-12
+contribution,2025-06-17,Comcast Corporation,$500,Philadelphia,PA,business,,A,446218,2025-07-12
+contribution,2025-06-20,"POM of Virginia, LLC","$10,000",Duluth,GA,pac,,A,446218,2025-07-12
+contribution,2025-06-20,Michael Pace,"$5,000",Chattanooga,TN,individual,,A,446218,2025-07-12
+contribution,2025-06-21,Paul Goldean,"$2,500",Charlotte,NC,individual,,A,446218,2025-07-12
+contribution,2025-06-30,"East Coast Amusements, LLC","$2,500",Richmond,VA,business,,A,446218,2025-07-12
 contribution,2025-10-08,Eric Dalke,$500,Woodstock,VA,individual,,A,476266,2026-01-10
 contribution,2025-10-11,Massanutten View Farm LLC,$200,Woodstock,VA,business,,A,476266,2026-01-10
 contribution,2025-10-09,David M Hutton,$208.20,Woodstock,VA,individual,,A,476266,2026-01-10
@@ -88,14 +220,172 @@ contribution,2026-01-13,"POM of Virginia, LLC","$5,000",Duluth,GA,pac,,A,494947,
 contribution,2026-04-23,"POM of Virginia, LLC","$2,500",Duluth,GA,pac,,A,494947,2026-07-13
 contribution,2026-01-13,National Coalition of Associations of 7-Eleven Franchisees,"$2,500",Ceres,CA,business,,A,494947,2026-07-13
 contribution,2026-06-03,Transurban (USA) Inc.,$250,Tysons,VA,business,,A,494947,2026-07-13
+in_kind,2024-10-12,Happenings Event Planning LLC,$200,Woodstock,VA,business,Catering Services,B,445303,2025-07-08
+in_kind,2024-08-19,Virginia Realtors RPAC,$278.03,Glen Allen,VA,pac,Food & Beverage,B,445303,2025-07-08
+in_kind,2024-12-18,Commonwealth Strategy,$151.12,Richmond,VA,business,Food & Beverage,B,445303,2025-07-08
+in_kind,2025-06-24,Troutman Pepper Strategies,$333.07,Richmond,VA,business,Reception Supplies,B,446218,2025-07-12
 in_kind,2025-10-11,Happenings Event Planning LLC,$300,Woodstock,VA,business,Fundraiser Catering,B,476266,2026-01-10
 in_kind,2025-10-10,Adam's Apples & Herbs,$118,Woodstock,VA,business,Fundraiser Decorations,B,476266,2026-01-10
 in_kind,2026-06-09,Gentry Locke Consulting,$450,Richmond,VA,business,Venue Rental,B,494947,2026-07-13
+other_receipt,2024-01-29,Rumble Up,$152.63,Washington,DC,business,Refund,C,411458,2024-08-06
+other_receipt,2024-02-02,Virginia Department of the Treasury,"$2,000",Richmond,VA,business,Re-imbursement for office technology,C,411458,2024-08-06
 other_receipt,2025-12-30,Timmy French,$134.79,Woodstock,VA,individual,Reimbursement for travel expenses that were subsequently paid for by Commonwealth,C,476266,2026-01-10
 other_receipt,2025-12-30,Timmy French,$397.24,Woodstock,VA,individual,Reimbursement for travel expenses that were subsequently paid for by Commonwealth,C,476266,2026-01-10
 other_receipt,2025-08-25,Amazon,$54.82,Seattle,WA,business,"Online Purchase, Wrong Item",C,476266,2026-01-10
 other_receipt,2026-02-18,Dementi Studio,$100.70,Richmond,VA,business,Returned Item,C,494947,2026-07-13
 other_receipt,2026-03-26,Justin Pence for Delegate,$138.90,Edinburg,VA,candidate,Reimbursement,C,494947,2026-07-13
+expenditure,2024-01-13,Target Corporation,$36.25,Minneapolis,MN,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-04-30,Shenandoah County Republican Committee,$250,Woodstock,VA,business,Donation,D,411458,2024-08-06
+expenditure,2024-05-07,Shenandoah County Republican Committee,$500,Woodstock,VA,business,Donation,D,411458,2024-08-06
+expenditure,2024-01-08,Coldspark,$35,Pittsburgh,PA,business,Social Media Ads,D,411458,2024-08-06
+expenditure,2024-03-05,Coldspark,$35,Pittsburgh,PA,business,Social Media Ads,D,411458,2024-08-06
+expenditure,2024-03-08,Coldspark,$35,Pittsburgh,PA,business,Social Media Ads,D,411458,2024-08-06
+expenditure,2024-04-22,Coldspark,$35,Pittsburgh,PA,business,Social Media Ads,D,411458,2024-08-06
+expenditure,2024-05-20,Coldspark,$35,Pittsburgh,PA,business,Social Media Ads,D,411458,2024-08-06
+expenditure,2024-01-25,Shentel Inc,$350.89,Edinburg,VA,business,Phone and Internet,D,411458,2024-08-06
+expenditure,2024-05-17,Springdale Meats,$724.13,Woodstock,VA,business,Public Relations,D,411458,2024-08-06
+expenditure,2024-04-03,Shenandoah Apple Blossom Inc,$291.60,Winchester,VA,business,Event Tickets,D,411458,2024-08-06
+expenditure,2024-01-05,Google,$58.85,Mountain View,CA,business,Domain Fees,D,411458,2024-08-06
+expenditure,2024-02-05,Google,$87.90,Mountain View,CA,business,Domain Fee,D,411458,2024-08-06
+expenditure,2024-03-05,Google,$101.54,Mountain View,CA,business,Domain Fees,D,411458,2024-08-06
+expenditure,2024-04-05,Google,$89.54,Mountain View,CA,business,Domain Fees,D,411458,2024-08-06
+expenditure,2024-05-05,Google,$89.54,Mountain View,CA,business,Domain Fees,D,411458,2024-08-06
+expenditure,2024-06-05,Google,$89.15,Mountain View,CA,business,Domain Fees,D,411458,2024-08-06
+expenditure,2024-01-04,Walmart Inc,$289.91,Bentonville,AR,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-01-20,Walmart Inc,$58.11,Bentonville,AR,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-01-14,Rumble Up,$19,Washington,DC,business,Text Subscription,D,411458,2024-08-06
+expenditure,2024-06-30,Win Red,$19.70,Arlington,VA,business,Win Red Fees,D,411458,2024-08-06
+expenditure,2024-01-03,Dominion Energy,$40.62,Richmond,VA,business,Office Electric,D,411458,2024-08-06
+expenditure,2024-02-06,Dominion Energy,$54.44,Richmond,VA,business,Office Electric,D,411458,2024-08-06
+expenditure,2024-03-05,Dominion Energy,$57.20,Richmond,VA,business,Office Electric,D,411458,2024-08-06
+expenditure,2024-04-02,Dominion Energy,$44.91,Richmond,VA,business,Office Electric,D,411458,2024-08-06
+expenditure,2024-05-06,Dominion Energy,$35.66,Richmond,VA,business,Office Electric,D,411458,2024-08-06
+expenditure,2024-06-04,Dominion Energy,$22.73,Richmond,VA,business,Office Electric,D,411458,2024-08-06
+expenditure,2024-06-11,"Sheetz, Inc",$60.17,Altoona,PA,business,Fuel,D,411458,2024-08-06
+expenditure,2024-02-10,Food Lion,$22.36,Woodstock,VA,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-02-13,Food Lion,$24.41,Woodstock,VA,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-03-03,Food Lion,$9.27,Woodstock,VA,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-06-07,"Woodstock-Edinburg Community Baseball, Inc",$100,Woodstock,VA,business,Golf Tournament Sponsor,D,411458,2024-08-06
+expenditure,2024-01-10,"Staples, Inc",$32.09,Framingham,MA,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-02-22,"Staples, Inc",$26.48,Framingham,MA,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-01-27,Dustin Pence,$275,New Market,VA,individual,Band for Fundraiser,D,411458,2024-08-06
+expenditure,2024-01-16,Internal Revenue Service,$496.56,Ogden,UT,business,Federal Payroll Taxes,D,411458,2024-08-06
+expenditure,2024-01-09,Mulchi For Senate,"$1,500",Clarksville,VA,candidate,Campaign Donation,D,411458,2024-08-06
+expenditure,2024-01-10,Farm Fresh,$21.58,Richmond,VA,business,Flowers,D,411458,2024-08-06
+expenditure,2024-01-13,Michaels Corporation,$5.55,Irving,TX,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-01-13,Office Max,$5.30,Naperville,IL,business,Office Supplies,D,411458,2024-08-06
+expenditure,2024-01-27,Route 11 Potato Chips,$48.86,Mount Jackson,VA,business,Chips,D,411458,2024-08-06
+expenditure,2024-02-01,State Corporation Commission,$100,Richmond,VA,business,Filing Fee,D,411458,2024-08-06
+expenditure,2024-02-27,Massey Cancer Center,$250,Richmond,VA,business,Donation,D,411458,2024-08-06
+expenditure,2024-03-27,Hotel Madison,$5,Harrisonburg,VA,business,Parking,D,411458,2024-08-06
+expenditure,2024-04-09,"Handy Mart, Inc",$75,Winchester,VA,business,Fuel,D,411458,2024-08-06
+expenditure,2024-04-09,Woodstock Cafe,$54.52,Woodstock,VA,business,Planning Mtg for Joint Ag Comm Conf,D,411458,2024-08-06
+expenditure,2024-04-16,Groupon,$20.70,Chicago,IL,business,Groupon Coupon for Microsoft Office,D,411458,2024-08-06
+expenditure,2024-05-17,Shenandoah County Parks and Recreation,$500,Woodstock,VA,business,National Night Out Sponsor,D,411458,2024-08-06
+expenditure,2024-02-16,Dementi Studio,$174.90,Richmond,VA,business,Senate Photo,D,411458,2024-08-06
+expenditure,2024-11-16,Shenandoah County Republican Committee,"$1,000",Woodstock,VA,business,Donation,D,445303,2025-07-08
+expenditure,2024-09-14,Top of Virginia Regional Chamber,$70,Winchester,VA,business,Event Ticket,D,445303,2025-07-08
+expenditure,2024-07-05,Coldspark,$35,Pittsburgh,PA,business,Social Media,D,445303,2025-07-08
+expenditure,2024-09-23,Coldspark,"$1,584",Pittsburgh,PA,business,Social Media,D,445303,2025-07-08
+expenditure,2024-10-31,Springdale Meats,$468.88,Woodstock,VA,business,Fundraiser Meat,D,445303,2025-07-08
+expenditure,2024-09-30,Walmart Inc,$100.97,Bentonville,AR,business,Fundraiser Supplies,D,445303,2025-07-08
+expenditure,2024-10-15,Walmart Inc,$17.34,Bentonville,AR,business,Fundraiser Supplies,D,445303,2025-07-08
+expenditure,2024-10-15,Walmart Inc,$13.77,Bentonville,AR,business,Fundraiser Supplies,D,445303,2025-07-08
+expenditure,2024-12-31,Win Red,$312.88,Arlington,VA,business,Win Red Processing Fees,D,445303,2025-07-08
+expenditure,2024-10-23,Happenings Event Planning LLC,$995.46,Woodstock,VA,business,Fundraiser Catering,D,445303,2025-07-08
+expenditure,2024-10-09,Fast Signs Inc,$102.46,Winchester,VA,business,Fundraiser Signs,D,445303,2025-07-08
+expenditure,2024-10-11,Fast Signs Inc,$20.60,Winchester,VA,business,Fundraiser Supplies,D,445303,2025-07-08
+expenditure,2024-07-02,Dominion Energy,$24.89,Richmond,VA,business,Office Electric Service,D,445303,2025-07-08
+expenditure,2024-08-05,Dominion Energy,$45.87,Richmond,VA,business,Office Electric,D,445303,2025-07-08
+expenditure,2024-09-04,Dominion Energy,$53.15,Richmond,VA,business,Office Electric,D,445303,2025-07-08
+expenditure,2024-10-02,Dominion Energy,$16.86,Richmond,VA,business,Office Electric,D,445303,2025-07-08
+expenditure,2024-10-30,Dominion Energy,$17.60,Richmond,VA,business,Office Electric,D,445303,2025-07-08
+expenditure,2024-12-03,Dominion Energy,$21.30,Richmond,VA,business,Office Electric,D,445303,2025-07-08
+expenditure,2024-08-02,Frederick County Fair,$504,Clear Brook,VA,business,Donation,D,445303,2025-07-08
+expenditure,2024-08-02,Warren County 4-H,$500,Front Royal,VA,business,Donation,D,445303,2025-07-08
+expenditure,2024-08-16,Central High School,$225,Woodstock,VA,business,Donation,D,445303,2025-07-08
+expenditure,2024-08-16,Ruritan Club of Clarke County,$625,Berryville,VA,business,Donation,D,445303,2025-07-08
+expenditure,2024-10-14,Shenandoah County Fair Association,$600,Woodstock,VA,business,Fundraiser Event Space Rental Fee,D,445303,2025-07-08
+expenditure,2024-11-22,Marla Mooney,$336.72,Woostock,VA,individual,Re-imbursement,D,445303,2025-07-08
+expenditure,2024-07-10,Virginia Senate Republican Caucus,"$12,500",Williamsburg,VA,party,Senate Republican Caucus Dues,D,445303,2025-07-08
+expenditure,2024-10-30,"Freedom Funnel Cakes, LLC",$250,Edinburg,VA,business,Fundraiser Catering,D,445303,2025-07-08
+expenditure,2024-09-27,Virginia Department of Taxation,$20.24,Richmond,VA,business,Taxes,D,445303,2025-07-08
+expenditure,2024-12-20,State Corporation Commission,$50,Richmond,VA,business,State Corporation Fees,D,445303,2025-07-08
+expenditure,2024-10-11,Virginia Eagle Distributing Company Inc,$442.46,Verona,VA,business,Fundraiser Beer,D,445303,2025-07-08
+expenditure,2024-07-05,Square Space,$77.94,New York,NY,business,Web Hosting Fees,D,445303,2025-07-08
+expenditure,2024-08-05,Square Space,$141.60,New York,NY,business,Web Hosting Fees,D,445303,2025-07-08
+expenditure,2024-09-05,Square Space,$72,New York,NY,business,Web Hosting Fees,D,445303,2025-07-08
+expenditure,2024-10-07,Square Space,$72,New York,NY,business,Web Hosting Fees,D,445303,2025-07-08
+expenditure,2024-11-05,Square Space,$86.40,New York,NY,business,Web Hosting Fees,D,445303,2025-07-08
+expenditure,2024-12-05,Square Space,$86.40,New York,NY,business,Web Hosting Fees,D,445303,2025-07-08
+expenditure,2024-07-26,Piccadilly Printing,$320.12,Winchester,VA,business,Campaign Literature,D,445303,2025-07-08
+expenditure,2024-09-04,Constant Contact,$33.25,Waltham,MA,business,Email Marketing,D,445303,2025-07-08
+expenditure,2024-10-04,Constant Contact,$71.25,Waltham,MA,business,Email Marketing,D,445303,2025-07-08
+expenditure,2024-11-04,Constant Contact,$33.25,Waltham,MA,business,Email Marketing,D,445303,2025-07-08
+expenditure,2024-12-04,Constant Contact,$33.25,Waltham,MA,business,Email Marketing,D,445303,2025-07-08
+expenditure,2024-09-23,Marriott International,$43,Bethesda,MD,business,Republican Caucus Luncheon,D,445303,2025-07-08
+expenditure,2024-09-25,Marriott International,$470,Bethesda,MD,business,Republican Caucus Hotel Room Fee,D,445303,2025-07-08
+expenditure,2024-09-26,Virginia ABC,$55,Mechanicsville,VA,business,Fundraiser ABC License,D,445303,2025-07-08
+expenditure,2024-09-30,Virginia ABC,$30,Mechanicsville,VA,business,Fundraiser ABC License,D,445303,2025-07-08
+expenditure,2024-09-26,Wakeman's Grove Church of the Brethren,$250,Edinburg,VA,business,Golf Sponsorship,D,445303,2025-07-08
+expenditure,2024-09-27,Tablecloth Factory,$259.83,Los Angeles,CA,business,Fundraiser Supplies,D,445303,2025-07-08
+expenditure,2024-09-29,Hottel & Willis,"$1,221.59",Winchester,VA,business,CPA Fees,D,445303,2025-07-08
+expenditure,2024-10-11,Costco,"$1,136.91",Sterling,VA,business,Fundraiser Supplies,D,445303,2025-07-08
+expenditure,2024-10-11,Sharp Shopper,$33.16,Ephrata,PA,business,Fundraiser Supplies,D,445303,2025-07-08
+expenditure,2024-10-11,Cave Ridge Vineyard,$644.44,Mt Jackson,VA,business,Fundraiser Wine,D,445303,2025-07-08
+expenditure,2024-10-11,Shenandoah County 4-H,"$1,361",Woodstock,VA,business,Donation,D,445303,2025-07-08
+expenditure,2024-10-12,Chris Howerton,"$1,600",Mt Jackson,VA,individual,Fundraiser Band,D,445303,2025-07-08
+expenditure,2024-10-15,Four Star Printing,$60.44,Woodstock,VA,business,Fundraiser Supplies,D,445303,2025-07-08
+expenditure,2024-10-15,Tractor Supply,$6.31,Brentwood,TN,business,Fundraiser Supplies,D,445303,2025-07-08
+expenditure,2024-10-21,Boy Scout Troop 199,"$1,000",Woodstock,VA,business,Donation for Fundraiser Support,D,445303,2025-07-08
+expenditure,2024-11-29,Friends of Tumay,"$1,000",Alexandria,VA,business,Donation,D,445303,2025-07-08
+expenditure,2024-12-11,Strasburg High School,$426,Strasburg,VA,business,Donation,D,445303,2025-07-08
+expenditure,2024-12-17,Commonwealth Prayer Breakfast,$55.20,Richmond,VA,business,Event Ticket,D,445303,2025-07-08
+expenditure,2024-11-16,Frederick County Republican Committee,$50,Winchester,VA,business,Donation,D,445303,2025-07-08
+expenditure,2025-03-21,Shenandoah County Republican Committee,$100,Woodstock,VA,business,Event Tickets,D,446218,2025-07-12
+expenditure,2025-04-11,Shenandoah Apple Blossom Inc,$108,Winchester,VA,business,Event Tickets,D,446218,2025-07-12
+expenditure,2025-01-21,Walmart Inc,$9.99,Bentonville,AR,business,Office Supplies,D,446218,2025-07-12
+expenditure,2025-01-21,Walmart Inc,$17.18,Bentonville,AR,business,Office Supplies,D,446218,2025-07-12
+expenditure,2025-06-30,Win Red,$2.50,Arlington,VA,business,WIN RED Fees,D,446218,2025-07-12
+expenditure,2025-02-04,Fast Signs Inc,$55.89,Winchester,VA,business,Printing,D,446218,2025-07-12
+expenditure,2025-02-06,Fast Signs Inc,$55.80,Winchester,VA,business,Printing,D,446218,2025-07-12
+expenditure,2025-03-05,US Postal Service,$120,Washington,DC,business,PO Box Rental,D,446218,2025-07-12
+expenditure,2025-01-03,Dominion Energy,$17.42,Richmond,VA,business,Electric Bill,D,446218,2025-07-12
+expenditure,2025-01-21,Dominion Energy,$8.51,Richmond,VA,business,Electric,D,446218,2025-07-12
+expenditure,2025-06-17,"Woodstock-Edinburg Community Baseball, Inc",$100,Woodstock,VA,business,Sponsorship,D,446218,2025-07-12
+expenditure,2025-03-25,Love's Travel Stops & Country Stores Inc,$125.14,Oklahoma City,OK,business,Gas,D,446218,2025-07-12
+expenditure,2025-01-06,Virginia Senate Republican Caucus,"$2,500",Williamsburg,VA,party,Donation,D,446218,2025-07-12
+expenditure,2025-03-21,Elizabeth Price,$255,Woodstock,VA,individual,Parking Reimbursement,D,446218,2025-07-12
+expenditure,2025-06-18,"Cook's Exxon, Inc",$122.03,Woodstock,VA,business,Gas,D,446218,2025-07-12
+expenditure,2025-04-15,Michaels Corporation,$803.63,Irving,TX,business,Framing,D,446218,2025-07-12
+expenditure,2025-05-21,Shenandoah County Parks and Recreation,$500,Woodstock,VA,business,Sponsorship of Community Event,D,446218,2025-07-12
+expenditure,2025-01-06,Square Space,$86.40,New York,NY,business,Website,D,446218,2025-07-12
+expenditure,2025-02-05,Square Space,$86.40,New York,NY,business,Website,D,446218,2025-07-12
+expenditure,2025-02-18,Square Space,$12,New York,NY,business,Website,D,446218,2025-07-12
+expenditure,2025-03-05,Square Space,$86.40,New York,NY,business,Website,D,446218,2025-07-12
+expenditure,2025-04-07,Square Space,$84,New York,NY,business,Website,D,446218,2025-07-12
+expenditure,2025-05-05,Square Space,$84,New York,NY,business,Website,D,446218,2025-07-12
+expenditure,2025-06-05,Square Space,$84,New York,NY,business,Website,D,446218,2025-07-12
+expenditure,2025-01-06,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,446218,2025-07-12
+expenditure,2025-02-03,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,446218,2025-07-12
+expenditure,2025-03-03,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,446218,2025-07-12
+expenditure,2025-04-03,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,446218,2025-07-12
+expenditure,2025-05-03,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,446218,2025-07-12
+expenditure,2025-06-04,Constant Contact,$33.25,Waltham,MA,business,Marketing,D,446218,2025-07-12
+expenditure,2025-01-21,Four Star Printing,$61.87,Woodstock,VA,business,Printing,D,446218,2025-07-12
+expenditure,2025-01-06,Winsome for Governor,"$3,000",Richmond,VA,business,Campaign Contribution,D,446218,2025-07-12
+expenditure,2025-06-21,Winsome for Governor,"$2,500",Richmond,VA,business,Campaign Donation,D,446218,2025-07-12
+expenditure,2025-02-13,"Krispy Kreme, Inc",$59.93,Winston-Salem,NC,business,Office Refreshments,D,446218,2025-07-12
+expenditure,2025-02-13,Clayton Spangler Photographic Design,$499,Charleston,WV,business,Composite Framing,D,446218,2025-07-12
+expenditure,2025-02-19,Karla Boughey,$117.62,Richmond,VA,individual,Office Supplies Reimbursement,D,446218,2025-07-12
+expenditure,2025-02-20,Wawa,$5.25,Chester Heights,PA,business,Gas,D,446218,2025-07-12
+expenditure,2025-02-27,Feed More,$100,Richmond,VA,business,Fundraiser Donation,D,446218,2025-07-12
+expenditure,2025-03-25,Middletown Volunteer Fire Dept,$100,Middletown,VA,business,Donation,D,446218,2025-07-12
+expenditure,2025-02-01,VCU Massey Cancer Center,$250,Richmond,VA,business,Contribution,D,446218,2025-07-12
+expenditure,2025-04-16,"7-11, Inc",$125,Irving,TX,business,Gas,D,446218,2025-07-12
+expenditure,2025-04-20,Senate of Virginia,$125,Richmond,VA,business,Framing,D,446218,2025-07-12
+expenditure,2025-05-16,"Liberty, Inc",$75,Harrisonburg,VA,business,Gas,D,446218,2025-07-12
+expenditure,2025-06-16,"Texas Roadhouse, Inc",$283.43,Louisville,KY,business,Covered dinner for sports team at states,D,446218,2025-07-12
 expenditure,2025-10-18,Amy F Barbour,$115.93,Woodstock,VA,individual,Fundraiser Supplies Re-imbursement,D,476266,2026-01-10
 expenditure,2025-12-30,Shelley F Schechtel,$36.31,Woodstock,VA,individual,Fundraiser Supplies Re-imbursement,D,476266,2026-01-10
 expenditure,2025-08-21,Amazon,$54.82,Seattle,WA,business,Fundraiser Supplies,D,476266,2026-01-10

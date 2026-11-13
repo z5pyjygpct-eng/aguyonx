@@ -3,6 +3,39 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$110,703.62",,VA,,"From official Schedule H, November 2027 election cycle",H,495499,2026-07-14
 summary,2026-06-30,Raised this cycle,"$134,292.26",,,,Total receipts this election cycle (Schedule H),H,495499,2026-07-14
 summary,2026-06-30,Spent this cycle,"$40,202.72",,,,Total disbursements this election cycle (Schedule H),H,495499,2026-07-14
+contribution,2025-06-24,Paige Meade,$100,Manassas,VA,individual,,A,449105,2025-07-16
+contribution,2025-03-05,Marcia Namowitz,$200,Melville,NY,individual,,A,449105,2025-07-16
+contribution,2025-03-05,Rebecca Neuburger,$250,Washington,DC,individual,,A,449105,2025-07-16
+contribution,2025-04-15,Eileen Amy Ryan,$100,Victor,NY,individual,,A,449105,2025-07-16
+contribution,2025-05-15,Eileen Amy Ryan,$100,Victor,NY,individual,,A,449105,2025-07-16
+contribution,2025-06-15,Eileen Amy Ryan,$100,Victor,NY,individual,,A,449105,2025-07-16
+contribution,2025-06-23,Eileen Amy Ryan,$250,Victor,NY,individual,,A,449105,2025-07-16
+contribution,2025-03-05,Margaret Sacra,$125,Ruther Glen,VA,individual,,A,449105,2025-07-16
+contribution,2025-03-05,Betsy Sharon,$200,Falls Church,VA,individual,,A,449105,2025-07-16
+contribution,2025-03-05,Alex Bastani,$250,Falls Church,VA,individual,,A,449105,2025-07-16
+contribution,2025-03-05,Landon Butler,$500,Upperville,VA,individual,,A,449105,2025-07-16
+contribution,2025-03-05,Landon Butler,$500,Upperville,VA,individual,,A,449105,2025-07-16
+contribution,2025-03-05,Landon Butler,$500,Upperville,VA,individual,,A,449105,2025-07-16
+contribution,2025-06-23,Landon Butler,$100,Upperville,VA,individual,,A,449105,2025-07-16
+contribution,2025-06-02,Chesapeak Climate Action Network,$500,Takoma Park,MD,business,,A,449105,2025-07-16
+contribution,2025-04-10,Clean Virginia Fund,"$10,000",Charlottesville,VA,business,,A,449105,2025-07-16
+contribution,2025-01-02,SEIU COPE,$500,Washington,DC,individual,,A,449105,2025-07-16
+contribution,2025-05-22,john coughlin,$40,Manassas,VA,individual,,A,449105,2025-07-16
+contribution,2025-06-22,john coughlin,$40,Manassas,VA,individual,,A,449105,2025-07-16
+contribution,2025-05-03,Melissa Dicker,$50,Gainesville,VA,individual,,A,449105,2025-07-16
+contribution,2025-06-03,Melissa Dicker,$50,Gainesville,VA,individual,,A,449105,2025-07-16
+contribution,2025-03-06,David Dooley Dooley,$250,Woodbridge,VA,individual,,A,449105,2025-07-16
+contribution,2025-04-19,Nick Gorton,$100,Davis,CA,individual,,A,449105,2025-07-16
+contribution,2025-05-19,Nick Gorton,$100,Davis,CA,individual,,A,449105,2025-07-16
+contribution,2025-06-19,Nick Gorton,$100,Davis,CA,individual,,A,449105,2025-07-16
+contribution,2025-06-04,Daniel Jacobson,$25,Charlotte,NC,individual,,A,449105,2025-07-16
+contribution,2025-04-22,Kenneth Johnson,$200,Haymarket,VA,individual,,A,449105,2025-07-16
+contribution,2025-03-05,Michele Jolin,"$1,000",Washington,DC,individual,,A,449105,2025-07-16
+contribution,2025-05-08,Michele Jolin,"$1,000",Washington,DC,individual,,A,449105,2025-07-16
+contribution,2025-03-15,Camille Klein,"$1,000",Haymarket,VA,individual,,A,449105,2025-07-16
+contribution,2025-06-10,Camille Klein,"$1,000",Haymarket,VA,individual,,A,449105,2025-07-16
+contribution,2025-05-05,Patrick F Lapensee,$25,Palm Beach Gardens,FL,individual,,A,449105,2025-07-16
+contribution,2025-06-05,Patrick F Lapensee,$25,Palm Beach Gardens,FL,individual,,A,449105,2025-07-16
 contribution,2025-07-19,Nick Gorton,$100,Davis,CA,individual,,A,480657,2026-01-16
 contribution,2025-08-19,Nick Gorton,$100,Davis,CA,individual,,A,480657,2026-01-16
 contribution,2025-09-19,Nick Gorton,$100,Davis,CA,individual,,A,480657,2026-01-16
@@ -136,6 +169,76 @@ contribution,2026-01-10,Jennifer Goforth,$100,Manassas,VA,individual,,A,495499,2
 contribution,2026-01-10,Jennifer Goforth,$100,Manassas,VA,individual,,A,495499,2026-07-14
 contribution,2026-01-09,KAREN HATCHER,$100,Manassas,VA,individual,,A,495499,2026-07-14
 contribution,2026-01-09,KAREN HATCHER,$100,Manassas,VA,individual,,A,495499,2026-07-14
+expenditure,2025-01-02,Ethan Damon,"$4,000",Richmond,VA,individual,General Consultant Fees,D,449105,2025-07-16
+expenditure,2025-01-02,Hello Landing,"$1,764.59",Birmingham,AL,business,Session Housing,D,449105,2025-07-16
+expenditure,2025-01-02,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-01-03,NGP VAN,$470,Washington,DC,business,Fundraising Software,D,449105,2025-07-16
+expenditure,2025-01-05,ActBlue,$54.97,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-01-07,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,449105,2025-07-16
+expenditure,2025-01-16,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,449105,2025-07-16
+expenditure,2025-01-17,City of Richmond,$31.45,Richmond,VA,business,Parkinig,D,449105,2025-07-16
+expenditure,2025-01-21,La Bamba Restaurant,$45.99,Richmond,VA,business,Team Lunch,D,449105,2025-07-16
+expenditure,2025-01-21,"Sqaurespace, INC",$86.62,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-01-23,City of Richmond,$25.35,Richmond,VA,business,Parkinig,D,449105,2025-07-16
+expenditure,2025-01-28,At&t,$31.82,Manassas,VA,business,District Phone,D,449105,2025-07-16
+expenditure,2025-01-30,Internal Revenue Service,$126,Philadelphia,PA,business,Payroll Taxes,D,449105,2025-07-16
+expenditure,2025-02-03,Ethan Damon,"$1,750",Richmond,VA,individual,Consulting Fees,D,449105,2025-07-16
+expenditure,2025-02-03,Hello Landing,"$1,761.24",Birmingham,AL,business,Session Housing,D,449105,2025-07-16
+expenditure,2025-02-03,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-02-06,NGP VAN,$470,Washington,DC,business,Fundraising Software,D,449105,2025-07-16
+expenditure,2025-02-07,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,449105,2025-07-16
+expenditure,2025-02-18,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,449105,2025-07-16
+expenditure,2025-02-27,At&t,$31.82,Manassas,VA,business,District Phone,D,449105,2025-07-16
+expenditure,2025-02-28,Virginia National Bank,$12,Brooklyn Park,MN,business,fees,D,449105,2025-07-16
+expenditure,2025-02-28,Virginia National Bank,$35,Brooklyn Park,MN,business,fees,D,449105,2025-07-16
+expenditure,2025-03-02,ActBlue,$1.74,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-03-05,Virginia National Bank,$35,Brooklyn Park,MN,business,fees,D,449105,2025-07-16
+expenditure,2025-03-09,ActBlue,$300.85,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-03-12,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-03-16,ActBlue,$13.54,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-03-17,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,449105,2025-07-16
+expenditure,2025-03-17,NGP VAN,$470,Washington,DC,business,Fundraising Software,D,449105,2025-07-16
+expenditure,2025-03-17,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,449105,2025-07-16
+expenditure,2025-03-23,ActBlue,$12.06,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-03-30,ActBlue,$5.94,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-03-31,At&t,$31.82,Manassas,VA,business,District Phone,D,449105,2025-07-16
+expenditure,2025-03-31,Ethan Damon,"$3,411.89",Richmond,VA,individual,General Consultant Fees,D,449105,2025-07-16
+expenditure,2025-03-31,Virginia National Bank,$12,Brooklyn Park,MN,business,fees,D,449105,2025-07-16
+expenditure,2025-04-02,NGP VAN,$470,Washington,DC,business,Fundraising Software,D,449105,2025-07-16
+expenditure,2025-04-02,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-04-06,ActBlue,$6.03,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-04-07,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,449105,2025-07-16
+expenditure,2025-04-11,"Sqaurespace, INC",$21.20,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-04-13,ActBlue,$3.54,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-04-16,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,449105,2025-07-16
+expenditure,2025-04-20,ActBlue,$9.69,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-04-23,Virginia National Bank,$15,Brooklyn Park,MN,business,Outgoing Money Xfer Fee,D,449105,2025-07-16
+expenditure,2025-04-25,"Sqaurespace, INC",$40,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-04-27,ActBlue,$12.07,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-04-28,At&t,$31.82,Manassas,VA,business,District Phone,D,449105,2025-07-16
+expenditure,2025-05-02,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-05-04,ActBlue,$3.91,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-05-07,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,449105,2025-07-16
+expenditure,2025-05-11,ActBlue,$44.50,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-05-12,"Sqaurespace, INC",$276,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-05-16,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,449105,2025-07-16
+expenditure,2025-05-18,ActBlue,$13.14,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-05-19,Adobe Express,$105.99,San Jose,CA,business,Editing Software,D,449105,2025-07-16
+expenditure,2025-05-25,ActBlue,$7.52,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-05-28,At&t,$31.82,Manassas,VA,business,District Phone,D,449105,2025-07-16
+expenditure,2025-06-01,ActBlue,$1.20,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-06-01,Ethan Damon,"$3,411.89",Richmond,VA,individual,General Consultant Fees,D,449105,2025-07-16
+expenditure,2025-06-02,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,449105,2025-07-16
+expenditure,2025-06-08,ActBlue,$5.69,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-06-09,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,449105,2025-07-16
+expenditure,2025-06-09,Phoneburner,$29,Ladera Ranch,CA,business,Call time software,D,449105,2025-07-16
+expenditure,2025-06-15,ActBlue,$7.01,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-06-16,"Intuit, Quickbooks",$129,Mountain View,CA,business,Payroll Software,D,449105,2025-07-16
+expenditure,2025-06-22,ActBlue,$11.22,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-06-28,At&t,$31.82,Manassas,VA,business,District Phone,D,449105,2025-07-16
+expenditure,2025-06-29,ActBlue,$85.73,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-06-30,ActBlue,$1.39,Somerville,MA,business,ActBlue Fees,D,449105,2025-07-16
+expenditure,2025-06-30,NGP VAN,$493.50,Washington,DC,business,Fundraising Software,D,449105,2025-07-16
 expenditure,2025-07-01,Ethan Damon,"$1,000",Richmond,VA,individual,General Consultant Fees,D,480657,2026-01-16
 expenditure,2025-07-03,"Sqaurespace, INC",$34.98,New York,NY,business,Website,D,480657,2026-01-16
 expenditure,2025-07-06,ActBlue,$7.51,Somerville,MA,business,ActBlue Fees,D,480657,2026-01-16

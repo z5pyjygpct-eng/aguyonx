@@ -3,6 +3,185 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$15,401.57",,VA,,"From official Schedule H, November 2025 election cycle",H,495350,2026-07-14
 summary,2026-06-30,Raised this cycle,"$193,542.85",,,,Total receipts this election cycle (Schedule H),H,495350,2026-07-14
 summary,2026-06-30,Spent this cycle,"$196,839.59",,,,Total disbursements this election cycle (Schedule H),H,495350,2026-07-14
+contribution,2025-03-26,Patricia Brown,$150,Palmyra,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-30,"Cathleen Kelly"""" Burk",$200,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-30,David Butler,$250,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-03,DR. TODD CIMINO-JOHNSON,$100,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-02,SEIU COPE,$500,Washington,DC,individual,,A,435946,2025-04-14
+contribution,2025-03-11,Frances Craig,"$1,000",Ashburn,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-30,Christopher Critchfield,$140,Dumfries,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-03,Brian Cullen,$250,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-20,Robert Cullom,$200,Williamsburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-06,Matthew Dwyer,$250,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-06,Richard J Evans,$250,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-14,Richard J Evans,$100,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-03,Dennis Griesing,"$1,000",Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-06,Dennis Griesing,$100,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-19,Edgar Hatrick,$200,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-30,Daniel Hedges,$200,Lovettsville,VA,individual,,A,435946,2025-04-14
+contribution,2025-02-24,Loren W Hershey,$185,Oakton,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-18,eric hokland,$500,Sterling,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-21,Patrick Holden,$250,Purcellville,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-18,Jan Hyland,$150,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-02,Herschel E Kanter,$100,Sterling,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-07,Herschel E Kanter,$25,Sterling,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-19,Herschel E Kanter,$50,Sterling,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-23,Molly Lovato,$250,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-28,"Fernando Marty"""" J Martinez","$2,232.80",Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-04,Linda McCray,$250,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-30,Karla McGovern,$300,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-02-24,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,435946,2025-04-14
+contribution,2025-03-28,Michael Roberto,$500,Ashburn,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-19,Ryan Ruzic,$50,Purcellville,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-03,Andrew Shuckra,$250,Ashburn,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-30,JJ Singh,$250,Ashburn,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-28,Nathan Soules,$100,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-20,Kristen Umstattd,$500,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-02-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-20,Alfred P. (Al) Van Huyck,$500,Round Hill,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-03,Vantage Data Centers Management Co LLC,$250,Santa Clara,CA,business,,A,435946,2025-04-14
+contribution,2025-03-29,andrea weiskopf,$50,Ashburn,VA,individual,,A,435946,2025-04-14
+contribution,2025-01-03,Jill Weiss,$250,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-03-10,Jill Weiss,$250,Leesburg,VA,individual,,A,435946,2025-04-14
+contribution,2025-04-25,Altria Client Services LLC,$500,Richmond,VA,business,,A,441761,2025-06-09
+contribution,2025-05-30,"American HealthCare, LLC DBA Heritage Hall-Leesburg","$1,500",Roanoke,VA,business,,A,441761,2025-06-09
+contribution,2025-04-24,Clean Virginia,"$6,000",Charlottesville,VA,pac,,A,441761,2025-06-09
+contribution,2025-05-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,441761,2025-06-09
+contribution,2025-05-09,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,A,441761,2025-06-09
+contribution,2025-05-05,"County of Loudoun, VA",$352.80,Leesburg,VA,business,,A,441761,2025-06-09
+contribution,2025-05-09,Barbara D Davis,$200,Arlington,VA,individual,,A,441761,2025-06-09
+contribution,2025-05-01,Loudoun Career Firefighters PAC,"$2,000",Leesburg,VA,pac,,A,441761,2025-06-09
+contribution,2025-06-05,Greater VA Carpenters PEC,"$5,000",Ashland,VA,pac,,A,441761,2025-06-09
+contribution,2025-05-15,Dennis Griesing,"$1,000",Leesburg,VA,individual,,A,441761,2025-06-09
+contribution,2025-04-23,Ellen Dolan Heald,$250,Leesburg,VA,individual,,A,441761,2025-06-09
+contribution,2025-05-21,Honest Tom's Auto Care,"$2,500",Sterling,VA,business,,A,441761,2025-06-09
+contribution,2025-05-19,Megan Hull,$250,Washington,DC,individual,,A,441761,2025-06-09
+contribution,2025-05-04,Elizabeth Jackson,$15,Ashburn,VA,individual,,A,441761,2025-06-09
+contribution,2025-06-04,Elizabeth Jackson,$15,Ashburn,VA,individual,,A,441761,2025-06-09
+contribution,2025-04-30,Jane Fonda Climate PAC,"$5,000",Washington,DC,pac,,A,441761,2025-06-09
+contribution,2025-05-06,Debbie Kalriess,"$1,000",Leesburg,VA,individual,,A,441761,2025-06-09
+contribution,2025-04-25,Herschel E Kanter,$40,Sterling,VA,individual,,A,441761,2025-06-09
+contribution,2025-06-03,LiUNA!,"$2,500",Washington,DC,business,,A,441761,2025-06-09
+contribution,2025-05-15,John McNamee,$500,Leesburg,VA,individual,,A,441761,2025-06-09
+contribution,2025-05-09,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,441761,2025-06-09
+contribution,2025-06-05,Norman I Myers,$250,Leesburg,VA,individual,,A,441761,2025-06-09
+contribution,2025-05-29,Michael Roberto,$250,Ashburn,VA,individual,,A,441761,2025-06-09
+contribution,2025-05-15,Sandra Smallwood,$250,Leesburg,VA,individual,,A,441761,2025-06-09
+contribution,2025-04-03,Steamfitters Union No 602,"$2,000",Capitol Heights,MD,business,,A,441761,2025-06-09
+contribution,2025-05-30,Thomas Toth,"$1,000",Leesburg,VA,individual,,A,441761,2025-06-09
+contribution,2025-04-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,441761,2025-06-09
+contribution,2025-06-30,314 Action Fund,"$2,500",Washington,DC,business,,A,447861,2025-07-15
+contribution,2025-06-16,Everytown,"$1,000",New York,NY,business,,A,447861,2025-07-15
+contribution,2025-06-20,John Flannery,$100,Lovettsville,VA,individual,,A,447861,2025-07-15
+contribution,2025-06-20,Mae Lindstrom,$200,Leesburg,VA,individual,,A,447861,2025-07-15
+contribution,2025-06-24,Susan Platt,$100,Purcellville,VA,individual,,A,447861,2025-07-15
+contribution,2025-06-23,Republic Services,$250,Phoenix,AZ,business,,A,447861,2025-07-15
+contribution,2025-06-21,Carol Scalpone,$500,Portland,OR,individual,,A,447861,2025-07-15
+contribution,2025-06-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,447861,2025-07-15
+contribution,2025-06-30,Shelley Zafran,$100,Leesburg,VA,individual,,A,447861,2025-07-15
+contribution,2025-08-20,Theodore Adair,$250,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-27,AFSCME,"$2,000",Washington,DC,business,,A,454180,2025-09-15
+contribution,2025-08-22,Amazon.com Services LLC,$500,Seattle,WA,business,,A,454180,2025-09-15
+contribution,2025-08-06,Richard P Biby,$200,Paeonian Springs,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-30,Richard P Biby,$50,Paeonian Springs,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-12,Julie Bigelow,$50,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-29,Capital One Services LLC,$500,Reston,VA,business,,A,454180,2025-09-15
+contribution,2025-07-30,Anita Capps,$100,Purcellville,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-20,Clean Virginia,"$5,000",Charlottesville,VA,pac,,A,454180,2025-09-15
+contribution,2025-08-21,Comcast Corporation,$500,Philadelphia,PA,business,,A,454180,2025-09-15
+contribution,2025-08-13,Donald Cooper,"$1,000",Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-20,Stephen Crout,$100,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-20,Richard J Evans,$200,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-07-31,Dave Groy,$100,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-13,HCA for Good Government,$500,Richmond,VA,business,,A,454180,2025-09-15
+contribution,2025-08-27,Terrence and Geraldine Hill,$200,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-07-04,Elizabeth Jackson,$15,Ashburn,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-04,Elizabeth Jackson,$15,Ashburn,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-04,Peter Kalaris,"$5,000",Great Falls,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-05,Richard KORZENIEWSKI,$100,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-07-23,Chris Leyen,$250,Richmond,VA,individual,,A,454180,2025-09-15
+contribution,2025-07-24,McGuire Woods,$250,Richmond,VA,business,,A,454180,2025-09-15
+contribution,2025-08-09,Stephen Morgan,$250,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-20,Brendan Murphy,$100,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-20,Joseph Mydlinski,$300,Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-07-24,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,454180,2025-09-15
+contribution,2025-07-16,Kathryn Smith,"$1,000",Leesburg,VA,individual,,A,454180,2025-09-15
+contribution,2025-07-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,454180,2025-09-15
+contribution,2025-08-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,454180,2025-09-15
+contribution,2025-07-28,Alfred P. (Al) Van Huyck,$100,Round Hill,VA,individual,,A,454180,2025-09-15
+contribution,2025-07-08,VEA Fund,$500,Richmond,VA,business,,A,454180,2025-09-15
+contribution,2025-08-01,Virginia Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,A,454180,2025-09-15
+contribution,2025-07-28,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,A,454180,2025-09-15
+contribution,2025-07-14,Virginia Sheriffs Association PAC,$250,Richmond,VA,pac,,A,454180,2025-09-15
+contribution,2025-07-21,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,A,454180,2025-09-15
+contribution,2025-09-22,"ACE Development Company L c/o AES Distributed Energy, Inc.",$500,Salt Lake City,UT,business,,A,460934,2025-10-15
+contribution,2025-09-03,Jae Bae,$50,Purcellville,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-27,David Bauer,$250,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-30,Richard P Biby,$50,Paeonian Springs,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-26,Julie Bigelow,$73,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-22,Tammy Carter,$100,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-11,Michael Cowell,$250,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-26,Frances Craig,"$2,000",Ashburn,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-18,Michael Dildy,$100,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-29,Richard J Evans,$200,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-16,Dave Groy,$100,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-15,Daniel Hedges,$150,Lovettsville,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-26,Patrick Holden,$50,Purcellville,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-08,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,460934,2025-10-15
+contribution,2025-09-04,Elizabeth Jackson,$15,Ashburn,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-22,John Koza,$500,Los Altos Hills,CA,individual,,A,460934,2025-10-15
+contribution,2025-09-28,Arlene Lewis,$200,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-27,Bennett Marsh,$50,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-02,Norman I Myers,$250,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-16,NOVEC,"$1,000",Manassas,VA,business,,A,460934,2025-10-15
+contribution,2025-09-26,Gwen Pangle,$25,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-16,"Harold Pasini,",$250,Chesapeake,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-16,Raise More Inc,$175,Brooklyn,NY,business,,A,460934,2025-10-15
+contribution,2025-09-22,Constance Rice,$100,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-08,Sheetz,$500,Altoona,PA,business,,A,460934,2025-10-15
+contribution,2025-09-27,Kathryn Smith,$250,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-26,Chris Tandy,$200,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-22,Turner Holden & Turner PLLC,$250,Leesburg,VA,business,,A,460934,2025-10-15
+contribution,2025-09-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-03,Vertex Pharmaceuticals Incorporated Political Contributions,"$1,000",Boston,MA,business,,A,460934,2025-10-15
+contribution,2025-09-29,Virginia Cable PAC,$500,Richmond,VA,pac,,A,460934,2025-10-15
+contribution,2025-09-24,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,460934,2025-10-15
+contribution,2025-09-17,Jill Weiss,$150,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-24,Dona Wolf,"$1,000",Lansdowne,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-28,Shelley Zafran,$150,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-09-10,Joseph Zmuda,$100,Leesburg,VA,individual,,A,460934,2025-10-15
+contribution,2025-10-22,David Butler,$150,Leesburg,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-10,harrison crecraft,$50,Leesburg,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-04,Michael Dildy,$73,Leesburg,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-15,Sanford Grossman,$250,Leesburg,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-02,Gerri Hill,$100,Leesburg,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-07,Katherine Hoffmann,$100,Falls Church,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-01,Home Builders Association,$500,Richmond,VA,business,,A,465385,2025-10-27
+contribution,2025-10-02,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,465385,2025-10-27
+contribution,2025-10-04,Elizabeth Jackson,$15,Ashburn,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-15,John Foust for Supervisor,$300,Mclean,VA,candidate,,A,465385,2025-10-27
+contribution,2025-10-20,Landsdowne Woods Democratic Club,$200,Leesburg,VA,business,,A,465385,2025-10-27
+contribution,2025-10-17,Latino Victory Fund,$500,Washington,DC,pac,,A,465385,2025-10-27
+contribution,2025-10-02,Brody McCray,$240,Leesburg,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-06,Matthew McGovern,$73,Leesburg,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-03,Carol Scalpone,$100,Portland,OR,individual,,A,465385,2025-10-27
+contribution,2025-10-09,SEIU Cope,"$5,000",Washington,DC,business,,A,465385,2025-10-27
+contribution,2025-10-01,Kathryn Smith,$73,Leesburg,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-15,Brenda Stoltz,$100,Leesburg,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-23,Robert Surovell,$150,Alexandria,VA,individual,,A,465385,2025-10-27
+contribution,2025-10-02,Virginia AFL-CIO PAC,"$1,000",Richmond,VA,pac,,A,465385,2025-10-27
+contribution,2025-10-07,Virginia Chapter Sierra Club PAC,$250,Richmond,VA,pac,,A,465385,2025-10-27
+contribution,2025-10-20,Virginia CUPAC,"$1,000",Tallahassee,FL,pac,,A,465385,2025-10-27
+contribution,2025-10-22,Robert Wilkins,$250,Chapin,SC,individual,,A,465385,2025-10-27
+contribution,2025-10-30,Richard P Biby,$50,Paeonian Springs,VA,individual,,A,470990,2025-12-02
+contribution,2025-11-04,Elizabeth Jackson,$15,Ashburn,VA,individual,,A,470990,2025-12-02
+contribution,2025-10-27,Debbie Kalriess,$250,Leesburg,VA,individual,,A,470990,2025-12-02
+contribution,2025-11-12,Mid-Atlantic Laborers Political Education Fund (MALPEF),"$1,500",Reston,VA,business,,A,470990,2025-12-02
+contribution,2025-10-27,"POM of Virginia, LLC","$2,000",Duluth,GA,business,,A,470990,2025-12-02
+contribution,2025-11-03,shahla Ranjbar,"$1,000",Leesburg,VA,individual,,A,470990,2025-12-02
+contribution,2025-11-03,shahla Ranjbar,"$1,000",Leesburg,VA,individual,,A,470990,2025-12-02
+contribution,2025-10-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,470990,2025-12-02
 contribution,2025-12-04,Elizabeth Jackson,$10,Ashburn,VA,individual,,A,475762,2026-01-08
 contribution,2025-11-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,475762,2026-01-08
 contribution,2025-12-28,Tracy Van Duston,$25,Fairfax,VA,individual,,A,475762,2026-01-08
@@ -14,9 +193,121 @@ contribution,2026-03-21,Tamberley Cummins,$250,Leesburg,VA,individual,,A,495350,
 contribution,2026-01-13,Dennis Griesing,$500,Leesburg,VA,individual,,A,495350,2026-07-14
 contribution,2026-05-07,Virginia Bankers Association State PAC,$500,Glen Allen,VA,pac,,A,495350,2026-07-14
 contribution,2026-01-09,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,A,495350,2026-07-14
+in_kind,2025-03-31,Doris Martinez,"$2,040",Leesburg,VA,individual,Treasurer duties.,B,435946,2025-04-14
+in_kind,2025-03-30,The Loudoun Kitchen & Bar,"$3,893",Leesburg,VA,business,Fundraiser venue labor and food,B,435946,2025-04-14
+in_kind,2025-05-16,Comstock Hospitality Holdings LLC,"$4,531.33",Reston,VA,business,In-kind contribution,B,441761,2025-06-09
+in_kind,2025-08-21,Commonwealth Strategy,$453.20,Richmond,VA,business,In-kind contribution to cover catering costs for Delegate Martinez's event on July 23 2025.,B,454180,2025-09-15
+in_kind,2025-09-16,Julie Bigelow,$265.24,Leesburg,VA,individual,In-Kind Contribution for Meet and Greet,B,460934,2025-10-15
+in_kind,2025-09-22,"Cathleen Kelly"""" Burk",$112.45,Leesburg,VA,individual,In-Kind for Meet & Greet,B,460934,2025-10-15
+in_kind,2025-09-22,Dr. Todd Cimino-Johnson,$112.45,Leesburg,VA,individual,In-Kind for Meet & Greet,B,460934,2025-10-15
+in_kind,2025-09-22,Zach Cummings,$112.45,Leesburg,VA,individual,In-Kind for Meet & Greet,B,460934,2025-10-15
+in_kind,2025-09-19,Democratic Party of Virginia,"$11,234.28",Richmond,VA,party,$11234.28 for Mail Production / Postage on 09/17/2025,B,460934,2025-10-15
+in_kind,2025-09-16,Ellen Dolan Heald,$265.24,Leesburg,VA,individual,In-Kind Contribution for Meet and Greet,B,460934,2025-10-15
+in_kind,2025-09-22,Nicholas Krukowski,$112.45,Leesburg,VA,individual,In-Kind for Meet & Greet,B,460934,2025-10-15
+in_kind,2025-09-16,Kathryn Smith,$265.24,Leesburg,VA,individual,In-Kind Contribution for Meet and Greet,B,460934,2025-10-15
+in_kind,2025-09-22,Neil Steinberg,$112.45,Leesburg,VA,individual,In-Kind for Meet & Greet,B,460934,2025-10-15
+in_kind,2025-10-14,Molly Lovato,$525.83,Leesburg,VA,individual,In-kind for Meet & Greet,B,465385,2025-10-27
+in_kind,2025-10-15,Realtors PAC of Virginia,$319.76,Glen Allen,VA,pac,In-Kind for Lunch Reception,B,465385,2025-10-27
 in_kind,2026-05-01,Comstock Hospitality Holdings LLC,"$4,234.70",Reston,VA,business,Fundraiser Event and Catering,B,495350,2026-07-14
 other_receipt,2025-12-19,Virginia Beer Wholesalers Association PAC,$155.62,Richmond,VA,pac,Event Supplies Reimbursement,C,475762,2026-01-08
 other_receipt,2026-01-06,Virginia Wine Wholesalers PAC,$238.30,Richmond,VA,pac,Event Materials Reimbursement,C,495350,2026-07-14
+expenditure,2025-01-02,House Democratic Caucus,"$7,250",Richmond,VA,party,2025 Caucus Dues,D,435946,2025-04-14
+expenditure,2025-01-03,NGP VAN Inc.,$320,Washington,DC,business,Software subscription,D,435946,2025-04-14
+expenditure,2025-01-03,"Squarespace, Inc",$25,New York,NY,business,Software subscription,D,435946,2025-04-14
+expenditure,2025-01-28,Staples,$13.77,Leesburg,VA,business,Purchase 1099 tax forms by debit,D,435946,2025-04-14
+expenditure,2025-01-29,United States Post Office,$6.35,Leesburg,VA,business,Certified mail fee,D,435946,2025-04-14
+expenditure,2025-02-03,"Squarespace, Inc",$25,New York,NY,business,Software subscription,D,435946,2025-04-14
+expenditure,2025-02-12,Democratic Party of Virginia,$909.01,Richmond,VA,party,VAN subscription,D,435946,2025-04-14
+expenditure,2025-03-04,"Squarespace, Inc",$25,New York,NY,business,Software subscription,D,435946,2025-04-14
+expenditure,2025-03-18,Rose Lumpkin,"$3,000",Mechanicsville,VA,individual,Finance Director Fee,D,435946,2025-04-14
+expenditure,2025-03-18,Matthew Montgomery,$500,Reston,VA,individual,Campaign manager fee,D,435946,2025-04-14
+expenditure,2025-03-20,"Squarespace, Inc",$20,New York,NY,business,Software subscription,D,435946,2025-04-14
+expenditure,2025-03-27,Commonwealth Victory Fund,$650,Richmond,VA,business,2024 Homestead Attendance Fee,D,435946,2025-04-14
+expenditure,2025-03-28,Raise More Inc,$175,Brooklyn,NY,business,Fundraising campaign,D,435946,2025-04-14
+expenditure,2025-03-29,"Fernando Marty"""" J Martinez","$2,232.80",Leesburg,VA,individual,Deposit 3/28 made in error. Refund candidate.,D,435946,2025-04-14
+expenditure,2025-03-30,"Fernando Marty"""" J Martinez",$90,Leesburg,VA,individual,Reimbursement for tips paid to servers.,D,435946,2025-04-14
+expenditure,2025-03-31,ActBlue,$432.96,West Somerville,MA,business,Transaction fees,D,435946,2025-04-14
+expenditure,2025-03-31,"Fernando Marty"""" J Martinez","$2,232.80",Leesburg,VA,individual,Reimbursement--website update & filing fee,D,435946,2025-04-14
+expenditure,2025-04-01,NGP VAN Inc.,$336,Washington,DC,business,Software subscription,D,441761,2025-06-09
+expenditure,2025-04-03,NGP VAN Inc.,$672,Washington,DC,business,Software subscription,D,441761,2025-06-09
+expenditure,2025-04-04,Matthew Montgomery,$675,Reston,VA,individual,Reimbursement for Blue Gala Fundraiser,D,441761,2025-06-09
+expenditure,2025-04-14,Atlantic Union Bank,$69,Leesburg,VA,business,Reordering more checks,D,441761,2025-06-09
+expenditure,2025-04-14,Rose Lumpkin,"$3,000",Mechanicsville,VA,individual,Finance Director Fee,D,441761,2025-06-09
+expenditure,2025-04-14,Matthew Montgomery,$500,Reston,VA,individual,Campaign Manager Fee,D,441761,2025-06-09
+expenditure,2025-04-24,Atlantic Union Bank,$30,Leesburg,VA,business,Double wiring fee of $15,D,441761,2025-06-09
+expenditure,2025-04-28,Raise More Inc,$175,Brooklyn,NY,business,Phone Dialer Fee,D,441761,2025-06-09
+expenditure,2025-04-30,Atlantic Union Bank,$15,Leesburg,VA,business,Wiring fee,D,441761,2025-06-09
+expenditure,2025-04-30,United States Post Office,$464,Leesburg,VA,business,P.O. Renewal,D,441761,2025-06-09
+expenditure,2025-05-07,Bergmann Zwerdling Direct,$760.63,Washington,DC,business,"New literature, 5,000 walk cards",D,441761,2025-06-09
+expenditure,2025-05-07,NGP VAN Inc.,$336,Washington,DC,business,Software subscription,D,441761,2025-06-09
+expenditure,2025-05-12,Rose Lumpkin,"$3,000",Mechanicsville,VA,individual,Finance Director Fee,D,441761,2025-06-09
+expenditure,2025-05-12,Matthew Montgomery,$500,Reston,VA,individual,Campaign Manager Fee,D,441761,2025-06-09
+expenditure,2025-05-20,"Love, KK",$44.32,Sterling,VA,business,Event ticket,D,441761,2025-06-09
+expenditure,2025-05-20,Office Depot,$5.29,Leesburg,VA,business,Rubber bands for packets,D,441761,2025-06-09
+expenditure,2025-05-20,Repro Rising Virginia,$150,Alexandria,VA,business,Ticket for 14th Annual Repro Gala,D,441761,2025-06-09
+expenditure,2025-05-22,Gibson Print,$502.44,Henrico,VA,business,Stickers and Banner,D,441761,2025-06-09
+expenditure,2025-05-29,Raise More Inc,$175,Brooklyn,NY,business,Phone Dialer Monthly Fee,D,441761,2025-06-09
+expenditure,2025-06-05,ActBlue,$262.37,West Somerville,MA,business,Transaction Fees,D,441761,2025-06-09
+expenditure,2025-06-05,NGP VAN Inc.,$336,Washington,DC,business,Software Subscription,D,441761,2025-06-09
+expenditure,2025-06-08,11th Congressional District Democratic Committee,$150,Fairfax,VA,business,Ticket for event,D,447861,2025-07-15
+expenditure,2025-06-09,Matthew Montgomery,$755,Reston,VA,individual,Reimbursement for NCSL Summit Ticket,D,447861,2025-07-15
+expenditure,2025-06-16,Atlantic Union Bank,$15,Leesburg,VA,business,Wire fee,D,447861,2025-07-15
+expenditure,2025-06-16,Rose Lumpkin,"$3,500",Mechanicsville,VA,individual,Finance Director Fee,D,447861,2025-07-15
+expenditure,2025-06-16,Matthew Montgomery,"$1,000",Reston,VA,individual,Campaign Manager Fee,D,447861,2025-07-15
+expenditure,2025-06-16,Matthew Montgomery,$500,Reston,VA,individual,Refund for fundraiser ticket,D,447861,2025-07-15
+expenditure,2025-06-18,Network NOVA,$268.61,Falls Church,VA,business,Women's Summit Ticket,D,447861,2025-07-15
+expenditure,2025-06-28,Raise More Inc,$175,Brooklyn,NY,business,Phone Dialer Fee,D,447861,2025-07-15
+expenditure,2025-06-30,ActBlue,$20.36,West Somerville,MA,business,Transaction Fee,D,447861,2025-07-15
+expenditure,2025-07-03,NGP VAN Inc.,$336,Washington,DC,business,Software Subscription,D,454180,2025-09-15
+expenditure,2025-07-04,Matthew Montgomery,$60.57,Reston,VA,individual,Reimbursement,D,454180,2025-09-15
+expenditure,2025-07-10,Rose Lumpkin,$15.33,Mechanicsville,VA,individual,Reimbursement for supplies,D,454180,2025-09-15
+expenditure,2025-07-14,Rose Lumpkin,"$3,500",Mechanicsville,VA,individual,Finance Director Fee,D,454180,2025-09-15
+expenditure,2025-07-14,Matthew Montgomery,"$1,000",Reston,VA,individual,Campaign Manager Fee,D,454180,2025-09-15
+expenditure,2025-07-23,House Democratic Caucus,"$25,000",Richmond,VA,party,Campaign Contribution,D,454180,2025-09-15
+expenditure,2025-07-28,Loudoun County NAACP #7084,$250,Leesburg,VA,business,Ticket for NAACP Golf Tournament,D,454180,2025-09-15
+expenditure,2025-07-28,Raise More Inc,$175,Brooklyn,NY,business,Phone Dialer Fee,D,454180,2025-09-15
+expenditure,2025-08-04,Amazon.com,$50.97,Seattle,WA,business,Avery name tags and address labels,D,454180,2025-09-15
+expenditure,2025-08-04,NGP VAN Inc.,$336,Washington,DC,business,Software Subscription,D,454180,2025-09-15
+expenditure,2025-08-04,United States Post Office,$78,Leesburg,VA,business,Stamps,D,454180,2025-09-15
+expenditure,2025-08-12,Loudoun County Democratic Committee,$150,Leesburg,VA,business,"County Wide Canvassing Event, Logo expense",D,454180,2025-09-15
+expenditure,2025-08-14,Rose Lumpkin,"$3,500",Mechanicsville,VA,individual,Finance Director Fee,D,454180,2025-09-15
+expenditure,2025-08-14,Matthew Montgomery,"$1,000",Reston,VA,individual,Campaign Manager Fee,D,454180,2025-09-15
+expenditure,2025-08-15,Bergmann Zwerdling Direct,$760.63,Washington,DC,business,Reprint of literature,D,454180,2025-09-15
+expenditure,2025-08-20,Atlantic Union Bank,$15,Leesburg,VA,business,Wiring Fee,D,454180,2025-09-15
+expenditure,2025-08-20,Nancy Morgan,$50,Leesburg,VA,individual,Refund on ActBlue,D,454180,2025-09-15
+expenditure,2025-08-25,Anvi Borkar,$870,Chantilly,VA,individual,Campaign and Legislative Internship Pay,D,454180,2025-09-15
+expenditure,2025-08-25,Samarth Chenumolu,$893,Ashburn,VA,individual,Campaign and Legislative Internship Pay,D,454180,2025-09-15
+expenditure,2025-08-25,Andrew Francis,$800,Leesburg,VA,individual,Campaign and Legislative Internship Pay,D,454180,2025-09-15
+expenditure,2025-08-25,Eva Ingram,$855,Leesburg,VA,individual,Campaign and Legislative Internship Pay,D,454180,2025-09-15
+expenditure,2025-08-25,"Fernando Marty"""" J Martinez",$5.45,Leesburg,VA,individual,Parking reimbursement,D,454180,2025-09-15
+expenditure,2025-08-25,"Fernando Marty"""" J Martinez",$10.45,Leesburg,VA,individual,Parking reimbursement,D,454180,2025-09-15
+expenditure,2025-08-25,Matthew Montgomery,$47.92,Reston,VA,individual,Campaign meal reimbursement,D,454180,2025-09-15
+expenditure,2025-08-31,ActBlue,$163.65,West Somerville,MA,business,Transaction Fees,D,454180,2025-09-15
+expenditure,2025-09-05,NGP VAN Inc.,$336,Washington,DC,business,Software Subscription,D,460934,2025-10-15
+expenditure,2025-09-08,Matthew Montgomery,$29.98,Reston,VA,individual,Reimbursement for donuts brought to canvas launch,D,460934,2025-10-15
+expenditure,2025-09-12,Democratic Party of Virginia,"$11,234.28",Richmond,VA,party,"Wire Transfer, mailer",D,460934,2025-10-15
+expenditure,2025-09-14,Atlantic Union Bank,$30,Leesburg,VA,business,Wiring Fee,D,460934,2025-10-15
+expenditure,2025-09-16,Rose Lumpkin,"$3,500",Mechanicsville,VA,individual,Finance Director Fee,D,460934,2025-10-15
+expenditure,2025-09-17,Rose Lumpkin,$19.60,Mechanicsville,VA,individual,Reimbursement for office supplies,D,460934,2025-10-15
+expenditure,2025-09-24,House Democratic Caucus,"$6,000",Richmond,VA,party,Contribution,D,460934,2025-10-15
+expenditure,2025-09-24,Rose Lumpkin,$38.38,Mechanicsville,VA,individual,Meet and Greet supplies,D,460934,2025-10-15
+expenditure,2025-09-25,Bergmann Zwerdling Direct,$760.63,Washington,DC,business,Reprint for literature,D,460934,2025-10-15
+expenditure,2025-09-30,ActBlue,$221.04,West Somerville,MA,business,Transaction Fees,D,460934,2025-10-15
+expenditure,2025-10-03,NGP VAN Inc.,$336,Washington,DC,business,Software Subscription,D,465385,2025-10-27
+expenditure,2025-10-14,Gibson Print,$785.76,Henrico,VA,business,Yard Signs,D,465385,2025-10-27
+expenditure,2025-10-14,Rose Lumpkin,"$3,500",Mechanicsville,VA,individual,Finance Director Fee,D,465385,2025-10-27
+expenditure,2025-10-17,Atlantic Union Bank,$15,Leesburg,VA,business,Wire Fee,D,465385,2025-10-27
+expenditure,2025-10-17,Atlantic Union Bank,$30,Leesburg,VA,business,Wire Fee,D,465385,2025-10-27
+expenditure,2025-10-17,House Democratic Caucus,"$10,000",Richmond,VA,party,Contribution - 2025 Member Goal,D,465385,2025-10-27
+expenditure,2025-10-22,"Fernando Marty"""" J Martinez",$116.35,Leesburg,VA,individual,Reimbursement for office supplies,D,465385,2025-10-27
+expenditure,2025-10-23,ActBlue,$79.33,West Somerville,MA,business,Transaction Fees,D,465385,2025-10-27
+expenditure,2025-10-31,"The Korea Times, Washington, D.C.",$100,Alexandria,VA,business,Advertising,D,470990,2025-12-02
+expenditure,2025-11-04,Rose Lumpkin,$500,Mechanicsville,VA,individual,Bonus,D,470990,2025-12-02
+expenditure,2025-11-04,Matthew Montgomery,"$1,000",Reston,VA,individual,Bonus,D,470990,2025-12-02
+expenditure,2025-11-04,NGP VAN Inc.,$336,Washington,DC,business,Software Subscription,D,470990,2025-12-02
+expenditure,2025-11-18,Matthew Montgomery,$448,Reston,VA,individual,Reimbursement for Event Supplies,D,470990,2025-12-02
+expenditure,2025-11-21,Rose Lumpkin,"$1,750",Mechanicsville,VA,individual,Finance Director Fee,D,470990,2025-12-02
+expenditure,2025-11-25,ActBlue,$58.70,West Somerville,MA,business,Act Blue Fees,D,470990,2025-12-02
 expenditure,2025-12-01,Gibson Print,$809.05,Henrico,VA,business,Holiday Mailer,D,475762,2026-01-08
 expenditure,2025-12-01,Texas Roadhouse,$500,Chantilly,VA,business,Donor Appreciation,D,475762,2026-01-08
 expenditure,2025-12-12,Matthew Montgomery,$238.30,Reston,VA,individual,Reimbursement for Event Supplies,D,475762,2026-01-08

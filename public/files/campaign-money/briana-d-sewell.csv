@@ -3,6 +3,116 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$17,009.67",,VA,,"From official Schedule H, November 2025 election cycle",H,497070,2026-07-15
 summary,2026-06-30,Raised this cycle,"$11,290",,,,Total receipts this election cycle (Schedule H),H,497070,2026-07-15
 summary,2026-06-30,Spent this cycle,"$16,947.36",,,,Total disbursements this election cycle (Schedule H),H,497070,2026-07-15
+contribution,2025-03-10,Sarah Brazier,$100,Miami,FL,individual,,A,436483,2025-04-15
+contribution,2025-03-10,Commissioner of the Revenue Political Action Committee,$250,Staunton,VA,pac,,A,436483,2025-04-15
+contribution,2025-03-02,David Heacock,$100,Norfolk,VA,individual,,A,436483,2025-04-15
+contribution,2025-03-02,Lauren Hershey,$185,Oakton,VA,individual,,A,436483,2025-04-15
+contribution,2025-02-24,David W Jones,$500,Washington,DC,individual,,A,436483,2025-04-15
+contribution,2025-02-25,Sue Lee-Clark,$250,Woodbridge,VA,individual,,A,436483,2025-04-15
+contribution,2025-02-24,William Lowry,$100,Alexandria,VA,individual,,A,436483,2025-04-15
+contribution,2025-03-18,Earnest W. Porta Jr,$250,Occoquan,VA,individual,,A,436483,2025-04-15
+contribution,2025-02-24,Mark Porter,$100,Woodbridge,VA,individual,,A,436483,2025-04-15
+contribution,2025-02-27,Richard Raskin,"$1,000",Manassas,VA,individual,,A,436483,2025-04-15
+contribution,2025-01-05,SEIU COPE,$500,Washington,DC,pac,,A,436483,2025-04-15
+contribution,2025-02-25,Rodrigo Soto,$250,Springfield,VA,individual,,A,436483,2025-04-15
+contribution,2025-02-25,VA Operators for Skill,"$2,500",Richmond,VA,business,,A,436483,2025-04-15
+contribution,2025-02-25,VINDMAN FOR CONGRESS,$500,Dumfries,VA,candidate,,A,436483,2025-04-15
+contribution,2025-02-25,Virginia Independent Auto Dealers PAC,$250,Midlothian,VA,pac,,A,436483,2025-04-15
+contribution,2025-02-24,Marilyn Whitley,$100,Woodbridge,VA,individual,,A,436483,2025-04-15
+contribution,2025-06-02,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,454209,2025-09-15
+contribution,2025-05-20,American Healthcare LLC,"$1,000",Roanoke,VA,business,,A,454209,2025-09-15
+contribution,2025-04-30,Ellen Boneparth,$125,Lake Ridge,VA,individual,,A,454209,2025-09-15
+contribution,2025-06-02,Capital Results LLC,$500,Richmond,VA,business,,A,454209,2025-09-15
+contribution,2025-06-02,COmmunity-Owned Power PAC,"$1,000",Glen Allen,VA,pac,,A,454209,2025-09-15
+contribution,2025-06-05,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,454209,2025-09-15
+contribution,2025-05-27,Truckers Political Action Committee of VA,$250,Richmond,VA,pac,,A,454209,2025-09-15
+contribution,2025-05-19,Vindman for Congress,$500,Dumfries,VA,candidate,,A,454209,2025-09-15
+contribution,2025-06-02,Virginia Automobile & Truck Dealers PAC,"$10,000",Richmond,VA,pac,,A,454209,2025-09-15
+contribution,2025-06-02,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,A,454209,2025-09-15
+contribution,2025-06-02,Virginia Manufactured and Modular Housing Association,"$1,000",Richmond,VA,business,,A,454209,2025-09-15
+contribution,2025-06-02,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,454209,2025-09-15
+contribution,2025-06-02,WM,"$1,000",Houston,TX,business,,A,454209,2025-09-15
+contribution,2025-06-26,"DoorDash, Inc",$250,San Francisco,CA,business,,A,448405,2025-07-15
+contribution,2025-06-10,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,448405,2025-07-15
+contribution,2025-06-30,Prince William Chamber PAC,"$2,500",Henrico,VA,pac,,A,448405,2025-07-15
+contribution,2025-06-10,"Republic Services, Inc",$250,Phoenix,AZ,business,,A,448405,2025-07-15
+contribution,2025-06-26,VEA Fund for Children and Public Education,$250,Richmond,VA,pac,,A,448405,2025-07-15
+contribution,2025-08-27,AFSCME,"$2,500",Washington,DC,business,,A,454188,2025-09-15
+contribution,2025-08-20,Amazon.com Services LLC,"$1,000",Seattle,WA,business,,A,454188,2025-09-15
+contribution,2025-08-20,Anheuser Busch,$500,Van Nuys,CA,business,,A,454188,2025-09-15
+contribution,2025-08-20,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,A,454188,2025-09-15
+contribution,2025-08-20,Comcast Corporation,$500,Philadelphia,PA,business,,A,454188,2025-09-15
+contribution,2025-08-20,HCA For Good Government,"$1,000",Richmond,VA,business,,A,454188,2025-09-15
+contribution,2025-07-27,James Walkenshaw for Braddock Supervisor,"$2,000",Springfield,VA,candidate,,A,454188,2025-09-15
+contribution,2025-08-20,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,A,454188,2025-09-15
+contribution,2025-08-20,Strata Solar LLC,$500,Durham,NC,business,,A,454188,2025-09-15
+contribution,2025-08-20,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,A,454188,2025-09-15
+contribution,2025-07-30,Kenneth Beard Wiseman III,$250,Manassas,VA,individual,,A,454188,2025-09-15
+contribution,2025-09-28,Betting on VA Jobs Political Action Committee,"$2,500",Richmond,VA,pac,,A,461219,2025-10-15
+contribution,2025-09-29,Bloom Energy Corporation,"$1,000",San Jose,CA,business,,A,461219,2025-10-15
+contribution,2025-09-10,Capital One Services LLC,$500,Reston,VA,business,,A,461219,2025-10-15
+contribution,2025-09-17,Care Advantage Inc,"$1,500",North Chesterfield,VA,business,,A,461219,2025-10-15
+contribution,2025-09-28,Community Associations Institute Virginia PAC,"$1,500",Falls Church,VA,pac,,A,461219,2025-10-15
+contribution,2025-09-29,Cozen O'Connor,$500,Richmond,VA,business,,A,461219,2025-10-15
+contribution,2025-09-05,Bonny Fahy,$100,Woodbridge,VA,individual,,A,461219,2025-10-15
+contribution,2025-09-26,Bonny Fahy,$50,Woodbridge,VA,individual,,A,461219,2025-10-15
+contribution,2025-09-17,"Freedom Virginia, Inc.","$1,000",Arlington,VA,business,,A,461219,2025-10-15
+contribution,2025-09-10,General Motors Company Political Action Committee,$500,Washington,DC,pac,,A,461219,2025-10-15
+contribution,2025-09-16,HBAV Build PAC,"$5,000",Richmond,VA,pac,,A,461219,2025-10-15
+contribution,2025-09-27,Lemuel Hillian,$250,Woodbridge,VA,individual,,A,461219,2025-10-15
+contribution,2025-09-25,Kirk Johnson,$50,Woodbridge,VA,individual,,A,461219,2025-10-15
+contribution,2025-09-29,John R Koza,$500,Los Altos,CA,individual,,A,461219,2025-10-15
+contribution,2025-09-10,LKQ Corporation Employee Good Government Fund,$500,Washington,DC,business,,A,461219,2025-10-15
+contribution,2025-09-17,Northern Virginia Electric Co-Op,"$1,500",Manassas,VA,business,,A,461219,2025-10-15
+contribution,2025-09-10,Obvio Inc,"$1,000",San Carlos,CA,business,,A,461219,2025-10-15
+contribution,2025-09-26,Curtis Porter,$500,Manassas,VA,individual,,A,461219,2025-10-15
+contribution,2025-09-29,Seven Hills Strategy Group LLC,$250,Richmond,VA,business,,A,461219,2025-10-15
+contribution,2025-09-10,Sheetz,$500,Altoona,PA,business,,A,461219,2025-10-15
+contribution,2025-09-10,Strong Start PAC,"$2,500",Richmond,VA,pac,,A,461219,2025-10-15
+contribution,2025-09-17,UpVote PAC,$500,Chesterfield,VA,pac,,A,461219,2025-10-15
+contribution,2025-09-18,VA Beverage Association Political Action Committee,"$1,000",Richmond,VA,pac,,A,461219,2025-10-15
+contribution,2025-09-28,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,A,461219,2025-10-15
+contribution,2025-09-18,Virginia Wine Wholesalers Political Action Committee,"$1,000",Richmond,VA,pac,,A,461219,2025-10-15
+contribution,2025-10-08,SEIU COPE,"$1,000",Washington,DC,individual,,A,466005,2025-10-27
+contribution,2025-10-16,ND CH Development,"$5,000",Towson,MD,individual,,A,466005,2025-10-27
+contribution,2025-10-05,Deborah Buckley Dodd,$100,Woodbridge,VA,individual,,A,466005,2025-10-27
+contribution,2025-10-06,Bonny Fahy,$25,Woodbridge,VA,individual,,A,466005,2025-10-27
+contribution,2025-10-16,Genworth Financial,"$1,000",Lynchburg,VA,business,,A,466005,2025-10-27
+contribution,2025-10-16,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,466005,2025-10-27
+contribution,2025-10-16,K12 Management Inc,"$1,000",Reston,VA,business,,A,466005,2025-10-27
+contribution,2025-10-02,Metro Virginia PAC,$500,Washington,DC,pac,,A,466005,2025-10-27
+contribution,2025-10-22,PMI US Corporation Services,"$2,500",Washington,DC,business,,A,466005,2025-10-27
+contribution,2025-10-06,Earnest W. Porta Jr,"$1,000",Occoquan,VA,individual,,A,466005,2025-10-27
+contribution,2025-10-06,Mark Porter,$100,Woodbridge,VA,individual,,A,466005,2025-10-27
+contribution,2025-10-06,Valerie Porter,$200,Woodbridge,VA,individual,,A,466005,2025-10-27
+contribution,2025-10-16,Premium Distributors of Virginia LLC,$500,Chantilly,VA,business,,A,466005,2025-10-27
+contribution,2025-10-22,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,business,,A,466005,2025-10-27
+contribution,2025-10-20,Melinda Salata,$150,Annapolis,MD,individual,,A,466005,2025-10-27
+contribution,2025-10-23,Marion Sewell Jr,"$1,000",Woodbridge,VA,individual,,A,466005,2025-10-27
+contribution,2025-10-22,VA Digital Infrastructure PAC,"$2,500",Richmond,VA,pac,,A,466005,2025-10-27
+contribution,2025-10-20,Virginia Apartment Management Association PAC,"$1,000",Richmond,VA,pac,,A,466005,2025-10-27
+contribution,2025-10-22,Virginia Credit Union Political Action Committee,"$2,500",Lynchburg,VA,pac,,A,466005,2025-10-27
+contribution,2025-10-16,Virginia Mortgage Bankers Association Political Action Committee,$500,Glen Allen,VA,pac,,A,466005,2025-10-27
+contribution,2025-10-16,Virginia Natural Gas,$500,Virginia Beach,VA,business,,A,466005,2025-10-27
+contribution,2025-10-16,ACE Development Company LLC,"$1,500",Salt Lake City,UT,business,,A,466005,2025-10-27
+contribution,2025-10-16,Virginia Sierra Club Political Action Committee,$200,Richmond,VA,pac,,A,466005,2025-10-27
+contribution,2025-10-21,Vow PAC,"$1,000",Richmond,VA,pac,,A,466005,2025-10-27
+contribution,2025-10-30,American Healthcare LLC,"$3,000",Roanoke,VA,business,,A,472475,2025-12-04
+contribution,2025-10-30,Collective PAC,$500,Washington,DC,pac,,A,472475,2025-12-04
+contribution,2025-10-29,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,business,,A,472475,2025-12-04
+contribution,2025-10-30,Enterprise Mobility Political Action Committee,$500,Saint Louis,MO,pac,,A,472475,2025-12-04
+contribution,2025-10-25,Kirk Johnson,$50,Woodbridge,VA,individual,,A,472475,2025-12-04
+contribution,2025-11-25,Kirk Johnson,$50,Woodbridge,VA,individual,,A,472475,2025-12-04
+contribution,2025-10-31,David W Jones,$250,Washington,DC,individual,,A,472475,2025-12-04
+contribution,2025-10-29,McGuire Woods,$500,Richmond,VA,business,,A,472475,2025-12-04
+contribution,2025-11-03,McGuireWoods,$500,Richmond,VA,business,,A,472475,2025-12-04
+contribution,2025-10-30,NOVA Build PAC,"$2,500",Chantilly,VA,pac,,A,472475,2025-12-04
+contribution,2025-10-30,Pom of Virginia LLC,"$2,500",Duluth,GA,business,,A,472475,2025-12-04
+contribution,2025-10-31,Xavier R Richardson,$350,Spotsylvania,VA,individual,,A,472475,2025-12-04
+contribution,2025-10-30,"The Williams Companies, Inc",$500,Tulsa,OK,business,,A,472475,2025-12-04
+contribution,2025-10-30,VA Operators for Skill,"$2,500",Richmond,VA,business,,A,472475,2025-12-04
+contribution,2025-10-30,Verizon,$500,Washington,DC,business,,A,472475,2025-12-04
+contribution,2025-11-20,Virginia Asphalt Association,$250,Henrico,VA,business,,A,472475,2025-12-04
 contribution,2025-12-30,Acadia Healthcare Company Inc PAC,$500,Franklin,TN,pac,,A,479857,2026-01-15
 contribution,2025-12-30,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,A,479857,2026-01-15
 contribution,2025-12-22,Mental Health PAC,"$1,000",Washington,DC,pac,,A,479857,2026-01-15
@@ -22,7 +132,93 @@ contribution,2026-01-07,Truckers Political Action Committee of VA,$250,Richmond,
 contribution,2026-04-08,Vantage Data Centers Management Co LLC,$500,Santa Clara,CA,business,,A,497070,2026-07-15
 contribution,2026-04-08,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,497070,2026-07-15
 contribution,2026-01-07,Virginia Manufactured and Modular Housing Association,"$1,000",Richmond,VA,business,,A,497070,2026-07-15
+in_kind,2025-02-23,CastleRock Partners LLC,"$2,503.73",Vienna,VA,business,Fundraiser Food and Drink,B,436483,2025-04-15
+in_kind,2025-02-24,Briana Sewell,$306.87,Woodbridge,VA,individual,Rally Signs and Hand Fans,B,436483,2025-04-15
+in_kind,2025-05-22,Virginia Beer Wholesalers Association,$345.49,Richmond,VA,business,Food for fundraising event,B,454209,2025-09-15
+in_kind,2025-07-01,Briana Sewell,$129.54,Woodbridge,VA,individual,Tote bags for event,B,454188,2025-09-15
+in_kind,2025-11-21,Briana Sewell,$129.81,Woodbridge,VA,individual,Supplies for Turkey Giveaway,B,472475,2025-12-04
+other_receipt,2025-05-08,Prince William County,$352.80,Woodbridge,VA,business,REIMBURSEMENT,C,454209,2025-09-15
 other_receipt,2025-12-15,Off Duty Management,$36.72,Katy,TX,business,Last hour unneeded,C,479857,2026-01-15
+expenditure,2025-01-08,"Zoom Communications, Inc.",$16.79,San Jose,CA,business,Professional Account,D,436483,2025-04-15
+expenditure,2025-01-31,Google LLC,$76.64,Mountain View,CA,business,Google Workspace,D,436483,2025-04-15
+expenditure,2025-01-31,Google Voice Inc.,$25.55,Mountain View,CA,business,Phone Line,D,436483,2025-04-15
+expenditure,2025-01-31,Toronto Dominion Bank,$10,Woodbridge,VA,business,Maintenance Fees,D,436483,2025-04-15
+expenditure,2025-02-08,"Zoom Communications, Inc.",$16.79,San Jose,CA,business,Professional Account,D,436483,2025-04-15
+expenditure,2025-02-19,Landslide Digital LLC,"$3,500",Leesburg,VA,business,Website Redesign,D,436483,2025-04-15
+expenditure,2025-02-28,Google LLC,$76.64,Mountain View,CA,business,Google Workspace,D,436483,2025-04-15
+expenditure,2025-02-28,Google Voice Inc.,$25.55,Mountain View,CA,business,Phone Line,D,436483,2025-04-15
+expenditure,2025-02-28,Toronto Dominion Bank,$10,Woodbridge,VA,business,Maintenance Fees,D,436483,2025-04-15
+expenditure,2025-03-08,"Zoom Communications, Inc.",$16.79,San Jose,CA,business,Professional Account,D,436483,2025-04-15
+expenditure,2025-03-31,Google LLC,$85.69,Mountain View,CA,business,Google Workspace,D,436483,2025-04-15
+expenditure,2025-03-31,Google Voice Inc.,$25.55,Mountain View,CA,business,Phone Line,D,436483,2025-04-15
+expenditure,2025-03-31,Toronto Dominion Bank,$10,Woodbridge,VA,business,Maintenance Fees,D,436483,2025-04-15
+expenditure,2025-04-02,Google LLC,$85.69,Mountain View,CA,business,Google Workplace Suite,D,454209,2025-09-15
+expenditure,2025-04-02,Google Voice Inc.,$25.55,Mountain View,CA,business,Google Voice Phoneline,D,454209,2025-09-15
+expenditure,2025-04-02,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Contribution,D,454209,2025-09-15
+expenditure,2025-04-08,"Zoom Communications, Inc.",$16.79,San Jose,CA,business,Zoom Professional Account,D,454209,2025-09-15
+expenditure,2025-04-15,Virginia House Democratic Caucus,"$2,500",Richmond,VA,party,Contribution,D,454209,2025-09-15
+expenditure,2025-04-30,TD Bank,$10,Saint Louis,MO,business,Maintenance Fee,D,454209,2025-09-15
+expenditure,2025-05-02,Google LLC,$54,Mountain View,CA,business,Google Workplace Suite,D,454209,2025-09-15
+expenditure,2025-05-02,Google Voice Inc.,$25.57,Mountain View,CA,business,Google Voice Phoneline,D,454209,2025-09-15
+expenditure,2025-05-08,"Zoom Communications, Inc.",$16.79,San Jose,CA,business,Zoom Professional Account,D,454209,2025-09-15
+expenditure,2025-05-19,Joseph Tennant,"$1,500",Woodbridge,VA,individual,Campaign Staffing,D,454209,2025-09-15
+expenditure,2025-05-27,Dick's Sporting Goods,$206.68,Coraopolis,PA,business,Fundraising Event Outdoor Game,D,454209,2025-09-15
+expenditure,2025-05-30,TD Bank,$10,Saint Louis,MO,business,Maintenance Fee,D,454209,2025-09-15
+expenditure,2025-06-01,Joseph Tennant,"$1,500",Woodbridge,VA,individual,Campaign Staffing,D,454209,2025-09-15
+expenditure,2025-06-03,Leaders for an Equitable Tomorrow PAC,"$1,000",Richmond,VA,pac,PAC Contribution,D,454209,2025-09-15
+expenditure,2025-06-08,"Zoom Communications, Inc.",$17.84,San Jose,CA,business,Zoom Professional Account,D,448405,2025-07-15
+expenditure,2025-06-11,Jay Jones for Virginia,$500,Williamsburg,VA,business,Contribution,D,448405,2025-07-15
+expenditure,2025-06-12,Google LLC,$73.80,Mountain View,CA,business,Google Workspace,D,448405,2025-07-15
+expenditure,2025-06-12,Google Voice Inc.,$25.57,Mountain View,CA,business,Google Voice Line,D,448405,2025-07-15
+expenditure,2025-06-17,Gibson Print,$675.75,Richmond,VA,business,Campaign Merch,D,448405,2025-07-15
+expenditure,2025-06-19,Gibson Print,$360.40,Richmond,VA,business,Campaign Merchandise,D,448405,2025-07-15
+expenditure,2025-06-20,Virginia Democratic Women's Caucus,$500,Burke,VA,business,Contribution,D,448405,2025-07-15
+expenditure,2025-06-20,Virginia Young Democrats,$500,Woodbridge,VA,business,Contribution,D,448405,2025-07-15
+expenditure,2025-06-30,TD Bank,$10,Saint Louis,MO,business,Maintenance Fee,D,448405,2025-07-15
+expenditure,2025-07-01,Joseph Tennant,"$1,500",Woodbridge,VA,individual,Campaign Staffing,D,454188,2025-09-15
+expenditure,2025-07-02,Google LLC,$509.40,Mountain View,CA,business,Google Workspace,D,454188,2025-09-15
+expenditure,2025-07-02,Google Voice Inc.,$20.06,Mountain View,CA,business,Google Voice Number,D,454188,2025-09-15
+expenditure,2025-07-08,"Zoom Communications, Inc.",$17.84,San Jose,CA,business,Zoom Pro Account,D,454188,2025-09-15
+expenditure,2025-07-23,Gibson Print,$238.50,Richmond,VA,business,Campaign Merch,D,454188,2025-09-15
+expenditure,2025-07-30,Virginia House Democratic Caucus,"$15,000",Richmond,VA,party,Caucus Contribution,D,454188,2025-09-15
+expenditure,2025-07-31,TD Bank,$10,Saint Louis,MO,business,Maintenance Fee,D,454188,2025-09-15
+expenditure,2025-08-01,Joseph Tennant,"$1,000",Woodbridge,VA,individual,Campaign Staffing,D,454188,2025-09-15
+expenditure,2025-08-04,Google LLC,$25.53,Mountain View,CA,business,Google Workspace,D,454188,2025-09-15
+expenditure,2025-08-04,Google Voice Inc.,$25.53,Mountain View,CA,business,Google Voice Number,D,454188,2025-09-15
+expenditure,2025-08-08,"Zoom Communications, Inc.",$17.84,San Jose,CA,business,Zoom account,D,454188,2025-09-15
+expenditure,2025-08-28,Joseph Tennant,$500,Woodbridge,VA,individual,Campaign Staffing,D,454188,2025-09-15
+expenditure,2025-08-29,TD Bank,$10,Saint Louis,MO,business,Maintenance Fee,D,454188,2025-09-15
+expenditure,2025-08-29,Woodbridge Senior High school,$185,Woodbridge,VA,business,Donation for the Cheerleading Program Fundraiser,D,454188,2025-09-15
+expenditure,2025-09-01,Joseph Tennant,"$1,500",Woodbridge,VA,individual,Campaign Staffing,D,461219,2025-10-15
+expenditure,2025-09-01,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Caucus Contribution,D,461219,2025-10-15
+expenditure,2025-09-02,Google LLC,$10.80,Mountain View,CA,business,Google workspace,D,461219,2025-10-15
+expenditure,2025-09-02,Google LLC,$25.57,Mountain View,CA,business,Google Voice Number,D,461219,2025-10-15
+expenditure,2025-09-05,Gibson Print,"$1,682.75",Richmond,VA,business,Yard Signs,D,461219,2025-10-15
+expenditure,2025-09-08,"Zoom Communications, Inc.",$17.84,San Jose,CA,business,Zoom workplace account,D,461219,2025-10-15
+expenditure,2025-09-09,Moore Campaigns,"$3,900",Washington,DC,business,Campaign Walk Literature,D,461219,2025-10-15
+expenditure,2025-09-30,TD Bank,$10,Saint Louis,MO,business,Maintenance Fee,D,461219,2025-10-15
+expenditure,2025-10-01,Joseph Tennant,"$2,500",Woodbridge,VA,individual,Campaign Staffing,D,466005,2025-10-27
+expenditure,2025-10-01,Virginia House Democratic Caucus,"$27,500",Richmond,VA,party,Caucus Contribution,D,466005,2025-10-27
+expenditure,2025-10-02,Google LLC,$10.80,Mountain View,CA,business,Google Workspace Account,D,466005,2025-10-27
+expenditure,2025-10-02,Google Voice Inc.,$25.55,Mountain View,CA,business,Google Voice Phone Line,D,466005,2025-10-27
+expenditure,2025-10-06,Mill Street Draft Garden,"$1,942.27",Occoquan,VA,business,Food and Drink for Fundraiser,D,466005,2025-10-27
+expenditure,2025-10-13,"Rising Tide Interactive, LLC","$20,000.20",Washington,DC,business,Digital Advertising,D,466005,2025-10-27
+expenditure,2025-10-13,"Rising Tide Interactive, LLC","$10,000",Washington,DC,business,Digital Advertising,D,466005,2025-10-27
+expenditure,2025-10-22,TD Bank,$30,Saint Louis,MO,business,Wire Transfer Fee,D,466005,2025-10-27
+expenditure,2025-10-22,Virginia House Democratic Caucus,"$12,500",Richmond,VA,party,Caucus Contribution,D,466005,2025-10-27
+expenditure,2025-10-23,TD Bank,$30,Saint Louis,MO,business,Wire Transfer Fee,D,466005,2025-10-27
+expenditure,2025-10-23,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Contribution,D,466005,2025-10-27
+expenditure,2025-10-30,The Korea Times DC,$100,Alexandria,VA,business,Newspaper Ad,D,472475,2025-12-04
+expenditure,2025-10-31,TD Bank,$10,Saint Louis,MO,business,Maintenance Fee,D,472475,2025-12-04
+expenditure,2025-11-03,Costco,$21.89,Issaquah,WA,business,Snacks for Volunteers,D,472475,2025-12-04
+expenditure,2025-11-03,Ghazala for Virginia,"$1,000",North Chesterfield,VA,business,Campaign Contribution,D,472475,2025-12-04
+expenditure,2025-11-03,Google LLC,$10.80,Mountain View,CA,business,Google Workspace,D,472475,2025-12-04
+expenditure,2025-11-03,Google Voice Inc.,$25.70,Mountain View,CA,business,Google Voice Number,D,472475,2025-12-04
+expenditure,2025-11-03,Jay Jones for Virginia,"$1,000",Williamsburg,VA,business,Campaign Donation,D,472475,2025-12-04
+expenditure,2025-11-03,Spanberger for Governor,"$1,000",Glen Allen,VA,business,Campaign Contribution,D,472475,2025-12-04
+expenditure,2025-11-04,Costco,$43.30,Issaquah,WA,business,Snacks for Volunteers,D,472475,2025-12-04
+expenditure,2025-11-15,Michelle Moore,$50,Woodbridge,VA,individual,Accidental Donation Refund,D,472475,2025-12-04
+expenditure,2025-11-19,Off Duty Management,$756.54,Katy,TX,business,Security for Turkey Giveaway,D,472475,2025-12-04
 expenditure,2025-12-02,Google LLC,$10.80,Mountain View,CA,business,Google Workspace,D,479857,2026-01-15
 expenditure,2025-12-02,Google Voice Inc.,$25.70,Mountain View,CA,business,Google Voice Line,D,479857,2026-01-15
 expenditure,2025-12-15,Off Duty Management,$611.05,Katy,TX,business,Off Duty Officer for Food Giveaway Event,D,479857,2026-01-15

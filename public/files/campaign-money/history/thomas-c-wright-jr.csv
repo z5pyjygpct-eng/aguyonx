@@ -1,0 +1,586 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2021-03-24,Mr. & Mrs. Earl P. Pinchbeck,$100,Kenbridge,VA,individual,N/A,Retired,,A,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-01-09,Century Link,$500,Monroe,LA,business,,Telephone,,A,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-01-09,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Attorneys,,A,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-01-04,Mr. & Mrs Joe W. Borum,$250,Blackstone,VA,individual,Retired,Retired,,A,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-01-04,Columbia Gas of Virginia,$250,Chester,VA,business,,Gas Company,,A,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-01-06,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-01-28,First Citizens Bank,$203.87,Charlotte,NC,,,,Travel Expenses and Office Supplies,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-02-24,First Citizens Bank,$218.90,Charlotte,NC,,,,Travel Expense and Office Supplies,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-03-22,First Citizens Bank,$23.57,Charlotte,NC,,,,Travel Expense,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-01-22,AT & T Mobility,$91.29,Atlanta,GA,,,,Cell Phone,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-02-24,AT & T Mobility,$262.71,Atlanta,GA,,,,Cell Phone,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-03-22,AT & T Mobility,$80.12,Atlanta,GA,,,,Cell Phone,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-01-22,Farmville Herald,$36,Farmville,VA,,,,Newspaper Subscription,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-02-08,Amelia Bulletin Monitor,$30,Amelia,VA,,,,Newspaper Subscription,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-01-29,"Womack Publishing Co, Inc.",$37,Chatham,VA,,,,Newspaper Subscription,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-03-25,The Kenbridge-Victoria Dispatch,$22,Farmville,VA,,,,Newspaper Subscription,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-01-28,Verizon Wireless,$58.87,Newark,NJ,,,,Telephone,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-02-24,Verizon Wireless,$58.87,Newark,NJ,,,,Telephone,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-03-22,Verizon Wireless,$58.87,Newark,NJ,,,,Telephone,D,235793,2021-01-01 to 2021-03-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-05-08,Ms. Bonnie Hall,$250,Victoria,VA,individual,N/A,Retired,,A,242086,2021-04-01 to 2021-05-27,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-04-26,AT & T Mobility,$83.20,Atlanta,GA,,,,Cell Phone,D,242086,2021-04-01 to 2021-05-27,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-05-20,AT & T Mobility,$94.72,Atlanta,GA,,,,Cell Phone,D,242086,2021-04-01 to 2021-05-27,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-04-26,Verizon Wireless,$58.90,Newark,NJ,,,,Telephone Bill,D,242086,2021-04-01 to 2021-05-27,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-06-17,Altria Client Services LCC,"$1,000","Richmond,",VA,business,,Manufacturer,,A,245156,2021-05-28 to 2021-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-06-12,"7-Eleven, Inc.",$750,Irving,TX,business,,Convenience Stores,,A,245156,2021-05-28 to 2021-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-06-23,First Citizens Bank,$71.55,Charlotte,NC,,,,Travel Expenses,D,245156,2021-05-28 to 2021-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-06-23,AT & T Mobility,$84.62,Atlanta,GA,,,,Cell Phone,D,245156,2021-05-28 to 2021-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-06-08,"Womack Publishing Co, Inc.",$57,Chatham,VA,,,,Subscription,D,245156,2021-05-28 to 2021-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-06-02,The Southside Messenger,$50,Keysville,VA,,,,Advertisement,D,245156,2021-05-28 to 2021-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-06-14,US Postal Service,$275,Victoria,VA,,,,Postage,D,245156,2021-05-28 to 2021-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-05-29,Verizon Wireless,$58.90,Newark,NJ,,,,Telephone,D,245156,2021-05-28 to 2021-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-06-16,Verizon Wireless,$58.90,Newark,NJ,,,,Telephone,D,245156,2021-05-28 to 2021-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,Mr. Jimmie K. Crowder,$200,South Hill,VA,individual,Crowder-Hite-Crews Funeral Home,Funeral Director,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,Dr.& Mrs. Earl C. Currin,$200,Lunenburg,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-17,Mr. Eugene M. Hart,$100,Victoria,VA,individual,,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,Mr.& Mrs. D. Stuart Buchanan Sr.,$100,Skipwith,VA,individual,Retired,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-23,"Commonwealth Sportsmen Alliance, PAC",$500,Powhatan,VA,pac,,Political Action Committee,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-11,Waste Management,$750,Houston,TX,business,,Waste Collection,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-08-02,Dr. & Mrs. Ronald E. Mattox,$100,Victoria,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-09,"Virginia Wine Wholesalers, PAC","$1,000",Richmond,VA,pac,,Political Action Committee-91-258,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-13,Mr. & Mrs. Gary D. Walker,$200,Charlotte Court House,VA,individual,Cornerstone Insurance,Insurance Agent,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,Mr. & Mrs. Delmer D. Aylor,$250,Chase City,VA,individual,Self,Forester,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-13,Golden Leaf Farms,$500,Keysville,VA,business,,Farm,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-15,Mr. Richard W. Harris,$250,Kenbridge,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-22,Morgan Lumber Company,$500,"Red Oak,",VA,business,,Mfgr. and Wholesaler of Lumber Products,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-28,"Pecht Distributors, Inc.","$1,000",Lawrenceville,VA,business,,Beer Distributor,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,Virginia Beer Wholesalers Association-PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-08-06,Mr. & Mrs. Jay A. Stafford,$250,Lunenburg,VA,individual,Benchmark Community Bank,Banker,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-08-03,Virginia Manufactured & Modular,$500,Richmond,VA,pac,,Housing Association Political Action Committee,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-08-26,Mr. Jeffrey T. Fariss,$250,Farmville,VA,individual,Self Employed,Farmer,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-13,Virginia Sheriffs Association - PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,Mr. & Mrs. James L. Wilkerson,$250,Crewe,VA,individual,n/a,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-19,Mr. James E. Morris,$100,Carson,VA,individual,Brenco,Technician,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,Mr. & Mrs. Gus Villalobos,$100,Victoria,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-21,Mr. & Mrs. Otho C.W. Fraher,$100,Amelia,VA,individual,n/a,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,James & Angeline Tharpe,$100,Victoria,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-13,Mr. Charles G. Butts Jr.,$100,South Hill,VA,individual,Butts & Butts,Attorney,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-16,Mr. & Mrs. Glenn A. Hood,$100,"Lunenburg,",VA,individual,"Hood Brothers, Inc.",Owners,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-13,Mr. Glen L. Hutchinson,$150,Victoria,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-19,Mr. J. Greg Elam,$200,Victoria,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-08-12,Dr. & Mrs. Elton H. Brown III,$100,Warrenton,NC,individual,Retired,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-08-03,Mr. & Mrs Joe W. Borum,$500,Blackstone,VA,individual,Retired,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-20,Ms. Meredith H. Spencer,$200,Kenbridge,VA,individual,Lunenburg County Schools,Educator,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-02,"Amazon.com Services, Inc.",$500,Seattle,WA,business,,Online Services,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,Donald Taylor,$50,Farmville,VA,individual,Unknown,Unknown,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-14,Big Fork Farms,$250,Bracey,VA,business,,Farm,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-15,Mr. Seward French III,$200,Blackstone,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-12,Mrs. Joy Hurt,$100,Blackstone,VA,individual,Unknown,Unknown,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-30,Mr. Russell J. Easter,$100,Jetersville,VA,individual,Unknown,Unknown,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-26,Mrs. Susan K. Grigg,$100,Manteo,NC,individual,Grigg Construction & Development,Business Owner,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-24,Grigg Construction & Development Company,$100,Emporia,VA,business,,Construction,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-15,"Kenbridge Construction Company, Inc.","$1,000",Kenbridge,VA,business,,Construction,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-08-22,Mr. Roger Lee Mitchell,$200,Boydton,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-23,Steven Bailey,$500,Chase City,VA,individual,N/A,Self Employed,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-27,F. W. Richards Jr.,$250,Chase City,VA,individual,Richard's Pharmacy,Pharmacist,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-07-27,Patricia Garland,$250,Richmond,VA,individual,Estes Trucking,Business Owner,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-08-12,Meredith McBride Jr.,$250,Skipwith,VA,individual,Self Employed,Farmer,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-08-18,W. Johnson Davis,$500,South Hill,VA,individual,N/A,Retired,,A,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-07-21,First Citizens Bank,"$3,348.77",Charlotte,NC,,,,"Signs, lapel stickers, envelopes, pens, gas, food, stationary.",D,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-07-21,AT & T Mobility,$84.19,Carol Stream,IL,,,,AT&T Mobility,D,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-08-23,AT & T Mobility,$95.54,Carol Stream,IL,,,,Cell Phone Bill,D,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-07-26,Treasurer of Virginia-Commonwealth of Virginia,$148,Richmond,VA,,,,4 Virginia State Flags,D,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-07-12,"Nottoway Publishing Company, Inc.",$85,Blackstone,VA,,,,Advertising,D,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-07-02,Creative Direct,"$1,232",Richmond,VA,,,,Campaign Palm Cards,D,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-08-18,US Postal Service,$264,Victoria,VA,,,,Stamps,D,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-07-21,Verizon Wireless,$59.06,Newark,NJ,,,,Verizon Wireless phone bill,D,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-08-24,Verizon Wireless,$59.06,Newark,NJ,,,,Phone Bill,D,251558,2021-07-01 to 2021-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-14,Mr. David K. Biggs,$250,Littleton,NC,individual,"Biggs Construction Co., Inc.",Owner/President of Construction Company,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-14,Mr. & Mrs. Earl P. Pinchbeck,$100,Kenbridge,VA,individual,N/A,Retired,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-08,Republic National Distribution Company,$750,Atlanta,GA,business,,Wine Wholesale Distributor,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-01,Anheuser Busch Companies,$200,Marietta,GA,business,,Brewer of Beer,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-02,Anheuser Busch Companies,$200,Marietta,GA,business,,Brewer of Beer,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-14,Mr. J. M. Boswell,$400,Crewe,VA,individual,Self,Attorney,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-14,Mecklenburg County Republican Committee,$500,Lacrosse,VA,party,,Local Political Party,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-14,William McBride,$300,Skipwith,VA,individual,n/a,Farmer,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-14,Gregory Neal,$200,Cumberland,VA,individual,n/a,n/a,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-09-22,James Roberts,$150,Kenbridge,VA,individual,n/a,n/a,,A,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+in_kind,2021-09-15,Republican Party of Virginia,"$5,812",Richmond,VA,party,,Political Party,Political Direct Mailing,B,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-09-01,First Citizens Bank,"$1,454.16",Charlotte,NC,,,,Campaign materials and travel,D,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-09-22,AT & T Mobility,$84.34,Carol Stream,IL,,,,Cell Phone,D,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-09-14,Republican Party of Virginia,"$5,900",Richmond,VA,,,,Contribution to Political Party,D,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-09-22,Verizon Wireless,$59.01,Newark,NJ,,,,Cell Phone Bill,D,256786,2021-09-01 to 2021-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-10-01,Altria Client Services LCC,"$1,000","Richmond,",VA,business,,Manufacturer,,A,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-10-07,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,Political Action Committee,,A,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-10-01,"The Williams Companies, Inc.","$1,500",Houston,TX,business,,Energy Infrastructor -Natural Gas,,A,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-10-01,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Attorneys,,A,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-10-01,NRA-Political Victory Fund,$500,Fairfax,VA,pac,,Political Action Committee,,A,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-10-08,Mr. David S. Buchanan Jr.,$250,Chase City,VA,individual,State Farm Insurance,Insurance Agent,,A,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-10-14,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-10-01,Robert & Christine Chadeayne,$250,Chase City,VA,individual,n/a,n/a,,A,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-10-01,Recycling & Disposel Facility GreenRidge,$500,Cliftion Park,NY,individual,GreenRidge,Waste Management,,A,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+in_kind,2021-10-05,Republican Party of Virginia,"$6,719",Richmond,VA,party,,Political Party,Direct Mailing,B,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-01,First Citizens Bank,$322.59,Charlotte,NC,,,,"Gas. food, and stationary.",D,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-06,South Hill Enterprise,$433.25,Chatham,VA,,,,Campaign ads. (10-21-21),D,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-05,Crewe Burkeville Journal,$400,Crewe,VA,,,,Campaign ad (10-20-21),D,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-04,Republican Party of Virginia,"$6,750",Richmond,VA,,,,donation/contribution,D,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-05,The Southside Messenger,$400,Keysville,VA,,,,Campaign ad. (10-21-21),D,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-07,"Nottoway Publishing Company, Inc.",$85,Blackstone,VA,,,,Big Game 2021 Magazine Ad,D,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-04,"Farmville Newsmedia, LLC",$500,Farmville,VA,,,,Campaign ad. (10-20-21),D,261372,2021-10-01 to 2021-10-21,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-11-21,Mr Leroy O. Pfeiffer Jr.,$100,Cumberland,VT,individual,County of Cumberland,County Treasurer,,A,272331,2021-10-22 to 2021-11-25,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-11-20,McGuire Woods,$250,Richmond,VA,individual,n/a,n/a,,A,272331,2021-10-22 to 2021-11-25,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-11-21,"Associated Distributors, LLC",$750,Sandston,VA,business,,Beverage,,A,272331,2021-10-22 to 2021-11-25,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-25,First Citizens Bank,$464.49,Charlotte,NC,,,,"gas, food, and office supplies.",D,272331,2021-10-22 to 2021-11-25,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-25,AT & T Mobility,$197.91,Carol Stream,IL,,,,AT&T Mobility,D,272331,2021-10-22 to 2021-11-25,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-11-05,The Mecklenburg Sun,$390,Clarksville,VA,,,,for campaign ad.,D,272331,2021-10-22 to 2021-11-25,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-11-05,"Nottoway Publishing Company, Inc.",$540,Blackstone,VA,,,,for campaign ad,D,272331,2021-10-22 to 2021-11-25,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-10-25,Verizon Wireless,$58.93,Newark,NJ,,,,Verizon Wireless,D,272331,2021-10-22 to 2021-11-25,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-11-27,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-11-29,"Medical of VA, LLC Green Leaf",$500,Richmond,VA,individual,Green Leaf,Medicine,,A,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2021-12-09,PAC Ni Source Inc.,$300,Columbus,OH,pac,Ni Source,Committee,,A,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-11-27,First Citizens Bank,$705.25,Charlotte,NC,,,,Gas and food.,D,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-11-27,AT & T Mobility,$87.30,Carol Stream,IL,,,,AT&T Mobility cell phone bill,D,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-12-01,United States Postal Service,$130,Victoria,VA,,,,Post Office Box fee,D,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-12-06,The Courier-Record,$40,Blackstone,VA,,,,Newspaper subscription.,D,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-12-01,The Southside Messenger,$28,Keysville,VA,,,,Newspaper subsciption,D,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-12-10,"Nottoway Publishing Company, Inc.",$130,Blackstone,VA,,,,Veterans Day ad.,D,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-11-29,Verizon Wireless,$58.93,Newark,NJ,,,,Telephone bill.,D,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2021-12-21,Verizon Wireless,$58.93,Newark,NJ,,,,Telephone Bill,D,273502,2021-11-26 to 2021-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-05-04,Dr.& Mrs. Earl C. Currin,$150,Lunenburg,VA,individual,N/A,Retired,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-04-28,Mr. & Mrs. Gary D. Walker,$200,Charlotte Court House,VA,individual,Cornerstone Insurance,Insurance Agent,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-05-05,Mr. & Mrs. Delmer D. Aylor,$250,Chase City,VA,individual,Self,Forester,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-04-24,Mr. Richard W. Harris,$250,Kenbridge,VA,individual,N/A,Retired,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-04-27,Morgan Lumber Company,"$1,000","Red Oak,",VA,business,,Mfgr. and Wholesaler of Lumber Products,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-05-02,Mr. George P. Kite Jr.,$250,Blackstone,VA,individual,Wellville Farms,Farmer,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-05-10,Mr. & Mrs. Jay A. Stafford,$250,Lunenburg,VA,individual,Benchmark Community Bank,Banker,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-04-30,Mr. & Mrs. James L. Wilkerson,$250,Crewe,VA,individual,n/a,Retired,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-05-03,Mr. & Mrs. Emmett Williams Jr.,$250,South Hill,VA,individual,Williams Enterprises,Realtor,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-05-13,Mr. & Mrs Joe W. Borum,$500,Blackstone,VA,individual,Retired,Retired,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-05-14,Mr. Albert J. Clark,$500,Powhatan,VA,individual,n/a,Retired,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-06-02,Mr. Seward French III,$250,Blackstone,VA,individual,N/A,Retired,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-05-15,Mr. Malcolm Bailey,"$1,000",Keysville,VA,individual,Self Employed,Farmer,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-06-06,Mr. David S. Buchanan Jr.,$250,Chase City,VA,individual,State Farm Insurance,Insurance Agent,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-05-13,Steven Bailey,$500,Chase City,VA,individual,N/A,Self Employed,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-04-25,F. W. Richards Jr.,$500,Chase City,VA,individual,Richard's Pharmacy,Pharmacist,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-01-04,POM of Virginia,$500,Duluth,GA,business,,Gaming,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-01-10,PAC Virginia Future,$750,Richmond,VA,pac,N/A,N/A,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-01-04,Jushi INC,"$1,000",Boca Raton,FL,business,,Medical,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-04-26,David Jones,$300,Bracey,VA,individual,Retired,Retired,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-06-03,Michael Bailey,"$1,000",Keysville,VA,individual,Self-Employed,Farmer,,A,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-01-01,First Citizens Bank,$621.99,Charlotte,NC,,,,"Gas, food, stationary and cards.",D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-01-25,First Citizens Bank,$358.01,Charlotte,NC,,,,"Food, gas, stamps, telephone bill",D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-03-01,First Citizens Bank,$451.27,Charlotte,NC,,,,Gas and food.,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-03-24,First Citizens Bank,$614.64,Charlotte,NC,,,,Gas and food,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-04-22,First Citizens Bank,$443.28,Charlotte,NC,,,,Gas and food,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-05-23,First Citizens Bank,$882.09,Charlotte,NC,,,,"Gas, food, stationary, envelopes, paper, Omni Homestead Resort",D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-01-25,AT & T Mobility,$76.43,Carol Stream,IL,,,,Cell phone bill,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-02-23,AT & T Mobility,$76.43,Carol Stream,IL,,,,Cell phone bill,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-03-24,AT & T Mobility,$119.75,Carol Stream,IL,,,,Cell phone bill,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-04-21,AT & T Mobility,$119.69,Carol Stream,IL,,,,Cell phone bill,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-05-23,AT & T Mobility,$114.42,Carol Stream,IL,,,,Cell phone bill,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-01-21,The Farmville Herald,$36,Farmville,VA,,,,Newspaper subscribption,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-03-21,Kenbridge Victoria Dispatch,$22,Farmville,VA,,,,Newspaper subsciption,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-01-07,Amelia Bulletin Monitor,$468.75,Amelia,VA,,,,Campaign ad,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-01-19,Amelia Bulletin Monitor,$30,Amelia,VA,,,,Newspaper subscription,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-02-07,The Mecklenburg Sun,$20,Clarksville,VA,,,,Newspaper Subsciption,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-03-03,The News Progress,$37,Chatham,VA,,,,Newspaper subsciptopn,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-04-08,"Nottoway Publishing Company, Inc.",$20,Blackstone,VA,,,,Photo of Delegate Wright,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-04-14,House Republican Campaign Committee,"$1,000",Richmond,VA,,,,Dues,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-06-07,"Nottoway Publishing Company, Inc.",$85,Blackstone,VA,,,,Graduation Ad,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-04-20,US Postal Service,$406,Victoria,VA,,,,Stamps,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-01-21,Verizon Wireless,$58.87,Newark,NJ,,,,Telephone Bill,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-02-23,Verizon Wireless,$58.87,Newark,NJ,,,,Telephone bill,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-03-25,Verizon Wireless,$58.87,Newark,NJ,,,,Telephone bill,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-05-23,Verizon Wireless,$84.03,Newark,NJ,,,,Telephone bill,D,287684,2022-01-01 to 2022-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-10-01,"Commonwealth Sportsmen Alliance, PAC",$250,Powhatan,VA,pac,,Political Action Committee,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-08-22,Waste Management,"$1,000",Houston,TX,business,,Waste Collection,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-07-11,"Virginia Wine Wholesalers, PAC","$1,000",Richmond,VA,pac,,Political Action Committee-91-258,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-10-26,Comcast Corporation,$500,Philadelphia,PA,business,,Cable Communications,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-11-14,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-12-27,Mr. Fletcher B. Jones,$200,Boydton,VA,individual,N/A,Retired,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-11-01,Virginia Beer Wholesalers Association-PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-10-17,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,Political Action Committee,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-08-18,Republic National Distribution Company,"$1,000",Atlanta,GA,business,,Wine Wholesale Distributor,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-12-01,"The Williams Companies, Inc.","$1,000",Houston,TX,business,,Energy Infrastructor -Natural Gas,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-12-12,Virginia Society of the AIA,$500,Richmond,VA,pac,,Political Action Committee,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-12-20,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Attorneys,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-08-09,Mr. J. Todd Fariss,$250,Farmville,VA,individual,Virginia State Police,Trooper,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-08-02,"Virginia State Police Association, Inc.-PAC",$250,Richmond,VA,pac,,Political Action Committee,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-08-23,"Hawthorne & Hawthorne, PC","$2,000",Victoria,VA,business,,Law Firm,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-10-11,Anheuser Busch Companies,$200,Marietta,GA,business,,Brewer of Beer,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-11-17,Engineering Companies of VA - PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-08-15,WestRock,$750,Richmond,VA,business,,Paper and Packaging,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-10-03,"Amazon.com Services, Inc.",$500,Seattle,WA,business,,Online Services,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-10-18,Virginia Manufacturers Association,$500,Richmond,VA,business,,Manufacturing,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-09-07,"Kenbridge Construction Company, Inc.",$500,Kenbridge,VA,business,,Construction,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-10-10,Recycling & Disposel Facility GreenRidge,$500,Cliftion Park,NY,individual,GreenRidge,Waste Management,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-12-20,Green Leaf,$500,Richmond,VA,business,,Medicine,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-12-20,PAC Ni Source Inc.,$250,Columbus,OH,pac,Ni Source,Committee,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-07-12,Virginia Poultry Federation,$300,Harrisonburg,VA,business,,Poultry,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-10-27,Virginia Spirits Association,$250,North Chesterfield,VA,business,,Distillers,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-11-30,Charitable Gaming PAC,$500,Richmond,VA,pac,,Gaming,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2022-12-08,Botanaway INC,$500,Richmond,VA,business,,Dietary Supplements,,A,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-07-01,First Citizens Bank,"$1,188.63",Charlotte,NC,,,,"Gas, Food, Omni Resort (Homestead)",D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-07-22,First Citizens Bank,$158.37,Charlotte,NC,,,,Gas and Food.,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-08-22,First Citizens Bank,$413.11,Charlotte,NC,,,,Gas and Food,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-09-26,First Citizens Bank,$316.56,Charlotte,NC,,,,Gas and Office Supplies,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-10-25,First Citizens Bank,$339.40,Charlotte,NC,,,,Gas and Food,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-11-23,First Citizens Bank,$295.11,Charlotte,NC,,,,Gas and Food,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-12-27,First Citizens Bank,$374.88,Charlotte,NC,,,,"Gas, Food, and Stationary",D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-07-01,AT & T Mobility,$114.42,Carol Stream,IL,,,,AT&T Cell Phone Bill.,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-07-22,AT & T Mobility,$114.78,Carol Stream,IL,,,,AT&T Cell Phone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-08-22,AT & T Mobility,$114.78,Carol Stream,IL,,,,AT&T Cell Phone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-09-26,AT & T Mobility,$114.78,Carol Stream,IL,,,,AT&T Cell Phone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-10-25,AT & T Mobility,$114.60,Carol Stream,IL,,,,AT&T Cell Phone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-11-23,AT & T Mobility,$114.60,Carol Stream,IL,,,,AT&T Cell Phone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-12-27,AT & T Mobility,$114.60,Carol Stream,IL,,,,AT&T Cell Phone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-12-07,Courier-Record,$50,Blackstone,VA,,,,Newspaper Subscription,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-08-29,Treasurer of Virginia-Commonwealth of Virginia,$265,Richmond,VA,,,,New District Maps from General Assembly,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-07-07,The Southside Messenger,$50,Keysville,VA,,,,Graduation Ad,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-12-07,The Southside Messenger,$28,Keysville,VA,,,,Newspaper Subscription,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-10-10,"Nottoway Publishing Company, Inc.",$85,Blackstone,VA,,,,Big Game Magazine Ad 2022,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-12-07,"Nottoway Publishing Company, Inc.",$130,Blackstone,VA,,,,Veterans Day Ad,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-07-01,"South Hill Enterprise/Womack Publishing Co., Inc.",$67,Chatham,VA,,,,South Hill Enterprise,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-08-17,US Postal Service,$228,Victoria,VA,,,,U.S. Postal Stamps,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-11-28,US Postal Service,$408,Victoria,VA,,,,U.S. Postal Stamps,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-12-02,US Postal Service,$140,Victoria,VA,,,,P.O. Box Fee,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-07-01,Verizon Wireless,$84.03,Newark,NJ,,,,Verizon Telephone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-07-22,Verizon Wireless,$85.83,Newark,NJ,,,,Verizon Telephone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-08-22,Verizon Wireless,$85.83,Newark,NJ,,,,Verizon Telephone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-09-26,Verizon Wireless,$85.74,Newark,NJ,,,,Verizon Telephone BIll,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-10-25,Verizon Wireless,$85.63,Newark,NJ,,,,Verizon Telephone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-11-29,Verizon Wireless,$85.63,Newark,NJ,,,,Verizon Telephone BIll,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2022-12-27,Verizon Wireless,$85.49,Newark,NJ,,,,Verizon Telephone Bill,D,304893,2022-07-01 to 2022-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-01-09,Store Owner PAC Virginia Asian American,$500,Richmond,VA,pac,Virginia Asian American Store Owners Association PAC,PAC,,A,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-01-25,First Citizens Bank,$226.09,Charlotte,NC,,,,Gasoline and Food,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-02-21,First Citizens Bank,$882.20,Charlotte,NC,,,,"Gasoline, Food, fan frames, and newspapers subscriptions",D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-03-23,First Citizens Bank,$497.65,Charlotte,NC,,,,"Gasoline, Food, Flowers",D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-01-25,AT & T Mobility,$114.74,Carol Stream,IL,,,,AT&T Mobility Cell Phone Bill,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-02-21,AT & T Mobility,$114.60,Carol Stream,IL,,,,AT&T Mobility Cell Phone Bill,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-03-23,AT & T Mobility,$114.60,Carol Stream,IL,,,,AT&T Mobility Cell Phone Bill,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-01-19,The Farmville Herald,$49,Farmville,VA,,,,Farmville Herald Newspaper Subscription,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-02-02,Amelia Bulletin Monitor,$35,Amelia,VA,,,,Amelia Bulletin Monitor Newspaper Suscribtion,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-02-21,"Womack Publishing Co, Inc.",$47,Chatham,VA,,,,Wommack Publishing Company for The News Progress Newpaper Subscription,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-01-01,The Southside Messenger,$100,Keysville,VA,,,,Christmas Greeting for Southside Messenger,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-03-23,The Kenbridge-Victoria Dispatch,$22,Farmville,VA,,,,The Kenbridge Victoria Dispatch Newspaper Subscription,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-03-28,Creative Direct,$884,Richmond,VA,,,,Creative Direct Palm Cards,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-03-23,US Postal Service,$378,Victoria,VA,,,,US Postal Service Stamps,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-01-25,Verizon Wireless,$85.58,Newark,NJ,,,,Verizon Wireless Telephone Bill,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-02-23,Verizon Wireless,$85.58,Newark,NJ,,,,Verizon Wireless Telephone Phone Bill,D,313662,2023-01-01 to 2023-03-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-25,Mr Leroy O. Pfeiffer Jr.,$50,Cumberland,VA,individual,County of Cumberland,County Treasurer,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-17,Mr. Jimmie K. Crowder,$150,South Hill,VA,individual,Crowder-Hite-Crews Funeral Home,Funeral Director,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-14,Mr. F. Michael Wells,$150,Baskerville,VA,individual,Greystone Farms,Farmer,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-30,"Commonwealth Sportsmen Alliance, PAC","$1,000",Powhatan,VA,pac,,Political Action Committee,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-25,"Virginia Wine Wholesalers, PAC","$3,000",Richmond,VA,pac,,Political Action Committee-91-258,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-16,Comcast Corporation,$500,Philadelphia,PA,business,,Cable Communications,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-06,Mr. & Mrs. Gary D. Walker,$250,Charlotte Court House,VA,individual,Cornerstone Insurance,Insurance Agent,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-01,Golden Leaf Farms,$750,Keysville,VA,business,,Farm,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-19,Mr. Richard W. Harris,$250,Kenbridge,VA,individual,N/A,Retired,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-17,Morgan Lumber Company,"$1,000","Red Oak,",VA,business,,Mfgr. and Wholesaler of Lumber Products,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-25,Virginia Beverage Association -PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-26,VADPAC,"$1,500",Richmond,VA,pac,,PAC-Exempt Functions Account,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-24,Mr. & Mrs. Jay A. Stafford,$250,Lunenburg,VA,individual,Benchmark Community Bank,Banker,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-09,William Mullen Clark & Dobbins,$500,Richmond,VA,business,,Law Firm,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-26,Virginia Bank/PAC,$500,Glen Allen,VA,pac,,Political Action Committee,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-20,Mr. & Mrs. James L. Wilkerson,$250,Crewe,VA,individual,n/a,Retired,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-03,Mr. Walter R. Beales III,"$1,000",Boydton,VA,individual,Beale Law Offices PC,Attorney,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-25,Mr. & Mrs. Emmett Williams Jr.,$500,South Hill,VA,individual,Williams Enterprises,Realtor,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-26,Anheuser Busch Companies,$250,St. Louis,MO,business,,Brewer of Beer,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-12,James & Angeline Tharpe,$100,Victoria,VA,individual,N/A,Retired,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-18,Mr. Charles G. Butts Jr.,$100,South Hill,VA,individual,Butts & Butts,Attorney,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-02,Virginia Sheriffs' Association-PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-15,Donald Taylor,$100,Farmville,VA,individual,Unknown,Unknown,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-20,Grigg Construction & Development Company,$100,Emporia,VA,business,,Construction,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-03,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-21,Steven Bailey,$500,Chase City,VA,individual,N/A,Self Employed,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-16,F. W. Richards Jr.,$250,Chase City,VA,individual,Richard's Pharmacy,Pharmacist,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-01,Robert & Christine Chadeayne,$250,Chase City,VA,individual,n/a,n/a,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-05,"Abbitt, Jr. Watkins",$250,Appomattox,VA,individual,N/A,Small Business Owner,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-10,Stephen Busch,$250,Richmond,VA,individual,McGuire Woods,McGuire Woods,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-14,Terry Kilgore,"$2,500",Gate City,VA,individual,N/A,N/A,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-04-20,Dorothy Porterfield,$300,Farmville,VA,individual,N/A,N/A,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-04,David & Tracy Martin,$150,Halifax,VA,individual,N/A,N/A,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-05,Barbara D. Bass,$200,South Boston,VA,individual,N/A,N/A,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-15,Ontario Hardwood Co. INC,"$1,000",Keysville,VA,individual,Ontario Harwood,Lumber,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-12,John & Susan Mullin,"$1,000",Brookneal,VA,individual,N/A,N/A,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-23,Todd Gilbert,"$5,000",Woodstock,VA,individual,N/A,Attorney,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-05-31,R.K. & Catherine Hubbard,$200,Rice,VA,individual,N/A,N/A,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-06-02,"Borum Electrical, Plumbing, Heating INC","$1,000",Amelia Court House,VA,individual,Self Employed,"Electric, Plumbing, Heating",,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-06-02,Pembelton Forrest Products INC,"$4,000",Blackstone,VA,individual,N/A,Forestry,,A,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-04-24,First Citizens Bank,"$4,700.57",Charlotte,NC,,,,"Campaign Signs, Lapel Stickers, Stationary, Gas, Office Supplies",D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-05-25,First Citizens Bank,$757.89,Charlotte,NC,,,,"Gas, Food, Stationary",D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-04-24,AT & T Mobility,$114.54,Carol Stream,IL,,,,Cell Phone Bill,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-05-25,AT & T Mobility,$114.54,Carol Stream,IL,,,,Cell Phone Bill,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-04-26,The Mecklenburg Sun,$24,Clarksville,VA,,,,Newspaper Subscription,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-01,Crewe Burkeville Journal,$310,Crewe,VA,,,,Campaign Ad,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-04-04,Creative Direct,"$4,047",Richmond,VA,,,,Campaign Flyers,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-05-04,Creative Direct,"$7,854",Richmond,VA,,,,Mail Flyers,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-05-23,Creative Direct,"$1,571",Richmond,VA,,,,Palm Cards,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-05-26,Creative Direct,"$7,854",Richmond,VA,,,,Mial Pieces,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-06,Creative Direct,"$4,476",Richmond,VA,,,,Newspaper Ads,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-05-31,Verizon Wireless,$73.19,Newark,NJ,,,,Telephone Bill,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-05-19,Nicole Morton,$500,Meherrin,VA,,,,Campaign Staffer,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-02,Nicole Morton,"$1,000",Meherrin,VA,,,,Campaign Staffer,D,326178,2023-04-01 to 2023-06-08,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-26,First Citizens Bank,$744.42,Charlotte,NC,,,,"Gasoline, Newspaper Ads, and Food",D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-26,AT & T Mobility,$114.54,Carol Stream,IL,,,,Cell Phone Bill,D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-17,"Womack Publishing Co, Inc.",$67,Chatham,VA,,,,Newspaper Subscription,D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-12,"Nottoway Publishing Company, Inc.",$85,Blackstone,VA,,,,Graduation Ad,D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-13,Creative Direct,$325,Richmond,VA,,,,News & Advertising Placement,D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-27,Verizon Wireless,$85.48,Newark,NJ,,,,Telephone Bill,D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-09,Nicole Mortin,"$1,000",Meherrin,VA,,,,Campaign Staffer,D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-10,Southside Messenger,$75,Keysville,VA,,,,Graduation Ad,D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-15,Nicole Mortin,"$1,000",Meherrin,VA,,,,Campaign Staffer,D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-06-20,Nicole Mortin,"$1,500",Meherrin,VA,,,,Campaign Staffer,D,333634,2023-06-09 to 2023-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-27,Mr. Jimmie K. Crowder,$100,South Hill,VA,individual,Crowder-Hite-Crews Funeral Home,Funeral Director,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-15,Dr.& Mrs. Earl C. Currin,$200,Lunenburg,VA,individual,N/A,Retired,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-26,Mr. Eugene M. Hart,$100,Victoria,VA,individual,Retired,Retired,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-08,Mr. & Mrs. Earl P. Pinchbeck,$100,Kenbridge,VA,individual,N/A,Retired,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-03,Altria Client Services LCC,$500,"Richmond,",VA,business,,Manufacturer,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-24,Ms. Jackie B. Conner,$100,Kenbridge,VA,individual,N/A,Retired,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-20,Mr. & Mrs. Delmer D. Aylor,$100,Chase City,VA,individual,Self,Forester,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-22,Mr. Richard W. Harris,$250,Kenbridge,VA,individual,N/A,Retired,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-09,Virginia Beer Wholesalers Association-PAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-16,Mr. Jeffrey T. Fariss,$250,Farmville,VA,individual,Self Employed,Farmer,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-04,Mr. & Mrs. John C. Lee,$150,Clarksville,VA,individual,Electric Co-op,Mecklenburg Electric,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-24,Clark Properties 2 LLC,$200,Powhatan,VA,business,,Real Estate Business,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-21,Mr. Charles G. Butts Jr.,$100,South Hill,VA,individual,Butts & Butts,Attorney,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-14,VA Beverage Association  -  PAC 91-208,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-23,Mr. Glen L. Hutchinson,$100,Victoria,VA,individual,N/A,Retired,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-31,Mr. J. Greg Elam,$150,Victoria,VA,individual,N/A,Retired,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-21,Dr. & Mrs. Elton H. Brown III,$150,Warrenton,NC,individual,Retired,Retired,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-24,Mr. Albert J. Clark,$200,Powhatan,VA,individual,n/a,Retired,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-08,Meredith McBride,$250,Skipwith,VA,individual,McBride Farms,Farmer,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-24,"Kenbridge Construction Company, Inc.","$1,000",Kenbridge,VA,business,,Construction,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-26,F. W. Richards Jr.,$250,Chase City,VA,individual,Richard's Pharmacy,Pharmacist,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-31,David Brankley,$100,Clarksville,VA,individual,Brankley Farms,Farmer,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-04,Albert Peura,$50,Clarksville,VA,individual,N/A,N/A,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-08-11,Richard E. Rush,$100,Clarksville,VA,individual,Richard's Pharmacy,Pharmacist,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-07-01,Prince Edward County,"$1,000",Farmville,VA,party,Committee,Republican Party,,A,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-07-21,First Citizens Bank,$335.50,Charlotte,NC,,,,Gas & Food.,D,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-08-28,First Citizens Bank,$312.72,Charlotte,NC,,,,"Gas, Food, Office Supplies",D,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-07-21,AT & T Mobility,$114.52,Carol Stream,IL,,,,Cell Phone Bill,D,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-08-28,AT & T Mobility,$114.52,Carol Stream,IL,,,,Cell Phone Bill,D,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-07-13,Creative Direct,"$1,309",Richmond,VA,,,,Palm Cards,D,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-07-21,Verizon Wireless,$85.50,Newark,NJ,,,,Telephone Bill,D,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-08-28,Verizon Wireless,$88.93,Newark,NJ,,,,Telephone Bill,D,345760,2023-07-01 to 2023-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-09-07,Lunenburg County Republican Committee,$300,Victoria,VA,party,,Local/County Republican Party Committee,,A,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-09-07,Virginia Beer Wholesalers Association-PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-09-13,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-09-22,Mr. & Mrs. Gus Villalobos,$50,Victoria,VA,individual,N/A,Retired,,A,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-09-02,Donald Taylor,$100,Farmville,VA,individual,Unknown,Unknown,,A,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-09-04,Frank Bacon,$100,Kenbridge,VA,individual,N/A,Retired,,A,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-09-04,Eddie H. Callahan,$300,South Hill,VA,individual,Opie Farms,Farmer,,A,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-09-13,Lawrence Distributing Co.,"$1,000",Danville,VA,business,,Beverage,,A,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+in_kind,2023-09-15,Republican Party of Virginia,"$9,702",Richmond,VA,party,,Political Party,Direct Mailing,B,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-09-23,First Citizens Bank,$751.59,Charlotte,NC,,,,"Gasoline, Food & Stamps",D,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-09-22,AT & T Mobility,$114.52,Carol Stream,IL,,,,Cellphone Bill,D,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-09-13,Republican Party of Virginia,"$10,000",Richmond,VA,,,,Ken Nunnenkamp for contribution.,D,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-09-27,Verizon Wireless,$90.26,Newark,NJ,,,,Telephone Bill,D,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-09-22,Southern Virginia Leadership PAC,"$1,000",Clarksville,VA,,,,Southern Virginia Leadership PAC Contribution,D,354398,2023-09-01 to 2023-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-10-02,"The Williams Companies, Inc.","$1,000",Houston,TX,business,,Energy Infrastructor -Natural Gas,,A,365716,2023-10-01 to 2023-10-26,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-10-06,"Amazon.com Services, Inc.",$500,Seattle,WA,business,,Online Services,,A,365716,2023-10-01 to 2023-10-26,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-10-02,PAC Ni Source Inc.,$250,Columbus,OH,pac,Ni Source,Committee,,A,365716,2023-10-01 to 2023-10-26,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-10-17,The Compassionate Purse,$50,Farmville,VA,,,,The Compassionate Purse - for domestic violence/sexual assault shelter fundraiser,D,365716,2023-10-01 to 2023-10-26,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-10-30,Omega Protein,$250,Calais,ME,business,,"Prdts. to improve nutritional integrity of foods,d",,A,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2023-10-30,Virginia Poultry Federation,$300,Harrisonburg,VA,business,,Poultry,,A,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-10-27,First Citizens Bank,"$1,853.57",Charlotte,NC,,,,"Gas, Food, Dog wood Printing, News Paper, Campaign Ads.",D,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-11-24,First Citizens Bank,"$3,807.55",Charlotte,NC,,,,"Gas, Food, Office Supplies, Stamps, Campaign Ads.",D,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-10-27,AT & T Mobility,$121.71,Carol Stream,IL,,,,Cell Phone Bill,D,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-11-24,AT& T Mobility,$114.70,Carol Stream,IL,,,,Cell Phone,D,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-11-13,Crewe Burkeville Journal,$200,Crewe,VA,,,,Campaign Ad,D,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-10-27,The Crewe-Burkeville Journal,$225,Crewe,VA,,,,Campaign Ad,D,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-10-27,Verizon Wireless,$88.73,Newark,NJ,,,,Telephone Bill,D,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-11-24,Verizon Wireless,$92.21,Newark,NJ,,,,Telephone Bill,D,380115,2023-10-27 to 2023-11-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-12-21,Courier-Record,$50,Blackstone,VA,,,,Newspaper Subsription,D,387513,2023-12-01 to 2023-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-12-11,"Nottoway Publishing Company, Inc.",$150,Blackstone,VA,,,,Veterans Day Ad,D,387513,2023-12-01 to 2023-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2023-12-27,Verizon Wireless,$92.21,Newark,NJ,,,,Telephone Bill,D,387513,2023-12-01 to 2023-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-04-30,Mr. Jimmie K. Crowder,$200,South Hill,VA,individual,Crowder-Hite-Crews Funeral Home,Funeral Director,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-05,Dr.& Mrs. Earl C. Currin,$250,Lunenburg,VA,individual,N/A,Retired,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-04-05,Altria Client Services LCC,$500,"Richmond,",VA,business,,Manufacturer,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-30,"Republic Services, Inc.",$250,Phoenix,AZ,business,,Waste Management,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-09,Mr. Richard W. Harris,$250,Kenbridge,VA,individual,N/A,Retired,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-20,Morgan Lumber Company,"$1,000","Red Oak,",VA,business,,Mfgr. and Wholesaler of Lumber Products,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-13,Mr. Glen L. Hutchinson,$150,Victoria,VA,individual,N/A,Retired,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-21,Mr. & Mrs. Emmett Williams Jr.,$250,South Hill,VA,individual,Williams Enterprises,Real Estate,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-01-02,Ms. Meredith H. Spencer,$200,Kenbridge,VA,individual,Lunenburg County Schools,Educator,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-10,Mr. Malcolm Bailey,$500,Keysville,VA,individual,Self Employed,Farmer,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-15,"Kenbridge Construction Company, Inc.","$1,000",Kenbridge,VA,business,,Construction,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-03,Steven Bailey,$500,Chase City,VA,individual,N/A,Self Employed,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-16,F. W. Richards Jr.,$500,Chase City,VA,individual,Richard's Pharmacy,Pharmacist,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-01-05,PAC Virginia Future,$500,Richmond,VA,pac,N/A,N/A,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-05-20,Richard E. Rush,$150,Clarksville,VA,individual,Richard's Pharmacy,Pharmacist,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-01-02,"Immigration Centers of America - Farmville, LLC",$500,Richmond,VA,business,,Immigration Center,,A,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-01-01,First Citizens Bank,$730.54,Charlotte,NC,,,,Gasoline & Food,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-01-24,First Citizens Bank,$678.73,Charlotte,NC,,,,"Gas, Food, PO Box Fee, Cell Phone Bill",D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-02-23,First Citizens Bank,"$1,720.80",Charlotte,NC,,,,"Gas, Food, and Fanframe",D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-03-20,First Citizens Bank,$739.04,Charlotte,NC,,,,"Gas, Food, Flowers",D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-04-22,First Citizens Bank,"$2,951.63",Charlotte,NC,,,,"Gas, Food, Computer, and Fan Frame",D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-05-22,First Citizens Bank,$500.57,Charlotte,NC,,,,"Gas, Food, Office Supplies",D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-06-25,First Citizens Bank,$210.66,Charlotte,NC,,,,Gas & Food,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-01-22,AT & T Mobility,$114.70,Carol Stream,IL,,,,Cell Phone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-02-23,AT & T Mobility,$114.56,Carol Stream,IL,,,,Cell Phone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-03-20,AT & T Mobility,$114.56,Carol Stream,IL,,,,Cell Phone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-04-22,AT & T Mobility,$114.50,Carol Stream,IL,,,,Cell Phone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-05-22,AT & T Mobility,$114.50,Carol Stream,IL,,,,Cell Phone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-06-20,AT & T Mobility,$114.50,Carol Stream,IL,,,,Cell Phone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-05-24,The Mecklenburg Sun,$24,Clarksville,VA,,,,Newspaper Subscription,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-01-16,Farmville Herald,$49,Farmville,VA,,,,Newspaper Subscription,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-02-08,"The News Progress - Womack Publishing Co., Inc.",$57,Chatham,VA,,,,Newspaper Subscription,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-06-10,"Nottoway Publishing Company, Inc.",$90,Blackstone,VA,,,,Senior Magazine Ad,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-04-05,House Republican Campaign Committee,"$1,000",Richmond,VA,,,,Dues,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-03-13,The Kenbridge-Victoria Dispatch,$22,Farmville,VA,,,,Newspaper Subscription,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-01-25,Verizon Wireless,$88.74,Newark,NJ,,,,Telephone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-02-27,Verizon Wireless,$88.74,Newark,NJ,,,,Telephone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-03-20,Verizon Wireless,$88.74,Newark,NJ,,,,Telephone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-04-23,Verizon Wireless,$88.69,Newark,NJ,,,,Telephone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-05-28,Verizon Wireless,$88.69,Newark,NJ,,,,Telephone Bill,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-06-26,Verizon Wireless,$88.69,Newark,NJ,,,,PO Box 16810,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-01-11,The Gazette-Virginian,$75,South Boston,VA,,,,Newspaper Subscription,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-01-22,The Charlotte Gazette,$22,Farmville,VA,,,,Newspaper Subscription,D,405569,2024-01-01 to 2024-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-09-12,Comcast Corporation,$500,Philadelphia,PA,business,,Cable Communications,,A,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-09-11,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,Political Action Committee,,A,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-07-29,"The Williams Companies, Inc.","$1,000",Tulsa,OK,business,,Energy Infrastructor -Natural Gas,,A,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-09-11,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Attorneys,,A,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-08-14,Mr. Jeffrey T. Fariss,$250,Farmville,VA,individual,Self Employed,Farmer,,A,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-11-25,Dr. & Mrs. Elton H. Brown III,$150,Warrenton,NC,individual,Retired,Retired,,A,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-09-12,"Amazon.com Services, Inc.",$500,Seattle,WA,business,,Online Services,,A,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-12-09,Virginia Manufacturers Association,$250,Richmond,VA,business,,Manufacturing,,A,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2024-12-09,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-07-22,First Citizens Bank,"$1,097.50",Charlotte,NC,,,,"Gasoline, Food, and Fan Frame",D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-08-24,First Citizens Bank,$413.15,Charlotte,NC,,,,"Gasoline, Food, and Fan Frame",D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-09-23,First Citizens Bank,$287.02,Charlotte,NC,,,,Gas and Food,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-10-22,First Citizens Bank,$198.13,Charlotte,NC,,,,Gas and Food,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-11-21,First Citizens Bank,$252.14,Charlotte,NC,,,,Gas and Food,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-12-23,First Citizens Bank,$250.72,Charlotte,NC,,,,"Gas, Food, and Christmas Cards",D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-07-22,AT & T Mobility,$114.58,Carol Stream,IL,,,,Cell Phone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-08-22,AT & T Mobility,$114.58,Carol Stream,IL,,,,Cell Phone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-09-23,AT & T Mobility,$114.58,Carol Stream,IL,,,,Cell Phone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-10-22,AT & T Mobility,$114.44,Carol Stream,IL,,,,Cell Phone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-11-21,AT & T Mobility,$114.43,Carol Stream,IL,,,,Cell Phone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-12-20,AT & T Mobility,$111.19,Carol Stream,IL,,,,Cell Phone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-12-09,U.S. Postal Service,$154,Victoria,VA,,,,PO Box Fee,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-12-09,The Courier-Record,$50,Blackstone,VA,,,,Newspaper Subscription,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-11-11,"Nottoway Publishing Company, Inc.",$90,Blackstone,VA,,,,Big Game Ad,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-12-11,"Nottoway Publishing Company, Inc.",$150,Blackstone,VA,,,,Veterans Magazine Ad,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-07-22,Verizon Wireless,$88.75,Newark,NJ,,,,Telephone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-08-22,Verizon Wireless,$88.75,Newark,NJ,,,,Telephone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-09-23,Verizon Wireless,$88.79,Newark,NJ,,,,Telephone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-10-23,Verizon Wireless,$88.82,Newark,NJ,,,,Telephone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-11-21,Verizon Wireless,$88.82,Newark,NJ,,,,Telephone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2024-12-20,Verizon Wireless,$88.82,Newark,NJ,,,,Telephone Bill,D,426718,2024-07-01 to 2024-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-01-03,"Commonwealth Sportsmen Alliance, PAC",$500,Powhatan,VA,pac,,Political Action Committee,,A,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-01-03,Mr. Fletcher B. Jones,$150,Boydton,VA,individual,N/A,Retired,,A,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-01-22,First Citizens Bank,$252.44,Charlotte,NC,,,,Gas and Office Supplies,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-02-20,First Citizens Bank,$450.35,Charlotte,NC,,,,Gas and Flowers,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-03-24,First Citizens Bank,"$2,040.72",Charlotte,NC,,,,"Gas, Food, Newspaper Subscription, Rick's Custom Frames",D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-01-22,AT & T Mobility,$111.21,Carol Stream,IL,,,,Cell Phone Bill,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-02-20,AT & T Mobility,$119.22,Carol Stream,IL,,,,Cellphone Bill,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-03-24,AT & T Mobility,$111.21,Carol Stream,IL,,,,Cell Phone Bill,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-01-27,Farmville Herald,$49,Farmville,VA,,,,Newspaper Subscription,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-03-24,The Kenbridge-Victoria Dispatch,$22,Farmville,VA,,,,Newspaper Subscription,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-01-22,Verizon Wireless,$89.07,Newark,NJ,,,,Telephone Bill,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-02-21,Verizon Wireless,$89.07,Newark,NJ,,,,Telephone Bill,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-03-28,Verizon Wireless,$89.07,Newark,NJ,,,,Telephone Bill,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-01-22,The Gazette-Virginian,$75,South Boston,VA,,,,The Gazette-Virginian,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-01-27,The Charlotte Gazette,$22,Farmville,VA,,,,Newspaper Subscription,D,434073,2025-01-01 to 2025-03-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-05-02,Morgan Lumber Company,"$1,000","Red Oak,",VA,business,,Mfgr. and Wholesaler of Lumber Products,,A,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-05-08,Virginia Beer Wholesalers Association-PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-05-07,Virginia Sheriffs' Association-PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-05-02,Dominion Energy PAC-VA,"$1,000",Richmond,VA,pac,,Energy,,A,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-05-07,Community-Owned Power PAC,$500,Glen Allen,VA,pac,,Electric Coop,,A,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-04-23,First Citizens Bank,"$1,397.06",Charlotte,NC,,,,"Gasoline, Food, Office Supplies.",D,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-05-21,First Citizens Bank,$378.07,Charlotte,NC,,,,Gasoline and Frame Shop,D,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-04-23,AT & T Mobility,$111.21,Carol Stream,IL,,,,Cell Phone Bill,D,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-05-21,AT & T Mobility,$111.21,Carol Stream,IL,,,,Cell Phone Bill,D,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-05-27,The Mecklenburg Sun,$24,Clarksville,VA,,,,Newspaper Subscription,D,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-04-23,Verizon Wireless,$89.06,Newark,NJ,,,,Telephone Bill,D,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-05-21,Verizon Wireless,$89.06,Newark,NJ,,,,Telephone Bill,D,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-04-01,Republican Party - 5th Congressional District,$250,Lovingston,VA,,,,5th District GOP Fundraiser,D,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-04-03,Kenbridge Vol. Fire Dept.,$500,Kenbridge,VA,,,,Kenbridge Vol. Fire Dept.,D,440755,2025-04-01 to 2025-06-05,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-09,Ms. Anne C. Hamlett,$250,Victoria,VA,individual,Retired,Retired,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-07,Mr. Jimmie K. Crowder,$150,South Hill,VA,individual,Crowder-Hite-Crews Funeral Home,Funeral Director,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-07,Mr. Eugene M. Hart,$100,Victoria,VA,individual,Retired,Retired,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-23,"Republic Services, Inc.",$500,Phoenix,AZ,business,,Waste Management,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-08,Mr. Richard W. Harris,$250,Kenbridge,VA,individual,N/A,Retired,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-18,Mr. Glen L. Hutchinson,$100,Victoria,VA,individual,N/A,Retired,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-16,Mr. J. Greg Elam,$50,Victoria,VA,individual,N/A,Retired,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-16,"Kenbridge Construction Company, Inc.","$1,000",Kenbridge,VA,business,,Construction,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-13,Steven Bailey,$500,Chase City,VA,individual,N/A,Self Employed,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-23,David Brankley,$100,Clarksville,VA,individual,Brankley Farms,Farmer,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-06-09,Ann Klieves,$250,Brodnax,VA,individual,Self Employed,Sales,,A,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+in_kind,2025-06-07,Realtors Political Action Committee of Virginia,$499.74,Glen Allen,VA,pac,,Political Action Committee,"for food and beverage on May 6th, 2025.",B,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-06-25,First Citizens Bank,$530.66,Charlotte,NC,,,,"for gas, food, office supplies, stamps",D,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-06-25,AT & T Mobility,$111.21,Carol Stream,IL,,,,Cell Phone Bill,D,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-06-16,Creative Direct,"$1,025",Richmond,VA,,,,Palm Cards,D,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-06-25,Verizon Wireless,$89.06,Newark,NJ,,,,Telephone Bill,D,444111,2025-06-06 to 2025-06-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-07-03,Lunenburg County Republican Committee,$500,Victoria,VA,party,,Local/County Republican Party Committee,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-08-12,Comcast Corporation,$500,Philadelphia,PA,business,,Cable Communications,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-08-14,Mr. & Mrs. Jay A. Stafford,$250,Lunenburg,VA,individual,Benchmark Community Bank,Banker,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-07-13,Mr. Charles G. Butts Jr.,$100,South Hill,VA,individual,Butts & Butts,Attorney,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-08-15,Donald Taylor,$100,Farmville,VA,individual,Unknown,Unknown,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-07-21,Covington H Jones JR,$100,Victoria,VA,individual,N/A,N/A,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-07-07,K. Wilson Thompson,$200,South Hill,VA,individual,N/A,N/A,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-07-24,"Southside Virginia Commonsense Republican PAC, INC",$500,Farmville,VA,pac,,PAC,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-08-12,"Aristotle International, INC FBO Amazon.com Services LLC",$500,"Washinton, DC",VA,business,,Online Service,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-07-04,Abyon LLC,$250,Richmond,VA,business,,Corrections,,A,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-07-23,First Citizens Bank,$357.79,Charlotte,NC,,,,Gasoline and Food,D,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-08-23,First Citizens Bank,$212.42,Charlotte,NC,,,,VA State Flag and Gasoline,D,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-07-23,AT & T Mobility,$111.19,Carol Stream,IL,,,,Cell Phone Bill,D,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-08-23,AT & T Mobility,$111.19,Carol Stream,IL,,,,Cell Phone Bill,D,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-07-08,"Nottoway Publishing Company, Inc.",$90,Blackstone,VA,,,,Graduation Ad,D,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-07-24,Verizon Wireless,$89.04,Newark,NJ,,,,Telephone Bill,D,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-08-23,Verizon Wireless,$89.04,Newark,NJ,,,,Telephone Bill,D,450899,2025-07-01 to 2025-08-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-09-02,Sheetz,$250,Altoona,PA,business,,Convenient Store / Gas Station,,A,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-09-02,Mr. F. Michael Wells,$150,Baskerville,VA,individual,Greystone Farms,Farmer,,A,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-09-26,"Commonwealth Sportsmen Alliance, PAC",$500,Powhatan,VA,pac,,Political Action Committee,,A,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-09-04,Mr. Jeffrey T. Fariss,$250,Farmville,VA,individual,Self Employed,Farmer,,A,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-09-04,Mr. & Mrs. Emmett Williams Jr.,$250,South Hill,VA,individual,Williams Enterprises,Realtor,,A,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-09-02,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+in_kind,2025-09-18,Republican Party of Virginia,"$9,511.82",Richmond,VA,party,,Political Party,Donation,B,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-09-23,First Citizens Bank,$129.66,Charlotte,NC,,,,Gasoline,D,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-09-23,AT & T Mobility,$111.19,Carol Stream,IL,,,,Cell Phone Bill,D,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-09-18,Republican Party of Virginia,"$10,000",Richmond,VA,,,,Contribution,D,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-09-23,Verizon Wireless,$89.39,Newark,NJ,,,,Telephone Bill,D,461899,2025-09-01 to 2025-09-30,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-10-06,Mr. Joseph F. Morrissette,$250,Burkeville,VA,individual,N/A,Retired,,A,464540,2025-10-01 to 2025-10-23,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-10-13,"The Williams Companies, Inc.","$1,000",Tulsa,OK,business,,Energy Infrastructor -Natural Gas,,A,464540,2025-10-01 to 2025-10-23,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-10-03,William Mullen Clark & Dobbins,$250,Richmond,VA,business,,Law Firm,,A,464540,2025-10-01 to 2025-10-23,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-10-21,Mr. & Mrs. Irvin W. Matthews,$150,Chase City,VA,individual,Unknown,Unknown,,A,464540,2025-10-01 to 2025-10-23,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-10-06,Dr. & Mrs. Elton H. Brown III,$200,Warrenton,NC,individual,Retired,Military,,A,464540,2025-10-01 to 2025-10-23,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-10-02,F. W. Richards Jr.,$500,Chase City,VA,individual,Richard's Pharmacy,Pharmacist,,A,464540,2025-10-01 to 2025-10-23,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-10-22,First Citizens Bank,"$2,296.35",Charlotte,NC,,,,"Gasoline, Newspapers, Campaign Advertising",D,464540,2025-10-01 to 2025-10-23,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-10-22,AT & T Mobility,$111.25,Carol Stream,IL,,,,Cell Phone Bill,D,464540,2025-10-01 to 2025-10-23,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-10-10,The Crewe-Burkeville Journal,$800,Crewe,VA,,,,Newspaper Advertisement,D,464540,2025-10-01 to 2025-10-23,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-11-08,Mr. Richard W. Harris,$250,Kenbridge,VA,individual,N/A,Retired,,A,470141,2025-10-24 to 2025-11-27,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-10-27,Verizon,$500,"Washington, DC",VA,business,,Phone Company,,A,470141,2025-10-24 to 2025-11-27,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-11-24,First Citizens Bank,"$3,332.22",Charlotte,NC,,,,"Campaign Advertisement, Gasoline, Food",D,470141,2025-10-24 to 2025-11-27,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-11-24,AT & T Mobility,$111.25,Carol Stream,IL,,,,Cell Phone Bill,D,470141,2025-10-24 to 2025-11-27,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-11-06,The Crewe-Burkeville Journal,$250,Crewe,VA,,,,Campaign Newspaper Advertisement,D,470141,2025-10-24 to 2025-11-27,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-10-25,Verizon Wireless,$89.44,Newark,NJ,,,,Telephone Bill,D,470141,2025-10-24 to 2025-11-27,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-11-24,Verizon Wireless,$89.44,Newark,NJ,,,,Telephone Bill,D,470141,2025-10-24 to 2025-11-27,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-12-04,Mr. Fletcher B. Jones,$200,Boydton,VA,individual,N/A,Retired,,A,474370,2025-11-28 to 2025-12-31,CC-12-00286,Tommy Wright for Delegate
+contribution,2025-12-14,Ms. Meredith H. Spencer,$250,Kenbridge,VA,individual,Lunenburg County Schools,Educator,,A,474370,2025-11-28 to 2025-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-12-22,First Citizens Bank,$202.07,Charlotte,NC,,,,"Office Supplies, Gas, Food",D,474370,2025-11-28 to 2025-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-12-22,AT & T Mobility,$110.99,Carol Stream,IL,,,,Cell Phone Bill,D,474370,2025-11-28 to 2025-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-12-10,United States Postal Service,$162,Victoria,VA,,,,Post Office Box Fee,D,474370,2025-11-28 to 2025-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-12-10,Courier-Record,$55,Blackstone,VA,,,,Newspaper Subscription,D,474370,2025-11-28 to 2025-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2025-12-22,Verizon Wireless,$89.44,Newark,NJ,,,,Telephone Bill,D,474370,2025-11-28 to 2025-12-31,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-02-20,First Citizens Bank,$245.80,Charlotte,NC,,,,Valentines Day Flowers for Staff and Gasoline,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-03-21,First Citizens Bank,$896.26,Charlotte,NC,,,,Rick's Framing and Gasoline,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-04-23,First Citizens Bank,$534.91,Charlotte,NC,,,,Rick's Framing and Gasoline,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-05-23,First Citizens Bank,$303.89,Charlotte,NC,,,,Gasoline and Food,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-06-24,First Citizens Bank,$551.18,Charlotte,NC,,,,"Gasoline, Food, American Flag, Stationary and Envelopes",D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-01-23,AT & T Mobility,$110.99,Carol Stream,IL,,,,AT&T Cell Phone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-02-20,AT & T Mobility,$110.95,Carol Stream,IL,,,,AT&T Cell Phone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-03-16,Kenbridge-Victoria Dispatch,$22,Farmville,VA,,,,KVDispatch Newspaper Subscibtion,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-06-04,The Mecklenburg Sun,$26,Clarksville,VA,,,,The Mecklenburg Sun Newspaper Subscription,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-03-21,AT & T Mobility,$110.95,Carol Stream,IL,,,,AT&T Cell Phone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-04-23,AT & T Mobility,$110.91,Carol Stream,IL,,,,Cell Phone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-05-23,AT & T Mobility,$110.91,Carol Stream,IL,,,,Cell Phone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-06-24,AT & T Mobility,$110.91,Carol Stream,IL,,,,Cell Phone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-05-07,U.S. Postal Service,$468,Victoria,VA,,,,Stamps,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-01-24,Farmville Herald,$49,Farmville,VA,,,,Farmville Herald Newspaper Subscription,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-04-18,Treasurer of Virginia-Commonwealth of Virginia,$498.14,Richmond,VA,,,,Member I-PAD Pro,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-03-16,Victoria  Fire and Rescue,$50,Victoria,VA,,,,Donation,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-03-16,Victoria  Fire and Rescue,$200,Victoria,VA,,,,Donation,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-01-23,Verizon Wireless,$89.42,Newark,NJ,,,,Verizon Telephone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-02-20,Verizon Wireless,$89.42,Newark,NJ,,,,Verizon Telephone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-03-27,Verizon Wireless,$89.42,Newark,NJ,,,,Telephone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-04-23,Verizon Wireless,$89.36,Newark,NJ,,,,Telephone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-05-23,Verizon Wireless,$89.37,Newark,NJ,,,,Telephone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-06-24,Verizon Wireless,$89.37,Newark,NJ,,,,Telephone Bill,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-01-24,The Gazette-Virginian,$75,South Boston,VA,,,,The Gazette-Virginian Newspaper Subscription,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-01-24,The Charlotte Gazette,$22,Farmville,VA,,,,The Charlotte Gazette Newspaper Subscription,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-02-26,Brunswick Times Gazette,$66,Chatham,VA,,,,Brunswick Times Gazette Newspaper Subscription,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate
+expenditure,2026-04-11,House Republican Campaign Committee,"$1,000",Mechanicsville,VA,,,,2026 Caucus Dues,D,491633,2026-01-01 to 2026-06-30,CC-12-00286,Tommy Wright for Delegate

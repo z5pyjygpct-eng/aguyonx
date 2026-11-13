@@ -1,0 +1,867 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2021-06-16,Anthem Blue Cross Blue Shield,$500,Cincinnati,OH,business,,Healthcare,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-01-05,"NiSource, Inc.",$500,Chester,VA,pac,,PAC,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-01-11,Dominion Political Action Committee - VA,"$5,000",Richmond,VA,pac,,PAC,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-05-11,Dominion Political Action Committee - VA,"$1,500",Richmond,VA,pac,,PAC,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-04-29,"Capital One Services, LLC","$1,500",Reston,VA,business,,Financial Institution,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-02-12,Verizon Good Government,"$2,000",Richmond,VA,business,,Telecommunications,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-06-08,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,PAC,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-06-22,Friends of Tommy Norment,"$1,915.16",Williamsburg,VA,business,,Politics,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-05-28,Virginia Trial Lawyers Political Action Committee,"$2,000",Richmond,VA,pac,,PAC,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-01-04,American Electric Power Company Virginia Committee for Responsible Government,"$1,500",Richmond,VA,pac,,Electric,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-04-26,Virginia Sheriffs' Association Political Action Committee,"$1,500",Richmond,VA,pac,,PAC,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-04-26,Virginia Optometric Association,"$2,500",Glen Allen,VA,business,,Optometry Association,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-05-11,Virginia Beer Wholesalers Association,"$1,500",Richmond,VA,pac,,PAC,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-05-11,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,Physician,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-05-26,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,business,,Energy,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-02-21,Kyle Wright,$100,Stafford,VA,individual,Retired,Retired,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-02-12,Peter Dvorscak,$250,Nokesville,VA,individual,U.S. Army,retired,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-04-26,VA Academy of Clinical Psychologist,$200,Richmond,VA,business,,Clinical psychology,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-04-26,Independent Funeral Homes of Virginia,$300,Glen Allen,VA,business,,Funeral Homes,,A,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-05-03,Treasurer of Virginia,$120,Richmond,VA,,,,Framing for Resolutions,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-06-22,Treasurer of Virginia,$37.50,Richmond,VA,,,,Flag and case,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-06-02,Richard H. Stuart,$159.60,Montross,VA,,,,Mileage,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-06-22,VPAP Sunshine Caucus,$300,Richmond,VA,,,,donation,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-02-21,Anedot,$4.30,Dallas,TX,,,,Anedot fee,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-03-10,Anedot,$2.60,Dallas,TX,,,,anedot fee,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-03-11,Anedot,$5.30,Dallas,TX,,,,Anedot Fee,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-03-15,Anedot,$2.30,Dallas,TX,,,,anedot fee,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-04-10,Anedot,$1.30,Dallas,TX,,,,Anedot fee,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-05-10,Anedot,$1.30,Dallas,TX,,,,anedot fee,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-06-30,Anedot,$4.30,Dallas,TX,,,,ANedot fee,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-05-27,Fisher Bay Charters,"$1,400",Heathsville,VA,,,,Captain's fee,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-01-14,"Riverside Land, LLC",$500,Rockville,MD,,,,Rent,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-02-09,"Riverside Land, LLC",$500,Rockville,MD,,,,Rent,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-03-11,"Riverside Land, LLC",$500,Rockville,MD,,,,Rent,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-04-13,"Riverside Land, LLC",$500,Rockville,MD,,,,Rent,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-05-26,"Riverside Land, LLC",$500,Rockville,MD,,,,Rent,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-06-15,"Riverside Land, LLC",$500,Rockville,MD,,,,Rent,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-04-14,USPS,$55,Montross,VA,,,,Stamps,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-01-24,Virginia Commonwealth Bank,$47.48,Richmond,VA,,,,"Network Solutions, Verizon, RTD",D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-02-26,Virginia Commonwealth Bank,$47.48,Richmond,VA,,,,"Network Solutions, verizon",D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-03-11,Virginia Commonwealth Bank,$254.94,Richmond,VA,,,,"Network Solutions, Verizon, RTD",D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-04-13,Virginia Commonwealth Bank,$362.52,Richmond,VA,,,,"Network Solutions, Verizon, RTD",D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-05-17,Virginia Commonwealth Bank,$784.52,Richmond,VA,,,,"Network Solutions, Verizon, RTD, Staples",D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-06-01,Jake Salmons,$158.10,Richmond,VA,,,,Reimbursement for fishing fundraiser event food,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-06-09,Jake Salmons,$37.80,Richmond,VA,,,,Mileage,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-01-27,Devon Gooch,"$3,000",Montross,VA,,,,Contract work,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-02-16,Hackworth for Virginia,"$1,000",Cedar Bluff,VA,,,,Donation,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-03-29,Durant for Delegate,$500,Fredericksburg,VA,,,,Campaign Contribution,D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+expenditure,2021-06-15,Elan Cardmember Service,$551.18,St. Louis,MO,,,,"Network Solutions, Verizon, RTD",D,248325,2021-01-01 to 2021-06-30,CC-12-00084,Stuart for Senate
+contribution,2021-10-04,"Reed Smith, LLP","$1,500",Richmond,VA,pac,,PAC,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-10-19,"Committee for Effective Government Virginia Natural Gas, Inc.",$500,Virginia Beach,VA,business,,Natural Gas,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-07-15,"Altria Client Services, Inc.","$1,000",Richmond,VA,business,,Tobacco/Consumer Products,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-01,"AT&T Services, Inc.",$250,Bedminster,NJ,business,,Telephone,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-09-20,Maritime Issues Council,"$1,000",Norfolk,VA,pac,,PAC,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-01,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-11-15,ARDA ROC-PAC,"$1,000",Washington,DC,pac,,PAC,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-10-04,"Republic Services, Inc.",$500,Phoenix,AZ,business,,Waste disposal company,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-22,Virginia Trial Lawyers Political Action Committee,"$3,000",Richmond,VA,pac,,PAC,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-01,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,PAC,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-10-19,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,PAC,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-10-29,Comcast,$500,Philadelphia,PA,business,,TV/Cable,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-28,Virginia Manufactured & Modular Housing Association PAC,$250,Richmond,VA,pac,,PAC,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-09-30,Delta Dental,$250,Roanoke,VA,business,,HMO & Medical Plans,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-15,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,Attorneys/Law Firm,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-08-06,Charles Wayne Payne,"$1,000",Fredericksburg,VA,individual,Hirschler Fleischer,Attorney,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-10-25,"Allen, Allen, Allen & Allen","$1,500",Richmond,VA,business,,Law Firm,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-15,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,pac,,PAC,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-09-30,Anheuser-Busch,$500,Atlanta,GA,business,,Beverage Manufacturer,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-09-30,Anheuser-Busch,$500,Atlanta,GA,business,,Beverage Manufacturer,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-10-19,Intuit,$500,Washington,DC,business,,Information Technology/Software,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-07-02,Charles McDaniel,"$1,000",Fredericksburg,VA,individual,Hilldrup,President and CEO,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-15,Engineering Companies of Virginia PAC,$500,Richmond,VA,pac,,Engineering,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-15,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-10-25,Montgomery Deihl,$250,Reedville,VA,individual,Omega Protein,VP of Operations,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-15,McGuireWoods LLC,"$1,000",Richmond,VA,business,,Consulting,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-12-15,Virginia Eagle Distributing Company,"$1,000",Springfield,VA,business,,Distribution,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-07-12,Amazon,"$1,000",Seattle,WA,business,,Internet sales,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-08-11,"FTP Power, LLC",$500,Salt Lake City,UT,business,,Renewable energy,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-07-28,MAGMUTUAL,"$1,000",Atlanta,GA,business,,Healthcare,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-09-08,Verizon Corporate Resources Group,"$2,000",Washington,DC,business,,Communications,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-09-30,"Green Ridge Recycling & Disposal Facility, LLC","$1,000",Clifton Park,NY,business,,Waste,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-10-29,Strata Clean Energy,"$1,000",Durham,NC,business,,Solar Energy,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-11-16,Publix,$500,Durham,NC,business,,Grocery,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-10-07,Kenneth Stroud,$500,King George,VA,individual,Professional Solutions Delivered,Contractor,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2021-07-07,Billie Blevins,$500,King George,VA,individual,Retired,Retired,,A,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-07-01,Virginia Senate Republican Caucus,"$7,000",Williamsburg,VA,,,,Caucus Dues,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-11-18,Virginia Senate Republican Caucus,"$7,000",Williamsburg,VA,,,,Caucus Dues,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-07-07,Anedot,$20.30,Dallas,TX,,,,Anedot Fee,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-08-06,Anedot,$40.30,Dallas,TX,,,,Anedot Fee,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-17,Anedot,$1.30,Dallas,TX,,,,Anedot Fee,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-10-07,Anedot,$20.30,Dallas,TX,,,,Anedot Fee,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-10-25,Anedot,$10.30,Dallas,TX,,,,Anedot Fee,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-23,Bohmke for Supervisor,$250,Falmouth,VA,,,,Donation,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-07-15,"Riverside Land, LLC",$500,Rockville,MD,,,,Rent,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-30,"Riverside Land, LLC",$500,Rockville,MD,,,,Rent,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-11-18,"Riverside Land, LLC","$1,000",Rockville,MD,,,,October and November Rent,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-12-15,"Riverside Land, LLC",$500,Rockville,MD,,,,December Rent,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-03,Cox Business,$155.51,Oaks,PA,,,,Phone activation,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-08-25,USPS,$55,Montross,VA,,,,Stamps,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-10-07,USPS,$55,Montross,VA,,,,stamps,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-10-12,USPS,$116,Montross,VA,,,,Stamps,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-30,Friends of Paul Milde,$250,Fredericksburg,VA,,,,Donation,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-07-15,Elan Cardmember Service,"$1,599.19",St. Louis,MO,,,,"Internet and Phone, Newspaper and Nation Builder",D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-08-31,Elan Cardmember Service,"$1,169.52",St. Louis,MO,,,,"Phone, Internet, Newspaper and Food for Youngkin Event",D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-30,Elan Cardmember Service,"$1,446.98",St. Louis,MO,,,,"Internet, Phone, Newspaper.",D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-10-07,Elan Cardmember Service,$334.86,St. Louis,MO,,,,"Phone, Internet, Newspaper",D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-07-02,Devon Gooch,$309.22,Montross,VA,,,,Reimbursement for Youngkin Event,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-09,English for Hartwood,$250,Stafford,VA,,,,Donation,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-30,Friends of Bart Randall,$250,Stafford,VA,,,,Donation,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-30,Friends of Phillip Scott,$250,Fredericksburg,VA,,,,Donation,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-09-30,Gina Ciarcia for Virginia,$250,Dumfries,VA,,,,Donation,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-10-07,Friends of Siegmond,$250,Stafford,VA,,,,Donation,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+expenditure,2021-10-19,Supporters of Alyssa Halstead,$250,Stafford,VA,,,,Donation,D,278344,2021-07-01 to 2021-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-06-08,"Altria Client Services, Inc.","$1,000",Richmond,VA,business,,Tobacco/Consumer Products,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-29,HCA for Good Government,$500,Reston,VA,pac,,PAC,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-29,Dominion Political Action Committee - VA,"$1,500",Richmond,VA,pac,,PAC,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-04-27,"Capital One Services, LLC","$1,500",Reston,VA,business,,Financial Institution,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-04-18,"National Vision, Inc.",$500,Duluth,GA,business,,Optometrists,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-05-11,"Republic Services, Inc.",$500,Phoenix,AZ,business,,Waste disposal company,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-30,Virginia Trial Lawyers Political Action Committee,"$5,000",Richmond,VA,pac,,PAC,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-01-10,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,PAC,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-29,Virginia Beer Wholesalers Association,"$1,500",Richmond,VA,pac,,PAC,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-01-10,Commercial Development PAC,$500,Alexandria,VA,pac,,Commercial Development,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-01-10,Virginia Association of Health Plans PAC,"$1,000",Richmond,VA,pac,,Healthcare,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-08,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,business,,Energy,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-15,Montgomery Deihl,$250,Reedville,VA,individual,Ocean Fleet Services,Commercial FIshing,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-01-10,Virginia Transportation Construction Alliance,"$1,000",RIchmond,VA,business,,Construction,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-16,Michael Gray,$500,Colonial Beach,VA,individual,Gray Construction Inc.,Home Builder,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-03-24,Friends of Paul Milde,"$1,000",Fredericksburg,VA,business,,Campaign,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-29,Strata Clean Energy,"$1,500",Durham,NC,business,,Solar Energy,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-01-11,Jushi Inc,"$1,000",Boca Raton,FL,business,,Miscellaneous Health Care,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-01-06,POM of Virginia,$500,Duluth,GA,business,,Skill games,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-01-11,VA Charitable Gaming Council,$500,Richmond,VA,business,,Gaming,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-01-11,Virginia Future PAC,$500,Woodbridge,VA,pac,,Rental/Property Management,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-29,Shellfish Growers of Virginia,$500,Gloucester,VA,business,,Commercial Seafood,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-06-16,Wendell Ennis,$250,Midland,VA,individual,Self,Agriculture,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-03-24,Dennise LaBarre,$250,Stafford,VA,individual,Retired,Retired,,A,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-03-08,Treasurer of Virginia,$40,Richmond,VA,,,,Frame - Murphy,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-04-18,Treasurer of Virginia,$35,Richmond,VA,,,,Resolution,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-04-18,Treasurer of Virginia,$80,Richmond,VA,,,,Resolution frame,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-04-07,Virginia Senate Republican Caucus,"$7,000",Williamsburg,VA,,,,Dues,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-03-14,Anedot,$1.30,Dallas,TX,,,,Anedot Fee,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-03-24,Anedot,$10.30,Dallas,TX,,,,Anedot Fee,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-05-24,Anedot,$1.30,Dallas,TX,,,,Anedot Fee,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-06-15,Anedot,$16.20,Dallas,TX,,,,Anedot Fees,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-06-16,Anedot,$20.30,Dallas,TX,,,,Anedot Fee,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-06-24,Anedot,$1.30,Dallas,TX,,,,Anedot Fee,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-06-30,Anedot,$5.90,Dallas,TX,,,,Anedot Fees,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-05-23,Fisher Bay Charters,"$1,406",Heathsville,VA,,,,Fishing Fundraiser fee,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-01-17,"Riverside Land, LLC","$1,000",Rockville,MD,,,,August and September rent,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-01-18,"Riverside Land, LLC",$500,Rockville,MD,,,,January Rent,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-02-15,"Riverside Land, LLC",$500,Rockville,MD,,,,February rent,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-03-08,"Riverside Land, LLC",$500,Rockville,MD,,,,March rent,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-04-26,"Riverside Land, LLC",$500,Rockville,MD,,,,April Rent,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-05-11,"Riverside Land, LLC",$500,Rockville,MD,,,,May Rent,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-06-29,"Riverside Land, LLC",$500,Rockville,MD,,,,Rent,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-01-10,Jake Salmons,$12.05,Clarkville,VA,,,,reimburse for supplies,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-05-26,Jake Salmons,$217.53,Clarkville,VA,,,,Reimbursement for food for fundraiser,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-03-17,Elan Cardmember Service,$391.72,St. Louis,MO,,,,"Verizon, network solutions, cox communications",D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-04-18,Elan Cardmember Service,$877.66,St. Louis,MO,,,,"Verizon, Cox communication, network solutions",D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-05-11,Elan Cardmember Service,$210.99,St. Louis,MO,,,,"Network SOlutions, Verizon, Cox Communications",D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-06-29,Elan Cardmember Service,$695.28,St. Louis,MO,,,,"Network Solutions, Verizon, fundraising food expense",D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-01-24,Devon Gooch,"$3,000",Montross,VA,,,,Contract work,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+expenditure,2022-03-22,King William Republican Committee,$150,Walkerton,VA,,,,Donation to Committee,D,290635,2022-01-01 to 2022-06-30,CC-12-00084,Stuart for Senate
+contribution,2022-08-08,"Reed Smith, LLP","$1,500",Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-19,"Christian & Barton, LLP",$500,Richmond,VA,business,,Law Firm,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-29,Anthem Blue Cross Blue Shield,$500,Cincinnati,OH,business,,Healthcare,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,"NiSource, Inc.",$500,Chester,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,John S. Cheadle,$100,King George,VA,individual,Service Realty,Real Estate Broker/Appraiser,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-22,HCA for Good Government,"$1,000",Reston,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-12,"AT&T Services, Inc.",$250,Bedminster,NJ,business,,Telephone,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-12,Maritime Issues Council,"$1,000",Norfolk,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-07-22,Dominion Political Action Committee - VA,"$25,000",Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-12,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-10-04,ARDA ROC-PAC,"$1,000",Washington,DC,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-11-30,Home Builders Association of Virginia,"$5,000",Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-07-18,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-10-07,Friends of Tommy Norment,"$1,006.73",Williamsburg,VA,business,,Politics,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,Friends of Tommy Norment,$75,Williamsburg,VA,business,,Politics,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-15,Virginia Trial Lawyers Political Action Committee,"$5,000",Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-31,American Electric Power Company Virginia Committee for Responsible Government,"$1,500",Richmond,VA,pac,,Electric,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-22,Virginia Health Care Association Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-12,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-08-29,Realtors Political Action Committee of Virginia,"$2,000",Glen Allen,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-12,Comcast,$500,Philadelphia,PA,business,,TV/Cable,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-19,Virginia Manufactured & Modular Housing Association PAC,$250,Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,Attorneys/Law Firm,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-22,"Allen, Allen, Allen & Allen","$2,500",Richmond,VA,business,,Law Firm,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-08-01,Virginia Beverage Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-12,Anheuser-Busch,$500,Atlanta,GA,business,,Beverage Manufacturer,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-11-14,Omega Protein,"$5,000",Houston,TX,business,,Seafood Processing,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-08-17,Charles McDaniel,"$2,000",Fredericksburg,VA,individual,Hilldrup,President and CEO,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,William J Howell,$104.10,Fredericksburg,VA,individual,Retired,Retired,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-19,Virginia Society of the AIA Political Action Committee,"$1,000",Richmond,VA,pac,,Architecture,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-28,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,Engineering,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-11-01,Kurtis Weber,$250,Pheoniz,AZ,individual,retired,retired,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-19,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,Commercial Development,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-11-01,Westrock,"$1,000",Norcross,GA,business,,Paper and Packaging,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-10-04,American Chemistry Council,$500,Richmond,VA,business,,Trade Association for American Chemical Companies,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-10-04,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,Physician,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-12,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-19,B. Judson Honaker,"$5,000",Fredericksburg,VA,individual,Silver Companies,President,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-31,Janice Olsen,$52.05,Fredericksburg,VA,individual,Retired,Retired,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-31,Janice Olsen,$52.05,Fredericksburg,VA,individual,Retired,Retired,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-10-18,Randel Webb,$50,Stafford,VA,individual,Retired USMC,Retired Marine,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,Leo Robbins,$104.10,White Stone,VA,individual,Omega Protein,Captain,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,Montgomery Deihl,$260.25,Reedville,VA,individual,Ocean Fleet Services,Commercial FIshing,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,Jane Crowther,$260.25,Kilmarnock,VA,individual,Omega Protein,Senior Director,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-31,McGuireWoods LLC,"$1,000",Richmond,VA,business,,Consulting,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-19,Cozen O'Connor,$500,Richmond,VA,business,,Attorney,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-11-01,Amazon,"$3,000",Seattle,WA,business,,Internet sales,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-11-01,Walter S Fadeley Jr.,$50,Mechanicsville,VA,individual,n/a,retired,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-09-19,Verizon Corporate Resources Group,"$1,000",Washington,DC,business,,Communications,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-11-01,"Green Ridge Recycling & Disposal Facility, LLC","$1,000",Clifton Park,NY,business,,Waste,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-09-19,Publix,$500,Durham,NC,business,,Grocery,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,Jushi Inc,"$1,000",Boca Raton,FL,business,,Miscellaneous Health Care,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-09-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-10-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-11-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-08-04,Truist Virginia PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-08-04,Mountain Valley Pipeline LLC,"$1,000",Canonsburg,PA,business,,Energy,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-09-12,Sherilynn Hummel,$500,Burgess,VA,individual,Retired,Retired,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-12,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,Energy,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-12,Sports Betting Alliance,$500,Lubbock,TX,business,,Sports Betting,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-15,Virginia CRNA PAC,$250,Richmond,VA,pac,,PAC,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-31,Andy Hall,$156.15,Reedville,VA,individual,"Omega Protein, Inc",General Manager,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-30,Robert M Hoyer,$104.10,Dahlgren,VA,individual,Retired,Retired,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-29,Virginia Manufacturers Association PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-10-27,Kurt Wolfgang,$250,Nanjemoy,MD,individual,Maryland Crime Victimes Resource Center,Executive Director,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-28,"Botanaway, Inc.",$500,Richmond,VA,business,,Dietary Supplement Manufacturing,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-28,Virginia Contractor Procurement Alliance,"$1,000",Henrico,VA,business,,Contractor Association,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-28,Charitable Gaming PAC,"$1,000",Richmond,VA,pac,,Charitable Gaming,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2022-12-31,Virginia Asian American Store Owners Association PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+in_kind,2022-12-15,Virginia Beer Wholesalers Association,$748.14,Richmond,VA,pac,,PAC,Host Reception,B,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-07-18,VPAP Sunshine Caucus,$300,Richmond,VA,,,,Donation,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-07-24,Anedot,$1.30,Dallas,TX,,,,Anedot Fees,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-08-11,Anedot,$3.60,Dallas,TX,,,,Anedot Fees,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-08-24,Anedot,$1.30,Dallas,TX,,,,Anedot Fees,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-08,Anedot,$13.62,Dallas,TX,,,,Anedot Fees,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-09,Anedot,$0.70,Dallas,TX,,,,Anedot Fees,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-10,Anedot,$4.30,Dallas,TX,,,,Anedot Fees,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-11,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-12,Anedot,$30.40,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-13,Anedot,$3,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-15,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-17,Anedot,$4.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-12,Anedot,$0.70,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-25,Anedot,$2.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-27,Anedot,$10.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-11-01,Anedot,$10.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-11-12,Anedot,$0.70,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-11-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-12-12,Anedot,$0.70,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-12-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-08-08,"Riverside Land, LLC",$500,Rockville,MD,,,,Office Rent,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-06,"Riverside Land, LLC",$300,Rockville,MD,,,,Rent,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-30,"Riverside Land, LLC",$300,Rockville,MD,,,,October 2022 Rent,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-11-01,"Riverside Land, LLC",$300,Rockville,MD,,,,November 2022 Rent,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-12-01,"Riverside Land, LLC",$300,Rockville,MD,,,,December 2022 Rent,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-07-18,USPS,$120,Montross,VA,,,,Stamps,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-11-01,USPS,$120,Montross,VA,,,,Stamps,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-07-19,Jake Salmons,$84.50,Clarkville,VA,,,,Reimbursement,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-08-30,Jake Salmons,"$1,500",Clarkville,VA,,,,Treasurer,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-07-18,Elan Cardmember Service,$356.56,St. Louis,MO,,,,"Network Solutions, Verizon, Cox Communications",D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-08-08,Elan Cardmember Service,$180.48,St. Louis,MO,,,,"Verizon, Network Solutions, Potomac Local, Richmond Times-Dispatch, NationBuilder",D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-06,Elan Cardmember Service,$55.48,St. Louis,MO,,,,"Verizon, Network Solutions, Richmond Times-Dispatch",D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-07,Elan Cardmember Service,$55.48,St. Louis,MO,,,,"Network Solutions, Verizon Wireless, Richmond Times-Dispatch",D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-11-15,Elan Cardmember Service,$272.30,St. Louis,MO,,,,"Hilton Norfolk, Network Solutions, Verizon, Richmond Times-Dispatch",D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-12-09,Elan Cardmember Service,$58.33,St. Louis,MO,,,,"Network Solutions, Verizon, Richmond Times-Dispatch",D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-07-21,"CAMP Strategic, LLC",$129,Richmond,VA,,,,Email Platform,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-08-22,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Platform,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-06,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Service Provider,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-11-01,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Platform,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-12-05,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Platform,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-11-01,JDS Solutions LLC,$480.41,Midlothian,VA,,,,Consulting,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-12-13,Caroline First,$250,Bowling Green,VA,,,,Jeff Sili's Skeet Shoot Event,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-12-13,Rocky Top Embroidery and More Inc.,$597.05,King George,VA,,,,Hat Embroidery,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-20,WinRed,$0.21,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-26,WinRed,$0.39,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-09-29,WinRed,$3,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-02,WinRed,$2.46,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-03,WinRed,$0.59,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-03,WinRed,$2.06,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-18,WinRed,$4.19,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-20,WinRed,$1.62,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-23,WinRed,$1.77,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-10-26,WinRed,$1.48,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+expenditure,2022-12-29,WinRed,$0.99,Arlington,VA,,,,Transaction Fee,D,311088,2022-07-01 to 2022-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-23,John S. Cheadle,$104.10,King George,VA,individual,Service Realty,Real Estate Broker/Appraiser,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-22,Dominion Political Action Committee - VA,"$5,000",Richmond,VA,pac,,PAC,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-31,Marjorie Tankersley,$52.05,Fredericksburg,VA,individual,Hugh Mercer School,Educator,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-31,Marjorie Tankersley,$52.05,Fredericksburg,VA,individual,Hugh Mercer School,Educator,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-15,"W. Ellery Kellum, Inc","$2,500",Weems,VA,business,,Oyster Packing,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-08,Larry D. Silver,"$10,000",Boca Raton,FL,individual,Silver Companies,Owner,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-08,Edward Dudash,$100,Fredericksburg,VA,individual,retired,retired,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-30,James Schindler,$52.05,Stafford,VA,individual,GOvt/self employed,CPA,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-31,Dove Scott,"$1,041.02",Punta Gorda,FL,individual,Fielder Enterprises,Manager,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-23,Wendell Ennis,$250,Midland,VA,individual,Self,Agriculture,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-01,Gary Lindner,$100,Fairfax,VA,individual,GW Community School,Teacher,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-01-06,Betsy Valentine,$104.10,Fredericksburg,VA,individual,Self,Marketing Consultant,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-01-05,Albert Pollard,$500,Irvington,VA,individual,Self,Nonprofit Consultant,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-01-06,VA Operators for Skill,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-01,Josh Beckham,$104.10,Stafford,VA,individual,Aries Systems Intnl,Systems Engineer,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-10,Cindy Lamb,$260.25,Fredericksburg,VA,individual,Retired,Retired,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-10,Russell Mait,$104.10,Kilmarnock,VA,individual,Bramlee LLC,Engineer,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-31,Arthur Carver III,$520.51,Lottsburg,VA,individual,Retired,Retired,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-30,Jimmy Kellum,$104.10,White Stone,VA,individual,Kellum Maritime,Commercial Waterman,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-03-30,Rich Savage,"$1,041.02",Henrico,VA,individual,Self,Attorney,,A,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-27,Treasurer of Virginia,$120,Richmond,VA,,,,Framed Senate Resolutions,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-03,Virginia Senate Republican Caucus,"$7,000",Williamsburg,VA,,,,Dues,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fees,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-01,"Riverside Land, LLC",$300,Rockville,MD,,,,Office Rent,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-02-01,"Riverside Land, LLC",$300,Rockville,MD,,,,Office Rent - February 2023,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-02-06,"Riverside Land, LLC",$300,Rockville,MD,,,,Office Rent - February 2023,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-01,"Riverside Land, LLC",$600,Rockville,MD,,,,March 2023 Rent,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-06,USPS,$180,Montross,VA,,,,Stamps,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-03,Treasurer of King George,$360,King George,VA,,,,Campaign Filing Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-03,Jake Salmons,"$1,500",Clarkville,VA,,,,Consulting,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-10,Elan Cardmember Service,$68.97,St. Louis,MO,,,,"Network Solutions, Verizon Wireless, Richmond Times-Dispatch",D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-02-06,Elan Cardmember Service,$63.48,St. Louis,MO,,,,"Verizon, Richmond Times-Dispatch, Network Solutions",D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-06,Elan Cardmember Service,$707.02,St. Louis,MO,,,,"Verizon, Network Solutions",D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-06,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Service Provider,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-02-05,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Service Provider,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-06,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Service Provider,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-02,WinRed,$42.78,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-03,WinRed,$15.42,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-08,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-09,WinRed,$3.94,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-02,WinRed,$9.07,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-05,WinRed,$0.41,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-06,WinRed,$2.84,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-09,WinRed,$3.94,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-13,WinRed,$14.35,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-13,WinRed,$1.97,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-03-26,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-01-05,Adams for Senate,"$1,000",Virginia Beach,VA,,,,Donation,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+expenditure,2023-02-13,Massey Cancer Center,$250,Richmond,VA,,,,Donation,D,320058,2023-01-01 to 2023-03-31,CC-12-00084,Stuart for Senate
+contribution,2023-06-05,Virginia Automobile & Truck Dealers Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-06-06,Dominion Political Action Committee - VA,"$25,000",Richmond,VA,pac,,PAC,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-04-17,"Capital One Services, LLC","$2,500",Reston,VA,business,,Financial Institution,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-03,Virginia Trial Lawyers Political Action Committee,"$5,000",Richmond,VA,pac,,PAC,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-25,Comcast,$500,Philadelphia,PA,business,,TV/Cable,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-18,Hunton Andrews Kurth LLP,"$2,500",Richmond,VA,business,,Energy,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-06-08,Jett's Marine Inc,$500,Reedville,VA,business,,Marine,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-02,Larry Jayne,$52.05,Stafford,VA,individual,Retired,Retired,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-04-10,Strata Clean Energy,"$2,500",Durham,NC,business,,Solar Energy,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-04-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-18,Mr Garry L Gray,$500,Bowling Green,VA,individual,E.M. Gray Petroleum Services,Owner,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-18,Frederick S Hickey,$500,Stafford,VA,individual,"Pet Plus, Inc.",Owner,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-18,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,Political Action Committee,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-09,John Foote,$520.51,Manassas,VA,individual,Walsh Colucci Lubeley Walsh PC,Lawyer,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-05-30,Berne Stober,$52.05,Esmont,VA,individual,Retired,Retired,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-06-08,Sriram Peddibhotla,$500,McLean,VA,individual,SAIC,IT Senior Data Architect/Developer,,A,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-03,Virginia Senate Republican Caucus,"$7,000",Williamsburg,VA,,,,Dues,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-24,Fisher Bay Charters,"$1,031",Heathsville,VA,,,,Fishing Trip Fundraiser,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-01,"Riverside Land, LLC",$600,Rockville,MD,,,,April 2023 Rent,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-05,Jake Salmons,"$3,000",Clarkville,VA,,,,Consulting,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-01,Jake Salmons,"$3,082.12",Clarkville,VA,,,,Consulting and Expense Reimbursement,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-06-01,Jake Salmons,"$3,000",Clarkville,VA,,,,Consulting,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-05,Elan Cardmember Service,$505.79,St. Louis,MO,,,,"Verizon Wireless, Network Solutions, Hilton Norfolk",D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-17,Elan Cardmember Service,$35.49,St. Louis,MO,,,,"Verizon, Network Solutions",D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-06,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Service Provider,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-15,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Service Provider,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-02,WinRed,$52.23,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-02,WinRed,$52.27,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-03,WinRed,$20.51,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-05,WinRed,$0.79,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-02,WinRed,$2.06,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-03,WinRed,$3.04,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-06,WinRed,$1.20,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-09,WinRed,$2.05,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-10,WinRed,$20.51,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-05-31,WinRed,$2.05,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-06-04,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-06-05,WinRed,$0.79,Arlington,VA,,,,Transaction Fee,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-18,Friends of Tara Durant,"$2,500",Alexandria,VA,,,,Campaign Contribution,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+expenditure,2023-04-25,PXI Corp,$626.27,Harrisonburg,VA,,,,Palm Cards,D,328905,2023-04-01 to 2023-06-08,CC-12-00084,Stuart for Senate
+contribution,2023-06-30,John S. Cheadle,$104.10,King George,VA,individual,Service Realty,Real Estate Broker/Appraiser,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-29,Home Builders Association of Virginia,"$5,000",Richmond,VA,pac,,PAC,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-13,"Republic Services, Inc.","$1,000",Phoenix,AZ,business,,Waste disposal company,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-28,"Bevans Oyster Company, Inc.","$10,000",Kinsale,VA,business,,Oyster Distributor,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-20,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,Physician,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-27,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-28,Stephen Horton,$500,Richmond,VA,individual,McGuireWoods,Public Affairs,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-29,McGuireWoods LLC,"$1,000",Richmond,VA,business,,Consulting,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-28,Historyland Nursery Inc.,"$10,000",Warsaw,VA,business,,Nursery,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-30,Dwight Lyons,$52.05,King George,VA,individual,Retired,Retired,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-13,Virginia Future PAC,$500,Woodbridge,VA,pac,,Rental/Property Management,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-27,Charlie Payne,"$2,582.64",Fredericksburg,VA,individual,Hirschler Fleischer,Attorney,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-06-27,McDougle for Virginia,$826.05,Mechanicsville,VA,business,,Political Campaign,,A,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+expenditure,2023-06-26,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+expenditure,2023-06-09,Elan Cardmember Service,$656.60,St. Louis,MO,,,,"Verizon, Network Solutions, Supplies for Fishing Trip Fundraiser",D,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+expenditure,2023-06-09,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Service Provider,D,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+expenditure,2023-06-10,WinRed,$67.05,Arlington,VA,,,,Transaction Fee,D,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+expenditure,2023-06-28,WinRed,$82.64,Arlington,VA,,,,Transaction Fee,D,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+expenditure,2023-06-29,WinRed,$19.70,Arlington,VA,,,,Transaction Fee,D,340804,2023-06-09 to 2023-06-30,CC-12-00084,Stuart for Senate
+contribution,2023-07-05,"Altria Client Services, Inc.","$1,000",Richmond,VA,business,,Tobacco/Consumer Products,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-31,Waste Management,"$1,000",Washington,DC,business,,Waste Management,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-07-05,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,PAC,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-07-17,"Allen, Allen, Allen & Allen","$2,500",Richmond,VA,business,,Law Firm,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-28,Cowart Seafood Corp.,"$3,000",Lottsburg,VA,business,,Seafood processing,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-24,Virginia Beverage Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-07-03,Anheuser-Busch,$500,Atlanta,GA,business,,Beverage Manufacturer,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-28,Virginia Land Title Association PAC,$500,Alpharetta,GA,pac,,Land Title,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-31,Charles McDaniel,"$2,000",Fredericksburg,VA,individual,Hilldrup,President and CEO,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-21,Virginia Wine Wholesalers Association- PAC,"$2,500",Richmond,VA,pac,,Beverage,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-31,Chaney Enterprises,"$5,000",Gambrills,MD,business,,Concrete,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-07-24,Virginia Loggers Association,$250,Goochland,VA,business,,Logging,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-14,Verizon Corporate Resources Group,"$1,000",Washington,DC,business,,Communications,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-07-22,Dennise LaBarre,$250,Stafford,VA,individual,Retired,Retired,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-07-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-17,William Sydnor,$52.05,Hague,VA,individual,Retired,Retired,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-21,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,Energy,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-04,Mary Yurchik Runyon,$20,Stafford,VA,individual,Retired,Retired,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-17,Arthur Carver III,$520.51,Lottsburg,VA,individual,Retired,Retired,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-07-12,Terrie Suit,"$1,041.02",Bumpass,VA,individual,Virginia REALTORS,CEO,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-07-10,Chad Ballard,"$1,000",Cape Charles,VA,individual,"Ballard Fish Oyster Co., LLC",Executive,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-21,Linda G Coates,$300,Colonial Beach,VA,individual,Homemaker,Homemaker,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-16,Robert Stevenson,$260.25,King George,VA,individual,Retired,Retired,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-31,Tom Neale,$300,Lancaster,VA,individual,Retired,Retired,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-08-31,AT&T,$500,St. Louis,MO,business,,Telephone,,A,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-26,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-25,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-05,USPS,$189,Montross,VA,,,,Stamps,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-01,Jake Salmons,"$4,500",Clarkville,VA,,,,Consulting,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-01,Jake Salmons,"$3,000",Clarkville,VA,,,,Consulting,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-05,Elan Cardmember Service,$35.49,St. Louis,MO,,,,"Verizon, Network Solutions",D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-07,Elan Cardmember Service,$35.49,St. Louis,MO,,,,"Verizon, Network Solutions",D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-06,"CAMP Strategic, LLC",$189,Richmond,VA,,,,Email Service Provider,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-03,WinRed,$6.15,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-04,WinRed,$0.62,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-05,WinRed,$0.79,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-08,WinRed,$2.05,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-11,WinRed,$39.40,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-15,WinRed,$41.02,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-24,WinRed,$9.85,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-06,WinRed,$0.79,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-17,WinRed,$10.25,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-19,WinRed,$22.56,Arlington,VA,,,,Transaction Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-22,Friends of Tara Durant,"$5,000",Fredericksburg,VA,,,,Campaign Contribution,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-29,Friends of Tara Durant,"$15,000",Fredericksburg,VA,,,,Campaign Contribution,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-14,Hillary Pugh Kent for Delegate,$500,Warsaw,VA,,,,Campaign Contribution,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-07-05,Town of Montross Fall Festival,$250,Montross,VA,,,,2023 Fall Festival Sponsorship,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-29,Friends of Emily Brewer,"$5,000",Smithfield,VA,,,,Campaign Contribution,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-29,Diggs for Senate,"$20,000",Yorktown,VA,,,,Campaign Contribution,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-29,Friends of Siobhan Dunnavant,"$22,500",Henrico,VA,,,,Campaign Contribution,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-29,Segura for Virginia,"$25,000",Alexandria,VA,,,,Campaign Contribution,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+expenditure,2023-08-29,Blue Ridge Bank,$125,Montross,VA,,,,Bank Wire Transfer Fee,D,351130,2023-07-01 to 2023-08-31,CC-12-00084,Stuart for Senate
+contribution,2023-09-19,Realtors Political Action Committee of Virginia,"$2,500",Glen Allen,VA,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-30,Williams Mullen Clark & Dobbins,"$1,000",Richmond,VA,business,,Attorneys/Law Firm,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-15,Virginia Beer Wholesalers Association,"$2,500",Richmond,VA,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-28,Virginia Beer Wholesalers Association,"$2,500",Richmond,VA,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-30,Omega Protein,"$5,000",Houston,TX,business,,Seafood Processing,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-15,Otis C Crowther,"$1,000",Midlothian,VA,individual,Retired,Retired,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-18,Veterinarians PAC,$500,Henrico,VA,pac,,Veterinarians,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-13,Virginia Forest Resources PAC,$500,Richmond,VA,pac,,Forest Industry,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-16,Peter Trible,$208.20,Tappahannock,VA,individual,Trible Law Offices,Attorney,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-18,Larry D. Silver,"$10,000",Boca Raton,FL,individual,Silver Companies,Owner,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-30,McGuireWoods LLC,$500,Richmond,VA,business,,Consulting,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-30,Publix,$500,Durham,NC,business,,Grocery,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-10,Billie Blevins,$520.51,King George,VA,individual,Retired,Retired,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-01,James Cothran,$26.03,Charlottesville,VA,individual,Retired,Retired,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-29,Tom Neale,$200,Lancaster,VA,individual,Retired,Retired,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-15,CVS Health,"$1,000",Woonsocket,RI,business,,Pharmacy,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-09,Richard Furnival,$104.10,Rixeyville,VA,individual,SDI,Engineer,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-06,William Hubbard,$104.10,White Stone,VA,individual,"Hubbard, Terry Britt",Attorney,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-18,Michael White,$300,Dahlgren,VA,individual,Michael G. White Inc.,Marine Construction,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-20,Chiropractic Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-28,Premium Distributors of Virginia,"$1,000",Chantilly,VA,business,,Beverage Distributors,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-28,Christopher Pomeroy,$500,Glen Allen,VA,individual,AquaLaw,President,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-29,The National Right to Work Committee PAC,$250,Springfield,VA,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-29,Betting on VA Jobs,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-05,Charles Moseley Guthridge,"$2,500",White Stone,VA,individual,Guthridge Associates,Government Affairs,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-11,Charles W McDaniel,"$1,000",Fredericksburg,VA,individual,Hilldrup Moving and Storage,President and Chief Executive Officer,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-12,Thomas Rhys Weakley Jr,$250,Montross,VA,individual,Northern Neck Building Supply,Owner,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-09,Ann Patry,$200,Montross,VA,individual,Self,Homemaker,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-28,Virginia Automobile & Truck Dealers Political Action Committee,"$1,500",Richmond,VA,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-29,"NiSource, Inc.",$250,Chester,VA,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-20,Dominion Political Action Committee - VA,"$25,000",Richmond,VA,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-11,ARDA ROC-PAC,"$1,000",Washington,DC,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-09-25,Virginia Trial Lawyers Political Action Committee,"$5,000",Richmond,VA,pac,,PAC,,A,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-05,Patricia K. Lewis,"$1,500",Montross,VA,,,,Campaign Consulting,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-25,Stafford County Republican Committee,$250,Stafford,VA,,,,Donation,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-05,Jake Salmons,"$3,242.20",Clarkville,VA,,,,Consulting & Expense Reimbursement,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-05,Elan Cardmember Service,$535.49,St. Louis,MO,,,,"Virginia State Fair, Verizon, Network Solutions",D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-12,JDS Solutions LLC,"$1,637.06",Midlothian,VA,,,,Signs,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-03,WinRed,$11.82,Arlington,VA,,,,Transaction Fee,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-05,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-07,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-11,WinRed,$24.61,Arlington,VA,,,,Transaction Fee,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-18,WinRed,$8.20,Arlington,VA,,,,Transaction Fee,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-23,WinRed,$2.06,Arlington,VA,,,,Transaction Fee,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-25,WinRed,$0.99,Arlington,VA,,,,Transaction Fee,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-28,WinRed,$19.70,Arlington,VA,,,,Transaction Fee,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-25,PXI Corp,$124.38,Harrisonburg,VA,,,,Event Invitations,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-18,Friends of Siobhan Dunnavant,"$2,500",Henrico,VA,,,,Campaign Contribution,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-20,WRAR,"$3,969",Tappahannock,VA,,,,Radio Ad,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-20,WNNT,"$3,969",Warsaw,VA,,,,Radio Ad,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-19,Friends of Keith Hodges,$250,Gloucester,VA,,,,Campaign Contribution,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-19,Friends of Phillip Scott,$250,Fredericksburg,VA,,,,Campaign Contribution,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-18,Friends of Paul Milde (Delegate),$250,Stafford,VA,,,,Campaign Contribution,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-21,Telemedia Broadcasting,"$3,000",Fredericksburg,VA,,,,Radio Ads,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+expenditure,2023-09-21,Two Rivers Communication,"$6,002",Kilmarnock,VA,,,,Radio Ads,D,360490,2023-09-01 to 2023-09-30,CC-12-00084,Stuart for Senate
+contribution,2023-10-16,HCA for Good Government,"$2,500",Richmond,VA,pac,,PAC,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-23,Dominion Political Action Committee - VA,"$25,000",Richmond,VA,pac,,PAC,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-10,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,PAC,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-23,"Virginia State Police Association, Inc.",$500,Richmond,VA,pac,,PAC,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-05,Delta Dental of Virginia,"$1,000",Roanoke,VA,business,,HMO & Medical Plans,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-23,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,Engineering,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-18,USAA,$500,San Antonio,TX,business,,Financial,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-10,Advansix Inc. PAC,$500,Parsippany,NJ,pac,,Chemical Company,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-03,John H Morris IV,$100,Warsaw,VA,individual,Self Employed,Lawyer,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-16,Dr Sherilynn Hummel,$250,Burgess,VA,individual,Retired,Retired,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-19,John E Lawler,"$1,000",Sandy Point,VA,individual,Retired,Retired,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-25,Larry D. Silver,"$5,000",Boca Raton,FL,individual,Silver Companies,Owner,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-03,Bonnie Morris,$100,Warsaw,VA,individual,n/a,Homemaker,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-10,Virginia Forest Products Association PAC,$500,Sandston,VA,pac,,Wood Products,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-09,Alexander Dillard,$104.10,Tappahannock,VA,individual,Self,Attorney,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-15,Jim Cowardin,$104.10,Hague,VA,individual,Retired,Retired,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-16,CNX Gas Company LLC,"$2,500",Canonsburg,PA,business,,Natural Gas,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-18,Reynolds American Inc.,$500,Winston-Salem,NC,business,,Tobacco,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-20,Barry Waldman,$104.10,Fredericksburg,VA,individual,Waldman Associates,Attorney,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-23,Lancaster County Republican Committee,"$1,000",Kilmarnock,VA,business,,Republican Committee,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-26,Betsy Butler,$500,Fredericksburg,VA,individual,Self,Homemaker,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-25,Ronald Benson,$104.10,Merry Point,VA,individual,Retired,Retired,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-25,Robert Ingram,$104.10,King George,VA,individual,Lockheed Martin,Customer Trainer,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-26,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco Products,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-26,Larry Greene,$500,Montross,VA,individual,Self,CPA,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-26,ULT Political Action Committee,$500,Richmond,VA,pac,,Farming and Agribusiness,,A,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+in_kind,2023-10-26,Republican Party of Virginia,"$39,871.87",Richmond,VA,party,,Political Group,Direct Mail,B,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-02,Patricia K. Lewis,"$1,500",Montross,VA,,,,Campaign Consulting,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-16,"Virginia Senate Republican Caucus, Inc.","$40,000",Williamsburg,VA,,,,Contribution,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-23,"Virginia Senate Republican Caucus, Inc.","$34,000",Williamsburg,VA,,,,Donation,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-02,Jake Salmons,"$3,000",Clarkville,VA,,,,Consulting,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-05,Elan Cardmember Service,"$1,150.45",St. Louis,MO,,,,"Network Solutions, Costco, Verizon Wireless, Publix, Wawa, Sheetz, Murphy Express",D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-02,JDS Solutions LLC,"$3,303.47",Midlothian,VA,,,,"Signs, Mileage, Expense Reimbursement",D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-16,JDS Solutions LLC,"$14,176.12",Midlothian,VA,,,,Mail,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-02,WinRed,$7.88,Arlington,VA,,,,Transaction Fee,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-05,WinRed,$0.21,Arlington,VA,,,,Transaction Fee,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-10,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-18,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-24,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-05,Adams for Senate,"$5,000",Virginia Beach,VA,,,,Campaign Contribution,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-05,Friends of Tara Durant,"$20,000",Fredericksburg,VA,,,,Campaign Contribution,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-23,PXI Corp,"$1,050.61",Harrisonburg,VA,,,,Palm Cards,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-05,Friends of Emily Brewer,"$15,000",Smithfield,VA,,,,Campaign Contribution,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-05,Diggs for Senate,"$5,000",Yorktown,VA,,,,Campaign Contribution,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-05,Friends of Siobhan Dunnavant,"$27,500",Henrico,VA,,,,Campaign Contribution,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-05,Blue Ridge Bank,$150,Montross,VA,,,,Wire Transfer Fees,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-16,Blue Ridge Bank,$25,Montross,VA,,,,Wire Transfer Fee,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-23,Blue Ridge Bank,$25,Montross,VA,,,,Wire Transfer Fee,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-02,Legio Buiness Solutions LLC,$169.31,Richmond,VA,,,,Texts,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-05,Woolf for Senate,"$5,000",Gainsville,VA,,,,Campaign Contribution,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-16,Friends of Drew Mullins,"$1,000",Fredericksburg,VA,,,,Campaign Contribution,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-23,Caroline County Republican Committee,$250,Bowling Green,VA,,,,Donation,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+expenditure,2023-10-23,Friends of Vanuch,"$5,000",Garrisonville,VA,,,,Campaign Contribution,D,383873,2023-10-01 to 2023-10-26,CC-12-00084,Stuart for Senate
+contribution,2023-10-30,"Reed Smith, LLP","$2,500",Richmond,VA,pac,,PAC,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-11-20,Visa,$500,Austin,TX,business,,Financial Services,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-10-30,Hill Wellford,$520.51,Caret,VA,individual,Retired,Retired,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-10-31,Insurance and Financial Advisors PAC - Virginia,$500,Richmond,VA,pac,,Finance,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-11-06,American Chemistry Council,$250,Richmond,VA,business,,Trade Association for American Chemical Companies,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-11-04,Virginia Crowther Ritter,$104.10,Reedville,VA,individual,retired,retired,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-11-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-11-03,Betsy Valentine,$156.15,Fredericksburg,VA,individual,Self,Marketing Consultant,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-10-30,VA Operators for Skill,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-10-30,Richard Stewart,$104.10,Heathsville,VA,individual,Retired,Retired,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-10-30,Waterloo Farms,$500,King George,VA,business,,Agriculture,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-11-02,Billy Skaggs,$250,Ophelia,VA,individual,Retired,Retired,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-11-06,Edwin Sompayrac,$500,Fredericksburg,VA,individual,UtilityPros,Director of Construction,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-11-07,Swedish Match North America LLC,$500,Richmond,VA,business,,Tobacco,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-11-13,Sheetz,"$1,000",Altoona,PA,business,,Convenience,,A,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+in_kind,2023-11-02,Republican Party of Virginia,"$33,959.82",Richmond,VA,party,,Political Group,Direct Mail,B,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-01,Patricia K. Lewis,"$1,500",Montross,VA,,,,Campaign Consulting,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-24,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-06,USPS,$198,Montross,VA,,,,Stamps,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-01,Jake Salmons,"$3,524.13",Clarkville,VA,,,,Campaign Consulting & Expense Reimbursement,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-06,Elan Cardmember Service,$450.35,St. Louis,MO,,,,"Verizon, Network Solutions, Gas",D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-09,JDS Solutions LLC,"$7,841.73",Midlothian,VA,,,,Texts & Email Service Provider,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-10-27,WinRed,$10.25,Arlington,VA,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-10-30,WinRed,$41.24,Arlington,VA,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-10-31,WinRed,$2.05,Arlington,VA,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-01,WinRed,$26.58,Arlington,VA,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-03,WinRed,$7.88,Arlington,VA,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-03,WinRed,$7.88,Arlington,VA,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-07,WinRed,$6.15,Arlington,VA,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-08,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-09,WinRed,$2.87,Arlington,VA,,,,Transaction Fee,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-10-31,Willow Stitch,$500,Warsaw,VA,,,,Hats,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-07,Old Rapp Taphouse,"$1,236.25",Warsaw,VA,,,,Election Night Event - Rental Fee & Food,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+expenditure,2023-11-13,Barbour Printing,$952.97,Tappahannock,VA,,,,Printing,D,383886,2023-10-27 to 2023-11-30,CC-12-00084,Stuart for Senate
+contribution,2023-12-18,Virginia Optometric Association,$500,Glen Allen,VA,business,,Optometry Association,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-12-26,Joe Nash,$104.10,Woodbridge,VA,individual,Retired,Retired,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-12-24,Charles Clark,$25,Ashland,VA,individual,King George Commonwealth's Attorney,Attorney,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-12-04,Virginia CRNA PAC,"$1,000",Richmond,VA,pac,,PAC,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-12-04,Albert Pollard,$500,Irvington,VA,individual,Self,Nonprofit Consultant,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-12-01,James Cothran,$26.03,Charlottesville,VA,individual,Retired,Retired,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-12-11,Virginia State Farm Agents and Employees PAC,"$2,500",Tappahannock,VA,pac,,Insurance,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-12-28,"H. Betti Industries, Inc.","$1,000",Carlstadt,NJ,business,,Video Gaming,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-12-31,"Powerhouse VA, Inc.","$1,000",South Chesterfield,VA,business,,Charitable Gaming,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2023-12-31,Commissioner of Revenue PAC,$500,Newport News,VA,pac,,Political Action Committee,,A,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+expenditure,2023-12-25,Anedot,$1.30,Dallas,TX,,,,Transaction Fee,D,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+expenditure,2023-12-13,USPS,$264,Montross,VA,,,,Stamps,D,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+expenditure,2023-12-13,USPS,$132,Montross,VA,,,,Stamps,D,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+expenditure,2023-12-20,Caroline First,$150,Bowling Green,VA,,,,Donation,D,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+expenditure,2023-12-06,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+expenditure,2023-12-28,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,394267,2023-12-01 to 2023-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-06-12,HCA for Good Government,"$2,500",Richmond,VA,pac,,PAC,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-01-08,Dominion Political Action Committee - VA,"$10,000",Richmond,VA,pac,,PAC,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-05-29,Dominion Political Action Committee - VA,"$10,000",Richmond,VA,pac,,PAC,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-06-04,"Capital One Services, LLC","$2,500",Reston,VA,business,,Financial Institution,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-05-06,"Republic Services, Inc.","$1,000",Phoenix,AZ,business,,Waste disposal company,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-06-04,Virginia Land Title Association PAC,$500,Alpharetta,GA,pac,,Land Title,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-06-10,Advansix Inc. PAC,$500,Parsippany,NJ,pac,,Chemical Company,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-06-10,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,Physician,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-05-20,Strata Clean Energy,"$2,500",Durham,NC,business,,Solar Energy,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-01-09,Virginia Future PAC,$500,Woodbridge,VA,pac,,Rental/Property Management,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-01-09,VA Operators for Skill,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-05-06,VA Operators for Skill,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-06-24,Altria Client Services LLC,"$2,500",Richmond,VA,business,,Tobacco Products,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-01-09,IGT Global Solutions,"$2,500",Reno,NV,business,,Gaming,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-01-09,Asian American Business Owners Association PAC,"$1,000",Roanoke,VA,pac,,Political Action Committee,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-04-01,Asurion,"$1,000",Nashville,TN,business,,Wireless Insurance,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-05-22,Kimberly Dalrymple,$104.10,Nokesville,VA,individual,Retired,Retired,,A,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-04-22,VPAP Sunshine Caucus,$300,Richmond,VA,,,,Donation,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-01-15,Jake Salmons,"$1,500",Clarkville,VA,,,,Treasurer Services,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-01-09,Elan Cardmember Service,"$2,797",St. Louis,MO,,,,"Network Solutions, Verizon Wireless, Staples",D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-02-08,Elan Cardmember Service,$5.49,St. Louis,MO,,,,Network Solutions,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-03-13,Elan Cardmember Service,$160.74,St. Louis,MO,,,,Network Solutions,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-04-09,Elan Cardmember Service,$324.45,St. Louis,MO,,,,Network Solutions,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-05-06,Elan Cardmember Service,$5.49,St. Louis,MO,,,,Network Solutions,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-06-04,Elan Cardmember Service,$5.49,St. Louis,MO,,,,Network Solutions,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-01-15,JDS Solutions LLC,$500.55,Midlothian,VA,,,,Email Service Provider & Reimbursement,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-02-06,JDS Solutions LLC,$200,Midlothian,VA,,,,Email Service Provider,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-03-05,JDS Solutions LLC,$200,Midlothian,VA,,,,Email Service Provider,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-04-01,JDS Solutions LLC,$200,Midlothian,VA,,,,Email Service Provider,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-05-01,JDS Solutions LLC,$200,Midlothian,VA,,,,Email Service Provider,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-06-26,JDS Solutions LLC,$200,Midlothian,VA,,,,Email Service Provider,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-03-05,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-05-23,WinRed,$6.15,Arlington,VA,,,,Transaction Fee,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-06-03,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-01-02,Blue Ridge Bank,$25,Montross,VA,,,,Wire Transfer Fee,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-01-09,WRAR,$125,Tappahannock,VA,,,,Christmas Music Sponsor,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-01-09,WNNT,$125,Warsaw,VA,,,,Christmas Music Sponsor,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-01-15,Willow Stitch,$333.87,Warsaw,VA,,,,Hats,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-01-02,Mulchi for Senate,"$1,500",Alexandria,VA,,,,Campaign Contribution,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-01-09,Treasurer of Virginia,$15,Richmond,VA,,,,Badge,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+expenditure,2024-03-13,Harland Clarke Corp.,$166.76,San Antonio,TX,,,,Checks,D,409697,2024-01-01 to 2024-06-30,CC-12-00084,Stuart for Senate
+contribution,2024-08-19,"Reed Smith, LLP","$1,500",Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-08,Virginia Automobile & Truck Dealers Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-17,Visa,"$1,000",Austin,TX,business,,Financial Services,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-07-15,Waste Management,"$1,000",Washington,DC,business,,Waste Management,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-09,Dominion Political Action Committee - VA,"$50,000",Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-04,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-30,Genworth Financial Corporation,"$1,000",Lynchburg,VA,business,,Financial Services,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-08,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-04,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-19,Virginia Trial Lawyers Political Action Committee,"$2,000",Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-30,Commonwealth Sportsmen's Alliance PAC,"$1,000",Powhatan,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-09-30,American Electric Power Company Virginia Committee for Responsible Government,"$1,000",Richmond,VA,pac,,Electric,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-23,Virginia Health Care Association Political Action Committee,"$1,500",Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-04,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-09-23,Realtors Political Action Committee of Virginia,"$2,000",Glen Allen,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-08,Comcast,$500,Philadelphia,PA,business,,TV/Cable,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-09,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-09-19,Williams Mullen Clark & Dobbins,$750,Richmond,VA,business,,Attorneys/Law Firm,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-09-11,Virginia Beer Wholesalers Association,"$2,500",Richmond,VA,pac,,PAC,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-04,"Micron Technology, Inc.","$1,000",Boise,ID,business,,Information Technology,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-09-11,Virginia Beverage Association,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-17,Anheuser-Busch,$500,Atlanta,GA,business,,Beverage Manufacturer,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-20,Joe Nash,$26.03,Woodbridge,VA,individual,Retired,Retired,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-20,Joe Nash,$26.03,Woodbridge,VA,individual,Retired,Retired,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-20,Joe Nash,$26.03,Woodbridge,VA,individual,Retired,Retired,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-30,Commercial Development PAC,$500,Alexandria,VA,pac,,Commercial Development,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-17,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Shipbuilding,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-04,PhRMA,"$1,000",Washington,DC,business,,Pharmaceutical,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-07-08,Hunton Andrews Kurth LLP,"$2,500",Richmond,VA,business,,Energy,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-23,McGuireWoods LLC,"$1,000",Richmond,VA,business,,Consulting,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-09-11,Virginia Eagle Distributing Company,"$1,000",Springfield,VA,business,,Distribution,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-08-13,"The Williams Companies, Inc.","$1,000",Tulsa,OK,business,,Energy,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-14,Verizon Corporate Resources Group,"$1,000",Washington,DC,business,,Communications,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-21,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,Energy,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-09-19,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,Political Action Committee,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-08-13,CVS Health,"$1,000",Woonsocket,RI,business,,Pharmacy,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-18,Premium Distributors of Virginia,"$1,000",Chantilly,VA,business,,Beverage Distributors,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-09,Reynolds American Inc.,$500,Winston-Salem,NC,business,,Tobacco,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-09-23,Altria Client Services LLC,"$2,000",Richmond,VA,business,,Tobacco Products,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-18,Commissioner of Revenue PAC,$250,Newport News,VA,pac,,Political Action Committee,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-08-22,Kimberly Dalrymple,$104.10,Nokesville,VA,individual,Retired,Retired,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-22,Kimberly Dalrymple,$104.10,Nokesville,VA,individual,Retired,Retired,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-10-17,McKesson Employee's PAC,$500,Washington,DC,pac,,Healthcare,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-06,Virginia Assisted Living Association PAC,$500,Henrico,VA,pac,,Assisted Living,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-07,Virginia Society of CPAs Political Action Committee,"$1,000",Glen Allen,VA,pac,,CPA Business Issues,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-09,Sideprize LLC,$500,Atlanta,GA,business,,Fantasy Sports,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-12-04,Allen West,$520.51,King George,VA,individual,Westbrooke Homes,President,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-25,Boyd-Pamunkey Casino PAC,"$2,000",Norfolk,VA,pac,,Casino,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-04,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Real Estate,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-25,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Real Estate,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2024-11-18,ACE Development Company LLC,$500,Salt Lake City,UT,business,,Real Estate,,A,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-08-19,Treasurer of Virginia,$40,Richmond,VA,,,,Framed Resolution,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-10-21,Treasurer of Virginia,$416.73,Richmond,VA,,,,Notecards and Envelopes,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-07-02,Virginia Senate Republican Caucus,"$16,500",Williamsburg,VA,,,,Contribution,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-07-08,Jake Salmons,"$1,500",Clarkville,VA,,,,Campaign Consulting,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-07-08,Elan Cardmember Service,$5.49,St. Louis,MO,,,,Network Solutions,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-08-12,Elan Cardmember Service,"$1,096.14",St. Louis,MO,,,,"Network Solutions, Walmart, Norview Marina",D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-09-03,Elan Cardmember Service,$773.61,St. Louis,MO,,,,"Wawa, Merrior, Network Solutions",D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-10-08,Elan Cardmember Service,$857.49,St. Louis,MO,,,,"Network Solutions, Marriott Virginia Beach, Sam Miller's Restaurant",D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-11-04,Elan Cardmember Service,$540.68,St. Louis,MO,,,,Sam Miller's Restaurant - Fundraiser Oct 2024,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-11-04,Elan Cardmember Service,$5.49,St. Louis,MO,,,,Network Solutions,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-12-09,Elan Cardmember Service,$5.49,St. Louis,MO,,,,Network Solutions,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-07-08,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-08-12,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-09-03,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-10-09,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-11-04,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-12-02,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-07-22,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-08-21,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-08-24,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-09-03,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-09-23,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-10-21,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-11-21,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-11-25,WinRed,$4.10,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-12-02,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-12-05,WinRed,$20.51,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-12-22,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-08-28,Hillary Pugh Kent for Delegate,$250,Warsaw,VA,,,,Donation,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-07-08,Caroline County Little League,$100,Woodford,VA,,,,Donation,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+expenditure,2024-08-12,Gloucester County Republican Committee,$500,Gloucester,VA,,,,Donation,D,431245,2024-07-01 to 2024-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-05-27,Waste Management,$750,Washington,DC,business,,Waste Management,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-06-23,"Capital One Services, LLC","$2,500",Reston,VA,business,,Financial Institution,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-01-07,Home Builders Association of Virginia,"$5,000",Richmond,VA,pac,,PAC,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-06-25,"Republic Services, Inc.","$1,000",Phoenix,AZ,business,,Waste disposal company,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-06-07,Virginia Trial Lawyers Political Action Committee,"$3,000",Richmond,VA,pac,,PAC,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-06-17,Joe Nash,$26.03,Woodbridge,VA,individual,Retired,Retired,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-06-30,John H Morris IV,$100,Warsaw,VA,individual,Self Employed,Lawyer,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-06-04,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,Physician,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-06-30,Bonnie Morris,$100,Warsaw,VA,individual,n/a,Homemaker,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-01-07,Publix,$500,Durham,NC,business,,Grocery,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-01-03,VA Operators for Skill,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-05-12,CVS Health,$500,Woonsocket,RI,business,,Pharmacy,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-04-14,Altria Client Services LLC,"$2,500",Richmond,VA,business,,Tobacco Products,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-01-07,Smithfield Support Services Corp.,"$1,000",Lisle,IL,business,,Food Processing,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-01-07,PPE Casino Resorts Petersburg,"$5,000",Baltimore,MD,business,,Casino,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-03-10,Elevance Health Inc.,$500,Cincinnati,OH,business,,Health Insurance,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-01-06,Virginia Pharmacists Association,$500,Richmond,VA,business,,Pharmacy,,A,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-05-27,Treasurer of Virginia,$276,Richmond,VA,,,,Resolution Framing & Flags for Constituents,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-04-30,Virginia Senate Republican Caucus,"$16,500",Richmond,VA,,,,Dues,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-01-03,Jake Salmons,"$1,500",Clarkville,VA,,,,Treasurer,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-01-07,Elan Cardmember Service,$50.98,St. Louis,MO,,,,"Network Solutions, Verizon Wireless",D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-01-03,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-02-04,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-03-04,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-04-01,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-05-12,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-06-03,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-05-04,WinRed,$3,Arlington,VA,,,,Transaction Fee,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-06-18,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-01-27,Massey Cancer Center,$250,Richmond,VA,,,,Donation,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-03-31,Blue Ridge Bank,$3,Montross,VA,,,,Bank Fee,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-04-30,Blue Ridge Bank,$3,Montross,VA,,,,Bank Fee,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-05-30,Blue Ridge Bank,$3,Montross,VA,,,,Bank Fee,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-06-30,Blue Ridge Bank,$3,Montross,VA,,,,Bank Fee,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-01-27,WRAR,$125,Tappahannock,VA,,,,Radio Ad,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-01-27,WNNT,$125,Warsaw,VA,,,,Radio Ad,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+expenditure,2025-03-24,Winsome for Governor,"$5,000",Richmond,VA,,,,Contribution,D,448528,2025-01-01 to 2025-06-30,CC-12-00084,Stuart for Senate
+contribution,2025-08-18,Comcast,$500,Philadelphia,PA,business,,TV/Cable,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-20,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,PAC,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-20,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,Attorneys/Law Firm,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-05,Virginia Beer Wholesalers Association,"$2,500",Richmond,VA,pac,,PAC,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-05,"Micron Technology, Inc.","$1,000",Boise,ID,business,,Information Technology,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-09-15,Virginia Beverage Association,$500,Richmond,VA,pac,,Political Action Committee,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-05,Anheuser-Busch,$500,Atlanta,GA,business,,Beverage Manufacturer,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-07-17,Joe Nash,$26.03,Woodbridge,VA,individual,Retired,Retired,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-08-17,Joe Nash,$26.03,Woodbridge,VA,individual,Retired,Retired,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-06,Reedville Bait Company,$500,Burgess,VA,business,,Fishing,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-10,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-12-29,HBAV Build-PAC,"$5,000",Richmond,VA,pac,,Home Builders,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-20,PhRMA,"$1,000",Washington,DC,business,,Pharmaceutical,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-17,McGuireWoods LLC,"$1,000",Richmond,VA,business,,Consulting,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-05,Publix,$500,Durham,NC,business,,Grocery,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-27,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,Energy,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-12-22,VA Operators for Skill,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-20,Virginia Maritime Association PAC,"$1,000",Norfolk,VA,pac,,Political Action Committee,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-01,Premium Distributors of Virginia,"$1,000",Chantilly,VA,business,,Beverage Distributors,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-20,ULT Political Action Committee,$500,Richmond,VA,pac,,Farming and Agribusiness,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-24,Commissioner of Revenue PAC,$250,Newport News,VA,pac,,Political Action Committee,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-05,McKesson Employee's PAC,$400,Washington,DC,pac,,Healthcare,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-07-28,Boyd-Pamunkey Casino PAC,"$1,000",Norfolk,VA,pac,,Casino,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-09-23,ACE Development Company LLC,$500,Salt Lake City,UT,business,,Real Estate,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-09-23,Smithfield Support Services Corp.,"$2,000",Lisle,IL,business,,Food Processing,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-09-03,Virginia Pharmacists Association,$500,Richmond,VA,business,,Pharmacy,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-01,All Points Broadband Partners LLC,$500,Richmond,VA,business,,Cable,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-20,VAMICPAC,$500,Richmond,VA,pac,,Insurance,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-06,Community-Owned Power PAC,"$1,000",Glen Allen,VA,pac,,Electric Coop,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$5,000",Portsmouth,VA,business,,Gaming,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-05,Gilead Sciences Inc.,"$1,000",Raleigh,NC,business,,Biopharmaceutical,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-11-24,Seven Hills Strategy Group LLC,$250,Richmond,VA,business,,Strategic Consulting,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-12-30,Humana,$750,Lexington,KY,business,,Health Insurance,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-09-03,Deloitte,"$1,000",Wasington,DC,business,,Accounting,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-08-04,Visa,"$1,000",Austin,TX,business,,Financial Services,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-01,HCA for Good Government,"$2,500",Richmond,VA,pac,,PAC,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-15,Dominion Political Action Committee - VA,"$50,000",Richmond,VA,pac,,PAC,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-12-18,Dominion Political Action Committee - VA,"$15,000",Richmond,VA,pac,,PAC,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-01,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,PAC,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-12-08,Genworth Financial Corporation,"$1,000",Lynchburg,VA,business,,Financial Services,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-07-07,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,PAC,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-10-22,Virginia Sheriffs' Association Political Action Committee,$500,Richmond,VA,pac,,PAC,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2025-08-25,Realtors Political Action Committee of Virginia,"$2,000",Glen Allen,VA,pac,,PAC,,A,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+in_kind,2025-11-05,"Capital One Services, LLC","$2,500",Reston,VA,business,,Financial Institution,Fundraising Event,B,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-07-10,Treasurer of Virginia,$48,Richmond,VA,,,,Virginia Flag,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-08-18,Virginia Senate Republican Caucus,"$1,500",Richmond,VA,,,,Contribution,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-07-10,USPS,$365,Montross,VA,,,,Stamps,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-07-02,Jake Salmons,"$1,500",Clarkville,VA,,,,Treasurer,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-07-02,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-08-04,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-09-02,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-10-01,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-11-05,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-12-03,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-07-19,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-08-18,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-09-17,WinRed,$1.03,Arlington,VA,,,,Transaction Fee,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-08-05,Hillary Pugh Kent for Delegate,$250,Warsaw,VA,,,,Campaign Contribution,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-10-16,Blue Ridge Bank,$30,Montross,VA,,,,Bank Fee,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-08-05,Orrock for House,$250,Thornburg,VA,,,,Campaign Contribution,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-08-05,John Reid for Virginia,$250,Henrico,VA,,,,Campaign Contribution,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-09-24,John Reid for Virginia,"$1,000",Henrico,VA,,,,Campaign Contribution,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-10-16,John Reid for Virginia,"$25,000",Henrico,VA,,,,Campaign Donation,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+expenditure,2025-09-17,Miyares for Virginia,"$5,000",Virginia Beach,VA,,,,Campaign Contribution,D,479427,2025-07-01 to 2025-12-31,CC-12-00084,Stuart for Senate
+contribution,2026-06-30,Waste Management,"$1,000",Washington,DC,business,,Waste Management,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+contribution,2026-01-07,Dominion Political Action Committee - VA,"$35,000",Richmond,VA,pac,,PAC,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+contribution,2026-06-15,Anheuser-Busch,$500,Atlanta,GA,business,,Beverage Manufacturer,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+contribution,2026-04-13,John H Morris IV,$100,Warsaw,VA,individual,Self Employed,Lawyer,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+contribution,2026-04-13,Bonnie Morris,$100,Warsaw,VA,individual,n/a,Homemaker,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+contribution,2026-01-13,VA Operators for Skill,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+contribution,2026-04-27,VA Operators for Skill,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+contribution,2026-01-13,"Apex Clean Energy Holdings, LLC",$250,Charlottesville,VA,business,,Energy,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+contribution,2026-01-13,"Carbon Solutions Group, LLC",$250,Chicago,IL,business,,Energy,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+contribution,2026-05-18,William Spotswood,$104.10,Ponte Vedra Beach,VA,individual,Retired,Retired,,A,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-06-18,VPAP Sunshine Caucus,$300,Richmond,VA,,,,Donation,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-06-23,USPS,$624,Montross,VA,,,,Stamps,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-01-05,Jake Salmons,"$1,500",Clarkville,VA,,,,Treasurer,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-01-05,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-02-09,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-03-02,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-04-01,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-05-13,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-06-04,JDS Solutions LLC,$200,Chesterfield,VA,,,,Email Service Provider,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-05-19,WinRed,$9.20,Arlington,VA,,,,Transaction Fee,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-02-09,Massey Cancer Center,$250,Richmond,VA,,,,Donation,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate
+expenditure,2026-06-18,Valentine Group,"$1,884",Vega Alta,PR,,,,Website Hosting,D,496501,2026-01-01 to 2026-06-30,CC-12-00084,Stuart for Senate

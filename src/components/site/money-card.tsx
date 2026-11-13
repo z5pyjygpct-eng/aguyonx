@@ -16,6 +16,8 @@ import {
   type DonorKind,
   type FinanceDonor,
   type FinanceFiling,
+  type FinanceHistory,
+  type FinanceHistoryYear,
   type FinanceSpendItem,
   type FinanceSummary,
 } from "@/lib/finance-summaries";
@@ -438,6 +440,109 @@ function VendorRow({ vendor }: { vendor: { name: string; cents: number; count: n
   );
 }
 
+function HistoryYearRow({ y, firstName }: { y: FinanceHistoryYear; firstName: string }) {
+  const [open, setOpen] = useState(false);
+  const [donorPage, setDonorPage] = useState(1);
+  const donorPages = Math.max(1, Math.ceil(y.donors.length / LIST_PAGE_SIZE));
+  const safePage = Math.min(donorPage, donorPages);
+  const donorSlice = y.donors.slice((safePage - 1) * LIST_PAGE_SIZE, safePage * LIST_PAGE_SIZE);
+  return (
+    <li>
+      <button
+        type="button"
+        aria-expanded={open}
+        onClick={() => setOpen((v) => !v)}
+        className="flex min-h-11 w-full items-center justify-between gap-3 px-4 py-3 text-left hover:bg-navy-600/40"
+      >
+        <span className="flex min-w-0 items-start gap-2">
+          <ChevronDown className={`mt-1 size-4 shrink-0 text-gold transition-transform ${open ? "" : "-rotate-90"}`} aria-hidden />
+          <span className="min-w-0">
+            <span className="block font-serif text-lg font-bold">{y.year}</span>
+            <span className="block text-xs text-night-muted">
+              {y.reports} {y.reports === 1 ? "report" : "reports"} · {y.donorCount.toLocaleString()} named givers ·{" "}
+              {y.vendorCount.toLocaleString()} vendors{y.committees.length ? ` · ${y.committees.join(", ")}` : ""}
+              {` · ${open ? "Hide details" : "See details"}`}
+            </span>
+          </span>
+        </span>
+        <span className="grid shrink-0 grid-cols-2 gap-x-4 text-right">
+          <span className="text-[10px] tracking-wide text-night-muted uppercase">Raised</span>
+          <span className="text-[10px] tracking-wide text-night-muted uppercase">Spent</span>
+          <span className="font-serif text-base font-bold text-gold sm:text-lg">{formatUsd(y.raisedCents)}</span>
+          <span className="font-serif text-base font-bold text-on-dark-muted sm:text-lg">{formatUsd(y.spentCents)}</span>
+        </span>
+      </button>
+      {open ? (
+        <div className="border-t border-navy-line/50 bg-navy-900/40 px-4 py-4">
+          <p className="text-xs text-on-dark-muted">
+            {formatUsd(y.giftCents)} in {y.giftCount.toLocaleString()} itemized gifts and {formatUsd(y.paymentCents)} in{" "}
+            {y.paymentCount.toLocaleString()} itemized payments dated {y.year}
+            {typeof y.endingBalanceCents === "number" ? ` · money in the bank at the end of the last ${y.year} report: ${formatUsd(y.endingBalanceCents)}` : ""}.
+          </p>
+          <h4 className="mt-4 text-xs font-semibold tracking-wide text-gold uppercase">
+            Top givers to {firstName} in {y.year}
+          </h4>
+          {y.donors.length ? (
+            <>
+              <ol className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+                {donorSlice.map((d, i) => (
+                  <DonorRow key={`${y.year}-${d.name}`} donor={d} index={(safePage - 1) * LIST_PAGE_SIZE + i + 1} />
+                ))}
+              </ol>
+              <MoneyPages page={safePage} pages={donorPages} onPage={setDonorPage} label={`${y.year} giver pages`} />
+            </>
+          ) : (
+            <p className="mt-2 text-sm text-on-dark-muted">No itemized gifts dated {y.year}.</p>
+          )}
+          <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">Top vendors paid in {y.year}</h4>
+          {y.vendors.length ? (
+            <ul className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+              {y.vendors.map((v) => (
+                <VendorRow key={`${y.year}-${v.name}`} vendor={v} />
+              ))}
+            </ul>
+          ) : (
+            <p className="mt-2 text-sm text-on-dark-muted">No itemized payments dated {y.year}.</p>
+          )}
+        </div>
+      ) : null}
+    </li>
+  );
+}
+
+function MoneyHistory({ h, firstName }: { h: FinanceHistory; firstName: string }) {
+  if (!h.years.length) return null;
+  const earlier = h.committees.filter((c) => !c.current);
+  return (
+    <>
+      <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Money by year, 2021 to now</h3>
+      <p className="mt-1 text-sm text-on-dark-muted">
+        Official raised and spent totals from every scheduled state report since January 2021
+        {h.through ? `, through ${formatDate(h.through)}` : ""}. Tap a year to see that year's top givers and vendors.
+        {earlier.length
+          ? ` Includes ${firstName}'s earlier House or Senate committee${earlier.length > 1 ? "s" : ""}: ${earlier.map((c) => c.committeeName).join(", ")}.`
+          : ""}
+      </p>
+      <ul className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+        {h.years.map((y) => (
+          <HistoryYearRow key={y.year} y={y} firstName={firstName} />
+        ))}
+      </ul>
+      <p className="mt-2 text-xs text-night-muted">{h.note}</p>
+      {h.csvPath ? (
+        <a
+          href={h.csvPath}
+          download
+          className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-md border border-gold px-4 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900"
+        >
+          <Download className="size-4" aria-hidden />
+          Download every itemized gift and payment since 2021 (CSV)
+        </a>
+      ) : null}
+    </>
+  );
+}
+
 function ReadyView({
   s,
   billsHref,
@@ -683,6 +788,8 @@ function ReadyView({
         </ul>
       ) : null}
       <SourceLine reportId={report?.id} filed={report?.filed} amendment={report?.amendment} />
+
+      {s.history ? <MoneyHistory h={s.history} firstName={firstName} /> : null}
 
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Did they file on time?</h3>
       <p className="mt-1 text-sm text-on-dark-muted">

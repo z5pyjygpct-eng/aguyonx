@@ -3,6 +3,133 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$131,566.17",,VA,,"From official Schedule H, November 2025 election cycle",H,494837,2026-07-13
 summary,2026-06-30,Raised this cycle,"$303,813.72",,,,Total receipts this election cycle (Schedule H),H,494837,2026-07-13
 summary,2026-06-30,Spent this cycle,"$223,150.42",,,,Total disbursements this election cycle (Schedule H),H,494837,2026-07-13
+contribution,2025-03-25,AFSCME,"$5,000",Washington,DC,pac,,A,435977,2025-04-14
+contribution,2025-01-06,Jennifer Andrews,$33.33,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-02,Nancy Collins,$16.66,Henrico,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-04,Robert Downs,$33.33,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-03-31,"Elevance Health, Inc","$1,000",Cincinnati,OH,business,,A,435977,2025-04-14
+contribution,2025-01-06,Jenna Evers,$13.33,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-06,Martha Cole Glenn,$33.33,Henrico,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-06,Barbara Goldberg Ph.D.,$16.66,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-03-14,HBAV Build PAC,"$1,000",Richmond,VA,pac,,A,435977,2025-04-14
+contribution,2025-02-24,Loren Hershey,$185,Oakton,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-03,Mark Hubbard,$16.66,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-06,Herschel Kanter,$33.33,Sterling,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-04,Cole Kawugule,$16.66,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-03,Michael Keegan,$16.66,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-01,Anita Kozakewicz,$33.33,Henrico,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-06,Rebecca Lawson,$16.66,Henrico,VA,individual,,A,435977,2025-04-14
+contribution,2025-03-31,Plumbers and Steamfitters PAC Local No. 10,"$1,000",Richmond,VA,pac,,A,435977,2025-04-14
+contribution,2025-01-04,Don Polaski,$16.66,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-05,Jonathan Pryor,$166.66,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-04,Pamela Redd,$8.33,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-02,Mary Reichert,$16.66,Henrico,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-01,Brittany Rose,$16.66,Glen Allen,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-02,SEIU COPE,$500,Washington,DC,pac,,A,435977,2025-04-14
+contribution,2025-01-03,Daniel Siegel,$166.66,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-03-14,"Vantage Data Centers Management Co, LLC",$250,Santa Clara,CA,business,,A,435977,2025-04-14
+contribution,2025-01-06,Carole Weinstein,$333.33,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-06,Timothy Whitcombe,$33.33,Henrico,VA,individual,,A,435977,2025-04-14
+contribution,2025-01-23,Arnold Woodruff,$25,Richmond,VA,individual,,A,435977,2025-04-14
+contribution,2025-04-22,CVS Health,"$1,000",Woonsocket,RI,business,,A,441736,2025-06-09
+contribution,2025-06-30,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,446164,2025-07-12
+contribution,2025-06-30,Anheuser Busch,$250,St. Louis,MO,business,,A,446164,2025-07-12
+contribution,2025-06-30,Comcast Financial Agency Corporation,$500,Philadelphia,PA,business,,A,446164,2025-07-12
+contribution,2025-06-22,Leslie Frazier,$35,Richmond,VA,individual,,A,446164,2025-07-12
+contribution,2025-06-30,Friends of Lamont,"$1,000",Richmond,VT,pac,,A,446164,2025-07-12
+contribution,2025-06-18,Greater VA Carpenters,"$10,000",Ashland,VA,business,,A,446164,2025-07-12
+contribution,2025-06-30,Melio Solutions Inc,$500,New York,NY,business,,A,446164,2025-07-12
+contribution,2025-06-21,UpVote PAC,"$1,000",Chesterfield,VA,pac,,A,446164,2025-07-12
+contribution,2025-06-30,VA Retail Federation PAC,$500,Richmond,VA,pac,,A,446164,2025-07-12
+contribution,2025-06-30,VEA Fund,$500,Richmond,VA,business,,A,446164,2025-07-12
+contribution,2025-06-23,Vote Mama,"$1,000",Washington,DC,pac,,A,446164,2025-07-12
+contribution,2025-07-02,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,453109,2025-09-12
+contribution,2025-08-12,Amazon.com Services LLC,"$1,000",Seattle,WA,business,,A,453109,2025-09-12
+contribution,2025-07-28,Associated General Contractors of Virginia PAC,$250,Glen Allen,VA,pac,,A,453109,2025-09-12
+contribution,2025-08-22,Capital One Services LLC,$500,Reston,VA,business,,A,453109,2025-09-12
+contribution,2025-08-17,"Carefirst Management Co, Inc",$500,Owings Mills,MD,business,,A,453109,2025-09-12
+contribution,2025-08-13,"Carefirst Management Co, Inc",$500,Owings Mills,MD,business,,A,453109,2025-09-12
+contribution,2025-08-19,Dominion Energy Inc. PAC - Virginia,"$50,000",Richmond,VA,pac,,A,453109,2025-09-12
+contribution,2025-07-02,"DoorDash, Inc",$500,San Francisco,CA,business,,A,453109,2025-09-12
+contribution,2025-07-29,Metis Services Inc,"$1,000",Roanoke,VA,business,,A,453109,2025-09-12
+contribution,2025-08-29,Pharmaceutical Care Management Association,$500,Washington,DC,business,,A,453109,2025-09-12
+contribution,2025-08-28,Pharmacist Care PAC,$250,North Chesterfield,VA,pac,,A,453109,2025-09-12
+contribution,2025-07-09,Sentara Health Administration Inc,$500,Norfolk,VA,business,,A,453109,2025-09-12
+contribution,2025-08-12,Dwight Snead,$250,Glen Allen,VA,individual,,A,453109,2025-09-12
+contribution,2025-08-07,Virginia AFL-CIO Political Expenditures Fund,"$5,000",Richmond,VA,business,,A,453109,2025-09-12
+contribution,2025-07-29,Virginia Bankers Association PAC,"$2,500",Glen Allen,VA,pac,,A,453109,2025-09-12
+contribution,2025-08-05,Virginia Democratic Womens Caucus,$250,Burke,VA,pac,,A,453109,2025-09-12
+contribution,2025-08-05,Virginia Democratic Womens Caucus,$250,Burke,VA,pac,,A,453109,2025-09-12
+contribution,2025-08-04,Virginia Sheriffs Association PAC,$250,Richmond,VA,pac,,A,453109,2025-09-12
+contribution,2025-07-22,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,453109,2025-09-12
+contribution,2025-09-01,Strata Solar,$500,Durham,NC,business,,A,457836,2025-10-07
+contribution,2025-09-16,UFCW Local 400 ABC PAC,"$2,500",Landover,MD,pac,,A,457836,2025-10-07
+contribution,2025-09-18,United Steelworkers District 8,$500,Frankfort,KY,pac,,A,457836,2025-10-07
+contribution,2025-09-03,VA Mortgage Bankers PAC,$500,Glen Allen,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-30,VADPAC Exempt Functions Account,"$1,000",Henrico,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-20,Virginia AFL-CIO Political Expenditures Fund,"$2,500",Richmond,VA,business,,A,457836,2025-10-07
+contribution,2025-09-24,Virginia Association of Health Plans,"$1,500",Richmond,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-24,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-01,Virginia Credit Union PAC,"$3,500",Lynchburg,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-18,Virginia Hospital and Healthcare Association PAC,"$1,000",Richmond,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-15,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-30,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-10,Virginia Wine Wholesalers PAC,"$1,500",Richmond,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-15,Wood Products 2/19 PAC of Virginia,"$1,000",Sandston,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-14,"AES Distributed Energy, Inc.",$500,Salt Lake City,UT,business,,A,457836,2025-10-07
+contribution,2025-09-29,American Property Casualty Insurance Association,$500,Chicago,IL,pac,,A,457836,2025-10-07
+contribution,2025-09-14,"Astellas Pharma US, Inc",$500,Northbrook,IL,business,,A,457836,2025-10-07
+contribution,2025-09-16,CWA - COPE,"$5,000",Washington,DC,pac,,A,457836,2025-10-07
+contribution,2025-09-17,Democratic Leadership Project PAC,$500,Washington,DC,pac,,A,457836,2025-10-07
+contribution,2025-09-16,Genworth Financial,"$1,000",Lynchburg,VA,business,,A,457836,2025-10-07
+contribution,2025-09-16,HBAV Build PAC,"$1,500",Richmond,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-10,HCA for Good Government,"$2,000",Richmond,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-01,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,457836,2025-10-07
+contribution,2025-09-10,IBEW PAC Voluntary Fund,"$1,500",Washington,DC,pac,,A,457836,2025-10-07
+contribution,2025-09-14,John Koza,$500,Los Altos,CA,individual,,A,457836,2025-10-07
+contribution,2025-09-19,Jennie O'Holleran,$500,Richmond,VA,individual,,A,457836,2025-10-07
+contribution,2025-09-14,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,457836,2025-10-07
+contribution,2025-09-23,Philips North America PAC,"$1,000",Washington,DC,pac,,A,457836,2025-10-07
+contribution,2025-09-12,Seven Hills Strategy Group,$250,Richmond,VA,business,,A,457836,2025-10-07
+contribution,2025-10-12,SEIU COPE,"$1,000",Washington,DC,pac,,A,465048,2025-10-27
+contribution,2025-10-06,Seven Hills Strategy Group,$250,Richmond,VA,business,,A,465048,2025-10-27
+contribution,2025-10-02,Mathew Street,$50,"Arlington, Va",VA,individual,,A,465048,2025-10-27
+contribution,2025-10-01,USAA,$500,San Antonio,TX,business,,A,465048,2025-10-27
+contribution,2025-10-01,VAMICPAC,$500,Richmond,VA,pac,,A,465048,2025-10-27
+contribution,2025-10-14,VEA Fund,$250,Richmond,VA,business,,A,465048,2025-10-27
+contribution,2025-10-08,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,465048,2025-10-27
+contribution,2025-10-03,Altria Client Services LLC,"$2,500",Richmond,VA,business,,A,465048,2025-10-27
+contribution,2025-10-01,American Electric Power Company Virginia PAC,"$5,000",Washington,DC,pac,,A,465048,2025-10-27
+contribution,2025-10-01,Delta Dental,$500,Roanoke,VA,business,,A,465048,2025-10-27
+contribution,2025-10-10,Dominion Energy Inc. PAC - Virginia,"$50,000",Richmond,VA,pac,,A,465048,2025-10-27
+contribution,2025-10-14,EarnIn,"$1,000",Mountain View,CA,business,,A,465048,2025-10-27
+contribution,2025-10-06,Richard Hall,"$2,500",Martinsville,VA,individual,,A,465048,2025-10-27
+contribution,2025-10-06,Hunton Andrews Kurth,"$1,000",Richmond,VA,business,,A,465048,2025-10-27
+contribution,2025-10-03,International Union of Operating Engineers,$500,Norfolk,VA,business,,A,465048,2025-10-27
+contribution,2025-10-01,Opportunity Financial,"$7,500",Chicago,IL,business,,A,465048,2025-10-27
+contribution,2025-10-06,PhRMA,$500,Washington,DC,business,,A,465048,2025-10-27
+contribution,2025-10-20,Rivers Casino Portsmith,"$1,000",Portsmouth,VA,business,,A,465048,2025-10-27
+contribution,2025-10-01,Save The Children Action Network,$500,Washington,DC,business,,A,465048,2025-10-27
+contribution,2025-10-28,AT&T,$500,St. Louis,MO,business,,A,470516,2025-12-01
+contribution,2025-11-01,Capital Eye Care,$100,Richmond,VA,business,,A,470516,2025-12-01
+contribution,2025-11-03,"Elevance Health, Inc","$1,000",Cincinnati,OH,business,,A,470516,2025-12-01
+contribution,2025-10-28,Enterprise Holdings Inc. PAC,$500,St. Louis,MO,pac,,A,470516,2025-12-01
+contribution,2025-11-01,IUPAT Legislative Education Committee,$500,Hanover,MD,pac,,A,470516,2025-12-01
+contribution,2025-11-01,McGuireWoods,$500,Richmond,VA,business,,A,470516,2025-12-01
+contribution,2025-10-30,Mid-Atlantic Laborers Political Education Fund,"$3,000",Reston,VA,pac,,A,470516,2025-12-01
+contribution,2025-11-14,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,470516,2025-12-01
+contribution,2025-10-28,NiSource Inc. PAC,$250,Columbus,OH,pac,,A,470516,2025-12-01
+contribution,2025-11-01,Omega Protein,$500,Calais,ME,business,,A,470516,2025-12-01
+contribution,2025-11-01,Plasterers & Cement Masons & Shop Hands PAC,$250,Columbia,MD,pac,,A,470516,2025-12-01
+contribution,2025-11-03,Plumbers and Steamfitters PAC Local No. 10,"$2,000",Richmond,VA,pac,,A,470516,2025-12-01
+contribution,2025-10-28,"POM of Virginia, LLC","$2,000",Duluth,GA,business,,A,470516,2025-12-01
+contribution,2025-10-28,PPE Casino Resports Petersburg,"$2,000",Baltimore,MD,business,,A,470516,2025-12-01
+contribution,2025-10-24,Realtors PAC of Virginia,"$1,000",Glen Allen,VA,pac,,A,470516,2025-12-01
+contribution,2025-11-07,StubHub,"$1,000",New York,NY,business,,A,470516,2025-12-01
+contribution,2025-10-28,"T-Mobile US, Inc",$500,Bellevue,WA,business,,A,470516,2025-12-01
+contribution,2025-11-03,VA Apartment Management Association PAC,"$1,000",Richmond,VA,pac,,A,470516,2025-12-01
+contribution,2025-11-07,VA Digital Infrastructure PAC,"$1,500",Leesburg,VA,pac,,A,470516,2025-12-01
+contribution,2025-11-01,Virginia Optometric Association,$250,Henrico,VA,business,,A,470516,2025-12-01
 contribution,2025-12-31,Allen Allen Allen & Allen,"$1,000",Richmond,VA,business,,A,478217,2026-01-14
 contribution,2025-12-28,Patrick Wright,$25,Glen Allen,VA,individual,,A,478217,2026-01-14
 contribution,2025-12-11,Carbon Solutions Group,$250,Chicago,IL,business,,A,478217,2026-01-14
@@ -106,6 +233,87 @@ contribution,2026-01-11,Xiaojing Wang,$12.50,Midlothian,VA,individual,,A,494837,
 contribution,2026-01-07,Emily Webb,$25,Richmond,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-12,Sarah Woodhouse,$25,Richmond,VA,individual,,A,494837,2026-07-13
 contribution,2026-01-12,Roy Yamamoto,$50,Henrico,VA,individual,,A,494837,2026-07-13
+in_kind,2025-08-20,Two Capitols Consulting,$237.54,Richmond,VA,business,In-Kind Event Expenses,B,453109,2025-09-12
+in_kind,2025-09-30,COmmunity-Owned Power PAC,"$4,631.85",Glen Allen,VA,pac,Inkind Event Expenses,B,457836,2025-10-07
+in_kind,2025-09-15,Save The Children Action Network,$473.80,Washington,DC,business,In-Kind Staff Time,B,457836,2025-10-07
+in_kind,2025-10-24,"All Points Broadband Partners, LLC",$720,Richmond,VA,business,Inkind Event Expenses,B,470516,2025-12-01
+in_kind,2025-11-12,Dominion Energy Inc. PAC - Virginia,"$4,360.20",Richmond,VA,pac,Inkind Event Expenses,B,470516,2025-12-01
+other_receipt,2025-05-07,Henrico County Treasury Division,$352.80,Richmond,VA,business,Primary Filing Fee Refund,C,441736,2025-06-09
+expenditure,2025-01-02,"Numero, Inc.",$720,Irvine,CA,business,Database Services,D,435977,2025-04-14
+expenditure,2025-01-03,ActBlue,"$3,114.98",Somerville,MA,business,Processing Fee,D,435977,2025-04-14
+expenditure,2025-01-03,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,435977,2025-04-14
+expenditure,2025-01-28,"Numero, Inc.",$0.94,Irvine,CA,business,Processing Fee,D,435977,2025-04-14
+expenditure,2025-01-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,435977,2025-04-14
+expenditure,2025-02-03,"Numero, Inc.",$720,Irvine,CA,business,Database Services,D,435977,2025-04-14
+expenditure,2025-02-04,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,435977,2025-04-14
+expenditure,2025-02-05,Meriwether Godsey,$408,Lynchburg,VA,business,General Assembly Meal Plan,D,435977,2025-04-14
+expenditure,2025-02-12,Wells Fargo,$25,Portland,OR,business,Bank Fee,D,435977,2025-04-14
+expenditure,2025-02-12,Broad Creek Consulting,"$20,000",Richmond,VA,business,Consulting,D,435977,2025-04-14
+expenditure,2025-02-18,McHale Lancaster,$125,Richmond,VA,individual,Field Work,D,435977,2025-04-14
+expenditure,2025-02-18,Corvonte Brown,$125,Richmond,VA,individual,Field Work,D,435977,2025-04-14
+expenditure,2025-02-18,Wells Fargo,$3,Portland,OR,business,Bank Fee,D,435977,2025-04-14
+expenditure,2025-02-18,Desean Parham,$125,Richmond,VA,individual,Field Work,D,435977,2025-04-14
+expenditure,2025-02-18,Kevin Mayo,$125,Richmond,VA,individual,Field Work,D,435977,2025-04-14
+expenditure,2025-02-18,Wells Fargo,$4,Portland,OR,business,Bank Fee,D,435977,2025-04-14
+expenditure,2025-02-26,Dementi Studios,$559,Richmond,VA,business,Official Photo,D,435977,2025-04-14
+expenditure,2025-02-28,ActBlue,$68.13,Somerville,MA,business,Processing Fee,D,435977,2025-04-14
+expenditure,2025-03-03,Mailchimp,$340,Atlanta,GA,business,Online Services,D,435977,2025-04-14
+expenditure,2025-03-03,"Numero, Inc.",$720,Irvine,CA,business,Database Services,D,435977,2025-04-14
+expenditure,2025-03-04,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,435977,2025-04-14
+expenditure,2025-03-06,Printersmark,$90.10,Richmond,VA,business,Printing,D,435977,2025-04-14
+expenditure,2025-03-06,Henrico County Treasury Division,$352.80,Richmond,VA,business,Candidate Filing Fee,D,435977,2025-04-14
+expenditure,2025-03-06,Democratic Party of Virginia,"$1,097.41",Richmond,VA,party,VAN Fees,D,435977,2025-04-14
+expenditure,2025-03-31,PhRMA,$500,Washington,DC,business,Returned Check,D,435977,2025-04-14
+expenditure,2025-03-31,Mailchimp,$340,Atlanta,GA,business,Online Services,D,435977,2025-04-14
+expenditure,2025-04-01,"Numero, Inc.",$720,Irvine,CA,business,Database Services,D,441736,2025-06-09
+expenditure,2025-04-02,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,441736,2025-06-09
+expenditure,2025-04-16,Virginia House Democratic Caucus,"$20,000",Richmond,VA,party,Contribution,D,441736,2025-06-09
+expenditure,2025-04-16,Wells Fargo,$25,Portland,OR,business,Bank Fee,D,441736,2025-06-09
+expenditure,2025-04-23,Lucas Anderton,$180,Virginia Beach,VA,individual,Website Maintenance,D,441736,2025-06-09
+expenditure,2025-04-28,Mailchimp,$340,Atlanta,GA,business,Online Services,D,441736,2025-06-09
+expenditure,2025-05-01,"Numero, Inc.",$720,Irvine,CA,business,Database Services,D,441736,2025-06-09
+expenditure,2025-05-02,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,441736,2025-06-09
+expenditure,2025-05-13,Virginia Legislative Black Caucus,"$1,000",Richmond,VA,business,Contribution,D,441736,2025-06-09
+expenditure,2025-05-13,Wells Fargo,$50,Portland,OR,business,Bank Fee,D,441736,2025-06-09
+expenditure,2025-05-13,Commonwealth Victory Fund,"$1,043.52",Richmond,VA,business,Contribution,D,441736,2025-06-09
+expenditure,2025-05-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,441736,2025-06-09
+expenditure,2025-06-06,"Numero, Inc.",$720,Irvine,CA,business,Database Services,D,446164,2025-07-12
+expenditure,2025-06-06,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,446164,2025-07-12
+expenditure,2025-06-23,Virginia Young Democrats,$125,Richmond,VA,business,Contribution,D,446164,2025-07-12
+expenditure,2025-06-30,Mailchimp,$340,Atlanta,GA,business,Online Services,D,446164,2025-07-12
+expenditure,2025-07-01,"Numero, Inc.",$1.31,Irvine,CA,business,Processing Fee,D,453109,2025-09-12
+expenditure,2025-07-01,"Numero, Inc.",$720,Irvine,CA,business,Database Services,D,453109,2025-09-12
+expenditure,2025-07-02,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,453109,2025-09-12
+expenditure,2025-07-16,Altria Client Services LLC,"$1,000",Richmond,VA,business,Refunded Contribution,D,453109,2025-09-12
+expenditure,2025-07-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,453109,2025-09-12
+expenditure,2025-08-01,"Numero, Inc.",$720,Irvine,CA,business,Database Services,D,453109,2025-09-12
+expenditure,2025-08-04,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,453109,2025-09-12
+expenditure,2025-08-17,ActBlue,$9.88,Somerville,MA,business,Processing Fee,D,453109,2025-09-12
+expenditure,2025-08-20,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Contribution,D,453109,2025-09-12
+expenditure,2025-08-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,453109,2025-09-12
+expenditure,2025-09-02,"Numero, Inc.",$720,Irvine,CA,business,Processing Fee,D,457836,2025-10-07
+expenditure,2025-09-03,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,457836,2025-10-07
+expenditure,2025-09-04,Henrico County Democratic Committee,$250,Richmond,VA,business,Contribution,D,457836,2025-10-07
+expenditure,2025-09-22,Virginia House Democratic Caucus,"$25,000",Richmond,VA,party,Contribution,D,457836,2025-10-07
+expenditure,2025-09-22,Wells Fargo,$25,Portland,OR,business,Bank Fee,D,457836,2025-10-07
+expenditure,2025-09-23,"Numero, Inc.",$18.75,Irvine,CA,business,Processing Fee,D,457836,2025-10-07
+expenditure,2025-09-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,457836,2025-10-07
+expenditure,2025-10-01,Sign Rocket,"$1,155",Saint Paul Park,MN,business,Yard Signs,D,465048,2025-10-27
+expenditure,2025-10-01,"Numero, Inc.",$720,Irvine,CA,business,Processing Fee,D,465048,2025-10-27
+expenditure,2025-10-02,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,465048,2025-10-27
+expenditure,2025-10-07,"Numero, Inc.",$20.63,Irvine,CA,business,Processing Fee,D,465048,2025-10-27
+expenditure,2025-10-07,UPS Store,$744,Glen Allen,VA,business,PO Box Fee,D,465048,2025-10-27
+expenditure,2025-10-12,ActBlue,$39.50,Somerville,MA,business,Processing Fee,D,465048,2025-10-27
+expenditure,2025-10-18,Virginia House Democratic Caucus,"$45,000",Richmond,VA,party,Contribution,D,465048,2025-10-27
+expenditure,2025-10-21,"Numero, Inc.",$37.50,Irvine,CA,business,Processing Fee,D,465048,2025-10-27
+expenditure,2025-10-29,Mailchimp,$340,Atlanta,GA,business,Online Services,D,470516,2025-12-01
+expenditure,2025-11-01,Printersmark,$784.40,Richmond,VA,business,Printing,D,470516,2025-12-01
+expenditure,2025-11-01,Printersmark,$47.70,Richmond,VA,business,Printing,D,470516,2025-12-01
+expenditure,2025-11-01,Printersmark,"$2,920.21",Richmond,VA,business,Printing,D,470516,2025-12-01
+expenditure,2025-11-03,"Numero, Inc.",$720,Irvine,CA,business,Processing Fee,D,470516,2025-12-01
+expenditure,2025-11-04,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,470516,2025-12-01
+expenditure,2025-11-12,Lucas Anderton,$210,Virginia Beach,VA,individual,Website Maintenance,D,470516,2025-12-01
+expenditure,2025-11-25,Food Lion,$57.69,Richmond,VA,business,Event Expenses,D,470516,2025-12-01
 expenditure,2025-12-01,"Numero, Inc.",$720,Irvine,CA,business,Processing Fee,D,478217,2026-01-14
 expenditure,2025-12-01,Mailchimp,$340,Atlanta,GA,business,Online Services,D,478217,2026-01-14
 expenditure,2025-12-03,Integrated Solutions: Political,$350,San Diego,CA,business,Database Services,D,478217,2026-01-14

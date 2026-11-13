@@ -1,0 +1,1240 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2021-01-06,Virginia Hospital Association PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+contribution,2021-01-06,Stephen Lemon,$200,Roanoke,VA,individual,"Martin, Hopkins & Lemon",Attorney,,A,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+contribution,2021-01-06,Virginia Optometric Association,$250,Richmond`,VA,pac,,Political Action Cmte,,A,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+contribution,2021-01-06,Donald Scothorn,$200,Roanoke,VA,individual,Vistar Eye Center,Optometrist,,A,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+contribution,2021-01-06,NiSource Inc. PAC,$500,Columbus,OH,pac,,Energy,,A,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+contribution,2021-03-26,U.S. Marcellus Gas Infastructure,$500,Juno Beach,FL,business,,Energy,,A,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+expenditure,2021-02-03,USPS Postmaster,$14.95,Roanoke,VA,,,,Postage,D,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+expenditure,2021-01-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+expenditure,2021-02-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+expenditure,2021-03-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+expenditure,2021-02-24,"Botetourt County, Virginia",$352.80,Fincastle,VA,,,,Primary Filing Fee,D,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+expenditure,2021-02-03,Cody Hanshaw,"$3,750",Vinton,VA,,,,Campaign Work,D,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+expenditure,2021-02-26,Cody Hanshaw,"$3,750",Vinton,VA,,,,Campaign Work,D,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+expenditure,2021-02-24,Friends of Charles Poindexter,$500,Glade Hill,VA,,,,Contribution,D,238528,2021-01-01 to 2021-03-31,CC-12-00044,Elect Chris Head
+contribution,2021-05-03,Virginia Home Care and Hospice PAC,"$1,000",Richmond,VA,pac,,Political Action Cmte,,A,242172,2021-04-01 to 2021-05-27,CC-12-00044,Elect Chris Head
+expenditure,2021-04-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,242172,2021-04-01 to 2021-05-27,CC-12-00044,Elect Chris Head
+expenditure,2021-05-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,242172,2021-04-01 to 2021-05-27,CC-12-00044,Elect Chris Head
+contribution,2021-06-02,Virginia Automobile and Truck Dealers,$500,Richmond,VA,pac,,Political Action Cmte,,A,248174,2021-05-28 to 2021-06-30,CC-12-00044,Elect Chris Head
+contribution,2021-06-11,Altria Client Services LLC,$500,Richmond,VA,business,,Tobacco - Farmer/Manafacturers,,A,248174,2021-05-28 to 2021-06-30,CC-12-00044,Elect Chris Head
+contribution,2021-06-25,"Amazon Services, Inc.",$500,Seattle,WA,business,,Technology,,A,248174,2021-05-28 to 2021-06-30,CC-12-00044,Elect Chris Head
+contribution,2021-06-03,Anthem Blue Cross Blue Shield,"$1,000",Cincinnati,OH,business,,Insurance,,A,248174,2021-05-28 to 2021-06-30,CC-12-00044,Elect Chris Head
+expenditure,2021-06-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,248174,2021-05-28 to 2021-06-30,CC-12-00044,Elect Chris Head
+contribution,2021-08-24,Edward Kitas,$500,Roanoke,VA,individual,Retired,Retired,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-07-16,Virginia Retail Federation,$500,Richmond,VA,pac,,Political Action Cmte,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,Virginia Society of Anethesiologists PAC,$500,Richmond,VA,pac,,Political Action Cmte,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,Ortho PAC,$500,Richmond,VA,pac,,Political Action Cmte,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-26,Betty Abbott,$75,Roanoke,VA,individual,Retried,Retired,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-13,Eddie Hearp,"$1,000",Roanoke,VA,individual,Hearp Financial,Financial Advisor,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-07-02,Medical Facilities of America,$500,Roanoke,VA,business,,Healthcare,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-23,Lorraine Lange,$125,Roanoke,VA,individual,Power School,Educator,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-25,John G. Rocovich Jr.,"$1,000",Roanoke,VA,individual,Moss & Rocovich,Attorney,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,Political Action Committee,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-30,Melvin Richardson,$250,Roanoke,VA,individual,J&J Energy,Officer,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-25,James R. Garrett,$250,Roanoke,VA,individual,Kinex Telecom,Owner,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-11,"Metis Services, Inc.",$500,Roanoke,VA,business,,Financial Services,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-24,Scott Winter,$500,Roanoke,VA,individual,Winter Properties,Partner,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-02,MVP LLC,$750,Canonsburg,PA,business,,P.O. Box 299,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,REALTORS Political Action Committee of Virgini,$500,"Glen Allen, VA",VA,pac,,Real Estate,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-02,Pfizer Inc,"$1,000",Memphis,TN,business,,Pharmaceuticals,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-07-02,"Long Term Care Holdings, Inc.",$500,"Roanoke, VA",VA,business,,Healthcare,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,Astellas Pharma,$500,Northbrook,IL,business,,Pharmaceuticals,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-02,Truist Virginia PAC,$500,Richmond,VA,pac,,Financial,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-07-15,MAG Mutual Virginia PAC,$500,Atlanta,GA,pac,,Insurance,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-30,Capital Results LLC,$500,Richmond,VA,business,,Government Relations,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-23,Verizon,"$2,000",Washington,DC,business,,Telecommunications,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-07-14,Dominion Political Action Committee,"$5,000",Richmond,VA,pac,,Political Action Cmte,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-02,Virginia Automobile and Truck Dealers,"$1,000",Richmond,VA,pac,,Political Action Cmte,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,HCA For Good Government,"$1,000",Reston,VA,pac,,Political Action Committee,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-04,EYE PAC,$250,Richmond,VA,pac,,political action committee,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-13,Edward Clark,$500,Blue Ridge,VA,individual,Afton Commuunications,Self employed,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-23,Leon Harris,$250,Roanoke,VA,individual,"Keltech, Inc",Manager,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-03,Stephen Lemon,$500,Roanoke,VA,individual,"Martin, Hopkins & Lemon",Attorney,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-23,William Tucker Lemon,$250,Roanoke,VA,individual,"Martin, Hopkins and Lemon",Attorney,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Action Committee,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-23,Barton Wilner,$250,Roanoke,VA,individual,Entre Computer Center,President,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-27,William Fralin,$250,Roanoke,VA,individual,Medical Facilites of America,Executive,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-25,Albin Hammond,$250,Roanoke,VA,individual,Hammond Printing,Owner,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,Virginia Health Care Association PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,Virginia Dentist PAC,"$1,000",Richmond,VA,pac,,Political Action Cmte,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-05,HBAV Build PAC,"$1,000",Richmond,VA,pac,,Political Action Cmte,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-07-16,Virginia Beverage Association,"$1,000",Richmond,VA,pac,,Political Action Cmte,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-23,Geraldine McGrath,$75,Roanoke,VA,individual,Retired,Retired,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-08-26,Delta Dental,$500,Roanoke,VA,business,,Dental Services,,A,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+expenditure,2021-07-22,Sam Miller's Restaurant,$568.71,Richmond,VA,,,,Event,D,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+expenditure,2021-08-13,Roanoke County Republican Committee,$500,Roanoke,VA,,,,Contribution,D,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+expenditure,2021-08-13,Roanoke County Republican Committee,$135,Roanoke,VA,,,,Cake Purchase,D,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+expenditure,2021-07-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+expenditure,2021-08-02,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+expenditure,2021-07-22,Charlie Nave for Delegate,$250,Roanoke,VA,,,,Contribution,D,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+expenditure,2021-08-02,Republican Commonwealth Leadership PAC,"$15,000",Henrico,VA,,,,Contribution,D,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+expenditure,2021-08-25,WinRed,$9.80,Arlington,VA,,,,Transaction Fee,D,252585,2021-07-01 to 2021-08-31,CC-12-00044,Elect Chris Head
+contribution,2021-09-17,AT & T,$250,Bedminster,NJ,pac,,Political Action Cmte,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-15,Virginia BankPac,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-22,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Ship Building,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Virginia Beer Wholesalers PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-21,Virginia Beer Wholesalers PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-21,Blue Ridge Beverage,$500,Salem,VA,business,,Beverage Distributor,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-10,John Kepley,$500,Roanoke,VA,individual,Self Employe,Real Estate,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-15,Dane McBride,$500,Roanoke,VA,individual,"Asthama and Immunology, PLC",Physican,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Aden Short,$500,Salem,VA,individual,PA Short Distributing,Vice President,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-21,The Good Fund,$500,Roanoke,VA,pac,,Political Action Committee,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-27,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Government Affairs,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Lee Wilhelm,$250,Roanoke,VA,individual,Richfield Retirement Community,Executive,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Pamela Williams,$250,Roanoke,VA,individual,Williams Wealth Management,Executive,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Linda Adamo,$120,Vinton,VA,individual,Retired,Retired,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-27,James Petrine,"$1,000",Hardy,VA,individual,Epirtep Inc,Home Builder,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-14,Lanford Brothers Construction,$500,Roanoke,VA,business,,Construction,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Roanoke County Republican Committee,$500,Roanoke,VA,business,,Poolitical Organization,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-22,National Federation Of Independent Business,$250,Washington,DC,business,,Business Advocacy,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-02,Virginia Optometric Association,"$1,000",Richmond`,VA,pac,,Political Action Cmte,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-14,Virginia Optometric Association,$500,Richmond`,VA,pac,,Political Action Cmte,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-20,Leonard Wheeler,$250,Roanoke,VA,individual,Mel Wheeler Broadcasting,President,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-30,Virginia Chiropractic PAC,$350,Afton,VA,pac,,Political Action Cmte,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,David Black,$100,Vinton,VA,individual,Blue Ridge Dental,Dentist,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,David Black,$40,Vinton,VA,individual,Blue Ridge Dental,Dentist,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Maggie Wood,$40,Roanoke,VA,individual,Retired,Retired,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-20,Anheuser Busch,$500,Atlanta,GA,business,,Beer,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Daniel L Crandall,$250,Rocky Mount,VA,individual,Crandall & Katt,Attorney,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-02,Bonnie N. Johnson,$100,Roanoke,VA,individual,Retired,Retired,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-14,William J Lemon,"$1,000",Roanoke,VA,individual,"Martin, Hopkins & Lemon, P.C.",Attorney,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Janice Fostek,$500,Roanoke,VA,individual,Retired,Retired,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-15,Maritime Issues Council,$500,Norfolk,VA,business,,Maritime,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-09,Donald Scothorn,$250,Roanoke,VA,individual,Vistar Eye Center,Optometrist,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-29,Virginia Mortgage Bankers PAC,$500,Glen Allen,VA,pac,,Finance,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-14,Roanoke Gas Company,"$1,000",Roanoke,VA,business,,Energy,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-20,Virginia State Farm Agents and Employees PAC,$250,Midlothian,VA,pac,,Insurance,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-09-24,AmGen Inc State PAC,$500,Alexandria,VA,pac,,Pharmaceutical,,A,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-09,Digital Image Printing,$551.06,Daleville,VA,,,,Printing,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Wilt for Delegate,"$1,000",Harrisonburg,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-09,Head2Head Inc,$350,Roanoke,VA,,,,P.O. Box Reimbursement,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-29,Botetourt County Republican Committee,$500,Troutville,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Elect Bloxom for Delegate`,"$1,000",Mappsville,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-09,Vinton War Memorial,$400,Vinton,VA,,,,Event Space,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-09,Ted McAllister,$600,Fincastle,VA,,,,Event Entertainment,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-15,Anedot,$20.30,Baton Rouge,LA,,,,Transaction Fee,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Friends of Roxanne Robinson,"$2,000",Midlothian,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-09,Jerry's Family Restaurant,"$1,000",Vinton,VA,,,,Catering,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-08,WinRed,$22.45,Arlington,VA,,,,Transaction Fees,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Ben Baldwin for Delegate,$500,Alexandria,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Karen Greenhalgh for Delegate,"$1,000",Virginia Beach,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Durant for Delegate,"$1,000",Alexandria,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Friends of Harold Pyon,"$2,000",Alexandria,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Ballard for Delegate,"$2,500",Pearisburg,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Republican Commonwealth Leadership PAC,"$5,000",Henrico,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-14,Friends of Mike Cherry,"$1,000",Midlothian,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-23,Republican Commonwealth Leadership PAC,$550,Henrico,VA,,,,Reimbursement - Event,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+expenditure,2021-09-27,Point of Friction PAC,"$5,000",Christiansburg,VA,,,,Contribution,D,256800,2021-09-01 to 2021-09-30,CC-12-00044,Elect Chris Head
+contribution,2021-10-14,Intuit,$250,San Diego,CA,business,,Financial,,A,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+contribution,2021-10-14,Abbott Laboratories,$250,Abbott Park,IL,business,,Healthcare,,A,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+contribution,2021-10-14,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Tobacco - Farmer/Manafacturers,,A,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+contribution,2021-10-11,Karl John Karch,$250,Fredriscksburg,VA,individual,R&K Caregiver,Franchise Owner,,A,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+contribution,2021-10-14,Comcast Corporation,$500,Philadelphia,VA,business,,TV-Cable,,A,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+contribution,2021-10-06,William Farrell,"$2,000",Roanoke,VA,individual,Berglund Automotive,Auto Dealer,,A,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+expenditure,2021-10-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+expenditure,2021-10-07,WinRed,$76.30,Arlington,VA,,,,Transaction Fees,D,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+expenditure,2021-10-10,WinRed,$9.80,Arlington,VA,,,,Transaction Fee,D,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+expenditure,2021-10-14,Durant for Delegate,"$2,000",Alexandria,VA,,,,Contribution,D,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+expenditure,2021-10-14,Ballard for Delegate,"$2,000",Pearisburg,VA,,,,Contribution,D,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+expenditure,2021-10-14,Friends of Tim Anderson,"$1,500",Virginia Beach,VA,,,,Contribution,D,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+expenditure,2021-10-14,Tanya Gould for Delegate,"$1,500",Virginia Beach,VA,,,,Contribution,D,261283,2021-10-01 to 2021-10-21,CC-12-00044,Elect Chris Head
+contribution,2021-11-08,McGuire Woods,$250,Richmond,VA,pac,,Political Action Cmte./Law Firm,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-03,"Care Advantage, Inc","$1,000",Richmond,VA,business,,Home Health Care,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-01,Jan Sessor,$250,Roanoke,VA,individual,"Universal Rx, LLC",Pharmaceuticals,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-03,Raytheon Political Action Committee,$250,Arlington,VA,pac,,Political Action Cmte,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-02,Insurance & Financial Advisors PAC,$500,Richmond,VA,pac,,Financial,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-08,PhRMA,"$1,000",Washington,DC,business,,Pharmaceutical,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-08,American Property Casualty Insurance Association,$500,Chicago,IL,business,,Insurance,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-20,Virginia Propane Gas Association PAC,$250,Richmond,VA,pac,,Energy,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-08,Virginia Oil & Gas Association,$200,Abingdon,VA,business,,Energy,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-04,Sentara Employers PAC,$500,Virginia BEach,VA,pac,,Healthcare,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-03,Cypress Creek Renewable,$500,Santa Monica,CA,business,,Energy,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-02,VAMICPAC,$500,Richmond,VA,pac,,Insurance,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-11-03,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+expenditure,2021-11-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+expenditure,2021-11-01,WinRed,$9.80,Arlington,VA,,,,Transaction Fees,D,272274,2021-10-22 to 2021-11-25,CC-12-00044,Elect Chris Head
+contribution,2021-12-06,HCA For Good Government,$500,Reston,VA,pac,,Political Action Committee,,A,278467,2021-11-26 to 2021-12-31,CC-12-00044,Elect Chris Head
+contribution,2021-12-27,Medical Society of Virginia,$500,Richmond,VA,pac,,Political Action Cmte,,A,278467,2021-11-26 to 2021-12-31,CC-12-00044,Elect Chris Head
+contribution,2021-12-27,Virginia Optometric Association,"$1,500",Richmond`,VA,pac,,Political Action Cmte,,A,278467,2021-11-26 to 2021-12-31,CC-12-00044,Elect Chris Head
+contribution,2021-12-06,Cigna PAC,$250,Philadelphia,PA,pac,,Health Services,,A,278467,2021-11-26 to 2021-12-31,CC-12-00044,Elect Chris Head
+contribution,2021-12-06,Committee for Effective Government,$500,Virginia Beach,VA,business,,Energy,,A,278467,2021-11-26 to 2021-12-31,CC-12-00044,Elect Chris Head
+expenditure,2021-12-01,Jesse Lynch,$500,Charlottesville,VA,,,,Consulting,D,278467,2021-11-26 to 2021-12-31,CC-12-00044,Elect Chris Head
+expenditure,2021-12-30,Laura Bell Consulting Inc.,"$8,000",Springfield,VA,,,,Consulting,D,278467,2021-11-26 to 2021-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-05-31,Norfolk Southern,$500,Richmond,VA,business,,Railroad,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-05-04,Virginia Cable Telecommunications Association PAC (VCTA PAC),"$1,000",Richmond,VA,pac,,Telecommunications,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-05-04,Virginia Bankers Association PAC (Virginia BankPAC),"$1,500",Glen Allen,VA,pac,,Financial institutions,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,Stephen Lemon,$500,Roanoke,VA,individual,"Martin, Hopkins & Lemon",Attorney,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,William Tucker Lemon,$500,Roanoke,VA,individual,"Martin, Hopkins and Lemon",Attorney,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-16,Virginia Farm Bureau Federation AgPAC,"$3,000",Richmond,VA,pac,,Political Action Committee,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-24,Barton Wilner,"$1,000",Roanoke,VA,individual,Entre Computer Center,President,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,James Petrine,"$2,500",Hardy,VA,individual,Epirtep Inc,Home Builder,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,Virginia Manufactured and Modular Housing PAC,$500,Richmond,VA,pac,,Political Action Cmte,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-22,Law Offices of Daniel L Crandall,$500,Roanoke,VA,business,,Law Firm,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,Leonard Wheeler,$250,Roanoke,VA,individual,Mel Wheeler Broadcasting,President,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-26,Jan Sessor,$500,Roanoke,VA,individual,"Universal Rx, LLC",Executive,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-24,Eddie Hearp,$500,Roanoke,VA,individual,Hearp Financial,Financial Advisor,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-08,Margaret K. Wood,$100,Roanoke,VA,individual,Retired,Retired,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,Frank Cotter,$250,Roanoke,VA,individual,Vistar Eye Center,Ophthalmolgist,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,Altria Client Services LLC,$500,Richmond,VA,business,,Tobacco - Farmer/Manafacturers,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,Bonnie N. Johnson,$75,Roanoke,VA,individual,Retired,Retired,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-24,William J Lemon,"$1,000",Roanoke,VA,individual,"Martin, Hopkins & Lemon, P.C.",Attorney,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-24,John G. Rocovich Jr.,"$1,000",Roanoke,VA,individual,Moss & Rocovich,Attorney,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-05-17,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law firm,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-03-17,MVP LLC,$750,Canonsburg,PA,business,,Mountain valley pipeline,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-03-17,NiSource Inc. PAC,$500,Columbus,OH,pac,,Federal political action committee - Energy,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,Scott Strelow,$250,Roanoke,VA,individual,Vistar Eye Center,Ophthalmologist,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,William Griffeth,$500,Roanoke,VA,individual,Vistar Eye Center,Physician,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-03-17,Jushi Inc.,"$1,000",Boca Raton,FL,business,,Medical cannabis,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-05-04,Jushi Inc.,"$1,000",Boca Raton,FL,business,,Medical cannabis,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-05-02,American Electric Power Committee for Responsible Government,"$1,500",Washington,DC,pac,,Federal political action committee,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-05-02,Mr. John G. McLeod CPA,"$1,000",Roanoke,VA,individual,Retired,Retired,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-07,Dominion Energy PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-06-30,Berglund Chevrolet Buick,"$2,500",Roanoke,VA,business,,Auto dealer,,A,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+in_kind,2022-04-28,Virginia Wine Wholesalers,$531.96,Richmond,VA,pac,,Political Action Cmte,Fundraiser,B,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+in_kind,2022-04-28,Virginia Beverage Association,$531.96,Richmond,VA,pac,,Political Action Cmte,Fundraiser,B,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-02-01,Treasurer of Virginia,$111,Richmond,VA,,,,State flags,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-04-22,Treasurer of Virginia,$132.50,Richmond,VA,,,,Resolution framing,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-05-17,Republican Party of Virginia Inc.,$700,Richmond,VA,,,,Event tickets,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-04-01,Kendall Bailey,$500,Charlottesville,VA,,,,Consulting,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-05-02,Kendall Bailey,$500,Charlottesville,VA,,,,Consulting,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-06-01,Kendall Bailey,$500,Charlottesville,VA,,,,Consulting,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-06-20,Head2Head Inc,"$1,206.09",Roanoke,VA,,,,Expense reimbursement,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-04-22,House Republican Campaign Cmte,$500,Richmond,VA,,,,Donation,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-03-01,"Postmaster, Roanoke VA",$11.60,Roanoke,VA,,,,Postage,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-06-22,"Postmaster, Roanoke VA",$364,Roanoke,VA,,,,Post office box rent,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-04-30,WinRed,$6.50,Arlington,VA,,,,Credit card processing fees,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-05-31,WinRed,$1.78,Arlington,VA,,,,Credit card processing fees,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-06-30,WinRed,$56.15,Arlington,VA,,,,Credit card processing fees,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-02-23,Massey Cancer Center,$250,Richmond,VA,,,,Donation,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-02-23,House Flower Fund,$100,Richmond,VA,,,,Donation,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-03-07,Visit Virginia's Blue Ridge,$671.57,Roanoke,VA,,,,Reimbursement- Lodging and Dinner,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-03-31,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-05-02,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-05-31,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-05-17,Office Max,$11.57,Roanoke,VA,,,,Office Supplies,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-03-01,Red Eye Cookie Co.,$225.83,Richmond,VA,,,,Cookies for Pages and DLS staff,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-03-01,Michaels Store,$21.19,Glen Allen,VA,,,,Picture Frames for flag certificates,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-03-28,Krispy Kreme,$64.16,Richmond,VA,,,,Refreshments for Speaker's Bible Study,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+expenditure,2022-03-28,7-Eleven,$13.38,Richmond,VA,,,,Refreshments for Speaker's Bible Study,D,292146,2022-01-01 to 2022-06-30,CC-12-00044,Elect Chris Head
+contribution,2022-07-11,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Ship Building,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-11,HCA For Good Government,"$1,000",Reston,VA,pac,,Political Action Committee,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-11,Virginia Beer Wholesalers PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-11,Blue Ridge Beverage,"$1,000",Salem,VA,business,,Beverage Distributor,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-11,Mr. P. Aden Short Jr.,$500,Salem,VA,individual,PA Short Distributing,Vice President,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-18,Virginia Health Care Association PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-14,Virginia Retail Federation,$500,Richmond,VA,pac,,Political Action Cmte,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-11,Genworth Financial,"$1,500",Lynchburg,VA,business,,Financial Services,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-05,Margaret K. Wood,$100,Roanoke,VA,individual,Retired,Retired,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-11,Virginia CRNA-PAC,$250,Richmond,VA,pac,,Nursing,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-18,"Transloading Services, Inc.","$5,000",Roanoke,VA,business,,Transportation,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-12,Timothy R. Byrnes,$250,Roanoke,VA,individual,Vistar Eye Center,Ophthalmologist,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-11,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,Beverage distributor,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-18,Employees of Raytheon Technologies Corporation PAC,$250,Arlington,VA,pac,,Federal political committee,,A,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+in_kind,2022-07-08,Virginia Beer Wholesalers PAC,$294.60,Richmond,VA,pac,,Political Action Committee,Event food and beverage,B,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+expenditure,2022-07-11,Treasurer of Virginia,"$1,307.23",Richmond,VA,,,,Postage for legislative session,D,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+expenditure,2022-07-06,Kendall Bailey,$500,Charlottesville,VA,,,,Consulting,D,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+expenditure,2022-07-18,Head2Head Inc,"$1,783.61",Roanoke,VA,,,,Reimbursement of expenses,D,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+expenditure,2022-07-05,WinRed,$3.94,Arlington,VA,,,,Credit card processing fees,D,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+expenditure,2022-07-06,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,294292,2022-07-01 to 2022-12-31,CC-12-00044,Elect Chris Head
+contribution,2022-07-28,Virginia Dental Association PAC (VADPAC),"$1,000",Henrico,VA,pac,,Dentists,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-11,AT&T,$250,Saint Louis,MO,business,,Telecommunications,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-11,Virginia State Police Association PAC,$250,Richmond,VA,pac,,Law enforcement,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-11,Pfizer PAC,"$1,000",New York,NY,pac,,Pharmaceuticals,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-11,Anthem Blue Cross Blue Shield,"$1,000",Cincinnati,OH,business,,Health insurance,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-18,Truist Virginia PAC,$500,Richmond,VA,pac,,Banking,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-18,"Medical Society of Virginia, The",$500,Henrico,VA,business,,Physicians,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-23,Virginia Radiology PAC,"$1,000",Richmond,VA,pac,,Radiologists,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-30,Mr. Michael A. Wray,$200,Roanoke,VA,individual,Retired,Retired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-30,Retirement Unlimited Inc.,$500,Roanoke,VA,business,,Nursing homes,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-08-30,MVP LLC,"$1,000",Canonsburg,PA,business,,Pipeline project,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-31,MVP LLC,"$1,000",Canonsburg,PA,business,,Pipeline project,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-15,Mrs. Lorraine M. Lange,$250,Roanoke,VA,individual,Retired,Retired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-15,Mr. John G. McLeod,$250,Roanoke,VA,individual,McLeod Enterprises Inc.,Executive,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-15,Ms. Janice W. Fostek,"$1,000",Roanoke,VA,individual,Retired,Retired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-15,HCA for Good Government PAC,"$1,000",Richmond,VA,pac,,Hospitals,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-22,Mr. George B. Carledge Jr.,$250,Roanoke,VA,individual,Grand Home Furnishings,CEO,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-22,Mr. Barton J. Wilner,$250,Roanoke,VA,individual,Entre Computer Center,President,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-22,Mr. Phillip A. Short Sr.,$500,Salem,VA,individual,P. A. Short Distributing Co.,Beverage distributor,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-22,Mr. Abney Boxley,"$1,000",Crozet,VA,individual,Summit Materials,Executive,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-22,Verizon,"$1,000",Washington,DC,business,,Telecommunications,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-22,Virginia Credit Union PAC,"$1,000",Lynchburg,VA,pac,,Credit unions,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-23,Mrs. Pamela French Williams,$250,Roanoke,VA,individual,Retired,Retired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-26,Virginia Academy of PAs PAC,$250,Charlottesville,VA,pac,,Physician assistants,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-03,Mr. Paul W. Nester,$250,Salem,VA,individual,Roanoke Gas Co.,President,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-03,Commonwealth Sportsmens Alliance PAC,$250,Powhatan,VA,pac,,Hunting sports,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-03,Virginia Propane Gas Association PAC,$750,Henrico,VA,pac,,Propane,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-12,Mr. Edward M. Kitas,$500,Roanoke,VA,individual,Retired,Retired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-12,Avis Construction Company Inc.,$500,Roanoke,VA,business,,General contractors,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-12,Delta Dental Plan of Virginia,$500,Roanoke,VA,business,,Dental insurance,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-12,Washington Gas Light Company PAC,$500,Washington,DC,pac,,Utility,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-12,Mr. Edward W. Clark Jr.,$150,Blue Ridge,VA,individual,Afton Communications,Owner,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-14,Ms. Pamela S. Barger,$250,Vinton,VA,individual,Retired,Retired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-14,Mr. Stephen W. Lemon,$250,Roanoke,VA,individual,Martin Hopkins and Lemon PC,Attorney,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-14,Dr. Frank Cotter,$250,Roanoke,VA,individual,Vistar Eye Center,Ophthalmologist,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-14,Dr. Tad D. Schoedel,$250,Roanoke,VA,individual,Vistar Eye Center,Ophthalmologist,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-14,Dr. Timothy R. Byrnes,$250,Roanoke,VA,individual,Vistar Eye Center,Physician,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-14,Mr. Samuel L. Lionberger III,$500,Roanoke,VA,individual,Retired,Retired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-14,Mr. Charles A. Webb,"$2,500",Roanoke,VA,individual,Innovative Insurance Group LLC,Insurance,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-14,Mr. Clifford W. Derey,$150,Roanoke,VA,individual,Derey Properties LLC,Property management,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-19,Mr. Dennis R. Cronk,$250,Roanoke,VA,individual,Poe & Cronk Realty,Realtor,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-19,Mrs. Sandra G. Chisholm,"$1,000",Boones Mill,VA,individual,Homemaker,Homemaker,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-24,Veterinarians PAC,$250,Henrico,VA,pac,,Veterinary medicine,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-24,Realtors Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,Realtors,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-28,Molina Healthcare Inc.,"$1,000",Long Beach,CA,business,,Healthcare,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-28,Virginia Manufacturers Association PAC,$500,Richmond,VA,pac,,Manufacturing,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-28,Amazon.com Services LLC,"$2,500",Seattle,WA,business,,Retailer,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-11-01,Virginia Hospital and Healthcare Association PAC,"$1,000",Henrico,VA,pac,,Hospitals,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-11-10,Lanford Brothers Company Inc.,"$1,000",Roanoke,VA,business,,Highway contractor,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-11-10,Anheuser Busch Companies Inc.,$500,Atlanta,GA,business,,Brewery,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-11-15,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-11-15,Virginia Academy of Clinical Psychologist,$250,Richmond,VA,business,,Psychologists,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-11-15,Mr. Leon P. Harris,$250,Roanoke,VA,individual,Keltech Inc.,President,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-13,Dane McBride,$250,Roanoke,VA,individual,Retired,REetired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-12,William Griffeth,$500,Roanoke,VA,individual,Vistar Eye Center,Physician,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-11,Robert McNichols,"$2,000",Roanoke,VA,individual,Retired,Retired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-10-06,Nicholas Ramey,$250,Roanoke,VA,individual,Vistar Eye Center,Opthalmologist,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-09-06,Ken Anderson,$250,Roanoke,VA,individual,Salem Family Medicine,Physicians Assistant,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-07-19,Elect Chris Head,"$15,966.02",Roanoke,VA,candidate,,Candidate committee,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-06,Mr. David Grembi,$250,Mount Sidney,VA,individual,Retired,Retired,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-11-29,Strata Solar LLC,$250,Durham,NC,business,,Energy,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-11-29,United Services Automobile Association,$500,San Antonio,TX,business,,Auto club,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-11-30,Maritime Issues Council,$500,Norfolk,VA,business,,Harbor pilots,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-05,Chiropractic Political Action Committee of Virginia,$250,Glen Allen,VA,pac,,Chiropractors,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-06,Railcon USA LLC,$250,Buena Vista,VA,business,,Railway industry contractors,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-13,Virginia Council of Nurse Practitioners PAC,$250,Charlottesville,VA,pac,,Nurse practitioners,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-13,Virginia Certified Registered Nurse Anesthetist (CRNA-PAC),$250,Richmond,VA,pac,,Nurse Anesthetists,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-13,Capital Results LLC,$500,Richmond,VA,business,,Government affairs,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-13,Virginia Optometric Association PAC,$250,Henrico,VA,pac,,Optometrists,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-13,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,Energy,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-13,Pharmaceutical Research and Manufacturers of America (PhRMA),"$1,000",Washington,DC,business,,Pharmaceuticals,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-13,Shiva Hospitality LLC,$500,Salem,VA,business,,Hotel management,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-20,Dominion Energy Inc. Political Action Committee Virginia,"$5,000",Richmond,VA,pac,,Electric utility,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-20,Dominion Energy Inc. Political Action Committee Virginia,"$5,000",Richmond,VA,pac,,Electric utility,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-20,Pharmaceutical Care Management Association,$500,Washington,DC,business,,Pharmaceuticals,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-20,CVS Pharmacy Inc.,$500,Woonsocket,RI,business,,Retail pharmacies,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-20,McGuireWoods LLP,$250,Richmond,VA,business,,Law firm,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-27,Jushi Inc.,"$2,000",Boca Raton,FL,business,,Medial cannabis,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-27,Virginia Bankers Association BankPAC,"$1,000",Glen Allen,VA,pac,,Financial institutions,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-27,Motorola Solutions Inc. Political Action Committee,$500,Washington,DC,pac,,Federal political committee,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-27,Metis Services Inc.,$500,Roanoke,VA,business,,Insurance,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-27,Gentry Locke Attorneys,$500,Roanoke,VA,business,,Law firm,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-27,Virginia Automobile and Truck Dealers PAC,$500,Richmond,VA,pac,,Auto dealers,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-27,Cozen O'Connor,$250,Philadelphia,PA,business,,Law firm,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-27,Abbott Laboratories Employee Political Action Committee,$250,Abbott Park,IL,pac,,Pharmaceuticals,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-27,Cigna Corp Employee PAC,$250,Philadelphia,PA,pac,,Insurance,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-30,Eye PAC,"$2,000",Richmond,VA,pac,,Ophthalmologists,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-30,Care Advantage Inc.,"$1,500",North Chesterfield,VA,business,,Personal care services,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-30,Williams Mullen Clark and Dobbins,"$1,500",Richmond,VA,business,,Law firm,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-30,Virginia Society of Anethesiologists PAC,"$1,000",Richmond,VA,pac,,Anesthesiologists,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-30,Ortho PAC The Virginia Orthopaedic Society,$500,Richmond,VA,pac,,Orthopaedics,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-30,NiSource Inc. PAC,$500,Columbus,OH,pac,,Energy and water,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-30,Associated General Contractors of Virginia Inc. PAC,$500,Glen Allen,VA,pac,,Construction,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-30,CareFirst BlueChoice Inc.,$500,Washington,DC,business,,Medical insurance,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-30,Commercial Development Political Action Committee,$500,Alexandria,VA,pac,,Housing,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2022-12-31,Mr. W. Bruce Jennings,"$2,500",Fairfax,VA,individual,Fairfac City Self Storage,Managing partner,,A,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+in_kind,2022-12-05,Common Ground,$200,Fishersville,VA,business,,Venue space,Venue for event,B,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-09,Roanoke County Republican Committee,$500,Roanoke,VA,,,,Donation,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-09,Roanoke Valley Friends of the NRA,$250,Roanoke,VA,,,,Donation,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-09,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-09-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-04,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-09,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-09-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-04,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-09,Forest Consulting Services,$525,Richmond,VA,,,,"Accounting, reporting and consulting services",D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-09,Loch Haven Lake,$400,Roanoke,VA,,,,Event expense,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-09-01,Loch Haven Lake,$500,Roanoke,VA,,,,Event expense,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-09,Big V Property Group,$60,Charlotte,NC,,,,Booth fee for event,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-09-30,WinRed,$11.43,Arlington,VA,,,,Credit card processing fees,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-31,WinRed,$118.20,Arlington,VA,,,,Credit card processing fees,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-21,WinRed,$0.99,Arlington,VA,,,,Credit card processing fees,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-31,WinRed,$23.06,Arlington,VA,,,,Credit card processing fees,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-18,Head 2 Head Inc.,"$1,131.28",Roanoke,VA,,,,Reimbursement for conference expenses,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-09-21,Harland Clarke Printers,$85.21,San Antonio,TX,,,,Printing,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-02,Harland Clarke Printers,$16.75,San Antonio,TX,,,,Printing,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-04,Lori Hedrick,$250,Lynchburg,VA,,,,Photography,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-10,Botetourt County Republican Committee,$500,Troutville,VA,,,,Donation,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-13,Three Lil Pigs Barbeque,"$1,158.58",Daleville,VA,,,,Event catering,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-13,Ted McAllister,$700,Fincastle,VA,,,,Event entertainment,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-23,Battlefield Consulting Inc.,$760,Rockwall,TX,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-30,Battlefield Consulting Inc.,"$1,335",Rockwall,TX,,,,Consulting,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-01,Botetourt County Republican Womens Club,$40,Roanoke,VA,,,,Donation,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-07,Push Digital LLC,"$3,263",Charleston,SC,,,,Website expense,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-17,Push Digital LLC,$92.78,Charleston,SC,,,,Website and email expense,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-15,House Republican Campaign Committee Inc.,$500,Richmond,VA,,,,Donation,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-30,Shenandoah Club,$643.55,Roanoke,VA,,,,Event food and beverage,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-15,Pivot Parking,$8,Richmond,VA,,,,Parking,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-15,Park Roanoke,$2,Roanoke,VA,,,,Parking,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-15,Buena Vista Arts Council,$35,Buena Vista,VA,,,,Event registration fee,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-15,Virginia Department of Alcoholic Beverage Control,$85,Mechanicsville,VA,,,,License for fundraising event,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-15,ParkMobile LLC,$8.30,Atlanta,GA,,,,Parking,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-11-15,VistaPrint,$517.51,Waltham,MA,,,,Campaign materials - signs,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-10,Postmaster,$12,Roanoke,VA,,,,Postage,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-12,Postmaster,$13.44,Roanoke,VA,,,,Postage,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-10,Lowe's,$33.67,Charlottesville,VA,,,,Parade supplies,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-10,Dollar Tree,$2.63,Charlottesville,VA,,,,Parade supplies,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-10,Dollar Tree,$15.48,Charlottesville,VA,,,,Parade supplies,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-10,Wegmans,$7.19,Charlottesville,VA,,,,Parade supplies,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-10-10,Digital Image Printing,$759.98,Daleville,VA,,,,Printing and mailing,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-08-18,GoDaddy.com LLC,$48.68,Tempe,AZ,,,,Website expense,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-05,Mr. BBQ,$700,Fishersville,VA,,,,Event expense,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-12,Staples,$140.31,Roanoke,VA,,,,Office supplies,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-12,Wal-Mart,$102.62,Charlottesville,VA,,,,Event supplies,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-12,CVS Pharmacy,$15.78,Hollins,VA,,,,Printing,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-12,ExxonMobil,$11.33,Roanoke,VA,,,,Supplies for event,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-12,Kroger,$266.62,Salem,VA,,,,Refreshments for event,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-12,Food Lion,$20.78,Charlottesville,VA,,,,Supplies for event,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-12,Jordan's Custom Framing,$160.42,Roanoke,VA,,,,Resolution framing,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2022-12-12,City Parking Inc.,$5,Richmond,VA,,,,Parking,D,310640,2022-07-19 to 2022-12-31,CC-22-00569,Friends of Chris Head
+contribution,2023-01-06,Mr. Michael A. Wray,$250,Roanoke,VA,individual,Retired,Retired,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-30,Ms. Bonnie L. Johnson,$15,Roanoke,VA,individual,Retired,Retired,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-30,Mr. Kenneth J. Srpan,$250,Roanoke,VA,individual,Retired,Retired,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-01-08,Virginia Hospital and Healthcare Association PAC,$500,Henrico,VA,pac,,Hospitals,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-15,Douglas Smith,$50,Lexington,VA,individual,Virginia Military Institute,Instructor,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-01-02,Blaine Coffey,$250,Fincastle,VA,individual,Retired,Retired,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-01-08,Mr. Christopher R. Nolen,$250,Glen Allen,VA,individual,Cozen O'Connor,Attorney,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-01-08,Community Owned Power PAC,"$5,000",Glen Allen,VA,pac,,Energy,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-24,Community Owned Power PAC,"$2,500",Glen Allen,VA,pac,,Energy,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-01-08,Titan American,$500,Norfolk,VA,business,,Construction materials,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-01-10,American Healthcare LLC,"$1,000",Roanoke,VA,business,,Nursing homes,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-31,Dominion Energy Inc. Political Action Committee Virginia,"$5,000",Richmond,VA,pac,,Electric utility,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-24,Virginia Automobile and Truck Dealers PAC,"$7,500",Richmond,VA,pac,,Auto dealers,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-01-10,ULT Political Action Committee,$500,Richmond,VA,pac,,Tobacco products,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-01-05,Virginia Association of Health Plans PAC,$500,Richmond,VA,pac,,Health plans,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-02-28,Advansix Inc. Political Action Committee,$500,Parsippany,NJ,pac,,Federal political committee,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-02-28,Capital One Services LLC,$500,REston,VA,business,,Banking,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-02-28,Virginia Manufactured and Modular Housing Association PAC,$500,Richmond,VA,pac,,Housing,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-15,Mrs. Patricia P. Wiese,$250,Lexington,VA,individual,Retired,Retired,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-15,Larry Stanton Wiese,"$1,000",Lexington,VA,individual,Self employed,Attorney,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-15,Murphy Tuomey Wilson,"$1,500",Lexington,VA,individual,A.Morton Thomas & Associates,Executive,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-31,Wren Williams,$250,Stuart,VA,individual,Schneider Williams PC,Attorney,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-24,Virginia Cable Telecommunications Association PAC (VCTA),"$1,000",Richmond,VA,pac,,Telecommunications,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-03-31,Mr. Dennis Hawes,$500,Buena Vista,VA,individual,NRBA Home Realty,Realtor,,A,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+in_kind,2023-01-08,Troutman Pepper Hamilton Sanders LLP,"$2,177.78",Richmond,VA,business,,Law firm,Event food and beverage,B,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+in_kind,2023-01-09,Troutman Pepper Hamilton Sanders LLP,$750,Richmond,VA,business,,Law firm,Room rental for event,B,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+in_kind,2023-03-14,Larry Stanton Wiese,$868.91,Lexington,VA,individual,Self employed,Attorney,Event food and beverage,B,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-01-06,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-02-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting fees,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-01-06,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-02-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-06,Forest Consulting Services,"$2,010",Richmond,VA,,,,"Accounting, reporting and consulting services",D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-01-03,WinRed,$9.85,Arlington,VA,,,,Credit card processing fees,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-31,WinRed,$35.07,Arlington,VA,,,,Credit card processing fees,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-02-21,Lori Hedrick,"$1,975",Lynchburg,VA,,,,Photography,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-01-06,Battlefield Consulting Inc.,"$1,067.50",Rockwall,TX,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-02-01,Battlefield Consulting Inc.,"$3,438",Rockwall,TX,,,,Fundraising fees,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Battlefield Consulting Inc.,$537.50,Rockwall,TX,,,,Consulting fees,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Pivot Parking,$38,Richmond,VA,,,,Parking,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Postmaster,$30,Roanoke,VA,,,,Postage,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-01-06,Ellen Campbell for Delegate,"$1,000",Fairfield,VA,,,,Campaign contribution,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-01-09,Point1,"$1,307.20",Atlantic Beach,FL,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-01-25,Point1,$850,Atlantic Beach,FL,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-02-17,Point1,"$1,550",Atlantic Beach,FL,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Staples,$21.05,Roanoke,VA,,,,Office supplies,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-02-21,EZ Politix LLC,$237.50,Omaha,NE,,,,Consulting,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-07,EZ Politix LLC,$350,Omaha,NE,,,,Need info,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-08,"Treasurer, Botetourt County",$360,Daleville,VA,,,,Primary filing fee,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-15,Bank of Botetourt,$20,Roanoke,VA,,,,Banking services,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-15,Medium Buying LLC,"$41,680",Columbus,OH,,,,Media purchase,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-02-24,Percipient Strategies LLC,$300,Washington,DC,,,,Research services,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-02-17,Chris Runion,$25,Bridgewater,VA,,,,Page breakfast,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Walmart,$64.53,Waynesboro,VA,,,,Fundraiser supplies,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,WifiOnBoard,$39.95,Chicago,IL,,,,Internet service,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Eun Hong,$54.05,Honolulu,HI,,,,Meal at conference,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Hilton Hotels,$252.25,Honolulu,HI,,,,Meals at conference,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Roanoke-Blacksburg Regional Airport,$36,Roanoke,VA,,,,Parking,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Hampton Inn - Alexandria,$217.03,Alexandria,VA,,,,Lodging,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Hilton Downtown Richmond,$200.30,Richmond,VA,,,,Lodging,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-03-01,Amazon.com,$18.94,Seattle,WA,,,,Tripod,D,320736,2023-01-01 to 2023-03-31,CC-22-00569,Friends of Chris Head
+contribution,2023-05-26,David Rehr PhD,$500,Arlington,VA,individual,Self employed,Consultant,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-30,George Anas,$500,Richmond,VA,individual,Berkshire Hathaway Energy GTS,Director External Affairs,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-25,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,Law enforcement,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-25,Virginia Society of Health System Pharmacists PAC,$250,Richmond,VA,pac,,Pharmacists,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-25,Reed Smith LLP Virginia Political Action Committee,"$1,000",Richmond,VA,pac,,Law firm,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-30,Virginia Health Care Association PAC,"$1,000",Richmond,VA,pac,,Nursing Homes,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-06-06,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Harbor pilots,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-06-06,Altria Client Services Inc.,"$1,500",Richmond,VA,business,,Consumer products manufacturer,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-06-08,Astellas Pharma US Inc. PAC,$500,Northbrook,IL,pac,,Pharmaceuticals,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-04-28,Mr. John G. Rocovich Jr.,"$2,000",Roanoke,VA,individual,Moss and Rocovich,Attorney,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-06-06,Delta Dental Plan of Virginia,"$1,000",Roanoke,VA,business,,Dental insurance,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-06-06,Anheuser Busch Companies Inc.,$500,Atlanta,GA,business,,Brewery,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-25,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-06-08,Dane McBride,$100,Roanoke,VA,individual,Retired,Retired,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-06-06,Virginia Certified Registered Nurse Anesthetist (CRNA-PAC),"$2,500",Richmond,VA,pac,,Nurse Anesthetists,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-15,Virginia Optometric Association PAC,"$1,000",Henrico,VA,pac,,Optometrists,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-30,Dominion Energy Inc. Political Action Committee Virginia,"$5,000",Richmond,VA,pac,,Electric utility,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-25,Pharmaceutical Care Management Association,"$1,000",Washington,DC,business,,Pharmaceuticals,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-06-08,Jushi Inc.,"$1,000",Boca Raton,FL,business,,Medial cannabis,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-25,Williams Mullen Clark and Dobbins,"$1,000",Richmond,VA,business,,Law firm,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-25,Virginia Society of Anethesiologists PAC,"$1,000",Richmond,VA,pac,,Anesthesiologists,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-30,Commercial Development Political Action Committee,"$1,000",Alexandria,VA,pac,,Housing,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-03,Capital One Services LLC,"$1,000",REston,VA,business,,Banking,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-05-30,Murphy Tuomey Wilson,"$1,000",Lexington,VA,individual,A.Morton Thomas & Associates,Executive,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-04-04,F. Scott Ripley,$250,Norfolk,VA,individual,Ripley Heatwole Co.,Builder,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-04-19,Engineering Companies of Virginia PAC,$500,Henrico,VA,pac,,Engineering,,A,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-04-05,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting fees,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-05-02,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-04-05,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting fees,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-05-03,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-05-31,WinRed,$43.54,Arlington,VA,,,,Credit card processing fees,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-08,WinRed,$11.82,Arlington,VA,,,,Credit card processing fees,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-04-05,Battlefield Consulting Inc.,$337.50,Rockwall,TX,,,,Fundraising consulting,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-05-03,Battlefield Consulting Inc.,"$1,189",Rockwall,TX,,,,Consulting,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-05-09,Point1,$550,Atlantic Beach,FL,,,,Printing,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-04-30,WinRed,$11.82,Arlington,VA,,,,Credit card processing fees,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-05-03,Family Foundation Action,$500,Richmond,VA,,,,Sponsorship,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-01,Wren Williams for Delegate,"$1,000",Stuart,VA,,,,Campaign contribution,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-01,Friends of Tara Durant,"$1,000",Fredericksburg,VA,,,,Campaign contribution,D,329756,2023-04-01 to 2023-06-08,CC-22-00569,Friends of Chris Head
+contribution,2023-06-19,Mr. Robert H. Nutt Sr,$100,Staunton,VA,individual,Retired,Retired,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-19,HCA for Good Government PAC,"$1,000",Richmond,VA,pac,,Healthcare,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-27,Mr. Craig M. Scott,$50,Waynesboro,VA,individual,Retired,Retired,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-29,Roanoke County Republican Committee,$500,Roanoke,VA,party,,Political Party Committee,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-22,Botetourt County Republican Committee,"$2,000",Troutville,VA,party,,Political Party Committee,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-19,Mr. Kenneth H. Adams,$150,Waynesboro,VA,individual,Retired,Retired,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-19,Motorola Solutions Inc. Political Action Committee,$500,Washington,DC,pac,,Political Action Committee,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-26,Cozen O'Connor,$500,Philadelphia,PA,business,,Law firm,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-19,Ortho PAC The Virginia Orthopaedic Society,$500,Richmond,VA,pac,,Orthopaedics,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-27,Ramona B. Hazera,$200,Lexington,VA,individual,Retired,Retired,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-22,Philip M. Klann,$100,Waynesboro,VA,individual,Retired,Retired,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-27,Wilson Fauber,$350,Staunton,VA,individual,Regal Real Estate of Virginia LLC,Real Estate Broker,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-29,Caesars Enterprise Services LLC,$500,Las Vegas,NV,business,,Gaming,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-19,Sriram Peddibhotla,$500,McLean,VA,individual,SAIC,Information Technology,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-29,Virginia Physical Therapy Association PAC,"$1,000",Clifton,VA,pac,,Political Action Committee,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-06-26,"Huntington Ingalls Industries, Inc.",$500,Newport News,VA,business,,Shipbuilding,,A,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Forest Consulting Services,$750,Richmond,VA,,,,Accounting and reporting services,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-30,WinRed,$3.94,Arlington,VA,,,,Credit card processing fees,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Battlefield Consulting Inc.,$780,Rockwall,TX,,,,Fundraising consulting,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Park Roanoke,$4,Roanoke,VA,,,,Parking,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-26,Postmaster,$388,Roanoke,VA,,,,P.O.Box rental,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Staples,$17.67,Roanoke,VA,,,,Office supplies,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Hilton Downtown Richmond,$205.30,Richmond,VA,,,,Lodging,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-13,Friends of Emily Brewer,"$2,000",Smithfield,VA,,,,Campaign contribution,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,FedEx Office,$3.60,Richmond,VA,,,,Printing,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,FedEx Office,$1.80,Richmond,VA,,,,Printing,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Mill Mountain Coffee,$13.53,Daleville,VA,,,,Meeting expense,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Staples - Charlottesville,$50,Charlottesville,VA,,,,Office supplies,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Dollar Tree - Roanoke,$5.27,Roanoke,VA,,,,Office supplies,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Hotels.com - Super 8 by Wyndham,$95.45,Daleville,VA,,,,Lodging,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,UPS Store,$4,Daleville,VA,,,,Printing,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Devils Backbone Brewing Co.,$48.07,Lexington,VA,,,,Meeting expense,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Postmaster,$12.60,Roanoke,VA,,,,Postage,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Hampton Inn - Sandston,$244.22,Sandston,VA,,,,Lodging,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,Shakers Restaurant,$60.28,Roanoke,VA,,,,Meeting expense,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,The Omni Homestead,$396.66,Hot Springs,VA,,,,Lodging,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-09,The George Washington Wyndham,$223.34,Winchester,VA,,,,Lodging,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-06-26,Roanoke Valley Republican Women,$60,Roanoke,VA,,,,Donation,D,339708,2023-06-09 to 2023-06-30,CC-22-00569,Friends of Chris Head
+contribution,2023-08-21,Virginia Dental Association PAC (VADPAC),"$2,500",Henrico,VA,pac,,Dentists,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-25,Virginia State Police Association PAC,$500,Richmond,VA,pac,,Law enforcement,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-17,"Medical Society of Virginia, The","$1,000",Henrico,VA,business,,Physicians,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-21,Mr. Stephen A. Rosenthal,$100,Roanoke,VA,individual,Retired,Retired,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-09,Mrs. Lorraine M. Lange,$250,Roanoke,VA,individual,Retired,Retired,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-28,HCA for Good Government PAC,"$1,500",Richmond,VA,pac,,Healthcare,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-17,Mr. Barton J. Wilner,$500,Roanoke,VA,individual,Entre Computer Center,President,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-27,Mr. Phillip A. Short Sr.,$250,Salem,VA,individual,P. A. Short Distributing Co.,Beverage distributor,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-21,Charles H. Nave PC,$250,Roanoke,VA,business,,Law firm,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-07,Verizon,"$1,500",Washington,DC,business,,Telecommunications,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-25,Mrs. Pamela French Williams,$250,Roanoke,VA,individual,Retired,Retired,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-17,Dr. David E. Black,$100,Vinton,VA,individual,Retired,Retired,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-23,Mr. Beverly T. Fitzpatrick Jr.,$200,Roanoke,VA,individual,Retired,Retired,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Virginia Academy of PAs PAC,$500,Charlottesville,VA,pac,,Physician assistants,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-09,Avis Construction Company Inc.,$500,Roanoke,VA,business,,General contractors,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-25,Washington Gas Light Company PAC,$500,Washington,DC,pac,,Utility,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Mr. Edward W. Clark Jr.,$500,Blue Ridge,VA,individual,Afton Communications,Owner,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-10,Ms. Pamela S. Barger,$500,Vinton,VA,individual,Retired,Retired,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Mr. Stephen W. Lemon,$250,Roanoke,VA,individual,Martin Hopkins and Lemon PC,Attorney,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Dr. Frank Cotter,$250,Roanoke,VA,individual,Vistar Eye Center,Ophthalmologist,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Dr. Timothy R. Byrnes,$250,Roanoke,VA,individual,Vistar Eye Center,Physician,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-24,Mr. Samuel L. Lionberger III,$500,Roanoke,VA,individual,Lionberger Construction,Construction,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Mr. Dennis R. Cronk,$250,Roanoke,VA,individual,Poe & Cronk Realty,Realtor,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-25,Mr. Leon P. Harris,"$1,000",Roanoke,VA,individual,Keltech Inc.,President,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Dane McBride,$250,Roanoke,VA,individual,Retired,Retired,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-08,Robert McNichols,"$1,000",Roanoke,VA,individual,Retired,Retired,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-31,Strata Solar LLC,"$1,000",Durham,NC,business,,Energy,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-10,Capital Results LLC,$500,Richmond,VA,business,,Government affairs,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-28,Dominion Energy Inc. Political Action Committee Virginia,"$10,000",Richmond,VA,pac,,Electric utility,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,McGuireWoods LLP,$500,Richmond,VA,business,,Law firm,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-11,Richard G. McGimsey,"$1,000",Roanoke,VA,individual,RGM Properties,Small Business Owner,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-24,C. Jordan Labiosa,$125,New Castle,VA,individual,Health Connect America,Marketing,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-02,Laura Bousman,$250,Virginia Beach,VA,individual,Home Instead,Business owner,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-03,Jason Sager,"$2,500",Annandale,VA,individual,Sager Incorported,Business owner,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-09,Pam Boles,$500,Staunton,VA,individual,Koinonia Inc.,Business owner,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-10,Mr. Jan S. Sessor,$500,Roanoke,VA,individual,Universal Rx,Executive,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-17,Mr. George B. Cartledge Jr.,$250,Roanoke,VA,individual,Grand Home Furnishings,CEO,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-17,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Retailers,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-21,Mr. William H. Fralin Jr.,$500,Roanoke,VA,individual,Retirement Unlimited,President,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-21,Virginia Lifepoint Hospitals PAC,$500,Richlands,VA,pac,,Medical,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-07-21,Mr. William J. Lemon,"$2,500",Roanoke,VA,individual,Martin Hopkins & Lemon,Attorney,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-09,Clean Energy Virginia PAC INC.,"$1,000",Alexandria,VA,pac,,Energy,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Dr. Saju S. Eapen,$250,Roanoke,VA,individual,Allergy Immunology,Physician,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Mr. William Tucker Lemon,$250,Roanoke,VA,individual,Martin Hopkins & Lemon,Attorney,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Mr. Matthew Richard Huff,$500,Boones Mill,VA,individual,Poe & Cronk Real Estate Group,Executive VP,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Roanoke Gas PAC,"$2,000",Roanoke,VA,pac,,Energy,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-11,Magic City Ford Lexington,"$5,000",Lexington,VA,business,,Automovile,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-15,Mr. Leonard Wheeler,$250,Naples,FL,individual,Mel Wheeler Broadcasting Inc,President,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-15,"Republic National Distributing Company, LLC","$1,000",Atlanta,GA,business,,Beverage Distributor,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-22,Karl Karch,$500,Fredericksburg,VA,individual,"RK Caregivers, Inc. DBA Home Instead",Business owner,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-21,Virginia Wine Wholesalers Association,"$5,000",Richmond,VA,business,,Beverages,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-23,Phillip A. Short Jr.,$500,Salem,VA,individual,PA Short Distributing,Executive,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-23,Blue Ridge Beverage Co Inc,"$1,000",Salem,VA,business,,Beverages,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-23,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,Distributing,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-23,Virginia Beer Wholesalers Association,"$2,500",Richmond,VA,business,,Beverages,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-24,CMA's Valley Subaru,"$1,000",Staunton,VA,business,,Auto Dealer,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-24,Virginia Beverage Association,"$1,500",Richmond,VA,business,,Beverages,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-28,Berglund Chevrolet Inc,"$2,500",Roanoke,VA,business,,Auto Dealer,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-08-28,Law Offices of Daniel L. Crandall,$500,Roanoke,VA,business,,Law Firm,,A,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+in_kind,2023-07-19,Virginia Hospital and Healthcare Association PAC,"$2,129.73",Henrico,VA,pac,,Hospitals,Event expense - Food and beverage,B,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+in_kind,2023-08-23,Virginia Beer Wholesalers Association,$143.67,Richmond,VA,business,,Beverages,Event expense - Food and beverage,B,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-25,Roanoke County Republican Committee,$500,Roanoke,VA,,,,Donation,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-21,Roanoke Valley Friends of the NRA,$250,Roanoke,VA,,,,Donation,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-03,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-19,JLK Strategies LLC,"$12,771.84",Richmond,VA,,,,Campaign materials,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-02,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-01,Forest Consulting Services,$475,Richmond,VA,,,,"Accounting, reporting and consulting services",D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-09,Forest Consulting Services,$525,Richmond,VA,,,,"Accounting, reporting and consulting fees",D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-31,WinRed,$64.03,Arlington,VA,,,,Credit card processing fees,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-31,WinRed,$210.79,Arlington,VA,,,,Credit card processing fees,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-16,Harland Clarke Printers,$87.93,San Antonio,TX,,,,Banking supplies,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Battlefield Consulting Inc.,$964.50,Rockwall,TX,,,,Fundraising fees,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-01,Battlefield Consulting Inc.,$985,Rockwall,TX,,,,Fundraising fees,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-15,Shenandoah Club,"$1,340.71",Roanoke,VA,,,,Event expense,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Pivot Parking,$20,Richmond,VA,,,,Parking,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Park Roanoke,$5,Roanoke,VA,,,,Parking,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Postmaster,$6.30,Roanoke,VA,,,,Postage,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Postmaster,$12.60,Roanoke,VA,,,,Postage,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-06,Point1,$250,Atlantic Beach,FL,,,,Consulting,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Wal-Mart,$83.19,Charlottesville,VA,,,,Tent,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Wal-Mart,$22.86,Charlottesville,VA,,,,Festival supplies,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Wal-Mart,$10.66,Charlottesville,VA,,,,Festival supplies,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-30,Bank of Botetourt,$20,Roanoke,VA,,,,Banking services,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Amazon.com,$57.90,Seattle,WA,,,,Sign supplies,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,UPS Store,$5.53,Daleville,VA,,,,Printing,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,UPS Store,$13.52,Daleville,VA,,,,Printing,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-01,Treasurer  of Virginia,"$1,391.30",Richmond,VA,,,,Postage for session,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-21,Friends of Chris Obenshain,$500,Blacksburg,VA,,,,Campaign contribution,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-15,White Hill Catering,$500,Stuarts Draft,VA,,,,Deposit for event,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-30,Friends of Siobhan Dunnavant,"$12,500",Henrico,VA,,,,Contribution,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-08-31,Suetterlein for Senate,"$2,500",Roanoke,VA,,,,Contribution,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Hilton Norfolk The Main,$348.80,Norfolk,VA,,,,Lodging,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,City of Covington,$30,Covington,VA,,,,Registration fee,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Lanier Parking,$21,Richmond,VA,,,,Parking,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-07-05,Sam Miller's Restaurant,$584.73,Richmond,VA,,,,Event food and beverage,D,351454,2023-07-01 to 2023-08-31,CC-22-00569,Friends of Chris Head
+contribution,2023-09-14,Mr. Stephen A. Rosenthal,$50,Roanoke,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-14,Mrs. Lorraine M. Lange,$300,Roanoke,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-14,Ms. Janice W. Fostek,$500,Roanoke,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-07,Acadia Healthcare Company Inc. FedPAC,$500,Franklin,TN,pac,,Healthcare,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-22,Ms. Carolyn A. Bragg,$125,Stuarts Draft,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-26,Mr. Craig A. Morin,$250,Houston,TX,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-26,Mr. James Pearman Jr.,$250,Salem,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-26,Mr. Childs Frick Burden,$250,Middleburg,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-26,Vision Management Services,"$1,000",Chicago,IL,business,,Strategy consulting,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-27,Virginia Farm Bureau Federation AgPAC,$750,Richmond,VA,pac,,Agriculture,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-30,Mr. Glenn E. Mon,$175,Lexington,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-21,Mr. Kenneth J. Srpan,$50,Roanoke,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-29,Mr. Kenneth J. Srpan,$200,Roanoke,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-20,Mrs. Mary Elizabeth Kepley,$100,Roanoke,VA,individual,Self employed,Interior Design,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-22,Charles H. Nave PC,$75,Roanoke,VA,business,,Law firm,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-07,Mr. Abney Boxley,"$2,500",Crozet,VA,individual,Summit Materials,Executive,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-26,Virginia Credit Union PAC,"$1,500",Lynchburg,VA,pac,,Credit unions,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-30,Ms. Mildred H. Scott,$100,Vinton,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-27,Mr. Phillip C. North,$100,Roanoke,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-28,Mr. Fred W. Abbott,$100,Roanoke,VA,individual,Abbott Trailways,Transportation,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-21,Mr. Donald D. Sowder,$75,Roanoke,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-11,Mr. Charles A. Webb,"$5,000",Roanoke,VA,individual,Innovative Insurance Group LLC,Insurance,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-07,Molina Healthcare Inc.,"$1,000",Long Beach,CA,business,,Healthcare,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-22,Lanford Brothers Company Inc.,"$1,000",Roanoke,VA,business,,Highway contractor,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-07,William Griffeth,$250,Roanoke,VA,individual,Vistar Eye Center,Physician,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-26,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,Energy,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-30,Pharmaceutical Research and Manufacturers of America (PhRMA),"$1,500",Washington,DC,business,,Pharmaceuticals,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-20,Virginia Bankers Association BankPAC,"$1,500",Glen Allen,VA,pac,,Financial institutions,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-21,Cigna Corp Employee PAC,$500,Philadelphia,PA,pac,,Insurance,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-20,Murphy Tuomey Wilson,"$1,000",Lexington,VA,individual,A.Morton Thomas & Associates,Executive,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-21,Ramona B. Hazera,$75,Lexington,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-22,Mr. David L. Cash,$50,Fishersville,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-21,William A. Russell,$75,Lexington,VA,individual,Waterlook Creek Farm,Farmer,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-20,Ms. Linda McGarry,$75,Roanoke,VA,individual,Carilion Clinic,Registered Nurse,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-09-20,Mr. Craig Stevens,$250,Warrenton,VA,individual,Retired,Retired,,A,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+in_kind,2023-09-27,Associated General Contractors of Virginia Inc. PAC,$173.18,Glen Allen,VA,pac,,Construction,Event food and beverage,B,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-05,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting fees,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting fees,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-30,WinRed,$47.30,Arlington,VA,,,,Credit card processing fees,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-01,Ted McAllister,"$1,400",Fincastle,VA,,,,Event expense,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-01,Battlefield Consulting Inc.,"$1,525",Rockwall,TX,,,,Fundraising fees,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-08,Bank of Botetourt,$20,Roanoke,VA,,,,Banking services,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-27,Bank of Botetourt,$20,Roanoke,VA,,,,Banking services,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-21,James H. Kostelni,$200,Lexington,VA,,,,Campaign work,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-08,Republican Party of Virginia,"$23,000",Richmond,VA,,,,Donation,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-27,Republican Party of Virginia,"$20,000",Richmond,VA,,,,Donation,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-08,Kim Taylor for Virginia,"$1,500",Petersburg,VA,,,,Campaign contribution,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-08,Karen Greenhalgh for Delegate,"$1,500",Virginia Beach,VA,,,,Campaign contribution,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-08,Friends of Amanda Batten,"$1,000",Norge,VA,,,,Campaign contribution,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-08,Friends of A.C. Cordoza,$500,Fort Monroe,VA,,,,Campaign contribution,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-09-08,Friends of Carrie Coyner,$500,Chesterfield,VA,,,,Campaign contribution,D,361275,2023-09-01 to 2023-09-30,CC-22-00569,Friends of Chris Head
+contribution,2023-10-20,Virginia Apartment Management Association PAC,$500,Richmond,VA,pac,,Hosuning,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-02,David Bailey Associates,$200,Richmond,VA,business,,Government affairs,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-02,A Safer Virginia PAC,"$1,000",Virginia Beach,VA,pac,,Leadership committee,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-05,Virginia Petroleum and Convenience Marketers PAC,$500,Richmond,VA,pac,,Convenience stores,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-05,Virginia Preservation PAC,"$1,000",Richmond,VA,pac,,Preservation issues,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-05,Friends of Mark Obenshain,"$1,000",Harrisonburg,VA,candidate,,Candidate committee,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-11,Mr. S. John Massoud,$250,Strasburg,VA,individual,M R Taxi,Taxis,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-24,American Electric Power Committee for Responsible Government,"$1,500",Washington,DC,pac,,Federal political committee,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-24,Insurance and Financial Advisors Political Action Committee Virginia (IFAPAC),"$1,000",Richmond,VA,pac,,Insurance,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-24,Mr. Eddie F. Hearp,$200,Roanoke,VA,individual,National Financial Services,Insurance,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-17,Mr. Edward W. Clark Jr.,$350,Blue Ridge,VA,individual,Afton Communications,Owner,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-17,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,Realtors,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-17,Amazon.com Services LLC,"$2,500",Seattle,WA,business,,Retailer,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-16,Virginia Hospital and Healthcare Association PAC,$500,Henrico,VA,pac,,Hospitals,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-06,Douglas Smith,$75,Lexington,VA,individual,Virginia Military Institute,Instructor,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-11,Larry Neal,$100,Suffolk,VA,individual,Self employed,Home Health,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-16,Virginia Optometric Association PAC,$500,Henrico,VA,pac,,Optometrists,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-11,Abbott Laboratories Employee Political Action Committee,$500,Abbott Park,IL,pac,,Pharmaceuticals,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-11,Virginia Society of Anethesiologists PAC,$500,Richmond,VA,pac,,Anesthesiologists,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-02,Associated General Contractors of Virginia Inc. PAC,$500,Glen Allen,VA,pac,,Construction,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-20,Murphy Tuomey Wilson,$250,Lexington,VA,individual,A.Morton Thomas & Associates,Executive,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-10,David Leaman,$100,Roanoke,VA,individual,Retired,Retired,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-11,Jim Wood,$100,Waynesboro,VA,individual,City of Waynesboro,Vice Mayor,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-11,Roanoke Gas PAC,$200,Roanoke,VA,pac,,Energy,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-04,Don Huang,$500,Alexandria,VA,individual,"Summit Ridge Energy, LLC",Accountant,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-11,Mr. Alexis B. Lamotte,$50,Raphine,VA,individual,Retired,Retired,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-12,Eric Obaugh,$500,Staunton,VA,individual,Charlie Obaugh Auto Group,Auto Dealer,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-16,Keith Clay,$250,Lexington,SC,individual,Home Instead,Home Care,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-16,Employees of Raytheon Technologies Corporation PAC,$250,Arlington,VA,pac,,Technology,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-16,Virginia Transportation Construction Alliance PAC,"$1,000",North Chesterfield,VA,pac,,Construction,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-16,Apex Clean Energy Holdings LLC,"$1,000",Charlottesville,VA,business,,Energy,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-16,Dr. Mac Scothorn,$250,Roanoke,VA,individual,Self employed,Optometrist,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-17,McNeil Roofing Inc.,"$1,000",Roanoke,VA,business,,Roofing,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-26,Anthem Blue Cross Blue Shield,"$1,500",Cincinnati,OH,business,,Health insurance,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-16,"Medical Society of Virginia, The","$1,000",Henrico,VA,business,,Physicians,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-17,Retirement Unlimited Inc.,"$1,000",Roanoke,VA,business,,Nursing homes,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-25,MVP LLC,"$1,500",Canonsburg,PA,business,,Pipeline project,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-11,Mr. Robert H. Nutt Sr,$500,Staunton,VA,individual,Retired,Retired,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-10,Mr. Phillip A. Short Sr.,$500,Salem,VA,individual,P. A. Short Distributing Co.,Beverage distributor,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-05,Mr. Paul W. Nester,$200,Salem,VA,individual,Roanoke Gas Co.,President,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-11,Mr. Craig M. Scott,$75,Waynesboro,VA,individual,Retired,Retired,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-10-05,Delta Dental Plan of Virginia,$500,Roanoke,VA,business,,Dental insurance,,A,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+in_kind,2023-10-10,Republican Party of Virginia,"$40,639.40",Richmond,VA,party,,Political party committee,"Printing, postage and mailing",B,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+in_kind,2023-10-18,Republican Party of Virginia,"$26,405.26",Richmond,VA,party,,Political party committee,"Printing, postage and mailing",B,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-03,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting fees,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-02,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting fees,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-26,WinRed,$66.01,Arlington,VA,,,,Credit card processing fees,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-07,Botetourt County Republican Committee,$500,Troutville,VA,,,,Donation,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-02,Battlefield Consulting Inc.,"$4,050",Rockwall,TX,,,,Consulting fees,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-25,Point1,"$1,332.80",Atlantic Beach,FL,,,,Campaign materials,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-06,Bank of Botetourt,$100,Roanoke,VA,,,,Banking services,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-13,Bank of Botetourt,$20,Roanoke,VA,,,,Banking services,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-06,Friends of Tara Durant,"$10,000",Fredericksburg,VA,,,,Campaign contribution,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-06,Friends of Emily Brewer,"$5,000",Smithfield,VA,,,,Campaign contributioni,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-02,White Hill Catering,"$1,948.60",Stuarts Draft,VA,,,,Event expense,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-06,Friends of Siobhan Dunnavant,"$15,000",Henrico,VA,,,,Campaign contribution,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-07,James H. Kostelni,$200,Lexington,VA,,,,Campaign work,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-06,Woolf for Senate,"$3,000",Williamsburg,VA,,,,Campaign contribution,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-06,Kevin Adams for Senate,"$2,500",Virginia Beach,VA,,,,Campaign contribution,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-07,Robert F. McDonnell,$309.39,Virginia Beach,VA,,,,Reimbursement for lodging,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-13,Virginia Senate Republican Caucus,"$19,000",Williamsburg,VA,,,,Donation,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+expenditure,2023-10-10,Augusta County Republican Committee,$750,Staunton,VA,,,,Donation,D,372572,2023-10-01 to 2023-10-26,CC-22-00569,Friends of Chris Head
+contribution,2023-11-22,Mr. Michael A. Wray,$500,Roanoke,VA,individual,Retired,Retired,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-03,Metis Services Inc.,"$1,000",Roanoke,VA,business,,Insurance,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-13,Eye PAC,$500,Richmond,VA,pac,,Ophthalmologists,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-01,Ms. Carolyn A. Bragg,$335,Stuarts Draft,VA,individual,Retired,Retired,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-01,Lawson for School Board,$335,Waynesboro,VA,candidate,,Candidate committee,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-01,JRB Corp of Lynchburg,"$1,000",Staunton,VA,business,,General contractor,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-01,Virginia Poultry Federation PAC,$300,Harrisonburg,VA,pac,,Agriculture,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-01,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law firm,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-03,Virginia Contractor Procurement Alliance,"$2,500",Richmond,VA,business,,Contractors,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-07,Scott Gunn,"$1,000",Roanoke,VA,individual,AFC Urgent Care,Sales,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-20,Dimension Energy LLC,$500,Atlanta,GA,business,,Energy,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-14,Sheetz,"$2,000",Altoona,PA,business,,Convenience stores,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-11-13,Swedish Match North America LLC,$250,Richmond,VA,business,,Tobacco products,,A,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-03,Roanoke County Republican Committee,"$1,000",Roanoke,VA,,,,Contribution,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-02,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-02,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,WinRed,$43.34,Arlington,VA,,,,Credit card processing fees,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-02,Battlefield Consulting Inc.,"$2,455",Rockwall,TX,,,,Fundraising consulting,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Park Roanoke,$5,Roanoke,VA,,,,Parking,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,ParkMobile LLC,$1.30,Atlanta,GA,,,,Parking,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,ParkMobile LLC,$1.30,Atlanta,GA,,,,Parking,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Postmaster,$88.20,Roanoke,VA,,,,Postage,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Postmaster,$12.66,Roanoke,VA,,,,Postage,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Postmaster,$12.60,Roanoke,VA,,,,Postage,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Postmaster,$37.80,Roanoke,VA,,,,Postage,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Postmaster,$13.20,Roanoke,VA,,,,Postage,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Lowe's,$413.77,Charlottesville,VA,,,,Campaign supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Lowe's,$249.43,Charlottesville,VA,,,,Campaign supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Lowe's,$20.09,Charlottesville,VA,,,,Campaign supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Wegmans,$26.31,Charlottesville,VA,,,,Event refreshments,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,GoDaddy.com LLC,$66.51,Tempe,AZ,,,,Domain name renewal,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,GoDaddy.com LLC,$70.32,Tempe,AZ,,,,Website expense,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-15,Bank of Botetourt,$10,Roanoke,VA,,,,Banking services,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Walmart,$16.55,Waynesboro,VA,,,,Office supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Walmart,$10.45,Waynesboro,VA,,,,Office supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Walmart,$59.87,Waynesboro,VA,,,,Parade supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Walmart,$5.77,Waynesboro,VA,,,,Parade supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Walmart,$12.05,Waynesboro,VA,,,,Office supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Walmart,$28.58,Waynesboro,VA,,,,Parade supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Walmart,$23.37,Waynesboro,VA,,,,Parade supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Walmart,$70.11,Waynesboro,VA,,,,Parade supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Walmart,$12.52,Waynesboro,VA,,,,Office supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Dollar Tree - Roanoke,$2.63,Roanoke,VA,,,,Office supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Dollar Tree - Roanoke,$8.84,Roanoke,VA,,,,Parade supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Postmaster,$19.80,Roanoke,VA,,,,Postage,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Omni Homestead Resort,"$1,885.92",Hot Springs,VA,,,,Lodging expense,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Michael's,$13.13,Charlottesville,VA,,,,Office supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Michael's,$5.25,Charlottesville,VA,,,,Office supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Michael's,$52.58,Charlottesville,VA,,,,Office supplies,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Chipotle,$30.97,Roanoke,VA,,,,Food,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Rowe's Family Restaurant,$360.60,Staunton,VA,,,,Catering for event,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Canva US Inc.,$1,Austin,TX,,,,Design fee,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Frank's Pizza,$35.83,Lexington,VA,,,,Food,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Starbucks,$5.44,Waynesboro,VA,,,,Food,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Goshen First Aid Crew,$4,Goshen,VA,,,,Water,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Center In The Square,$4,Roanoke,VA,,,,Parking,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Pocahontas Parkway,$5.55,Richmond,VA,,,,Toll,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Martins,$56.76,Waynesboro,VA,,,,Fuel purchase,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Budget Truck Rental,$632.40,Richmond,VA,,,,Truck rental,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,Circle K,$30.05,Staunton,VA,,,,Fuel purchase,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+expenditure,2023-11-30,JJ's Meat Stack,$11,Buena Vista,VA,,,,Refreshments for volunteers,D,384028,2023-10-27 to 2023-11-30,CC-22-00569,Friends of Chris Head
+contribution,2023-12-28,NiSource Inc. PAC,$500,Columbus,OH,pac,,Energy and water,,A,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+contribution,2023-12-28,Associated General Contractors of Virginia Inc. PAC,$500,Glen Allen,VA,pac,,Construction,,A,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+contribution,2023-12-28,Virginia Health Care Association PAC,"$1,500",Richmond,VA,pac,,Nursing Homes,,A,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+contribution,2023-12-07,Gilead Sciences Inc.,$500,Raleigh,NC,business,,Technology,,A,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+contribution,2023-12-28,J & J Ventures Gaming LLC,"$1,000",Effingham,IL,business,,Gaming,,A,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+contribution,2023-12-28,Virginia CRNAs Who Care About Healthcare PAC,$500,Forest Hill,MD,pac,,Certified registered nurse anesthetists,,A,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+contribution,2023-12-07,Virginia State Farm Agents and Employees PAC,"$1,250",Tappahannock,VA,pac,,Insurance,,A,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+contribution,2023-12-19,American Property Casualty Insurance Association PAC,"$1,000",Chicago,IL,pac,,Insurance,,A,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-12-04,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-12-04,Kendall L. Bailey,$500,Charlottesville,VA,,,,Campaign work,D,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-12-04,Forest Consulting Services,"$5,000",Richmond,VA,,,,"Accounting, reporting and consulting services",D,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-12-13,Head 2 Head Inc.,"$3,614.51",Roanoke,VA,,,,Expense reimbursement,D,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-12-19,Head 2 Head Inc.,$280.76,Roanoke,VA,,,,Expense reimbursement,D,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-12-07,Battlefield Consulting Inc.,"$3,040",Rockwall,TX,,,,Fundraising consulting,D,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2023-12-14,Point1,"$1,580.27",Atlantic Beach,FL,,,,Campaign materials,D,393416,2023-12-01 to 2023-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-06-17,MVP LLC,"$2,500",Canonsburg,PA,business,,Pipeline project,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-06-17,HCA for Good Government PAC,"$1,000",Richmond,VA,pac,,Healthcare,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-01-03,Commonwealth Sportsmens Alliance PAC,$500,Powhatan,VA,pac,,Hunting sports,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-06-17,Titan American,$500,Norfolk,VA,business,,Construction materials,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-01-03,McGuireWoods LLP,$500,Richmond,VA,business,,Law firm,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-01-09,Virginia Automobile and Truck Dealers PAC,$500,Richmond,VA,pac,,Auto dealers,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-01-09,Care Advantage Inc.,"$1,500",North Chesterfield,VA,business,,Personal care services,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-05-28,Altria Client Services Inc.,"$1,000",Richmond,VA,business,,Consumer products manufacturer,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-05-20,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Retailers,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-05-20,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,Agriculture,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-06-18,Virginia CRNAs Who Care About Healthcare PAC,"$2,500",Forest Hill,MD,pac,,Certified registered nurse anesthetists,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-01-09,Asian American Business Owners Association PAC,"$1,000",Roanoke,VA,pac,,Asian American Business Owners,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-01-09,Virginia Operators for Skill,"$2,500",Richmond,VA,business,,Skilled gaming,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-01-09,Building a Remarkable Virginia PAC,"$2,000",Reston,VA,pac,,Political action committee,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-01-04,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,Highway construction,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-06-10,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,Highway construction,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-05-09,Mr. Christopher S. Buchanan,$500,Staunton,VA,individual,Pets N Pals,Owner,,A,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+in_kind,2024-01-08,Troutman Pepper Hamilton Sanders LLP,$835.86,Richmond,VA,business,,Law firm,Event food and beverage,B,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-01-02,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-02-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-03-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-04-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-05-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting fees,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-04,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-02-12,Kendall L. Bailey,$500,Charlottesville,VA,,,,Session work,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-03-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-04-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-05-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Campaign work,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-03,Kendall L. Bailey,$500,Charlottesville,VA,,,,Campaign work,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-02-09,Forest Consulting Services,$53.25,Richmond,VA,,,,Tax filing services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-01-02,Battlefield Consulting Inc.,"$1,815",Rockwall,TX,,,,Fundraising consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-03-18,Battlefield Consulting Inc.,"$1,425",Rockwall,TX,,,,Consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-03-19,Battlefield Consulting Inc.,$100,Rockwall,TX,,,,Consulting,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-04-30,Battlefield Consulting Inc.,$375,Rockwall,TX,,,,Fundraising consulting fees,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-17,Battlefield Consulting Inc.,$800,Rockwall,TX,,,,Consulting fees,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-17,Postmaster,$68,Roanoke,VA,,,,Postage,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-17,Postmaster,$400,Roanoke,VA,,,,Post office box renewal,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-05-23,Sam Miller's Restaurant,$590.07,Richmond,VA,,,,Event food and beverage,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-01-02,Mulchi for Senate,"$1,500",Clarksville,VA,,,,Campaign contribution,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-01-02,Bank of America,$30,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-01-03,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-02-13,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-02-28,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-03-19,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-03-20,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-03-28,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-05-01,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-05-02,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-05-30,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-05-31,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-18,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-27,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-05-31,Zoom,$167.90,San Jose,CA,,,,Meeting expense,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-06,Postmaster,$68,Staunton,VA,,,,Postage,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-13,Wal-Mart,$9.13,Roanoke,VA,,,,Campaign supplies,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2024-06-14,Michael's,$26.29,Roanoke,VA,,,,Campaign supplies,D,409465,2024-01-01 to 2024-06-30,CC-22-00569,Friends of Chris Head
+contribution,2024-09-06,Virginia Dental Association PAC (VADPAC),"$1,000",Henrico,VA,pac,,Dentists,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-11-18,"Medical Society of Virginia, The","$2,000",Henrico,VA,business,,Physicians,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,HCA for Good Government PAC,"$1,500",Richmond,VA,pac,,Healthcare,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-06,Mr. Barton J. Wilner,$500,Roanoke,VA,individual,Entre Computer Center,President,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Mr. Abney Boxley,"$2,500",Crozet,VA,individual,Summit Materials,Executive,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-10,Virginia Academy of PAs PAC,$200,Charlottesville,VA,pac,,Physician assistants,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-03,Ms. Mildred H. Scott,$125,Vinton,VA,individual,Retired,Retired,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Mr. Paul W. Nester,$250,Salem,VA,individual,Roanoke Gas Co.,President,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Commonwealth Sportsmens Alliance PAC,"$1,000",Powhatan,VA,pac,,Hunting sports,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-23,Avis Construction Company Inc.,$500,Roanoke,VA,business,,General contractors,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Delta Dental Plan of Virginia,$500,Roanoke,VA,business,,Dental insurance,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Mr. Donald D. Sowder,$100,Roanoke,VA,individual,Retired,Retired,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Mr. Charles A. Webb,"$2,500",Roanoke,VA,individual,Innovative Insurance Group LLC,Insurance,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Virginia Manufacturers Association PAC,$500,Richmond,VA,pac,,Manufacturing,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Amazon.com Services LLC,"$2,000",Seattle,WA,business,,Retailer,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-31,Virginia Hospital and Healthcare Association PAC,"$1,500",Henrico,VA,pac,,Hospitals,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-25,Lanford Brothers Company Inc.,$500,Roanoke,VA,business,,Highway contractor,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-07-15,Anheuser Busch Companies Inc.,$500,Atlanta,GA,business,,Brewery,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-25,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-31,Chiropractic Political Action Committee of Virginia,$500,Glen Allen,VA,pac,,Chiropractors,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-25,Capital Results LLC,$500,Richmond,VA,business,,Government affairs,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-11-18,Pharmaceutical Research and Manufacturers of America (PhRMA),"$1,000",Washington,DC,business,,Pharmaceuticals,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-30,Dominion Energy Inc. Political Action Committee Virginia,"$10,000",Richmond,VA,pac,,Electric utility,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,McGuireWoods LLP,"$1,000",Richmond,VA,business,,Law firm,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Virginia Automobile and Truck Dealers PAC,"$1,000",Richmond,VA,pac,,Auto dealers,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Cozen O'Connor,$500,Philadelphia,PA,business,,Law firm,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-11-18,Abbott Laboratories Employee Political Action Committee,$500,Abbott Park,IL,pac,,Pharmaceuticals,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-03,Cigna Corp Employee PAC,$500,Philadelphia,PA,pac,,Insurance,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-06,Eye PAC,$250,Richmond,VA,pac,,Ophthalmologists,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-11-18,Care Advantage Inc.,"$1,000",North Chesterfield,VA,business,,Personal care services,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Williams Mullen Clark and Dobbins,$500,Richmond,VA,business,,Law firm,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-25,Virginia Society of Anethesiologists PAC,"$2,500",Richmond,VA,pac,,Anesthesiologists,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Virginia Association of Health Plans PAC,$500,Richmond,VA,pac,,Health plans,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-25,Murphy Tuomey Wilson,$250,Lexington,VA,individual,A.Morton Thomas & Associates,Executive,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-06,Ramona B. Hazera,$130,Lexington,VA,individual,Retired,Retired,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Virginia Cable Telecommunications Association PAC (VCTA),"$1,000",Richmond,VA,pac,,Telecommunications,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-03,Engineering Companies of Virginia PAC,"$1,000",Henrico,VA,pac,,Engineering,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-25,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,Law enforcement,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-07-15,Virginia Health Care Association PAC,"$1,000",Richmond,VA,pac,,Nursing Homes,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Harbor pilots,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-25,Caesars Enterprise Services LLC,"$1,000",Las Vegas,NV,business,,Gaming,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,"Huntington Ingalls Industries, Inc.",$500,Newport News,VA,business,,Shipbuilding,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-07-15,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Retailers,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-25,Mr. William H. Fralin Jr.,$500,Roanoke,VA,individual,Retirement Unlimited,President,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Mr. William J. Lemon,"$1,000",Roanoke,VA,individual,Martin Hopkins & Lemon,Attorney,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Roanoke Gas PAC,"$1,000",Roanoke,VA,pac,,Energy,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Magic City Ford Lexington,$500,Lexington,VA,business,,Automovile,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-25,Mr. Leonard Wheeler,$250,Naples,FL,individual,Mel Wheeler Broadcasting Inc,President,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-25,Virginia Wine Wholesalers Association,"$1,500",Richmond,VA,business,,Beverages,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-25,Blue Ridge Beverage Co Inc,"$1,000",Salem,VA,business,,Beverages,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-10,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,Distributing,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-25,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,Beverages,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-10,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,Beverages,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,Beverages,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-06,Acadia Healthcare Company Inc. FedPAC,$500,Franklin,TN,pac,,Healthcare,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-06,Vision Management Services,$500,Chicago,IL,business,,Strategy consulting,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-31,Dr. Mac Scothorn,$300,Roanoke,VA,individual,Self employed,Optometrist,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-27,American Electric Power Committee for Responsible Government,"$1,000",Washington,DC,pac,,Federal political committee,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law firm,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-03,Virginia CRNAs Who Care About Healthcare PAC,"$2,500",Forest Hill,MD,pac,,Certified registered nurse anesthetists,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-31,American Property Casualty Insurance Association PAC,"$1,000",Chicago,IL,pac,,Insurance,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-25,American Resort Development Association Resort Owners Coalition PAC,$500,Washington,DC,pac,,Resort Owners,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Mr. J. Morton Biber,$350,Lexington,VA,individual,Retired,Retired,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Ms. Janice W. Fostek,$500,Roanoke,VA,individual,Retired,Retired,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Mr. Albin B. Hammond,$250,Roanoke,VA,individual,Retired,Retired,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-24,Virginia Society of the American Institute of Architects,"$1,000",Richmond,VA,business,,Architects,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-06,Arrow International Inc.,$500,Cleveland,OH,business,,Manufacturing,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-10-03,Mr. Dirk B. Padgett,$500,Daleville,VA,individual,Dirk Padget Law PLLC,Attorney,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-11-12,Betting on VA Jobs Political Action Committee,"$5,000",Richmond,VA,pac,,Casino,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-11-18,Virginia Assisted Living Association PAC,$500,Henrico,VA,pac,,Trade organization,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-11-27,LMB of Tidewater Inc.,$250,Virginia Beach,VA,business,,Home health care services,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-10,Boyd-Pamunkey Casino PAC,"$2,000",Norfolk,VA,pac,,Political Action Committee,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-10,PsychMD PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,"Aqua Virginia, Inc.",$500,Rockville,VA,business,,Water products,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Sports Betting Alliance,"$1,000",Lubbock,TX,business,,Entertainment,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,"Sideprize, LLC DBA Prizepicks",$500,Atlanta,GA,business,,Fantasy sports company,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Cedar Mountain Stone Corporation,$250,Pine City,NY,business,,Quarry (Landscaping) supplies,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Chemung Contracting Corporation,$250,Pine City,NY,business,,Highway Contracting,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-12-30,Reed Smith LLP,$500,Pittsburgh,PA,business,,Law firm,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-23,Torben Pedersen,$100,Glasgow,VA,individual,"Allied Security Systems, Inc",Security Consultant,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-12,Dr Robert Shafer,$250,Roanoke,VA,individual,Anesthesiology Consultants of Virginia,Physician,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-09-05,Malcolm  (Mac) M. Doubles,$250,Troutville,VA,individual,Self employed,Attorney,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-08-28,William Lange,$250,Roanoke,VA,individual,Retired,Retired,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2024-08-27,Gary Kimberlin,$250,Covington,VA,individual,"Allegheny Asphalt & Construction, Inc.",Diesel and Equipment Mechanic,,A,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+in_kind,2024-11-04,Republican Party of Virginia,"$3,837.48",Richmond,VA,party,,Political party committee,"Printing, postage and mailing",B,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-07-01,JLK Strategies LLC,"$2,000",Richmond,VA,,,,Consulting fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-07-01,Kendall L. Bailey,$500,Charlottesville,VA,,,,Consulting,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-30,Forest Consulting Services,"$1,250",Richmond,VA,,,,Consulting fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-12-19,Forest Consulting Services,"$1,000",Richmond,VA,,,,"Accounting, reporting and consulting services",D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-11,Botetourt County Republican Committee,$500,Troutville,VA,,,,Donation,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-26,Ted McAllister,"$1,400",Fincastle,VA,,,,Band for event,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-07-12,Battlefield Consulting Inc.,$950,Rockwall,TX,,,,Fundraising fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-08-20,Battlefield Consulting Inc.,"$1,950",Rockwall,TX,,,,Consulting fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-26,Virginia Department of Alcoholic Beverage Control,$85,Mechanicsville,VA,,,,License for event,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-26,Postmaster,$9.85,Roanoke,VA,,,,Postage,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-21,Postmaster,$39.70,Roanoke,VA,,,,Postage,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-21,Staples,$112.65,Roanoke,VA,,,,Office supplies,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-08-31,WinRed,$46.49,Arlington,VA,,,,Credit card processing fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-30,WinRed,$58.31,Arlington,VA,,,,Credit card processing fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-31,WinRed,$3.94,Arlington,VA,,,,Credit card processing fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-12-31,WinRed,$0.99,Arlington,VA,,,,Credit card processing fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-07-12,Treasurer  of Virginia,$160,Richmond,VA,,,,Resolution framing,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-31,Republican Party of Virginia,"$4,000",Richmond,VA,,,,Donation,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-21,Virginia Senate Republican Caucus,"$14,000",Williamsburg,VA,,,,Donation,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-07-15,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-08-21,Bank of America,$5,Glen Allen,VA,,,,Banking services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-03,Bank of America,$5,Glen Allen,VA,,,,Banking services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-27,Bank of America,$7,Glen Allen,VA,,,,Banking services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-16,Bank of America,$5,Glen Allen,VA,,,,Banking services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-22,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-30,Bank of America,$2,Glen Allen,VA,,,,Banking services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-11-01,Bank of America,$5,Glen Allen,VA,,,,Banking services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-11-27,Bank of America,$2,Glen Allen,VA,,,,Banking services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-12-06,Bank of America,$15,Glen Allen,VA,,,,Monthly account fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-01,Cody Hanshaw,$500,Vinton,VA,,,,Campaign work,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-01,Cody Hanshaw,$500,Vinton,VA,,,,Campaign work,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-11-01,Cody Hanshaw,$500,Vinton,VA,,,,Campaign work,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-12-02,Cody Hanshaw,$500,Vinton,VA,,,,Campaign work,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-25,Hogback Mountain BBQ,"$2,034",Fairfield,VA,,,,Catering for event,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-26,Virginia Fire Chiefs Foundation,$150,Chesterfield,VA,,,,Sponsorship,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-26,Entre Computer Center,$150,Roanoke,VA,,,,Computer services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-26,Entre Computer Center,$150,Roanoke,VA,,,,Computer service,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-26,Mailchimp LLC,$100,Atlanta,GA,,,,Email services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-09-26,Mailchimp LLC,$35,Atlanta,GA,,,,Email services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-21,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-01,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-11-01,Orion Creative Media LLC,"$1,550",New Castle,VA,,,,Consulting fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-12-02,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website fees,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-11,Virginia Horse Center Foundation,$700,Lexington,VA,,,,Event expense,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-15,Coefficient Group LLC,$450.45,Kansas City,MO,,,,Event expense,D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2024-10-15,FP1 Strategies LLC,"$7,685",Arlington,VA,,,,"Printing, postage and mailing",D,430919,2024-07-01 to 2024-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-06-25,Altria Client Services Inc.,"$2,000",Richmond,VA,business,,Consumer products manufacturer,,A,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+contribution,2025-06-16,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Retailers,,A,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+contribution,2025-01-07,Apex Clean Energy Holdings LLC,$500,Charlottesville,VA,business,,Energy,,A,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+contribution,2025-05-05,Mr. W. Heywood Fralin,"$1,000",Roanoke,VA,individual,Retirement Unlimited,Executive,,A,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+contribution,2025-01-07,Virginia Digital Infrastructure PAC,"$2,000",Leesburg,VA,pac,,Technology,,A,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-12,JLK Strategies LLC,"$1,250.37",Richmond,VA,,,,"Website hosting, domain names, email",D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-04,Forest Consulting Services,$400,Richmond,VA,,,,"Accounting, reporting and consulting services",D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-21,Forest Consulting Services,$400,Richmond,VA,,,,"Accounting, reporting and consulting services",D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-09,Forest Consulting Services,$400,Richmond,VA,,,,"Accounting, reporting and consulting services",D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-31,WinRed,$1.97,Arlington,VA,,,,Credit card processing fees,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-04-30,WinRed,$0.99,Arlington,VA,,,,Credit card processing fees,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-05,WinRed,$1.97,Arlington,VA,,,,Credit card processing fees,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-22,Head 2 Head Inc.,$270,Roanoke,VA,,,,Expense reimbursement,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-01-27,Postmaster,$41.82,Roanoke,VA,,,,Postage,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-06-16,Postmaster,$420,Roanoke,VA,,,,Post office box renewal,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-02-03,Point1 LLC,"$1,875.29",Mount Pleasant,SC,,,,"Printing, postage and mailing",D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-02-21,Treasurer  of Virginia,$120,Richmond,VA,,,,Resolution framing,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-01-07,Virginia Senate Republican Caucus,"$3,000",Williamsburg,VA,,,,Donation,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-01-03,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-01-08,Bank of America,$15,Glen Allen,VA,,,,Monthly account fees,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-01-28,Bank of America,$6,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-02-04,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-02-07,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-02-11,Bank of America,$5,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-04,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-06,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-07,Bank of America,$15,Glen Allen,VA,,,,Monthly account fee,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-04-02,Bank of America,$11,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-04-07,Bank of America,$15,Glen Allen,VA,,,,Monthly account fee,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-02,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-07,Bank of America,$15,Glen Allen,VA,,,,Monthly account fee,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-21,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-22,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-06-03,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-06-06,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-01-02,Cody Hanshaw,$500,Vinton,VA,,,,Consulting,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-01-27,Mailchimp LLC,$270,Atlanta,GA,,,,Email services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-04-01,Mailchimp LLC,$270,Atlanta,GA,,,,Email services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-27,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-06-27,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-01-02,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expenses,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-02-03,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-03,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-04-01,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Digital Consulting,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-01,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Digital consulting,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-06-02,Orion Creative Media LLC,"$1,375",New Castle,VA,,,,Consulting fees,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-01-27,Carrie S. Sandoval,$463.40,Fredericksburg,VA,,,,Mileage and parking reimbursement,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-02-03,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-02-10,Carrie S. Sandoval,$662,Fredericksburg,VA,,,,Mileage and parking reimbursement,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-03,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-03-05,Carrie S. Sandoval,$463.40,Fredericksburg,VA,,,,Mileage and parking reimbursement,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-04-01,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-01,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-05-20,Carrie S. Sandoval,$133.76,Fredericksburg,VA,,,,Mileage and parking reimbursement,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-06-02,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting fees,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2025-04-11,Winsome for Governor,"$5,000",Richmond,VA,,,,Campaign contribution,D,447984,2025-01-01 to 2025-06-30,CC-22-00569,Friends of Chris Head
+contribution,2025-08-28,Amazon.com Services LLC,"$2,000",Seattle,WA,business,,Retailer,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-08-11,Virginia Hospital and Healthcare Association PAC,"$1,000",Henrico,VA,pac,,Hospitals,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-07-07,Anheuser Busch Companies Inc.,$500,Atlanta,GA,business,,Brewery,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-10,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-23,Pharmaceutical Research and Manufacturers of America (PhRMA),$500,Washington,DC,business,,Pharmaceuticals,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-23,Dominion Energy Inc. Political Action Committee Virginia,"$20,000",Richmond,VA,pac,,Electric utility,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-23,Metis Services Inc.,"$1,000",Roanoke,VA,business,,Insurance,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-08-25,Abbott Laboratories Employee Political Action Committee,$500,Abbott Park,IL,pac,,Pharmaceuticals,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-11-17,Cigna Group Employee PAC,$500,Philadelphia,PA,pac,,Insurance,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-22,Care Advantage Inc.,"$2,500",North Chesterfield,VA,business,,Personal care services,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-24,Williams Mullen Clark and Dobbins,"$1,000",Richmond,VA,business,,Law firm,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-29,Virginia Society of Anethesiologists PAC,"$1,500",Richmond,VA,pac,,Anesthesiologists,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-08-25,Ortho PAC The Virginia Orthopaedic Society,$250,Richmond,VA,pac,,Orthopaedics,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-07-30,Capital One Services LLC,"$1,000",REston,VA,business,,Banking,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-24,Ramona B. Hazera,$100,Lexington,VA,individual,Retired,Retired,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-08-25,Engineering Companies of Virginia PAC,"$1,000",Henrico,VA,pac,,Engineering,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-24,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Harbor pilots,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-22,Caesars Enterprise Services LLC,"$2,500",Las Vegas,NV,business,,Gaming,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-11-26,"Huntington Ingalls Industries, Inc.",$500,Newport News,VA,business,,Shipbuilding,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-10,Roanoke Gas PAC,"$1,000",Roanoke,VA,pac,,Energy,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-19,Virginia Wine Wholesalers Association,"$1,000",Richmond,VA,business,,Beverages,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-29,Phillip A. Short Jr.,"$1,000",Salem,VA,individual,PA Short Distributing,Executive,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-15,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,Distributing,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-10,Virginia Beer Wholesalers Association PAC,$750,Richmond,VA,pac,,Beverages,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-15,Virginia Beer Wholesalers Association PAC,$750,Richmond,VA,pac,,Beverages,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-29,Virginia Beer Wholesalers Association PAC,$750,Richmond,VA,pac,,Beverages,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-19,Acadia Healthcare Company Inc. FedPAC,$500,Franklin,TN,pac,,Healthcare,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-29,Vision Management Services,$500,Chicago,IL,business,,Strategy consulting,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-10,Eric Obaugh,$500,Staunton,VA,individual,Charlie Obaugh Auto Group,Auto Dealer,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-11-03,American Electric Power Committee for Responsible Government,"$2,500",Washington,DC,pac,,Federal political committee,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-24,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law firm,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-08-04,Gilead Sciences Inc.,"$1,000",Raleigh,NC,business,,Technology,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-07-03,Mr. J. Morton Biber,$250,Lexington,VA,individual,Retired,Retired,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-21,Betting on VA Jobs Political Action Committee,"$5,000",Richmond,VA,pac,,Casino,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-10,Boyd-Pamunkey Casino PAC,"$1,000",Norfolk,VA,pac,,Political Action Committee,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-21,PsychMD PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-07-21,Virginia Home Car & Hospice PAC,$260.95,Henrico,VA,pac,,Healthcare,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-19,Medical Facilities of America Administrative Consulting Services,"$5,000","Lakewood, NJ",NJ,business,,Health & Medicine,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-08-28,Relx Inc.,$500,Newton,MA,business,,Consumer products,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-15,Vantage Data Centers,$500,Santa Clara,CA,business,,Information technology,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-23,Vantage Data Centers,$500,Santa Clara,CA,business,,Information technology,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-10,Virginia Equine PAC,$500,Charlottesville,VA,pac,,Political committee,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-02,Mr. Greg Leffel,$250,Crozier,VA,individual,Self employed,Sales,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-24,Genworth Financial,"$1,000",Lynchburg,VA,business,,Investment,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-24,Amy Darby for City Council,$250,Staunton,VA,business,,Political Organization,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-21,Eldon James and Associates Inc.,$200,Richmond,VA,business,,Non-profit consulting,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-21,Mountain Valley Pipeline LLC,"$1,000",Canonsburg,PA,business,,Energy,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-10,Valley Distributing Corporation,$500,Salem,VA,business,,Beverage distributor,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-22,Virginia Dental Association PAC (VADPAC),"$2,000",Henrico,VA,pac,,Dentists,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-12-22,"Medical Society of Virginia PAC, The","$2,000",Henrico,VA,pac,,Physicians,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-08-11,Virginia Radiology PAC,$500,Richmond,VA,pac,,Radiologists,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-08-26,HCA for Good Government PAC,"$2,500",Richmond,VA,pac,,Healthcare,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-11-03,Verizon,$500,Washington,DC,business,,Telecommunications,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-21,Virginia Academy of PAs PAC,$250,Charlottesville,VA,pac,,Physician assistants,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-10-24,Delta Dental Plan of Virginia,$500,Roanoke,VA,business,,Dental insurance,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-09-19,Mrs. Sandra G. Chisholm,"$1,000",Boones Mill,VA,individual,Homemaker,Homemaker,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2025-08-26,Realtors Political Action Committee of Virginia,"$2,000",Glen Allen,VA,pac,,Realtors,,A,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-07-03,WinRed,$9.85,Arlington,VA,,,,Credit card processing fees,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-10,WinRed,$19.70,Arlington,VA,,,,Credit card processing fees,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-10-02,WinRed,$9.85,Arlington,VA,,,,Credit card processing fees,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-30,Botetourt County Republican Committee,$500,Troutville,VA,,,,Donation,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-12-31,WinRed,$5.91,Arlington,VA,,,,Credit card processing fees,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-12-10,Treasurer  of Virginia,$147,Richmond,VA,,,,Parking,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-22,Friends of Chris Obenshain,"$5,000",Blacksburg,VA,,,,Campaign contribution,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-29,Friends of Chris Obenshain,"$2,500",Blacksburg,VA,,,,Campaign contribution,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-07-29,Virginia Senate Republican Caucus,"$1,500",Williamsburg,VA,,,,Donation,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-07-02,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-07-08,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-08-04,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-08-07,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-03,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-08,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-23,Bank of America,$5,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-24,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-30,Bank of America,$5,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-10-02,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-10-07,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-04,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-07,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-21,Bank of America,$1,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-28,Bank of America,$2,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-12-05,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-07-28,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-08-27,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-23,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-10-27,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-26,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-12-26,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-07-01,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-08-01,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-02,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-10-01,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-03,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-26,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-07-01,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting fees,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-08-01,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting fees,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-02,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Campaign work,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-24,Carrie S. Sandoval,$70.56,Fredericksburg,VA,,,,Mileage reimbursement,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-10-01,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Campaign work,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-03,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Campaign work,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-20,Carrie S. Sandoval,$139.44,Fredericksburg,VA,,,,Mileage reimbursement,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-11-26,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting fees,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-09-29,Wilt for Delegate,"$2,500",Harrisonburg,VA,,,,Campaign contribution,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+expenditure,2025-12-23,Friends of John Thomas,"$2,500",Chesterfield,VA,,,,Campaign contribution,D,478919,2025-07-01 to 2025-12-31,CC-22-00569,Friends of Chris Head
+contribution,2026-06-12,Mr. John G. McLeod,"$1,000",Roanoke,VA,individual,McLeod Enterprises Inc.,Executive,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-06-18,Anheuser Busch Companies Inc.,$500,Atlanta,GA,business,,Brewery,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-09,Virginia Optometric Association PAC,$500,Henrico,VA,pac,,Optometrists,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-08,Dominion Energy Inc. Political Action Committee Virginia,"$30,000",Richmond,VA,pac,,Electric utility,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-06-30,Dominion Energy Inc. Political Action Committee Virginia,"$25,000",Richmond,VA,pac,,Electric utility,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,McGuireWoods LLP,"$1,000",Richmond,VA,business,,Law firm,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-09,Virginia Automobile and Truck Dealers PAC,"$2,500",Richmond,VA,pac,,Auto dealers,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-03-30,Associated General Contractors of Virginia Inc. PAC,$500,Glen Allen,VA,pac,,Construction,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-09,Commercial Development Political Action Committee,$500,Alexandria,VA,pac,,Housing,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Virginia Manufactured and Modular Housing Association PAC,$500,Richmond,VA,pac,,Housing,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Virginia Cable Telecommunications Association PAC (VCTA),"$1,000",Richmond,VA,pac,,Telecommunications,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,Law enforcement,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-06-26,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,Law enforcement,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Blue Ridge Beverage Co Inc,"$1,000",Salem,VA,business,,Beverages,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Virginia Beer Wholesalers Association PAC,$750,Richmond,VA,pac,,Beverages,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-05,Mr. Craig Stevens,$125,Warrenton,VA,individual,Retired,Retired,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,Agriculture,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Apex Clean Energy Holdings LLC,$250,Charlottesville,VA,business,,Energy,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-09,Virginia CRNAs Who Care About Healthcare PAC,$500,Forest Hill,MD,pac,,Certified registered nurse anesthetists,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-06-18,Virginia CRNAs Who Care About Healthcare PAC,$500,Forest Hill,MD,pac,,Certified registered nurse anesthetists,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-05-05,Virginia Operators for Skill,"$5,000",Richmond,VA,business,,Skilled gaming,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-09,Malcolm  (Mac) M. Doubles,$250,Troutville,VA,individual,Self employed,Attorney,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Organizing for VA Seniors,"$5,000",Fairfax,VA,pac,,Political action committee,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Ms. Jessica Ray,$200,Staunton,VA,individual,Carilion Clinic,CRNA,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-01-12,Virginia Charitable Gaming Association,$500,Richmond,VA,business,,Charitable gaming,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+contribution,2026-06-29,Jared Moon,$100,Lexington,VA,individual,Rockbridge County,Prosecutor,,A,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+in_kind,2026-01-12,Virginia Manufacturers Association PAC,$350,Richmond,VA,pac,,Manufacturing,Venue rental and catering,B,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-01-05,Roanoke County Republican Committee,$500,Roanoke,VA,,,,Donation,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-04-07,Roanoke County Republican Committee,$500,Roanoke,VA,,,,Donation,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-03-12,Forest Consulting Services,$500,Richmond,VA,,,,"Accounting, reporting and consulting services",D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-04-30,Forest Consulting Services,$500,Richmond,VA,,,,"Accounting, reporting and consulting services",D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-05-12,Forest Consulting Services,$52.85,Richmond,VA,,,,"Tax Forms preparation, distribution and e-filing",D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-16,Forest Consulting Services,$500,Richmond,VA,,,,"Accounting, reporting and consulting services",D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-01-12,WinRed,$14.78,Cheyenne,WY,,,,Credit card processing fees,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-05-31,WinRed,$6.90,Cheyenne,WY,,,,Credit card processing fees,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-30,WinRed,$11.82,Cheyenne,WY,,,,Credit card processing fees,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-01,Postmaster,$438,Roanoke,VA,,,,Post office box rental,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-03-24,Treasurer  of Virginia,$85.78,Richmond,VA,,,,Postage,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-01-05,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-01-08,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-02-03,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-02-06,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-02-24,Bank of America,$5,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-02-27,Bank of America,$2,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-03-06,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-03-31,Bank of America,$2,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-04-08,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-05-04,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-05-07,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-02,Bank of America,$10,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-08,Bank of America,$15,Glen Allen,VA,,,,Banking services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-01-26,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-02-26,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-03-26,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-04-27,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-05-27,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-26,Mailchimp LLC,$135,Atlanta,GA,,,,Email services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-01-02,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-02-02,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-03-02,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-04-01,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website services,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-05-01,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-01,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Website expense,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-30,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Consulting fees,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-01-02,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Campaign work,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-02-02,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Campaign work,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-03-02,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Campaign work,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-04-01,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Campaign work,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-05-01,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting fees,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-01,Carrie S. Sandoval,$500,Fredericksburg,VA,,,,Consulting fees,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head
+expenditure,2026-06-30,Carrie S. Sandoval,$73.92,Fredericksburg,VA,,,,Mileage reimbursement,D,495443,2026-01-01 to 2026-06-30,CC-22-00569,Friends of Chris Head

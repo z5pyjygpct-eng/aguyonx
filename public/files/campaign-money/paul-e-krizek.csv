@@ -3,6 +3,292 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$102,442.69",,VA,,"From official Schedule H, November 2025 election cycle",H,496961,2026-07-15
 summary,2026-06-30,Raised this cycle,"$89,932.44",,,,Total receipts this election cycle (Schedule H),H,496961,2026-07-15
 summary,2026-06-30,Spent this cycle,"$100,343.85",,,,Total disbursements this election cycle (Schedule H),H,496961,2026-07-15
+contribution,2025-03-20,Mr. Tim Aiken,$75,Arlington,VA,individual,,A,436668,2025-04-15
+contribution,2025-01-02,John Alahouzos,$103.75,Washington,DC,individual,,A,436668,2025-04-15
+contribution,2025-03-07,"American Federation of State, County and Municipal Employees","$6,500",Washington,DC,business,,A,436668,2025-04-15
+contribution,2025-03-10,American Gaming Association,"$2,500",Washington,DC,business,,A,436668,2025-04-15
+contribution,2025-02-24,Peter H. Appel,$250,Arlington,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-22,Peter H. Appel,$250,Arlington,VA,individual,,A,436668,2025-04-15
+contribution,2025-01-06,"Arrow International, Inc.","$1,000",Cleveland,OH,business,,A,436668,2025-04-15
+contribution,2025-03-29,"AT&T Services, Inc.",$750,Bedminster,NJ,business,,A,436668,2025-04-15
+contribution,2025-03-22,Judith B Bailey,$150,Henrico,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-02,Michele Bartoli Cain,$103.75,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-25,Mr. Michael Bennett,"$5,000",Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-02-25,Bradley Beychok,"$1,035.25",Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-04,James Bierman,$500,Mclean,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-27,Nancy Bleeker,$500,Mclean,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-01,Ronald Brandt,$155.50,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-19,Mr. Michael B. Burke Kirby,"$5,000",Washington,DC,individual,,A,436668,2025-04-15
+contribution,2025-03-07,Caesars Enterprise Services LLC,"$10,000",Las Vegas,NV,business,,A,436668,2025-04-15
+contribution,2025-03-31,Mr. Joseph F. Canny,$500,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-28,Mr. Jeffrey Carver,$200,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,sheila coates,$100,Herndon,VA,individual,,A,436668,2025-04-15
+contribution,2025-01-06,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,A,436668,2025-04-15
+contribution,2025-03-09,Ms. Queenie Cox,$100,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,Ms. Queenie Cox,$100,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-26,Mr. Stephen J. Csontos,$250,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-21,Chip Dicks,$250,Richmond,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-06,Energized for Change,"$2,500",Washington,DC,pac,,A,436668,2025-04-15
+contribution,2025-02-24,John Farrell,$250,Reston,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-29,Mr. & Mrs. Eleanor & Tom Fina,$250,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-18,"Freedom Virginia, Inc","$2,500",Arlington,VA,business,,A,436668,2025-04-15
+contribution,2025-03-31,Eileen Friedman,$100,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-24,Paul Friedman,$250,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-28,Alfred Giambone,$103.75,Dumfries,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-24,Ms. Barbara Godwin,$100,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-02-24,Susan Harris,$207.25,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-01-07,Heavy Construction Contractors Association HCCA PAC Account,$500,Manassas,VA,pac,,A,436668,2025-04-15
+contribution,2025-03-24,Mr. James Hellwege,$250,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-27,Mike Henry Mr.,$250,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-02-23,Loren Hershey,$191.73,Oakton,VA,individual,,A,436668,2025-04-15
+contribution,2025-02-24,David Jones,$517.75,Washington,DC,individual,,A,436668,2025-04-15
+contribution,2025-01-06,Ms. Jo Ellen Joseph,$100,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-01,Rick Joyce,"$1,035.25",Mount Vernon,VA,individual,,A,436668,2025-04-15
+contribution,2025-01-07,Jushi Inc,"$2,500",Boca Raton,FL,business,,A,436668,2025-04-15
+contribution,2025-02-23,Anne Leigh Kerr,$500,Richmond,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-19,Charles L Kinney,$250,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-19,Ms. Susan Kuhbach,$100,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-02-22,Ms. Jessica J. Lahr,$52,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-01,Ms. Jessica J. Lahr,$52,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-29,Ms. Suchada Langley,$103.75,Vienna,VA,individual,,A,436668,2025-04-15
+contribution,2025-02-22,Judith Lean,$103.75,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-01,Mary B Massie,$103.75,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-02-25,Mr. David D. Mcnally,$259,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-09,Robert R Meier,$103.75,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,Anne Metcalf,$150,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,MGM Resorts International,"$2,500",Las Vegas,NV,business,,A,436668,2025-04-15
+contribution,2025-01-07,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,436668,2025-04-15
+contribution,2025-03-31,Ms. Catherine Morosoff,$100,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,Lisa Mountcastle,$500,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-01-05,Ms. Kathleen Mullen,$52,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-03,Ms. Seileen M. Mullen,$517.75,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-08,Nancy Nghiem,"$1,000",Reston,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-17,Mr. & Mrs. George & Laura Omohundro,$150,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-25,Andrew Pavord,$150,Fairfax,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-03,Principle Advantage Government Relations Group LLC,"$1,000",Virginia Beach,VA,business,,A,436668,2025-04-15
+contribution,2025-03-13,Paul Reagan,$259,Springfield,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-21,Capital Results,$500,Richmond,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-18,Ms. Gail Richmond,$150,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,Ms. Judith Rosen,$250,Saint Louis,MO,individual,,A,436668,2025-04-15
+contribution,2025-03-19,Mr. Dean F. Rust,$500,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,Dr. Harvey Schwartz,$25,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-24,Mr. Robert H. Smith Mr.,$200,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-26,Ms. Kate Spears,$250,Springfield,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,Steamfitters Local Union No. 602,"$2,000",Capitol Heights,MD,business,,A,436668,2025-04-15
+contribution,2025-03-19,Robert J. Surovell,$250,Fairfax,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,Mr. David L. Temple,$100,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-31,Ms. Adriana van Breda,$50,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-01-07,Virginia Hospital and Healthcare Association Political Action Committee,$500,Alexandria,VA,pac,,A,436668,2025-04-15
+contribution,2025-03-31,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,A,436668,2025-04-15
+contribution,2025-03-27,Gerry Waldron,$250,Great Falls,VA,individual,,A,436668,2025-04-15
+contribution,2025-02-24,Walmart,"$1,000",Burke,VA,business,,A,436668,2025-04-15
+contribution,2025-02-27,Washington Gas Light Company PAC,"$1,000",Springfield,VA,pac,,A,436668,2025-04-15
+contribution,2025-03-01,Bonnie Wilkins Wilkins,$103.75,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-03-17,Ms. Sarah Zapolsky,$103.75,Alexandria,VA,individual,,A,436668,2025-04-15
+contribution,2025-04-08,Walter Alcorn,$500,Reston,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-21,"Altria Client Services, LLC","$2,500",Richmond,VA,business,,A,442375,2025-06-09
+contribution,2025-04-25,"Arrow International, Inc.","$5,000",Cleveland,OH,business,,A,442375,2025-06-09
+contribution,2025-05-01,Ms. Beverly Bacon,$100,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-08,Bradley Beychok,$500,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-08,andrew bloom,$150,Mclean,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-24,"Blue Ridge Beverage Co., Inc","$1,500",Salem,VA,business,,A,442375,2025-06-09
+contribution,2025-06-04,Glenda C. Booth,$200,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-10,Dr. George F Brown,$200,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-02,Mr. Joseph F. Canny,$250,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-06-04,Ms. Doris N. Celarier,$250,Washington,DC,individual,,A,442375,2025-06-09
+contribution,2025-04-23,Clean Virginia,"$1,000",Charlottesville,VA,pac,,A,442375,2025-06-09
+contribution,2025-04-23,Clean Virginia,"$5,000",Charlottesville,VA,pac,,A,442375,2025-06-09
+contribution,2025-05-10,Sheila Coates,$250,Herndon,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-10,Hon. Karen Corbett Sanders,$250,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-14,Hon. Karen Corbett Sanders,$100,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-11,Patricia K Devoe,$500,Rockville,MD,individual,,A,442375,2025-06-09
+contribution,2025-05-08,Dr. Glenn B Fatzinger,$50,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-05,Mr. Scott Fireison,$500,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-06-04,Fluor Corporation,"$1,000",Aliso Viejo,CA,business,,A,442375,2025-06-09
+contribution,2025-04-04,Kristina Groennings,$500,Mc Lean,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-23,John Hannum,$103.75,Delaplane,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-08,HCA for Good Government PAC,"$1,500",Richmond,VA,pac,,A,442375,2025-06-09
+contribution,2025-04-29,Ms. Virginia A. Hodgkinson,$200,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-18,Anne holloway,$103.75,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-10,Huntington Ingalls Industries,"$1,500",Newport News,VA,business,,A,442375,2025-06-09
+contribution,2025-04-19,Ms. Christiane G Hyland,$250,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-24,Johnson Brothers Service Distributing,"$2,500",Lorton,VA,business,,A,442375,2025-06-09
+contribution,2025-05-10,Janice Kuch,$100,Springfield,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-05,Babur Lateef,$250,Manassas,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-24,Lawrence Distributing Co.,"$1,000",Danville,VA,business,,A,442375,2025-06-09
+contribution,2025-04-02,Mira Marshall,$103.75,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-08,Paula Martino,$250,Mclean,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-10,Ms. Deborah G. Matthews,$200,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-16,McGuire Woods State PAC Fund,$250,Richmond,VA,pac,,A,442375,2025-06-09
+contribution,2025-04-09,Anne Metcalf,$50,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-10,Anne Metcalf,$100,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-14,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,A,442375,2025-06-09
+contribution,2025-06-05,Peter Morosoff,$250,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-06,Radhika Murari,$250,Reston,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-07,Liz Murphy,$50,Springfield,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-10,Elizabeth Myers,$100,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-29,Clarke Ohrstrom,$500,The Plains,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-11,David Perdue,$250,Somerset,VA,individual,,A,442375,2025-06-09
+contribution,2025-06-03,Frank Petramalo,$250,Leesburg,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-14,Plumbers & Gasfitters Union Local #5,"$1,000",Camp Springs,MD,business,,A,442375,2025-06-09
+contribution,2025-04-10,Mr. Jayant Reddy,$250,Falls Church,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-09,Redfern Market LLC Operating Account,$250,Ruther Glen,VA,business,,A,442375,2025-06-09
+contribution,2025-04-07,"Republic National Distributing Company, LLC","$3,000",Atlanta,GA,business,,A,442375,2025-06-09
+contribution,2025-05-27,Althea Richards,$103.75,Millwood,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-20,Rodman Strategies LLC,$200,Henrico,VA,business,,A,442375,2025-06-09
+contribution,2025-05-15,Ms. Jane S. Rogich,$100,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-10,Mr. James F Seeley,$100,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-10,Seven Hills Strategy Group LLC,$500,Richmond,VA,business,,A,442375,2025-06-09
+contribution,2025-05-10,Sickles for Delegate,$250,Franconia,VA,candidate,,A,442375,2025-06-09
+contribution,2025-05-09,Ms. Ann Smolinski,"$1,000",Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-11,Robert J. Surovell,$250,Fairfax,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-09,The Hemp Farms of Virginia LLC,$250,Ruther Glen,VA,business,,A,442375,2025-06-09
+contribution,2025-05-11,Patricia Toner,$50,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-04,Ms. Adriana van Breda,$25,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-20,Virginia Automobile & Truck Dealers Political Action Committee,"$1,000",Richmond,VA,pac,,A,442375,2025-06-09
+contribution,2025-06-04,Virginia Charitable Gaming Association,"$1,000",Richmond,VA,business,,A,442375,2025-06-09
+contribution,2025-04-25,Virginia Health Care Association,"$2,000",Richmond,VA,pac,,A,442375,2025-06-09
+contribution,2025-04-24,Virginia Imports LTD.,"$2,500",Springfield,VA,business,,A,442375,2025-06-09
+contribution,2025-05-08,Virginia Land Title Association PAC,"$1,000",Centreville,VA,pac,,A,442375,2025-06-09
+contribution,2025-05-15,Virginia Sheriffs' Association,$500,Richmond,VA,business,,A,442375,2025-06-09
+contribution,2025-05-20,Virginia Spirits Association,"$1,000",Moseley,VA,business,,A,442375,2025-06-09
+contribution,2025-04-24,Virginia Wine Wholesalers Political Action Committee,"$16,000",Springfield,VA,pac,,A,442375,2025-06-09
+contribution,2025-05-21,Amanda Wallingford,$103.75,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-04-10,William Walters,$500,Mc Lean,VA,individual,,A,442375,2025-06-09
+contribution,2025-06-04,Waste Management,"$2,000",Houston,TX,business,,A,442375,2025-06-09
+contribution,2025-04-01,Margaret A Williams,$75,Kingstowne,VA,individual,,A,442375,2025-06-09
+contribution,2025-05-10,Mr. & Mrs. Joanne Yates,$200,Alexandria,VA,individual,,A,442375,2025-06-09
+contribution,2025-06-09,"All Points Broadband Partners, LLC","$1,000",Richmond,VA,business,,A,448892,2025-07-15
+contribution,2025-06-11,Anne Mudge Backer,"$1,000",The Plains,VA,individual,,A,448892,2025-07-15
+contribution,2025-06-11,Robert F Bonnie,"$1,000",Middleburg,VA,individual,,A,448892,2025-07-15
+contribution,2025-06-16,Sean Clancy,$259,Middleburg,VA,individual,,A,448892,2025-07-15
+contribution,2025-06-07,Comcast Corporation,$500,Philadelphia,PA,business,,A,448892,2025-07-15
+contribution,2025-06-11,"Cooney Racing Stables, LLC",$250,Delaplane,VA,business,,A,448892,2025-07-15
+contribution,2025-06-16,Diageo North America,"$1,500",Washington,DC,business,,A,448892,2025-07-15
+contribution,2025-06-20,East Coast Collective,"$1,500",Manassas,VA,business,,A,448892,2025-07-15
+contribution,2025-06-11,Debbie Easter,$250,Charlottesville,VA,individual,,A,448892,2025-07-15
+contribution,2025-06-11,Julie Gomena,$200,Middleburg,VA,individual,,A,448892,2025-07-15
+contribution,2025-06-24,Hunton Andrews Kurth,"$1,000",Richmond,VA,business,,A,448892,2025-07-15
+contribution,2025-06-28,Jushi Inc,"$1,500",Boca Raton,FL,business,,A,448892,2025-07-15
+contribution,2025-06-10,Jeffrey and Sondra LeHew,$517.75,Front Royal,VA,individual,,A,448892,2025-07-15
+contribution,2025-06-11,Diane Russell,$500,The Plains,VA,individual,,A,448892,2025-07-15
+contribution,2025-06-28,Sports Betting Alliance,"$25,000",Lubbock,TX,business,,A,448892,2025-07-15
+contribution,2025-06-28,Transurban,$500,Tysons,VA,business,,A,448892,2025-07-15
+contribution,2025-06-09,Virginia Cable Telecommunications Association Political Action Committee,"$1,000",Richmond,VA,pac,,A,448892,2025-07-15
+contribution,2025-06-28,Virginia Educators Association,$250,Richmond,VA,business,,A,448892,2025-07-15
+contribution,2025-06-07,Virginia Professional Firefighters Political Action Committee,"$1,000",Richmond,VA,pac,,A,448892,2025-07-15
+contribution,2025-06-09,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,448892,2025-07-15
+contribution,2025-06-11,Scott D Woogen,"$1,000",North Chesterfield,VA,individual,,A,448892,2025-07-15
+contribution,2025-08-11,Abbott Laboratories Employee Political Action Committee,$250,Abbott Park,IL,pac,,A,454595,2025-09-15
+contribution,2025-08-22,Amazon,"$1,500",Seattle,WA,business,,A,454595,2025-09-15
+contribution,2025-07-03,Anheuser-Busch,"$1,500",Marietta,GA,business,,A,454595,2025-09-15
+contribution,2025-07-27,Boyd-Pamunkey Casino Political Action Committee,"$15,000",Norfolk,VA,pac,,A,454595,2025-09-15
+contribution,2025-08-19,Care Advantage Inc.,"$2,000",North Chesterfield,VA,business,,A,454595,2025-09-15
+contribution,2025-08-22,CareFirst BlueCross BlueShield,$500,Washington,DC,business,,A,454595,2025-09-15
+contribution,2025-08-20,Clean Virginia,"$5,000",Charlottesville,VA,pac,,A,454595,2025-09-15
+contribution,2025-07-17,Mr. James T. Currie,$500,Alexandria,VA,individual,,A,454595,2025-09-15
+contribution,2025-07-05,"DARRS, INC.",$500,Vienna,VA,business,,A,454595,2025-09-15
+contribution,2025-08-17,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,A,454595,2025-09-15
+contribution,2025-08-04,Elizabeth Ferrara,$103.75,Alexandria,VA,individual,,A,454595,2025-09-15
+contribution,2025-07-13,Greater Virginia Carpenters PEC,"$5,000",Ashland,VA,business,,A,454595,2025-09-15
+contribution,2025-07-19,Mr. Douglas S. Katzer,$103.75,Alexandria,VA,individual,,A,454595,2025-09-15
+contribution,2025-08-26,Claire Kluskens,$110,Alexandria,VA,individual,,A,454595,2025-09-15
+contribution,2025-07-31,Maritime Issues Council,"$1,500",Norfolk,VA,business,,A,454595,2025-09-15
+contribution,2025-07-05,Maxim Healthcare Services,$250,Columbia,MD,business,,A,454595,2025-09-15
+contribution,2025-07-05,Dr. Robert H. Miller,$200,Alexandria,VA,individual,,A,454595,2025-09-15
+contribution,2025-07-05,Beale Payne,$250,Charlottesville,VA,individual,,A,454595,2025-09-15
+contribution,2025-07-21,William Pettit,$103.75,Mclean,VA,individual,,A,454595,2025-09-15
+contribution,2025-07-12,Ms. Gail Richmond,$103.75,Alexandria,VA,individual,,A,454595,2025-09-15
+contribution,2025-08-11,Ms. Gail Richmond,$200,Alexandria,VA,individual,,A,454595,2025-09-15
+contribution,2025-08-22,"SidePrize, LLC DBA PrizePicks Operating Account","$2,500",Atlanta,GA,business,,A,454595,2025-09-15
+contribution,2025-08-30,Mr. & Mrs. Howard Soroos,$103.75,Alexandria,VA,individual,,A,454595,2025-09-15
+contribution,2025-08-02,Textron,$750,Providence,RI,business,,A,454595,2025-09-15
+contribution,2025-08-11,The Pharmaceutical Research and Manufacturers of America,"$1,000",Washington,DC,business,,A,454595,2025-09-15
+contribution,2025-08-28,The Virginia Society of the American Institute of Architects,$500,Chesterfield,VA,business,,A,454595,2025-09-15
+contribution,2025-08-18,UpVote PAC,"$1,000",Chesterfield,VA,pac,,A,454595,2025-09-15
+contribution,2025-08-22,Virginia Association of Realtors Political Action Committee,"$1,500",Glen Allen,VA,pac,,A,454595,2025-09-15
+contribution,2025-08-19,Virginia Beverage Association Political Action Committee,"$1,500",Richmond,VA,pac,,A,454595,2025-09-15
+contribution,2025-08-19,Virginia Dental Association,"$1,500",Richmond,VA,business,,A,454595,2025-09-15
+contribution,2025-07-05,Virginia Equine Political Action Committee,"$8,100",Charlottesville,VA,pac,,A,454595,2025-09-15
+contribution,2025-08-26,Williams Mullen,"$1,000",Richmond,VA,business,,A,454595,2025-09-15
+contribution,2025-09-22,"Associated Distributors, LLC","$3,500",Sandston,VA,business,,A,460853,2025-10-15
+contribution,2025-09-12,Associated General Contractors of Virginia Inc Political Action Committee,$500,Glen Allen,VA,pac,,A,460853,2025-10-15
+contribution,2025-09-23,Ms. Beverly Bacon,$517.75,Alexandria,VA,individual,,A,460853,2025-10-15
+contribution,2025-09-28,Betting on VA Jobs,"$20,000",Richmond,VA,business,,A,460853,2025-10-15
+contribution,2025-09-12,BusPatrol America LLC,"$1,000",Lorton,VA,business,,A,460853,2025-10-15
+contribution,2025-09-23,Marta Calderon,$103.75,Alexandria,VA,individual,,A,460853,2025-10-15
+contribution,2025-09-30,CC Procurement LLC,$750,Chelmsford,MA,business,,A,460853,2025-10-15
+contribution,2025-09-26,Community Associations Institute Virginia PAC,"$1,000",Falls Church,VA,pac,,A,460853,2025-10-15
+contribution,2025-09-22,Cozen O'Connor,$750,Philadelphia,PA,business,,A,460853,2025-10-15
+contribution,2025-09-30,CP&O Virginia PAC,"$2,500",Norfolk,VA,pac,,A,460853,2025-10-15
+contribution,2025-09-04,Fairfax County Democratic Committee,"$1,400",Fairfax,VA,party,,A,460853,2025-10-15
+contribution,2025-09-07,Dr. Glenn B Fatzinger,$50,Alexandria,VA,individual,,A,460853,2025-10-15
+contribution,2025-09-04,Elizabeth Ferrara,$103.75,Alexandria,VA,individual,,A,460853,2025-10-15
+contribution,2025-09-11,Home Builders Association of Virginia Build-PAC,"$2,000",Richmond,VA,pac,,A,460853,2025-10-15
+contribution,2025-09-02,Ms. Lexalynn Hooper,$500,Alexandria,VA,individual,,A,460853,2025-10-15
+contribution,2025-09-20,Hunton Andrews Kurth,"$1,500",Richmond,VA,business,,A,460853,2025-10-15
+contribution,2025-09-22,J & J Ventures Gaming LLC,"$5,000",Effingham,IL,business,,A,460853,2025-10-15
+contribution,2025-09-20,John R Koza,$500,Los Altos,CA,individual,,A,460853,2025-10-15
+contribution,2025-09-05,Judith Lean,$103.75,Alexandria,VA,individual,,A,460853,2025-10-15
+contribution,2025-09-11,RAI Services Company,$500,Winston Salem,NC,business,,A,460853,2025-10-15
+contribution,2025-09-06,Mr. Thomas Rosania,$103.75,Alexandria,VA,individual,,A,460853,2025-10-15
+contribution,2025-09-13,Dr. Harvey Schwartz,$52,Alexandria,VA,individual,,A,460853,2025-10-15
+contribution,2025-09-24,Seven Hills Strategy Group LLC,$750,Richmond,VA,business,,A,460853,2025-10-15
+contribution,2025-09-22,Sports Betting Alliance,"$50,000",Lubbock,TX,business,,A,460853,2025-10-15
+contribution,2025-09-24,Surovell for State Senate,"$1,000",Mount Vernon,VA,candidate,,A,460853,2025-10-15
+contribution,2025-09-07,Mark Tenney,$103.75,Monument,CO,individual,,A,460853,2025-10-15
+contribution,2025-09-03,United Airlines,$500,Houston,TX,business,,A,460853,2025-10-15
+contribution,2025-09-24,VA Society of Anesthesiologists PAC,"$1,000",Richmond,VA,pac,,A,460853,2025-10-15
+contribution,2025-09-24,Virginia Association of Health Plans PAC,$500,Richmond,VA,pac,,A,460853,2025-10-15
+contribution,2025-09-17,Mr. William W. Vodra,"$1,035.25",Alexandria,VA,individual,,A,460853,2025-10-15
+contribution,2025-10-06,CC Procurement LLC,"$2,500",Chelmsford,MA,business,,A,466163,2025-10-27
+contribution,2025-10-22,Cintra US Services LLC,"$5,000",Austin,TX,business,,A,466163,2025-10-27
+contribution,2025-10-08,SEIU COPE,"$2,500",Washington,DC,individual,,A,466163,2025-10-27
+contribution,2025-10-08,CWA-Committee on Political Education Contributions Committee,"$2,000",Washington,DC,business,,A,466163,2025-10-27
+contribution,2025-10-11,Delta Dental of Virginia,$250,Roanoke,VA,business,,A,466163,2025-10-27
+contribution,2025-10-06,"Dharma Pharmaceuticals, LLC","$5,000",Abingdon,VA,business,,A,466163,2025-10-27
+contribution,2025-10-22,Employees of RTX Corporation PAC,$500,Arlington,VA,pac,,A,466163,2025-10-27
+contribution,2025-10-14,judith engelberg,$103.75,Chevy Chase,MD,individual,,A,466163,2025-10-27
+contribution,2025-10-08,Dr. Glenn B Fatzinger,$100,Alexandria,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-04,Elizabeth Ferrara,$103.75,Alexandria,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-16,Wilfred Grandison,$300,Mclean,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-18,Ms. Larrene Harada,"$1,000",Alexandria,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-07,Jason Hoyle,"$1,000",Salem,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-14,Ms. Jo Ellen Joseph,$100,Alexandria,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-08,Charles L Kinney,$150,Alexandria,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-08,Elaine Kolish,$103.75,Alexandria,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-08,Peter Morosoff,"$1,000",Alexandria,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-14,Old Dominion Highway Contractors Association,$500,Troy,VA,pac,,A,466163,2025-10-27
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$15,000",Portsmouth,VA,business,,A,466163,2025-10-27
+contribution,2025-10-14,E Scott Royce,$200,Arlington,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-08,Robert J. Surovell,$250,Fairfax,VA,individual,,A,466163,2025-10-27
+contribution,2025-10-18,Verano Holdings LLC,"$2,500",Chicago,IL,business,,A,466163,2025-10-27
+contribution,2025-10-11,Virginia American Federation of Labor and Congress of Industrial Organizations,"$1,000",Richmond,VA,business,,A,466163,2025-10-27
+contribution,2025-10-06,Virginia Chapter Sierra Club PAC,$250,Richmond,VA,pac,,A,466163,2025-10-27
+contribution,2025-10-04,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,466163,2025-10-27
+contribution,2025-10-16,Walmart,"$1,000",Burke,VA,business,,A,466163,2025-10-27
+contribution,2025-10-06,Marion Werkheiser,"$1,035.25",Richmond,VA,individual,,A,466163,2025-10-27
+contribution,2025-11-04,Elizabeth Ferrara,$103.75,Alexandria,VA,individual,,A,472802,2025-12-04
+contribution,2025-10-28,Ms. Nancy Glynn,$52,Alexandria,VA,individual,,A,472802,2025-12-04
+contribution,2025-11-04,Ronald Johnson,$517.75,Alexandria,VA,individual,,A,472802,2025-12-04
+contribution,2025-10-31,David Jones,$517.75,Washington,DC,individual,,A,472802,2025-12-04
+contribution,2025-10-30,McGuire Woods State PAC Fund,$250,Richmond,VA,pac,,A,472802,2025-12-04
+contribution,2025-11-04,"Micron Technology, Inc.","$1,000",Boise,ID,business,,A,472802,2025-12-04
+contribution,2025-11-10,Mid-Atlantic Laborers Political Education Fund (MALPEF),"$3,500",Reston,VA,pac,,A,472802,2025-12-04
+contribution,2025-11-19,Molson Coors,$500,Milwaukee,WI,business,,A,472802,2025-12-04
+contribution,2025-11-15,"Premium Distributors of VA, LLC","$3,000",Chantilly,VA,business,,A,472802,2025-12-04
+contribution,2025-11-03,"Sentara Health Administration, Inc.",$500,Virginia Beach,VA,business,,A,472802,2025-12-04
+contribution,2025-10-30,Troutman Pepper Locke LLP,"$2,500",Atlanta,GA,business,,A,472802,2025-12-04
+contribution,2025-10-27,Verizon,"$1,000",Washington,DC,business,,A,472802,2025-12-04
+contribution,2025-11-14,"Virginia Asphalt Association Political Action Committee, Inc.","$1,000",Henrico,VA,pac,,A,472802,2025-12-04
+contribution,2025-11-17,Virginia Beer Wholesalers Association Political Action Committee,"$10,000",Richmond,VA,pac,,A,472802,2025-12-04
+contribution,2025-11-03,Virginia Future PAC,$250,Richmond,VA,pac,,A,472802,2025-12-04
+contribution,2025-11-03,Alex Vogel,"$1,035.25",Washington,DC,individual,,A,472802,2025-12-04
+contribution,2025-10-30,Washington Gas Light Company PAC,$500,Springfield,VA,pac,,A,472802,2025-12-04
+contribution,2025-11-04,Carlos Del Toro,$103.75,Alexandria,VA,individual,,A,472802,2025-12-04
+contribution,2025-10-29,Mr. Thomas R. Devine,$250,Alexandria,VA,individual,,A,472802,2025-12-04
+contribution,2025-10-30,"Elevance Health, Inc",$500,Cincinnati,OH,business,,A,472802,2025-12-04
+contribution,2025-10-24,"Enterprise Holdings, Inc.","$1,000",Saint Louis,MO,business,,A,472802,2025-12-04
 contribution,2025-12-15,Dr. George F Brown,$207.25,Alexandria,VA,individual,,A,479834,2026-01-15
 contribution,2025-12-29,Commissioner of Revenue,$250,Newport News,VA,pac,,A,479834,2026-01-15
 contribution,2025-12-04,Elizabeth Ferrara,$103.75,Alexandria,VA,individual,,A,479834,2026-01-15
@@ -70,7 +356,195 @@ contribution,2026-01-08,Virginia Preservation PAC,"$1,000",Richmond,VA,pac,,A,49
 contribution,2026-03-31,Ms. Maria J. Vorel,$100,Alexandria,VA,individual,,A,496961,2026-07-15
 contribution,2026-03-31,Ms. Maria J. Vorel,$100,Alexandria,VA,individual,,A,496961,2026-07-15
 contribution,2026-06-29,Waste Management,"$2,000",Houston,TX,business,,A,496961,2026-07-15
+in_kind,2025-02-24,Virginia House Democratic Caucus,"$1,762.50",Richmond,VA,party,Campaign manager salary benefits and taxes,B,436668,2025-04-15
+in_kind,2025-03-01,Virginia House Democratic Caucus,"$7,673.50",Richmond,VA,party,Campaign manager salary benefits and taxes,B,436668,2025-04-15
+in_kind,2025-05-20,VA Credit Union League,$179.14,Richmond,VA,business,Richmond Fundraiser,B,442375,2025-06-09
+in_kind,2025-06-11,Virginia Equine Political Action Committee,"$4,006.73",Charlottesville,VA,pac,Middleburg Fundraiser catering and event space,B,448892,2025-07-15
+in_kind,2025-08-19,Virginia Beer Wholesalers Association Political Action Committee,"$1,827.02",Richmond,VA,pac,Richmond Dinner Fundraiser,B,454595,2025-09-15
+in_kind,2025-08-19,Virginia Beer Wholesalers Association Political Action Committee,$314.03,Richmond,VA,pac,Richmond Dinner Fundraiser,B,454595,2025-09-15
+in_kind,2025-09-11,Kemper Consulting,$155.75,Richmond,VA,business,Richmond Fundraiser,B,460853,2025-10-15
 in_kind,2026-06-05,Virginia Wine Wholesalers Political Action Committee,$782.60,Springfield,VA,pac,Reimbursement for Mother's Day Tea Fundraiser Beverages,B,496961,2026-07-15
+other_receipt,2025-04-25,Fairfax County Treasurer,$352.80,Fairfax,VA,business,Primary Filing Fee Reimbursement,C,442375,2025-06-09
+expenditure,2025-01-02,Amazon,$137.74,Seattle,WA,business,Office Supplies,D,436668,2025-04-15
+expenditure,2025-01-02,"Google, Inc.",$57.82,Mountain View,CA,business,Google Admin Suite,D,436668,2025-04-15
+expenditure,2025-01-02,Sage Payment Solutions,$68.86,Reston,VA,business,Merchant Fees Bankcard,D,436668,2025-04-15
+expenditure,2025-01-09,Washington Post,$40,Washington,DC,business,Newspaper Subscription,D,436668,2025-04-15
+expenditure,2025-01-13,Amazon,$77.35,Seattle,WA,business,Office Supplies,D,436668,2025-04-15
+expenditure,2025-01-17,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,436668,2025-04-15
+expenditure,2025-01-21,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,436668,2025-04-15
+expenditure,2025-01-21,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,436668,2025-04-15
+expenditure,2025-01-23,Canva,$12.99,San Jose,CA,business,Graphic Design Subscription,D,436668,2025-04-15
+expenditure,2025-01-24,Richmond Times-Dispatch,$34.99,Mechanicsville,VA,business,Newspaper Subscription,D,436668,2025-04-15
+expenditure,2025-01-31,TaxBandits,$14.25,Rock Hill,SC,business,Campaign Tax Form Preparation,D,436668,2025-04-15
+expenditure,2025-02-03,"Google, Inc.",$57.60,Mountain View,CA,business,Google Admin Suite,D,436668,2025-04-15
+expenditure,2025-02-03,Sage Payment Solutions,$60.41,Reston,VA,business,Merchant Fees Bankcard,D,436668,2025-04-15
+expenditure,2025-02-06,Samuel Berman,"$1,500",Richmond,VA,individual,Consulting,D,436668,2025-04-15
+expenditure,2025-02-06,"NGP VAN, Inc.",$750,Washington,DC,business,Database & Voter File,D,436668,2025-04-15
+expenditure,2025-02-06,Maria Salgado,"$3,000",Roanoke,VA,individual,Treasurer & Campaign Work,D,436668,2025-04-15
+expenditure,2025-02-11,Jaime Wise,"$3,000",Alexandria,VA,individual,Session Aide,D,436668,2025-04-15
+expenditure,2025-02-17,Fairfax County Democratic Committee,"$2,000",Fairfax,VA,business,Mt. Vernon Democrats Mardi Gras sponsorship,D,436668,2025-04-15
+expenditure,2025-02-18,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,436668,2025-04-15
+expenditure,2025-02-20,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,436668,2025-04-15
+expenditure,2025-02-20,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,436668,2025-04-15
+expenditure,2025-02-21,Native Plate,$183.69,Richmond,VA,business,End of Session Staff Dinner,D,436668,2025-04-15
+expenditure,2025-02-21,Samuel Orr,$234.10,Henrico,VA,individual,Session Parking reimbursement,D,436668,2025-04-15
+expenditure,2025-02-21,Everett Weaver,$222.85,Richmond,VA,individual,Session Parking reimbursement,D,436668,2025-04-15
+expenditure,2025-02-22,Democratic Party of Virginia,$994.24,Richmond,VA,party,VAN Database 2025 Cycle,D,436668,2025-04-15
+expenditure,2025-02-22,Fairfax County Treasurer,$352.80,Fairfax,VA,business,Primary Filing Fee,D,436668,2025-04-15
+expenditure,2025-02-23,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,2025 Dues,D,436668,2025-04-15
+expenditure,2025-02-24,Canva,$12.99,San Jose,CA,business,Graphic Design Subscription,D,436668,2025-04-15
+expenditure,2025-02-25,Richmond Times-Dispatch,$34.99,Mechanicsville,VA,business,Newspaper Subscription,D,436668,2025-04-15
+expenditure,2025-02-25,Jaime Wise,"$3,000",Alexandria,VA,individual,Session Aide,D,436668,2025-04-15
+expenditure,2025-03-03,"Google, Inc.",$61.71,Mountain View,CA,business,Google Admin Suite,D,436668,2025-04-15
+expenditure,2025-03-03,Sage Payment Solutions,$182.71,Reston,VA,business,Merchant Fees Bankcard,D,436668,2025-04-15
+expenditure,2025-03-06,Della J's,$336.45,Alexandria,VA,business,Lunch Campaign Meeting,D,436668,2025-04-15
+expenditure,2025-03-06,ZippityPrint,"$1,116.71",Berea,OH,business,Mailer Printing,D,436668,2025-04-15
+expenditure,2025-03-18,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,436668,2025-04-15
+expenditure,2025-03-20,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,436668,2025-04-15
+expenditure,2025-03-20,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,436668,2025-04-15
+expenditure,2025-03-24,Burke and Herbert Bank,$30,Alexandria,VA,business,Wire Transfer Fee,D,436668,2025-04-15
+expenditure,2025-03-24,Campaign Verify,$95,Washington,DC,business,Krizek for Delegate Verification,D,436668,2025-04-15
+expenditure,2025-03-24,Canva,$12.99,San Jose,CA,business,Graphic Design Subscription,D,436668,2025-04-15
+expenditure,2025-03-24,Della J's,$222.76,Alexandria,VA,business,Lunch Campaign Meeting,D,436668,2025-04-15
+expenditure,2025-03-24,Grassroots Analytics,$500,Washington,DC,business,Donor Prospecting and Fundraising Services,D,436668,2025-04-15
+expenditure,2025-03-24,"MVAR Media, LLC","$1,500",Alexandria,VA,business,Digital Advertisement Campaign,D,436668,2025-04-15
+expenditure,2025-03-24,Rick's Custom Frame + Gallery,$191.10,Richmond,VA,business,Commending and Memorial Resolution Framing,D,436668,2025-04-15
+expenditure,2025-03-26,Burke and Herbert Bank,$30,Alexandria,VA,business,Wire Transfer Fee,D,436668,2025-04-15
+expenditure,2025-03-26,"MVAR Media, LLC","$1,000",Alexandria,VA,business,Digital Advertising Campaign,D,436668,2025-04-15
+expenditure,2025-03-28,Rick's Custom Frame + Gallery,$573.29,Richmond,VA,business,Commending and Memorial Resolution Framing,D,436668,2025-04-15
+expenditure,2025-04-01,Commonwealth Victory Fund Political Action Committee,$650,Richmond,VA,pac,2024 Homestead Attendance Fee,D,442375,2025-06-09
+expenditure,2025-04-01,Friends of Elizabeth Guzman,"$5,000",Nokesville,VA,business,Campaign Contribution,D,442375,2025-06-09
+expenditure,2025-04-01,Jay Jones for Virginia,"$1,000",Arlington,VA,business,Campaign Contribution,D,442375,2025-06-09
+expenditure,2025-04-01,Maria Salgado,"$3,500",Roanoke,VA,individual,Treasurer and Campaign Work,D,442375,2025-06-09
+expenditure,2025-04-01,Virginia House Democratic Caucus,"$26,000",Richmond,VA,party,Campaign Manager Salary,D,442375,2025-06-09
+expenditure,2025-04-02,"Google, Inc.",$64.80,Mountain View,CA,business,Google Admin Suite,D,442375,2025-06-09
+expenditure,2025-04-02,Sage Payment Solutions,$403.37,Reston,VA,business,Merchant Fees Bankcard,D,442375,2025-06-09
+expenditure,2025-04-03,Burke and Herbert Bank,$30,Alexandria,VA,business,Wire Transfer Fee,D,442375,2025-06-09
+expenditure,2025-04-03,"GDA Wins, LLC","$8,413.27",Washington,DC,business,Fundraising Letter Design & Production,D,442375,2025-06-09
+expenditure,2025-04-03,"MVAR Media, LLC","$1,000",Alexandria,VA,business,Digital Advertisement Campaign,D,442375,2025-06-09
+expenditure,2025-04-04,Friends of Kelly Fowler,$500,Virginia Beach,VA,business,Campaign Contribution,D,442375,2025-06-09
+expenditure,2025-04-07,Della J's,$234.41,Alexandria,VA,business,Lunch Campaign Meeting,D,442375,2025-06-09
+expenditure,2025-04-10,Hollin Hall Pastry,$376.28,Alexandria,VA,business,Fundraiser Food,D,442375,2025-06-09
+expenditure,2025-04-17,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,442375,2025-06-09
+expenditure,2025-04-17,Della J's,$224.27,Alexandria,VA,business,Lunch Campaign Meeting,D,442375,2025-06-09
+expenditure,2025-04-21,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,442375,2025-06-09
+expenditure,2025-04-21,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,442375,2025-06-09
+expenditure,2025-04-23,Canva,$12.99,San Jose,CA,business,Graphic Design Subscription,D,442375,2025-06-09
+expenditure,2025-04-29,Nadarius Clark for Delegate,"$2,500",Suffolk,VA,candidate,Campaign Contribution,D,442375,2025-06-09
+expenditure,2025-04-29,Pinewood Lake Swim Team,$250,Alexandria,VA,business,Swim Team Sponsorship,D,442375,2025-06-09
+expenditure,2025-04-29,Waynewood Rec Association,$250,Alexandria,VA,business,Youth Swim Team Sponsorship,D,442375,2025-06-09
+expenditure,2025-04-30,Michaels,$38.13,Alexandria,VA,business,Resolution Framing,D,442375,2025-06-09
+expenditure,2025-04-30,ZippityPrint,$932.95,Berea,OH,business,Mother's Day Tea Invitations,D,442375,2025-06-09
+expenditure,2025-05-01,The Blue Deal,"$3,265.45",Annandale,VA,business,Yard Signs,D,442375,2025-06-09
+expenditure,2025-05-02,"Google, Inc.",$64.80,Mountain View,CA,business,Google Admin Suite,D,442375,2025-06-09
+expenditure,2025-05-02,Sage Payment Solutions,$269.33,Reston,VA,business,Merchant Fees Bankcard,D,442375,2025-06-09
+expenditure,2025-05-04,Virginia House Democratic Caucus,"$100,000",Richmond,VA,party,Campaign Contribution,D,442375,2025-06-09
+expenditure,2025-05-05,Que Nos Pasa,$147.55,Alexandria,VA,business,Spring into Artie Event sponsorship,D,442375,2025-06-09
+expenditure,2025-05-09,Bittersweet Catering,"$1,324.04",Alexandria,VA,business,Mother's Day Tea Catering,D,442375,2025-06-09
+expenditure,2025-05-09,Unwined,$352.82,Alexandria,VA,business,Mother's Day Tea beverages,D,442375,2025-06-09
+expenditure,2025-05-13,Burke and Herbert Bank,$100,Alexandria,VA,business,Banking Fee,D,442375,2025-06-09
+expenditure,2025-05-17,Surovell for State Senate,$400,Mount Vernon,VA,business,Joint Advertisement sponsorship,D,442375,2025-06-09
+expenditure,2025-05-19,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,442375,2025-06-09
+expenditure,2025-05-19,Franconia District Democratic Committee,$500,Fairfax,VA,business,Opening Day Sponsorship,D,442375,2025-06-09
+expenditure,2025-05-19,Maria Salgado,"$3,500",Roanoke,VA,individual,Treasurer and Campaign Work,D,442375,2025-06-09
+expenditure,2025-05-20,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,442375,2025-06-09
+expenditure,2025-05-20,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,442375,2025-06-09
+expenditure,2025-05-23,Canva,$12.99,San Jose,CA,business,Graphic Design Subscription,D,442375,2025-06-09
+expenditure,2025-06-02,"Google, Inc.",$64.80,Mountain View,CA,business,Google Admin Suite,D,442375,2025-06-09
+expenditure,2025-06-02,Sage Payment Solutions,$115.34,Reston,VA,business,Merchant Fees Bankcard,D,442375,2025-06-09
+expenditure,2025-06-05,"NGP VAN, Inc.",$787.50,Washington,DC,business,Database & Voter File,D,442375,2025-06-09
+expenditure,2025-06-09,Bittersweet Catering,$113.78,Alexandria,VA,business,Mother's Day Tea Catering,D,448892,2025-07-15
+expenditure,2025-06-09,Burke and Herbert Bank,$30,Alexandria,VA,business,Wire Transfer Fee,D,448892,2025-07-15
+expenditure,2025-06-09,Jay Jones for Virginia,"$3,000",Arlington,VA,business,Campaign Contribution,D,448892,2025-07-15
+expenditure,2025-06-12,Democratic Party of Virginia,$500,Richmond,VA,party,Women's Caucus Breakfast Sponsorship,D,448892,2025-07-15
+expenditure,2025-06-13,Grassroots Analytics,$500,Washington,DC,business,Consulting,D,448892,2025-07-15
+expenditure,2025-06-17,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,448892,2025-07-15
+expenditure,2025-06-20,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,448892,2025-07-15
+expenditure,2025-06-20,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,448892,2025-07-15
+expenditure,2025-06-22,Woodlawn Little League,"$1,500",Mount Vernon,VA,business,2025 Season Sponsorship,D,448892,2025-07-15
+expenditure,2025-06-23,Canva,$12.99,San Jose,CA,business,Graphic Design Subscription,D,448892,2025-07-15
+expenditure,2025-06-25,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,Campaign Contribution,D,448892,2025-07-15
+expenditure,2025-06-26,Fort Hunt Little League,"$3,000",Alexandria,VA,business,2025 Season Sponsorship,D,448892,2025-07-15
+expenditure,2025-07-02,"Google, Inc.",$64.80,Mountain View,CA,business,Google Admin Suite,D,454595,2025-09-15
+expenditure,2025-07-02,Sage Payment Solutions,$234.28,Reston,VA,business,Merchant Fees Bankcard,D,454595,2025-09-15
+expenditure,2025-07-09,Meriwether's,$16.18,Lynchburg,VA,business,GAB lunch,D,454595,2025-09-15
+expenditure,2025-07-10,Fairfax County Democratic Committee,"$1,000",Fairfax,VA,business,Unity party sponsorship,D,454595,2025-09-15
+expenditure,2025-07-10,Meriwether's,$4.54,Lynchburg,VA,business,GAB coffee,D,454595,2025-09-15
+expenditure,2025-07-10,Maria Salgado,"$3,500",Roanoke,VA,individual,Treasurer and Campaign Work,D,454595,2025-09-15
+expenditure,2025-07-16,"NGP VAN, Inc.",$143.18,Washington,DC,business,Tier 1 Contacts Database,D,454595,2025-09-15
+expenditure,2025-07-17,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,454595,2025-09-15
+expenditure,2025-07-21,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,454595,2025-09-15
+expenditure,2025-07-21,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,454595,2025-09-15
+expenditure,2025-07-23,Canva,$12.99,San Jose,CA,business,Graphic Design subscription,D,454595,2025-09-15
+expenditure,2025-07-24,Mark Weiss Associates,"$3,305",Bethesda,MD,business,Campaign Pins and T-Shirts design and printing,D,454595,2025-09-15
+expenditure,2025-07-25,Fairfax County Democratic Committee,$500,Fairfax,VA,business,Coordinated Campaign yard signs,D,454595,2025-09-15
+expenditure,2025-08-01,Grassroots Analytics,$500,Washington,DC,business,Consulting,D,454595,2025-09-15
+expenditure,2025-08-01,Grassroots Analytics,$500,Washington,DC,business,Consulting,D,454595,2025-09-15
+expenditure,2025-08-02,"Google, Inc.",$71.91,Mountain View,CA,business,Google Admin Suite,D,454595,2025-09-15
+expenditure,2025-08-04,Sage Payment Solutions,$111.64,Reston,VA,business,Merchant Fees Bankcard,D,454595,2025-09-15
+expenditure,2025-08-08,West Potomac High School Wolverine Athletic Boosters Club,"$2,000",Alexandria,VA,business,WPHS Athletics sponsorship,D,454595,2025-09-15
+expenditure,2025-08-11,Mark Weiss Associates,$100.81,Bethesda,MD,business,Shipping campaign merchandise,D,454595,2025-09-15
+expenditure,2025-08-18,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,454595,2025-09-15
+expenditure,2025-08-18,Virginia House Democratic Caucus,"$30,000",Richmond,VA,party,Campaign Contribution,D,454595,2025-09-15
+expenditure,2025-08-20,Grassroots Analytics,$500,Washington,DC,business,Consulting,D,454595,2025-09-15
+expenditure,2025-08-20,"NGP VAN, Inc.",$787.50,Washington,DC,business,Database and Voter File,D,454595,2025-09-15
+expenditure,2025-08-20,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,454595,2025-09-15
+expenditure,2025-08-22,Canva,$119.99,San Jose,CA,business,Canva Pro Annual Subscription,D,454595,2025-09-15
+expenditure,2025-08-22,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,454595,2025-09-15
+expenditure,2025-08-29,Ghazala for Virginia,"$2,500",North Chesterfield,VA,business,Campaign Contribution,D,454595,2025-09-15
+expenditure,2025-08-29,Jay Jones for Virginia,"$2,500",Arlington,VA,business,Campaign Contribution,D,454595,2025-09-15
+expenditure,2025-09-02,"Google, Inc.",$74.40,Mountain View,CA,business,Google Admin Suite,D,460853,2025-10-15
+expenditure,2025-09-02,Sage Payment Solutions,$95.48,Reston,VA,business,Merchant Fees Bankcard,D,460853,2025-10-15
+expenditure,2025-09-04,West Potomac Band Boosters,$500,Alexandria,VA,business,Band Sponsorship,D,460853,2025-10-15
+expenditure,2025-09-05,Maria Salgado,"$3,500",Roanoke,VA,individual,Treasurer and Campaign Work,D,460853,2025-10-15
+expenditure,2025-09-12,National Council of Legislators from Gaming States,$500,Horsham,PA,business,NCLGS Winter Conference Registration,D,460853,2025-10-15
+expenditure,2025-09-17,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,460853,2025-10-15
+expenditure,2025-09-17,Grassroots Analytics,"$5,000",Washington,DC,business,Fundraising Letter production and mailing,D,460853,2025-10-15
+expenditure,2025-09-18,Richmond Shawarma & Falafel,$32.10,Richmond,VA,business,Dinner,D,460853,2025-10-15
+expenditure,2025-09-20,Friends of Elizabeth Guzman,"$1,000",Nokesville,VA,business,Campaign Contribution,D,460853,2025-10-15
+expenditure,2025-09-20,McAuliff for HD 30,"$1,000",The Plains,VA,business,Campaign Contribution,D,460853,2025-10-15
+expenditure,2025-09-20,Sara Ratcliffe for Virginia,"$1,000",Ruckersville,VA,business,Campaign Contribution,D,460853,2025-10-15
+expenditure,2025-09-21,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,460853,2025-10-15
+expenditure,2025-09-21,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,460853,2025-10-15
+expenditure,2025-09-22,Spanberger for Governor,"$10,000",Glen Allen,VA,business,Campaign Contribution,D,460853,2025-10-15
+expenditure,2025-09-22,Squarespace,$276,New York,NY,business,Website,D,460853,2025-10-15
+expenditure,2025-09-22,Virginia House Democratic Caucus,"$30,000",Richmond,VA,party,Campaign Contribution,D,460853,2025-10-15
+expenditure,2025-09-23,Grassroots Analytics,$500,Washington,DC,business,Consulting Services,D,460853,2025-10-15
+expenditure,2025-09-26,Gum Springs Historical Society and Museum,"$5,000",Community,VA,business,Event Sponsorship,D,460853,2025-10-15
+expenditure,2025-10-01,Georgetown University Office of Transportation Management,$15,Washington,DC,business,American Foreign Service Association event parking,D,466163,2025-10-27
+expenditure,2025-10-02,"Google, Inc.",$74.40,Mountain View,CA,business,Google Admin Suite,D,466163,2025-10-27
+expenditure,2025-10-02,Sage Payment Solutions,$277.86,Reston,VA,business,Merchant Fees Bankcard,D,466163,2025-10-27
+expenditure,2025-10-07,Virginia House Democratic Caucus,"$42,803",Richmond,VA,party,Campaign Contribution,D,466163,2025-10-27
+expenditure,2025-10-15,Mount Vernon-Springfield Chamber of Commerce,$257.50,Alexandria,VA,business,Chamber Golf Classic Sponsorship,D,466163,2025-10-27
+expenditure,2025-10-16,Burke and Herbert Bank,$30,Alexandria,VA,business,Wire Transfer Fee,D,466163,2025-10-27
+expenditure,2025-10-16,Dougherty for Delegate,"$2,500",Chester,VA,candidate,Campaign Contribution,D,466163,2025-10-27
+expenditure,2025-10-16,Michael Feggans for Virginia,"$2,500",Virginia Beach,VA,business,Campaign Contribution,D,466163,2025-10-27
+expenditure,2025-10-16,Paisano's Pizza,$172.66,Alexandria,VA,business,Food for Community Meeting,D,466163,2025-10-27
+expenditure,2025-10-16,Shoppers,$95.86,Alexandria,VA,business,Food for Community Meeting,D,466163,2025-10-27
+expenditure,2025-10-17,Adobe,$19.99,San Jose,CA,business,Google Admin Suite,D,466163,2025-10-27
+expenditure,2025-10-17,Burke and Herbert Bank,$30,Alexandria,VA,business,Wire Transfer Fee,D,466163,2025-10-27
+expenditure,2025-10-17,Ghazala for Virginia,"$5,000",North Chesterfield,VA,business,Campaign Contribution,D,466163,2025-10-27
+expenditure,2025-10-20,Grassroots Analytics,$500,Washington,DC,business,Consulting,D,466163,2025-10-27
+expenditure,2025-10-20,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,466163,2025-10-27
+expenditure,2025-10-20,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,466163,2025-10-27
+expenditure,2025-10-21,8th Congressional District Democratic Committee,"$2,000",Falls Church,VA,business,Kennedy King Dinner Sponsorship,D,466163,2025-10-27
+expenditure,2025-10-21,Lily for Delegate,"$1,500",Blacksburg,VA,candidate,Campaign Contribution,D,466163,2025-10-27
+expenditure,2025-10-21,Maria Salgado,"$7,000",Roanoke,VA,individual,Treasurer and Campaign Work,D,466163,2025-10-27
+expenditure,2025-10-21,Virginia House Democratic Caucus,"$20,000",Richmond,VA,party,Campaign Contribution,D,466163,2025-10-27
+expenditure,2025-10-27,Richmond Times-Dispatch,$26,Mechanicsville,VA,business,Newspaper Subscription,D,472802,2025-12-04
+expenditure,2025-10-30,Printersmark Inc,$551.20,Richmond,VA,business,Yard Sign printing,D,472802,2025-12-04
+expenditure,2025-10-31,Hollin Meadows Elementary School PTA,"$1,000",Alexandria,VA,business,Fun Run Sponsorship,D,472802,2025-12-04
+expenditure,2025-10-31,United Community,"$2,000",Alexandria,VA,business,Food Bank Donation,D,472802,2025-12-04
+expenditure,2025-11-03,"Google, Inc.",$74.40,Mountain View,CA,business,Google Admin Suite,D,472802,2025-12-04
+expenditure,2025-11-03,"NGP VAN, Inc.",$214.76,Washington,DC,business,Database and Voter File,D,472802,2025-12-04
+expenditure,2025-11-03,Sage Payment Solutions,$168.86,Reston,VA,business,Merchant Fees Bankcard,D,472802,2025-12-04
+expenditure,2025-11-05,GoFundMe,$500,San Diego,CA,business,Honoring Mattie Palmore - Funeral Expense,D,472802,2025-12-04
+expenditure,2025-11-14,Grassroots Analytics,$500,Washington,DC,business,Consulting,D,472802,2025-12-04
+expenditure,2025-11-17,Adobe,$19.99,San Jose,CA,business,Adobe Acrobat Account,D,472802,2025-12-04
+expenditure,2025-11-20,ScheduleOnce,$15,Walnut,CA,business,Online Scheduling,D,472802,2025-12-04
+expenditure,2025-11-20,Zoom Video Communications Inc.,$16.79,San Jose,CA,business,Zoom Premium Account,D,472802,2025-12-04
+expenditure,2025-11-24,Friends of Laura Jane Cohen,$117.64,Burke,VA,business,GOTV Rally refreshments,D,472802,2025-12-04
+expenditure,2025-11-24,Kathy Tran for Delegate,$75,Springfield,VA,candidate,Viet Bao Newspaper Advertisement,D,472802,2025-12-04
 expenditure,2025-12-01,Sage Payment Solutions,$172.01,Reston,VA,business,Merchant Fees Bankcard,D,479834,2026-01-15
 expenditure,2025-12-02,"Google, Inc.",$74.40,Mountain View,CA,business,Google Admin Suite,D,479834,2026-01-15
 expenditure,2025-12-03,Able Dems PAC,"$1,000",Los Angeles,CA,pac,Fairfax Chapter Holiday Party Sponsorship,D,479834,2026-01-15

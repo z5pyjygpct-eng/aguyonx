@@ -3,6 +3,210 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$31,639.91",,VA,,"From official Schedule H, November 2025 election cycle",H,493425,2026-07-08
 summary,2026-06-30,Raised this cycle,"$21,790.01",,,,Total receipts this election cycle (Schedule H),H,493425,2026-07-08
 summary,2026-06-30,Spent this cycle,"$67,138.98",,,,Total disbursements this election cycle (Schedule H),H,493425,2026-07-08
+contribution,2024-11-08,Abbott Laboratories Political Action Committee,$250,Abbott Park,IL,pac,,A,429373,2025-01-14
+contribution,2024-09-06,"Amazon.com Services, Inc.","$2,500",Seattle,WA,business,,A,429373,2025-01-14
+contribution,2024-11-08,"American Traffic Solutions, Inc.","$1,500",Mesa,AZ,business,,A,429373,2025-01-14
+contribution,2024-07-08,Anheuser Busch Companies,$500,Saint Louis,MO,business,,A,429373,2025-01-14
+contribution,2024-12-11,Associated Distributors LLC dba Breakthru Beverage Virginia,"$1,000",Roanoke,VA,business,,A,429373,2025-01-14
+contribution,2024-11-08,Baltimore Washington Construction & Public Employees Laborers PAC,"$2,500",Reston,VA,pac,,A,429373,2025-01-14
+contribution,2024-12-23,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,A,429373,2025-01-14
+contribution,2024-08-07,Capital One,$500,Richmond,VA,business,,A,429373,2025-01-14
+contribution,2024-11-08,"Capital Results, LLC",$500,Richmond,VA,business,,A,429373,2025-01-14
+contribution,2024-10-02,Cedar Mountain Stone Corporation,$500,Mitchells,VA,business,,A,429373,2025-01-14
+contribution,2024-10-02,Chemung Contracting,$500,Mitchells,VA,business,,A,429373,2025-01-14
+contribution,2024-12-09,Comcast Corporation,$500,Philadelphia,PA,business,,A,429373,2025-01-14
+contribution,2024-10-25,Commercial Development PAC,$500,Alexandria,VA,pac,,A,429373,2025-01-14
+contribution,2024-09-06,Copart Inc Political Action Committee,"$1,000",Dallas,TX,pac,,A,429373,2025-01-14
+contribution,2024-12-16,Delta Dental of Virginia,$750,Roanoke,VA,pac,,A,429373,2025-01-14
+contribution,2024-09-16,DoorDash,"$1,000",San Francisco,CA,business,,A,429373,2025-01-14
+contribution,2024-12-03,"John Dresely, OD Jr",$250,Centreville,VA,individual,,A,429373,2025-01-14
+contribution,2024-10-08,Employees of RTX Corporation PAC,"$1,000",Arlington,VA,pac,,A,429373,2025-01-14
+contribution,2024-09-20,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-07-17,Enterprise Holdings PAC,"$1,000",Saint Louis,MO,pac,,A,429373,2025-01-14
+contribution,2024-12-30,Freedom Virginia,"$1,500",Norfolk,VA,business,,A,429373,2025-01-14
+contribution,2024-09-06,General Motors PAC,"$1,000",Washington,DC,pac,,A,429373,2025-01-14
+contribution,2024-07-04,Maggie Fraser Godbold,$25,Herndon,VA,individual,,A,429373,2025-01-14
+contribution,2024-08-04,Maggie Fraser Godbold,$25,Herndon,VA,individual,,A,429373,2025-01-14
+contribution,2024-09-04,Maggie Fraser Godbold,$25,Herndon,VA,individual,,A,429373,2025-01-14
+contribution,2024-10-04,Maggie Fraser Godbold,$25,Herndon,VA,individual,,A,429373,2025-01-14
+contribution,2024-11-04,Maggie Fraser Godbold,$25,Herndon,VA,individual,,A,429373,2025-01-14
+contribution,2024-07-27,Kenneth Hannsgen,$150,Blacksburg,VA,individual,,A,429373,2025-01-14
+contribution,2024-08-27,Kenneth Hannsgen,$150,Blacksburg,VA,individual,,A,429373,2025-01-14
+contribution,2024-09-27,Kenneth Hannsgen,$150,Blacksburg,VA,individual,,A,429373,2025-01-14
+contribution,2024-10-27,Kenneth Hannsgen,$150,Blacksburg,VA,individual,,A,429373,2025-01-14
+contribution,2024-11-27,Kenneth Hannsgen,$150,Blacksburg,VA,individual,,A,429373,2025-01-14
+contribution,2024-12-27,Kenneth Hannsgen,$150,Blacksburg,VA,individual,,A,429373,2025-01-14
+contribution,2024-12-11,HCA for Good Government,"$1,500",Reston,VA,pac,,A,429373,2025-01-14
+contribution,2024-12-30,HNTB Holdings Ltd PAC,"$1,000",Sausalito,CA,pac,,A,429373,2025-01-14
+contribution,2024-07-31,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,429373,2025-01-14
+contribution,2024-09-16,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,429373,2025-01-14
+contribution,2024-08-07,LKQ Corporation Employee Good Government Fund,"$1,000",Chicago,IL,pac,,A,429373,2025-01-14
+contribution,2024-12-16,Metro Virginia PAC M301,$250,Washington,DC,pac,,A,429373,2025-01-14
+contribution,2024-12-16,Norfolk Southern Corporation,"$1,000",Norfolk,VA,business,,A,429373,2025-01-14
+contribution,2024-10-18,Northern Virginia Electric Cooperative,"$1,000",Manassas,VA,business,,A,429373,2025-01-14
+contribution,2024-11-23,Daniel Oakey,$250,Midlothian,VA,individual,,A,429373,2025-01-14
+contribution,2024-10-02,Old Dominion Highway PAC,"$1,000",Charlottesville,VA,pac,,A,429373,2025-01-14
+contribution,2024-11-22,"Premium Distributors of VA, LLC","$1,000",Chantilly,VA,business,,A,429373,2025-01-14
+contribution,2024-08-18,Tom Rabaut,$250,Great Falls,VA,individual,,A,429373,2025-01-14
+contribution,2024-09-16,Realtors Political Action Committee of Virginia,"$2,500",Glen Allen,VA,pac,,A,429373,2025-01-14
+contribution,2024-08-16,Reed Smith LLP VA Political Action Comittee,"$2,000",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-11-08,Reworld Waste LLC,$250,Morristown,NJ,business,,A,429373,2025-01-14
+contribution,2024-10-07,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,business,,A,429373,2025-01-14
+contribution,2024-09-16,Service Corporation International PAC,$500,Houston,TX,pac,,A,429373,2025-01-14
+contribution,2024-10-02,Textron Inc. Political Action Committee,$500,Providence,RI,pac,,A,429373,2025-01-14
+contribution,2024-12-09,The Boeing Company PAC,$500,Arlington,VA,pac,,A,429373,2025-01-14
+contribution,2024-08-07,Transurban USA Inc.,"$1,500",Tysons,VA,business,,A,429373,2025-01-14
+contribution,2024-09-12,Truckers Political Action Committee of VA,"$1,500",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-10-08,United Airlines,$750,Chicago,IL,business,,A,429373,2025-01-14
+contribution,2024-12-30,United Airlines,$500,Chicago,IL,business,,A,429373,2025-01-14
+contribution,2024-12-11,VA Sports Betting Alliance,$500,Alexandria,VA,business,,A,429373,2025-01-14
+contribution,2024-10-18,Virginia Asphalt Association,$250,Richmond,VA,business,,A,429373,2025-01-14
+contribution,2024-09-06,Virginia Automobile & Truck Dealers PAC,"$4,000",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-12-30,Virginia Automobile & Truck Dealers PAC,"$10,000",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-12-16,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,A,429373,2025-01-14
+contribution,2024-10-02,Virginia Beer Wholesalers Association PAC,"$2,000",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-09-20,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-09-06,Virginia Dental Association PAC,"$1,000",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-12-30,Virginia Hospital & Healthcare Association Political Action Committee,$750,Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-07-16,Virginia Independent Auto Dealers PAC,$500,Virginia Beach,VA,pac,,A,429373,2025-01-14
+contribution,2024-07-16,Virginia Independent Auto Dealers PAC,$500,Virginia Beach,VA,pac,,A,429373,2025-01-14
+contribution,2024-10-18,Virginia Maritime Association Political Action Committee,"$1,500",Norfolk,VA,pac,,A,429373,2025-01-14
+contribution,2024-09-12,"Virginia Petroleum, Convenience and Grocery Association PAC",$500,Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-07-08,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-09-06,Virginia Sheriffs' Association,$250,Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-09-06,Virginia Society of the AIA,"$1,000",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-12-30,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-09-20,Virginia Transportation Construction Alliance PAC,"$2,500",North Chesterfield,VA,pac,,A,429373,2025-01-14
+contribution,2024-12-23,Virginia Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-10-18,Virginia Wine Wholesalers Association PAC,"$1,500",Richmond,VA,pac,,A,429373,2025-01-14
+contribution,2024-12-20,Sam/Liz Walker,$250,Centreville,VA,individual,,A,429373,2025-01-14
+contribution,2024-08-25,Julie Wallick,$100,Reston,VA,individual,,A,429373,2025-01-14
+contribution,2024-08-07,Williams Mullen Clark & Dobbins,"$1,500",Richmond,VA,business,,A,429373,2025-01-14
+contribution,2025-01-03,Philip Abraham,$300,Richmond,VA,individual,,A,434979,2025-04-08
+contribution,2025-03-21,Roy James Baldwin,$250,Vienna,VA,individual,,A,434979,2025-04-08
+contribution,2025-03-26,Jeffrey Breit,"$1,500",Virginia Beach,VA,individual,,A,434979,2025-04-08
+contribution,2025-03-31,Jeffrey Breit,$500,Virginia Beach,VA,individual,,A,434979,2025-04-08
+contribution,2025-03-20,Patricia Brown,$150,Alexandria,VA,individual,,A,434979,2025-04-08
+contribution,2025-01-03,Christian & Barton LLP,$500,Richmond,VA,business,,A,434979,2025-04-08
+contribution,2025-01-07,Comstock Hospitality Holdings,"$5,000",Reston,VA,business,,A,434979,2025-04-08
+contribution,2025-01-02,SEIU COPE,$500,Washington,DC,individual,,A,434979,2025-04-08
+contribution,2025-03-10,"Elevance Health, Inc.",$500,Cincinnati,OH,business,,A,434979,2025-04-08
+contribution,2025-01-06,Fantasy Sports Operator Coalition,$500,Arlington,VA,business,,A,434979,2025-04-08
+contribution,2025-01-03,Kenneth Hannsgen,$500,Blacksburg,VA,individual,,A,434979,2025-04-08
+contribution,2025-02-23,Kenneth Hannsgen,"$1,000",Blacksburg,VA,individual,,A,434979,2025-04-08
+contribution,2025-01-03,Heavy Construction Contractors Association PAC,$500,Manassas,VA,pac,,A,434979,2025-04-08
+contribution,2025-02-23,Mr. Loren Walter Hershey,$185,Oakton,VA,individual,,A,434979,2025-04-08
+contribution,2025-01-06,McGuireWoods State PAC Fund,$500,Richmond,VA,pac,,A,434979,2025-04-08
+contribution,2025-03-18,Johanna Starkey,$100,Oakton,VA,individual,,A,434979,2025-04-08
+contribution,2025-01-06,VA Operators for Skill,"$1,500",Richmond,VA,pac,,A,434979,2025-04-08
+contribution,2025-01-06,Virginia Contractor Procurement Alliance,$500,Henrico,VA,business,,A,434979,2025-04-08
+contribution,2025-01-06,Virginia Manufacturing & Modular Housing Association PAC,$500,Henrico,VA,pac,,A,434979,2025-04-08
+contribution,2025-05-07,Barbara D. Davis,$250,Arlington,VA,individual,,A,450784,2025-08-30
+contribution,2025-06-05,Tom Greeson,$250,Fairfax,VA,individual,,A,450784,2025-08-30
+contribution,2025-05-27,Jill Hamilton,"$1,000",Fairfax,VA,individual,,A,450784,2025-08-30
+contribution,2025-05-21,Russ Hopler,$25,Fairfax,VA,individual,,A,450784,2025-08-30
+contribution,2025-05-31,David Kochendarfer,$100,Chantilly,VA,individual,,A,450784,2025-08-30
+contribution,2025-05-31,Donna Reid,$100,Fairfax,VA,individual,,A,450784,2025-08-30
+contribution,2025-06-05,Alex Saad,$50,Vienna,VA,individual,,A,450784,2025-08-30
+contribution,2025-04-10,Johanna Starkey,$100,Oakton,VA,individual,,A,450784,2025-08-30
+contribution,2025-06-05,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,A,450784,2025-08-30
+contribution,2025-05-08,Virginia Land Title Association PAC,"$1,000",Centreville,VA,pac,,A,450784,2025-08-30
+contribution,2025-04-16,Virginia Sheriffs' Association,"$2,500",Richmond,VA,pac,,A,450784,2025-08-30
+contribution,2025-05-28,William J. Jackson Ackerman,$100,Clifton,VA,individual,,A,450784,2025-08-30
+contribution,2025-05-23,"Altria Client Services, LLC","$2,500",Richmond,VA,business,,A,450784,2025-08-30
+contribution,2025-04-23,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,A,450784,2025-08-30
+contribution,2025-05-07,Scott Crabtree,"$5,000",Alexandria,VA,individual,,A,450784,2025-08-30
+contribution,2025-06-27,Capital One,"$1,250",Richmond,VA,business,,A,450786,2025-08-30
+contribution,2025-06-24,Hubert Chao,$250,Vienna,VA,individual,,A,450786,2025-08-30
+contribution,2025-06-12,Comcast Corporation,$500,Philadelphia,PA,business,,A,450786,2025-08-30
+contribution,2025-06-30,DoorDash,"$1,000",San Francisco,CA,business,,A,450786,2025-08-30
+contribution,2025-06-16,FIBER Virginia,"$1,500",Glen Allen,VA,pac,,A,450786,2025-08-30
+contribution,2025-06-17,Fluor Corporation Political Action Committee,"$1,000",Irving,TX,pac,,A,450786,2025-08-30
+contribution,2025-06-17,JBG Smith Builds Virginia PAC,"$5,000",Arlington,VA,pac,,A,450786,2025-08-30
+contribution,2025-06-27,Republic Services,$250,Phoenix,AZ,business,,A,450786,2025-08-30
+contribution,2025-06-17,The Medical Society of Virginia PAC,"$1,000",Richmond,VA,pac,,A,450786,2025-08-30
+contribution,2025-06-12,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,450786,2025-08-30
+contribution,2025-06-17,Williams Mullen Clark & Dobbins,"$1,500",Richmond,VA,business,,A,450786,2025-08-30
+contribution,2025-08-14,Alex Saad,$50,Vienna,VA,individual,,A,452114,2025-09-08
+contribution,2025-08-28,Secure Progress,"$25,000",Fairfax Station,VA,business,,A,452114,2025-09-08
+contribution,2025-07-26,Johanna Starkey,$100,Oakton,VA,individual,,A,452114,2025-09-08
+contribution,2025-07-07,VEA Fund,$250,Richmond,VA,pac,,A,452114,2025-09-08
+contribution,2025-08-06,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,A,452114,2025-09-08
+contribution,2025-08-25,Virginia Forward PAC,"$1,000",Springfield,VA,pac,,A,452114,2025-09-08
+contribution,2025-08-14,Virginia Society of the AIA,"$1,000",Richmond,VA,pac,,A,452114,2025-09-08
+contribution,2025-07-01,Virginia Trial Lawyers PAC,"$5,000",Richmond,VA,pac,,A,452114,2025-09-08
+contribution,2025-08-09,Sam/Liz Walker,$250,Centreville,VA,individual,,A,452114,2025-09-08
+contribution,2025-08-14,Abbott Laboratories Political Action Committee,"$2,000",Abbott Park,IL,pac,,A,452114,2025-09-08
+contribution,2025-08-27,AFSCME,"$2,500",Washington,DC,business,,A,452114,2025-09-08
+contribution,2025-08-22,"Amazon.com Services, Inc.","$2,500",Seattle,WA,business,,A,452114,2025-09-08
+contribution,2025-07-11,Anheuser Busch Companies,$500,Saint Louis,MO,business,,A,452114,2025-09-08
+contribution,2025-07-24,Boyd-Pamunkey Casino PAC,"$3,000",Norfolk,VA,pac,,A,452114,2025-09-08
+contribution,2025-08-20,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,A,452114,2025-09-08
+contribution,2025-08-22,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,A,452114,2025-09-08
+contribution,2025-08-06,Enterprise Holdings PAC,"$2,500",Saint Louis,MO,pac,,A,452114,2025-09-08
+contribution,2025-08-10,Kenneth Hannsgen,$500,Blacksburg,VA,individual,,A,452114,2025-09-08
+contribution,2025-07-18,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,452114,2025-09-08
+contribution,2025-07-30,David Kochendarfer,$44.27,Chantilly,VA,individual,,A,452114,2025-09-08
+contribution,2025-08-27,David Kochendarfer,$58.33,Chantilly,VA,individual,,A,452114,2025-09-08
+contribution,2025-08-22,Metro Virginia PAC M301,$500,Washington,DC,pac,,A,452114,2025-09-08
+contribution,2025-07-31,Emilie Marie Feiza Miller,$100,Fairfax,VA,individual,,A,452114,2025-09-08
+contribution,2025-08-22,Realtors Political Action Committee of Virginia,"$2,500",Glen Allen,VA,pac,,A,452114,2025-09-08
+contribution,2025-07-22,Donna Reid,$100,Fairfax,VA,individual,,A,452114,2025-09-08
+contribution,2025-08-14,Relx Inc. PAC,$250,Washington,DC,pac,,A,452114,2025-09-08
+contribution,2025-09-04,Virginia Pharmacists Association Pharmacist Care PAC,$500,North Chesterfield,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-18,Virginia Ready Mixed Concrete Association PAC,$500,Charlottesville,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-04,Virginia Wine Wholesalers Association PAC,"$1,500",Richmond,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-11,Bloom Energy,"$1,000",San Jose,CA,business,,A,459052,2025-10-11
+contribution,2025-09-12,BusPatrol America LLC,"$7,000",Lorton,VA,business,,A,459052,2025-10-11
+contribution,2025-09-03,Thomas Costello,$150,Reston,VA,individual,,A,459052,2025-10-11
+contribution,2025-09-04,Deloitte Consulting,"$1,000",Richmond,VA,business,,A,459052,2025-10-11
+contribution,2025-09-17,"John Dresely, OD Jr",$300,Centreville,VA,individual,,A,459052,2025-10-11
+contribution,2025-09-04,General Motors PAC,"$1,500",Washington,DC,pac,,A,459052,2025-10-11
+contribution,2025-09-04,HCA for Good Government,"$1,500",Reston,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-18,Hunton Andrews Kurth LLP,"$2,000",Richmond,VA,business,,A,459052,2025-10-11
+contribution,2025-09-17,John Koza,$500,Los Altos,CA,individual,,A,459052,2025-10-11
+contribution,2025-09-04,LKQ Corporation Employee Good Government Fund,"$1,000",Chicago,IL,pac,,A,459052,2025-10-11
+contribution,2025-09-03,Northern Virginia Electric Cooperative,"$1,000",Manassas,VA,business,,A,459052,2025-10-11
+contribution,2025-09-04,"Obvio, Inc.","$2,500",San Carlos,CA,business,,A,459052,2025-10-11
+contribution,2025-09-17,Old Dominion Highway PAC,"$1,000",Charlottesville,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-17,Richmond Area Municipal Contractors Association PAC,"$1,000",Richmond,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-03,Textron Inc. Political Action Committee,$750,Providence,RI,pac,,A,459052,2025-10-11
+contribution,2025-09-12,The Boeing Company PAC,$500,Arlington,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-03,Truckers Political Action Committee of VA,"$1,000",Richmond,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-04,United Airlines,"$1,500",Chicago,IL,business,,A,459052,2025-10-11
+contribution,2025-09-04,VA Beverage Association,$750,Richmond,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-02,VA Sports Betting Alliance,"$50,000",Alexandria,VA,business,,A,459052,2025-10-11
+contribution,2025-09-17,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-17,Virginia Beer Wholesalers Association PAC,"$1,000",Richmond,VA,pac,,A,459052,2025-10-11
+contribution,2025-09-17,Virginia Eagle Distributing Company LLC,$750,Verona,VA,business,,A,459052,2025-10-11
+contribution,2025-10-03,Community Associations Institute PAC,"$1,000",Falls Church,VA,pac,,A,464053,2025-10-24
+contribution,2025-10-03,CSX Corporation,$500,Jacksonville,FL,business,,A,464053,2025-10-24
+contribution,2025-10-14,Delta Dental of Virginia,$500,Roanoke,VA,pac,,A,464053,2025-10-24
+contribution,2025-10-21,Employees of RTX Corporation PAC,"$1,000",Arlington,VA,pac,,A,464053,2025-10-24
+contribution,2025-10-07,Jason Hoyle,"$1,000",Salem,VA,individual,,A,464053,2025-10-24
+contribution,2025-10-16,"POM of Virginia, LLC","$1,000",Duluth,GA,business,,A,464053,2025-10-24
+contribution,2025-10-20,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,business,,A,464053,2025-10-24
+contribution,2025-10-15,SEIU C.O.P..E.,"$2,500",Washington,DC,pac,,A,464053,2025-10-24
+contribution,2025-10-03,Seven Hills Strategy Group,"$1,000",Richmond,VA,business,,A,464053,2025-10-24
+contribution,2025-10-16,Troutman Pepper Locke LLP,"$2,500",Washington,DC,business,,A,464053,2025-10-24
+contribution,2025-10-09,Virginia Automobile & Truck Dealers PAC,"$15,000",Richmond,VA,pac,,A,464053,2025-10-24
+contribution,2025-10-03,Virginia Cable PAC,"$1,500",Richmond,VA,pac,,A,464053,2025-10-24
+contribution,2025-10-14,Virginia Chapter Sierra Club PAC,$250,Richmond,VA,pac,,A,464053,2025-10-24
+contribution,2025-10-21,Virginia Credit Union Political Action Committee,"$1,500",Lynchburg,VA,pac,,A,464053,2025-10-24
+contribution,2025-10-03,Virginia Maritime Association Political Action Committee,"$1,500",Norfolk,VA,pac,,A,464053,2025-10-24
+contribution,2025-10-14,Virginia Transportation Construction Alliance PAC,"$4,000",North Chesterfield,VA,pac,,A,464053,2025-10-24
+contribution,2025-11-21,Associated General Contractors of Virginia,$250,Glen Allen,VA,business,,A,471115,2025-12-02
+contribution,2025-11-21,Blue Line Solutions LLC,"$5,000",Chattanooga,TN,business,,A,471115,2025-12-02
+contribution,2025-10-30,Cintra US Services LLC,"$5,000",Austin,TX,business,,A,471115,2025-12-02
+contribution,2025-11-07,McGuireWoods State PAC Fund,$500,Richmond,VA,pac,,A,471115,2025-12-02
+contribution,2025-11-07,Mid-Atlantic Laborers' Political Education Fund,"$2,500",Reston,VA,pac,,A,471115,2025-12-02
+contribution,2025-10-30,Norfolk Southern Corporation,"$1,000",Norfolk,VA,business,,A,471115,2025-12-02
+contribution,2025-11-04,Transurban USA Inc.,"$1,000",Tysons,VA,business,,A,471115,2025-12-02
+contribution,2025-11-04,Uber Technologies,"$2,500",San Francisco,CA,business,,A,471115,2025-12-02
+contribution,2025-11-04,VA Forest PAC,$250,Richmond,VA,pac,,A,471115,2025-12-02
+contribution,2025-11-19,Virginia Asphalt Association,$250,Richmond,VA,business,,A,471115,2025-12-02
+contribution,2025-11-04,Virginia Future PAC,$250,Woodbridge,VA,pac,,A,471115,2025-12-02
+contribution,2025-10-30,VSCPA PAC,$500,Glen Allen,VA,pac,,A,471115,2025-12-02
 contribution,2025-12-12,Commercial Development PAC,$500,Alexandria,VA,pac,,A,474932,2026-01-05
 contribution,2025-12-23,"Safelite Fulfillment, Inc.",$500,Cincinnati,OH,business,,A,474932,2026-01-05
 contribution,2025-12-23,Virginia Trial Lawyers PAC,"$3,000",Richmond,VA,pac,,A,474932,2026-01-05
@@ -16,6 +220,277 @@ contribution,2026-01-13,McGuireWoods State PAC Fund,$500,Richmond,VA,pac,,A,4934
 contribution,2026-03-31,"MGM Resorts International Operations, Inc.","$1,000",Las Vegas,NV,business,,A,493425,2026-07-08
 contribution,2026-04-10,Donna Reid,$100,Fairfax,VA,individual,,A,493425,2026-07-08
 contribution,2026-01-09,UPSPAC,"$2,000",Washington,DC,pac,,A,493425,2026-07-08
+in_kind,2024-07-23,Capital One,"$2,500",Richmond,VA,business,Fundraiser hosting,B,429373,2025-01-14
+in_kind,2025-01-05,Helmer for Virginia,"$1,039.50",Fairfax Station,VA,business,Event hosting,B,434979,2025-04-08
+in_kind,2025-05-16,Friends of Stella G. Pekarsky,$333,Centreville,VA,business,Share of advertisement,B,450784,2025-08-30
+in_kind,2025-05-31,Donna Reid,$109.65,Fairfax,VA,individual,Fundraiser food and drink,B,450784,2025-08-30
+in_kind,2025-06-16,Capital One,"$1,250",Richmond,VA,business,Fundraiser hosting,B,450786,2025-08-30
+in_kind,2025-09-03,Commonwealth Strategy Group,$209.94,Richmond,VA,business,Event catering,B,459052,2025-10-11
+in_kind,2025-10-16,Troutman Pepper Locke LLP,"$1,575.24",Washington,DC,business,fundraiser dinner hosting,B,464053,2025-10-24
+other_receipt,2025-04-25,County of Fairfax,$352.80,Fairfax,VA,business,Refund of primary filing fee,C,450784,2025-08-30
+other_receipt,2025-04-19,Department of the Treasury,$96.06,Kansas City,MO,business,Refund of overpaid employer taxes,C,450784,2025-08-30
+other_receipt,2025-06-04,Department of the Treasury,$785.04,Kansas City,MO,business,Refund of overpaid employer taxes,C,450784,2025-08-30
+expenditure,2024-07-07,Actblue,$0.99,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-07-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,429373,2025-01-14
+expenditure,2024-07-09,"Phoneburner, Inc",$149,Ladera Ranch,CA,business,Office operations,D,429373,2025-01-14
+expenditure,2024-07-11,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-07-12,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-07-12,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-07-14,Actblue,$5.93,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-07-25,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-07-26,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-07-26,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-07-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,429373,2025-01-14
+expenditure,2024-07-28,Actblue,$5.93,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-08-04,Actblue,$0.99,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-08-08,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-08-08,United States Post Office,$5,Centreville,VA,business,Postage,D,429373,2025-01-14
+expenditure,2024-08-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,429373,2025-01-14
+expenditure,2024-08-09,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-08-09,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-08-09,"Phoneburner, Inc",$149,Ladera Ranch,CA,business,Office operations,D,429373,2025-01-14
+expenditure,2024-08-18,Actblue,$9.88,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-08-22,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-08-23,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-08-23,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-08-25,Actblue,$10.87,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-08-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,429373,2025-01-14
+expenditure,2024-09-01,Actblue,$5.93,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-09-05,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-09-06,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-09-06,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-09-08,Actblue,$0.99,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-09-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,429373,2025-01-14
+expenditure,2024-09-09,"Phoneburner, Inc",$149,Ladera Ranch,CA,business,Office operations,D,429373,2025-01-14
+expenditure,2024-09-15,Actblue,$1.98,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-09-19,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-09-20,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-09-20,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-09-25,Virginia House Democratic Caucus,"$8,500",Richmond,VA,party,Member dues,D,429373,2025-01-14
+expenditure,2024-09-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,429373,2025-01-14
+expenditure,2024-09-29,Actblue,$5.93,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-10-03,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-10-04,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-10-04,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-10-06,Actblue,$0.99,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-10-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,429373,2025-01-14
+expenditure,2024-10-09,"Phoneburner, Inc",$149,Ladera Ranch,CA,business,Office operations,D,429373,2025-01-14
+expenditure,2024-10-17,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-10-18,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-10-18,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-10-24,NGP VAN,"$1,410",Washington,DC,business,Campaign database,D,429373,2025-01-14
+expenditure,2024-10-27,Actblue,$5.93,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-10-28,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,429373,2025-01-14
+expenditure,2024-10-31,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-10-31,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-11-01,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-11-04,NGP VAN,"$2,820",Washington,DC,business,Campaign database,D,429373,2025-01-14
+expenditure,2024-11-10,Actblue,$0.99,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-11-12,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,429373,2025-01-14
+expenditure,2024-11-12,"Phoneburner, Inc",$149,Ladera Ranch,CA,business,Office operations,D,429373,2025-01-14
+expenditure,2024-11-21,Truist Bank,$15,Fairfax,VA,business,Bank fee,D,429373,2025-01-14
+expenditure,2024-11-24,Actblue,$10.87,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-11-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,429373,2025-01-14
+expenditure,2024-11-28,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-11-28,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-11-29,"Paychex, Inc",$140.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-12-01,Actblue,$5.93,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-12-08,Actblue,$5.35,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-12-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,429373,2025-01-14
+expenditure,2024-12-09,"Phoneburner, Inc",$149,Ladera Ranch,CA,business,Office operations,D,429373,2025-01-14
+expenditure,2024-12-12,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-12-13,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-12-13,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-12-22,Actblue,$14.82,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2024-12-23,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event sponsorship,D,429373,2025-01-14
+expenditure,2024-12-23,Justin Srsic,$237,Arlington,VA,individual,Orientation per diem,D,429373,2025-01-14
+expenditure,2024-12-23,United States Post Office,$170,Centreville,VA,business,Postage,D,429373,2025-01-14
+expenditure,2024-12-23,Virginia House Democratic Caucus,"$11,500",Richmond,VA,party,Member dues,D,429373,2025-01-14
+expenditure,2024-12-26,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,429373,2025-01-14
+expenditure,2024-12-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,429373,2025-01-14
+expenditure,2024-12-27,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,429373,2025-01-14
+expenditure,2024-12-27,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,429373,2025-01-14
+expenditure,2024-12-29,Actblue,$5.93,West Somerville,MA,business,Donation collection fee,D,429373,2025-01-14
+expenditure,2025-01-05,Actblue,$39.50,West Somerville,MA,business,Donation collection fee,D,434979,2025-04-08
+expenditure,2025-01-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,434979,2025-04-08
+expenditure,2025-01-09,"Phoneburner, Inc",$149,Ladera Ranch,CA,business,Office operations,D,434979,2025-04-08
+expenditure,2025-01-09,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-01-10,"Paychex, Inc",$212.60,Fairfax,VA,business,payroll processing fees,D,434979,2025-04-08
+expenditure,2025-01-10,"Paychex, Inc",$208.75,Fairfax,VA,business,payroll taxes,D,434979,2025-04-08
+expenditure,2025-01-17,"Automattic, Inc.",$19,San Francisco,CA,business,Website,D,434979,2025-04-08
+expenditure,2025-01-23,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-01-24,Sophia Demerath,$397.50,Saint Paul,MN,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-01-24,Lilian Johnson,$540.63,Jamaica Plain,MA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-01-24,"Paychex, Inc",$208.75,Fairfax,VA,business,payroll taxes,D,434979,2025-04-08
+expenditure,2025-01-24,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,434979,2025-04-08
+expenditure,2025-01-24,"Paychex, Inc",$72.03,Fairfax,VA,business,payroll taxes,D,434979,2025-04-08
+expenditure,2025-01-24,Catherine Quidas,$465,Alexandria,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-01-27,"Paychex, Inc",$276.80,Fairfax,VA,business,payroll processing fees,D,434979,2025-04-08
+expenditure,2025-01-27,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,434979,2025-04-08
+expenditure,2025-01-31,Sophia Demerath,$200.35,Saint Paul,MN,individual,Parking reimbursement,D,434979,2025-04-08
+expenditure,2025-02-06,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-02-07,Sophia Demerath,$600,Saint Paul,MN,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-02-07,"Paychex, Inc",$414.82,Fairfax,VA,business,payroll taxes,D,434979,2025-04-08
+expenditure,2025-02-07,"Paychex, Inc",$143.80,Fairfax,VA,business,payroll processing fees,D,434979,2025-04-08
+expenditure,2025-02-07,Catherine Quidas,$600,Alexandria,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-02-10,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,434979,2025-04-08
+expenditure,2025-02-10,"Phoneburner, Inc",$149,Ladera Ranch,CA,business,Office operations,D,434979,2025-04-08
+expenditure,2025-02-12,Democratic Party of Virginia,$919.51,Richmond,VA,party,Voter file,D,434979,2025-04-08
+expenditure,2025-02-20,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-02-21,Sophia Demerath,$600,Saint Paul,MN,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-02-21,Sophia Demerath,$131,Saint Paul,MN,individual,Parking reimbursement,D,434979,2025-04-08
+expenditure,2025-02-21,"Paychex, Inc",$77.30,Fairfax,VA,business,payroll processing fees,D,434979,2025-04-08
+expenditure,2025-02-21,"Paychex, Inc",$291.95,Fairfax,VA,business,payroll taxes,D,434979,2025-04-08
+expenditure,2025-02-21,Catherine Quidas,$600,Alexandria,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-02-23,Actblue,$46.81,West Somerville,MA,business,Donation collection fee,D,434979,2025-04-08
+expenditure,2025-02-25,United States Post Office,$188,Centreville,VA,business,Postage,D,434979,2025-04-08
+expenditure,2025-02-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,434979,2025-04-08
+expenditure,2025-03-03,County of Fairfax,$352.80,Fairfax,VA,business,Filing fees,D,434979,2025-04-08
+expenditure,2025-03-05,Treasurer of Virginia,$10.03,Richmond,VA,business,Tax payment,D,434979,2025-04-08
+expenditure,2025-03-06,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-03-07,Sophia Demerath,$600,Saint Paul,MN,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-03-07,"Paychex, Inc",$77.30,Fairfax,VA,business,payroll processing fees,D,434979,2025-04-08
+expenditure,2025-03-07,"Paychex, Inc",$291.45,Fairfax,VA,business,payroll taxes,D,434979,2025-04-08
+expenditure,2025-03-07,Catherine Quidas,$600,Alexandria,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-03-09,Actblue,$0.20,West Somerville,MA,business,Donation collection fee,D,434979,2025-04-08
+expenditure,2025-03-10,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,434979,2025-04-08
+expenditure,2025-03-10,"Phoneburner, Inc",$165,Ladera Ranch,CA,business,Office operations,D,434979,2025-04-08
+expenditure,2025-03-12,Justin Srsic,"$1,794.89",Arlington,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-03-20,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,434979,2025-04-08
+expenditure,2025-03-21,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,434979,2025-04-08
+expenditure,2025-03-21,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,434979,2025-04-08
+expenditure,2025-03-23,Actblue,$21.15,West Somerville,MA,business,Donation collection fee,D,434979,2025-04-08
+expenditure,2025-03-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,434979,2025-04-08
+expenditure,2025-03-30,Actblue,$63.20,West Somerville,MA,business,Donation collection fee,D,434979,2025-04-08
+expenditure,2025-03-31,Actblue,$19.75,West Somerville,MA,business,Donation collection fee,D,434979,2025-04-08
+expenditure,2025-04-03,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,450784,2025-08-30
+expenditure,2025-04-03,Staples - Baileys Crossroads,$84.79,Falls Church,VA,business,Office supplies,D,450784,2025-08-30
+expenditure,2025-04-04,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,450784,2025-08-30
+expenditure,2025-04-04,"Paychex, Inc",$920.10,Fairfax,VA,business,payroll processing fees,D,450784,2025-08-30
+expenditure,2025-04-06,Actblue,$0.20,West Somerville,MA,business,Donation collection fee,D,450784,2025-08-30
+expenditure,2025-04-08,"Paychex, Inc",$896.35,Fairfax,VA,business,payroll taxes,D,450784,2025-08-30
+expenditure,2025-04-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,450784,2025-08-30
+expenditure,2025-04-09,"Phoneburner, Inc",$165,Ladera Ranch,CA,business,Office operations,D,450784,2025-08-30
+expenditure,2025-04-13,Actblue,$7.90,West Somerville,MA,business,Donation collection fee,D,450784,2025-08-30
+expenditure,2025-04-17,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,450784,2025-08-30
+expenditure,2025-04-18,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,450784,2025-08-30
+expenditure,2025-04-18,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,450784,2025-08-30
+expenditure,2025-04-23,"Automattic, Inc.",$288,San Francisco,CA,business,Website,D,450784,2025-08-30
+expenditure,2025-04-27,Actblue,$0.99,West Somerville,MA,business,Donation collection fee,D,450784,2025-08-30
+expenditure,2025-04-28,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,450784,2025-08-30
+expenditure,2025-04-29,US Postal Service - Alexandria,$14.60,Alexandria,VA,business,Postage,D,450784,2025-08-30
+expenditure,2025-05-01,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,450784,2025-08-30
+expenditure,2025-05-02,Fairfax County Democratic Committee,$200,Fairfax,VA,business,Event sponsorship,D,450784,2025-08-30
+expenditure,2025-05-02,Fairfax County Democratic Committee,$250,Fairfax,VA,business,Event sponsorship,D,450784,2025-08-30
+expenditure,2025-05-02,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,450784,2025-08-30
+expenditure,2025-05-02,"Paychex, Inc",$70.10,Fairfax,VA,business,payroll processing fees,D,450784,2025-08-30
+expenditure,2025-05-04,Actblue,$4.15,West Somerville,MA,business,Donation collection fee,D,450784,2025-08-30
+expenditure,2025-05-06,VA Department of Taxation,$13.22,Richmond,VA,business,Tax payment,D,450784,2025-08-30
+expenditure,2025-05-09,Commonwealth Victory Fund,$650,Richmond,VA,business,Homestead,D,450784,2025-08-30
+expenditure,2025-05-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,450784,2025-08-30
+expenditure,2025-05-09,"Phoneburner, Inc",$165,Ladera Ranch,CA,business,Office operations,D,450784,2025-08-30
+expenditure,2025-05-11,Actblue,$0.20,West Somerville,MA,business,Donation collection fee,D,450784,2025-08-30
+expenditure,2025-05-14,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Member dues,D,450784,2025-08-30
+expenditure,2025-05-15,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,450784,2025-08-30
+expenditure,2025-05-16,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,450784,2025-08-30
+expenditure,2025-05-16,"Paychex, Inc",$74.35,Fairfax,VA,business,payroll processing fees,D,450784,2025-08-30
+expenditure,2025-05-20,Greenbriar Civic Association,$240,Chantilly,VA,business,Event space,D,450784,2025-08-30
+expenditure,2025-05-25,Actblue,$1.15,West Somerville,MA,business,Donation collection fee,D,450784,2025-08-30
+expenditure,2025-05-27,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,450784,2025-08-30
+expenditure,2025-05-29,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,450784,2025-08-30
+expenditure,2025-05-30,NGP VAN,"$3,150",Washington,DC,business,Campaign database,D,450784,2025-08-30
+expenditure,2025-05-30,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,450784,2025-08-30
+expenditure,2025-05-30,"Paychex, Inc",$74.35,Fairfax,VA,business,payroll processing fees,D,450784,2025-08-30
+expenditure,2025-06-01,Actblue,$59.28,West Somerville,MA,business,Donation collection fee,D,450784,2025-08-30
+expenditure,2025-06-04,Safeway #1341 Fairfax,$59.81,Fairfax,VA,business,Fundraiser supplies,D,450784,2025-08-30
+expenditure,2025-06-05,Actblue,$18.78,West Somerville,MA,business,Donation collection fee,D,450784,2025-08-30
+expenditure,2025-06-08,Actblue,$0.40,West Somerville,MA,business,Donation collection fee,D,450786,2025-08-30
+expenditure,2025-06-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,450786,2025-08-30
+expenditure,2025-06-09,"Phoneburner, Inc",$165,Ladera Ranch,CA,business,Office operations,D,450786,2025-08-30
+expenditure,2025-06-12,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,450786,2025-08-30
+expenditure,2025-06-13,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,450786,2025-08-30
+expenditure,2025-06-13,"Paychex, Inc",$74.35,Fairfax,VA,business,payroll processing fee,D,450786,2025-08-30
+expenditure,2025-06-15,Actblue,$9.89,West Somerville,MA,business,Donation collection fee,D,450786,2025-08-30
+expenditure,2025-06-22,Actblue,$3.95,West Somerville,MA,business,Donation collection fee,D,450786,2025-08-30
+expenditure,2025-06-26,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,450786,2025-08-30
+expenditure,2025-06-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,450786,2025-08-30
+expenditure,2025-06-27,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,450786,2025-08-30
+expenditure,2025-06-27,"Paychex, Inc",$74.35,Fairfax,VA,business,payroll processing fee,D,450786,2025-08-30
+expenditure,2025-06-29,Actblue,$13.83,West Somerville,MA,business,Donation collection fee,D,450786,2025-08-30
+expenditure,2025-06-30,Actblue,$1.78,West Somerville,MA,business,Donation collection fee,D,450786,2025-08-30
+expenditure,2025-07-06,Actblue,$4.15,West Somerville,MA,business,Donation collection fee,D,452114,2025-09-08
+expenditure,2025-07-07,Virginia House Democratic Caucus,"$5,000",Richmond,VA,party,Member dues,D,452114,2025-09-08
+expenditure,2025-07-08,Harris Teeter - King St,$15.10,Alexandria,VA,business,supplies,D,452114,2025-09-08
+expenditure,2025-07-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,452114,2025-09-08
+expenditure,2025-07-09,"Phoneburner, Inc",$165,Ladera Ranch,CA,business,Office operations,D,452114,2025-09-08
+expenditure,2025-07-11,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,452114,2025-09-08
+expenditure,2025-07-11,"Paychex, Inc",$74.35,Fairfax,VA,business,payroll processing fee,D,452114,2025-09-08
+expenditure,2025-07-11,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,452114,2025-09-08
+expenditure,2025-07-20,Actblue,$0.60,West Somerville,MA,business,Donation collection fee,D,452114,2025-09-08
+expenditure,2025-07-25,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,452114,2025-09-08
+expenditure,2025-07-25,"Paychex, Inc",$74.35,Fairfax,VA,business,payroll processing fee,D,452114,2025-09-08
+expenditure,2025-07-25,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,452114,2025-09-08
+expenditure,2025-07-27,Actblue,$12.25,West Somerville,MA,business,Donation collection fee,D,452114,2025-09-08
+expenditure,2025-07-28,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,452114,2025-09-08
+expenditure,2025-08-03,Actblue,$6.50,West Somerville,MA,business,Donation collection fee,D,452114,2025-09-08
+expenditure,2025-08-07,Fairfax County Democratic Committee,"$1,000",Fairfax,VA,business,Event sponsorship,D,452114,2025-09-08
+expenditure,2025-08-08,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,452114,2025-09-08
+expenditure,2025-08-08,"Paychex, Inc",$74.35,Fairfax,VA,business,payroll processing fee,D,452114,2025-09-08
+expenditure,2025-08-08,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,452114,2025-09-08
+expenditure,2025-08-10,Actblue,$30.43,West Somerville,MA,business,Donation collection fee,D,452114,2025-09-08
+expenditure,2025-08-11,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,452114,2025-09-08
+expenditure,2025-08-11,NGP VAN,"$1,575",Washington,DC,business,Campaign database,D,452114,2025-09-08
+expenditure,2025-08-11,"Phoneburner, Inc",$165,Ladera Ranch,CA,business,Office operations,D,452114,2025-09-08
+expenditure,2025-08-17,Actblue,$7.12,West Somerville,MA,business,Donation collection fee,D,452114,2025-09-08
+expenditure,2025-08-18,Treasurer of Virginia,$10.12,Richmond,VA,business,Tax payment,D,452114,2025-09-08
+expenditure,2025-08-20,United States Post Office,$17.94,Centreville,VA,business,postage,D,452114,2025-09-08
+expenditure,2025-08-22,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,452114,2025-09-08
+expenditure,2025-08-22,"Paychex, Inc",$74.35,Fairfax,VA,business,payroll processing fee,D,452114,2025-09-08
+expenditure,2025-08-22,Spanberger for Governor,"$1,000",Glen Allen,VA,business,contribution,D,452114,2025-09-08
+expenditure,2025-08-22,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,452114,2025-09-08
+expenditure,2025-08-24,Actblue,$0.99,West Somerville,MA,business,Donation collection fee,D,452114,2025-09-08
+expenditure,2025-08-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,452114,2025-09-08
+expenditure,2025-08-31,Actblue,$7.25,West Somerville,MA,business,Donation collection fee,D,452114,2025-09-08
+expenditure,2025-08-31,Staples - Baileys Crossroads,$90.09,Falls Church,VA,business,Office supplies,D,452114,2025-09-08
+expenditure,2025-09-02,Mission Control Inc,$995,Glastonbury,CT,business,campaign literature,D,459052,2025-10-11
+expenditure,2025-09-02,Mission Control Inc,"$1,700",Glastonbury,CT,business,campaign literature,D,459052,2025-10-11
+expenditure,2025-09-03,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Caucus dues,D,459052,2025-10-11
+expenditure,2025-09-04,Virginia House Democratic Caucus,"$75,000",Richmond,VA,party,Campaign contribution,D,459052,2025-10-11
+expenditure,2025-09-07,Actblue,$6.13,West Somerville,MA,business,Donation collection fee,D,459052,2025-10-11
+expenditure,2025-09-08,"Paychex, Inc",$191.25,Fairfax,VA,business,payroll taxes,D,459052,2025-10-11
+expenditure,2025-09-08,Justin Srsic,"$2,500",Arlington,VA,individual,Payroll,D,459052,2025-10-11
+expenditure,2025-09-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,459052,2025-10-11
+expenditure,2025-09-09,"Paychex, Inc",$74.35,Fairfax,VA,business,payroll processing fee,D,459052,2025-10-11
+expenditure,2025-09-09,"Phoneburner, Inc",$165,Ladera Ranch,CA,business,Office operations,D,459052,2025-10-11
+expenditure,2025-09-11,Virginia House Democratic Caucus,"$25,000",Richmond,VA,party,Campaign contribution,D,459052,2025-10-11
+expenditure,2025-09-14,Actblue,$1.98,West Somerville,MA,business,Donation collection fee,D,459052,2025-10-11
+expenditure,2025-09-16,Virginia Aeronautical Historical Society,$85,Fredericksburg,VA,business,event ticket,D,459052,2025-10-11
+expenditure,2025-09-22,Truist Bank,$15,Fairfax,VA,business,Bank fee,D,459052,2025-10-11
+expenditure,2025-09-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,459052,2025-10-11
+expenditure,2025-09-28,Actblue,$0.99,West Somerville,MA,business,Donation collection fee,D,459052,2025-10-11
+expenditure,2025-10-03,NGP VAN,"$1,575",Washington,DC,business,Campaign database,D,464053,2025-10-24
+expenditure,2025-10-05,Actblue,$0.20,West Somerville,MA,business,Donation collection fee,D,464053,2025-10-24
+expenditure,2025-10-09,Extra Space Storage,$110,Chantilly,VA,business,Storage facility,D,464053,2025-10-24
+expenditure,2025-10-09,"Phoneburner, Inc",$165,Ladera Ranch,CA,business,Office operations,D,464053,2025-10-24
+expenditure,2025-10-12,Actblue,$43.45,West Somerville,MA,business,Donation collection fee,D,464053,2025-10-24
+expenditure,2025-10-14,Kathy Tran for Delegate,$75,Springfield,VA,candidate,Joint newspaper ad,D,464053,2025-10-24
+expenditure,2025-10-16,Harris Teeter - King St,$13.21,Alexandria,VA,business,parade materials,D,464053,2025-10-24
+expenditure,2025-10-17,The Jefferson Hotel,$18,Richmond,VA,business,parking,D,464053,2025-10-24
+expenditure,2025-10-19,Actblue,$98.75,West Somerville,MA,business,Donation collection fee,D,464053,2025-10-24
+expenditure,2025-10-20,Courtyard Richmond Marriott Downtown,$290.46,Richmond,VA,business,Hotel stay and parking,D,464053,2025-10-24
+expenditure,2025-10-20,The Jefferson Hotel,$18,Richmond,VA,business,parking,D,464053,2025-10-24
+expenditure,2025-10-23,Hilton Richmond,$231.98,Richmond,VA,business,Hotel stay and parking,D,464053,2025-10-24
+expenditure,2025-10-24,Jacqueline Garry,$550,Alexandria,VA,individual,campaign services,D,471115,2025-12-02
+expenditure,2025-10-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,471115,2025-12-02
+expenditure,2025-10-31,Staples - Baileys Crossroads,$36.03,Falls Church,VA,business,printer ink,D,471115,2025-12-02
+expenditure,2025-11-02,Actblue,$0.40,West Somerville,MA,business,Donation collection fee,D,471115,2025-12-02
+expenditure,2025-11-04,Actblue,$2.58,West Somerville,MA,business,Donation collection fee,D,471115,2025-12-02
+expenditure,2025-11-04,Lazy Dog Restaurant - Chantilly,$156.20,Chantilly,VA,business,Election night watch party food,D,471115,2025-12-02
+expenditure,2025-11-09,"Phoneburner, Inc",$165,Ladera Ranch,CA,business,Office operations,D,471115,2025-12-02
+expenditure,2025-11-10,Extra Space Storage,$122,Chantilly,VA,business,Storage facility,D,471115,2025-12-02
+expenditure,2025-11-10,"Paychex, Inc",$58,Fairfax,VA,business,payroll processing fee,D,471115,2025-12-02
+expenditure,2025-11-13,Fairfax County Democratic Committee,$100,Fairfax,VA,business,Membership dues,D,471115,2025-12-02
+expenditure,2025-11-26,Zoom,$16.79,San Jose,CA,business,virtual communication platform,D,471115,2025-12-02
 expenditure,2025-12-02,"Automattic, Inc.",$32.44,San Francisco,CA,business,Email capability,D,474932,2026-01-05
 expenditure,2025-12-04,Fairfax County Democratic Committee,$100,Fairfax,VA,business,Event sponsorship,D,474932,2026-01-05
 expenditure,2025-12-09,Extra Space Storage,$122,Chantilly,VA,business,Storage facility,D,474932,2026-01-05

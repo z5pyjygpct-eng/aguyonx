@@ -24,6 +24,16 @@ from pathlib import Path
 
 WT = Path(__file__).resolve().parents[2]
 BULK = Path("/workspace/research/elect_bulk")
+# Filtered copies of the same official monthly files for months whose itemized
+# schedules were missing from BULK (2021-01..2021-12 and 2023-02..2025-12).
+# Rows are kept only for the sitting members' committees and their earlier
+# House/Senate committees (tools/finance/prior-ga-committees.json).
+HIST = Path("/workspace/research/elect_hist")
+PRIOR_COMMITTEES = Path(__file__).resolve().parent / "prior-ga-committees.json"
+WINDOW_START = date(2021, 1, 1)  # never go back before 2021
+HISTORY_DONORS_PER_YEAR = 25
+HISTORY_VENDORS_PER_YEAR = 15
+HISTORY_ITEMS_PER_ROW = 25
 COMMITTEES = WT / "src/content/finance-committees.json"
 DONORS_FILE = WT / "src/content/finance-donors.json"
 OUT = WT / "src/content/finance-summaries.json"
@@ -102,6 +112,31 @@ def money_cents(raw: str) -> int:
 
 def is_true(v: str) -> bool:
     return (v or "").strip().lower() in {"true", "1", "yes", "y"}
+
+
+def fix_text(v: str) -> str:
+    """State files are Windows-1252; csv is read as latin-1, so repair curly quotes/dashes."""
+    if not v or not any("\x80" <= ch <= "\x9f" for ch in v):
+        return v
+    try:
+        return v.encode("latin-1").decode("cp1252")
+    except UnicodeError:
+        return v
+
+
+def read_rows(path: Path):
+    with path.open(encoding="latin-1", newline="") as f:
+        for row in csv.DictReader(f):
+            yield {k: fix_text(v) if isinstance(v, str) else v for k, v in row.items()}
+
+
+def month_dir(month: str) -> Path:
+    """Prefer whichever copy of a month has itemized schedules."""
+    if (BULK / month / "ScheduleA.csv").exists():
+        return BULK / month
+    if (HIST / month / "ScheduleA.csv").exists():
+        return HIST / month
+    return BULK / month
 
 
 def iso_date(raw: str) -> str:
@@ -284,25 +319,175 @@ def load_indexed_donor_ids() -> set[str]:
     return ids
 
 
+def build_history(lis_id, meta, prior_committees, winners, schedules, add_txn, indexed_donors):
+    """Year-by-year money from 2021 to the latest filing, across the member's current
+    committee and any earlier House/Senate committee. Uses only the latest amendment of
+    each scheduled report (large-contribution reports repeat gifts and are skipped)."""
+    codes = [meta["committeeCode"]] + [c["committeeCode"] for c in prior_committees if c["committeeCode"] != meta["committeeCode"]]
+    names = {meta["committeeCode"]: meta["committeeName"]}
+    for c in prior_committees:
+        names.setdefault(c["committeeCode"], c["committeeName"])
+    reps = sorted(
+        (r for r in winners.values() if r["committeeCode"] in codes and r["filingType"] == "Report"),
+        key=lambda r: (r["end"], r["start"], r["reportId"]),
+    )
+    years: dict[int, dict] = {}
+
+    def yr(y: int) -> dict:
+        if y not in years:
+            years[y] = {
+                "year": y, "raisedCents": 0, "spentCents": 0, "endingBalanceCents": None,
+                "reports": 0, "giftCount": 0, "giftCents": 0, "paymentCount": 0, "paymentCents": 0,
+                "committees": [], "_donors": {}, "_vendors": {},
+            }
+        return years[y]
+
+    report_rows = []
+    csv_lines = [["section", "date", "name", "amount_usd", "city", "state", "type", "employer", "occupation",
+                  "description", "schedule", "report_id", "report_period", "committee_code", "committee_name"]]
+    today = date.today().isoformat()
+    for rec in reps:
+        sch = schedules.get(rec["reportId"]) or {}
+        h = (sch.get("H") or [None])[0]
+        end_year = int(rec["end"][:4]) if rec["end"] else None
+        receipts = money_cents((h or {}).get("CurrentReceipts") or "") if h else 0
+        disb = money_cents((h or {}).get("CurrentDisbursements") or "") if h else 0
+        ending = money_cents((h or {}).get("EndingBalance") or "") if h else None
+        report_rows.append({
+            "reportId": rec["reportId"], "committeeCode": rec["committeeCode"],
+            "committeeName": rec["committeeName"] or names.get(rec["committeeCode"], ""),
+            "start": rec["start"], "end": rec["end"], "filed": rec["filingDate"],
+            "amendment": rec["amendmentCount"], "receiptsCents": receipts, "disbursementsCents": disb,
+            "endingBalanceCents": ending, "hasSchedules": bool(h),
+        })
+        if end_year:
+            y = yr(end_year)
+            y["reports"] += 1
+            y["raisedCents"] += receipts
+            y["spentCents"] += disb
+            if ending is not None:
+                y["endingBalanceCents"] = ending
+            cname = rec["committeeName"] or names.get(rec["committeeCode"], "")
+            if cname and cname not in y["committees"]:
+                y["committees"].append(cname)
+        period = f"{rec['start']} to {rec['end']}"
+        for sched in ("A", "B", "D"):
+            bucket: list[dict] = []
+            for row in sch.get(sched) or []:
+                add_txn(bucket, row, sched)
+            for t in bucket:
+                d = t["date"] or rec["end"]
+                if not d or d < WINDOW_START.isoformat() or d > today:
+                    if not d or d < WINDOW_START.isoformat():
+                        continue
+                y = yr(int(d[:4]))
+                csv_lines.append([
+                    {"A": "contribution", "B": "in_kind", "D": "expenditure"}[sched], t["date"], t["name"],
+                    pretty_usd_header(t["cents"]), t["city"], t["state"], t["kind"] if sched != "D" else "",
+                    t["employer"] if sched != "D" else "", t["occupation"] if sched != "D" else "",
+                    t["item"], sched, rec["reportId"], period, rec["committeeCode"],
+                    rec["committeeName"] or names.get(rec["committeeCode"], ""),
+                ])
+                if sched == "D":
+                    y["paymentCount"] += 1
+                    y["paymentCents"] += t["cents"]
+                    key = fold(t["name"]) or t["name"]
+                    v = y["_vendors"].setdefault(key, {"name": t["name"], "cents": 0, "count": 0, "items": []})
+                    v["cents"] += t["cents"]
+                    v["count"] += 1
+                    v["items"].append({"item": t["item"], "date": t["date"], "cents": t["cents"],
+                                       "category": spend_category(t["item"], t["name"])})
+                else:
+                    y["giftCount"] += 1
+                    y["giftCents"] += t["cents"]
+                    key = fold(t["name"]) or t["name"]
+                    dn = y["_donors"].setdefault(key, {"name": t["name"], "cents": 0, "count": 0, "kind": t["kind"],
+                                                       "city": t["city"], "state": t["state"], "inKindCents": 0, "gifts": []})
+                    dn["cents"] += t["cents"]
+                    dn["count"] += 1
+                    if sched == "B":
+                        dn["inKindCents"] += t["cents"]
+                    gift = {"date": t["date"], "cents": t["cents"], "type": "inkind" if sched == "B" else "direct",
+                            "reportId": rec["reportId"]}
+                    if sched == "B" and t["item"]:
+                        gift["item"] = t["item"]
+                    if t["individual"]:
+                        if t["employer"]:
+                            gift["employer"] = t["employer"]
+                        if t["occupation"]:
+                            gift["occupation"] = t["occupation"]
+                    dn["gifts"].append(gift)
+    out_years = []
+    for y in sorted(years.values(), key=lambda v: -v["year"]):
+        if y["year"] < WINDOW_START.year:
+            continue
+        donors = sorted(y.pop("_donors").values(), key=lambda d: (-d["cents"], d["name"]))
+        vendors = sorted(y.pop("_vendors").values(), key=lambda d: (-d["cents"], d["name"]))
+        y["donorCount"] = len(donors)
+        y["vendorCount"] = len(vendors)
+        top = []
+        for dn in donors[:HISTORY_DONORS_PER_YEAR]:
+            dn["gifts"].sort(key=lambda g: (g["date"] or "", g["cents"]), reverse=True)
+            dn["gifts"] = dn["gifts"][:HISTORY_ITEMS_PER_ROW]
+            slug = slugify(dn["name"])
+            if slug in indexed_donors:
+                dn["donorId"] = slug
+            if not dn["inKindCents"]:
+                dn.pop("inKindCents")
+            top.append(dn)
+        topv = []
+        for v in vendors[:HISTORY_VENDORS_PER_YEAR]:
+            v["items"].sort(key=lambda g: (g["date"] or "", g["cents"]), reverse=True)
+            v["items"] = v["items"][:HISTORY_ITEMS_PER_ROW]
+            topv.append(v)
+        y["donors"] = top
+        y["vendors"] = topv
+        if y["endingBalanceCents"] is None:
+            y.pop("endingBalanceCents")
+        out_years.append(y)
+    committees = [{"committeeCode": c, "committeeName": names.get(c, ""), "current": c == meta["committeeCode"]} for c in codes
+                  if any(r["committeeCode"] == c for r in report_rows)]
+    history = {
+        "from": WINDOW_START.isoformat(),
+        "through": report_rows[-1]["end"] if report_rows else None,
+        "committees": committees,
+        "years": out_years,
+        "reports": list(reversed(report_rows)),
+        "csvPath": f"/files/campaign-money/history/{meta['slug']}.csv" if len(csv_lines) > 1 else None,
+        "note": (
+            "Raised and spent by year are the official per-report totals (Schedule H) for scheduled reports whose period "
+            "ended that year. Top givers and vendors are the itemized rows dated that year. Large-contribution reports "
+            "repeat gifts already on scheduled reports, so they are not counted twice."
+        ),
+    }
+    return history, (csv_lines if len(csv_lines) > 1 else None)
+
+
 def main() -> None:
     committees = json.loads(COMMITTEES.read_text())
     members = committees["members"]
     by_code = {v["committeeCode"]: v for v in members.values()}
+    prior = json.loads(PRIOR_COMMITTEES.read_text())["members"] if PRIOR_COMMITTEES.exists() else {}
+    prior_codes = {c["committeeCode"]: lis for lis, p in prior.items() for c in p["committees"]}
+    wanted_codes = set(by_code) | set(prior_codes)
     indexed_donors = load_indexed_donor_ids()
 
-    months = sorted(p.name for p in BULK.iterdir() if p.is_dir() and re.match(r"\d{4}_\d{2}$", p.name))
-    schedule_months = [m for m in months if (BULK / m / "ScheduleA.csv").exists()]
+    months = sorted(
+        {p.name for root in (BULK, HIST) if root.exists() for p in root.iterdir() if p.is_dir() and re.match(r"\d{4}_\d{2}$", p.name)}
+    )
+    months = [m for m in months if m >= f"{WINDOW_START.year}_01"]
+    schedule_months = [m for m in months if (month_dir(m) / "ScheduleA.csv").exists()]
 
     # Collect reports for our committees
     reports_by_id: dict[str, dict] = {}
     for month in months:
-        path = BULK / month / "Report.csv"
+        path = month_dir(month) / "Report.csv"
         if not path.exists():
             continue
-        with path.open(encoding="latin-1", newline="") as f:
-            for row in csv.DictReader(f):
+        if True:
+            for row in read_rows(path):
                 code = (row.get("CommitteeCode") or "").strip()
-                if code not in by_code:
+                if code not in wanted_codes:
                     continue
                 rid = (row.get("ReportId") or "").strip()
                 if not rid:
@@ -355,7 +540,12 @@ def main() -> None:
             prev["reportId"],
         ):
             period_best[pkey] = rec
-    winners = {rec["reportId"]: rec for rec in period_best.values()}
+    winners = {
+        rec["reportId"]: rec
+        for rec in period_best.values()
+        # Do not go back before 2021: drop reports whose period ended in 2020 or earlier.
+        if not rec["end"] or rec["end"] >= WINDOW_START.isoformat()
+    }
     winner_ids = set(winners)
 
     # Load schedules only for winning reports of our committees
@@ -374,11 +564,11 @@ def main() -> None:
     }
     for month in schedule_months:
         for key, fname in sched_files.items():
-            path = BULK / month / fname
+            path = month_dir(month) / fname
             if not path.exists():
                 continue
-            with path.open(encoding="latin-1", newline="") as f:
-                for row in csv.DictReader(f):
+            if True:
+                for row in read_rows(path):
                     rid = (row.get("ReportId") or "").strip()
                     if rid not in winner_ids:
                         continue
@@ -412,6 +602,7 @@ def main() -> None:
 
     members_out: dict[str, dict] = {}
     csv_rows_by_slug: dict[str, list[list[str]]] = {}
+    history_csv_by_slug: dict[str, list[list[str]]] = {}
 
     for lis_id, meta in members.items():
         code = meta["committeeCode"]
@@ -461,13 +652,10 @@ def main() -> None:
             and r["reportId"] in schedules
         ]
 
-        # Itemized coverage: full if cycle starts in a month we have schedules for (2022 or 2026, or Jan 2023)
-        # and does not extend through the 2023-02..2025-12 gap before the cycle end of the latest report.
+        # Itemized coverage: every month from 2021-01 through the latest file now has
+        # schedules, so a cycle is complete unless it began before 2021 (we do not go back further).
         cstart = parse_day(latest["cycleStart"]) or parse_day("1900-01-01")
-        gap_start, gap_end = date(2023, 2, 1), date(2025, 12, 31)
-        period_end = parse_day(latest["end"]) or date.today()
-        overlaps_gap = cstart <= gap_end and period_end >= gap_start
-        itemized_full = not overlaps_gap
+        itemized_full = cstart >= WINDOW_START
 
         def add_txn(bucket: list, row: dict, sched: str) -> None:
             if sched == "E":
@@ -709,9 +897,8 @@ def main() -> None:
         else:
             itemized_note = (
                 "Official raised, spent, and cash-on-hand totals come from the latest state report for this cycle. "
-                "The named-donor and spending lists only include itemized rows from the monthly files we have on hand "
-                "(January 2022–January 2023 and January–October 2026). Scheduled reports from February 2023 through "
-                "December 2025 are in the filing record, but their itemized schedules were not in the local archive."
+                "This cycle began before 2021, so the named-donor and spending lists start with reports covering "
+                "January 1, 2021 and later; earlier gifts in the cycle are not shown."
             )
 
         verification = None
@@ -738,6 +925,12 @@ def main() -> None:
                 "xmlUrl": f"https://cfreports.elections.virginia.gov/Report/ReportXML/{KILGORE_XML['reportId']}",
                 "checkedOn": "2026-11-12",
             }
+
+        history, history_lines = build_history(
+            lis_id, meta, prior.get(lis_id, {}).get("committees", []), winners, schedules, add_txn, indexed_donors
+        )
+        if history_lines:
+            history_csv_by_slug[meta["slug"]] = history_lines
 
         csv_path = f"/files/campaign-money/{meta['slug']}.csv"
         members_out[lis_id] = {
@@ -802,6 +995,7 @@ def main() -> None:
                 for x in debt_rows
             ],
             "filings": filings,
+            "history": history,
             "csvPath": csv_path,
             **({"verification": verification} if verification else {}),
         }
@@ -892,8 +1086,9 @@ def main() -> None:
             "(apps.elections.virginia.gov/SBE_CSV/CF/ Report.csv and Schedules A–I). "
             "Totals use Schedule H/G from the latest amendment of each committee's most recent "
             "scheduled report. Itemized gifts and spending use the latest amendment only, from "
-            "monthly files on hand: 2022-01 through 2023-01 and 2026-01 through 2026-10. "
-            "Months 2023-02 through 2025-12 have report headers in this archive, but not itemized schedules. "
+            f"monthly files {schedule_months[0].replace('_', '-')} through {schedule_months[-1].replace('_', '-')} "
+            "(no reports for periods ending before 2021). The 2021-present history also includes each member's "
+            "earlier House or Senate committee when they had one. "
             "Kilgore for Delegate report 495571 was checked against the official XML at "
             "cfreports.elections.virginia.gov/Report/ReportXML/495571 on 2026-11-12. "
             "No Virginia Public Access Project data."
@@ -955,6 +1150,16 @@ def main() -> None:
             f.write(f"Copy of official Virginia Department of Elections campaign finance data, as of {as_of}. Not from VPAP.\n")
             writer = csv.writer(f)
             writer.writerows(lines)
+
+    hist_dir = CSV_DIR / "history"
+    hist_dir.mkdir(parents=True, exist_ok=True)
+    for old in hist_dir.glob("*.csv"):
+        if old.stem not in history_csv_by_slug:
+            old.unlink()
+    for slug, lines in history_csv_by_slug.items():
+        with (hist_dir / f"{slug}.csv").open("w", encoding="utf-8-sig", newline="") as f:
+            f.write("Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.\n")
+            csv.writer(f).writerows(lines)
 
     ready = payload["readyCount"]
     print(f"wrote {OUT} bytes={OUT.stat().st_size} members={payload['memberCount']} ready={ready} csvs={len(csv_rows_by_slug)}")

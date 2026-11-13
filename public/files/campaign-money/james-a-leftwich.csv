@@ -3,6 +3,211 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$52,153.81",,VA,,"From official Schedule H, November 2025 election cycle",H,491648,2026-07-02
 summary,2026-06-30,Raised this cycle,"$1,537,929.59",,,,Total receipts this election cycle (Schedule H),H,491648,2026-07-02
 summary,2026-06-30,Spent this cycle,"$1,517,899.80",,,,Total disbursements this election cycle (Schedule H),H,491648,2026-07-02
+contribution,2025-01-07,IGT Global Solutions,"$1,000",Reno,NV,business,,A,438239,2025-05-22
+contribution,2025-01-06,McGuireWoods Consulting LLC,$500,Richmond,VA,business,,A,438239,2025-05-22
+contribution,2025-01-07,The Virginia Contractor Procurment Alliance,"$4,000",Richmond,VA,business,,A,438239,2025-05-22
+contribution,2025-01-06,Virginia Automobile & Truck Dealers Pac,$500,Richmond,VA,pac,,A,438239,2025-05-22
+contribution,2025-01-06,Virginia Manufactured & Modular Housing Assoc.,$250,Richmond,VA,pac,,A,438239,2025-05-22
+contribution,2025-02-25,Susan Archer,$500,Chesapeake,VA,individual,,A,438239,2025-05-22
+contribution,2025-03-05,Gregory Ireland,$250,Chesapeake,VA,individual,,A,438239,2025-05-22
+contribution,2025-03-31,Michelle Jones,$100,Chesapeake,VA,individual,,A,438239,2025-05-22
+contribution,2025-03-10,James Leftwich,"$10,813.44",Chesapeake,VA,individual,,A,438239,2025-05-22
+contribution,2025-03-31,Tom Manos,$25,Chesapeake,VA,individual,,A,438239,2025-05-22
+contribution,2025-01-06,John Morse,$500,Chesapeake,VA,individual,,A,438239,2025-05-22
+contribution,2025-03-31,Kirk Woodruff,$500,Chesapeake,VA,individual,,A,438239,2025-05-22
+contribution,2025-01-06,"Arrowhead International, Inc.",$500,Cleveland,OH,business,,A,438239,2025-05-22
+contribution,2025-01-07,HCA for Good Government,"$1,000",Reston,VA,pac,,A,438239,2025-05-22
+contribution,2025-05-29,Affordable Towing & Recovery,$500,Chesapeake,VA,business,,A,441903,2025-06-09
+contribution,2025-05-27,"All Points Broadband Partners, LLC",$500,Richmond,VA,business,,A,441903,2025-06-09
+contribution,2025-04-14,American Express,$1.25,New York,NY,business,,A,441903,2025-06-09
+contribution,2025-04-01,"Christian & Barton, LLP",$500,Richmond,VA,business,,A,441903,2025-06-09
+contribution,2025-04-30,City Of Chesapeake,$352.80,Chesapeake,VA,business,,A,441903,2025-06-09
+contribution,2025-05-02,Dominion Energy Pac,"$30,000",Richmond,VA,pac,,A,441903,2025-06-09
+contribution,2025-05-22,"Elbow Road Farm, Inc.",$500,Chesapeake,VA,business,,A,441903,2025-06-09
+contribution,2025-05-27,Friends Of Dave Rosado Last Name Left Blank,$500,Chesapeake,VA,candidate,,A,441903,2025-06-09
+contribution,2025-05-27,Greenwich Kitchen Center,$500,Virginia Beach,VA,business,,A,441903,2025-06-09
+contribution,2025-04-01,Publix,$500,Durham,NC,business,,A,441903,2025-06-09
+contribution,2025-05-27,The Doctors Company Virginia Pac,"$1,000",Napa,CA,pac,,A,441903,2025-06-09
+contribution,2025-05-06,Tusk & Trunk Club,$500,Virginia Beach,VA,business,,A,441903,2025-06-09
+contribution,2025-04-01,VCTA,"$2,000",Richmond,VA,business,,A,441903,2025-06-09
+contribution,2025-04-01,Virginia Automobile & Truck Dealers Pac,"$1,000",Richmond,VA,pac,,A,441903,2025-06-09
+contribution,2025-05-27,Virginia Beer Wholesalers Association,$160.01,Richmond,VA,business,,A,441903,2025-06-09
+contribution,2025-05-05,Virginia Land Title Assoc. PAC,"$1,000",Alpharetta,GA,pac,,A,441903,2025-06-09
+contribution,2025-04-01,Virginia Sheriffs' Association PAC,$250,Richmond,VA,pac,,A,441903,2025-06-09
+contribution,2025-05-27,Virginia Spirits Association,$500,North Chesterfield,VA,business,,A,441903,2025-06-09
+contribution,2025-05-29,Alan Cobb,$250,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-27,Bonnie Coffey,"$1,500",Portsmouth,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-29,Thelma Drake,$250,Norfolk,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-27,Dennis Free,$125,Virginia Beach,VA,individual,,A,441903,2025-06-09
+contribution,2025-04-01,Gregory Garrett,$250,Norfolk,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-27,Bruce Horner,$300,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-04-01,Ralph Hubbard,"$1,500",Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-04-01,Joseph Husnay,$25,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-04-01,James Jackson,$150,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-29,Andrea Kelleher,$125,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-27,Kenneth Marsh,$200,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-21,Dawn 107901 Matheson,$500,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-28,David Mick,$125,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-06,E.G. Middleton III,"$1,000",Virginia Beach,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-27,Juan 50843 Montero,$125,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-04-01,Theresa Myers,$100,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-27,Theresa Myers,$125,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-27,Grady Palmer,$125,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-24,Ronald Carroll Ripley,$500,Virginia Beach,VA,individual,,A,441903,2025-06-09
+contribution,2025-04-01,C. Edward Russell,"$1,000",Virginia Beach,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-19,Paula Slagle,$300,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-05-29,Daniel Stahler,$125,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-04-14,Bonita Whitlow,$200,Chesapeake,VA,individual,,A,441903,2025-06-09
+contribution,2025-06-09,Altria Client Services Inc.,"$2,000",Richmond,VA,business,,A,444516,2025-07-03
+contribution,2025-06-30,Anheuser Busch,$500,Atlanta,GA,business,,A,444516,2025-07-03
+contribution,2025-06-27,Publix,$500,Durham,NC,business,,A,444516,2025-07-03
+contribution,2025-06-09,Va Retail Federation PAC,$500,Richmond,VA,pac,,A,444516,2025-07-03
+contribution,2025-06-09,Virginia Natural Gas,"$1,000",Virginia Beach,VA,business,,A,444516,2025-07-03
+contribution,2025-06-09,Virginia Trial Lawyers PAC,"$3,000",Richmond,VA,pac,,A,444516,2025-07-03
+contribution,2025-06-27,Bonita Boyer,$20,Chesapeake,VA,individual,,A,444516,2025-07-03
+contribution,2025-06-16,Diageo North America,"$1,500",Washington,DC,individual,,A,444516,2025-07-03
+contribution,2025-06-30,Bruce Thompson,$500,Virginia Beach,VA,individual,,A,444516,2025-07-03
+contribution,2025-07-31,Virginia Bankpac,"$2,500",Glen Allen,VA,pac,,A,456564,2025-09-24
+contribution,2025-08-28,Virginia Beer Wholesalers Association,"$1,500",Richmond,VA,business,,A,456564,2025-09-24
+contribution,2025-08-11,Virginia Beer Wholesalers Pac,"$1,500",Richmond,VA,pac,,A,456564,2025-09-24
+contribution,2025-07-30,Virginia Beverage Association Pac,$750,Richmond,VA,pac,,A,456564,2025-09-24
+contribution,2025-07-31,Virginia Martime Association PAC,"$1,500",Norfolk,VA,pac,,A,456564,2025-09-24
+contribution,2025-08-26,Virginia Sheriffs' Association PAC,$250,Richmond,VA,pac,,A,456564,2025-09-24
+contribution,2025-07-30,Virginia Wine Wholesalers,"$2,500",Richmond,VA,business,,A,456564,2025-09-24
+contribution,2025-08-06,Travis Ashley,$10,Virginia Beach,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-04,Margie Blevins,$30,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-12,Steven Callow,$50,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-07-24,BILLY & BONNIE CURLING,"$1,000",CHESAPEAKE,VA,individual,,A,456564,2025-09-24
+contribution,2025-07-21,Peter George Decker,$250,Norfolk,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-12,Steven Dominick,"$1,000",Virginia Beach,VA,individual,,A,456564,2025-09-24
+contribution,2025-07-29,Brenda Duda,$50,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-12,KRISTINA FORBES,$100,CHESAPEAKE,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-12,Dennis Free,$150,Virginia Beach,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-12,Thelma Gilbert,$250,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-12,Amy Moyer Hagerty,$100,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-12,Bruce Horner,$200,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-14,Stacey Hugo Mansfield,$50,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-11,James Jackson,$250,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-12,Thomas Learch,$500,Crescent City,FL,individual,,A,456564,2025-09-24
+contribution,2025-08-11,Eleaner Leftwich,"$1,000",Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-12,Kenneth Marsh,$200,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-07-30,Dawn 107901 Matheson,$500,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-04,Denise Obermayer,$100,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-11,Donald James Plaster,$250,Virginia Beach,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-13,Bruce Thompson,"$1,000",Virginia Beach,VA,individual,,A,456564,2025-09-24
+contribution,2025-07-21,Kirk Woodruff,"$2,000",Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-04,Shirley Wright,$500,Chesapeake,VA,individual,,A,456564,2025-09-24
+contribution,2025-08-28,AIA Virginia PAC,$500,Chesterfield,VA,pac,,A,456564,2025-09-24
+contribution,2025-08-25,"Amazon.com Services, Inc.","$2,000",Seattle,WA,business,,A,456564,2025-09-24
+contribution,2025-07-24,Boyd-Pamunky Casino PAC,"$3,000",Norfolk,VA,pac,,A,456564,2025-09-24
+contribution,2025-08-04,Christie New Craig For Senate,$650,Chesapeake,VA,candidate,,A,456564,2025-09-24
+contribution,2025-08-25,Comcast,"$1,000",Henrico,VA,pac,,A,456564,2025-09-24
+contribution,2025-08-25,Comfort Systems of Virginia,$250,Chesapeake,VA,business,,A,456564,2025-09-24
+contribution,2025-07-29,COmmunity-Owned Power PAC,"$1,000",Glen Allen,VA,pac,,A,456564,2025-09-24
+contribution,2025-07-30,Dominion Energy Pac,"$30,000",Richmond,VA,pac,,A,456564,2025-09-24
+contribution,2025-07-29,"Elbow Road Farm, Inc.",$500,Chesapeake,VA,business,,A,456564,2025-09-24
+contribution,2025-08-01,Engineering Companies of Virginia Pac,"$1,000",Richmond,VA,pac,,A,456564,2025-09-24
+contribution,2025-08-28,Hampton Roads Business Roundtable PAC,"$2,500",Virginia,VA,pac,,A,456564,2025-09-24
+contribution,2025-08-11,Hoffman Beverage,"$2,000",Chesapeake,VA,business,,A,456564,2025-09-24
+contribution,2025-08-01,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,456564,2025-09-24
+contribution,2025-08-25,Metro Virginia PAC,$500,Washington,DC,pac,,A,456564,2025-09-24
+contribution,2025-08-11,Ortho Pac,$500,Richmond,VA,pac,,A,456564,2025-09-24
+contribution,2025-08-25,Realtors PAC Of Virginia,"$1,500",Glen Allen,VA,pac,,A,456564,2025-09-24
+contribution,2025-08-29,"Sentara Health Administration,Inc.",$250,Virginia Beach,VA,business,,A,456564,2025-09-24
+contribution,2025-07-18,Virginia Aviation,$500,Chesapeake,VA,business,,A,456564,2025-09-24
+contribution,2025-09-23,"Associated Distributors, LLC","$1,500",Sandston,VA,business,,A,458061,2025-10-08
+contribution,2025-09-17,Dominion Energy Pac,"$30,000",Richmond,VA,pac,,A,458061,2025-10-08
+contribution,2025-09-24,Fentress Farms LLC,"$1,000",Chesapeake,VA,business,,A,458061,2025-10-08
+contribution,2025-09-29,Genworth Financial,"$1,000",Washington,DC,business,,A,458061,2025-10-08
+contribution,2025-09-03,HCA for Good Government,"$1,000",Reston,VA,pac,,A,458061,2025-10-08
+contribution,2025-09-22,Pleasant Ridge Auto Parts Inc,$250,Virginia Beach,VA,business,,A,458061,2025-10-08
+contribution,2025-09-24,"Prempay Development, LLC","$1,000",Virginia Beach,VA,business,,A,458061,2025-10-08
+contribution,2025-09-23,Republic National Distributing Company,"$1,500",Ashland,VA,business,,A,458061,2025-10-08
+contribution,2025-09-11,Virginia Automobile & Truck Dealers Pac,"$1,000",Richmond,VA,pac,,A,458061,2025-10-08
+contribution,2025-09-24,Virginia Farm Bureau Federation AgPAC,$500,Richmond,VA,pac,,A,458061,2025-10-08
+contribution,2025-09-10,Donnie Beamon,$250,Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-16,Enterprise Services Llc Caesars,"$2,500",Las Vegas,NV,individual,,A,458061,2025-10-08
+contribution,2025-09-16,Michael Carlin,$500,Virginia Beach,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-09,Patrick Corbin,$500,Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-16,Rodney Foster,$500,Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-10,Gregory Ireland,"$1,000",Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-10,Sean Murphy,$250,Norfolk,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-29,Paul Obermayer,$250,Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-24,Donald James Plaster,$150,Virginia Beach,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-09,Rich Prest,$250,Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-23,William P. Ramsey,$30,Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-03,Susan Rowland,$350,Virginia Beach,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-16,Paula Slagle,$150,Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-29,Monique Tallon,$150,Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-14,Warren Thrasher,"$1,500",Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-13,Lucy L.g. Varker,$100,Chesapeake,VA,individual,,A,458061,2025-10-08
+contribution,2025-09-13,Joseph Waldo,$500,Norfolk,VA,individual,,A,458061,2025-10-08
+contribution,2025-10-18,Albers & Company,"$1,000",Arlington,VA,business,,A,467238,2025-10-30
+contribution,2025-10-01,Betting On Jobs PAC,"$7,500",Richmond,VA,pac,,A,467238,2025-10-30
+contribution,2025-10-01,Commonwealth Sportsmen's Alliance,$500,Powhatan,VA,business,,A,467238,2025-10-30
+contribution,2025-10-16,HBAV Build Pac,"$5,000",Richmond,VA,pac,,A,467238,2025-10-30
+contribution,2025-10-01,Hunton Andrews Kurth LLP,"$1,500",Richmond,VA,business,,A,467238,2025-10-30
+contribution,2025-10-18,Jeff Bunn For Chesapeake City Council Last Name Left Blank,$100,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-18,McGuireWoods Consulting LLC,"$1,000",Richmond,VA,business,,A,467238,2025-10-30
+contribution,2025-10-23,McGuireWoods Consulting LLC,$500,Richmond,VA,business,,A,467238,2025-10-30
+contribution,2025-10-01,"Premium Distributors Of VA, LLC","$1,000",Chantilly,VA,business,,A,467238,2025-10-30
+contribution,2025-10-10,Realtors PAC Of Virginia,"$1,000",Glen Allen,VA,pac,,A,467238,2025-10-30
+contribution,2025-10-01,Reynolds Services Company,"$1,000",Winston-salem,NC,business,,A,467238,2025-10-30
+contribution,2025-10-06,Joseph Husnay,$50,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-01,James Jackson,$75,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-18,David Lee,$200,Ashland,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-20,Stacey Mansfield,$25,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-07,Kenneth Marsh,$200,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-21,"E.G. Rudy"""" Middleton III","$1,000",Virginia Beach,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-18,Juan Montero,$100,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-06,Terri Myers,$150,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-07,Roger Petersen,$500,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-15,Thomas Petry,$500,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-18,Donald James Plaster,$150,Virginia Beach,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-21,Wendy Roenker,$150,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-07,Dwight C Schaubach,"$2,500",Norfolk,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-10,Robert Wadsworth,$500,Virginia Beach,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-23,Kirk Woodruff,"$3,000",Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-03,Bruce Wright,$50,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-20,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,business,,A,467238,2025-10-30
+contribution,2025-10-16,"Salmons, Inc.","$2,500",Virginia Beach,VA,business,,A,467238,2025-10-30
+contribution,2025-10-20,Sideprize LLC,"$1,000",Richmond,VA,business,,A,467238,2025-10-30
+contribution,2025-10-23,Sports Betting Alliance,"$2,500",Lubbock,TX,business,,A,467238,2025-10-30
+contribution,2025-10-10,Tidewater Builders Association PAC,$500,Virginia Beach,VA,pac,,A,467238,2025-10-30
+contribution,2025-10-23,"Transcanada USA Services, Inc. PAC",$500,Washington,DC,pac,,A,467238,2025-10-30
+contribution,2025-10-16,Usaa,$250,San Antonio,TX,business,,A,467238,2025-10-30
+contribution,2025-10-18,VA Apt. Mgmt. Association PAC,"$1,000",Richmond,VA,pac,,A,467238,2025-10-30
+contribution,2025-10-01,Virginia Aviation,$500,Chesapeake,VA,business,,A,467238,2025-10-30
+contribution,2025-10-01,Virginia Health Care Association,"$1,000",Richmond,VA,pac,,A,467238,2025-10-30
+contribution,2025-10-18,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,A,467238,2025-10-30
+contribution,2025-10-22,Virginia Transportation Alliance,"$1,000",North Chesterfield,VA,business,,A,467238,2025-10-30
+contribution,2025-10-16,"Walmart, Inc.",$500,Bentonville,AR,business,,A,467238,2025-10-30
+contribution,2025-10-01,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,467238,2025-10-30
+contribution,2025-10-18,Steven Dominick,$500,Virginia Beach,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-01,Hollis Dedric Ellis,$75,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-18,Patricia Everton,$100,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-18,Cindy Free,$150,Virginia Beach,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-06,Heather & William Gray,$500,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-08,Lee Scott Halyard,$250,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-05,Stacey Hugo Mansfield,$50,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-20,Stacey Hugo Mansfield,$25,Chesapeake,VA,individual,,A,467238,2025-10-30
+contribution,2025-10-28,Associated General Contractors of Virginia Inc Pac,$500,Glen Allen,VA,pac,,A,471017,2025-12-02
+contribution,2025-11-17,Bank Of America,$250,San Antonio,TX,business,,A,471017,2025-12-02
+contribution,2025-10-28,Betting On Jobs PAC,"$2,500",Richmond,VA,pac,,A,471017,2025-12-02
+contribution,2025-11-03,Capital One Services LLC,"$1,000",Richmond,VA,business,,A,471017,2025-12-02
+contribution,2025-11-03,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,471017,2025-12-02
+contribution,2025-10-28,Morgan Stanley,"$1,000",Baltimore,MD,business,,A,471017,2025-12-02
+contribution,2025-10-28,Norfolk Southern Corporation,"$1,000",Norfolk,VA,business,,A,471017,2025-12-02
+contribution,2025-10-28,State Farm Insurance Last Name Left Blank,$500,Chesapeake,VA,individual,,A,471017,2025-12-02
+contribution,2025-10-28,Verizon,"$1,000",Washington,DC,business,,A,471017,2025-12-02
+contribution,2025-11-03,Virginia Future PAC,$500,Richmond,VA,pac,,A,471017,2025-12-02
+contribution,2025-11-06,Barry Basnight,$250,Chesapeake,VA,individual,,A,471017,2025-12-02
+contribution,2025-11-04,Hill Creekmore,$100,Fair Haven,NJ,individual,,A,471017,2025-12-02
+contribution,2025-10-28,Thelma Drake,$200,Norfolk,VA,individual,,A,471017,2025-12-02
+contribution,2025-11-17,Eleaner Leftwich,$500,Chesapeake,VA,individual,,A,471017,2025-12-02
+contribution,2025-10-28,Sriram Peddibhotla,$400,McLean,VA,individual,,A,471017,2025-12-02
+contribution,2025-11-17,S.z. 104971 Ritter,$250,Chesapeake,VA,individual,,A,471017,2025-12-02
+contribution,2025-11-17,Tom Seddon,$500,Chesapeake,VA,individual,,A,471017,2025-12-02
 contribution,2025-12-30,"Christian & Barton, LLP",$0,Richmond,VA,business,,A,475146,2026-01-06
 contribution,2025-12-17,McGuireWoods,$500,Richmond,VA,business,,A,475146,2026-01-06
 contribution,2025-12-16,The Medical Society of Virginia PAC,"$1,000",Richmond,VA,pac,,A,475146,2026-01-06
@@ -30,7 +235,411 @@ contribution,2026-01-13,Michael Carlin,$500,Virginia Beach,VA,individual,,A,4916
 contribution,2026-04-07,James Leftwich,"$6,734.85",Chesapeake,VA,individual,,A,491648,2026-07-02
 contribution,2026-05-07,Michael Lewis,$500,Onancock,VA,individual,,A,491648,2026-07-02
 contribution,2026-01-07,Cynthia MacDonald,$250,Chesapeake,VA,individual,,A,491648,2026-07-02
+in_kind,2025-01-01,Basnight Kinser Leftwich & Nuckolls,$750,Chesapeake,VA,business,office space,B,438239,2025-05-22
+in_kind,2025-02-01,Basnight Kinser Leftwich & Nuckolls,$750,Chesapeake,VA,business,office space,B,438239,2025-05-22
+in_kind,2025-03-01,Basnight Kinser Leftwich & Nuckolls,$750,Chesapeake,VA,business,office space,B,438239,2025-05-22
+in_kind,2025-04-02,Gentry Locke,$450.43,Richmond,VA,pac,food & beverage for event,B,441903,2025-06-09
+in_kind,2025-04-01,"Kinser, Leftwich, Kahle, P.C.",$750,Chesapeake,VA,business,office space,B,441903,2025-06-09
+in_kind,2025-05-01,"Kinser, Leftwich, Kahle, P.C.",$750,Chesapeake,VA,business,office space,B,441903,2025-06-09
+in_kind,2025-06-01,"Kinser, Leftwich, Kahle, P.C.",$750,Chesapeake,VA,business,office space,B,441903,2025-06-09
+in_kind,2025-07-29,Virginia Bankers Association,"$1,619.90",Glen Allen,VA,pac,event,B,456564,2025-09-24
+in_kind,2025-09-25,Republican Party Of Virginia,"$12,045.95",Richmond,VA,party,,B,458061,2025-10-08
+in_kind,2025-10-01,Republican Party Of Virginia,"$11,935.51",Richmond,VA,party,in-kind,B,467238,2025-10-30
 in_kind,2026-01-07,Co-Op PAC,"$1,089.36",Glen Allen,VA,pac,event,B,491648,2026-07-02
+expenditure,2025-01-14,Adobe Systems,$39.98,,CA,business,office expense,D,438239,2025-05-22
+expenditure,2025-01-14,Adobe Systems,$19.99,,CA,business,office expense,D,438239,2025-05-22
+expenditure,2025-01-27,Adobe Systems,$9.99,,CA,business,office expense,D,438239,2025-05-22
+expenditure,2025-01-28,Adobe Systems,$29.99,,CA,business,office expense,D,438239,2025-05-22
+expenditure,2025-02-14,Adobe Systems,$19.99,,CA,business,office expense,D,438239,2025-05-22
+expenditure,2025-02-14,Adobe Systems,$39.98,,CA,business,office expense,D,438239,2025-05-22
+expenditure,2025-02-14,Amazon,$201.39,Seattle,WA,business,supplies for richmond,D,438239,2025-05-22
+expenditure,2025-01-14,AMEX,$150,,WA,business,membership fee,D,438239,2025-05-22
+expenditure,2025-02-19,Last Name Left Blank,$71.92,N. Prince George,VA,business,reimbursement for session pizza,D,438239,2025-05-22
+expenditure,2025-02-14,BP Station,$70.18,Chesapeake,VA,business,gas expense,D,438239,2025-05-22
+expenditure,2025-01-14,Capitol Cafe,$16.40,Richmond,VA,business,meeting expense,D,438239,2025-05-22
+expenditure,2025-01-02,Angela Chellew,$250,Virginia Beach,VA,individual,compliance,D,438239,2025-05-22
+expenditure,2025-01-02,Angela Chellew,$111.85,Virginia Beach,VA,individual,cellphone,D,438239,2025-05-22
+expenditure,2025-02-11,Angela Chellew,$250,Virginia Beach,VA,individual,compliance,D,438239,2025-05-22
+expenditure,2025-02-11,Angela Chellew,$111.87,Virginia Beach,VA,individual,cellphone,D,438239,2025-05-22
+expenditure,2025-02-25,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,438239,2025-05-22
+expenditure,2025-02-28,Angela Chellew,$500,Virginia Beach,VA,individual,compliance servcies,D,438239,2025-05-22
+expenditure,2025-03-11,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,438239,2025-05-22
+expenditure,2025-03-19,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,438239,2025-05-22
+expenditure,2025-01-14,Chesapeake Rotary,$347.50,Chesapeake,VA,business,quarterly dues,D,438239,2025-05-22
+expenditure,2025-03-14,Chesapeake Sports Club,"$1,000",Chesapeake,VA,business,table sponsor,D,438239,2025-05-22
+expenditure,2025-03-12,City of Chesapeake,$352.80,Chesapeake,VA,business,primary filing fee,D,438239,2025-05-22
+expenditure,2025-02-06,City Parking Inc,$13,Richmond,VA,business,parking expense,D,438239,2025-05-22
+expenditure,2025-02-07,City Parking Inc,$25,Richmond,VA,business,parking expense,D,438239,2025-05-22
+expenditure,2025-02-11,Clayton Spangler Photo Graphic Design,$499,Charleston,WV,business,panoramic portrait,D,438239,2025-05-22
+expenditure,2025-03-14,Crisis Pregnancy Center,$250,,VA,business,donation,D,438239,2025-05-22
+expenditure,2025-02-14,CTLP,$7.35,Richmond,VA,business,parking fee,D,438239,2025-05-22
+expenditure,2025-02-14,CVS,$9.47,Richmond,VA,business,suuplies for richmond,D,438239,2025-05-22
+expenditure,2025-01-14,Dropbox,$203.88,,CA,business,office expense,D,438239,2025-05-22
+expenditure,2025-02-13,Edible Arrangements,$83.62,Richmond,VA,business,flowers for staff,D,438239,2025-05-22
+expenditure,2025-01-14,Exxon Mobil,$61.62,Chesapeake,VA,business,gas expense for staff,D,438239,2025-05-22
+expenditure,2025-02-14,Exxon Mobil,$61.27,Chesapeake,VA,business,gas expense for staff,D,438239,2025-05-22
+expenditure,2025-02-13,FedEx,$53.18,Chesapeake,VA,business,packaging & shipping,D,438239,2025-05-22
+expenditure,2025-01-14,Go Daddy,$215.74,Scottsdale,AZ,business,website expense,D,438239,2025-05-22
+expenditure,2025-01-28,Go Daddy,$17.99,Scottsdale,AZ,business,website expense,D,438239,2025-05-22
+expenditure,2025-02-05,Go Daddy,$5.32,Scottsdale,AZ,business,website expense,D,438239,2025-05-22
+expenditure,2025-02-12,Go Daddy,$8.99,Scottsdale,AZ,business,office expense,D,438239,2025-05-22
+expenditure,2025-02-14,Go Daddy,$8.99,Scottsdale,AZ,business,website expense,D,438239,2025-05-22
+expenditure,2025-02-14,Go Daddy,$17.99,Scottsdale,AZ,business,website expense,D,438239,2025-05-22
+expenditure,2025-01-14,Google,$28.80,,CA,business,office expense,D,438239,2025-05-22
+expenditure,2025-02-01,Google,$28.80,,CA,business,office expense,D,438239,2025-05-22
+expenditure,2025-02-14,Google,$28.80,,CA,business,domain expense,D,438239,2025-05-22
+expenditure,2025-01-27,Greenbrier Florist,$117.63,,VA,business,flowers for staff,D,438239,2025-05-22
+expenditure,2025-03-27,Elizabeth Guindon,$180,Norfolk,VA,individual,campaign work,D,438239,2025-05-22
+expenditure,2025-03-27,Elizabeth Guindon,$500,Norfolk,VA,individual,internship bonus,D,438239,2025-05-22
+expenditure,2025-03-05,Harland Clarke,$77.44,,VA,business,checks reorder,D,438239,2025-05-22
+expenditure,2025-03-27,Hickory Band Parents Association,$250,,VA,business,sponsorship,D,438239,2025-05-22
+expenditure,2025-02-14,Judeo- Christian Outreach Center,$250,Virginia Beach,VA,business,donation,D,438239,2025-05-22
+expenditure,2025-02-14,Keyme Locksmiths,$5.28,Chesapeake,VA,business,locksmith services,D,438239,2025-05-22
+expenditure,2025-03-24,Kim Taylor For Delegate,"$1,000",Petersburg,VA,candidate,donation,D,438239,2025-05-22
+expenditure,2025-02-13,Kroger,$50,,VA,business,Richmond office food expense,D,438239,2025-05-22
+expenditure,2025-02-14,Kroger,$66.46,,VA,business,gas expense,D,438239,2025-05-22
+expenditure,2025-01-14,Love's Travel Stops,$67.55,Providence Forge,VA,business,gas expense,D,438239,2025-05-22
+expenditure,2025-01-24,Love's Travel Stops,$77.69,Providence Forge,VA,business,gas expense,D,438239,2025-05-22
+expenditure,2025-02-04,Love's Travel Stops,$72.79,Providence Forge,VA,business,gas expense,D,438239,2025-05-22
+expenditure,2025-02-14,Love's Travel Stops,$80.69,Providence Forge,VA,business,gas expense,D,438239,2025-05-22
+expenditure,2025-02-14,Friends Of David Mick,"$1,000",Chesapeake,VA,business,donation,D,438239,2025-05-22
+expenditure,2025-02-13,Nothing Bundt Cakes,$144.16,Richmond,VA,business,cakes for staff,D,438239,2025-05-22
+expenditure,2025-02-14,ParkWhiz,$5.99,Chicago,IL,business,Richmond parking fee,D,438239,2025-05-22
+expenditure,2025-03-18,Assembly Strategies LLC,"$1,674.97",Richmond,VA,business,letters & postage,D,438239,2025-05-22
+expenditure,2025-02-02,Public Storage,$272,Chesapeake,VA,business,campaign storage,D,438239,2025-05-22
+expenditure,2025-02-12,Public Storage,$272,Chesapeake,VA,business,campaign storage,D,438239,2025-05-22
+expenditure,2025-02-14,Public Storage,$272,Chesapeake,VA,business,campaign storage,D,438239,2025-05-22
+expenditure,2025-02-13,Publix,$23.45,Richmond,VA,business,office food expense,D,438239,2025-05-22
+expenditure,2025-02-14,Publix,$162.83,Richmond,VA,business,supplies for Richmond,D,438239,2025-05-22
+expenditure,2025-03-19,Republican Party of Chesapeake,$30,Chesapeake,VA,party,membership dues,D,438239,2025-05-22
+expenditure,2025-03-03,Republican Party Of Virginia Beach,$200,Virginia Beach,VA,party,send-off dinner,D,438239,2025-05-22
+expenditure,2025-01-14,Richmond Times Dispatch,$36.99,Richmond,VA,business,RTD subscription,D,438239,2025-05-22
+expenditure,2025-02-14,Richmond Times Dispatch,$36.99,Richmond,VA,business,subscription,D,438239,2025-05-22
+expenditure,2025-02-14,Richmond Times Dispatch,$0,Richmond,VA,business,subscription,D,438239,2025-05-22
+expenditure,2025-02-14,Richmond Times Dispatch,$36.99,Richmond,VA,business,subscription,D,438239,2025-05-22
+expenditure,2025-02-06,Rick's Custom Frame,$191.10,Richmond,VA,business,resolution framing,D,438239,2025-05-22
+expenditure,2025-01-14,Sam Miller's Restaurant,$250,Richmond,VA,business,fundraising event epxense,D,438239,2025-05-22
+expenditure,2025-02-14,Sam Miller's Restaurant,$800.15,Richmond,VA,business,event expense,D,438239,2025-05-22
+expenditure,2025-02-14,Last Name Left Blank,"$1,500",Chesapeake,VA,business,food for event,D,438239,2025-05-22
+expenditure,2025-02-14,Target,$192.03,,VA,business,office supplies Richmond,D,438239,2025-05-22
+expenditure,2025-02-14,Target,$57.09,,VA,business,office supplies richmond,D,438239,2025-05-22
+expenditure,2025-03-27,Tele Video Productions,$400,,VA,business,website changes,D,438239,2025-05-22
+expenditure,2025-02-14,The Home Depot,$12.64,,VA,business,supplies for Richmond,D,438239,2025-05-22
+expenditure,2025-02-14,Trail Blazer Campaign Services,$384.65,Minneapolis,MN,business,database expense,D,438239,2025-05-22
+expenditure,2025-01-14,Tribute Store Flowers,$112.88,MIddleton,WI,business,memorial flowers,D,438239,2025-05-22
+expenditure,2025-03-17,Thomas Turner,$250,Suffolk,VA,individual,donation for YRFV,D,438239,2025-05-22
+expenditure,2025-03-25,VFRW,$250,,VA,business,sponsorship,D,438239,2025-05-22
+expenditure,2025-02-14,VRBO,"$5,628.45",Austin,TX,business,session accomodations,D,438239,2025-05-22
+expenditure,2025-01-14,Wawa,$62.58,Chesapeake,VA,business,gas expense,D,438239,2025-05-22
+expenditure,2025-02-10,Wawa,$62.61,Chesapeake,VA,business,gas expense,D,438239,2025-05-22
+expenditure,2025-02-14,Wawa,$45,Chesapeake,VA,business,gas expense for staff,D,438239,2025-05-22
+expenditure,2025-04-14,Adobe Systems,$59.97,,CA,business,office expense,D,441903,2025-06-09
+expenditure,2025-04-14,Adobe Systems,$19.99,,CA,business,office expense,D,441903,2025-06-09
+expenditure,2025-04-18,Adobe Systems,$39.98,,CA,business,office expense,D,441903,2025-06-09
+expenditure,2025-04-18,AMEX,$29,,WA,business,Credit card fee,D,441903,2025-06-09
+expenditure,2025-04-18,AMEX,$40.57,,WA,business,credit card fee,D,441903,2025-06-09
+expenditure,2025-04-14,Bottoms Up Pizza,$66.28,Richmond,VA,business,pizza for staff,D,441903,2025-06-09
+expenditure,2025-04-14,BP Station,$52.98,Chesapeake,VA,business,gas expense,D,441903,2025-06-09
+expenditure,2025-04-18,Capitol Cafe,$8.79,Richmond,VA,business,coffee for staff,D,441903,2025-06-09
+expenditure,2025-04-04,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,441903,2025-06-09
+expenditure,2025-04-16,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,441903,2025-06-09
+expenditure,2025-05-08,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,441903,2025-06-09
+expenditure,2025-05-21,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,441903,2025-06-09
+expenditure,2025-05-27,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,441903,2025-06-09
+expenditure,2025-04-11,Chesapeake Regional Health Foundation,"$1,500",,VA,business,sponsorship for brahaha,D,441903,2025-06-09
+expenditure,2025-04-18,Expedia.com,$208.14,Seattle,WA,business,expense for caucus retreat,D,441903,2025-06-09
+expenditure,2025-04-18,Exxon Mobil,$65.78,Chesapeake,VA,business,gas expense,D,441903,2025-06-09
+expenditure,2025-04-07,Friends Of Adam Tolbert,$500,Saltville,VA,business,donation,D,441903,2025-06-09
+expenditure,2025-04-14,Go Daddy,$8.99,Scottsdale,AZ,business,website expense,D,441903,2025-06-09
+expenditure,2025-04-14,Go Daddy,$17.99,Scottsdale,AZ,business,website expense,D,441903,2025-06-09
+expenditure,2025-04-18,Go Daddy,$8.99,Scottsdale,AZ,business,website expense,D,441903,2025-06-09
+expenditure,2025-04-18,Go Daddy,$17.99,Scottsdale,AZ,business,website expense,D,441903,2025-06-09
+expenditure,2025-04-14,Google,$26.73,,CA,business,office expense,D,441903,2025-06-09
+expenditure,2025-04-18,Google,$28.80,,CA,business,office expense,D,441903,2025-06-09
+expenditure,2025-05-05,Great Bridge Frame & Art,$624.34,Chesapeake,VA,business,resolution framing,D,441903,2025-06-09
+expenditure,2025-05-20,"Kinser, Leftwich & Kahle, P.C.",$33.81,Chesapeake,VA,business,postage,D,441903,2025-06-09
+expenditure,2025-04-18,Love's Travel Stops,$69.43,Providence Forge,VA,business,gas expense,D,441903,2025-06-09
+expenditure,2025-04-18,Marathon,$60.35,Chesapeake,VA,business,gas expense,D,441903,2025-06-09
+expenditure,2025-05-22,MCV Foundation,$155.28,Richmond,VA,business,donation,D,441903,2025-06-09
+expenditure,2025-04-14,Office Max,$7.62,,VA,business,office supplies,D,441903,2025-06-09
+expenditure,2025-04-14,Office Max,$226.80,,VA,business,office supplies,D,441903,2025-06-09
+expenditure,2025-04-14,"PDFfiller, Inc.",$144,Brookline,MA,business,office expense,D,441903,2025-06-09
+expenditure,2025-04-14,"PDFfiller, Inc.",$1.25,Brookline,MA,business,office expense,D,441903,2025-06-09
+expenditure,2025-04-14,Pilot Travel Center,$39.79,Disputanta,VA,business,gas expense,D,441903,2025-06-09
+expenditure,2025-04-18,Pivot Parking,$5,Richmond,VA,business,parking expense,D,441903,2025-06-09
+expenditure,2025-05-14,Assembly Strategies LLC,"$3,943.23",Richmond,VA,business,mail expense,D,441903,2025-06-09
+expenditure,2025-04-14,Public Storage,$272,Chesapeake,VA,business,campaign storage,D,441903,2025-06-09
+expenditure,2025-04-18,Public Storage,$272,Chesapeake,VA,business,campaign storage,D,441903,2025-06-09
+expenditure,2025-04-14,Richmond Times Dispatch,$36.99,Richmond,VA,business,subscription,D,441903,2025-06-09
+expenditure,2025-04-18,Richmond Times Dispatch,$36.99,Richmond,VA,business,subscription,D,441903,2025-06-09
+expenditure,2025-04-14,The Boathouse,$150.86,Richmond,VA,business,dinner for staff,D,441903,2025-06-09
+expenditure,2025-04-14,Trail Blazer Campaign Services,$75,Minneapolis,MN,business,database expense,D,441903,2025-06-09
+expenditure,2025-04-14,USPS,$78.58,Chesapeake,VA,business,postage expense,D,441903,2025-06-09
+expenditure,2025-04-01,Vanco Payment Solutions,$7.10,Bloomington,MN,business,processing fees,D,441903,2025-06-09
+expenditure,2025-04-01,Vanco Payment Solutions,$2,Bloomington,MN,business,processing fees,D,441903,2025-06-09
+expenditure,2025-04-05,Vanco Payment Solutions,$27.05,Bloomington,MN,business,processing fees,D,441903,2025-06-09
+expenditure,2025-04-15,Vanco Payment Solutions,$2,Bloomington,MN,business,processing fees,D,441903,2025-06-09
+expenditure,2025-05-01,Vanco Payment Solutions,$2.33,Bloomington,MN,business,processing fees,D,441903,2025-06-09
+expenditure,2025-05-30,Vanco Payment Solutions,$74.55,Bloomington,MN,business,processing fees,D,441903,2025-06-09
+expenditure,2025-04-18,Wawa,$62.70,Chesapeake,VA,business,gas expense,D,441903,2025-06-09
+expenditure,2025-04-18,Wawa,$59.53,Chesapeake,VA,business,gas expense,D,441903,2025-06-09
+expenditure,2025-06-13,Adobe Systems,$19.99,,CA,business,office expense,D,444516,2025-07-03
+expenditure,2025-06-13,Adobe Systems,$9.99,,CA,business,office expense,D,444516,2025-07-03
+expenditure,2025-06-13,Adobe Systems,$29.99,,CA,business,office expense,D,444516,2025-07-03
+expenditure,2025-06-13,Adobe Systems,$19.99,,CA,business,office expense,D,444516,2025-07-03
+expenditure,2025-06-13,AMEX,$28.99,,WA,business,CC fee charge,D,444516,2025-07-03
+expenditure,2025-06-06,Angela Chellew,$250,Virginia Beach,VA,individual,cellpohone,D,444516,2025-07-03
+expenditure,2025-06-06,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,444516,2025-07-03
+expenditure,2025-06-13,Chesapeake Wine Festival,"$1,300",Chesapeake,VA,business,chalet sponsorship,D,444516,2025-07-03
+expenditure,2025-06-13,Dropbox,$199,,CA,business,office expense,D,444516,2025-07-03
+expenditure,2025-06-13,Essex Software,$72,Charlotte,NC,business,office expense,D,444516,2025-07-03
+expenditure,2025-06-13,Go Daddy,$8.99,Scottsdale,AZ,business,domain expense,D,444516,2025-07-03
+expenditure,2025-06-13,Go Daddy,$17.99,Scottsdale,AZ,business,office expense,D,444516,2025-07-03
+expenditure,2025-06-13,Go Daddy,$99.99,Scottsdale,AZ,business,website expense,D,444516,2025-07-03
+expenditure,2025-06-13,Google,$28.80,,CA,business,office expense,D,444516,2025-07-03
+expenditure,2025-06-23,Elizabeth Guindon,$522.80,Norfolk,VA,individual,campaign work,D,444516,2025-07-03
+expenditure,2025-06-13,Public Storage,$272,Chesapeake,VA,business,campaign storage,D,444516,2025-07-03
+expenditure,2025-06-13,Republican Party of Chesapeake,"$1,000",Chesapeake,VA,party,grassroots dinner,D,444516,2025-07-03
+expenditure,2025-06-13,Richmond Times Dispatch,$36.99,Richmond,VA,business,monthly subscription,D,444516,2025-07-03
+expenditure,2025-06-30,Storm For Virginia,"$5,000",Alexandria,VA,business,wire transfer,D,444516,2025-07-03
+expenditure,2025-06-13,Total Wine And More,$160.01,Virginia Beach,VA,business,wine for event,D,444516,2025-07-03
+expenditure,2025-06-30,TowneBank,$40,,VA,business,bank transfer fee,D,444516,2025-07-03
+expenditure,2025-06-25,Treasurer of Virginia,"$3,864.81",,VA,business,mailing expense,D,444516,2025-07-03
+expenditure,2025-06-13,USPS,$365,Chesapeake,VA,business,postage expense,D,444516,2025-07-03
+expenditure,2025-06-16,Vanco Payment Solutions,$2.45,Bloomington,MI,business,monthly service fee,D,444516,2025-07-03
+expenditure,2025-06-30,Vanco Payment Solutions,$42.60,Bloomington,MI,business,processing fee,D,444516,2025-07-03
+expenditure,2025-06-13,Vino's Bistro,"$3,113.20",Chesapeake,VA,business,campaign event expense,D,444516,2025-07-03
+expenditure,2025-06-28,Western Tidewater Young Republicans,$250,,VA,business,donation,D,444516,2025-07-03
+expenditure,2025-07-14,Adobe Systems,$9.99,,CA,business,office expense,D,456564,2025-09-24
+expenditure,2025-07-14,Adobe Systems,$29.99,,CA,business,office expense,D,456564,2025-09-24
+expenditure,2025-07-14,Adobe Systems,$19.99,,CA,business,office expense,D,456564,2025-09-24
+expenditure,2025-08-14,Adobe Systems,$9.99,,CA,business,office expense,D,456564,2025-09-24
+expenditure,2025-08-14,Adobe Systems,$19.99,,CA,business,office expense,D,456564,2025-09-24
+expenditure,2025-08-29,Adobe Systems,$29.99,,CA,business,office expense,D,456564,2025-09-24
+expenditure,2025-07-03,Angela Chellew,$500,Virginia Beach,VA,individual,compliance,D,456564,2025-09-24
+expenditure,2025-07-03,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,456564,2025-09-24
+expenditure,2025-07-31,Angela Chellew,"$2,000",Virginia Beach,VA,individual,campaign work,D,456564,2025-09-24
+expenditure,2025-07-31,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,456564,2025-09-24
+expenditure,2025-08-08,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,456564,2025-09-24
+expenditure,2025-08-08,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone expense,D,456564,2025-09-24
+expenditure,2025-08-29,Angela Chellew,"$2,000",Virginia Beach,VA,individual,campaign work,D,456564,2025-09-24
+expenditure,2025-07-11,Chesapeake Rotary,$347.50,Chesapeake,VA,business,rotary dues,D,456564,2025-09-24
+expenditure,2025-08-11,City of Chesapeake,$500,Chesapeake,VA,business,veterans breakfast sponsorship,D,456564,2025-09-24
+expenditure,2025-07-14,DAV Thrift Store,$7.37,Chesapeake,VA,business,baskets for raffle,D,456564,2025-09-24
+expenditure,2025-07-25,Deep Creek Ruritans,$250,Chesapeake,VA,business,sponsorship,D,456564,2025-09-24
+expenditure,2025-07-07,Earley For Delegate II,"$1,000",Midlothian,VA,candidate,donation,D,456564,2025-09-24
+expenditure,2025-08-14,Food Lion,$151,,VA,business,food for event,D,456564,2025-09-24
+expenditure,2025-07-07,Friends Of Amanda Batten,"$1,000",Norge,VA,business,donation,D,456564,2025-09-24
+expenditure,2025-08-04,Friends Of Carrie Coyner,"$1,000",Chester,VA,business,donation,D,456564,2025-09-24
+expenditure,2025-07-24,Last Name Left Blank,"$1,000",Seaford,VA,business,contribution,D,456564,2025-09-24
+expenditure,2025-07-10,Friends Of Chris Obenshain,"$1,000",Blacksburg,VA,business,donation,D,456564,2025-09-24
+expenditure,2025-07-10,Friends Of David Owen,"$1,000",Manakin Sabot,VA,business,donation,D,456564,2025-09-24
+expenditure,2025-07-15,Friends Of Geary Higgins II,"$1,000",Waterford,VA,business,donation,D,456564,2025-09-24
+expenditure,2025-07-09,Friends Of Ian Lovejoy,"$1,000",Manassas,VA,business,donation,D,456564,2025-09-24
+expenditure,2025-07-21,Friends Of Tim Anderson,"$1,000",Virginia Beach,VA,business,donation,D,456564,2025-09-24
+expenditure,2025-07-14,Go Daddy,$17.99,Scottsdale,AZ,business,website expense,D,456564,2025-09-24
+expenditure,2025-07-14,Go Daddy,$8.99,Scottsdale,AZ,business,office expense,D,456564,2025-09-24
+expenditure,2025-08-14,Go Daddy,$17.99,Scottsdale,AZ,business,domain expense,D,456564,2025-09-24
+expenditure,2025-08-14,Go Daddy,$35.18,Scottsdale,AZ,business,website expense,D,456564,2025-09-24
+expenditure,2025-08-14,Go Daddy,$8.99,Scottsdale,AZ,business,office expense,D,456564,2025-09-24
+expenditure,2025-07-14,Google,$28.80,,CA,business,office expense,D,456564,2025-09-24
+expenditure,2025-08-14,Google,$28.80,,CA,business,office expense,D,456564,2025-09-24
+expenditure,2025-08-14,Elizabeth Guindon,$403.50,Norfolk,VA,individual,campaign work,D,456564,2025-09-24
+expenditure,2025-07-09,Harland Clarke,$59.75,,VA,business,checks reorder,D,456564,2025-09-24
+expenditure,2025-07-14,Hickory Band Parents Association,$175,,VA,business,sponsorship,D,456564,2025-09-24
+expenditure,2025-08-05,HRCC,"$3,143.20",Richmond,VA,business,house republican retreat expense,D,456564,2025-09-24
+expenditure,2025-08-14,Instacart,$99,San Franscisco,CA,business,this is a disbute charge,D,456564,2025-09-24
+expenditure,2025-07-22,Joe Jones,$150,Chesapeake,VA,individual,reimbursement for donuts,D,456564,2025-09-24
+expenditure,2025-08-14,"Jungle Disk, LLC",$10,San Antonio,TX,business,office expense,D,456564,2025-09-24
+expenditure,2025-07-15,Kim Taylor For Delegate,"$1,000",Petersburg,VA,candidate,donation,D,456564,2025-09-24
+expenditure,2025-07-10,"Kinser, Leftwich & Kahle, P.C.",$500,Chesapeake,VA,business,campaign office space,D,456564,2025-09-24
+expenditure,2025-07-21,"Kinser, Leftwich & Kahle, P.C.",$509.76,Chesapeake,VA,business,postage reimbursement,D,456564,2025-09-24
+expenditure,2025-07-21,"Kinser, Leftwich & Kahle, P.C.",$500,Chesapeake,VA,business,reimbursement for campaign rent,D,456564,2025-09-24
+expenditure,2025-08-20,"Kinser, Leftwich & Kahle, P.C.",$500,Chesapeake,VA,business,reimbursement for campaign rent,D,456564,2025-09-24
+expenditure,2025-07-14,Kroger,$87.46,,VA,business,fuel expense,D,456564,2025-09-24
+expenditure,2025-08-04,Matthew Bender & Co,$79.58,,NJ,business,va state laws book,D,456564,2025-09-24
+expenditure,2025-07-11,Mike Lamonea For Delegate,"$1,000",Chesapeake,VA,candidate,donation,D,456564,2025-09-24
+expenditure,2025-08-19,Mike Lamonea For Delegate,"$10,000",Chesapeake,VA,candidate,donation,D,456564,2025-09-24
+expenditure,2025-08-14,Office Max,$91.14,,VA,business,office expense,D,456564,2025-09-24
+expenditure,2025-07-14,Omni Homestead Resort,"$2,822.33",Hot Springs,VA,business,house republican retreat,D,456564,2025-09-24
+expenditure,2025-07-14,"PDFfiller, Inc.",$96,Brookline,MA,business,office expense,D,456564,2025-09-24
+expenditure,2025-07-30,Assembly Strategies LLC,$500,Richmond,VA,business,graphic design,D,456564,2025-09-24
+expenditure,2025-07-14,Public Storage,$272,Chesapeake,VA,business,campaign storage,D,456564,2025-09-24
+expenditure,2025-08-14,Public Storage,$339,Chesapeake,VA,business,campaign storage,D,456564,2025-09-24
+expenditure,2025-07-14,Richmond Times Dispatch,$36.99,Richmond,VA,business,monthly subscription,D,456564,2025-09-24
+expenditure,2025-08-14,Richmond Times Dispatch,$36.99,Richmond,VA,business,subscription,D,456564,2025-09-24
+expenditure,2025-07-14,Sheetz,$82.82,,VA,business,fuel expense,D,456564,2025-09-24
+expenditure,2025-07-14,Shell,$59.84,,VA,business,fuel expense for staff,D,456564,2025-09-24
+expenditure,2025-08-18,St. Joseph AME Church,"$1,300",Chesapeake,VA,business,donation,D,456564,2025-09-24
+expenditure,2025-08-28,Star Spangled Ball,$150,Virginia Beach,VA,business,sponsorship,D,456564,2025-09-24
+expenditure,2025-08-14,Sunrise Breakfast Shoppe,$43.23,Chesapeake,VA,business,candidate meeting expense,D,456564,2025-09-24
+expenditure,2025-07-14,Taco Bell,$16.20,Chesapeake,VA,business,lunch for staff,D,456564,2025-09-24
+expenditure,2025-08-14,Trail Blazer Campaign Services,$384.65,Minneapolis,MN,business,database expense,D,456564,2025-09-24
+expenditure,2025-08-14,USPS,$9.70,Chesapeake,VA,business,postage expense,D,456564,2025-09-24
+expenditure,2025-08-01,Vanco Payment Solutions,$2.08,Bloomington,MI,business,processing fees,D,456564,2025-09-24
+expenditure,2025-08-01,Vanco Payment Solutions,$14.65,Bloomington,MI,business,processing fees,D,456564,2025-09-24
+expenditure,2025-08-09,Vanco Payment Solutions,$4.02,Bloomington,MI,business,processing fees,D,456564,2025-09-24
+expenditure,2025-08-13,Vanco Payment Solutions,$47.90,Bloomington,MI,business,processing fees,D,456564,2025-09-24
+expenditure,2025-08-15,Vanco Payment Solutions,$2.08,Bloomington,MI,business,processing fees,D,456564,2025-09-24
+expenditure,2025-08-19,Vanco Payment Solutions,$1.87,Bloomington,MI,business,processing fees,D,456564,2025-09-24
+expenditure,2025-07-30,WRS,"$2,500",Washington,DC,business,consulting services,D,456564,2025-09-24
+expenditure,2025-08-08,WRS,$350,Washington,DC,business,campaign advertising expense,D,456564,2025-09-24
+expenditure,2025-08-28,WRS,"$1,447.90",Washington,DC,business,palm cards,D,456564,2025-09-24
+expenditure,2025-09-12,Adobe Systems,$9.99,,CA,business,office expense,D,458061,2025-10-08
+expenditure,2025-09-12,Adobe Systems,$29.99,,CA,business,office expense,D,458061,2025-10-08
+expenditure,2025-09-12,Adobe Systems,$19.99,,CA,business,office expense,D,458061,2025-10-08
+expenditure,2025-09-29,Central Chesapeake Republican Women's Club,$600,,VA,business,sponsorship,D,458061,2025-10-08
+expenditure,2025-09-04,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,458061,2025-10-08
+expenditure,2025-09-04,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,458061,2025-10-08
+expenditure,2025-09-02,Chesapeake Rotary,"$2,500",Chesapeake,VA,business,First citizen banquet,D,458061,2025-10-08
+expenditure,2025-09-24,Chesapeake Sports Club,$100,Chesapeake,VA,business,sponsorship,D,458061,2025-10-08
+expenditure,2025-09-12,City of Norfolk,$2,,VA,business,parking expense,D,458061,2025-10-08
+expenditure,2025-09-16,Deep Creek Ruritans,$100,Chesapeake,VA,business,sponsorship,D,458061,2025-10-08
+expenditure,2025-09-12,Food Lion,$181.19,,VA,business,food for great bridge sponsorship,D,458061,2025-10-08
+expenditure,2025-09-03,Freinds OF Wendy Roenker,$750,Chesapeake,VA,business,donation,D,458061,2025-10-08
+expenditure,2025-09-30,Friends Of AC Cordoza 2021,"$15,000",Fort Monroe,VA,business,donation,D,458061,2025-10-08
+expenditure,2025-09-29,Friends Of Barry Knight,"$2,000",Virginia Beach,VA,business,donation,D,458061,2025-10-08
+expenditure,2025-09-03,Friends Of Tim Anderson,"$2,500",Virginia Beach,VA,business,donation,D,458061,2025-10-08
+expenditure,2025-09-17,Friends Of Tim Anderson,"$20,000",Virginia Beach,VA,business,donation,D,458061,2025-10-08
+expenditure,2025-09-05,Friends Of Wallace Chadwick,"$1,500",Chesapeake,VA,business,donation,D,458061,2025-10-08
+expenditure,2025-09-12,Go Daddy,$70.36,Scottsdale,AZ,business,domain expense,D,458061,2025-10-08
+expenditure,2025-09-12,Go Daddy,$17.99,Scottsdale,AZ,business,website expense,D,458061,2025-10-08
+expenditure,2025-09-12,Go Daddy,$8.99,Scottsdale,AZ,business,domain expense,D,458061,2025-10-08
+expenditure,2025-09-12,Google,$32.35,,CA,business,website expense,D,458061,2025-10-08
+expenditure,2025-09-29,Great Bridge Swim and Raquet Club,"$1,000",Chesapeake,VA,business,sponsorship,D,458061,2025-10-08
+expenditure,2025-09-03,Elizabeth Guindon,$426.50,Norfolk,VA,individual,campaign work,D,458061,2025-10-08
+expenditure,2025-09-12,"Jungle Disk, LLC",$10,San Antonio,TX,business,office expense,D,458061,2025-10-08
+expenditure,2025-09-23,"Kinser, Leftwich & Kahle, P.C.",$500,Chesapeake,VA,business,campaign rent,D,458061,2025-10-08
+expenditure,2025-09-30,"Kinser, Leftwich & Kahle, P.C.","$4,000.31",Chesapeake,VA,business,postage,D,458061,2025-10-08
+expenditure,2025-09-12,LOVE'S Travel Store,$38.86,Dispunta,VA,business,gas expense,D,458061,2025-10-08
+expenditure,2025-09-16,Friends Of David Mick,$500,Chesapeake,VA,business,donation,D,458061,2025-10-08
+expenditure,2025-09-12,Microsoft,$129.99,Redmond,WA,business,office expense,D,458061,2025-10-08
+expenditure,2025-09-18,Mike Lamonea For Delegate,"$15,000",Chesapeake,VA,candidate,donation,D,458061,2025-10-08
+expenditure,2025-09-24,Minuteman Press,$907.47,Virginia Beach,VA,business,stickers,D,458061,2025-10-08
+expenditure,2025-09-12,Office Max,$288.88,,VA,business,printer ink,D,458061,2025-10-08
+expenditure,2025-09-02,Assembly Strategies LLC,$974,Richmond,VA,business,letters,D,458061,2025-10-08
+expenditure,2025-09-16,Assembly Strategies LLC,$879.69,Richmond,VA,business,bumper stickers,D,458061,2025-10-08
+expenditure,2025-09-26,Assembly Strategies LLC,"$1,116.51",Richmond,VA,business,bottled water with logo,D,458061,2025-10-08
+expenditure,2025-09-29,Assembly Strategies LLC,$250,Richmond,VA,business,design fee for ad,D,458061,2025-10-08
+expenditure,2025-09-12,Public Storage,$339,Chesapeake,VA,business,campaign storage,D,458061,2025-10-08
+expenditure,2025-09-25,Republican Party of Virginia,"$12,200",,VA,party,mailer,D,458061,2025-10-08
+expenditure,2025-09-30,Republican Party of Virginia,"$12,000",,VA,party,mailer,D,458061,2025-10-08
+expenditure,2025-09-12,Richmond Times Dispatch,$40.99,Richmond,VA,business,subscription,D,458061,2025-10-08
+expenditure,2025-09-12,Sheetz,$73.68,,VA,business,gas expense,D,458061,2025-10-08
+expenditure,2025-09-02,Storm For Virginia,"$2,500",Alexandria,VA,business,donation,D,458061,2025-10-08
+expenditure,2025-09-12,Studly Brewing Co,"$3,795.32",Chesapeake,VA,business,event expense,D,458061,2025-10-08
+expenditure,2025-09-17,Tele Video Productions,"$2,500",,VA,business,website expense,D,458061,2025-10-08
+expenditure,2025-09-17,TowneBank,$40,,VA,business,wire transfer fee,D,458061,2025-10-08
+expenditure,2025-09-18,TowneBank,$40,,VA,business,wire transfer fee,D,458061,2025-10-08
+expenditure,2025-09-25,TowneBank,$40,,VA,business,wire transfer fee,D,458061,2025-10-08
+expenditure,2025-09-30,TowneBank,$80,,VA,business,wire transfer fee,D,458061,2025-10-08
+expenditure,2025-09-02,Vanco Payment Solutions,$3.18,Bloomington,MN,business,monthly service fee,D,458061,2025-10-08
+expenditure,2025-09-15,Vanco Payment Solutions,$3.18,Bloomington,MN,business,processing fees,D,458061,2025-10-08
+expenditure,2025-09-16,Vanco Payment Solutions,$74.95,Bloomington,MN,business,processing fees,D,458061,2025-10-08
+expenditure,2025-09-24,Vanco Payment Solutions,$4.71,Bloomington,MN,business,processing fees,D,458061,2025-10-08
+expenditure,2025-09-29,Vanco Payment Solutions,$7.55,Bloomington,MN,business,processing fees,D,458061,2025-10-08
+expenditure,2025-09-03,WRS,"$2,500",Washington,DC,business,consulting services,D,458061,2025-10-08
+expenditure,2025-09-10,WRS,"$2,090.70",Washington,DC,business,messaging services,D,458061,2025-10-08
+expenditure,2025-10-13,1Password,$17.94,Chesapeake,VA,business,office expense,D,467238,2025-10-30
+expenditure,2025-10-13,Adobe Systems,$19.99,,CA,business,office expense,D,467238,2025-10-30
+expenditure,2025-10-13,Adobe Systems,$9.99,,CA,business,office expense,D,467238,2025-10-30
+expenditure,2025-10-13,Adobe Systems,$29.99,,CA,business,office expense,D,467238,2025-10-30
+expenditure,2025-10-22,Ballard Fish & Oyster Co LLC,$959.50,,VA,business,event expense,D,467238,2025-10-30
+expenditure,2025-10-02,Angela Chellew,"$2,000",Virginia Beach,VA,individual,campaign work,D,467238,2025-10-30
+expenditure,2025-10-08,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,467238,2025-10-30
+expenditure,2025-10-08,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,467238,2025-10-30
+expenditure,2025-10-08,Angela Chellew,$630,Virginia Beach,VA,individual,reimbursement for CWF,D,467238,2025-10-30
+expenditure,2025-10-13,Chesapeake Wine Festival,$465,Chesapeake,VA,business,event expense,D,467238,2025-10-30
+expenditure,2025-10-13,Exxon Mobil,$68.22,Chesapeake,VA,business,gas expense for staff,D,467238,2025-10-30
+expenditure,2025-10-07,Friends Of Amanda Batten,"$12,500",Norge,VA,business,donation,D,467238,2025-10-30
+expenditure,2025-10-21,Friends Of Amanda Batten,"$12,500",Norge,VA,business,donation,D,467238,2025-10-30
+expenditure,2025-10-07,Friends Of Carrie Coyner,"$25,000",Chester,VA,business,donation,D,467238,2025-10-30
+expenditure,2025-10-08,Friends Of Chris Obenshain,"$12,500",Blacksburg,VA,business,donation,D,467238,2025-10-30
+expenditure,2025-10-21,Friends Of Chris Obenshain,"$12,500",Blacksburg,VA,business,donation,D,467238,2025-10-30
+expenditure,2025-10-07,Friends Of David Owen,"$12,500",Manakin Sabot,VA,business,donation,D,467238,2025-10-30
+expenditure,2025-10-21,Friends Of David Owen,"$12,500",Manakin Sabot,VA,business,donation,D,467238,2025-10-30
+expenditure,2025-10-13,Go Daddy,$17.99,Scottsdale,AZ,business,website expense,D,467238,2025-10-30
+expenditure,2025-10-13,Go Daddy,$8.99,Scottsdale,AZ,business,domain expense,D,467238,2025-10-30
+expenditure,2025-10-13,Google,$33.60,,CA,business,domain expense,D,467238,2025-10-30
+expenditure,2025-10-13,Great Bridge Frame & Art,$164.04,Chesapeake,VA,business,resolution framing,D,467238,2025-10-30
+expenditure,2025-10-13,Great Bridge Frame & Art,$192.54,Chesapeake,VA,business,resolution framing,D,467238,2025-10-30
+expenditure,2025-10-13,Greenbrier Farms,"$1,181.90",Chesapeake,VA,business,campaign event expense,D,467238,2025-10-30
+expenditure,2025-10-01,Elizabeth Guindon,$616,Norfolk,VA,individual,campaign work,D,467238,2025-10-30
+expenditure,2025-10-13,Hot Rodders Cafe,$68.85,Chesapeake,VA,business,,D,467238,2025-10-30
+expenditure,2025-10-13,"Jungle Disk, LLC",$10,San Antonio,TX,business,office expense,D,467238,2025-10-30
+expenditure,2025-10-09,"Kinser, Leftwich & Kahle, P.C.","$1,534.91",Chesapeake,VA,business,postage expense,D,467238,2025-10-30
+expenditure,2025-10-22,Hope Leftwich,$452,Chesapeake,VA,individual,campaign work,D,467238,2025-10-30
+expenditure,2025-10-21,Little Zion Missionary Baptist Church,$125,Chesapeake,VA,business,program ad,D,467238,2025-10-30
+expenditure,2025-10-13,LOVE'S Travel Store,$78.25,Dispunta,VA,business,gas expense,D,467238,2025-10-30
+expenditure,2025-10-13,Office Max,$100.18,,VA,business,office supplies,D,467238,2025-10-30
+expenditure,2025-10-13,Office Max,$3.06,,VA,business,print expense,D,467238,2025-10-30
+expenditure,2025-10-13,Office Max,$281.38,,VA,business,office supplies,D,467238,2025-10-30
+expenditure,2025-10-13,Office Max,$49.59,,VA,business,office supplies,D,467238,2025-10-30
+expenditure,2025-10-13,Public Storage,$339,Chesapeake,VA,business,campaign storage,D,467238,2025-10-30
+expenditure,2025-10-13,Richmond Times Dispatch,$40.99,Richmond,VA,business,subscription,D,467238,2025-10-30
+expenditure,2025-10-07,TowneBank,$120,,VA,business,wire transfer fee,D,467238,2025-10-30
+expenditure,2025-10-08,TowneBank,$40,,VA,business,bank fee,D,467238,2025-10-30
+expenditure,2025-10-21,TowneBank,$120,,VA,business,bank fees,D,467238,2025-10-30
+expenditure,2025-10-13,Tractor Supply Corporate,$232.78,Brentwood,TN,business,posts for signs,D,467238,2025-10-30
+expenditure,2025-10-13,Tropical Smoothie,$17.45,Chesapeake,VA,business,lunch for staff,D,467238,2025-10-30
+expenditure,2025-10-13,USPS,$936,Chesapeake,VA,business,postage expense,D,467238,2025-10-30
+expenditure,2025-10-01,Vanco Payment Solutions,$1,Bloomington,MN,business,processing fees,D,467238,2025-10-30
+expenditure,2025-10-11,Vanco Payment Solutions,$151.25,Bloomington,MN,business,processing fees,D,467238,2025-10-30
+expenditure,2025-10-17,Vanco Payment Solutions,$14.20,Bloomington,MN,business,transaction fees,D,467238,2025-10-30
+expenditure,2025-10-18,Vanco Payment Solutions,$1,Bloomington,MN,business,processing fees,D,467238,2025-10-30
+expenditure,2025-10-13,Village Inn,$81.30,Chesapeake,VA,business,lunch for volunteers,D,467238,2025-10-30
+expenditure,2025-10-13,Wawa,$63.92,Chesapeake,VA,business,gas expense for staff,D,467238,2025-10-30
+expenditure,2025-10-22,Kristen Wilkins,$250,Chesapeake,VA,individual,event help,D,467238,2025-10-30
+expenditure,2025-10-02,WRS,"$2,500",Washington,DC,business,consulting services,D,467238,2025-10-30
+expenditure,2025-11-12,7-eleven,$40.32,,VA,business,ice for oyster roast,D,471017,2025-12-02
+expenditure,2025-11-12,"7-Eleven, Inc.",$8.07,,VA,business,waters,D,471017,2025-12-02
+expenditure,2025-11-12,Adams Peanuts & Country Store,$27.78,Waverly,VA,business,peanuts for event,D,471017,2025-12-02
+expenditure,2025-11-12,Adobe Systems,$19.99,,CA,business,office expense,D,471017,2025-12-02
+expenditure,2025-11-17,Adobe Systems,$39.98,,CA,business,office expense,D,471017,2025-12-02
+expenditure,2025-11-12,BP Station,$22.99,Chesapeake,VA,business,ice for oyster roast,D,471017,2025-12-02
+expenditure,2025-11-12,BP Station,$63.17,Chesapeake,VA,business,gas for staff,D,471017,2025-12-02
+expenditure,2025-11-03,Angela Chellew,"$2,000",Virginia Beach,VA,individual,campaign work,D,471017,2025-12-02
+expenditure,2025-11-04,Angela Chellew,$500,Virginia Beach,VA,individual,compliance services,D,471017,2025-12-02
+expenditure,2025-11-04,Angela Chellew,$250,Virginia Beach,VA,individual,cellphone,D,471017,2025-12-02
+expenditure,2025-11-10,Deep Creek Ruritans,$300,Chesapeake,VA,business,dues,D,471017,2025-12-02
+expenditure,2025-11-12,Dollar Tree Stores,$22.53,,VA,business,table cloths for event,D,471017,2025-12-02
+expenditure,2025-11-12,Exxon Mobil,$65.64,Chesapeake,VA,business,gas for staff,D,471017,2025-12-02
+expenditure,2025-11-12,Flavor Savor BBQ,$57,Chesapeake,VA,business,Lunch for staff,D,471017,2025-12-02
+expenditure,2025-11-12,Go Daddy,$8.99,Scottsdale,AZ,business,office expense,D,471017,2025-12-02
+expenditure,2025-11-12,Go Daddy,$17.99,Scottsdale,AZ,business,domain expense,D,471017,2025-12-02
+expenditure,2025-11-12,Go Daddy,$95.88,Scottsdale,AZ,business,office expense,D,471017,2025-12-02
+expenditure,2025-11-12,Google,$33.60,,CA,business,office expense,D,471017,2025-12-02
+expenditure,2025-11-19,Elizabeth Guindon,$489.30,Norfolk,VA,individual,campaign work,D,471017,2025-12-02
+expenditure,2025-11-12,Harris Teeter,$259.73,,VA,business,drinks for oyster roast,D,471017,2025-12-02
+expenditure,2025-11-12,"Jungle Disk, LLC",$10,San Antonio,TX,business,office expense,D,471017,2025-12-02
+expenditure,2025-11-12,"Kinser, Leftwich & Kahle, P.C.",$500,Chesapeake,VA,business,campaign rent,D,471017,2025-12-02
+expenditure,2025-11-12,Kroger,$24.71,,VA,business,oyster roast supplies,D,471017,2025-12-02
+expenditure,2025-11-12,Kroger,$135.38,,VA,business,event expense,D,471017,2025-12-02
+expenditure,2025-11-12,Lift Fitness,$554.95,Virginia Beach,VA,business,sponsorship,D,471017,2025-12-02
+expenditure,2025-11-12,Minuteman Press,$184.51,Virginia Beach,VA,business,printing expense,D,471017,2025-12-02
+expenditure,2025-11-12,Office Max,$32.78,,VA,business,office supplies,D,471017,2025-12-02
+expenditure,2025-11-12,Public Storage,$339,Chesapeake,VA,business,campaign storage,D,471017,2025-12-02
+expenditure,2025-11-12,Pungo Boys BBQ,"$1,627.68",Virginia Beach,VA,business,food for fundraiser,D,471017,2025-12-02
+expenditure,2025-10-31,Republican Party of Chesapeake,$500,Chesapeake,VA,party,BBQ event donation,D,471017,2025-12-02
+expenditure,2025-11-12,Republican Party of Chesapeake,$500,Chesapeake,VA,party,donation,D,471017,2025-12-02
+expenditure,2025-11-12,Richmond Times Dispatch,$45.98,Richmond,VI,business,subscription,D,471017,2025-12-02
+expenditure,2025-11-12,Sheetz,$61.51,,VA,business,gas expense,D,471017,2025-12-02
+expenditure,2025-11-12,Taylor's Do It Center,$7.41,Chesapeake,VA,business,supplies for event,D,471017,2025-12-02
+expenditure,2025-11-12,Taylor's Do It Center,$8.35,Chesapeake,VA,business,zip ties,D,471017,2025-12-02
+expenditure,2025-11-12,Thimble Insurance,$201.09,New York,NY,business,event insurance,D,471017,2025-12-02
+expenditure,2025-11-12,Trail Blazer Campaign Services,$384.65,Minneapolis,MN,business,database expense,D,471017,2025-12-02
+expenditure,2025-11-12,Trail Blazer Campaign Services,$384.65,Minneapolis,MN,business,database expense,D,471017,2025-12-02
+expenditure,2025-11-12,Trump Winery,$461.10,Charlottesville,VA,business,wine for fundraising event,D,471017,2025-12-02
+expenditure,2025-11-17,USPS,$780,Chesapeake,VA,business,postage,D,471017,2025-12-02
+expenditure,2025-10-25,Vanco Payment Solutions,$7.03,Bloomington,MN,business,processing fees,D,471017,2025-12-02
+expenditure,2025-10-27,Vanco Payment Solutions,$11.81,Bloomington,MN,business,processing fees,D,471017,2025-12-02
+expenditure,2025-11-08,Vanco Payment Solutions,$2.39,Bloomington,MN,business,processing fees,D,471017,2025-12-02
+expenditure,2025-11-17,Vanco Payment Solutions,$8.08,Bloomington,MN,business,prcoessing fees,D,471017,2025-12-02
+expenditure,2025-11-12,Virginia ABC Licensing,$85,,VA,business,license for event,D,471017,2025-12-02
+expenditure,2025-11-12,Wal-mart supercenter,$71.32,,VA,business,oyster roast supplies,D,471017,2025-12-02
+expenditure,2025-11-12,Wal-mart supercenter,$285.75,,VA,business,event expense,D,471017,2025-12-02
+expenditure,2025-11-12,Wal-mart supercenter,$268.99,,VA,business,oyster roast supplies,D,471017,2025-12-02
+expenditure,2025-11-07,WRS,"$4,268.40",Washington,DC,business,messaging expense,D,471017,2025-12-02
 expenditure,2025-12-12,"7-Eleven, Inc.",$69.71,,WI,business,gas expense,D,475146,2026-01-06
 expenditure,2025-12-12,Adobe Systems,$9.99,,CA,business,office expense,D,475146,2026-01-06
 expenditure,2025-12-12,Adobe Systems,$29.99,,CA,business,office expense,D,475146,2026-01-06
@@ -185,5 +794,12 @@ expenditure,2026-04-13,Virginian Pilot,$1,,VA,business,fee,D,491648,2026-07-02
 expenditure,2026-01-19,VRBO,$407.97,Austin,TX,business,Richmond accomodations hold expense,D,491648,2026-07-02
 expenditure,2026-03-16,Wawa,$73.27,Chesapeake,VA,business,gas expense for Richmond,D,491648,2026-07-02
 expenditure,2026-04-16,Western Tidewater Young Republicans,$150,,VA,business,donation,D,491648,2026-07-02
+debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,business,,F,438239,2025-05-22
+debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,business,,F,441903,2025-06-09
+debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,business,,F,444516,2025-07-03
+debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,business,,F,456564,2025-09-24
+debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,business,,F,458061,2025-10-08
+debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,business,,F,467238,2025-10-30
+debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,business,,F,471017,2025-12-02
 debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,business,,F,475146,2026-01-06
 debt,2013-11-08,Jay Leftwich,$200,Chesapeake,VA,business,,F,491648,2026-07-02

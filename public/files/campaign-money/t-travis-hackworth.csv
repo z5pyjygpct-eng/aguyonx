@@ -3,6 +3,173 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$88,807.92",,VA,,"From official Schedule H, November 2027 election cycle",H,495403,2026-07-14
 summary,2026-06-30,Raised this cycle,"$360,490.97",,,,Total receipts this election cycle (Schedule H),H,495403,2026-07-14
 summary,2026-06-30,Spent this cycle,"$289,042.21",,,,Total disbursements this election cycle (Schedule H),H,495403,2026-07-14
+contribution,2024-01-02,Commonwealth Sportsmens Alliance PAC,$500,Powhatan,VA,pac,,A,409651,2024-07-15
+contribution,2024-01-08,Virginia Manufactured and Modular Housing Association PAC,$250,Henrico,VA,pac,,A,409651,2024-07-15
+contribution,2024-01-08,Dominion Energy Inc. Political Action Committee VA,"$10,000",Richmond,VA,pac,,A,409651,2024-07-15
+contribution,2024-06-24,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,409651,2024-07-15
+contribution,2024-06-24,Virginia Cable Telecommunications Association PAC,"$1,000",Richmond,VA,pac,,A,409651,2024-07-15
+contribution,2024-01-09,Virginia Oil and Gas Association PAC,$500,Abingdon,VA,pac,,A,409651,2024-07-15
+contribution,2024-01-08,Virginia Independent Auto Dealers PAC,$250,Virginia Beach,VA,pac,,A,409651,2024-07-15
+contribution,2024-06-03,Republic Services Inc,$500,Phoenix,AZ,business,,A,409651,2024-07-15
+contribution,2024-01-08,Mrs. Janet S. Settle,$250,Abingdon,VA,individual,,A,409651,2024-07-15
+contribution,2024-01-09,Virginia Operators for Skill,"$5,000",Richmond,VA,business,,A,409651,2024-07-15
+contribution,2024-05-08,Virginia Operators for Skill,"$1,000",Richmond,VA,business,,A,409651,2024-07-15
+contribution,2024-01-08,Commercial Development Political Action Committee,$500,Alexandria,VA,pac,,A,409651,2024-07-15
+contribution,2024-01-08,Commonwealth Connections Inc.,$250,Big Stone Gap,VA,business,,A,409651,2024-07-15
+contribution,2024-01-08,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,409651,2024-07-15
+contribution,2024-01-09,Accel Entertainment Gaming LLC,"$1,000",Bolingbrook,IL,business,,A,409651,2024-07-15
+contribution,2024-01-09,Asian American Business Owners Association PAC,"$1,000",Roanoke,VA,pac,,A,409651,2024-07-15
+contribution,2024-01-09,Virginia Law Enforcement Sheriffs,$500,Lawrenceville,VA,business,,A,409651,2024-07-15
+contribution,2024-01-08,Virginia Asian American Store Owners Association PAC,$500,Richmond,VA,pac,,A,409651,2024-07-15
+contribution,2024-01-08,Bellatrix Consulting Group LLC,$250,Richmond,VA,business,,A,409651,2024-07-15
+contribution,2024-04-03,Mrs. Renee V. Stanley,"$5,000",Clintwood,VA,individual,,A,409651,2024-07-15
+contribution,2024-04-03,Mr. Dale Dotson,"$5,000",Belcher,KY,individual,,A,409651,2024-07-15
+contribution,2024-06-24,Truckers Political Action Committee of Virginia,$500,Richmond,VA,pac,,A,409651,2024-07-15
+contribution,2024-09-03,Mr. Ricky Chitwood,$250,North Tazewell,VA,individual,,A,431061,2025-01-15
+contribution,2024-10-25,Mr. William Payne,"$1,000",Bristol,VA,individual,,A,431061,2025-01-15
+contribution,2024-10-28,Virginia Lifepoint Hospitals PAC,"$2,500",Richlands,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-06,Mr. F. Brad Denardo,$250,Blacksburg,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-18,Mr. John York Lindsey,"$1,000",Richlands,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-25,Wellmore Energy Company LLC,"$1,500",Blountville,TN,business,,A,431061,2025-01-15
+contribution,2024-09-18,Jeanne Stosser,"$5,000",Blacksburg,VA,individual,,A,431061,2025-01-15
+contribution,2024-12-31,Commonwealth Sportsmens Alliance PAC,"$1,000",Powhatan,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-18,Pepsi Cola Bottling Co. Inc. of Norton,"$5,000",Norton,VA,business,,A,431061,2025-01-15
+contribution,2024-09-03,Virginia Automobile and Truck Dealers PAC,"$2,500",Richmond,VA,pac,,A,431061,2025-01-15
+contribution,2024-12-16,Virginia Automobile and Truck Dealers PAC,"$2,500",Richmond,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-17,Virginia Beverage Association PAC,$750,Richmond,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-17,Mr. John Absher,$250,Cedar Bluff,VA,individual,,A,431061,2025-01-15
+contribution,2024-08-29,Mr. Timothy H. Wallace,$500,Doran,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-03,Richlands Funeral Co. Inc.,$500,Richlands,VA,business,,A,431061,2025-01-15
+contribution,2024-09-06,Mr. Michael G. McGlothlin,$500,Grundy,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-18,Buskill Sales Co. Inc.,$500,Richlands,VA,business,,A,431061,2025-01-15
+contribution,2024-09-05,Mr. John Marco Warner,"$1,000",Richlands,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-03,Dr. Glenn A. Harrison,$500,Abingdon,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-23,Mountain Fuels Inc.,"$1,000",Abingdon,VA,business,,A,431061,2025-01-15
+contribution,2024-09-05,Ms. Charlotte Richardson,$250,Cedar Bluff,VA,individual,,A,431061,2025-01-15
+contribution,2024-12-09,Virginia Sheriffs Association PAC,$500,Richmond,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-06,Gasco Drilling Inc.,$500,Cedar Bluff,VA,business,,A,431061,2025-01-15
+contribution,2024-09-09,3B Consulting Services LLC,$500,Lebanon,VA,business,,A,431061,2025-01-15
+contribution,2024-09-03,Noah Horn Well Drilling Inc.,"$2,500",Vansant,VA,business,,A,431061,2025-01-15
+contribution,2024-07-23,Dominion Energy Inc. Political Action Committee VA,"$10,000",Richmond,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-03,Mrs. Susan R. Jensen,$500,Bastian,VA,individual,,A,431061,2025-01-15
+contribution,2024-11-21,Mrs. Gail F. Brown,$200,Pounding Mill,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-09,Mr Richard C Smith,$500,Richlands,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-03,Paul's Fan Company,"$2,500",Big Rock,VA,business,,A,431061,2025-01-15
+contribution,2024-09-18,Ultra Petroleum LLC,$500,Richlands,VA,business,,A,431061,2025-01-15
+contribution,2024-09-10,Mr Timothy Trent,$250,Cedar Bluff,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-09,Dr. Christopher R. Brown,$500,North Tazewell,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-03,Mr. A. T. Short,$500,Raven,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-23,K-VA-T Food Stores Inc.,"$1,000",Abingdon,VA,business,,A,431061,2025-01-15
+contribution,2024-09-06,Amazon.com Services LLC,"$2,000",Seattle,WA,business,,A,431061,2025-01-15
+contribution,2024-12-23,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,431061,2025-01-15
+contribution,2024-07-15,MVP LLC,$750,Canonsburg,VA,business,,A,431061,2025-01-15
+contribution,2024-07-29,Virginia State Police Association Inc. PAC,$250,Richmond,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-16,Williams Mullen Clark and Dobbins,"$1,000",Richmond,VA,business,,A,431061,2025-01-15
+contribution,2024-10-16,Anheuser Busch Companies,$500,Atlanta,GA,business,,A,431061,2025-01-15
+contribution,2024-09-16,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,A,431061,2025-01-15
+contribution,2024-07-03,Atmos Energy Corporation PAC,$500,Dallas,TX,pac,,A,431061,2025-01-15
+contribution,2024-07-23,Acadia Healthcare Company Inc. FedPAC,$500,Franklin,TN,pac,,A,431061,2025-01-15
+contribution,2024-09-18,Mrs. Stephanie Roberts,"$1,000",Richlands,VA,individual,,A,431061,2025-01-15
+contribution,2024-12-09,HCA for Good Government PAC,"$2,500",Richmond,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-18,Friends of Mountain States,"$1,000",Johnson City,TN,business,,A,431061,2025-01-15
+contribution,2024-07-01,Virginia Independent Auto Dealers PAC,$750,Virginia Beach,VA,pac,,A,431061,2025-01-15
+contribution,2024-07-29,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,431061,2025-01-15
+contribution,2024-08-14,Waste Management,"$1,000",Houston,TX,business,,A,431061,2025-01-15
+contribution,2024-12-23,Comcast Corporation,$500,Philadelphia,PA,business,,A,431061,2025-01-15
+contribution,2024-09-23,Mrs. Barbara M. McMillan,$300,Pounding Mill,VA,individual,,A,431061,2025-01-15
+contribution,2024-07-11,Mr. Steven C. Hylton,$250,Abingdon,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-09,Mr. Steven C. Hylton,$100,Abingdon,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-18,Auger Coal LLC,$500,Cedar Bluff,VA,business,,A,431061,2025-01-15
+contribution,2024-10-22,Strata Solar LLC,$500,Durham,NC,business,,A,431061,2025-01-15
+contribution,2024-08-29,Vision Management Services,$500,Chicago,IL,business,,A,431061,2025-01-15
+contribution,2024-09-18,CNX Gas Company LLC,"$2,500",Canonsburg,PA,business,,A,431061,2025-01-15
+contribution,2024-09-16,Mr. David A. Leonard,$500,Lebanon,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-18,Mr. Christopher Stanley,"$1,000",Clintwood,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-30,Commonwealth Connections Inc.,"$1,000",Big Stone Gap,VA,business,,A,431061,2025-01-15
+contribution,2024-09-18,Mr. Aaron Gillespie,$251,North Tazewell,VA,individual,,A,431061,2025-01-15
+contribution,2024-07-23,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-09,Mr. Lawton Mullins,$250,Wise,VA,individual,,A,431061,2025-01-15
+contribution,2024-10-11,Mr. Thomas R. Scott Jr.,$250,Grundy,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-17,Mitchell Law Firm,"$1,000",Blacksburg,VA,business,,A,431061,2025-01-15
+contribution,2024-09-23,Mr. John K. Matney,"$2,500",Bristol,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-18,Simmons Equipment Company,"$1,000",Tazewell,VA,business,,A,431061,2025-01-15
+contribution,2024-09-30,Outdoor Country LLC,$500,Cedar Bluff,VA,business,,A,431061,2025-01-15
+contribution,2024-10-22,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,A,431061,2025-01-15
+contribution,2024-12-17,Cozen O'Connor,$500,Philadelphia,PA,business,,A,431061,2025-01-15
+contribution,2024-09-03,Mr. Jeff Archer,"$2,500",Max Meadows,VA,individual,,A,431061,2025-01-15
+contribution,2024-07-01,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-23,Virginia Maritime Association PAC,"$1,500",Norfolk,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-03,Bland Family Dentistry Ltd.,$500,Bland,VA,business,,A,431061,2025-01-15
+contribution,2024-08-27,Mr. George W. McCall III,$150,Richlands,VA,individual,,A,431061,2025-01-15
+contribution,2024-07-15,Enterprise Holdings Inc. PAC,"$1,000",Saint Louis,MO,pac,,A,431061,2025-01-15
+contribution,2024-07-23,Transurban USA Inc.,$500,Tysons,VA,business,,A,431061,2025-01-15
+contribution,2024-08-05,LKQ Corporation,$500,Antioch,TN,business,,A,431061,2025-01-15
+contribution,2024-08-29,Gateway Paving Inc,$200,Pounding Mill,VA,business,,A,431061,2025-01-15
+contribution,2024-09-03,General Motors Company PAC,$500,Washington,DC,pac,,A,431061,2025-01-15
+contribution,2024-09-03,Reliance Law Group,$500,Cedar Bluff,VA,business,,A,431061,2025-01-15
+contribution,2024-10-21,Virginia Asphalt Association Inc,$500,Richmond,VA,business,,A,431061,2025-01-15
+contribution,2024-09-05,Pounding Mill Land & Cattle Inc,$250,Cedar Bluff,VA,business,,A,431061,2025-01-15
+contribution,2024-09-06,Dana C. Davis,$500,Cedar Bluff,VA,individual,,A,431061,2025-01-15
+contribution,2024-11-12,"American Traffic Solutions, Inc",$500,Mesa,AZ,business,,A,431061,2025-01-15
+contribution,2024-11-08,Commissioner of Revenue PAC  (CORPAC),$125,Staunton,VA,pac,,A,431061,2025-01-15
+contribution,2024-11-22,Invenergy,$250,Chicago,IL,business,,A,431061,2025-01-15
+contribution,2024-11-26,Comstock Hospitality Holdings LLC,"$5,000",Reston,VA,business,,A,431061,2025-01-15
+contribution,2024-12-20,Pharmaceutical Research & Manufacturers of America Better Government Committee (PhRMA),$500,Washington,DC,business,,A,431061,2025-01-15
+contribution,2024-12-20,Reed Smith LLP,$500,Pittsburgh,PA,business,,A,431061,2025-01-15
+contribution,2024-12-27,Virginia Digital Infrastructure PAC,"$2,500",Leesburg,VA,pac,,A,431061,2025-01-15
+contribution,2024-09-09,Mr. Carl T. Musick,$250,Knoxville,TN,individual,,A,431061,2025-01-15
+contribution,2024-09-09,Leeanne H. Regon,$500,Tazewell,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-09,Debbie S. Hodge,$500,Tazewell,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-10,Mr. David E. Vance,$250,Cedar Bluff,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-10,Southwest Emergency Restoration LLC,$500,Pounding Mill,VA,business,,A,431061,2025-01-15
+contribution,2024-09-12,RE Max at Work,$500,Cedar Bluff,VA,business,,A,431061,2025-01-15
+contribution,2024-09-12,Ritchie-Built Inc,$500,Pounding Mill,VA,business,,A,431061,2025-01-15
+contribution,2024-09-12,Mr. James D. Tatum,"$1,000",Pounding Mill,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-18,"Schuler Heating, Air and Electrical",$500,Cedar Bluff,VA,business,,A,431061,2025-01-15
+contribution,2024-09-16,Permatile Concrete Products Company,$500,Bristol,VA,business,,A,431061,2025-01-15
+contribution,2024-09-18,"Marcus B Buskill, DDS, PC",$500,Richlands,VA,business,,A,431061,2025-01-15
+contribution,2024-09-17,Mr. Donald Mitchem,"$1,000",North Tazewell,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-18,Eric S. Smith,"$2,500",Bristol,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-18,Helping Hands Hospice Inc,$500,Pounding Mill,VA,business,,A,431061,2025-01-15
+contribution,2024-09-18,Phillip S. Martin,"$1,000",Marion,VA,individual,,A,431061,2025-01-15
+contribution,2024-09-23,Paul Goldean,"$5,000",Charlotte,NC,individual,,A,431061,2025-01-15
+contribution,2024-09-23,Clyde E. Stacy,"$2,500",Bristol,VA,individual,,A,431061,2025-01-15
+contribution,2024-10-11,Martinsville Church of Truth (flood relief),"$1,987",Martinsville,VA,business,,A,431061,2025-01-15
+contribution,2024-10-22,Martinsville Church of Truth (flood relief),$210,Martinsville,VA,business,,A,431061,2025-01-15
+contribution,2024-10-28,Martinsville Church of Truth (flood relief),$150,Martinsville,VA,business,,A,431061,2025-01-15
+contribution,2024-10-17,Church of Danville,$483,Axton,VA,business,,A,431061,2025-01-15
+contribution,2025-05-12,Mr. F. Brad Denardo,$500,Blacksburg,VA,individual,,A,447086,2025-07-14
+contribution,2025-05-12,Jeanne Stosser,"$5,000",Blacksburg,VA,individual,,A,447086,2025-07-14
+contribution,2025-04-14,Virginia Automobile and Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,447086,2025-07-14
+contribution,2025-05-06,Mr. Paul M. Mylum,$500,Radford,VA,individual,,A,447086,2025-07-14
+contribution,2025-01-07,Virginia Manufactured and Modular Housing Association PAC,$250,Henrico,VA,pac,,A,447086,2025-07-14
+contribution,2025-02-25,Metallurgical Coal Producers Association PAC,"$1,500",Lebanon,VA,pac,,A,447086,2025-07-14
+contribution,2025-05-06,Shelor Motor Mile Inc.,"$5,000",Christiansburg,VA,business,,A,447086,2025-07-14
+contribution,2025-05-13,Ms. Sandra C. Davis,"$1,000",Blacksburg,VA,individual,,A,447086,2025-07-14
+contribution,2025-06-25,Altria Client Services LLC,"$1,500",Richmond,VA,business,,A,447086,2025-07-14
+contribution,2025-05-05,Atmos Energy Corporation PAC,$500,Dallas,TX,pac,,A,447086,2025-07-14
+contribution,2025-01-07,Virginia Oil and Gas Association PAC,$500,Abingdon,VA,pac,,A,447086,2025-07-14
+contribution,2025-01-07,McGuireWoods LLP,"$1,000",Richmond,VA,business,,A,447086,2025-07-14
+contribution,2025-06-17,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,447086,2025-07-14
+contribution,2025-05-19,Mr. Steven T. Critchfield,$500,Blacksburg,VA,individual,,A,447086,2025-07-14
+contribution,2025-01-07,Virginia Operators for Skill,"$2,500",Richmond,VA,business,,A,447086,2025-07-14
+contribution,2025-01-07,Home Builders Association of Virginia HBAV Build-PAC,"$5,000",Richmond,VA,pac,,A,447086,2025-07-14
+contribution,2025-01-07,Commercial Development Political Action Committee,"$1,000",Alexandria,VA,pac,,A,447086,2025-07-14
+contribution,2025-01-07,Omega Protein,$500,Calais,ME,business,,A,447086,2025-07-14
+contribution,2025-03-29,Commonwealth Connections Inc.,"$1,000",Big Stone Gap,VA,business,,A,447086,2025-07-14
+contribution,2025-05-05,Thompson & Litton,"$2,500",Wise,VA,business,,A,447086,2025-07-14
+contribution,2025-06-12,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,447086,2025-07-14
+contribution,2025-01-07,Virginia Asian American Store Owners Association PAC,"$1,000",Richmond,VA,pac,,A,447086,2025-07-14
+contribution,2025-05-05,Dana C. Davis,"$2,500",Cedar Bluff,VA,individual,,A,447086,2025-07-14
+contribution,2025-01-07,"Vantage Data Centers Management Co, LLC",$500,Santa Clara,CA,business,,A,447086,2025-07-14
+contribution,2025-05-08,Mr. Raymond D. Smoot Jr.,"$1,000",Blacksburg,VA,individual,,A,447086,2025-07-14
+contribution,2025-05-12,All Points Broadband Partners LLC,"$1,000",Richmond,VA,business,,A,447086,2025-07-14
+contribution,2025-05-12,Secor LLC,"$5,000",Lebanon,VA,business,,A,447086,2025-07-14
+contribution,2025-05-12,Harwood Cavaliers Properties LLC,$500,Lebanon,VA,business,,A,447086,2025-07-14
+contribution,2025-05-12,DWR Construction LLC,"$2,500",Chapel Hill,NC,business,,A,447086,2025-07-14
+contribution,2025-05-19,Turman Lumber Company Inc.,"$2,500",Riner,VA,business,,A,447086,2025-07-14
+contribution,2025-05-20,Mr. David G. Graf,"$2,000",Rocky Gap,VA,individual,,A,447086,2025-07-14
+contribution,2025-06-02,Smurfit Westrock,"$1,000",Atlanta,VA,business,,A,447086,2025-07-14
 contribution,2025-08-21,Virginia Lifepoint Hospitals PAC,"$2,500",Richlands,VA,pac,,A,479079,2026-01-15
 contribution,2025-10-06,Mr. Brant D. Robertson,$500,Grundy,VA,individual,,A,479079,2026-01-15
 contribution,2025-08-25,Jeanne Stosser,"$5,000",Blacksburg,VA,individual,,A,479079,2026-01-15
@@ -89,12 +256,406 @@ contribution,2026-01-12,PPE Casino Resorts Petersburg,"$1,000",Baltimore,MD,busi
 contribution,2026-01-12,RichSavage LLC,"$1,000",Richmond,VA,business,,A,495403,2026-07-14
 contribution,2026-01-12,Apex Clean Energy Holdings LLC,$250,Charlottesville,VA,business,,A,495403,2026-07-14
 contribution,2026-06-23,Community-Owned Power PAC,"$1,000",Glen Allen,VA,pac,,A,495403,2026-07-14
+other_receipt,2024-02-05,Hilton Richmond Downtown,$333.72,Richmond,VA,business,Refund,C,409651,2024-07-15
+other_receipt,2024-02-05,Hilton Richmond Downtown,$870.24,Richmond,VA,business,Refund,C,409651,2024-07-15
 other_receipt,2026-03-12,Parking Management Co.,$49.64,Nashville,TN,business,Refund,C,495403,2026-07-14
 other_receipt,2026-03-12,Parking Management Co.,$53.63,Nashville,TN,business,Refund,C,495403,2026-07-14
 other_receipt,2026-03-12,Parking Management Co.,$98.84,Nashville,TN,business,Refund,C,495403,2026-07-14
 other_receipt,2026-03-12,Parking Management Co.,$203.99,Nashville,TN,business,Refund,C,495403,2026-07-14
 other_receipt,2026-03-12,Parking Management Co.,$273.39,Nashville,TN,business,Refund,C,495403,2026-07-14
 other_receipt,2026-03-23,Parking Management Co.,$51.52,Nashville,TN,business,Refund,C,495403,2026-07-14
+expenditure,2024-01-03,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-02-15,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-03-04,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-03-28,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-04-29,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-06-03,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-01-03,New Peoples Bank,$24,Pounding Mill,VA,business,Banking services,D,409651,2024-07-15
+expenditure,2024-01-04,Winning Republican Strategies LLC,$468,Ruckersville,VA,business,Website renewal,D,409651,2024-07-15
+expenditure,2024-02-21,Winning Republican Strategies LLC,$500,Ruckersville,VA,business,Consulting fees,D,409651,2024-07-15
+expenditure,2024-01-05,Walmart - Fairlawn,$30.25,Radford,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-03-20,Walmart - Fairlawn,$32.63,Radford,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-03-26,Treasurer of Virginia,$448,Richmond,VA,business,Session postage,D,409651,2024-07-15
+expenditure,2024-04-05,Treasurer of Virginia,$727,Richmond,VA,business,State flags,D,409651,2024-07-15
+expenditure,2024-04-29,Monumental Consulting LLC,"$2,100",Midlothian,VA,business,Consulting fees,D,409651,2024-07-15
+expenditure,2024-05-20,Walmart - Pounding Mill,$46.43,Pounding Mill,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-01-17,WGTH,$165,Richlands,VA,business,Advertising,D,409651,2024-07-15
+expenditure,2024-04-30,WGTH,$243,Richlands,VA,business,Advertising,D,409651,2024-07-15
+expenditure,2024-05-31,WGTH,$87,Richlands,VA,business,Advertising,D,409651,2024-07-15
+expenditure,2024-01-04,Best Buy,$54.18,Bristol,TN,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-01-04,Best Buy,$904.39,Bristol,TN,business,Office equipment,D,409651,2024-07-15
+expenditure,2024-01-02,Google,$48,Mountain View,CA,business,Software fees,D,409651,2024-07-15
+expenditure,2024-02-01,Google,$48,Mountain View,CA,business,Software fees,D,409651,2024-07-15
+expenditure,2024-03-01,Google,$52.96,Mountain View,CA,business,Software fees,D,409651,2024-07-15
+expenditure,2024-04-01,Google,$57.60,Mountain View,CA,business,Software fees,D,409651,2024-07-15
+expenditure,2024-05-01,Google,$57.60,Mountain View,CA,business,Software fees,D,409651,2024-07-15
+expenditure,2024-06-03,Google,$57.60,Mountain View,CA,business,Software fees,D,409651,2024-07-15
+expenditure,2024-01-04,Town of Pulaski,$63.29,Pulaski,VA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-02-08,Town of Pulaski,$63.29,Pulaski,VA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-03-06,Town of Pulaski,$70.08,Pulaski,VA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-04-08,Town of Pulaski,$64.93,Pulaski,VA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-05-08,Town of Pulaski,$64.65,Pulaski,VA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-06-06,Town of Pulaski,$61.93,Pulaski,VA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-01-02,AEP Appalachian Power,$653.07,Pittsburgh,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-01-24,AEP Appalachian Power,$771.09,Pittsburgh,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-03-06,AEP Appalachian Power,$675.06,Pittsburgh,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-03-22,AEP Appalachian Power,$406.21,Pittsburgh,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-04-30,AEP Appalachian Power,$316.95,Pittsburgh,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-06-06,AEP Appalachian Power,$88.68,Pittsburgh,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-01-26,Comcast Business,$105.90,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-01-26,Comcast Business,$133.04,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-02-27,Comcast Business,$133.04,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-02-27,Comcast Business,$105.90,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-03-27,Comcast Business,$133.04,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-03-27,Comcast Business,$105.90,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-04-29,Comcast Business,$148.28,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-04-29,Comcast Business,$105.90,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-05-28,Comcast Business,$148.28,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-05-28,Comcast Business,$105.90,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-06-27,Comcast Business,$105.90,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-06-27,Comcast Business,$148.28,Philadelphia,PA,business,District office utilities,D,409651,2024-07-15
+expenditure,2024-01-17,Amazon.com,$75.71,Seattle,WA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-01-18,Amazon.com,$67.79,Seattle,WA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-04-19,Amazon.com,$335.90,Seattle,WA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-06-20,Auto-Owners Insurance,$61.54,Lansing,MI,business,Insurance premium,D,409651,2024-07-15
+expenditure,2024-04-08,Shell Oil - Dublin,$37.01,Dublin,VA,business,Fuel purchase,D,409651,2024-07-15
+expenditure,2024-05-15,Shell Oil - Dublin,$41.20,Dublin,VA,business,Fuel purchase,D,409651,2024-07-15
+expenditure,2024-05-20,Shell Oil - Dublin,$35.30,Dublin,VA,business,Fuel purchase,D,409651,2024-07-15
+expenditure,2024-06-11,Shell Oil - Dublin,$42.50,Dublin,VA,business,Fuel purchase,D,409651,2024-07-15
+expenditure,2024-06-25,Shell Oil - Dublin,$39.60,Dublin,VA,business,Fuel purchase,D,409651,2024-07-15
+expenditure,2024-04-19,Hotel Roanoke,$10,Roanoke,VA,business,Parking,D,409651,2024-07-15
+expenditure,2024-01-02,Pulaski County Chamber of Commerce,$110,Dublin,VA,business,Membership dues,D,409651,2024-07-15
+expenditure,2024-03-28,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-04-15,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-04-29,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-04-29,Angie Hall,$35,Radford,VA,individual,Cleaning supplies,D,409651,2024-07-15
+expenditure,2024-04-30,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-05-29,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-06-10,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-02-08,Vogue Flowers,$99.70,Richmond,VA,business,Flowers,D,409651,2024-07-15
+expenditure,2024-03-26,Giles County Republican Committee,$500,Pearisburg,VA,business,Donation,D,409651,2024-07-15
+expenditure,2024-01-04,BimmerWorld Properties LLC,$146.73,Dublin,VA,business,District office expense,D,409651,2024-07-15
+expenditure,2024-01-31,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-02-15,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-03-04,BimmerWorld Properties LLC,"$2,288.78",Dublin,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-03-16,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-04-19,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-05-16,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-06-18,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,409651,2024-07-15
+expenditure,2024-03-21,Shell Oil - Pounding Mill,$40,Pounding Mill,VA,business,Fuel purchase,D,409651,2024-07-15
+expenditure,2024-02-12,Ollies Bargain Outlet,$23.14,Pulaski,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-02-15,CWC,$20,Pulaski,VA,business,Office window cleaning,D,409651,2024-07-15
+expenditure,2024-02-08,Sefton Coffee,$100.45,Richmond,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-03-18,Richlands Tabernacle,$100,Richlands,VA,business,Donation,D,409651,2024-07-15
+expenditure,2024-01-29,Sarah C. Owen,"$3,334",Lynchburg,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-03-18,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-03-28,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-04-29,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-06-28,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,409651,2024-07-15
+expenditure,2024-01-10,Hilton Richmond Downtown,$498.84,Richmond,VA,business,Session lodging,D,409651,2024-07-15
+expenditure,2024-02-02,Hilton Richmond Downtown,"$1,203.96",Richmond,VA,business,Session lodging,D,409651,2024-07-15
+expenditure,2024-06-20,Hilton Richmond Downtown,$196.51,Richmond,VA,business,Lodging expense,D,409651,2024-07-15
+expenditure,2024-01-10,Email Octopus,$36.36,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,409651,2024-07-15
+expenditure,2024-02-11,Email Octopus,$36.36,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,409651,2024-07-15
+expenditure,2024-03-11,Email Octopus,$36.36,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,409651,2024-07-15
+expenditure,2024-04-10,Email Octopus,$36.36,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,409651,2024-07-15
+expenditure,2024-05-10,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,409651,2024-07-15
+expenditure,2024-06-10,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,409651,2024-07-15
+expenditure,2024-01-03,News Messenger,$5.75,Salem,VA,business,Subscription,D,409651,2024-07-15
+expenditure,2024-02-05,News Messenger,$5.75,Salem,VA,business,Subscription,D,409651,2024-07-15
+expenditure,2024-03-04,News Messenger,$5.75,Salem,VA,business,Subscription,D,409651,2024-07-15
+expenditure,2024-04-03,News Messenger,$5.75,Salem,VA,business,Subscription,D,409651,2024-07-15
+expenditure,2024-05-03,News Messenger,$5.75,Salem,VA,business,Subscription,D,409651,2024-07-15
+expenditure,2024-06-03,News Messenger,$5.75,Salem,VA,business,Subscription,D,409651,2024-07-15
+expenditure,2024-01-03,Mulchi for Senate,"$1,500",Alexandria,VA,candidate,Campaign contribution,D,409651,2024-07-15
+expenditure,2024-02-05,Virginia Capitol Correspondents Association,$140,Richmond,VA,business,Event tickets,D,409651,2024-07-15
+expenditure,2024-04-05,Bland County High School,$50,Rocky Gap,VA,business,Donation,D,409651,2024-07-15
+expenditure,2024-04-08,Virginia Agribusiness Council,$100,Richmond,VA,business,Event ticket,D,409651,2024-07-15
+expenditure,2024-04-10,Staples - Lynchburg,$81.50,Lynchburg,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-04-10,Staples - Lynchburg,$75.21,Lynchburg,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-04-10,Staples - Lynchburg,$64.23,Lynchburg,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-04-16,Staples - Lynchburg,$74.76,Lynchburg,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-04-16,Staples - Lynchburg,$37.47,Lynchburg,VA,business,Office supplies,D,409651,2024-07-15
+expenditure,2024-04-17,Virginia Scope,$77,Richmond,VA,business,Subscription,D,409651,2024-07-15
+expenditure,2024-04-19,Hampton Inn and Suites,$346.52,Richmond,VA,business,Lodging,D,409651,2024-07-15
+expenditure,2024-05-15,Hampton Inn and Suites,$396.52,Richmond,VA,business,Lodging expense,D,409651,2024-07-15
+expenditure,2024-04-23,Shell Oil - Marion,$41,Marion,VA,business,Fuel purchase,D,409651,2024-07-15
+expenditure,2024-05-07,Shell Oil - Rural Retreat,$39,Rural Retreat,VA,business,Fuel purchase,D,409651,2024-07-15
+expenditure,2024-06-18,Sal's Italian Restaurant,$34.23,Radford,VA,business,Food,D,409651,2024-07-15
+expenditure,2024-01-03,Virginian Leader,$45,Pearisburg,VA,business,Subscription,D,409651,2024-07-15
+expenditure,2024-10-25,WinRed Technical Services LLC,$39.40,Arlington,VA,business,Credit card processing fees,D,431061,2025-01-15
+expenditure,2024-07-01,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-07-29,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-09-03,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-10-02,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-10-28,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-12-01,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-12-30,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-08-05,Virginia Senate Republican Caucus Inc.,"$6,250",Richmond,VA,party,Donation,D,431061,2025-01-15
+expenditure,2024-09-18,Virginia Senate Republican Caucus Inc.,"$6,250",Richmond,VA,party,Donation,D,431061,2025-01-15
+expenditure,2024-10-15,Vance Graphics LLC,$679.19,Pounding Mill,VA,business,Printing,D,431061,2025-01-15
+expenditure,2024-11-06,Vance Graphics LLC,"$1,186.87",Pounding Mill,VA,business,Printing,D,431061,2025-01-15
+expenditure,2024-12-09,Vance Graphics LLC,$437,Pounding Mill,VA,business,Printing,D,431061,2025-01-15
+expenditure,2024-07-10,Walmart - Pounding Mill,$28.08,Pounding Mill,VA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-09-16,Walmart - Pounding Mill,$55.48,Pounding Mill,VA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-11-27,Walmart - Pounding Mill,$50.60,Pounding Mill,VA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-07-15,WGTH,$99,Richlands,VA,business,Advertising,D,431061,2025-01-15
+expenditure,2024-11-12,WGTH,$740,Richlands,VA,business,Advertising,D,431061,2025-01-15
+expenditure,2024-12-10,WGTH,$99,Richlands,VA,business,Advertising,D,431061,2025-01-15
+expenditure,2024-07-01,Google,$57.60,Mountain View,CA,business,Software feess,D,431061,2025-01-15
+expenditure,2024-08-02,Google,$57.60,Mountain View,CA,business,Software fees,D,431061,2025-01-15
+expenditure,2024-09-03,Google,$57.60,Mountain View,CA,business,Software fees,D,431061,2025-01-15
+expenditure,2024-10-02,Google,$57.60,Mountain View,CA,business,Software fees,D,431061,2025-01-15
+expenditure,2024-11-01,Google,$57.60,Mountain View,CA,business,Software fees,D,431061,2025-01-15
+expenditure,2024-12-02,Google,$57.60,Mountain View,CA,business,Software fees,D,431061,2025-01-15
+expenditure,2024-07-09,Town of Pulaski,$61.93,Pulaski,VA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-08-07,Town of Pulaski,$66.42,Pulaski,VA,business,Office utilities,D,431061,2025-01-15
+expenditure,2024-09-05,Town of Pulaski,$64.96,Pulaski,VA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-10-03,Town of Pulaski,$66.42,Pulaski,VA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-11-08,Town of Pulaski,$66.42,Pulaski,VA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-12-06,Town of Pulaski,$64.96,Pulaski,VA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-07-09,AEP Appalachian Power,$153.62,Pittsburgh,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-08-06,AEP Appalachian Power,$243.01,Pittsburgh,PA,business,Office utilities,D,431061,2025-01-15
+expenditure,2024-08-22,AEP Appalachian Power,$177.27,Pittsburgh,PA,business,Office utilities,D,431061,2025-01-15
+expenditure,2024-10-03,AEP Appalachian Power,$142.35,Pittsburgh,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-10-18,AEP Appalachian Power,$117.76,Pittsburgh,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-11-19,AEP Appalachian Power,$225.55,Pittsburgh,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-12-19,AEP Appalachian Power,$725.94,Pittsburgh,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-07-10,Amazon.com,$90.55,Seattle,WA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-07-11,Amazon.com,$335.90,Seattle,WA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-07-16,Amazon.com,$78.96,Seattle,WA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-09-10,Amazon.com,$143.30,Seattle,WA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-09-12,Amazon.com,$16,Seattle,WA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-10-15,Amazon.com,$329.55,Seattle,WA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-07-16,Auto-Owners Insurance,$61.46,Lansing,MI,business,Insurance,D,431061,2025-01-15
+expenditure,2024-08-20,Auto-Owners Insurance,$61.46,Lansing,MI,business,Insurance,D,431061,2025-01-15
+expenditure,2024-09-18,Auto-Owners Insurance,$61.46,Lansing,MI,business,Insurance,D,431061,2025-01-15
+expenditure,2024-10-17,Auto-Owners Insurance,$61.46,Lansing,MI,business,Insurance,D,431061,2025-01-15
+expenditure,2024-11-13,Auto-Owners Insurance,$61.46,Lansing,MI,business,Insurance,D,431061,2025-01-15
+expenditure,2024-12-18,Auto-Owners Insurance,$61.46,Lansing,MI,business,Insurance,D,431061,2025-01-15
+expenditure,2024-08-07,Shell Oil - Dublin,$35.51,Dublin,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-08-16,Shell Oil - Dublin,$30.30,Dublin,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-10-24,Shell Oil - Dublin,$22.57,Dublin,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-10-31,Shell Oil - Dublin,$30.13,Dublin,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-11-14,Shell Oil - Dublin,$27.10,Dublin,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-12-17,Shell Oil - Dublin,$31.50,Dublin,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-07-01,Pulaski County Chamber of Commerce,$80,Dublin,VA,business,Meeting,D,431061,2025-01-15
+expenditure,2024-10-16,Pulaski County Chamber of Commerce,$80,Dublin,VA,business,Meeting expense,D,431061,2025-01-15
+expenditure,2024-07-01,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-07-15,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-07-25,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-08-07,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-09-03,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-09-12,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-10-02,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-10-15,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-10-28,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-11-12,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-12-01,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-12-09,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-12-30,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-07-23,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-08-18,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-09-17,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-10-16,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-11-18,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-12-16,BimmerWorld Properties LLC,$552.90,Dublin,VA,business,District office rent,D,431061,2025-01-15
+expenditure,2024-12-12,Smiley's Fuel,$24,Raphine,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-08-19,Montgomery County Chamber of Commerce,$30,Christiansburg,VA,business,Meeting expense,D,431061,2025-01-15
+expenditure,2024-11-13,Ink Technologies Printer Supplies,$412.78,Dayton,OH,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-10-03,Walmart - Dublin,$28.93,Dublin,VA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-07-29,Comcast Corporation,$148.33,Philadelphia,PA,business,Office utilities,D,431061,2025-01-15
+expenditure,2024-07-29,Comcast Corporation,$105.90,Philadelphia,PA,business,Office utilities,D,431061,2025-01-15
+expenditure,2024-08-27,Comcast Corporation,$148.46,Philadelphia,PA,business,Office utilities,D,431061,2025-01-15
+expenditure,2024-08-27,Comcast Corporation,$105.90,Philadelphia,PA,business,Office utilities,D,431061,2025-01-15
+expenditure,2024-09-27,Comcast Corporation,$148.46,Philadelphia,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-09-27,Comcast Corporation,$105.90,Philadelphia,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-10-28,Comcast Corporation,$148.54,Philadelphia,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-10-28,Comcast Corporation,$125.91,Philadelphia,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-11-27,Comcast Corporation,$148.54,Philadelphia,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-11-27,Comcast Corporation,$125.91,Philadelphia,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-12-27,Comcast Corporation,$148.54,Philadelphia,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-12-27,Comcast Corporation,$125.91,Philadelphia,PA,business,District office utilities,D,431061,2025-01-15
+expenditure,2024-09-10,Montgomery Co. Sheriffs Office Citizen Support Group,$250,Christiansburg,VA,business,Calendar ad,D,431061,2025-01-15
+expenditure,2024-10-24,9th District Republican Committee,$500,Saltville,VA,business,Donation,D,431061,2025-01-15
+expenditure,2024-09-17,Sam's Club,$802.20,Bluefield,VA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-07-01,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-07-25,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-09-03,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-10-03,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consuiting fees,D,431061,2025-01-15
+expenditure,2024-10-26,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-11-21,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,431061,2025-01-15
+expenditure,2024-08-12,Chamber of Commerce of Smyth County,$21,Chilhowie,VA,business,Dues,D,431061,2025-01-15
+expenditure,2024-08-30,Kroger Fuel - Radford,$40.01,Fairlawn,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-09-23,Kroger Fuel - Radford,$56,Fairlawn,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-12-12,Hilton Richmond Downtown,$239.84,Richmond,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-12-12,Hilton Richmond Downtown,$0.89,Richmond,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-07-10,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,431061,2025-01-15
+expenditure,2024-08-12,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,431061,2025-01-15
+expenditure,2024-09-10,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,431061,2025-01-15
+expenditure,2024-10-10,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,431061,2025-01-15
+expenditure,2024-11-12,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,431061,2025-01-15
+expenditure,2024-12-10,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,431061,2025-01-15
+expenditure,2024-07-03,News Messenger,$5.75,Salem,VA,business,Subscription,D,431061,2025-01-15
+expenditure,2024-08-05,News Messenger,$5.75,Salem,VA,business,Subscription,D,431061,2025-01-15
+expenditure,2024-09-04,News Messenger,$5.75,Salem,VA,business,Subscription,D,431061,2025-01-15
+expenditure,2024-10-04,News Messenger,$5.75,Salem,VA,business,Subscription,D,431061,2025-01-15
+expenditure,2024-11-04,News Messenger,$5.75,Salem,VA,business,Subscription,D,431061,2025-01-15
+expenditure,2024-12-04,News Messenger,$5.75,Salem,VA,business,Subscription,D,431061,2025-01-15
+expenditure,2024-07-17,Staples - Lynchburg,$84.23,Lynchburg,VA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-08-21,Staples - Lynchburg,$35.23,Lynchburg,VA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-08-19,Shell Oil - Rural Retreat,$41,Rural Retreat,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-09-30,Sal's Italian Restaurant,$180.18,Radford,VA,business,Meeting expense,D,431061,2025-01-15
+expenditure,2024-07-15,Microsoft Corporation,$264,Redmond,WA,business,Software fees,D,431061,2025-01-15
+expenditure,2024-07-22,Peking Restaurant,$165.17,Wytheville,VA,business,Meeting expense,D,431061,2025-01-15
+expenditure,2024-07-30,Appalachian Arts and Events Center,$150,Cedar Bluff,VA,business,Donation,D,431061,2025-01-15
+expenditure,2024-08-16,Shutterfly Inc.,$489.62,San Jose,CA,business,Graphics fees,D,431061,2025-01-15
+expenditure,2024-08-16,Shutterfly Inc.,$252.17,San Jose,CA,business,Graphics fees,D,431061,2025-01-15
+expenditure,2024-08-30,Zoom Inc.,$167.90,San Jose,CA,business,Meeting expense,D,431061,2025-01-15
+expenditure,2024-09-09,Ikea Norfolk,$26.49,Norfolk,VA,business,Office expense,D,431061,2025-01-15
+expenditure,2024-09-10,Giovanni's,$667.80,Richlands,VA,business,Pizza for back to school,D,431061,2025-01-15
+expenditure,2024-09-12,Tom Foley,"$1,200",Cedar Bluff,VA,individual,Band for event,D,431061,2025-01-15
+expenditure,2024-09-16,Dollar Tree - Lynchburg,$34.22,Lynchburg,VA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-09-19,Food City - Cedar Bluff,$63.14,Cedar Bluff,VA,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-09-26,Homegoods,$53.40,Christiansburg,VA,business,Office expense,D,431061,2025-01-15
+expenditure,2024-09-30,Domino's Pizza,$213.77,Wytheville,VA,business,Meeting expense,D,431061,2025-01-15
+expenditure,2024-10-02,Pulaski County Republican Party,$500,Dublin,VA,party,Donation,D,431061,2025-01-15
+expenditure,2024-10-04,Lodging,$142.84,.,VA,business,Lodging,D,431061,2025-01-15
+expenditure,2024-10-09,7th and Grace Parking,$25,Richmond,VA,business,Parking,D,431061,2025-01-15
+expenditure,2024-10-17,7th and Grace Parking,$15,Richmond,VA,business,Parking,D,431061,2025-01-15
+expenditure,2024-10-29,Canva,$119.99,Austin,TX,business,Graphics,D,431061,2025-01-15
+expenditure,2024-10-29,Kroger - Lynchburg,$20.33,Lynchburg,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2024-10-31,National Child Safety Council,$110,Richmond,VA,business,Donation,D,431061,2025-01-15
+expenditure,2024-11-08,Postmaster - Radford,$12.55,Radford,VA,business,Postage,D,431061,2025-01-15
+expenditure,2024-11-15,Big Belly Restaurant,$61.45,Pulaski,VA,business,Meeting expense,D,431061,2025-01-15
+expenditure,2024-11-02,Appalachian Agency for Senior Citizens,$600,Cedar Bluff,VA,business,Donation - Thanksgiving dinners,D,431061,2025-01-15
+expenditure,2024-11-27,Walmart.com,$849.19,Bentonville,AR,business,Office supplies,D,431061,2025-01-15
+expenditure,2024-12-03,Council of State Governments,$350,Lexington,KY,business,Membership dues,D,431061,2025-01-15
+expenditure,2024-12-13,Go Mart - Salem,$33.50,Salem,VA,business,Travel expense,D,431061,2025-01-15
+expenditure,2025-01-28,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-02-26,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-03-31,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-04-29,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-05-25,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-06-30,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-01-07,Virginia Senate Republican Caucus Inc.,"$3,000",Richmond,VA,party,Donation,D,447086,2025-07-14
+expenditure,2025-01-07,New Peoples Bank,$24,Pounding Mill,VA,business,Banking services,D,447086,2025-07-14
+expenditure,2025-04-04,Winning Republican Strategies LLC,$385.97,Ruckersville,VA,business,Consulting fees,D,447086,2025-07-14
+expenditure,2025-01-06,Walmart - Fairlawn,$26.51,Radford,VA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-05-20,Postmaster - Cedar Bluff,$29.20,Cedar Bluff,VA,business,Postage,D,447086,2025-07-14
+expenditure,2025-05-05,Treasurer of Virginia,$45,Richmond,VA,business,Resolution framing,D,447086,2025-07-14
+expenditure,2025-05-12,Treasurer of Virginia,$182,Richmond,VA,business,State flags,D,447086,2025-07-14
+expenditure,2025-05-20,Monumental Consulting LLC,"$1,875",Midlothian,VA,business,Consulting fees,D,447086,2025-07-14
+expenditure,2025-02-10,Forest Consulting Services,$375,Henrico,VA,business,Accounting and reporting services,D,447086,2025-07-14
+expenditure,2025-03-24,Forest Consulting Services,$375,Henrico,VA,business,"Accounting, reporting and consulting services",D,447086,2025-07-14
+expenditure,2025-05-08,Forest Consulting Services,$375,Henrico,VA,business,"Accounting, reporting and consulting services",D,447086,2025-07-14
+expenditure,2025-02-03,WGTH,$179,Richlands,VA,business,Advertising,D,447086,2025-07-14
+expenditure,2025-05-08,WGTH,$25,Richlands,VA,business,Advertising,D,447086,2025-07-14
+expenditure,2025-06-12,WGTH,$90,Richlands,VA,business,Advertisiting,D,447086,2025-07-14
+expenditure,2025-01-02,Google,$57.60,Mountain View,CA,business,Website expense,D,447086,2025-07-14
+expenditure,2025-02-03,Google,$57.60,Mountain View,CA,business,Software fees,D,447086,2025-07-14
+expenditure,2025-03-03,Google,$57.60,Mountain View,CA,business,Software fees,D,447086,2025-07-14
+expenditure,2025-04-01,Google,$57.60,Mountain View,CA,business,Software fees,D,447086,2025-07-14
+expenditure,2025-05-02,Google,$57.60,Mountain View,CA,business,Software fees,D,447086,2025-07-14
+expenditure,2025-06-02,Google,$57.60,Mountain View,CA,business,Software fees,D,447086,2025-07-14
+expenditure,2025-01-07,Town of Pulaski,$66.42,Pulaski,VA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-02-06,Town of Pulaski,$66.42,Pulaski,VA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-03-11,Town of Pulaski,$64.96,Pulaski,VA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-04-02,Town of Pulaski,$67.96,Pulaski,VA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-05-06,Town of Pulaski,$66.42,Pulaski,VA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-06-05,Town of Pulaski,$66.42,Pulaski,VA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-02-10,AEP Appalachian Power,$932.47,Pittsburgh,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-02-27,AEP Appalachian Power,$705.56,Pittsburgh,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-04-08,AEP Appalachian Power,$529.84,Pittsburgh,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-04-22,AEP Appalachian Power,$245.69,Pittsburgh,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-06-10,AEP Appalachian Power,$102.12,Pittsburgh,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-01-27,Comcast Business,$157.26,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-01-27,Comcast Business,$128.91,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-02-27,Comcast Business,$157.26,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-02-27,Comcast Business,$128.91,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-03-27,Comcast Business,$102.01,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-03-27,Comcast Business,$167.48,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-04-28,Comcast Business,$140.57,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-04-28,Comcast Business,$348.36,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-05-27,Comcast Business,$129.78,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-05-27,Comcast Business,$235.90,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-06-27,Comcast Business,$129.78,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-06-27,Comcast Business,$235.90,Philadelphia,PA,business,District office utilities,D,447086,2025-07-14
+expenditure,2025-01-14,Amazon.com,$30.10,Seattle,WA,business,Office suppplies,D,447086,2025-07-14
+expenditure,2025-01-14,Amazon.com,$21.36,Seattle,WA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-01-16,Amazon.com,$71.09,Seattle,WA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-01-22,Amazon.com,$18.54,Seattle,WA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-01-27,Amazon.com,$88.44,Seattle,WA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-03-27,Amazon.com,$18.94,Seattle,WA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-05-05,Amazon.com,$17.71,Seattle,WA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-05-06,Amazon.com,$230.55,Seattle,WA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-05-28,Amazon.com,$136.66,Seattle,WA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-01-16,Auto-Owners Insurance,$291.30,Lansing,MI,business,Insurance,D,447086,2025-07-14
+expenditure,2025-06-20,Auto-Owners Insurance,$708.62,Lansing,MI,business,Insurance,D,447086,2025-07-14
+expenditure,2025-04-28,Shell Oil - Dublin,$32.90,Dublin,VA,business,Travel expense,D,447086,2025-07-14
+expenditure,2025-05-20,Shell Oil - Dublin,$28.01,Dublin,VA,business,Travel expense,D,447086,2025-07-14
+expenditure,2025-05-30,Shell Oil - Dublin,$29.01,Dublin,VA,business,Travel expense,D,447086,2025-07-14
+expenditure,2025-06-23,Shell Oil - Dublin,$32.80,Dublin,VA,business,Travel expense,D,447086,2025-07-14
+expenditure,2025-01-07,Pulaski County Chamber of Commerce,$140,Dublin,VA,business,Dues,D,447086,2025-07-14
+expenditure,2025-05-14,Pulaski County Chamber of Commerce,$50,Dublin,VA,business,Membership dues,D,447086,2025-07-14
+expenditure,2025-01-14,Angie Hall,$602.42,Radford,VA,individual,Office work,D,447086,2025-07-14
+expenditure,2025-01-28,Angie Hall,$602.42,Radford,VA,individual,Office work,D,447086,2025-07-14
+expenditure,2025-02-10,Angie Hall,$602.42,Radford,VA,individual,Office work,D,447086,2025-07-14
+expenditure,2025-02-26,Angie Hall,$602.42,Radford,VA,individual,Session work,D,447086,2025-07-14
+expenditure,2025-03-10,Angie Hall,$602.42,Radford,VA,individual,Session work,D,447086,2025-07-14
+expenditure,2025-03-24,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,447086,2025-07-14
+expenditure,2025-04-14,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,447086,2025-07-14
+expenditure,2025-04-29,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,447086,2025-07-14
+expenditure,2025-05-12,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,447086,2025-07-14
+expenditure,2025-05-25,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,447086,2025-07-14
+expenditure,2025-06-11,Angie Hall,$602.42,Radford,VA,individual,Consulting fees,D,447086,2025-07-14
+expenditure,2025-06-30,Angie Hall,$602.42,Radford,VA,individual,Campaign work,D,447086,2025-07-14
+expenditure,2025-01-21,Target,$58.89,Glen Allen,VA,business,Office supplies,D,447086,2025-07-14
+expenditure,2025-02-10,Vogue Flowers,$99.70,Richmond,VA,business,Flowers,D,447086,2025-07-14
+expenditure,2025-03-24,Giles County Republican Committee,$500,Pearisburg,VA,business,Donation,D,447086,2025-07-14
+expenditure,2025-01-08,BimmerWorld Properties LLC,$384.02,Dublin,VA,business,District office expense,D,447086,2025-07-14
+expenditure,2025-02-17,BimmerWorld Properties LLC,$555.98,Dublin,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-03-13,BimmerWorld Properties LLC,$555.98,Dublin,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-04-17,BimmerWorld Properties LLC,$555.98,Dublin,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-05-19,BimmerWorld Properties LLC,$555.98,Dublin,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-06-17,BimmerWorld Properties LLC,$555.98,Dublin,VA,business,District office rent,D,447086,2025-07-14
+expenditure,2025-02-04,Richlands Tabernacle,$500,Richlands,VA,business,Donation,D,447086,2025-07-14
+expenditure,2025-01-06,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Office work,D,447086,2025-07-14
+expenditure,2025-01-06,Sarah C. Owen,"$1,185",Lynchburg,VA,individual,Office work,D,447086,2025-07-14
+expenditure,2025-01-28,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Session work,D,447086,2025-07-14
+expenditure,2025-02-26,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Session work,D,447086,2025-07-14
+expenditure,2025-03-10,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,447086,2025-07-14
+expenditure,2025-03-24,Sarah C. Owen,"$1,667",Lynchburg,VA,individual,Consulting fees,D,447086,2025-07-14
+expenditure,2025-05-12,Kroger Fuel - Radford,$25.60,Fairlawn,VA,business,Travel expense,D,447086,2025-07-14
+expenditure,2025-01-16,Hilton Richmond Downtown,"$1,080.44",Richmond,VA,business,Session lodging,D,447086,2025-07-14
+expenditure,2025-01-28,Hilton Richmond Downtown,"$1,237.18",Richmond,VA,business,Session lodging,D,447086,2025-07-14
+expenditure,2025-01-28,Hilton Richmond Downtown,$35.82,Richmond,VA,business,Travel expense,D,447086,2025-07-14
+expenditure,2025-02-04,Hilton Richmond Downtown,"$1,237.18",Richmond,VA,business,Session lodging,D,447086,2025-07-14
+expenditure,2025-02-04,Hilton Richmond Downtown,$164.33,Richmond,VA,business,Travel expense,D,447086,2025-07-14
+expenditure,2025-02-12,Hilton Richmond Downtown,$313.92,Richmond,VA,business,Travel expense,D,447086,2025-07-14
+expenditure,2025-02-18,Hilton Richmond Downtown,"$1,060.44",Richmond,VA,business,Session lodging,D,447086,2025-07-14
+expenditure,2025-01-22,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,447086,2025-07-14
+expenditure,2025-03-04,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,447086,2025-07-14
+expenditure,2025-04-04,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,447086,2025-07-14
+expenditure,2025-05-05,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,447086,2025-07-14
+expenditure,2025-06-04,Email Octopus,$40.40,"London, United Kingdom EC2A 4NE",AK,business,Email services,D,447086,2025-07-14
+expenditure,2025-01-06,News Messenger,$5.75,Salem,VA,business,Subscription,D,447086,2025-07-14
+expenditure,2025-01-06,Bland County High School,$100,Rocky Gap,VA,business,Donation,D,447086,2025-07-14
+expenditure,2025-06-11,Appalachian Arts and Events Center,$150,Cedar Bluff,VA,business,Donation,D,447086,2025-07-14
+expenditure,2025-01-07,Winsome for Governor,"$5,000",Richmond,VA,business,Campaign contribution,D,447086,2025-07-14
+expenditure,2025-02-11,Dementi Studio,$100.70,Richmond,VA,business,Photography,D,447086,2025-07-14
+expenditure,2025-03-10,Jewell Ridge Community Center,$250,Jewell Ridge,VA,business,Donation,D,447086,2025-07-14
+expenditure,2025-03-13,Southwest Times,$59,Pulaski,VA,business,Subscription,D,447086,2025-07-14
+expenditure,2025-03-03,Southwest Virginia Criminal Justice Training Academy,$103.50,Bristol,VA,business,Donation,D,447086,2025-07-14
+expenditure,2025-02-20,Clayton Spangler Photographic Design,$499,Charleston,WV,business,Photography,D,447086,2025-07-14
+expenditure,2025-03-24,Southwest Academy Training Foundation,$400,Bristol,VA,business,Donation,D,447086,2025-07-14
+expenditure,2025-03-25,Friends of Adam Tolbert,"$1,500",Saltville,VA,business,Campaign contribution,D,447086,2025-07-14
+expenditure,2025-04-03,Tazewell County Fair Association,$100,Tazewell,VA,business,Advertising,D,447086,2025-07-14
+expenditure,2025-04-07,Iron Titans Motorcycle Club Inc.,$100,Pounding Mill,VA,business,Donation,D,447086,2025-07-14
+expenditure,2025-05-12,Professional Catering Inc.,$660.40,Blacksburg,VA,business,Catering for event,D,447086,2025-07-14
+expenditure,2025-05-19,Poor Boys Produce,$73.64,Pulaski,VA,business,Flowers for meeting,D,447086,2025-07-14
+expenditure,2025-06-17,Wytheville Wythe Bland Chamber,$177,Wytheville,VA,business,Membership dues,D,447086,2025-07-14
+expenditure,2025-06-19,Richlands Little League,$250,Richlands,VA,business,Donation,D,447086,2025-07-14
 expenditure,2025-07-29,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,479079,2026-01-15
 expenditure,2025-08-29,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,479079,2026-01-15
 expenditure,2025-09-30,Appalachian Capital Investments,"$1,500",Cedar Bluff,VA,business,District office rent,D,479079,2026-01-15
@@ -305,3 +866,9 @@ expenditure,2026-04-20,CSGA Group LLC,$277.51,Lynchburg,VA,business,Text service
 expenditure,2026-04-28,Richland Lions Club,$500,Cedar Bluff,VA,business,Donation,D,495403,2026-07-14
 loan,2025-10-23,Trang Investments,"$6,000",Cedar Bluff,VA,business,P,E,479079,2026-01-15
 loan,2025-10-23,Trang Investments,"$15,000",Cedar Bluff,VA,business,P,E,479079,2026-01-15
+debt,2021-01-26,Trang Investments,"$6,000",Cedar Bluff,VA,business,,F,409651,2024-07-15
+debt,2021-02-11,Trang Investments,"$15,000",Cedar Bluff,VA,business,,F,409651,2024-07-15
+debt,2021-01-26,Trang Investments,"$6,000",Cedar Bluff,VA,business,,F,431061,2025-01-15
+debt,2021-02-11,Trang Investments,"$15,000",Cedar Bluff,VA,business,,F,431061,2025-01-15
+debt,2021-01-26,Trang Investments,"$6,000",Cedar Bluff,VA,business,,F,447086,2025-07-14
+debt,2021-02-11,Trang Investments,"$15,000",Cedar Bluff,VA,business,,F,447086,2025-07-14

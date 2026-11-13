@@ -3,6 +3,1122 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$9,190.76",,VA,,"From official Schedule H, November 2025 election cycle",H,497457,2026-07-15
 summary,2026-06-30,Raised this cycle,"$15,469.72",,,,Total receipts this election cycle (Schedule H),H,497457,2026-07-15
 summary,2026-06-30,Spent this cycle,"$38,300.03",,,,Total disbursements this election cycle (Schedule H),H,497457,2026-07-15
+contribution,2024-01-01,Mariel MacGowan,$10,Bowling Green,VA,individual,,A,448814,2025-07-15
+contribution,2024-01-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448814,2025-07-15
+contribution,2024-01-05,Roxanne Nelsen,$20,Los Altos,CA,individual,,A,448814,2025-07-15
+contribution,2024-01-06,Curo Group of Virginia LLC,$500,Saint Louis,MO,business,,A,448814,2025-07-15
+contribution,2024-01-08,Rowreatha Anderson,$50,Washington,DC,individual,,A,448814,2025-07-15
+contribution,2024-01-08,Elin Reynolds,$25,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-01-09,Nancy D Hall,$100,Annandale,VA,individual,,A,448814,2025-07-15
+contribution,2024-01-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,448814,2025-07-15
+contribution,2024-02-21,Joshua Cole,$400,Richmond,VA,individual,,A,448814,2025-07-15
+contribution,2024-02-29,Javontae Mickens,$110,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-03-16,Amy Bayne,$30,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-03-18,beverly cutler,$25,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-03-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-04-01,Mariel MacGowan,$10,Bowling Green,VA,individual,,A,448814,2025-07-15
+contribution,2024-04-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448814,2025-07-15
+contribution,2024-04-05,Altria Client Services LLC,$500,Richmond,VA,business,,A,448814,2025-07-15
+contribution,2024-04-05,Angela Hall,$25,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-04-08,Elin Reynolds,$25,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-04-08,VA Operators for Skill,"$1,000",Richmond,VA,business,,A,448814,2025-07-15
+contribution,2024-04-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,448814,2025-07-15
+contribution,2024-04-10,Kimberly Snodgrass,$100,Stafford,VA,individual,,A,448814,2025-07-15
+contribution,2024-04-16,Amy Bayne,$30,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-04-18,beverly cutler,$25,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-04-19,Evan Kraft,$20,Wayne,NJ,individual,,A,448814,2025-07-15
+contribution,2024-04-20,Delia Rudiger,$17.50,Portland,OR,individual,,A,448814,2025-07-15
+contribution,2024-04-22,Anheuser-Busch,$250,Washington,DC,pac,,A,448814,2025-07-15
+contribution,2024-04-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-04-30,Republic Services,$250,Phoenix,AZ,business,,A,448814,2025-07-15
+contribution,2024-05-01,Mariel MacGowan,$10,Bowling Green,VA,individual,,A,448814,2025-07-15
+contribution,2024-05-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448814,2025-07-15
+contribution,2024-05-04,lawrence buc,$5,Chevy Chase,MD,individual,,A,448814,2025-07-15
+contribution,2024-05-04,Tanique Floramo,$25,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-05-04,Herschel Kanter,$50,Sterling,VA,individual,,A,448814,2025-07-15
+contribution,2024-05-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,448814,2025-07-15
+contribution,2024-05-10,Clean Virginia Fund,"$5,000",Charlottesville,VA,business,,A,448814,2025-07-15
+contribution,2024-05-16,Amy Bayne,$30,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-05-18,beverly cutler,$25,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-05-19,Evan Kraft,$20,Wayne,NJ,individual,,A,448814,2025-07-15
+contribution,2024-05-20,Delia Rudiger,$17.50,Portland,OR,individual,,A,448814,2025-07-15
+contribution,2024-05-23,Virginia CRNA's Who Care About Healthcare PAC,$500,Richmond,VA,pac,,A,448814,2025-07-15
+contribution,2024-05-28,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,448814,2025-07-15
+contribution,2024-05-28,UFCW Local 400 ABC PAC,$250,Landover,MD,pac,,A,448814,2025-07-15
+contribution,2024-05-28,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,A,448814,2025-07-15
+contribution,2024-05-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-06-01,Mariel MacGowan,$10,Bowling Green,VA,individual,,A,448814,2025-07-15
+contribution,2024-06-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448814,2025-07-15
+contribution,2024-06-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,448814,2025-07-15
+contribution,2024-06-16,Amy Bayne,$30,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-06-18,beverly cutler,$25,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-06-19,Evan Kraft,$20,Wayne,NJ,individual,,A,448814,2025-07-15
+contribution,2024-06-20,Delia Rudiger,$17.50,Portland,OR,individual,,A,448814,2025-07-15
+contribution,2024-06-23,First Baptist Church,$250,Colonial Beach,VA,business,,A,448814,2025-07-15
+contribution,2024-06-28,Joshua Cole,$118.02,Richmond,VA,individual,,A,448814,2025-07-15
+contribution,2024-06-30,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-06-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448814,2025-07-15
+contribution,2024-12-23,Ernest Ackermann,$50,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-10-09,Amazon,$500,Seattle,WA,business,,A,448828,2025-07-15
+contribution,2024-10-31,Baltimore Washington Construction,"$1,000",Reston,VA,business,,A,448828,2025-07-15
+contribution,2024-07-16,Amy Bayne,$30,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-08-16,Amy Bayne,$30,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-09-16,Amy Bayne,$30,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-20,Boyd-Parmunkey Casino PAC,"$1,500",Norfolk,VA,pac,,A,448828,2025-07-15
+contribution,2024-12-30,lawrence buc,$25,Chevy Chase,MD,individual,,A,448828,2025-07-15
+contribution,2024-10-20,Chiropractic Political Action,$500,Norfolk,VA,pac,,A,448828,2025-07-15
+contribution,2024-08-28,Clean Virginia Fund,"$10,000",Charlottesville,VA,business,,A,448828,2025-07-15
+contribution,2024-09-04,Joshua Cole,$780,Richmond,VA,individual,,A,448828,2025-07-15
+contribution,2024-09-09,Joshua Cole,$20,Richmond,VA,individual,,A,448828,2025-07-15
+contribution,2024-10-09,Joshua Cole,$129,Richmond,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-16,Comstock Hospitality Holdings,"$5,000",Reston,VA,business,,A,448828,2025-07-15
+contribution,2024-07-18,beverly cutler,$25,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-08-18,beverly cutler,$25,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-09-25,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,A,448828,2025-07-15
+contribution,2024-10-22,Everytown for Gun Safety AF,"$1,250",New York,NY,pac,,A,448828,2025-07-15
+contribution,2024-11-26,Fantasy Sports Operator Coalition,"$1,000",Arlington,VA,business,,A,448828,2025-07-15
+contribution,2024-12-30,Lesley Fierst,$50,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-19,"Freedom Virginia, Inc.","$1,000",Arlington,VA,business,,A,448828,2025-07-15
+contribution,2024-09-06,Atul Gupta,"$5,000",Lynchburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-31,Atul Gupta,"$10,000",Lynchburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-07-25,Angela Hall,$10,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-19,HCA for Good Government,"$1,000",Richmond,VA,business,,A,448828,2025-07-15
+contribution,2024-07-05,Nancy Hickd,$100,Washington,DC,individual,,A,448828,2025-07-15
+contribution,2024-10-05,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,448828,2025-07-15
+contribution,2024-12-19,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,448828,2025-07-15
+contribution,2024-07-25,Tamara Jenkins,$100,Spotsylvania,VA,individual,,A,448828,2025-07-15
+contribution,2024-10-24,Jushi Inc,$500,Boca Raton,FL,business,,A,448828,2025-07-15
+contribution,2024-12-31,Nancy Kelly,$100,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-07-19,Evan Kraft,$20,Wayne,NJ,individual,,A,448828,2025-07-15
+contribution,2024-08-19,Evan Kraft,$20,Wayne,NJ,individual,,A,448828,2025-07-15
+contribution,2024-09-19,Evan Kraft,$20,Wayne,NJ,individual,,A,448828,2025-07-15
+contribution,2024-12-19,Evan Kraft,$20,Wayne,NJ,individual,,A,448828,2025-07-15
+contribution,2024-07-25,Karla LaCount,$10,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-07-25,Richard Larochelle,$34,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-07-01,Mariel MacGowan,$10,Bowling Green,VA,individual,,A,448828,2025-07-15
+contribution,2024-08-01,Mariel MacGowan,$10,Bowling Green,VA,individual,,A,448828,2025-07-15
+contribution,2024-09-01,Mariel MacGowan,$10,Bowling Green,VA,individual,,A,448828,2025-07-15
+contribution,2024-10-01,Mariel MacGowan,$10,Bowling Green,VA,individual,,A,448828,2025-07-15
+contribution,2024-07-29,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-08-29,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-09-29,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-10-29,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-11-29,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-30,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-19,McGuire Woods Consulting,$500,Richmond,VA,business,,A,448828,2025-07-15
+contribution,2024-07-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-08-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-09-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-26,Linda Muller,$250,Woodbridge,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-31,Angela Poteet,$25,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-10-31,Premium Distributers of VA,"$1,000",Chantilly,VA,business,,A,448828,2025-07-15
+contribution,2024-12-19,Fred Rankin,"$1,000",Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-07-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,448828,2025-07-15
+contribution,2024-08-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,448828,2025-07-15
+contribution,2024-09-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,448828,2025-07-15
+contribution,2024-10-09,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,A,448828,2025-07-15
+contribution,2024-12-31,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,A,448828,2025-07-15
+contribution,2024-07-20,Delia Rudiger,$17.50,Portland,OR,individual,,A,448828,2025-07-15
+contribution,2024-08-20,Delia Rudiger,$17.50,Portland,OR,individual,,A,448828,2025-07-15
+contribution,2024-09-20,Delia Rudiger,$17.50,Portland,OR,individual,,A,448828,2025-07-15
+contribution,2024-12-30,Save Democracy PAC,"$1,000",Washington,DC,pac,,A,448828,2025-07-15
+contribution,2024-12-30,Veronica Scott,$200,Fredericksburg,VA,individual,,A,448828,2025-07-15
+contribution,2024-09-23,Service Corporation International,$500,Houston,TX,business,,A,448828,2025-07-15
+contribution,2024-12-30,Katharine Shearer,"$1,000",Emory,VA,individual,,A,448828,2025-07-15
+contribution,2024-12-19,Sports Betting Alliance,$500,Lubbock,TX,business,,A,448828,2025-07-15
+contribution,2024-07-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448828,2025-07-15
+contribution,2024-08-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448828,2025-07-15
+contribution,2024-09-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448828,2025-07-15
+contribution,2024-10-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448828,2025-07-15
+contribution,2024-09-23,Superior Paving Corp,$250,Gainesville,VA,business,,A,448828,2025-07-15
+contribution,2024-12-19,Daniel Szallai,$250,Washington,DC,individual,,A,448828,2025-07-15
+contribution,2024-12-20,Transurban (USA) Inc,$500,Tysons,VA,business,,A,448828,2025-07-15
+contribution,2024-12-19,Truist,$500,Fredericksburg,VA,business,,A,448828,2025-07-15
+contribution,2024-09-27,VA Operators for Skill,$500,Richmond,VA,business,,A,448828,2025-07-15
+contribution,2024-12-19,VA Society of Anesthesiologists PAC,"$2,500",Richmond,VA,pac,,A,448828,2025-07-15
+contribution,2024-09-09,VADPAC,"$1,000",Richmond,VA,pac,,A,448828,2025-07-15
+contribution,2024-12-19,Virginia Beer Wholesalers Association,"$2,000",Richmond,VA,business,,A,448828,2025-07-15
+contribution,2024-12-20,Virginia CRNA's Who Care About Healthcare PAC,$500,Richmond,VA,pac,,A,448828,2025-07-15
+contribution,2024-11-20,Virginia Hospital & Healthcare Assoc,$500,Richmond,VA,pac,,A,448828,2025-07-15
+contribution,2024-11-20,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,A,448828,2025-07-15
+contribution,2024-12-19,Virginia Optometric Association,$500,Henrico,VA,business,,A,448828,2025-07-15
+contribution,2024-12-19,Virginia Sheriff's PAC,$250,Richmond,VA,pac,,A,448828,2025-07-15
+contribution,2024-09-09,Virginia Society of the AIA,"$1,000",Richmond,VA,business,,A,448828,2025-07-15
+contribution,2024-12-30,Virginia Trial Lawyers PAC,"$1,000",Richmond,VA,pac,,A,448828,2025-07-15
+contribution,2024-10-12,Virginia Wine Wholesalers,"$1,500",Richmond,VA,business,,A,448828,2025-07-15
+contribution,2024-12-19,VPTA PAC,$250,Clifton,VA,pac,,A,448828,2025-07-15
+contribution,2024-10-09,Williams Mullen Clark and Dobbins,$250,Richmond,VA,business,,A,448828,2025-07-15
+contribution,2025-03-25,"American Federation of State, County and Municipal Employees","$5,000",Washington,DC,business,,A,448853,2025-07-15
+contribution,2025-03-31,Cory Amron,$250,Arlington,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Richard Assmus,$200,Chicago,IL,individual,,A,448853,2025-07-15
+contribution,2025-03-14,Jarvis Bailey,$250,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-30,Brenda Baker,$250,Los Altos,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-14,Jeff Balaguras,$625,Orinda,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-16,Amy Bayne,$30,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-23,Doug Berenson,"$1,000",Arlington,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-17,Rob Berman,$500,New Haven,CT,individual,,A,448853,2025-07-15
+contribution,2025-03-10,David Boyce,$125,Cambridge,MA,individual,,A,448853,2025-07-15
+contribution,2025-03-28,Jeffrey Breit,"$1,001",Virginia Beach,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-30,Dennis Bruns,$250,Arlington,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-14,Robert Bryant,$500,Atlanta,GA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,James Burns,$250,Roopville,GA,individual,,A,448853,2025-07-15
+contribution,2025-03-12,Bruce Burton,$250,Alexandria,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-25,Canal Media Partners,"$22,253.96",Alexandria,VA,business,,A,448853,2025-07-15
+contribution,2025-03-14,Cory Capps,$500,Arlington,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-12,Nina Catalano,$250,San Francisco,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Genevieve Christy,$200,Wonalancet,NH,individual,,A,448853,2025-07-15
+contribution,2025-02-27,Climate Cabinet Action Fund,"$4,000",San Francisco,CA,business,,A,448853,2025-07-15
+contribution,2025-01-15,Joshua Cole,$70,Richmond,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-11,Melissa Cook,$250,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-01-02,SEIU COPE,$500,Washington,DC,business,,A,448853,2025-07-15
+contribution,2025-03-23,Paul Dieffenbach,$125,Dedham,MA,individual,,A,448853,2025-07-15
+contribution,2025-03-31,Sandra Duckworth,$500,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-30,Monica Duke,$400,Seattle,WA,individual,,A,448853,2025-07-15
+contribution,2025-01-03,Lisa Durham,$200,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-01,Elect Atoosa Reaser,$500,Sterling,VA,business,,A,448853,2025-07-15
+contribution,2025-03-17,Eric Espenhahn,$125,Cary,NC,individual,,A,448853,2025-07-15
+contribution,2025-03-31,Peter Evans,$250,Arlington,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-12,Joseph Fama,$250,Silver Spring,MD,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Nicolas Ford,$300,Brooklyn,NY,individual,,A,448853,2025-07-15
+contribution,2025-03-07,Martha Gimbel,$250,Mclean,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Alison Gopnik,$250,Berkeley,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-14,Harrison Grinnan,$125,Brooklyn,NY,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Joshua Gruenspecht,$500,Silver Spring,MD,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Anne Gundelfinger,$125,San Francisco,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-18,Travis Gunn,$500,North Chesterfield,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-06,Eunice Haigler,$128.47,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-07,Eunice Haigler,$128.47,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-07,Eunice Haigler,$195.76,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-23,Joshua Handelsman,$125,Washington,DC,individual,,A,448853,2025-07-15
+contribution,2025-03-17,Victor Harris,$200,Cambridge,MA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Jeffrey Heath,$500,Durham,NC,individual,,A,448853,2025-07-15
+contribution,2025-02-27,Henson for Virginia,$500,Woodbridge,VA,candidate,,A,448853,2025-07-15
+contribution,2025-01-06,Home Builders of Virginia,"$1,000",Richmond,VA,pac,,A,448853,2025-07-15
+contribution,2025-03-19,Tamara Horne,$250,Ponte Vedra Beach,FL,individual,,A,448853,2025-07-15
+contribution,2025-03-23,David Howe,$500,Oakland,CA,individual,,A,448853,2025-07-15
+contribution,2025-01-03,Kimberly Jenkins-Snodgrass,"$1,000",Stafford,VA,individual,,A,448853,2025-07-15
+contribution,2025-01-06,David Jones,$500,Washington,DC,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Liz Kato,$50,Columbia,MD,individual,,A,448853,2025-07-15
+contribution,2025-03-19,Nancy Kelly,$25,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-31,Thomas Kimbrell,$200,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-19,Evan Kraft,$20,Wayne,NJ,individual,,A,448853,2025-07-15
+contribution,2025-03-17,David Kretch,$125,Menlo Park,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-29,David Kretch,$50,Menlo Park,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-31,David Kretch,$125,Menlo Park,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Mark Landers,$125,Fair Haven,NJ,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Gregory Lane,$125,Oak Park,IL,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Richard Larochelle,$100,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-18,Richard Larochelle,$100,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-29,Richard Larochelle,$25,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Sara Litt,$125,Miami Beach,FL,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Tiankai Liu,$200,Brooklyn,NY,individual,,A,448853,2025-07-15
+contribution,2025-03-31,Julia Maher,$500,Los Angeles,CA,individual,,A,448853,2025-07-15
+contribution,2025-02-28,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-29,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-12,Evan McLain,$125,Seattle,WA,individual,,A,448853,2025-07-15
+contribution,2025-03-21,Dan Mintz,"$1,250",Studio City,CA,individual,,A,448853,2025-07-15
+contribution,2025-02-28,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-15,Mochel Morris,$5,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-31,Kathryn Nelson,$50,Falls Church,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-18,Thomas Nelson,$250,La Pointe,WI,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Mark Newhouse,$200,Denver,CO,individual,,A,448853,2025-07-15
+contribution,2025-03-08,Max Nussenbaum,$125,Brooklyn,NY,individual,,A,448853,2025-07-15
+contribution,2025-03-30,Jay Odell,$200,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-02-27,Omega Protein,$500,Calais,ME,business,,A,448853,2025-07-15
+contribution,2025-03-08,Milton Otto,$150,Urbana,IL,individual,,A,448853,2025-07-15
+contribution,2025-03-31,Amy Paris,$500,Silver Spring,MD,individual,,A,448853,2025-07-15
+contribution,2025-03-11,Mary Parnell,$250,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-19,Sanford Parnes,$100,Washington,DC,individual,,A,448853,2025-07-15
+contribution,2025-03-14,Kristi Patterson,$125,Woodside,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Joshua Pepper,$125,Bethlehem,PA,individual,,A,448853,2025-07-15
+contribution,2025-03-30,Michael Philipp,$100,Inver Grove Heights,MN,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Arthur Pike,$150,Houston,TX,individual,,A,448853,2025-07-15
+contribution,2025-03-17,Penelope Place,$125,Telluride,CO,individual,,A,448853,2025-07-15
+contribution,2025-03-23,Richard Platt,$200,Pocasset,MA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Ronna Pohlman,$125,Saint Louis,MO,individual,,A,448853,2025-07-15
+contribution,2025-03-29,Christiane Riederer,$100,Richmond,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-19,Hein Roehrig,"$1,000",Henderson,NV,individual,,A,448853,2025-07-15
+contribution,2025-03-27,Yolanda Roussell,$250,Stafford,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Neal Schmale,$250,La Jolla,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-03,Christopher Schmidt,$500,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-08,Eric Schmidt,$250,Tallahassee,FL,individual,,A,448853,2025-07-15
+contribution,2025-03-31,Sonjia Smith,"$10,000",Charlottesville,VA,individual,,A,448853,2025-07-15
+contribution,2025-01-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448853,2025-07-15
+contribution,2025-03-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Leo Sternlicht,$125,Port Jefferson,NY,individual,,A,448853,2025-07-15
+contribution,2025-03-10,John Taylor,"$1,000",Burlingame,CA,individual,,A,448853,2025-07-15
+contribution,2025-03-14,Jannine Versi,$200,Brooklyn,NY,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Brandon Volbright,$125,Vashon,WA,individual,,A,448853,2025-07-15
+contribution,2025-03-26,Elizabeth Wasem,$250,Fredericksburg,VA,individual,,A,448853,2025-07-15
+contribution,2025-03-06,Anne White,$200,Bethesda,MD,individual,,A,448853,2025-07-15
+contribution,2025-03-10,Howard Wolfson,$125,New York,NY,individual,,A,448853,2025-07-15
+contribution,2025-04-24,Naomi Aberly,$500,Boston,MA,individual,,A,448856,2025-07-15
+contribution,2025-04-24,Ronald Abramson,$450,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-01,Ernest Ackermann,$600,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-10,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,448856,2025-07-15
+contribution,2025-05-11,Alec Appelbaum,$450,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Lynn Appelbaum,$200,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-06,Barbara Atkins,$250,Arlington,MA,individual,,A,448856,2025-07-15
+contribution,2025-05-02,James Banner,$250,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-20,Harold Bannister,"$1,000",Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-11,anne beals,$250,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-22,Emily Blank,$200,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-14,Mark Bohannon,$250,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-04-24,Sue Botts,$150,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-18,Hali Breindel,$200,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-06-04,Hali Breindel,$100,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-04-22,Jeffrey Breit,"$1,000",Virginia Beach,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-18,Ellen Breslow Newhouse,$250,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-01,Benjamin Brewster,$500,Charlottesville,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-02,Marcia Bulow,$200,Englewood,NJ,individual,,A,448856,2025-07-15
+contribution,2025-06-04,Jeanette Cadwallender,$250,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-08,Callsen for Delegate,$500,Charlottesville,VA,candidate,,A,448856,2025-07-15
+contribution,2025-04-23,Clean Virginia Fund,"$20,000",Charlottesville,VA,business,,A,448856,2025-07-15
+contribution,2025-04-23,Clean Virginia Fund,"$5,000",Charlottesville,VA,business,,A,448856,2025-07-15
+contribution,2025-05-04,Seth Craig,$250,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-29,Barbara D Davis,$200,Arlington,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-14,Mary DeRosa,$500,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-14,Stacey Dogan,$250,Brookline,MA,individual,,A,448856,2025-07-15
+contribution,2025-04-21,Lisa Durham,"$1,000",Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-02,William Eaton,$200,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-07,Gilbert Eisner,$200,Chevy Chase,MD,individual,,A,448856,2025-07-15
+contribution,2025-04-22,Nancy Fahy,$250,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Alan Farkas,"$1,000",Chevy Chase,MD,individual,,A,448856,2025-07-15
+contribution,2025-04-29,Brian Fausett,$120,Stafford,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-24,irwin federman,$142.86,Atherton,CA,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Michael Fichter,$500,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-04-25,Isabel Figueroa,$250,Alexandria,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-15,Debra Fox,$250,Cambridge,MA,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Diane Franchi,$100,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-12,John Frantz,"$1,000",Needham,MA,individual,,A,448856,2025-07-15
+contribution,2025-05-30,Pamela Frederick,$200,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-03,Friends of Don Beyer,"$2,500",Alexandria,VA,candidate,,A,448856,2025-07-15
+contribution,2025-05-29,Ryan Gallagher,$100,Arlington,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-14,Norman Goldberg,$250,Bethesda,MD,individual,,A,448856,2025-07-15
+contribution,2025-05-13,elizabeth goren phd,$250,Brooklyn,NY,individual,,A,448856,2025-07-15
+contribution,2025-04-16,Nancy Hall,$132.50,Annandale,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-28,Judith Hanlon,$250,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-04-20,Kenneth B Hannsgen,$200,Blacksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-03,Martha Harris,$200,Alexandria,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-31,Joella A Hartzler,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-14,Nancy Hendry,$250,Bethesda,MD,individual,,A,448856,2025-07-15
+contribution,2025-05-02,margaret Hensler,$500,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-06-02,Margaret Heppe,$250,Spotsylvania,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-28,Helen Herring,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-30,nancy hicks,$250,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-13,nancy hicks,$100,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-21,Clayton Hill,$50,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-26,Todd Hixson,$200,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-04-15,Kathie Hoekstra,$500,Alexandria,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-16,James Huber,$500,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-26,James Huber,$250,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-05,James Huber,$250,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-04,Kevin Hughes,"$1,000",Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-21,Tim Hughes,$250,Denver,CO,individual,,A,448856,2025-07-15
+contribution,2025-04-08,Megan Hull,$250,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-19,Megan Hull,$250,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-04-24,Libby Humphries Libby,$300,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-04,Libby Humphries Libby,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-23,Lana Ingram,$250,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Jane Fonda Climate PAC,"$7,500",Washington,DC,pac,,A,448856,2025-07-15
+contribution,2025-05-12,Carey Johnson,"$1,000",Brooklyn,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-05,Karla Jurvetson,$250,Los Altos,CA,individual,,A,448856,2025-07-15
+contribution,2025-05-24,Michael and Jean Kaliner,$350,Bethesda,MD,individual,,A,448856,2025-07-15
+contribution,2025-05-13,Lynn Kamarck,$250,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-12,mark katz,$250,Piedmont,CA,individual,,A,448856,2025-07-15
+contribution,2025-05-07,Barbara Katzenberg,"$1,000",Lexington,MA,individual,,A,448856,2025-07-15
+contribution,2025-05-26,Barbara Katzenberg,$100,Lexington,MA,individual,,A,448856,2025-07-15
+contribution,2025-06-05,Barbara Katzenberg,$10,Lexington,MA,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Elizabeth I Kelley,$105,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-05,Nancy Kelly,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-15,Nora Kim,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-21,Christopher & Emily Kimm,$500,Reston,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-14,Karen Kinard,$100,Alexandria,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Phyllis Kirschner,$250,Newton,MA,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Phyllis Kramer,$250,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-26,Jessica Kujala,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-07,Fatima Lacayo,$50,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-04-08,Richard Larochelle,"$1,000",Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-04,Kenneth Lecky,$200,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-28,Josh Levi,$250,Leesburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-03,denise liebowitz,$300,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-11,Summer Lindman,$250,Brooklyn,NY,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Gloria S. Lloyd,$100,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Gloria S. Lloyd,$20,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-20,Debbie Lockett,$50,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-14,Jeff Loesel,$150,Gaithersburg,MD,individual,,A,448856,2025-07-15
+contribution,2025-05-11,Kristine Lupi,$150,Boulder,CO,individual,,A,448856,2025-07-15
+contribution,2025-04-24,Sophia Lynn,"$1,000",Mclean,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-24,Nancy M Fahy,$50,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-03,Nancy M Fahy,$25,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-21,Nancy M,$400,Gordonsville,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-29,Robert Margrave,$25,Arlington,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-28,Amanda Marks,$171.43,Los Angeles,CA,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Cathy May,$250,Ossining,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-29,Cathy May,$50,Ossining,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-28,Jeanine McAdam,$250,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-18,John McCarthy,$125,Santa Rosa,CA,individual,,A,448856,2025-07-15
+contribution,2025-04-29,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-29,Doug McCusker,$50,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-13,Carol Melamed,$250,Bethesda,MD,individual,,A,448856,2025-07-15
+contribution,2025-05-23,Gregory Mendoza,$400,Brooklyn,NY,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Nancy Guy Miller,$400,Gordonsville,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-26,David Morgan,"$1,000",Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-21,Sally Moskowitz,$200,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-04-20,Linda Muller,$250,Woodbridge,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-30,Linda Muller,$150,Woodbridge,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-11,Brooke Nadell,$150,Charlotte,VT,individual,,A,448856,2025-07-15
+contribution,2025-05-13,Brooke Nadell,$100,Charlotte,VT,individual,,A,448856,2025-07-15
+contribution,2025-06-03,john & vicki nelson,$250,Oakton,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-17,George November,$100,Falls Church,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-17,George November,$100,Falls Church,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-08,John O'Farrell,$500,Atherton,CA,individual,,A,448856,2025-07-15
+contribution,2025-05-28,Sarah O'Neill,"$1,000",New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-04-08,Mary Jane O?Neill,"$1,000",Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-16,Jay Odell,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-30,Reggie Paramore,$250,Stafford,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Dennis Parsons,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-17,Charlie Payne,"$1,000",Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-07,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,448856,2025-07-15
+contribution,2025-05-01,Michael Philipp,$25,Inver Grove Heights,MN,individual,,A,448856,2025-07-15
+contribution,2025-05-07,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Jennie Pilkington,$250,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Kathy Postel Kretman,$150,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-01,Steve Rabson,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-04,Fred Rankin,"$1,000",Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-15,Scott Rhodes,$250,Larchmont,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-12,LTC Neil Rice,$250,Prattville,AL,individual,,A,448856,2025-07-15
+contribution,2025-05-03,John Riddle,$500,Sterling,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-28,Lucinda Robb,$250,Arlington,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-08,Lynda Robb,$250,Arlington,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-16,Irene Roberts,$500,Richmond,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Martha Roberts,$100,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Karen Rodd,$500,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-16,Karen Rodd,$25.25,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-14,Eleanor Ross,$250,Arlington,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-15,Rebecca Rubin,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-08,Susan Ryan,"$1,000",Wellesley,MA,individual,,A,448856,2025-07-15
+contribution,2025-04-09,Bruce Saller,$750,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-01,Christopher Schmidt,$500,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-03,Les Schwab,$500,Waban,MA,individual,,A,448856,2025-07-15
+contribution,2025-05-14,Ellen Semonoff,$142.86,Cambridge,MA,individual,,A,448856,2025-07-15
+contribution,2025-05-30,Peg Shaw,$100,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-22,Thomas Shiple,$12.50,Lexington,MA,individual,,A,448856,2025-07-15
+contribution,2025-05-02,English Showalter,$500,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-04-11,Philip Shutler,$250,Springfield,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-10,sharon Shutler,$200,Arlington,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-14,Seth & Stacy Silber,$500,Bethesda,MD,individual,,A,448856,2025-07-15
+contribution,2025-05-07,Sandra Siler,$200,Brookline,MA,individual,,A,448856,2025-07-15
+contribution,2025-05-29,Elizabeth Simons,"$5,000",San Francisco,CA,individual,,A,448856,2025-07-15
+contribution,2025-04-30,George and Mari Solley and Kelly,"$1,000",Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-05,Stephen Solow,$200,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-29,Betsy Spanbock,$200,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-02,Effie Stallsmith,$200,Arlington,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-19,Rebecca Stead,$200,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-11,Beth Stekler,$100,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-11,Beth Stekler,$35.71,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-11,Gary Tessitore,$500,New York,NY,individual,,A,448856,2025-07-15
+contribution,2025-05-04,Sharon Thomas,$50,Sterling,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-04,Sharon Thomas,$50,Sterling,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-05,charles touhey,"$1,000",Albany,NY,individual,,A,448856,2025-07-15
+contribution,2025-06-02,Neva Trenis,$100,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-29,UFCW Local 400 ABC PAC,$250,Landover,MD,pac,,A,448856,2025-07-15
+contribution,2025-04-25,Petronella Els Van Wingerden,$250,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Vindman for Congress,$500,Dumfries,VA,candidate,,A,448856,2025-07-15
+contribution,2025-04-12,Virginia Radiology PAC,$500,Richmond,VA,pac,,A,448856,2025-07-15
+contribution,2025-05-21,Thomas Wack,$500,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-29,Cathy & Scott Walker,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-04-30,Randy Walther,$100,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-05,Elizabeth Wasem,$500,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-29,Elizabeth Wasem,$200,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-02,MARGARET WEEKS,$200,Santa Barbara,CA,individual,,A,448856,2025-07-15
+contribution,2025-05-04,Nancy Wein,$25,North Chesterfield,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-06,Stevenson Weitz,$250,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-31,Stevenson Weitz,$107.15,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-02,Russell Willis,$50,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-02,Russell Willis,$50,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Debra Wollesen,$25.25,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-12,Debra Wollesen,$35.72,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-05-23,Debra Wollesen,$12.50,Washington,DC,individual,,A,448856,2025-07-15
+contribution,2025-04-01,Luke Wright,$250,Fredericksburg,VA,individual,,A,448856,2025-07-15
+contribution,2025-05-10,Joey Zeldin,$30,Arlington,VA,individual,,A,448856,2025-07-15
+contribution,2025-06-13,Ernest Ackermann,$200,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-20,Adele for Delegate,"$1,000",Arlington,VA,candidate,,A,448899,2025-07-15
+contribution,2025-06-30,Anheuser-Busch,$250,Washington,DC,pac,,A,448899,2025-07-15
+contribution,2025-06-16,Amy Bayne,$30,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-30,Renee Beeuwkes III,"$1,000",Concord,MA,individual,,A,448899,2025-07-15
+contribution,2025-06-10,Leann Bent,$25.25,Mountain View,CA,individual,,A,448899,2025-07-15
+contribution,2025-06-09,Josephine Booth,$200,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-08,Tracy Boyd,$200,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-20,Adalyn Brugger,$100,Mechanicsville,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-23,Adalyn Brugger,$100,Mechanicsville,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-23,Adalyn Brugger,$100,Mechanicsville,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-24,Adalyn Brugger,$100,Mechanicsville,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-08,Stephanie Caspersen,$250,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-19,Darlene Chirman,$200,Portland,OR,individual,,A,448899,2025-07-15
+contribution,2025-06-09,SEIU COPE,"$5,000",Washington,DC,business,,A,448899,2025-07-15
+contribution,2025-06-25,Evan Craig,$223,Vernon Hills,IL,individual,,A,448899,2025-07-15
+contribution,2025-06-27,Frank DeRosa,"$1,250",San Francisco,CA,individual,,A,448899,2025-07-15
+contribution,2025-06-16,Sandy Duckworth,$500,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-26,Everytown for Gun Safety AF,"$1,000",New York,NY,pac,,A,448899,2025-07-15
+contribution,2025-06-19,Debra Fox,$250,Cambridge,MA,individual,,A,448899,2025-07-15
+contribution,2025-06-10,Ryan Gallagher,$20,Arlington,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-30,Genworth Financial,"$1,000",Lynchburg,VA,business,,A,448899,2025-07-15
+contribution,2025-06-07,Donald Gray,$100,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-28,Mary Katherine Greenlaw,$100,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-10,James Huber,$50,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-10,Kevin Hughes,$200,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-19,IBEW PAC Voluntary Fund,"$1,500",Washington,DC,pac,,A,448899,2025-07-15
+contribution,2025-06-10,Asmaa Idrisu,$500,Falls Church,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-19,Imad Jureidini,$150,Lexington,MA,individual,,A,448899,2025-07-15
+contribution,2025-06-18,Josephine Kamel,$30,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-16,Barbara Katzenberg,$50,Lexington,MA,individual,,A,448899,2025-07-15
+contribution,2025-06-26,Barbara Katzenberg,$100,Lexington,MA,individual,,A,448899,2025-07-15
+contribution,2025-06-09,Mari Kelly,"$1,000",Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-10,Nancy Kelly,$40,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-30,Nancy Kelly,$25,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-19,Kenya Gibson for Council,$250,Richmond,VA,candidate,,A,448899,2025-07-15
+contribution,2025-06-23,Jeannette King,$200,Brooklyn,NY,individual,,A,448899,2025-07-15
+contribution,2025-06-07,Krystyna Kobrosky,$200,New York,NY,individual,,A,448899,2025-07-15
+contribution,2025-06-07,Krystyna Kobrosky,$200,New York,NY,individual,,A,448899,2025-07-15
+contribution,2025-06-19,Evan Kraft,$20,Wayne,NJ,individual,,A,448899,2025-07-15
+contribution,2025-06-07,Fatima Lacayo,$50,New York,NY,individual,,A,448899,2025-07-15
+contribution,2025-06-06,Nile Lanning,$200,New York,NY,individual,,A,448899,2025-07-15
+contribution,2025-06-09,Rich Larochelle,"$1,000",Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-25,Debbie Lockett,$40,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-19,Nancy M Fahy,$50,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-15,Jonathan Maltz,$500,New York,NY,individual,,A,448899,2025-07-15
+contribution,2025-06-30,Robert Margrave,$10,Arlington,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-30,Mid-Atlantic Pipe Trades Association,"$1,000",Columbia,MD,pac,,A,448899,2025-07-15
+contribution,2025-06-15,Mochel Morris,$5,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-10,Kathleen Murray,$500,Arlington,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-17,George November,$100,Falls Church,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-09,Jay Odell,$100,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-09,Jeremiah Okrasinski,$200,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-07,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,448899,2025-07-15
+contribution,2025-06-29,Tom Rabaut,$500,Great Falls,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-28,Maria Ragucci,"$1,000",Rye,NY,individual,,A,448899,2025-07-15
+contribution,2025-06-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,448899,2025-07-15
+contribution,2025-06-30,Republic Services,$250,Phoenix,AZ,business,,A,448899,2025-07-15
+contribution,2025-06-10,Xavier Richardson,$500,Spotsylvania,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-10,Danica Roem,$200,Manassas Park,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-10,Christopher Schmidt,$100,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-09,Jennifer Selby,$50,San Bruno,CA,individual,,A,448899,2025-07-15
+contribution,2025-06-16,Service Corporation International,"$1,000",Houston,TX,business,,A,448899,2025-07-15
+contribution,2025-06-30,Sonjia Smith,"$5,000",Charlottesville,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-06,Stephen Solow,$200,New York,NY,individual,,A,448899,2025-07-15
+contribution,2025-06-30,Adam Sweeney,$750,San Jose,CA,individual,,A,448899,2025-07-15
+contribution,2025-06-30,The Virginia Education Association Fund for Children and Public Education,"$1,000",Richmond,VA,business,,A,448899,2025-07-15
+contribution,2025-06-09,Andreina Verdesoto,$200,Fredericksburg,VA,individual,,A,448899,2025-07-15
+contribution,2025-06-30,Rachel Vindman,$250,Davie,FL,individual,,A,448899,2025-07-15
+contribution,2025-06-06,Debra Wollesen,$12.50,Washington,DC,individual,,A,448899,2025-07-15
+contribution,2025-06-12,Joey Zeldin,$30,Arlington,VA,individual,,A,448899,2025-07-15
+contribution,2025-08-30,ernest ackermann,$10,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-08,Jessica Almond,$150,Alexandria,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-12,Amazon,"$1,000",Seattle,WA,business,,A,454474,2025-09-15
+contribution,2025-08-27,"American Federation of State, County and Municipal Employees","$2,500",Washington,DC,business,,A,454474,2025-09-15
+contribution,2025-08-31,Brenda Baker,$250,Los Altos,CA,individual,,A,454474,2025-09-15
+contribution,2025-07-14,Anne Bartley,$833.33,Indian Wells,CA,individual,,A,454474,2025-09-15
+contribution,2025-07-07,Frances Beinecke,$200,Bronx,NY,individual,,A,454474,2025-09-15
+contribution,2025-08-12,Leann Bent,$100,Mountain View,CA,individual,,A,454474,2025-09-15
+contribution,2025-07-22,Donald Bermont,$50,Concord,MA,individual,,A,454474,2025-09-15
+contribution,2025-08-05,Donald Bermont,$25,Concord,MA,individual,,A,454474,2025-09-15
+contribution,2025-08-31,Sue Botts,$150,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-04,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,A,454474,2025-09-15
+contribution,2025-08-27,Ambassador Pamela Bridgewater,$100,Jeffersonville,IN,individual,,A,454474,2025-09-15
+contribution,2025-08-27,Ambassador Pamela Bridgewater,$100,Jeffersonville,IN,individual,,A,454474,2025-09-15
+contribution,2025-07-14,Adalyn Brugger,$100,Mechanicsville,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-09,Geoffrey Burgess,$491,Brattleboro,VT,individual,,A,454474,2025-09-15
+contribution,2025-07-15,Don Burke,$125,Alexandria,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-24,Thomas Buttry,$137.50,Washington,DC,individual,,A,454474,2025-09-15
+contribution,2025-08-24,Jeanette Cadwallender,$200,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-01,Hamilton Candee,"$1,000",San Francisco,CA,individual,,A,454474,2025-09-15
+contribution,2025-08-28,Jennifer Carroll Foy,"$1,000",Woodbridge,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-08,Pamela Cipriano,$500,Charlottesville,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-20,Clean Virginia Fund,"$25,000",Charlottesville,VA,business,,A,454474,2025-09-15
+contribution,2025-08-07,John Cobey,$250,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-31,Joshua Cole,"$1,000",Richmond,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-26,Barbara Comstock,$500,Mclean,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-14,Ronald Conway,$714.28,San Francisco,CA,individual,,A,454474,2025-09-15
+contribution,2025-08-13,Claire Curcio,$200,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-02,Matthew de Ferranti,$150,Arlington,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-29,John DePaola,$250,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-15,Marianne DiMascio,$100,Hanson,MA,individual,,A,454474,2025-09-15
+contribution,2025-08-18,Donna Doering,$50,Arlington,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-13,David Donner,$416.66,San Francisco,CA,individual,,A,454474,2025-09-15
+contribution,2025-08-12,Joseph Peter Drennan,$500,Alexandria,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-25,Sandra Duckworth,$100,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-29,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,A,454474,2025-09-15
+contribution,2025-07-07,Fleur Fairman,$500,Brewster,NY,individual,,A,454474,2025-09-15
+contribution,2025-08-25,Joseph Fama,$250,Silver Spring,MD,individual,,A,454474,2025-09-15
+contribution,2025-08-27,Alan Farkas,$100,Chevy Chase,MD,individual,,A,454474,2025-09-15
+contribution,2025-08-28,Brian Fausett,$100,Stafford,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-17,Kay Ferguson,$500,Charlottesville,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-15,Debra Fox,$75,Cambridge,MA,individual,,A,454474,2025-09-15
+contribution,2025-07-15,David C Frederick,"$2,500",Washington,DC,individual,,A,454474,2025-09-15
+contribution,2025-07-30,Friends of Don Beyer,"$2,500",Alexandria,VA,candidate,,A,454474,2025-09-15
+contribution,2025-07-04,Jessie Gilbert,$100,Oakland,CA,individual,,A,454474,2025-09-15
+contribution,2025-08-27,Aviv Goldsmith,$200,Spotsylvania,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-30,Ruth Goltzer,$75,Arlington,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-02,Andrew Gordon,$125,Brookline,MA,individual,,A,454474,2025-09-15
+contribution,2025-07-14,Andrew Gordon,$200,Brookline,MA,individual,,A,454474,2025-09-15
+contribution,2025-07-25,Donald Gray,$100,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-06,Greater VA Carpenters PEC,"$5,000",Ashland,VA,pac,,A,454474,2025-09-15
+contribution,2025-07-31,Mohamed Gula,$100,Sterling,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-31,Mohamed Gula,$50,Sterling,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-12,Atul Gupta,"$5,000",Lynchburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-25,Donald Gurney,$190,Falls Church,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-13,Nancy Hall,$250,Annandale,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-29,Nancy Hall,$100,Annandale,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-17,Kenneth B Hannsgen,$200,Blacksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-28,Sean Healy,$250,Henrico,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-29,Helen Herring,$25,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-07,Loren Hershey,$185,Oakton,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-29,Nancy Hicks,$250,Washington,DC,individual,,A,454474,2025-09-15
+contribution,2025-07-10,Charlotte Hill,$166.66,San Francisco,CA,individual,,A,454474,2025-09-15
+contribution,2025-08-28,Clayton Hill,$100,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-30,Home Builders of Virginia,"$1,000",Richmond,VA,pac,,A,454474,2025-09-15
+contribution,2025-08-08,James Huber,$500,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-11,Betty Hume,$100,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-18,Betty Hume,$44,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-24,Huntington Ingalls Industries,$500,Newport News,VA,business,,A,454474,2025-09-15
+contribution,2025-08-28,Melissa Huntley,$250,Spotsylvania,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-26,RAMA International,$500,Chantilly,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-17,Invest in Virginia's Future,$500,Reston,VA,pac,,A,454474,2025-09-15
+contribution,2025-07-11,Louis Jaffe,$500,San Francisco,CA,individual,,A,454474,2025-09-15
+contribution,2025-07-30,Jushi Inc,$500,Boca Raton,FL,business,,A,454474,2025-09-15
+contribution,2025-08-12,Karen Kallay,"$2,000",Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-18,Josephine Kamel,$30,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-18,Josephine Kamel,$30,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-01,Jo Kaplan,$500,Santa Monica,CA,individual,,A,454474,2025-09-15
+contribution,2025-07-26,Barbara Katzenberg,$100,Lexington,MA,individual,,A,454474,2025-09-15
+contribution,2025-08-26,Barbara Katzenberg,$100,Lexington,MA,individual,,A,454474,2025-09-15
+contribution,2025-08-01,Judith Kaufmann,$100,Falls Church,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-09,L.M. Keegan,$500,Henrico,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-03,Nancy Kelly,$35,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-25,Phyllis Kirschner,$25,Newton,MA,individual,,A,454474,2025-09-15
+contribution,2025-08-01,Julie Kosterlitz Kosterlitz,$220,Falls Church,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-19,Evan Kraft,$20,Wayne,NJ,individual,,A,454474,2025-09-15
+contribution,2025-08-19,Evan Kraft,$20,Wayne,NJ,individual,,A,454474,2025-09-15
+contribution,2025-07-06,David Kretch,$100,Menlo Park,CA,individual,,A,454474,2025-09-15
+contribution,2025-08-13,David Kuebrich,$100,Fairfax,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-07,Fatima Lacayo,$50,New York,NY,individual,,A,454474,2025-09-15
+contribution,2025-08-07,Fatima Lacayo,$50,New York,NY,individual,,A,454474,2025-09-15
+contribution,2025-08-26,Janet Lejeune,$250,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-11,Debbie Lockett,$30,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-31,Debbie Lockett,$30,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-14,Robert Margrave,$10,Arlington,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-18,Jessica Marschall,$250,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-15,James Martin,$30,Lorton,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-28,Katharine Mason,$125,Washington,DC,individual,,A,454474,2025-09-15
+contribution,2025-07-01,Ana Mendez,$250,Saratoga,CA,individual,,A,454474,2025-09-15
+contribution,2025-07-02,Metro Virginia PAC,$500,Washington,DC,pac,,A,454474,2025-09-15
+contribution,2025-07-20,Susan Miller,$250,Richmond,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-17,David Morgan,"$5,000",Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-15,Mochel Morris,$5,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-15,Mochel Morris,$5,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-04,Robert Nassau,$100,Putney,VT,individual,,A,454474,2025-09-15
+contribution,2025-08-18,John Nelson,$750,Oakton,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-31,Kathryn Nelson,"$2,000",Falls Church,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-13,Warren Nelson,$350,Arlington,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-17,George November,$100,Falls Church,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-17,George November,$100,Falls Church,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-20,John O'Farrell,$200,Atherton,CA,individual,,A,454474,2025-09-15
+contribution,2025-08-28,Jay Odell,$100,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-12,Omega Protein,$500,Calais,ME,business,,A,454474,2025-09-15
+contribution,2025-07-30,Jim Pasternak,$100,Dumfries,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-07,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,454474,2025-09-15
+contribution,2025-08-07,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,454474,2025-09-15
+contribution,2025-08-30,Michael Philipp,$100,Inver Grove Heights,MN,individual,,A,454474,2025-09-15
+contribution,2025-07-29,Jennie Pilkington,$5,Washington,DC,individual,,A,454474,2025-09-15
+contribution,2025-08-15,Jennie Pilkington,$25,Washington,DC,individual,,A,454474,2025-09-15
+contribution,2025-07-11,Raymond H Plaut,"$1,000",Blacksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-12,Principal Advantage Government Relations Group LLC,$500,Williamsburg,VA,business,,A,454474,2025-09-15
+contribution,2025-07-10,Richard Raines,$833.33,Castleton,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,454474,2025-09-15
+contribution,2025-08-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,454474,2025-09-15
+contribution,2025-08-20,Realtors PAC of Virginia,"$1,500",Glen Allen,VA,pac,,A,454474,2025-09-15
+contribution,2025-07-15,Carleton Reed,$137.50,Roanoke,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-29,Karen Rodd,"$1,000",Washington,DC,individual,,A,454474,2025-09-15
+contribution,2025-08-07,Symi Rom-Rymer,$25.25,Washington,DC,individual,,A,454474,2025-09-15
+contribution,2025-07-15,Kathryn Roy,$25,Lexington,MA,individual,,A,454474,2025-09-15
+contribution,2025-07-15,Susan Ryan,"$1,000",Wellesley,MA,individual,,A,454474,2025-09-15
+contribution,2025-07-15,Tedd Saunders,$423.80,Boston,MA,individual,,A,454474,2025-09-15
+contribution,2025-07-12,John R. Shepherd,$25,Charlottesville,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-12,John R. Shepherd,$25,Charlottesville,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-27,David Sheridan,$100,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-13,Irene Shin,"$1,000",Herndon,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-22,Thomas Shiple,$50,Lexington,MA,individual,,A,454474,2025-09-15
+contribution,2025-07-13,Cynthia Snell,$833.33,Boulder,CO,individual,,A,454474,2025-09-15
+contribution,2025-07-06,Michael Solomon,$250,Mclean,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-19,Michael Spiegelman,$250,San Francisco,CA,individual,,A,454474,2025-09-15
+contribution,2025-08-19,Spotsylvania County Democratic Committee,$500,Spotsylvania,VA,party,,A,454474,2025-09-15
+contribution,2025-07-26,Bradley Sroka,$33.34,Sterling,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,454474,2025-09-15
+contribution,2025-08-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,454474,2025-09-15
+contribution,2025-08-27,The PAC for America's Future,"$18,750",Washington,DC,pac,,A,454474,2025-09-15
+contribution,2025-08-25,Robert Thomas,$100,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-30,Robert Thomas,$50,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-04,Sharon Thomas,$50,Sterling,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-04,Sharon Thomas,$50,Sterling,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-08,Paul Torrence,$125,Woodhull,NY,individual,,A,454474,2025-09-15
+contribution,2025-08-27,Tomas Torres,"$2,500",Houston,TX,individual,,A,454474,2025-09-15
+contribution,2025-07-03,Ron Turner,$500,Charlottesville,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-30,UpVote PAC,"$1,500",Chesterfield,VA,pac,,A,454474,2025-09-15
+contribution,2025-08-27,Petronella Els Van Wingerden,$100,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-10,Justin Van Wormer,$137.50,Brooklyn,NY,individual,,A,454474,2025-09-15
+contribution,2025-08-28,Virginia AFL CIO,"$1,000",Richmond,VA,business,,A,454474,2025-09-15
+contribution,2025-07-24,Virginia Apartment Management Association PAC,"$1,000",Richmond,VA,pac,,A,454474,2025-09-15
+contribution,2025-07-25,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,454474,2025-09-15
+contribution,2025-07-29,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,A,454474,2025-09-15
+contribution,2025-07-21,Virginia Beverage Association,$750,Richmond,VA,business,,A,454474,2025-09-15
+contribution,2025-07-11,Virginia Dental Political Action Committee,"$2,000",Richmond,VA,pac,,A,454474,2025-09-15
+contribution,2025-08-08,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,A,454474,2025-09-15
+contribution,2025-08-26,Virginia House Democratic Caucus,"$80,000",Richmond,VA,party,,A,454474,2025-09-15
+contribution,2025-07-30,Virginia League of Conservation Voters PAC,"$2,500",Richmond,VA,pac,,A,454474,2025-09-15
+contribution,2025-08-09,Virginia Society of the AIA,$500,Richmond,VA,business,,A,454474,2025-09-15
+contribution,2025-08-06,Virginia Trial Lawyers PAC,"$1,000",Richmond,VA,pac,,A,454474,2025-09-15
+contribution,2025-07-22,Virginia Wine Wholesalers,"$2,000",Richmond,VA,business,,A,454474,2025-09-15
+contribution,2025-07-31,Todd Vogel,$250,Seattle,WA,individual,,A,454474,2025-09-15
+contribution,2025-07-21,Elizabeth Wasem,$250,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-13,Elizabeth Wasem,$250,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-26,Nancy Wein,$50,North Chesterfield,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-07,Peter Weiner,$200,Berkeley,CA,individual,,A,454474,2025-09-15
+contribution,2025-07-17,Williams Mullen Clark and Dobbins,$250,Richmond,VA,business,,A,454474,2025-09-15
+contribution,2025-07-05,Laura Williams,$25,Putney,VT,individual,,A,454474,2025-09-15
+contribution,2025-07-02,Russell Willis,$50,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-02,Russell Willis,$50,Fredericksburg,VA,individual,,A,454474,2025-09-15
+contribution,2025-07-05,Ruth Wilmot,$600,Brattleboro,VT,individual,,A,454474,2025-09-15
+contribution,2025-08-15,Win Virginia,"$2,000",Richmond,VA,business,,A,454474,2025-09-15
+contribution,2025-07-12,Phyllis Yale,$250,Lexington,MA,individual,,A,454474,2025-09-15
+contribution,2025-07-15,Daniel Yost,$142.85,San Francisco,CA,individual,,A,454474,2025-09-15
+contribution,2025-07-10,Joey Zeldin,$30,Arlington,VA,individual,,A,454474,2025-09-15
+contribution,2025-08-10,Joey Zeldin,$30,Arlington,VA,individual,,A,454474,2025-09-15
+contribution,2025-09-10,ernest ackermann,$200,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-02,Mary Adams,$50,Stafford,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,All Action PAC,$250,Washington,DC,pac,,A,465868,2025-10-27
+contribution,2025-09-06,Roxanne Allegretti,$100,Stafford,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-21,Roxanne Allegretti,$50,Stafford,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Roxanne Allegretti,$50,Stafford,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-22,ATU COPE Voluntary Account,"$2,000",Silver Spring,MD,business,,A,465868,2025-10-27
+contribution,2025-09-23,Baltimore Washington Construction,"$2,500",Reston,VA,business,,A,465868,2025-10-27
+contribution,2025-09-14,James Banner,$25,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Valarie Barr,$50,Silver Spring,MD,individual,,A,465868,2025-10-27
+contribution,2025-09-09,anne beals,$500,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-07,Frances Beatty,$200,New York,NY,individual,,A,465868,2025-10-27
+contribution,2025-09-07,Frances Beatty,$200,New York,NY,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Steven Benjamin,"$7,600",Philadelphia,PA,individual,,A,465868,2025-10-27
+contribution,2025-09-05,Donald Bermont,$25,Concord,MA,individual,,A,465868,2025-10-27
+contribution,2025-09-27,Samuel Bleicher,$500,Winchester,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-22,Mark Bohannon,$125,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-03,Josephine Booth,$10,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-19,Barry Boothe,"$2,000",San Francisco,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Janice Brunson,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-19,Geoffrey Burgess,$50,Brattleboro,VT,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Michael Burkman,$125,Bethesda,MD,individual,,A,465868,2025-10-27
+contribution,2025-09-15,Theodore Burmeister,$575,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Bruce Burton,$100,Alexandria,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-22,Care Advantage Inc.,"$1,500",North Chesterfield,VA,business,,A,465868,2025-10-27
+contribution,2025-09-30,Janet Carruba,$25,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Brenda Carter,$36,Falmouth,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-28,Jane Censer,$250,Fairfax,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-27,Ora Chaiken,$100,Menlo Park,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-03,john chapman,$50,Alexandria,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-26,Clean Virginia Fund,"$15,000",Charlottesville,VA,business,,A,465868,2025-10-27
+contribution,2025-09-09,Joy Crump,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-16,Jeannie Dahnk,$250,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-28,Mary DeRosa,$125,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Mary DeRosa,$50,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-06,Hyacinth Diehl Diehl,$125,Minneapolis,MN,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Steven Dinkin,$125,Del Mar,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-18,Donna Doering,$50,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,DoorDash,$500,San Francisco,CA,business,,A,465868,2025-10-27
+contribution,2025-09-20,Teresa Duncan,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-01,Jamal El-Hindi,$125,Vienna,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-23,Kathleen Evans,$200,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Peter Evans,$100,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-14,Rose Fabia,$125,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Alan Farkas,$125,Chevy Chase,MD,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Brian Fausett,$25,Stafford,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-02,Sarah Fichter,$50,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-25,Sarah Fichter,$40,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-04,John Fox,$10,Mclean,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-04,John Fox,$100,Mclean,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Rhonda C Fried Fried,$200,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-24,Herman Gladney,$500,Stafford,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-18,Eric Goldstein,$250,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-04,Donald Gray,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-23,Joel Griffin,$150,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-14,John Guffey,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Janet Gullickson,$250,King George,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Judith Harbeck,$55.56,Alexandria,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Helen Herring,$25,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,George Hill,$3,Falls Church,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-07,Ann F Hoffman,$25,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Hal Howard III,$200,Minneapolis,MN,individual,,A,465868,2025-10-27
+contribution,2025-09-12,James Huber,$250,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-12,John Humphries,$250,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-22,Carrie Imberman,$200,Brooklyn,NY,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Invenergy,$250,Chicago,IL,business,,A,465868,2025-10-27
+contribution,2025-09-30,Louis Jaffe,$400,San Francisco,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-02,Robin Johnson,$500,Portland,OR,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Charlotte Jones,$50,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,David Jones,$125,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-22,Lynn Kamarck,$150,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-18,Josephine Kamel,$30,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-26,Barbara Katzenberg,$100,Lexington,MA,individual,,A,465868,2025-10-27
+contribution,2025-09-01,Judith Kaufmann,$100,Falls Church,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-23,Marie Kelly,"$1,000",Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-01,Nancy Kelly,$25,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Nancy Kelly,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-24,Dane Kennedy,$25,Fairfax,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Jean King,$50,Livermore,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-24,Phyllis Kirschner,$125,Newton,MA,individual,,A,465868,2025-10-27
+contribution,2025-09-08,John Koza,"$1,000",Los Altos,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-19,Evan Kraft,$20,Wayne,NJ,individual,,A,465868,2025-10-27
+contribution,2025-09-20,Phyllis Kramer,$50,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-17,Keith Krom,$125,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-11,Barry Kropf,$15,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-19,David Kuebrich,$25,Fairfax,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-24,David Kuebrich,$40,Fairfax,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,David Kuebrich,$25,Fairfax,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-07,Fatima Lacayo,$50,New York,NY,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Rich Larochelle,"$1,000",Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-25,Laura Leussing,$35,Alexandria,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-12,Edward P Levine,$55.56,Falls Church,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-14,Denise Liebowitz,$150,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-22,Marlene Lilley,$200,Monrovia,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-22,Marlene Lilley,$100,Monrovia,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-26,Debbie Lockett,$50,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-16,Jeff Loesel,$50,Gaithersburg,MD,individual,,A,465868,2025-10-27
+contribution,2025-09-27,kristine lucius,$250,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Nancy M Fahy,$250,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Macdara MacColl,$200,Madison,CT,individual,,A,465868,2025-10-27
+contribution,2025-09-26,William Maina,$100,Dallas,TX,individual,,A,465868,2025-10-27
+contribution,2025-09-26,William Maina,$200,Dallas,TX,individual,,A,465868,2025-10-27
+contribution,2025-09-26,David Mandel,$800,Los Angeles,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-02,Robert Margrave,$25,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-24,Robert Margrave,$10,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-15,James Martin,$30,Lorton,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Rich & Margaret Martin,$500,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-28,Robert McNutt,$50,Chatham,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-15,Mochel Morris,$5,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Carol Mott,$250,Potomac,MD,individual,,A,465868,2025-10-27
+contribution,2025-09-08,Maneesha Mukhi,$200,Greenwich,CT,individual,,A,465868,2025-10-27
+contribution,2025-09-12,Linda Muller,$300,Lake Ridge,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-25,Robert Nassau,$25,Putney,VT,individual,,A,465868,2025-10-27
+contribution,2025-09-15,Kathryn Nelson,"$1,000",Falls Church,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-19,Peter Norris,$163,Chilmark,MA,individual,,A,465868,2025-10-27
+contribution,2025-09-17,George November,$100,Falls Church,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Joan Toms Olson,$50,Winchester,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,joanne pascale,$125,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-02,Clark Pellett,$250,Chicago,IL,individual,,A,465868,2025-10-27
+contribution,2025-09-07,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,465868,2025-10-27
+contribution,2025-09-10,Jennie Pilkington,$50,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Jennie Pilkington,$50,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-02,Andre Pineda,$200,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,joel pinnix,$500,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-11,Verandah Porche,$50,Guilford,VT,individual,,A,465868,2025-10-27
+contribution,2025-09-16,Premium Distributers of VA,"$1,000",Chantilly,VA,business,,A,465868,2025-10-27
+contribution,2025-09-06,David Quanbeck,$68.75,Reddick,FL,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Myra Ragan,$100,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Wade Rakes,$250,Atlanta,GA,individual,,A,465868,2025-10-27
+contribution,2025-09-19,Fred Rankin,$500,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Sarah Raymond,$125,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Sarah Raymond,$125,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,465868,2025-10-27
+contribution,2025-09-23,Xavier Richardson,$250,Spotsylvania,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Irene Roberts,$250,Richmond,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Karen Rodd,$255,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-07,Symi Rom-Rymer,$25.25,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-18,Paul Rosenthal,$250,Bethesda,MD,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Rouse for Senate,$500,Virginia Beach,VA,candidate,,A,465868,2025-10-27
+contribution,2025-09-22,Chris Saccheri,$500,Palo Alto,CA,individual,,A,465868,2025-10-27
+contribution,2025-09-06,Bruce Saller,$500,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-19,Beverly Seng,$100,Charlottesville,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-19,Beverly Seng,$100,Charlottesville,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-22,Sheetz,$500,Altoona,PA,business,,A,465868,2025-10-27
+contribution,2025-09-12,John R. Shepherd,$25,Charlottesville,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-18,Kate Shepherd,$100,New York,NY,individual,,A,465868,2025-10-27
+contribution,2025-09-30,Daniel Siegel,$250,Richmond,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-09,Seth & Stacy Silber,$500,Bethesda,MD,individual,,A,465868,2025-10-27
+contribution,2025-09-10,Marsha Soffer,$200,Miami,FL,individual,,A,465868,2025-10-27
+contribution,2025-09-30,George Solley,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-03,Howard Solodky,$500,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Michael Solomon,$500,Mclean,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-25,Effie Stallsmith,$25,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,465868,2025-10-27
+contribution,2025-09-28,Beth Stekler,$50,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-17,Kevin Sullivan,$100,Delray Beach,FL,individual,,A,465868,2025-10-27
+contribution,2025-09-26,The Collective PAC,$500,Washington,DC,pac,,A,465868,2025-10-27
+contribution,2025-09-19,The PAC for America's Future,"$12,500",Washington,DC,pac,,A,465868,2025-10-27
+contribution,2025-09-13,Robert Thomas,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-04,Sharon Thomas,$50,Sterling,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-11,Sharon Thomas,$100,Sterling,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-17,BJ & Mary Ann Thornburg,"$1,000",Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-03,Neva Trenis,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Neva Trenis,$100,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-16,UFCW Local 400 ABC PAC,"$7,500",Landover,MD,pac,,A,465868,2025-10-27
+contribution,2025-09-22,VA Society of Anesthesiologists PAC,"$2,500",Richmond,VA,pac,,A,465868,2025-10-27
+contribution,2025-09-04,Petronella Els Van Wingerden,$25,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-19,Virginia Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,A,465868,2025-10-27
+contribution,2025-09-16,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,,A,465868,2025-10-27
+contribution,2025-09-18,Virginia Legislative Black Caucus,"$25,000",Richmond,VA,business,,A,465868,2025-10-27
+contribution,2025-09-30,Virginia Legislative Black Caucus,"$5,000",Richmond,VA,business,,A,465868,2025-10-27
+contribution,2025-09-08,Elizabeth Wasem,$250,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-28,Nancy Wein,$50,North Chesterfield,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-03,Ellen Whalen,$125,Hingham,MA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Allison Wheeler,$125,Alexandria,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Laura Whitaker,$125,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-29,Laura Whitaker,$25,Washington,DC,individual,,A,465868,2025-10-27
+contribution,2025-09-11,Ruth Wilmot,$25,Brattleboro,VT,individual,,A,465868,2025-10-27
+contribution,2025-09-23,Win Virginia,"$4,500",Richmond,VA,business,,A,465868,2025-10-27
+contribution,2025-09-10,Leonard Yang,$500,Winchester,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-21,Victoria Young,$200,Fredericksburg,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-10,Joey Zeldin,$30,Arlington,VA,individual,,A,465868,2025-10-27
+contribution,2025-09-07,Robert Zelnick,$250,Manassas,VA,individual,,A,465868,2025-10-27
+contribution,2025-10-21,Mary Adams,$50,Stafford,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-05,Roxanne Allegretti,$25,Stafford,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-16,Jacqueline Arthur,$300,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-20,Mark Baker,$166.67,New York,NY,individual,,A,465870,2025-10-27
+contribution,2025-10-16,Harrold Bannister,$500,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-19,Timothy Barbrow,$100,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-22,Valarie Barr,$50,Silver Spring,MD,individual,,A,465870,2025-10-27
+contribution,2025-10-05,Donald Bermont,$25,Concord,MA,individual,,A,465870,2025-10-27
+contribution,2025-10-20,Brenda Berry,$200,New York,NY,individual,,A,465870,2025-10-27
+contribution,2025-10-17,Samuel Bleicher,$41.67,Winchester,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-01,Josephine Booth,$80,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-04,Jerry Bowman,$250,Norfolk,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-23,Brady PAC,"$1,000",Washington,DC,pac,,A,465870,2025-10-27
+contribution,2025-10-18,DOUGLAS BROWN,$50,Port Haywood,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-06,Eden Brown,$250,Arlington,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-22,Wesley Callender,$500,Great Falls,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-20,Janet Carruba,$50,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-03,Evelyn Chen,$200,New York,NY,individual,,A,465870,2025-10-27
+contribution,2025-10-22,Chiropractic Political Action,$500,Norfolk,VA,pac,,A,465870,2025-10-27
+contribution,2025-10-16,Anita Crossfield,$200,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-09,Chase DiMarco,$200,Toronto,OH,individual,,A,465870,2025-10-27
+contribution,2025-10-18,Donna Doering,$50,Arlington,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-13,Lisa Durham,$500,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-16,William Eaton,$25,Washington,DC,individual,,A,465870,2025-10-27
+contribution,2025-10-20,William Eaton,$25,Washington,DC,individual,,A,465870,2025-10-27
+contribution,2025-10-09,Eric S Edelman,$500,Stafford,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-08,Becky Epstein,$200,Boston,MA,individual,,A,465870,2025-10-27
+contribution,2025-10-17,Fairchild Trucking Inc,$500,Spotsylvania,VA,business,,A,465870,2025-10-27
+contribution,2025-10-07,Debra Fox,$125,Cambridge,MA,individual,,A,465870,2025-10-27
+contribution,2025-10-01,Ryan Gallagher,$25,Arlington,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-11,Jessie Gilbert,$50,Oakland,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-20,Nancy Goodman,$10,Rockport,MA,individual,,A,465870,2025-10-27
+contribution,2025-10-23,Nancy Goodman,$10,Rockport,MA,individual,,A,465870,2025-10-27
+contribution,2025-10-08,Levi Goren,$90,Richmond,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-05,Rebecca Graber,$50,Brattleboro,VT,individual,,A,465870,2025-10-27
+contribution,2025-10-07,Donald Gray,$100,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-10,jack Greenberg,$200,Highland Park,IL,individual,,A,465870,2025-10-27
+contribution,2025-10-01,Joel Griffin,$50,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-15,Karen Grimaldi,$25,Pompton Plains,NJ,individual,,A,465870,2025-10-27
+contribution,2025-10-08,Nancy Hall,$100,Annandale,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-13,Nancy Hall,$50,Annandale,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-20,milton hanzel,$200,Florence,MA,individual,,A,465870,2025-10-27
+contribution,2025-10-05,John Hart,$200,San Rafael,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-20,HCA for Good Government,"$1,000",Richmond,VA,business,,A,465870,2025-10-27
+contribution,2025-10-11,Helen Herring,$25,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-22,Helen Herring,$25,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-15,nancy hicks,$100,Washington,DC,individual,,A,465870,2025-10-27
+contribution,2025-10-02,George Hill,$10,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-07,George Hill,$10,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-10,George Hill,$10,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-11,George Hill,$10,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-12,George Hill,$10,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-13,George Hill,$10,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-18,George Hill,$10,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-19,George Hill,$2.25,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-22,George Hill,$10,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-23,George Hill,$10,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-11,Sandra Howson,$25,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-13,Betty Hume,$20,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-13,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,465870,2025-10-27
+contribution,2025-10-06,Darlene Jenson,$50,Brattleboro,VT,individual,,A,465870,2025-10-27
+contribution,2025-10-21,Sabrina Johnson,$250,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-18,Josephine Kamel,$30,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-01,Judith Kaufmann,$100,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-03,Elizabeth I Kelley,$100,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-16,Mari Kelly,$250,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-10,Nancy Kelly,$100,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-15,Thomas Kimbrell,$100,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-19,Karen Kinard,$25,Alexandria,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-22,Karen Kinard,$50,Alexandria,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-19,Evan Kraft,$20,Wayne,NJ,individual,,A,465870,2025-10-27
+contribution,2025-10-11,Barry Kropf,$15,Washington,DC,individual,,A,465870,2025-10-27
+contribution,2025-10-02,David Kuebrich,$25,Fairfax,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-16,David Kuebrich,$100,Fairfax,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-23,David Kuebrich,$50,Fairfax,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-07,Fatima Lacayo,$50,New York,NY,individual,,A,465870,2025-10-27
+contribution,2025-10-23,Frances Larkins,$50,Fort Belvoir,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-03,James Lilley,$200,Claremont,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-06,Sophia Lynn,"$1,000",Mclean,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-13,Nancy M Fahy,$100,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-05,William Maina,$100,Dallas,TX,individual,,A,465870,2025-10-27
+contribution,2025-10-05,William Maina,$100,Dallas,TX,individual,,A,465870,2025-10-27
+contribution,2025-10-19,frances marbury,$50,Brattleboro,VT,individual,,A,465870,2025-10-27
+contribution,2025-10-06,Jessica Marschall,$250,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-16,Jessica Marschall,"$1,000",Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-15,James Martin,$30,Lorton,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-07,Samuel Maruca,$250,Washington,DC,individual,,A,465870,2025-10-27
+contribution,2025-10-23,Samuel Maruca,$250,Washington,DC,individual,,A,465870,2025-10-27
+contribution,2025-10-02,Lynne McCay,$25,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-01,Sandra Mciver McIver,$200,Bainbridge Island,WA,individual,,A,465870,2025-10-27
+contribution,2025-10-19,David McKinnis,$100,Fairfield,CT,individual,,A,465870,2025-10-27
+contribution,2025-10-08,Frances Milberg,$750,New York,NY,individual,,A,465870,2025-10-27
+contribution,2025-10-03,James Minor,$100,Stafford,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-13,Nohely Miranda Colon,$50,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-01,Carol Moldaw,$200,Santa Fe,NM,individual,,A,465870,2025-10-27
+contribution,2025-10-15,Mochel Morris,$5,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-14,Jimmy Moye,$500,Baltimore,MD,individual,,A,465870,2025-10-27
+contribution,2025-10-02,Christine Nace,$50,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-04,Thomas Nelson,$50,La Pointe,WI,individual,,A,465870,2025-10-27
+contribution,2025-10-20,Nicole Cole for VA Delegate,"$1,134.59",Fredericksburg,VA,candidate,,A,465870,2025-10-27
+contribution,2025-10-20,NOVA Labor Federation AFL-CIO,"$5,000",Annandale,VA,business,,A,465870,2025-10-27
+contribution,2025-10-17,George November,$100,Falls Church,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-15,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,465870,2025-10-27
+contribution,2025-10-13,Barbara Page,"$2,500",Palo Alto,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-14,Barbara Page,"$3,500",Palo Alto,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-14,carl page,"$3,500",San Francisco,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-14,Gloria Page,"$3,500",Los Altos,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-21,Clark Pellett,$100,Chicago,IL,individual,,A,465870,2025-10-27
+contribution,2025-10-07,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,465870,2025-10-27
+contribution,2025-10-23,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,465870,2025-10-27
+contribution,2025-10-20,PPE Casino Resorts Petersburg,"$2,000",Baltimore,MD,business,,A,465870,2025-10-27
+contribution,2025-10-18,Thomas Prince,$200,Santa Barbara,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-23,Fred Rankin,$250,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,465870,2025-10-27
+contribution,2025-10-23,LTC Neil Rice,$250,Prattville,AL,individual,,A,465870,2025-10-27
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$1,000",Portsmouth,VA,business,,A,465870,2025-10-27
+contribution,2025-10-07,Symi Rom-Rymer,$25.25,Washington,DC,individual,,A,465870,2025-10-27
+contribution,2025-10-21,Delta R Rose,$110,Spotsylvania,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-16,Rebecca Rubin,$200,Occidental,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-11,Miriam Sagan,$200,Santa Fe,NM,individual,,A,465870,2025-10-27
+contribution,2025-10-18,Michael Saks,$100,Piscataway,NJ,individual,,A,465870,2025-10-27
+contribution,2025-10-01,Bruce Saller,$250,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-09,Clark Sanford,$200,Oakland,CA,individual,,A,465870,2025-10-27
+contribution,2025-10-12,John R. Shepherd,$25,Charlottesville,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-09,Sue Shevitz,$200,Chicago,IL,individual,,A,465870,2025-10-27
+contribution,2025-10-21,Thomas Shiple,$25,Lexington,MA,individual,,A,465870,2025-10-27
+contribution,2025-10-13,Claudia Sills,$200,Birmingham,MI,individual,,A,465870,2025-10-27
+contribution,2025-10-13,Trimetria Singleton,$300,Stafford,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,465870,2025-10-27
+contribution,2025-10-15,Lawrence Stone,"$2,000",Kennett Square,PA,individual,,A,465870,2025-10-27
+contribution,2025-10-18,Marjorie Stuhrke,$10,Vienna,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-22,Marjorie Stuhrke,$10,Vienna,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-20,The PAC for America's Future,"$19,444",Washington,DC,pac,,A,465870,2025-10-27
+contribution,2025-10-04,Sharon Thomas,$50,Sterling,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-16,BJ & Mary Ann Thornburg,$250,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-19,David Turner,$200,Portland,OR,individual,,A,465870,2025-10-27
+contribution,2025-10-22,Petronella Els Van Wingerden,$25,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-06,Virginia Chapter Sierra Club,"$1,000",Richmond,VA,business,,A,465870,2025-10-27
+contribution,2025-10-17,Virginia CRNA's Who Care About Healthcare PAC,$500,Richmond,VA,pac,,A,465870,2025-10-27
+contribution,2025-10-07,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,,A,465870,2025-10-27
+contribution,2025-10-14,Virginia House Democratic Caucus,"$50,000",Richmond,VA,party,,A,465870,2025-10-27
+contribution,2025-10-21,Virginia House Democratic Caucus,"$20,000",Richmond,VA,party,,A,465870,2025-10-27
+contribution,2025-10-22,Virginia Legislative Black Caucus,"$3,000",Richmond,VA,business,,A,465870,2025-10-27
+contribution,2025-10-17,Vision Management Services,"$2,000",Chicago,IL,business,,A,465870,2025-10-27
+contribution,2025-10-23,Chris Wagner,$50,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-02,Elizabeth Wasem,$250,Fredericksburg,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-02,Nancy Wein,$50,North Chesterfield,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-07,Nancy Wein,$25,North Chesterfield,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-02,Kathleen White,$50,Brattleboro,VT,individual,,A,465870,2025-10-27
+contribution,2025-10-21,Angelia Williams Graves,$500,Norfolk,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-15,Win Virginia,"$1,500",Richmond,VA,business,,A,465870,2025-10-27
+contribution,2025-10-03,Sietske Wood,$50,Jupiter,FL,individual,,A,465870,2025-10-27
+contribution,2025-10-03,Sietske Wood,$100,Jupiter,FL,individual,,A,465870,2025-10-27
+contribution,2025-10-10,Joey Zeldin,$30,Arlington,VA,individual,,A,465870,2025-10-27
+contribution,2025-10-28,Associated General Contractors of Virginia,$250,Glen Allen,VA,pac,,A,472668,2025-12-04
+contribution,2025-10-30,Tracy Baynard,$100,Alexandria,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-24,anne beals,$100,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-05,Donald Bermont,$25,Concord,MA,individual,,A,472668,2025-12-04
+contribution,2025-10-30,Josephine Booth,$20,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-26,Dennis Brightwell,$100,Woodstock,IL,individual,,A,472668,2025-12-04
+contribution,2025-10-30,DOUGLAS BROWN,$20.83,Port Haywood,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-30,Marilyn Butler,$50,Bristol,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-30,Marilyn Butler,$8.33,Bristol,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-24,Elizabeth Clevenger,$20,Springfield,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-25,Elizabeth Clevenger,$10,Springfield,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-29,Elizabeth Clevenger,$10,Springfield,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-01,Sandy Cole,$850,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-25,Communication Workers of America Cope Account,"$2,000",Washington,DC,pac,,A,472668,2025-12-04
+contribution,2025-11-12,Comstock Hospitality Holdings,"$5,000",Reston,VA,business,,A,472668,2025-12-04
+contribution,2025-10-25,SEIU COPE,"$2,300",Washington,DC,business,,A,472668,2025-12-04
+contribution,2025-11-18,Donna Doering,$50,Arlington,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-01,Dvid Egger,$200,Princeton,NJ,individual,,A,472668,2025-12-04
+contribution,2025-11-03,Nancy Fahy,$50,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-02,Jodie Felice,$25,Midlothian,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-01,Millisa Gary,$50,Stafford,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-01,Millisa Gary,$50,Stafford,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-27,Joshua Gherlone,$25,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-31,Karen Grimaldi,$25,Pompton Plains,NJ,individual,,A,472668,2025-12-04
+contribution,2025-10-27,Catherine Gross,$50,Decatur,IL,individual,,A,472668,2025-12-04
+contribution,2025-10-31,Robert Hatten,$250,Gloucester,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-25,George Hill,$10,Falls Church,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-30,George Hill,$2.25,Falls Church,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-01,George Hill,$10,Falls Church,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-03,George Hill,$2.25,Falls Church,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-03,George Hill,$10,Falls Church,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-02,Megan Hull,$500,Piedmont,CA,individual,,A,472668,2025-12-04
+contribution,2025-10-30,Charlotte Jones,$50,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-31,David Jones,$250,Washington,DC,individual,,A,472668,2025-12-04
+contribution,2025-11-18,Josephine Kamel,$30,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-26,Barbara Katzenberg,$100,Lexington,MA,individual,,A,472668,2025-12-04
+contribution,2025-11-01,Judith Kaufmann,$100,Falls Church,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-02,Priscilla Kehoe,$100,Los Angeles,CA,individual,,A,472668,2025-12-04
+contribution,2025-11-01,Eileen Kelly,$25,Kingston,NY,individual,,A,472668,2025-12-04
+contribution,2025-11-03,Eileen Kelly,$15,Kingston,NY,individual,,A,472668,2025-12-04
+contribution,2025-11-03,Eileen Kelly,$1,Kingston,NY,individual,,A,472668,2025-12-04
+contribution,2025-10-28,Thomas Kimbrell,$100,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-01,Karen Kinard,$50,Alexandria,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-19,Evan Kraft,$20,Wayne,NJ,individual,,A,472668,2025-12-04
+contribution,2025-11-11,Barry Kropf,$15,Washington,DC,individual,,A,472668,2025-12-04
+contribution,2025-11-07,Fatima Lacayo,$50,New York,NY,individual,,A,472668,2025-12-04
+contribution,2025-10-24,Laurel Leslie,$100,Newport,KY,individual,,A,472668,2025-12-04
+contribution,2025-10-25,Laura Leussing,$35,Alexandria,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-31,LGBTQ Victory Fund,"$2,500",Washington,DC,pac,,A,472668,2025-12-04
+contribution,2025-10-24,Joseph Mancini,$25,Medford,NJ,individual,,A,472668,2025-12-04
+contribution,2025-11-24,Joseph Mancini,$25,Medford,NJ,individual,,A,472668,2025-12-04
+contribution,2025-10-25,Susan McCalley,$14.29,Needham,MA,individual,,A,472668,2025-12-04
+contribution,2025-11-25,Susan McCalley,$14.29,Needham,MA,individual,,A,472668,2025-12-04
+contribution,2025-10-31,Walter McCormick,$108.33,Alexandria,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-06,McGuire Woods Consulting,$500,Richmond,VA,business,,A,472668,2025-12-04
+contribution,2025-10-29,Mid-Atlantic Laborers Political Education Fund,"$2,500",Reston,VA,business,,A,472668,2025-12-04
+contribution,2025-10-27,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,pac,,A,472668,2025-12-04
+contribution,2025-10-30,Mochel Morris,$15,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-15,Mochel Morris,$5,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-07,Michael Philipp,$50,Inver Grove Heights,MN,individual,,A,472668,2025-12-04
+contribution,2025-11-04,Plasterer's & Cement Masons,$250,Columbia,MD,pac,,A,472668,2025-12-04
+contribution,2025-10-28,"POM of Virginia, LLC","$2,500",Duluth,GA,business,,A,472668,2025-12-04
+contribution,2025-11-02,Russell Pomeroy,$200,Winchester,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-24,PsychMD PAC,$500,Richmond,VA,pac,,A,472668,2025-12-04
+contribution,2025-11-09,Jackie Kindred Reader,$10,Grand Isle,ME,individual,,A,472668,2025-12-04
+contribution,2025-10-31,Carleton Reed,$100,Roanoke,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-30,Ellen Renaud,$100,Alexandria,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-07,Symi Rom-Rymer,$25.25,Washington,DC,individual,,A,472668,2025-12-04
+contribution,2025-11-03,Kevin Schmidt,$30,Goleta,CA,individual,,A,472668,2025-12-04
+contribution,2025-11-02,Mark shapiro,$500,Poway,CA,individual,,A,472668,2025-12-04
+contribution,2025-11-03,Amanda Stebbins,$15,Philadelphia,PA,individual,,A,472668,2025-12-04
+contribution,2025-10-26,Constance Story,$120,Louisville,KY,individual,,A,472668,2025-12-04
+contribution,2025-11-03,Sunny Day Strategies,$290.77,Washington,DC,business,,A,472668,2025-12-04
+contribution,2025-11-02,Justin Talbot,$200,Seattle,WA,individual,,A,472668,2025-12-04
+contribution,2025-11-04,Sharon Thomas,$50,Sterling,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-31,Tides Advocacy,"$1,000",San Francisco,CA,business,,A,472668,2025-12-04
+contribution,2025-11-02,Petronella Els Van Wingerden,$25,Fredericksburg,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-01,Virginia Beer Wholesalers Association,"$1,000",Richmond,VA,business,,A,472668,2025-12-04
+contribution,2025-11-02,Virginia Hospital & Healthcare Assoc,"$3,500",Richmond,VA,pac,,A,472668,2025-12-04
+contribution,2025-11-03,Joseph Whorton,$25,Arlington,VA,individual,,A,472668,2025-12-04
+contribution,2025-11-10,Joey Zeldin,$30,Arlington,VA,individual,,A,472668,2025-12-04
+contribution,2025-10-30,Joel Zimet,$200,Boston,MA,individual,,A,472668,2025-12-04
 contribution,2025-12-23,Clean Virginia Fund,"$6,000",Charlottesville,VA,business,,A,479883,2026-01-15
 contribution,2025-12-19,Evan Kraft,$20,Wayne,NJ,individual,,A,479883,2026-01-15
 contribution,2025-12-11,Barry Kropf,$15,Washington,DC,individual,,A,479883,2026-01-15
@@ -26,8 +1142,768 @@ contribution,2026-01-09,Virginia Cable Political Action Committee,$500,Richmond,
 contribution,2026-06-09,Virginia CRNA's Who Care About Healthcare PAC,$500,Richmond,VA,pac,,A,497457,2026-07-15
 contribution,2026-05-31,Virginia Harness Horse Association,$250,Saluda,VA,pac,,A,497457,2026-07-15
 contribution,2026-06-16,Virginia Sheriff's PAC,$250,Richmond,VA,pac,,A,497457,2026-07-15
+in_kind,2025-02-24,Virginia House Democratic Caucus,"$1,762.50",Richmond,VA,party,Campaign manager salary benefits and taxes,B,448853,2025-07-15
+in_kind,2025-03-01,Virginia House Democratic Caucus,"$7,673.50",Richmond,VA,party,Payroll salary and benefits,B,448853,2025-07-15
+in_kind,2025-03-05,Virginia House Democratic Caucus,"$2,500",Richmond,VA,party,Digital Advertising,B,448853,2025-07-15
+in_kind,2025-05-01,Lynn A. Ackermann,$493,Fredericksburg,VA,individual,Event Catering and Operation Expenses,B,448856,2025-07-15
+in_kind,2025-04-30,Lisa Durham,$331.94,Fredericksburg,VA,individual,Beverages for Event,B,448856,2025-07-15
+in_kind,2025-04-18,Dr. Erica Heppe,$650,Fredericksburg,VA,individual,Event Bar and Drink Service Catering Service,B,448856,2025-07-15
+in_kind,2025-06-03,denise liebowitz,$111,Washington,DC,individual,Postage,B,448856,2025-07-15
+in_kind,2025-05-31,Christine Nace,$249.55,Fredericksburg,VA,individual,Event Catering,B,448856,2025-07-15
+in_kind,2025-06-01,Spencer Silver,"$1,078",Boca Raton,FL,individual,Campaign Office Space,B,448856,2025-07-15
+in_kind,2025-04-25,Sister District Project Federal PAC,"$5,000",Sacramento,CA,pac,Consulting services (General fundraising field strategy communications) training and digital support,B,448856,2025-07-15
+in_kind,2025-04-01,Virginia House Democratic Caucus,"$4,387.50",Richmond,VA,party,Campaign Manager Salary,B,448856,2025-07-15
+in_kind,2025-05-01,Virginia House Democratic Caucus,"$4,387.50",Richmond,VA,party,Campaign Manager Salary,B,448856,2025-07-15
+in_kind,2025-05-20,Virginia House Democratic Caucus,"$10,000",Richmond,VA,party,Boosted Digital Ad Investment,B,448856,2025-07-15
+in_kind,2025-06-02,Virginia House Democratic Caucus,"$4,387.50",Richmond,VA,party,Campaign Manager Salary,B,448856,2025-07-15
+in_kind,2025-06-08,Dr. Erica Heppe,$57.97,Fredericksburg,VA,individual,Event Printing Expenses,B,448899,2025-07-15
+in_kind,2025-06-09,Dr. Erica Heppe,$935,Fredericksburg,VA,individual,Event Catering Purchases,B,448899,2025-07-15
+in_kind,2025-06-09,Dr. Erica Heppe,$145.86,Fredericksburg,VA,individual,Event Catering Tax Payments,B,448899,2025-07-15
+in_kind,2025-06-10,Dr. Erica Heppe,$644.84,Fredericksburg,VA,individual,Event Catering Expenses,B,448899,2025-07-15
+in_kind,2025-06-09,Rachel Berenbaum,$219.34,Fredericksburg,VA,individual,Event floral expenses,B,448899,2025-07-15
+in_kind,2025-06-10,Rachel Berenbaum,$266.86,Fredericksburg,VA,individual,Event linens tables and chairs,B,448899,2025-07-15
+in_kind,2025-08-25,Democratic Party of Virginia,"$17,085.20",Richmond,VA,party,Mail production,B,454474,2025-09-15
+in_kind,2025-08-29,Democratic Party of Virginia,"$16,269.23",Richmond,VA,party,Mail production,B,454474,2025-09-15
+in_kind,2025-07-01,Juliet Eastland,$817.60,Brookline,MA,individual,Postage,B,454474,2025-09-15
+in_kind,2025-08-31,Everytown for Gun Safety AF,$586.72,New York,NY,pac,Staff Time for Candidate Support,B,454474,2025-09-15
+in_kind,2025-07-01,Spencer Silver,"$1,078",Boca Raton,FL,individual,Campaign Office Space,B,454474,2025-09-15
+in_kind,2025-08-01,Spencer Silver,"$1,078",Boca Raton,FL,individual,Campaign Office Space,B,454474,2025-09-15
+in_kind,2025-07-02,Virginia House Democratic Caucus,"$4,387.50",Richmond,VA,party,Campaign manager salary and benefits,B,454474,2025-09-15
+in_kind,2025-07-03,Virginia House Democratic Caucus,"$22,194.60",Richmond,VA,party,Campaign Polling,B,454474,2025-09-15
+in_kind,2025-08-01,Virginia House Democratic Caucus,"$4,387.50",Richmond,VA,party,Campaign Manager Salary,B,454474,2025-09-15
+in_kind,2025-08-01,"Zinc Collective, LLC",$248,Los Angeles,CA,business,Training,B,454474,2025-09-15
+in_kind,2025-08-19,Democratic Party of Virginia,"$15,699.19",Richmond,VA,party,Mail production,B,454474,2025-09-15
+in_kind,2025-09-22,Clare Bawden,$424,Annandale,VA,individual,Postcards,B,465868,2025-10-27
+in_kind,2025-09-04,Democratic Party of Virginia,"$16,043.68",Richmond,VA,party,Mail production,B,465868,2025-10-27
+in_kind,2025-09-17,Democratic Party of Virginia,"$15,592.58",Richmond,VA,party,Mail Production,B,465868,2025-10-27
+in_kind,2025-09-19,Democratic Party of Virginia,"$16,043.68",Richmond,VA,party,Mail Production,B,465868,2025-10-27
+in_kind,2025-09-23,Democratic Party of Virginia,"$16,494.79",Richmond,VA,party,Mail Production,B,465868,2025-10-27
+in_kind,2025-09-26,Democratic Party of Virginia,"$16,043.68",Richmond,VA,party,Mail Production,B,465868,2025-10-27
+in_kind,2025-09-23,Lisa Durham,"$1,195.12",Fredericksburg,VA,individual,Fundraiser Costs - Catered Food,B,465868,2025-10-27
+in_kind,2025-09-23,Lisa Durham,$650,Fredericksburg,VA,individual,Fundraiser Costs - Bartending Services,B,465868,2025-10-27
+in_kind,2025-09-26,Everytown for Gun Safety AF,$130.38,New York,NY,pac,Staff time for candidate support,B,465868,2025-10-27
+in_kind,2025-09-26,Everytown for Gun Safety AF,$224.09,New York,NY,pac,List use phone minutes staff time for voter outreach,B,465868,2025-10-27
+in_kind,2025-09-22,Karen Kinard,$53,Alexandria,VA,individual,Postcards,B,465868,2025-10-27
+in_kind,2025-09-29,Bridget Kraft,$107.06,Falls Church,VA,individual,Postcards,B,465868,2025-10-27
+in_kind,2025-09-15,Planned Parenthood Virginia PAC,$141.75,Richmond,VA,pac,Staff time for voter contact and communications,B,465868,2025-10-27
+in_kind,2025-09-19,Progressive Turnout Project,"$1,000",Evanston,IL,business,Fellow Program Payroll,B,465868,2025-10-27
+in_kind,2025-09-15,Michelle Radecki,$424,Silver Spring,MD,individual,Postcards,B,465868,2025-10-27
+in_kind,2025-09-08,Emma Rinker,$106,Fredericksburg,VA,individual,Postcards,B,465868,2025-10-27
+in_kind,2025-09-15,Emma Rinker,$53,Fredericksburg,VA,individual,Postcards,B,465868,2025-10-27
+in_kind,2025-09-22,Emma Rinker,$53,Fredericksburg,VA,individual,Postcards,B,465868,2025-10-27
+in_kind,2025-09-01,Spencer Silver,"$1,078",Boca Raton,FL,individual,Campaign Office Space,B,465868,2025-10-27
+in_kind,2025-09-08,Diana Smith,$212,Reston,VA,individual,Postcards,B,465868,2025-10-27
+in_kind,2025-09-29,Diana Smith,$159,Reston,VA,individual,Postcards,B,465868,2025-10-27
+in_kind,2025-09-08,Gwen Stewart,$530,Bethesda,MD,individual,Postcard,B,465868,2025-10-27
+in_kind,2025-09-01,Virginia House Democratic Caucus,"$4,387.50",Richmond,VA,party,Campaign manager salary benefits and taxes,B,465868,2025-10-27
+in_kind,2025-09-18,Virginia House Democratic Caucus,"$8,500",Richmond,VA,party,Polling,B,465868,2025-10-27
+in_kind,2025-09-30,Working Families Party PAC,$295.81,Brooklyn,NY,pac,Texting,B,465868,2025-10-27
+in_kind,2025-10-17,Counterspark,"$39,859",Washington,DC,business,Digital Ads,B,465870,2025-10-27
+in_kind,2025-10-06,Democratic Party of Virginia,"$16,043.68",Richmond,VA,party,Mail Production,B,465870,2025-10-27
+in_kind,2025-10-07,Democratic Party of Virginia,$316.33,Richmond,VA,party,Printing,B,465870,2025-10-27
+in_kind,2025-10-15,Democratic Party of Virginia,"$14,690.37",Richmond,VA,party,Mail Production / Postage,B,465870,2025-10-27
+in_kind,2025-10-22,Democratic Party of Virginia,"$14,690.37",Richmond,VA,party,Mail Production / Postage,B,465870,2025-10-27
+in_kind,2025-10-23,Democratic Party of Virginia,"$4,268.35",Richmond,VA,party,Mail Production / Postage,B,465870,2025-10-27
+in_kind,2025-10-23,Democratic Party of Virginia,"$4,268.35",Richmond,VA,party,Mail Production / Postage,B,465870,2025-10-27
+in_kind,2025-10-23,Democratic Party of Virginia,"$2,636.86",Richmond,VA,party,Mail Production / Postage,B,465870,2025-10-27
+in_kind,2025-10-23,Everytown for Gun Safety AF,$130.38,New York,NY,pac,Staff Time,B,465870,2025-10-27
+in_kind,2025-10-18,GOTV,"$3,240",Richmond,VA,business,Canvassing,B,465870,2025-10-27
+in_kind,2025-10-06,Bridget Kraft,$106,Falls Church,VA,individual,Postcards,B,465870,2025-10-27
+in_kind,2025-10-06,Maria C Kudla,$106,Fairfax,VA,individual,Postcards,B,465870,2025-10-27
+in_kind,2025-10-03,Progressive Turnout Project,"$1,000",Evanston,IL,business,Fellow Program Payroll,B,465870,2025-10-27
+in_kind,2025-10-17,Progressive Turnout Project,"$1,000",Evanston,IL,business,Fellow Program Payroll,B,465870,2025-10-27
+in_kind,2025-10-06,Emma Rinker,$28.62,Fredericksburg,VA,individual,Postcards,B,465870,2025-10-27
+in_kind,2025-10-06,Amy E Rowland,$185.50,Brooklyn,NY,individual,Postcards,B,465870,2025-10-27
+in_kind,2025-10-12,Service Employees International Union,$977.50,Washington,DC,business,Staff Time,B,465870,2025-10-27
+in_kind,2025-10-01,Spencer Silver,"$1,078",Boca Raton,FL,individual,Campaign Office Space,B,465870,2025-10-27
+in_kind,2025-10-14,Sister District Project Federal PAC,$479,Sacramento,CA,pac,Travel Reimbursement,B,465870,2025-10-27
+in_kind,2025-10-24,Clean Virginia Fund,"$1,062",Charlottesville,VA,business,Paid Media,B,472668,2025-12-04
+in_kind,2025-10-24,SEIU COPE,"$3,622.50",Washington,DC,business,Canvassing,B,472668,2025-12-04
+in_kind,2025-11-12,Democratic Party of Virginia,"$1,098.06",Richmond,VA,party,Printing,B,472668,2025-12-04
+in_kind,2025-11-04,Get out the Vote PAC,"$3,060",Washington,DC,pac,Canvassing,B,472668,2025-12-04
+in_kind,2025-10-31,Progressive Turnout Project,"$1,000",Evanston,IL,business,payroll disbursement,B,472668,2025-12-04
+in_kind,2025-11-07,Progressive Turnout Project,"$1,000",Evanston,IL,business,Fellowship Payroll Program,B,472668,2025-12-04
+in_kind,2025-10-27,SEIU Local 32BJ,"$12,201.72",New York,NY,business,Mail,B,472668,2025-12-04
+in_kind,2025-11-03,Service Employees International Union,"$1,597.41",Washington,DC,business,Staff costs,B,472668,2025-12-04
+in_kind,2025-11-01,Spencer Silver,"$1,078",Boca Raton,FL,individual,Campaign Office Space,B,472668,2025-12-04
+in_kind,2025-11-01,Virginia House Democratic Caucus,"$4,387.50",Richmond,VA,party,Campaign manager salary benefits and taxes,B,472668,2025-12-04
+in_kind,2025-10-31,Virginians for the Commonwealth,"$9,275",Richmond,VA,pac,Phone and Texting Services,B,472668,2025-12-04
+in_kind,2025-10-28,Working Families Party PAC,$327.36,Brooklyn,NY,pac,Texting,B,472668,2025-12-04
+in_kind,2025-11-03,Working Families Party PAC,$7.87,Brooklyn,NY,pac,Texting,B,472668,2025-12-04
+other_receipt,2024-04-01,Truist,$36,Fredericksburg,VA,business,Positive Charge Balance Reimbursement,C,448814,2025-07-15
+other_receipt,2024-04-01,Truist,$36,Fredericksburg,VA,business,Positive Charge Balance Reimbursement,C,448814,2025-07-15
+other_receipt,2024-04-01,Truist,$36,Fredericksburg,VA,business,Positive Charge Balance Reimbursement,C,448814,2025-07-15
+other_receipt,2024-04-01,Truist,$36,Fredericksburg,VA,business,Positive Charge Balance Reimbursement,C,448814,2025-07-15
+other_receipt,2024-04-01,Truist,$468,Fredericksburg,VA,business,Positive Charge Balance Reimbursement,C,448814,2025-07-15
+other_receipt,2024-04-01,Truist,$219,Fredericksburg,VA,business,LRM Claims Refund and Adjustment,C,448814,2025-07-15
+other_receipt,2025-08-07,"Google, Inc.",$0.83,Mountain View,CA,business,Gsuite Return Amount,C,454474,2025-09-15
+other_receipt,2025-07-24,Hampton Inn and Suites,$49.51,Richmond,VA,business,Refund of hotel security fee,C,454474,2025-09-15
+other_receipt,2025-10-20,Paychex,$0.01,Rochester,NY,business,Acct Verify,C,465870,2025-10-27
+other_receipt,2025-10-29,Moxy Richmond Downtown,$473.26,Richmond,VA,business,Refund,C,472668,2025-12-04
 other_receipt,2026-01-20,Homewood Suites,$325.57,Richmond,VA,business,Travel expenses,C,497457,2026-07-15
 other_receipt,2026-01-20,Paychex,$0.02,Rochester,NY,business,Payroll,C,497457,2026-07-15
+expenditure,2024-01-02,"Google, Inc.",$8.41,Mountain View,CA,business,Google Voice,D,448814,2025-07-15
+expenditure,2024-01-02,Javontae Mickens,"$1,500",Fredericksburg,VA,individual,Consulting Fees,D,448814,2025-07-15
+expenditure,2024-01-03,"EveryAction, Inc.",$380,Washington,DC,business,Database Software,D,448814,2025-07-15
+expenditure,2024-01-03,Pimenta,$413.42,Fredericksburg,VA,business,Food and Venue Expenses,D,448814,2025-07-15
+expenditure,2024-01-03,Eric Sundberg,"$2,166.66",Richmond,VA,individual,Employee Salary,D,448814,2025-07-15
+expenditure,2024-01-07,Ronald Kushner,$10,Sarasota,FL,individual,Refund of Contribution,D,448814,2025-07-15
+expenditure,2024-01-10,Paychex,$58,Rochester,NY,business,Payroll Processing Fee,D,448814,2025-07-15
+expenditure,2024-01-11,Calendly,$20,Avondale Estates,GA,business,Software,D,448814,2025-07-15
+expenditure,2024-01-12,"Bill.com, LLC","$1,201.04",San Jose,CA,business,Mailing services,D,448814,2025-07-15
+expenditure,2024-01-16,Adobe,$29.99,San Jose,CA,business,Computer Software Subscription,D,448814,2025-07-15
+expenditure,2024-01-16,Cox Communications,$158.21,Atlanta,GA,business,Internet Service,D,448814,2025-07-15
+expenditure,2024-01-16,"Google, Inc.",$55.42,Mountain View,CA,business,IT Services,D,448814,2025-07-15
+expenditure,2024-01-16,Eunice Haigler,"$1,000",Fredericksburg,VA,individual,Employee Salary,D,448814,2025-07-15
+expenditure,2024-01-16,Marriott Hotel Richmond,$492.36,Richmond,VA,business,Travel - Hotel,D,448814,2025-07-15
+expenditure,2024-01-19,Ionos,$13.71,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-01-22,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448814,2025-07-15
+expenditure,2024-01-22,Costco,$66.29,Fredericksburg,VA,business,Cater event - food,D,448814,2025-07-15
+expenditure,2024-01-22,"Four Points by Sheraton, Richmond VA",$342.39,North Chesterfield,VA,business,Travel - Hotel,D,448814,2025-07-15
+expenditure,2024-01-22,Staples 0010,$52.81,Fredericksburg,VA,business,Office supplies,D,448814,2025-07-15
+expenditure,2024-01-22,Truist,$115,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448814,2025-07-15
+expenditure,2024-01-22,Wegmans,$80.80,Fredericksburg,VA,business,Catered event - sheet cake for swearing-in,D,448814,2025-07-15
+expenditure,2024-01-25,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-01-30,Fredericksburg NAACP,$250,Fredericksburg,VA,business,Event Fee,D,448814,2025-07-15
+expenditure,2024-01-31,Eunice Haigler,"$1,000",Fredericksburg,VA,individual,Consultation services,D,448814,2025-07-15
+expenditure,2024-02-02,"EveryAction, Inc.",$380,Washington,DC,business,Database Software,D,448814,2025-07-15
+expenditure,2024-02-05,Little Caesars #45,$5.36,Richmond,VA,business,Catered Event - Sodas,D,448814,2025-07-15
+expenditure,2024-02-05,Little Caesars #45,$111.24,Richmond,VA,business,Catered Event - Pizzas,D,448814,2025-07-15
+expenditure,2024-02-06,Robert Huff,$20,Memphis,TN,individual,Shipping,D,448814,2025-07-15
+expenditure,2024-02-12,Calendly,$20,Avondale Estates,GA,business,Software,D,448814,2025-07-15
+expenditure,2024-02-12,Paychex,$211.75,Rochester,NY,business,Payroll services,D,448814,2025-07-15
+expenditure,2024-02-14,Cox Communications,$158.21,Atlanta,GA,business,Internet services,D,448814,2025-07-15
+expenditure,2024-02-14,"Google, Inc.",$55.42,Mountain View,CA,business,Google Voice,D,448814,2025-07-15
+expenditure,2024-02-14,Walmart #7032,$59.53,Richmond,VA,business,"Plates, napkins, and utensils",D,448814,2025-07-15
+expenditure,2024-02-15,Adobe,$29.99,San Jose,CA,business,Adobe Creative Cloud,D,448814,2025-07-15
+expenditure,2024-02-15,Eunice Haigler,"$1,000",Fredericksburg,VA,individual,Consultation services,D,448814,2025-07-15
+expenditure,2024-02-20,Ionos,$13.71,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-02-20,Marriott Hotel Richmond,$400.44,Richmond,VA,business,Travel - Hotel,D,448814,2025-07-15
+expenditure,2024-02-20,Javontae Mickens,$110,Fredericksburg,VA,individual,Refund,D,448814,2025-07-15
+expenditure,2024-02-21,Truist,$75,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448814,2025-07-15
+expenditure,2024-02-22,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448814,2025-07-15
+expenditure,2024-02-26,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-02-29,Eunice Haigler,"$1,000",Fredericksburg,VA,individual,Consultation services,D,448814,2025-07-15
+expenditure,2024-03-11,Calendly,$20,Avondale Estates,GA,business,Software,D,448814,2025-07-15
+expenditure,2024-03-11,Paychex,$58,Rochester,NY,business,Payroll services,D,448814,2025-07-15
+expenditure,2024-03-14,"Google, Inc.",$55.42,Mountain View,CA,business,Google Voice,D,448814,2025-07-15
+expenditure,2024-03-15,Adobe,$29.99,San Jose,CA,business,Adobe Creative Cloud,D,448814,2025-07-15
+expenditure,2024-03-18,Cox Communications,$158.21,Atlanta,GA,business,Internet services,D,448814,2025-07-15
+expenditure,2024-03-20,Ionos,$13.71,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-03-21,Truist,$15,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448814,2025-07-15
+expenditure,2024-03-22,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448814,2025-07-15
+expenditure,2024-03-22,"EveryAction, Inc.",$380,Washington,DC,business,Database Software,D,448814,2025-07-15
+expenditure,2024-03-25,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-03-29,Extra Space Storage,$103,Fredericksburg,VA,business,Storage unit,D,448814,2025-07-15
+expenditure,2024-04-01,ParkMobile LLC,$8.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-01,ParkMobile LLC,$9.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-01,ParkMobile LLC,$8.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-01,ParkMobile LLC,$8.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-01,ParkMobile LLC,$19.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-01,ParkMobile LLC,$3.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-01,ParkMobile LLC,$3.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-01,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-01,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-01,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-02,"EveryAction, Inc.",$380,Washington,DC,business,Database Software,D,448814,2025-07-15
+expenditure,2024-04-02,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-10,Paychex,$58,Rochester,NY,business,Paychex payroll services,D,448814,2025-07-15
+expenditure,2024-04-10,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-11,Calendly,$20,Avondale Estates,GA,business,Software,D,448814,2025-07-15
+expenditure,2024-04-11,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Adobe,$29.99,San Jose,CA,business,Adobe Creative Cloud,D,448814,2025-07-15
+expenditure,2024-04-15,"Google, Inc.",$55.28,Mountain View,CA,business,Google Voice,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$6.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$2.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$1.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$4.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$1.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$4.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$2.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$1.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$10.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$6.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,ParkMobile LLC,$1.35,Atlanta,GA,business,Parking,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Item Return Fee,D,448814,2025-07-15
+expenditure,2024-04-15,Truist,$36,Fredericksburg,VA,business,Bank Overdraft Fee,D,448814,2025-07-15
+expenditure,2024-04-19,Cox Communications,$158.21,Atlanta,GA,business,Internet services,D,448814,2025-07-15
+expenditure,2024-04-22,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448814,2025-07-15
+expenditure,2024-04-22,Terrence Dean,$100,Fredericksburg,VA,individual,Consulting services,D,448814,2025-07-15
+expenditure,2024-04-22,Truist,$75,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448814,2025-07-15
+expenditure,2024-04-29,Extra Space Storage,$103,Fredericksburg,VA,business,Storage unit,D,448814,2025-07-15
+expenditure,2024-05-01,"Holiday Inn Express & Suites Claypool Hill (Richlands Area), an IHG Hotel",$118.02,Pounding Mill,VA,business,Hotel room,D,448814,2025-07-15
+expenditure,2024-05-06,Ionos,$114.21,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-05-10,Paychex,$74.25,Rochester,NY,business,Paychex payroll services,D,448814,2025-07-15
+expenditure,2024-05-13,"Google, Inc.",$1.99,Mountain View,CA,business,Google One,D,448814,2025-07-15
+expenditure,2024-05-14,"Google, Inc.",$55.28,Mountain View,CA,business,Google Voice,D,448814,2025-07-15
+expenditure,2024-05-15,Cox Communications,$158.21,Atlanta,GA,business,Internet services,D,448814,2025-07-15
+expenditure,2024-05-20,Ionos,$13.71,Chesterbrook,PA,business,Website Hosting,D,448814,2025-07-15
+expenditure,2024-05-21,Truist,$115,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448814,2025-07-15
+expenditure,2024-05-22,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448814,2025-07-15
+expenditure,2024-05-28,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-05-29,Extra Space Storage,$103,Fredericksburg,VA,business,Storage unit,D,448814,2025-07-15
+expenditure,2024-06-10,Paychex,$58,Rochester,NY,business,Paychex payroll services,D,448814,2025-07-15
+expenditure,2024-06-13,"Google, Inc.",$1.99,Mountain View,CA,business,Google One,D,448814,2025-07-15
+expenditure,2024-06-14,Cox Communications,$158.21,Atlanta,GA,business,Internet services,D,448814,2025-07-15
+expenditure,2024-06-14,"Google, Inc.",$55.53,Mountain View,CA,business,Google Voice,D,448814,2025-07-15
+expenditure,2024-06-20,Hotel Weyanoke,$129.23,Farmville,VA,business,Travel - Hotel,D,448814,2025-07-15
+expenditure,2024-06-20,Ionos,$13.71,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-06-21,Truist,$115,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448814,2025-07-15
+expenditure,2024-06-24,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448814,2025-07-15
+expenditure,2024-06-24,Costco,$53.63,Fredericksburg,VA,business,Gasoline,D,448814,2025-07-15
+expenditure,2024-06-25,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448814,2025-07-15
+expenditure,2024-06-28,Virginia House Democratic Caucus,"$2,500",Richmond,VA,party,Caucus dues,D,448814,2025-07-15
+expenditure,2024-07-01,Extra Space Storage,$103,Fredericksburg,VA,business,Storage unit,D,448828,2025-07-15
+expenditure,2024-07-10,Paychex,$58,Rochester,NY,business,Paychex payroll services,D,448828,2025-07-15
+expenditure,2024-07-15,Cox Communications,$158.21,Atlanta,GA,business,Internet services,D,448828,2025-07-15
+expenditure,2024-07-15,"Google, Inc.",$55.40,Mountain View,CA,business,Google Voice,D,448828,2025-07-15
+expenditure,2024-07-15,"Google, Inc.",$1.99,Mountain View,CA,business,Google One,D,448828,2025-07-15
+expenditure,2024-07-19,Cook Out,$28.35,Thomasville,NC,business,Meals,D,448828,2025-07-15
+expenditure,2024-07-19,Stafford County Parks and Recreation,$250,Stafford,VA,business,Space rental,D,448828,2025-07-15
+expenditure,2024-07-22,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448828,2025-07-15
+expenditure,2024-07-22,Ionos,$219.60,Chesterbrook,PA,business,Website hosting,D,448828,2025-07-15
+expenditure,2024-07-22,Truist,$115,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448828,2025-07-15
+expenditure,2024-07-24,Walmart,$42.99,Stafford,VA,business,Office supplies,D,448828,2025-07-15
+expenditure,2024-07-25,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448828,2025-07-15
+expenditure,2024-07-26,United States Postal Service,$222,Stafford,VA,business,Mail and postage,D,448828,2025-07-15
+expenditure,2024-07-29,Extra Space Storage,$103,Fredericksburg,VA,business,Storage unit,D,448828,2025-07-15
+expenditure,2024-08-12,Paychex,$76,Rochester,NY,business,Paychex payroll services,D,448828,2025-07-15
+expenditure,2024-08-14,Cox Communications,$158.21,Atlanta,GA,business,Internet services,D,448828,2025-07-15
+expenditure,2024-08-14,"Google, Inc.",$1.99,Mountain View,CA,business,Google One,D,448828,2025-07-15
+expenditure,2024-08-14,"Google, Inc.",$55.48,Mountain View,CA,business,Google Voice,D,448828,2025-07-15
+expenditure,2024-08-15,Eunice Haigler,"$1,600",Fredericksburg,VA,individual,Consultation services,D,448828,2025-07-15
+expenditure,2024-08-19,Ionos,$13.71,Chesterbrook,PA,business,Web Hosting Services,D,448828,2025-07-15
+expenditure,2024-08-22,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448828,2025-07-15
+expenditure,2024-08-22,Truist,$115,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448828,2025-07-15
+expenditure,2024-08-26,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448828,2025-07-15
+expenditure,2024-08-26,Sable Hotel,$780.74,Chicago,IL,business,Travel-Hotel,D,448828,2025-07-15
+expenditure,2024-08-29,Extra Space Storage,$103,Fredericksburg,VA,business,Storage unit,D,448828,2025-07-15
+expenditure,2024-09-10,Paychex,$58,Rochester,NY,business,Paychex payroll services,D,448828,2025-07-15
+expenditure,2024-09-13,"Google, Inc.",$1.99,Mountain View,CA,business,Google One,D,448828,2025-07-15
+expenditure,2024-09-16,Cox Communications,$68.39,Atlanta,GA,business,Internet services,D,448828,2025-07-15
+expenditure,2024-09-16,"Google, Inc.",$55.48,Mountain View,CA,business,Google Voice,D,448828,2025-07-15
+expenditure,2024-09-19,Ionos,$13.71,Chesterbrook,PA,business,Web Hosting Services,D,448828,2025-07-15
+expenditure,2024-09-23,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448828,2025-07-15
+expenditure,2024-09-23,Truist,$115,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448828,2025-07-15
+expenditure,2024-09-25,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448828,2025-07-15
+expenditure,2024-09-30,Extra Space Storage,$103,Fredericksburg,VA,business,Storage unit,D,448828,2025-07-15
+expenditure,2024-10-03,Hot cards,$259.48,Chagrin Falls,OH,business,Printing,D,448828,2025-07-15
+expenditure,2024-10-10,Paychex,$58,Rochester,NY,business,Paychex payroll service,D,448828,2025-07-15
+expenditure,2024-10-15,Cox Communications,$31.58,Atlanta,GA,business,Internet services,D,448828,2025-07-15
+expenditure,2024-10-15,"Google, Inc.",$1.99,Mountain View,CA,business,Google One,D,448828,2025-07-15
+expenditure,2024-10-15,"Google, Inc.",$55.60,Mountain View,CA,business,Google Voice,D,448828,2025-07-15
+expenditure,2024-10-15,Virginia House Democratic Caucus,"$2,500",Richmond,VA,party,Caucus Dues,D,448828,2025-07-15
+expenditure,2024-10-18,Tyler Begley,$250,Burke,VA,individual,Employee Salary,D,448828,2025-07-15
+expenditure,2024-10-21,Ionos,$13.71,Chesterbrook,PA,business,Website hosting,D,448828,2025-07-15
+expenditure,2024-10-21,Moxy Richmond Downtown,$66.28,Richmond,VA,business,Travel-Hotel,D,448828,2025-07-15
+expenditure,2024-10-21,Truist,$115,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448828,2025-07-15
+expenditure,2024-10-23,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448828,2025-07-15
+expenditure,2024-10-25,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448828,2025-07-15
+expenditure,2024-10-29,Extra Space Storage,$103,Fredericksburg,VA,business,Storage unit,D,448828,2025-07-15
+expenditure,2024-10-29,Truist,$500,Fredericksburg,VA,business,Deposit Error Rectification,D,448828,2025-07-15
+expenditure,2024-11-01,Javontae Mickens,$716.96,Fredericksburg,VA,individual,Staff Salary,D,448828,2025-07-15
+expenditure,2024-11-12,Paychex,$76,Rochester,NY,business,Paychex payroll service,D,448828,2025-07-15
+expenditure,2024-11-14,Cox Communications,$31.58,Atlanta,GA,business,Internet services,D,448828,2025-07-15
+expenditure,2024-11-15,"Google, Inc.",$55.60,Mountain View,CA,business,Google Voice,D,448828,2025-07-15
+expenditure,2024-11-15,Edrick Harris,"$1,200",Essex,MD,individual,Website design,D,448828,2025-07-15
+expenditure,2024-11-18,Fredericksburg NAACP,$257.26,Fredericksburg,VA,business,Event Fee,D,448828,2025-07-15
+expenditure,2024-11-21,"Google, Inc.",$1.99,Mountain View,CA,business,Google One,D,448828,2025-07-15
+expenditure,2024-11-21,Truist,$135,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448828,2025-07-15
+expenditure,2024-11-23,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448828,2025-07-15
+expenditure,2024-11-27,Wizard Pins,$280.10,Boston,MA,business,Campaign Merchandise,D,448828,2025-07-15
+expenditure,2024-12-04,Ionos,$114.21,Chesterbrook,PA,business,Website hosting,D,448828,2025-07-15
+expenditure,2024-12-09,Deluxe,$145.54,El Dorado,AR,business,Office Supplies and Banking,D,448828,2025-07-15
+expenditure,2024-12-10,Paychex,$58,Rochester,NY,business,Paychex payroll service,D,448828,2025-07-15
+expenditure,2024-12-10,Virginia State Legislative Black Caucus,"$1,000",Richmond,VA,business,Caucus dues,D,448828,2025-07-15
+expenditure,2024-12-14,Cox Communications,$31.58,Atlanta,GA,business,Internet services,D,448828,2025-07-15
+expenditure,2024-12-16,"Google, Inc.",$55.60,Mountain View,CA,business,Google Voice,D,448828,2025-07-15
+expenditure,2024-12-19,Ionos,$13.71,Chesterbrook,PA,business,Website hosting,D,448828,2025-07-15
+expenditure,2024-12-20,Eunice Haigler,"$1,500",Fredericksburg,VA,individual,Consultation services,D,448828,2025-07-15
+expenditure,2024-12-23,Canva,$12.99,Austin,TX,business,Canva premium account access,D,448828,2025-07-15
+expenditure,2024-12-23,"Google, Inc.",$1.99,Mountain View,CA,business,Google One,D,448828,2025-07-15
+expenditure,2024-12-23,Truist,$95,Fredericksburg,VA,business,Bank Account Maintenance Fee,D,448828,2025-07-15
+expenditure,2024-12-26,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448828,2025-07-15
+expenditure,2025-01-01,Patrick Healy,"$2,500",Richmond,VA,individual,Finance Contractor,D,448853,2025-07-15
+expenditure,2025-01-03,Act Enough,"$1,500",Fredericksburg,VA,business,Event Expenses,D,448853,2025-07-15
+expenditure,2025-01-03,Pimenta,$413.42,Fredericksburg,VA,business,Food and Venue Expenses,D,448853,2025-07-15
+expenditure,2025-01-07,Actblue Technical Services,$113.80,Somerville,MA,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-01-10,Paychex,$58,Rochester,NY,business,Payroll processing,D,448853,2025-07-15
+expenditure,2025-01-14,"Google, Inc.",$55.63,Mountain View,CA,business,Software,D,448853,2025-07-15
+expenditure,2025-01-17,Patrick Healy,"$2,500",Richmond,VA,individual,Payroll,D,448853,2025-07-15
+expenditure,2025-01-20,Meriwether Godsey,$204,Lynchburg,VA,business,Travel-Meals,D,448853,2025-07-15
+expenditure,2025-01-21,"Google, Inc.",$1.99,Mountain View,CA,business,Software,D,448853,2025-07-15
+expenditure,2025-01-21,Hampton Inn and Suites,$186.04,Richmond,VA,business,Travel - hotel,D,448853,2025-07-15
+expenditure,2025-01-21,Ionos,$13.71,Chesterbrook,PA,business,Software - website hosting,D,448853,2025-07-15
+expenditure,2025-01-21,Truist,$135,Fredericksburg,VA,business,Bank Fees,D,448853,2025-07-15
+expenditure,2025-01-22,Canva,$12.99,Austin,TX,business,Software,D,448853,2025-07-15
+expenditure,2025-01-27,Ionos,$100.50,Chesterbrook,PA,business,Software,D,448853,2025-07-15
+expenditure,2025-01-28,Adobe,$19.99,San Jose,CA,business,Software,D,448853,2025-07-15
+expenditure,2025-02-03,Patrick Healy,"$2,500",Richmond,VA,individual,Payroll,D,448853,2025-07-15
+expenditure,2025-02-10,Paychex,$104,Rochester,NY,business,Paychex payroll software,D,448853,2025-07-15
+expenditure,2025-02-12,Virginia House of Delegates,$499,Richmond,VA,business,House of Delegate Pictures,D,448853,2025-07-15
+expenditure,2025-02-14,"Google, Inc.",$55.63,Mountain View,CA,business,Software,D,448853,2025-07-15
+expenditure,2025-02-14,Pizza Hut,$39.36,Fredericksburg,VA,business,Food for event,D,448853,2025-07-15
+expenditure,2025-02-18,Hampton Inn and Suites,$139.53,Richmond,VA,business,Travel-Hotel,D,448853,2025-07-15
+expenditure,2025-02-19,Ionos,$13.71,Chesterbrook,PA,business,Website hosting,D,448853,2025-07-15
+expenditure,2025-02-21,"Google, Inc.",$1.99,Mountain View,CA,business,Software,D,448853,2025-07-15
+expenditure,2025-02-21,Truist,$55,Fredericksburg,VA,business,Bank Fees,D,448853,2025-07-15
+expenditure,2025-02-24,Canva,$12.99,Austin,TX,business,Software,D,448853,2025-07-15
+expenditure,2025-02-24,Patrick Healy,"$2,500",Richmond,VA,individual,Payroll,D,448853,2025-07-15
+expenditure,2025-02-24,Hot cards,$130.40,Chagrin Falls,OH,business,Printing,D,448853,2025-07-15
+expenditure,2025-02-24,Hot cards,$130.40,Chagrin Falls,OH,business,Printing,D,448853,2025-07-15
+expenditure,2025-02-25,Ionos,$100.50,Chesterbrook,PA,business,Software,D,448853,2025-07-15
+expenditure,2025-02-26,Actblue Technical Services,$2.38,Somerville,MA,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-02-28,Adobe,$19.99,San Jose,CA,business,Software,D,448853,2025-07-15
+expenditure,2025-03-03,Publix,$6.57,Richmond,VA,business,Food for event,D,448853,2025-07-15
+expenditure,2025-03-05,Actblue Technical Services,$48.61,Somerville,MA,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-03-05,United States Postal Service,$0.95,Stafford,VA,business,Postage,D,448853,2025-07-15
+expenditure,2025-03-06,Patrick Healy,"$2,500",Richmond,VA,individual,Payroll,D,448853,2025-07-15
+expenditure,2025-03-10,Panera Bread,$44.92,Fredericksburg,VA,business,Food for event,D,448853,2025-07-15
+expenditure,2025-03-10,Paychex,$58,Rochester,NY,business,Payroll Processing,D,448853,2025-07-15
+expenditure,2025-03-11,Joshua Cole,$362.13,Richmond,VA,individual,Reimbursement for CostCo Food,D,448853,2025-07-15
+expenditure,2025-03-12,Actblue Technical Services,$148.43,Somerville,MA,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-03-14,Donor Atlas,$400,New York,NY,business,Software,D,448853,2025-07-15
+expenditure,2025-03-14,"Google, Inc.",$55.63,Mountain View,CA,business,Software,D,448853,2025-07-15
+expenditure,2025-03-17,Patrick Healy,"$2,500",Richmond,VA,individual,Payroll,D,448853,2025-07-15
+expenditure,2025-03-17,Stafford County,$352.80,Stafford,VA,business,Filing fee,D,448853,2025-07-15
+expenditure,2025-03-19,Actblue Technical Services,$74.11,Somerville,MA,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-03-19,Ionos,$20.62,Chesterbrook,PA,business,Website hosting,D,448853,2025-07-15
+expenditure,2025-03-20,"Democracy Engine, LLC","$1,415.19",Washington,DC,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-03-21,"Google, Inc.",$1.99,Mountain View,CA,business,Software,D,448853,2025-07-15
+expenditure,2025-03-21,Truist,$35,Fredericksburg,VA,business,Bank Fees,D,448853,2025-07-15
+expenditure,2025-03-24,Canva,$12.99,Austin,TX,business,Software,D,448853,2025-07-15
+expenditure,2025-03-24,McDonalds,$19.61,Dale City,VA,business,Food for Staff,D,448853,2025-07-15
+expenditure,2025-03-25,Ionos,$100.50,Chesterbrook,PA,business,Software,D,448853,2025-07-15
+expenditure,2025-03-26,Actblue Technical Services,$19.03,Somerville,MA,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-03-26,"Democracy Engine, LLC",$162.60,Washington,DC,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-03-28,Adobe,$19.99,San Jose,CA,business,Software,D,448853,2025-07-15
+expenditure,2025-03-31,Actblue Technical Services,$236.30,Somerville,MA,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-03-31,"Democracy Engine, LLC",$48.47,Washington,DC,business,Processing Fee,D,448853,2025-07-15
+expenditure,2025-03-31,Office Depot #430,$35,Fredericksburg,VA,business,Printing,D,448853,2025-07-15
+expenditure,2025-04-01,Paychex,"$1,981.03",Rochester,NY,business,Payroll,D,448856,2025-07-15
+expenditure,2025-04-01,Paychex,$727.72,Rochester,NY,business,Payroll,D,448856,2025-07-15
+expenditure,2025-04-01,Virginia House Democratic Caucus,"$7,500",Richmond,VA,party,Caucus Dues,D,448856,2025-07-15
+expenditure,2025-04-02,"Democracy Engine, LLC",$0.13,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-04-02,Paychex,$140.10,Rochester,NY,business,Paychex payroll software,D,448856,2025-07-15
+expenditure,2025-04-07,Actblue Technical Services,$23.64,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-04-09,"Democracy Engine, LLC",$2.08,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-04-09,Virginia Department of Elections,"$1,000",Richmond,VA,business,Late Filing Fee,D,448856,2025-07-15
+expenditure,2025-04-09,Virginia Department of Elections,$100,Richmond,VA,business,Late Filing Fee,D,448856,2025-07-15
+expenditure,2025-04-10,Commonwealth Victory Fund,"$1,428",Richmond,VA,business,Event Expenses,D,448856,2025-07-15
+expenditure,2025-04-10,Democratic Party of Virginia,$942.63,Richmond,VA,party,Campaign Software,D,448856,2025-07-15
+expenditure,2025-04-10,Grassroots Analytics,$250,Washington,DC,business,Financial consultants,D,448856,2025-07-15
+expenditure,2025-04-10,Paychex,$58,Rochester,NY,business,Payroll Processing,D,448856,2025-07-15
+expenditure,2025-04-14,Actblue Technical Services,$219.49,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-04-14,"Google, Inc.",$55.66,Mountain View,CA,business,Software,D,448856,2025-07-15
+expenditure,2025-04-14,Paychex,"$2,318.51",Rochester,NY,business,Payroll execution,D,448856,2025-07-15
+expenditure,2025-04-14,Paychex,$931.99,Rochester,NY,business,Payroll execution,D,448856,2025-07-15
+expenditure,2025-04-15,Paychex,$88.10,Rochester,NY,business,Payroll Fees,D,448856,2025-07-15
+expenditure,2025-04-21,Actblue Technical Services,$197.26,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-04-21,Canva,$12.99,Austin,TX,business,Software,D,448856,2025-07-15
+expenditure,2025-04-21,"Google, Inc.",$1.99,Mountain View,CA,business,Software,D,448856,2025-07-15
+expenditure,2025-04-21,Ionos,$20.62,Chesterbrook,PA,business,Website hosting,D,448856,2025-07-15
+expenditure,2025-04-21,Truist,$115,Fredericksburg,VA,business,Bank Fees,D,448856,2025-07-15
+expenditure,2025-04-23,"Democracy Engine, LLC",$2.51,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-04-23,Virginia House Democratic Caucus,"$3,250",Richmond,VA,party,April BLC Manager Salary,D,448856,2025-07-15
+expenditure,2025-04-23,Virginia State Legislative Black Caucus,$500,Richmond,VA,business,Caucus Dues,D,448856,2025-07-15
+expenditure,2025-04-24,Truist,$50,Fredericksburg,VA,business,Deposit correction,D,448856,2025-07-15
+expenditure,2025-04-25,Ionos,$100.50,Chesterbrook,PA,business,Web Hosting,D,448856,2025-07-15
+expenditure,2025-04-27,Actblue Technical Services,$260.47,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-04-28,Adobe,$19.99,San Jose,CA,business,Software,D,448856,2025-07-15
+expenditure,2025-04-28,Kingdom Family Worship Center,"$1,000",Fredericksburg,VA,business,Venue Rental,D,448856,2025-07-15
+expenditure,2025-04-28,Staples,$89.49,Woodbridge,VA,business,Event Expenses,D,448856,2025-07-15
+expenditure,2025-04-28,Staples,$47.22,Woodbridge,VA,business,Event Expenses,D,448856,2025-07-15
+expenditure,2025-04-29,Staples,$35.79,Woodbridge,VA,business,Event Expenses,D,448856,2025-07-15
+expenditure,2025-04-29,Staples,$6.19,Woodbridge,VA,business,Event Expenses,D,448856,2025-07-15
+expenditure,2025-04-30,"Democracy Engine, LLC",$3.18,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-04-30,"Democracy Engine, LLC",$18.96,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-04-30,Paychex,$814.87,Rochester,NY,business,Payroll,D,448856,2025-07-15
+expenditure,2025-04-30,Paychex,"$2,157.01",Rochester,NY,business,Payroll,D,448856,2025-07-15
+expenditure,2025-04-30,Pressable,$45,San Antonio,TX,business,Web Hosting,D,448856,2025-07-15
+expenditure,2025-05-01,Tyler Begley,$200,Burke,VA,individual,Event Expenses,D,448856,2025-07-15
+expenditure,2025-05-01,Paychex,$70.10,Rochester,NY,business,Payroll Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-01,Quikpark Inc.,$28,Washington,DC,business,Travel,D,448856,2025-07-15
+expenditure,2025-05-02,Virginia House Democratic Caucus,"$3,250",Richmond,VA,party,Campaign Manager Salary,D,448856,2025-07-15
+expenditure,2025-05-02,Virginia State Legislative Black Caucus,"$1,000",Richmond,VA,business,Caucus Dues,D,448856,2025-07-15
+expenditure,2025-05-04,Actblue Technical Services,$389.94,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-07,"Democracy Engine, LLC",$7.65,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-08,"EveryAction, Inc.","$5,026.19",Washington,DC,business,Database Software,D,448856,2025-07-15
+expenditure,2025-05-09,Virginia Blue Star Printing,$658.51,Fairlawn,VA,business,Yard Signs,D,448856,2025-07-15
+expenditure,2025-05-11,Actblue Technical Services,$321.41,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-12,Actblue Technical Services,$243.04,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-12,Optimize Services LLC,"$1,200",Boston,MA,business,HR and Compliance Services,D,448856,2025-07-15
+expenditure,2025-05-13,"Google, Inc.",$54.25,Mountain View,CA,business,Software,D,448856,2025-07-15
+expenditure,2025-05-14,"Democracy Engine, LLC",$31.88,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-14,Patrick Healy,"$2,157.02",Richmond,VA,individual,Employee Salary,D,448856,2025-07-15
+expenditure,2025-05-14,Paychex,$803.36,Rochester,NY,business,Payroll Processing,D,448856,2025-07-15
+expenditure,2025-05-15,Actblue Technical Services,$220.93,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-15,Paychex,$75.71,Rochester,NY,business,Payroll Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-19,Ionos,$21.62,Chesterbrook,PA,business,Website hosting,D,448856,2025-07-15
+expenditure,2025-05-19,Publix,$2.10,Richmond,VA,business,Office Supplies,D,448856,2025-07-15
+expenditure,2025-05-21,Bergman Zwerdling Direct,"$1,421.25",Chevy Chase,MD,business,Literature Printing,D,448856,2025-07-15
+expenditure,2025-05-21,Bergmann Zwerdling Direct,"$1,421.25",Chevy Chase,MD,business,Mailing,D,448856,2025-07-15
+expenditure,2025-05-21,"Democracy Engine, LLC",$7.15,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-21,"Google, Inc.",$1.99,Mountain View,CA,business,Gsuite,D,448856,2025-07-15
+expenditure,2025-05-21,Truist,$243,Fredericksburg,VA,business,Bank Fees,D,448856,2025-07-15
+expenditure,2025-05-22,Actblue Technical Services,$211.99,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-22,Canva,$12.99,Austin,TX,business,Graphic Design Software,D,448856,2025-07-15
+expenditure,2025-05-22,Grassroots Analytics,$500,Washington,DC,business,Financial consultants,D,448856,2025-07-15
+expenditure,2025-05-27,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448856,2025-07-15
+expenditure,2025-05-27,Staples,$0.80,Woodbridge,VA,business,Printing,D,448856,2025-07-15
+expenditure,2025-05-27,Staples,$0.29,Woodbridge,VA,business,Printing,D,448856,2025-07-15
+expenditure,2025-05-27,Staples,$41.06,Woodbridge,VA,business,Office Supplies,D,448856,2025-07-15
+expenditure,2025-05-28,Adobe,$19.99,San Jose,CA,business,Software,D,448856,2025-07-15
+expenditure,2025-05-28,"Democracy Engine, LLC",$2.27,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-28,"Democracy Engine, LLC",$2.70,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-29,Actblue Technical Services,$202.43,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-05-29,Paychex,"$2,157.01",Rochester,NY,business,Payroll Processing,D,448856,2025-07-15
+expenditure,2025-05-29,Paychex,$803.37,Rochester,NY,business,Payroll Processing,D,448856,2025-07-15
+expenditure,2025-05-30,Paychex,$75.71,Rochester,NY,business,Payroll Processing,D,448856,2025-07-15
+expenditure,2025-05-30,Pressable,$45,San Antonio,TX,business,Web Hosting,D,448856,2025-07-15
+expenditure,2025-05-30,Virginia Blue Star Printing,$82.13,Fairlawn,VA,business,Field Merchandise and Apparel,D,448856,2025-07-15
+expenditure,2025-06-02,Virginia House Democratic Caucus,"$3,250",Richmond,VA,party,Campaign Manager Salary,D,448856,2025-07-15
+expenditure,2025-06-04,Actblue Technical Services,$268.41,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-06-04,Campaign Verify,$95,Washington,DC,business,Campaign Verification Access Token,D,448856,2025-07-15
+expenditure,2025-06-04,"Democracy Engine, LLC",$199.15,Washington,DC,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-06-05,Actblue Technical Services,$41.05,Somerville,MA,business,Processing Fee,D,448856,2025-07-15
+expenditure,2025-06-05,"EveryAction, Inc.",$428.19,Washington,DC,business,Database Software,D,448856,2025-07-15
+expenditure,2025-06-09,Actblue Technical Services,$387.66,Somerville,MA,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-11,"Democracy Engine, LLC",$5.27,Washington,DC,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-12,Target,$6.30,Woodbridge,VA,business,Office Supplies,D,448899,2025-07-15
+expenditure,2025-06-13,Paychex,"$2,157.02",Rochester,NY,business,Payroll Processing,D,448899,2025-07-15
+expenditure,2025-06-13,Paychex,$803.36,Rochester,NY,business,Payroll Processing,D,448899,2025-07-15
+expenditure,2025-06-13,Staples,$24.01,Woodbridge,VA,business,Printing fees,D,448899,2025-07-15
+expenditure,2025-06-16,Actblue Technical Services,$156.35,Somerville,MA,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-16,"Google, Inc.",$54.25,Mountain View,CA,business,Gsuite,D,448899,2025-07-15
+expenditure,2025-06-16,Grassroots Analytics,$500,Washington,DC,business,Financial consultants,D,448899,2025-07-15
+expenditure,2025-06-16,Paychex,$150.71,Rochester,NY,business,Payroll Fees,D,448899,2025-07-15
+expenditure,2025-06-18,"Democracy Engine, LLC",$5.58,Washington,DC,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-18,"Democracy Engine, LLC",$2.71,Washington,DC,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-20,Ionos,$21.62,Chesterbrook,PA,business,Website hosting,D,448899,2025-07-15
+expenditure,2025-06-23,Actblue Technical Services,$53.28,Somerville,MA,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-23,Canva,$12.99,Austin,TX,business,Graphic Design Software,D,448899,2025-07-15
+expenditure,2025-06-23,"Google, Inc.",$1.99,Mountain View,CA,business,Gsuite,D,448899,2025-07-15
+expenditure,2025-06-23,Truist,$155,Fredericksburg,VA,business,Bank Fees,D,448899,2025-07-15
+expenditure,2025-06-24,Ionos,$100.50,Chesterbrook,PA,business,Website hosting,D,448899,2025-07-15
+expenditure,2025-06-25,"Democracy Engine, LLC",$1.35,Washington,DC,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-25,"Democracy Engine, LLC",$15.10,Washington,DC,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-25,"Democracy Engine, LLC",$200,Washington,DC,business,Service Fee,D,448899,2025-07-15
+expenditure,2025-06-27,Adobe,$19.99,San Jose,CA,business,Software,D,448899,2025-07-15
+expenditure,2025-06-29,Pressable,$45,San Antonio,TX,business,Web Hosting,D,448899,2025-07-15
+expenditure,2025-06-30,Actblue Technical Services,$57.34,Somerville,MA,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-30,"Democracy Engine, LLC",$1.38,Washington,DC,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-30,"Democracy Engine, LLC",$133.18,Washington,DC,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-30,"Democracy Engine, LLC",$9.26,Washington,DC,business,Processing Fee,D,448899,2025-07-15
+expenditure,2025-06-30,Krystyna Kobrosky,$200,New York,NY,individual,Contribution Refund,D,448899,2025-07-15
+expenditure,2025-06-30,Paychex,$802.77,Rochester,NY,business,Employee salary,D,448899,2025-07-15
+expenditure,2025-06-30,Paychex,"$2,157.61",Rochester,NY,business,Employee salary,D,448899,2025-07-15
+expenditure,2025-07-01,Optimize Services LLC,"$1,200",Boston,MA,business,Operations Consulting,D,454474,2025-09-15
+expenditure,2025-07-01,Paychex,$75.71,Rochester,NY,business,Payroll Processing,D,454474,2025-09-15
+expenditure,2025-07-02,Virginia House Democratic Caucus,"$3,250",Richmond,VA,party,Campaign Manager Salary,D,454474,2025-09-15
+expenditure,2025-07-07,Actblue Technical Services,$116.49,Somerville,MA,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-07,"EveryAction, Inc.",$428.20,Washington,DC,business,Database Software,D,454474,2025-09-15
+expenditure,2025-07-08,Virginia Blue Star Printing,$281.55,Fairlawn,VA,business,Yard Signs,D,454474,2025-09-15
+expenditure,2025-07-09,"Democracy Engine, LLC",$4.06,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-09,"Democracy Engine, LLC",$79.90,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-09,"Democracy Engine, LLC",$11.28,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-09,Super.com,$635.54,San Francisco,CA,business,Hotel,D,454474,2025-09-15
+expenditure,2025-07-11,Walmart,$130.29,Fredericksburg,VA,business,Office Chairs and Tables,D,454474,2025-09-15
+expenditure,2025-07-14,"Google, Inc.",$54.21,Mountain View,CA,business,Gsuite,D,454474,2025-09-15
+expenditure,2025-07-14,KeyMe Locksmiths,$35.73,Hebron,KY,business,Copies of Office Keys,D,454474,2025-09-15
+expenditure,2025-07-14,Tatte Bakery,$167.20,Cambridge,MA,business,Campaign Retreat Food,D,454474,2025-09-15
+expenditure,2025-07-15,Actblue Technical Services,$83.95,Somerville,MA,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-16,Cox Communications,$356.96,Atlanta,GA,business,Internal service payment,D,454474,2025-09-15
+expenditure,2025-07-16,"Democracy Engine, LLC",$34.25,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-16,"Democracy Engine, LLC",$150.42,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-16,Grassroots Analytics,$500,Washington,DC,business,Financial consultants,D,454474,2025-09-15
+expenditure,2025-07-16,Paychex,"$4,054.51",Rochester,NY,business,Paycheck processing,D,454474,2025-09-15
+expenditure,2025-07-16,Paychex,"$1,285.63",Rochester,NY,business,Payroll Processing,D,454474,2025-09-15
+expenditure,2025-07-17,Actblue Technical Services,$271.79,Somerville,MA,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-17,Costco,$144.62,Fredericksburg,VA,business,Office Supplies,D,454474,2025-09-15
+expenditure,2025-07-17,Paychex,$187.38,Rochester,NY,business,Payroll,D,454474,2025-09-15
+expenditure,2025-07-18,Franklin Court,$18,Washington,DC,business,Travel Parking,D,454474,2025-09-15
+expenditure,2025-07-18,Staples 0010,$87.61,Fredericksburg,VA,business,Office supplies,D,454474,2025-09-15
+expenditure,2025-07-21,Ionos,$247.38,Chesterbrook,PA,business,Website hosting,D,454474,2025-09-15
+expenditure,2025-07-21,Staples 0010,$22.37,Fredericksburg,VA,business,Office Supplies,D,454474,2025-09-15
+expenditure,2025-07-21,Truist,$135,Fredericksburg,VA,business,Bank Fees,D,454474,2025-09-15
+expenditure,2025-07-22,Canva,$12.99,Austin,TX,business,Graphic Design Software,D,454474,2025-09-15
+expenditure,2025-07-22,"Google, Inc.",$1.99,Mountain View,CA,business,Software,D,454474,2025-09-15
+expenditure,2025-07-22,Hampton Inn and Suites,$46.52,Richmond,VA,business,Travel - Hotel,D,454474,2025-09-15
+expenditure,2025-07-22,Virginia Blue Star Printing,$157.95,Fairlawn,VA,business,Printing,D,454474,2025-09-15
+expenditure,2025-07-22,Virginia Blue Star Printing,$191.21,Fairlawn,VA,business,Printing,D,454474,2025-09-15
+expenditure,2025-07-23,"Democracy Engine, LLC",$22.43,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-23,"Democracy Engine, LLC",$116.07,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-23,"Democracy Engine, LLC",$2.06,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-23,Dollar Tree,$33.22,Fredericksburg,VA,business,Office Supplies,D,454474,2025-09-15
+expenditure,2025-07-24,Actblue Technical Services,$66.94,Somerville,MA,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-24,Hampton Inn and Suites,$49.51,Richmond,VA,business,Travel-Hotel,D,454474,2025-09-15
+expenditure,2025-07-25,Ionos,$120,Chesterbrook,PA,business,Website hosting,D,454474,2025-09-15
+expenditure,2025-07-25,Walmart,$147.55,Fredericksburg,VA,business,Office Supplies,D,454474,2025-09-15
+expenditure,2025-07-28,Adobe,$19.99,San Jose,CA,business,Software,D,454474,2025-09-15
+expenditure,2025-07-28,AmTrust Financial,$500,Cleveland,OH,business,Workers Compensation Insurance,D,454474,2025-09-15
+expenditure,2025-07-28,Staples 0010,$69.92,Fredericksburg,VA,business,Office Supplies,D,454474,2025-09-15
+expenditure,2025-07-28,WM SuperCenter,$53.41,Fredericksburg,VA,business,Office Furnishing,D,454474,2025-09-15
+expenditure,2025-07-30,"Democracy Engine, LLC",$98.83,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-30,"Democracy Engine, LLC",$11.30,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-30,"Democracy Engine, LLC",$1.38,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-30,Pressable,$45,San Antonio,TX,business,Web Hosting,D,454474,2025-09-15
+expenditure,2025-07-30,Jonathan Russell,$13.75,Cary,NC,individual,Refund of Contribution,D,454474,2025-09-15
+expenditure,2025-07-31,Actblue Technical Services,$183.74,Somerville,MA,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-07-31,Paychex,"$1,994.61",Rochester,NY,business,Payroll Taxes,D,454474,2025-09-15
+expenditure,2025-07-31,Paychex,"$5,493.05",Rochester,NY,business,Payroll,D,454474,2025-09-15
+expenditure,2025-08-01,Paychex,$89.88,Rochester,NY,business,Payroll Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-01,Staples 0010,$6.12,Fredericksburg,VA,business,Office Supplies,D,454474,2025-09-15
+expenditure,2025-08-04,Staples 0010,$4.42,Fredericksburg,VA,business,Office Supplies,D,454474,2025-09-15
+expenditure,2025-08-06,"Democracy Engine, LLC",$1.02,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-06,"Democracy Engine, LLC",$12.25,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-06,Virginia House Democratic Caucus,"$3,250",Richmond,VA,party,Campaign Manager Salary,D,454474,2025-09-15
+expenditure,2025-08-07,Actblue Technical Services,$47.06,Somerville,MA,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-11,"EveryAction, Inc.",$428.20,Washington,DC,business,Database Software,D,454474,2025-09-15
+expenditure,2025-08-11,Optimize Services LLC,"$1,200",Boston,MA,business,Operations Consulting,D,454474,2025-09-15
+expenditure,2025-08-11,Virginia Blue Star Printing,"$1,316.91",Fairlawn,VA,business,Printing,D,454474,2025-09-15
+expenditure,2025-08-12,Dover Strategy Group Inc.,"$4,602.50",Chicago,IL,business,Digital Advertising,D,454474,2025-09-15
+expenditure,2025-08-12,United States Postal Service,$27,Stafford,VA,business,USPS Late Fee,D,454474,2025-09-15
+expenditure,2025-08-12,Valkyrie,"$4,600.55",Albany,NY,business,Media Shoot,D,454474,2025-09-15
+expenditure,2025-08-13,"Democracy Engine, LLC",$4.96,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-13,"Democracy Engine, LLC",$0.97,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-13,Patrick Healy,$50,Washington,DC,individual,Travel Reimbursement,D,454474,2025-09-15
+expenditure,2025-08-14,Actblue Technical Services,$136.69,Somerville,MA,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-14,"Google, Inc.",$54.24,Mountain View,CA,business,GSuite,D,454474,2025-09-15
+expenditure,2025-08-14,Paychex,"$1,992.28",Rochester,NY,business,Payroll Taxes,D,454474,2025-09-15
+expenditure,2025-08-14,Paychex,"$5,493.06",Rochester,NY,business,Payroll,D,454474,2025-09-15
+expenditure,2025-08-15,Paychex,$87.38,Rochester,NY,business,Payroll Processing,D,454474,2025-09-15
+expenditure,2025-08-15,United States Postal Service,$234,Stafford,VA,business,PO Box Fees,D,454474,2025-09-15
+expenditure,2025-08-18,Jessica Barloga,$50,Minneapolis,MN,individual,Gas Reimbursement,D,454474,2025-09-15
+expenditure,2025-08-18,Dover Strategy Group Inc.,"$2,963",Chicago,IL,business,Digital Advertising,D,454474,2025-09-15
+expenditure,2025-08-19,Cox Communications,$158.96,Atlanta,GA,business,Internet Service Payment,D,454474,2025-09-15
+expenditure,2025-08-19,Ryan D'Angelo,$36.17,Odenton,MD,individual,Reimbursement: Office Supplies,D,454474,2025-09-15
+expenditure,2025-08-19,Ionos,$21.62,Chesterbrook,PA,business,Website hosting,D,454474,2025-09-15
+expenditure,2025-08-19,Staples 0010,$47.14,Fredericksburg,VA,business,Office Supplies,D,454474,2025-09-15
+expenditure,2025-08-19,United States Postal Service,$234,Stafford,VA,business,Postage/Stamps,D,454474,2025-09-15
+expenditure,2025-08-20,Ryan D'Angelo,$38.95,Odenton,MD,individual,Supplies,D,454474,2025-09-15
+expenditure,2025-08-20,"Democracy Engine, LLC",$17.60,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-20,Virginia House Democratic Caucus,"$15,700",Richmond,VA,party,Mail,D,454474,2025-09-15
+expenditure,2025-08-21,Actblue Technical Services,$99.64,Somerville,MA,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-21,GMMB,"$30,350",Washington,DC,business,Television Ad Buy,D,454474,2025-09-15
+expenditure,2025-08-21,Ximena Nieves,$50,Fredericksburg,VA,individual,Reimbursement Gas,D,454474,2025-09-15
+expenditure,2025-08-21,Truist,$135,Fredericksburg,VA,business,Bank Fees,D,454474,2025-09-15
+expenditure,2025-08-22,Canva,$12.99,Austin,TX,business,Graphic Design Software,D,454474,2025-09-15
+expenditure,2025-08-22,DK Strategies,"$38,540.74",Austin,TX,business,Media Wire,D,454474,2025-09-15
+expenditure,2025-08-22,Dover Strategy Group Inc.,"$17,100",Chicago,IL,business,Direct Mail,D,454474,2025-09-15
+expenditure,2025-08-25,Dover Strategy Group Inc.,"$11,045",Chicago,IL,business,Digital Advertising,D,454474,2025-09-15
+expenditure,2025-08-26,GMMB,"$18,830",Washington,DC,business,Television Ad Buy,D,454474,2025-09-15
+expenditure,2025-08-26,Grassroots Analytics,"$1,000",Washington,DC,business,Financial consultants,D,454474,2025-09-15
+expenditure,2025-08-26,Staples 0010,$147.41,Fredericksburg,VA,business,Office Supplies,D,454474,2025-09-15
+expenditure,2025-08-27,Actblue Technical Services,$266.76,Somerville,MA,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-27,"Democracy Engine, LLC",$1.01,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-27,"Democracy Engine, LLC",$25.92,Washington,DC,business,Processing Fee,D,454474,2025-09-15
+expenditure,2025-08-27,Virginia House Democratic Caucus,"$16,300",Richmond,VA,party,Mail,D,454474,2025-09-15
+expenditure,2025-08-28,Adobe,$19.99,San Jose,CA,business,Software,D,454474,2025-09-15
+expenditure,2025-08-28,Paychex,"$5,600.77",Rochester,NY,business,Payroll,D,454474,2025-09-15
+expenditure,2025-08-28,Paychex,"$1,996.52",Rochester,NY,business,Payroll taxes,D,454474,2025-09-15
+expenditure,2025-08-29,Jessica Barloga,$159.99,Minneapolis,MN,individual,Mileage reimbursement,D,454474,2025-09-15
+expenditure,2025-08-29,Paychex,$87.38,Rochester,NY,business,Payroll Processing,D,454474,2025-09-15
+expenditure,2025-09-02,Actblue Technical Services,$233.67,Somerville,MA,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-02,Dover Strategy Group Inc.,"$10,445",Chicago,IL,business,Digital Advertising,D,465868,2025-10-27
+expenditure,2025-09-02,Pressable,$45,San Antonio,TX,business,Web Hosting,D,465868,2025-10-27
+expenditure,2025-09-02,Staples 0010,$17.10,Fredericksburg,VA,business,Office Supplies,D,465868,2025-10-27
+expenditure,2025-09-02,Virginia House Democratic Caucus,"$3,250",Richmond,VA,party,Campaign Manger salary,D,465868,2025-10-27
+expenditure,2025-09-02,Walmart,$56.13,Fredericksburg,VA,business,Office Supplies,D,465868,2025-10-27
+expenditure,2025-09-03,"Democracy Engine, LLC",$6.76,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-03,GMMB,"$18,830",Washington,DC,business,TV Fees,D,465868,2025-10-27
+expenditure,2025-09-04,Jessica Barloga,$50,Fredericksburg,VA,individual,Gas Travel,D,465868,2025-10-27
+expenditure,2025-09-04,Optimize Services LLC,"$1,200",Boston,MA,business,Operations Consulting,D,465868,2025-10-27
+expenditure,2025-09-04,Virginia House Democratic Caucus,"$16,100",Richmond,VA,party,Contribution,D,465868,2025-10-27
+expenditure,2025-09-05,Bergmann Zwerdling Direct,$450.84,Chevy Chase,MD,business,Mailing,D,465868,2025-10-27
+expenditure,2025-09-05,Sunny Day Strategies,"$1,806.45",Washington,DC,business,Digital Strategy,D,465868,2025-10-27
+expenditure,2025-09-05,Virginia House Democratic Caucus,"$15,600",Richmond,VA,party,Contribution,D,465868,2025-10-27
+expenditure,2025-09-07,Actblue Technical Services,$118.40,Somerville,MA,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-08,Dover Strategy Group Inc.,"$10,445",Chicago,IL,business,Mail Wire,D,465868,2025-10-27
+expenditure,2025-09-08,Ionos,$120,Chesterbrook,PA,business,Website hosting,D,465868,2025-10-27
+expenditure,2025-09-08,Ximena Nieves,$50,Fredericksburg,VA,individual,Gas-Travel,D,465868,2025-10-27
+expenditure,2025-09-08,State Farm Insurance,$38.12,Bloomington,IL,business,Office Insurance,D,465868,2025-10-27
+expenditure,2025-09-08,Virginia Blue Star Printing,$308.32,Fairlawn,VA,business,Printing,D,465868,2025-10-27
+expenditure,2025-09-09,DK Strategies,"$7,400",Austin,TX,business,Media Wire,D,465868,2025-10-27
+expenditure,2025-09-09,Virginia Blue Star Printing,$938.57,Fairlawn,VA,business,Printing,D,465868,2025-10-27
+expenditure,2025-09-10,"Democracy Engine, LLC",$78.37,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-10,GMMB,"$22,286",Washington,DC,business,Television Wire,D,465868,2025-10-27
+expenditure,2025-09-11,Actblue Technical Services,$209.54,Somerville,MA,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-12,Paychex,"$1,863.99",Rochester,NY,business,Payroll Taxes,D,465868,2025-10-27
+expenditure,2025-09-12,Paychex,"$4,887.56",Rochester,NY,business,Payroll,D,465868,2025-10-27
+expenditure,2025-09-15,Joshua Cole,$18,Richmond,VA,individual,Parking reimbursement,D,465868,2025-10-27
+expenditure,2025-09-15,Joshua Cole,$10.40,Richmond,VA,individual,Office supply reimbursement,D,465868,2025-10-27
+expenditure,2025-09-15,Dover Strategy Group Inc.,"$22,274",Chicago,IL,business,Consultation Fees,D,465868,2025-10-27
+expenditure,2025-09-15,"Google, Inc.",$54.24,Mountain View,CA,business,GSuite,D,465868,2025-10-27
+expenditure,2025-09-15,Paychex,$83.49,Rochester,NY,business,Payroll Processing,D,465868,2025-10-27
+expenditure,2025-09-15,Virginia Blue Star Printing,$429.62,Fairlawn,VA,business,Printing,D,465868,2025-10-27
+expenditure,2025-09-16,Cox Communications,$394.13,Atlanta,GA,business,Internet Service Payment,D,465868,2025-10-27
+expenditure,2025-09-17,Actblue Technical Services,$225.70,Somerville,MA,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-17,"Democracy Engine, LLC",$74.87,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-17,GMMB,"$22,286",Washington,DC,business,Television Wire,D,465868,2025-10-27
+expenditure,2025-09-17,Virginia Blue Star Printing,$527.55,Fairlawn,VA,business,Printing,D,465868,2025-10-27
+expenditure,2025-09-17,Virginia Blue Star Printing,"$1,495.52",Fairlawn,VA,business,Printing,D,465868,2025-10-27
+expenditure,2025-09-17,Virginia House Democratic Caucus,"$16,100",Richmond,VA,party,Contribution,D,465868,2025-10-27
+expenditure,2025-09-18,Virginia House Democratic Caucus,"$63,400",Richmond,VA,party,Contribution,D,465868,2025-10-27
+expenditure,2025-09-19,Ionos,$21.62,Chesterbrook,PA,business,Website hosting,D,465868,2025-10-27
+expenditure,2025-09-22,Bergmann Zwerdling Direct,"$1,292.50",Chevy Chase,MD,business,Mailing,D,465868,2025-10-27
+expenditure,2025-09-22,Canva,$12.99,Austin,TX,business,Graphic Design Software,D,465868,2025-10-27
+expenditure,2025-09-22,Truist,$335,Fredericksburg,VA,business,Bank Fees,D,465868,2025-10-27
+expenditure,2025-09-23,Actblue Technical Services,$266.18,Somerville,MA,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-23,WM SuperCenter,$57.47,Fredericksburg,VA,business,Office Supplies,D,465868,2025-10-27
+expenditure,2025-09-24,"Democracy Engine, LLC",$0.46,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-24,"Democracy Engine, LLC",$103.50,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-24,Dover Strategy Group Inc.,"$20,074",Chicago,IL,business,Digital Advertising,D,465868,2025-10-27
+expenditure,2025-09-24,Wegmans,$20.71,Fredericksburg,VA,business,Office Supplies,D,465868,2025-10-27
+expenditure,2025-09-25,GMMB,"$18,830",Washington,DC,business,TV,D,465868,2025-10-27
+expenditure,2025-09-25,Ionos,$120,Chesterbrook,PA,business,Website hosting,D,465868,2025-10-27
+expenditure,2025-09-26,Christian Youth Theater Fredericksburg,$150,Fredericksburg,VA,business,Sponsorship,D,465868,2025-10-27
+expenditure,2025-09-29,Actblue Technical Services,$248.24,Somerville,MA,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-29,Adobe,$19.99,San Jose,CA,business,Software,D,465868,2025-10-27
+expenditure,2025-09-29,Dover Strategy Group Inc.,"$14,388",Chicago,IL,business,Consultation Fees,D,465868,2025-10-27
+expenditure,2025-09-29,Paychex,"$1,863.98",Rochester,NY,business,Payroll Taxes,D,465868,2025-10-27
+expenditure,2025-09-29,Paychex,"$4,887.57",Rochester,NY,business,Payroll,D,465868,2025-10-27
+expenditure,2025-09-30,Actblue Technical Services,$113.34,Somerville,MA,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-30,"Democracy Engine, LLC",$3.98,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-30,"Democracy Engine, LLC",$83.96,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-30,"Democracy Engine, LLC",$2.05,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-30,"Democracy Engine, LLC",$20.19,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-30,"Democracy Engine, LLC",$140.07,Washington,DC,business,Processing Fee,D,465868,2025-10-27
+expenditure,2025-09-30,Paychex,$83.49,Rochester,NY,business,Payroll Processing,D,465868,2025-10-27
+expenditure,2025-09-30,Pressable,$45,San Antonio,TX,business,Web Hosting,D,465868,2025-10-27
+expenditure,2025-09-30,Imran Rassiwalla,"$1,000",Glen Allen,VA,individual,Internship Payment,D,465868,2025-10-27
+expenditure,2025-10-01,FTD,$81.06,Downers Grove,IL,business,Event Expenses,D,465870,2025-10-27
+expenditure,2025-10-01,GMMB,"$26,030",Washington,DC,business,TV,D,465870,2025-10-27
+expenditure,2025-10-01,Virginia House Democratic Caucus,"$14,700",Richmond,VA,party,Contribution,D,465870,2025-10-27
+expenditure,2025-10-02,Jessica Barloga,$50,Fredericksburg,VA,individual,Travel,D,465870,2025-10-27
+expenditure,2025-10-02,Virginia House Democratic Caucus,"$6,500",Richmond,VA,party,Campaign Manager Salary,D,465870,2025-10-27
+expenditure,2025-10-03,Dover Strategy Group Inc.,"$21,495",Chicago,IL,business,Digital Advertising,D,465870,2025-10-27
+expenditure,2025-10-03,"EveryAction, Inc.",$856.40,Washington,DC,business,Database Software,D,465870,2025-10-27
+expenditure,2025-10-03,WM SuperCenter,$21.06,Fredericksburg,VA,business,Office Expenses,D,465870,2025-10-27
+expenditure,2025-10-06,McDonalds,$14.49,Dale City,VA,business,Staff Meal Expenses,D,465870,2025-10-27
+expenditure,2025-10-06,Silver Diner,$196.50,Fredericksburg,VA,business,Staff Meal Expenses,D,465870,2025-10-27
+expenditure,2025-10-07,Actblue Technical Services,$164.66,Somerville,MA,business,Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-07,Domino's,$58.82,Fredericksburg,VA,business,Staff Meal - Hiring,D,465870,2025-10-27
+expenditure,2025-10-07,Optimize Services LLC,"$1,200",Boston,MA,business,Operations Consulting,D,465870,2025-10-27
+expenditure,2025-10-07,Sunny Day Strategies,"$1,000",Washington,DC,business,Digital Strategy,D,465870,2025-10-27
+expenditure,2025-10-08,"Democracy Engine, LLC",$266.51,Washington,DC,business,Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-09,GMMB,"$26,030",Washington,DC,business,TV,D,465870,2025-10-27
+expenditure,2025-10-09,Virginia House Democratic Caucus,"$14,700",Richmond,VA,party,Contribution,D,465870,2025-10-27
+expenditure,2025-10-10,Dover Strategy Group Inc.,"$17,095",Chicago,IL,business,Digital Advertising,D,465870,2025-10-27
+expenditure,2025-10-10,Optimize Services LLC,"$1,200",Boston,MA,business,Operations Consulting,D,465870,2025-10-27
+expenditure,2025-10-10,Optimize Services LLC,"$1,200",Boston,MA,business,Operations Consulting,D,465870,2025-10-27
+expenditure,2025-10-14,Actblue Technical Services,$622.38,Somerville,MA,business,Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-14,"Google, Inc.",$81.43,Mountain View,CA,business,GSuite,D,465870,2025-10-27
+expenditure,2025-10-14,Paychex,"$1,881",Rochester,NY,business,Payroll Taxes,D,465870,2025-10-27
+expenditure,2025-10-14,Paychex,"$4,984.32",Rochester,NY,business,Payroll,D,465870,2025-10-27
+expenditure,2025-10-14,Jennifer Peyton,$510.71,Fredericksburg,VA,individual,Event Catering,D,465870,2025-10-27
+expenditure,2025-10-15,Anker Mobile Bar Company LLC.,$350,Fredericksburg,VA,business,Event Catering,D,465870,2025-10-27
+expenditure,2025-10-15,"Democracy Engine, LLC",$31.70,Washington,DC,business,Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-15,"Democracy Engine, LLC",$112.99,Washington,DC,business,Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-15,GMMB,"$26,030",Washington,DC,business,TV,D,465870,2025-10-27
+expenditure,2025-10-15,Raj Mia,$500,Saint Augustine,FL,individual,Internship,D,465870,2025-10-27
+expenditure,2025-10-15,Paychex,$103.49,Rochester,NY,business,Payroll Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-16,Cox Communications,$383.96,Atlanta,GA,business,Internet Service Payment,D,465870,2025-10-27
+expenditure,2025-10-16,Virginia House Democratic Caucus,"$2,700",Richmond,VA,party,Contribution,D,465870,2025-10-27
+expenditure,2025-10-17,ABC Store,$163.82,Fredericksburg,VA,business,Event Catering,D,465870,2025-10-27
+expenditure,2025-10-17,Dover Strategy Group Inc.,"$17,507",Chicago,IL,business,Digital Advertising,D,465870,2025-10-27
+expenditure,2025-10-17,Total Wine & More,$77.25,Fredericksburg,VA,business,Event Catering,D,465870,2025-10-27
+expenditure,2025-10-17,Wegmans,$32.81,Fredericksburg,VA,business,Event Catering,D,465870,2025-10-27
+expenditure,2025-10-20,Ionos,$21.62,Chesterbrook,PA,business,Website hosting,D,465870,2025-10-27
+expenditure,2025-10-21,Actblue Technical Services,$226.36,Somerville,MA,business,Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-21,GMMB,"$26,030",Washington,DC,business,TV,D,465870,2025-10-27
+expenditure,2025-10-21,KFC,$44.51,Fredericksburg,VA,business,Field Event,D,465870,2025-10-27
+expenditure,2025-10-21,Truist,$380,Fredericksburg,VA,business,Bank Fees,D,465870,2025-10-27
+expenditure,2025-10-21,Virginia House Democratic Caucus,"$4,300",Richmond,VA,party,Contribution,D,465870,2025-10-27
+expenditure,2025-10-22,Bergman Zwerdling Direct,"$2,100",Chevy Chase,MD,business,Mailing,D,465870,2025-10-27
+expenditure,2025-10-22,Canva,$12.99,Austin,TX,business,Graphic Design Software,D,465870,2025-10-27
+expenditure,2025-10-22,"Democracy Engine, LLC",$4.36,Washington,DC,business,Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-22,"Democracy Engine, LLC",$138.60,Washington,DC,business,Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-22,WM SuperCenter,$91.28,Fredericksburg,VA,business,Office Expenses,D,465870,2025-10-27
+expenditure,2025-10-23,Actblue Technical Services,$80.22,Somerville,MA,business,Processing Fee,D,465870,2025-10-27
+expenditure,2025-10-23,Dover Strategy Group Inc.,"$19,307",Chicago,IL,business,Direct Mail,D,465870,2025-10-27
+expenditure,2025-10-23,Virginia House Democratic Caucus,"$4,300",Richmond,VA,party,Contribution,D,465870,2025-10-27
+expenditure,2025-10-24,Bergman Zwerdling Direct,$432.02,Chevy Chase,MD,business,Mailing,D,472668,2025-12-04
+expenditure,2025-10-24,Rebellion Bourbon Bar & Kitchen,$67.98,Fredericksburg,VA,business,Event Catering,D,472668,2025-12-04
+expenditure,2025-10-27,Ximena Nieves,$50,Fredericksburg,VA,individual,Gas-Travel,D,472668,2025-12-04
+expenditure,2025-10-28,Adobe,$19.99,San Jose,CA,business,Software,D,472668,2025-12-04
+expenditure,2025-10-28,Ionos,$120,Chesterbrook,PA,business,Website hosting,D,472668,2025-12-04
+expenditure,2025-10-28,Virginia Blue Star Printing,$200.07,Fairlawn,VA,business,Printing,D,472668,2025-12-04
+expenditure,2025-10-29,"Democracy Engine, LLC",$118.41,Washington,DC,business,Processing Fee,D,472668,2025-12-04
+expenditure,2025-10-29,"Democracy Engine, LLC",$1,Washington,DC,business,Processing Fee,D,472668,2025-12-04
+expenditure,2025-10-29,Moxy Richmond Downtown,$804.66,Richmond,VA,business,Travel-Hotel,D,472668,2025-12-04
+expenditure,2025-10-30,Actblue Technical Services,$90.22,Somerville,MA,business,Processing Fee,D,472668,2025-12-04
+expenditure,2025-10-30,Paychex,"$4,922.19",Rochester,NY,business,Payroll,D,472668,2025-12-04
+expenditure,2025-10-30,Paychex,"$1,870",Rochester,NY,business,Payroll Taxes,D,472668,2025-12-04
+expenditure,2025-10-30,Pressable,$45,San Antonio,TX,business,Web Hosting,D,472668,2025-12-04
+expenditure,2025-10-31,Paychex,$83.49,Rochester,NY,business,Payroll Processing Fee,D,472668,2025-12-04
+expenditure,2025-11-03,Joshua Cole,$850,Richmond,VA,individual,Reimbursement,D,472668,2025-12-04
+expenditure,2025-11-03,DoorDash,$39.38,San Francisco,CA,business,Volunteer meals,D,472668,2025-12-04
+expenditure,2025-11-03,Nathan Francis,$32.73,Fredericksburg,VA,individual,Event Food Purchase,D,472668,2025-12-04
+expenditure,2025-11-03,"Holiday Inn Express & Suites Claypool Hill (Richlands Area), an IHG Hotel","$4,928.80",Pounding Mill,VA,business,Election Night Watch Party,D,472668,2025-12-04
+expenditure,2025-11-03,Optimize Services LLC,"$3,600",Boston,MA,business,Operations Consulting,D,472668,2025-12-04
+expenditure,2025-11-03,Silver Diner,$106.64,Fredericksburg,VA,business,Staff Meal Expenses,D,472668,2025-12-04
+expenditure,2025-11-03,Silver Diner,$290.77,Fredericksburg,VA,business,Staff Meal Expenses,D,472668,2025-12-04
+expenditure,2025-11-03,Walmart,$83.23,Fredericksburg,VA,business,Office Supplies,D,472668,2025-12-04
+expenditure,2025-11-03,Wegmans,$28.53,Fredericksburg,VA,business,Volunteer Meals,D,472668,2025-12-04
+expenditure,2025-11-03,Wegmans,$7.14,Fredericksburg,VA,business,Volunteer Meals,D,472668,2025-12-04
+expenditure,2025-11-03,Wegmans,$12.24,Fredericksburg,VA,business,Office Expenses,D,472668,2025-12-04
+expenditure,2025-11-03,WM SuperCenter,$184.48,Fredericksburg,VA,business,Office Expenses,D,472668,2025-12-04
+expenditure,2025-11-04,Actblue Technical Services,$80.93,Somerville,MA,business,Processing Fee,D,472668,2025-12-04
+expenditure,2025-11-04,Agora Downtown Coffee Shop & Roastery,$23.25,Fredericksburg,VA,business,Staff Meals,D,472668,2025-12-04
+expenditure,2025-11-04,Chick Fil A,$199.78,Atlanta,GA,business,Volunteer Meals,D,472668,2025-12-04
+expenditure,2025-11-04,"Dunkin' Brands, Inc.",$17.33,Canton,MA,business,Staff Meals,D,472668,2025-12-04
+expenditure,2025-11-04,"FedEx Corporate Services, Inc.",$0.24,Memphis,TN,business,Printing,D,472668,2025-12-04
+expenditure,2025-11-04,"Holiday Inn Express & Suites Claypool Hill (Richlands Area), an IHG Hotel",$0.01,Pounding Mill,VA,business,Election Night Watch Party,D,472668,2025-12-04
+expenditure,2025-11-04,Michaels,$95.72,Irving,TX,business,Office Expenses,D,472668,2025-12-04
+expenditure,2025-11-04,Wegmans,$3.99,Fredericksburg,VA,business,Office Expenses,D,472668,2025-12-04
+expenditure,2025-11-04,WM SuperCenter,$58.25,Fredericksburg,VA,business,Office Expenses,D,472668,2025-12-04
+expenditure,2025-11-05,"Democracy Engine, LLC",$144.88,Washington,DC,business,Processing Fee,D,472668,2025-12-04
+expenditure,2025-11-05,"EveryAction, Inc.",$428.20,Washington,DC,business,Database Software,D,472668,2025-12-04
+expenditure,2025-11-07,Clara Barcas,$800,Fredericksburg,VA,individual,Campaign Internship,D,472668,2025-12-04
+expenditure,2025-11-07,Penelope Brianas,"$1,000",Falmouth,VA,individual,Campaign Internship,D,472668,2025-12-04
+expenditure,2025-11-07,Hannah Jade Mejeur,$800,Fredericksburg,VA,individual,Campaign Internship,D,472668,2025-12-04
+expenditure,2025-11-07,Ximena Nieves,$50,Fredericksburg,VA,individual,Gas-Travel,D,472668,2025-12-04
+expenditure,2025-11-07,Neima Rogers,$900,Fredericksburg,VA,individual,Campaign Internship,D,472668,2025-12-04
+expenditure,2025-11-07,Sophie Walter,"$1,000",Round Hill,VA,individual,Campaign Internship,D,472668,2025-12-04
+expenditure,2025-11-10,Sydney Holroyd,"$1,000",Fredericksburg,VA,individual,Campaign Internship,D,472668,2025-12-04
+expenditure,2025-11-10,Sunny Day Strategies,$500,Washington,DC,business,Digital Strategy,D,472668,2025-12-04
+expenditure,2025-11-11,Actblue Technical Services,$8.42,Somerville,MA,business,Processing Fee,D,472668,2025-12-04
+expenditure,2025-11-12,Joshua Cole,$300,Richmond,VA,individual,Candidate Reimbursement,D,472668,2025-12-04
+expenditure,2025-11-12,"Democracy Engine, LLC",$16.01,Washington,DC,business,Processing Fee,D,472668,2025-12-04
+expenditure,2025-11-12,Eunice Haigler,"$2,000",Fredericksburg,VA,individual,Staff Stipend,D,472668,2025-12-04
+expenditure,2025-11-12,Spencer Gray Photography,$250,Locust Grove,VA,business,Election Night Watch Party,D,472668,2025-12-04
+expenditure,2025-11-13,Paychex,"$4,905.58",Rochester,NY,business,Payroll,D,472668,2025-12-04
+expenditure,2025-11-13,Paychex,"$1,867.10",Rochester,NY,business,Payroll Taxes,D,472668,2025-12-04
+expenditure,2025-11-14,Flowers by Nora,$67.12,Las Vegas,NV,business,Flower Delivery,D,472668,2025-12-04
+expenditure,2025-11-14,Flowers by Nora,$91.72,Las Vegas,NV,business,Flower Delivery,D,472668,2025-12-04
+expenditure,2025-11-14,Flowers by Nora,$104.57,Las Vegas,NV,business,Flower Delivery,D,472668,2025-12-04
+expenditure,2025-11-14,Flowers by Nora,$93.87,Las Vegas,NV,business,Flower Delivery,D,472668,2025-12-04
+expenditure,2025-11-14,"Google, Inc.",$69.76,Mountain View,CA,business,GSuite,D,472668,2025-12-04
+expenditure,2025-11-14,Patrick Healy,$50,Washington,DC,individual,Gas Stipend,D,472668,2025-12-04
+expenditure,2025-11-14,Paychex,$83.49,Rochester,NY,business,Payroll Processing Fee,D,472668,2025-12-04
+expenditure,2025-11-17,Flowers by Nora,$61.78,Las Vegas,NV,business,Flower Delivery,D,472668,2025-12-04
+expenditure,2025-11-17,Flowers by Nora,$93.87,Las Vegas,NV,business,Flower Delivery,D,472668,2025-12-04
+expenditure,2025-11-18,Actblue Technical Services,$4.85,Somerville,MA,business,Processing Fee,D,472668,2025-12-04
+expenditure,2025-11-19,Ionos,$21.62,Chesterbrook,PA,business,Website hosting,D,472668,2025-12-04
+expenditure,2025-11-21,Sylvie Rowe,"$1,000",Fredericksburg,VA,individual,Campaign Internship,D,472668,2025-12-04
+expenditure,2025-11-21,Truist,$400,Fredericksburg,VA,business,Bank Fees,D,472668,2025-12-04
+expenditure,2025-11-24,Canva,$12.99,Austin,TX,business,Graphic Design Software,D,472668,2025-12-04
+expenditure,2025-11-24,Lily Yates,"$1,000",Loretto,VA,individual,Campaign Internship,D,472668,2025-12-04
+expenditure,2025-11-25,Actblue Technical Services,$3.34,Somerville,MA,business,Processing Fee,D,472668,2025-12-04
+expenditure,2025-11-25,Ionos,$120,Chesterbrook,PA,business,Website hosting,D,472668,2025-12-04
+expenditure,2025-11-26,Paychex,"$7,174.20",Rochester,NY,business,Payroll Taxes,D,472668,2025-12-04
+expenditure,2025-11-26,Paychex,"$12,202.80",Rochester,NY,business,Payroll,D,472668,2025-12-04
 expenditure,2025-11-28,Adobe,$19.99,San Jose,CA,business,Software,D,479883,2026-01-15
 expenditure,2025-11-28,Paychex,$79.60,Rochester,NY,business,Payroll Fee,D,479883,2026-01-15
 expenditure,2025-11-29,Pressable,$45,San Antonio,TX,business,Web Hosting,D,479883,2026-01-15

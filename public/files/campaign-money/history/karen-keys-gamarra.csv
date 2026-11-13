@@ -1,0 +1,740 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2023-03-02,Karen Keys-Gamarra for School Board,"$8,351.78",Oakton,VA,candidate,,Political Committee,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-09,Patricia Brown,$150,Palmyra,VA,individual,Not Employed,Not Employed,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-14,Sandra Evans,$250,Falls Church,VA,individual,Not Employed,Not Employed,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-15,Deborah Matthews,$500,Alexandria,VA,individual,Self-Employed,Attorney,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-16,Hugh Taylor,"$3,000",Oak Hill,VA,individual,Northrop Grumman Information Systems,Vice President,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-16,Robert Rigby,$250,Arlington,VA,individual,Retired,Retired,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-21,Robert Rigby,$150,Arlington,VA,individual,Retired,Retired,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-25,Phillip Niedzielski-Eichner,$250,Oakton,VA,individual,Governmental Dynamics,President,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-25,Michael O'Reilly,$500,Herndon,VA,individual,The O'Reilly Law Firm,Attorney,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-26,Janie Strauss,$250,McLean,VA,individual,Not Employed,Not Employed,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-29,Carla Brown,$500,Vienna,VA,individual,Charlson Bredehoft Cohen Brown & Nadelhaft,Attorney,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-30,Todd Cranford,$150,Fairfax,VA,individual,Financial Accounting Foundation,Attorney,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-29,Linda Carter,$500,Bowie,MD,individual,Not Employed,Not Employed,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-30,Linda Carter,$100,Bowie,MD,individual,Not Employed,Not Employed,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-31,Alphonzo Barney,$500,Leesburg,VA,individual,Premier Home Services Inc.,Business Owner,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-31,Pam Jones,$250,Fairfax,VA,individual,Not Employed,Not Employed,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-31,Phillip Thompson,$250,Leesburg,VA,individual,Thompson Associates,Attorney,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-21,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,business,,Public Utility Consulting,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-25,George Waters,$250,Falls Church,VA,individual,Self-Employed,Consultant,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-03-30,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,Environmental PAC,,A,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-03-25,Linda Carter,$220,Bowie,MD,individual,Not Employed,Not Employed,Campiagn Event Food,B,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-03-25,Mia Spain,$192,Reston,VA,individual,PM Consulting,Communications Specialist,Campaign Event Room Rental,B,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-03-31,Act Blue,$375.56,Somerville,MA,,,,Financial Services,D,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-03-08,Lowell Fled,$325,Arlington,VA,,,,Advertisment - Blue Virginia,D,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-03-13,Democratic Party of Virginia,"$1,115.40",Richmond,VA,,,,VAN List,D,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-03-14,SyDar of DC LLC,"$1,684",Washington,DC,,,,Yard Signs,D,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-03-03,Wix.com,$166.05,San Francisco,CA,,,,Website and Domain,D,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-03-10,County of Fairfax,$361.09,Fairfax,VA,,,,2023 Primary Election Filing Fee,D,321034,2023-03-02 to 2023-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-20,Patricia Brown,$50,Palmyra,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-20,Liz Murphy,$100,Springfield,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-31,Janie Strauss,$500,McLean,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-15,Pam Jones,$200,Fairfax,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-03,Pam Jones,$100,Fairfax,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-28,Daniel Aminoff,$250,Alexandria,VA,individual,PNC,Mortgage Banking,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-04,Charles Harris,$200,Reston,VA,individual,Pyramid Systems,IT,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-06,Katherine Kehoe,$200,Richmond,VA,individual,Keller Williams Richmond West,Realtor,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-07,Paul Anderson,$250,Philadelphia,PA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-08,Sarah Bury,$250,Reston,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-16,Valerie Stucky,$200,Reston,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-22,Wesley Callendar,$250,Great Falls,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-23,Carissa Barker,$250,Reston,VA,individual,US State Department,Government,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-24,Lorraine Cross,$250,Chantilly,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-04,Alan Montgomery,$500,Reston,VA,individual,Sef-Employed,Cosultant,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-30,Paul Noursi,$200,Vienna,VA,individual,Pennoni,Engineer,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-04,Angela Starke,$150,Winter Garden,FL,individual,Greater Orlando Aviation Authority,Public Affairs,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-11,Gerald Lee,$250,Fairfax,VA,individual,Retired,Retired,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-13,Christopher Kimm,"$1,000",Reston,VA,individual,Equinix,Operations Executive,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-16,Bruce Fredrickson,$500,Washington,DC,individual,"Webster & Fredrickson, PLLC",Lawyer,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-19,Tim Sargeant,$250,Fairfax Station,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-22,Linda Mathes,$500,Washington,DC,individual,Not Employed,Not Empolyed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-23,David Gill,$500,Reston,VA,individual,Wire Gill LLP,Attorney,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-23,Robert Mitchell,$500,Washington,DC,individual,Three River Energy Development,Executive,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-28,Gloria Davis,$250,Chicago,IL,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-30,Martina Hone,$250,Chicago,IL,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-03,John Farrell,"$1,000",Reston,VA,individual,McCandlish Lillard,Attorney,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-30,John Farrell,$500,Reston,VA,individual,McCandlish Lillard,Attorney,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-04-28,Minh Nguyen,$500,Oakton,VA,individual,HQ Solutions,President,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-02,Minh Nguyen,$100,Oakton,VA,individual,HQ Solutions,President,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-12,Elizabeth Murphy,"$1,000",Oakton,VA,individual,SAIC,Enginner,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-15,Darlene Almanza,$250,Oakton,VA,individual,Evolent Health,RN Consultant,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-15,Saslaw for State Senate,"$1,000",Springfield,VA,pac,,Political Committee,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-23,Friends of Delegate Ken Plum,"$15,000",Reston,VA,pac,,Political Committee,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-30,Alan Krishnan,$300,Oak Hill,VA,individual,BSDCMc,Management,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-30,Stacey Reynolds,$500,Oakton,VA,individual,Not Employed,Not Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-04,Edward Rice,"$5,000",Vienna,VA,individual,Self-Employed,Consultant,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-04,Raba Letteri,$200,Reston,VA,individual,Weichert,Realtor,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-05-23,Paul Zhu,$250,Rockville,MD,individual,Pender Professional Center LLC,Self-Employed,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-08,Michelle Widmann,$200,Reston,VA,individual,Upper Lake Consulting,Consultant,,A,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-05-20,Mulligan's Pub on the Green,"$1,198.02",Fairfax,VA,business,,Resturant,Food and Room Rental,B,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-06-04,Pat Hynes,$300,Reston,VA,individual,Arlington Public Schools,Teacher,Rental and Food,B,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-05-20,Keren Charles Dongo,$500,Alexandria,VA,individual,U.S. Senate,State Director,Food and Room Rental,B,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-08,Act Blue,$403.64,Somerville,MA,,,,Financial Services,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-04-25,SyDar of DC LLC,$306.50,Washington,DC,,,,Campaign Stickers,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-04-04,"Click Stamp Strategies, LLC","$2,500",Richmond,VA,,,,Walkcards,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-09,"Click Stamp Strategies, LLC","$6,562.67",Richmond,VA,,,,Campaign Mailer,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-22,"Click Stamp Strategies, LLC","$2,682.45",Richmond,VA,,,,Campaign Mailer,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-31,"Click Stamp Strategies, LLC","$7,936.78",Richmond,VA,,,,Campaign Mailer,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-07,"Click Stamp Strategies, LLC","$9,049.72",Richmond,VA,,,,Campaign Mailer and Walkcards,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-04-07,Local News Now LLC,$499,Arlington,VA,,,,Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-01,Local News Now LLC,$499,Arlington,VA,,,,Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-04-10,"Reston-Dulles, NCNW, Inc.",$250,Herndon,VA,,,,Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-04-21,Truist,$22,Oakton,VA,,,,Bank Fees,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-04-27,Patch,$875,New York,NY,,,,Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-27,Patch,$875,New York,NY,,,,Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-12,Michaels,$295.83,Reston,VA,,,,Stickers for Walkcards,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-30,Core Foundation,$265.05,Reston,VA,,,,Reston Pride Sponsor,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-23,SPARC,$260,Reston,VA,,,,SPARC Sponsor,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-06,New Blue Interactive,"$5,462.50",Bethesda,MD,,,,Social Media Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-05,Fairfax County Democratic Committee,$450,Fairfax,VA,,,,Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-13,Fairfax County Democratic Committee,$65,Fairfax,VA,,,,Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-21,DAAV-AAPI Caucus,$500,Arlington,VA,,,,Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-04-17,Tracy Ann,$100,Nashville,TN,,,,Campaign Advertising,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-01,"Strandlie Advocacy, LLC","$5,000",Fairfax,VA,,,,Campaign Management Services,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-05-20,Mulligan's Pub on the Green,$500,Fairfax,VA,,,,Campaign Fundraiser,D,330324,2023-04-01 to 2023-06-08,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-30,Roger Tarrant,$100,Vienna,VA,individual,Not Employed,Not Employed,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-29,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,business,,Public Utility Consulting,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-29,Clean Virginia Fund,"$10,000",Charlottesville,VA,pac,,Environmental PAC,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-27,Georgiana Bloom,$50,Reston,VA,individual,Self-Employed,Writer/Strategist Communication,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-12,Paul Noursi,$100,Vienna,VA,individual,Pennoni,Engineer,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-09,John Warga,$100,Reston,VA,individual,Not Employed,Not Employed,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-27,John Warga,$250,Reston,VA,individual,Not Employed,Not Employed,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-09,Karen Duval,$200,McLean,VA,individual,Not Employed,Not Employed,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-29,Barbara Stowe,$100,Reston,VA,individual,Not Employed,Not Employed,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-09,Jill Seibert,$200,Oakton,VA,individual,Not Employed,Not Employed,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-16,Charles Tievsky,$250,Oakton,VA,individual,Tievsky Immigration Law,Attorney,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-21,Thomas Radtke,$250,Reston,VA,individual,New Commander LLC,Management Consultant,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-27,Susan Beffel,$250,Reston,VA,individual,Not Employed,Not Employed,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-28,Kathy Kelley,$250,Reston,VA,individual,Not Employed,Not Employed,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-06-24,Helmer for Virginia,$500,Fairfax Station,VA,pac,,Political Committee,,A,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-30,Act Blue,$142.28,Somerville,MA,,,,Financial Services,D,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-09,"Click Stamp Strategies, LLC","$8,371.42",Richmond,VA,,,,Campaign Mailer,D,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-29,"Strandlie Advocacy, LLC","$5,000",Fairfax,VA,,,,Campaign Management Services,D,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-21,Winning Connections Inc.,$999.80,Washington,DC,,,,Campaign Advertising,D,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-30,Barbara Hamlett,$599,Alexandria,VA,,,,Campaign Consultant,D,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-16,Constant Contact,$513,Waltham,MA,,,,E-Mail Software,D,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-09,Hamkea Center,$150,Annandale,VA,,,,Hamkea Center Fundraiser,D,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-06-09,Youtube,$11.99,San Bruno,CA,,,,Youtube Fee,D,340098,2023-06-09 to 2023-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-31,Pam Jones,$100,Fairfax,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-15,Julie Strandlie,$1,Alexandria,VA,individual,Strandlie Advocacy LLC,Attorney,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-22,Carol Bradley,$75,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-22,Georgiana Bloom,$50,Reston,VA,individual,Self-Employed,Writer/Strategist Communication,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-13,Georgiana Bloom,$50,Reston,VA,individual,Self-Employed,Writer/Strategist Communication,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-01,Alan Montgomery,$100,Reston,VA,individual,Sef-Employed,Cosultant,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-24,Alan Montgomery,$250,Reston,VA,individual,Sef-Employed,Cosultant,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-31,Angela Starke,$100,Winter Garden,FL,individual,Greater Orlando Aviation Authority,Communications,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-21,Linda Mathes,$100,Washington,DC,individual,Not Employed,Not Empolyed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-14,Rodney Page,$100,Reston,VA,individual,Bryan Cave Leighton Paisner LLP,Lawyer,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-31,Martina Hone,$250,Chicago,IL,individual,Self-Employed,Lawyer/Consultant,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-17,John Warga,$50,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-18,John Lovaas,$50,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-06,Raba Letteri,$50,Reston,VA,individual,Weichert,Realtor,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-21,Michelle Widmann,$50,Reston,VA,individual,Upper Lake Consulting,Consultant,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-06,Robert Haley,$50,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-18,Robert Haley,$50,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-17,Richard Chew,$250,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-12,Mark Terry,$250,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-13,Judith Thorne,$250,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-23,Loren Hershey,$250,Oakton,VA,individual,Self-Employed,Attorney,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-06,Suchada Langley,$125,Vienna,VA,individual,Sue Store LLC,Retail,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-08,Susan Pederson,$250,Vienna,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-11,Margaret Gupta,$500,Reston,VA,individual,Apex CoVantage,Business,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-15,Marcus Simon,$125,Falls Church,VA,individual,Virgina House of Delegates,Delegate,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-16,Sara Leonard,$250,Vienna,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-16,Joanne Bauer,$250,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-17,Kerrie Wilson,$125,Herndon,VA,individual,Cornerstones,Director,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-17,Cynthia Hull,$250,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-18,Radhika Murari,$500,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-18,Ronald Oklewicz,$500,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-18,Cynthia Wagner,$250,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-18,Denver Lovett,$125,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-20,Carolyn Flitcroft,$125,Reston,VA,individual,Main Street Home Loans/NFM Lending Inc,Sales,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-20,Roy Baldwin,$250,Oakton,VA,individual,The Baldwin Law Firm LLC,Attorney,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-21,Mary OGorman,$500,Reston,VA,individual,Long & Foster,Realtor,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-21,Joe Fay,$125,Oakton,VA,individual,FACETS,Executive,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-11,Friends of Charniele Herring,"$1,000",Alexandria,VA,business,,Politcal Committee,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-10,Friends of Elaine Tholen,$250,Great Falls,VA,pac,,Political Committee,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-15,Virginia Cable Poilitical Committee,$500,Richmond,VA,pac,,Telecom PAC,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-18,VA Dental Political Action Committee,"$1,500",Richmond,VA,pac,,VA Dental PAC,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-21,Friends of Saddam Salim,$250,Merrifield,VA,pac,,Political Committee,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-22,Virginia Professional Fire Fighters Cope Fund,"$1,000",Manassas,VA,business,,Labor Organization,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-23,Virginia Bankers Association State PAC,$500,Glen Allen,VA,pac,,Bank PAC,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-25,HCA For Good Government PAC,"$1,000",Richmond,VA,pac,,Health PAC,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-28,Virginia Education Association Fund PAC,$500,Richmond,VA,pac,,Education PAC,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-28,Reed Smith LLP VA PAC,$250,Richmond,VA,pac,,Law Firm PAC,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-29,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-31,"FirePAC Local 2068, Inc","$1,000",Fairfax,VA,pac,,Firefighter PAC,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-21,Jacqueline Peebles,$500,Reston,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-19,Roger Tarrant,$100,Vienna,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-23,Liz Murphy,$100,Springfield,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-08-21,Todd Cranford,$150,Fairfax,VA,individual,Financial Accounting Foundation,Attorney,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-07-01,Pam Jones,$100,Fairfax,VA,individual,Not Employed,Not Employed,,A,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-08-21,Margaret Gupta,$250,Reston,VA,individual,Apex CoVantage,Business,Fundraiser Event Services,B,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-08-30,Commonwealth Strategy Group,$292.17,Richmond,VA,business,,Government Relations Firm,Catering,B,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-08-31,Care In Action,$222.59,New York,NY,pac,,Domestic Workers PAC,Digital Advertisement,B,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-31,Karen Keys-Gamarra,$298.68,Oakton,VA,,,,Travel,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-30,Julie Strandlie,$343.63,Alexandria,VA,,,,Travel,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-31,Act Blue,$435.58,Somerville,MA,,,,Financial Services,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-29,"Click Stamp Strategies, LLC","$2,500",Richmond,VA,,,,Walk Cards,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-07-02,Truist,$22,Oakton,VA,,,,Bank Fees,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-24,Patch,$875,New York,NY,,,,Campaign Advertisement,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-07-16,Fairfax County Democratic Committee,$60,Fairfax,VA,,,,FCDC Event,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-31,"Strandlie Advocacy, LLC","$5,000",Fairfax,VA,,,,Campaign Managing Services,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-08,Youtube,$23.98,San Bruno,CA,,,,Youtube Fees,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-07-29,Hampton Inn,$224.45,Sandston,VA,,,,Travel,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-07-10,Network NOVA,$321.96,Falls Church,VA,,,,Ticket to Women's Summit 2023,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-18,Canva US Inc.,$64.95,Austin,TX,,,,Graphics,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-30,Lanier Parking,$15,Richmond,VA,,,,Parking,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-31,Bitly Inc,$48,New York City,NY,,,,Campaign Advertising,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-08-21,Staples,$45.57,Falls Church,VA,,,,Fundraiser Supplies,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-07-18,Harris Teeter,$23.35,Falls Church,VA,,,,Food for Fundraiser,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-07-20,VA ABC,$29.66,Falls Church,VA,,,,Beverage for Fundraiser,D,352154,2023-07-01 to 2023-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-29,Jeffrey Breit,"$1,000",Virginia Beach,VA,individual,Breit Biniazan,Lawyer,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-30,Energize for Change PAC,$500,Springfield,VA,pac,,PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-10,Yvonne Hoogland,$250,Reston,VA,individual,Retired,Retired,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-18,Huntington Ingalls Industries,$500,Newport News,VA,business,,Ship Builder,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-18,Virigina Trial Lawyers PAC,"$2,000",Richmond,VA,pac,,Law PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-19,Climate Cabinet Action,$250,San Francisco,CA,pac,,Environmental PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-21,Virginia Beverage Association,"$1,000",Richmond,VA,pac,,Beverage PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-21,Virginia Wine Wholesalers,"$1,000",Richmond,VA,pac,,Beverage PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-27,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,Auto PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-28,Baltimore Washington Construction & Public Employees Laborers PAC,"$2,500",Reston,VA,pac,,Labor PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-29,IBEW PAC Voluntary Fund,"$2,600",Washington,DC,pac,,Labor PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-29,NoVA Labor Federation AFL-CIO,$500,Annandale,VA,business,,Labor Organization,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-25,Friends of Walter Alcorn,$823.25,Reston,VA,candidate,,Candidate Committee,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-25,Friends of Jennifer Boysko,$823.25,Herndon,VA,candidate,,Candidate Committee,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-10,Robert Rigby,$100,Arlington,VA,individual,Fairfax County Public Schools,Substitute Teacher,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-30,Robert Rigby,$50,Arlington,VA,individual,Fairfax County Public Schools,Substitute Teacher,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-30,Phillip Niedzielski-Eichner,$250,Oakton,VA,individual,Governmental Dynamics,President,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-07,Cesar Del Aguila,$250,Herndon,VA,individual,Apttus,Regional Vice President Enterprise Sales,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-15,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,Environmental PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-07,Robert Beury,$150,Oak Hill,VA,individual,Cogent Communications,Attorney,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-10,Menda Ahart,$25,Reston,VA,individual,Not Employed,Not Employed,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-07,Christopher Kimm,$500,Reston,VA,individual,Equinix,Operations Executive,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-10,Roberta Fauriol,$100,Oakton,VA,individual,Not Employed,Not Employed,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-08,Molly Bensinger-Lacy,$100,Burke,VA,individual,Not Employed,Not Employed,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-10,Robert Haley,$50,Reston,VA,individual,Not Employed,Not Employed,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-08,Paula Gori,$200,Oakton,VA,individual,Not Employed,Not Employed,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-30,Loren Hershey,$250,Oakton,VA,individual,Self-Employed,Attorney,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-18,Sharon Canner,$50,Reston,VA,individual,Not Employed,Not Employed,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-07,Maggie Godbold,$250,Herndon,VA,individual,Not Employed,Not Employed,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-29,George Kralovec,$100,Annandale,VA,individual,Not Employed,Not Employed,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-10,Suzanne Ugast,$750,Oakton,VA,individual,Not Employed,Not Employed,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-09-15,Service Employees International Union Committee on Political Education (SEIU COPE),"$1,000",Washington,DC,pac,,Labor PAC,,A,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-09-21,Democratic Party of Virginia,"$1,110.53",Richmond,VA,party,,Political Party Committee,Mail Production / Postage,B,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-09-25,Democratic Party of Virginia,"$10,531.47",Richmond,VA,party,,Political Party Committee,Mail Production / Postage,B,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-09-07,Suzanne Ugast,$318.67,Oakton,VA,individual,Not Employed,Not Employed,Beverages and Food for Event,B,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-09-30,Care In Action,$7.92,New York,NY,pac,,Domestic Workers PAC,Campaign Advertising,B,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-09-30,Van Ness Creative Strategies,$153.85,Brooklyn,NY,business,,Advertising Services,Campaign Advertising,B,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-30,Act Blue,$226.23,Somerville,MA,,,,Financial Services,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-22,Democratic Party of Virginia,"$10,747",Richmond,VA,,,,Contribution,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-06,Local News Now LLC,"$1,498",Arlington,VA,,,,Campaign Advertisment,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-12,Fairfax County Democratic Committee,"$2,000",Fairfax,VA,,,,Contribution,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-30,"Strandlie Advocacy, LLC","$2,500",Fairfax,VA,,,,Campaign Managing Services,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-30,"Strandlie Advocacy, LLC",$83.19,Fairfax,VA,,,,Travel,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-08,Youtube,$13.99,San Bruno,CA,,,,Youtube Fee,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-18,Canva US Inc.,$12.99,Austin,TX,,,,Graphics,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-30,Bitly Inc,$8,New York City,NY,,,,Campaign Advertising,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-08,Kathy Tran for Delegate,$625,Springfield,VA,,,,Contribution,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-21,USPS,$66,Alexandria,VA,,,,Postage,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-09-11,NGP VAN,$187.50,Washington,DC,,,,Campaign App/Software,D,361695,2023-09-01 to 2023-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-12,Teresa Selove,$25,Centreville,VA,individual,Not Employed,Not Employed,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-05,Alan Montgomery,$100,Reston,VA,individual,Self-Employed,Consultant,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-26,Loren Hershey,$250,Oakton,VA,individual,Self-Employed,Attorney,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-01,Stephanie Abbott,$50,Reston,VA,individual,Not Employed,Not Employed,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-23,"FirePAC Local 2068, Inc","$1,000",Fairfax,VA,pac,,Firefighter PAC,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-19,Leah Tarbell,$25,Reston,VA,individual,Retired,Retired,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-04,Molly Gochman,"$2,500",Houston,TX,individual,Not Employed,Not Employed,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-01,Democratic Black Caucus of Virginia,$300,Manassas,VA,pac,,PAC,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-04,Everytown for Gun Safety Action Fund,"$1,000",New York,NY,pac,,Gun Safety PAC,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-16,Realtors Political Actions Committee of Virginia,"$1,500",Glen Allen,VA,pac,,PAC,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-18,Invest in Virginia's Future,"$5,000",Reston,VA,pac,,PAC,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-18,AFSCME,"$1,000",Washington,DC,business,,Labor Organization,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-20,Commonwealth PAC,"$1,000",Merrifield,VA,pac,,PAC,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-17,Lorri Zell,$250,Reston,VA,individual,Zell Law,COO,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-10-22,Jalal Mapar,$250,Reston,VA,individual,US Government,Executive,,A,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-10-13,Democratic Party of Virginia,$392.10,Richmond,VA,party,,Political Party Committee,Mail Production / Postage,B,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-10-16,Democratic Party of Virginia,"$9,055",Richmond,VA,party,,Political Party Committee,Mail Production / Postage,B,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-10-23,Democratic Party of Virginia,"$9,264.49",Richmond,VA,party,,Political Party Committee,Mail Prodcution / Postage,B,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-26,Act Blue,$160.02,Somerville,MA,,,,Financial Services,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-11,Democratic Party of Virginia,"$9,236.10",Richmond,VA,,,,Contribution,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-23,Democratic Party of Virginia,"$9,449.78",Richmond,VA,,,,Contribution,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-24,"Click Stamp Strategies, LLC","$10,227.74",Richmond,VA,,,,Mailer,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-23,Truist,$94,Oakton,VA,,,,Bank Service Fees,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-08,Youtube,$13.99,San Bruno,CA,,,,Youtube Fee,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-18,Canva US Inc.,$12.99,Austin,TX,,,,Graphics,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-20,Bitly Inc,$8,New York City,NY,,,,Campaign Advertising,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-11,NGP VAN,$187.50,Washington,DC,,,,Campaign App/Software,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-01,Wegmans,$33.08,Reston,VA,,,,Food for Event,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-23,Virginia House Democratic Caucus,"$3,000",Richmond,VA,,,,Contribution,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-26,"Cornerstones, Inc.",$200,Reston,VA,,,,Event Ticket,D,369965,2023-10-01 to 2023-10-26,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-11-05,Karen Corbett Sanders,$50,Alexandria,VA,individual,Fairfax County Public Schools,School Board Member,,A,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-11-19,Leah Tarbell,$25,Reston,VA,individual,Retired,Retired,,A,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-11-04,Amalgamated Transit Union Committee on Political Education (ATU COPE),"$1,200",Silver Spring,MD,pac,,Labor PAC,,A,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-11-02,Herbert Jones,$250,Providence Forge,VA,individual,Pyramid Technologies LLC,CEO,,A,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-11-03,William Brown,$150,Annandale,VA,individual,ECS-ERPS,Privacy Team Lead,,A,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-10-30,Van Ness Creative Strategies,$48.08,Brooklyn,NY,business,,Advertising Services,Campaign Advertising,B,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-11-06,Care In Action,$68.24,New York,NY,pac,,Domestic Workers PAC,Campaign Advertising,B,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-30,Karen Keys-Gamarra,$561.99,Oakton,VA,,,,Travel,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-30,Act Blue,$31.63,Somerville,MA,,,,Financial Services,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-10-27,"Click Stamp Strategies, LLC","$3,000",Richmond,VA,,,,Mailer,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-21,Truist,$216,Oakton,VA,,,,Bank Fees,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-03,New Blue Interactive,$922.50,Bethesda,MD,,,,Campaign Advertising,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-13,Fairfax County Democratic Committee,$30,Fairfax,VA,,,,Ticket for Event,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-28,Fairfax County Democratic Committee,$100,Fairfax,VA,,,,FCDC Fee,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-01,"Strandlie Advocacy, LLC","$2,500",Fairfax,VA,,,,Campaign Managing Services,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-07,"Strandlie Advocacy, LLC",$73.46,Fairfax,VA,,,,Food for Event,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-18,"Strandlie Advocacy, LLC","$1,500",Fairfax,VA,,,,Campaign Managing Services,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-18,"Strandlie Advocacy, LLC",$513.72,Fairfax,VA,,,,Travel,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-18,"Strandlie Advocacy, LLC",$22.69,Fairfax,VA,,,,Office Supplies,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-16,Constant Contact,$562.50,Waltham,MA,,,,E-Mail Software,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-08,Youtube,$13.99,San Bruno,CA,,,,Youtube Fee,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-11-11,NGP VAN,$187.50,Washington,DC,,,,Campaign App/Software,D,385214,2023-10-27 to 2023-11-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-12-15,Cesar Del Aguila,$100,Herndon,VA,individual,Conga,Account Executive,,A,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-12-16,Kyung Jun,$100,Lorton,VA,individual,Hairtistics,Owner,,A,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2023-12-16,Claudia Stallings,$150,Reston,VA,individual,Fairfax County,IT,,A,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-12-16,Suzanne Ugast,$131.44,Oakton,VA,individual,Not Employed,Not Employed,Food for Event,B,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2023-12-31,Van Ness Creative Strategies,$39.40,Brooklyn,NY,business,,Advertising Services,Campaign Advertising,B,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-12-31,Karen Keys-Gamarra,$531.82,Oakton,VA,,,,Travel Expenses,D,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-12-31,Act Blue,$6.53,Somerville,MA,,,,Financial Services,D,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-12-08,Youtube,$13.99,San Bruno,CA,,,,Youtube Fee,D,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-12-16,Wegmans,$70.70,Reston,VA,,,,Campaign Event Food,D,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2023-12-16,Reston Community Center,$99,Reston,VA,,,,Campaign Event Room Rental,D,394328,2023-12-01 to 2023-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-06-13,Roger Tarrant,$200,Vienna,VA,individual,Not Employed,Not Employed,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-01-05,Phillip Thompson,$250,Leesburg,VA,individual,Thompson Associates,Attorney,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-06-10,Whitfield A Russell & Associates PC,"$1,000",Alexandria,VA,business,,Public Utility Consulting,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-05-10,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,Environmental PAC,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-06-11,Rodney Page,$200,Reston,VA,individual,Retired,Retired Lawyer,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-01-05,Loren Hershey,$250,Oakton,VA,individual,Self-Employed,Attorney,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-04-22,Loren Hershey,"$1,000",Oakton,VA,individual,Self-Employed,Attorney,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-06-14,Maggie Godbold,$500,Herndon,VA,individual,Not Employed,Not Employed,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-06-08,Richard Joyce,$200,Reston,VA,individual,Not Employed,Not Employed,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-04-22,James McConnell,$250,Reston,VA,individual,Not Employed,Not Employed,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-06-15,Jihan Andoni,"$1,000",Oakton,VA,individual,Zeva Incorporated,Self-Employed,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-01-05,H. Benson Dendy,$250,Richmond,VA,individual,The Vectre Corporation,President,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-03-20,Virginia League of Conservation Voters PAC,$125,Richmond,VA,pac,,Environmental PAC,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-04-01,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,Public Safety PAC,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-04-07,Virgnia Cable Political Committee,$500,Richmond,VA,pac,,Telecom PAC,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-04-21,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Manufacturer,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-04-30,Sentara Health Administration Inc.,$250,Virginia Beach,VA,business,,Administration of Health Insurances,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-05-05,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Highway Contractors,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-06-03,Capital Results LLC,$250,Richmond,VA,business,,Lobbying Firm,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-06-13,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,Medical PAC,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-04-15,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,Agricultural PAC,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-05-15,Arrow International Inc.,$500,Cleveland,OH,business,,Manufacterer of Charitable Games,,A,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2024-04-16,Virginia Realtors PAC,$109.95,Glen Allen,VA,pac,,Real Estate PAC,Food & Beverages,B,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2024-05-30,Clean Virginia Fund,$375,Charlottesville,VA,pac,,Environmental PAC,Ticket for Fundraiser Event,B,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2024-06-14,Maggie Godbold,$149.13,Herndon,VA,individual,Not Employed,Not Employed,Food & Beverages,B,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-06-30,Karen Keys-Gamarra,$123.95,Oakton,VA,,,,Travel,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-06-30,Act Blue,$178.78,Somerville,MA,,,,Financial Services,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-02-02,Wix.com,$552,San Francisco,CA,,,,Website and Domain,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-06-21,Truist,$22,Oakton,VA,,,,Bank Fees,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-01-07,Fairfax County Democratic Committee,$80,Fairfax,VA,,,,FCDC Event,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-04-01,Fairfax County Democratic Committee,$175,Fairfax,VA,,,,FCDC Event,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-05-16,Constant Contact,$513,Waltham,MA,,,,E-mail Software,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-06-08,Youtube,$83.94,San Bruno,CA,,,,Youtube Fee,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-05-13,Virginia House Democratic Caucus,"$2,000",Richmond,VA,,,,Contribution,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-05-05,First Baptist of Vienna,$200,Vienna,VA,,,,Community Event,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-05-17,Dulles Area Democrats PAC,$30,Herndon,VA,,,,DAD Event,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-03-14,Gerry Connolly for Congress,$50,Merrifield,VA,,,,Fundraiser,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-04-16,Hilton Downtown Richmond,$173.26,Richmond,VA,,,,Travel,D,411311,2024-01-01 to 2024-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-07-20,Virginia Education Association Fund PAC,$250,Richmond,VA,pac,,Education PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-20,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-07-23,Huntington Ingalls Industries,$500,Newport News,VA,business,,Ship Builder,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-09-18,Virigina Trial Lawyers PAC,"$3,000",Richmond,VA,pac,,Law PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-19,Virigina Trial Lawyers PAC,"$1,000",Richmond,VA,pac,,Law PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-12,Baltimore Washington Construction & Public Employees Laborers PAC,"$1,000",Upper Marlboro,MD,pac,,Labor PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-09-15,Realtors Political Actions Committee of Virginia,$500,Glen Allen,VA,pac,,PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-17,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,Public Safety PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-21,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Highway Contractors,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-07-15,VA Society of Eye Physicians and Surgeons,$250,Richmond,VA,pac,,Eye Medical PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-09-26,Amazon.com Services LLC,$500,Seattle,WA,pac,,PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-10-07,Rivers Portsmouth Gaming LLC,"$1,000",Chicago,IL,business,,Gaming,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-10-15,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverage,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-10-30,UFCW Local 400 ABC PAC,$250,Landover,MD,pac,,Labor PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-07,Reworld Waste LLC,$500,Reston,VA,business,,Waste-to-Energy,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-20,Commission of Revenue PAC,$125,Newport News,VA,pac,,Tax Revenue PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-23,Vernice Gibson,"$3,000",Herndon,VA,individual,"The Leadership Compass, LLC",Leadership Coach,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-16,Metro PAC of Virginia,$250,Washington,DC,pac,,Apartment and Office Builidng PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-18,NOVA Build PAC,$500,Chantilly,VA,pac,,Housing Building PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-23,"Williams Mullen Clark & Dobbins, P.C.",$250,Richmond,VA,business,,Business Law Firm,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-27,McGuireWoods,$500,Richmond,VA,business,,Law Firm,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-29,Alphonzo Barney,$200,Leesburg,VA,individual,Premier Home Services Inc.,Business Owner,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-04,Whitfield A Russell & Associates PC,"$1,000",Alexandria,VA,business,,Public Utility Consulting,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-08-28,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,Environmental PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-29,Alan Montgomery,$400,Reston,VA,individual,Self-Employed,Consultant,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-09-18,David Gill,$250,Reston,VA,individual,Wire Gill LLP,Attorney,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-29,Robert Mitchell,$500,Washington,DC,individual,Three River Energy Development,Executive,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-29,Elizabeth Murphy,$500,Oakton,VA,individual,SAIC,Enginner,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-17,Loren Hershey,"$1,000",Oakton,VA,individual,Self-Employed,Attorney,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-30,Edward Robichaud,$100,Reston,VA,individual,Not Employed,Not Empolyed,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-12-29,Debi Alexander,$100,Reston,VA,individual,Specially Adapted Resource Centers,Executive Director,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-12,Virginia Bankers Association State PAC,"$1,000",Glen Allen,VA,pac,,Bank PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2024-11-18,HCA For Good Government PAC,"$2,000",Richmond,VA,pac,,Health PAC,,A,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-31,Act Blue,$72.50,Somerville,MA,,,,Financial Services,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-31,Truist,$44,Oakton,VA,,,,Bank Fees,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-11-15,Core Foundation,$140,Reston,VA,,,,Fundraiser,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-11-15,Fairfax County Democratic Committee,$77.64,Fairfax,VA,,,,Fundraiser Ticket,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-11-21,Mulligan's Pub on the Green,$286.79,Fairfax,VA,,,,Fundrasier Food & Beverages,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-28,Mulligan's Pub on the Green,$341,Fairfax,VA,,,,Event Food,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-17,Constant Contact,$266.10,Waltham,MA,,,,E-Mail Software,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-31,Youtube,$83.94,San Bruno,CA,,,,Youtube Fee,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-07-01,Hilton Alexandria Mark Center,$14,Alexandria,VA,,,,Event Parking,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-07-24,ASAP Printing & Graphics,$259.70,Alexandria,VA,,,,Campaign Advertising,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-08-19,The Hotel Roanoke & Conference Center,$36,Roanoke,VA,,,,Event Parking,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-08-19,Six and Sky Rooftop Grille,$47.58,Roanoke,VA,,,,Event Meal,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-08-26,House of Delagtes,$375.42,Richmond,VA,,,,Postage for Mailer,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-09-20,Ritz Carlton,$13.95,McLean,VA,,,,Event Parking,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-09-22,One-for-Hire,$60,Burien,WA,,,,Travel,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-09-22,Seoul Bowl Co.,$16.79,Bellevue,WA,,,,Travel Event Meal,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-09-23,Thai Kitchen,$26.59,Bellevue,WA,,,,Event Meal,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-09-22,United Arilines,$119.99,Chicago,IL,,,,Travel,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-09-25,13 Coins,$52.70,Seatec,WA,,,,Travel,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-10-18,NAACP Fairfax County Branch,$500,Fairfax,VA,,,,Fundraising Event,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-10-25,Capital One Hall,$21,Tysons,VA,,,,Event Parking,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-10-18,Hampton Inn & Suites,$182.56,Richmond,VA,,,,Travel,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-10-22,The Commonwealth Institute,$100,Richmond,VA,,,,Fundraiser,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-09-13,FedEx,$53.28,Herndon,VA,,,,Campaign Advertising,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-11-08,FedEx,$127.19,Herndon,VA,,,,Campaign Advertising,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-11-27,FedEx,$80.84,Herndon,VA,,,,Campaign Advertising,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-11-25,Hyatt Regency Reston,$8,Reston,VA,,,,Event Parking,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-11-30,USPS,$118,Oakton,VA,,,,USPS PO Box,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-29,Safeway,$5.04,Fairfax,VA,,,,Event Beverage,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-29,Micro Center,$464.24,Fairfax,VA,,,,Office Supplies,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-28,BJs,$154.18,Fairfax,VA,,,,Event Food & Beverages,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-28,Giant,$131.32,Oakton,VA,,,,Event Food & Beverages,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-07-01,Office Depot Office Max,$19.01,Chantilly,VA,,,,Office Supplies,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-21,Office Depot Office Max,$7.69,Chantilly,VA,,,,Office Supplies,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-11-27,Pressy Custom Apparel,$249.10,Sterling,VA,,,,Campaign Advertising,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-13,Staples (Richmond),$86.85,Richmond,VA,,,,Office Supplies,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-20,MediaPress,$312.70,Chantilly,VA,,,,Campaign Advertising,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2024-12-30,Catherine Hogan,"$2,000",Leesburg,VA,,,,Campaign Services,D,431261,2024-07-01 to 2024-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-15,Robert Rigby,$175,Arlington,VA,individual,Fairfax County Public Schools,Teacher,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-12,Carla Brown,$500,Vienna,VA,individual,Charlson Bredehoft Cohen Brown & Nadelhaft,Attorney,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Whitfield A Russell & Associates PC,"$1,000",Alexandria,VA,business,,Public Utility Consulting,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-24,Carissa Barker,$250,Reston,VA,individual,US State Department,Government,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-19,Paul Noursi,$200,Vienna,VA,individual,Pennoni,Engineer,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Michelle Widmann,$250,Reston,VA,individual,Upper Lake Consulting,Consultant,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Triston O'Savio,$100,Herndon,VA,individual,Blank Rome,Attorney,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-28,Paula Gori,$100,Oakton,VA,individual,Not Employed,Not Employed,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-02-25,Loren Hershey,$185,Oakton,VA,individual,Self-Employed,Attorney,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-25,Loren Hershey,"$1,000",Oakton,VA,individual,Self-Employed,Attorney,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Julie Bitzer,$250,Reston,VA,individual,Not Employed,Not Employed,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-01-02,Service Employees International Union Committee on Political Education (SEIU COPE),$500,Washington,DC,pac,,Labor PAC,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Lorri Zell,$250,Reston,VA,individual,Zell Law,COO,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-29,Jihan Andoni,"$2,000",Oakton,VA,individual,Zeva Incorporated,Self-Employed,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Vernice Gibson,"$1,000",Herndon,VA,individual,"The Leadership Compass, LLC",Leadership Coach,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-22,Pradip Dhakal,$250,Herndon,VA,individual,Town of Herndon,Councilman,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-25,Beth Tallman,$200,Lakewood,OH,individual,Not Employed,Not Employed,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-28,Alan Bolden,"$1,000",Washington,DC,individual,ReedSmith LLP,Attorney - Partner,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-28,Paul Zhu,$250,Chevy Chase,MD,individual,Not Employed,Not Employed,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-29,Lamont Bagby,"$2,500",Richmond,VA,individual,Virginia General Assembly,Elected Official,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-01-06,Home Builders Association of Virginia,$750,Richmond,VA,pac,,House Builder PAC,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-23,Law Office of Shirley A Norman-Taylor,$250,Annandale,VA,business,,Law Firm,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Adele Camus,"$1,000",Reston,VA,individual,Retired,Retired,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Laura David,$500,Reston,VA,individual,Retried,Retired,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Isabel Santa,$250,Reston,VA,individual,Qualcomm Inc.,"Senior Director, Public Affairs",,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-03-31,Catherine Baum,"$2,500",Reston,VA,individual,MARCAT Group,Managing Partner,,A,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-31,Act Blue,$302.75,Somerville,MA,,,,Financial Services,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-02-02,Wix.com,$636,San Francisco,CA,,,,Website and Domain,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-11,County of Fairfax,$352.80,Fairfax,VA,,,,2025 Primary Election Filing Fee,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-01-05,Fairfax County Democratic Committee,$50,Fairfax,VA,,,,Campaign Advertising,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-01-05,Fairfax County Democratic Committee,$85,Fairfax,VA,,,,Fundraiser,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-16,Constant Contact,$357,Waltham,MA,,,,E-mail Software,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-08,Youtube,$83.94,San Bruno,CA,,,,Youtube Fee,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-17,Staples,$21.50,Falls Church,VA,,,,Office Supplies,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-17,Wegmans,$146,Reston,VA,,,,Postage,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-01-06,Virginia House Democratic Caucus,"$5,500",Richmond,VA,,,,Contribution,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-16,Gerry Connolly for Congress,$50,Merrifield,VA,,,,Fundraiser,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-18,FedEx,$9.02,Herndon,VA,,,,Officce Supplies,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-18,MediaPress,$159,Chantilly,VA,,,,Campaign Advertising,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-02-13,Publix,$88.11,Richmond,VA,,,,Event Food,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-02-08,Clayton Spangler Photographic Design,$399,Charleston,WV,,,,Campaign Photos,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-01-21,OMNI Richmond,$20,Richmond,VA,,,,Event Parking,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-03-29,National Women's Political Caucus,$35,Washington,DC,,,,Contribution,D,436158,2025-01-01 to 2025-03-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-04-04,Phillip Thompson,$500,Leesburg,VA,individual,Thompson Associates,Attorney,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-06-01,Karen Schneider,$200,Reston,VA,individual,Self-Employed,HR Executive,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-04-23,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,Environmental PAC,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-04-07,Georgiana Bloom,$100,Reston,VA,individual,Self-Employed,Writer/Strategist Communication,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-06-02,Sharon Canner,$100,Reston,VA,individual,Not Employed,Not Employed,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-04-17,Mark Albert,$27,Herndon,VA,individual,Not Employed,Not Employed,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-05-17,Mark Albert,$27,Herndon,VA,individual,Not Employed,Not Employed,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-04-27,Gregory Brandon,$50,McLean,VA,individual,Not Employed,Not Employed,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-05-30,Altria Client Services LLC,"$1,500",Richmond,VA,business,,Manufacturer,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-05-30,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,Medical PAC,,A,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-05,Karen Keys-Gamarra,$704.20,Oakton,VA,,,,Travel,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-05,Act Blue,$49,Somerville,MA,,,,Financial Services,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-04-15,Democratic Party of Virginia,"$1,062.29",Richmond,VA,,,,Contribution,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-05-31,Truist,$22,Oakton,VA,,,,Bank Fees,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-04-27,Fairfax County Democratic Committee,$100,Fairfax,VA,,,,Contribution,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-05-04,DAAV-AAPI Caucus,$150,Arlington,VA,,,,Fundraiser,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-05-16,Constant Contact,$238,Waltham,MA,,,,E-mail Software,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-04-18,NoVA Labor Federation AFL-CIO,$242.88,Annandale,VA,,,,Campaign Advertsing,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-04-18,Virginia House Democratic Caucus,"$7,500",Richmond,VA,,,,Contribution,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-04-03,"Cornerstones, Inc.",$259,Reston,VA,,,,Fundraiser,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-04-18,Virginia Legislative Black Causus,"$1,000",Richmond,VA,,,,Contribution,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-04-09,Arc of Northern Virginia,$50,Fairfax,VA,,,,Fundrasier,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-05-08,Marriot Richmond,$90.12,Richmond,VA,,,,Travel,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-04,Arlington County,$7,Arlington,VA,,,,Event Parking,D,441103,2025-04-01 to 2025-06-05,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-06-19,Stephanie Abbott,$100,Reston,VA,individual,Not Employed,Not Employed,,A,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-06-25,Kerrie Wilson,$100,Herndon,VA,individual,Cornerstones,Director,,A,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-06-17,Mark Albert,$27,Herndon,VA,individual,Not Employed,Not Employed,,A,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-06-17,Everytown for Gun Safety Action Fund,"$1,000",New York,NY,pac,,Gun Safety PAC,,A,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-25,Karen Keys-Gamarra,$582.40,Oakton,VA,,,,Travel,D,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-30,Act Blue,$15.50,Somerville,MA,,,,Financial Services,D,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-16,Constant Contact,$131,Waltham,MA,,,,E-mail Software,D,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-08,Youtube,$13.99,San Bruno,CA,,,,Youtube Fee,D,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-30,Catherine Hogan,$300,Leesburg,VA,,,,Campaign Services,D,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-18,Herndon-Reston Rotary,$82.70,Herndon,VA,,,,Event Ticket,D,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-06-17,Rooted Consultant Group,$500,Lorton,VA,,,,Campaign Social Media,D,447805,2025-06-06 to 2025-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-28,Patricia Brown,$150,Palmyra,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-31,Roger Tarrant,$200,Vienna,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-01,Cesar Del Aguila,$100,Herndon,VA,individual,Apptus,Regonal Vice President,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-27,Pam Jones,$50,Fairfax,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-19,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,business,,Public Utility Consulting,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-20,Clean Virginia Fund,"$5,000",Charlottesville,VA,pac,,Environmental PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-24,Georgiana Bloom,$200,Reston,VA,individual,Self-Employed,Writer/Strategist Communication,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-25,Carissa Barker,$100,Reston,VA,individual,US State Department,Government,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-23,Alan Montgomery,$200,Reston,VA,individual,Self-Employed,Consultant,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-19,Rodney Page,$50,Reston,VA,individual,Retired,Retired Lawyer,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-30,Fairfax County Democratic Committee,"$1,250",Fairfax,VA,pac,,PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-02,Triston O'Savio,$250,Herndon,VA,individual,Self-Employed,Attorney,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-24,Kathy Kelley,$250,Reston,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-07,Loren Hershey,"$1,000",Oakton,VA,individual,Self-Employed,Attorney,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-31,Edward Robichaud,$100,Reston,VA,individual,Not Employed,Not Empolyed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-31,Debi Alexander,$125,Reston,VA,individual,SPARC,CEO,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-26,James Bierman,$250,McLean,VA,individual,Fairfax County,Supervisor,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-28,Stephanie Abbott,$100,Reston,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-31,Karen Campblin,$100,Fairfax,VA,individual,ktcPLAN,Planner,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-20,Richard Joyce,$200,Reston,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-17,Mark Albert,$27,Herndon,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-17,Mark Albert,$27,Herndon,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-08,HCA For Good Government PAC,"$2,000",Richmond,VA,pac,,Health PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-07,Virginia Education Association Fund PAC,$500,Richmond,VA,pac,,Education PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-02,"FirePAC Local 2068, Inc","$1,000",Fairfax,VA,pac,,Firefighter PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-31,Gregory Brandon,$35,McLean,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-02,Huntington Ingalls Industries,$500,Newport News,VA,business,,Ship Builder,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-30,Virginia Trial Lawyers PAC,"$3,000",Richmond,VA,pac,,Law PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-17,Invest in Virginia's Future,$254.12,Reston,VA,pac,,PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-27,AFSCME,"$2,000",Washington,DC,business,,Labor Organization,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-02,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,Public Safety PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-27,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Highway Contractors,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-30,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,Public Safety PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-20,Amazon.com Services LLC,$500,Washington,DC,pac,,PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-06,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beverage,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-07,Metro PAC of Virginia,$500,Washington,DC,pac,,Apartment and Office Builidng PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-20,"Williams Mullen Clark & Dobbins, P.C.",$500,Richmond,VA,business,,Business Law Firm,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-14,McGuireWoods,$250,Richmond,VA,business,,Law Firm,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-12,McGuireWoods,$250,Richmond,VA,business,,Law Firm,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-03,John Wilson,$500,Oak Hill,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-11,Elaine Montgomery,$300,Reston,VA,individual,Not Employed,Not Employed,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-07-20,Virginia Association of Mutual Insurance Companies,"$2,000",Richmond,VA,pac,,Insurance PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-07,Ortho PAC,$500,Richmond,VA,pac,,Health PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-07,Community-Owned Power PAC,$250,Glen Allen,VA,pac,,Cooperative PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-08,Virginia Democratic Women's Caucus,$250,Burke,VA,pac,,PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-13,The Virginia Forward PAC,"$1,000",Springfield,VA,pac,,PAC,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-08-30,Capital One,$500,Reston,VA,business,,Bank,,A,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2025-08-06,Clean Virginia Fund,"$2,500",Charlottesville,VA,pac,,Environmental PAC,Candidate Training,B,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2025-07-30,Gentry Locke Attorneys,$174.36,Richmond,VA,business,,Law Firm,Food & Beverages for Event,B,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-31,Karen Keys-Gamarra,$814.80,Oakton,VA,,,,Travel,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-31,Act Blue,$265.37,Somerville,MA,,,,Financial Services,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-21,Fairfax County Democratic Committee,$125,Fairfax,VA,,,,Fundraising Event,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-16,Constant Contact,$262,Waltham,MA,,,,E-mail Software,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-08,Youtube,$27.98,San Bruno,CA,,,,Youtube Fee,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-01,Catherine Hogan,$300,Leesburg,VA,,,,Campaign Services,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-02,Rooted Consultant Group,"$1,000",Lorton,VA,,,,Campaign Social Media,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-07-19,Council of State Governments - South,$550,Decatur,GA,,,,Legislative Conference Fee,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-03,National Conference of State Legislatures,$755,Washington,DC,,,,Legislative Conference Fee,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-02,Matchbox Station,"$1,935.82",Reston,VA,,,,"Fundraiser Room, Food and Drinks",D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-07-22,Sheraton Birmingham Hotel,"$1,301.65",Birmingham,AL,,,,Legislative Conf. Hotel,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-04,Omni Parker House,$294.03,Boston,MA,,,,Legislative Conference Hotel,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-06,Courtyard by Marriott - Boston,$754.61,Boston,MA,,,,Legislative Conf. Hotel,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-07-10,American Airlines,$522.97,Forth Worth,TX,,,,Travel to Legislative Conference in AL,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-03,American Airlines,$183.29,Forth Worth,TX,,,,Travel to Legislative Conference in MA,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-06,Delta Airlines,$264.30,Atlanta,GA,,,,Travel for Legislative Conference,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-03,Curb Mobility,$86.29,Astoria,NY,,,,Travel,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-13,5th & Broad Parking,$22,Richmond,VA,,,,Travel,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-05,Uber,$93.39,San Francisco,CA,,,,Travel,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-08-06,Legal Sea Foods,$44.12,East Boston,MA,,,,Event Food,D,454258,2025-07-01 to 2025-08-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-18,Sheila Coates,$400,Herndon,VA,individual,Not Employed,Not Employed,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-22,Robert Beury,$100,Oak Hill,VA,individual,Cogent Communications,Attorney,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-18,Christopher Kimm,"$1,000",Reston,VA,individual,Equinix,Operations Executive,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-17,Mark Albert,$27,Herndon,VA,individual,Not Employed,Not Employed,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-26,Virginia Cable Poilitical Committee,$500,Richmond,VA,pac,,Telecom PAC,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-30,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-08,Robert Schmer,$15,Reston,VA,individual,Not Employed,Not Employed,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-11,Home Builders Association of Virginia,"$1,000",Richmond,VA,pac,,House Builder PAC,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-18,Virginia Legislative Black Causus,"$9,000",Richmond,VA,pac,,PAC,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-30,Virginia Legislative Black Causus,"$3,000",Richmond,VA,pac,,PAC,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-03,Thomas Costello,$250,Reston,VA,individual,Not Employed,Not Employed,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-28,Katherine Hoffmann,$110,Falls Church,VA,individual,Not Employed,Not Employed,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-10,Comcast Financial Agency Corporation,$500,Philadelphia,PA,business,,Telecom,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-21,John Koza,$500,Los Altos,CA,individual,National Popular Vote,Chair / Doctor,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-26,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,PAC,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-09-26,RAI Services Company,"$1,000",Winston-Salem,NC,business,,Manufacturer,,A,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-09-30,Karen Keys-Gamarra,$164.50,Oakton,VA,,,,Travel,D,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-09-30,Act Blue,$70.63,Somerville,MA,,,,Financial Services,D,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-09-22,Truist,$22,Oakton,VA,,,,Bank Fees,D,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-09-16,Constant Contact,$131,Waltham,MA,,,,E-mail Software,D,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-09-08,Youtube,$13.99,San Bruno,CA,,,,YouTube Fees,D,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-09-11,Virginia House Democratic Caucus,"$10,000",Richmond,VA,,,,Contribution,D,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-09-30,Catherine Hogan,$600,Leesburg,VA,,,,Campaign Services,D,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-09-13,Rooted Consultant Group,"$1,300",Lorton,VA,,,,Campaign Social Media,D,461499,2025-09-01 to 2025-09-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-14,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,business,,Public Utility Consulting,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-21,Georgiana Bloom,$150,Reston,VA,individual,Self-Employed,Writer/Strategist Communication,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-13,Carissa Barker,$35,Reston,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-15,Alan Montgomery,$200,Reston,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-14,John Lovaas,$75,Reston,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-22,John Lovaas,$70,Reston,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-21,Raba Letteri,$150,Reston,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-19,Richard Chew,$75,Reston,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-22,Edward Robichaud,$75,Reston,VA,individual,Not Employed,Not Empolyed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-18,Constance Hartke,$75,Reston,VA,individual,Act Web Real Estate School,Self-Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-23,James Bierman,$75,McLean,VA,individual,Fairfax County,Supervisor,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-23,Kerrie Wilson,$100,Herndon,VA,individual,Cornerstones,Director,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-17,Mark Albert,$27,Herndon,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-03,Service Employees International Union Committee on Political Education (SEIU COPE),"$1,000",Washington,DC,pac,,Labor PAC,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-08,Robert Schmer,$15,Reston,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-20,Rivers Portsmouth Gaming LLC,"$1,000",Chicago,IL,business,,Gaming,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-22,Catherine Hogan,$150,Leesburg,VA,individual,Virginia House of Delegates,Administration,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-14,Susan Estes,$250,Oakton,VA,individual,Susan Estes,Financial Services,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-19,Stephen Ewart,$250,Reston,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-19,Kenneth Plum,$150,Reston,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-22,Carmen Powell,$500,Great Falls,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-23,Herschel Kanter,$300,Sterling,VA,individual,Not Employed,Not Employed,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-07,Virginia Chapter Sierra Club PAC,$250,Richmond,VA,pac,,Environmental PAC,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-17,Mid-Atlantic Pipe Trades Association,$500,Columbia,MD,business,,Union,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-20,PMI US Corporate Services,"$2,500",Washington,DC,business,,Manufacturer,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-23,Freedom Virginia Inc.,$500,Arlington,VA,business,,Social Welfare Organization,,A,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-23,Karen Keys-Gamarra,$522.90,Oakton,VA,,,,Travel,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-23,Act Blue,$177.41,Somerville,MA,,,,Financial Services,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-23,Patch,$36,New York,NY,,,,Campaign Advertisment,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-16,Constant Contact,$131,Waltham,MA,,,,E-mail Software,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-08,Youtube,$13.99,San Bruno,CA,,,,Youtube Fees,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-01,Virginia House Democratic Caucus,"$15,000",Richmond,VA,,,,Contribution,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-23,Virginia House Democratic Caucus,$15,Richmond,VA,,,,Contribution,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-10,BJs,$43.16,Fairfax,VA,,,,Event Food,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-07,MediaPress,$495,Chantilly,VA,,,,Campaign Advertising,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-08,Courtyard by Marriot - Norfolk,$210.85,Norfolk,VA,,,,Legislative Conf. Hotel,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-07,City of Norfolk,$8,Norfolk,VA,,,,Event Parking,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-04,Democratic Asian Americans of Virginia,$50,Falls Church,VA,,,,Fundraising Event,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-04,11th Congressional District Committee,$50,Fairfax,VA,,,,Fundraising Event,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-22,DJ shainight,$275,Silver Spring,MD,,,,Event Entertainment,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-22,Reston Association,$570,Reston,VA,,,,Event Room Rental,D,470274,2025-10-01 to 2025-10-23,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-24,Liz Murphy,$60,Springfield,VA,individual,Not Employed,Not Employed,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-25,Carla Brown,$500,Vienna,VA,individual,Charlson Bredehoft Cohen Brown & Nadelhaft,Attorney,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-11-01,Karen Schneider,$500,Reston,VA,individual,Self-Employed,HR Executive,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-24,Robert Haley,$75,Reston,VA,individual,Not Employed,Not Employed,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-25,Loren Hershey,$500,Oakton,VA,individual,Self-Employed,Attorney,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-31,Sharon Canner,$50,Reston,VA,individual,Not Employed,Not Employed,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-11-17,Mark Albert,$27,Herndon,VA,individual,Not Employed,Not Employed,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-11-08,Robert Schmer,$15,Reston,VA,individual,Not Employed,Not Employed,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-31,William Bouie,$250,Reston,VA,individual,Sky Communications Inc.,Executive,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-25,Dana Barakat,$35,Falls Church,VA,individual,Not Employed,Not Employed,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-25,Tana McNeil-Taylor,"$1,000",Herndon,VA,individual,Not Employed,Not Employed,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-24,Friends of Jennifer Boysko,"$2,500",Herndon,VA,candidate,,Candidate Committee,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-10-27,Verizon,$500,Washington,DC,business,,Telecommunications,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-11-05,Law Office of Deborah G. Mathews,$500,Alexandria,VA,business,,Law Firm,,A,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-27,Karen Keys-Gamarra,$929.60,Oakton,VA,,,,Travel,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-27,Act Blue,$172.38,Somerville,MA,,,,Financial Services,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-31,SyDar of DC LLC,"$1,900",Washington,DC,,,,Campaign Advertising,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-25,Michaels,$172.19,Reston,VA,,,,Event Decorations,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-25,Fairfax County Democratic Committee,$100,Fairfax,VA,,,,Contribution,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-25,Mulligan's Pub on the Green,"$3,199.20",Fairfax,VA,,,,Event Food Catering,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-16,Constant Contact,$131,Waltham,MA,,,,E-mail Software,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-08,Youtube,$13.99,San Bruno,CA,,,,Youtube Fees,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-28,Virginia House Democratic Caucus,"$15,000",Richmond,VA,,,,Contribution,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-10,The Commonwealth Institute,$77.64,Richmond,VA,,,,Legislative Conference,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-28,MediaPress,$775,Chantilly,VA,,,,Campaign Advertisement,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-25,Rooted Consultant Group,"$1,400",Lorton,VA,,,,Campaign Social Media,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-25,Rooted Consultant Group,"$1,350",Lorton,VA,,,,Social Media,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-25,DJ shainight,$275,Silver Spring,MD,,,,Event Entertainment,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-10-28,"Ink on Anything, LLC","$1,232.28",Chagrin Falls,OH,,,,Campaign Advertisement Postage,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-10,The Westin Richmond,$182.37,Richmond,VA,,,,Legislative Training Hotel,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-17,The Kimpton Hotel Monaco Philadelphia,$72.28,Philadelphia,PA,,,,Parking,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-13,Pier 88,$30.42,Henrico,VA,,,,Event Food,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-11-20,LAZ Parking,$30,Washington,DC,,,,NCSL Conference Parking,D,473866,2025-10-24 to 2025-11-27,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-12-29,Georgiana Bloom,$100,Reston,VA,individual,Self-Employed,Writer/Strategist Communication,,A,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-12-17,Mark Albert,$27,Herndon,VA,individual,Not Employed,Not Employed,,A,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-12-08,Robert Schmer,$15,Reston,VA,individual,Not Employed,Not Employed,,A,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2025-12-04,Mid-Atlantic Laborers Political Education Fund,"$2,500",Reston,VA,pac,,Union PAC,,A,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-15,Karen Keys-Gamarra,$334.60,Oakton,VA,,,,Travel,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-31,Act Blue,$7.60,Somerville,MA,,,,Financial Services,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-12,Patch,$46.50,New York,NY,,,,Campaign Advertising,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-28,Mulligan's Pub on the Green,$501,Fairfax,VA,,,,Event Food,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-16,Constant Contact,$131,Waltham,MA,,,,Email Software,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-08,Youtube,$13.99,San Bruno,CA,,,,YouTube Fees,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-27,Costco,$34.92,Fairfax,VA,,,,Event Food,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-01,Kathy Tran for Delegate,$78,Springfield,VA,,,,Campaign Advertising,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-29,Virginia House Democratic Caucus,"$7,500",Richmond,VA,,,,Contribution,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-07,FedEx,$38.38,Herndon,VA,,,,Campaign Advertising,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-01,USPS,$124,Oakton,VA,,,,USPS PO Box,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-13,BJs,$66.86,Fairfax,VA,,,,Event Beverages,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-01,Catherine Hogan,$300,Leesburg,VA,,,,Campaign Services,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-27,Rooted Consultant Group,$500,Lorton,VA,,,,Campaign Services,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-02,Reston Association,$300,Reston,VA,,,,Event Sponsor,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-14,Wegmans,$315.86,Leesburg,VA,,,,Event Food,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-28,Wegmans,$41.69,Leesburg,VA,,,,Event Food,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-06,Wegmans,$23.79,Fairfax,VA,,,,Event Food,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-13,Reese Glassman,$100,Alexandria,VA,,,,Event Food,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2025-12-17,Irresistible Cupcakes by Fatima,$260.76,Fairfax,VA,,,,Event Food,D,477427,2025-11-28 to 2025-12-31,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-04-13,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,business,,Public Utility Consulting,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-14,Whitfield A Russell & Associates PC,"$2,000",Alexandria,VA,business,,Public Utility Consulting,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-04-17,Clean Virginia Fund,"$7,500",Charlottesville,VA,pac,,Environmental PAC,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-01-13,Alan Montgomery,$400,Reston,VA,individual,Not Employed,Not Employed,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-01-05,Loren Hershey,"$1,500",Oakton,VA,individual,Not Employed,Not Employed,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-04-06,Loren Hershey,"$1,000",Oakton,VA,individual,Not Employed,Not Employed,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-17,Mark Albert,$30,Herndon,VA,individual,Not Employed,Not Employed,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-11,Virginia Cable Poilitical Committee,$500,Richmond,VA,pac,,Telecom PAC,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-12,Virginia Trial Lawyers PAC,"$2,500",Richmond,VA,pac,,Law PAC,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-05-30,Virginia Sheriff's Association PAC,$250,Richmond,VA,pac,,Public Safety PAC,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-13,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Manufacturer,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-01-09,Capital Results LLC,$250,Richmond,VA,business,,Government Affairs,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-22,Capital Results LLC,$500,Richmond,VA,business,,Government Affairs,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-03-20,Virginia Farm Bureau Federation AGPAC,$250,Richmond,VA,pac,,Agricultural PAC,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-10,Virginia Farm Bureau Federation AGPAC,$750,Richmond,VA,pac,,Agricultural PAC,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-11,McGuireWoods,$250,Richmond,VA,business,,Law Firm,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-08,Counterspark Inc.,$500,Washington,DC,business,,Clean Energy Advocate,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-04-19,MGM Resorts International Division,"$1,000",Las Vegas,NV,business,,Gaming,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+contribution,2026-06-20,Transurban (USA) Inc.,$250,Tysons,VA,business,,Road Toll Operator/Manager,,A,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2026-01-06,Realtors Political Actions Committee of Virginia,$161.27,Glen Allen,VA,pac,,PAC,Event Food and Beverage service,B,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+in_kind,2026-06-11,Gentry Locke Attorneys,$481.31,Richmond,VA,business,,Law Firm,Event Food and Beverage,B,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-03-30,Karen Keys-Gamarra,$340.75,Oakton,VA,,,,Travel,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-05-10,Karen Keys-Gamarra,$455.30,Oakton,VA,,,,Travel,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-05-31,Karen Keys-Gamarra,$329.15,Oakton,VA,,,,Travel,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-06-30,Karen Keys-Gamarra,$488.65,Oakton,VA,,,,Travel,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-06-30,Act Blue,$115.81,Somerville,MA,,,,Financial Services,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-01-10,Wix.com,$348,San Francisco,CA,,,,Website and Domain,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-01-30,Wix.com,$59.85,San Francisco,CA,,,,Website and Domain,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-01-30,Wix.com,$336,San Francisco,CA,,,,Website and Domain,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-06-14,Michaels,$79.48,Reston,VA,,,,Office Supplies,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-04-15,Fairfax County Democratic Committee,$550,Fairfax,VA,,,,Contribution,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-01-16,Constant Contact,$131,Waltham,MA,,,,E-mail Software,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-02-16,Constant Contact,$131,Waltham,MA,,,,E-mail Software,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-03-16,Constant Contact,$131,Waltham,MA,,,,E-mail Sotware,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-04-16,Constant Contact,$131,Waltham,MA,,,,E-mail Software,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-05-16,Constant Contact,$131,Waltham,MA,,,,E-mail Software,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-06-16,Constant Contact,$155,Waltham,MA,,,,E-mail Software,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-06-08,Youtube,$85.94,San Bruno,CA,,,,YouTube Fees,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-03-30,Catherine Hogan,$300,Leesburg,VA,,,,Campaign Services,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-03-29,National Women's Political Caucus,$35,Washington,DC,,,,Contribution,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-03-16,Virginia Legislative Black Causus,"$1,500",Richmond,VA,,,,Contribution,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-03-26,The Arc of Northern Virginia,$50,Fairfax,VA,,,,Contribution,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-01-28,Rooted Consulting Group,$500,Richmond,VA,,,,Social Media,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-03-09,Rooted Consulting Group,$500,Richmond,VA,,,,Social Media,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-03-23,Rooted Consulting Group,$500,Richmond,VA,,,,Social Media,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-05-01,Rooted Consulting Group,$500,Richmond,VA,,,,Social Media,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-05-26,Rooted Consulting Group,$500,Richmond,VA,,,,Social Media,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-06-23,Rooted Consulting Group,$500,Richmond,VA,,,,Social Media,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-05-04,National Conference of State Legislatures,$755,Washington,DC,,,,Legilative Conference Fee,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-04-22,5th & Broad Parking,$24,Richmond,VA,,,,Event Parking,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-01-06,"Printing and Graphics of VA, Inc.","$1,446.98",Richmond,VA,,,,Campaign Advertising,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-02-13,Harland Clarke,$31.89,San Antonio,TX,,,,Campaign Checks,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-04-01,Rotary Club of Herndon-Reston,$62.10,Herndon,VA,,,,Contribution,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-04-22,Meriwether's Cafe at the GAB,$26.80,Richmond,VA,,,,Event Meals,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-05-05,Meriwether's Cafe at the GAB,$11.60,Richmond,VA,,,,Event Meal,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-05-05,Meriwether's Cafe at the GAB,$5.40,Richmond,VA,,,,Event Beverage,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-04-30,Repro Rising,$225,Alexandria,VA,,,,Contribution,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra
+expenditure,2026-06-24,The Omni Homestead Health & Spa,$26.05,Hot Springs,VA,,,,Event Meal,D,495199,2026-01-01 to 2026-06-30,CC-23-00530,Friends of Karen Keys-Gamarra

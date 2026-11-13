@@ -1,0 +1,352 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2023-12-15,Timothy Clark,$250,Gretna,VA,individual,Blair,Contractor,,A,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+contribution,2023-12-17,Mark Crabtree,$500,Martinsville,VA,individual,Mark Anderson,Dentist,,A,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+contribution,2023-12-21,Friends of Chad Green,$250,Seaford,VA,business,,Political Organization,,A,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+contribution,2023-12-27,David Suetterlein,$500,Roanoke,VA,individual,Commonwealth of Virginia,State Senate,,A,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+contribution,2023-12-27,Danny Marshall,"$2,500",Danville,VA,individual,Marshall Concrete,Owner,,A,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+contribution,2023-12-28,William Pace,$125,Chatham,VA,individual,House of Delegates,Legislative Assistant,,A,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-14,"Woodfin Law Offices, PLLC","$2,000",Williamsburg,VA,,,,Legal Services,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-17,Anedot,$11.40,New Orleans,LA,,,,Online Processing,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-19,Anedot,$20.30,New Orleans,LA,,,,Online Processing,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-28,Anedot,$5.30,New Orleans,LA,,,,Online Processing,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-22,"Woodfin Law Offices, PLLC","$3,000",Williamsburg,VA,,,,Legal Services,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-21,Point1,"$9,730.26",Axton,VA,,,,Mailings and Postage,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-15,Republican Ads,"$10,000",Washington,DC,,,,Digital Advertising,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-14,JLK Political Strategies,$42,Richmond,VA,,,,Web Services,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-14,JLK Political Strategies,"$16,108.63",Richmond,VA,,,,Texting and Calls,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-14,JLK Political Strategies,"$1,240",Richmond,VA,,,,Texting,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-14,JLK Political Strategies,"$2,857.20",Richmond,VA,,,,Web Services,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-14,JLK Political Strategies,"$2,236.88",Richmond,VA,,,,Canvassing & Travel Reimbursement,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-15,JLK Political Strategies,"$7,500",Richmond,VA,,,,Mass Meeting Bonus,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-14,Pittsylvania County Republican Committee,$700,Hurt,VA,,,,Filing Fee,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-14,Truist,$10,Williamsburg,VA,,,,Bank Charge,D,387131,2023-12-12 to 2023-12-28,CC-23-02482,Phillips for Virginia
+contribution,2024-01-04,Morgan Griffith for Congress,"$1,000",Christiansburg,VA,candidate,,Political Committee,,A,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+contribution,2024-01-05,Virginia Automobile and Truck Dealers PAC,"$1,000",Richmond,VA,pac,,Political Committee,,A,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+contribution,2024-01-03,McGuire Woods,$500,Richmond,VA,business,,Public Affairs,,A,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+contribution,2024-01-03,Henry County Republican Committee,$500,Martinsville,VA,pac,,Political Committee,,A,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+contribution,2024-01-09,Matthew Benka,$500,Richmond,VA,individual,MDB Strategies,President,,A,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+contribution,2024-01-07,Daniel Tom,$250,Martinsville,VA,individual,"Amerlstaff, Inc",Personnel/COO,,A,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+contribution,2024-01-09,Spirit of Virginia,"$1,000",Falls Church,VA,pac,,Political Committee,,A,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+in_kind,2024-01-04,Republican Party of Virginia,"$5,330.45",Richmond,VA,party,,Political Party Committee,Mailing,B,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-31,Anedot,$6.60,New Orleans,LA,,,,Online Processing,D,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-04,Anedot,$1.70,New Orleans,LA,,,,Online Processing,D,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-06,Anedot,$8.60,New Orleans,LA,,,,Online Processing,D,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-08,Anedot,$12.60,New Orleans,LA,,,,Online Processing,D,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-05,Eric Phillips,$582.63,Martinsville,VA,,,,Reimbursement- Advertising,D,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-29,ADP,$74.48,Richmond,VA,,,,Payroll Fees,D,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+expenditure,2023-12-29,Mountain Media,$560,Ballston Spa,NY,,,,Advertising,D,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-05,Star News Corporation,"$2,000",Martinsville,VA,,,,Advertising,D,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-05,BH Media,$380,Richmond,VA,,,,Advertising,D,393160,2023-12-29 to 2024-01-09,CC-23-02482,Phillips for Virginia
+contribution,2024-06-28,Matthew Benka,$500,Richmond,VA,individual,MDB Strategies,President,,A,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+contribution,2024-03-28,A Safer Virginia PAC,"$1,000",Virginia Beach,VA,pac,,Political Committee,,A,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+contribution,2024-06-12,"Altria Client Services, LLC",$500,Richmond,VA,pac,,Political Committee,,A,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+contribution,2024-06-21,"MVP, LLC","$1,500",CAnonsburg,PA,business,,Energy,,A,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+contribution,2024-06-01,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,Political Committee,,A,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+contribution,2024-06-28,Truckers Political Action Committee of Virginia,$250,Richmond,VA,pac,,Political Committee,,A,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+contribution,2024-06-28,Virginia Manufactured and Modular Housing Association PAC,$250,Henrico,VA,pac,,Political Committee,,A,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-17,JLK Political Strategies,"$1,712.80",Richmond,VA,,,,Texting,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-17,JLK Political Strategies,$73.20,Richmond,VA,,,,Web Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-17,JLK Political Strategies,"$1,577.92",Richmond,VA,,,,Printing - Signage,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-17,JLK Political Strategies,$373.20,Richmond,VA,,,,Web Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-22,JLK Political Strategies,"$1,118.40",Richmond,VA,,,,Field Canvassing,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-22,JLK Political Strategies,"$1,140",Richmond,VA,,,,Printing,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-02-06,JLK Political Strategies,"$2,000",Richmond,VA,,,,Staff Canvassing,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-02-29,JLK Political Strategies,"$1,020",Richmond,VA,,,,Printing,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-02-29,JLK Political Strategies,$73.20,Richmond,VA,,,,Web Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-04-30,JLK Political Strategies,$97.20,Richmond,VA,,,,Web Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-05-18,JLK Political Strategies,$97.20,Richmond,VA,,,,Web Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-05-18,JLK Political Strategies,$120,Richmond,VA,,,,Web Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-06-27,JLK Political Strategies,$97.20,Richmond,VA,,,,Web Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-06-28,JLK Political Strategies,"$2,500",Richmond,VA,,,,Media Advertising,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-22,Truist,$144,Williamsburg,VA,,,,Bank Charges,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-02-21,Truist,$22,Williamsburg,VA,,,,Bank Fees,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-02-16,Eric Phillips,$958.98,Martinsville,VA,,,,Reimbursement for Event Expenses,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-17,Republican Party of Virginia,"$5,500",Richmond,VA,,,,Donation,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-19,ADP,$75,Richmond,VA,,,,Payroll Processing Fees,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-26,ADP,$74.48,Richmond,VA,,,,Payroll Fees,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-02-02,ADP,$74.48,Richmond,VA,,,,Payroll Processing Fees,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-02-16,ADP,$74.48,Richmond,VA,,,,Payroll Processing Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-03-08,ADP,$77.32,Richmond,VA,,,,Payroll Processing Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-04-19,ADP,$75,Richmond,VA,,,,Payroll Processing Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-06-28,ADP,$74.48,Richmond,VA,,,,Payroll Processing Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-01-24,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Compliance Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-02-29,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Compliance Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-03-29,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Compliance Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-04-30,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Compliance Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-06-27,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Compliance Services,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-03-08,Rebecca Phillips,$500,Martinsville,VA,,,,Reimbursement for Media Purchase,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-03-29,House Republican Campaign Committee,"$1,000",Henrico,VA,,,,Donation,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-03-29,Republican Commonwealth Leadership PAC,"$2,500",Woodstock,VA,,,,Donation,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-04-29,Virginia Agribusiness Council,$99.38,Richmond,VA,,,,Event Ticket,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-04-29,"Printing & Graphics of Va, Inc.",$330.19,Richmond,VA,,,,Printing,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-06-18,Wal-Mart Supercenter,$9.49,Martinsville,VA,,,,Office Supplies,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-06-20,Hobby Lobby,$8.49,Danville,VA,,,,Event Supplies,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-06-27,Office Plus Business Center,$65.96,Danville,VA,,,,Office Supplies,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2024-06-27,Food Lioin,$28,Danville,VA,,,,Office Supplies,D,407913,2024-01-10 to 2024-06-30,CC-23-02482,Phillips for Virginia
+contribution,2024-09-12,McGuire Woods,$250,Richmond,VA,business,,Public Affairs,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-07-08,Virginia Sheriffs PAC,$250,Richmond,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-07-15,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-07-15,Community Owned Power PAC,$500,Glen Allen,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-07-15,Virginia Beer Wholesalers Association PAC,$500,Richmond,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-07-15,Lawrence Distributing CO,$500,Danville,VA,business,,Distribution Company,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-07-25,Dominion Energy Inc PAC,"$2,500",Richmond,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-07-25,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-08-08,Richard Wayne Hall,"$1,000",Martinsville,VA,individual,Self,Investment Banker,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-08-20,Harold Slate,$500,Martinsville,VA,individual,HE Chip Slate II PC,Attorney,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-09-12,Vision Management Services,$500,Chicago,IL,business,,Property Management,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-09-18,VA Beverage Association PAC,"$1,000",Richmond,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-09-24,"The Williams Companies, Inc","$1,000",Tulsa,OK,business,,Natural Gas,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-10-09,"Amazon.com Services, LLC",$500,Seattle,WA,business,,Sales Website,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-10-17,Caesars Enterprise Services LLC,"$1,000",Las Vegas,NV,business,,Travel Company,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-10-17,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beer Distribution Company,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-10-30,Virginia Lifepoint Hospitals PAC,$500,Richlands,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-11-21,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-12-03,"Virginia State Police Assoication, Inc PAC",$250,Richmond,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-12-18,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2024-12-18,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Political Committee,,A,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-08-21,Anedot,$20.30,New Orleans,LA,,,,Online Processing Fee,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-07-31,Point1,"$1,020",Axton,VA,,,,Printing,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-07-25,JLK Political Strategies,$656.40,Richmond,VA,,,,Campaign Consulting,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-08-30,JLK Political Strategies,$942,Richmond,VA,,,,Campaign Consulting,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-09-24,JLK Political Strategies,$350,Richmond,VA,,,,Texting,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-07-08,ADP,$77.32,Richmond,VA,,,,Payroll Fees,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-07-26,ADP,$75,Richmond,VA,,,,Payroll Fees,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-08-02,ADP,$77.32,Richmond,VA,,,,Payroll Fees,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-09-03,ADP,$74.48,Richmond,VA,,,,Payroll Fees,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-09-13,ADP,$77.32,Richmond,VA,,,,Payroll Fees,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-10-11,ADP,$77.32,Richmond,VA,,,,Payroll Fees,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-10-25,ADP,$75,Richmond,VA,,,,Payroll Fees,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-12-06,ADP,$74.48,Richmond,VA,,,,Payroll Fees,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-12-13,ADP,$74.48,Richmond,VA,,,,Payroll Fees,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-07-25,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-08-30,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-09-30,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-12-03,Campaign Compliance Center,"$2,000",Williamsburg,VA,,,,Campaign Compliance,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-10-15,Hobby Lobby,$26.55,Danville,VA,,,,Supplies,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-11-07,Hobby Lobby,$14.87,Danville,VA,,,,Supplies,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-12-20,Hobby Lobby,$52.59,Danville,VA,,,,Supplies,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-12-30,Hobby Lobby,$29.75,Danville,VA,,,,Supplies,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-07-01,Hilton Richmond,$214.26,Richmond,VA,,,,Hotel Stay,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-07-09,USPS,$136,Lightfoot,VA,,,,Postage,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-07-31,USPS,$146,Lightfoot,VA,,,,Postage,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-10-10,USPS,$146,Lightfoot,VA,,,,Postage,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-10-11,USPS,$219,Lightfoot,VA,,,,Postage,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-12-10,USPS,$100,Lightfoot,VA,,,,Postage,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-08-05,Southern Virginia First PAC,$100,Williamsburg,VA,,,,Donation,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-08-16,JLK Strategies,$942,Richmond,VA,,,,Web Maintenance,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-11-18,Dollar General,$32.05,Axton,VA,,,,Supplies,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2024-12-02,Target,$47.18,Danville,VA,,,,Supplies,D,429116,2024-07-01 to 2024-12-31,CC-23-02482,Phillips for Virginia
+contribution,2025-01-07,McGuire Woods,$500,Richmond,VA,business,,Public Affairs,,A,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+contribution,2025-01-07,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Hospitality Company,,A,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+contribution,2025-01-07,Omega Protein,$500,Calais,ME,business,,Nutrition Products,,A,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-01-03,JLK Political Strategies,$350,Richmond,VA,,,,Campaign Consulting,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-01-14,JLK Political Strategies,"$1,646.40",Richmond,VA,,,,Media/Digital Services,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-01-27,JLK Political Strategies,"$1,001",Richmond,VA,,,,Email Services,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-01-10,ADP,$77.32,Richmond,VA,,,,Payroll Fees,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-01-24,ADP,$149.48,Richmond,VA,,,,Payroll Fees,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-01-29,ADP,$109.65,Richmond,VA,,,,Payroll Fees,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-02-07,ADP,$77.32,Richmond,VA,,,,Payroll Fees,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-03-07,ADP,$148.96,Richmond,VA,,,,Payroll Fees,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-01-03,Campaign Compliance Center,"$2,000",Williamsburg,VA,,,,Campaign Compliance,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-01-27,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-02-28,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-03-21,USPS,$219,Lightfoot,VA,,,,Postage,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-01-02,Treasurer- Henry County,$352.80,Martinsville,VA,,,,Primary Filing Fee,D,435288,2025-01-01 to 2025-03-31,CC-23-02482,Phillips for Virginia
+contribution,2025-04-29,"Altria Client Services, LLC","$1,000",Richmond,VA,pac,,Political Committee,,A,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+contribution,2025-06-04,Proud Patriots of SML PAC,$500,Moneta,VA,pac,,Political Committee,,A,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-04-25,ADP,$75,Richmond,VA,,,,Payroll Fees,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-05-02,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-05-09,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-05-16,ADP,$81.19,Richmond,VA,,,,Payroll Fees,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-04-30,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-05-07,House Republican Campaign Committee,"$1,000",Henrico,VA,,,,Donation,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-05-07,Republican Commonwealth Leadership PAC,"$7,500",Woodstock,VA,,,,Donation,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-05-07,USPS,$219,Lightfoot,VA,,,,Postage/Shipping,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-05-19,Carrie Coyner for Virginia,"$1,000",Chester,VA,,,,Donation,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-06-04,Lovejoy for Delegate,"$1,000",Manassas,VA,,,,Donation,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+expenditure,2025-05-02,David Owen for Delegate,"$1,549.59",Richmond,VA,,,,Donation,D,442058,2025-04-01 to 2025-06-05,CC-23-02482,Phillips for Virginia
+contribution,2025-06-30,Anheuser Busch Companies,$250,St. Louis,MO,business,,Beer Distribution Company,,A,444163,2025-06-06 to 2025-06-30,CC-23-02482,Phillips for Virginia
+contribution,2025-06-13,Walter Brown IV,$500,Rocky Mount,VA,individual,Franklin County,Constitutional Officer,,A,444163,2025-06-06 to 2025-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-06-13,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,444163,2025-06-06 to 2025-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-06-06,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,444163,2025-06-06 to 2025-06-30,CC-23-02482,Phillips for Virginia
+contribution,2025-07-31,Pittsylvania County Republican Committee,$300,Hurt,VA,business,,Political Organization,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-07-14,William Pace,$125,Chatham,VA,individual,House of Delegates,Legislative Assistant,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-21,Amy Lampe,"$1,000",Martinsville,VA,individual,Tacoma Inc,CEO,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-21,Ben Davenport Jr,"$2,500",Chatham,VA,individual,First Piedmont Corp,Waste Disposal,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-21,John Horff,$200,Martinsville,VA,individual,Virginia Glass & Mirror,CEO,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-21,Henry Long Jr,$500,Martinsville,VA,individual,Retired,Retired,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-25,Sean Brown,$200,Martinsville,VA,individual,Fidelity Bank,Vice President,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Maurice Royster,$250,Johnson City,TN,individual,EQT Corporation,Lobbyist,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-25,Realtors Political Action Committee of Virginia,"$1,000",Glen Allen,VA,pac,,Political Committee,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-25,Virginia Beer Wholesalers Association PAC,$500,Richmond,VA,pac,,Political Committee,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-21,"Amazon.com Services, LLC",$500,Seattle,WA,business,,Sales Website,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-27,Albert Sarver,$500,Collinsville,VA,individual,Sarver Properties,Sales,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-27,Albert Sarver,$500,Collinsville,VA,individual,Sarver Properties,Sales,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-21,Virginia Bankers Association PAC,"$1,000",Glen Allen,VA,pac,,Political Organization,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-15,Jason Vipperman,$500,Stuart,VA,individual,Vipperman Air,HVAC,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Garland Smart,$500,Martinsville,VA,individual,Retired,Retired,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-25,Linda Lawrence Dalton,$500,Danville,VA,individual,President,Lawrence Distribution,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Linda Lawrence Dalton,$500,Danville,VA,individual,President,Lawrence Distribution,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,James Frith,$250,Martinsville,VA,individual,Frith Construction,Chair of Board,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Elizabeth Sibbick,$500,Martinsville,VA,individual,Retired,Retired,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-25,Edward Snyder,"$1,000",Martinsville,VA,individual,Dentist,Self Employed,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Timothy Halpin,$250,Martinsville,VA,individual,Retired,Retired,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Jason Smart,$500,Martinsville,VA,individual,Rockwood Specialties,Owner,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Kevin Laine,$250,Ridgeway,VA,individual,Valley Star Credit Union,VP,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Brandon Grogan,$500,Martinsville,VA,individual,Southeastern Wood Products,Sales,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Bassett Office Supply,$500,Bassett,VA,business,,Office Supplies,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,"Wright Funeral Service & Crematory, LLC",$400,Martinsville,VA,business,,Funeral Home,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Dustin Hussey,$250,Martinsville,VA,individual,Tri-City Glass & Mirror Co,V.P,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Valleystar,"$1,500",Martinsville,VA,business,,Credit Union,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,Mountain Valley Pipeline LLC,"$1,000",Canonsburg,PA,business,,Fuel Company,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,VADPAC,"$1,000",Richmond,VA,pac,,Dental Association,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-08-31,MWM & SCM LLC,$500,Collinsville,VA,business,,Supply Chain Management,,A,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+in_kind,2025-08-28,Mark Crabtree,"$2,461.07",Martinsville,VA,individual,Mark Anderson,Dentist,Food for Event,B,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-07-15,Anedot,$5.30,New Orleans,LA,,,,Online Processing,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-16,Anedot,$20.30,New Orleans,LA,,,,Online Processing Fee,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-28,Anedot,$42.90,New Orleans,LA,,,,Online Processing Fee,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-07-11,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-08,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-01,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-27,"Amazon.com Services, LLC",$41.12,Seattle,WA,,,,Supplies,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-28,"Amazon.com Services, LLC",$39.30,Seattle,WA,,,,Supplies,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-07-07,Dollar General,$58.99,Axton,VA,,,,Supplies,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-12,Target,$41.21,Danville,VA,,,,Supplies,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-18,Virginia House of Delegates,"$2,349.26",Richmond,VA,,,,Postage,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-29,Dollar Tree,$50.49,Madison Heights,VA,,,,Supplies for Event,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-07-15,JW Marriott,$291.33,Danville,VA,,,,Hotel Stay for Event,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-07-23,PIP Printing,"$1,403.16",Danville,VA,,,,Printing,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-08-01,Baxter Robertson,$83.19,Martinsville,VA,,,,Framing,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-07-11,McBride Sign Company,"$1,663.60",Madison Heights,VA,,,,Signs,D,452459,2025-07-01 to 2025-08-31,CC-23-02482,Phillips for Virginia
+contribution,2025-09-18,Virginia Automobile and Truck Dealers PAC,"$2,500",Richmond,VA,pac,,Political Committee,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-10,Dominion Energy Inc PAC,"$10,000",Richmond,VA,pac,,Political Committee,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-26,Vision Management Services,$500,Chicago,IL,business,,Property Management,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-18,Caesars Enterprise Services LLC,"$1,000",Las Vegas,NV,business,,Travel Company,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-30,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,Political Committee,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-05,Arlene Burkhardt,$200,Hurt,VA,individual,burkhardt's Nursery Inc,Owner,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-10,Tyler Freeland,$500,Martinsville,VA,individual,Self,Financial Advisor,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-12,Anna McClain,$500,Martinsville,VA,individual,Commonwealth of VA,State Employee,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-12,Gloria Martin,$250,Martinsville,VA,individual,Retired,Retired,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-26,O'Connor Cozen,$500,Philadelphia,PA,individual,Self,Attorney,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-26,Jill Greenfield,$500,Martinsville,VA,individual,Retired,Retired,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-04,Techslate LLC,$250,Martinsville,VA,business,,Flooring,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-05,Petra Haskins,$101,Danville,VA,individual,Commonwealth of VA,Assistant Commonwealth Attorney,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-12,StateFarm Federal PAC,$500,Bloomington,IL,pac,,Political Action Committee,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-12,Comcast,$500,Philadelphia,PA,business,,Internet Provider,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-18,Virginia Wine Wholesalers PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-26,Paul Hammock,$500,Chatham,VA,individual,Hammock Dairy Inc,Owner,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-09-30,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,Political Action Committee,,A,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-11,Anedot,$20.30,New Orleans,LA,,,,Online Processing Fee,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-11,JLK Political Strategies,"$9,980.23",Richmond,VA,,,,Advertisment,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-19,JLK Political Strategies,"$6,110.77",Richmond,VA,,,,Texting,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-19,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-06,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance Center,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-08,USPS,$234,Lightfoot,VA,,,,Postage/Shipping,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-11,PIP Printing,$637.80,Danville,VA,,,,Printing,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-11,PIP Printing,$382.68,Danville,VA,,,,Printing,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-11,PIP Printing,$912.59,Danville,VA,,,,Printing,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-16,Pittsylvania County Sports Hall of Fame,$50,Dry Fork,VA,,,,Advertisement,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-18,Friends of Chris Obenshain,"$5,000",Blacksburg,VA,,,,Donation,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-08,Mama Rosas Italian,$312.24,Hampton,VA,,,,Food and Beverage,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-08,CVip Media Solutions,"$2,000",Danville,VA,,,,Sponsorship,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-10,Kim Taylor for Delegate,"$1,500",Petersburg,VA,,,,Donation,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-10,Sanbear Collective,"$7,000",Monroe,GA,,,,Campaign Photography,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+expenditure,2025-09-11,Turner Media,"$1,200",Collinsville,VA,,,,Radio Advertisement,D,472644,2025-09-01 to 2025-09-30,CC-23-02482,Phillips for Virginia
+contribution,2025-10-23,McGuire Woods,$500,Richmond,VA,business,,Public Affairs,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-02,Stephen Rosenthal,$100,Roanoke,VA,individual,Retired,Retired,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-15,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,Law Firm,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-15,"Virginia State Police Assoication, Inc PAC",$500,Richmond,VA,pac,,Political Committee,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-20,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-20,"National Shooting Sports Foundation, Inc",$500,Shelton,CT,business,,Sports Equipment,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-23,Meeks Recycling & Salvage LLC,$500,Martinsville,VA,business,,Recycling,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-23,American Electric Power,"$2,500",Washington,DC,business,,Power Company,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-15,POM of Virginia,"$1,000",Axton,VA,business,,Skill Games,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-15,KOCH GA Inc,"$1,000",Duluth,GA,business,,Processing Company,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-09,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Law Office,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-06,Albers & Company,$500,Arlington,VA,business,,Consulting Firm,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-03,Jeff Kerr,"$1,000",Cary,NC,individual,Onsite Wastewater Professionals,Director of Operations,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-03,Jonathan Godfrey,"$1,000",Pittsboro,NC,individual,Onsite Wastewater Professionals,Director of Education,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-04,John Bassett,$200,Martinsville,VA,individual,Bassett Furniture,Manager,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-06,Stavros Christoudias,$500,Franklin Lakes,NJ,individual,Heritage Surgical,Surgeon,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-08,Mary Barranti,$100,Pinehurst,NC,individual,US Army Reserve Command,IT Manager,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-06,Christy Nester,$200,Martinsville,VA,individual,Valleystar Credit Union,VP Administrative Services,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-21,Danny Marshall Election Committee,"$2,500",Danville,VA,business,,Political Organization,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-21,Dan Valley Republican Women's Club,$125,Sutherlin,VA,business,,Political Organization,,A,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+in_kind,2025-10-15,Republican Party of Virginia,"$8,340.55",Richmond,VA,party,,Political Party Committee,Direct Mailing,B,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+in_kind,2025-10-03,Stanley for Senate,"$1,273.60",Moneta,VA,candidate,,Political Organization,Event Food and Rentals,B,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+in_kind,2025-10-10,Phillips Logistics Management Corp,"$1,600",Martinsville,VA,business,,Business Management Consultants,Electronic Billboards,B,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+in_kind,2025-10-22,Phillips Logistics Management Corp,"$4,455",Martinsville,VA,business,,Business Management Consultants,Campaign Billboards,B,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-05,Anedot,$91.50,New Orleans,LA,,,,Online Processing Fee,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-07,Anedot,$22.30,New Orleans,LA,,,,Online Processing Fee,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-09,Anedot,$4.30,New Orleans,LA,,,,Online Processing Fee,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-21,Truist,$92,Williamsburg,VA,,,,Service Charges,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-14,Republican Party of Virginia,"$9,000",Richmond,VA,,,,Donation,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-10,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-01,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-02,Sam's Club,$53.47,Danville,VA,,,,Supplies,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-06,Kroger,$168.81,Martinsville,VA,,,,Supplies,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-23,Womack Publishing,$281.25,Chatham,VA,,,,Printing,D,465688,2025-10-01 to 2025-10-23,CC-23-02482,Phillips for Virginia
+contribution,2025-10-28,Jason Boles,$250,Manakin Sabot,VA,individual,Self Employed,Self Employed,,A,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+contribution,2025-10-29,Sriram Peddibhotla,$400,McLean,VA,individual,SAIC,IT Principal Architect,,A,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+contribution,2025-11-07,Virginia Hospital & Healthcare Assoc. PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-29,Anedot,$10.30,New Orleans,LA,,,,Online Processing Fee,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-31,Anedot,$16.30,New Orleans,LA,,,,Online Processing Fee,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-11-21,Truist,$76,Williamsburg,VA,,,,Service Charges,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-31,Star News Corporation,"$2,000",Martinsville,VA,,,,Advertising,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-31,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-11-05,Food Lioin,$33.30,Danville,VA,,,,Supplies,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-28,USPS,$156,Lightfoot,VA,,,,Postage,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-11-19,USPS,$106,Lightfoot,VA,,,,Postage,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-31,PIP Printing,$637.80,Danville,VA,,,,Printing,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-31,PIP Printing,$637.80,Danville,VA,,,,Printing,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-24,Kim Taylor for Delegate,"$8,000",Petersburg,VA,,,,Donation,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-11-24,Sam's Club,$50,Danville,VA,,,,Supplies,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-30,BTW 21,"$1,000",Martinsville,VA,,,,Advertising,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-24,Piedmont Broadcasting,$798,Danville,VA,,,,Advertisment,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-10-24,Earley for Delegate II,"$1,000",Midlothian,VA,,,,Donation,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-11-06,Village Pizza,$56.28,Danville,VA,,,,Food and Beverage,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+expenditure,2025-11-06,Romero Broadcasting System,"$1,000",Martinsville,VA,,,,Advertising,D,472645,2025-10-24 to 2025-11-27,CC-23-02482,Phillips for Virginia
+contribution,2025-12-23,Community Owned Power PAC,$500,Glen Allen,VA,pac,,Political Committee,,A,478895,2025-11-28 to 2025-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-12-05,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,478895,2025-11-28 to 2025-12-31,CC-23-02482,Phillips for Virginia
+expenditure,2025-12-31,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,478895,2025-11-28 to 2025-12-31,CC-23-02482,Phillips for Virginia
+contribution,2026-01-07,McGuire Woods,$500,Richmond,VA,business,,Public Affairs,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-06-08,"Altria Client Services, LLC","$1,000",Richmond,VA,pac,,Political Committee,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-03-25,Community Owned Power PAC,"$1,000",Glen Allen,VA,pac,,Political Committee,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-01-12,Dominion Energy Inc PAC,"$5,000",Richmond,VA,pac,,Political Committee,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-05-28,Dominion Energy Inc PAC,"$25,000",Richmond,VA,pac,,Political Committee,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-01-27,Comstock Hospitality Holdings LLC,"$2,500",Reston,VA,business,,Hospitality Company,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-01-07,HBAV Build-PAC,"$1,500",Richmond,VA,pac,,Political Committee,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-01-27,Arrow International Inc,$500,Cleveland,OH,business,,Charitable Gaming Supplies,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-01-27,PPE Casino Resorts Petersburg,"$1,000",Baltimore,MD,business,,Casino,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-01-27,VA Operators for Skill,"$1,000",Richmond,VA,pac,,Political Committee,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-06-08,VA Operators for Skill,"$5,000",Richmond,VA,pac,,Political Committee,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+contribution,2026-06-26,Capital Results LLC,$500,Richmond,VA,business,,Consulting Firm,,A,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-01-24,Truist,$24,Williamsburg,VA,,,,Service Charge,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-02-23,Truist,$28,Williamsburg,VA,,,,Service Charges,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-03-23,Truist,$20,Williamsburg,VA,,,,Service Charges,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-04-21,Truist,$28,Williamsburg,VA,,,,Service Charges,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-01-05,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-01-30,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-02-09,ADP,$101.70,Richmond,VA,,,,Payroll Fees,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-03-06,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-04-10,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-05-15,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-06-26,ADP,$78.21,Richmond,VA,,,,Payroll Fees,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-04-09,Star News Corporation,"$2,000",Martinsville,VA,,,,Advertisement,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-01-05,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-02-02,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-02-16,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-03-16,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-04-01,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-05-04,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-06-30,Campaign Compliance Center,"$1,000",Williamsburg,VA,,,,Campaign Compliance,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-04-01,House Republican Campaign Committee,"$1,000",Henrico,VA,,,,Donation,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-04-23,"Amazon.com Services, LLC",$85.03,Seattle,WA,,,,Supplies,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-06-24,"Amazon.com Services, LLC",$53.14,Seattle,WA,,,,Supplies,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-06-09,USPS,$156,Lightfoot,VA,,,,Postage,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-02-09,Target,$16.84,Danville,VA,,,,Supplies,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-02-09,Target,$72.28,Danville,VA,,,,Supplies,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-02-27,Friends of Andrew Rice,"$1,000",Virginia Beach,VA,,,,Donation,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-04-17,"CSGA Group, LLC",$327.25,Winchester,VA,,,,Texting,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia
+expenditure,2026-06-26,Martinsville Lady A's,$500,Martinsville,VA,,,,Sponsorship,D,496672,2026-01-01 to 2026-06-30,CC-23-02482,Phillips for Virginia

@@ -1,0 +1,939 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2023-02-28,Ms. Hillary Pugh Kent,"$10,000",Warsaw,VA,individual,Al Pugh Distributing Company,Sales,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-02-28,Ms. Hillary Pugh Kent,$26.03,Warsaw,VA,individual,Al Pugh Distributing Company,Sales,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-01,Ms. Hillary Pugh Kent,$5.21,Warsaw,VA,individual,Al Pugh Distributing Company,Sales,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-02,Copa Wine Corporation,"$10,000",Warsaw,VA,business,,Wine Distribution,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-02,"Al Pugh Distributing Co., Inc.","$10,000",Warsaw,VA,business,,Beer Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-03,Mr. Rhoderick Parker,"$1,041.02",Colonial Beach,VA,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-04,Mr. Robert Stevenson,$312.30,King George,VA,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-03,Mr. Ralph Elliott,"$1,041.02",Seneca,SC,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-08,Mr. Patrick Hutchison,"$1,041.02",Roanoke,VA,individual,Valley Distributing Corp.,Sales,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-10,Mr. Russell Mait,$260.25,Kilmarnock,VA,individual,Bramlee LLC,Engineer,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-11,Mr. Steve Beykirch,$260.25,Frontenac,KS,individual,Eagle Beverage,Beverage Wholesaler,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-13,Virginia Eagle Distributing Company,"$5,000",Verona,VA,business,,Beverage Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-13,"Virginia Beverage Company, LLC","$1,000",Bristol,VA,business,,Beverage Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-09,Mr. W. C. Herbert,$250,Warsaw,VA,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,Mr. W. C. Herbert,$100,Warsaw,VA,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-14,Mr. Jeffrey Szperski,"$1,041.02",Irvington,VA,individual,Chesapeake Bank,Banker,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-17,Brown Distributing Company,"$7,500",Richmond,VA,business,,Beverage Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-15,Mr. Grant Gilbert,"$2,500",Bristol,VA,individual,Virginia Beverage Company,Sales,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-15,"Blue Ridge Beverage Co., Inc.","$5,000",Salem,VA,business,,Beverage Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-23,Hoffman Beverage Company,"$5,000",Chesapeake,VA,business,,Beverage Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-28,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$25,000",Richmond,VA,pac,,Industry Association,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-30,Virginia Automobile & Truck Dealers PAC - 12-00524,"$2,500",Richmond,VA,pac,,Industry PAC,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-30,M. Price Distributing,"$2,500",Hampton,VA,business,,Beverage Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-30,"W. Ellery Kellum, Inc.","$1,500",Weems,VA,business,,Oyster Packer & Planter,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-30,"Premium Distributors of VA, LLC","$5,000",Chantilly,VA,business,,Beverage Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-28,Mr. Phillip A. Short,"$2,000",Salem,VA,individual,P.A. Short Distributing,Sales,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-28,Mr. Phillip Aden Short Jr.,"$2,000",Salem,VA,individual,P.A. Short Distributing,Sales,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-28,Mr. Frank J. Larose,$500,Brecksville,OH,individual,House of Larose,Sales,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-28,Lawrence Distributing Co.,"$2,500",Danville,VA,business,,Beverage Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-28,Mr. Carlton Kemper,$150,Farnham,VA,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,"Wendell Distributing Company, Inc.","$1,000",Cape Charles,VA,business,,Beverage Distributor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,Mr. Daniel W. Pritchard Jr.,$200,Warsaw,VA,individual,Pritchard & Fallin,HVAC - Electrical Contractor,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,Mr. Marcus Alan Aylor,$200,Colonial Beach,VA,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,Ms. Carol C Motley,$250,Warsaw,VA,individual,Clements Tent Rental,Event Planner,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,Poplar Ridge Nursery Inc.,$250,Warsaw,VA,business,,Nursery,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,Mr. John R. Fidler Jr.,$250,Warsaw,VA,individual,Virginia American Water Co.,Operations Superintendent,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,Mr. Greg White,$200,Tappahannock,VA,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,"Deck World, Inc.",$500,Warsaw,VA,business,,Deck Construction,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,Mr. William E. Elliott Jr.,"$1,000",Fredericksburg,VA,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-03-29,Mr. Gary W. Sanders,$250,Warsaw,VA,individual,Retired,Retired,,A,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-03-16,Ms. Hillary Pugh Kent,$444.37,Warsaw,VA,individual,Al Pugh Distributing Company,Sales,Pens and Cups for Launch Party,B,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-02-22,Ms. Patricia Pugh,$192,Warsaw,VA,individual,Al Pugh Distributing,Sales,Website Development,B,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-02-23,Ms. Patricia Pugh,$36.15,Warsaw,VA,individual,Al Pugh Distributing,Sales,Domain name for website,B,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-03-31,Mr. Thomas McCarty Moncure Jr.,$125,Colonial Beach,VA,individual,Retired,Retired,Ticket to Stratford Hall Oyster Roast,B,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-03-31,Magnolia Media,"$1,500",Mechanicsville,VA,business,,Public Relations,"Social Media, Graphic Design and Website Management",B,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-02-28,Lancaster County Republican Committee,"$1,500",Kilmarnock,VA,,,,Event Tickets,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-31,Winred (Transaction Fees),$205.23,Arlington,VA,,,,WinRed Fees for Reporting Period,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-10,HCW & Associates,"$2,500",Richmond,VA,,,,Consulting Fees,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-14,Treasurer of Richmond County,$352.80,Warsaw,VA,,,,Primary Filing Fee,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-17,"Barbour Printing Services, Inc.",$707.62,Tappahannock,VA,,,,Printing Services,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-24,"Barbour Printing Services, Inc.",$105.30,Tappahannock,VA,,,,Bumper Stickers,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-24,"JDS Solutions, LLC","$4,154.56",Midlothian,VA,,,,Yard Signs,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-24,Google LLC,$20,Mountain View,CA,,,,Google Work Space,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-31,Google LLC,$17.80,Mountain View,CA,,,,Google Workspace,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-24,United States Postal Service,$6.37,Warsaw,VA,,,,Mail,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-28,United States Postal Service,$12.60,Warsaw,VA,,,,Stamps,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-29,Relish Restaurant,"$1,836.55",Warsaw,VA,,,,Launch Party - Relish - Food + Beverage,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-29,Relish Restaurant,$566.50,Warsaw,VA,,,,Launch Party - Space Rental,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-03-08,Harland Clarke Corp.,$23.10,San Antonio,TX,,,,Check Order,D,315883,2023-02-22 to 2023-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-04,Mr. Kenneth R. Sparks,$250,White Stone,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-03,Mr. Shannon Smith,$250,Kilmarnock,VA,individual,Sports Center Ltd.,Sales,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-02,"Hudson-Blunt Insurance Agency, Inc.",$250,Lively,VA,business,,Insurance Company,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-29,Mr. Andrew T. Ransone,$500,Kilmarnock,VA,individual,Chesapeake Tree Service,Contractor,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-27,Mr. George C. Palmer III,"$1,000",Charlottesville,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-01,Small Town Burger,$250,White Stone,VA,business,,Retaurant,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-01,"Kelson Creek, LLC",$250,Kilmarnock,VA,business,,Construction and Sales,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-01,Ms. Sandra A Donahue,$250,Kilmarnock,VA,individual,Kilmarnock Inn,Hospitality,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-25,Mr. William W. Muse,$250,Lancaster,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-03,Mr. Frederick Johnson,$250,Irvington,VA,individual,Northern Neck Services Group,Contractor,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-04,Ms. Elizabeth Grasso,$250,White Stone,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-04,"Heirs of B.H.B. Hubbard, Jr., LLC",$500,White Stone,VA,business,,Investment,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-13,Ms. Kristy Cannon,$250,Springfield,VA,individual,Fairfax County Public School,Speech Language Pathologist,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-15,Mr. Charles Guthridge,"$1,000",White Stone,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-16,Mr. Stephen Horton,$500,Richmond,VA,individual,McGuire Woods,Public Affairs,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-16,Mr. Michael Torbert,"$1,000",Reedville,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Wood Products 2/19 Polictical Action Committee of Virginia,$250,Sandston,VA,pac,,Political Action Committee,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Two Capitols Consulting,$250,Richmond,VA,business,,Political Consulting,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,"Christian & Barton, LLC",$500,Richmond,VA,business,,Law Firm,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,"Webb's Lawn Service, LLC",$250,White Stone,VA,business,,Lawn Care,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Mr. John Monroe,$250,Williamsburg,VA,individual,Monroe Capitol Partners,Financial Adviser,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Ms. Kathleen B. Jones,"$1,000",Tappahannock,VA,individual,Bevans Oyster Company,Sales,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-15,Ms. Patricia Pugh,"$5,000",Warsaw,VA,individual,Al Pugh Distributing,Sales,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-17,Ms. Patricia Pugh,"$5,000",Warsaw,VA,individual,Al Pugh Distributing,Sales,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-24,Mr. Russell Mait,$250,Kilmarnock,VA,individual,Bramlee LLC,Engineer,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-14,Mr. Thomas McCarty Moncure Jr.,$200,Colonial Beach,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-06,Mr. John F. Fick,"$1,000",Fredericksburg,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-06,Beasley Drywall LLC,$500,Farnham,VA,business,,Construction,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-13,"Michael J Self Grain Farms, LLC","$1,000",Farnham,VA,business,,Farm,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-13,Sailesh R. Chowdhury,"$2,000",Moorestown,NJ,individual,"Basic Commerce & Industries, Inc.",Engineer,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-19,Ms. Gale T. Ferraro,$250,White Stone,VA,individual,Isabelle Horseley Real Estate,Real Estate Agent,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-18,Dr. Kathryn K. Stout,$500,Heathsville,VA,individual,Retired,Retired Physician,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-19,Ms. Lisa L. Smith,$200,White Stone,VA,individual,Self Employed,Care Giver,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-18,Ms. Catherine C. Mecke,$250,Irvington,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-26,Mr. David Daniel,$520.51,Weems,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-04-24,Ransone for Delegate,"$1,000",Kinsale,VA,candidate,,Political Candidate Committee,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-05,Dr. John Carmack,$500,Powhatan,VA,individual,Central Virginia Family Physicians,Physician Exec,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-05,Ms. Adeline Williams,$250,White Stone,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-05,Virginia State Police Association (PAC-12-00489),$250,Richmond,VA,pac,,Political Action Committee,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Virginia State Police Association (PAC-12-00489),$250,Richmond,VA,pac,,Political Action Committee,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-10,Ms. Ann Greer Dawson,$200,Irvington,VA,individual,Bon Secours Hospital,Nurse,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-02,Reed Smith LLP VA Political Action Committee (PAC-12-00294),$250,Richmond,VA,pac,,Political Action Committee,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-02,"Hunton Andrews Kurth, LLP",$500,Richmond,VA,business,,Law Firm,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Mr. Ronald W. Bevans,"$2,500",Kinsale,VA,individual,Bevans Oyster Company,Seafood Sales,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Mr. Christopher S. Cobb,$250,White Stone,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Mr. James N. Carter Jr.,$300,Irvington,VA,individual,Retired,Retired,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Omega Protein,"$2,500",Calais,ME,business,,Fish Products Company,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,"LBM, Inc.",$250,White Stone,VA,business,,Building Supply Company,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Mr. Charles Mason,$200,King George,VA,individual,King George County,Circuit Court Clerk,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-19,Mr. Michael Wardman,$500,King George,VA,individual,84 Lumber,Construction Manager,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-31,Mr. Russell B. Harper,"$1,000",Henrico,VA,individual,Harper Associates,Real Estate Developer,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-05-31,Virginia Society of Anethesiologists PAC (PAC-12-00102),"$1,000",Richmond,VA,pac,,Political Action Committee,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-08,Virginia Maritime Association Political Action Commitee (PAC-22-00091),$500,Norfolk,VA,pac,,Political Action Committee,,A,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-05-16,Mr. Jeffrey Szperski,$800,Irvington,VA,individual,Chesapeake Bank,Banker,Food & Beverage,B,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-05-18,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,$486.98,Richmond,VA,pac,,Industry Association,Food & Beverage for Reception,B,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-06-06,Magnolia Media,"$1,500",Mechanicsville,VA,business,,Public Relations,"Social Media, Marketing, Graphic Design, Website",B,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-05-12,Mr. Mike Blaser,$400,King George,VA,individual,U.S. Navy/Dept. of Defense,Engineer,Food and Beverages,B,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-05-16,Mr. David Dew,$800,White Stone,VA,individual,Horsley Real Estate,Real Estate Agent,Food & Beverage,B,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-05-16,Mr. Tyler Brent,$800,White Stone,VA,individual,Coastlines Appraisals,Real Estate Appraiser,Food & Beverage,B,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-05-16,Mr. Jim Council,$800,Richmond,VA,individual,Council Government Consulting,Lobbyist,Food & Beverage,B,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-05-16,Mr. Ed Burton,$800,White Stone,VA,individual,University of Virginia,Professor,Food & Beverage,B,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-05-16,Mr. Joe Hudnall,$800,Kilmarnock,VA,individual,Noblett's Inc.,Sales,Food & Beverage,B,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-08,Winred (Transaction Fees),$147.62,Arlington,VA,,,,WinRed (Transaction Fees),D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-04-14,HCW & Associates,"$2,500",Richmond,VA,,,,Consulting Services,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-09,"Barbour Printing Services, Inc.",$261.67,Tappahannock,VA,,,,Invitations and Envelopes for Fund Raiser in White Stone,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-04-03,"JDS Solutions, LLC","$3,000",Midlothian,VA,,,,April Retainer,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-01,"JDS Solutions, LLC","$3,000",Midlothian,VA,,,,Consulting Services - May,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-01,"JDS Solutions, LLC","$3,414.22",Midlothian,VA,,,,"Consulting Fee + Campaign Items (flags, palm cards, tape)",D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-01,Google LLC,$24,Mountain View,CA,,,,Google Workspace,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-31,Google LLC,$24,Mountain View,CA,,,,Google Workspace Platform,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-04-06,Willow Stitch,$546.76,Warsaw,VA,,,,Hats + Campaign Embroidery,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-22,Willow Stitch,$796.07,Warsaw,VA,,,,Hats,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-04-12,United States Postal Service,$88.20,Warsaw,VA,,,,Postage,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-10,United States Postal Service,$25.20,Warsaw,VA,,,,Postage,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-26,United States Postal Service,$63,Warsaw,VA,,,,Postage,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-02,PXI Corp,$261.75,Harrisonburg,VA,,,,Palm Cards,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-02,PXI Corp,$376.51,Harrisonburg,VA,,,,Bumper Stickers,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-02,PXI Corp,$320.35,Harrisonburg,VA,,,,Lapel Sticker,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-11,"Clements Tent Rentals, Inc.",$404.06,Warsaw,VA,,,,"Tables, chairs, tablecloths, etc. for King George event",D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-01,Colonial Beach Chamber of Commerce,$10,Colonial Beach,VA,,,,Entry Fee for Colonial Beach Parade 6/10/2023,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-02,Gotprint.com,$393.36,Burbank,CA,,,,3 Roll Labels,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-07,Verizon,$140.53,Newark,NJ,,,,Wireless Phone Service,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-07,American Stationary Co.,$157.63,Peru,IN,,,,Stationary,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-08,BJ's,$62.06,Mechanicsville,VA,,,,Candy for Parade,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-06,Omni Resorts - The Homestead,$680.56,"Hot Springs,",VA,,,,The House Republican Caucus Retreat at The Homestead,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-05,Fastballoons.com,$169.23,Carson,CA,,,,Balloons,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-05-18,Wireless Zone,$87.62,Tappahannock,VA,,,,Campaign Cell Phone,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-04-19,Totally Promotional,$171.85,Coldwater,OH,,,,Drinkware/Cups for Fundraiser,D,328761,2023-04-01 to 2023-06-08,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-21,Mr. Ralph Elliott,"$1,041.02",Seneca,SC,individual,Retired,Retired,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-30,Mr. Floyd Lee Sanders,$50,Warsaw,VA,individual,Self-Employed,Farmer,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-15,"GeoProducts, LLC","$1,000",Kilmarnock,VA,business,,Building Materials Store,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-15,Virginia Sheriffs Association Political Action Committee (PAC 12-00056),$250,Richmond,VA,pac,,Political Action Committee,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-15,Mr. Dave S. Tambellini,$500,Heathsville,VA,individual,Retired,Retired,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-23,Virginia Wine Wholesalers Political Action Committee (PAC 91-258),"$5,000",Richmond,VA,pac,,Political Action Committee,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-23,Johnson Brothers Service Distributing,"$1,000",Lorton,VA,business,,Sales,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-23,Virginia Imports Ltd.,"$1,500",Springfield,VA,business,,Sales,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-23,Republic National Distributing Company,"$1,500",Atlanta,GA,business,,Sales,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-23,"Associated Distributors, LLC","$1,500",Sandston,VA,business,,Sales,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-26,"LE03-AWIN Management, Inc.",$250,Phoenix,AZ,business,,Waste Management,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-06-23,Metavante Corporation,"$1,000",Sioux Falls,SD,business,,Financial Services,,A,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-06-18,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$1,285.12",Richmond,VA,pac,,Industry Association,Reception at VBWA Annual Convention,B,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-06-30,Magnolia Media,"$1,500",Mechanicsville,VA,business,,Public Relations,"Social Media, Graphic Design and Website Services",B,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-30,Winred (Transaction Fees),$41.02,Arlington,VA,,,,Transaction Fees,D,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-12,"JDS Solutions, LLC",$652.77,Midlothian,VA,,,,USA Stick Flags,D,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-26,"JDS Solutions, LLC","$6,608.84",Midlothian,VA,,,,"Campaign Signs and Boxes, Bags and Paper",D,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-12,Gotprint.com,$100.65,Burbank,CA,,,,Car Magnets,D,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-12,"Chuck Boyle Enterprises, LLC",$221,Mechanicsville,VA,,,,Flags,D,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-28,Tractor Supply Co.,"$1,629.50",King William,VA,,,,"Post Driver, Post, Post Puller",D,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-29,Walmart,$71.65,Glen Allen,VA,,,,"Helium Kit, Pennant, and Ribbon",D,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-06-29,BJ's Wholesale Club,$86.43,Mechanicsville,VA,,,,Candy and Popsicles,D,341392,2023-06-09 to 2023-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-20,Mr. Russell G. Brown,$200,Warsaw,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Stuart for Senate (CC-12-0084),$500,Montross,VA,candidate,,Political Candidate,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Virginia Dental Political Action Committee (PAC 12-00253),"$2,500",Richmond,VA,pac,,Political Action Committee,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Mr. Donald J. La Voy,$200,Reedville,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,McGuireWoods Consulting,$250,Richmond,VA,business,,Consulting Firm,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Mr. John H. Chichester,$500,Reedville,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Mr. Steve F. Dempsey,$150,King George,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Dominion Energy Inc. PAC,"$10,000",Richmond,VA,pac,,PAC,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Mr. Sameul F. Marston,$200,Burgess,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Mr. Ryan S. Rogers,$200,Heathsville,VA,individual,Midnight Sun Charters,Charter Boat Captain,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Mr. Paul S. Trible,$250,Kilmarnock,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-29,Virginia Beverage Association (PAC 91-208),"$1,000",Richmond,VA,pac,,Political Action Committee,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-29,Mr. S. Lake Cowart Jr.,$500,Lottsburg,VA,individual,Cowart Seafood Corp.,Sales,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,A Safer Virginia PAC (PAC 21-00095),"$1,000",Virginia Beach,VA,pac,,Political Action Committee,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,Virginia Federation of Republican Women,$200,Montpelier,VA,pac,,Political Action Committee,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,COmmunity-Owned Power (PAC-21-00087),$250,Glen Allen,VA,pac,,Political Action Committee,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,Cowart Seafood Corp.,"$2,000",Lottsburg,VA,business,,Seafood Sales,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,Ms. Erin W. Haynie,$200,Reedville,VA,individual,Fleeton Point Seafood,Restauranteur,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,Mr. Monte B. Lake,$200,Callao,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,Waste Management,"$1,000",Houston,TX,business,,Waste Management,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,Ms. Patricia J. Staker,$200,Reedville,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,Ms. Alice Riviere,$250,Irvington,VA,individual,Bragg & Company,Real Estate Company,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-25,Mr. George Beckett,$200,Heathsville,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-07-18,Mr. Thomas McCarty Moncure Jr.,$100,Colonial Beach,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-07-14,Virginia Health Care Association (PAC 12-00080),"$1,000",Richmond,VA,pac,,Political Action Committee,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-07-27,Ms. Linda G. Coates,$300,Colonial Beach,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-07-18,Mr. Raphael C. Parker,"$2,000",Oak Grove,VA,individual,Self Employed,Farmer,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-07-18,The Parker Trust,"$1,000",Oak Grove,VA,business,,Trust Fund,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-07-18,Mr. Herschel Elder III,$250,Colonial Beach,VA,individual,Colonial Beach Yacht Center,Yacht Sales,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-07-18,M. Sriram Peddibhotla PHD,$500,McLean,VA,individual,SAIC,IT Developer,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-11,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-11,Molson Coors Beverage Company,$250,Milwaukee,WI,business,,Sales,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-17,Ms. Jane Crowther,$104.10,Kilmarnock,VA,individual,"Omega Protein, Inc.",Director,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-23,Mr. Richard Abbott,$260.25,Weems,VA,individual,Chesapeake Academy,Educator,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-08-31,Mr. Tom Neale,$300,Lancaster,VA,individual,Retired,Retired,,A,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-08-01,Magnolia Media,"$1,500",Mechanicsville,VA,business,,Public Relations,"Social Media, Graphic Design and Website Services- July",B,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-08-31,Magnolia Media,"$1,500",Mechanicsville,VA,business,,Public Relations,"Social Media, Graphic Design Website Services - August",B,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-07-18,Ms. Joyce Gunderson,$300,Colonial Beach,VA,individual,Retired,Retired,Food and Beverage,B,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-31,Winred (Transaction Fees),$30.27,Arlington,VA,,,,Winred (Transaction Fees),D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-29,"Barbour Printing Services, Inc.",$263.25,Tappahannock,VA,,,,Invitations/Envelopes,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-26,Blue Ridge Bank,$8,Luray,VA,,,,Return Check Fee,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-05,"JDS Solutions, LLC","$3,000",Midlothian,VA,,,,July Retainer,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-06,"JDS Solutions, LLC","$3,974.34",Midlothian,VA,,,,"August Retainer, Zip Ties, Bumper Stickers",D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-09,"JDS Solutions, LLC","$1,032.92",Midlothian,VA,,,,Signs,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-18,"JDS Solutions, LLC",$656.72,Midlothian,VA,,,,25 Signs,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-03,Google LLC,$24,Mountain View,CA,,,,Platform Subscription,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-31,Google LLC,$24,Mountain View,CA,,,,Google Work Space 7/1 - 7/31/2023,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-11,Willow Stitch,$480.17,Warsaw,VA,,,,Embroidered Hats,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-04,United States Postal Service,$52.80,Warsaw,VA,,,,Postage,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-04,United States Postal Service,$52.80,Warsaw,VA,,,,Postage,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-10,United States Postal Service,$26.40,Warsaw,VA,,,,Postage,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-03,Verizon,$90.12,Newark,NJ,,,,Cell Phone Service,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-02,Verizon,$90.13,Newark,NJ,,,,Cell Phone Service,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-28,Fastballoons.com,$158.68,Carson,CA,,,,Balloons,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-31,Totally Promotional,$176.38,Coldwater,OH,,,,Service Items for upcoming fundraisers,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-30,Tractor Supply Co.,$167.11,King William,VA,,,,Sign Posts,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-27,Walmart,$112.94,Glen Allen,VA,,,,Helium Kit and Ribbon for Richmond County Fair,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-21,United States Flag Store,$633.38,New Stanton,PA,,,,Stick Flags,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-07-24,Virginia Grain Producers Association,$250,Richmond,VA,,,,Golf Tournament,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-19,The Art of Coffee,$108.38,Montross,VA,,,,Food and Beverage for meet and greet,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-25,Caroline Ruritan Club,$100,Milford,VA,,,,Fish Fry Event,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-25,King George Fall Festival,$125,King George,VA,,,,King George Fall Festival - Program Book,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-08-29,King George Fall Festival,$55,King George,VA,,,,Parade Entry Fee,D,346874,2023-07-01 to 2023-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-08,Mr. Austin Schmidt Schmidt,$200,Reedville,VA,individual,Retired,Retired,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-09,Mr. Stevenson Walker,$200,Kinsale,VA,individual,Retired,Retired,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-28,Virginia Automobile & Truck Dealers PAC - 12-00524,"$1,500",Richmond,VA,pac,,Industry PAC,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-15,"Christian & Barton, LLC",$250,Richmond,VA,business,,Law Firm,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-08,Ms. Joyce Gunderson,$60,Colonial Beach,VA,individual,Retired,Retired,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-08,Pride of Virginia Trucking,$200,Callao,VA,business,,Trucking Co.,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-08,W.F. Deitz III Grain Producer,$200,Heathsville,VA,business,,Farmer,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-08,Virginia Credit Union Political Action Committee (PAC-12-00093),$250,Lynchburg,VA,pac,,Political Action Committee,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-08,"Refuel Irvington, LLC",$250,Irvington,VA,business,,Hotel and Cafe,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-08,Anheuser Busch,"$1,000",St. Louis,MO,business,,Beverage Manufacturer,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-08,Richeco LLC,$200,Reedville,VA,business,,Real Estate,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-08,Ransone for Delegate (CC-12-00045),"$1,000",Kinsale,VA,candidate,,Political Candidate Committee,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-10,Billie Blevins,"$1,041.02",King George,VA,individual,Retired,Retired,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-09,Mr. Richard Furnival,$104.10,Rixeyville,VA,individual,SDI,Engineer,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-10,Mr. Christopher B. Stallings,$150,Heathsville,VA,individual,ManTech,Security,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-09,Mr. Louis Greg Basye,$400,Lottsburg,VA,individual,Self Employed,Famer,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-09,Ms. Jennifer Z. Collins,$200,King George,VA,individual,Stafford County Public Schools,Teacher,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-09,Mr. Mark Dudenhefer,$101,Orlando,FL,individual,Retired,Retired,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-15,Mr. Mason Brent,"$1,500",Heathsville,VA,individual,Self Employed,Farmer,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-15,Mr. Nancy C Weakley Jr.,$250,Montross,VA,individual,Northern Neck Bldg. Supply,Sales,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-15,Veterinarians Political Action Committee (PAC-12-00257),$250,Richmond,VA,pac,,Political Action Committee,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-16,Mr. Peter Trible,$312.30,Warsaw,VA,individual,Trible Law Offices PLC,Lawyer,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-21,Mr. Horactio Turner,$260.25,King George,VA,individual,Retired,Retired,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-26,Old Dominion Highway PAC (PAC-12-00143),$250,Charlottesville,VA,pac,,Political Action Committee,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-26,Virginia Farm Bureau Federation AGPAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-30,Mr. Richard Stewart,$104.10,Heathsville,VA,individual,Retired,Retired,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-30,Mr. Robert Ingram,$104.10,King George,VA,individual,Lockheed Martin,Customer Trainer,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-28,Virginia Optometric Association (PAC-12-00065),$500,Henrico,VA,pac,,Political Action Commmittee,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-28,HCA for Good Government (PAC-12-000569),$500,Richmond,VA,pac,,Polictical Action Committee,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-09-28,Truckers Political Action Committee of Virginia (PAC-12-00193),$250,Richmond,VA,pac,,Political Action Committee,,A,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-09-26,Virginia Automobile & Truck Dealers PAC - 12-00524,$351.26,Richmond,VA,pac,,Industry PAC,Food and Beverage,B,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-09-30,Magnolia Media,"$1,500",Mechanicsville,VA,business,,Public Relations,"Social Media, Graphic Design and Website management",B,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-09-10,Mr. Mason Brent,$820,Heathsville,VA,individual,Self Employed,Farmer,Food and Beverage,B,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-30,Winred (Transaction Fees),$81,Arlington,VA,,,,Transaction Fees,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-05,"JDS Solutions, LLC","$3,027.21",Midlothian,VA,,,,September Retainer and food for event,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-27,"JDS Solutions, LLC","$8,381.69",Midlothian,VA,,,,Fundraising Letter Package,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-05,Google LLC,$24,Mountain View,CA,,,,Google Workspace Platform,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-07,United States Postal Service,$26.40,Warsaw,VA,,,,Postage,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-15,"Clements Tent Rentals, Inc.",$978.98,Warsaw,VA,,,,"Tent, Tables, Chairs, linens",D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-01,Verizon,$90.13,Newark,NJ,,,,Cell Phone service,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-15,American Stationary Co.,$87.90,Peru,IN,,,,Stationary,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-19,"Chuck Boyle Enterprises, LLC",$691.65,Mechanicsville,VA,,,,Embroidered Hats,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-13,Tractor Supply Co.,$313.86,King William,VA,,,,Sign Stakes,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-26,United States Flag Store,$684.27,New Stanton,PA,,,,Flags,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-07,Food Lion,$111.90,Warsaw,VA,,,,Gift Cards for Interns,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-13,Fawn's A Delectables Cafe,$231.66,Reedville,VA,,,,Food and Beverage,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-13,Sean Harris,$200,Fairfax,VA,,,,Music for Event,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-14,Miss Lora's Flowers and Gifts,$442.26,Montross,VA,,,,Flowers for Event,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-20,WNNT Radio,"$3,969",Warsaw,VA,,,,Radio Advertising (107.5),D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-20,WNNT Radio,"$1,008",Warsaw,VA,,,,Radio Advertising,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-20,WRAR,"$1,008",Tappahannock,VA,,,,Radio Advertisement,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-20,WRAR,"$3,969",Tappahannock,VA,,,,Radio Advertising (105.5),D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-21,"Telemedia Broadcasting, Inc.","$3,000",Fredericksburg,VA,,,,Radio Advertising (95.9),D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-21,Two Rivers Communication,"$6,002",Kilmarnock,VA,,,,Radio Advertising (WIGO 104.9),D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-22,Karen Greenhalgh for Delegate (CC-20-00381,"$2,000",Virginia Beach,VA,,,,Campaign Contribution,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-22,Friends of David Owen (CC-22-00207),"$2,000",Richmond,VA,,,,Campaign Contribution,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-22,Stirrup for Delegate (CC-22-00710),"$2,000",Haymarket,VA,,,,Campaign Contribution,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-22,Kim Taylor for Delegate (CC21-00057),"$2,000",Petersburg,VA,,,,Campaign Contribution,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-22,Friends of Lee Peters III  (CC-23-00362)              ),"$2,000",Fredericksburg,VA,,,,Campaign Contribution,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-09-15,The River Market,$242.45,White Stone,VA,,,,Food and Beverage for Event,D,355627,2023-09-01 to 2023-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,Virginia Hospital & Healtcare Association PAC (PAC-12-00152),$500,Richmond,VA,pac,,Political Action Committee,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-20,Realtors Political Action Committee of Virginia (PAC-12-00247),"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-20,Johnson & Johnson PAC (FEC#C00010983),$500,Washington,DC,pac,,Political Action Committee,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-20,"Fairview Farms, Inc.",$250,Kinsale,VA,business,,Farm,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-20,Mr. David Reams,$250,Warsaw,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-20,Crookhorn Nursery,$250,Montross,VA,business,,Nursery (Plants),,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-20,Mr. Ronald W. Brown,$200,Farnham,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-20,Mr. Matt Osborne,$260.25,Hoboken,NJ,individual,Anheuser-Busch,Sales,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-26,Ms. Cindy Lloyd,$250,Warsaw,VA,individual,Feather Your Nest,Interior Designer,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-20,Lancaster County Republican Committee (PP-13-00505),"$1,000",Kilmarnock,VA,pac,,Political Committee,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-20,Mr. Harman Treakle,$50,Whitestone,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-09,Ms. Barbara Walker,$100,Sharps,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,Mr. Gene K. Underwood,$100,Lancaster,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-04,Mr. Frederic Edmonds,$104.10,Lancaster,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-05,Ms. Emily Dudenhefer,$105.14,Milford,VA,individual,Atlantic Coast Mortgage,Loan Officer,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-09,Mr. Kenneth A. Kent,$250,Heathsville,VA,individual,Self Employed,Farmer,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-09,Virginia Bankers Association State (PAC-12-00747),$500,Glen Allen,VA,pac,,Political Action Committee,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-09,Mr. Robert Gillions,$500,Hague,VA,individual,Self Employed,Farmer,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-09,Capital One Services LLC,$500,Reston,VA,business,,Banking,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-09,Ms. Joy Kramer,$500,Kilmarnock,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-09,Chris Hanley,$260.25,White Stone,VA,individual,Hanley Electrical,Electrical Contractor,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,Ms. Sheilynn Hummel,$250,Burgess,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,Mr. Philip J. Rouse II,"$1,000",Wicomico Church,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,Mr. Joseph David Karbonit,$500,Hague,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,Mr. John Michael Kost,$250,Heathsville,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,Mr. Garry L. Gray,$500,Bowling Green,VA,individual,Self Employed,Business,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,Mr. George Clotfelter,$250,King George,VA,individual,Retired,Retired,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,"Truss Systems, Inc.",$250,Lancaster,VA,business,,Construction,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-13,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-10-26,Magnolia Media,"$1,500",Mechanicsville,VA,business,,Public Relations,"Social Media, Graphic Design and Website Management",B,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-10-22,Mr. Robbie Carruthers,$400,Milford,VA,individual,Self Employed,Farmer,Music,B,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-10-22,Ms. Kimberly Lewis,$235,Warsaw,VA,individual,"Basic Commerce and Industries, Inc.",Systems Program Director,Beverages,B,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-26,Winred (Transaction Fees),$35.68,Arlington,VA,,,,WinRed Transaction Fees,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-02,"JDS Solutions, LLC","$3,870.27",Midlothian,VA,,,,"October Retainer and signage, postage, email services, et.",D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-12,"JDS Solutions, LLC","$10,413.47",Midlothian,VA,,,,2 Mailers,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-01,Google LLC,$24,Mountain View,CA,,,,Google Platform,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-10,Willow Stitch,$631.80,Warsaw,VA,,,,Embroidered Hats,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-04,United States Postal Service,$66,Warsaw,VA,,,,Postage,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-10,United States Postal Service,$132,Warsaw,VA,,,,Postage,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-25,"Clements Tent Rentals, Inc.",$176.90,Warsaw,VA,,,,Cocktail Tables and Tablecloths,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-01,Verizon,$90.22,Newark,NJ,,,,Cell Phone,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-16,Tractor Supply Co.,$130.97,King William,VA,,,,Sign Stakes,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-20,Walmart,$146.21,Glen Allen,VA,,,,Beverages for event,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-10,Amazon,$567.25,Seattle,WA,,,,Flags,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-23,David Keith Fisher,"$1,000",Heathsville,VA,,,,Mileage Reimbursement,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-23,Caroline County Republican Committee,$250,Richmond,VA,,,,Print Materials,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-04,Target,$185.74,Mechanicsville,VA,,,,"Flags, Beverages, Candy for Parade",D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-05,Tucker Douglas,$60,Warsaw,VA,,,,Decor for Event,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-22,Tucker Douglas,$35,Warsaw,VA,,,,Decor for Event,D,367237,2023-10-01 to 2023-10-26,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-11-03,Mr. Floyd Lee Sanders,$100,Warsaw,VA,individual,Self-Employed,Farmer,,A,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-11-03,Anheuser Busch,$250,St. Louis,MO,business,,Beverage Manufacturer,,A,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-10-27,"Altria Client Services, LLC",$500,Richmond,VA,business,,Tobacco Products,,A,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-11-03,Dimension Energy LLC,$500,Atlanta,GA,business,,Renewable Energy,,A,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-11-07,Mr. Raymond Miller,$156.15,Montross,VA,individual,Self-Employed,Lumber,,A,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-11-21,Mr. Kirwan King,$250,Warsaw,VA,individual,Retired,Retired,,A,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-11-21,Aqua Virginia Inc.,$250,Rockville,VA,business,,Water Services,,A,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-11-30,Magnolia Media,"$1,500",Mechanicsville,VA,business,,Public Relations,"Social Media, Graphic Design and Website Management",B,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-30,Winred (Transaction Fees),$8.20,Arlington,VA,,,,WinRed Transaction Fees,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-27,Blue Ridge Bank,$25,Luray,VA,,,,Wire Fee,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-09,"JDS Solutions, LLC","$5,514.99",Midlothian,VA,,,,November Retainer and expenses,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-14,"JDS Solutions, LLC","$2,500",Midlothian,VA,,,,Contract Payment,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-02,Google LLC,$24,Mountain View,CA,,,,Google Platform,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-02,United States Postal Service,$66,Warsaw,VA,,,,Postage,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-02,Verizon,$90.33,Newark,NJ,,,,Cell Service,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-03,"Chuck Boyle Enterprises, LLC",$186.56,Mechanicsville,VA,,,,Flags,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-03,Tractor Supply Co.,$135.80,King William,VA,,,,Sign Stakes,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-10-27,Republican Party of Virginia,"$35,360",Richmond,VA,,,,Donation,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-01,Wawa,$139.80,King George,VA,,,,Food and Beverage,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-07,Old Rapp Taphouse,"$1,236.25",Warsaw,VA,,,,Catering,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-11-14,Angelos Restaurant and Raw Bar,"$6,360.12",Montross,VA,,,,Catering,D,379267,2023-10-27 to 2023-11-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-12-01,State Farm Agents & Employees Political Action Committee,"$1,250",Tappahannock,VA,pac,,Political Action Committee,,A,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2023-12-01,AT&T,$250,St. Louis,MO,business,,Telecomunications,,A,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2023-12-31,Magnolia Media,"$1,500",Mechanicsville,VA,business,,Public Relations,"Social Media, Graphic Design, Website Management",B,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-12-01,"Al Pugh Distributing Co., Inc.",$250,Warsaw,VA,,,,Reimbursement,D,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-12-01,Google LLC,$24.40,Mountain View,CA,,,,Google Platform,D,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-12-01,Verizon,$90.33,Newark,NJ,,,,Cell Service,D,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-12-08,"City Parking, Inc.",$99.35,Richmond,VA,,,,Card Access Parking January,D,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-12-08,"City Parking, Inc.",$45,Richmond,VA,,,,Device Deposit Fee,D,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-12-21,Commonwealth Prayer Breakfast,$50,Ashland,VA,,,,Commonwealth Prayer Breakfast Ticket,D,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-12-21,Caroline First,$150,Bowling Green,VA,,,,Donation,D,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-12-01,Dexter Lewis,"$5,000",Lancaster,VA,,,,Consulting Fee,D,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2023-12-01,Elizabeth Norris,$125,Warsaw,VA,,,,Volunteer Gift,D,388214,2023-12-01 to 2023-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-20,Copa Wine Corporation,$500,Warsaw,VA,business,,Wine Distribution,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,"Al Pugh Distributing Co., Inc.","$1,000",Warsaw,VA,business,,Beer Distributor,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,Virginia Eagle Distributing Company,"$1,000",Verona,VA,business,,Beverage Distributor,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,"Virginia Beverage Company, LLC","$1,000",Bristol,VA,business,,Beverage Distributor,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,Brown Distributing Company,"$1,000",Richmond,VA,business,,Beverage Distributor,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,"Blue Ridge Beverage Co., Inc.","$1,000",Salem,VA,business,,Beverage Distributor,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,Hoffman Beverage Company,"$1,000",Chesapeake,VA,business,,Beverage Distributor,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,M. Price Distributing,"$1,000",Hampton,VA,business,,Beverage Distributor,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,"Premium Distributors of VA, LLC","$5,000",Chantilly,VA,business,,Beverage Distributor,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,Mr. Phillip Aden Short Jr.,"$1,000",Salem,VA,individual,P.A. Short Distributing,Sales,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,Lawrence Distributing Co.,"$1,000",Danville,VA,business,,Beverage Distributor,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,Virginia Wine Wholesalers Political Action Committee (PAC 91-258),"$5,000",Richmond,VA,pac,,Political Action Committee,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,Johnson Brothers Service Distributing,"$1,000",Lorton,VA,business,,Sales,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,Virginia Imports Ltd.,"$1,000",Springfield,VA,business,,Sales,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-18,"Associated Distributors, LLC","$1,000",Sandston,VA,business,,Sales,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-01-03,McGuireWoods Consulting,$250,Richmond,VA,business,,Consulting Firm,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-28,Anheuser Busch,$500,St. Louis,MO,business,,Beverage Manufacturer,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-05,"Altria Client Services, LLC","$1,000",Richmond,VA,business,,Tobacco Products,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-01-09,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,Political Action Committee,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-01-09,"Accel Entertainment Gaming, LLC","$1,000",Bolingbrook,IL,business,,Gaming Company,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-06-07,Virginia Manufacturers Association Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-06-18,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$1,713.75",Richmond,VA,pac,,Industry Association,Reception,B,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-06-18,Virginia Wine Wholesalers Political Action Committee (PAC 91-258),"$1,713.75",Richmond,VA,pac,,Political Action Committee,Reception,B,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-04-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-05-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-06-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-01-26,"Barbour Printing Services, Inc.",$135.84,Tappahannock,VA,,,,Stationary and Envelopes,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-01-09,"JDS Solutions, LLC",$400,Midlothian,VA,,,,Consulting Services,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-02-05,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-03-05,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-04-01,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-05-01,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-06-02,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-01-02,Google LLC,$36,Mountain View,CA,,,,Google Workspace,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-02-02,Google LLC,$36,Mountain View,CA,,,,Google Workspace,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-03-04,Google LLC,$36,Mountain View,CA,,,,Google Workspace,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-04-01,Google LLC,$38.31,Mountain View,CA,,,,Google Workspace,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-05-01,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-06-01,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-01-02,United States Postal Service,$132,Warsaw,VA,,,,Postage,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-02-02,United States Postal Service,$72,Warsaw,VA,,,,Post Office Box Rental,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-05-29,Colonial Beach Chamber of Commerce,$10,Colonial Beach,VA,,,,Registration for Potomac River Festival Parade,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-01-02,Verizon,$90.33,Newark,NJ,,,,Cell Service,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-02-02,Verizon,$90.34,Newark,NJ,,,,Cell Service,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-03-04,Verizon,$90.34,Newark,NJ,,,,Cell Service,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-04-01,Verizon,$90.34,Newark,NJ,,,,Cell Service,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-05-01,Verizon,$90.34,Newark,NJ,,,,Cell Service,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-06-02,Verizon,$90.30,Newark,NJ,,,,Cell Service,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-03-11,WNNT Radio,$125,Warsaw,VA,,,,Holiday Announcement,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-04-09,WRAR,$125,Tappahannock,VA,,,,Holiday Announcement,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-01-17,"City Parking, Inc.",$140,Richmond,VA,,,,Card Access Parking for Feb. 20024,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-02-21,"City Parking, Inc.",$140,Richmond,VA,,,,Monthly Parking,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-03-18,"City Parking, Inc.",$140,Richmond,VA,,,,Parking - April 2024,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-04-24,Elizabeth Norris,"$1,561.96",Warsaw,VA,,,,Administrative Services and Supplies,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-01-14,Meriweather Godsey,"$1,944.87",Richmond,VA,,,,Catering for Inaugural Reception,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-01-03,"Lowe's Home Center, LLC",$306.56,Tappahannock,VA,,,,Supplies for GAB Building,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-02-06,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,Westmoreland News Subscription,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-03-06,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-04-06,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-05-06,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-06-03,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-02-09,"Wix.Com, Inc.",$384,San Francisco,CA,,,,Website Subscription Renewal,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-03-19,House Republican Campaign Committee,"$1,000",Henrico,VA,,,,Donation,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-03-19,Republican Commonwealth Leadership PAC,"$5,000",Henrico,VA,,,,Donation,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-06-05,Carpenter Studios Custom Framing,"$1,080",Warsaw,VA,,,,Framing,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-05-03,Garner's Produce,$340,Warsaw,VA,,,,Apples,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-06-12,Treasurer of Virginia,$444,Richmond,VA,,,,Flags,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-06-24,Treasurer of Virginia,"$4,326.11",Richmond,VA,,,,2024 Session Postage,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-06-12,Harland Clarke,$40.36,San Antonio,TX,,,,Checks,D,407871,2024-01-01 to 2024-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-25,Ms. Hillary Pugh Kent,$794.67,Warsaw,VA,individual,Al Pugh Distributing Company,Sales,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Mr. Lynwood Broaddus,$104.10,Milford,VA,individual,Self Employed,Farmer,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-08-20,Mr. Russell Mait,$500,Kilmarnock,VA,individual,Bramlee LLC,Engineer,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-12,Brown Distributing Company,$500,Richmond,VA,business,,Beverage Distributor,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-11-27,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$1,000",Richmond,VA,pac,,Industry Association,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-12,Virginia Automobile & Truck Dealers PAC - 12-00524,"$1,000",Richmond,VA,pac,,Industry PAC,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-08-19,Mr. Marcus Alan Aylor,$500,Colonial Beach,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-08-20,"Deck World, Inc.",$250,Warsaw,VA,business,,Deck Construction,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Mr. William E. Elliott Jr.,$500,Fredericksburg,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Mr. Gary W. Sanders,$250,Warsaw,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-08-20,Mr. Thomas McCarty Moncure Jr.,$250,Colonial Beach,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-08-19,Mr. John F. Fick,"$1,000",Fredericksburg,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Beasley Drywall LLC,$500,Farnham,VA,business,,Construction,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Virginia State Police Association (PAC-12-00489),$250,Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-17,Reed Smith LLP VA Political Action Committee (PAC-12-00294),$500,Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-06,"Hunton Andrews Kurth, LLP",$500,Richmond,VA,business,,Law Firm,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-14,Mr. Stephen Horton,$520.51,Richmond,VA,individual,McGuire Woods,Public Affairs,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-12,Wood Products 2/19 Polictical Action Committee of Virginia,$500,Sandston,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-01,"Christian & Barton, LLC","$1,000",Richmond,VA,business,,Law Firm,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Omega Protein,"$3,500",Calais,ME,business,,Fish Products Company,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-06,Virginia Society of Anethesiologists PAC (PAC-12-00102),"$1,000",Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-08,Virginia Maritime Association Political Action Commitee (PAC-22-00091),$500,Norfolk,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-31,Virginia Sheriffs Association Political Action Committee (PAC 12-00056),$250,Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-09,Mr. Dave S. Tambellini,$500,Heathsville,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-31,Johnson Brothers Service Distributing,$500,Lorton,VA,business,,Sales,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-17,Mr. Herschel Elder III,$250,Colonial Beach,VA,individual,Colonial Beach Yacht Center,Yacht Sales,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-17,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-08-26,Ms. Jane Crowther,$260.25,Kilmarnock,VA,individual,"Omega Protein, Inc.",Director,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Stuart for Senate (CC-12-0084),$250,Montross,VA,candidate,,Political Candidate,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-20,McGuireWoods Consulting,$500,Richmond,VA,business,,Consulting Firm,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-06,Dominion Energy Inc. PAC,"$15,000",Richmond,VA,pac,,PAC,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-17,Virginia Beverage Association (PAC 91-208),$750,Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-09,Mr. S. Lake Cowart Jr.,"$1,000",Lottsburg,VA,individual,Cowart Seafood Corp.,Sales,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-07-15,Waste Management,"$1,000",Houston,TX,business,,Waste Management,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Pride of Virginia Trucking,$500,Callao,VA,business,,Trucking Co.,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-08-20,Billie Blevins,"$1,000",King George,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-09,Mr. Gerald Mothershead,$250,Montross,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-31,Old Dominion Highway PAC (PAC-12-00143),$250,Charlottesville,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-17,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-12,Truckers Political Action Committee of Virginia (PAC-12-00193),$250,Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-11-21,Virginia Bankers Association State (PAC-12-00747),"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-08-09,Capital One Services LLC,$500,Reston,VA,business,,Banking,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-18,Realtors Political Action Committee of Virginia (PAC-12-00247),"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-18,Ms. Martha S. Carden,$250,Kinsale,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-01,Ms. Cindy Lloyd,$250,Warsaw,VA,individual,Feather Your Nest,Interior Designer,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-08-19,Ms. Amy B. Steele,$500,Kinsale,VA,individual,Bevans Oyster Company,Sales,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Ms. Jean Light,$250,Warsaw,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Matt Ingram Racing,$250,Montross,VA,business,,Motor Sports,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Mr. Douglas F. Jenkins Sr.,$200,Warsaw,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Mr. Ammon G. Dunton Jr.,$500,White Stone,VA,individual,"Dunton, Simmons & Dunton",Lawyer,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Ms. Robin Barrack,$250,Lancaster,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Mr. John E. Lawler,$500,Sandy Point,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Elevation Excavating and Concrete LLP,$500,Colonial Beach,VA,business,,Contractor,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Ms. Vicki Maerker,$500,Colonial Beach,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Ms. Stacey Brent,$260.25,White Stone,VA,individual,Coastline Appraisals,Appraiser,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-07,Mr. Horatio Turner,$250,King George,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-09,Ms. Margaret B. Ransone,$250,Kinsale,VA,individual,Bevans Oyster Company,Wholesale Seafood Sales,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-09,"Michael J. Self Grain Farms, LLC","$1,000",Farnham,VA,business,,Farming,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-09,Mr. George William Townsend III,$250,Montross,VA,individual,"George W. Townsend, III, PC",Lawyer,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-04,Ms. Vickie T. Tambellini,$250,Heathsville,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-12,Dr. Joel Knight,$250,Tappahannock,VA,individual,Knight Chiropractic,Chiropractor,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-17,"Robert H. Gawen & Sons, Inc.",$500,Hague,VA,business,,Excavation + Farming,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-17,"Amazon Services, LLC",$500,Seattle,WA,business,,Sales Platform,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-09-20,Willams Mullen,$250,Richmond,VA,business,,Law Firm,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-08,Ms. Katherine Herbert,$250,Warsaw,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-17,"Caesars Enterprise Services, LLC","$1,000",Las Vegas,NV,business,,Entertainment,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-22,HBAV Build PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-10-22,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-11-04,Ms. Diane Ashton,$500,King George,VA,individual,Retired,Retired,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-11-15,Mr. Douglas Holroyd,$208.20,Williamsburg,VA,individual,York County,Board of Supervisors,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-11-18,Betting on VA Jobs,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-11-18,Trade Up Consulting and Management,$500,Lancaster,VA,business,,Consulting,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-11-27,Breakthru Beverage Group,"$1,000",Sandston,VA,business,,Wholesaler,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-03,VCTA - Broadband Association of Virginia,$500,Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-06,Reynolds Services Company,$500,Winston-Salem,NC,business,,Tobacco Manufacturing Company,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-12,Commissioner of Revenue,$125,Newport News,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-12,Virginia Petroleum & Convenience Marketers PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-12,Capital Results,$250,Richmond,VA,business,,Consulting,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-31,"All Points Broadband Partners, LLC",$250,Richmond,VA,business,,Broadband Internet Services,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-31,Commercial Development PAC,$250,Alexandria,VA,pac,,Political Action Committee,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2024-12-31,"Comstock Hospitality Holdings, LLC","$2,500",Reston,VA,business,,Casino Developer,,A,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-12-12,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$4,005",Richmond,VA,pac,,Industry Association,"Food, Beverage",B,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-09-12,Angelos Restaurant and Raw Bar,"$6,500",Montross,VA,business,,Restaurant,Catering,B,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-07-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-08-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-09-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-10-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-11-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2024-12-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-09,Lancaster County Republican Committee (PP-13-00505),$200,Kilmarnock,VA,,,,Reagan Day Reception,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-12-31,Winred (Transaction Fees),$97.29,Arlington,VA,,,,WinRed Transaction Fees,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-08-16,"Barbour Printing Services, Inc.",$505.44,Tappahannock,VA,,,,Stationary,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-01,"Barbour Printing Services, Inc.",$146.37,Tappahannock,VA,,,,Stationary,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-07-02,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Critical Impact,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-08-19,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-03,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-10,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-11-04,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-12-02,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting Services,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-07-01,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace Platform,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-08-01,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-01,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-01,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-11-04,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-11-30,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-12-31,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-09,Willow Stitch,$415.87,Warsaw,VA,,,,Embroidered Hats,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-07-23,United States Postal Service,$146,Warsaw,VA,,,,Postage,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-08-07,United States Postal Service,$219,Warsaw,VA,,,,Postage,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-08-14,United States Postal Service,$73,Warsaw,VA,,,,Postage,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-18,United States Postal Service,$5.10,Warsaw,VA,,,,Postage,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-10,United States Postal Service,$43.80,Warsaw,VA,,,,Postage,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-12-13,United States Postal Service,$58.40,Warsaw,VA,,,,Postage,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-19,"Clements Tent Rentals, Inc.",$564.36,Warsaw,VA,,,,"Table, Chairs, etc.",D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-07-01,Verizon,$90.30,Newark,NJ,,,,Cell Service,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-08-01,Verizon,$90.34,Newark,NJ,,,,Cell Service,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-01,Verizon,$90.34,Newark,NJ,,,,Cell Service,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-01,Verizon,$90.38,Newark,NJ,,,,Cell Service,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-11-04,Verizon,$90.41,Newark,NJ,,,,Cell Service,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-12-01,Verizon,$90.41,Newark,NJ,,,,Cellular Service,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-28,"Chuck Boyle Enterprises, LLC",$576.10,Mechanicsville,VA,,,,Flags,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-07-03,Walmart,$128.95,Tappahannock,VA,,,,Items for Parade,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-09,Walmart,$338.56,Tappahannock,VA,,,,Supplies for Event,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-10,Walmart,$16.60,Tappahannock,VA,,,,Supplies for Event,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-27,Walmart,$246.98,Tappahannock,VA,,,,Parade Supplies,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-03,Walmart,$321.56,Tappahannock,VA,,,,Parade Supplies,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-08,Walmart,$321.56,Tappahannock,VA,,,,Supplies,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-11,Walmart,$226.13,Tappahannock,VA,,,,Supplies,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-11,Walmart,$226.13,Tappahannock,VA,,,,Supplies,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-11-08,Walmart,$60.91,Tappahannock,VA,,,,Printer Cartridges,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-01,King George Fall Festival,$53,King George,VA,,,,Parade Entry Fee,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-03,Amazon,$210.58,Seattle,WA,,,,Flags,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-09,Amazon,$210.58,Seattle,WA,,,,Flags,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-14,Amazon,$34.69,Seattle,WA,,,,Stationary - Letterhead and Envelopes,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-06,"City Parking, Inc.",$280,Richmond,VA,,,,Parking,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-12-17,"City Parking, Inc.",$145.60,Richmond,VA,,,,Staff Parking,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-25,Dexter Lewis,$200,Lancaster,VA,,,,Fundraiser,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-07-03,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-08-02,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-03,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-01,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-31,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-12-02,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-12-31,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-07-02,Caroline County Little League,$100,Bowling Green,VA,,,,Donation,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-07-03,Dollar Tree Store #8605,$42.12,Warsaw,VA,,,,Items for Parade,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-07-03,Dollar Tree Store #8605,$76.34,Warsaw,VA,,,,Items for Parade,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-08-20,Performance Food Service,$162.20,Glen Allen,VA,,,,Food,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-12-06,Dexter Lewis,$40.35,Warsaw,VA,,,,Parking,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-16,Rogers Ryan,"$1,400",Reedville,VA,,,,Charter Boat,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-22,Stationary Express,$80.08,San Diego,CA,,,,Stationary,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-09-12,Family Dollar,$137,Warsaw,VA,,,,Parade Supplies,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2024-10-27,Shirley Kent,$608.70,Tappahannock,VA,,,,Food and Beverage,D,428955,2024-07-01 to 2024-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-03-10,Mr. Russell G. Brown,$200,Warsaw,VA,individual,Retired,Retired,,A,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-01-03,Commonwealth Sportsman Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-01-07,"Arrow International, Inc.",$500,Cleveland,OH,business,,Gaming products manufacturer,,A,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-03-10,CO-OP PAC,$500,Glen Allen,VA,pac,,Political Action Committee,,A,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-03-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-01-02,Treasurer of Richmond County,$352.80,Warsaw,VA,,,,Primary Filing Fee,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-03-31,Blue Ridge Bank,$3,Luray,VA,,,,Paper Statement Fee,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-01-02,"JDS Solutions, LLC",$262.50,Midlothian,VA,,,,Consulting Services,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-05,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Critical Impact,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-03-04,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-01-31,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-28,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-03-31,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-14,United States Postal Service,$72,Warsaw,VA,,,,Annual Post Office Box Rental,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-03-20,United States Postal Service,$73,Warsaw,VA,,,,Postage,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-01-01,Verizon,$90.41,Newark,NJ,,,,Cellular Service,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-01,Verizon,$90.66,Newark,NJ,,,,Cellular Service,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-03-01,Verizon,$90.66,Newark,NJ,,,,Cellular Service,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-19,WNNT Radio,$125,Warsaw,VA,,,,Holiday Announcement,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-19,WRAR,$125,Tappahannock,VA,,,,Holiday Announcement,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-01-13,"City Parking, Inc.",$145.60,Richmond,VA,,,,Parking,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-14,"City Parking, Inc.",$145.60,Richmond,VA,,,,Capital Parking,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-01-29,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-28,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-03-31,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-10,"Wix.Com, Inc.",$432,San Francisco,CA,,,,Website Subscription Renewal,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-03-20,House Republican Campaign Committee,"$1,000",Henrico,VA,,,,Dues,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-03-20,Republican Commonwealth Leadership PAC,"$5,000",Henrico,VA,,,,Dues,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-02-11,Briana Sewell,$185,Woodbridge,VA,,,,2025 Virginia House of Delegates Page Luncheon Reimbursement,D,440580,2025-01-01 to 2025-03-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-05-13,Mr. Floyd Lee Sanders,$100,Warsaw,VA,individual,Self-Employed,Farmer,,A,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-05-30,Mr. William E. Elliott Jr.,"$1,000",Fredericksburg,VA,individual,Retired,Retired,,A,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-04-25,Mr. Thomas McCarty Moncure Jr.,$200,Colonial Beach,VA,individual,Retired,Retired,,A,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-04-25,Mr. Herschel Elder III,$100,Colonial Beach,VA,individual,Colonial Beach Yacht Center,Yacht Sales,,A,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-05-30,Waste Management,"$1,000",Houston,TX,business,,Waste Management,,A,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-04-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-05-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-06-01,Packett Properties,$250,Tappahannock,VA,business,,Real Estate,Conference Room,B,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-04-30,Blue Ridge Bank,$3,Luray,VA,,,,Paper Statement Fee,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-30,Blue Ridge Bank,$3,Luray,VA,,,,Paper Statement Fee,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-04-01,"JDS Solutions, LLC","$4,700",Midlothian,VA,,,,Consulting Services and Critical Impact,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-12,"JDS Solutions, LLC","$2,700",Midlothian,VA,,,,Consulting Services,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-05,"JDS Solutions, LLC","$2,700",Midlothian,VA,,,,Consulting Services,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-02,Google LLC,$43.20,Mountain View,CA,,,,Google Workspace,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-31,Google LLC,$43.20,Mountain View,CA,,,,Cellular Service,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-04-24,TDI Broadway,$468.98,New York,NY,,,,tickets,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-04-02,Verizon,$90.66,Newark,NJ,,,,Cellular Service,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-02,Verizon,$90.65,Newark,NJ,,,,Cellular Service,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-01,Verizon,$90.65,Newark,NJ,,,,Cellular Service,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-05,Tractor Supply Co.,$263.14,King William,VA,,,,American Flags,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-04-12,Walmart,$88.28,Tappahannock,VA,,,,Ink Cartridges,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-07,Food Lion,$41.38,Warsaw,VA,,,,Apples,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-08,Food Lion,$72.86,Warsaw,VA,,,,Apples,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-04-29,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-29,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-06,Garner's Produce,$349.97,Warsaw,VA,,,,Apples and Pears,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-07,Dexter Lewis,$85.80,Warsaw,VA,,,,Apples and Crates,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-05-14,Friends of Chad Green,"$1,250",Seaford,VA,,,,Donation,D,443495,2025-04-01 to 2025-06-05,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,"Al Pugh Distributing Co., Inc.","$1,000",Warsaw,VA,business,,Beer Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Virginia Eagle Distributing Company,"$1,000",Verona,VA,business,,Beverage Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,"Virginia Beverage Company, LLC","$1,000",Bristol,VA,business,,Beverage Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Brown Distributing Company,"$5,000",Richmond,VA,business,,Beverage Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,"Blue Ridge Beverage Co., Inc.","$1,000",Salem,VA,business,,Beverage Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Hoffman Beverage Company,"$1,000",Chesapeake,VA,business,,Beverage Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$1,000",Richmond,VA,pac,,Industry Association,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,M. Price Distributing,"$1,000",Hampton,VA,business,,Beverage Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,"Premium Distributors of VA, LLC","$5,000",Chantilly,VA,business,,Beverage Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Mr. Phillip Aden Short Jr.,"$1,000",Salem,VA,individual,P.A. Short Distributing,Sales,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Lawrence Distributing Co.,"$1,000",Danville,VA,business,,Beverage Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,"Wendell Distributing Company, Inc.","$1,000",Cape Charles,VA,business,,Beverage Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-24,Wood Products 2/19 Polictical Action Committee of Virginia,$500,Sandston,VA,pac,,Political Action Committee,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-25,"Christian & Barton, LLC",$250,Richmond,VA,business,,Law Firm,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-30,Virginia Sheriffs Association Political Action Committee (PAC 12-00056),$250,Richmond,VA,pac,,Political Action Committee,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Virginia Wine Wholesalers Political Action Committee (PAC 91-258),"$7,500",Richmond,VA,pac,,Political Action Committee,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-24,Johnson Brothers Service Distributing,"$1,500",Lorton,VA,business,,Sales,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Virginia Imports Ltd.,"$1,000",Springfield,VA,business,,Sales,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,"Associated Distributors, LLC","$1,500",Sandston,VA,business,,Sales,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-30,McGuireWoods Consulting,$500,Richmond,VA,business,,Consulting Firm,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-10,Dominion Energy Inc. PAC,"$1,000",Richmond,VA,pac,,PAC,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Community-Owned Power,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-30,Anheuser Busch,$500,St. Louis,MO,business,,Beverage Manufacturer,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-24,Truckers Political Action Committee of Virginia (PAC-12-00193),$250,Richmond,VA,pac,,Political Action Committee,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-25,Capital One Services LLC,"$1,000",Reston,VA,business,,Banking,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,"Altria Client Services, LLC","$1,000",Richmond,VA,business,,Tobacco Products,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-18,Willams Mullen,$250,Richmond,VA,business,,Law Firm,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-25,VCTA - Broadband Association of Virginia,$500,Richmond,VA,pac,,Political Action Committee,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-06,"All Points Broadband Partners, LLC",$250,Richmond,VA,business,,Broadband Internet Services,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-23,Common Sense PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-25,Valley Distributing Corporation,$500,Salem,VA,business,,Beer Distributor,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-06-24,Kerr Government Strategies,$250,Richmond,VA,business,,Government Relations,,A,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-06-16,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$1,592.76",Richmond,VA,pac,,Industry Association,"Fundraiser Reception, Co-host with VWWA",B,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-06-16,Virginia Wine Wholesalers Political Action Committee (PAC 91-258),"$1,592.76",Richmond,VA,pac,,Political Action Committee,"Fundraiser Reception,co-host with VBWA",B,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-06-23,Capital Results,"$2,715.55",Richmond,VA,business,,Consulting,"Fundraiser at Can Can Brasserie, Richmond, VA",B,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-06-23,Virginia Realtors Association,$489.50,Glen Allen,VA,business,,Lobbying Association,"Reception, Food and Beverage",B,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-26,Winred,$9.85,Arlington,VA,,,,Transaction Fee,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-30,Blue Ridge Bank,$3,Luray,VA,,,,Paper Statement Fee,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-30,Google LLC,$43.20,Mountain View,CA,,,,Workplace,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-27,Walmart,$115.49,Tappahannock,VA,,,,Ink Cartridges,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-30,United States Flag Store,$563.88,New Stanton,PA,,,,Stick Flags,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-16,Amazon,$84.23,Seattle,WA,,,,Flags,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-30,Lakeway Publishers (News on the Neck),$3.99,Warsaw,VA,,,,News on the Neck,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-13,Treasurer of Virginia,"$4,504.25",Richmond,VA,,,,2025 Session Postage,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-09,Prime Media Partners,"$15,000",Arlington,VA,,,,Video Production,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-13,Richmond County Republican Committee,$200,Warsaw,VA,,,,Richmond County Fair Booth,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-06-23,Virginia Department of Elections,$100,Richmond,VA,,,,Invoice,D,447790,2025-06-06 to 2025-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-01,Ms. Patricia Pugh,"$1,000",Warsaw,VA,individual,Al Pugh Distributing,Sales,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-04,Lancaster County Republican Committee (PP-13-00505),$500,Kilmarnock,VA,pac,,Political Committee,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-30,Mr. Lynwood Broaddus,$208.20,Milford,VA,individual,Self Employed,Farmer,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-05,Mr. George Beckett,$100,Heathsville,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-21,Virginia Automobile & Truck Dealers PAC - 12-00524,"$2,500",Richmond,VA,pac,,Industry PAC,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Mr. Greg White,$300,Tappahannock,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-17,Ms. Peyton Morris Moncure,$104.10,King George,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Ms. Gale T. Ferraro,$250,White Stone,VA,individual,Isabelle Horseley Real Estate,Real Estate Agent,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-08,"Hunton Andrews Kurth, LLP",$500,Richmond,VA,business,,Law Firm,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-01,Mr. Stephen Kent Cooke,$260.25,Tappahannock,VA,individual,Essex Concrete,Concrete Contractor,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-21,Mr. Kenneth R. Sparks,$250,White Stone,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,"Hudson-Blunt Insurance Agency, Inc.",$250,Lively,VA,business,,Insurance Company,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-21,Mr. George C. Palmer III,"$1,000",Charlottesville,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-21,Mr. William W. Muse,$500,Lancaster,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,"Webb's Lawn Service, LLC",$250,White Stone,VA,business,,Lawn Care,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-26,Mr. James N. Carter Jr.,$338.33,Irvington,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Omega Protein,"$3,500",Calais,ME,business,,Fish Products Company,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-05,Stuart for Senate (CC-12-0084),$250,Montross,VA,candidate,,Political Candidate,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Mr. John H. Chichester,$500,Reedville,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-19,Dominion Energy Inc. PAC,"$30,000",Richmond,VA,pac,,PAC,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-08,Mr. Paul S. Trible,$200,Kilmarnock,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-18,Comcast Corporation,$500,Philadelphia,PA,business,,Telecommunications,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Ms. Monica Schenemann,$150,Lottsburg,VA,individual,Self Employed,Waterman,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-22,Ms. Lisa L. Smith,$104.10,White Stone,VA,individual,Self Employed,Caregiver,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-20,Ms. Virginia Ritter,$208.20,Reedville,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-21,Ms. Margaret C Webb,$100,White Stone,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-31,Ms. Jean Light,$520.51,Warsaw,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Mr. Ammon G. Dunton Jr.,$500,White Stone,VA,individual,"Dunton, Simmons & Dunton",Lawyer,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-21,Ms. Margaret B. Ransone,$250,Kinsale,VA,individual,Bevans Oyster Company,Wholesale Seafood Sales,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Mr. Patrick McCranie,$100,Weems,VA,individual,Lancaster County,Sheriff,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-21,"Amazon Services, LLC",$500,Seattle,WA,business,,Sales Platform,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-09,Virginia Poultry Federation,$300,Harrisonburg,VA,pac,,PAC,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-21,Balderson calvin,$104.10,Montross,VA,individual,Northumberland County,EMS Coordinator,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-15,William Walker,$104.10,Warsaw,VA,individual,"Rappahannock Forestry, LLC",Forestry,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-28,William Walker,$150,Warsaw,VA,individual,"Rappahannock Forestry, LLC",Forestry,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-23,Lisa Mountcastle,"$1,041.02",Alexandria,VA,individual,retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-29,Joseph Campbell,$150,urbanna,VA,individual,J E Logging INC,Logger,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-01,Shawn France,$104.10,Warsaw,VA,individual,France Landscaping,Landscaping,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-08,Mariah Crawford,$500,White stone,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-05,Noblett Appliance,$500,Kilmarnock,VA,business,,Appliance,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-06,Diana Wolfson,$250,Urbanna,VA,individual,Isabell K Horsley Realestate,Realtor,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-07,Amy Bevans,$500,Kinsale,VA,individual,Bevans Oyster Co.,Seafood Distributor,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-06,paul somers,$200,White Stone,VA,individual,retired,retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-01,"Fishers Roadhouse Cafe, LLC",$200,Montross,VA,business,,Restaurant,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-21,Northumberland County Republican Committee,"$1,000",Callao,VA,pac,,Political Committee,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-21,Bruce Edwards,$250,White Stone,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Marion Ryan,$150,White Stone,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Igor Mackenzie Babichenko,$250,Mechanicsville,VA,individual,Hanover County,Prosecutor,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Reedville Claws & Scales LLC,$500,Reedville,VA,business,,Seafood,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Kilmarnock Inn LLC,$250,Kilmarnock,VA,business,,Hotel,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Mike Crowther,$500,White Stone,VA,individual,Crowther Heating and Air,Owner,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Jack neal,$250,Irvington,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Andrew mason Brent,$500,Heathsville,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-28,Brian O'Bier,$250,Irvington,VA,individual,Lancaster County,Police Officer,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-01,Brandon Grimstead,$150,Warsaw,VA,individual,Slef Employed,Waterman,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-01,Gus Sanford,$150,Montross,VA,individual,In School,In School,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-01,Allen Jenkins,$150,Bealeton,VA,individual,Jenkins Septic,Owner,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-01,James Meadows,$170,Standardsville,VA,individual,retired,retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-27,Jeffery Szyperski,"$2,602.54",Irvington,VA,individual,Chesapeake Bank,Banker,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-23,Sriram Peddiibhota,$500,Mclean,VA,individual,SAIC,IT Principal Architect,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-22,Sheila Brown,$104.10,White Stone,VA,individual,Retired,Retired,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-22,Lisa Rose,$104.10,White Stone,VA,individual,MISS MARY SEAFOOD LLC,Fish Monger,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-21,Katie Parker,$520.51,Topping,VA,individual,Sandy Point Marine Services,Self Employed,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-19,Denson's Grocery Inc,$500,Colonial Beach,VA,business,,Grocery,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-19,Susan Pittman,$250,White Stone,VA,individual,Blue Ridge Bank,Banker,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-08-04,Ben Hudson,$260.25,Montross,VA,individual,NNHIC,Contractor,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-07-14,Calvin Balderson,$104.10,Montross,VA,individual,Northumberland County,ES Chief,,A,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-08-28,Ms. Patricia Pugh,$100.17,Warsaw,VA,individual,Al Pugh Distributing,Sales,Fundraiser Food,B,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-08-28,Mr. David Dew,$800,White Stone,VA,individual,Horsley Real Estate,Real Estate Agent,Fundraiser Event Expenses,B,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-08-28,Mr. Tyler Brent,$150,White Stone,VA,individual,Coastlines Appraisals,Real Estate Appraiser,Fundraiser Food and Beverage,B,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-07-15,Horn's Ace Hardware,$658.80,Warsaw,VA,business,,Hardware Store,Fishing Tournament Fundraiser Supplies,B,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-31,Winred,$330.49,Arlington,VA,,,,Transaction Fee,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-07-02,"JDS Solutions, LLC","$2,700",Midlothian,VA,,,,Consulting,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-07,"JDS Solutions, LLC","$2,700",Midlothian,VA,,,,Consulting,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-08,"JDS Solutions, LLC",$595.47,Midlothian,VA,,,,Consulting,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-01,Google LLC,$48.53,Mountain View,CA,,,,G Suite,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-04,Google LLC,$48.53,Mountain View,CA,,,,G Suite,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-04,United States Postal Service,$24.32,Warsaw,VA,,,,Postage,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-07-02,Verizon,$90.65,Newark,NJ,,,,Phone Service,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-05,Verizon,$90.64,Newark,NJ,,,,Phone Service,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-15,Tractor Supply Co.,$155.04,King William,VA,,,,Stakes,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-14,WNNT Radio,$300,Warsaw,VA,,,,Radio Advertising,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-14,WRAR,$300,Tappahannock,VA,,,,Radio Advertising,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-01,Angelos Restaurant and Raw Bar,"$4,696.38",Montross,VA,,,,Fundraiser Catering,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-01,Republican Commonwealth Leadership PAC,"$2,500",Henrico,VA,,,,Campaign Donation,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-01,Virginia Department of Elections,"$1,000",Richmond,VA,,,,Invoice,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-01,Virginia Department of Elections,"$1,000",Richmond,VA,,,,Invoice,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-07-21,Willow Stich,"$1,403.57",Warsaw,VA,,,,Campaign Hats,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-01,Willow Stich,$584.82,Warsaw,VA,,,,Hats,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-11,William Walker,$250,Warsaw,VA,,,,Catfish Classic,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-07-30,Horn's Ace Hardware,$50,Warsaw,VA,,,,Fundraiser Supplies,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-08,Shawn France,"$1,000",Warsaw,VA,,,,Catfish Classic,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-08,Allen Jenkins,"$2,100",Bealeton,VA,,,,Catfish Classic,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-11,James Meadows,$500,Standardsville,VA,,,,Catfish Classic,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-07-22,"Assembly Strategies, LLC",$989.19,Richmond,VA,,,,Literature,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-07,"Assembly Strategies, LLC",$647.08,Richmond,VA,,,,Mailing,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-08,"Assembly Strategies, LLC","$3,816",Richmond,VA,,,,Signs,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-14,"Assembly Strategies, LLC","$3,624.15",Richmond,VA,,,,Signs,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-07-31,Imprint.com,$200.07,Houston,VA,,,,Cups for Fundraiser,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-07-31,Uprinting,$313.67,Van Nuys,CA,,,,Stickers,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-08-28,Faron Hamblin,$300,Warsaw,VA,,,,Campaign Event Music,D,454181,2025-07-01 to 2025-08-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-24,Copa Wine Corporation,"$2,000",Warsaw,VA,business,,Wine Distribution,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-24,"Al Pugh Distributing Co., Inc.","$2,500",Warsaw,VA,business,,Beer Distributor,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-25,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$2,500",Richmond,VA,pac,,Industry Association,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-25,Mr. Marcus Alan Aylor,$250,Colonial Beach,VA,individual,Retired,Retired,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-25,Mr. David Daniel,$500,Weems,VA,individual,Retired,Retired,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-25,Virginia Society of Anethesiologists PAC (PAC-12-00102),"$1,000",Richmond,VA,pac,,Political Action Committee,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-18,Mr. Vincent Ferrara,$52.05,Colonial Beach,VA,individual,Retired,Retired,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-04,Huntington Ingalls Industries,$500,Newport News,VA,business,,Shipbuilding,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-24,Virginia Beverage Association (PAC 91-208),$750,Richmond,VA,pac,,Political Action Committee,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-03,Mr. S. Lake Cowart Jr.,"$3,300",Lottsburg,VA,individual,Cowart Seafood Corp.,Sales,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-18,Mr. Richard Stewart,$104.10,Heathsville,VA,individual,Retired,Retired,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-23,Mr. L. James Cowardin Jr.,$104.10,Hague,VA,individual,Retired,Retired,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-10,Mr. Garry L. Gray,$500,Bowling Green,VA,individual,Self Employed,Business,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-04,Mr. John W. Elliott,$520.51,King George,VA,individual,Retired,Retired,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-25,"Caesars Enterprise Services, LLC","$1,000",Las Vegas,NV,business,,Entertainment,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-03,Sheetz,$250,Altoona,PA,business,,Gas Station,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-03,"Danville Distributing Company, Inc","$2,500",Danville,VA,business,,Beverage Distribution,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-09-03,Gerald Sellers,$250,Weems,VA,individual,Currie Funeral Home,Funeral Director,,A,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-30,Winred,$84.10,Arlington,VA,,,,WinRed Service Charge,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-01,Blue Ridge Bank,$104,Luray,VA,,,,Chargeback Fee,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-04,"JDS Solutions, LLC","$2,700",Midlothian,VA,,,,Consulting,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-15,Verizon,$100.74,Newark,NJ,,,,Phone Service,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-08,Tractor Supply Co.,$231.24,King William,VA,,,,T Posts,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-29,Tractor Supply Co.,$219.75,King William,VA,,,,Sign posts,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-29,Tractor Supply Co.,$10.52,King William,VA,,,,Zip Ties/ Sign posts,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-30,United States Flag Store,$438.24,New Stanton,PA,,,,Flags,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-03,Caroline Ruritan Club,$100,Milford,VA,,,,Fish Fry Donation,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-18,King George Fall Festival,$53,King George,VA,,,,Parade Entry,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-15,WNNT Radio,"$2,520",Warsaw,VA,,,,Radio Advertisement,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-15,WRAR,"$2,520",Tappahannock,VA,,,,Radio Advertisement,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-19,Two Rivers Communication,"$3,994",Kilmarnock,VA,,,,Radio Ad,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-03,Kim Taylor for Delegate (CC21-00057),"$10,000",Petersburg,VA,,,,Donation,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-03,Angelos Restaurant and Raw Bar,"$5,973.47",Montross,VA,,,,Catering,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-10,Dexter Lewis,$500,Lancaster,VA,,,,consulting,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-10,Republican Commonwealth Leadership PAC,"$9,200",Henrico,VA,,,,Mailing,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-04,Prime Media Partners,"$1,500",Arlington,VA,,,,Video Ad,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-12,Prime Media Partners,"$2,500",Arlington,VA,,,,Digital Ad,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-19,Horn's Ace Hardware,$17.89,Warsaw,VA,,,,Sign Hardware,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-19,"Assembly Strategies, LLC","$1,099.20",Richmond,VA,,,,Texts,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-03,Republican Ads,"$20,000",Washington,DC,,,,Advertisement,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-03,Obenshain for Delegate,"$5,000",Blacksburg,VA,,,,Political Donation,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-03,Virginia Twin Rivers Watermans Association,$750,Hague,VA,,,,Scholarship Donation,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-09-03,Virginia Watermans Association,$750,Matthews,VA,,,,Scholarship Donation,D,461094,2025-09-01 to 2025-09-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-02,Virginia Maritime Association Political Action Commitee (PAC-22-00091),$500,Norfolk,VA,pac,,Political Action Committee,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-18,Mr. Jesse H. Dize,$104.10,Kilmarnock,VA,individual,Retired,Retired,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-02,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,Political Action Committee,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-07,Ms. Robin Barrack,$500,Lancaster,VA,individual,Retired,Retired,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-20,Virginia Natural Gas PAC,$500,Virginia Beach,VA,pac,,Political Action Committee,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-07,Betting on VA Jobs,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-02,Reynolds Services Company,"$1,000",Winston-Salem,NC,business,,Tobacco Manufacturing Company,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-07,"Reedville Bait Company, LLC",$500,Burgess,VA,business,,Fishing,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-10,EB Cattle Company,"$20,000",Keswick,VA,business,,Farmer,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-10-20,Philip Morris US corporate Services Inc.,"$2,500",Washington,DC,business,,Tobacco Products,,A,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-22,Winred,$8.59,Arlington,VA,,,,service fee,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-02,"JDS Solutions, LLC","$2,700",Midlothian,VA,,,,Consulting,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-01,Google LLC,$2.67,Mountain View,CA,,,,G Suite,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-15,United States Postal Service,$78,Warsaw,VA,,,,stamps,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-09,Verizon,$101.09,Newark,NJ,,,,Phone Service,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-06,Walmart,$145.37,Tappahannock,VA,,,,Parade supplies,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-10,Friends of David Owen (CC-22-00207),"$5,000",Richmond,VA,,,,Donation,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-20,Republican Party of Virginia,"$9,000",Richmond,VA,,,,Mailer,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-23,Republican Party of Virginia,"$20,000",Richmond,VA,,,,Donation,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-09,Dexter Lewis,$500,Lancaster,VA,,,,Campaign Work,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-07,Republican Commonwealth Leadership PAC,"$6,150",Henrico,VA,,,,Mailer,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-09,Harland Clarke,$78.01,San Antonio,TX,,,,Checks,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-20,Friends of Chad Green,"$1,500",Seaford,VA,,,,Donation,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-23,"Assembly Strategies, LLC","$1,311.28",Richmond,VA,,,,Consulting,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-10,Friends of Amanda Batten,"$5,000",Norge,VA,,,,Donation,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-10,Friends of Carrie Coyner,"$5,000",Chester,VA,,,,Donation,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-10,Earley for Delegate,"$5,000",Midlothian,VA,,,,Donation,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-20,friends of Paul Milde,"$1,500",Fredericksburg,VA,,,,Donation,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-09,Rappahannock High School Athletic Booster,$150,Warsaw,VA,,,,Donation Golf Tournament,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-09,Raider Baseball Golf Tournament,$150,Warsaw,VA,,,,Donation,D,465049,2025-10-01 to 2025-10-23,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-11-03,"W. Ellery Kellum, Inc.","$1,000",Weems,VA,business,,Oyster Packer & Planter,,A,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-11-19,Molson Coors Beverage Company,$250,Milwaukee,WI,business,,Sales,,A,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-11-05,Winred,$0.21,Arlington,VA,,,,Service Fee,D,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-11-03,"JDS Solutions, LLC","$2,950",Midlothian,VA,,,,Consulting,D,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-11-03,Google LLC,$25.20,Mountain View,CA,,,,G Suite,D,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-11-14,United States Postal Service,$78,Warsaw,VA,,,,Stamps,D,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-24,Verizon,$101.13,Newark,NJ,,,,Phone Service,D,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-11-26,Verizon,$101.13,Newark,NJ,,,,Phone service,D,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-25,Walmart,$40.16,Tappahannock,VA,,,,Parade Supplies,D,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-10-31,"Assembly Strategies, LLC","$1,347.20",Richmond,VA,,,,Texts,D,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-11-06,"Assembly Strategies, LLC","$1,274.56",Richmond,VA,,,,Consulting,D,471313,2025-10-24 to 2025-11-27,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-12-23,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,Political Action Committee,,A,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-12-09,Two Rivers Communication,$161,Kilmarnock,VA,business,,Radio Communications,,A,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-12-19,Dimension Energy LLC,$250,Atlanta,GA,business,,Renewable Energy,,A,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-12-03,State Farm Federal PAC,$500,Bloomington,IL,pac,,PAC,,A,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-12-19,Eldon James and Associates,$250,Richmond,VA,business,,Business management consultant,,A,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2025-12-22,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,Political Action Committee,,A,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2025-12-16,Virginia Maryland Delaware Association of Electric Cooperatives,"$1,089.36",Glen Allen,VA,pac,,PAC,Event,B,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-12-01,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting,D,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-12-02,Google LLC,$25.20,Mountain View,CA,,,,Gsuite,D,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-12-29,Verizon,$101.13,Newark,NJ,,,,Phone service,D,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-11-29,Walmart,$68.78,Tappahannock,VA,,,,Paper,D,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-12-01,Two Rivers Communication,$161,Kilmarnock,VA,,,,Radio Ad,D,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-12-05,Republican Party of Virginia,"$15,000",Richmond,VA,,,,Donation,D,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2025-12-05,Dexter Lewis,$500,Lancaster,VA,,,,Campaign Work,D,476814,2025-11-28 to 2025-12-31,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2026-06-01,Virginia Wine Wholesalers Political Action Committee (PAC 91-258),"$6,500",Richmond,VA,pac,,Political Action Committee,,A,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2026-06-01,Virginia Dental Political Action Committee (PAC 12-00253),"$2,500",Richmond,VA,pac,,Political Action Committee,,A,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2026-01-12,Dominion Energy Inc. PAC,"$10,000",Richmond,VA,pac,,PAC,,A,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2026-06-01,Virginia Beverage Association (PAC 91-208),"$2,500",Richmond,VA,pac,,Political Action Committee,,A,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2026-06-17,Anheuser Busch,$500,St. Louis,MO,business,,Beverage Manufacturer,,A,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2026-06-01,"Altria Client Services, LLC","$1,000",Richmond,VA,business,,Tobacco Products,,A,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2026-01-12,Commercial Development PAC,$250,Alexandria,VA,pac,,Political Action Committee,,A,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2026-06-17,"Danville Distributing Company, Inc","$1,000",Danville,VA,business,,Beverage Distribution,,A,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+contribution,2026-04-17,Commisioner of Revenue PAC,$250,Staunton,VA,pac,,PAC,,A,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2026-06-15,Virginia Beer Wholesalers Association Political Action Committee - PAC-12-00191,"$2,881.12",Richmond,VA,pac,,Industry Association,"Fundraiser Reception,co-host with VWWA",B,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2026-06-15,Virginia Wine Wholesalers Political Action Committee (PAC 91-258),"$2,881.11",Richmond,VA,pac,,Political Action Committee,"Fundraiser Reception,co-host with VBWA",B,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+in_kind,2026-06-17,GOPAC,"$1,500",Arlington,VA,pac,,Political Action Committee,Leadership class,B,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-01-05,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-02-10,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-03-03,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-04-02,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-05-04,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-06-05,"JDS Solutions, LLC",$200,Midlothian,VA,,,,Consulting,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-01-03,Google LLC,$25.20,Mountain View,CA,,,,G Suite,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-02-02,Google LLC,$25.20,Mountain View,CA,,,,Google Workspace,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-03-03,Google LLC,$25.20,Mountain View,CA,,,,Google Workspace,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-04-01,Google LLC,$25.20,Mountain View,CA,,,,Google WorkSpace,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-05-01,Google LLC,$25.20,Mountain View,CA,,,,Google Workspace,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-06-01,Google LLC,$25.20,Mountain View,CA,,,,Google Workspace,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-02-09,United States Postal Service,$78,Warsaw,VA,,,,Stamps,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-02-02,Verizon,$101.12,Newark,NJ,,,,Phone Service,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-03-02,Verizon,$91.02,Newark,NJ,,,,phone service,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-04-02,Verizon,$91.02,Newark,NJ,,,,Phone Service,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-05-04,Verizon,$90.97,Newark,NJ,,,,Phone Service,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-06-02,Verizon,$71.26,Newark,NJ,,,,Phone Service,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-05-29,Amazon,$114.77,Seattle,WA,,,,Flags,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-02-06,"Wix.Com, Inc.",$468,San Francisco,CA,,,,Website Domain,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-04-01,House Republican Campaign Committee,"$1,000",Henrico,VA,,,,Caucus Dues,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-04-21,House Republican Campaign Committee,"$10,000",Henrico,VA,,,,Caucus Dues,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-03-05,Treasurer of Virginia,$74,Richmond,VA,,,,Flags,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-04-02,Treasurer of Virginia,$37,Richmond,VA,,,,Flag,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-01-06,Rappahannock Record,$50,Kilmarnock,VA,,,,Newspaper,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate
+expenditure,2026-03-02,Friends of Andrew Rice,"$1,000",Richmond,VA,,,,Donation,D,495451,2026-01-01 to 2026-06-30,CC-23-00535,Hillary Pugh Kent for Delegate

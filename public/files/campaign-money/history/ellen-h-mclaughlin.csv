@@ -1,0 +1,618 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2022-12-29,The Campaign for Ronnie Campbell for VA Delegate,"$44,796.04",Raphine,VA,business,,Campaign Committee,,A,305202,2022-12-15 to 2022-12-29,CC-22-00776,Ellen Campbell for Delegate
+contribution,2022-12-23,Murphy Tuomey Wilson,"$3,000",Lexington,VA,individual,A Morton Thomas and Assoc,Engineering,,A,305202,2022-12-15 to 2022-12-29,CC-22-00776,Ellen Campbell for Delegate
+contribution,2022-12-20,Washington Gas Light Company PAC,$500,Washington,DC,pac,,Political Action Committee,,A,305202,2022-12-15 to 2022-12-29,CC-22-00776,Ellen Campbell for Delegate
+contribution,2022-12-29,Peake for Senate,$260.25,Lynchburg,VA,candidate,,Campaign Committee,,A,305202,2022-12-15 to 2022-12-29,CC-22-00776,Ellen Campbell for Delegate
+contribution,2022-12-29,Spirit of Virginia,"$2,500",Merrifield,VA,pac,,Political Action Committee,,A,305202,2022-12-15 to 2022-12-29,CC-22-00776,Ellen Campbell for Delegate
+contribution,2022-12-29,Christopher Runion,$250,Bridgewater,VA,individual,"Eddie Edwards Signs, Inc",CEO,,A,305202,2022-12-15 to 2022-12-29,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2022-12-29,The Campaign for Ronnie Campbell for VA Delegate,$726.57,Raphine,VA,business,,Campaign Committee,Sign Printing,B,305202,2022-12-15 to 2022-12-29,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2022-12-29,The Campaign for Ronnie Campbell for VA Delegate,$720,Raphine,VA,business,,Campaign Committee,Printing,B,305202,2022-12-15 to 2022-12-29,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2022-12-29,WinRed Technical Services LLC,$28.02,Arlington,VA,,,,CC Processing,D,305202,2022-12-15 to 2022-12-29,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,The Campaign for Ronnie Campbell for VA Delegate,$500,Raphine,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-02,Rob Bell for Delegate,"$1,000",Charlottesville,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-02,Friends of Roxann Robinson,"$1,000",Midlothian,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-02,Jeff Archer,"$1,000",Max Meadows,VA,individual,Fort Chiswell Animal Park,Zoo Owner,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-02,Christopher Runion,$750,Bridgewater,VA,individual,"Eddie Edwards Signs, Inc",CEO,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-03,Coyner Carrie,"$1,041.02",Chesterfield,VA,individual,Self,Attorney,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-02,David A Bovenizer,$263,Lynchburg,VA,individual,Virginia House of Delegates,Legislative Counsel,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-04,Anne Ferrell Tata,$200,Virignia Beach,VA,individual,Commonwealth of Virginia,Delegate,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-03,Wiley for Delegate,"$1,000",Winchester,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Karen Greenhalgh for Delegate,"$1,000",Virginia Beach,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Ballard for Delegate,"$1,000",Pearisburg,VA,candidate,,Campaign,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Michael Webert for Delegate,"$1,000",Marshall,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Leftwich for Delegate,"$1,000",Chesapeake,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-06,Chris Pyle,$250,Roanoke,VA,individual,Delta Dental of Virginia,Executive,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-06,Virginia's Back! PAC,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-06,Ransone for Delegate,"$1,000",Kinsale,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Virginia Asian American Store Owners Association PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Virginia Sheriffs Association PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Christian & Barton LLP,$250,Richmond,VA,business,,Law Firm,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Friends of Amanda Batten,$500,Norge,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Danny Marshall Election Committee,$750,Danville,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Friends of Glenn R. Davis,$250,Virginia Beach,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Friends of Les Adams,$250,Chatham,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,Political Action Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-10,Friends of Matt Farris,"$1,000",Rustburg,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-10,McNamara for Delegate,"$1,000",Roanoke,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Daniel E Mowry,$250,Staunton,VA,individual,"Nelson, McPherson Summers & Santos LC",Attorney,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-10,Consuella Jordan,$104.10,Lynchburg,VA,individual,Self,Consultant,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-06,Wilt for Delegate,"$1,000",Harrisonburg,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-06,Friends of Otto Wachsmann,"$1,000",Stony Creek,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-06,Elect Bloxom for Delegate,"$1,000",Mappsville,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-07,William Pace,$129.09,Chatham,VA,individual,Virginia House of Delegates,Legislative Assistant,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Hyland Fowler,$520.51,Ashland,VA,individual,Virginia House of Delegates,Delegate,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-06,Friends of Chris Head,"$1,000",Roanoke,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-07,Suzanne Obenshain,$500,Harrisonburg,VA,individual,Self,Property Management,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-07,Ronald Jefferson,$260.25,Rocky Mount,VA,individual,Retired,Retired,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-08,Friends of Emily Brewer,"$1,000",Smithfield,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,John Massoud,$250,Strasburg,VA,individual,M R Taxi,Vice President,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Terry Austin for House of Delegates,"$1,000",Buchanan,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Wendell Walker for Delegate,"$1,000",Lynchburg,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,O'Quinn for Delegate,"$1,000",Bristol,VA,candidate,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Virginia Bankers Association PAC,"$1,000",Glen Allen,VA,pac,,Political Action Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Virginia Trial Lawyers Association PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Friends of Nick Freitas,"$1,000",Culpeper,VA,business,,Campaign Committee,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-09,Joshua Bond,$500,Willis,VA,individual,Turman Forest Products,Vice President,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,H. Benson Dendy,$250,Richmond,VA,individual,The Vectre Corporation,Government Relations,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Two Capitols Consulting,$250,Richmond,VA,business,,Consulting,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Kyle Mogensen,$500,Natural Bridge,VA,individual,Natural Bridge Zoo,Zoo Director,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Glenn Mon,$150,Lexington,VA,individual,Retired,Retired,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,G. Douglas Larsen,$200,Lexington,VA,individual,Retired,Doctor,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Friends of Scott Wyatt,$500,Mechanicsville,VA,business,,Campaign,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-01-05,Richsavage LLC,$500,Richmond,VA,business,,Government Relations,,A,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2023-01-09,Republican Party of Virginia,"$17,703",Richmond,VA,party,,Political Party Committee,Direct Mail,B,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-10,WinRed Technical Services LLC,$473.73,Arlington,VA,,,,Credit Card Processing,D,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-05,Republican Party of Virginia,"$17,810",Richmond,VA,,,,Contribution,D,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-09,"Chain Bridge Bank, NA",$2.50,McLean,VA,,,,Bank Fee,D,308150,2022-12-30 to 2023-01-10,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-09,Murphy Tuomey Wilson,"$2,000",Lexington,VA,individual,A Morton Thomas and Assoc,Engineering,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-31,Murphy Tuomey Wilson,"$1,000",Lexington,VA,individual,A Morton Thomas and Assoc,Engineering,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-31,Washington Gas Light Company PAC,$500,Washington,DC,pac,,Political Action Committee,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-22,William Anthony,$50,Lexington,VA,individual,None,Retired,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-31,Ramona Hazera,$250,Lexington,VA,individual,None,Retired,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-02-27,Danny Marshall Election Committee,$250,Danville,VA,business,,Campaign Committee,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-02-27,Kim Taylor for Virginia,$750,Petersburg,VA,business,,Campaign Commitee,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-02-27,Dave LaRock for Delegate,$500,Hamilton,VA,candidate,,Campaign Committee,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-02-27,Virginia Automobile and Truck Dealers PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-02-27,Rose Wright,$250,Victoria,VA,individual,Luneburg County Schools,Teacher,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-27,Peggy Painter,$50,Natural Bridge,VA,individual,None,Retired,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-02-27,Clark Brown,$104.10,Lexington,VA,individual,None,Retired,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-02,Edward Chalgren III,$350,Rockbridge Baths,VA,individual,None,Retired,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-31,Edward Chalgren III,$350,Rockbridge Baths,VA,individual,None,Retired,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-02,G E (Mike) Lowry,$150,Lexington,VA,individual,None,Retired,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-03,Jared Moon,$104.10,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-31,Jared Moon,$100,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-14,Friends of Mike Cherry,"$1,000",Colonial Heights,VA,business,,Campaign Committee,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-31,William Buchanan,$250,Staunton,VA,individual,BARC Electric Cooperative,CEO,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-03-31,Samuel Hamilton,"$1,000",Verona,VA,individual,None,Retired,,A,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-02-28,WinRed Technical Services LLC,$5.09,Arlington,VA,,,,Credit Card Processing,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-03-31,WinRed Technical Services LLC,$24.78,Arlington,VA,,,,Credit Card Processing,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-03-28,Republican Party of Virginia,"$5,550",Richmond,VA,,,,Direct Mail,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-13,Election CFO LLC,$250,Alexandria,VA,,,,Campaign Consulting,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-02-08,Election CFO LLC,"$1,009.65",Alexandria,VA,,,,Compliance Consulting,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-03-06,Election CFO LLC,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-13,Uptown Color,$812,Richmond,VA,,,,Printing,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-13,Red Maverick Media,"$5,055",Harrisburg,PA,,,,Media Advertising,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-31,Red Maverick Media,"$5,066.20",Harrisburg,PA,,,,Media Advertising,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-03-14,Red Maverick Media,"$1,529.46",Harrisburg,PA,,,,Media Advertising,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-03-23,Red Maverick Media,"$3,284.64",Harrisburg,PA,,,,Signs,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-31,Fernando Espinoza,"$5,000",Woodbridge,VA,,,,Campaign Consulting,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-31,Charles Ferry,"$5,000",Henrico,VA,,,,Campaign Consulting,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-01-31,Ellen Campbell,$288,Raphine,VA,,,,Reimbursement,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-03-30,Verizon Wireless,$121.29,Basking Ridge,NJ,,,,Phones,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-03-31,Shenandoah Awards and Apparel,$558.25,Staunton,VA,,,,Campaign Supplies,D,322538,2023-01-11 to 2023-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-05-03,William Anthony,$100,Lexington,VA,individual,None,Retired,,A,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-04-18,William Pace,$120,Chatham,VA,individual,Virginia House of Delegates,Legislative Assistant,,A,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-04-04,Jared Moon,$104.10,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-05-03,Jared Moon,$104.10,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-06-03,Jared Moon,$104.10,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-04-07,Virginia State Police Association Inc Political Action Committee Account,$250,Richmond,VA,pac,,Political Action Committee,,A,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-05-03,Virginia Eagle Distributing Company LLC,$750,Verona,VA,business,,Liquor Distribution,,A,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-05-30,Virginia Beer Wholesalers Association Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-04-30,WinRed Technical Services LLC,$8.83,Arlington,VA,,,,CC Processing Fees,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-05-31,WinRed Technical Services LLC,$8.04,Arlington,VA,,,,CC Processing Fees,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-06-08,WinRed Technical Services LLC,$4.10,Arlington,VA,,,,CC Processing Fees,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-04-04,Election CFO LLC,"$1,025.65",Alexandria,VA,,,,Compliance Consulting,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-05-05,Election CFO LLC,"$1,038",Alexandria,VA,,,,Compliance Consulting,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-06-05,Election CFO LLC,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-06-07,Red Maverick Media,$150,Harrisburg,PA,,,,Digital Consulting,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-04-03,Ecco Adesso Vineyards,$416.77,Fairfield,VA,,,,Food/Beverage,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-04-04,Omni Homestead Resort,$310.94,Hot Springs,VA,,,,Travel,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-04-05,USPS,$19.30,Washington,DC,,,,Postage,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-05-04,USPS,$4.50,Washington,DC,,,,Postage,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-04-17,The Commonwealth Hotel,$226.86,Richmond,VA,,,,Travel,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-04-27,Republican Commonwealth Leadership PAC,"$2,000",Henrico,VA,,,,Membership Dues,D,329139,2023-04-01 to 2023-06-08,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-06-23,Motorola Solutions Inc. Political Action Committee,$500,Washington,DC,pac,,Political Action Committee,,A,334109,2023-06-09 to 2023-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-06-30,WinRed Technical Services LLC,$0.99,Arlington,VA,,,,CC Processing Fees,D,334109,2023-06-09 to 2023-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-06-23,Shenandoah Awards and Apparel,$273.25,Staunton,VA,,,,Campaign Supplies,D,334109,2023-06-09 to 2023-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-29,Virginia Bankers Association PAC,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-30,Virginia Sheriffs Association PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-28,Edward Chalgren III,$520.51,Rockbridge Baths,VA,individual,None,Retired,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-07-03,Jared Moon,$104.10,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-03,Jared Moon,$104.10,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-21,VADPAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-25,Virginia Wine Wholesalers Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-24,Virginia Professional Fire Fighters,"$1,000",Manassas,VA,business,,Charitable Foundation,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-30,Virginia Federation Republican Women,$208.20,Montpelier,VA,business,,Political Club,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-27,Kirk Barley,$250,Lyndhurst,VA,individual,None,Retired,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-08-24,VA Beverage Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-07-31,WinRed Technical Services LLC,$4.10,Arlington,VA,,,,CC Processing,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-31,WinRed Technical Services LLC,$48.65,Arlington,VA,,,,CC Processing,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-24,Karen Greenhalgh for Delegate,"$1,000",Virginia Beach,VA,,,,Contribution,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-07-05,Election CFO LLC,"$1,008",Alexandria,VA,,,,Compliance Consulting,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-07,Election CFO LLC,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-07-17,Red Maverick Media,$809.86,Harrisburg,PA,,,,Printing & Postage,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-03,Red Maverick Media,"$1,400",Harrisburg,PA,,,,Printing & Postage,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-23,USPS,$70.85,Washington,DC,,,,Postage,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-29,USPS,$9.65,Washington,DC,,,,Postage,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-24,Republican Commonwealth Leadership PAC,"$4,000",Henrico,VA,,,,Contribution,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-07-25,Staples,$250.37,Framingham,MA,,,,Office Supplies,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-07-21,"JJSB Properties, LLC",$102.50,Raleigh,NC,,,,Rent,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-07-25,"JJSB Properties, LLC",$319.99,Raleigh,NC,,,,Rent,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-07-25,"JJSB Properties, LLC",$307.49,Raleigh,NC,,,,Rent,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-07-27,Walmart,$183.56,Bentonville,AR,,,,Campaign Supplies,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-14,"Lowes Companies, Inc.",$42.10,Mooresville,NC,,,,Campaign Supplies,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-22,Creative Direct,"$1,500",RICHMOND,VA,,,,Printing & Postage,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-24,Friends of Lee Peters III,"$1,000",Fredericksburg,VA,,,,Contribution,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-08-24,Stirrup for Delegate 21,"$1,000",Haymarket,VA,,,,Contribution,D,349622,2023-07-01 to 2023-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-09-28,Jeff Archer,"$1,500",Max Meadows,VA,individual,Fort Chiswell Animal Park,Zoo Owner,,A,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-09-27,Virginia Trial Lawyers Association PAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-09-03,Jared Moon,$104.10,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-09-12,Eric Obaugh,$500,Staunton,VA,individual,Charlie Obaugh Auto Group,Auto Dealer,,A,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-09-13,Dominion Energy Inc Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-09-21,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-09-27,Betting on VA Jobs PAC,"$2,500",Richmond,VA,pac,,Political Action Committee,,A,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-09-30,WinRed Technical Services LLC,$83.89,Arlington,VA,,,,CC Processing,D,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-09-01,Election CFO LLC,"$1,009.26",Alexandria,VA,,,,Compliance Consulting,D,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-09-01,USPS,$9.65,Washington,DC,,,,Postage,D,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-09-14,USPS,$9.65,Washington,DC,,,,Postage,D,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-09-21,USPS,$9.65,Washington,DC,,,,Postage,D,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-09-20,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-09-14,Comcast Corporation,$179.96,Philadelphia,PA,,,,Utilities,D,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-09-14,Dominion Energy Inc,$310.64,Richmond,VA,,,,Utilities,D,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-09-21,The House Republican Campaign Committee Inc.,"$1,000",Richmond,VA,,,,Contribution,D,356902,2023-09-01 to 2023-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-23,Murphy Tuomey Wilson,$500,Lexington,VA,individual,A Morton Thomas and Assoc,Engineering,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-17,Ramona Hazera,$104.10,Lexington,VA,individual,None,Retired,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-19,Ramona Hazera,$200,Lexington,VA,individual,None,Retired,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-19,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-03,Jared Moon,$104.10,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-09,The National Right to Work Committee PAC,$250,Springfield,VA,pac,,Political Action Committee,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-09,CRNA PAC,$500,Forest Hill,MD,pac,,Political Action Committee,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-09,Huntington Ingalls Industries,$500,Newport News,VA,business,,Ship Building,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-09,Virginia Farm Bureau Federation,$500,Richmond,VA,pac,,Political Action Committee,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-19,Virginia Hospital and Healthcare Association,$500,Richmond,VA,pac,,Political Action Committee,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-19,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-19,Amazon Services LLC,$500,Seattle,VA,business,,Commerce,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-23,Reed Smith LLP VA Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-23,JRB Corp of Lynchburg,"$1,000",STAUNTON,VA,business,,Commercial and Industrial Building Operation,,A,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2023-10-10,Broadband Association of Virginia,$138.63,Richmond,VA,business,,Trade Association,Food/Beverage,B,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-26,WinRed Technical Services LLC,$8.20,Arlington,VA,,,,CC Processing,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-02,Election CFO LLC,"$1,001.63",Alexandria,VA,,,,Compliance Consulting,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-12,USPS,$3.29,Washington,DC,,,,Postage,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-19,USPS,$9.65,Washington,DC,,,,Postage,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-23,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-16,Walmart,$46.96,Bentonville,AR,,,,Campaign Supplies,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-20,Comcast Corporation,$164.02,Philadelphia,PA,,,,Utilities,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-11,The House Republican Campaign Committee Inc.,"$15,000",Richmond,VA,,,,Contribution,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-23,The House Republican Campaign Committee Inc.,"$1,500",Richmond,VA,,,,Contribution,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-03,Google,$54,Mountain View,CA,,,,Online Services,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-09,Augusta County Republican Committee,$750,Verona,VA,,,,Contribution,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-10,City of Richmond,$1.30,Richmond,VA,,,,Parking,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-13,Waynesboro Golf and Country Club,$250,Waynesboro,VA,,,,Event Cost,D,368526,2023-10-01 to 2023-10-26,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-31,Altria Client Services LLC,$500,Richmond,VA,business,,Finance,,A,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-10-31,Engineering Companies of Virginia,$250,Richmond,VA,pac,,Political Action Committee,,A,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2023-11-28,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,Political Action Committee,,A,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2023-11-07,Republican Party of Virginia,"$16,305",Richmond,VA,party,,Political Party Committee,Direct Mail,B,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-31,Election CFO LLC,"$1,066.89",Alexandria,VA,,,,Compliance Consulting,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-10-31,USPS,$9.65,Washington,DC,,,,Postage,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-11-23,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-11-27,Walmart,$16.20,Bentonville,AR,,,,Campaign Supplies,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-11-28,Comcast Corporation,$80.01,Philadelphia,PA,,,,Utilities,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-11-07,Dominion Energy Inc,$29.73,Richmond,VA,,,,Utilities,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-11-28,Dominion Energy Inc,$44.85,Richmond,VA,,,,Utilities,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-11-01,Google,$54,Mountain View,CA,,,,Online Services,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-11-01,Google,$12.62,Mountain View,CA,,,,Online Services,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-11-06,Waynesboro Golf and Country Club,"$2,032.27",Waynesboro,VA,,,,Event Expense,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-11-09,Waynesboro Golf and Country Club,$198.45,Waynesboro,VA,,,,Event Expense,D,383959,2023-10-27 to 2023-11-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-12-01,Election CFO LLC,"$1,010",Alexandria,VA,,,,Compliance Consulting,D,388941,2023-12-01 to 2023-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-12-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,388941,2023-12-01 to 2023-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-12-04,Google,$12.61,Mountain View,CA,,,,Online Services,D,388941,2023-12-01 to 2023-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-12-04,Google,$54,Mountain View,CA,,,,Online Services,D,388941,2023-12-01 to 2023-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2023-12-04,Rocky Mountain Radio Group,"$1,080",Vail,CO,,,,Advertising,D,388941,2023-12-01 to 2023-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-05-21,Virginia Sheriffs Association PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-05-03,Kirk Barley,$250,Lyndhurst,VA,individual,None,Retired,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-05-29,Virginia Farm Bureau Federation,$500,Richmond,VA,pac,,Political Action Committee,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-06-14,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Finance,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-06-14,Engineering Companies of Virginia,$500,Richmond,VA,pac,,Political Action Committee,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-01-08,AT&T,$250,St. Louis,MO,business,,Telecommunications,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-01-08,NiSource Inc. PAC,$250,Columbus,OH,pac,,Political Action Committee,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-03-14,Virginia Optometric Association,$500,Henrico,VA,pac,,PAC,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-03-14,Commonwealth Sportsmen's Alliance PAC,$250,Powhatan,VA,pac,,PAC,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-04-06,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-05-03,Scott Seaton for Augusta Board of Supervisors,$774.87,Waynesboro,VA,business,,Campaign Committee,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-05-16,Christopher Scott Buchanan,$250,Staunton,VA,individual,State Farm,Insurance,,A,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-05-31,WinRed Technical Services LLC,$9.85,Arlington,VA,,,,CC Processing,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-04-12,"Chain Bridge Bank, NA",$12,McLean,VA,,,,Bank Fee,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-03,Election CFO LLC,"$1,000",Alexandria,VA,,,,Compliance Consulting,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-02-05,Election CFO LLC,$260.39,Alexandria,VA,,,,Compliance Consulting,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-02-29,Election CFO LLC,$250,Alexandria,VA,,,,Compliance Consulting,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-04-08,Election CFO LLC,$261.63,Alexandria,VA,,,,Compliance Consulting,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-05-23,Election CFO LLC,$254,Alexandria,VA,,,,Consulting,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-06-25,Election CFO LLC,$257.63,Alexandria,VA,,,,Consulting,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-24,Red Maverick Media,$199,Harrisburg,PA,,,,Texting Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-04-09,USPS,$72,Washington,DC,,,,Postage,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-06-10,USPS,$68,Washington,DC,,,,Postage,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-16,The Commonwealth Hotel,$519.78,Richmond,VA,,,,Travel,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-22,The Commonwealth Hotel,"$1,212.82",Richmond,VA,,,,Travel,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-29,The Commonwealth Hotel,"$1,342.97",Richmond,VA,,,,Travel,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-02-05,The Commonwealth Hotel,"$1,422.94",Richmond,VA,,,,Travel,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-02-12,The Commonwealth Hotel,"$1,212.82",Richmond,VA,,,,Travel,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-03-22,Republican Commonwealth Leadership PAC,"$1,000",Henrico,VA,,,,Contribution,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-04-30,Republican Commonwealth Leadership PAC,"$1,500",Henrico,VA,,,,Contribution,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-05-20,Staples,$216.11,Framingham,MA,,,,Office Supplies,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-22,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-02-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-03-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-04-22,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-05-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-06-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-16,Comcast Corporation,$80.01,Philadelphia,PA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-02-13,Comcast Corporation,$83.17,Philadelphia,PA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-03-13,Comcast Corporation,$83.17,Philadelphia,PA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-04-15,Comcast Corporation,$83.17,Philadelphia,PA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-05-13,Comcast Corporation,$83.17,Philadelphia,PA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-06-13,Comcast Corporation,$83.17,Philadelphia,PA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-09,Dominion Energy Inc,$76.24,Richmond,VA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-03-19,Dominion Energy Inc,$220.72,Richmond,VA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-05-01,Dominion Energy Inc,$56.59,Richmond,VA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-06-13,Dominion Energy Inc,$58.32,Richmond,VA,,,,Utilities,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-02,Google,$12.61,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-01-02,Google,$54,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-02-02,Google,$54,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-02-02,Google,$12.61,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-03-04,Google,$54,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-03-04,Google,$12.61,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-04-02,Google,$12.61,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-04-02,Google,$58.17,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-05-02,Google,$12.56,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-05-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-06-03,Google,$12.56,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-06-03,Google,$64.80,Mountain View,CA,,,,Online Services,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-04-24,The News-Gazette Corp.,$75,Lexington,VA,,,,Newspaper,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-06-06,Kroger,$197.86,Cincinnati,OH,,,,Food,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-05-31,House Republican Campaign Committee,"$1,000",Henrico,VA,,,,Contribution,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-06-07,Chick-Fil-A,$48.10,Atlanta,GA,,,,Food,D,408126,2024-01-01 to 2024-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Murphy Tuomey Wilson,"$1,000",Lexington,VA,individual,A Morton Thomas and Assoc,Engineering,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-31,Virginia Bankers Association PAC,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-31,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-10,Virginia State Police Association Inc Political Action Committee Account,$250,Richmond,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,William Buchanan,$200,Staunton,VA,individual,BARC Electric Cooperative,CEO,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Virginia Eagle Distributing Company LLC,$750,Verona,VA,business,,Beverage Distributor,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Virginia Beer Wholesalers Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Virginia Beer Wholesalers Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-09-06,VADPAC,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Virginia Wine Wholesalers Political Action Committee,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-30,Comcast Corporation,$500,Philadelphia,PA,business,,TV Cable,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-02,Dominion Energy Inc Political Action Committee,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-09-18,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-31,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Ship Building,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Virginia Hospital and Healthcare Association,$500,Richmond,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-09-18,Amazon Services LLC,"$1,000",Seattle,VA,business,,Commerce,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-09-06,Reed Smith LLP VA Political Action Committee,$250,Richmond,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-07-02,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,Political Action Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-07-02,Anheuser Busch Companies PAC,$250,St. Louis,MO,pac,,PAC,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Omar Paredes DDS PC Shenandoah Dental Studio,$200,Lexington,VA,business,,Dentistry,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Spencer Home Center Inc.,$200,Lexington,VA,business,,Retail,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Law Firm,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Bahhurs Preowned Cars and Trucks,$300,Lexington,VA,business,,Auto Sales,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,PAC,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-08,Virginia Society of the AIA PAC,$500,Richmond,VA,pac,,PAC,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Samuel G. Burnette,$200,Lexington,VA,individual,Not Employed,Not Employed,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Larry Stanton Wiese,$500,Lexington,VA,individual,KAPPA ALPHA ORDER,Executive Director,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,"Blue Ridge Beverage Co., Inc.","$1,000",Waynesboro,VA,business,,Beverage Distribution,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Roanoke Gas PAC,"$1,000",Roanoke,VA,pac,,PAC,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Charlie Obaugh Auto Group,$500,Staunton,VA,business,,Automobile Sales,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-25,Jason Grimm,$125,Staunton,VA,individual,None,Retired,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Jason Grimm,$510,Staunton,VA,individual,None,Retired,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-25,Jim Wood,$130.13,Waynesboro,VA,individual,City of Wayesboro,Vice-Mayor,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Ellen Campbell,$500,Waynesboro,VA,individual,Virginia House of Delegates,Delegate,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Augusta County Professional Firefighters & Paramedics,"$1,000",Verona,VA,business,,Association,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Paragon Payroll Solutions,$125,Waynesboro,VA,business,,Payroll and Tax Services,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-28,Michael Sandridge,$600,Raphine,VA,individual,Retired,Retired,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-10-31,Roger Jarrell,$416.41,Lexington,VA,individual,Self,Attorney,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-11-11,PhRMA,$250,Washington,DC,business,,Pharmaceuticals,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-11-22,American Electric Power Committee for Responsible Government,$500,Washington,DC,pac,,PAC,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-10,Neurocrine Biosciences Inc.,$500,San Diego,CA,business,,Biopharmaceuticals,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-10,Commissioner of Revenue PAC - CORPAC,$250,Newport News,VA,pac,,PAC,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-31,Aglow International,$170,Stuarts Draft,VA,business,,Religious Organization,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-31,Amy Darby for City Council,$250,Staunton,VA,business,,Campaign Committee,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2024-12-31,Boyd-Pamunkey Casino PAC,"$1,500",Norfolk,VA,pac,,PAC,,A,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-31,WinRed Technical Services LLC,$26.47,Arlington,VA,,,,CC Processing,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-07-17,Election CFO LLC,$259.63,Alexandria,VA,,,,Consulting,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-08-06,Election CFO LLC,$254,Alexandria,VA,,,,Consulting,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-07,Election CFO LLC,$258,Alexandria,VA,,,,Consulting,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-09,Election CFO LLC,$250,Alexandria,VA,,,,Consulting,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-31,Election CFO LLC,$284,Alexandria,VA,,,,Consulting,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-12-02,Election CFO LLC,$283.03,Alexandria,VA,,,,Consulting,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-07-03,USPS,$2.91,Washington,DC,,,,Postage,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-09,USPS,$10.45,Washington,DC,,,,Postage,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-29,USPS,$10.45,Washington,DC,,,,Postage,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-12-08,USPS,$10.45,Washington,DC,,,,Postage,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-04,Staples,$10.52,Framingham,MA,,,,Office Supplies,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-07,Staples,$1.90,Framingham,MA,,,,Office Supplies,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-16,Staples,$44.22,Framingham,MA,,,,Office Supplies,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-07-22,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-08-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-09-23,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-11-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-12-23,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-12-11,Walmart,$65.24,Bentonville,AR,,,,Campaign Supplies,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-07-15,Comcast Corporation,$83.17,Philadelphia,PA,,,,Utilities,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-08-13,Comcast Corporation,$83.17,Philadelphia,PA,,,,Utilities,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-09-13,Comcast Corporation,$103.17,Philadelphia,PA,,,,Utilities,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-15,Comcast Corporation,$103.17,Philadelphia,PA,,,,Utilities,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-11-13,Comcast Corporation,$103.17,Philadelphia,PA,,,,Utilities,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-12-12,Comcast Corporation,$103.17,Philadelphia,PA,,,,Utilities,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-07-12,Dominion Energy Inc,$38.34,Richmond,VA,,,,Utilities,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-11-07,Dominion Energy Inc,$102.09,Richmond,VA,,,,Utilities,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-07-02,Google,$12.56,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-07-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-08-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-08-02,Google,$12.63,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-09-03,Google,$64.80,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-09-03,Google,$12.63,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-02,Google,$12.63,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-11-04,Google,$64.80,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-11-04,Google,$12.69,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-12-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-12-02,Google,$12.69,Mountain View,CA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-08-20,Bobby May Advertising Specialties,$469.88,Herley,VA,,,,Printing,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-08-20,MailChimp,$54,Atanta,GA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-09-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-21,MailChimp,$54,Atanta,GA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-11-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-12-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-08,Custom Ink,$529.47,Fairfax,VA,,,,Printing,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-08,Custom Made Enterprises,$370.95,Airmont,NY,,,,Printing,D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2024-10-28,Country Club of Staunton,"$2,738.80",Staunton,VA,,,,"Event Venue, Food and Beverage",D,428939,2024-07-01 to 2024-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-03-11,John Massoud,$250,Strasburg,VA,individual,M R Taxi,Vice President,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-03-31,Ramona Hazera,$200,Lexington,VA,individual,None,Retired,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-01-03,Motorola Solutions Inc. Political Action Committee,"$1,000",Washington,DC,pac,,Political Action Committee,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-01-03,Virginia Cable Political Action Committee,$500,Richmond,VA,pac,,Political Action Committee,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-01-03,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-01-03,Virginia Spirits Association Operating Account,$250,Moseley,VA,business,,Non Profit,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-01-03,Vantage Data Centers Management Co LLC,$250,Santa Clara,CA,business,,Commerce,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-01-03,Commercial Development Political Action Committee,$250,Alexandria,VA,pac,,Political Action Committee,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-01-03,McGuireWoods,$500,Richmond,VA,business,,Legal,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-01-03,Genworth Financial,$500,Lynchburg,VA,business,,Financial Services,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-03-11,Pam Talley Stoneburner,$200,Waynesboro,VA,individual,Retired,Retired,,A,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-01-07,Election CFO LLC,$259,Alexandria,VA,,,,Consulting,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-02-04,Election CFO LLC,$271.05,Alexandria,VA,,,,Consulting,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-03-04,Election CFO LLC,"$1,108.40",Alexandria,VA,,,,Consulting,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-01-13,USPS,$1.32,Washington,DC,,,,Postage,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-03-11,USPS,$10.10,Washington,DC,,,,Postage,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-02-24,Staples,$59.56,Framingham,MA,,,,Office Supplies,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-03-05,Staples,$37.40,Framingham,MA,,,,Office Supplies,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-03-06,Staples,$0.29,Framingham,MA,,,,Office Supplies,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-01-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-02-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-03-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-01-13,Comcast Corporation,$103.17,Philadelphia,PA,,,,Utilities,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-02-13,Comcast Corporation,$105.27,Philadelphia,PA,,,,Utilities,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-02-07,Dominion Energy Inc,$51.29,Richmond,VA,,,,Utilities,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-01-02,Google,$12.69,Mountain View,CA,,,,Online Services,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-01-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-02-02,Google,$12.77,Mountain View,CA,,,,Online Services,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-02-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-03-02,Google,$12.77,Mountain View,CA,,,,Online Services,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-03-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-01-21,MailChimp,$54,Atanta,GA,,,,Online Services,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-02-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-03-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-01-06,Target,$72.55,Minneapolis,MN,,,,Office Supplies,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-03-13,Comcast,$105.27,Philadelphia,PA,,,,Utilities,D,434968,2025-01-01 to 2025-03-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-04-25,Murphy Tuomey Wilson,$500,Lexington,VA,individual,A Morton Thomas and Assoc,Engineering,,A,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-06-05,Virginia Bankers Association State PAC,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-04-22,Dominion Energy Inc Political Action Committee,"$30,000",Richmond,VA,pac,,Political Action Committee,,A,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-05-23,Kirk Miller,$125,Natural Bridge,VA,individual,Retired,Retired,,A,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2025-05-15,Community Owned Power PAC,"$1,984.56",Glen Allen,VA,pac,,Non Profit,Event Space,B,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-04-04,Election CFO LLC,"$1,004",Alexandria,VA,,,,Consulting,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-05-01,Election CFO LLC,"$1,023",Alexandria,VA,,,,Consulting,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-04-08,USPS,$72,Washington,DC,,,,Postage,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-04-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-05-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-04-13,Comcast Corporation,$105.27,Philadelphia,PA,,,,Utilities,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-04-28,Dominion Energy Inc,$112.28,Richmond,VA,,,,Utilities,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-04-01,Google,$64.80,Mountain View,CA,,,,Online Services,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-04-02,Google,$12.77,Mountain View,CA,,,,Online Services,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-05-01,Google,$64.80,Mountain View,CA,,,,Online Services,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-05-02,Google,$12.77,Mountain View,CA,,,,Online Services,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-06-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-06-02,Google,$12.77,Mountain View,CA,,,,Online Services,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-04-20,MailChimp,$54,Atanta,GA,,,,Online Services,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-05-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-05-12,Comcast,$105.27,Philadelphia,PA,,,,Utilities,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-04-04,FJE Solutions LLC,"$8,812.50",Arlington,VA,,,,Consulting,D,444879,2025-04-01 to 2025-06-05,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-06-30,Comcast Corporation,$500,Philadelphia,PA,business,,TV Cable,,A,444881,2025-06-06 to 2025-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-06-25,Virginia Hospital and Healthcare Association,$500,Richmond,VA,pac,,Political Action Committee,,A,444881,2025-06-06 to 2025-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-06-30,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Finance,,A,444881,2025-06-06 to 2025-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-06-06,Election CFO LLC,"$1,010",Alexandria,VA,,,,Consulting,D,444881,2025-06-06 to 2025-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-06-23,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,444881,2025-06-06 to 2025-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-06-20,MailChimp,$54,Atanta,GA,,,,Online Services,D,444881,2025-06-06 to 2025-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-06-13,Comcast,$105.27,Philadelphia,PA,,,,Utilities,D,444881,2025-06-06 to 2025-06-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-06-06,Greater Augusta Regional Chamber of Commerce,$200,Fishersville,VA,,,,Event Ticket,D,444881,2025-06-06 to 2025-06-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-07-11,Murphy Tuomey Wilson,"$1,000",Lexington,VA,individual,A Morton Thomas and Assoc,Engineering,,A,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-07-11,Anheuser Busch Companies PAC,$250,St. Louis,MO,pac,,PAC,,A,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-07-30,Spencer Home Center Inc.,$200,Lexington,VA,business,,Retail,,A,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-08-01,Jim Wood,$400,Waynesboro,VA,individual,City of Wayesboro,Vice-Mayor,,A,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-07-11,Randy Hostetter Excavating LLC,$300,Lexington,VA,business,,Construction,,A,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-07-30,Strong Start PAC,"$2,500",Richmond,VA,pac,,PAC,,A,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-07-30,Greater VA Carpenters PEC,"$2,500",Ashland,VA,business,,Committee,,A,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-08-26,Thomas Sheets,$500,Staunton,VA,individual,Blue Ridge Lumber,Forestry,,A,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-08-26,Wellpet Clair Park LLC,$200,Stuarts Draft,VA,business,,Animal Hospital,,A,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-07-02,Election CFO LLC,"$1,013",Alexandria,VA,,,,Compliance Consulting,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-01,Election CFO LLC,"$1,025",Alexandria,VA,,,,Consulting,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-07-21,Red Maverick Media,$428,Harrisburg,PA,,,,Printing and Postage,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-07,Kim Taylor for Virginia,"$2,500",Petersburg,VA,,,,Contribution,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-26,USPS,$11,Washington,DC,,,,Postage,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-02,Republican Commonwealth Leadership PAC,"$3,750",Henrico,VA,,,,Contribution,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-07-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-08,Walmart,$75.91,Bentonville,AR,,,,Campaign Supplies,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-14,Dominion Energy Inc,$96.56,Richmond,VA,,,,Utilities,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-07-02,Google,$12.76,Mountain View,CA,,,,Online Services,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-07-02,Google,$64.80,Mountain View,CA,,,,Online Services,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-03,Google,$12.77,Mountain View,CA,,,,Online Services,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-03,Google,$75.48,Mountain View,CA,,,,Online Services,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-07-21,MailChimp,$54,Atanta,GA,,,,Online Services,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-07-22,Custom Ink,$445.20,Fairfax,VA,,,,Printing,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-10,Country Club of Staunton,$206,Staunton,VA,,,,"Event Venue, Food and Beverage",D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-14,Country Club of Staunton,"$2,833.14",Staunton,VA,,,,"Event Venue, Food and Beverage",D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-07-13,Comcast,$105.27,Philadelphia,PA,,,,Utilities,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-13,Comcast,$105.27,Philadelphia,PA,,,,Utilities,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-07,Earley for Delegate,"$1,000",Midlothian,VA,,,,Contribution,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-07,Friends of David Owen,"$1,000",Manakin-Sabot,VA,,,,Contribution,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-07,Friends of Ian Lovejoy for Delegate,"$1,000",Alexandria,VA,,,,Contribution,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-07,Friends of Chris Obenshain,"$2,500",Blacksburg,VA,,,,Contribution,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-07,Mike Lamonea for Delegate,"$1,000",Alexandria,VA,,,,Contribution,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-07,Storm for Delegate,"$1,000",Alexandria,VA,,,,Contribution,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-08-08,Mulligan's Golf Center,$133.03,Harrisonburg,VA,,,,Fundraiser,D,454097,2025-07-01 to 2025-08-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-01,Daniel E Mowry,"$1,000",Staunton,VA,individual,"Nelson, McPherson Summers & Santos LC",Attorney,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-26,Virginia Eagle Distributing Company LLC,"$1,000",Verona,VA,business,,Beverage Distributor,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-26,Virginia Beer Wholesalers Association Political Action Committee,"$1,000",Richmond,VA,pac,,Political Action Committee,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-26,Virginia Wine Wholesalers Political Action Committee,"$2,000",Richmond,VA,pac,,Political Action Committee,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-12,Kirk Barley,$500,Lyndhurst,VA,individual,None,Retired,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-10,Eric Obaugh,$520.51,Staunton,VA,individual,Charlie Obaugh Auto Group,Auto Dealer,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-01,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,Political Action Committee,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-01,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,Ship Building,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-01,Engineering Companies of Virginia,$500,Richmond,VA,pac,,Political Action Committee,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-01,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,PAC,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-02,Martha Bryant,$104.10,Amherst,VA,individual,None,Retired,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-01,Ben Cline for Congress Inc.,"$1,000",Leesburg,VA,candidate,,Campaign Committee,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-01,Ivy Ridge Developers LLC,"$1,500",Waynesboro,VA,business,,Real Estate,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-01,Micron Technology Inc.,$750,Boise,ID,business,,Semi Conductor Supplier,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-01,Amazon.com Services LLC,"$1,000",Washington,DC,business,,Online Retail,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-05,Diana Onken,$500,Fairfield,CT,individual,Save the Children Action Network,Advocacy,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-16,Care Advantage Inc.,"$1,000",North Chesterfield,VA,business,,Healthcare,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-26,Republican Women of Greater Augusta,$500,Fairfield,VA,pac,,Political Committee,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-26,AIA Virginia PAC,$500,Chesterfield,VA,pac,,Political Action Committee,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-26,Sheetz,$500,Service Station,VA,business,,Gas Station,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-26,Derek Almarode,$200,Staunton,VA,individual,Augusta County Sheriffs Department,Police Officer,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-09-29,Jessica Ray,$104.10,Staunton,VA,individual,Carilion Clinic,CRNA,,A,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2025-09-23,Republican Party of Virginia,"$5,074",Richmond,VA,party,,Political Party Committee,Mailings,B,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2025-09-30,Republican Party of Virginia,"$10,981",Richmond,VA,party,,Political Party Committee,Mailings,B,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-30,WinRed Technical Services LLC,$68.11,Arlington,VA,,,,Fundraising Fee,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-09,Election CFO LLC,"$1,052.22",Alexandria,VA,,,,Consulting,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-23,USPS,$11,Washington,DC,,,,Postage,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-18,Republican Commonwealth Leadership PAC,"$16,000",Henrico,VA,,,,Contribution,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-01,Google,$79.20,Mountain View,CA,,,,Online Services,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-01,Google,$12.80,Mountain View,CA,,,,Online Services,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-14,Comcast,$156.17,Philadelphia,PA,,,,Utilities,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-09-11,"Augusta Cooperative Farm Bureau, Inc.",$51.89,Fairfield,VA,,,,Food,D,460873,2025-09-01 to 2025-09-30,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-14,John Massoud,$250,Strasburg,VA,individual,M R Taxi,Vice President,,A,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-15,JRB Corp of Lynchburg,$500,STAUNTON,VA,business,,Commercial and Industrial Building Operation,,A,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-15,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-15,Williams Mullen Clark & Dobbins,$250,Richmond,VA,business,,Law Firm,,A,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-22,Randy Hostetter Excavating LLC,"$1,000",Lexington,VA,business,,Construction,,A,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-20,"Rivers Portsmouth Gaming, LLC","$1,000",Portsmouth,VA,business,,Gaming,,A,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-16,Michael Hubbard,$208.20,Staunton,VA,individual,Miyares for Virginia,Regional Field Director,,A,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-17,Scott Jones,$104.10,Stuarts Draft,VA,individual,Retired,Retired,,A,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-22,GNA Corporation,"$1,000",Lynchburg,VA,business,,Financial Services,,A,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2025-10-10,Republican Party of Virginia,"$3,853",Richmond,VA,party,,Political Party Committee,Mailings,B,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2025-10-14,Republican Party of Virginia,"$6,740",Richmond,VA,party,,Political Party Committee,Mailings,B,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+in_kind,2025-10-22,Republican Party of Virginia,"$6,740",Richmond,VA,party,,Political Party Committee,Mailings,B,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-22,WinRed Technical Services LLC,$23.18,Arlington,VA,,,,Fundraising Fees,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-20,Coyner Carrie,"$2,000",Chesterfield,VA,,,,Contribution,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-10,Republican Party of Virginia,"$18,000",Richmond,VA,,,,Contribution,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-06,Election CFO LLC,"$1,057.23",Alexandria,VA,,,,Consulting,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-20,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-01,Google,$79.20,Mountain View,CA,,,,Online Services,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-02,Google,$12.78,Mountain View,CA,,,,Online Services,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-12,Comcast,$156.17,Philadelphia,PA,,,,Utilities,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-20,Green for Delegate,"$2,000",Seaford,VA,,,,Contribution,D,464757,2025-10-01 to 2025-10-23,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-24,VADPAC,$750,Richmond,VA,pac,,Political Action Committee,,A,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-24,McGuireWoods,"$1,000",Richmond,VA,business,,Legal,,A,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-24,PMI US Corporate Services,"$1,000",San Rafael,CA,business,,Pharmaceutical,,A,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-24,Virginia CUPAC,"$1,000",Talahassee,FL,pac,,Political Action Committee,,A,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-24,Sports Betting Alliance,"$2,500",Lubbock,TX,business,,Gaming,,A,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-28,Sriram Peddibholta,$416.41,McLean,VA,individual,SAIC,IT Principal Architect,,A,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-31,Larry D. Moore,$250,Buena Vista,VA,individual,Moore's Road Repair and Towing,Owner,,A,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-10-31,Virginia Association of Community-Based Providers Behavioral Health Improvement PAC,$500,Virginia Beach,VA,pac,,PAC,,A,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+contribution,2025-11-07,Sentara Health Plans,$250,Virginia Beach,VA,business,,Insurance,,A,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-31,WinRed Technical Services LLC,$16.41,Arlington,VA,,,,Fundraising Fees,D,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-10-31,Election CFO,"$1,022.15",Alexandria,VA,,,,Consulting,D,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-11-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-11-01,Google,$79.20,Mountain View,CA,,,,Online Services,D,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-11-02,Google,$12.85,Mountain View,CA,,,,Online Services,D,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-11-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-11-13,Comcast,$156.17,Philadelphia,PA,,,,Utilities,D,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-11-07,"Redline Strategies, LLC","$8,800",Fairfield,VA,,,,Consulting,D,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-11-20,Wordpress,$13,San Francisco,CA,,,,Online Services,D,472322,2025-10-24 to 2025-11-27,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-12-01,Election CFO,"$1,031",Alexandria,VA,,,,Consulting,D,479657,2025-11-28 to 2025-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-12-18,USPS,$78,Washington,DC,,,,Postage,D,479657,2025-11-28 to 2025-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-12-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,479657,2025-11-28 to 2025-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-12-01,Google,$79.20,Mountain View,CA,,,,Online Services,D,479657,2025-11-28 to 2025-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-12-02,Google,$12.85,Mountain View,CA,,,,Online Services,D,479657,2025-11-28 to 2025-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-12-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,479657,2025-11-28 to 2025-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-12-14,Comcast,$156.17,Philadelphia,PA,,,,Utilities,D,479657,2025-11-28 to 2025-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-12-19,Wordpress,$19,San Francisco,CA,,,,Online Services,D,479657,2025-11-28 to 2025-12-31,CC-22-00776,Ellen Campbell for Delegate
+expenditure,2025-12-26,The Club of Staunton,$643.75,Staunton,VA,,,,Food,D,479657,2025-11-28 to 2025-12-31,CC-22-00776,Ellen Campbell for Delegate
+contribution,2026-05-28,Jared Moon,$104.10,Lexington,VA,individual,"Rockbridge County, VA",Commonwealth's Attorney,,A,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+contribution,2026-01-12,Dominion Energy Inc Political Action Committee,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+contribution,2026-01-12,Commissioner of Revenue PAC - CORPAC,$250,Newport News,VA,pac,,Political Action Committee,,A,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+contribution,2026-01-04,Vantage Data Centers Management Co LLC,$500,Santa Clara,CA,business,,Commerce,,A,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+contribution,2026-01-04,HBAV Build-PAC,"$1,500",Richmond,VA,pac,,Political Action Committee,,A,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-05-31,WinRed Technical Services LLC,$4.10,Arlington,VA,,,,Fundraising Fees,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-01-05,Election CFO,"$1,000",Alexandria,VA,,,,Consulting,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-02-06,Election CFO,$271.63,Alexandria,VA,,,,Consulting,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-06,Election CFO,$267.95,Alexandria,VA,,,,Consulting,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-04-08,Election CFO,$263,Alexandria,VA,,,,Consulting,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-05-07,Election CFO,$272.11,Alexandria,VA,,,,Consulting,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-06-03,Election CFO,$258,Alexandria,VA,,,,Consulting,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-01-09,USPS,$1.01,Washington,DC,,,,Postage,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-04-08,USPS,$78,Washington,DC,,,,Postage,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-01-20,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-02-22,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-23,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-04-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-05-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-06-21,"JJSB Properties, LLC",$309.99,Raleigh,NC,,,,Rent,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-18,Walmart,$120.25,Bentonville,AR,,,,Office Supplies,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-12,Dominion Energy Inc,$157.70,Richmond,VA,,,,Utilities,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-01-02,Google,$79.20,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-01-02,Google,$12.85,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-02-01,Google,$12.98,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-02-01,Google,$79.20,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-01,Google,$79.20,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-01,Google,$12.98,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-04-01,Google,$12.98,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-04-01,Google,$79.20,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-05-03,Google,$12.95,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-05-03,Google,$79.20,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-06-01,Google,$79.20,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-06-02,Google,$12.89,Mountain View,CA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-30,House Republican Campaign Committee,"$1,000",Henrico,VA,,,,Contribution,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-04-24,House Republican Campaign Committee,"$7,000",Henrico,VA,,,,Contribution,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-06-29,House Republican Campaign Committee,$550,Henrico,VA,,,,Event Tickets,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-01-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-02-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-19,MailChimp,$54,Atanta,GA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-04-20,MailChimp,$61,Atanta,GA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-05-19,MailChimp,$61,Atanta,GA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-06-19,MailChimp,$61,Atanta,GA,,,,Online Services,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-01-12,Target,$72.58,Minneapolis,MN,,,,Office Supplies,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-01-12,Comcast,$159.33,Philadelphia,PA,,,,Utilities,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-02-13,Comcast,$159.33,Philadelphia,PA,,,,Utilities,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-13,Comcast,$159.33,Philadelphia,PA,,,,Utilities,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-04-12,Comcast,$159.33,Philadelphia,PA,,,,Utilities,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-05-13,Comcast,$159.33,Philadelphia,PA,,,,Utilities,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-06-14,Comcast,$159.33,Philadelphia,PA,,,,Utilities,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate
+expenditure,2026-03-10,FJE Solutions LLC,$968.75,Arlington,VA,,,,Consulting,D,494844,2026-01-01 to 2026-06-30,CC-22-00776,Ellen McLaughlin for Delegate

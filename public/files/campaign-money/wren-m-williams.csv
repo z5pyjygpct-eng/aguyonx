@@ -3,6 +3,173 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$18,470.53",,VA,,"From official Schedule H, November 2025 election cycle",H,496802,2026-07-15
 summary,2026-06-30,Raised this cycle,"$77,698.51",,,,Total receipts this election cycle (Schedule H),H,496802,2026-07-15
 summary,2026-06-30,Spent this cycle,"$69,322.93",,,,Total disbursements this election cycle (Schedule H),H,496802,2026-07-15
+contribution,2024-07-19,"Acadia Healthcare Company, Inc Fedpac",$500,Franklin,TN,pac,,A,436480,2025-04-15
+contribution,2024-09-18,Amazon.com Services LLC,$500,Seattle,WA,business,,A,436480,2025-04-15
+contribution,2024-10-02,Anheuser Busch Companies,$250,Williamsburg,VA,business,,A,436480,2025-04-15
+contribution,2024-12-17,"Apex Clean Energy Holdings, LLC",$500,Charlottesville,VA,business,,A,436480,2025-04-15
+contribution,2024-07-03,Matthew D Benka,$500,Richmond,VA,individual,,A,436480,2025-04-15
+contribution,2024-12-24,Terri W. Birkett,"$1,000",Stuart,VA,individual,,A,436480,2025-04-15
+contribution,2024-08-12,"Capital One Services, LLC",$500,Henrico,VA,business,,A,436480,2025-04-15
+contribution,2024-09-10,Commercial Development Political Action Committee,$250,Alexandria,VA,pac,,A,436480,2025-04-15
+contribution,2024-10-01,CSX Transportation Inc,$500,Jacksonville,FL,business,,A,436480,2025-04-15
+contribution,2024-07-29,Deese Bunny LLC,$500,Stuart,VA,business,,A,436480,2025-04-15
+contribution,2024-12-16,Delta Dental Of Virginia,$500,Roanoke,VA,business,,A,436480,2025-04-15
+contribution,2024-07-18,Dominion Energy Inc. Political Action,"$10,000",Richmond,VA,pac,,A,436480,2025-04-15
+contribution,2024-08-30,Dominion Energy Inc. Political Action,"$5,000",Richmond,VA,pac,,A,436480,2025-04-15
+contribution,2024-12-16,Dominion Energy Inc. Political Action,"$10,000",Richmond,VA,pac,,A,436480,2025-04-15
+contribution,2024-07-27,Donald Feltner,$50,Check,VA,individual,,A,436480,2025-04-15
+contribution,2024-08-27,Donald Feltner,$50,Check,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-27,Donald Feltner,$50,Check,VA,individual,,A,436480,2025-04-15
+contribution,2024-10-27,Donald Feltner,$50,Check,VA,individual,,A,436480,2025-04-15
+contribution,2024-11-27,Donald Feltner,$50,Check,VA,individual,,A,436480,2025-04-15
+contribution,2024-12-27,Donald Feltner,$50,Check,VA,individual,,A,436480,2025-04-15
+contribution,2024-08-07,Gregory J Feron,$500,Stuart,VA,individual,,A,436480,2025-04-15
+contribution,2024-08-05,Richard Wayne Hall,"$1,000",Martinsville,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-06,HCA For Good Government,"$1,000",Richmond,VA,pac,,A,436480,2025-04-15
+contribution,2024-12-06,Cynthia Hites,$500,Hampton,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-23,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,436480,2025-04-15
+contribution,2024-09-16,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,436480,2025-04-15
+contribution,2024-09-16,Eldon James,$150,Richmond,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-17,Brian Johnson,$500,Alexandria,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-23,Jones Road  and  Bridge Inc,"$1,000",Abingdon,VA,business,,A,436480,2025-04-15
+contribution,2024-10-24,Lawrence Distributing Co.,$500,Danville,VA,business,,A,436480,2025-04-15
+contribution,2024-09-04,"Makco, Inc","$5,000",Troy,VA,business,,A,436480,2025-04-15
+contribution,2024-08-27,Edward Martin,$500,Stuart,VA,individual,,A,436480,2025-04-15
+contribution,2024-08-30,Nickelston Industries INC,"$5,000",Lawsonville,NC,business,,A,436480,2025-04-15
+contribution,2024-10-25,Virginia Lifepoint Hospitals PAC,$500,Richlands,VA,pac,,A,436480,2025-04-15
+contribution,2024-11-15,Virginia Manufactured  and  Modular Housing Association PAC,$250,Richmond,VA,pac,,A,436480,2025-04-15
+contribution,2024-10-07,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,A,436480,2025-04-15
+contribution,2024-10-24,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,436480,2025-04-15
+contribution,2024-09-19,Virginia Optometric Association,$250,Glen Allen,VA,business,,A,436480,2025-04-15
+contribution,2024-07-03,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,436480,2025-04-15
+contribution,2024-12-13,Virginia Sheriff's Association PAC,$250,Richmond,VA,candidate,,A,436480,2025-04-15
+contribution,2024-08-27,"Virginia State Police Association, Inc.",$250,Richmond,VA,candidate,,A,436480,2025-04-15
+contribution,2024-07-30,Washington Gas Light Company PAC,$500,Washington,DC,pac,,A,436480,2025-04-15
+contribution,2024-07-30,Gerald Williams,$250,Stuart,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-05,Pauline M. Williams,$500,Stuart,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-26,Pauline M. Williams,$200,Stuart,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-06,Warren Lee Williams,$500,Stuart,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-24,Williams Mullen Clark  and  Dobbins,$500,Richmond,VA,business,,A,436480,2025-04-15
+contribution,2024-12-16,Norfolk Southern Corp,"$1,000",Atlanta,GA,business,,A,436480,2025-04-15
+contribution,2024-12-09,NRG Energy Inc,$500,Princeton,NJ,business,,A,436480,2025-04-15
+contribution,2024-10-01,Old Dominion Highway PAC,$250,Charlottesville,VA,pac,,A,436480,2025-04-15
+contribution,2024-10-02,Elizabeth Rakes,$250,Hillsville,VA,individual,,A,436480,2025-04-15
+contribution,2024-10-16,Roanoke Gas,"$1,000",Roanoke,VA,business,,A,436480,2025-04-15
+contribution,2024-07-12,Duane Saufley,$500,Callaway,VA,individual,,A,436480,2025-04-15
+contribution,2024-07-27,Kimberly L Seagle,$10,Rocky Mount,VA,individual,,A,436480,2025-04-15
+contribution,2024-08-27,Kimberly L Seagle,$10,Rocky Mount,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-27,Kimberly L Seagle,$10,Rocky Mount,VA,individual,,A,436480,2025-04-15
+contribution,2024-10-27,Kimberly L Seagle,$10,Rocky Mount,VA,individual,,A,436480,2025-04-15
+contribution,2024-11-27,Kimberly L Seagle,$10,Rocky Mount,VA,individual,,A,436480,2025-04-15
+contribution,2024-12-27,Kimberly L Seagle,$10,Rocky Mount,VA,individual,,A,436480,2025-04-15
+contribution,2024-09-11,Sentara Health Plans,$500,Norfolk,VA,pac,,A,436480,2025-04-15
+contribution,2024-08-12,HE Chip Slate II,"$2,000",Stuart,VA,individual,,A,436480,2025-04-15
+contribution,2024-10-24,"Strata Solar, LLC",$250,Durham,NC,business,,A,436480,2025-04-15
+contribution,2024-10-07,Transurban (USA) Inc.,$250,McLean,VA,business,,A,436480,2025-04-15
+contribution,2024-08-02,Jason Vipperman,$500,Stuart,VA,individual,,A,436480,2025-04-15
+contribution,2024-10-07,Virginia Association of Health Plans PAC,$500,Richmond,VA,pac,,A,436480,2025-04-15
+contribution,2024-09-04,Virginia Automobile  and  Truck Dealers PAC,"$3,000",Richmond,VA,pac,,A,436480,2025-04-15
+contribution,2024-10-24,Virginia Beer Wholesalers Asssociation,$500,Richmond,VA,candidate,,A,436480,2025-04-15
+contribution,2024-12-13,Virginia Credit Union Political Action Committee,"$1,500",Lynchburg,VA,pac,,A,436480,2025-04-15
+contribution,2024-12-20,Virginia Hospital  and  Healthcare Assoc PAC,$500,Glen Allen,VA,pac,,A,436480,2025-04-15
+contribution,2025-01-07,Matthew D Benka,$250,Richmond,VA,individual,,A,436758,2025-04-15
+contribution,2025-03-30,Matthew D Benka,$200,Richmond,VA,individual,,A,436758,2025-04-15
+contribution,2025-03-03,Gary A. Birkett,"$1,000",Stuart,VA,individual,,A,436758,2025-04-15
+contribution,2025-01-07,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,A,436758,2025-04-15
+contribution,2025-02-25,COmmunity-Owned Power PAC,"$1,000",Glen Allen,VA,pac,,A,436758,2025-04-15
+contribution,2025-02-25,Donald Feltner,$50,Check,VA,individual,,A,436758,2025-04-15
+contribution,2025-02-27,Donald Feltner,$50,Check,VA,individual,,A,436758,2025-04-15
+contribution,2025-03-30,Richard Wayne Hall,"$1,000",Martinsville,VA,individual,,A,436758,2025-04-15
+contribution,2025-02-25,Kimberly L Seagle,$10,Rocky Mount,VA,individual,,A,436758,2025-04-15
+contribution,2025-02-27,Kimberly L Seagle,$10,Rocky Mount,VA,individual,,A,436758,2025-04-15
+contribution,2025-01-07,StateFarm Federal PAC,$500,Bloomington,IL,pac,,A,436758,2025-04-15
+contribution,2025-03-07,Techslate LLC,"$1,000",Martinsville,VA,business,,A,436758,2025-04-15
+contribution,2025-01-07,Truckers Political Action Committee Of VA,$250,Richmond,VA,pac,,A,436758,2025-04-15
+contribution,2025-01-03,VA Operators For Skill,"$1,000",Richmond,VA,pac,,A,436758,2025-04-15
+contribution,2025-01-03,VAMICPAC,$500,Richmond,VA,pac,,A,436758,2025-04-15
+contribution,2025-01-07,"Vantage Data Centers Management Co, LLC",$250,Santa Clara,CA,business,,A,436758,2025-04-15
+contribution,2025-03-30,Virginia Automobile  and  Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,436758,2025-04-15
+contribution,2025-03-31,Virginia Contractor Procurement Alliance,$500,Harrisonburg,VA,pac,,A,436758,2025-04-15
+contribution,2025-01-03,Virginia Trial Lawyers Political Action Committee,"$1,000",Richmond,VA,pac,,A,436758,2025-04-15
+contribution,2025-04-16,"Als Towing And Storage, Inc","$1,000",Sterling,VA,business,,A,453049,2025-09-12
+contribution,2025-05-09,Atmos Energy Corporation PAC,$500,Dallas,TX,pac,,A,453049,2025-09-12
+contribution,2025-04-16,Battlefield Towing,"$1,000",Chantilly,VA,business,,A,453049,2025-09-12
+contribution,2025-05-02,Will Bobbitt,$250,Stuart,VA,individual,,A,453049,2025-09-12
+contribution,2025-04-16,Building A Remarkable Virginia PAC,"$30,000",Reston,VA,pac,,A,453049,2025-09-12
+contribution,2025-06-03,Denise C. Clark,$100,Stuart,VA,individual,,A,453049,2025-09-12
+contribution,2025-04-16,Christopher Clemente,"$10,000",Reston,VA,individual,,A,453049,2025-09-12
+contribution,2025-04-21,Dominion Energy Inc. Political Action,"$25,000",Richmond,VA,pac,,A,453049,2025-09-12
+contribution,2025-04-16,"Dominion Towing, Inc","$1,000",Lorton,VA,business,,A,453049,2025-09-12
+contribution,2025-04-18,Dominion Wrecker Service,"$1,000",Woodbridge,VA,business,,A,453049,2025-09-12
+contribution,2025-06-03,Donald Feltner,$50,Check,VA,individual,,A,453049,2025-09-12
+contribution,2025-04-16,Nicola Green,"$1,000",Reston,VA,individual,,A,453049,2025-09-12
+contribution,2025-04-15,Christopher Guthrie,"$2,500",McLean,VA,individual,,A,453049,2025-09-12
+contribution,2025-04-16,John Harrison,"$1,500",North Rose,NY,individual,,A,453049,2025-09-12
+contribution,2025-04-16,HWS LLC,"$1,000",Falls Church,VA,business,,A,453049,2025-09-12
+contribution,2025-04-15,Eyob Mamo,"$1,000",Springfield,VA,individual,,A,453049,2025-09-12
+contribution,2025-05-30,John McBroom,$150,Check,VA,individual,,A,453049,2025-09-12
+contribution,2025-04-16,Stephanie Pankiewicz,"$1,000",Alexandria,VA,individual,,A,453049,2025-09-12
+contribution,2025-04-16,Stuart Schar,"$2,500",Palm Beach,FL,individual,,A,453049,2025-09-12
+contribution,2025-04-15,Mark Snesavage,$250,Spotsylvania,VA,individual,,A,453049,2025-09-12
+contribution,2025-06-02,The Doctors Company Virginia PAC,$500,Napa,CA,pac,,A,453049,2025-09-12
+contribution,2025-04-01,Virginia Cable Political Action Committee,"$1,000",Richmond,VA,candidate,,A,453049,2025-09-12
+contribution,2025-04-04,Virginia Hospital  and  Healthcare Assoc PAC,$500,Glen Allen,VA,pac,,A,453049,2025-09-12
+contribution,2025-05-12,Virginia Land Title Association PAC,"$1,000",Alpharetta,GA,pac,,A,453049,2025-09-12
+contribution,2025-05-08,Warren Lee Williams,$500,Stuart,VA,individual,,A,453049,2025-09-12
+contribution,2025-06-09,"Altria Client Services, LLC","$1,000",Richmond,VA,business,,A,453068,2025-09-12
+contribution,2025-06-30,Anheuser Busch Companies,$250,Williamsburg,VA,business,,A,453068,2025-09-12
+contribution,2025-06-24,Comcast Corporation PAC,$500,Philadelphia,PA,candidate,,A,453068,2025-09-12
+contribution,2025-06-09,Sam Lionberger,"$1,000",Roanoke,VA,individual,,A,453068,2025-09-12
+contribution,2025-06-24,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,453068,2025-09-12
+contribution,2025-07-30,Charles Chappell,$50,Galax,VA,individual,,A,453074,2025-09-12
+contribution,2025-08-15,HCA For Good Government,"$1,000",Richmond,VA,pac,,A,453074,2025-09-12
+contribution,2025-07-31,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,453074,2025-09-12
+contribution,2025-07-23,McGuire Woods Gateway Plaza,$500,Richmond,VA,business,,A,453074,2025-09-12
+contribution,2025-08-01,Truckers Political Action Committee Of VA,$500,Richmond,VA,pac,,A,453074,2025-09-12
+contribution,2025-08-15,Jason Vipperman,$500,Stuart,VA,individual,,A,453074,2025-09-12
+contribution,2025-08-01,Virginia Automobile  and  Truck Dealers PAC,"$4,000",Richmond,VA,pac,,A,453074,2025-09-12
+contribution,2025-09-29,"Acadia Healthcare Company, Inc Fedpac",$500,Franklin,TN,pac,,A,460923,2025-10-15
+contribution,2025-09-05,Linda Lawrence Dalton,$500,Danville,VA,individual,,A,460923,2025-10-15
+contribution,2025-09-29,Ben Davenport,"$2,000",Chatham,VA,individual,,A,460923,2025-10-15
+contribution,2025-09-29,Dominion Energy Inc. Political Action,"$25,000",Richmond,VA,pac,,A,460923,2025-10-15
+contribution,2025-09-23,Ron Heim,$100,Copper Hill,VA,individual,,A,460923,2025-10-15
+contribution,2025-09-07,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,460923,2025-10-15
+contribution,2025-09-05,Realtors Political Action Committee Of Virginia,"$1,000",Glen Allen,VA,pac,,A,460923,2025-10-15
+contribution,2025-09-29,"Strata Solar, LLC","$1,000",Durham,NC,business,,A,460923,2025-10-15
+contribution,2025-09-29,"VA Beverage Assoc. PAC, 91-208",$750,Richmond,VA,candidate,,A,460923,2025-10-15
+contribution,2025-09-05,Virginia Beer Wholesalers Asssociation,$500,Richmond,VA,candidate,,A,460923,2025-10-15
+contribution,2025-09-29,Virginia CUPAC,"$6,000",Tallahassee,FL,pac,,A,460923,2025-10-15
+contribution,2025-09-29,Virginia Wine Wholesalers,"$1,000",Richmond,VA,business,,A,460923,2025-10-15
+contribution,2025-09-29,Vision Management Services,$500,Chicago,IL,business,,A,460923,2025-10-15
+contribution,2025-10-22,"Access Point Public Affairs, LLC",$250,Virginia Beach,VA,business,,A,472579,2025-12-04
+contribution,2025-10-07,Edward C Ashby III,$150,Mount Airy,NC,individual,,A,472579,2025-12-04
+contribution,2025-10-15,Scott Bledsoe,$250,Raleigh,NC,individual,,A,472579,2025-12-04
+contribution,2025-10-08,Will Bobbitt,$250,Stuart,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-07,Commonwealth Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,A,472579,2025-12-04
+contribution,2025-10-22,Delta Dental Of Virginia,$500,Roanoke,VA,business,,A,472579,2025-12-04
+contribution,2025-10-07,Gregory J Feron,$500,Stuart,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-06,Wayne Gilley,$500,Stuart,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-22,Jill Greenfield,$300,Martinsville,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-08,Melanie Holley,$100,Danville,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-09,Matthew Holt,$250,Patrick Springs,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-07,Jason Hoyle,"$1,000",Salem,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-22,Insurance  and  Financial Advisors PAC,$500,Henrico,VA,pac,,A,472579,2025-12-04
+contribution,2025-10-14,Curtis Kendrick Jr.,$125,Patrick Springs,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-14,Andrew Nester,$200,Martinsville,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-20,Nickelston Industries INC,"$5,000",Lawsonville,NC,business,,A,472579,2025-12-04
+contribution,2025-10-21,Rodney Overby,$500,Stuart,VA,individual,,A,472579,2025-12-04
+contribution,2025-10-22,"POM Of Virginia, LLC","$1,000",Duluth,GA,business,,A,472579,2025-12-04
+contribution,2025-10-07,Ryan Southard,$500,Raleigh,NC,individual,,A,472579,2025-12-04
+contribution,2025-10-08,The American Electric Power Committee For Responsible Government,"$5,000",Columbus,OH,candidate,,A,472579,2025-12-04
+contribution,2025-10-22,USAA,$500,San Antonio,TX,business,,A,472579,2025-12-04
+contribution,2025-10-07,VA Mortgage Bankers PAC,$500,Glen Allen,VA,pac,,A,472579,2025-12-04
+contribution,2025-10-14,Valleystar,"$1,000",Martinsville,VA,business,,A,472579,2025-12-04
+contribution,2025-10-14,Valleystar,$500,Martinsville,VA,business,,A,472579,2025-12-04
+contribution,2025-10-07,VAMICPAC,$500,Richmond,VA,pac,,A,472579,2025-12-04
+contribution,2025-10-07,Virginia Maritime Association PAC,$500,Norfolk,VA,pac,,A,472579,2025-12-04
+contribution,2025-10-07,Virginia Natural Gas PAC,"$1,000",Virginia Beach,VA,pac,,A,472579,2025-12-04
+contribution,2025-10-22,"Virginia State Police Association, Inc.",$250,Richmond,VA,candidate,,A,472579,2025-12-04
+contribution,2025-10-07,Williams Mullen Clark  and  Dobbins,$500,Richmond,VA,business,,A,472579,2025-12-04
 contribution,2025-10-24,Timothy Halpin,$250,Martinsville,VA,individual,,A,479337,2026-01-15
 contribution,2025-10-24,Charlie L Martin,$250,Stuart,VA,individual,,A,479337,2026-01-15
 contribution,2025-10-28,Meeks Recycling  and  Salvage LLC,$500,Martinsville,VA,business,,A,479337,2026-01-15
@@ -47,6 +214,15 @@ contribution,2026-01-05,State Farm Federal PAC,$500,Bloomington,IL,pac,,A,496802
 contribution,2026-01-23,VA Operators For Skill,"$1,000",Richmond,VA,pac,,A,496802,2026-07-15
 contribution,2026-06-04,VA Operators For Skill,"$5,000",Richmond,VA,pac,,A,496802,2026-07-15
 contribution,2026-01-23,Virginia Oil  and  Gas Association,$500,Abingdon,VA,business,,A,496802,2026-07-15
+in_kind,2025-10-21,Richard Wayne Hall,"$1,162.76",Martinsville,VA,individual,Food and Beverage,B,472579,2025-12-04
+in_kind,2025-10-16,Republican Party Of Virginia,"$8,471.99",Richmond,VA,party,Mailing,B,472579,2025-12-04
+in_kind,2025-10-10,Virginia Realtors RPAC,$319.76,Glen Allen,VA,pac,Food and Beverage for Event,B,472579,2025-12-04
+other_receipt,2025-05-30,Truist,$35.44,Williamsburg,VA,business,Bank Interest,C,453049,2025-09-12
+other_receipt,2025-06-30,Truist,$59.20,Williamsburg,VA,business,Bank Interest,C,453068,2025-09-12
+other_receipt,2025-07-31,Truist,$58.41,Williamsburg,VA,business,Bank Interest,C,453074,2025-09-12
+other_receipt,2025-08-29,Truist,$15.73,Williamsburg,VA,business,Truist,C,453074,2025-09-12
+other_receipt,2025-09-30,Truist,$12.45,Williamsburg,VA,business,INTEREST,C,460923,2025-10-15
+other_receipt,2025-10-10,Hampton Inn,$25,Sandston,VA,business,Deposit Refund,C,472579,2025-12-04
 other_receipt,2025-10-31,Truist,$11.17,Williamsburg,VA,business,INTEREST,C,479337,2026-01-15
 other_receipt,2025-12-01,Truist,$10.29,Williamsburg,VA,business,Bank Interest,C,479343,2026-01-15
 other_receipt,2025-12-31,Truist,$3.85,Williamsburg,VA,business,Interest,C,479343,2026-01-15
@@ -57,6 +233,209 @@ other_receipt,2026-04-30,Truist,$24.11,Williamsburg,VA,business,Bank Interst,C,4
 other_receipt,2026-06-03,Truist,$7.62,Williamsburg,VA,business,,C,496802,2026-07-15
 other_receipt,2026-06-30,Truist,$2.83,Williamsburg,VA,business,Bank Interest,C,496802,2026-07-15
 other_receipt,2026-01-21,Virginia College Republicans,$100,Arlington,VA,business,Check not Cashed,C,496802,2026-07-15
+expenditure,2024-07-08,ADP,$94.73,Culver City,CA,business,Payroll Processing Fees,D,436480,2025-04-15
+expenditure,2024-07-14,Anedot Inc.,$20.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-07-19,Silent Majority PAC,$100,Williamsburg,VA,pac,Donation,D,436480,2025-04-15
+expenditure,2024-07-20,Anedot Inc.,$0.50,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-07-22,Aristotle,$250,Washington,DC,business,Database Management,D,436480,2025-04-15
+expenditure,2024-07-22,Smoky Mountain News,$5,Waynesville,NC,business,Subscription,D,436480,2025-04-15
+expenditure,2024-07-24,Battlefield Consulting,"$2,053",Frederickbur,VA,business,Fundraising Commission,D,436480,2025-04-15
+expenditure,2024-07-24,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,436480,2025-04-15
+expenditure,2024-07-24,IBEX Edge LLC,"$2,082.17",Mechanicsville,VA,business,Reimbursement for event supplies,D,436480,2025-04-15
+expenditure,2024-07-24,"JLK Strategies, LLC",$943.20,Richmond,VA,business,Web services,D,436480,2025-04-15
+expenditure,2024-07-24,"JLK Strategies, LLC",$60,Richmond,VA,business,Website Hosting,D,436480,2025-04-15
+expenditure,2024-07-26,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-07-28,Anedot Inc.,$3,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-07-30,USPS - Stuart,$73,Stuart,VA,business,Postage,D,436480,2025-04-15
+expenditure,2024-07-31,"Point1, LLC","$5,510.90",Mt Pleasant,SC,business,Advertising,D,436480,2025-04-15
+expenditure,2024-08-02,ADP,$103.96,Culver City,CA,business,Payroll Processing Fees,D,436480,2025-04-15
+expenditure,2024-08-03,Anedot Inc.,$20.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-08-07,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Website Hosting,D,436480,2025-04-15
+expenditure,2024-08-09,Carroll County Republican Committee,$500,Woodlawn,VA,business,Golf Tournament Sponsor,D,436480,2025-04-15
+expenditure,2024-08-09,Patrick County Booster Club,$500,Stuart,VA,business,Donation,D,436480,2025-04-15
+expenditure,2024-08-09,Red Bank Ruritan Club,$100,Claudville,VA,business,Donation,D,436480,2025-04-15
+expenditure,2024-08-13,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-08-16,Meadows Of Dan Ruritan Club,$50,Meadows Of Dan,VA,business,Membership,D,436480,2025-04-15
+expenditure,2024-08-21,ADP,$94.73,Culver City,CA,business,Payroll Processing Fees,D,436480,2025-04-15
+expenditure,2024-08-21,Anedot Inc.,$0.50,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-08-21,"The Enterprise - Mountain Media, LLC",$7.50,Lewisburg,WV,business,Advertising,D,436480,2025-04-15
+expenditure,2024-08-22,Smoky Mountain News,$7.20,Waynesville,NC,business,Subscription,D,436480,2025-04-15
+expenditure,2024-08-26,Aristotle,$250,Washington,DC,business,Database Management,D,436480,2025-04-15
+expenditure,2024-08-29,Anedot Inc.,$3,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-08-30,Battlefield Consulting,"$1,628",Frederickbur,VA,business,Fundraising Commission,D,436480,2025-04-15
+expenditure,2024-08-30,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,436480,2025-04-15
+expenditure,2024-09-06,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-09-12,Blue Ridge Country Club,$450,Galax,VA,business,Event Expense,D,436480,2025-04-15
+expenditure,2024-09-13,ADP,$97.81,Culver City,CA,business,Payroll Processing Fees,D,436480,2025-04-15
+expenditure,2024-09-13,Battlefield Consulting,"$4,148",Frederickbur,VA,business,Fundraising Commission,D,436480,2025-04-15
+expenditure,2024-09-13,Campaign Compliance Center LLC,"$4,000",Williamsburg,VA,business,Campaign Compliance,D,436480,2025-04-15
+expenditure,2024-09-13,"JLK Strategies, LLC","$2,000",Richmond,VA,business,General Consulting,D,436480,2025-04-15
+expenditure,2024-09-13,"JLK Strategies, LLC",$102,Richmond,VA,business,Digital Services,D,436480,2025-04-15
+expenditure,2024-09-16,Anedot Inc.,$6.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-09-18,Anedot Inc.,$20.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-09-19,Chick-Fil-A - Martinsville,$151.44,Martinsville,VA,business,Meal,D,436480,2025-04-15
+expenditure,2024-09-19,Hilton Garden Inn,"$2,167.92",Milwaukee,WI,business,Hotel Stay,D,436480,2025-04-15
+expenditure,2024-09-19,Smoky Mountain News,$7.20,Waynesville,NC,business,Subscription,D,436480,2025-04-15
+expenditure,2024-09-20,ADP,$100.89,Culver City,CA,business,Payroll Processing Fees,D,436480,2025-04-15
+expenditure,2024-09-20,Anedot Inc.,$0.50,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-09-26,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-09-26,Capt. Party,$57.02,Roanoke,VA,business,Event Supplies,D,436480,2025-04-15
+expenditure,2024-09-26,Sams Club,$42.38,Danville,VA,business,Supplies,D,436480,2025-04-15
+expenditure,2024-09-26,Walmart Supercenter,$50.45,Stuart,VA,business,Supplies,D,436480,2025-04-15
+expenditure,2024-09-27,Campaign Compliance Center LLC,"$3,000",Williamsburg,VA,business,Campaign Compliance,D,436480,2025-04-15
+expenditure,2024-09-27,Kirstin Leonard,$724.50,Hillsville,VA,individual,Catering Services,D,436480,2025-04-15
+expenditure,2024-09-27,Walmart Supercenter,$78.34,Stuart,VA,business,Supplies,D,436480,2025-04-15
+expenditure,2024-09-28,Anedot Inc.,$3,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-09-30,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Campaign Consulting,D,436480,2025-04-15
+expenditure,2024-10-03,9th District Republican Party,$274.12,Bristol,VA,party,Event Ticket,D,436480,2025-04-15
+expenditure,2024-10-11,ADP,$97.81,Culver City,CA,business,Payroll Processing Fees,D,436480,2025-04-15
+expenditure,2024-10-15,The Cana Copper Pot Restaurant,$35.41,Cana,VA,business,Food and Beverage,D,436480,2025-04-15
+expenditure,2024-10-17,Aristotle,$250,Washington,DC,business,Database Management,D,436480,2025-04-15
+expenditure,2024-10-17,Smoky Mountain News,$7.20,Waynesville,NC,business,Subscription,D,436480,2025-04-15
+expenditure,2024-10-22,Matt Hirschman Racing,$250,Info Requested,VA,business,Advertising,D,436480,2025-04-15
+expenditure,2024-10-28,Anedot Inc.,$3,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-10-30,Aristotle,$250,Washington,DC,business,Database Management,D,436480,2025-04-15
+expenditure,2024-10-31,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,436480,2025-04-15
+expenditure,2024-11-07,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-11-08,ADP,$94.73,Culver City,CA,business,Payroll Processing Fees,D,436480,2025-04-15
+expenditure,2024-11-14,Smoky Mountain News,$7.20,Waynesville,NC,business,Subscription,D,436480,2025-04-15
+expenditure,2024-11-20,Aristotle,$250,Washington,DC,business,Database Management,D,436480,2025-04-15
+expenditure,2024-11-20,"The Enterprise - Mountain Media, LLC",$7.50,Lewisburg,WV,business,Advertising,D,436480,2025-04-15
+expenditure,2024-12-02,Anedot Inc.,$3,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-12-02,Caitlyn Cockram,$350,Woolwine,VA,individual,Photography,D,436480,2025-04-15
+expenditure,2024-12-03,Battlefield Consulting,"$2,914",Frederickbur,VA,business,Fundraising Commission,D,436480,2025-04-15
+expenditure,2024-12-03,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,436480,2025-04-15
+expenditure,2024-12-04,One Family Productions,$20,Stuart,VA,business,Donation,D,436480,2025-04-15
+expenditure,2024-12-07,Anedot Inc.,$20.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-12-12,Smoky Mountain News,$7.20,Waynesville,NC,business,Subscription,D,436480,2025-04-15
+expenditure,2024-12-13,ADP,$97.81,Culver City,CA,business,Payroll Processing Fees,D,436480,2025-04-15
+expenditure,2024-12-20,State Navigate,$500,Info Requested,VA,business,Donation,D,436480,2025-04-15
+expenditure,2024-12-23,Aristotle,$250,Washington,DC,business,Database Management,D,436480,2025-04-15
+expenditure,2024-12-27,Anedot Inc.,$40.30,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2024-12-29,Anedot Inc.,$3,New Orleans,LA,business,Online Processing Fee,D,436480,2025-04-15
+expenditure,2025-01-02,Treasurer - Patrick County,$352.80,Stuart,VA,business,Filing Fee,D,436758,2025-04-15
+expenditure,2025-01-03,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,436758,2025-04-15
+expenditure,2025-01-03,"Point1, LLC","$2,512.87",Mt Pleasant,SC,business,Printing,D,436758,2025-04-15
+expenditure,2025-01-04,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Campaign Consulting,D,436758,2025-04-15
+expenditure,2025-01-06,"JLK Strategies, LLC","$2,551.21",Richmond,VA,business,Digital Services,D,436758,2025-04-15
+expenditure,2025-01-08,Smoky Mountain News,$7.20,Waynesville,NC,business,Subscription,D,436758,2025-04-15
+expenditure,2025-01-10,ADP,$94.73,Culver City,CA,business,Payroll Processing Fees,D,436758,2025-04-15
+expenditure,2025-01-17,ADP,$192.54,Culver City,CA,business,Payroll Processing Fees,D,436758,2025-04-15
+expenditure,2025-01-24,ADP,$75,Culver City,CA,business,Payroll Processing Fees,D,436758,2025-04-15
+expenditure,2025-01-24,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,436758,2025-04-15
+expenditure,2025-01-24,"JLK Strategies, LLC","$1,001",Richmond,VA,business,E-mail Service,D,436758,2025-04-15
+expenditure,2025-01-24,"JLK Strategies, LLC","$2,000",Richmond,VA,business,General Consulting,D,436758,2025-04-15
+expenditure,2025-01-27,Aristotle,$250,Washington,DC,business,Database Management,D,436758,2025-04-15
+expenditure,2025-01-29,ADP,$101.70,Culver City,CA,business,Payroll Processing Fees,D,436758,2025-04-15
+expenditure,2025-01-31,ADP,$97.81,Culver City,CA,business,Payroll Processing Fees,D,436758,2025-04-15
+expenditure,2025-02-06,Smoky Mountain News,$7.20,Waynesville,NC,business,Subscription,D,436758,2025-04-15
+expenditure,2025-02-11,USPS - Stuart,$266,Stuart,VA,business,Postage,D,436758,2025-04-15
+expenditure,2025-02-25,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing Fee,D,436758,2025-04-15
+expenditure,2025-02-25,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,436758,2025-04-15
+expenditure,2025-02-25,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Consulting Fee,D,436758,2025-04-15
+expenditure,2025-02-27,Aristotle,$250,Washington,DC,business,Database Management,D,436758,2025-04-15
+expenditure,2025-02-27,Virginia College Republicans,$100,Arlington,VA,business,Donation,D,436758,2025-04-15
+expenditure,2025-03-01,Anedot Inc.,$3,New Orleans,LA,business,Online Processing Fee,D,436758,2025-04-15
+expenditure,2025-03-07,ADP,$97.81,Culver City,CA,business,Payroll Processing Fees,D,436758,2025-04-15
+expenditure,2025-03-07,Anedot Inc.,$3,New Orleans,LA,business,Online Processing Fee,D,436758,2025-04-15
+expenditure,2025-03-14,"Blue Ridge Moulding, Inc",$151.12,Roanoke,VA,business,Framing,D,436758,2025-04-15
+expenditure,2025-03-14,USPS - Stuart,$21.10,Stuart,VA,business,Postage,D,436758,2025-04-15
+expenditure,2025-03-20,Aristotle,$250,Washington,DC,business,Database Management,D,436758,2025-04-15
+expenditure,2025-03-21,Anedot Inc.,$1.01,New Orleans,LA,business,Online Processing Fee,D,436758,2025-04-15
+expenditure,2025-03-31,House Republican Campaign Committee,"$1,000",Richmond,VA,party,Donation,D,436758,2025-04-15
+expenditure,2025-04-01,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,453049,2025-09-12
+expenditure,2025-04-01,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Strategic Consulting,D,453049,2025-09-12
+expenditure,2025-04-10,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing Fee,D,453049,2025-09-12
+expenditure,2025-04-11,ADP,$105.93,Culver City,CA,business,Payroll Processing Fees,D,453049,2025-09-12
+expenditure,2025-04-12,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing Fee,D,453049,2025-09-12
+expenditure,2025-04-14,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing Fee,D,453049,2025-09-12
+expenditure,2025-04-16,Anedot Inc.,$150.90,New Orleans,LA,business,Online Processing Fee,D,453049,2025-09-12
+expenditure,2025-04-22,Kim Taylor For Delegate,"$10,000",Petersburg,VA,candidate,Donation,D,453049,2025-09-12
+expenditure,2025-04-23,"JLK Strategies, LLC","$12,000",Richmond,VA,business,Strategic Consulting,D,453049,2025-09-12
+expenditure,2025-04-23,Republican Commonwealth Leadership Fund,"$15,000",Richmond,VA,business,Donation,D,453049,2025-09-12
+expenditure,2025-04-24,Aristotle,$250,Washington,DC,business,Database Management,D,453049,2025-09-12
+expenditure,2025-04-29,Wren M Williams,$100,Stuart,VA,individual,Reimbursement for PC Athletics Booster,D,453049,2025-09-12
+expenditure,2025-04-30,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,453049,2025-09-12
+expenditure,2025-04-30,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Strategic Consulting,D,453049,2025-09-12
+expenditure,2025-05-01,ADP,$205.40,Culver City,CA,business,Payroll Processing Fees,D,453049,2025-09-12
+expenditure,2025-05-03,"JLK Strategies, LLC","$7,945",Richmond,VA,business,Strategic Consulting,D,453049,2025-09-12
+expenditure,2025-05-04,Anedot Inc.,$10.30,New Orleans,LA,business,Online Processing Fee,D,453049,2025-09-12
+expenditure,2025-05-08,Anedot Inc.,$6.60,New Orleans,LA,business,Online Processing Fee,D,453049,2025-09-12
+expenditure,2025-05-09,ADP,$102.70,Culver City,CA,business,Payroll Processing Fees,D,453049,2025-09-12
+expenditure,2025-05-16,ADP,$99.47,Culver City,CA,business,Payroll Processing Fees,D,453049,2025-09-12
+expenditure,2025-05-20,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Strategic Consulting,D,453049,2025-09-12
+expenditure,2025-05-22,Aristotle,$250,Washington,DC,business,Database Management,D,453049,2025-09-12
+expenditure,2025-05-27,Friends Of Adam Tolbert,"$1,000",Saltville,VA,business,Donation,D,453049,2025-09-12
+expenditure,2025-05-27,Friends Of Geary Higgens,"$1,000",Waterford,VA,business,Donation,D,453049,2025-09-12
+expenditure,2025-05-27,Friends Of Ian Lovejoy,"$1,000",Manassas,VA,business,Donation,D,453049,2025-09-12
+expenditure,2025-05-27,Friends Of Paul Milde,"$1,000",Stafford,VA,business,Donation,D,453049,2025-09-12
+expenditure,2025-05-27,Friends Of Tim Anderson II,"$1,000",Virginia Beach,VA,business,Donation,D,453049,2025-09-12
+expenditure,2025-05-29,Storm For Virginia,"$1,000",Alexandria,VA,business,Donation,D,453049,2025-09-12
+expenditure,2025-05-30,Anedot Inc.,$6.30,New Orleans,LA,business,Online Processing Fee,D,453049,2025-09-12
+expenditure,2025-06-02,USPS - Stuart,$189.80,Stuart,VA,business,Postage,D,453049,2025-09-12
+expenditure,2025-06-03,Donald Feltner,$50,Check,VA,individual,Refund of Donation,D,453049,2025-09-12
+expenditure,2025-06-05,Anedot Inc.,$19.30,New Orleans,LA,business,Online Processing,D,453049,2025-09-12
+expenditure,2025-06-06,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,453068,2025-09-12
+expenditure,2025-06-06,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Strategic Consulting,D,453068,2025-09-12
+expenditure,2025-06-07,Anedot Inc.,$44.60,New Orleans,LA,business,Online Processing,D,453068,2025-09-12
+expenditure,2025-06-13,ADP,$102.70,Culver City,CA,business,Payroll Processing Fees,D,453068,2025-09-12
+expenditure,2025-06-13,American Legislative Exchange Council,$625,Arlington,VA,business,Subscription,D,453068,2025-09-12
+expenditure,2025-06-25,Aristotle,$250,Washington,DC,business,Database Management,D,453068,2025-09-12
+expenditure,2025-07-01,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,453074,2025-09-12
+expenditure,2025-07-01,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Strategic Consulting,D,453074,2025-09-12
+expenditure,2025-07-01,Virginia House Of Delegates,$159.02,Richmond,VA,business,,D,453074,2025-09-12
+expenditure,2025-07-07,ADP,$99.47,Culver City,CA,business,Payroll Processing Fees,D,453074,2025-09-12
+expenditure,2025-07-11,ADP,$102.70,Culver City,CA,business,Payroll Processing Fees,D,453074,2025-09-12
+expenditure,2025-07-11,Battlefield Consulting,"$3,676",Frederickbur,VA,business,Fundraising Commission,D,453074,2025-09-12
+expenditure,2025-07-11,Truist,$36,Williamsburg,VA,business,Bank Charge,D,453074,2025-09-12
+expenditure,2025-07-18,ADP,$99.47,Culver City,CA,business,Payroll Processing Fees,D,453074,2025-09-12
+expenditure,2025-07-18,Truist,$36,Williamsburg,VA,business,Bank Charge,D,453074,2025-09-12
+expenditure,2025-07-22,Aristotle,$250,Washington,DC,business,Database Management,D,453074,2025-09-12
+expenditure,2025-07-24,Hardees,$181.12,Salem,VA,business,Food  and  Beverage,D,453074,2025-09-12
+expenditure,2025-07-24,Truist,$36,Williamsburg,VA,business,Bank Charge,D,453074,2025-09-12
+expenditure,2025-07-31,Anedot Inc.,$2.30,New Orleans,LA,business,Online Processing,D,453074,2025-09-12
+expenditure,2025-08-04,Hamlet Vineyards,$300,Bassett,VA,business,Event Expense,D,453074,2025-09-12
+expenditure,2025-08-04,Patrick County Booster Club,$500,Stuart,VA,business,Donation,D,453074,2025-09-12
+expenditure,2025-08-12,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,453074,2025-09-12
+expenditure,2025-08-12,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Strategic Consulting,D,453074,2025-09-12
+expenditure,2025-08-16,Anedot Inc.,$20.30,New Orleans,LA,business,Online Processing,D,453074,2025-09-12
+expenditure,2025-08-20,Aristotle,$250,Washington,DC,business,Database Management,D,453074,2025-09-12
+expenditure,2025-08-22,ADP,$150,Culver City,CA,business,Payroll Processing Fees,D,453074,2025-09-12
+expenditure,2025-08-22,Madison Whittle For Delegate,$500,Danville,VA,candidate,,D,453074,2025-09-12
+expenditure,2025-08-29,Stuart Park and Recreation,$75,Stuart,VA,business,Space Rental Fee,D,453074,2025-09-12
+expenditure,2025-08-29,Stuart Park and Recreation,$75,Stuart,VA,business,Deposit Fee,D,453074,2025-09-12
+expenditure,2025-09-05,ADP,$99.47,Culver City,CA,business,Payroll Processing Fees,D,460923,2025-10-15
+expenditure,2025-09-05,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,460923,2025-10-15
+expenditure,2025-09-05,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Strategic Consulting,D,460923,2025-10-15
+expenditure,2025-09-09,Kim Taylor For Delegate,"$10,000",Petersburg,VA,candidate,Donation,D,460923,2025-10-15
+expenditure,2025-09-10,Fedex,$32.89,Stuart,FL,business,,D,460923,2025-10-15
+expenditure,2025-09-11,Lauren Woodson Hall,$70.54,Lynchburg,VA,individual,,D,460923,2025-10-15
+expenditure,2025-09-18,USPS - Stuart,$78,Stuart,VA,business,Postage,D,460923,2025-10-15
+expenditure,2025-09-22,Truist,$52,Williamsburg,VA,business,Service Charges,D,460923,2025-10-15
+expenditure,2025-09-24,Aristotle,$250,Washington,DC,business,Database Management,D,460923,2025-10-15
+expenditure,2025-09-25,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing,D,460923,2025-10-15
+expenditure,2025-09-26,ADP,$35,Culver City,CA,business,Payroll Processing Fees,D,460923,2025-10-15
+expenditure,2025-10-07,Anedot Inc.,$20.30,New Orleans,LA,business,Online Processing,D,472579,2025-12-04
+expenditure,2025-10-07,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,472579,2025-12-04
+expenditure,2025-10-07,"JLK Strategies, LLC","$2,095",Richmond,VA,business,Strategic Consulting and Registration,D,472579,2025-12-04
+expenditure,2025-10-09,Anedot Inc.,$75.20,New Orleans,LA,business,Online Processing,D,472579,2025-12-04
+expenditure,2025-10-10,Hampton Inn,$224.24,Sandston,VA,business,Hotel Stay,D,472579,2025-12-04
+expenditure,2025-10-10,Hampton Inn,$25,Sandston,VA,business,Deposit Fee,D,472579,2025-12-04
+expenditure,2025-10-11,Anedot Inc.,$15.30,New Orleans,LA,business,Online Processing,D,472579,2025-12-04
+expenditure,2025-10-16,Republican Party Of Virginia,"$9,000",Richmond,VA,party,Donation,D,472579,2025-12-04
+expenditure,2025-10-17,Anedot Inc.,$10.30,New Orleans,LA,business,Online Processing,D,472579,2025-12-04
+expenditure,2025-10-20,Friends Of Chad Green,"$3,000",Seaford,VA,business,Donation,D,472579,2025-12-04
+expenditure,2025-10-20,Friends Of Paul Milde,"$2,000",Stafford,VA,business,Donation,D,472579,2025-12-04
+expenditure,2025-10-20,Kim Taylor For Delegate,"$5,000",Petersburg,VA,candidate,Donation,D,472579,2025-12-04
+expenditure,2025-10-21,Anedot Inc.,$20.30,New Orleans,LA,business,Online Processing,D,472579,2025-12-04
+expenditure,2025-10-21,Aristotle,$250,Washington,DC,business,Database Management,D,472579,2025-12-04
+expenditure,2025-10-21,"JLK Strategies, LLC",$975,Richmond,VA,business,Advertising,D,472579,2025-12-04
+expenditure,2025-10-21,Olivia Jo Music,$500,Stuart,VA,business,music,D,472579,2025-12-04
+expenditure,2025-10-21,Sanbear Collective,"$4,800",Monroe,GA,business,Photography/Videography,D,472579,2025-12-04
+expenditure,2025-10-21,Truist,$44,Williamsburg,VA,business,Service Charges,D,472579,2025-12-04
+expenditure,2025-10-23,Anedot Inc.,$1.10,New Orleans,LA,business,Online Processing,D,472579,2025-12-04
+expenditure,2025-10-23,Checkered Pig BBQ  and  Ribs,$871.77,Martinsville,VA,business,Food and/or beverage(s),D,472579,2025-12-04
+expenditure,2025-10-23,Dollar General,$10.31,Goodlettsville,TN,business,Office Supplies,D,472579,2025-12-04
 expenditure,2025-10-24,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,business,Campaign Compliance,D,479337,2026-01-15
 expenditure,2025-10-24,Carroll County Republican Committee,$250,Woodlawn,VA,business,Golf Tournament Sponsor,D,479337,2026-01-15
 expenditure,2025-10-25,Anedot Inc.,$4.30,New Orleans,LA,business,Online Processing,D,479337,2026-01-15
@@ -133,12 +512,58 @@ expenditure,2026-06-23,Campaign Compliance Center LLC,"$1,000",Williamsburg,VA,b
 expenditure,2026-06-24,Aristotle,$250,Washington,DC,business,Database Management,D,496802,2026-07-15
 expenditure,2026-06-24,"JLK Strategies, LLC","$2,000",Richmond,VA,business,Retainer,D,496802,2026-07-15
 expenditure,2026-06-24,Truist,$10,Williamsburg,VA,business,Service Charges,D,496802,2026-07-15
+loan,2024-09-24,Wren M Williams,"$2,000",Stuart,VA,individual,P,E,436480,2025-04-15
+loan,2025-01-04,Wren M Williams,"$5,000",Stuart,VA,individual,P,E,436758,2025-04-15
+loan,2025-04-23,Wren M Williams,"$5,000",Stuart,VA,individual,P,E,453049,2025-09-12
+loan,2025-06-20,Wren M Williams,"$5,000",Stuart,VA,individual,P,E,453068,2025-09-12
 loan,2025-11-18,Wren M Williams,"$5,000",Stuart,VA,individual,P,E,479337,2026-01-15
 loan,2026-01-28,Wren M Williams,"$5,000",Stuart,VA,individual,P,E,496802,2026-07-15
 loan,2026-05-01,Wren M Williams,"$5,000",Stuart,VA,individual,P,E,496802,2026-07-15
 loan,2026-06-12,Wren M Williams,"$5,000",Stuart,VA,individual,P,E,496802,2026-07-15
 loan,2026-06-30,Wren M Williams,"$2,000",Stuart,VA,individual,P,E,496802,2026-07-15
 loan,2026-06-30,Wren M Williams,"$3,000",Stuart,VA,individual,P,E,496802,2026-07-15
+debt,2021-05-03,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from Candidate,F,436480,2025-04-15
+debt,2021-05-09,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from candidate,F,436480,2025-04-15
+debt,2021-05-14,Wren M Williams,"$40,000",Stuart,VA,individual,Loan from candidate,F,436480,2025-04-15
+debt,2021-05-24,Wren M Williams,"$37,000",Stuart,VA,individual,,F,436480,2025-04-15
+debt,2021-10-25,Wren M Williams,"$30,000",Stuart,VA,individual,Personal Loan,F,436480,2025-04-15
+debt,2022-01-09,Wren M Williams,"$11,500",Stuart,VA,individual,Candidate Loan,F,436480,2025-04-15
+debt,2021-05-03,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from Candidate,F,436758,2025-04-15
+debt,2021-05-09,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from candidate,F,436758,2025-04-15
+debt,2021-05-14,Wren M Williams,"$40,000",Stuart,VA,individual,Loan from candidate,F,436758,2025-04-15
+debt,2021-05-24,Wren M Williams,"$32,000",Stuart,VA,individual,,F,436758,2025-04-15
+debt,2021-10-25,Wren M Williams,"$30,000",Stuart,VA,individual,Personal Loan,F,436758,2025-04-15
+debt,2022-01-09,Wren M Williams,"$11,500",Stuart,VA,individual,Candidate Loan,F,436758,2025-04-15
+debt,2021-05-03,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from Candidate,F,453049,2025-09-12
+debt,2021-05-09,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from candidate,F,453049,2025-09-12
+debt,2021-05-14,Wren M Williams,"$40,000",Stuart,VA,individual,Loan from candidate,F,453049,2025-09-12
+debt,2021-05-24,Wren M Williams,"$27,000",Stuart,VA,individual,,F,453049,2025-09-12
+debt,2021-10-25,Wren M Williams,"$30,000",Stuart,VA,individual,Personal Loan,F,453049,2025-09-12
+debt,2022-01-09,Wren M Williams,"$11,500",Stuart,VA,individual,Candidate Loan,F,453049,2025-09-12
+debt,2021-05-03,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from Candidate,F,453068,2025-09-12
+debt,2021-05-09,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from candidate,F,453068,2025-09-12
+debt,2021-05-14,Wren M Williams,"$40,000",Stuart,VA,individual,Loan from candidate,F,453068,2025-09-12
+debt,2021-05-24,Wren M Williams,"$22,000",Stuart,VA,individual,,F,453068,2025-09-12
+debt,2021-10-25,Wren M Williams,"$30,000",Stuart,VA,individual,Personal Loan,F,453068,2025-09-12
+debt,2022-01-09,Wren M Williams,"$11,500",Stuart,VA,individual,Candidate Loan,F,453068,2025-09-12
+debt,2021-05-03,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from Candidate,F,453074,2025-09-12
+debt,2021-05-09,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from candidate,F,453074,2025-09-12
+debt,2021-05-14,Wren M Williams,"$40,000",Stuart,VA,individual,Loan from candidate,F,453074,2025-09-12
+debt,2021-05-24,Wren M Williams,"$22,000",Stuart,VA,individual,,F,453074,2025-09-12
+debt,2021-10-25,Wren M Williams,"$30,000",Stuart,VA,individual,Personal Loan,F,453074,2025-09-12
+debt,2022-01-09,Wren M Williams,"$11,500",Stuart,VA,individual,Candidate Loan,F,453074,2025-09-12
+debt,2021-05-03,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from Candidate,F,460923,2025-10-15
+debt,2021-05-09,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from candidate,F,460923,2025-10-15
+debt,2021-05-14,Wren M Williams,"$40,000",Stuart,VA,individual,Loan from candidate,F,460923,2025-10-15
+debt,2021-05-24,Wren M Williams,"$22,000",Stuart,VA,individual,,F,460923,2025-10-15
+debt,2021-10-25,Wren M Williams,"$30,000",Stuart,VA,individual,Personal Loan,F,460923,2025-10-15
+debt,2022-01-09,Wren M Williams,"$11,500",Stuart,VA,individual,Candidate Loan,F,460923,2025-10-15
+debt,2021-05-03,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from Candidate,F,472579,2025-12-04
+debt,2021-05-09,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from candidate,F,472579,2025-12-04
+debt,2021-05-14,Wren M Williams,"$40,000",Stuart,VA,individual,Loan from candidate,F,472579,2025-12-04
+debt,2021-05-24,Wren M Williams,"$22,000",Stuart,VA,individual,,F,472579,2025-12-04
+debt,2021-10-25,Wren M Williams,"$30,000",Stuart,VA,individual,Personal Loan,F,472579,2025-12-04
+debt,2022-01-09,Wren M Williams,"$11,500",Stuart,VA,individual,Candidate Loan,F,472579,2025-12-04
 debt,2021-05-03,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from Candidate,F,479337,2026-01-15
 debt,2021-05-09,Wren M Williams,"$20,000",Stuart,VA,individual,Loan from candidate,F,479337,2026-01-15
 debt,2021-05-14,Wren M Williams,"$40,000",Stuart,VA,individual,Loan from candidate,F,479337,2026-01-15

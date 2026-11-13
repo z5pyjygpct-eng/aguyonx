@@ -3,6 +3,26 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$32,236.55",,VA,,"From official Schedule H, January 2026 election cycle",H,497462,2026-07-15
 summary,2026-06-30,Raised this cycle,"$18,794.13",,,,Total receipts this election cycle (Schedule H),H,497462,2026-07-15
 summary,2026-06-30,Spent this cycle,"$39,029.61",,,,Total disbursements this election cycle (Schedule H),H,497462,2026-07-15
+contribution,2025-11-15,Ellen Bender,$100,New York,NY,individual,,A,473943,2025-12-29
+contribution,2025-12-09,Ellen Bender,$100,New York,NY,individual,,A,473943,2025-12-29
+contribution,2025-12-19,Ellen Bender,$200,New York,NY,individual,,A,473943,2025-12-29
+contribution,2025-12-22,Glen Besa,$110,North Chesterfield,VA,individual,,A,473943,2025-12-29
+contribution,2025-12-10,jimmy blackford,$350,Richmond,VA,individual,,A,473943,2025-12-29
+contribution,2025-12-08,Clean Virginia,"$20,000",Charlottesville,VA,business,,A,473943,2025-12-29
+contribution,2025-12-23,Clean Virginia,"$10,000",Charlottesville,VA,business,,A,473943,2025-12-29
+contribution,2025-12-11,Brian Davis,$111.11,Richmond,VA,individual,,A,473943,2025-12-29
+contribution,2025-11-20,Stephen Doak,$500,Richmond,VA,individual,,A,473943,2025-12-29
+contribution,2025-12-20,Stephen Doak,$50,Richmond,VA,individual,,A,473943,2025-12-29
+contribution,2025-12-09,Vaughn Garland,$200,Richmond,VA,individual,,A,473943,2025-12-29
+contribution,2025-12-10,Andrew Grigsby,$750,Richmond,VA,individual,,A,473943,2025-12-29
+contribution,2025-11-24,Helen Hardiman,$200,Disputanta,VA,individual,,A,473943,2025-12-29
+contribution,2025-11-20,Kelly Haywood,$250,Great Falls,VA,individual,,A,473943,2025-12-29
+contribution,2025-12-14,Meredith Hertzler,$200,Glen Allen,VA,individual,,A,473943,2025-12-29
+contribution,2025-12-23,House Democratic Caucus,"$25,000",Richmond,VA,party,,A,473943,2025-12-29
+contribution,2025-12-15,Robley Jones,$101,Richmond,VA,individual,,A,473943,2025-12-29
+contribution,2025-11-16,Chris Morrisette,$250,Washington,DC,individual,,A,473943,2025-12-29
+contribution,2025-12-19,Sarah O'Neill,"$1,000",New York,NY,individual,,A,473943,2025-12-29
+contribution,2025-11-25,Charles Schmidt,"$1,000",Richmond,VA,individual,,A,473943,2025-12-29
 contribution,2025-12-30,SEIU COPE,"$2,500",Washington,DC,individual,,A,477973,2026-01-14
 contribution,2025-12-26,Victoria Cousins,$200,Richmond,VA,individual,,A,477973,2026-01-14
 contribution,2025-12-26,Friends of Saddam Azlan Salim,$500,Merrifield,VA,candidate,,A,477973,2026-01-14
@@ -27,12 +47,45 @@ contribution,2026-06-12,"Cantor Grana Buckner Bucci, P.C.","$1,000",Richmond,VA,
 contribution,2026-06-12,"ReidGoodwin, PLC",$250,Richmond,VA,business,,A,497462,2026-07-15
 contribution,2026-06-20,Stephen Doak,$50,Richmond,VA,individual,,A,497462,2026-07-15
 contribution,2026-06-20,Thomas Kirchoff,$3.13,Pittsford,NY,individual,,A,497462,2026-07-15
+in_kind,2025-12-25,Nigel Hawkins,"$3,000",Chesterfield,VA,individual,Consulting,B,473943,2025-12-29
+in_kind,2025-12-14,PolitiMetrics,"$3,800",Williamsburg,VA,business,Consulting,B,473943,2025-12-29
+in_kind,2025-12-25,Clement Robbins,"$3,000",Richmond,VA,individual,Consulting,B,473943,2025-12-29
 in_kind,2025-12-31,Richmond for All Action Fund,$259,Richmond,VA,pac,Advertisement,B,477973,2026-01-14
 in_kind,2026-01-02,Richmond for All Action Fund,$155,Richmond,VA,pac,Meta Ads,B,483366,2026-03-18
 in_kind,2026-01-05,Richmond for All Action Fund,$954,Richmond,VA,pac,Meta Ads,B,483366,2026-03-18
 in_kind,2026-01-06,Richmond for All Action Fund,$272,Richmond,VA,pac,Meta Ads,B,483366,2026-03-18
 in_kind,2026-01-23,Richmond for All Action Fund,$360,Richmond,VA,pac,Meta Ads,B,497462,2026-07-15
 in_kind,2026-05-21,Clean Virginia,"$1,000",Charlottesville,VA,pac,Social media training,B,497462,2026-07-15
+expenditure,2025-11-16,ActBlue,$19.43,Burke,VA,business,Fee,D,473943,2025-12-29
+expenditure,2025-11-23,ActBlue,$44.07,Burke,VA,business,Fee,D,473943,2025-12-29
+expenditure,2025-11-30,ActBlue,$11.86,Burke,VA,business,Fee,D,473943,2025-12-29
+expenditure,2025-12-02,Google,$1.96,Mountain View,CA,business,GSuite,D,473943,2025-12-29
+expenditure,2025-12-03,"L2, Inc.",$122.20,Bothell,WA,business,Data,D,473943,2025-12-29
+expenditure,2025-12-04,USPS - Hopkins Road,$7.80,Richmond,VA,business,Certified Mail,D,473943,2025-12-29
+expenditure,2025-12-05,Gibson Universal LLC,$678.40,Henrico,VA,business,Printing,D,473943,2025-12-29
+expenditure,2025-12-07,ActBlue,$8.31,Burke,VA,business,Fee,D,473943,2025-12-29
+expenditure,2025-12-10,Blue Virginia,$325,Arlington,VA,business,Advertisement,D,473943,2025-12-29
+expenditure,2025-12-10,Democratic Party of Virginia,"$1,059.58",Richmond,VA,party,VAN,D,473943,2025-12-29
+expenditure,2025-12-10,Richmond City Democratic Committee,"$2,500",Richmond,VA,business,Unassembled Caucus Filing Fee,D,473943,2025-12-29
+expenditure,2025-12-11,Gibson Universal LLC,"$2,544",Henrico,VA,business,Printing,D,473943,2025-12-29
+expenditure,2025-12-11,Krispy Kreme,$18.95,North Chesterfield,VA,business,Snacks,D,473943,2025-12-29
+expenditure,2025-12-12,Facebook,$53,Menlo Park,CA,business,Ads,D,473943,2025-12-29
+expenditure,2025-12-12,Facebook,$4.67,Menlo Park,CA,business,Ads,D,473943,2025-12-29
+expenditure,2025-12-12,Krispy Kreme,$5.69,North Chesterfield,VA,business,Snacks,D,473943,2025-12-29
+expenditure,2025-12-12,Krispy Kreme,$7.78,North Chesterfield,VA,business,Snacks,D,473943,2025-12-29
+expenditure,2025-12-14,ActBlue,$95.93,Burke,VA,business,Fee,D,473943,2025-12-29
+expenditure,2025-12-15,Facebook,$57,Menlo Park,CA,business,Ads,D,473943,2025-12-29
+expenditure,2025-12-15,Facebook,$61,Menlo Park,CA,business,Ads,D,473943,2025-12-29
+expenditure,2025-12-15,Krispy Kreme,$19.33,North Chesterfield,VA,business,Snacks,D,473943,2025-12-29
+expenditure,2025-12-15,Krispy Kreme,$21.89,North Chesterfield,VA,business,Snacks,D,473943,2025-12-29
+expenditure,2025-12-15,Panera Bread,$67.76,North Chesterfield,VA,business,Snacks for Volunteers,D,473943,2025-12-29
+expenditure,2025-12-15,Stella's Grocery - Westover Hills,$14.79,Richmond,VA,business,Snacks for Volunteers,D,473943,2025-12-29
+expenditure,2025-12-16,Riverside Tavern,$706.40,Richmond,VA,business,Election Night Event,D,473943,2025-12-29
+expenditure,2025-12-18,Linktree,$144,San Francisco,CA,business,Software,D,473943,2025-12-29
+expenditure,2025-12-19,Canva,$7.50,Austin,TX,business,Software,D,473943,2025-12-29
+expenditure,2025-12-19,USPS - Hopkins Road,$191,Richmond,VA,business,PO Box,D,473943,2025-12-29
+expenditure,2025-12-21,ActBlue,$84.14,Burke,VA,business,Fee,D,473943,2025-12-29
+expenditure,2025-12-22,"NGP VAN, Inc.",$137.50,Washington,DC,business,Software,D,473943,2025-12-29
 expenditure,2025-12-28,ActBlue,$49.56,Burke,VA,business,Fee,D,477973,2026-01-14
 expenditure,2025-12-29,Facebook,$104,Menlo Park,CA,business,Advertisments,D,477973,2026-01-14
 expenditure,2025-12-29,Panera Bread,$5.79,North Chesterfield,VA,business,Snacks for Volunteers,D,477973,2026-01-14

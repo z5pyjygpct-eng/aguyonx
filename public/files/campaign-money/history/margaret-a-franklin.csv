@@ -1,0 +1,152 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2025-12-31,Virginia Legislative Black Caucus,"$10,000",Richmond,VA,pac,,PAC,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-17,Jennifer Carroll Foy for State Senate,"$5,000",Woodbridge,VA,candidate,,Candidate Committee,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-19,Friends of Victor Angry,"$2,500",Woodbridge,VA,candidate,,Candidate Committee,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-30,Michelle Clark,"$1,000",Woodbridge,VA,individual,TBD,TBD,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-18,Warren Williams,"$2,500",Chevy Chase,MD,individual,The Warrenton Group,Real Estate Developer,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-28,Castlerock Partners,"$1,000","Catharpin, VA",VA,business,,Real Estate,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-18,Cliv Cranwell,"$1,000",Blacksburg,VA,individual,Cuzco,Owner,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-30,Friends of Charniele Herring,"$1,000",Alexandria,VA,candidate,,Candidate Committee,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-31,Henson for Virginia,"$1,000",Woodbridge,VA,candidate,,Candidate Committee,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-31,Daniel Hopson,"$1,000",Woodbridge,VA,individual,N/A,Retired,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-19,Sharon Johnson,"$1,000",Chantilly,VA,individual,N/A,Retired,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-18,Earnie Porta,"$1,000",Occoquan,VA,individual,Town of Occoquan,Mayor,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-31,Titus Simmons,"$1,000",Woodbridge,VA,individual,N/A,Retired,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-31,Luke Torian,"$1,000",Woodbridge,VA,individual,N/A,Retired,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-31,Jacquelyn Foy,$500,Woodbridge,VA,individual,CIA,Analyst,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-12,Margaret for Woodbridge,$500,Woodbridge,VA,candidate,,Candidate Committee,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-19,L. Chris Petersen,$500,McLean,VA,individual,"Arbor Strategies, LLC",Lobbyist,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-31,Derrick Wood,$500,Triangle,VA,individual,Town of Dumfries,Councilman,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-18,Kaci Easley,$250,Richmond,VA,individual,Deere & Company,Lobbyist,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-30,Megan Hull,$250,Oakland,CA,individual,N/A,Not employed,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-16,Dalia Palchik,$250,Falls Church,VA,individual,Fairfax County,County Supervisor,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-18,Curtis Porter,$250,Manassas,VA,individual,N/A,Not employed,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-31,Joe Torian,$200,Woodbridge,VA,individual,Prince William County Schools,Custodial Manager,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-24,VA Digital Infrastructure PAC,"$2,500",Richmond,VA,pac,,PAC,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-23,Democratic Party of Virginia,"$25,000",Richmond,VA,party,,State Party Committee,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-18,Leaders for an Equitable Tomorrow PAC,"$10,000",Richmond,VA,pac,,PAC,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2025-12-18,The Cedrus Group,"$10,000",McLean,VA,business,,Real Estate Development,,A,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+in_kind,2025-12-12,Margaret for Woodbridge,$339,Woodbridge,VA,candidate,,Candidate Committee,Tax ID Registration,B,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+in_kind,2025-12-17,Margaret for Woodbridge,"$2,560",Woodbridge,VA,candidate,,Candidate Committee,Paid Canvassing,B,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+expenditure,2025-12-12,Prince William County Democratic Committee,$500,Manassas,VA,,,,Filing Fee,D,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+expenditure,2025-12-31,Rooted Consulting Group,"$5,500",Lorton,VA,,,,Consulting,D,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+expenditure,2025-12-31,Caffrey Communications,"$24,230",Washington,DC,,,,"Direct Mail, Postage",D,482534,2025-12-11 to 2025-12-31,CC-25-00932,Margaret for Virginia
+contribution,2026-01-07,SEIU COPE,"$2,500",Washington,DC,pac,,PAC,,A,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+contribution,2026-01-12,"Micron Technology, Inc.","$5,000",Boise,ID,business,,Technology Manufacturing,,A,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+contribution,2026-01-12,Friends of Stacey Carroll,"$1,000",Stafford,VA,business,,Candidate Campaign Committee,,A,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+contribution,2026-01-13,Candi King for VA,"$10,000",Dumfries,VA,candidate,,Candidate Committee,,A,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+contribution,2026-01-06,Friends of JJ Singh,$250,Ashburn,VA,business,,Candidate Campaign Committee,,A,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+contribution,2026-01-06,Laura Sellers,$250,Stafford,VA,individual,JMark Services,Social Worker,,A,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+contribution,2026-01-01,David Howe,$150,Oakland,CA,individual,N/A,Not Employed,,A,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-07,Caffrey Communications,"$2,250",Washington,DC,,,,Walk Cards,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-07,Caffrey Communications,"$4,601.78",Washington,DC,,,,Direct Mail,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-06,Medwyn Opoku-Arthur,$160,Woodbridge,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-05,Maya Pryor,$160,Triangle,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-05,Ryann Manuel,$120,Dumfries,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-12,Friends of Luke Torian,"$2,500",Dumfries,VA,,,,Fundraising Dinner,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-12,Democratic Party of Virginia,$880.49,Richmond,VA,,,,Voter File Subscription,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-13,Bill.com,$55,San Jose,CA,,,,Software Subscription,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Nolan Heymann,$120,Dumfriese,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Elyssia Bin,$160,Woodbridge,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Yousra Sebbai,$200,Woodbridge,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Audrey Abadji,$120,Woodbridge,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Elon Elias,$80,Woodbridge,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Yanise Jackson,$200,Woodbridge,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Geoffrey Kwashitse,$200,Dumfries,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Christian Awuah,$200,Dumfries,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Collin Nguyen,$200,Triangle,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Randy Ampofo,$320,Dumfries,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Justin Jones,$120,Woodbridge,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Saniaa Purdie,$120,Dumfries,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-12,Chism Strategies,$125,Clinton,MS,,,,Robo Calls,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Rachel Opoku,$40,Woodbridge,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-08,Samuel Arthur,$40,Woodbridge,VA,,,,Canvassing,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-01,ActBlue,$236.46,Somerville,MA,,,,Merchant Fees,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-04,ActBlue,$9.95,Somerville,MA,,,,Merchant Fees,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-11,ActBlue,$138.02,Somerville,MA,,,,Merchant Fees,D,482536,2026-01-01 to 2026-01-13,CC-25-00932,Margaret for Virginia
+contribution,2026-03-31,William Cooley,"$5,000",West Palm Beach,FL,individual,Self-Employed,Real Estate Developer,,A,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+contribution,2026-03-31,Dan Duncan,$125,Hixson,TN,individual,Retired,Retired,,A,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+contribution,2026-03-31,Stanley Martin Homes,"$5,000",Reston,VA,business,,Home Builder,,A,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+contribution,2026-05-11,Andrew Garrett,"$3,000",Woodbridge,VA,individual,Garrett Companies,Real Estate,,A,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+contribution,2026-05-12,JK Land Holdings LLC,"$3,000",Los Angeles,CA,business,,Developer,,A,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+contribution,2026-03-31,Rivers Portsmouth Gaming LLC,"$1,000",Portsmouth,VA,business,,Gaming,,A,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+contribution,2026-04-12,Celeste Klitenic,"$2,000",Clifton,VA,individual,Madera Farm,Business Owner,,A,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+contribution,2026-04-20,Kevin Hughes,$500,Fredericksburg,VA,individual,STACK,Technology,,A,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+contribution,2026-04-23,Michael Anthony Garcia,"$2,500",Woodbridge,VA,individual,State Farm,Insurance Agent,,A,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-10,Virginia Legislative Black Caucus,"$1,500",Richmond,VA,,,,Dues,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-14,Prince William County Democratic Committee,$100,Manassas,VA,,,,Election Day Activities,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-04-03,Prince William County Democratic Committee,"$1,000",Manassas,VA,,,,Contribution,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-22,Rooted Consulting Group,"$15,250",Lorton,VA,,,,Campaign Management,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-12,Rooted Consulting Group,"$1,250",Lorton,VA,,,,Consulting,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-04-15,Rooted Consulting Group,"$1,250",Lorton,VA,,,,Consulting,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-05-11,Rooted Consulting Group,"$1,250",Lorton,VA,,,,Consulting,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-30,Rooted Consulting Group,"$1,250",Lorton,VA,,,,Consulting,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-20,Caffrey Communications,"$1,400",Washington,DC,,,,Yard Signs,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Maya Pryor,$80,Triangle,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Ryann Manuel,$40,Dumfries,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-02-13,Bill.com,$57.95,San Jose,CA,,,,Subscription Fee,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-13,Bill.com,$56.18,San Jose,CA,,,,Subscription Fee,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-04-14,Bill.com,$55,San Jose,CA,,,,Subscription,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-05-13,Bill.com,$56.77,San Jose,CA,,,,Subscription,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-15,Bill.com,$55,San Jose,CA,,,,Subscription,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-15,Starbucks,$11.33,Dumfries,VA,,,,Food & Beverage,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-15,Uncle Julio's,"$1,369.04",Leesylvania,VA,,,,Food & Beverage,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,7-11,$48.29,Dumfries,VA,,,,Gas,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Hilton,$529.98,Richmond,VA,,,,Hotel,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-18,Mama J's,$183.53,Richmond,VA,,,,Meals,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-18,Lillie Pearl,$86,Richmond,VA,,,,Meals,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-21,Truist,$44,Woodbridge,VA,,,,Bank Fees,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-04-14,Truist,$36,Woodbridge,VA,,,,Bank Fees,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-22,Truist,$36,Woodbridge,VA,,,,Bank Fee,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Maame Quarm,$40,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Nolan Heymann,$120,Dumfriese,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Elyssia Bin,$240,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Yousra Sebbai,$240,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Audrey Abadji,$80,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Elon Elias,$80,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Yanise Jackson,$240,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Geoffrey Kwashitse,$160,Dumfries,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Christian Awuah,$160,Dumfries,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Collin Nguyen,$160,Triangle,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Randy Ampofo,$160,Dumfries,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Justin Jones,$240,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Jaylen Bryson,$240,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Saniaa Purdie,$160,Dumfries,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Bernicia Kwarteng,$40,Dumfries,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Marie Sheriff,$80,Triangle,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Daniel Jackson,$160,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-16,Francis Conteh,$40,Woodbridge,VA,,,,Canvassing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-21,Tonya James,$500,Gainesville,VA,,,,Field Program,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-20,New Partners,"$8,656",St. Cloud,MN,,,,GOTV Phone Calls,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-26,Parham Road Dash In,$42.25,Richmond,VA,,,,Gas,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-26,Starbucks,$5.25,Richmond,VA,,,,Food & Beverage,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-28,EveryAction,"$1,000",Washington,DC,,,,Database,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-02-27,EveryAction,"$1,000",Washington,DC,,,,Subscription,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-06,EveryAction,"$1,000",Washington,DC,,,,Subscription,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-04-03,EveryAction,"$1,000",Washington,DC,,,,Subscription,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-05-08,EveryAction,"$1,000",Washington,DC,,,,Subscription,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-05,EveryAction,"$1,000",Washington,DC,,,,Subscription,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-01-18,ActBlue,$1.08,Somerville,MA,,,,Merchant Fees,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-22,ActBlue,$2.97,Somerville,MA,,,,Processing Fee,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-29,ActBlue,$0.99,Somerville,MA,,,,Processing Fee,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-31,ActBlue,$5.14,Somerville,MA,,,,Processing Fee,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-31,ActBlue,$79,Somerville,MA,,,,Processing Fee,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-04-26,ActBlue,$19.75,Somerville,MA,,,,Processing Fee,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-02-05,Meriwether Godsey,$648,Richmond,VA,,,,F&B,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-02-09,District Small Bites Food Truck and Catering,"$2,601.23",Dale City,VA,,,,Catering,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-02-09,MurLarkey Distilled Spirits,"$2,420",Manassas,VA,,,,Catering,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-02-17,MurLarkey Distilled Spirits,"$2,260",Manassas,VA,,,,Catering,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-04-27,Virginia House Democratic Caucus,"$5,000",Richmond,VA,,,,Dues,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-18,Prince William County Delta Sigma Theta Sorority,"$1,913",Woodbridge,VA,,,,Contribution,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-24,Prince William County Delta Sigma Theta Sorority,"$1,087",Woodbridge,VA,,,,Contribution,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-03-18,Virginia Young Democrats,"$1,000",Richmond,VA,,,,Contribution,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-04-27,Courtyard by Marriott,$555.82,Richmond,VA,,,,Lodging,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-05-22,Sunoco,$45,Dumfries,VA,,,,Fuel,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-04,REPRO Rising Virginia,$259,Alexandria,VA,,,,Tickets,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-10,Exxon,$71.63,Dumfries,VA,,,,Fuel,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-15,Intuit,$38,Mountain View,CA,,,,Subscription,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-22,Staples,$266.99,Woodbridge,VA,,,,Office Supplies,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-22,Staples,$106.80,Woodbridge,VA,,,,Office Supplies,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-06-22,"4Imprint, Inc.",$383.03,Oshkosh,WI,,,,Printing,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia
+expenditure,2026-05-19,Prince William County AKA,$500,Woodbridge,VA,,,,Scholarships,D,497129,2026-01-14 to 2026-06-30,CC-25-00932,Margaret for Virginia

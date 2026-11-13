@@ -1,0 +1,298 @@
+﻿Copy of official Virginia Department of Elections campaign finance data, 2021 to the latest filing. Not from VPAP.
+section,date,name,amount_usd,city,state,type,employer,occupation,description,schedule,report_id,report_period,committee_code,committee_name
+contribution,2025-03-03,Whittle for Danville City Council,"$10,319",Danville,VA,business,,Campaign Committee,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-12,Danny Marshall Election Committee,"$5,000",Danville,VA,business,,Campaign Committee,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-15,Mark Leggett,$104.10,Danville,VA,individual,Retired,Retired,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-18,Harte Whittle Sr.,"$1,000",Danville,VA,individual,Coastal Wood Imports Inc.,Owner,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-18,Murray W. Whittle,"$1,000",Danville,VA,individual,Self,Maintenance Mechanic,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-25,Berkeley C. Bidgood Jr.,"$1,000",Danville,VA,individual,Retired,Retired,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-31,Richard Hall,$500,Martinsville,VA,individual,"Orion Capital, LLC",Owner,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-31,Ben Davenport,"$2,500",Chatham,VA,individual,First Piedmont Corp.,President,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-31,Henry Leggett,$500,Danville,VA,individual,"Leggett Equipment Rentals, LLC",Owner,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-31,"Danville Distributing CO., Inc","$25,000",Danville,VA,business,,Distributing Company,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-03-31,Jay Barker,"$3,300",Danville,VA,individual,JEB International Tobacco,Owner,,A,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-02-28,Whittle for Danville City Council,"$30,000",Danville,VA,,,,Contribution,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-10,Orion Creative Media LLC,"$5,250",New Castle,VA,,,,Consulting,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-02-28,Winred Technical Services LLC,$1.97,Arlington,VA,,,,Fundraising Fees,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-31,Winred Technical Services LLC,$10.09,Arlington,VA,,,,Fundraising Fees,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-17,Facebook,$2,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-17,Facebook,$2,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-17,Facebook,$2,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-17,Facebook,$3,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-17,Facebook,$3,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-17,Facebook,$5,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-21,Facebook,$8,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-21,Facebook,$8.62,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-24,Facebook,$12,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-24,Facebook,$18,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-25,Facebook,$20,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-27,Facebook,$22,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-31,Facebook,$25,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-03-31,Facebook,$28,Menlo Park,CA,,,,Advertising,D,436444,2025-02-25 to 2025-03-31,CC-25-00157,Whittle for Delegate
+contribution,2025-06-05,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Manufacturing,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-06-05,Michael R. Swanson,$500,Danville,VA,individual,None,Retired,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-06-01,Murray W. Whittle,"$1,000",Danville,VA,individual,Self,Maintenance Mechanic,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-04-08,Philip N. Daly,"$1,000",Danville,VA,individual,Retired,Retired,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-04-11,Ronald Ressel,$195,Martinsville,VA,individual,Ronbuilt,President,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-04-15,William J. Gentry Jr.,"$1,000",Danville,VA,individual,Piedmont Precision Machine,Manufacturing,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-02,Leslie Dobbins,$104.10,Danville,VA,individual,Retired,Retired,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-02,William Cornett,"$1,000",Charlotte,NC,individual,Retired,Retired,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-04-29,Samuel S. Thomas,$300,Danville,VA,individual,Superior Heating and AC,Contractor,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-07,Janes Ginger Senter,$104.10,Danville,VA,individual,Retired,Retired,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-06,Sue Leggett Miller,$500,Danville,VA,individual,None,Retired,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-28,Sue Leggett Miller,$250,Danville,VA,individual,None,Retired,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-06,T. Neal Morris,$500,Danville,VA,individual,None,Retired,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-19,Kenneth Bowman,$250,Dry Fork,VA,individual,None,Retired,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-19,Crema & Vine,$200,Danville,VA,business,,Restaurant,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-15,Moving Mountains PAC,"$5,000",Richmond,VA,pac,,Political Action Committee,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-05-28,William Leggett,"$3,000",Danville,VA,individual,Leggett Town and Country,Owner,,A,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+in_kind,2025-06-04,Danny Marshall Election Committee,"$2,000",Danville,VA,business,,Campaign Committee,Printing & postage,B,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+in_kind,2025-05-14,Frank Fox,$114.80,Danville,VA,individual,Self,Consultant,Magnetic Bumper stickers,B,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+in_kind,2025-05-27,William Leggett,$478.35,Danville,VA,individual,Leggett Town and Country,Owner,Signs,B,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-09,Orion Creative Media LLC,"$1,850",New Castle,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-08,Orion Creative Media LLC,"$1,650",New Castle,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-05,Orion Creative Media LLC,"$1,725",New Castle,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-30,Winred Technical Services LLC,$9.65,Arlington,VA,,,,Fundraising fees,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-31,Winred Technical Services LLC,$55.48,Arlington,VA,,,,Fundraising Fees,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-01,Facebook,$31,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-02,Facebook,$35,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-07,Facebook,$39,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-07,Facebook,$43,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-07,Facebook,$48,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-09,Facebook,$53,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-10,Facebook,$59,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-11,Facebook,$65,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-14,Facebook,$65.29,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-14,Facebook,$72,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-17,Facebook,$80,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-21,Facebook,$88,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-21,Facebook,$97,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-21,Facebook,$107,Menlo Park,CA,,,,advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-01,Facebook,$118,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-02,Facebook,$130,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-05,Facebook,$143,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-09,Facebook,$158,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-12,Facebook,$147.54,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-19,Facebook,$174,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-21,Facebook,$192,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-27,Facebook,$212,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-29,Facebook,$234,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-02,Facebook,$258,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-04,Facebook,$284,Menlo Park,CA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-02,Mailchimp,$35,Atlanta,GA,,,,Online Services,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-10,Mailchimp,$135,Atlanta,GA,,,,Online Services,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-10,Mailchimp,$135,Atlanta,GA,,,,Online Services,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-07,"Point1, LLC","$1,000",Mount Pleasant,SC,,,,Printing,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-01,"Point1, LLC","$5,554",Mount Pleasant,SC,,,,Printing,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-15,"Point1, LLC","$4,912.71",Mount Pleasant,SC,,,,Printing & Postage,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-22,"Point1, LLC","$4,337.26",Mount Pleasant,SC,,,,Printing & Postage,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-02,"Point1, LLC","$4,700",Mount Pleasant,SC,,,,Printing and Postage,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-09,Election CFO,"$1,023.08",Alexandria,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-01,Election CFO,"$1,054.16",Alexandria,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-14,Sheetz,$61.57,Altoona,PA,,,,Food,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-14,Kickback Jacks,$19.31,Danville,VA,,,,Food,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-14,Matthew Coffman,"$2,000",Norfolk,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-08,Matthew Coffman,"$2,000",Norfolk,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-14,"FP1 Strategies, LLC","$2,500",Alexandria,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-25,"FP1 Strategies, LLC","$2,500",Alexandria,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-25,"FP1 Strategies, LLC",$300,Alexandria,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-19,"FP1 Strategies, LLC","$2,500",Alexandria,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-27,"FP1 Strategies, LLC",$100,Alexandria,VA,,,,Consulting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-16,Battleground Connect,$340.08,Missoula,MT,,,,Texting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-15,Battleground Connect,"$1,564.08",Missoula,MT,,,,Texting,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-17,Jersey Mikes,$14.90,Manasquan,NJ,,,,Food,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-18,Target,$9.18,Minneapolis,MN,,,,Office Supplies,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-23,Target,$53.14,Minneapolis,MN,,,,Phones,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-18,USPS,$73,Washington,DC,,,,Postage,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-21,PIP Printing Danville,"$2,255.39",Danville,VA,,,,Printing,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-02,PIP Printing Danville,"$1,247.70",Danville,VA,,,,Printing,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-04,Chuck Vipperman,"$2,500",Danville,VA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-22,Murphy Express,$100,Danville,VA,,,,Travel,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-01,Google,$12.77,Mountain View,CA,,,,Online Services,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-01,Google,$8.40,Mountain View,CA,,,,Online Services,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-01,Google,$0.90,Mountain View,CA,,,,Online services,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-01,Google,$1.47,Mountain View,CA,,,,Online Services,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-02,Google,$8.40,Mountain View,CA,,,,Online Services,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-02,Google,$12.77,Mountain View,CA,,,,Online Services,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-04-02,Virginia Department of General Services,$20,Richmond,VA,,,,Parking,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-27,River City Printing Solutions,$100.99,Danville,VA,,,,Printing,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-27,River City Printing Solutions,"$2,242.12",Danville,VA,,,,Printing,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-05-29,Imagine This,"$1,800",Ricmond,VA,,,,Printing,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-04,Womack Publishing,"$1,054",Chatham,VA,,,,Advertising,D,446096,2025-04-01 to 2025-06-05,CC-25-00157,Whittle for Delegate
+contribution,2025-06-11,Connie Nyholm,$520.51,Alton,VA,individual,VIR,Real Estate,,A,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+contribution,2025-06-13,Jean Gannon,$104.10,Powhatan,VA,individual,"Gannon Appraisals, LLC",Real Estate Appraiser,,A,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+contribution,2025-06-27,Stephen Wilkinson,$500,Danville,VA,individual,Retired,Retired,,A,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+contribution,2025-06-27,Rick Barker Properties LLC,$500,Danville,VA,business,,Property Management,,A,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+contribution,2025-06-27,Morgan Lumber Company,"$1,000",Red Oak,VA,business,,Manufacturer and Wholesaler,,A,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-17,Winred Technical Services LLC,$24.61,Arlington,VA,,,,Fundraising fee,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-09,Facebook,$313,Menlo Park,CA,,,,Advertising,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-11,Facebook,$345,Menlo Park,CA,,,,advertising,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-09,Mailchimp,$135,Atlanta,GA,,,,Online Services,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-09,"Point1, LLC","$5,250",Mount Pleasant,SC,,,,Printing and Postage,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-06,Election CFO,"$1,053",Alexandria,VA,,,,Consulting,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-09,Matthew Coffman,"$2,000",Norfolk,VA,,,,Consulting,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-20,"FP1 Strategies, LLC",$650,Alexandria,VA,,,,Consulting,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-20,Battleground Connect,"$6,526.92",Missoula,MT,,,,GOTV,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-06,USPS,$10.10,Washington,DC,,,,Postage,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-09,Crema & Vine,$614,Danville,VA,,,,Food,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-07,Walmart,$14.60,Bentonville,AR,,,,Food,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-06,"Hunt & Co. Restaurant, Catering, Venue","$1,983.20",Chatham,VA,,,,Food,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-17,Chic-fil-A,$60.29,Atlanta,GA,,,,Food,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-17,Aldi,$13.65,Batavia,IL,,,,Food,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-06-17,Food Lion,$16.15,Salisbury,NC,,,,Food,D,446100,2025-06-06 to 2025-06-30,CC-25-00157,Whittle for Delegate
+contribution,2025-08-26,"Jessie w. Mayhew Jr., DDS",$100,Danville,VA,individual,Self,Dentist,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-22,Mary Herndon,$150,Danville,VA,individual,None,Retired,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-07-25,Moving Mountains PAC,$250,Richmond,VA,pac,,Political Action Committee,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-26,Shelia C. Bradley,$200,Halifax,VA,individual,None,Retired,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-07-15,Dominion Energy PAC,"$10,000",Richmond,VA,pac,,PAC,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-07-21,VA Beverage Association PAC,"$1,000",Richmond,VA,pac,,PAC,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-07-21,Virginia Wine Wholesalers PAC,"$1,500",Richmond,VA,pac,,PAC,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-07-21,Kilgore for Delegate,"$5,000",Gate City,VA,candidate,,Campaign Committee,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-07-22,Kitty W. Francis,$500,Danville,VA,individual,Retired,Retired,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-10,Sriram Peddibhotla,$500,Mclean,VA,individual,SAIC,IT Principal Architect,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-07-28,Pittsylvania County Republican Committee,$300,Hurt,VA,business,,Committee,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-01,Friends of Paul Milde,$300,Fredericksburg,VA,business,,Campaign Committee,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-11,O'Quinn for Delegate,"$1,000",Bristol,VA,candidate,,Campaign Committee,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-22,Ellen C. Reynolds,$104.10,Danville,VA,individual,Law Office of Ellen C Reynolds,Attorney,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-28,Webert for Delegate,"$1,000",Warrenton,VA,candidate,,Campaign Committee,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-28,Wren Williams for Delegate,$500,Stuart,VA,candidate,,Campaign Committee,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-28,"Virginia State Police Association, Inc. PAC",$250,Richmond,VA,pac,,PAC,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-28,Charles Haynsworth III,$250,Danville,VA,individual,Haynsworth's Inc.,Business Owner,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-26,Will Morefield for Delegate,"$2,500",Pounding Mill,VA,candidate,,Campaign Committee,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-26,Virginia Auto & Truck Dealers PAC - VADPAC,"$1,500",Richmond,VA,pac,,PAC,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-26,Carolyn F. Anderson,$500,Danville,VA,individual,None,Retired,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-08-26,Barbara D. Bass,$250,South Boston,VA,individual,None,Retired,,A,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+in_kind,2025-08-12,Mary Franklin,$136.06,Ringgold,VA,individual,Virginia House of Delegates,Legislative Aid,Printing,B,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-17,Orion Creative Media LLC,"$1,600",New Castle,VA,,,,Consulting,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-09,Orion Creative Media LLC,"$1,350",New Castle,VA,,,,Consulting,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-31,Winred Technical Services LLC,$2.05,Arlington,VA,,,,CC Processing,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-31,Winred Technical Services LLC,$25.85,Arlington,VA,,,,CC Processing,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-14,Facebook,$288.57,Menlo Park,CA,,,,Advertising,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-08,Facebook,$418.07,Menlo Park,CA,,,,Advertising,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-12,Facebook,$180.45,Menlo Park,CA,,,,Advertising,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-12,Facebook,$44.73,Menlo Park,CA,,,,Advertising,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-25,Facebook,$420.26,Menlo Park,CA,,,,Advertising,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-10,Mailchimp,$135,Atlanta,GA,,,,Online Services,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-11,Mailchimp,$100,Atlanta,GA,,,,Online Services,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-08,Election CFO,"$1,067.40",Alexandria,VA,,,,Consulting,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-06,Election CFO,"$1,016",Alexandria,VA,,,,Consulting,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-08,Matthew Coffman,"$2,000",Norfolk,VA,,,,Consulting,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-17,"FP1 Strategies, LLC","$4,300",Alexandria,VA,,,,Consulting & Printing,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-09,"FP1 Strategies, LLC","$2,500",Alexandria,VA,,,,Consulting,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-23,Target,$9.56,Minneapolis,MN,,,,Office Supplies,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-17,PIP Printing Danville,$616.54,Danville,VA,,,,Printing,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-09,PIP Printing Danville,"$1,130.43",Danville,VA,,,,Printing,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-01,Google,$8.40,Mountain View,CA,,,,Online Services,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-02,Google,$12.76,Mountain View,CA,,,,Online Services,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-04,Google,$8.40,Mountain View,CA,,,,Online Services,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-04,Google,$12.77,Mountain View,CA,,,,Online Services,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-11,"MJRW, Inc",$543.62,Danville,VA,,,,Reimbursement (Facebook expenses),D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-17,Andrew Boswell,"$1,000",Danville,VA,,,,Consulting,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-07-29,Bill.com,$24.63,San Jose,CA,,,,Online Services,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-08-25,Bill.com,$22.45,San Jose,CA,,,,Online Services,D,454103,2025-07-01 to 2025-08-31,CC-25-00157,Whittle for Delegate
+contribution,2025-09-22,Ben Davenport,"$2,500",Chatham,VA,individual,First Piedmont Corp.,President,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-22,H. F. Haymore Jr.,$100,Danville,VA,individual,None,Retired,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-22,Garland Ricketts,$200,South Boston,VA,individual,None,Retired,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-22,Shelia C. Bradley,$50,Halifax,VA,individual,None,Retired,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-17,Katherine McDaniel,$260.25,Danville,VA,individual,"Harris, Harvey, Neal CO., LLP",CPA,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-02,Linda Lawrence Dalton,"$1,000",Danville,VA,individual,Lawrence Distributing Company,President,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-02,Anne G. Foster,$300,Danville,VA,individual,None,Retired,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-09,William H. Rogers Jr.,$500,Blairs,VA,individual,Self,Farmer and Real Estate,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-10,Charles N. Eskey,$500,Danville,VA,individual,Eskey and Associates Realty,Real Estate Broker,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-22,David H. Gamble,$250,South Boston,VA,individual,None,Retired,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-22,Vision Management Services,$500,Chicago,IL,business,,Property Management,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-22,Mark C. Hermann,$500,Danville,VA,individual,SOVAH,Physician,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-09-23,Caesars Enterprise Services LLC,"$2,000",Las Vegas,NV,business,,Gaming,,A,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-25,Orion Creative Media LLC,"$1,375",New Castle,VA,,,,Consulting,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-30,Winred Technical Services LLC,$31.92,Arlington,VA,,,,CC Processing,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-12,Facebook,$36.62,Menlo Park,CA,,,,Advertising,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-12,Facebook,$317.56,Menlo Park,CA,,,,Advertising,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-10,Mailchimp,$100,Atlanta,GA,,,,Online Services,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-02,Election CFO,"$1,008",Alexandria,VA,,,,Consulting,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-10,"FP1 Strategies, LLC","$4,252.42",Alexandria,VA,,,,Consulting,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-01,Google,$12.80,Mountain View,CA,,,,Online Services,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-01,Google,$8.40,Mountain View,CA,,,,Online Services,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-17,Womack Publishing,$575,Chatham,VA,,,,Printing,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-22,Womack Publishing,$575,Chatham,VA,,,,Advertising,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-17,Food Lion,$202.83,Salisbury,NC,,,,Catering,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-17,Food Lion,$11.97,Salisbury,NC,,,,Catering,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+expenditure,2025-09-22,Bill.com,$21.47,San Jose,CA,,,,Online Services,D,462269,2025-09-01 to 2025-09-30,CC-25-00157,Whittle for Delegate
+contribution,2025-10-21,William Pace,$125,Chatham,VA,individual,Virginia House of Delegates,Legislative assistant,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-13,Mary Herndon,$150,Danville,VA,individual,None,Retired,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-03,Commonweath Sportsmen's Alliance PAC,$500,Powhatan,VA,pac,,PAC,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-07,Wendell Walker for Delegate,"$1,000",Lynchburg,VA,candidate,,Campaign Committee,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-15,Dan Valley Republican Women's Club,$125,Sutherlin,VA,business,,Republican Advocacy,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-15,"PLDR Law, PC",$250,Lynchburg,VA,business,,Law Firm,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-15,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-15,"National Shooting Sport Foundation, Inc.",$500,Shelton,CT,business,,Foundation,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-17,David Dujardin,$104.10,Danville,VA,individual,Mass Ascent,President,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-21,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,PAC,,A,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+in_kind,2025-10-07,Realtors PAC of Virginia,$319.76,Glen Allen,VA,pac,,PAC,Food,B,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-15,Orion Creative Media LLC,"$1,450",New Castle,VA,,,,Consulting,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-23,Winred Technical Services LLC,$10.02,Arlington,VA,,,,CC Processing,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-06,Facebook,$418,Menlo Park,CA,,,,Advertising,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-14,Facebook,$358.36,Menlo Park,CA,,,,Advertising,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-20,Facebook,$436,Menlo Park,CA,,,,Advertising,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-10,Mailchimp,$100,Atlanta,GA,,,,Online Services,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-01,Election CFO,"$1,034",Alexandria,VA,,,,Consulting,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-01,Matthew Coffman,"$1,000",Norfolk,VA,,,,Consulting,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-15,Matthew Coffman,"$1,000",Norfolk,VA,,,,Consulting,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-01,"FP1 Strategies, LLC","$2,500",Alexandria,VA,,,,Consulting,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-20,Battleground Connect,$740.16,Missoula,MT,,,,Texting,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-02,PIP Printing Danville,$616.54,Danville,VA,,,,Printing,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-02,Google,$21.18,Mountain View,CA,,,,Online Services,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-01,Womack Publishing,$575,Chatham,VA,,,,Printing,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-23,Bill.com,$23.92,San Jose,CA,,,,Online Services,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-01,Brennan Hunt,$700,South Boston,VA,,,,Consulting,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-22,Republican Party of Virginia,"$4,250",Richmond,VA,,,,Contribution,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-22,Malleus Political Strategies,"$2,000",Raleigh,NC,,,,Consulting,D,465079,2025-10-01 to 2025-10-23,CC-25-00157,Whittle for Delegate
+contribution,2025-10-27,Spirit of VMI PAC,"$1,000",Alexandria,VA,pac,,PAC,,A,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+contribution,2025-10-28,Jason Boles,"$1,000",Manakin Sabot,VA,individual,None,Retired,,A,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-03,Orion Creative Media LLC,"$2,125",New Castle,VA,,,,Consulting,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-31,Winred Technical Services LLC,$39.40,Arlington,VA,,,,Fundraising Fees,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-27,Facebook,$455,Menlo Park,CA,,,,Advertising,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-31,Facebook,$475,Menlo Park,CA,,,,Advertising,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-05,Facebook,$410.23,Menlo Park,CA,,,,Advertising,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-10,Mailchimp,$100,Atlanta,GA,,,,Online Services,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-03,Election CFO,"$1,069.63",Alexandria,VA,,,,Consulting,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-21,Matthew Coffman,"$1,000",Norfolk,VA,,,,Consulting,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-13,"FP1 Strategies, LLC",$500,Alexandria,VA,,,,Consulting,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-03,Battleground Connect,$903.14,Missoula,MT,,,,Texting,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-13,Battleground Connect,$739.62,Missoula,MT,,,,Texting,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-31,Target,$10.08,Minneapolis,MN,,,,Office Supplies,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-03,Google,$21.25,Mountain View,CA,,,,Online Services,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-29,Womack Publishing,$575,Chatham,VA,,,,Printing,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-11-24,Bill.com,$23.43,San Jose,CA,,,,Online Services,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+expenditure,2025-10-28,Republican Party of Virginia,"$4,250",Richmond,VA,,,,Contribution,D,470222,2025-10-24 to 2025-11-27,CC-25-00157,Whittle for Delegate
+contribution,2025-12-31,Shelia C. Bradley,$20,Halifax,VA,individual,None,Retired,,A,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+contribution,2025-12-22,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,Law Firm,,A,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+contribution,2025-12-22,Virginia Manufactured & Modular Housing Association PAC,$250,Henrico,VA,pac,,PAC,,A,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+contribution,2025-12-31,Virginia Bankers Association State PAC,$500,Glen Allen,VA,pac,,PAC,,A,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+contribution,2025-12-31,Commercial Development Politial Action Committee,$250,Alexandria,VA,pac,,PAC,,A,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+contribution,2025-12-31,McGuireWoods,$500,Richmond,VA,business,,Law Firm,,A,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-12-02,Election CFO,"$1,032.48",Alexandria,VA,,,,Consulting,D,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-12-18,Matthew Coffman,"$1,000",Norfolk,VA,,,,Consulting,D,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-12-02,Google,$21.25,Mountain View,CA,,,,Online Services,D,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+expenditure,2025-12-23,Bill.com,$21.47,San Jose,CA,,,,Online Services,D,479640,2025-11-28 to 2025-12-31,CC-25-00157,Whittle for Delegate
+contribution,2026-06-01,Altria Client Services LLC,"$1,000",Richmond,VA,business,,Manufacturing,,A,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+contribution,2026-01-13,Realtors PAC of Virginia,$500,Glen Allen,VA,pac,,PAC,,A,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+contribution,2026-06-01,VA Operators for Skill,"$1,000",Richmond,VA,pac,,PAC,,A,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-04-03,Orion Creative Media LLC,$300,New Castle,VA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-01-05,Election CFO,"$1,004",Alexandria,VA,,,,Consulting,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-03-10,Election CFO,$23.04,Alexandria,VA,,,,Consulting Expense,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-04-03,Election CFO,$500,Alexandria,VA,,,,Consulting,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-06-01,Election CFO,$500,Alexandria,VA,,,,Consulting,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-03-16,Matthew Coffman,"$2,500",Norfolk,VA,,,,Consulting,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-05-26,Matthew Coffman,"$1,500",Norfolk,VA,,,,Consulting,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-01-02,Google,$21.25,Mountain View,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-02-02,Google,$21.38,Mountain View,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-03-02,Google,$21.38,Mountain View,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-04-02,Google,$21.38,Mountain View,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-05-04,Google,$8.40,Mountain View,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-06-02,Google,$23.46,Mountain View,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-01-23,Bill.com,$48.35,San Jose,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-02-23,Bill.com,$1,San Jose,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-03-23,Bill.com,$6,San Jose,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-04-23,Bill.com,$16,San Jose,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-05-26,Bill.com,$1,San Jose,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate
+expenditure,2026-06-22,Bill.com,$16,San Jose,CA,,,,Online Services,D,496778,2026-01-01 to 2026-06-30,CC-25-00157,Whittle for Delegate

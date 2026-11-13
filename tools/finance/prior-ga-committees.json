@@ -1,0 +1,197 @@
+{
+ "note": "Earlier Virginia House/Senate candidate committees for sitting members, matched by candidate name in official Department of Elections Report.csv files (2021-01 through 2026-10) and checked by hand. Used only for the 2021-present money history. Other offices (city council, school board, statewide) are not included.",
+ "members": {
+  "H0365": {
+   "name": "Rozia A. Henson, Jr.",
+   "committees": [
+    {
+     "committeeCode": "CC-20-00394",
+     "committeeName": "Rozia Henson For Delegate"
+    }
+   ]
+  },
+  "H0297": {
+   "name": "Elizabeth R. Guzman",
+   "committees": [
+    {
+     "committeeCode": "CC-16-00383",
+     "committeeName": "Elizabeth Guzman for Delegate"
+    },
+    {
+     "committeeCode": "CC-22-00760",
+     "committeeName": "Elizabeth Guzman for VA"
+    }
+   ]
+  },
+  "H0371": {
+   "name": "Amy J. Laufer",
+   "committees": [
+    {
+     "committeeCode": "CC-19-00260",
+     "committeeName": "Laufer for Virginia"
+    }
+   ]
+  },
+  "H0314": {
+   "name": "Joshua G. Cole",
+   "committees": [
+    {
+     "committeeCode": "CC-18-00583",
+     "committeeName": "Cole for VA"
+    }
+   ]
+  },
+  "H0361": {
+   "name": "Debra D. Gardner",
+   "committees": [
+    {
+     "committeeCode": "CC-20-00402",
+     "committeeName": "Debra Gardner for Delegate"
+    },
+    {
+     "committeeCode": "CC-25-00902",
+     "committeeName": "Debra Gardner for Senate"
+    }
+   ]
+  },
+  "H0322": {
+   "name": "Don Scott",
+   "committees": [
+    {
+     "committeeCode": "CC-19-00758",
+     "committeeName": "Friends Of Don Scott"
+    }
+   ]
+  },
+  "H0366": {
+   "name": "Phil M. Hernandez",
+   "committees": [
+    {
+     "committeeCode": "CC-19-00242",
+     "committeeName": "PHIL FOR VIRGINIA"
+    }
+   ]
+  },
+  "H0295": {
+   "name": "Kelly K. Convirs-Fowler",
+   "committees": [
+    {
+     "committeeCode": "CC-17-00066",
+     "committeeName": "Friends of Kelly Fowler"
+    }
+   ]
+  },
+  "S0122": {
+   "name": "Christopher T. Head",
+   "committees": [
+    {
+     "committeeCode": "CC-12-00044",
+     "committeeName": "Elect Chris Head"
+    }
+   ]
+  },
+  "S0115": {
+   "name": "Lashrecse D. Aird",
+   "committees": [
+    {
+     "committeeCode": "CC-15-00370",
+     "committeeName": "Aird for Delegate"
+    }
+   ]
+  },
+  "S0114": {
+   "name": "Lamont Bagby",
+   "committees": [
+    {
+     "committeeCode": "CC-15-00319",
+     "committeeName": "Friends of Lamont Bagby"
+    }
+   ]
+  },
+  "S0134": {
+   "name": "Michael J. Jones",
+   "committees": [
+    {
+     "committeeCode": "CC-21-00077",
+     "committeeName": "Mike Jones for Delegate"
+    },
+    {
+     "committeeCode": "CC-22-00239",
+     "committeeName": "Michael Jones For Delegate"
+    }
+   ]
+  },
+  "S0129": {
+   "name": "Schuyler T. VanValkenburg",
+   "committees": [
+    {
+     "committeeCode": "CC-17-00047",
+     "committeeName": "VanValkenburg for Delegate"
+    }
+   ]
+  },
+  "S0019": {
+   "name": "L. Louise Lucas",
+   "committees": [
+    {
+     "committeeCode": "CC-12-01237",
+     "committeeName": "Lucas for Senate Campaign"
+    }
+   ]
+  },
+  "S0130": {
+   "name": "Angelia Williams Graves",
+   "committees": [
+    {
+     "committeeCode": "CC-20-00377",
+     "committeeName": "Angelia Williams Graves for Delegate"
+    }
+   ]
+  },
+  "S0067": {
+   "name": "Mamie E. Locke",
+   "committees": [
+    {
+     "committeeCode": "CC-12-01111",
+     "committeeName": "Locke for State Senate"
+    }
+   ]
+  },
+  "S0120": {
+   "name": "Tara A. Durant",
+   "committees": [
+    {
+     "committeeCode": "CC-21-00167",
+     "committeeName": "Durant for Delegate"
+    }
+   ]
+  },
+  "S0126": {
+   "name": "Danica A. Roem",
+   "committees": [
+    {
+     "committeeCode": "CC-16-00452",
+     "committeeName": "Friends of Danica Roem"
+    }
+   ]
+  },
+  "S0133": {
+   "name": "Kannan Srinivasan",
+   "committees": [
+    {
+     "committeeCode": "CC-22-00100",
+     "committeeName": "Kannan for Delegate"
+    }
+   ]
+  },
+  "S0135": {
+   "name": "Elizabeth Bennett-Parker",
+   "committees": [
+    {
+     "committeeCode": "CC-21-00059",
+     "committeeName": "Elect Elizabeth Bennett-Parker"
+    }
+   ]
+  }
+ }
+}

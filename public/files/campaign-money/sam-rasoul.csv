@@ -3,10 +3,765 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$36,046.65",,VA,,"From official Schedule H, November 2025 election cycle",H,494717,2026-07-13
 summary,2026-06-30,Raised this cycle,"$537,660.70",,,,Total receipts this election cycle (Schedule H),H,494717,2026-07-13
 summary,2026-06-30,Spent this cycle,"$522,111.32",,,,Total disbursements this election cycle (Schedule H),H,494717,2026-07-13
+contribution,2025-01-06,Eyas Abdeen,"$2,500",Sacramento,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Eyas Abdeen,"$1,000",Sacramento,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Hamzeh Abdeen,$500,Sacramento,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Mr. Moutaz Abdeen,"$1,000",Springfield,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-07,Shahana Ahmed,$150,Chester,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Muna Al-aseer,$500,Riverview,FL,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Emad Al-Turk,"$2,500",Ridgeland,MS,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Emad Al-Turk,$500,Ridgeland,MS,individual,,A,440402,2025-06-06
+contribution,2025-01-04,anjum ali,$100,Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Mr. Raziuddin Ali,"$1,000",Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Jihan Andoni,"$2,500",Oakton,VA,individual,,A,440402,2025-06-06
+contribution,2025-02-28,Teresa Auldridge,$15,Salem,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-30,Teresa Auldridge,$15,Salem,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-07,Estelle Avner,"$1,000",Troutville,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Anwar Awad,"$1,000",Reno,NV,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Hussam Ayloush,$250,Corona,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,SHEILA BADWAN,$250,Franklin,WI,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Amani Barakat,$500,Moorpark,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Nader Barakat,"$1,000",Santa Rosa Valley,CA,individual,,A,440402,2025-06-06
+contribution,2025-03-12,Robin Barnhill,$40,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-18,howard brown,$100,Woodstock,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-17,Robert Francis Canova,$100,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-20,Katherine Carpenter,$11,Blacksburg,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Nasser Chanda,"$2,500",Glen Allen,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Katie Clifton,$60,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Hope Cupit,$50,Forest,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-01,Janice Dinkins-Davidson,$250,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-02,Jim Dixon,$38,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-02-23,Jim Dixon,$11,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-23,Jim Dixon,$11,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Mary Beth Dunkenberger,$100,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-31,Tarek Elganainy,$500,Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Dina Ezzeddine,"$1,000",Berkeley,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Dina Ezzeddine,$500,Berkeley,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Manal Fakhoury,$500,Ocala,FL,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Aliya Farooq,"$2,500",Chester,VA,individual,,A,440402,2025-06-06
+contribution,2025-02-28,Robert Fasick,$27,Springfield,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-29,Robert Fasick,$27,Springfield,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Sidney Fuchs,$50,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,sheikh ghayasuddin,"$1,000",Kendall Park,NJ,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Faisal Gill,"$1,000",Washington,DC,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Saima Habib,"$1,000",Chester,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-18,William Hackworth,$200,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Hiba Hamdan,$100,Folsom,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Hiba Hamdan,$400,Folsom,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Hiba Hamdan,$500,Folsom,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Ibrahim Hamideh,$250,Thousand Oaks,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Ibrahim Hamideh,$225,Thousand Oaks,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Hena Hanfi,$100,Glen Allen,VA,individual,,A,440402,2025-06-06
+contribution,2025-02-24,Loren Hershey,$185,Oakton,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Hala K. Hijazi,$500,San Francisco,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Mr. William B Hopkins Jr,$250,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Faraz Iqbal,"$1,000",Tucker,GA,individual,,A,440402,2025-06-06
+contribution,2025-03-13,Janet Irwin,$50,Arlington,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Bushra Islam,$200,Chester,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Qamrul Islam,$250,Chester,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-02,Ann Janney-Schultz,$250,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-07,Mirvette Judeh-Maaytah,$500,Buena Park,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-03,Vivian Khalaf,"$1,500",Burr Ridge,IL,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Mr. Mubashir Khan,$250,Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-07,Nazar Khan,"$2,500",Minneapolis,MN,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Shakil Khan,"$1,000",Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Zahira & Nadeem Khan,"$1,000",Chester,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-18,Anne Kohinke,$250,Salem,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-18,Lorraine Lange,$250,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,The Hon. Sherman Lea Sr.,$50,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Mohannad S Malas,$500,Laguna Beach,CA,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Linda Mansour Ismail,"$1,000",Toledo,OH,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Linda Mansour,$500,Ottawa Hills,OH,individual,,A,440402,2025-06-06
+contribution,2025-03-19,Mr. Robert J Marro,$50,Great Falls,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Ann Martyn,$200,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-23,Ruth McWilliams,$100,Charlottesville,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-03,Omar Minai,"$2,500",Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Zahid Mughal,"$1,000",Chester,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-16,Amy Nelson,$25,Blacksburg,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-18,Karl W Northwall MD,$250,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-18,Lisa Perez,$100,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Abu Qutubuddin,"$1,000",North Chesterfield,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Muhammad Rais,$250,Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Muhammad Rais,$750,Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Mr. Zahid Rashid,$500,Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Saima Saleem,$500,Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Vivian Sanchez-Jones,$150,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-03,Linda Sarsour,"$1,000",Staten Island,NY,individual,,A,440402,2025-06-06
+contribution,2025-01-06,ruba sarsour,$500,Scottsbluff,NE,individual,,A,440402,2025-06-06
+contribution,2025-01-03,Virginia Savage,$100,Salem,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,TAWHEEDA SHAHAB,"$1,000",Chester,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Ahmed Shehab,"$1,000",Paramus,NJ,individual,,A,440402,2025-06-06
+contribution,2025-01-06,Osamah Shelleh,$250,Milwaukee,WI,individual,,A,440402,2025-06-06
+contribution,2025-01-05,Salman Siddiqui,"$1,000",Midlothian,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,Eric Sillery,$100,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-07,Waleed Soliman,$250,Elk Grove,CA,individual,,A,440402,2025-06-06
+contribution,2025-02-28,Michael Sternad,$20,Baileys Crossroads,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-31,Michael Sternad,$20,Baileys Crossroads,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-04,William Tanger,$100,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-12,Jennie Waering,$25,Roanoke,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-07,Nancy Wein,$11,North Chesterfield,VA,individual,,A,440402,2025-06-06
+contribution,2025-03-07,Nancy Wein,$11,North Chesterfield,VA,individual,,A,440402,2025-06-06
+contribution,2025-01-06,basel yanes,$250,Dayton,OH,individual,,A,440402,2025-06-06
+contribution,2025-06-01,Eyas Abdeen,"$1,000",Sacramento,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Isam Abdel-Karim,"$1,000",Jonesboro,AR,individual,,A,440447,2025-06-06
+contribution,2025-06-01,Brenda Abdelall,"$1,500",Mclean,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Osama Abed,$200,Washington,DC,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Ahmad Abualsoud,$500,Orefield,PA,individual,,A,440447,2025-06-06
+contribution,2025-05-29,Aida Abujoub,$400,Winchester,MA,individual,,A,440447,2025-06-06
+contribution,2025-06-02,Adam Abutaa,$500,Oakton,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-01,Abdallah Adas,$500,Broadlands,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-22,Salim Adaya,"$5,000",Santa Monica,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-17,Iyad Afalqa,$100,Carson,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-03,FARIS AL-MOUSILY,$250,Orlando,FL,individual,,A,440447,2025-06-06
+contribution,2025-05-28,Ali Alsarraf,$150,Lincolnshire,IL,individual,,A,440447,2025-06-06
+contribution,2025-05-26,Hala Amr,$250,Oakton,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-31,Krystal Arnett Henson,$100,Broadlands,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-09,Hani Ascha,$250,Mission Viejo,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Nizar Attallah,$500,Louisville,KY,individual,,A,440447,2025-06-06
+contribution,2025-04-30,Teresa Auldridge,$10,Salem,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-30,Teresa Auldridge,$10,Salem,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-17,Hussam Ayloush,$250,Corona,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-01,Edward P Ayoob,$250,Washington,DC,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Mohammed Barakat,"$2,000",Los Angeles,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-05,Khalil Barhoum,$500,Woodside,CA,individual,,A,440447,2025-06-06
+contribution,2025-04-12,Robin Barnhill,$40,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-07,Eileen Bartels Hadden,$250,Daleville,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-06,Robert Bateh,$500,Warren,NJ,individual,,A,440447,2025-06-06
+contribution,2025-05-26,Ahmed Bedier,$150,Tampa,FL,individual,,A,440447,2025-06-06
+contribution,2025-06-02,Noelle Bonner,$250,San Francisco,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Sam Borno,"$1,000",Laguna Beach,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-02,Bonny Branch,$100,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-02,Jennifer Brothers,$100,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-20,Katherine Carpenter,$11,Blacksburg,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-20,Katherine Carpenter,$11,Blacksburg,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-05,Joan M. Comanor,$100,Woodstock,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-26,R. David Cox,$100,Lexington,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-01,John Dabeet,$250,Muscatine,IA,individual,,A,440447,2025-06-06
+contribution,2025-06-04,Sari Dajani,$500,Vienna,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-09,Rebecca Daly,$100,Floyd,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-31,Margaret DeReus,$250,Santa Ana,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-17,Mohamed K Diab,$500,Laguna Niguel,CA,individual,,A,440447,2025-06-06
+contribution,2025-04-23,Jim Dixon,$11,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-23,Jim Dixon,$11,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-28,Ronald Dudum,$500,San Francisco,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-17,Mehdi Eddebbarh,"$1,000",Irvine,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-05,allam el qadah,$250,San Francisco,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-10,Magdy Eletreby,"$1,000",Dana Point,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Amer Elkasm,$500,Newport Beach,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-31,Ghada Elnajjar,$250,Alpharetta,GA,individual,,A,440447,2025-06-06
+contribution,2025-06-01,Ameen Estaiteyeh,$250,Sterling,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-13,Manal Fakhoury,"$5,000",Ocala,FL,individual,,A,440447,2025-06-06
+contribution,2025-05-31,Manal Fakhoury,$500,Ocala,FL,individual,,A,440447,2025-06-06
+contribution,2025-06-01,Manal Fakhoury,"$1,000",Ocala,FL,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Manal Fakhoury,"$1,000",Ocala,FL,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Nawal Fakhoury,"$1,000",Astoria,NY,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Nawal Fakhoury,"$1,000",Astoria,NY,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Aneela Farooq,$50,Chino Hills,CA,individual,,A,440447,2025-06-06
+contribution,2025-04-29,Robert Fasick,$27,Springfield,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-29,Robert Fasick,$27,Springfield,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-16,Hala Gabriel,$500,Lake Forest,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-01,Mohamed Gula,$250,Sterling,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-01,John Hanna,$250,Indiana,PA,individual,,A,440447,2025-06-06
+contribution,2025-05-28,Anser Hassan,$250,Pittsburg,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-02,Nesrin Hijazi,$250,Belmont,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Sadiah Hoque,$250,Orlando,FL,individual,,A,440447,2025-06-06
+contribution,2025-05-19,Nadia Hubbi,"$5,000",Irvine,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-01,Syed Husaini,$250,Stanford,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Maen Hussein,"$5,000",Wildwood,FL,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Maen Hussein,"$5,000",Wildwood,FL,individual,,A,440447,2025-06-06
+contribution,2025-05-27,Gheed Itani,$250,Westwood,MA,individual,,A,440447,2025-06-06
+contribution,2025-05-28,Dainia Jabaji,$500,Ovid,NY,individual,,A,440447,2025-06-06
+contribution,2025-05-29,Tala Jallad,"$1,000",New York,NY,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Wael Jamaleddine,"$1,000",Orlando,FL,individual,,A,440447,2025-06-06
+contribution,2025-05-14,Saed Jaridly,"$2,500",Fullerton,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-16,Mirvette Judeh-Maaytah,$250,Buena Park,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-30,George Kegley Jr,$25,Wytheville,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-30,Nicole Khamis,$250,Washington,DC,individual,,A,440447,2025-06-06
+contribution,2025-05-14,Farrah Khan,$500,Irvine,CA,individual,,A,440447,2025-06-06
+contribution,2025-04-03,Khaled Khashroom,$50,Midlothian,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Khaled Khashroom,$50,Midlothian,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Sarah Khatib,$200,Walpole,MA,individual,,A,440447,2025-06-06
+contribution,2025-06-05,Nazih Kiblawi,"$1,000",Great Falls,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-05,Yasser Killawi,$250,Washington,DC,individual,,A,440447,2025-06-06
+contribution,2025-05-26,Dina Kuttab,"$1,000",Cambridge,MA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Amer Malas,"$1,000",Huntington Beach,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Mohannad S Malas,"$5,000",Laguna Beach,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Mohannad S Malas,"$10,000",Laguna Beach,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,AZEEZ MALLEY,"$2,500",Fountain Valley,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-06,maher massis,$500,Herndon,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-01,maher massis,$100,Herndon,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-14,Wesley McCune,$500,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Ruth McWilliams,$50,Charlottesville,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-04,Dina Mikdadi,$500,Vienna,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-04,Maureen Mills,$100,Dugspur,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-28,Uzma Minhas,$500,Palo Alto,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Shireen Mirza,$250,El Dorado Hills,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-04,Ammar Mousa,$500,Windermere,FL,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Hasan Mousli,"$2,500",Lake Wales,FL,individual,,A,440447,2025-06-06
+contribution,2025-05-17,Ghazi Mubarak,"$1,000",Moorpark,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-02,eid mustafa,$500,Wichita Falls,TX,individual,,A,440447,2025-06-06
+contribution,2025-06-01,Janan and Waleed Najeeb,$300,Mequon,WI,individual,,A,440447,2025-06-06
+contribution,2025-04-16,Amy Nelson,$25,Blacksburg,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-16,Amy Nelson,$25,Blacksburg,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-04,Kathleen Nolan,$100,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-25,Karl W Northwall MD,$100,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Karl W Northwall MD,$100,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Haitham Nsour,$250,South Burlington,VT,individual,,A,440447,2025-06-06
+contribution,2025-04-09,Dayna Patrick,$250,Daleville,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-31,Faisal Qazi,"$1,000",Fullerton,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Bassam Rammaha,$250,Corona,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-16,Aisha Sabadia,"$1,000",Yorba Linda,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Saher Sabri,$500,Washington,DC,individual,,A,440447,2025-06-06
+contribution,2025-05-31,M. Emad Salem,$50,Euless,TX,individual,,A,440447,2025-06-06
+contribution,2025-05-31,AJ Samad,$250,Vienna,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-31,ruba sarsour,"$1,000",Scottsbluff,NE,individual,,A,440447,2025-06-06
+contribution,2025-05-31,ruba sarsour,"$2,500",Scottsbluff,NE,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Penny G. schwarz,$250,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-15,Saleem Shah,$38,North Hills,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Saleem Shah,$38,North Hills,CA,individual,,A,440447,2025-06-06
+contribution,2025-06-02,FARRUKH SHAMSI,$500,Houston,TX,individual,,A,440447,2025-06-06
+contribution,2025-05-15,david A. sharpe,$500,Cave Spring,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-14,MM Siam,"$5,000",Los Angeles,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Imran Siddiqui M.D.,$250,Herndon,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Eric Sillery,$38,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Firas Sioufi,$500,Gotha,FL,individual,,A,440447,2025-06-06
+contribution,2025-06-03,Nancy Socarras,$250,Bedford,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-18,Samera Sood,$500,Laguna Beach,CA,individual,,A,440447,2025-06-06
+contribution,2025-04-11,Beckham Stanley,$200,Bedford,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-30,Michael Sternad,$20,Baileys Crossroads,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-31,Michael Sternad,$20,Baileys Crossroads,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Jessica Swanson,$38,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-06,Michael Tarazi,"$1,000",Arlington,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-04,Elica Vafaie,$200,Petaluma,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Habib Veera,"$1,000",Hawthorne,CA,individual,,A,440447,2025-06-06
+contribution,2025-05-31,Karen Vietmeier,$250,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-16,Jennie Waering,$25,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-12,Jennie Waering,$25,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-07,Nancy Wein,$11,North Chesterfield,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-07,Nancy Wein,$11,North Chesterfield,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-01,Nancy Wein,$500,North Chesterfield,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-08,Pamela Wiegandt,$250,Fincastle,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-15,Sue Williams,$38,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-06-02,Sue Williams,$100,Roanoke,VA,individual,,A,440447,2025-06-06
+contribution,2025-04-09,Karen Willis,$100,Fincastle,VA,individual,,A,440447,2025-06-06
+contribution,2025-05-27,Robert Woodrum,$250,Stone Mountain,GA,individual,,A,440447,2025-06-06
+contribution,2025-05-30,Urooj Yazdani,"$5,000",Des Plaines,IL,individual,,A,440447,2025-06-06
+contribution,2025-06-28,Zeina Hutchison,$50,Ashburn,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-30,George Kegley Jr,$25,Wytheville,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-30,Mark Lazar,$250,Roanoke,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-16,Amy Nelson,$25,Blacksburg,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-30,Michael Sternad,$20,Baileys Crossroads,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-12,Jennie Waering,$25,Roanoke,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-07,Nancy Wein,$11,North Chesterfield,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-06,Babak Yousefzadeh,$250,Orinda,CA,individual,,A,447125,2025-07-14
+contribution,2025-06-08,Fawaz Alriashi,$500,Hayward,CA,individual,,A,447125,2025-07-14
+contribution,2025-06-30,Teresa Auldridge,$10,Salem,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-20,Katherine Carpenter,$11,Blacksburg,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-23,Jim Dixon,$11,Roanoke,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-29,Robert Fasick,$27,Springfield,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-11,Asghar Goraya,$100,North Chesterfield,VA,individual,,A,447125,2025-07-14
+contribution,2025-06-07,Frederick Hadeed,"$1,000",Fort Lauderdale,FL,individual,,A,447125,2025-07-14
+contribution,2025-07-09,Henry Woodward,$250,Salem,VA,individual,,A,454524,2025-09-15
+contribution,2025-07-20,Susan Miller,$250,Richmond,VA,individual,,A,454524,2025-09-15
+contribution,2025-07-28,Muna Al-aseer,$250,Riverview,FL,individual,,A,454524,2025-09-15
+contribution,2025-07-28,Sally Baraka,"$1,000",Atkinson,NH,individual,,A,454524,2025-09-15
+contribution,2025-08-07,saifaldin Rahman,"$2,500",Falls Church,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-08,Marwan nafal,"$5,000",Plano,TX,individual,,A,454524,2025-09-15
+contribution,2025-08-08,Nabeel Sarwar,$250,Malvern,PA,individual,,A,454524,2025-09-15
+contribution,2025-08-09,Timothy Jost,$200,Harrisonburg,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-09,Timothy Jost,$200,Harrisonburg,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-10,Susan Ryan,$500,Wellesley,MA,individual,,A,454524,2025-09-15
+contribution,2025-08-10,Barry J McMillion,$250,Arlington,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-11,Reagan White,$250,Roanoke,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-13,Uzma Rasheed,$500,Sterling,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-14,Miroya Monsour,$250,Jeannette,PA,individual,,A,454524,2025-09-15
+contribution,2025-08-17,Tyler Ambrose,$250,Houston,TX,individual,,A,454524,2025-09-15
+contribution,2025-08-28,Babur Mian,"$1,000",Annandale,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-28,Karen Campblin,$150,Fairfax,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-28,Patricia Tracy,$250,Blacksburg,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-28,Tarek Sayed Elganainy,$250,Midlothian,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-28,Wendy Larson-Harris,$300,Roanoke,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-29,Karli and Will Griffeth,$500,Roanoke,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-30,Naomi and Stephen Clements,$500,Roanoke,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-30,Sami Jadallah,$250,Fairfax,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-30,Mutahir Khan,$250,Elk Grove,CA,individual,,A,454524,2025-09-15
+contribution,2025-08-30,James Rosar,$500,Roanoke,VA,individual,,A,454524,2025-09-15
+contribution,2025-08-22,Roanoke Valley Democratic Women,$500,Roanoke,VA,business,,A,454524,2025-09-15
+contribution,2025-09-14,Virginia Legislative Black Caucus,"$9,000",Richmond,VA,business,,A,459540,2025-10-13
+contribution,2025-09-15,Dayna Patrick,$250,Daleville,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-25,Virginia Legislative Black Caucus,"$3,000",Richmond,VA,business,,A,459540,2025-10-13
+contribution,2025-09-22,Eid Mustafa,"$1,000",Wichita Falls,TX,individual,,A,459540,2025-10-13
+contribution,2025-09-16,Anna L. L Lawson,$250,Daleville,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-16,James and Noel Cosby,$200,Roanoke,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-16,Susan Cloeter,$250,Roanoke,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-16,B. Lynn Barlow,$250,Roanoke,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-21,david A. sharpe,$250,Roanoke,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-27,Nizar Doar,"$2,500",Mansfield,TX,individual,,A,459540,2025-10-13
+contribution,2025-09-28,Robbie Hashem,$500,Colleyville,TX,individual,,A,459540,2025-10-13
+contribution,2025-09-28,Katherine Hoffmann,$110,Falls Church,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-28,Jonathan Sokolow,"$1,000",Great Falls,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-28,Kathryn Kerkering,$250,Fincastle,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-29,Maryke Barber,$150,Roanoke,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-30,Alton Knighton,$250,Roanoke,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-30,Pamela Wiegandt,$250,Daleville,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-30,Lorraine Lange,$200,Roanoke,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-29,Mohammed Salhoot,"$1,000",Houston,TX,individual,,A,459540,2025-10-13
+contribution,2025-09-29,Janice Davidson,$250,Roanoke,VA,individual,,A,459540,2025-10-13
+contribution,2025-09-21,Bassima Constantine,"$1,000",Dallas,TX,individual,,A,459540,2025-10-13
+contribution,2025-09-21,Saba Mustafa,"$1,000",Wichita Falls,TX,individual,,A,459540,2025-10-13
+contribution,2025-10-01,Katherine Gardner,$150,Raleigh,NC,individual,,A,464036,2025-10-24
+contribution,2025-10-01,Lew Singer,$500,Roanoke,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-02,Bill and Diane W. Elliot,"$4,000",Roanoke,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-05,Remzi Zayid,$200,Fairfax,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-05,Yas shallal,$250,McLean,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-06,Orayb Najjar,$250,Chicago,IL,individual,,A,464036,2025-10-24
+contribution,2025-10-07,A Shallal,$500,Washington,DC,individual,,A,464036,2025-10-24
+contribution,2025-10-07,Paul Noursi,$400,Vienna,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-08,Sharon Hendrickson,"$2,500",Dewey,AZ,individual,,A,464036,2025-10-24
+contribution,2025-10-12,Shukri Makhlouf,$500,Duluth,GA,individual,,A,464036,2025-10-24
+contribution,2025-10-13,Ramie Shalabi,"$1,000",Lexington,SC,individual,,A,464036,2025-10-24
+contribution,2025-10-13,William Walls,$250,Arlington,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-15,SEIU COPE,"$1,000",Washington,DC,individual,,A,464036,2025-10-24
+contribution,2025-10-16,Irshad Sideeka,$500,Brookline,MA,individual,,A,464036,2025-10-24
+contribution,2025-10-21,Betty Branch,$500,Roanoke,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-10,Richard McGimsey,"$2,500",Roanoke,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-21,Botetourt County Democratic Committee,$500,Fincastle,VA,business,,A,464036,2025-10-24
+contribution,2025-10-16,Alfred Clark,$250,Bethesda,MD,individual,,A,464036,2025-10-24
+contribution,2025-10-16,Ghada Young,$200,San Pedro,CA,individual,,A,464036,2025-10-24
+contribution,2025-10-16,Dina Saba,$250,San Jose,CA,individual,,A,464036,2025-10-24
+contribution,2025-10-16,Zarmeena Vendal,$250,Austin,TX,individual,,A,464036,2025-10-24
+contribution,2025-10-16,Fatou Niang,$500,New Canaan,CT,individual,,A,464036,2025-10-24
+contribution,2025-10-20,Dwight Holland,$101,Roanoke,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-21,Nancy Bleeker,$200,McLean,VA,individual,,A,464036,2025-10-24
+contribution,2025-10-21,Chloe Chaudhry,$300,Berkeley,CA,individual,,A,464036,2025-10-24
+contribution,2025-10-23,Emad Al-Turk,"$1,000",Ridgeland,MS,individual,,A,464036,2025-10-24
+contribution,2025-11-03,Nick Manalac,$140,Clifton,VA,individual,,A,471286,2025-12-03
+contribution,2025-11-01,Lew Singer,$500,Roanoke,VA,individual,,A,471286,2025-12-03
+contribution,2025-11-03,Mid-Atlantic Laborers Political Education Fund,"$2,500",Reston,VA,business,,A,471286,2025-12-03
+contribution,2025-10-31,Denise Montgomery,$250,Staunton,VA,individual,,A,471286,2025-12-03
+contribution,2025-10-31,David Allen,$250,Washington,DC,individual,,A,471286,2025-12-03
+contribution,2025-10-29,Saddam Salim,$200,Merrifield,VA,individual,,A,471286,2025-12-03
+contribution,2025-10-27,Linda Gavel Webb,$250,Troutville,VA,individual,,A,471286,2025-12-03
+contribution,2025-10-27,Karmin Pace,"$2,000",Chattanooga,TN,individual,,A,471286,2025-12-03
 contribution,2025-12-10,Rishi Jaitly,$109,Blacksburg,VA,individual,,A,476492,2026-01-11
 contribution,2025-12-14,Lana Wahid,"$1,000",Fincastle,VA,individual,,A,476492,2026-01-11
 contribution,2025-12-05,Michael Maxey,$250,Salem,VA,individual,,A,476492,2026-01-11
 contribution,2026-04-22,Dustin Wade,"$1,000",South Chesterfield,VA,individual,,A,494717,2026-07-13
+in_kind,2025-01-04,Joseph L Cobb,$250,Roanoke,VA,individual,Venue,B,440402,2025-06-06
+in_kind,2025-03-01,House Democratic Caucus,"$1,762.50",Richmond,VA,party,CM Salary,B,440402,2025-06-06
+in_kind,2025-03-01,House Democratic Caucus,"$7,673.50",Richmond,VA,party,CM Salary,B,440402,2025-06-06
+in_kind,2025-03-15,Phazhon Nash,$150,Roanoke,VA,individual,Event host,B,440402,2025-06-06
+in_kind,2025-03-15,Yoedie Swain,$500,Roanoke,VA,individual,Event host,B,440402,2025-06-06
+in_kind,2025-04-01,House Democratic Caucus,"$4,387.50",Richmond,VA,party,CM Salary,B,440447,2025-06-06
+in_kind,2025-05-01,House Democratic Caucus,"$4,387.50",Richmond,VA,party,CM Salary,B,440447,2025-06-06
+in_kind,2025-06-01,House Democratic Caucus,"$4,387.50",Richmond,VA,party,CM Salary,B,440447,2025-06-06
+in_kind,2025-09-16,Michael Hamlar,$550,Roanoke,VA,individual,Venue,B,459540,2025-10-13
+in_kind,2025-09-30,Michael Hamlar,$550,Roanoke,VA,individual,Venue,B,459540,2025-10-13
+in_kind,2025-10-01,Mae Moore,$500,Roanoke,VA,individual,Catering Event,B,464036,2025-10-24
+expenditure,2025-01-02,Atlantic Union Bank & Trust,$15,Roanoke,VA,business,Fee,D,440402,2025-06-06
+expenditure,2025-01-02,Elaina Corfield,$250,Roanoke,VA,individual,Stipend,D,440402,2025-06-06
+expenditure,2025-01-02,Google LLC,$21.60,Mountain View,CA,business,GSuite Fee,D,440402,2025-06-06
+expenditure,2025-01-02,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,440402,2025-06-06
+expenditure,2025-01-03,"NGP Software, Inc.",$320,Washington,DC,business,Fees,D,440402,2025-06-06
+expenditure,2025-01-06,Atlantic Union Bank & Trust,$15,Roanoke,VA,business,Fee,D,440402,2025-06-06
+expenditure,2025-01-06,Bjs Wholesale Club Store #9219,$25.07,Roanoke,VA,business,Fuel,D,440402,2025-06-06
+expenditure,2025-01-06,The Hotel Roanoke and Conference Center,$200,Roanoke,VA,business,Event Fee,D,440402,2025-06-06
+expenditure,2025-01-07,Appalachian Power,$131.87,Canton,OH,business,Power,D,440402,2025-06-06
+expenditure,2025-01-07,Sheetz #1941,$17.53,Roanoke,VA,business,Fuel,D,440402,2025-06-06
+expenditure,2025-01-08,Virginia Department of Elections,$352.80,Richmond,VA,business,Fee,D,440402,2025-06-06
+expenditure,2025-01-13,Atlantic Union Bank & Trust,$15,Roanoke,VA,business,Fee,D,440402,2025-06-06
+expenditure,2025-01-13,Clerk's Office (Virginia House of Delegates),$73,Richmond,VA,business,Stamps,D,440402,2025-06-06
+expenditure,2025-01-13,Roanoke Times,$21.99,Roanoke,VA,business,Subscription,D,440402,2025-06-06
+expenditure,2025-01-23,GoDaddy Operating Company LLC,$19.99,Scottsdale,AZ,business,Fees,D,440402,2025-06-06
+expenditure,2025-01-27,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,440402,2025-06-06
+expenditure,2025-01-31,Facebook Inc.,$53.92,Menlo Park,CA,business,Fees,D,440402,2025-06-06
+expenditure,2025-02-03,Google LLC,$21.60,Mountain View,CA,business,GSuite Fee,D,440402,2025-06-06
+expenditure,2025-02-03,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,440402,2025-06-06
+expenditure,2025-02-06,Dominic Harden,"$1,000",Salem,VA,individual,Services,D,440402,2025-06-06
+expenditure,2025-02-06,"NGP Software, Inc.",$320,Washington,DC,business,Fees,D,440402,2025-06-06
+expenditure,2025-02-10,Appalachian Power,$125.91,Canton,OH,business,Power,D,440402,2025-06-06
+expenditure,2025-02-10,Avas Flowers,$79.43,Newark,DE,business,Thank you gift,D,440402,2025-06-06
+expenditure,2025-02-10,Avas Flowers,$74.14,Newark,DE,business,Thank you gift,D,440402,2025-06-06
+expenditure,2025-02-13,Roanoke Times,$21.99,Roanoke,VA,business,Subscription,D,440402,2025-06-06
+expenditure,2025-02-18,Canva,$12.95,Roanoke,VA,business,Fees,D,440402,2025-06-06
+expenditure,2025-02-19,Glo Fiber,$88.65,Edinburg,VA,business,Internet,D,440402,2025-06-06
+expenditure,2025-02-20,Western Virginia Water Authority,$42.17,Roanoke,VA,business,Utilities,D,440402,2025-06-06
+expenditure,2025-02-21,Zoom,$16.79,San Jose,CA,business,Fee,D,440402,2025-06-06
+expenditure,2025-02-24,Atlantic Union Bank & Trust,$15,Roanoke,VA,business,Fee,D,440402,2025-06-06
+expenditure,2025-02-24,Elaina Corfield,$500,Roanoke,VA,individual,Stipend,D,440402,2025-06-06
+expenditure,2025-02-25,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,440402,2025-06-06
+expenditure,2025-02-25,Sheetz,$40.44,Roanoke,VA,business,Gas,D,440402,2025-06-06
+expenditure,2025-02-26,"A. Byron Smith Oil Co., Inc.",$370,Roanoke,VA,business,Office oil for heating,D,440402,2025-06-06
+expenditure,2025-02-26,Market on Melrose,$50,Roanoke,VA,business,Event supplies,D,440402,2025-06-06
+expenditure,2025-02-26,Market on Melrose,$125,Roanoke,VA,business,Event supplies,D,440402,2025-06-06
+expenditure,2025-02-27,Democratic Party of Virginia,"$15,000",Richmond,VA,party,Dues,D,440402,2025-06-06
+expenditure,2025-02-28,Facebook Inc.,$8.74,Menlo Park,CA,business,Fees,D,440402,2025-06-06
+expenditure,2025-02-28,Dominic Harden,$500,Salem,VA,individual,Services,D,440402,2025-06-06
+expenditure,2025-03-03,Atlantic Union Bank & Trust,$15,Roanoke,VA,business,Fee,D,440402,2025-06-06
+expenditure,2025-03-03,GoDaddy Operating Company LLC,$22.17,Scottsdale,AZ,business,Fees,D,440402,2025-06-06
+expenditure,2025-03-03,Google LLC,$21.60,Mountain View,CA,business,GSuite Fee,D,440402,2025-06-06
+expenditure,2025-03-03,"NGP Software, Inc.",$320,Washington,DC,business,Fees,D,440402,2025-06-06
+expenditure,2025-03-03,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,440402,2025-06-06
+expenditure,2025-03-03,Rural Caucus of the Democratic Party of Virginia,$500,Floyd,VA,party,Tickets,D,440402,2025-06-06
+expenditure,2025-03-04,Elaina Corfield,$250,Roanoke,VA,individual,Stipend,D,440402,2025-06-06
+expenditure,2025-03-06,Norfolk State Universtiy Foundation,$100,Norfolk,VA,business,Contribution,D,440402,2025-06-06
+expenditure,2025-03-06,Wix,$55.80,San Francisco,CA,business,Website Hosting,D,440402,2025-06-06
+expenditure,2025-03-07,Evie's Bristro and Bakery,$250,Roanoke,VA,business,Food for event,D,440402,2025-06-06
+expenditure,2025-03-07,Roanoke Grocery Market,$150,Roanoke,VA,business,Food for event,D,440402,2025-06-06
+expenditure,2025-03-10,The Grandin Theatre,$13.13,Roanoke,VA,business,Event fee,D,440402,2025-06-06
+expenditure,2025-03-10,The Grandin Theatre,$60.95,Roanoke,VA,business,Event fee,D,440402,2025-06-06
+expenditure,2025-03-10,The Grandin Theatre,$99.70,Roanoke,VA,business,Event fee,D,440402,2025-06-06
+expenditure,2025-03-11,Appalachian Power,$98.59,Canton,OH,business,Power,D,440402,2025-06-06
+expenditure,2025-03-11,Fedex Printing,$68.43,Roanoke,VA,business,Printing,D,440402,2025-06-06
+expenditure,2025-03-13,Roanoke Times,$21.99,Roanoke,VA,business,Subscription,D,440402,2025-06-06
+expenditure,2025-03-14,Fedex Printing,$42.11,Roanoke,VA,business,Printing,D,440402,2025-06-06
+expenditure,2025-03-14,Treasurer of Virginia,$34,Richmond,VA,business,Fee,D,440402,2025-06-06
+expenditure,2025-03-17,BJ's Wholesale Club,$313.25,Roanoke,VA,business,Event supplies,D,440402,2025-06-06
+expenditure,2025-03-17,Canva,$12.95,Roanoke,VA,business,Fees,D,440402,2025-06-06
+expenditure,2025-03-17,Roanoke Grocery Market,$51.14,Roanoke,VA,business,Food for event,D,440402,2025-06-06
+expenditure,2025-03-17,Roanoke Tribune,$245,Roanoke,VA,business,Ad and subscription renewal,D,440402,2025-06-06
+expenditure,2025-03-18,Dominic Harden,"$1,000",Salem,VA,individual,Services,D,440402,2025-06-06
+expenditure,2025-03-18,Nu Deli,$200,Roanoke,VA,business,Food for event,D,440402,2025-06-06
+expenditure,2025-03-19,Circle K,$29.81,Roanoke,VA,business,Gas,D,440402,2025-06-06
+expenditure,2025-03-19,Virginia Blue Star Printing & Consulting,$252.96,Christiansburg,VA,business,Printing,D,440402,2025-06-06
+expenditure,2025-03-19,Western Virginia Water Authority,$42.28,Roanoke,VA,business,Utilities,D,440402,2025-06-06
+expenditure,2025-03-20,Glo Fiber,$88.65,Edinburg,VA,business,Internet,D,440402,2025-06-06
+expenditure,2025-03-21,Zoom,$16.79,San Jose,CA,business,Fee,D,440402,2025-06-06
+expenditure,2025-03-24,Amazon,$8.09,Seattle,WA,business,Office supplies,D,440402,2025-06-06
+expenditure,2025-03-24,Falafel House,$122.24,Roanoke,VA,business,Food for event,D,440402,2025-06-06
+expenditure,2025-03-25,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,440402,2025-06-06
+expenditure,2025-03-26,Gibson Print,"$1,253.45",Henrico,VA,business,Yard Signs,D,440402,2025-06-06
+expenditure,2025-03-26,Portabella Pizza,$211.85,Roanoke,VA,business,Food for event,D,440402,2025-06-06
+expenditure,2025-03-28,Basil Pizza Roanoke,$332.30,Roanoke,VA,business,Food for event,D,440402,2025-06-06
+expenditure,2025-03-31,Dominic Harden,"$1,000",Salem,VA,individual,Services,D,440402,2025-06-06
+expenditure,2025-04-01,BJ's Wholesale Club,$23.33,Roanoke,VA,business,Gas,D,440447,2025-06-06
+expenditure,2025-04-01,BJ's Wholesale Club,$129.97,Roanoke,VA,business,Event supplies,D,440447,2025-06-06
+expenditure,2025-04-01,Google LLC,$21.60,Mountain View,CA,business,GSuite Fee,D,440447,2025-06-06
+expenditure,2025-04-01,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,440447,2025-06-06
+expenditure,2025-04-02,"NGP Software, Inc.",$320,Washington,DC,business,Fees,D,440447,2025-06-06
+expenditure,2025-04-02,Layaly Rasoul,"$1,350",Roanoke,VA,individual,Reimbursement,D,440447,2025-06-06
+expenditure,2025-04-04,Elaina Corfield,$250,Roanoke,VA,individual,Stipend,D,440447,2025-06-06
+expenditure,2025-04-08,Kroger Fuel #208,$26.18,Roanoke,VA,business,Fuel,D,440447,2025-06-06
+expenditure,2025-04-09,Appalachian Power,$110.96,Canton,OH,business,Power,D,440447,2025-06-06
+expenditure,2025-04-10,Kiwanis club of Roanoke,$100,Roanoke,VA,business,Donation,D,440447,2025-06-06
+expenditure,2025-04-14,Exxon,$36.82,Fairfield,VA,business,Gas,D,440447,2025-06-06
+expenditure,2025-04-14,Omar Fateh For Mayor,$100,Minneapolis,MN,candidate,Contribution,D,440447,2025-06-06
+expenditure,2025-04-15,Canva,$12.95,Roanoke,VA,business,Fees,D,440447,2025-06-06
+expenditure,2025-04-15,Fedex Printing,$102.13,Roanoke,VA,business,Printing,D,440447,2025-06-06
+expenditure,2025-04-15,Gibson Print,$791.73,Henrico,VA,business,Literature,D,440447,2025-06-06
+expenditure,2025-04-15,Dominic Harden,"$1,000",Salem,VA,individual,Services,D,440447,2025-06-06
+expenditure,2025-04-15,Roanoke Times,$21.99,Roanoke,VA,business,Subscription,D,440447,2025-06-06
+expenditure,2025-04-18,Western Virginia Water Authority,$43.68,Roanoke,VA,business,Utilities,D,440447,2025-06-06
+expenditure,2025-04-21,Amazon,$145.78,Seattle,WA,business,Office supplies,D,440447,2025-06-06
+expenditure,2025-04-21,Glo Fiber,$88.65,Edinburg,VA,business,Internet,D,440447,2025-06-06
+expenditure,2025-04-21,Peter Wurster,$60,Roanoke,VA,individual,Stipend,D,440447,2025-06-06
+expenditure,2025-04-21,Zoom,$16.79,San Jose,CA,business,Fee,D,440447,2025-06-06
+expenditure,2025-04-24,McQuinn for the 81st District House of Delegates,$500,Henrico,VA,business,Contribution,D,440447,2025-06-06
+expenditure,2025-04-25,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,440447,2025-06-06
+expenditure,2025-04-28,Coalition of Labor Union Women Western Virginia Chapter,$340,Blue Ridge,VA,business,Event Sponsorship/Ticket,D,440447,2025-06-06
+expenditure,2025-04-30,Commonwealth Victory Fund,$650,Richmond,VA,business,Fees,D,440447,2025-06-06
+expenditure,2025-04-30,Dominic Harden,"$1,000",Salem,VA,individual,Services,D,440447,2025-06-06
+expenditure,2025-05-01,Google LLC,$21.60,Mountain View,CA,business,GSuite Fee,D,440447,2025-06-06
+expenditure,2025-05-01,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,440447,2025-06-06
+expenditure,2025-05-02,"NGP Software, Inc.",$320,Washington,DC,business,Fees,D,440447,2025-06-06
+expenditure,2025-05-05,Al Abdelaziz for Assembly,$100,Paterson,NJ,business,Contribution,D,440447,2025-06-06
+expenditure,2025-05-05,Ali For Jersey City,$100,Jersey City,NJ,business,Contribution,D,440447,2025-06-06
+expenditure,2025-05-05,BJ's Wholesale Club,$27.77,Roanoke,VA,business,Gas,D,440447,2025-06-06
+expenditure,2025-05-05,Elaina Corfield,$250,Roanoke,VA,individual,Stipend,D,440447,2025-06-06
+expenditure,2025-05-05,Treasurer of Virginia,$25,Richmond,VA,business,Fee,D,440447,2025-06-06
+expenditure,2025-05-12,Appalachian Power,$112.20,Canton,OH,business,Power,D,440447,2025-06-06
+expenditure,2025-05-12,BJ's Wholesale Club,$51.55,Roanoke,VA,business,Event supplies,D,440447,2025-06-06
+expenditure,2025-05-12,Gibson Print,$813.54,Henrico,VA,business,Literature,D,440447,2025-06-06
+expenditure,2025-05-12,Hootsuite,"$1,188",New York,NY,business,Subscription Fee,D,440447,2025-06-06
+expenditure,2025-05-13,Roanoke Times,$21.99,Roanoke,VA,business,Subscription,D,440447,2025-06-06
+expenditure,2025-05-15,Canva,$12.95,Roanoke,VA,business,Fees,D,440447,2025-06-06
+expenditure,2025-05-15,House Democratic Caucus,"$3,250",Richmond,VA,party,CM Salary,D,440447,2025-06-06
+expenditure,2025-05-16,Delta Airlines,$892.36,Atlanta,GA,business,Airfare,D,440447,2025-06-06
+expenditure,2025-05-16,Dominic Harden,"$1,000",Salem,VA,individual,Services,D,440447,2025-06-06
+expenditure,2025-05-19,BP - Zion Crossroads,$31.89,Zion Crossroads,VA,business,Gas,D,440447,2025-06-06
+expenditure,2025-05-19,"Hotwire, Inc.",$168.34,San Francisco,CA,business,Travel expense,D,440447,2025-06-06
+expenditure,2025-05-20,Glo Fiber,$88.69,Edinburg,VA,business,Internet,D,440447,2025-06-06
+expenditure,2025-05-20,Richmond Int. Airport,$24,Richmond,VA,business,travel expense,D,440447,2025-06-06
+expenditure,2025-05-20,Virginia Blue Star Printing & Consulting,"$1,302.56",Christiansburg,VA,business,Signs,D,440447,2025-06-06
+expenditure,2025-05-21,BJ's Wholesale Club,$27.08,Roanoke,VA,business,Gas,D,440447,2025-06-06
+expenditure,2025-05-21,"LauchGood, Inc.",$52.50,Detroit,MI,business,Contribution,D,440447,2025-06-06
+expenditure,2025-05-21,Western Virginia Water Authority,$43.64,Roanoke,VA,business,Utilities,D,440447,2025-06-06
+expenditure,2025-05-21,Zoom,$16.79,San Jose,CA,business,Fee,D,440447,2025-06-06
+expenditure,2025-05-27,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,440447,2025-06-06
+expenditure,2025-05-29,House Democratic Caucus,"$3,250",Richmond,VA,party,CM Salary,D,440447,2025-06-06
+expenditure,2025-05-29,Virginia Blue Star Printing & Consulting,$221.13,Christiansburg,VA,business,Printing,D,440447,2025-06-06
+expenditure,2025-05-30,All Star Impressions,$46.33,Roanoke,VA,business,Name tags,D,440447,2025-06-06
+expenditure,2025-05-30,Elaina Corfield,$250,Roanoke,VA,individual,Stipend,D,440447,2025-06-06
+expenditure,2025-05-30,Falafel House,$141.19,Roanoke,VA,business,Food for event,D,440447,2025-06-06
+expenditure,2025-06-01,I'Zaya Harden,$225,Hollins,VA,individual,Salary,D,440447,2025-06-06
+expenditure,2025-06-01,Jehad Rasoul,$400,Blue Ridge,VA,individual,Stipend,D,440447,2025-06-06
+expenditure,2025-06-02,Google LLC,$21.60,Mountain View,CA,business,GSuite Fee,D,440447,2025-06-06
+expenditure,2025-06-02,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,440447,2025-06-06
+expenditure,2025-06-03,Dominic Harden,"$1,100",Salem,VA,individual,Services,D,440447,2025-06-06
+expenditure,2025-06-03,"NGP Software, Inc.",$320,Washington,DC,business,Fees,D,440447,2025-06-06
+expenditure,2025-06-03,Peter Wurster,$60,Roanoke,VA,individual,Stipend,D,440447,2025-06-06
+expenditure,2025-06-04,Elijah Maxson,$183.75,Lynchburg,VA,individual,Salary,D,440447,2025-06-06
+expenditure,2025-06-05,USPS,$58.40,Roanoke,VA,business,Stamps,D,440447,2025-06-06
+expenditure,2025-06-06,Bethleham Bible College,$35,Roanoke,VA,business,Ticket,D,447125,2025-07-14
+expenditure,2025-06-06,Treasurer of Virginia,"$4,897.92",Richmond,VA,business,Session Mail,D,447125,2025-07-14
+expenditure,2025-06-06,Walmart,$15.67,Roanoke,VA,business,Event Supplies,D,447125,2025-07-14
+expenditure,2025-06-09,Appalachian Power,$113.74,Canton,OH,business,Power,D,447125,2025-07-14
+expenditure,2025-06-11,Jay Jones for Virginia,"$1,000",Williamsburg,VA,business,Contribution,D,447125,2025-07-14
+expenditure,2025-06-11,Lateef for VA,"$1,000",Woodbridge,VA,business,Contribution,D,447125,2025-07-14
+expenditure,2025-06-11,Northwest ACE Hardware,$3.15,Roanoke,VA,business,Keys,D,447125,2025-07-14
+expenditure,2025-06-12,Roanoke Times,$21.99,Roanoke,VA,business,Subscription,D,447125,2025-07-14
+expenditure,2025-06-13,Mike Khader for Yonkers City Council,$100,Yonkers,NY,business,Contribution,D,447125,2025-07-14
+expenditure,2025-06-16,Black Virginia News,$69,Suffolk,VA,business,Subscription,D,447125,2025-07-14
+expenditure,2025-06-16,Canva,$12.95,Roanoke,VA,business,Fees,D,447125,2025-07-14
+expenditure,2025-06-16,I'Zaya Harden,$300,Hollins,VA,individual,Campaign Stipend,D,447125,2025-07-14
+expenditure,2025-06-16,USPS,$244,Roanoke,VA,business,PO Box Purchase,D,447125,2025-07-14
+expenditure,2025-06-16,Virginia Blue Star Printing & Consulting,$871.52,Christiansburg,VA,business,Printing,D,447125,2025-07-14
+expenditure,2025-06-17,Dominic Harden,"$1,100",Salem,VA,individual,Services,D,447125,2025-07-14
+expenditure,2025-06-18,Western Virginia Water Authority,$43.85,Roanoke,VA,business,Utilities,D,447125,2025-07-14
+expenditure,2025-06-20,Glo Fiber,$88.69,Edinburg,VA,business,Internet,D,447125,2025-07-14
+expenditure,2025-06-20,State Navigate,$104.50,Roanoke,VA,business,Contribution,D,447125,2025-07-14
+expenditure,2025-06-23,Lily Franklin,$50,Christiansburg,VA,individual,Graphic Design,D,447125,2025-07-14
+expenditure,2025-06-23,Least of These Ministries,$50,Huntington Beach,CA,business,Contribution,D,447125,2025-07-14
+expenditure,2025-06-23,Local Environmental Agriculture Project,$15,Roanoke,VA,business,Ticket for event,D,447125,2025-07-14
+expenditure,2025-06-23,Network Nova,$500,Falls Church,VA,business,Sponsorship Fee,D,447125,2025-07-14
+expenditure,2025-06-23,Zoom,$17.84,San Jose,CA,business,Fee,D,447125,2025-07-14
+expenditure,2025-06-25,Elijah Maxson,$172.05,Lynchburg,VA,individual,Campaign Stipend,D,447125,2025-07-14
+expenditure,2025-06-25,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,447125,2025-07-14
+expenditure,2025-06-26,Donate to Dems,$100,Somerville,MA,business,Contribution,D,447125,2025-07-14
+expenditure,2025-06-30,Hilton McLean Tysons Corner,$481.16,Mclean,VA,business,Travel,D,447125,2025-07-14
+expenditure,2025-07-01,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,454524,2025-09-15
+expenditure,2025-07-01,Google LLC,$21.60,Mountain View,CA,business,Fee,D,454524,2025-09-15
+expenditure,2025-07-07,Roanoke Tribune,$150,Roanoke,VA,business,Advertisement,D,454524,2025-09-15
+expenditure,2025-07-07,Roanoke Valley Young Democrats,$50,Salem,VA,business,Contribution,D,454524,2025-09-15
+expenditure,2025-07-09,Appalachain Power,$133.52,Canton,OH,business,Power,D,454524,2025-09-15
+expenditure,2025-07-10,Roanoke Valley Democratic Women,$250,Roanoke,VA,business,Event Sponsorship,D,454524,2025-09-15
+expenditure,2025-07-11,USPS,$146,Roanoke,VA,business,P.O. Box Fee,D,454524,2025-09-15
+expenditure,2025-07-18,Western Virginia Water Authority,$44.04,Roanoke,VA,business,Water,D,454524,2025-09-15
+expenditure,2025-07-14,Roanoke Times,$31.99,Roanoke,VA,business,Subscription,D,454524,2025-09-15
+expenditure,2025-08-05,Sweet Donkey Coffee House,$24.44,Roanoke,VA,business,Event,D,454524,2025-09-15
+expenditure,2025-08-05,Sweet Donkey Coffee House,$5.47,Roanoke,VA,business,Event,D,454524,2025-09-15
+expenditure,2025-07-21,Virginia Blue Star Printing & Consulting,$871.52,Christiansburg,VA,business,Printing,D,454524,2025-09-15
+expenditure,2025-07-15,Canva,$12.95,Roanoke,VA,business,Fee,D,454524,2025-09-15
+expenditure,2025-07-14,The Home Depot,$7.24,Roanoke,VA,business,Supplies,D,454524,2025-09-15
+expenditure,2025-07-30,USPS,$61,Roanoke,VA,business,Stamps,D,454524,2025-09-15
+expenditure,2025-07-30,Target,$12.48,Roanoke,VA,business,Supplies,D,454524,2025-09-15
+expenditure,2025-08-01,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,454524,2025-09-15
+expenditure,2025-07-28,Roanoke City Democratic Committee,$250,Roanoke,VA,business,Sponsorship,D,454524,2025-09-15
+expenditure,2025-07-21,Glo Fiber,$88.07,Edinburg,VA,business,Internet,D,454524,2025-09-15
+expenditure,2025-08-11,Roanoke Times,$31.99,Roanoke,VA,business,Subscription,D,454524,2025-09-15
+expenditure,2025-07-21,Blue Cow,$26.55,Roanoke,VA,business,Event,D,454524,2025-09-15
+expenditure,2025-08-01,Google LLC,$24.26,Mountain View,CA,business,Fee,D,454524,2025-09-15
+expenditure,2025-07-25,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,454524,2025-09-15
+expenditure,2025-07-24,GoDaddy,$167.88,Scottsdale,AZ,business,Fee,D,454524,2025-09-15
+expenditure,2025-08-05,Sweet Donkey Coffee House,$9.26,Roanoke,VA,business,Event,D,454524,2025-09-15
+expenditure,2025-08-07,Basil Pizza,$161.06,Roanoke,VA,business,Food for event,D,454524,2025-09-15
+expenditure,2025-07-28,BJ's Wholesale Club,$202.69,Roanoke,VA,business,Event supplies,D,454524,2025-09-15
+expenditure,2025-07-21,Zoom,$17.48,San Jose,CA,business,Fee,D,454524,2025-09-15
+expenditure,2025-08-06,Wasena Neighborhood Forum,$50,Roanoke,VA,business,Event,D,454524,2025-09-15
+expenditure,2025-08-07,INSTITUTE FOR MIDDLE EAST UNDERSTANDING,$50,Tustin,CA,business,Contribution,D,454524,2025-09-15
+expenditure,2025-07-01,Makala Gray,$850,Charlottesville,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-04,Makala Gray,$850,Charlottesville,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-31,Makala Gray,$850,Charlottesville,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-07-21,Jenny Rasoul,$400,Blue Ridge,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-26,Jenny Rasoul,$400,Blue Ridge,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-07-02,Elaina Corfield,$480,Roanoke,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-06,Elaina Corfield,$480,Roanoke,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-31,Elaina Corfield,$567.39,Roanoke,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-07-10,Elijah Maxson,$262.50,Lynchburg,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-07-28,Elijah Maxson,$90,Lynchburg,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-07,Elijah Maxson,$198.75,Lynchburg,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-15,"NGP Software, Inc.",$952.55,Washington,DC,business,Fee,D,454524,2025-09-15
+expenditure,2025-08-20,Western Virginia Water Authority,$89.94,Roanoke,VA,business,Water,D,454524,2025-09-15
+expenditure,2025-08-21,The Home Depot,$84.40,Roanoke,VA,business,Supplies,D,454524,2025-09-15
+expenditure,2025-08-25,The Home Depot,$134.45,Roanoke,VA,business,Supplies,D,454524,2025-09-15
+expenditure,2025-08-28,The Home Depot,$251.25,Roanoke,VA,business,Supplies,D,454524,2025-09-15
+expenditure,2025-08-20,Glo Fiber,$88.07,Edinburg,VA,business,Internet,D,454524,2025-09-15
+expenditure,2025-08-25,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,454524,2025-09-15
+expenditure,2025-08-29,GoDaddy,$267.96,Scottsdale,AZ,business,Fee,D,454524,2025-09-15
+expenditure,2025-08-14,Virginia Blue Star Printing & Consulting,"$3,072.65",Christiansburg,VA,business,Printing,D,454524,2025-09-15
+expenditure,2025-08-15,Canva,$12.95,Roanoke,VA,business,Subscription,D,454524,2025-09-15
+expenditure,2025-08-20,Zoom,$17.84,San Jose,CA,business,Fee,D,454524,2025-09-15
+expenditure,2025-08-11,Appalachain Power,$240.70,Canton,OH,business,Power,D,454524,2025-09-15
+expenditure,2025-08-20,Friends of Dr Ryan White,$100,Roanoke,VA,business,Contribution,D,454524,2025-09-15
+expenditure,2025-08-24,BEC Films LLC,"$5,188.46",Henrico,VA,business,Media Services,D,454524,2025-09-15
+expenditure,2025-07-24,Bags in Bulk,$164.27,New York,NY,business,Supplies,D,454524,2025-09-15
+expenditure,2025-07-09,Bushra for Congress,$100,Skokie,IL,candidate,Contribution,D,454524,2025-09-15
+expenditure,2025-08-08,Nadia Rasul for Hilliard City Council,$100,Hilliard,OH,business,Contribution,D,454524,2025-09-15
+expenditure,2025-08-15,Friends of Mohammad Faraj,$50,Cleveland,OH,business,Contribution,D,454524,2025-09-15
+expenditure,2025-08-25,Moxie Media,"$15,239.82",Seattle,WA,business,Mail Services,D,454524,2025-09-15
+expenditure,2025-08-14,Patrick Henry High School,$850,Roanoke,VA,business,Sponsorship,D,454524,2025-09-15
+expenditure,2025-08-14,William Fleming High School,$600,Roanoke,VA,business,Sponsorship,D,454524,2025-09-15
+expenditure,2025-07-02,Dominic Harden,"$1,100",Salem,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-07-21,Dominic Harden,"$1,100",Salem,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-04,Dominic Harden,"$1,100",Salem,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-20,Dominic Harden,"$1,100",Salem,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-31,Dominic Harden,"$1,600",Salem,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-07-01,Dominic Harden,$38.28,Salem,VA,individual,Reimbursement,D,454524,2025-09-15
+expenditure,2025-07-15,I'Zaya Harden,$360,Hollins,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-07-25,I'Zaya Harden,$270,Hollins,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-19,I'Zaya Harden,$172.50,Hollins,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-26,Peter Wurster,$120,Roanoke,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-31,Tallulah Costa,$451.61,Roanoke,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-29,Shawn Nowlin,$130,Roanoke,VA,individual,Photography,D,454524,2025-09-15
+expenditure,2025-08-31,Kamran Fareedi,"$1,000",Herndon,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-07-10,Anne Hayden Hall,$217.50,Salem,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-07-31,Anne Hayden Hall,$405,Salem,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-08-19,Anne Hayden Hall,$300,Salem,VA,individual,Contract Services,D,454524,2025-09-15
+expenditure,2025-09-02,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,459540,2025-10-13
+expenditure,2025-09-02,Google LLC,$25.20,Mountain View,CA,business,fee,D,459540,2025-10-13
+expenditure,2025-09-02,BEC Films LLC,"$5,188.46",Henrico,VA,business,Media Services,D,459540,2025-10-13
+expenditure,2025-09-05,Best Buy,$274.81,Roanoke,VA,business,Office supplies,D,459540,2025-10-13
+expenditure,2025-09-05,Sam's Club,$70.46,Roanoke,VA,business,Event supplies,D,459540,2025-10-13
+expenditure,2025-09-08,Roanoke Times,$36.98,Roanoke,VA,business,Subscription,D,459540,2025-10-13
+expenditure,2025-09-08,BJ's Wholesale Club,$26.52,Roanoke,VA,business,Gas,D,459540,2025-10-13
+expenditure,2025-09-08,Appalachain Power,$257.72,Canton,OH,business,Power,D,459540,2025-10-13
+expenditure,2025-09-09,Virginia Blue Star Printing & Consulting,$871.52,Christiansburg,VA,business,Printing,D,459540,2025-10-13
+expenditure,2025-09-29,Arben for Sterling,$100,Ashburn,VA,business,Contribution,D,459540,2025-10-13
+expenditure,2025-09-09,Moxie Media,"$15,239.82",Seattle,WA,business,Mail Services,D,459540,2025-10-13
+expenditure,2025-09-15,American Airlines,$683.87,Fort Worth,TX,business,Travel,D,459540,2025-10-13
+expenditure,2025-09-15,Canva,$12.95,Roanoke,VA,business,Fee,D,459540,2025-10-13
+expenditure,2025-09-16,BJ's Wholesale Club,$35.77,Roanoke,VA,business,Gas,D,459540,2025-10-13
+expenditure,2025-09-17,Curry Copy Center,$49.49,Roanoke,VA,business,Printing,D,459540,2025-10-13
+expenditure,2025-09-17,The Home Depot,$218.41,Roanoke,VA,business,Supplies,D,459540,2025-10-13
+expenditure,2025-09-18,Delta Airlines,$343.49,Atlanta,GA,business,Travel,D,459540,2025-10-13
+expenditure,2025-09-18,Western Virginia Water Authority,$43.44,Roanoke,VA,business,Water,D,459540,2025-10-13
+expenditure,2025-09-22,Zoom,$17.84,San Jose,CA,business,Fee,D,459540,2025-10-13
+expenditure,2025-09-22,American Airlines,$313.48,Fort Worth,TX,business,Travel,D,459540,2025-10-13
+expenditure,2025-09-22,Glo Fiber,$88.07,Edinburg,VA,business,Internet,D,459540,2025-10-13
+expenditure,2025-09-22,The Hope Center,$100,Roanoke,VA,business,Ticket,D,459540,2025-10-13
+expenditure,2025-09-23,Moxie Media,"$13,472.39",Seattle,WA,business,Mail Services,D,459540,2025-10-13
+expenditure,2025-09-24,Facebook Inc.,$50,Menlo Park,CA,business,Post Boost,D,459540,2025-10-13
+expenditure,2025-09-25,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,459540,2025-10-13
+expenditure,2025-09-25,Inkwell Custom Prints,$436,Salem,VA,business,Printing,D,459540,2025-10-13
+expenditure,2025-09-26,Wix,$348,San Francisco,CA,business,Fee,D,459540,2025-10-13
+expenditure,2025-09-30,Virginia Blue Star Printing & Consulting,"$3,122.23",Christiansburg,VA,business,Printing,D,459540,2025-10-13
+expenditure,2025-09-30,Atlantic Union Bank & Trust,$30,Roanoke,VA,business,Fee,D,459540,2025-10-13
+expenditure,2025-09-22,House Democratic Caucus,"$15,000",Richmond,VA,party,Contribution,D,459540,2025-10-13
+expenditure,2025-09-26,BEC Films LLC,"$5,188.46",Henrico,VA,business,Media Services,D,459540,2025-10-13
+expenditure,2025-09-30,NAACP Roanoke Branch,$150,Roanoke,VA,business,Advertisement,D,459540,2025-10-13
+expenditure,2025-09-29,Speedway Gas,$24.59,Charlottesville,VA,business,Gas,D,459540,2025-10-13
+expenditure,2025-09-29,Sheetz,$35.93,Mt Jackson,VA,business,Gas,D,459540,2025-10-13
+expenditure,2025-09-30,Yosemite Consulting,"$10,000",Tampa,FL,business,Media services,D,459540,2025-10-13
+expenditure,2025-09-22,Campaign Deputy,$555,Louisville,KY,business,Fee,D,459540,2025-10-13
+expenditure,2025-09-15,Shell Gas Station,$35.77,Woodstock,VA,business,Gas,D,459540,2025-10-13
+expenditure,2025-09-08,RacetopPrint,$282.82,Smyrna,DE,business,Printing,D,459540,2025-10-13
+expenditure,2025-09-03,Donate to Dems,$250,Somerville,MA,business,Contribution,D,459540,2025-10-13
+expenditure,2025-09-30,The Impact Center PAC,"$25,000",Roanoke,VA,pac,Contribution,D,459540,2025-10-13
+expenditure,2025-09-08,Ron Bailey Photography,$50,Vinton,VA,business,Photography,D,459540,2025-10-13
+expenditure,2025-09-08,Nu Deli Mart,$90,Roanoke,VA,business,Foos for event,D,459540,2025-10-13
+expenditure,2025-09-19,Makala Gray,$850,Charlottesville,VA,individual,Contract Services,D,459540,2025-10-13
+expenditure,2025-09-30,Makala Gray,$850,Charlottesville,VA,individual,Contract services,D,459540,2025-10-13
+expenditure,2025-09-22,Jenny Rasoul,$400,Blue Ridge,VA,individual,Contract Services,D,459540,2025-10-13
+expenditure,2025-09-30,Dominic Harden,"$1,100",Salem,VA,individual,Contract Services,D,459540,2025-10-13
+expenditure,2025-09-30,Dominic Harden,"$1,600",Salem,VA,individual,Contract services,D,459540,2025-10-13
+expenditure,2025-09-15,Tallulah Costa,$799.20,Roanoke,VA,individual,Contract Services,D,459540,2025-10-13
+expenditure,2025-09-29,Claire Spangler,$75,Salem,VA,individual,Contract services,D,459540,2025-10-13
+expenditure,2025-10-01,Canva,$22,Roanoke,VA,business,Printing,D,464036,2025-10-24
+expenditure,2025-10-03,Atlantic Union Bank & Trust,$30,Roanoke,VA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-03,Atlantic Union Bank & Trust,$30,Roanoke,VA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-08,Yosemite Consulting,"$10,000",Tampa,FL,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-03,Yosemite Consulting,"$10,000",Tampa,FL,business,Media Services,D,464036,2025-10-24
+expenditure,2025-10-16,Yosemite Consulting,"$10,000",Tampa,FL,business,Media Services,D,464036,2025-10-24
+expenditure,2025-10-17,Western Virginia Water Authority,$43.46,Roanoke,VA,business,Water,D,464036,2025-10-24
+expenditure,2025-10-14,Wix,$120,San Francisco,CA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-15,Canva,$12.95,Roanoke,VA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-14,BJ's Wholesale Club,$30.16,Roanoke,VA,business,Gas,D,464036,2025-10-24
+expenditure,2025-10-16,Atlantic Union Bank & Trust,$30,Roanoke,VA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-16,Atlantic Union Bank & Trust,$30,Roanoke,VA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-08,Atlantic Union Bank & Trust,$30,Roanoke,VA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-08,Atlantic Union Bank & Trust,$30,Roanoke,VA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-01,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,464036,2025-10-24
+expenditure,2025-10-09,Sheetz,$33.18,Roanoke,VA,business,Gas,D,464036,2025-10-24
+expenditure,2025-10-20,Glo Fiber,$88.18,Edinburg,VA,business,Internet,D,464036,2025-10-24
+expenditure,2025-10-06,Roanoke Times,$31.99,Roanoke,VA,business,Subscription fee,D,464036,2025-10-24
+expenditure,2025-10-01,Google LLC,$25.20,Mountain View,CA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-21,Best Buy,$110.55,Roanoke,VA,business,Printer ink,D,464036,2025-10-24
+expenditure,2025-10-06,BJ's Wholesale Club,$16.90,Roanoke,VA,business,Gas,D,464036,2025-10-24
+expenditure,2025-10-21,Zoom,$17.84,San Jose,CA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-08,Appalachain Power,$150.35,Canton,OH,business,Power,D,464036,2025-10-24
+expenditure,2025-10-20,Friends of Dr Ryan White,$100,Roanoke,VA,business,Contribution,D,464036,2025-10-24
+expenditure,2025-10-06,Moxie Media,"$13,120.24",Seattle,WA,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-17,Moxie Media,"$14,804.06",Seattle,WA,business,Media Services,D,464036,2025-10-24
+expenditure,2025-10-20,Winter Schassberger for School Board,$100,Roanoke,VA,candidate,Contribution,D,464036,2025-10-24
+expenditure,2025-10-20,Antonio Hash for Sheriff,$100,Roanoke,VA,candidate,Contribution,D,464036,2025-10-24
+expenditure,2025-10-01,TIVOLI PIZZA,$108.58,Salem,VA,business,Food,D,464036,2025-10-24
+expenditure,2025-10-06,Sunoco Falls Church,$31.72,FALLS CHURCH,VA,business,Gas,D,464036,2025-10-24
+expenditure,2025-10-22,Makala Gray,"$1,350",Charlottesville,VA,individual,Contract services,D,464036,2025-10-24
+expenditure,2025-10-22,Elaina Corfield,"$1,000",Roanoke,VA,individual,Contract services,D,464036,2025-10-24
+expenditure,2025-10-16,Dominic Harden,"$1,100",Salem,VA,individual,Contract services,D,464036,2025-10-24
+expenditure,2025-10-22,Dominic Harden,"$1,600",Salem,VA,individual,Contract services,D,464036,2025-10-24
+expenditure,2025-10-03,Misty Dawn,$93.75,,,individual,Contract services,D,464036,2025-10-24
+expenditure,2025-10-21,Dina Imbriani,"$2,000",Catawba,VA,individual,Contract services,D,464036,2025-10-24
+expenditure,2025-10-07,Kamran Fareedi,$700,Herndon,VA,individual,Contract services,D,464036,2025-10-24
+expenditure,2025-10-06,Claire Spangler,$45,Salem,VA,individual,Contract services,D,464036,2025-10-24
+expenditure,2025-10-20,Bria Gepitulan,$90,Roanoke,VA,individual,Contract services,D,464036,2025-10-24
+expenditure,2025-10-22,Whitehead Media Ventures,$500,Lynchburg,VA,business,Advertisement,D,464036,2025-10-24
+expenditure,2025-10-21,Sheetz,$26.98,Roanoke,VA,business,Gas,D,464036,2025-10-24
+expenditure,2025-10-21,The Impact Center PAC,"$50,000",Roanoke,VA,pac,Contribution,D,464036,2025-10-24
+expenditure,2025-10-17,Virginia Blue Star Printing & Consulting,$928.15,Christiansburg,VA,business,Printing,D,464036,2025-10-24
+expenditure,2025-10-23,BJ's Wholesale Club,$134.70,Roanoke,VA,business,Event supplies,D,464036,2025-10-24
+expenditure,2025-10-22,Atlantic Union Bank & Trust,$30,Roanoke,VA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-07,Atlantic Union Bank & Trust,$32.50,Roanoke,VA,business,Checks,D,464036,2025-10-24
+expenditure,2025-10-22,Atlantic Union Bank & Trust,$30,Roanoke,VA,business,Fee,D,464036,2025-10-24
+expenditure,2025-10-23,Moxie Media,"$14,259.53",Seattle,WA,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-22,Yosemite Consulting,"$10,000",Tampa,FL,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-06,BP #927,$39.64,Norlina,NC,business,Gas,D,464036,2025-10-24
+expenditure,2025-10-16,McKenna Media,$562.36,Baltimore,MD,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-15,WestWest Digital,"$3,000",Van Nuys,CA,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-23,WestWest Digital,"$3,700",Van Nuys,CA,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-14,Exxon,$28.81,Linden,VA,business,Gas,D,464036,2025-10-24
+expenditure,2025-10-08,"GMMB, Inc.","$5,750",Washington,DC,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-16,"GMMB, Inc.","$10,000",Washington,DC,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-03,"GMMB, Inc.","$5,750",Washington,DC,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-22,"GMMB, Inc.","$10,000",Washington,DC,business,Media services,D,464036,2025-10-24
+expenditure,2025-10-27,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,471286,2025-12-03
+expenditure,2025-10-27,Virginia Blue Star Printing & Consulting,$928.15,Christiansburg,VA,business,Print Services,D,471286,2025-12-03
+expenditure,2025-10-27,Krispy Kreme,$45.07,Roanoke,VA,business,Food for volunteers,D,471286,2025-12-03
+expenditure,2025-10-27,Sheetz,$29.66,Roanoke,VA,business,Gas,D,471286,2025-12-03
+expenditure,2025-10-28,Inkwell Custom Prints,$189.54,Salem,VA,business,Print Services,D,471286,2025-12-03
+expenditure,2025-10-28,Virginia Blue Star Printing & Consulting,$755.90,Christiansburg,VA,business,Print Services,D,471286,2025-12-03
+expenditure,2025-10-30,Antonio Hash for Sheriff,$100,Roanoke,VA,candidate,Contribution,D,471286,2025-12-03
+expenditure,2025-11-03,Roanoke Times,$31.99,Roanoke,VA,business,Fee,D,471286,2025-12-03
+expenditure,2025-11-03,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,471286,2025-12-03
+expenditure,2025-11-03,USPS,$89.90,Roanoke,VA,business,PO Box Fee,D,471286,2025-12-03
+expenditure,2025-11-03,BJ's Wholesale Club,$108.39,Roanoke,VA,business,Event supplies,D,471286,2025-12-03
+expenditure,2025-11-03,Google LLC,$25.20,Mountain View,CA,business,Fee,D,471286,2025-12-03
+expenditure,2025-11-03,Krispy Kreme,$30.74,Roanoke,VA,business,Food for volunteers,D,471286,2025-12-03
+expenditure,2025-11-03,Antonio Hash for Sheriff,$500,Roanoke,VA,candidate,Contribution,D,471286,2025-12-03
+expenditure,2025-11-04,Curry Copy Center,$61.86,Roanoke,VA,business,Print Services,D,471286,2025-12-03
+expenditure,2025-11-04,Sheetz,$49.20,Roanoke,VA,business,Gas,D,471286,2025-12-03
+expenditure,2025-11-05,Krispy Kreme,$29.05,Roanoke,VA,business,Food for volunteers,D,471286,2025-12-03
+expenditure,2025-11-05,Krispy Kreme,$43.02,Roanoke,VA,business,Food for volunteers,D,471286,2025-12-03
+expenditure,2025-11-05,Krispy Kreme,$59.41,Roanoke,VA,business,Food for volunteers,D,471286,2025-12-03
+expenditure,2025-11-06,Appalachain Power,$119.28,Canton,OH,business,Power,D,471286,2025-12-03
+expenditure,2025-11-06,WestWest Digital,$500,Van Nuys,CA,business,Contract Services,D,471286,2025-12-03
+expenditure,2025-11-10,Gibson Print,$797.88,Henrico,VA,business,Print Services,D,471286,2025-12-03
+expenditure,2025-11-13,Curry Copy Center,$61.86,Roanoke,VA,business,Print Services,D,471286,2025-12-03
+expenditure,2025-11-17,Canva,$12.95,Roanoke,VA,business,Fee,D,471286,2025-12-03
+expenditure,2025-11-19,Western Virginia Water Authority,$48.65,Roanoke,VA,business,Water,D,471286,2025-12-03
+expenditure,2025-11-20,Kroger Fuel,$33.50,Roanoke,VA,business,Gas,D,471286,2025-12-03
+expenditure,2025-11-20,USPS,"$1,562.75",Roanoke,VA,business,Stamps,D,471286,2025-12-03
+expenditure,2025-11-20,Webb's Oil,$345,Roanoke,VA,business,Oil,D,471286,2025-12-03
+expenditure,2025-11-20,Zoom,$17.84,San Jose,CA,business,Fee,D,471286,2025-12-03
+expenditure,2025-11-20,Glo Fiber,$88.18,Edinburg,VA,business,Internet,D,471286,2025-12-03
+expenditure,2025-11-21,Falafel House,$224.36,Roanoke,VA,business,Food for volunteers,D,471286,2025-12-03
+expenditure,2025-11-24,Michaels,$6.30,Roanoke,VA,business,Office supplies,D,471286,2025-12-03
+expenditure,2025-11-25,Amazon,$17.47,Seattle,WA,business,Office Supplies,D,471286,2025-12-03
+expenditure,2025-11-25,Roanoke Valley Young Democrats,$10,Salem,VA,business,Contribution,D,471286,2025-12-03
+expenditure,2025-11-25,TIVOLI PIZZA,$129.49,Salem,VA,business,Food for event,D,471286,2025-12-03
+expenditure,2025-11-10,Shell Oil,$35.44,Dublin,VA,business,Gas,D,471286,2025-12-03
+expenditure,2025-11-12,Rack Room Shoes,$212.66,Roanoke,VA,business,Volunteer gifts,D,471286,2025-12-03
+expenditure,2025-11-07,Jenny Rasoul,$600,Blue Ridge,VA,individual,Contract Services,D,471286,2025-12-03
+expenditure,2025-10-29,Jenny Rasoul,$400,Blue Ridge,VA,individual,Contract Services,D,471286,2025-12-03
+expenditure,2025-11-03,Dominic Harden,$100.63,Salem,VA,individual,Reimbursement,D,471286,2025-12-03
+expenditure,2025-11-17,Dominic Harden,"$1,100",Salem,VA,individual,Contract Services,D,471286,2025-12-03
+expenditure,2025-11-21,Kamran Fareedi,$962.50,Herndon,VA,individual,Contract Services,D,471286,2025-12-03
+expenditure,2025-11-12,Claire Spangler,$285,Salem,VA,individual,Contract Services,D,471286,2025-12-03
+expenditure,2025-11-08,Misty Vickers,$180,Roanoke,VA,individual,Contract Services,D,471286,2025-12-03
+expenditure,2025-11-08,Bria Gepitulan,$200,Roanoke,VA,individual,Contract Services,D,471286,2025-12-03
+expenditure,2025-11-12,Aidan Lacombe,$322.50,Falmouth,ME,individual,Contract Services,D,471286,2025-12-03
+expenditure,2025-11-13,Griffin Shaver,$337.50,Roanoke,VA,individual,Contract Services,D,471286,2025-12-03
+expenditure,2025-11-13,MIchael Thorell,$202.50,Roanoke,VA,individual,Contract Services,D,471286,2025-12-03
 expenditure,2025-12-01,Roanoke City Democratic Committee,$10,Roanoke,VA,business,Contribution,D,476492,2026-01-11
 expenditure,2025-11-28,Roanoke Times,$31.99,Roanoke,VA,business,Fee,D,476492,2026-01-11
 expenditure,2025-12-01,Google LLC,$25.20,Mountain View,CA,business,Fee,D,476492,2026-01-11

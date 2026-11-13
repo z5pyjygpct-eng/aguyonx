@@ -3,6 +3,165 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$284,992.84",,VA,,"From official Schedule H, November 2027 election cycle",H,496403,2026-07-15
 summary,2026-06-30,Raised this cycle,"$771,119.64",,,,Total receipts this election cycle (Schedule H),H,496403,2026-07-15
 summary,2026-06-30,Spent this cycle,"$613,914.64",,,,Total disbursements this election cycle (Schedule H),H,496403,2026-07-15
+contribution,2024-03-11,Transurban USA Inc-CR,$500,Richmond,VA,business,,A,409834,2024-07-15
+contribution,2024-01-09,Reed Smith LLP PAC,$500,Richmond,VA,pac,,A,409834,2024-07-15
+contribution,2024-05-09,"Christian & Barton, LLP",$500,Richmond,VA,business,,A,409834,2024-07-15
+contribution,2024-01-08,Dominion PAC,"$10,000",Richmond,VA,pac,,A,409834,2024-07-15
+contribution,2024-05-27,G Thomas Phillips D.D.S,$104.10,Fredericksburg,VA,individual,,A,409834,2024-07-15
+contribution,2024-03-11,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,409834,2024-07-15
+contribution,2024-05-30,Virginia Farm Bureau Federation AGPAC,$500,Richmond,VA,pac,,A,409834,2024-07-15
+contribution,2024-01-06,Virginia Credit Union PAC,"$1,000",Lynchburg,VA,pac,,A,409834,2024-07-15
+contribution,2024-01-03,Anheuser Busch,"$1,500",Baldwinsville,NY,business,,A,409834,2024-07-15
+contribution,2024-06-27,Anheuser Busch,$500,Baldwinsville,NY,business,,A,409834,2024-07-15
+contribution,2024-01-06,GoPac Election Fund,$500,Arlington,VA,pac,,A,409834,2024-07-15
+contribution,2024-01-09,Political Victory Fund,$250,Fairfax,VA,pac,,A,409834,2024-07-15
+contribution,2024-01-09,Commercial Development PAC,$500,Alexandria,VA,pac,,A,409834,2024-07-15
+contribution,2024-06-23,Virginia Hospitality & Travel Association Inc.,$500,Richmond,VA,business,,A,409834,2024-07-15
+contribution,2024-05-28,Altria Client Services LLC,"$2,500",Richmond,VA,business,,A,409834,2024-07-15
+contribution,2024-01-03,Hunton Andrews Kurth,"$2,000",Richmond,VA,business,,A,409834,2024-07-15
+contribution,2024-01-09,Cozen O'Conner,$500,Philadelphia,PA,business,,A,409834,2024-07-15
+contribution,2024-04-23,NiSource Inc.,$500,Columbus,OH,pac,,A,409834,2024-07-15
+contribution,2024-03-11,Timothy Clarke,$250,Spotsylvania,VA,individual,,A,409834,2024-07-15
+contribution,2024-01-02,Sovos Compliance LLC,"$1,500",Wilmington,MA,business,,A,409834,2024-07-15
+contribution,2024-01-09,Paul Goldean,"$5,000",Charlotte,NC,individual,,A,409834,2024-07-15
+contribution,2024-01-02,Mark Grapin,$500,Unionville,VA,individual,,A,409834,2024-07-15
+contribution,2024-01-09,Virginia Future,"$1,000",Richmond,VA,pac,,A,409834,2024-07-15
+contribution,2024-01-06,"Arrow International, Inc.",$500,Cleveland,OH,business,,A,409834,2024-07-15
+contribution,2024-01-03,"All Points Broadband Partners, LLC","$1,000",Richmond,VA,business,,A,409834,2024-07-15
+contribution,2024-01-05,Powerhouse VA Inc.,"$2,500",South Chesterfield,VA,business,,A,409834,2024-07-15
+contribution,2024-01-05,Powerhouse VA Inc.,"$2,500",South Chesterfield,VA,business,,A,409834,2024-07-15
+contribution,2024-01-06,Building a Remarkable Virginia,"$10,000",Reston,VA,pac,,A,409834,2024-07-15
+contribution,2024-01-08,Jeffery Yoder,"$1,041.02",Elk Grove Village,IL,individual,,A,409834,2024-07-15
+contribution,2024-01-09,Asian American Business Owners Assoc,"$1,000",Roanoke,VA,pac,,A,409834,2024-07-15
+contribution,2024-05-28,John Harrison,"$2,582.64",North Rose,NY,individual,,A,409834,2024-07-15
+contribution,2024-05-28,Mark Hunter,"$2,500",Tysons,VA,individual,,A,409834,2024-07-15
+contribution,2024-05-28,Tim Steffan,"$2,500",McLean,VA,individual,,A,409834,2024-07-15
+contribution,2024-05-23,Christopher Ballard,"$5,000",Alexandria,VA,individual,,A,409834,2024-07-15
+contribution,2024-05-23,Bryan Teske,"$2,500",Arlington,TX,individual,,A,409834,2024-07-15
+contribution,2024-05-20,Dylan Clemente,"$2,500",Reston,VA,individual,,A,409834,2024-07-15
+contribution,2024-04-01,Hunter Lewis,"$1,000",Edinburg,VA,individual,,A,409834,2024-07-15
+contribution,2024-03-11,Ben Davenport,"$1,000",Chatham,VA,individual,,A,409834,2024-07-15
+contribution,2024-03-11,Charles Seilheimer,$300,Orange,VA,individual,,A,409834,2024-07-15
+contribution,2024-03-11,William Madden,$250,Mclean,VA,individual,,A,409834,2024-07-15
+contribution,2024-05-03,VA Operators for Skill,"$5,000",Richmond,VA,business,,A,409834,2024-07-15
+contribution,2024-05-13,Main Street Virginia,$500,Richmond,VA,pac,,A,409834,2024-07-15
+contribution,2024-05-13,American Council of Life Insurers,"$1,000",Washington,DC,pac,,A,409834,2024-07-15
+contribution,2024-05-31,Christopher Guthrie,"$2,500",Mclean,VA,individual,,A,409834,2024-07-15
+contribution,2024-05-31,Stuart Schar,"$2,500",Palm Beach,FL,individual,,A,409834,2024-07-15
+contribution,2024-05-31,Linda Saville,"$5,000",Palm Beach,FL,individual,,A,409834,2024-07-15
+contribution,2024-05-30,James Davis,"$5,000",The Plains,VA,individual,,A,409834,2024-07-15
+contribution,2024-05-30,E Brett McMahon,"$10,000",Bethesda,MD,individual,,A,409834,2024-07-15
+contribution,2024-05-30,"Comstock Partners, LC","$20,000",Reston,VA,business,,A,409834,2024-07-15
+contribution,2024-01-09,Associated General Contractors of Virginia Inc,$500,Glen Allen,VA,pac,,A,409834,2024-07-15
+contribution,2024-01-07,Virginia Law Enforcement Sheriffs,$500,Lawrenceville,VA,pac,,A,409834,2024-07-15
+contribution,2024-05-30,Thomas Healy,"$1,033.06",Manassas,VA,individual,,A,409834,2024-07-15
+contribution,2024-10-20,Amazon.com,"$2,500",Seattle,WA,business,,A,431474,2025-01-15
+contribution,2024-09-16,Realtors PAC of VA,"$2,000",Glen Allen,VA,pac,,A,431474,2025-01-15
+contribution,2024-12-20,Genworth Financial,"$1,000",Lynchburg,VA,business,,A,431474,2025-01-15
+contribution,2024-10-20,Virginia Wine Wholesalers,"$1,500",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-07-02,Virginia Retail Federation PAC,$500,Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-10,Virginia Sherriff's Association,$500,Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-07-20,Transurban USA Inc-CR,$500,Richmond,VA,business,,A,431474,2025-01-15
+contribution,2024-09-27,Transurban USA Inc-CR,$500,Richmond,VA,business,,A,431474,2025-01-15
+contribution,2024-09-10,Williams Mullen Clark & Dobbins,$750,Richmond,VA,business,,A,431474,2025-01-15
+contribution,2024-12-17,Virginia Automobile & Truck Dealers PAC,"$1,000",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-10-02,CSX Transportation,$500,Richmond,VA,business,,A,431474,2025-01-15
+contribution,2024-12-08,Virginia Eagle Distributing Co LLC,"$1,500",Verona,VA,business,,A,431474,2025-01-15
+contribution,2024-12-09,Virginia Beer Wholesalers Assoc,"$3,500",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-10-14,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-12-06,Reed Smith LLP PAC,$500,Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-24,Arda ROC-PAC,$500,Washington,DC,pac,,A,431474,2025-01-15
+contribution,2024-12-15,Virginia Bank PAC,"$1,000",Glen Allen,VA,pac,,A,431474,2025-01-15
+contribution,2024-10-02,HCA for Good Government,"$1,500",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-06,Dominion PAC,"$10,000",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-12-16,Dominion PAC,"$55,000",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-11-25,Associated Distributors,"$1,000",Chesapeake,VA,business,,A,431474,2025-01-15
+contribution,2024-08-15,USAA,$500,San Antonio,TX,business,,A,431474,2025-01-15
+contribution,2024-12-30,Commissioner of Revenue,$125,Newport News,VA,pac,,A,431474,2025-01-15
+contribution,2024-10-30,The American Electric Power Company Virginia Committee for Responsible Government,"$1,000",Columbus,OH,pac,,A,431474,2025-01-15
+contribution,2024-10-30,The American Electric Power Company Virginia Committee for Responsible Government,$100,Columbus,OH,pac,,A,431474,2025-01-15
+contribution,2024-09-15,Entertainment Software Association,$500,Washington,DC,business,,A,431474,2025-01-15
+contribution,2024-09-30,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-12-10,"Virginia State Police Association, Inc.",$250,Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-12-05,RAI Services Company,$500,Winston-Salem,NC,business,,A,431474,2025-01-15
+contribution,2024-10-20,Virginia Natural Gas,"$1,000",Virginia Beach,VA,business,,A,431474,2025-01-15
+contribution,2024-08-09,"Capital One Services, LLC","$1,000",Reston,VA,business,,A,431474,2025-01-15
+contribution,2024-10-08,Virginia Association of Health Plans PAC,"$1,000",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-03,VADPAC,"$1,000",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-11-15,PhRMA,"$1,000",Washington,DC,business,,A,431474,2025-01-15
+contribution,2024-11-20,Comcast Corporation,$500,Philadephia,PA,business,,A,431474,2025-01-15
+contribution,2024-11-06,Virginia Assisted Living Association PAC,"$1,000",Henrico,VA,pac,,A,431474,2025-01-15
+contribution,2024-07-20,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,431474,2025-01-15
+contribution,2024-11-20,"Premium Distributors of VA, LLC","$1,000",Chantilly,VA,business,,A,431474,2025-01-15
+contribution,2024-09-22,Altria Client Services LLC,"$2,000",Richmond,VA,business,,A,431474,2025-01-15
+contribution,2024-12-29,Commonwealth Sportman's Alliance PAC,"$1,000",Powhatan,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-27,Virginia Apartment Management Association PAC,"$1,000",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-09,Virginia Society of the AIA,"$1,000",Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-10-05,Hunton Andrews Kurth,"$2,000",Richmond,VA,business,,A,431474,2025-01-15
+contribution,2024-12-29,Cozen O'Conner,$500,Philadelphia,PA,business,,A,431474,2025-01-15
+contribution,2024-12-27,VAMICPAC,"$1,000",RIchmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-23,Virginia Loggers Association,$500,Goochland,VA,business,,A,431474,2025-01-15
+contribution,2024-12-22,Gary Weber,$100,Locust Grove,VA,individual,,A,431474,2025-01-15
+contribution,2024-08-20,Virginia Equine PAC,"$1,000",Charlottesville,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-19,Virginia Equine PAC,"$1,000",Charlottesville,VA,pac,,A,431474,2025-01-15
+contribution,2024-08-15,Verizon,"$1,000",Washington,DC,business,,A,431474,2025-01-15
+contribution,2024-12-27,Johnson Brothers Service Distributing,$500,Lorton,VA,business,,A,431474,2025-01-15
+contribution,2024-11-20,Virginia Spirits Assocition,$750,N Chesterfield,VA,business,,A,431474,2025-01-15
+contribution,2024-12-05,Sports Betting Alliance,"$1,500",Lubbock,TX,business,,A,431474,2025-01-15
+contribution,2024-12-18,Virginia Maritime Assoc,"$1,000",Norfolk,VA,pac,,A,431474,2025-01-15
+contribution,2024-07-25,Michelle Obata,$25,Springfield,VA,individual,,A,431474,2025-01-15
+contribution,2024-08-25,Michelle Obata,$25,Springfield,VA,individual,,A,431474,2025-01-15
+contribution,2024-09-25,Michelle Obata,$25,Springfield,VA,individual,,A,431474,2025-01-15
+contribution,2024-10-25,Michelle Obata,$25,Springfield,VA,individual,,A,431474,2025-01-15
+contribution,2024-11-25,Michelle Obata,$25,Springfield,VA,individual,,A,431474,2025-01-15
+contribution,2024-12-28,Michelle Obata,$25,Springfield,VA,individual,,A,431474,2025-01-15
+contribution,2024-07-08,Mark Joynt,$260.25,Virginia Beach,VA,individual,,A,431474,2025-01-15
+contribution,2024-07-08,Lora Smith,$250,Virginia Beach,VA,individual,,A,431474,2025-01-15
+contribution,2024-07-06,Gregory Schumacher,$260.25,The Plains,VA,individual,,A,431474,2025-01-15
+contribution,2024-07-08,Kenneth Wyvill,$250,Orange,VA,individual,,A,431474,2025-01-15
+contribution,2024-07-22,Fantasy Sports Operator Coalition,"$2,000",Arlington,VA,business,,A,431474,2025-01-15
+contribution,2024-08-20,Fantasy Sports Operator Coalition,"$2,000",Arlington,VA,business,,A,431474,2025-01-15
+contribution,2024-12-30,Fantasy Sports Operator Coalition,"$1,000",Arlington,VA,business,,A,431474,2025-01-15
+contribution,2024-07-23,Andrew Hutchison,$250,Orange,VA,individual,,A,431474,2025-01-15
+contribution,2024-08-06,Sentara,$500,Norfolk,VA,business,,A,431474,2025-01-15
+contribution,2024-11-17,Sentara,"$1,000",Norfolk,VA,business,,A,431474,2025-01-15
+contribution,2024-08-15,CVS Health,"$1,000",Woonsocket,RI,business,,A,431474,2025-01-15
+contribution,2024-09-10,CloudHQ LLC,"$1,000",Washingtong,DC,business,,A,431474,2025-01-15
+contribution,2024-09-20,Novartis Services Inc,"$1,000",East Hanover,NJ,business,,A,431474,2025-01-15
+contribution,2024-09-23,Truist Virginia PAC,$500,Richmond,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-23,Albers & Company,"$1,000",Arlington,VA,business,,A,431474,2025-01-15
+contribution,2024-10-03,The Cigna Group Employee,$500,Philadelphia,PA,pac,,A,431474,2025-01-15
+contribution,2024-10-22,Virginia Asphalt Association Inc,$500,Richmond,VA,business,,A,431474,2025-01-15
+contribution,2024-10-31,Micron Technology Inc.,$750,Boise,ID,business,,A,431474,2025-01-15
+contribution,2024-11-25,Molson Coors,$250,Milwaukee,WI,business,,A,431474,2025-01-15
+contribution,2024-12-02,"CareFirst Management Co, LLC",$500,Baltimore,MD,business,,A,431474,2025-01-15
+contribution,2024-12-08,"Highland Electric Fleets, Inc.",$500,Beverly,MA,business,,A,431474,2025-01-15
+contribution,2024-12-10,"Sideprize, LLC",$500,Atlanta,GA,business,,A,431474,2025-01-15
+contribution,2024-12-10,Gilead Sciences Inc.,$500,Raliegh,NC,business,,A,431474,2025-01-15
+contribution,2024-12-15,Delta Dental,$750,Roanoke,VA,business,,A,431474,2025-01-15
+contribution,2024-12-20,Boyd-Pamunkey Casino,"$5,000",Norfolk,VA,pac,,A,431474,2025-01-15
+contribution,2024-09-12,Westmark Hotels Inc,"$2,000",Seattle,WA,business,,A,431474,2025-01-15
+contribution,2025-01-03,Norfolk Southern Corp,"$1,000",Norfolk,VA,business,,A,447268,2025-07-14
+contribution,2025-06-16,Diageo,"$1,500",Norwalk,CT,business,,A,447268,2025-07-14
+contribution,2025-01-07,HBAV Build PAC,"$2,500",Richmond,VA,pac,,A,447268,2025-07-14
+contribution,2025-01-07,"Capital Results, LLC",$500,Richmond,VA,business,,A,447268,2025-07-14
+contribution,2025-01-06,Commercial Development PAC,"$1,000",Alexandria,VA,pac,,A,447268,2025-07-14
+contribution,2025-04-17,Altria Client Services LLC,"$2,500",Richmond,VA,business,,A,447268,2025-07-14
+contribution,2025-01-07,McGuire Woods,"$1,000",Richmond,VA,business,,A,447268,2025-07-14
+contribution,2025-03-26,Gary Weber,$100,Locust Grove,VA,individual,,A,447268,2025-07-14
+contribution,2025-04-26,Gary Weber,$100,Locust Grove,VA,individual,,A,447268,2025-07-14
+contribution,2025-05-26,Gary Weber,$100,Locust Grove,VA,individual,,A,447268,2025-07-14
+contribution,2025-06-26,Gary Weber,$100,Locust Grove,VA,individual,,A,447268,2025-07-14
+contribution,2025-01-07,American Property Casualty Insurance Association,"$1,000",Chicago,IL,business,,A,447268,2025-07-14
+contribution,2025-01-06,Jushi Inc.,"$1,000",Boca Raton,FL,business,,A,447268,2025-07-14
+contribution,2025-01-07,Virginia Contractor Procurement Alliance,$500,Harrisonburg,VA,pac,,A,447268,2025-07-14
+contribution,2025-01-03,"Tenaska Virginia Partners, LP","$1,000",Omaha,NE,business,,A,447268,2025-07-14
+contribution,2025-01-07,CG Shared Services LLC,"$10,000",Hanover,MD,business,,A,447268,2025-07-14
+contribution,2025-01-07,PPE Casino Resorts,"$15,000",Baltimore,MD,business,,A,447268,2025-07-14
+contribution,2025-01-07,Publix,$500,Lakeland,FL,business,,A,447268,2025-07-14
+contribution,2025-01-07,IGT Global Solutions,"$1,000",Reno,NV,business,,A,447268,2025-07-14
+contribution,2025-02-24,Lake of the Woods Republican Club,$500,Locust Grove,VA,business,,A,447268,2025-07-14
+contribution,2025-04-17,"Elevnace Health, Inc.",$500,Cincinnati,OH,business,,A,447268,2025-07-14
 contribution,2025-07-22,Anheuser Busch,$500,Baldwinsville,NY,business,,A,479196,2026-01-15
 contribution,2025-08-20,Engineering Companies of Virginia PAC,"$1,000",Richmond,VA,pac,,A,479196,2026-01-15
 contribution,2025-12-17,Virginia Natural Gas,"$1,000",Virginia Beach,VA,business,,A,479196,2026-01-15
@@ -92,6 +251,17 @@ contribution,2026-01-12,Organizing for VA Seniors,"$2,500",Fairfax,VA,business,,
 contribution,2026-01-13,National Coalition of Associations of 7-Eleven Franchises,"$2,500",Ceres,CA,business,,A,496403,2026-07-15
 contribution,2026-01-13,American Electric Power,"$2,500",Washington,DC,pac,,A,496403,2026-07-15
 contribution,2026-01-13,Nova Distro,"$2,500",Manassas,VA,business,,A,496403,2026-07-15
+in_kind,2024-06-30,Lester Properties,"$28,540.20",Fredericksburg,VA,business,Office Space,B,409834,2024-07-15
+in_kind,2024-01-31,Kara Von Dresner,"$8,735",Virginia Beach,VA,individual,Consulting,B,409834,2024-07-15
+in_kind,2024-02-29,Kara Von Dresner,"$10,300",Virginia Beach,VA,individual,Consulting,B,409834,2024-07-15
+in_kind,2024-01-05,Macaulay Jamerson PC,$223.35,Richmond,VA,business,Event Sponsor,B,409834,2024-07-15
+in_kind,2024-05-30,"Comstock Partners, LC","$1,981.77",Reston,VA,business,Dinner,B,409834,2024-07-15
+in_kind,2024-01-05,Daniel Oakey,$223.35,Richmond,VA,individual,Event Sponsor,B,409834,2024-07-15
+in_kind,2024-10-01,Realtors PAC of VA,$489.50,Glen Allen,VA,pac,Food & Beverages,B,431474,2025-01-15
+in_kind,2024-12-31,Lester Properties,"$28,540.20",Fredericksburg,VA,business,Office Space,B,431474,2025-01-15
+in_kind,2024-07-08,Madison at the Mill,"$1,000",Orange,VA,business,Event Space,B,431474,2025-01-15
+in_kind,2024-07-18,Spirit of Virginia,"$4,550",Merrifield,VA,pac,Airfare,B,431474,2025-01-15
+in_kind,2025-06-30,Lester Properties,"$28,540.20",Fredericksburg,VA,business,Office Space,B,447268,2025-07-14
 in_kind,2025-08-30,"Johnson Realty Advisors, Inc.",$447.50,Fredericksburg,VA,business,Office Space,B,479196,2026-01-15
 in_kind,2025-09-30,"Johnson Realty Advisors, Inc.",$895,Fredericksburg,VA,business,Office Space,B,479196,2026-01-15
 in_kind,2025-10-31,"Johnson Realty Advisors, Inc.",$895,Fredericksburg,VA,business,Office Space,B,479196,2026-01-15
@@ -101,6 +271,24 @@ in_kind,2025-07-01,Lester Properties,"$4,756.70",Fredericksburg,VA,business,Offi
 in_kind,2025-08-01,Lester Properties,"$2,378.35",Fredericksburg,VA,business,Office Space,B,479196,2026-01-15
 in_kind,2026-06-30,"Johnson Realty Advisors, Inc.","$5,370",Fredericksburg,VA,business,Office Space,B,496403,2026-07-15
 in_kind,2026-04-21,Gentry Locke,$154.35,Richmond,VA,individual,Event Food,B,496403,2026-07-15
+other_receipt,2024-01-09,Amazon.com,$27.37,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-09,Amazon.com,$30.53,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-09,Amazon.com,$92.61,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-09,Amazon.com,$25.23,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-09,Amazon.com,$26.31,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-10,Amazon.com,$26.31,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-10,Amazon.com,$36.07,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-10,Amazon.com,$71.08,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-10,Amazon.com,$35.90,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-17,Amazon.com,$29.56,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-17,Amazon.com,$92.54,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-23,Amazon.com,$35.31,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-23,Amazon.com,$156.48,Seattle,WA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-01-03,Staples,$52.64,Fredericksburg,VA,business,Goods not needed,C,409834,2024-07-15
+other_receipt,2024-07-09,Costco,$32.28,Fredericksburg,VA,business,Return,C,431474,2025-01-15
+other_receipt,2024-12-14,VA General Assembly,$40,Richmond,VA,business,Refund,C,431474,2025-01-15
+other_receipt,2024-08-07,Smashburger,$3.59,Louisville,KY,business,Refund,C,431474,2025-01-15
+other_receipt,2025-05-16,Intercontinental,$246.90,San Antonio,TX,business,Refund,C,447268,2025-07-14
 other_receipt,2025-08-01,Amazon.com,$61.63,Seattle,WA,business,Returned Goods,C,479196,2026-01-15
 other_receipt,2025-07-31,The Home Depot,$40.12,Fredericksburg,VA,business,Bryce Reeves,C,479196,2026-01-15
 other_receipt,2025-07-30,Atlantic Union Bank,$38,Fredericksburg,VA,business,Fee Refund,C,479196,2026-01-15
@@ -110,6 +298,634 @@ other_receipt,2025-08-31,O'Reilly,$10.53,Fredericksburg,VA,business,Goods Not Ne
 other_receipt,2026-04-07,USPS,$0.05,Fredericksburg,VA,business,Refund Verification Charge,C,496403,2026-07-15
 other_receipt,2026-04-07,USPS,$0.47,Fredericksburg,VA,business,Refund Verification Charge,C,496403,2026-07-15
 other_receipt,2026-02-22,Xfinity,$28.92,Fredericksburg,VA,business,Return,C,496403,2026-07-15
+expenditure,2024-01-05,Amazon.com,$192.62,Seattle,WA,business,Campaign Shirts,D,409834,2024-07-15
+expenditure,2024-01-06,Amazon.com,"$1,181.56",Seattle,WA,business,Office equipment,D,409834,2024-07-15
+expenditure,2024-01-07,Amazon.com,$24.21,Seattle,WA,business,Office Supplies,D,409834,2024-07-15
+expenditure,2024-01-09,Amazon.com,$57.70,Seattle,WA,business,Office Supplies,D,409834,2024-07-15
+expenditure,2024-01-10,Amazon.com,$126.35,Seattle,WA,business,Campaign Shirts,D,409834,2024-07-15
+expenditure,2024-01-11,Amazon.com,$70.49,Seattle,WA,business,Office Supplies,D,409834,2024-07-15
+expenditure,2024-01-11,Amazon.com,$94.24,Seattle,WA,business,Campaign Shirts,D,409834,2024-07-15
+expenditure,2024-01-17,Amazon.com,$57.67,Seattle,WA,business,Office Supplies,D,409834,2024-07-15
+expenditure,2024-01-17,Amazon.com,$186.70,Seattle,WA,business,Office Supplies,D,409834,2024-07-15
+expenditure,2024-01-23,Amazon.com,$9.65,Seattle,WA,business,Office Supplies,D,409834,2024-07-15
+expenditure,2024-01-23,Amazon.com,$191.79,Seattle,WA,business,Food for Session,D,409834,2024-07-15
+expenditure,2024-02-19,Amazon.com,$88.38,Seattle,WA,business,Event Supplies,D,409834,2024-07-15
+expenditure,2024-02-23,Amazon.com,$24.79,Seattle,WA,business,Even Supplies,D,409834,2024-07-15
+expenditure,2024-03-03,Amazon.com,$104.22,Seattle,WA,business,Event Supplies,D,409834,2024-07-15
+expenditure,2024-03-03,Amazon.com,$42.38,Seattle,WA,business,Event Supplies,D,409834,2024-07-15
+expenditure,2024-03-08,Amazon.com,$82.02,Seattle,WA,business,Event Supplies,D,409834,2024-07-15
+expenditure,2024-03-20,Amazon.com,$24.21,Seattle,WA,business,Office Supplies,D,409834,2024-07-15
+expenditure,2024-05-08,Amazon.com,$175.47,Seattle,WA,business,Supplies for Events,D,409834,2024-07-15
+expenditure,2024-05-18,Amazon.com,$454.23,Seattle,WA,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-05-21,Amazon.com,$13.33,Seattle,WA,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-05-29,Amazon.com,$9.38,Seattle,WA,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-06-02,Amazon.com,$29.46,Seattle,WA,business,Gift Bags,D,409834,2024-07-15
+expenditure,2024-06-02,Amazon.com,$9.47,Seattle,WA,business,Event Supplies,D,409834,2024-07-15
+expenditure,2024-06-04,Amazon.com,$31.48,Seattle,WA,business,Event Supplies,D,409834,2024-07-15
+expenditure,2024-02-01,Coins for Anything,"$1,322",Spotsylvania,VA,business,Coins,D,409834,2024-07-15
+expenditure,2024-01-03,Costco,$219.70,Fredericksburg,VA,business,"Food, drinks, batteries & cleaning supplies",D,409834,2024-07-15
+expenditure,2024-06-25,Costco,$158.73,Fredericksburg,VA,business,Food/Drinks for Event,D,409834,2024-07-15
+expenditure,2024-05-31,The Free Lance Star,$14.99,Fredericksburg,VA,business,Newspaper,D,409834,2024-07-15
+expenditure,2024-03-27,Treasurer of VA,$8.94,Richmond,VA,business,Paper,D,409834,2024-07-15
+expenditure,2024-05-24,Treasurer of VA,$30.75,Richmond,VA,business,Business Cards,D,409834,2024-07-15
+expenditure,2024-06-05,Treasurer of VA,$265.50,Richmond,VA,business,Framing,D,409834,2024-07-15
+expenditure,2024-02-16,USPS,$320,Fredericksburg,VA,business,Postage,D,409834,2024-07-15
+expenditure,2024-03-18,USPS,$624,Fredericksburg,VA,business,Postage,D,409834,2024-07-15
+expenditure,2024-04-11,USPS,$523,Fredericksburg,VA,business,Postage,D,409834,2024-07-15
+expenditure,2024-04-16,USPS,$136,Fredericksburg,VA,business,Postage,D,409834,2024-07-15
+expenditure,2024-05-01,USPS,$75.63,Fredericksburg,VA,business,Postage,D,409834,2024-07-15
+expenditure,2024-05-10,USPS,$18.40,Fredericksburg,VA,business,Postage,D,409834,2024-07-15
+expenditure,2024-06-03,USPS,$82.89,Fredericksburg,VA,business,Postage,D,409834,2024-07-15
+expenditure,2024-01-14,Verizon,$187.69,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-02-14,Verizon,$187.75,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-02-14,Verizon,$393.46,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-03-14,Verizon,$187.75,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-03-22,Verizon,$89.99,Dallas,TX,business,Phone Serice,D,409834,2024-07-15
+expenditure,2024-04-14,Verizon,$213.32,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-04-22,Verizon,$89.99,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-05-14,Verizon,$191.64,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-05-22,Verizon,$89.99,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-06-14,Verizon,$195.23,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-06-24,Verizon,$89.99,Dallas,TX,business,Phone Service,D,409834,2024-07-15
+expenditure,2024-01-02,Walmart,$110.18,Fredericksburg,VA,business,Session Office Supplies,D,409834,2024-07-15
+expenditure,2024-01-05,Walmart,$86.03,Fredericksburg,VA,business,Office Supplies & drinks,D,409834,2024-07-15
+expenditure,2024-01-22,Walmart,$27.07,Fredericksburg,VA,business,Bottled Water,D,409834,2024-07-15
+expenditure,2024-04-29,Walmart,$7.67,Fredericksburg,VA,business,Storage Box,D,409834,2024-07-15
+expenditure,2024-01-24,Jenny Books,$57.67,Fredericksburg,VA,individual,Reimburse mileage & postage,D,409834,2024-07-15
+expenditure,2024-01-03,Staples,$168.75,Fredericksburg,VA,business,"Paper, ink pens, folders",D,409834,2024-07-15
+expenditure,2024-01-05,Staples,$59.96,Fredericksburg,VA,business,Labels & Binders,D,409834,2024-07-15
+expenditure,2024-03-15,Staples,$48.42,Fredericksburg,VA,business,Folders,D,409834,2024-07-15
+expenditure,2024-04-23,Staples,$13.67,Fredericksburg,VA,business,Paper,D,409834,2024-07-15
+expenditure,2024-06-04,Bryce Reeves,"$5,690",Spotsylvania,VA,individual,Reimburse travel expenses for leadership conference,D,409834,2024-07-15
+expenditure,2024-06-21,Bryce Reeves,$643.01,Spotsylvania,VA,individual,Reimburse travel expenses to Quebec NCSL Conference,D,409834,2024-07-15
+expenditure,2024-01-08,Best Buy,$421.19,Fredericksburg,VA,business,Laptop,D,409834,2024-07-15
+expenditure,2024-05-30,Republican Party of Virginia,"$2,100",Richmond,VA,party,Donation,D,409834,2024-07-15
+expenditure,2024-03-14,Ristorante Renato,$645.34,Fredericksburg,VA,business,Constituent Meeting,D,409834,2024-07-15
+expenditure,2024-03-14,Friends of NRA,$180,Fairfax,VA,business,Donation,D,409834,2024-07-15
+expenditure,2024-06-21,United Airlines,"$1,196.94",Chicago,IL,business,Travel,D,409834,2024-07-15
+expenditure,2024-01-02,Atlantic Union Bank,$30,Fredericksburg,VA,business,Wire Fee,D,409834,2024-07-15
+expenditure,2024-03-06,Atlantic Union Bank,$35,Fredericksburg,VA,business,Stop Pay Fee,D,409834,2024-07-15
+expenditure,2024-04-12,Atlantic Union Bank,$35,Fredericksburg,VA,business,Stop Pay Fee,D,409834,2024-07-15
+expenditure,2024-05-31,Richmond Times Dispatch,$14.99,Richmond,VA,business,Newspaper,D,409834,2024-07-15
+expenditure,2024-01-28,FedEx,$47,Fredericksburg,VA,business,Shipping,D,409834,2024-07-15
+expenditure,2024-04-15,FedEx,$167.34,Fredericksburg,VA,business,Printing,D,409834,2024-07-15
+expenditure,2024-04-10,Sams Subs & Pizza,$33.30,Fredericksburg,VA,business,Lunch for Volunteers,D,409834,2024-07-15
+expenditure,2024-03-12,Culpeper County Republican Committee,$428.67,Culpeper,VA,business,Reagan Dinner,D,409834,2024-07-15
+expenditure,2024-06-03,Wawa,$57.99,Fredericksburg,VA,business,Fuel,D,409834,2024-07-15
+expenditure,2024-02-02,ABC Store,$55,Richmond,VA,business,License,D,409834,2024-07-15
+expenditure,2024-02-19,Rappahannock Restaurant,$83.10,Richmond,VA,business,Staff Dinner,D,409834,2024-07-15
+expenditure,2024-03-19,American Airlines,$546.70,Fort Worth,TX,business,Travel,D,409834,2024-07-15
+expenditure,2024-06-21,American Airlines,"$1,823.82",Fort Worth,TX,business,Travel,D,409834,2024-07-15
+expenditure,2024-03-27,Forest Consulting Services,$76.25,Richmond,VA,business,Tax Work,D,409834,2024-07-15
+expenditure,2024-01-04,SunTrust Cafe,$22.70,Richmond,VA,business,Food Service,D,409834,2024-07-15
+expenditure,2024-01-10,SunTrust Cafe,$500,Richmond,VA,business,Food Service,D,409834,2024-07-15
+expenditure,2024-01-22,SunTrust Cafe,$150,Richmond,VA,business,Food Service,D,409834,2024-07-15
+expenditure,2024-05-24,RumbleUp,$100,Washington,DC,business,Marketing,D,409834,2024-07-15
+expenditure,2024-05-31,RumbleUp,$200,Washington,DC,business,Marketing,D,409834,2024-07-15
+expenditure,2024-06-03,Hilton Norfolk,$92.73,Norfolk,VA,business,Lunch Meeting,D,409834,2024-07-15
+expenditure,2024-02-07,Primavera,$30.57,Fredericksburg,VA,business,Lunch for Interns,D,409834,2024-07-15
+expenditure,2024-01-02,Walmart,$75.75,Locust Grove,VA,business,Office Supplies,D,409834,2024-07-15
+expenditure,2024-06-22,Generations Joshua,"$5,000",Purcellville,VA,business,Donation,D,409834,2024-07-15
+expenditure,2024-01-01,Google Workspace,$108,Mountain View,VA,business,Software,D,409834,2024-07-15
+expenditure,2024-02-01,Google Workspace,$108,Mountain View,VA,business,Software,D,409834,2024-07-15
+expenditure,2024-03-01,Google Workspace,$108,Mountain View,VA,business,Software,D,409834,2024-07-15
+expenditure,2024-04-01,Google Workspace,$108,Mountain View,VA,business,Software,D,409834,2024-07-15
+expenditure,2024-05-01,Google Workspace,$108,Mountain View,VA,business,Software,D,409834,2024-07-15
+expenditure,2024-06-01,Google Workspace,$108,Mountain View,VA,business,Software,D,409834,2024-07-15
+expenditure,2024-01-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,409834,2024-07-15
+expenditure,2024-02-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,409834,2024-07-15
+expenditure,2024-03-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,409834,2024-07-15
+expenditure,2024-04-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,409834,2024-07-15
+expenditure,2024-05-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,409834,2024-07-15
+expenditure,2024-06-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,409834,2024-07-15
+expenditure,2024-01-21,Flodesk,$19,Danville,CA,business,Marketing,D,409834,2024-07-15
+expenditure,2024-02-21,Flodesk,$19,Danville,CA,business,Marketing,D,409834,2024-07-15
+expenditure,2024-03-21,Flodesk,$19,Danville,CA,business,Marketing,D,409834,2024-07-15
+expenditure,2024-04-21,Flodesk,$19,Danville,CA,business,Marketing,D,409834,2024-07-15
+expenditure,2024-05-21,Flodesk,$19,Danville,CA,business,Marketing,D,409834,2024-07-15
+expenditure,2024-06-21,Flodesk,$19,Danville,CA,business,Marketing,D,409834,2024-07-15
+expenditure,2024-01-07,James Manetz,$379,Spotsylvania,VA,individual,Reimburse Mileage & Postage,D,409834,2024-07-15
+expenditure,2024-04-23,James Manetz,$273.46,Spotsylvania,VA,individual,Reimburse Mileage,D,409834,2024-07-15
+expenditure,2024-06-04,James Manetz,$284,Spotsylvania,VA,individual,Reimburse Mileage,D,409834,2024-07-15
+expenditure,2024-01-08,WinRed,$41.02,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-03-16,WinRed,$5.86,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-03-25,WinRed,$0.99,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-04-01,WinRed,$39.40,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-04-04,WinRed,$1.03,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-04-25,WinRed,$0.99,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-02,WinRed,$2.05,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-10,WinRed,$3.08,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-15,WinRed,$1.97,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-17,WinRed,$80,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-20,WinRed,$3.08,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-22,WinRed,$80,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-23,WinRed,$160,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-29,WinRed,$269.31,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-30,WinRed,$3.08,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-05-30,WinRed,$33.06,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-06-06,WinRed,$2.05,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-06-15,WinRed,$2.05,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-06-25,WinRed,$0.99,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-06-26,WinRed,$3.08,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-06-30,WinRed,$3.08,Alexandria,VA,business,Processing Fee,D,409834,2024-07-15
+expenditure,2024-01-08,Kara Von Dresner,$621.63,Virginia Beach,VA,individual,Reimburse Supplies for Session,D,409834,2024-07-15
+expenditure,2024-02-03,Connor Clough,"$2,104.20",Sterling,VA,individual,Reimburse mileage & campaign work,D,409834,2024-07-15
+expenditure,2024-01-09,Shutterstock,$88,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-02-09,Shutterstock,$29,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-03-09,Shutterstock,$29,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-04-09,Shutterstock,$29,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-05-09,Shutterstock,$29,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-05-20,Shutterstock,$49,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-05-22,Shutterstock,$49,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-06-09,Shutterstock,$29,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-06-21,Shutterstock,$49,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-06-23,Shutterstock,$49,New York,NY,business,Marketing,D,409834,2024-07-15
+expenditure,2024-05-20,Vistaprint,$82.13,Waltham,MA,business,Printing,D,409834,2024-07-15
+expenditure,2024-02-29,Sophie Babcock,"$1,500",Locust Grove,VA,individual,Campaign Work,D,409834,2024-07-15
+expenditure,2024-06-21,Sophie Babcock,$80,Locust Grove,VA,individual,Payroll,D,409834,2024-07-15
+expenditure,2024-03-30,IPower,$290.88,Jacksonville,FL,business,Marketing,D,409834,2024-07-15
+expenditure,2024-03-28,Xpress Copy,$596.63,Culpeper,VA,business,Printing,D,409834,2024-07-15
+expenditure,2024-05-10,Xpress Copy,$770.65,Culpeper,VA,business,"Letterhead, Envelopes & Design",D,409834,2024-07-15
+expenditure,2024-04-16,Rainmaker Strategic Partners,$500,Arlington,VA,business,Consulting,D,409834,2024-07-15
+expenditure,2024-03-01,Republican Share,"$12,000",Washington,DC,business,Consulting,D,409834,2024-07-15
+expenditure,2024-05-31,Culpeper Exponent,$14.99,Culpeper,VA,business,Newspaper,D,409834,2024-07-15
+expenditure,2024-01-02,Mulchi4Senate,"$1,500",Clarksville,VA,business,Donation,D,409834,2024-07-15
+expenditure,2024-01-24,LaGrotta Ristorante,$223.81,Richmond,VA,business,Team Dinner,D,409834,2024-07-15
+expenditure,2024-02-14,LaGrotta Ristorante,$161.44,Richmond,VA,business,Staff Dinner,D,409834,2024-07-15
+expenditure,2024-01-28,EIN Presswire,$399,Washington,DC,business,Advertising,D,409834,2024-07-15
+expenditure,2024-01-24,Carrie Sandoval,$362.32,Fredericksburg,VA,individual,"Reimburse mileage, parking & postage",D,409834,2024-07-15
+expenditure,2024-02-08,Carrie Sandoval,$266.48,Fredericksburg,VA,individual,Reimburse office supplies & postage,D,409834,2024-07-15
+expenditure,2024-02-23,Carrie Sandoval,$310.76,Fredericksburg,VA,individual,Reimburse parking & mileage,D,409834,2024-07-15
+expenditure,2024-03-07,Carrie Sandoval,$403.75,Fredericksburg,VA,individual,Reimburse for office supplies & food for interns,D,409834,2024-07-15
+expenditure,2024-04-10,Carrie Sandoval,$44.74,Fredericksburg,VA,individual,Reimburse food for interns & mileage,D,409834,2024-07-15
+expenditure,2024-05-04,Carrie Sandoval,$115.75,Fredericksburg,VA,individual,Reimburse Mileage & Costco Water,D,409834,2024-07-15
+expenditure,2024-06-03,Carrie Sandoval,$177.16,Fredericksburg,VA,individual,Reimburse mileage & lunch for interns,D,409834,2024-07-15
+expenditure,2024-01-30,Calyan Wax Company,$694.85,Arlington,TX,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-02-08,Publix,$159.64,Fredericksburg,VA,business,Drinks for reception,D,409834,2024-07-15
+expenditure,2024-02-09,Bangkok Cafe,$28.82,Fredericksburg,VA,business,Lunch for Interns,D,409834,2024-07-15
+expenditure,2024-02-28,ML Steak,$132.16,Richmond,VA,business,Staff Dinner,D,409834,2024-07-15
+expenditure,2024-03-11,Air Canada,$524.35,"Saint-Laurent, Canada",VA,business,Travel,D,409834,2024-07-15
+expenditure,2024-04-19,Air Canada,$297.78,"Saint-Laurent, Canada",VA,business,Travel,D,409834,2024-07-15
+expenditure,2024-04-19,"Name Badges, Inc.",$37.18,Cooper City,FL,business,Name Tags,D,409834,2024-07-15
+expenditure,2024-05-06,Anedot,$100,Atlanta,GA,business,Donation Processing,D,409834,2024-07-15
+expenditure,2024-05-17,Mark & Graham,$263.46,San Fransisco,CA,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-05-16,Fairmont Le Chateau Frontenac,$323.81,"Quebec, Canada",NY,business,Lodging,D,409834,2024-07-15
+expenditure,2024-05-20,Austrian Airlines,"$2,340",jamaica,NY,business,Travel,D,409834,2024-07-15
+expenditure,2024-06-06,Austrian Airlines,$194,jamaica,NY,business,Travel,D,409834,2024-07-15
+expenditure,2024-05-20,Brouk & Co,$207.52,Los Angeles,CA,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-05-21,Faire,$327.26,San Fransisco,CA,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-05-25,Faire,$343.12,San Fransisco,CA,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-06-06,Faire,$270.66,San Fransisco,CA,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-05-28,Harney & Sons,$360.28,Millerton,NY,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-05-31,Rosemarys Thyme Bistro,$132.15,Clifton,VA,business,Fundraising Meeting,D,409834,2024-07-15
+expenditure,2024-05-22,Citizens for August,"$1,000",Delavan,WI,business,Donation,D,409834,2024-07-15
+expenditure,2024-06-06,Denim & Pearls,$142.41,Warrenton,VA,business,Constituent Meeting,D,409834,2024-07-15
+expenditure,2024-06-15,Isrotel Hotel,$247.86,"Jerusalem, 9310402 Israel",VA,business,Travel,D,409834,2024-07-15
+expenditure,2024-06-14,Jacqueline Sellers,$75,Warrenton,VA,individual,Ticket Refund,D,409834,2024-07-15
+expenditure,2024-01-12,Etsy,$43.47,Brooklyn,NY,business,Thank you gifts,D,409834,2024-07-15
+expenditure,2024-01-10,Senate of Virginia,$147,Richmond,VA,business,Parking Pass,D,409834,2024-07-15
+expenditure,2024-03-30,Friends of Stacy Cummings,"$2,000",Virginia Beach,VA,business,Donation,D,409834,2024-07-15
+expenditure,2024-07-05,Amazon.com,$10.51,Seattle,WA,business,Event Supplies,D,431474,2025-01-15
+expenditure,2024-09-05,Amazon.com,$884.04,Seattle,WA,business,Event Supplies,D,431474,2025-01-15
+expenditure,2024-07-05,Costco,$99.78,Fredericksburg,VA,business,Food for Event,D,431474,2025-01-15
+expenditure,2024-10-08,Costco,$36.32,Fredericksburg,VA,business,Food for Office,D,431474,2025-01-15
+expenditure,2024-10-23,Costco,"$1,028.33",Fredericksburg,VA,business,Food for Election Party,D,431474,2025-01-15
+expenditure,2024-11-07,Costco,$8.06,Fredericksburg,VA,business,Office Supplies,D,431474,2025-01-15
+expenditure,2024-12-19,Costco,$263.23,Fredericksburg,VA,business,Phone Accessories,D,431474,2025-01-15
+expenditure,2024-07-01,The Free Lance Star,$14.99,Fredericksburg,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-08-02,The Free Lance Star,$23.99,Fredericksburg,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-09-03,The Free Lance Star,$23.99,Fredericksburg,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-10-02,The Free Lance Star,$23.99,Fredericksburg,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-11-01,The Free Lance Star,$23.99,Fredericksburg,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-12-03,The Free Lance Star,$23.99,Fredericksburg,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-07-29,Treasurer of VA,$80,Richmond,VA,business,Framing,D,431474,2025-01-15
+expenditure,2024-08-29,Treasurer of VA,$126.50,Richmond,VA,business,Framing,D,431474,2025-01-15
+expenditure,2024-07-02,USPS,$94.62,Fredericksburg,VA,business,Postage,D,431474,2025-01-15
+expenditure,2024-08-01,USPS,$86.90,Fredericksburg,VA,business,Postage,D,431474,2025-01-15
+expenditure,2024-08-09,USPS,$146,Fredericksburg,VA,business,Postage,D,431474,2025-01-15
+expenditure,2024-09-03,USPS,$113.42,Fredericksburg,VA,business,Postage,D,431474,2025-01-15
+expenditure,2024-10-02,USPS,$103.22,Fredericksburg,VA,business,Postage,D,431474,2025-01-15
+expenditure,2024-11-01,USPS,$110.16,Fredericksburg,VA,business,Postage,D,431474,2025-01-15
+expenditure,2024-07-14,Verizon,$201.66,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-07-22,Verizon,$89.99,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-08-14,Verizon,$201.82,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-08-22,Verizon,$89.99,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-09-14,Verizon,$201.82,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-09-23,Verizon,$89.99,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-10-14,Verizon,$238.80,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-10-22,Verizon,$89.99,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-11-14,Verizon,$207.13,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-11-22,Verizon,$89.99,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-12-14,Verizon,$229.65,Dallas,TX,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-12-23,Verizon,$89.99,Dallas,TX,business,Phone Servic,D,431474,2025-01-15
+expenditure,2024-07-05,Walmart,$20.98,Fredericksburg,VA,business,Event Supplies,D,431474,2025-01-15
+expenditure,2024-07-08,Walmart,$147.80,Fredericksburg,VA,business,Drinks for Event,D,431474,2025-01-15
+expenditure,2024-07-08,Walmart,$451.30,Fredericksburg,VA,business,Food for Event,D,431474,2025-01-15
+expenditure,2024-11-07,Walmart,$7.40,Fredericksburg,VA,business,Office Supplies,D,431474,2025-01-15
+expenditure,2024-11-07,Walmart,$47.25,Fredericksburg,VA,business,Jumper Cables,D,431474,2025-01-15
+expenditure,2024-12-15,Walmart,$113.66,Fredericksburg,VA,business,Office Supplies,D,431474,2025-01-15
+expenditure,2024-10-02,Jenny Books,"$2,000",Fredericksburg,VA,individual,Thank you,D,431474,2025-01-15
+expenditure,2024-12-13,Jenny Books,"$1,500",Fredericksburg,VA,individual,Thank you,D,431474,2025-01-15
+expenditure,2024-07-03,VA Senate Republican Caucus,"$25,000",Williamsburg,VA,party,Dues,D,431474,2025-01-15
+expenditure,2024-11-12,Staples,$105.28,Fredericksburg,VA,business,Ink Cartridge,D,431474,2025-01-15
+expenditure,2024-11-15,Staples,$35.78,Fredericksburg,VA,business,Clorox Wipes & Labels,D,431474,2025-01-15
+expenditure,2024-08-10,Hobby Lobby,$155.53,Fredericksburg,VA,business,Framing,D,431474,2025-01-15
+expenditure,2024-09-12,Hobby Lobby,$152.16,Fredericksburg,VA,business,Framing,D,431474,2025-01-15
+expenditure,2024-09-30,Hobby Lobby,$14.73,Fredericksburg,VA,business,Event Supplies,D,431474,2025-01-15
+expenditure,2024-09-30,Hobby Lobby,$223.50,Fredericksburg,VA,business,Framing,D,431474,2025-01-15
+expenditure,2024-11-22,Bryce Reeves,"$1,887.76",Spotsylvania,VA,individual,Reimburse ipad purchase from Best Buy,D,431474,2025-01-15
+expenditure,2024-09-22,Best Buy,"$1,470.98",Fredericksburg,VA,business,Phone,D,431474,2025-01-15
+expenditure,2024-10-30,Best Buy,$55.36,Fredericksburg,VA,business,Phone Accessories,D,431474,2025-01-15
+expenditure,2024-11-19,Best Buy,$367.50,Fredericksburg,VA,business,Keyboard,D,431474,2025-01-15
+expenditure,2024-11-19,Best Buy,$135.84,Fredericksburg,VA,business,ipad Pen,D,431474,2025-01-15
+expenditure,2024-09-12,Atlantic Union Bank,$15,Fredericksburg,VA,business,Wire Fee,D,431474,2025-01-15
+expenditure,2024-07-22,State Farm Insurance,$470,Fredericksburg,VA,business,Insurance,D,431474,2025-01-15
+expenditure,2024-07-01,Richmond Times Dispatch,$14.99,Richmond,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-07-30,Richmond Times Dispatch,$14.99,Richmond,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-08-26,Richmond Times Dispatch,$25.99,Richmond,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-09-23,Richmond Times Dispatch,$25.99,Richmond,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-10-21,Richmond Times Dispatch,$25.99,Richmond,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-11-18,Richmond Times Dispatch,$25.99,Richmond,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-12-16,Richmond Times Dispatch,$25.99,Richmond,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-10-07,Shell,$47.29,Fredericksburg,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-11-12,Fashion Centre,$17,Arlington,VA,business,Lunch,D,431474,2025-01-15
+expenditure,2024-08-26,FedEx,$122.98,Fredericksburg,VA,business,Printing,D,431474,2025-01-15
+expenditure,2024-10-27,Sheetz,$39.59,Locust Grove,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-11-07,Sheetz,$43.95,Locust Grove,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-12-13,Cracker Barrel,$65.23,Fredericksburg,VA,business,Team Breakfast,D,431474,2025-01-15
+expenditure,2024-12-11,Bella Cucina,$40.94,Locust Grove,VA,business,Staff Lunch,D,431474,2025-01-15
+expenditure,2024-07-22,DCA,$244,Arlington,VA,business,Parking,D,431474,2025-01-15
+expenditure,2024-11-11,UPS,$20.59,Fredericksburg,VA,business,Shipping,D,431474,2025-01-15
+expenditure,2024-11-20,Castiglias,$53.11,Fredericksburg,VA,business,Team Lunch,D,431474,2025-01-15
+expenditure,2024-09-19,Wawa,$28.51,Fredericksburg,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-09-26,Wawa,$51.71,Fredericksburg,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-11-19,Wawa,$8.69,Fredericksburg,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-07-29,Fauquier County Republican Committee,$375,Warrenton,VA,business,Reagan Dinner,D,431474,2025-01-15
+expenditure,2024-07-08,ABC Store,$105.26,Richmond,VA,business,Drinks for Event,D,431474,2025-01-15
+expenditure,2024-07-10,American Airlines,$177.98,Fort Worth,TX,business,Travel,D,431474,2025-01-15
+expenditure,2024-09-03,Sedona Taphouse,$72.20,Fredericksburg,VA,business,Team Lunch,D,431474,2025-01-15
+expenditure,2024-11-12,Michaels,$24.21,Fredericksburg,VA,business,Frames,D,431474,2025-01-15
+expenditure,2024-11-14,VA General Assembly,$83,Richmond,VA,business,Lunch for Pentagon Tour,D,431474,2025-01-15
+expenditure,2024-07-17,Uber,$122.45,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-07-17,Uber,$30.61,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-07-18,Uber,$23.95,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-07-18,Uber,$34.28,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-07-19,Uber,$45.36,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-08-03,Uber,$86.40,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-08-07,Uber,$38.98,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-08-07,Uber,$29.55,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-08-11,Uber,$22.99,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-08-12,Uber,$16.47,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-08-13,Uber,$30.40,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-08-18,Uber,$21.90,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-09-09,Uber,$9.47,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-10-14,Uber,$26.34,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-10-14,Uber,$12.39,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-10-24,Uber,$31.98,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-10-28,Uber,$27.93,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-11-05,Uber,$18.74,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-11-08,Uber,$16.89,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-11-08,Uber,$14.86,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-11-09,Uber,$29.75,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-11-13,Uber,$23.79,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-11-23,Uber,$4.18,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-11-24,Uber,$27.84,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-11-26,Uber,$27.75,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-12-01,Uber,$13.92,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-12-02,Uber,$43.92,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-12-02,Uber,$56.76,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-12-04,Uber,$111.17,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-12-05,Uber,$68.43,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-12-06,Uber,$3.73,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-12-11,Uber,$43.91,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-12-12,Uber,$22.04,San Fransisco,CA,business,Transportation,D,431474,2025-01-15
+expenditure,2024-09-05,Colonial Parking,$17.45,Washington,DC,business,Parking,D,431474,2025-01-15
+expenditure,2024-12-12,Colonial Parking,$27,Washington,DC,business,Parking,D,431474,2025-01-15
+expenditure,2024-10-07,SunTrust Cafe,$11.06,Richmond,VA,business,Food Service,D,431474,2025-01-15
+expenditure,2024-10-07,SunTrust Cafe,$13.57,Richmond,VA,business,Food Service,D,431474,2025-01-15
+expenditure,2024-11-06,Park Lane Tavern,$605.22,Fredericksburg,VA,business,Team Dinner,D,431474,2025-01-15
+expenditure,2024-12-12,Christopher Snider,"$1,289.24",Spotsylvania,VA,individual,Reimburse Stafford VW car repairs related to campaign work,D,431474,2025-01-15
+expenditure,2024-09-09,Metro Diner,$73.13,Fredericksburg,VA,business,Team Lunch,D,431474,2025-01-15
+expenditure,2024-08-24,RumbleUp,$859,Washington,DC,business,Marketing,D,431474,2025-01-15
+expenditure,2024-12-23,Walmart,$295.74,Locust Grove,VA,business,Sponsor Family for Christmas/Gifts,D,431474,2025-01-15
+expenditure,2024-12-24,Walmart,"$1,197.90",Locust Grove,VA,business,Sponsor family for Christmas/Gifts,D,431474,2025-01-15
+expenditure,2024-07-01,Google Workspace,$108,Mountain View,VA,business,Software,D,431474,2025-01-15
+expenditure,2024-08-01,Google Workspace,$108,Mountain View,VA,business,Software,D,431474,2025-01-15
+expenditure,2024-09-01,Google Workspace,$108,Mountain View,VA,business,Software,D,431474,2025-01-15
+expenditure,2024-10-01,Google Workspace,$108,Mountain View,VA,business,Software,D,431474,2025-01-15
+expenditure,2024-11-01,Google Workspace,$103.88,Mountain View,VA,business,Software,D,431474,2025-01-15
+expenditure,2024-12-01,Google Workspace,$103.20,Mountain View,VA,business,Software,D,431474,2025-01-15
+expenditure,2024-07-22,Fiverr,$158.25,New York,NY,business,Media,D,431474,2025-01-15
+expenditure,2024-09-16,Fiverr,$113.94,New York,NY,business,Media,D,431474,2025-01-15
+expenditure,2024-11-20,Fiverr,$211,New York,NY,business,Media,D,431474,2025-01-15
+expenditure,2024-12-28,Fiverr,$97.95,New York,NY,business,Media,D,431474,2025-01-15
+expenditure,2024-12-29,Fiverr,$237.38,New York,NY,business,Media,D,431474,2025-01-15
+expenditure,2024-07-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,431474,2025-01-15
+expenditure,2024-08-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,431474,2025-01-15
+expenditure,2024-09-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,431474,2025-01-15
+expenditure,2024-10-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,431474,2025-01-15
+expenditure,2024-11-18,Zoom,$16.79,San Jose,CA,business,Phone Service,D,431474,2025-01-15
+expenditure,2024-12-18,Zoom,$16.79,San Jose,CA,business,Virtual Meeting Software,D,431474,2025-01-15
+expenditure,2024-12-13,Capital Grill,$212.04,Washington,DC,business,Fundraising Dinner,D,431474,2025-01-15
+expenditure,2024-07-21,Flodesk,$19,Danville,CA,business,Marketing,D,431474,2025-01-15
+expenditure,2024-08-21,Flodesk,$19,Danville,CA,business,Marketing,D,431474,2025-01-15
+expenditure,2024-09-21,Flodesk,$19,Danville,CA,business,Marketing,D,431474,2025-01-15
+expenditure,2024-10-21,Flodesk,$19,Danville,CA,business,Marketing,D,431474,2025-01-15
+expenditure,2024-11-21,Flodesk,$19,Danville,CA,business,Marketing,D,431474,2025-01-15
+expenditure,2024-12-21,Flodesk,$19,Danville,CA,business,Marketing,D,431474,2025-01-15
+expenditure,2024-07-08,James Manetz,$397.31,Spotsylvania,VA,individual,Reimburse Mileage,D,431474,2025-01-15
+expenditure,2024-08-28,James Manetz,$444.88,Spotsylvania,VA,individual,Reimburse Mileage,D,431474,2025-01-15
+expenditure,2024-10-02,James Manetz,$441.26,Spotsylvania,VA,individual,Reimburse Mileage,D,431474,2025-01-15
+expenditure,2024-12-10,James Manetz,$267.24,Spotsylvania,VA,individual,Reimburse Mileage,D,431474,2025-01-15
+expenditure,2024-07-06,WinRed,$10.25,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-07-08,WinRed,$1.97,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-07-08,WinRed,$2.05,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-07-08,WinRed,$10.25,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-07-08,WinRed,$9.85,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-07-08,WinRed,$2.05,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-07-08,WinRed,$3.08,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-07-08,WinRed,$2.96,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-07-25,WinRed,$0.99,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-08-25,WinRed,$0.99,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-09-25,WinRed,$0.99,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-10-25,WinRed,$0.99,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-11-22,WinRed,$3.94,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-11-25,WinRed,$0.99,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-11-28,WinRed,$0.44,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-12-22,WinRed,$3.94,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-12-25,WinRed,$0.99,Alexandria,VA,business,Processing Fee,D,431474,2025-01-15
+expenditure,2024-07-03,Shutterstock,$49,New York,NY,business,Marketing,D,431474,2025-01-15
+expenditure,2024-07-09,Shutterstock,$29,New York,NY,business,Marketing,D,431474,2025-01-15
+expenditure,2024-08-09,Shutterstock,$29,New York,NY,business,Marketing,D,431474,2025-01-15
+expenditure,2024-09-06,Shutterstock,$49,New York,NY,business,Marketing,D,431474,2025-01-15
+expenditure,2024-09-09,Shutterstock,$29,New York,NY,business,Marketing,D,431474,2025-01-15
+expenditure,2024-10-09,Shutterstock,$29,New York,NY,business,Marketing,D,431474,2025-01-15
+expenditure,2024-11-09,Shutterstock,$29,New York,NY,business,Marketing,D,431474,2025-01-15
+expenditure,2024-12-09,Shutterstock,$29,New York,NY,business,Marketing,D,431474,2025-01-15
+expenditure,2024-08-06,Vistaprint,$173.82,Waltham,MA,business,Printing,D,431474,2025-01-15
+expenditure,2024-10-25,Vistaprint,$673.87,Waltham,MA,business,Printing,D,431474,2025-01-15
+expenditure,2024-11-25,Vistaprint,$58.70,Waltham,MA,business,Printing,D,431474,2025-01-15
+expenditure,2024-07-03,Stafford Media,$810,Fredericksburg,VA,business,T-shirts,D,431474,2025-01-15
+expenditure,2024-09-12,Vinny's New York Pizza,$140.95,Ruckersville,VA,business,Lunch for Volunteers,D,431474,2025-01-15
+expenditure,2024-08-22,America First Patriots,$250,Culpeper,VA,business,Event Sponsor,D,431474,2025-01-15
+expenditure,2024-08-30,Xpress Copy,$542.68,Culpeper,VA,business,Printing,D,431474,2025-01-15
+expenditure,2024-07-30,Republican Share,"$5,000",Washington,DC,business,Consulting,D,431474,2025-01-15
+expenditure,2024-11-07,Republican Share,"$12,000",Washington,DC,business,Consulting,D,431474,2025-01-15
+expenditure,2024-07-30,Patawomeck Indian Tribe,$250,Fredericksburg,VA,business,Donation,D,431474,2025-01-15
+expenditure,2024-07-01,Culpeper Exponent,$14.99,Culpeper,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-08-01,Culpeper Exponent,$23.99,Culpeper,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-09-03,Culpeper Exponent,$23.99,Culpeper,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-10-01,Culpeper Exponent,$23.99,Culpeper,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-10-31,Culpeper Exponent,$23.99,Culpeper,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-12-03,Culpeper Exponent,$23.99,Culpeper,VA,business,Newspaper,D,431474,2025-01-15
+expenditure,2024-07-16,Carrie Sandoval,$34.86,Fredericksburg,VA,individual,Reimburse Mileage,D,431474,2025-01-15
+expenditure,2024-07-16,Carrie Sandoval,$63.82,Fredericksburg,VA,individual,Reimburse Amazon purchases for event supplies & storage bins,D,431474,2025-01-15
+expenditure,2024-08-09,Carrie Sandoval,$72.74,Fredericksburg,VA,individual,Reimburse Mileage,D,431474,2025-01-15
+expenditure,2024-09-13,Carrie Sandoval,$124.32,Fredericksburg,VA,individual,Reimburse Mileage,D,431474,2025-01-15
+expenditure,2024-10-31,Carrie Sandoval,$55.44,Fredericksburg,VA,individual,Mileage Reimbursement,D,431474,2025-01-15
+expenditure,2024-12-04,Carrie Sandoval,$90.17,Fredericksburg,VA,individual,Reimburse Mileage,D,431474,2025-01-15
+expenditure,2024-12-14,Carrie Sandoval,$63,Fredericksburg,VA,individual,Reimburse Mileage,D,431474,2025-01-15
+expenditure,2024-07-15,The New Fashioned,$55.35,Milwaukee,WI,business,Dinner,D,431474,2025-01-15
+expenditure,2024-07-17,2Levy at Fiserv,$17.34,Miwaukee,WI,business,Dinner,D,431474,2025-01-15
+expenditure,2024-07-17,Calderone Club,$414.22,Milwaukee,WI,business,Team Dinner,D,431474,2025-01-15
+expenditure,2024-07-18,Calderone Club,$113.12,Milwaukee,WI,business,Dinner,D,431474,2025-01-15
+expenditure,2024-07-19,Concordia Market,$41.71,Milwaukee,WI,business,Travel,D,431474,2025-01-15
+expenditure,2024-07-21,Hilton Garden Inn,"$2,123.91",Milwaukee,WI,business,Lodging,D,431474,2025-01-15
+expenditure,2024-07-22,Chili's,$21.79,Milwaukee,WI,business,Lunch,D,431474,2025-01-15
+expenditure,2024-07-16,Orange County Republican Committtee,"$2,000",Orange,VA,business,Donation,D,431474,2025-01-15
+expenditure,2024-07-28,Shellfish Company,$159.81,Virginia Beach,VA,business,Fundraising Dinner,D,431474,2025-01-15
+expenditure,2024-07-24,Henderson for House,"$1,500",Cheyenne,WY,candidate,Contribution,D,431474,2025-01-15
+expenditure,2024-08-05,Smashburger,$32.47,Louisville,KY,business,Dinner at NCLS,D,431474,2025-01-15
+expenditure,2024-08-07,Smashburger,$32.07,Louisville,KY,business,Lunch at NCLS,D,431474,2025-01-15
+expenditure,2024-08-06,Chipolte,$26.08,Louiville,KY,business,Dinner at NCLS,D,431474,2025-01-15
+expenditure,2024-08-07,Galt House,$849.76,Louisvile,KY,business,Lodging for NCLS Conference,D,431474,2025-01-15
+expenditure,2024-08-05,Old Spaghetti Factory,$46.43,Louisville,KY,business,Lunch at NCLS Conference,D,431474,2025-01-15
+expenditure,2024-08-06,Obediah Sandoval,$604.50,Fredericksburg,VA,individual,Payroll,D,431474,2025-01-15
+expenditure,2024-08-16,Buc-ee's,$30.59,Daytona Beach,FL,business,Fuel,D,431474,2025-01-15
+expenditure,2024-08-16,Ritz Carlton,$195.47,Amelia Island,FL,business,Lunch Meeing,D,431474,2025-01-15
+expenditure,2024-08-18,Rent A Car,$233.35,Orlando,FL,business,Transportation,D,431474,2025-01-15
+expenditure,2024-08-23,Culpeper Rodeo,$35.70,Culpeper,VA,business,Event Tickets,D,431474,2025-01-15
+expenditure,2024-08-24,Dunkin Donuts,$56.62,Orange,VA,business,Breakfast for Volunteers,D,431474,2025-01-15
+expenditure,2024-08-25,Rent A Car,$17.02,Atlanta,GA,business,Transportation/Tolls,D,431474,2025-01-15
+expenditure,2024-08-28,Sweet Baby Jeez Teez,$150,Washington,DC,business,Campaign Shirts,D,431474,2025-01-15
+expenditure,2024-09-06,Sweet Baby Jeez Teez,$203,Washington,DC,business,Campaign Shirts,D,431474,2025-01-15
+expenditure,2024-11-19,Sweet Baby Jeez Teez,$463,Washington,DC,business,Campaign Shirts,D,431474,2025-01-15
+expenditure,2024-11-19,Sweet Baby Jeez Teez,$355,Washington,DC,business,Campaign Shirts,D,431474,2025-01-15
+expenditure,2024-09-03,Sunoco,$43.48,Warrenton,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-09-07,Milde for Delegate,$250,Fredericksburg,VA,candidate,Donation,D,431474,2025-01-15
+expenditure,2024-09-04,Fairfax County Republicans,$500,Fairfax,VA,business,Donation,D,431474,2025-01-15
+expenditure,2024-09-09,Croft for Kansas,$500,Overland,KS,business,Donation,D,431474,2025-01-15
+expenditure,2024-09-12,Virginia Jordan,$400,Orange,VA,individual,Signs,D,431474,2025-01-15
+expenditure,2024-09-19,Marriott,$20,Virginia Beach,VA,business,Parking,D,431474,2025-01-15
+expenditure,2024-09-20,Marriott,$35,Virginia Beach,VA,business,Parking,D,431474,2025-01-15
+expenditure,2024-09-30,Five Chophouse,$385.56,Fredericksburg,VA,business,Political Dinner,D,431474,2025-01-15
+expenditure,2024-10-09,Parallel Wine & Whiskey Bar,$355.30,Broadlands,VA,business,Political Dinner,D,431474,2025-01-15
+expenditure,2024-11-02,Marathon Gas,$32.57,Salem,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-11-02,Mcdonalds,$27.27,Fairfield,VA,business,Staff Breakfast,D,431474,2025-01-15
+expenditure,2024-11-05,Capital Hill Club,"$1,100",Washington,DC,business,Team Dinner/Election Night,D,431474,2025-01-15
+expenditure,2024-11-22,Hotel Madison and Shenandoah Valley Conference Center,$123.53,Harrisonburg,VA,business,Lodging for Caucus Event,D,431474,2025-01-15
+expenditure,2024-09-20,Van Orden for Congress,"$1,000",La Crosse,WI,candidate,Donation,D,431474,2025-01-15
+expenditure,2024-11-10,Legacy Markets,$31.40,Shadwell,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-11-20,Murphy Express,$27.28,Locust Grove,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-12-12,Murphy Express,$27.96,Locust Grove,VA,business,Fuel,D,431474,2025-01-15
+expenditure,2024-11-10,Orange County Animal Shelter,"$1,000",Orange,VA,business,Donation,D,431474,2025-01-15
+expenditure,2024-12-12,Parking.com,$26.99,Washington,DC,business,Parking,D,431474,2025-01-15
+expenditure,2024-12-30,Hobby Lobby,$202.98,Virginia Beach,VA,business,Fundraising Supplies,D,431474,2025-01-15
+expenditure,2024-12-31,Successories,"$1,772.17",Boca Raton,FL,business,Staff Christmas/Thank You Gifts,D,431474,2025-01-15
+expenditure,2024-09-01,Courage & Sacrifice,$600,Kearny,NJ,business,Event Sponsor,D,431474,2025-01-15
+expenditure,2024-10-22,Legacy Flowers,$135.86,Chicago,IL,business,Sympathy Flowers,D,431474,2025-01-15
+expenditure,2024-11-23,Faith West Photography,$250,Virginia Beach,VA,business,Updated Professional Pictures,D,431474,2025-01-15
+expenditure,2025-01-16,Amazon.com,$149.95,Seattle,WA,business,Food for Office,D,447268,2025-07-14
+expenditure,2025-01-16,Amazon.com,$27.26,Seattle,WA,business,Office Supplies,D,447268,2025-07-14
+expenditure,2025-01-17,Amazon.com,$193.69,Seattle,WA,business,Session Supplies,D,447268,2025-07-14
+expenditure,2025-01-27,Amazon.com,$63.85,Seattle,WA,business,Supplies for Session,D,447268,2025-07-14
+expenditure,2025-04-08,Amazon.com,$204.16,Seattle,WA,business,Ink Cartridges,D,447268,2025-07-14
+expenditure,2025-06-12,Amazon.com,$235.56,Seattle,WA,business,Thank you gifts,D,447268,2025-07-14
+expenditure,2025-06-20,Costco,$458.92,Fredericksburg,VA,business,Food & Drinks for Event,D,447268,2025-07-14
+expenditure,2025-01-02,The Free Lance Star,$23.99,Fredericksburg,VA,business,Newspaper,D,447268,2025-07-14
+expenditure,2025-01-13,Treasurer of VA,$98,Richmond,VA,business,Parking,D,447268,2025-07-14
+expenditure,2025-02-11,Treasurer of VA,$90.04,Richmond,VA,business,Senate Jacket,D,447268,2025-07-14
+expenditure,2025-04-02,Treasurer of VA,$200,Richmond,VA,business,Office Chairs,D,447268,2025-07-14
+expenditure,2025-04-25,Treasurer of VA,$240,Richmond,VA,business,Framing,D,447268,2025-07-14
+expenditure,2025-02-26,USPS,$592,Fredericksburg,VA,business,Postage,D,447268,2025-07-14
+expenditure,2025-01-24,Verizon,$224.82,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-01-29,Verizon,$89.99,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-02-24,Verizon,$94.99,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-02-24,Verizon,$240.03,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-03-14,Verizon,$224.88,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-03-24,Verizon,$94.99,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-04-14,Verizon,$224.83,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-04-22,Verizon,$94.99,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-05-14,Verizon,$224.81,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-05-22,Verizon,$94.99,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-06-16,Verizon,$224.81,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-06-23,Verizon,$94.99,Dallas,TX,business,Phone Service,D,447268,2025-07-14
+expenditure,2025-02-26,Staples,$31.58,Fredericksburg,VA,business,Office Supplies,D,447268,2025-07-14
+expenditure,2025-02-26,Staples,$63.21,Fredericksburg,VA,business,"Calculator, Binder Clips, Rubberbands",D,447268,2025-07-14
+expenditure,2025-04-29,Hobby Lobby,$240.61,Fredericksburg,VA,business,Framing,D,447268,2025-07-14
+expenditure,2025-02-23,Bryce Reeves,"$4,159.33",Spotsylvania,VA,individual,Reimburse travel expenses for CPAC,D,447268,2025-07-14
+expenditure,2025-05-21,Bryce Reeves,$569.02,Spotsylvania,VA,individual,Reimburse travel expenses for fundraising meetings,D,447268,2025-07-14
+expenditure,2025-05-08,United Airlines,$374.48,Chicago,IL,business,Travel,D,447268,2025-07-14
+expenditure,2025-05-09,United Airlines,$434.49,Chicago,IL,business,Travel,D,447268,2025-07-14
+expenditure,2025-05-07,MJ Valet,$30,Washington,DC,business,Parking,D,447268,2025-07-14
+expenditure,2025-06-02,Atlantic Union Bank,$38,Fredericksburg,VA,business,Bank Fee,D,447268,2025-07-14
+expenditure,2025-03-28,Dominos Pizza,$191.45,Fredericksburg,VA,business,Food for Event,D,447268,2025-07-14
+expenditure,2025-05-29,Dominos Pizza,$70.61,Fredericksburg,VA,business,Staff Lunch,D,447268,2025-07-14
+expenditure,2025-06-13,Chick-Fil-A,$21.89,Fredericksburg,VA,business,Staff Lunch,D,447268,2025-07-14
+expenditure,2025-05-29,FedEx,$43.65,Fredericksburg,VA,business,Shipping,D,447268,2025-07-14
+expenditure,2025-01-06,Sheetz,$55.12,Locust Grove,VA,business,Fuel,D,447268,2025-07-14
+expenditure,2025-05-11,Bella Cucina,$85.88,Locust Grove,VA,business,Campaign Dinner,D,447268,2025-07-14
+expenditure,2025-03-20,DCA,$245,Arlington,VA,business,Parking,D,447268,2025-07-14
+expenditure,2025-05-20,DCA,$245,Arlington,VA,business,Parking,D,447268,2025-07-14
+expenditure,2025-03-20,Culpeper County Republican Committee,"$2,000",Culpeper,VA,business,Reagan Dinner,D,447268,2025-07-14
+expenditure,2025-06-17,UPS,$11.99,Fredericksburg,VA,business,Shipping,D,447268,2025-07-14
+expenditure,2025-01-06,Wawa,$27.42,Fredericksburg,VA,business,Fuel,D,447268,2025-07-14
+expenditure,2025-01-06,Wawa,$33.15,Fredericksburg,VA,business,Fuel,D,447268,2025-07-14
+expenditure,2025-01-07,Wawa,$34.75,Fredericksburg,VA,business,Fuel,D,447268,2025-07-14
+expenditure,2025-01-31,ABC Store,$55,Richmond,VA,business,License,D,447268,2025-07-14
+expenditure,2025-02-07,ABC Store,$156.54,Richmond,VA,business,Event Supplies,D,447268,2025-07-14
+expenditure,2025-03-26,ABC Store,$186.82,Richmond,VA,business,Drinks for Event,D,447268,2025-07-14
+expenditure,2025-03-26,ABC Store,$42.33,Richmond,VA,business,Drinks for Event,D,447268,2025-07-14
+expenditure,2025-03-19,American Airlines,$80,Fort Worth,TX,business,Travel,D,447268,2025-07-14
+expenditure,2025-05-08,American Airlines,$385.49,Fort Worth,TX,business,Travel,D,447268,2025-07-14
+expenditure,2025-05-08,American Airlines,$878.96,Fort Worth,TX,business,Travel,D,447268,2025-07-14
+expenditure,2025-05-20,American Airlines,$80,Fort Worth,TX,business,Travel,D,447268,2025-07-14
+expenditure,2025-02-26,Sedona Taphouse,$47.62,Fredericksburg,VA,business,Team lunch,D,447268,2025-07-14
+expenditure,2025-01-19,Uber,$15.95,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-01-19,Uber,$43.23,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-01-19,Uber,$20.96,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-01-20,Uber,$15.88,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-01-20,Uber,$24.39,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-02-05,Uber,$21.14,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-03-17,Uber,$28.75,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-03-19,Uber,$13.94,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-03-19,Uber,$3,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-03-19,Uber,$29.97,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-04-23,Uber,$70.70,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-04-29,Uber,$28.65,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-05-07,Uber,$34.92,San Fransisco,CA,business,Transportation,D,447268,2025-07-14
+expenditure,2025-06-05,Microsoft,$99.99,Redmond,WA,business,Software,D,447268,2025-07-14
+expenditure,2025-01-13,SunTrust Cafe,$700,Richmond,VA,business,Food Service,D,447268,2025-07-14
+expenditure,2025-04-02,SunTrust Cafe,$25.26,Richmond,VA,business,Lunch,D,447268,2025-07-14
+expenditure,2025-02-28,Massey Cancer Center,$250,Richmond,VA,business,Donation,D,447268,2025-07-14
+expenditure,2025-05-07,Park Lane Tavern,$340.05,Fredericksburg,VA,business,Political Dinner,D,447268,2025-07-14
+expenditure,2025-03-31,Christopher Snider,$911.96,Spotsylvania,VA,individual,Reimburse Mileage,D,447268,2025-07-14
+expenditure,2025-06-10,Christopher Snider,$650.79,Spotsylvania,VA,individual,Reimburse Mileage,D,447268,2025-07-14
+expenditure,2025-04-15,Metro Diner,$83.81,Fredericksburg,VA,business,Constituent Meeting,D,447268,2025-07-14
+expenditure,2025-06-17,PMI Parking,$8.95,Washington,DC,business,Parking,D,447268,2025-07-14
+expenditure,2025-05-21,Hertz Rent-A-Car,$717.83,Fredericksburg,VA,business,Car Rental,D,447268,2025-07-14
+expenditure,2025-05-07,DC Parking,$4.60,Washington,VA,business,Parking,D,447268,2025-07-14
+expenditure,2025-03-27,Walmart,$395.70,Locust Grove,VA,business,Food for Event,D,447268,2025-07-14
+expenditure,2025-03-28,Walmart,$40.95,Locust Grove,VA,business,Food for event,D,447268,2025-07-14
+expenditure,2025-01-01,Google Workspace,$103.20,Mountain View,VA,business,Software,D,447268,2025-07-14
+expenditure,2025-02-03,Google Workspace,$103.20,Mountain View,VA,business,Software,D,447268,2025-07-14
+expenditure,2025-03-01,Google Workspace,$103.20,Mountain View,VA,business,Software,D,447268,2025-07-14
+expenditure,2025-04-01,Google Workspace,$105.90,Mountain View,VA,business,Software,D,447268,2025-07-14
+expenditure,2025-05-01,Google Workspace,$120,Mountain View,VA,business,Software,D,447268,2025-07-14
+expenditure,2025-06-01,Google Workspace,$120,Mountain View,VA,business,Software,D,447268,2025-07-14
+expenditure,2025-01-04,Fiverr,$211,New York,NY,business,Media,D,447268,2025-07-14
+expenditure,2025-01-15,Fiverr,$105.50,New York,NY,business,Media,D,447268,2025-07-14
+expenditure,2025-01-15,Fiverr,$274.30,New York,NY,business,Media,D,447268,2025-07-14
+expenditure,2025-01-26,Fiverr,$253.20,New York,NY,business,Media,D,447268,2025-07-14
+expenditure,2025-02-03,Fiverr,$13.55,New York,NY,business,Media,D,447268,2025-07-14
+expenditure,2025-02-05,Fiverr,$369.25,New York,NY,business,Media,D,447268,2025-07-14
+expenditure,2025-05-12,Fiverr,$13.55,New York,NY,business,Media,D,447268,2025-07-14
+expenditure,2025-05-28,Fiverr,$743.78,New York,NY,business,Media,D,447268,2025-07-14
+expenditure,2025-06-27,Fiverr,$105.50,New York,NY,business,Media,D,447268,2025-07-14
+expenditure,2025-05-29,Joe Desilets,"$5,000",Fairfax,VA,individual,Consulting,D,447268,2025-07-14
+expenditure,2025-01-27,Flodesk,$19,Danville,CA,business,Marketing,D,447268,2025-07-14
+expenditure,2025-02-21,Flodesk,$19,Danville,CA,business,Marketing,D,447268,2025-07-14
+expenditure,2025-03-21,Flodesk,$19,Danville,CA,business,Marketing,D,447268,2025-07-14
+expenditure,2025-04-21,Flodesk,$19,Danville,CA,business,Marketing,D,447268,2025-07-14
+expenditure,2025-05-21,Flodesk,$19,Danville,CA,business,Marketing,D,447268,2025-07-14
+expenditure,2025-06-21,Flodesk,$19,Danville,CA,business,Marketing,D,447268,2025-07-14
+expenditure,2025-01-13,James Manetz,$82.26,Spotsylvania,VA,individual,"Reimbursement, Staples office supplies",D,447268,2025-07-14
+expenditure,2025-01-13,James Manetz,$157.94,Spotsylvania,VA,individual,"Reimbursement, Experimax for monitor",D,447268,2025-07-14
+expenditure,2025-04-03,James Manetz,$315,Spotsylvania,VA,individual,Mileage Reimbursement,D,447268,2025-07-14
+expenditure,2025-04-03,James Manetz,$69.76,Spotsylvania,VA,individual,Reimburse for Dunkin Donuts for breakfast event,D,447268,2025-07-14
+expenditure,2025-01-07,Uprinting,$422.38,Van Nuys,CA,business,Printing,D,447268,2025-07-14
+expenditure,2025-03-26,WinRed,$3.94,Alexandria,VA,business,Processing Fee,D,447268,2025-07-14
+expenditure,2025-04-26,WinRed,$3.94,Alexandria,VA,business,Processing Fee,D,447268,2025-07-14
+expenditure,2025-05-07,WinRed,$2.05,Alexandria,VA,business,Processing Fee,D,447268,2025-07-14
+expenditure,2025-05-26,WinRed,$3.94,Alexandria,VA,business,Processing Fee,D,447268,2025-07-14
+expenditure,2025-06-16,WinRed,$59.10,Alexandria,VA,business,Processing Fee,D,447268,2025-07-14
+expenditure,2025-06-26,WinRed,$3.94,Alexandria,VA,business,Processing Fee,D,447268,2025-07-14
+expenditure,2025-04-01,Aldi,$33.82,Fredericksburg,VA,business,Food for Office,D,447268,2025-07-14
+expenditure,2025-01-09,Shutterstock,$29,New York,NY,business,Marketing,D,447268,2025-07-14
+expenditure,2025-02-09,Shutterstock,$29,New York,NY,business,Marketing,D,447268,2025-07-14
+expenditure,2025-03-04,Shutterstock,$29,New York,NY,business,Marketing,D,447268,2025-07-14
+expenditure,2025-03-09,Shutterstock,$29,New York,NY,business,Marketing,D,447268,2025-07-14
+expenditure,2025-04-09,Shutterstock,$29,New York,NY,business,Marketing,D,447268,2025-07-14
+expenditure,2025-05-09,Shutterstock,$29,New York,NY,business,Marketing,D,447268,2025-07-14
+expenditure,2025-06-09,Shutterstock,$29,New York,NY,business,Marketing,D,447268,2025-07-14
+expenditure,2025-04-19,Vistaprint,$199.37,Waltham,MA,business,Printing,D,447268,2025-07-14
+expenditure,2025-02-27,IPower,$319.97,Jacksonville,FL,business,Marketing,D,447268,2025-07-14
+expenditure,2025-06-20,Target,$21.05,Cheyenne,WY,business,Event Supplies,D,447268,2025-07-14
+expenditure,2025-01-02,Culpeper Exponent,$23.99,Culpeper,VA,business,Newspaper,D,447268,2025-07-14
+expenditure,2025-01-03,Carrie Sandoval,$75.04,Fredericksburg,VA,individual,"Reimbursement: Walmart, food & drinks for session office",D,447268,2025-07-14
+expenditure,2025-01-03,Carrie Sandoval,$2.07,Fredericksburg,VA,individual,"Reimbursement, Staples, office supplies",D,447268,2025-07-14
+expenditure,2025-01-03,Carrie Sandoval,$166.52,Fredericksburg,VA,individual,"Reimbursement, Costco, food for session office",D,447268,2025-07-14
+expenditure,2025-01-13,Carrie Sandoval,$20,Fredericksburg,VA,individual,Reimburse Parking/City Parking,D,447268,2025-07-14
+expenditure,2025-01-16,Carrie Sandoval,$111.30,Fredericksburg,VA,individual,Mileage Reimbursement,D,447268,2025-07-14
+expenditure,2025-03-28,Publix,$65.45,Fredericksburg,VA,business,Food for Event,D,447268,2025-07-14
+expenditure,2025-03-28,Publix,$96.93,Fredericksburg,VA,business,Food for Event,D,447268,2025-07-14
+expenditure,2025-04-22,Obediah Sandoval,$160,Fredericksburg,VA,individual,Payroll,D,447268,2025-07-14
+expenditure,2025-02-27,Sweet Baby Jeez Teez,$626.61,Washington,DC,business,Campaign Shirts,D,447268,2025-07-14
+expenditure,2025-02-27,Sweet Baby Jeez Teez,$209.31,Washington,DC,business,Campaign Shirts,D,447268,2025-07-14
+expenditure,2025-03-03,Orange County Animal Shelter,"$1,000",Orange,VA,business,Donation,D,447268,2025-07-14
+expenditure,2025-02-21,Anna Skillin,"$1,000",Richmond,VA,individual,Donation for School,D,447268,2025-07-14
+expenditure,2025-01-07,Winsome for Governor,"$1,000",Richmond,VA,business,Donation,D,447268,2025-07-14
+expenditure,2025-01-11,Mail Depot,$42.56,Virginia Beach,VA,business,Postage,D,447268,2025-07-14
+expenditure,2025-01-15,Dunkin Donuts,$48.22,Richmond,VA,business,Staff Breakfast,D,447268,2025-07-14
+expenditure,2025-01-16,The  Jefferson,$252.03,Richmond,VA,business,Cuacus Dinner,D,447268,2025-07-14
+expenditure,2025-01-17,Parkopedia,$22,Washington,DC,business,Parking,D,447268,2025-07-14
+expenditure,2025-01-19,Joe's,$928.59,Washington,DC,business,Political DInner,D,447268,2025-07-14
+expenditure,2025-01-19,Washington Metro,$20,Washington,DC,business,Transportation,D,447268,2025-07-14
+expenditure,2025-01-25,American Republican Sisterhood,"$4,000",Washington,DC,business,Donation,D,447268,2025-07-14
+expenditure,2025-02-09,Capital Times Media LLC,"$1,400",Madison,WI,business,Marketing,D,447268,2025-07-14
+expenditure,2025-02-10,Capital Times Media LLC,"$1,400",Madison,WI,business,Marketing,D,447268,2025-07-14
+expenditure,2025-02-19,Beijing on the Grove,$240.31,Richmond,VA,business,Team Dinner,D,447268,2025-07-14
+expenditure,2025-04-09,El Tio Tex-Mex,$617.76,Gainesville,VA,business,Political Dinner,D,447268,2025-07-14
+expenditure,2025-04-17,Virginia Veterans Services Foundation,$50,Richmond,VA,business,Constitution,D,447268,2025-07-14
+expenditure,2025-04-23,PF Changes,$24.35,Richmond,VA,business,Team Lunch,D,447268,2025-07-14
+expenditure,2025-03-19,Total Wine & More,$417.03,Houston,TX,business,Event Supplies,D,447268,2025-07-14
+expenditure,2025-04-25,Total Wine & More,$233.76,Houston,TX,business,Thank you gifts,D,447268,2025-07-14
+expenditure,2025-04-30,Prince William GOP,$300,Manassas,VA,party,Donation,D,447268,2025-07-14
+expenditure,2025-05-07,Park Mobile,$15.55,Atlanta,GA,business,Tolls,D,447268,2025-07-14
+expenditure,2025-06-18,Park Mobile,$8.95,Atlanta,GA,business,Tolls,D,447268,2025-07-14
+expenditure,2025-05-13,PGC Meters,$6,Largo,MD,business,Parking,D,447268,2025-07-14
+expenditure,2025-05-15,Intercontinental,$251.08,San Antonio,TX,business,Lodging,D,447268,2025-07-14
+expenditure,2025-05-16,Intercontinental,$299.79,San Antonio,TX,business,Lodging,D,447268,2025-07-14
+expenditure,2025-05-17,Neiman Marcus,$88.77,San Antonio,TX,business,Team Lunch,D,447268,2025-07-14
+expenditure,2025-05-16,Buc-ee's,$27.75,New Braunfels,TX,business,Fuel,D,447268,2025-07-14
+expenditure,2025-05-19,Javier's,$299.19,Dallas,TX,business,Fundraising Lunch,D,447268,2025-07-14
+expenditure,2025-05-20,DFW,$45.30,DFW Airport,TX,business,Travel,D,447268,2025-07-14
+expenditure,2025-05-29,Roti,$46.18,Washington,DC,business,Lunch Meeting,D,447268,2025-07-14
+expenditure,2025-05-28,One Parking 1730 LLC,$22.50,Washington,DC,business,Parking,D,447268,2025-07-14
+expenditure,2025-05-29,Taco Bell,$19.75,Locust Grove,VA,business,Team  Lunch,D,447268,2025-07-14
+expenditure,2025-03-02,Guads,$190.34,Virginia Beach,VA,business,Fundraising Lunch,D,447268,2025-07-14
+expenditure,2025-03-27,Angelas,$100,Spotsylvania,VA,business,Team Dinner,D,447268,2025-07-14
+expenditure,2025-06-03,Luxury Travel Services LLC,"$4,602.56",Wilmington,DE,business,Travel,D,447268,2025-07-14
+expenditure,2025-06-04,Luxury Travel Services LLC,"$5,468.45",Wilmington,DE,business,Travel,D,447268,2025-07-14
+expenditure,2025-06-21,BP,$60.84,Warrenton,VA,business,Fuel,D,447268,2025-07-14
+expenditure,2025-06-21,Sungalss Hut,$148.40,Dulles,VA,business,Travel Supplies,D,447268,2025-07-14
+expenditure,2025-06-21,Chophouse,$40.05,Dulless,VA,business,Food while on Travel,D,447268,2025-07-14
+expenditure,2025-06-24,Noor Art Gallery,$212.24,"Dushanbe, Tajikistan",VA,business,Thank you Gifts,D,447268,2025-07-14
+expenditure,2025-06-23,Sheraton,$106.97,n/a,NY,business,Travel Expenses - tips,D,447268,2025-07-14
+expenditure,2025-06-24,Sheraton,$609.68,n/a,NY,business,Lodging,D,447268,2025-07-14
+expenditure,2025-06-27,Progression Place,$16,Washington,DC,business,Parking,D,447268,2025-07-14
+expenditure,2025-04-22,New Craig for Senate,$250,Chesapeake,VA,candidate,Donation,D,447268,2025-07-14
+expenditure,2025-04-22,Friends of Bill DeSteph,$250,Virginia Beach,VA,business,Donation,D,447268,2025-07-14
+expenditure,2025-05-08,Payne for Supervisor,$500,Culpeper,VA,candidate,Donation,D,447268,2025-07-14
+expenditure,2025-05-08,Russell for Mayor,$500,Culpeper,VA,candidate,Donation,D,447268,2025-07-14
+expenditure,2025-05-08,Sternberg for Council,$500,Culpeper,VA,candidate,Donation,D,447268,2025-07-14
+expenditure,2025-05-08,Brown for Supervisor,$500,Culpeper,VA,candidate,Donation,D,447268,2025-07-14
+expenditure,2025-02-20,Elizabeth Guindon,$500,Norfolk,VA,individual,Donation for School,D,447268,2025-07-14
+expenditure,2025-02-09,CPAC Foundation,$490,Alexandria,VA,pac,Event Ticket,D,447268,2025-07-14
+expenditure,2025-02-21,Koch Equipment,$200,Unionville,VA,business,Sound System,D,447268,2025-07-14
+expenditure,2025-02-21,Greenberry's,$300,Troy,VA,business,GAMVC Registration,D,447268,2025-07-14
+expenditure,2025-05-17,Forestwood Antique Mall,$124.49,Dallas,TX,business,Thank you gift,D,447268,2025-07-14
+expenditure,2025-06-27,Right Proper,$78.97,Washington,DC,business,Political Dinner,D,447268,2025-07-14
 expenditure,2025-07-15,Amazon.com,$33.99,Seattle,WA,business,Office Supplies,D,479196,2026-01-15
 expenditure,2025-07-17,Amazon.com,$477.68,Seattle,WA,business,Parts for Campaign Truck,D,479196,2026-01-15
 expenditure,2025-07-21,Amazon.com,$74.36,Seattle,WA,business,Parts for Campaign Truck,D,479196,2026-01-15
@@ -653,5 +1469,8 @@ expenditure,2026-06-17,World Trim Factory,$188.48,Santa Paula,CA,business,Truck 
 expenditure,2026-02-22,Network Solutions,$361.99,Dullus,VA,business,Network Services,D,496403,2026-07-15
 expenditure,2026-02-23,Network Solutions,$10.99,Dullus,VA,business,Network Services,D,496403,2026-07-15
 expenditure,2026-06-29,Ollivant for Congress,"$1,000",Fredericksburg,VA,candidate,Donation,D,496403,2026-07-15
+debt,2019-10-22,Virginia Senate Republican Caucus,"$35,000",Williamsburg,VA,party,,F,409834,2024-07-15
+debt,2019-10-22,Virginia Senate Republican Caucus,"$35,000",Williamsburg,VA,party,,F,431474,2025-01-15
+debt,2019-10-22,Virginia Senate Republican Caucus,"$35,000",Williamsburg,VA,party,,F,447268,2025-07-14
 debt,2019-10-22,Virginia Senate Republican Caucus,"$35,000",Williamsburg,VA,party,,F,479196,2026-01-15
 debt,2019-10-22,Virginia Senate Republican Caucus,"$35,000",Williamsburg,VA,party,,F,496403,2026-07-15

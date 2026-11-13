@@ -3,6 +3,197 @@ section,date,name,amount_usd,city,state,type,description,schedule,report_id,fili
 summary,2026-06-30,Cash on hand (ending balance),"$74,211.93",,VA,,"From official Schedule H, November 2027 election cycle",H,496821,2026-07-15
 summary,2026-06-30,Raised this cycle,"$544,446.62",,,,Total receipts this election cycle (Schedule H),H,496821,2026-07-15
 summary,2026-06-30,Spent this cycle,"$491,516.67",,,,Total disbursements this election cycle (Schedule H),H,496821,2026-07-15
+contribution,2023-11-14,American HealthCare LLC,$500,Roanoke,VA,business,,A,384496,2023-12-07
+contribution,2023-11-06,Barbara Amos,$500,Norfolk,VA,individual,,A,384496,2023-12-07
+contribution,2023-11-01,Leonard Bennett,"$5,000",Carrollton,VA,individual,,A,384496,2023-12-07
+contribution,2023-11-20,Dr. Lunzy Delano Britt,$500,Suffolk,VA,individual,,A,384496,2023-12-07
+contribution,2023-11-06,Nancy Duncan,$21,Norfolk,VA,individual,,A,384496,2023-12-07
+contribution,2023-10-28,Kurt Krause,$250,Norfolk,VA,individual,,A,384496,2023-12-07
+contribution,2023-10-31,Vincent J Mastracco Jr,"$1,500",Norfolk,VA,individual,,A,384496,2023-12-07
+contribution,2023-11-06,Courtney McBath,"$1,000",Chesapeake,VA,individual,,A,384496,2023-12-07
+contribution,2023-11-02,Sharon Riley,$250,Norfolk,VA,individual,,A,384496,2023-12-07
+contribution,2023-11-06,William Small,$250,Chesapeake,VA,individual,,A,384496,2023-12-07
+contribution,2023-11-06,Swedish Match North America LLC,$500,Richmond,VA,business,,A,384496,2023-12-07
+contribution,2023-11-20,The Oughtness Group,$500,Atlanta,GA,business,,A,384496,2023-12-07
+contribution,2023-11-09,United Association Local 110 Plumbers & Pipefitters,"$1,000",Norfolk,VA,business,,A,384496,2023-12-07
+contribution,2023-11-20,VC Association PAC,"$1,000",Floyd,VA,pac,,A,384496,2023-12-07
+contribution,2023-12-22,Angela Bezik,$500,Williamsburg,VA,individual,,A,393531,2024-01-16
+contribution,2023-12-13,Dominion Energy Inc. Political Action Committee,"$15,000",Richmond,VA,pac,,A,393531,2024-01-16
+contribution,2023-12-18,Headwaters Resort Political Action Committee,"$2,500",Norfolk,VA,pac,,A,393531,2024-01-16
+contribution,2023-12-22,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,393531,2024-01-16
+contribution,2023-12-12,Mid-Atlantic Laborers' Political Education Fund,"$5,000",Reston,VA,pac,,A,393531,2024-01-16
+contribution,2023-12-18,Realtors Political Action Committee of Virginia,"$1,500",Glen Allen,VA,pac,,A,393531,2024-01-16
+contribution,2023-12-22,Reed Smith Political Action Committee,$500,Richmond,VA,pac,,A,393531,2024-01-16
+contribution,2023-12-29,Transurban USA Inc.,$500,Tysons,VA,business,,A,393531,2024-01-16
+contribution,2023-12-08,Virginia Skill Game PAC,"$5,000",Chester,VA,pac,,A,393531,2024-01-16
+contribution,2024-01-02,32BJ United American Dream Fund,"$2,000",New York,NY,pac,,A,409659,2024-07-15
+contribution,2024-06-24,ADVANSIX INC. POLITICAL ACTION COMMITTEE,$500,Parsippany,NJ,pac,,A,409659,2024-07-15
+contribution,2024-06-30,Anheuser Busch Companies,$500,Saint Louis,MO,business,,A,409659,2024-07-15
+contribution,2024-06-28,"Capital One Services, LLC","$1,000",Reston,VA,business,,A,409659,2024-07-15
+contribution,2024-06-30,Comstock Hospitality Holdings LLC,"$10,000",Reston,VA,business,,A,409659,2024-07-15
+contribution,2024-01-09,Diverse Engagements LLC,$500,Leesburg,VA,business,,A,409659,2024-07-15
+contribution,2024-01-05,Dominion Energy Inc. Political Action Committee,"$20,000",Richmond,VA,pac,,A,409659,2024-07-15
+contribution,2024-06-17,Dominion Energy Inc. Political Action Committee,"$10,000",Richmond,VA,pac,,A,409659,2024-07-15
+contribution,2024-05-06,Friends of Joe Baron,$250,Norfolk,VA,candidate,,A,409659,2024-07-15
+contribution,2024-01-09,"H. Betti Industries, Inc.","$1,000",Carlstadt,NJ,business,,A,409659,2024-07-15
+contribution,2024-01-09,McGuireWoods LLP,$500,Richmond,VA,business,,A,409659,2024-07-15
+contribution,2024-01-09,W. Howard Meyers,$260,Petersburg,VA,individual,,A,409659,2024-07-15
+contribution,2024-04-05,Kimberly Phillips,$540,Norfolk,VA,individual,,A,409659,2024-07-15
+contribution,2024-06-11,Timothy Pohanka,"$1,000",Fredericksburg,VA,individual,,A,409659,2024-07-15
+contribution,2024-05-03,"Sentara Health Administration, Inc.","$1,000",Virginia Beach,VA,business,,A,409659,2024-07-15
+contribution,2024-06-30,Truckers Political Action Committee of Virginia,$500,Richmond,VA,pac,,A,409659,2024-07-15
+contribution,2024-04-10,Va Automobile and Truck Dealers Political Action Committee,"$1,000",Richmond,VA,pac,,A,409659,2024-07-15
+contribution,2024-06-17,Virginia AFL-CIO,"$1,000",Richmond,VA,business,,A,409659,2024-07-15
+contribution,2024-06-17,Virginia Asphalt Association Inc.,$500,Henrico,VA,business,,A,409659,2024-07-15
+contribution,2024-06-17,Virginia Bankers Association PAC,"$1,500",Glen Allen,VA,pac,,A,409659,2024-07-15
+contribution,2024-01-09,Virginia Farm Bureau Federation,$500,Richmond,VA,business,,A,409659,2024-07-15
+contribution,2024-06-17,Virginia Farm Bureau Federation,$500,Richmond,VA,business,,A,409659,2024-07-15
+contribution,2024-06-17,Virginia Independent Auto Dealers,$500,Midlothian,VA,pac,,A,409659,2024-07-15
+contribution,2024-04-26,Virginia Sheriffs' Association Political Action Committee,$500,Richmond,VA,pac,,A,409659,2024-07-15
+contribution,2024-06-28,Virginia Transportation Construction Alliance Political Action Committee,"$1,000",North Chesterfield,VA,pac,,A,409659,2024-07-15
+contribution,2024-06-17,Virginia Trial Lawyers Political Action Committee,"$2,000",Richmond,VA,pac,,A,409659,2024-07-15
+contribution,2024-03-19,Ofelia Wattley,$150,Norfolk,VA,individual,,A,409659,2024-07-15
+contribution,2024-01-09,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,409659,2024-07-15
+contribution,2024-09-19,309 WBS LLC,"$2,500",Norfolk,VA,business,,A,436429,2025-04-15
+contribution,2024-09-19,Kenneth C Alexander,"$1,000",Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-08-01,Altria Client Services LLC,"$1,000",Richmond,VA,business,,A,436429,2025-04-15
+contribution,2024-09-16,Amazon.com Services LLC,"$2,000",Seattle,WA,business,,A,436429,2025-04-15
+contribution,2024-11-13,"American Traffic Solutions, Inc.",$500,Mesa,AZ,business,,A,436429,2025-04-15
+contribution,2024-12-10,G. Robert Aston Jr,"$1,500",Portsmouth,VA,individual,,A,436429,2025-04-15
+contribution,2024-11-22,Boyd-Pamunkey Casino Political Action Committee,"$10,000",Norfolk,VA,pac,,A,436429,2025-04-15
+contribution,2024-11-25,Breakthru Beverage Virginia,"$1,000",Sandston,VA,business,,A,436429,2025-04-15
+contribution,2024-07-30,Jeffrey A Breit,"$2,500",Virginia Beach,VA,individual,,A,436429,2025-04-15
+contribution,2024-10-17,Building a Remarkable Virginia PAC,"$1,000",Reston,VA,pac,,A,436429,2025-04-15
+contribution,2024-12-23,Ty Champion,$25,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-12-27,Ty Champion,$7,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-15,Anthony Clary,$500,Virginia Beach,VA,individual,,A,436429,2025-04-15
+contribution,2024-11-15,"Coca-Cola Consolidated, Inc.","$1,000",Charlotte,NC,business,,A,436429,2025-04-15
+contribution,2024-09-19,Mellanda Y Colson Scott,$200,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-07-18,Comcast Corporation,$500,Philadelphia,PA,business,,A,436429,2025-04-15
+contribution,2024-11-21,CP&O Virginia Political Action Committee,"$1,500",Norfolk,VA,pac,,A,436429,2025-04-15
+contribution,2024-08-23,Dominion Energy Inc. Political Action Committee,"$20,000",Richmond,VA,pac,,A,436429,2025-04-15
+contribution,2024-12-19,Dominion Energy Inc. Political Action Committee,"$25,000",Richmond,VA,pac,,A,436429,2025-04-15
+contribution,2024-08-25,Kaci Easley,$40,Richmond,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-24,"ESG Enterprises, Inc.","$1,000",Virginia Beach,VA,business,,A,436429,2025-04-15
+contribution,2024-09-13,Ramin Fatehi,"$1,000",Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-12-04,Fraim & Fiorella PC,"$1,500",Norfolk,VA,business,,A,436429,2025-04-15
+contribution,2024-08-26,Paul D. Fraim,"$2,500",Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-19,Guy Rusty Friddell III,"$1,000",Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-19,Rob Gill,$500,Suffolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-07-13,David R Goode,"$1,000",Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-10-11,HCA For Good Government,$500,Richmond,VA,pac,,A,436429,2025-04-15
+contribution,2024-09-19,Ashley Hickmann,$80,Hampton,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-19,Ashley Hickmann,$40,Hampton,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-03,Hoffman Beverage Company,"$1,000",Chesapeake,VA,business,,A,436429,2025-04-15
+contribution,2024-07-26,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,436429,2025-04-15
+contribution,2024-09-27,Hunton Andrews Kurth LLP,$500,Richmond,VA,business,,A,436429,2025-04-15
+contribution,2024-12-23,Hunton Andrews Kurth LLP,"$1,000",Richmond,VA,business,,A,436429,2025-04-15
+contribution,2024-12-04,Thomas Inglima,"$2,000",Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-17,Louis Jason,$500,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-12-30,Johnson Brothers Service Distributing,$750,Lorton,VA,business,,A,436429,2025-04-15
+contribution,2024-09-19,Ruth Jones Nichols,$250,Poquoson,VA,individual,,A,436429,2025-04-15
+contribution,2024-08-26,Miles B. Leon,$500,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-12-03,Miles B. Leon,"$1,500",Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-12-10,Harry T Lester,"$1,500",Virginia Beach,VA,individual,,A,436429,2025-04-15
+contribution,2024-08-12,LKQ Corporation,$500,Antioch,TN,business,,A,436429,2025-04-15
+contribution,2024-07-31,Vincent J Mastracco Jr,"$1,500",Virginia Beach,VA,individual,,A,436429,2025-04-15
+contribution,2024-12-10,Vincent J Mastracco Jr,"$1,500",Virginia Beach,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-11,Jeremy Mcgee,$250,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-12-10,Jerrold Miller,"$1,500",Virginia Beach,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-10,Lonnie C Minson,$500,Virginia Beach,VA,individual,,A,436429,2025-04-15
+contribution,2024-12-20,Norfolk Southern Corporation,"$1,000",Atlanta,GA,business,,A,436429,2025-04-15
+contribution,2024-07-23,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,436429,2025-04-15
+contribution,2024-10-04,"Omega Protein, Inc.","$1,000",Reedville,VA,business,,A,436429,2025-04-15
+contribution,2024-09-10,Rana Parham,$500,Newport News,VA,individual,,A,436429,2025-04-15
+contribution,2024-08-20,Larry Pendleton,$250,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-11-19,Premium Distributors of VA LLC,"$1,000",Chantilly,VA,business,,A,436429,2025-04-15
+contribution,2024-10-11,Principle Advantage Government Relations Group LLC,$500,Williamsburg,VA,business,,A,436429,2025-04-15
+contribution,2024-09-12,Frederick Quarles,$180,Suffolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-16,Realtors Political Action Committee of Virginia,"$2,500",Glen Allen,VA,pac,,A,436429,2025-04-15
+contribution,2024-07-26,Reed Smith LLP,$500,Pittsburgh,PA,business,,A,436429,2025-04-15
+contribution,2024-09-15,Kerstin Roper Christian,$500,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-07-09,"Sentara Health Administration, Inc.","$1,000",Virginia Beach,VA,business,,A,436429,2025-04-15
+contribution,2024-12-10,"Sentara Health Administration, Inc.","$1,500",Virginia Beach,VA,business,,A,436429,2025-04-15
+contribution,2024-09-16,Service Corporation International PAC,"$1,000",Houston,TX,pac,,A,436429,2025-04-15
+contribution,2024-10-04,The American Electric Power Company - Virginia - Committee for Responsible Government,"$1,000",Columbus,OH,pac,,A,436429,2025-04-15
+contribution,2024-10-11,The Virginia Spirits Association,$500,Richmond,VA,business,,A,436429,2025-04-15
+contribution,2024-10-04,"The Williams Companies, Inc.",$500,Tulsa,OK,business,,A,436429,2025-04-15
+contribution,2024-09-12,Martin A. Thomas Jr,$250,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-06,Brett Thompson,"$1,000",Virginia Beach,VA,individual,,A,436429,2025-04-15
+contribution,2024-07-23,Transurban USA Inc.,$500,Tysons,VA,business,,A,436429,2025-04-15
+contribution,2024-10-04,Transurban USA Inc.,$500,Tysons,VA,business,,A,436429,2025-04-15
+contribution,2024-12-30,United Airlines,$500,Houston,TX,business,,A,436429,2025-04-15
+contribution,2024-09-26,Va Automobile and Truck Dealers Political Action Committee,"$3,000",Richmond,VA,pac,,A,436429,2025-04-15
+contribution,2024-09-03,Virginia Beer Wholesalers Association Political Action Committee,"$2,500",Richmond,VA,pac,,A,436429,2025-04-15
+contribution,2024-11-25,Virginia Beer Wholesalers Association Political Action Committee,"$1,000",Richmond,VA,pac,,A,436429,2025-04-15
+contribution,2024-09-12,Virginia Beverage Association Political Action Committee,"$1,000",Richmond,VA,pac,,A,436429,2025-04-15
+contribution,2024-10-18,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,436429,2025-04-15
+contribution,2024-09-18,Virginia Maritime Association Political Action Committee,"$1,500",Norfolk,VA,pac,,A,436429,2025-04-15
+contribution,2024-10-31,Virginia Natural Gas PAC,"$2,000",Virginia Beach,VA,pac,,A,436429,2025-04-15
+contribution,2024-10-25,Virginia Wine Wholesalers Association Political Action Committee,"$2,500",Richmond,VA,pac,,A,436429,2025-04-15
+contribution,2024-08-12,Waste Management,"$1,000",Houston,TX,business,,A,436429,2025-04-15
+contribution,2024-10-09,Ofelia Wattley,$50,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-30,Wayne F Wilbanks,"$5,000",Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-12-06,Angelia Williams Graves,$648.51,Norfolk,VA,individual,,A,436429,2025-04-15
+contribution,2024-09-19,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,436429,2025-04-15
+contribution,2024-09-19,Kent L Winquist,$250,Virginia Beach,VA,individual,,A,436429,2025-04-15
+contribution,2025-03-25,Yvonne Allmond,$500,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-11,Altria Client Services LLC,"$1,500",Richmond,VA,business,,A,448102,2025-07-15
+contribution,2025-03-29,Stacie Armstead,$100,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-02-24,Angela Benjamin,$100,Selma,AL,individual,,A,448102,2025-07-15
+contribution,2025-06-12,Jeffrey A Breit,"$1,000",Virginia Beach,VA,individual,,A,448102,2025-07-15
+contribution,2025-02-27,Michael Burton,$100,Port Wentworth,GA,individual,,A,448102,2025-07-15
+contribution,2025-03-27,Erica Callicutt,$140,Newport News,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-30,"Capital One Services, LLC","$1,000",Reston,VA,business,,A,448102,2025-07-15
+contribution,2025-03-01,Ty Champion,$25,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-03-23,Ty Champion,$25,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-04-23,Ty Champion,$25,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-05-29,Ty Champion,$25,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-30,Comcast Corporation,$500,Philadelphia,PA,business,,A,448102,2025-07-15
+contribution,2025-05-29,CSX Transportation Inc.,$500,Jacksonville,FL,business,,A,448102,2025-07-15
+contribution,2025-06-03,"D.R.I.V.E. - Democrat, Republican, Independent Voter Education","$2,000",Washington,DC,pac,,A,448102,2025-07-15
+contribution,2025-06-16,Diageo North America,"$1,000",Washington,DC,business,,A,448102,2025-07-15
+contribution,2025-01-02,Joe Dillard Jr,$125,Ashland,VA,individual,,A,448102,2025-07-15
+contribution,2025-04-18,Dominion Energy Inc. Political Action Committee,"$30,000",Richmond,VA,pac,,A,448102,2025-07-15
+contribution,2025-03-21,Tonya Fentress,$40,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-05,Dr. Ben Fitzgerald III,$517.75,Suffolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-10,Hampton Roads Business Roundtable PAC,"$5,000",Norfolk,VA,pac,,A,448102,2025-07-15
+contribution,2025-06-05,Thomas Hasty,$517.75,Chesapeake,VA,individual,,A,448102,2025-07-15
+contribution,2025-03-26,Karen Havekost,$30,Virginia Beach,VA,individual,,A,448102,2025-07-15
+contribution,2025-03-26,Karen Havekost,$30,Virginia Beach,VA,individual,,A,448102,2025-07-15
+contribution,2025-01-06,Home Builders Association of Virginia Build-PAC,"$1,500",Richmond,VA,pac,,A,448102,2025-07-15
+contribution,2025-06-13,Huntington Ingalls Industries,"$1,000",Newport News,VA,business,,A,448102,2025-07-15
+contribution,2025-06-05,Louis Jason,$259,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-01-06,J. Grant Johnson,"$1,000",Alexandria,VA,individual,,A,448102,2025-07-15
+contribution,2025-01-03,McGuireWoods LLP,"$1,000",Richmond,VA,business,,A,448102,2025-07-15
+contribution,2025-03-26,Keith H Newby,"$2,000",Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-10,Michael Nusbaum,$259,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-30,William Nusbaum,$200,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-05-27,Old Dominion Highway PAC,$500,Charlottesville,VA,pac,,A,448102,2025-07-15
+contribution,2025-03-18,Tara Ramsey,"$1,000",Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-05-07,Tara Ramsey,"$1,000",Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-05,Milton Rawles,$517.75,Virginia Beach,VA,individual,,A,448102,2025-07-15
+contribution,2025-03-22,Sharon S Riley,$200,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-05,Arthur Rutter,"$2,587.75",Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-01-02,SEIU COPE,$500,Washington,DC,pac,,A,448102,2025-07-15
+contribution,2025-04-22,"Sentara Health Administration, Inc.","$1,000",Virginia Beach,VA,business,,A,448102,2025-07-15
+contribution,2025-05-14,Seven Hills Strategy Group LLC,$500,Richmond,VA,business,,A,448102,2025-07-15
+contribution,2025-06-10,Philip Shucet,$259,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-06-25,Sports Betting Alliance,"$10,000",Lubbock,TX,business,,A,448102,2025-07-15
+contribution,2025-06-26,The Virginia Spirits Association,$500,Richmond,VA,business,,A,448102,2025-07-15
+contribution,2025-05-16,Va Automobile and Truck Dealers Political Action Committee,"$1,000",Richmond,VA,pac,,A,448102,2025-07-15
+contribution,2025-01-02,VA Operators For Skill,"$2,500",Richmond,VA,business,,A,448102,2025-07-15
+contribution,2025-03-06,"Vantage Data Centers Management Co, LLC",$500,Santa Clara,CA,business,,A,448102,2025-07-15
+contribution,2025-04-28,Virginia Bankers Association PAC,"$1,000",Glen Allen,VA,pac,,A,448102,2025-07-15
+contribution,2025-06-30,Virginia Cable PAC,"$1,000",Richmond,VA,pac,,A,448102,2025-07-15
+contribution,2025-04-25,Virginia Farm Bureau Federation,$500,Richmond,VA,pac,,A,448102,2025-07-15
+contribution,2025-05-20,Virginia Hospital & Healthcare Association PAC,$500,Richmond,VA,pac,,A,448102,2025-07-15
+contribution,2025-04-03,Virginia Morticians' PAC,$500,Fredericksburg,VA,pac,,A,448102,2025-07-15
+contribution,2025-06-10,Virginia Natural Gas PAC,"$3,000",Virginia Beach,VA,pac,,A,448102,2025-07-15
+contribution,2025-01-02,"Virginia Restaurant, Lodging & Travel Association",$500,Richmond,VA,business,,A,448102,2025-07-15
+contribution,2025-04-01,Ofelia Wattley,$50,Norfolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-05-22,Jordan Webb,"$2,000",Suffolk,VA,individual,,A,448102,2025-07-15
+contribution,2025-04-25,Williams Mullen Clark & Dobbins,$500,Richmond,VA,business,,A,448102,2025-07-15
 contribution,2025-08-29,AIA Virginia PAC,$500,Chesterfield,VA,pac,,A,479544,2026-01-15
 contribution,2025-07-01,Alexander for Mayor,"$2,500",Norfolk,VA,candidate,,A,479544,2026-01-15
 contribution,2025-09-16,Yvonne Allmond,$250,Norfolk,VA,individual,,A,479544,2026-01-15
@@ -141,10 +332,682 @@ contribution,2026-06-10,Virginia Apartment Management Association PAC,$500,Richm
 contribution,2026-06-10,Virginia Cable PAC,$500,Richmond,VA,pac,,A,496821,2026-07-15
 contribution,2026-06-30,Virginia Farm Bureau Federation,$500,Richmond,VA,pac,,A,496821,2026-07-15
 contribution,2026-06-30,Virginia Sheriffs' Association Political Action Committee,"$1,000",Richmond,VA,pac,,A,496821,2026-07-15
+in_kind,2023-10-30,Care in Action,$48.08,New York,NY,business,In-Kind Digital Services,B,384496,2023-12-07
+in_kind,2023-11-06,Care in Action,$68.24,New York,NY,business,In-Kind Staff Services,B,384496,2023-12-07
+in_kind,2023-10-29,Carlos Clanton,"$7,750",Norfolk,VA,individual,Digital Services,B,384496,2023-12-07
+in_kind,2023-10-27,Democratic Party of Virginia,"$24,305.01",Richmond,VA,party,In-Kind: Mail Production / Postage,B,384496,2023-12-07
+in_kind,2023-12-06,Care in Action,$39.40,New York,NY,business,In-Kind Digital & Texting Services,B,393531,2024-01-16
+in_kind,2023-12-27,Realtors Political Action Committee of Virginia,$303.41,Glen Allen,VA,pac,In-Kind Event Catering,B,393531,2024-01-16
+in_kind,2024-06-14,Realtors Political Action Committee of Virginia,$300.29,Glen Allen,VA,pac,In-Kind Event Catering,B,409659,2024-07-15
+in_kind,2024-01-09,Va Automobile and Truck Dealers Political Action Committee,$365.62,Richmond,VA,pac,In-Kind Event Catering,B,409659,2024-07-15
+in_kind,2024-12-10,Hampton Roads Business Roundtable PAC,$852.03,Norfolk,VA,pac,Event Expenses and Supplies,B,436429,2025-04-15
+in_kind,2025-03-01,Elise Vess,"$1,750",Midlothian,VA,individual,Compliance Consulting,B,448102,2025-07-15
+in_kind,2025-05-08,Virginia Beer Wholesalers Association,$371.58,Richmond,VA,business,Event Food and Beverage,B,448102,2025-07-15
 in_kind,2025-07-21,McGuireWoods LLP,$712.09,Richmond,VA,business,Event Food and Beverage,B,479544,2026-01-15
 in_kind,2026-05-18,American Heart Association,$111,Dallas,TX,business,Event Ticket,B,496821,2026-07-15
+other_receipt,2024-03-14,Adams Outdoor Advertising,$42.86,Norfolk,VA,business,Refund of Operating Expenditure,C,409659,2024-07-15
+other_receipt,2024-06-05,Gusto,$430.10,San Francisco,CA,business,Refund of Payroll Tax Overpayment,C,409659,2024-07-15
+other_receipt,2024-05-15,"Quadient Finance USA, Inc.",$203.35,Carol Stream,IL,business,Refund of Operating Expenditure,C,409659,2024-07-15
+other_receipt,2024-07-12,Gusto,$271.26,San Francisco,CA,business,Refund of Payroll Tax Overpayment,C,436429,2025-04-15
+other_receipt,2024-07-17,Gusto,$0.58,San Francisco,CA,business,Refund of Payroll Tax Overpayment,C,436429,2025-04-15
+other_receipt,2024-08-22,Gusto,$75.90,San Francisco,CA,business,Refund of Payroll Tax Overpayment,C,436429,2025-04-15
+other_receipt,2024-09-12,Gusto,$126.50,San Francisco,CA,business,Refund of Payroll Tax Overpayment,C,436429,2025-04-15
+other_receipt,2024-10-08,Gusto,$0.25,San Francisco,CA,business,Refund of Payroll Tax Overpayment,C,436429,2025-04-15
 other_receipt,2025-12-28,Garden of Hope CDC,$750,Norfolk,VA,business,Refund - Event Sponsorship Payment Never Deposited,C,479544,2026-01-15
 other_receipt,2025-07-18,Office Depot,$20.23,Norfolk,VA,business,Refund,C,479544,2026-01-15
+expenditure,2023-10-28,Later,$18.54,Los Angeles,CA,business,Software,D,384496,2023-12-07
+expenditure,2023-10-29,ActBlue,$9.88,West Somerville,MA,business,Contribution Processing Fees,D,384496,2023-12-07
+expenditure,2023-10-30,Office Depot,$13.24,Norfolk,VA,business,Office Supplies,D,384496,2023-12-07
+expenditure,2023-10-30,Office Depot,$83.87,Norfolk,VA,business,Office Supplies,D,384496,2023-12-07
+expenditure,2023-10-31,Meta Platforms Inc.,$150,Menlo Park,CA,business,Digital Advertising,D,384496,2023-12-07
+expenditure,2023-11-01,Google LLC,$126,Mountain View,CA,business,Email Services,D,384496,2023-12-07
+expenditure,2023-11-01,Gusto,$396.43,San Francisco,CA,business,Payroll Taxes,D,384496,2023-12-07
+expenditure,2023-11-01,Caroline Willette,"$1,227.32",Virginia Beach,VA,individual,Payroll,D,384496,2023-12-07
+expenditure,2023-11-02,ActBlue,$207.38,West Somerville,MA,business,Contribution Processing Fees,D,384496,2023-12-07
+expenditure,2023-11-02,Taneisha Burton,$300,Norfolk,VA,individual,Consulting,D,384496,2023-12-07
+expenditure,2023-11-02,Christian Broadcasting Corporation,"$1,000",Norfolk,VA,business,Radio Advertising,D,384496,2023-12-07
+expenditure,2023-11-02,DJ ChillWill,$300,Norfolk,VA,business,Event Expenses,D,384496,2023-12-07
+expenditure,2023-11-02,"Quadient Finance USA, Inc.",$209,Carol Stream,IL,business,Postage,D,384496,2023-12-07
+expenditure,2023-11-03,FedEx Office Print & Ship,$143.10,Norfolk,VA,business,Printing,D,384496,2023-12-07
+expenditure,2023-11-03,Gusto,$70,San Francisco,CA,business,Payment Processing Fees,D,384496,2023-12-07
+expenditure,2023-11-03,Office Depot,$11.93,Norfolk,VA,business,Office Supplies,D,384496,2023-12-07
+expenditure,2023-11-03,Teens With a Purpose,$250,Norfolk,VA,business,Event Sponsorship,D,384496,2023-12-07
+expenditure,2023-11-06,Kameron Clarke,"$1,000",Alexandria,VA,individual,Consulting,D,384496,2023-12-07
+expenditure,2023-11-06,Midnight Printers,$903,San Diego,CA,business,Campaign Materials,D,384496,2023-12-07
+expenditure,2023-11-06,Walmart,$29.24,Norfolk,VA,business,Event Supplies,D,384496,2023-12-07
+expenditure,2023-11-07,ActBlue,$73.92,West Somerville,MA,business,Contribution Processing Fees,D,384496,2023-12-07
+expenditure,2023-11-07,Boss Queens Soul Cafe,$834.76,Norfolk,VA,business,Event Venue and Catering,D,384496,2023-12-07
+expenditure,2023-11-07,Jimmy Johns,$256.17,Norfolk,VA,business,Event Catering,D,384496,2023-12-07
+expenditure,2023-11-08,Deborah Boyd,$150,Norfolk,VA,individual,Poll Worker,D,384496,2023-12-07
+expenditure,2023-11-08,Gladys Byrd,$150,Norfolk,VA,individual,Poll Worker,D,384496,2023-12-07
+expenditure,2023-11-08,Frankie Davis,$150,Chesapeake,VA,individual,Poll Worker,D,384496,2023-12-07
+expenditure,2023-11-08,Geraldine Davis,$150,Chesapeake,VA,individual,Poll Worker,D,384496,2023-12-07
+expenditure,2023-11-08,Rhuben Pettus,$150,Norfolk,VA,individual,Poll Worker,D,384496,2023-12-07
+expenditure,2023-11-08,Patricia D Royster,$150,Chesapeake,VA,individual,Poll Worker,D,384496,2023-12-07
+expenditure,2023-11-08,Carolyn Speller,$150,Norfolk,VA,individual,Poll Worker,D,384496,2023-12-07
+expenditure,2023-11-08,Rhonda Winder,$200,Norfolk,VA,individual,Poll Worker,D,384496,2023-12-07
+expenditure,2023-11-09,Campaign Partner,$49,Still River,MA,business,Website Services,D,384496,2023-12-07
+expenditure,2023-11-09,Shiloh Baptist Church,$225,Norfolk,VA,business,Event Sponsorship,D,384496,2023-12-07
+expenditure,2023-11-15,Sandra Brandt,"$1,990.38",Virginia Beach,VA,individual,Payroll,D,384496,2023-12-07
+expenditure,2023-11-15,Taneisha Burton,"$1,800",Norfolk,VA,individual,Consulting,D,384496,2023-12-07
+expenditure,2023-11-15,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,384496,2023-12-07
+expenditure,2023-11-15,Gusto,"$1,632.55",San Francisco,CA,business,Payroll Taxes,D,384496,2023-12-07
+expenditure,2023-11-15,Mailchimp,$26.50,Atlanta,GA,business,Subscription,D,384496,2023-12-07
+expenditure,2023-11-15,Caroline Willette,"$1,227.32",Virginia Beach,VA,individual,Payroll,D,384496,2023-12-07
+expenditure,2023-11-20,Hyatt Regency Tysons Corner Center,$765.05,Tysons,VA,business,Lodging,D,384496,2023-12-07
+expenditure,2023-11-21,Truist,$15.20,Norfolk,VA,business,Bank Fee,D,384496,2023-12-07
+expenditure,2023-11-22,Office Depot,$8.46,Norfolk,VA,business,Office Supplies,D,384496,2023-12-07
+expenditure,2023-11-23,"GoDaddy Operating Company, LLC",$138.82,Tempe,AZ,business,Website Domain,D,384496,2023-12-07
+expenditure,2023-11-23,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,384496,2023-12-07
+expenditure,2023-11-24,123RF LLC,$24,Chicago,IL,business,Website Design,D,384496,2023-12-07
+expenditure,2023-11-26,ActBlue,$0.83,West Somerville,MA,business,Contribution Processing Fees,D,384496,2023-12-07
+expenditure,2023-11-27,Marvin Rawls,"$2,945",Norfolk,VA,individual,Field Operations,D,384496,2023-12-07
+expenditure,2023-11-28,Later,$18.54,Los Angeles,CA,business,Software,D,384496,2023-12-07
+expenditure,2023-12-01,Taneisha Burton,$300,Norfolk,VA,individual,Consulting,D,393531,2024-01-16
+expenditure,2023-12-01,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,393531,2024-01-16
+expenditure,2023-12-01,Google LLC,$126,Mountain View,CA,business,Email Services,D,393531,2024-01-16
+expenditure,2023-12-03,Gusto,$70,San Francisco,CA,business,Payment Processing Fees,D,393531,2024-01-16
+expenditure,2023-12-04,"Quadient Finance USA, Inc.",$209,Carol Stream,IL,business,Postage,D,393531,2024-01-16
+expenditure,2023-12-08,Treasurer of Virginia,$147,Richmond,VA,business,Parking,D,393531,2024-01-16
+expenditure,2023-12-09,Campaign Partner,$49,Still River,MA,business,Website Services,D,393531,2024-01-16
+expenditure,2023-12-14,Elise Vess,$700,Richmond,VA,individual,Consulting,D,393531,2024-01-16
+expenditure,2023-12-15,Gusto,$387.43,San Francisco,CA,business,Payroll Taxes,D,393531,2024-01-16
+expenditure,2023-12-15,Mailchimp,$26.50,Atlanta,GA,business,Subscription,D,393531,2024-01-16
+expenditure,2023-12-15,Speller Consulting Group LLC,$575,Glen Allen,VA,business,Consulting,D,393531,2024-01-16
+expenditure,2023-12-15,Caroline Willette,"$1,227.32",Virginia Beach,VA,individual,Payroll,D,393531,2024-01-16
+expenditure,2023-12-19,"Compassion Advocacy Network, Inc.",$156.48,Norfolk,VA,business,Event Tickets,D,393531,2024-01-16
+expenditure,2023-12-20,David Gilbert Jacox Elementary School,$150,Norfolk,VA,business,Donation,D,393531,2024-01-16
+expenditure,2023-12-20,Economy Printing,"$2,345.78",Portsmouth,VA,business,"Palm Cards, Sample Ballots & Signs",D,393531,2024-01-16
+expenditure,2023-12-21,Office Depot,$152.77,Norfolk,VA,business,Office Supplies,D,393531,2024-01-16
+expenditure,2023-12-21,Truist,$43,Norfolk,VA,business,Bank Fee,D,393531,2024-01-16
+expenditure,2023-12-24,ActBlue,$19.75,West Somerville,MA,business,Contribution Processing Fees,D,393531,2024-01-16
+expenditure,2023-12-26,National Pen Company,$254.83,Shelbyville,TN,business,Office Supplies,D,393531,2024-01-16
+expenditure,2023-12-28,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,393531,2024-01-16
+expenditure,2023-12-29,Sandra Brandt,"$1,990.38",Virginia Beach,VA,individual,Payroll,D,393531,2024-01-16
+expenditure,2023-12-29,Taneisha Burton,$300,Norfolk,VA,individual,Consulting,D,393531,2024-01-16
+expenditure,2023-12-29,Gusto,"$1,239.12",San Francisco,CA,business,Payroll Taxes,D,393531,2024-01-16
+expenditure,2023-12-29,Later,$18.54,Los Angeles,CA,business,Software,D,393531,2024-01-16
+expenditure,2023-12-30,Hobby Lobby,$46.27,Virginia Beach,VA,business,Office Supplies,D,393531,2024-01-16
+expenditure,2023-12-30,Michaels,$21.18,Virginia Beach,VA,business,Office Supplies,D,393531,2024-01-16
+expenditure,2023-12-30,T.J. Maxx,$54.03,Virginia Beach,VA,business,Office Supplies,D,393531,2024-01-16
+expenditure,2023-12-31,At Home,$51.47,Chesapeake,VA,business,Office Supplies,D,393531,2024-01-16
+expenditure,2024-01-01,Google LLC,$158.05,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-01-01,Target,$131.55,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-01-02,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,409659,2024-07-15
+expenditure,2024-01-02,"Quadient Finance USA, Inc.",$209,Carol Stream,IL,business,Postage,D,409659,2024-07-15
+expenditure,2024-01-03,Chanello's Pizza,$69.71,Norfolk,VA,business,Meeting Expenses,D,409659,2024-07-15
+expenditure,2024-01-03,Kameron Clarke,$856.41,Alexandria,VA,individual,Payroll,D,409659,2024-07-15
+expenditure,2024-01-03,Gusto,$226.09,San Francisco,CA,business,Payroll Taxes,D,409659,2024-07-15
+expenditure,2024-01-03,Pat's Florist,$68.89,Richmond,VA,business,Flowers,D,409659,2024-07-15
+expenditure,2024-01-03,Elise Vess,$750,Midlothian,VA,individual,Compliance Consulting,D,409659,2024-07-15
+expenditure,2024-01-03,Virginia's List (a/k/a Women Leaders of VA),$52.86,Alexandria,VA,business,Event Ticket,D,409659,2024-07-15
+expenditure,2024-01-04,Gusto,$70,San Francisco,CA,business,Payment Processing Fees,D,409659,2024-07-15
+expenditure,2024-01-04,Impact Catalyst Consulting,$900,Norfolk,VA,business,Digital Consulting,D,409659,2024-07-15
+expenditure,2024-01-05,Economy Printing,$478.06,Portsmouth,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-01-06,Friends forTina Wyatt Younger,$500,South Boston,VA,business,Political Contribution,D,409659,2024-07-15
+expenditure,2024-01-06,Office Depot,$82.94,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-01-08,Campaign Partner,$49,Still River,MA,business,Website Services,D,409659,2024-07-15
+expenditure,2024-01-09,ActBlue,$3.95,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-01-09,Gusto,"$1,712.96",San Francisco,CA,business,Payroll Taxes,D,409659,2024-07-15
+expenditure,2024-01-11,Taneisha Burton,"$1,700",Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-01-16,Mailchimp,$26.50,Atlanta,GA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-01-16,Native Plate,$109.67,Richmond,VA,business,Meals for Staff,D,409659,2024-07-15
+expenditure,2024-01-22,Truist,$22,Norfolk,VA,business,Bank Fee,D,409659,2024-07-15
+expenditure,2024-01-24,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-01-29,Delta Hotels,$467.21,Richmond,VA,business,Lodging,D,409659,2024-07-15
+expenditure,2024-01-29,Later,$18.54,Los Angeles,CA,business,Software,D,409659,2024-07-15
+expenditure,2024-01-30,Office Depot,$106.25,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-01-31,Taneisha Burton,"$1,700",Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-01-31,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,409659,2024-07-15
+expenditure,2024-02-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-02-01,Kameron Clarke,$856.41,Alexandria,VA,individual,Payroll,D,409659,2024-07-15
+expenditure,2024-02-01,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,409659,2024-07-15
+expenditure,2024-02-01,Gusto,$226.09,San Francisco,CA,business,Payroll Taxes,D,409659,2024-07-15
+expenditure,2024-02-01,"Quadient Finance USA, Inc.",$209,Carol Stream,IL,business,Postage,D,409659,2024-07-15
+expenditure,2024-02-02,Google LLC,$90.57,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-02-02,Google LLC,$123.08,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-02-05,Gusto,$118,San Francisco,CA,business,Payment Processing & Tax Document Fees,D,409659,2024-07-15
+expenditure,2024-02-06,Christian Broadcasting Corporation,$600,Norfolk,VA,business,Radio Advertising,D,409659,2024-07-15
+expenditure,2024-02-06,Virginia Capitol Correspondents Association,$70,Richmond,VA,business,Event Ticket,D,409659,2024-07-15
+expenditure,2024-02-07,Office Depot,$30.74,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-02-07,The Mount,$500,Chesapeake,VA,business,Event Sponsorship,D,409659,2024-07-15
+expenditure,2024-02-08,Campaign Partner,$49,Still River,MA,business,Website Services,D,409659,2024-07-15
+expenditure,2024-02-08,Office Depot,$194.83,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-02-08,Office Depot,$28.60,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-02-08,Andrew Whitley,$500,Stoughton,WI,individual,Fundraising Consulting,D,409659,2024-07-15
+expenditure,2024-02-12,"From You Flowers, LLC",$62.52,Old Saybrook,CT,business,Flowers,D,409659,2024-07-15
+expenditure,2024-02-13,VCU Massey Comprehensive Cancer Center,$250,Richmond,VA,business,Donation,D,409659,2024-07-15
+expenditure,2024-02-13,"Wordsprint, Inc.",$477,Wytheville,VA,business,Printing,D,409659,2024-07-15
+expenditure,2024-02-14,National Pen Company,$548.98,Shelbyville,TN,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-02-15,Taneisha Burton,"$1,700",Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-02-15,Mailchimp,$33,Atlanta,GA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-02-15,USPS,$182,Norfolk,VA,business,PO Box Rental,D,409659,2024-07-15
+expenditure,2024-02-15,VisitNorfolk,$500,Norfolk,VA,business,Event Supplies,D,409659,2024-07-15
+expenditure,2024-02-16,"NAC Save Our Youth Foundation, Inc.",$350,Chesapeake,VA,business,Donation,D,409659,2024-07-15
+expenditure,2024-02-21,Truist,$22,Norfolk,VA,business,Bank Fee,D,409659,2024-07-15
+expenditure,2024-02-21,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,409659,2024-07-15
+expenditure,2024-02-23,"Meriwether Godsey, Inc",$3.40,Richmond,VA,business,Meeting Expenses,D,409659,2024-07-15
+expenditure,2024-02-23,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-02-29,Taneisha Burton,"$1,700",Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-02-29,Later,$18.54,Los Angeles,CA,business,Software,D,409659,2024-07-15
+expenditure,2024-03-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-03-01,Kameron Clarke,$856.41,Alexandria,VA,individual,Payroll,D,409659,2024-07-15
+expenditure,2024-03-01,Gusto,$226.09,San Francisco,CA,business,Payroll Taxes,D,409659,2024-07-15
+expenditure,2024-03-01,"Quadient Finance USA, Inc.",$209,Carol Stream,IL,business,Postage,D,409659,2024-07-15
+expenditure,2024-03-04,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,409659,2024-07-15
+expenditure,2024-03-04,Google LLC,$108,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-03-04,Google LLC,$108,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-03-05,Gusto,$64,San Francisco,CA,business,Payment Processing Fees,D,409659,2024-07-15
+expenditure,2024-03-06,"Meriwether Godsey, Inc",$326.93,Richmond,VA,business,Event Catering,D,409659,2024-07-15
+expenditure,2024-03-07,Capital Ale House,$130.18,Richmond,VA,business,Meals for Staff,D,409659,2024-07-15
+expenditure,2024-03-08,Campaign Partner,$49,Still River,MA,business,Website Services,D,409659,2024-07-15
+expenditure,2024-03-10,Delta Hotels,$98.51,Richmond,VA,business,Lodging,D,409659,2024-07-15
+expenditure,2024-03-13,Hampton Roads Young Democrats,$500,Norfolk,VA,business,Event Sponsorship,D,409659,2024-07-15
+expenditure,2024-03-14,Taneisha Burton,"$1,700",Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-03-14,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,409659,2024-07-15
+expenditure,2024-03-15,Mailchimp,$33,Atlanta,GA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-03-20,Virginians for Jay Jones,$500,Arlington,VA,business,Political Contribution,D,409659,2024-07-15
+expenditure,2024-03-21,Mt Hermon Baptist Church,$131.74,Norfolk,VA,business,Event Tickets,D,409659,2024-07-15
+expenditure,2024-03-21,Truist,$15,Norfolk,VA,business,Bank Fee,D,409659,2024-07-15
+expenditure,2024-03-22,Jerry's Artarama of Virginia Beach,$363.55,Virginia Beach,VA,business,Framing,D,409659,2024-07-15
+expenditure,2024-03-23,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-03-29,Kameron Clarke,$92.39,Alexandria,VA,individual,Payroll,D,409659,2024-07-15
+expenditure,2024-03-29,Gusto,$269.82,San Francisco,CA,business,Payroll Taxes,D,409659,2024-07-15
+expenditure,2024-03-29,Later,$18.54,Los Angeles,CA,business,Software,D,409659,2024-07-15
+expenditure,2024-03-29,Caroline Willette,$856.41,Virginia Beach,VA,individual,Payroll,D,409659,2024-07-15
+expenditure,2024-04-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-04-01,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,409659,2024-07-15
+expenditure,2024-04-01,Google LLC,$108,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-04-01,Google LLC,$110.78,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-04-01,Gusto,$979.66,San Francisco,CA,business,Payroll Taxes,D,409659,2024-07-15
+expenditure,2024-04-01,"Quadient Finance USA, Inc.",$209,Carol Stream,IL,business,Postage,D,409659,2024-07-15
+expenditure,2024-04-03,Gusto,$64,San Francisco,CA,business,Payment Processing Fees,D,409659,2024-07-15
+expenditure,2024-04-04,Fusion Soul Cafe & Catering LLC,"$1,645.87",Richmond,VA,business,Event Catering,D,409659,2024-07-15
+expenditure,2024-04-05,Dollar Tree,$9.28,Virginia Beach,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-04-05,FedEx Office Print & Ship,$45.05,Norfolk,VA,business,Printing,D,409659,2024-07-15
+expenditure,2024-04-05,Office Depot,$39.15,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-04-05,TASTE,$17.13,Norfolk,VA,business,Meals for Staff,D,409659,2024-07-15
+expenditure,2024-04-05,TASTE,$62.42,Norfolk,VA,business,Meals for Staff,D,409659,2024-07-15
+expenditure,2024-04-07,ActBlue,$26.47,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-04-08,Campaign Partner,$49,Still River,MA,business,Website Services,D,409659,2024-07-15
+expenditure,2024-04-15,Mailchimp,$33,Atlanta,GA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-04-17,Office Depot,$73.12,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-04-18,Treasurer of Virginia,$100.59,Richmond,VA,business,Postage & Framing,D,409659,2024-07-15
+expenditure,2024-04-21,ActBlue,$7.90,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-04-22,Delta Hotels,$369.76,Richmond,VA,business,Lodging,D,409659,2024-07-15
+expenditure,2024-04-22,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-04-22,Truist,$15,Norfolk,VA,business,Bank Fee,D,409659,2024-07-15
+expenditure,2024-04-29,Later,$18.54,Los Angeles,CA,business,Software,D,409659,2024-07-15
+expenditure,2024-05-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-05-01,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,409659,2024-07-15
+expenditure,2024-05-01,Google LLC,$129.60,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-05-01,Google LLC,$80.64,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-05-01,Gusto,$38.71,San Francisco,CA,business,Payroll Taxes,D,409659,2024-07-15
+expenditure,2024-05-01,Elise Vess,$250,Midlothian,VA,individual,Compliance Consulting,D,409659,2024-07-15
+expenditure,2024-05-01,Caroline Willette,$193.93,Virginia Beach,VA,individual,Payroll,D,409659,2024-07-15
+expenditure,2024-05-02,"Quadient Finance USA, Inc.",$209,Carol Stream,IL,business,Postage,D,409659,2024-07-15
+expenditure,2024-05-03,Gusto,$58,San Francisco,CA,business,Payment Processing Fees,D,409659,2024-07-15
+expenditure,2024-05-05,ActBlue,$1.58,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-05-06,Miyyah Bashir-Davis,$861.20,Richmond,VA,individual,Payroll,D,409659,2024-07-15
+expenditure,2024-05-06,Gusto,$177.37,San Francisco,CA,business,Payroll Taxes,D,409659,2024-07-15
+expenditure,2024-05-08,Campaign Partner,$49,Still River,MA,business,Website Services,D,409659,2024-07-15
+expenditure,2024-05-12,ActBlue,$3.16,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-05-15,Mailchimp,$39.50,Atlanta,GA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-05-15,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,409659,2024-07-15
+expenditure,2024-05-17,Antioch Baptist Church,$300,Norfolk,VA,business,Event Sponsorship,D,409659,2024-07-15
+expenditure,2024-05-17,First Presbyterian Church,$300,Norfolk,VA,business,Event Sponsorship,D,409659,2024-07-15
+expenditure,2024-05-17,"Ingleside Civic League, Inc.",$200,Norfolk,VA,business,Event Sponsorship,D,409659,2024-07-15
+expenditure,2024-05-17,New Calvary Baptist Church,$200,Norfolk,VA,business,Event Tickets,D,409659,2024-07-15
+expenditure,2024-05-18,Harris Teeter,$165.30,Norfolk,VA,business,Event Supplies,D,409659,2024-07-15
+expenditure,2024-05-19,ActBlue,$8.30,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-05-21,Truist,$15,Norfolk,VA,business,Bank Fee,D,409659,2024-07-15
+expenditure,2024-05-23,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-05-29,Later,$18.54,Los Angeles,CA,business,Software,D,409659,2024-07-15
+expenditure,2024-05-29,USPS,$136,Norfolk,VA,business,Postage,D,409659,2024-07-15
+expenditure,2024-05-31,Miyyah Bashir-Davis,$577.18,Richmond,VA,individual,Payroll,D,409659,2024-07-15
+expenditure,2024-05-31,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,409659,2024-07-15
+expenditure,2024-05-31,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,409659,2024-07-15
+expenditure,2024-05-31,Gusto,$153.89,San Francisco,CA,business,Payroll Taxes,D,409659,2024-07-15
+expenditure,2024-05-31,Caroline Willette,$193.94,Virginia Beach,VA,individual,Payroll,D,409659,2024-07-15
+expenditure,2024-06-02,ActBlue,$7.72,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-06-03,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,409659,2024-07-15
+expenditure,2024-06-03,Google LLC,$109.38,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-06-03,Google LLC,$114.26,Mountain View,CA,business,Email Services,D,409659,2024-07-15
+expenditure,2024-06-03,"Quadient Finance USA, Inc.",$166.96,Carol Stream,IL,business,Postage,D,409659,2024-07-15
+expenditure,2024-06-05,Gusto,$70,San Francisco,CA,business,Payment Processing Fees,D,409659,2024-07-15
+expenditure,2024-06-05,Office Depot,$25.96,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-06-06,Democratic Party of Virginia,$500,Richmond,VA,party,Event Tickets,D,409659,2024-07-15
+expenditure,2024-06-07,Office Depot,$123.97,Norfolk,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-06-09,ActBlue,$4.17,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-06-10,Campaign Partner,$49,Still River,MA,business,Website Services,D,409659,2024-07-15
+expenditure,2024-06-14,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,409659,2024-07-15
+expenditure,2024-06-16,ActBlue,$39.50,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-06-17,Mailchimp,$39.50,Atlanta,GA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-06-17,Treasurer of Virginia,$396.98,Richmond,VA,business,Office Supplies,D,409659,2024-07-15
+expenditure,2024-06-17,Elise Vess,$250,Midlothian,VA,individual,Compliance Consulting,D,409659,2024-07-15
+expenditure,2024-06-21,Truist,$15,Norfolk,VA,business,Bank Fee,D,409659,2024-07-15
+expenditure,2024-06-23,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,409659,2024-07-15
+expenditure,2024-06-28,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,409659,2024-07-15
+expenditure,2024-06-28,Later,$18.54,Los Angeles,CA,business,Software,D,409659,2024-07-15
+expenditure,2024-06-30,ActBlue,$1.58,West Somerville,MA,business,Contribution Processing Fees,D,409659,2024-07-15
+expenditure,2024-07-01,Miyyah Bashir-Davis,$577.19,Richmond,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-07-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,436429,2025-04-15
+expenditure,2024-07-01,City of Norfolk,$3,Norfolk,VA,business,Parking,D,436429,2025-04-15
+expenditure,2024-07-01,Gusto,$153.89,San Francisco,CA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-07-01,Todd Jurich's Bistro,$60.87,Norfolk,VA,business,Meeting Expenses,D,436429,2025-04-15
+expenditure,2024-07-01,Caroline Willette,$193.93,Virginia Beach,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-07-02,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,436429,2025-04-15
+expenditure,2024-07-02,Google LLC,$129.60,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-07-02,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-07-03,Gusto,$64,San Francisco,CA,business,Payment Processing Fees,D,436429,2025-04-15
+expenditure,2024-07-05,Doggett Dynamics LLC,"$1,500",Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-07-09,Campaign Partner,$49,Still River,MA,business,Website Services,D,436429,2025-04-15
+expenditure,2024-07-12,Elise Vess,$750,Midlothian,VA,individual,Compliance Consulting,D,436429,2025-04-15
+expenditure,2024-07-14,ActBlue,$44.05,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-07-15,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-07-15,Gusto,$7.37,San Francisco,CA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-07-15,Virginia Scope,$77,Colonial Heights,VA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-07-15,Caroline Willette,$36.94,Virginia Beach,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-07-16,Mailchimp,$33,Atlanta,GA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-07-19,Ann-Frances Lambert for City Council,"$1,000",Richmond,VA,business,Political Donation,D,436429,2025-04-15
+expenditure,2024-07-20,Reck League,$500,Norfolk,VA,business,Event Sponsorship,D,436429,2025-04-15
+expenditure,2024-07-20,Suburban Acres Civic League,$120,Norfolk,VA,business,Newsletter Advertising,D,436429,2025-04-15
+expenditure,2024-07-21,ActBlue,$2.18,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-07-22,Truist,$15,Norfolk,VA,business,Bank Fee,D,436429,2025-04-15
+expenditure,2024-07-23,Delta Air Lines,$716.95,Atlanta,GA,business,Travel Expenses,D,436429,2025-04-15
+expenditure,2024-07-23,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-07-27,Alveta Green For School Board,$500,Virginia Beach,VA,candidate,Political Donation,D,436429,2025-04-15
+expenditure,2024-07-27,Carlos Clanton for Norfolk City Council,"$2,500",Norfolk,VA,business,Political Donation,D,436429,2025-04-15
+expenditure,2024-07-27,Friends of Lakeesha Klu Atkinson,$500,Portsmouth,VA,business,Political Donation,D,436429,2025-04-15
+expenditure,2024-07-27,Wooten 2 Win Campaign,"$1,000",Virginia Beach,VA,business,Political Donation,D,436429,2025-04-15
+expenditure,2024-07-29,Fusion Soul Cafe & Catering LLC,"$1,871.10",Richmond,VA,business,Event Catering,D,436429,2025-04-15
+expenditure,2024-07-29,Later,$18.54,Los Angeles,CA,business,Software,D,436429,2025-04-15
+expenditure,2024-07-31,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-07-31,Office Depot,$25.65,Norfolk,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-08-01,Miyyah Bashir-Davis,$577.19,Richmond,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-08-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,436429,2025-04-15
+expenditure,2024-08-01,Gusto,$153.63,San Francisco,CA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-08-01,Caroline Willette,$193.94,Virginia Beach,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-08-02,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,436429,2025-04-15
+expenditure,2024-08-02,Google LLC,$129.60,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-08-02,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-08-02,Truist,$189.57,Norfolk,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-08-04,ActBlue,$158,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-08-04,The Galt House Hotel,$899.60,Louisville,KY,business,Lodging,D,436429,2025-04-15
+expenditure,2024-08-05,FedEx Office Print & Ship,$37.09,Norfolk,VA,business,Printing,D,436429,2025-04-15
+expenditure,2024-08-05,Gusto,$70,San Francisco,CA,business,Payment Processing Fees,D,436429,2025-04-15
+expenditure,2024-08-06,Doggett Dynamics LLC,$750,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-08-09,Campaign Partner,$49,Still River,MA,business,Website Services,D,436429,2025-04-15
+expenditure,2024-08-11,ActBlue,$0.20,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-08-15,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-08-15,Mailchimp,$33,Atlanta,GA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-08-15,Women's Caucus of the Democratic Party of Virginia,$20,Richmond,VA,party,Political Donation,D,436429,2025-04-15
+expenditure,2024-08-16,Huntersville Group Inc,$250,Norfolk,VA,business,Event Sponsorship,D,436429,2025-04-15
+expenditure,2024-08-18,ActBlue,$6.92,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-08-21,Truist,$15,Norfolk,VA,business,Bank Fee,D,436429,2025-04-15
+expenditure,2024-08-21,Virginia Employment Commission,$632.10,Richmond,VA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-08-21,Virginia Employment Commission,$851.21,Richmond,VA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-08-22,Curated Events Chesapeake,"$2,601",Chesapeake,VA,business,Event Supplies,D,436429,2025-04-15
+expenditure,2024-08-22,Hampton Democratic Committee,$80,Hampton,VA,business,Event Tickets,D,436429,2025-04-15
+expenditure,2024-08-25,ActBlue,$15.03,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-08-26,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-08-29,Beacon Light Civic League,$250,Norfolk,VA,business,Event Sponsorship,D,436429,2025-04-15
+expenditure,2024-08-29,Economy Printing,$478.06,Portsmouth,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-08-29,Later,$18.54,Los Angeles,CA,business,Software,D,436429,2025-04-15
+expenditure,2024-08-30,Miyyah Bashir-Davis,$79.92,Richmond,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-08-30,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,436429,2025-04-15
+expenditure,2024-08-30,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-08-30,Dynasty Productions LLC,$51.75,North Chesterfield,VA,business,Event Entertainment,D,436429,2025-04-15
+expenditure,2024-08-30,Gusto,$61.93,San Francisco,CA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-08-30,"Virginia Third Ecclesiastical Jurisdiction, COGIC",$100,Norfolk,VA,business,Event Sponsorship,D,436429,2025-04-15
+expenditure,2024-08-30,Caroline Willette,$230.87,Virginia Beach,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-09-01,ActBlue,$108.23,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-09-03,Economy Printing,$46.64,Portsmouth,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-09-03,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,436429,2025-04-15
+expenditure,2024-09-03,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-09-03,Google LLC,$129.60,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-09-03,Gusto,$64,San Francisco,CA,business,Payment Processing Fees,D,436429,2025-04-15
+expenditure,2024-09-05,Elise Vess,$250,Midlothian,VA,individual,Compliance Consulting,D,436429,2025-04-15
+expenditure,2024-09-06,Doggett Dynamics LLC,"$2,250",Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-09-08,ActBlue,$39.50,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-09-09,Campaign Partner,$49,Still River,MA,business,Website Services,D,436429,2025-04-15
+expenditure,2024-09-09,Curated Events Chesapeake,$624.62,Chesapeake,VA,business,Event Supplies,D,436429,2025-04-15
+expenditure,2024-09-11,Shark City Drum Corp,$250,Norfolk,VA,business,Donation,D,436429,2025-04-15
+expenditure,2024-09-11,Street Works,$250,Nashville,TN,business,Donation,D,436429,2025-04-15
+expenditure,2024-09-13,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-09-15,ActBlue,$150.12,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-09-16,Mailchimp,$33,Atlanta,GA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-09-16,Office Depot,$8.55,Norfolk,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-09-16,VA ABC,$238.44,Norfolk,VA,business,Event Beverages,D,436429,2025-04-15
+expenditure,2024-09-17,Redwood Smoke Shack,$506.25,Norfolk,VA,business,Event Catering,D,436429,2025-04-15
+expenditure,2024-09-18,FedEx Office Print & Ship,$13.89,Norfolk,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-09-18,VA ABC,$143.06,Norfolk,VA,business,Event Beverages,D,436429,2025-04-15
+expenditure,2024-09-19,Dynasty Productions LLC,$463.35,North Chesterfield,VA,business,Event Entertainment,D,436429,2025-04-15
+expenditure,2024-09-19,Jerry's Artarama of Virginia Beach,$114.64,Virginia Beach,VA,business,Framing,D,436429,2025-04-15
+expenditure,2024-09-19,Walmart,$15.39,Norfolk,VA,business,Event Supplies,D,436429,2025-04-15
+expenditure,2024-09-22,ActBlue,$98.96,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-09-23,McGirtVideoPhotography,$918.75,Chesapeake,VA,business,Photography & Video Services,D,436429,2025-04-15
+expenditure,2024-09-23,Truist,$15,Norfolk,VA,business,Bank Fee,D,436429,2025-04-15
+expenditure,2024-09-24,Nadarius Clark for Delegate,$75,Suffolk,VA,candidate,Political Donation,D,436429,2025-04-15
+expenditure,2024-09-25,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-09-26,Virginia Legislative Black Caucus,"$4,000",Richmond,VA,business,Dues,D,436429,2025-04-15
+expenditure,2024-09-29,ActBlue,$0.99,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-09-30,ActBlue,$197.50,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-09-30,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-09-30,Later,$18.54,Los Angeles,CA,business,Software,D,436429,2025-04-15
+expenditure,2024-10-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,436429,2025-04-15
+expenditure,2024-10-01,Gusto,$45.99,San Francisco,CA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-10-01,Caroline Willette,$230.88,Virginia Beach,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-10-02,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,436429,2025-04-15
+expenditure,2024-10-02,Google LLC,$133.20,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-10-02,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-10-03,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,436429,2025-04-15
+expenditure,2024-10-03,Gusto,$64,San Francisco,CA,business,Payment Processing Fees,D,436429,2025-04-15
+expenditure,2024-10-04,Doggett Dynamics LLC,"$2,250",Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-10-04,Virginia Senate Democratic Caucus.,"$5,000",Richmond,VA,party,Dues,D,436429,2025-04-15
+expenditure,2024-10-05,Norfolk City Democratic Committee,"$1,000",Norfolk,VA,business,Event Sponsorship,D,436429,2025-04-15
+expenditure,2024-10-09,Campaign Partner,$49,Still River,MA,business,Website Services,D,436429,2025-04-15
+expenditure,2024-10-10,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,436429,2025-04-15
+expenditure,2024-10-15,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-10-16,Mailchimp,$33,Atlanta,GA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-10-20,ActBlue,$0.20,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-10-22,Truist,$22.50,Norfolk,VA,business,Bank Fee,D,436429,2025-04-15
+expenditure,2024-10-23,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-10-23,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,436429,2025-04-15
+expenditure,2024-10-27,ActBlue,$0.99,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-10-29,Later,$18.54,Los Angeles,CA,business,Software,D,436429,2025-04-15
+expenditure,2024-10-31,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-11-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,436429,2025-04-15
+expenditure,2024-11-01,Clinton4Virginia,"$1,000",Suffolk,VA,business,Political Donation,D,436429,2025-04-15
+expenditure,2024-11-01,FedEx Office Print & Ship,$29.66,Norfolk,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-11-01,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-11-01,Google LLC,$151.20,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-11-01,Gusto,$46.01,San Francisco,CA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-11-01,Caroline Willette,$230.87,Virginia Beach,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-11-04,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,436429,2025-04-15
+expenditure,2024-11-04,Gusto,$64,San Francisco,CA,business,Payment Processing Fees,D,436429,2025-04-15
+expenditure,2024-11-04,Indeed,$100,Austin,TX,business,Hiring Software,D,436429,2025-04-15
+expenditure,2024-11-12,Campaign Partner,$49,Still River,MA,business,Website Services,D,436429,2025-04-15
+expenditure,2024-11-12,"StreamYard, Inc.",$44.99,New York,NY,business,Subscription,D,436429,2025-04-15
+expenditure,2024-11-13,Alfreda Thomas,"$1,000",Norfolk,VA,business,Political Donation,D,436429,2025-04-15
+expenditure,2024-11-13,New Hope Church of God in Christ,$120,Norfolk,VA,business,Event Tickets,D,436429,2025-04-15
+expenditure,2024-11-15,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-11-15,Kannan for Delegate,"$1,000",Ashburn,VA,candidate,Political Donation,D,436429,2025-04-15
+expenditure,2024-11-15,Mailchimp,$33,Atlanta,GA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-11-17,ActBlue,$7.56,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-11-17,YOURS Ministry,$500,Norfolk,VA,business,Event Sponsorship,D,436429,2025-04-15
+expenditure,2024-11-21,Extra Space Storage,$198,Norfolk,VA,business,Storage,D,436429,2025-04-15
+expenditure,2024-11-21,Extra Space Storage,$11,Norfolk,VA,business,Storage,D,436429,2025-04-15
+expenditure,2024-11-21,Truist,$16.20,Norfolk,VA,business,Bank Fee,D,436429,2025-04-15
+expenditure,2024-11-25,Stamps.com,$17.99,El Segundo,CA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-11-26,Treasurer of Virginia,$98,Richmond,VA,business,Parking,D,436429,2025-04-15
+expenditure,2024-11-29,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,436429,2025-04-15
+expenditure,2024-11-29,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-11-29,Gusto,$45.99,San Francisco,CA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-11-29,Later,$18.54,Los Angeles,CA,business,Software,D,436429,2025-04-15
+expenditure,2024-11-29,"StreamYard, Inc.",$44.99,New York,NY,business,Subscription,D,436429,2025-04-15
+expenditure,2024-11-29,Caroline Willette,$230.88,Virginia Beach,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-12-01,ActBlue,$0.99,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-12-02,Google LLC,$151.20,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-12-02,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,436429,2025-04-15
+expenditure,2024-12-04,Doggett Dynamics LLC,"$2,250",Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-12-04,Gusto,$58,San Francisco,CA,business,Payment Processing Fees,D,436429,2025-04-15
+expenditure,2024-12-05,"EveryAction, Inc.",$250,Washington,DC,business,Software,D,436429,2025-04-15
+expenditure,2024-12-06,Commonwealth Victory Fund,"$1,063.52",Richmond,VA,business,Contribution,D,436429,2025-04-15
+expenditure,2024-12-06,FedEx Office Print & Ship,$18.82,Norfolk,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-12-06,Virginia Senate Democratic Caucus.,"$10,000",Richmond,VA,party,Contribution,D,436429,2025-04-15
+expenditure,2024-12-08,ActBlue,$82.95,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-12-09,Campaign Partner,$49,Still River,MA,business,Website Services,D,436429,2025-04-15
+expenditure,2024-12-09,Norfolk Public Library,$925,Norfolk,VA,business,Event Venue Rental,D,436429,2025-04-15
+expenditure,2024-12-10,Cox Media,"$2,500",Atlanta,GA,business,Advertising,D,436429,2025-04-15
+expenditure,2024-12-10,Four Points by Sheraton,$158.46,Richmond,VA,business,Lodging,D,436429,2025-04-15
+expenditure,2024-12-10,Four Points by Sheraton,$161.63,Richmond,VA,business,Lodging,D,436429,2025-04-15
+expenditure,2024-12-10,The Heroic Chef and Associates LLC,"$3,000",Norfolk,VA,business,Event Catering,D,436429,2025-04-15
+expenditure,2024-12-10,Elise Vess,$250,Midlothian,VA,individual,Compliance Consulting,D,436429,2025-04-15
+expenditure,2024-12-12,"Compassion Advocacy Network, Inc.",$250,Norfolk,VA,business,Donation,D,436429,2025-04-15
+expenditure,2024-12-12,Dollar Tree,$10.60,Virginia Beach,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-12-12,VisitNorfolk,$530,Norfolk,VA,business,Event Supplies,D,436429,2025-04-15
+expenditure,2024-12-13,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-12-15,ActBlue,$4.43,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-12-16,Lindsey Anderson,$277.05,Portsmouth,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2024-12-16,Lindsey Anderson,$700,Portsmouth,VA,individual,Payroll Stipends,D,436429,2025-04-15
+expenditure,2024-12-16,Gusto,$55.20,San Francisco,CA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-12-16,Mailchimp,$33,Atlanta,GA,business,Subscription,D,436429,2025-04-15
+expenditure,2024-12-19,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,436429,2025-04-15
+expenditure,2024-12-20,Economy Printing,$212.84,Portsmouth,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-12-20,Office Depot,$72.59,Norfolk,VA,business,Office Supplies,D,436429,2025-04-15
+expenditure,2024-12-20,Walmart,$137.06,Norfolk,VA,business,Event Supplies,D,436429,2025-04-15
+expenditure,2024-12-22,ActBlue,$4.03,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-12-23,Truist,$15,Norfolk,VA,business,Bank Fee,D,436429,2025-04-15
+expenditure,2024-12-29,ActBlue,$1.27,West Somerville,MA,business,Contribution Processing Fees,D,436429,2025-04-15
+expenditure,2024-12-30,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,436429,2025-04-15
+expenditure,2024-12-30,Later,$18.54,Los Angeles,CA,business,Software,D,436429,2025-04-15
+expenditure,2024-12-31,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,436429,2025-04-15
+expenditure,2024-12-31,Friends of JJ Singh,"$1,000",Ashburn,VA,business,Political Donation,D,436429,2025-04-15
+expenditure,2024-12-31,Gusto,$46.01,San Francisco,CA,business,Payroll Taxes,D,436429,2025-04-15
+expenditure,2024-12-31,"StreamYard, Inc.",$44.99,New York,NY,business,Subscription,D,436429,2025-04-15
+expenditure,2024-12-31,Caroline Willette,$230.87,Virginia Beach,VA,individual,Payroll,D,436429,2025-04-15
+expenditure,2025-01-01,NGP VAN Inc.,$250,Washington,DC,business,Software,D,448102,2025-07-15
+expenditure,2025-01-02,Abstrak Global LLC,"$2,020.50",Norfolk,VA,business,Video Production,D,448102,2025-07-15
+expenditure,2025-01-02,Google LLC,$151.20,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-01-02,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-01-03,Gusto,$70,San Francisco,CA,business,Payment Processing Fees,D,448102,2025-07-15
+expenditure,2025-01-05,ActBlue,$25.35,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-01-06,Domino's,$48.56,Norfolk,VA,business,Meals for Staff,D,448102,2025-07-15
+expenditure,2025-01-07,1-800-Flowers.com,$73.11,Jericho,NY,business,Flowers,D,448102,2025-07-15
+expenditure,2025-01-08,Campaign Partner,$49,Still River,MA,business,Website Services,D,448102,2025-07-15
+expenditure,2025-01-09,Doggett Dynamics LLC,"$3,750",Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-01-09,HomeGoods,$84.80,Glen Allen,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-01-10,Airbnb,"$1,000",San Francisco,CA,business,Lodging,D,448102,2025-07-15
+expenditure,2025-01-10,Office Depot,$41.51,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-01-10,Office Depot,$58.81,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-01-12,ActBlue,$43.45,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-01-13,Delta Hotels,$530.22,Richmond,VA,business,Lodging,D,448102,2025-07-15
+expenditure,2025-01-15,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-01-15,Mailchimp,$33,Atlanta,GA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-01-16,Zoom,$16.79,San Jose,CA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-01-16,Zoom,$82.95,San Jose,CA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-01-21,Truist,$23.98,Norfolk,VA,business,Bank Fee,D,448102,2025-07-15
+expenditure,2025-01-27,VCU Massey Comprehensive Cancer Center,$250,Richmond,VA,business,Donation,D,448102,2025-07-15
+expenditure,2025-01-29,Later,$18.54,Los Angeles,CA,business,Software,D,448102,2025-07-15
+expenditure,2025-01-29,Elise Vess,"$1,750",Midlothian,VA,individual,Compliance Consulting,D,448102,2025-07-15
+expenditure,2025-01-31,Lindsey Anderson,$292.45,Portsmouth,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-01-31,Lindsey Anderson,$350,Portsmouth,VA,individual,Payroll Stipends,D,448102,2025-07-15
+expenditure,2025-01-31,Taneisha Burton,"$1,195",Norfolk,VA,individual,Administrative Consulting,D,448102,2025-07-15
+expenditure,2025-01-31,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-01-31,Gusto,$90.67,San Francisco,CA,business,Payroll Taxes,D,448102,2025-07-15
+expenditure,2025-01-31,"StreamYard, Inc.",$44.99,New York,NY,business,Subscription,D,448102,2025-07-15
+expenditure,2025-01-31,Target,$14.49,Norfolk,VA,business,Event Supplies,D,448102,2025-07-15
+expenditure,2025-01-31,Caroline Willette,$230.87,Virginia Beach,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-02-03,Google LLC,$164.42,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-02-03,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-02-04,Gusto,$115,San Francisco,CA,business,Payment Processing Fees,D,448102,2025-07-15
+expenditure,2025-02-04,Treasurer of Virginia,$499,Richmond,VA,business,Photography & Framing,D,448102,2025-07-15
+expenditure,2025-02-05,"Amazon.com, Inc.",$171.47,Seattle,WA,business,Food and Supplies for Food Pantry Donation,D,448102,2025-07-15
+expenditure,2025-02-05,"Amazon.com, Inc.",$15.14,Seattle,WA,business,Food and Supplies for Food Pantry Donation,D,448102,2025-07-15
+expenditure,2025-02-06,"Amazon.com, Inc.",$34.79,Seattle,WA,business,Food and Supplies for Food Pantry Donation,D,448102,2025-07-15
+expenditure,2025-02-06,"Amazon.com, Inc.",$18.41,Seattle,WA,business,Food and Supplies for Food Pantry Donation,D,448102,2025-07-15
+expenditure,2025-02-06,"Amazon.com, Inc.",$211.25,Seattle,WA,business,Food and Supplies for Food Pantry Donation,D,448102,2025-07-15
+expenditure,2025-02-06,NGP VAN Inc.,$250,Washington,DC,business,Software,D,448102,2025-07-15
+expenditure,2025-02-06,Zoom,$16.79,San Jose,CA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-02-10,Campaign Partner,$49,Still River,MA,business,Website Services,D,448102,2025-07-15
+expenditure,2025-02-11,Kroger,$10.10,Richmond,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-02-11,Pat's Florist,$63.60,Richmond,VA,business,Flowers,D,448102,2025-07-15
+expenditure,2025-02-14,Doggett Dynamics LLC,$150,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-02-18,"Amazon.com, Inc.",$22,Seattle,WA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-02-18,Mailchimp,$33,Atlanta,GA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-02-18,USPS,$192,Norfolk,VA,business,PO Box Rental,D,448102,2025-07-15
+expenditure,2025-02-18,Virginia Senate Democratic Caucus.,"$5,000",Richmond,VA,party,Dues,D,448102,2025-07-15
+expenditure,2025-02-21,Truist,$15,Norfolk,VA,business,Bank Fee,D,448102,2025-07-15
+expenditure,2025-02-27,"StreamYard, Inc.",$44.99,New York,NY,business,Subscription,D,448102,2025-07-15
+expenditure,2025-02-28,Lindsey Anderson,$292.44,Portsmouth,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-02-28,Lindsey Anderson,$350,Portsmouth,VA,individual,Payroll Stipends,D,448102,2025-07-15
+expenditure,2025-02-28,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,448102,2025-07-15
+expenditure,2025-02-28,Doggett Dynamics LLC,$150,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-02-28,Gusto,$90.67,San Francisco,CA,business,Payroll Taxes,D,448102,2025-07-15
+expenditure,2025-02-28,Caroline Willette,$230.88,Virginia Beach,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-03-02,ActBlue,$10.71,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-03-03,Google LLC,$172.80,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-03-03,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-03-03,Later,$18.54,Los Angeles,CA,business,Software,D,448102,2025-07-15
+expenditure,2025-03-03,NGP VAN Inc.,$250,Washington,DC,business,Software,D,448102,2025-07-15
+expenditure,2025-03-04,Friends of Don Scott,$600,Portsmouth,VA,business,Political Contribution,D,448102,2025-07-15
+expenditure,2025-03-04,Gusto,$64,San Francisco,CA,business,Payment Processing Fees,D,448102,2025-07-15
+expenditure,2025-03-04,Stop the Violence 757 Inc.,"$1,000",Chesapeake,VA,business,Event Sponsorship,D,448102,2025-07-15
+expenditure,2025-03-04,Suburban Acres Civic League,$550,Norfolk,VA,business,Newsletter Advertising,D,448102,2025-07-15
+expenditure,2025-03-05,"Portsmouth Alumnae Chapter Delta Sigma Theta Sorority, Inc.",$75,Portsmouth,VA,business,Event Ticket,D,448102,2025-07-15
+expenditure,2025-03-05,Zoom,$16.79,San Jose,CA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-03-06,"Meriwether Godsey, Inc",$597.63,Richmond,VA,business,Event Catering,D,448102,2025-07-15
+expenditure,2025-03-10,Campaign Partner,$49,Still River,MA,business,Website Services,D,448102,2025-07-15
+expenditure,2025-03-10,Office Depot,$73,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-03-11,Taneisha Burton,$450,Norfolk,VA,individual,Administrative Consulting,D,448102,2025-07-15
+expenditure,2025-03-11,Treasurer of Virginia,$560,Richmond,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-03-11,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,448102,2025-07-15
+expenditure,2025-03-12,Hampton Roads Young Democrats,$500,Norfolk,VA,business,Event Sponsorship,D,448102,2025-07-15
+expenditure,2025-03-12,YWCA South Hampton Roads,$750,Norfolk,VA,business,Event Sponsorship,D,448102,2025-07-15
+expenditure,2025-03-13,Friends of John JP Paige,"$1,500",Norfolk,VA,business,Political Contribution,D,448102,2025-07-15
+expenditure,2025-03-13,Jay Jones for Virginia,$500,Arlington,VA,business,Political Contribution,D,448102,2025-07-15
+expenditure,2025-03-14,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-03-16,ActBlue,$8.89,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-03-17,Mailchimp,$39.50,Atlanta,GA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-03-19,Social Butterflies Foundation,$344.95,Newport News,VA,business,Event Sponsorship,D,448102,2025-07-15
+expenditure,2025-03-21,Curated Events Chesapeake,"$4,542.04",Chesapeake,VA,business,Event Expenses,D,448102,2025-07-15
+expenditure,2025-03-21,Truist,$15,Norfolk,VA,business,Bank Fee,D,448102,2025-07-15
+expenditure,2025-03-23,ActBlue,$72.10,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-03-24,National Name Badge,$64.79,Tarentum,PA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-03-26,Elite Audio+Visual Elements Inc.,$315,Chesapeake,VA,business,Event Expenses,D,448102,2025-07-15
+expenditure,2025-03-26,Isha Foss Design,$318,Virginia Beach,VA,business,Event Expenses,D,448102,2025-07-15
+expenditure,2025-03-26,Jerry's Artarama of Virginia Beach,$83.87,Virginia Beach,VA,business,Framing,D,448102,2025-07-15
+expenditure,2025-03-26,Office Depot,$5.08,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-03-28,FedEx Office Print & Ship,$214.32,Norfolk,VA,business,Office Supplies & Printing,D,448102,2025-07-15
+expenditure,2025-03-28,Later,$18.54,Los Angeles,CA,business,Software,D,448102,2025-07-15
+expenditure,2025-03-28,Signarama of Norfolk,$449.77,Norfolk,VA,business,Banners and Signs,D,448102,2025-07-15
+expenditure,2025-03-28,"StreamYard, Inc.",$44.99,New York,NY,business,Subscription,D,448102,2025-07-15
+expenditure,2025-03-30,ActBlue,$128.98,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-03-31,"Amazon.com, Inc.",$5.53,Seattle,WA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-03-31,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-03-31,Rouse for Virginia,$500,Virginia Beach,VA,business,Political Contribution,D,448102,2025-07-15
+expenditure,2025-04-01,Lindsey Anderson,$292.44,Portsmouth,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-04-01,Lindsey Anderson,$350,Portsmouth,VA,individual,Payroll Stipends,D,448102,2025-07-15
+expenditure,2025-04-01,Lisa Barnes,"$1,534.93",Chesapeake,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-04-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,448102,2025-07-15
+expenditure,2025-04-01,Gusto,"$2,059.06",San Francisco,CA,business,Payroll Taxes,D,448102,2025-07-15
+expenditure,2025-04-01,Caroline Willette,"$4,304.08",Virginia Beach,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-04-02,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-04-02,Google LLC,$172.80,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-04-02,Gusto,$85,San Francisco,CA,business,Payment Processing Fees,D,448102,2025-07-15
+expenditure,2025-04-02,NGP VAN Inc.,$250,Washington,DC,business,Software,D,448102,2025-07-15
+expenditure,2025-04-04,Taneisha Burton,"$1,000",Norfolk,VA,individual,Administrative Consulting,D,448102,2025-07-15
+expenditure,2025-04-06,ActBlue,$19.75,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-04-06,Zoom,$16.79,San Jose,CA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-04-07,McQuinn For the 81st District House Of Delegates,$500,Henrico,VA,business,Political Contribution,D,448102,2025-07-15
+expenditure,2025-04-09,Campaign Partner,$49,Still River,MA,business,Website Services,D,448102,2025-07-15
+expenditure,2025-04-09,Digital Image House,$450,Glen Allen,VA,business,Photography,D,448102,2025-07-15
+expenditure,2025-04-09,Doggett Dynamics LLC,$750,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-04-09,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,448102,2025-07-15
+expenditure,2025-04-11,Diggs Ink,$79.50,Chesapeake,VA,business,Printing & Event Supplies,D,448102,2025-07-15
+expenditure,2025-04-15,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-04-16,Mailchimp,$39.50,Atlanta,GA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-04-16,Office Depot,$33.79,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-04-16,Office Depot,$108.60,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-04-16,Office Depot,$32.31,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-04-18,Office Depot,$29.52,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-04-20,ActBlue,$0.20,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-04-21,Truist,$15,Norfolk,VA,business,Bank Fee,D,448102,2025-07-15
+expenditure,2025-04-23,FedEx Office Print & Ship,$199.28,Norfolk,VA,business,Office Supplies & Printing,D,448102,2025-07-15
+expenditure,2025-04-23,Office Depot,$4.55,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-04-24,Citizens Learning & Educating About Neighborhoods,$580,Norfolk,VA,business,Event Sponsorship,D,448102,2025-07-15
+expenditure,2025-04-24,Office Depot,$21.40,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-04-26,EMILYs List,$35,Washington,DC,business,Donation,D,448102,2025-07-15
+expenditure,2025-04-27,ActBlue,$0.99,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-04-29,Later,$18.54,Los Angeles,CA,business,Software,D,448102,2025-07-15
+expenditure,2025-04-30,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-05-01,Lindsey Anderson,$292.45,Portsmouth,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-05-01,Lindsey Anderson,$350,Portsmouth,VA,individual,Payroll Stipends,D,448102,2025-07-15
+expenditure,2025-05-01,Lisa Barnes,"$1,535.24",Chesapeake,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-05-01,Taneisha Burton,$300,Norfolk,VA,individual,Administrative Consulting,D,448102,2025-07-15
+expenditure,2025-05-01,Gusto,$420.65,San Francisco,CA,business,Payroll Taxes,D,448102,2025-07-15
+expenditure,2025-05-01,"StreamYard, Inc.",$44.99,New York,NY,business,Subscription,D,448102,2025-07-15
+expenditure,2025-05-02,Google LLC,$151.92,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-05-02,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-05-02,Gusto,$79,San Francisco,CA,business,Payment Processing Fees,D,448102,2025-07-15
+expenditure,2025-05-02,NGP VAN Inc.,$250,Washington,DC,business,Software,D,448102,2025-07-15
+expenditure,2025-05-05,Taneisha Burton,"$1,000",Norfolk,VA,individual,Administrative Consulting,D,448102,2025-07-15
+expenditure,2025-05-05,Doggett Dynamics LLC,"$2,250",Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-05-06,Jerry's Artarama of Virginia Beach,$43.23,Virginia Beach,VA,business,Framing,D,448102,2025-07-15
+expenditure,2025-05-06,Jerry's Artarama of Virginia Beach,$238.93,Virginia Beach,VA,business,Framing,D,448102,2025-07-15
+expenditure,2025-05-06,Zoom,$16.79,San Jose,CA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-05-07,Communities In Schools of Hampton Roads,$528.51,Portsmouth,VA,business,Donation,D,448102,2025-07-15
+expenditure,2025-05-07,Impact VA Incorporated,$250,Norfolk,VA,business,Donation,D,448102,2025-07-15
+expenditure,2025-05-07,"Norfolk Alumnae Chapter Delta Sigma Theta Sorority, Inc.",$264.41,Norfolk,VA,business,Donation,D,448102,2025-07-15
+expenditure,2025-05-07,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,448102,2025-07-15
+expenditure,2025-05-08,Campaign Partner,$49,Still River,MA,business,Website Services,D,448102,2025-07-15
+expenditure,2025-05-08,Wizard Pins,$353.78,Attleboro,MA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-05-09,Four Points by Sheraton,$50.20,Richmond,VA,business,Meeting Expenses,D,448102,2025-07-15
+expenditure,2025-05-11,ActBlue,$39.50,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-05-12,Belinda Florist,$72.75,Norfolk,VA,business,Flowers,D,448102,2025-07-15
+expenditure,2025-05-15,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-05-15,First Calvary Baptist Church,$145,Norfolk,VA,business,Donation,D,448102,2025-07-15
+expenditure,2025-05-16,Mailchimp,$39.50,Atlanta,GA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-05-18,ActBlue,$0.20,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-05-19,"Pocket Aces Consulting, LLC","$12,833.88",Fairfax,VA,business,Mail Production & Postage,D,448102,2025-07-15
+expenditure,2025-05-21,Truist,$15,Norfolk,VA,business,Bank Fee,D,448102,2025-07-15
+expenditure,2025-05-22,Office Depot,$39.28,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-05-22,Office Depot,$14.19,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-05-22,Office Depot,$50.84,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-05-22,Office Depot,$522.81,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-05-27,Larchmont Edgewater Civic League,$250,Norfolk,VA,business,Event Sponsorship,D,448102,2025-07-15
+expenditure,2025-05-28,Teens With a Purpose,"$1,000",Norfolk,VA,business,Event Sponsorship,D,448102,2025-07-15
+expenditure,2025-05-29,Later,$18.54,Los Angeles,CA,business,Software,D,448102,2025-07-15
+expenditure,2025-05-29,Phil for VA,"$2,500",Norfolk,VA,business,Political Contribution,D,448102,2025-07-15
+expenditure,2025-05-30,Lindsey Anderson,$292.44,Portsmouth,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-05-30,Lindsey Anderson,$350,Portsmouth,VA,individual,Payroll Stipends,D,448102,2025-07-15
+expenditure,2025-05-30,Lisa Barnes,"$1,535.25",Chesapeake,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-05-30,Taneisha Burton,$800,Norfolk,VA,individual,Administrative Consulting,D,448102,2025-07-15
+expenditure,2025-05-30,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-05-30,Gusto,$420.65,San Francisco,CA,business,Payroll Taxes,D,448102,2025-07-15
+expenditure,2025-05-30,"StreamYard, Inc.",$44.99,New York,NY,business,Subscription,D,448102,2025-07-15
+expenditure,2025-06-01,ActBlue,$0.99,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-01,Google LLC,$86.40,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-06-01,Google LLC,$153.28,Mountain View,CA,business,Email Services,D,448102,2025-07-15
+expenditure,2025-06-02,Belinda Florist,$187.40,Norfolk,VA,business,Flowers,D,448102,2025-07-15
+expenditure,2025-06-02,NGP VAN Inc.,$250,Washington,DC,business,Software,D,448102,2025-07-15
+expenditure,2025-06-03,Norfolk Branch NAACP,$30,Norfolk,VA,business,Membership Dues,D,448102,2025-07-15
+expenditure,2025-06-04,Doggett Dynamics LLC,$750,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-06-04,Gusto,$79,San Francisco,CA,business,Payment Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-05,Zoom,$17.84,San Jose,CA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-06-06,Elise Vess,$500,Midlothian,VA,individual,Compliance Consulting,D,448102,2025-07-15
+expenditure,2025-06-08,NGP VAN Inc.,$109.36,Washington,DC,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-09,Boss Queens Soul Cafe,$31.20,Norfolk,VA,business,Meeting Expenses,D,448102,2025-07-15
+expenditure,2025-06-09,Campaign Partner,$49,Still River,MA,business,Website Services,D,448102,2025-07-15
+expenditure,2025-06-09,NGP VAN Inc.,$16.83,Washington,DC,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-10,NGP VAN Inc.,$5.18,Washington,DC,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-11,NGP VAN Inc.,$8.42,Washington,DC,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-12,NGP VAN Inc.,$8.42,Washington,DC,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-12,Treasurer of Virginia,$560,Richmond,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-06-13,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-06-13,Gusto,$30.24,San Francisco,CA,business,Payroll Taxes,D,448102,2025-07-15
+expenditure,2025-06-13,Ayla Reddix,$174.54,Virginia Beach,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-06-15,ActBlue,$0.24,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-16,Mailchimp,$39.50,Atlanta,GA,business,Subscription,D,448102,2025-07-15
+expenditure,2025-06-16,NGP VAN Inc.,$32.50,Washington,DC,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-20,FedEx Office Print & Ship,$29.66,Norfolk,VA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-06-20,National Name Badge,$36.39,Tarentum,PA,business,Office Supplies,D,448102,2025-07-15
+expenditure,2025-06-21,Delta Hotels,$424.42,Richmond,VA,business,Lodging,D,448102,2025-07-15
+expenditure,2025-06-21,Virginia Young Democrats,$125,Richmond,VA,business,Event Ticket,D,448102,2025-07-15
+expenditure,2025-06-22,ActBlue,$39.50,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-23,"EnvisionLeadGrow, Inc.","$1,543.80",Norfolk,VA,business,Event Sponsorship,D,448102,2025-07-15
+expenditure,2025-06-23,Truist,$15,Norfolk,VA,business,Bank Fee,D,448102,2025-07-15
+expenditure,2025-06-23,Women's Caucus of the Democratic Party of Virginia,"$1,000",Richmond,VA,party,Event Sponsorship,D,448102,2025-07-15
+expenditure,2025-06-24,Virginia State Conference NAACP,"$1,040",Richmond,VA,business,Donation,D,448102,2025-07-15
+expenditure,2025-06-30,ActBlue,$7.90,West Somerville,MA,business,Contribution Processing Fees,D,448102,2025-07-15
+expenditure,2025-06-30,Taneisha Burton,$800,Norfolk,VA,individual,Administrative Consulting,D,448102,2025-07-15
+expenditure,2025-06-30,Doggett Dynamics LLC,$600,Glen Allen,VA,business,Fundraising Consulting,D,448102,2025-07-15
+expenditure,2025-06-30,Gusto,$66.65,San Francisco,CA,business,Payroll Taxes,D,448102,2025-07-15
+expenditure,2025-06-30,Later,$18.54,Los Angeles,CA,business,Software,D,448102,2025-07-15
+expenditure,2025-06-30,"Pocket Aces Consulting, LLC","$7,367.88",Fairfax,VA,business,Mail Production & Postage,D,448102,2025-07-15
+expenditure,2025-06-30,Ayla Reddix,$381.91,Virginia Beach,VA,individual,Payroll,D,448102,2025-07-15
+expenditure,2025-06-30,"StreamYard, Inc.",$44.99,New York,NY,business,Subscription,D,448102,2025-07-15
 expenditure,2025-07-01,Lindsey Anderson,$292.45,Portsmouth,VA,individual,Payroll,D,479544,2026-01-15
 expenditure,2025-07-01,Lindsey Anderson,$350,Portsmouth,VA,individual,Payroll Stipends,D,479544,2026-01-15
 expenditure,2025-07-01,Lisa Barnes,"$1,535.24",Chesapeake,VA,individual,Payroll,D,479544,2026-01-15
