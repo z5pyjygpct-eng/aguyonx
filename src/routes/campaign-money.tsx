@@ -56,7 +56,7 @@ function Page() {
       <main className="agx-dark flex-1 bg-navy-800 text-white">
         <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
           <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-[#164A3A]" />
-          <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8">
+          <div className="mx-auto w-full max-w-7xl px-4 pt-6 pb-10 sm:px-6">
             <Breadcrumbs
               items={[
                 { label: "General Assembly", to: "/dashboards/general-assembly" },
@@ -76,7 +76,7 @@ function Page() {
             </p>
           </div>
         </section>
-        <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">
+        <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6">
           <CampaignMoneyLookup initialQuery={q ?? ""} initialKind={office ?? "all"} localityId={locality} />
 
           {donor ? <div className="mt-8"><DonorView donorId={donor} /></div> : null}
