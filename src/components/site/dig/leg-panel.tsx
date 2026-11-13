@@ -1,7 +1,8 @@
 import { useMemo } from "react";
 import { OUT_COLOR, OUT_LABEL, VOTE_COLOR } from "@/components/site/party-compare-charts";
 import { BarList, Card, Columns, Ext, MoreList, NotCollected, PARTY_COLOR, PARTY_NAME, Stat, StackBars, dateLabel, money } from "./ui";
-import type { Filters, Leg, RollCallFile } from "./types";
+import { MoneySearch } from "./money-search";
+import type { Filters, Leg, MoneyQ, RollCallFile } from "./types";
 
 const CF = "https://cfreports.elections.virginia.gov";
 const CHAMBER = { house: "House of Delegates", senate: "Senate of Virginia" } as const;
@@ -24,7 +25,7 @@ export function legYears(l: Leg) {
   return [...s];
 }
 
-export function LegPanel({ leg: l, rc, f, wide = false }: { leg: Leg; rc: RollCallFile; f: Filters; wide?: boolean }) {
+export function LegPanel({ leg: l, rc, f, wide = false, mq }: { leg: Leg; rc: RollCallFile; f: Filters; wide?: boolean; mq?: MoneyQ }) {
   const year = f.year, cat = f.cat;
   const title = `${l.chamber === "house" ? "Del." : "Sen."} ${l.name}`;
   const anchor = (s: string) => `${l.slug}-${s}`;
@@ -66,7 +67,7 @@ export function LegPanel({ leg: l, rc, f, wide = false }: { leg: Leg; rc: RollCa
   const news = l.news.filter((n) => !year || n.d.startsWith(year));
   const lisAsOf = <>Source: {LIS}, <Ext href="https://lis.virginia.gov">lis.virginia.gov</Ext>, 2026 Regular Session and 2026 Special Session I. Roster data as of {dateLabel(l.asOf)}.</>;
   const catNote = <>Topic labels are <b className="text-white">aguyonx categories</b>: editorial groupings assigned by fixed keyword rules from each measure's official LIS title (an official LIS subject is used where one exists). They are not stances.</>;
-  const moneyCoverage = m ? <>Source: Virginia Department of Elections campaign finance reports, <Ext href={CF}>cfreports.elections.virginia.gov</Ext>, read from the Department's monthly bulk files (<Ext href="https://apps.elections.virginia.gov/SBE_CSV/CF/">apps.elections.virginia.gov/SBE_CSV/CF</Ext>) for filing months {m.months[0].replace("_", "-")} through {m.months[1].replace("_", "-")}. Filing months in 2022 and 2026 are not collected yet, so gifts reported in those months are missing. Counts only itemized gifts (Schedule A). Each scheduled report is counted once in its latest amended version; Large Contribution Reports are skipped because those gifts reappear in the next scheduled report; transfers between the member's own committees are left out. Committees: {m.committees.map(([code, name], i) => <span key={code}>{i ? "; " : ""}<Ext href={`${CF}/?CommitteeName=${encodeURIComponent(name)}`}>{name}</Ext> ({code})</span>)}.</> : null;
+  const moneyCoverage = m ? <>Source: Virginia Department of Elections campaign finance reports, <Ext href={CF}>cfreports.elections.virginia.gov</Ext>, read from the Department's monthly bulk files (<Ext href="https://apps.elections.virginia.gov/SBE_CSV/CF/">apps.elections.virginia.gov/SBE_CSV/CF</Ext>) for filing months {m.months[0].replace("_", "-")} through {m.months[1].replace("_", "-")}. Filing months in 2022 and 2026 are not collected yet, so gifts and spending reported in those months are missing. Counts only itemized gifts (Schedule A) and itemized expenditures (Schedule D). Each scheduled report is counted once in its latest amended version; Large Contribution Reports are skipped because those gifts reappear in the next scheduled report; transfers between the member's own committees are left out. Committees: {m.committees.map(([code, name], i) => <span key={code}>{i ? "; " : ""}<Ext href={`${CF}/?CommitteeName=${encodeURIComponent(name)}`}>{name}</Ext> ({code})</span>)}.</> : null;
 
   return (
     <div className={wide ? "grid min-w-0 items-start gap-5 lg:grid-cols-2" : "min-w-0 space-y-5"}>
@@ -106,7 +107,7 @@ export function LegPanel({ leg: l, rc, f, wide = false }: { leg: Leg; rc: RollCa
           render={(x) => (<div className="text-sm"><Ext href={x.r.h}>{x.r.b.join(", ")}{x.r.nb > x.r.b.length ? ` and ${x.r.nb - x.r.b.length} more` : ""}</Ext> <span className="text-on-dark-muted">· {dateLabel(x.r.d)}{x.r.ty ? ` · chamber tally ${x.r.ty}` : ""}</span><div>{x.r.t}</div></div>)} />
       </Card>
 
-      <Card id={anchor("money")} kicker="Campaign money" title="Who gave to this member's campaign" share source={moneyCoverage ?? undefined}>
+      <Card id={anchor("money")} kicker="Campaign money" title="Who gave, and where the money went" share source={moneyCoverage ?? undefined}>
         {m ? (
           <>
             <dl className="grid grid-cols-2 gap-2">
@@ -117,6 +118,7 @@ export function LegPanel({ leg: l, rc, f, wide = false }: { leg: Leg; rc: RollCa
             <Columns cols={[...yearTotals.entries()].sort().map(([y, v]) => ({ key: y, label: y, value: v, title: y }))} format={(n) => n >= 1e6 ? `$${(n / 1e6).toFixed(1)}M` : `$${Math.round(n / 1000)}K`} highlight={year} />
             <h4 className="mt-5 mb-2 text-sm font-bold tracking-wide uppercase">Top 10 givers{year ? ` in ${year}` : ""}</h4>
             <BarList rows={donorRows} format={money} empty={year ? `No itemized gifts in ${year} in the files collected.` : "No itemized gifts in the files collected."} />
+            {mq ? <MoneySearch slug={l.slug} m={m} year={year} q={mq.q} onQ={mq.onQ} label={title} /> : null}
           </>
         ) : (
           <NotCollected what="Campaign finance for this member" why={<>No committee for this member was found in the Virginia Department of Elections files collected so far (filing months 2021 and 2023 through 2025). Look the member up directly on <Ext href={CF}>cfreports.elections.virginia.gov</Ext>.</>} />

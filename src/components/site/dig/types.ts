@@ -16,7 +16,11 @@ export type Money = {
   cells: [number, string, number, number, number][];
   reports: number;
   months: [string, string];
+  /** Itemized expenditures (Schedule D) in /files/dig/money/{slug}.json */
+  spendN?: number;
 };
+/** [payee, purpose, amount, ISO date, report id] */
+export type SpendFile = { spend: [string, string, number, string, number][] };
 export type Leg = {
   id: string; slug: string; name: string; chamber: "house" | "senate"; party: string; district: number; lisId: string; committees: string[];
   profile: string; lis: string; floorRollCalls: number; asOf: string;
@@ -38,3 +42,4 @@ export type Place = {
   delegationSource: string; news: NewsRow[]; newsUrl: string;
 };
 export type Filters = { year?: string; cat?: string; topic?: string };
+export type MoneyQ = { q: string; onQ: (v: string) => void };

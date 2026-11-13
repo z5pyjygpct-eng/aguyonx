@@ -1,4 +1,4 @@
-import type { Board, Leg, Place, RollCallFile, SubjectIndex } from "./types";
+import type { Board, Leg, Place, RollCallFile, SpendFile, SubjectIndex } from "./types";
 
 // Static JSON under /files/dig/, fetched on demand so nothing heavy ships in the page bundle.
 const cache = new Map<string, Promise<unknown>>();
@@ -15,6 +15,7 @@ function get<T>(path: string): Promise<T> {
   return p as Promise<T>;
 }
 export const loadIndex = () => get<SubjectIndex>("index.json");
+export const loadMoney = (slug: string) => get<SpendFile>(`money/${slug}.json`);
 export const loadRollCalls = (ch: "house" | "senate") => get<RollCallFile>(`rc-${ch}.json`);
 export async function loadSubject(id: string): Promise<{ kind: "leg"; leg: Leg; rc: RollCallFile } | { kind: "board"; board: Board } | { kind: "place"; place: Place; boards: Board[] }> {
   const [kind, key] = id.split(".");

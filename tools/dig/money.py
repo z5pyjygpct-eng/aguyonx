@@ -93,8 +93,29 @@ for slug, e in out["members"].items():
             rows.append({"name": re.sub(r"\s+", " ", name), "ind": ind, "city": a["City"].strip().title(), "st": a["StateCode"].strip(), "amt": amt, "y": y, "rid": r["ReportId"], "code": code, "cand": r["CandidateName"], "cname": r["CommitteeName"]})
     e["rows"] = rows
     e["reports"] = sorted({(r["ReportId"], r["CommitteeCode"], r["CommitteeName"], r["StartDate"][:10], r["EndDate"][:10], r["Month"]) for code in e["codes"] for r in keep.values() if r["CommitteeCode"] == code})
+# expenditures (Schedule D), same report rules; payments to the member's own committees are dropped in build.py
+spends = collections.defaultdict(list)
+for p in sorted(glob.glob(f"{SRC}/20*/ScheduleD.csv")):
+    for a in csv.DictReader(open(p, encoding="latin-1", newline="")):
+        a = {k.lstrip("\ufeff").lstrip("ï»¿"): v for k, v in a.items()}
+        r = keep.get(a["ReportId"])
+        if r: spends[r["CommitteeCode"]].append((a, r))
+for slug, e in out["members"].items():
+    rows, seen = [], set()
+    for code in e["codes"]:
+        for a, r in spends.get(code, []):
+            if a["ScheduleDId"] in seen: continue
+            seen.add(a["ScheduleDId"])
+            try: amt = round(float(a["Amount"]), 2)
+            except ValueError: continue
+            ind = a["IsIndividual"].lower() == "true"
+            name = (" ".join(x for x in [a["FirstName"], a["LastOrCompanyName"]] if x.strip()) if ind else a["LastOrCompanyName"]).strip()
+            d = a["TransactionDate"]
+            iso = f"{d[6:10]}-{d[0:2]}-{d[3:5]}" if re.match(r"\d\d/\d\d/\d{4}", d) else ""
+            rows.append({"name": re.sub(r"\s+", " ", name), "what": re.sub(r"\s+", " ", a["ItemOrService"]).strip(), "amt": amt, "d": iso, "rid": r["ReportId"], "code": code, "cname": r["CommitteeName"]})
+    e["spend"] = rows
 json.dump(out, open(f"{ROOT}/tools/dig/.money.json", "w"))
 miss = [s for s, e in out["members"].items() if not e["codes"]]
-print("members", len(out["members"]), "no committee match", len(miss), miss[:40])
+print("spend rows Lucas", len(out["members"]["l-louise-lucas"]["spend"])); print("members", len(out["members"]), "no committee match", len(miss), miss[:40])
 for s in ("dan-i-helmer", "l-louise-lucas"): e = out["members"][s]; print(s, e["codes"], len(e["rows"]), round(sum(x["amt"] for x in e["rows"])), len(e["reports"]))
 multi = {s: e["codes"] for s, e in out["members"].items() if len(e["codes"]) > 2}; print("multi", multi)

@@ -8,9 +8,9 @@ import { loadIndex, loadSubject } from "@/components/site/dig/data";
 import { LegPanel, legCategories, legYears } from "@/components/site/dig/leg-panel";
 import { BoardPanel, PlacePanel, boardYears } from "@/components/site/dig/board-panel";
 import { ShareButton } from "@/components/site/dig/ui";
-import type { Subject } from "@/components/site/dig/types";
+import type { MoneyQ, Subject } from "@/components/site/dig/types";
 
-type Search = { a?: string; b?: string; year?: string; cat?: string; topic?: string };
+type Search = { a?: string; b?: string; year?: string; cat?: string; topic?: string; qa?: string; qb?: string };
 const str = (v: unknown, re: RegExp) => (typeof v === "string" && re.test(v) ? v : undefined);
 const ID = /^(leg|board|place)\.[a-z0-9-]{2,60}$/;
 
@@ -18,7 +18,9 @@ export const Route = createFileRoute("/dig")({
   validateSearch: (s: Record<string, unknown>): Search => {
     const o: Search = {};
     const a = str(s.a, ID), b = str(s.b, ID), year = str(String(s.year ?? ""), /^20\d\d$/), cat = typeof s.cat === "string" && s.cat.length < 80 ? s.cat : undefined, topic = str(s.topic, /^[a-z-]{2,40}$/);
-    if (a) o.a = a; if (b) o.b = b; if (year) o.year = year; if (cat) o.cat = cat; if (topic) o.topic = topic;
+    const q = (v: unknown) => (typeof v === "string" && v.trim() && v.length <= 80 ? v.trim() : undefined);
+    const qa = q(s.qa), qb = q(s.qb);
+    if (a) o.a = a; if (b) o.b = b; if (year) o.year = year; if (cat) o.cat = cat; if (topic) o.topic = topic; if (qa) o.qa = qa; if (qb) o.qb = qb;
     return o;
   },
   head: () => ({
@@ -82,12 +84,12 @@ function Select({ label, value, options, onChange, all }: { label: string; value
   );
 }
 
-function Panel({ st, f, wide }: { st: ReturnType<typeof useSubject>; f: Search; wide: boolean }) {
+function Panel({ st, f, wide, mq }: { st: ReturnType<typeof useSubject>; f: Search; wide: boolean; mq: MoneyQ }) {
   if (!st.id) return null;
   if (st.err) return <p className="rounded-lg border border-navy-line p-4 text-sm">Could not load this subject ({st.err}). Try reloading the page.</p>;
   if (!st.data) return <p className="rounded-lg border border-navy-line p-4 text-sm text-on-dark-muted" aria-live="polite">Loading the record…</p>;
   const d = st.data;
-  if (d.kind === "leg") return <LegPanel leg={d.leg} rc={d.rc} f={f} wide={wide} />;
+  if (d.kind === "leg") return <LegPanel leg={d.leg} rc={d.rc} f={f} wide={wide} mq={mq} />;
   if (d.kind === "board") return <BoardPanel b={d.board} f={f} wide={wide} />;
   return <PlacePanel p={d.place} boards={d.boards} f={f} wide={wide} />;
 }
@@ -136,8 +138,8 @@ function Page() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="z-20 -mx-5 border-b border-navy-line/70 bg-navy-800/95 px-5 py-3 backdrop-blur sm:-mx-8 sm:px-8 md:sticky md:top-0">
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-[1.4fr_1.4fr_0.7fr_1fr_1fr_auto] lg:items-end">
-              <SubjectSelect label="Dig into" value={s.a} subjects={subjects} onChange={(v) => set({ a: v })} />
-              <SubjectSelect label="Compare with (optional)" value={s.b} subjects={subjects} onChange={(v) => set({ b: v })} optional />
+              <SubjectSelect label="Dig into" value={s.a} subjects={subjects} onChange={(v) => set({ a: v, qa: undefined })} />
+              <SubjectSelect label="Compare with (optional)" value={s.b} subjects={subjects} onChange={(v) => set({ b: v, qb: undefined })} optional />
               <Select label="Year" value={s.year} options={years.map((y) => [y, y])} onChange={(v) => set({ year: v })} all="All years" />
               <Select label="Topic for legislators (aguyonx categories)" value={s.cat} options={hasLeg ? cats.map((c) => [c, c]) : []} onChange={(v) => set({ cat: v })} all={hasLeg ? "All topics" : "Pick a legislator first"} />
               <Select label="Topic for boards (aguyonx categories)" value={s.topic} options={hasBoard ? topics : []} onChange={(v) => set({ topic: v })} all={hasBoard ? "All topics" : "Pick a board or place first"} />
@@ -162,7 +164,7 @@ function Page() {
                   <h2 className="font-serif text-2xl font-bold uppercase">How this page works</h2>
                   <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed text-on-dark-muted">
                     <li>Choose something in “Dig into”. Add a second choice in “Compare with” to see both side by side.</li>
-                    <li>Filters for year and topic apply to both sides. The web address keeps every choice, so copying it shares exactly this view.</li>
+                    <li>Filters for year and topic apply to both sides. The web address keeps every choice, so copying it shares exactly this view, including any search in a campaign money section.</li>
                     <li>Sources: Legislative Information System (LIS) for bills and votes; Virginia Department of Elections for campaign money; official county and school board records for meetings and votes; public news outlets for clips.</li>
                     <li>Topic groupings are <b className="text-white">aguyonx categories</b>: labels we assign by fixed keyword rules. They are not stances.</li>
                     <li>No opinions, no rankings, and no claims that money and votes are connected. The page shows records next to each other; the reader decides.</li>
@@ -171,8 +173,8 @@ function Page() {
               </div>
             ) : (
               <div className={`grid min-w-0 gap-6 ${s.a && s.b ? "lg:grid-cols-2" : ""}`}>
-                {s.a ? <Panel st={A} f={f} wide={!(s.a && s.b)} /> : null}
-                {s.b ? <Panel st={B} f={f} wide={!(s.a && s.b)} /> : null}
+                {s.a ? <Panel st={A} f={f} wide={!(s.a && s.b)} mq={{ q: s.qa ?? "", onQ: (v) => set({ qa: v || undefined }) }} /> : null}
+                {s.b ? <Panel st={B} f={f} wide={!(s.a && s.b)} mq={{ q: s.qb ?? "", onQ: (v) => set({ qb: v || undefined }) }} /> : null}
               </div>
             )}
           </div>

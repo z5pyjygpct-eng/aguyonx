@@ -13,6 +13,7 @@ import json, os, re, glob, collections, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = f"{ROOT}/public/files/dig"
 os.makedirs(f"{OUT}/leg", exist_ok=True)
+os.makedirs(f"{OUT}/money", exist_ok=True)
 J = lambda p: json.load(open(f"{ROOT}/{p}"))
 def dump(p, o): json.dump(o, open(f"{OUT}/{p}", "w"), separators=(",", ":"), ensure_ascii=False)
 
@@ -112,9 +113,9 @@ for slug, m in members.items():
         for b in lst:
             if b.get("chief_patron_id") == m["lisId"]:
                 b27.append({"b": b["bill_number"], "t": b["title"], "cls": cls, "st": b.get("status_label"), "c": [tax.get(i, i) for i in (b.get("category_ids") or []) if not str(i).startswith("continued")], "h": f"https://lis.virginia.gov/bill-details/20271/{b['bill_number']}"})
-    me = money["members"].get(slug, {"codes": [], "rows": [], "reports": []})
+    me = money["members"].get(slug, {"codes": [], "rows": [], "reports": [], "spend": []})
     mon = None
-    if me["codes"] and me["rows"]:
+    if me["codes"] and (me["rows"] or me.get("spend")):
         own = {re.sub(r"[^a-z0-9]", "", r["cname"].lower()) for r in me["rows"]}
         me["rows"] = [r for r in me["rows"] if re.sub(r"[^a-z0-9]", "", r["name"].lower()) not in own]
         donors, agg = [], {}
@@ -129,6 +130,12 @@ for slug, m in members.items():
         mon = {"committees": sorted({(r["code"], r["cname"]) for r in me["rows"]}), "donors": donors,
                "cells": [[k[0], k[1], round(v[0], 2), v[1], v[2]] for k, v in cells.items()],
                "reports": len(me["reports"]), "months": [money["months"][0], money["months"][-1]]}
+        # expenditures (Schedule D) go in a separate file, loaded only when the money section opens
+        sp = [r for r in me.get("spend", []) if re.sub(r"[^a-z0-9]", "", r["name"].lower()) not in own]
+        sp.sort(key=lambda r: (r["d"], r["amt"]), reverse=True)
+        mon["committees"] = sorted(set(map(tuple, mon["committees"])) | {(r["code"], r["cname"]) for r in sp})
+        mon["spendN"] = len(sp)
+        dump(f"money/{slug}.json", {"spend": [[r["name"], r["what"], r["amt"], r["d"], int(r["rid"])] for r in sp]})
     nws = [news_row(n) for n in news_for_member(m)]
     pref = "house" if ch == "house" else "senate"
     rec = {"id": f"leg.{slug}", "slug": slug, "name": m["name"], "chamber": ch, "party": m["party"], "district": m["district"], "lisId": m["lisId"],
