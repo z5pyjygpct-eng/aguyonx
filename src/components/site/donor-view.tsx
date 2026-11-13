@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { findDonor, formatUsd, officialCommitteeHref, type DonorRecord } from "@/lib/finance-donors";
 import { loadDonors } from "@/lib/global-search-load";
+import { counted } from "@/lib/finance-summaries";
 
 export function DonorView({ donorId }: { donorId: string }) {
   const [state, setState] = useState<{ status: "loading" } | { status: "ready"; donor: DonorRecord | null }>({ status: "loading" });
@@ -37,7 +38,7 @@ export function DonorView({ donorId }: { donorId: string }) {
       <p className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">Donor</p>
       <h2 className="mt-1 font-serif text-2xl font-semibold uppercase">Who received money from {donor.name}?</h2>
       <p className="mt-2 text-sm text-on-dark-muted">
-        {formatUsd(donor.totalCents)} across {donor.giftCount.toLocaleString()} official cash and in-kind gifts
+        {formatUsd(donor.totalCents)} across {counted(donor.giftCount, "official cash and in-kind gift")}
         in the Virginia Department of Elections reports we have indexed. Recipients below are campaign committees,
         not government budgets.
       </p>

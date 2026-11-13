@@ -13,6 +13,10 @@ import {
   profileMoneyHref,
   reportUrl,
   reportXmlUrl,
+  counted,
+  cyclePhrase,
+  familiarFirstName,
+  familyName,
   type DonorKind,
   type FinanceDonor,
   type FinanceFiling,
@@ -167,7 +171,7 @@ function FilingRow({ f }: { f: FinanceFiling }) {
         <div className="text-xs text-night-muted">
           Filed {formatShortDate(f.filed)}
           {f.due ? ` · due ${formatShortDate(f.due)}` : ""}
-          {f.amendment ? ` · amendment ${f.amendment}` : ""}
+          {f.amendment ? ` · Amendment ${f.amendment}` : ""}
         </div>
       </div>
       <div className="flex shrink-0 items-center gap-3">
@@ -462,8 +466,8 @@ function HistoryYearRow({ y, firstName, defaultOpen = false }: { y: FinanceHisto
           <span className="min-w-0">
             <span className="block font-serif text-lg font-bold">{y.year}</span>
             <span className="block text-xs text-night-muted">
-              {y.reports} {y.reports === 1 ? "report" : "reports"} · {y.donorCount.toLocaleString()} named givers ·{" "}
-              {y.vendorCount.toLocaleString()} vendors{y.committees.length ? ` · ${y.committees.join(", ")}` : ""}
+              {counted(y.reports, "report")} · {counted(y.donorCount, "named giver")} ·{" "}
+              {counted(y.vendorCount, "vendor")}{y.committees.length ? ` · ${y.committees.join(", ")}` : ""}
               {` · ${open ? "Hide details" : "See details"}`}
             </span>
           </span>
@@ -478,8 +482,8 @@ function HistoryYearRow({ y, firstName, defaultOpen = false }: { y: FinanceHisto
       {open ? (
         <div className="border-t border-navy-line/50 bg-navy-900/40 px-4 py-4">
           <p className="text-xs text-on-dark-muted">
-            {formatUsd(y.giftCents)} in {y.giftCount.toLocaleString()} itemized gifts and {formatUsd(y.paymentCents)} in{" "}
-            {y.paymentCount.toLocaleString()} itemized payments dated {y.year}
+            {formatUsd(y.giftCents)} in {counted(y.giftCount, "itemized gift")} and {formatUsd(y.paymentCents)} in{" "}
+            {counted(y.paymentCount, "itemized payment")} dated {y.year}
             {typeof y.endingBalanceCents === "number" ? ` · money in the bank at the end of the last ${y.year} report: ${formatUsd(y.endingBalanceCents)}` : ""}.
           </p>
           <h4 className="mt-4 text-xs font-semibold tracking-wide text-gold uppercase">
@@ -635,7 +639,7 @@ function ReadyView({
   const filings = s.filings ?? [];
   const shownFilings = allFilings ? filings : filings.slice(0, 8);
   const late = lateFilingCount(filings);
-  const firstName = s.name.split(" ")[0] ?? s.name;
+  const firstName = familiarFirstName(s.name);
 
   return (
     <>
@@ -694,8 +698,11 @@ function ReadyView({
 
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Who funds {firstName}?</h3>
       <p className="mt-1 text-sm text-on-dark-muted">
-        All {donors.length.toLocaleString()} itemized givers in this {s.cycleLabel ? s.cycleLabel.toLowerCase() : "cycle"}, including{" "}
-        <MoneyTerm term="In-kind">gifts of goods or services</MoneyTerm>, shown {LIST_PAGE_SIZE} at a time. Tap a name to see each official gift.
+        {donors.length
+          ? `All ${counted(donors.length, "itemized giver")} in ${cyclePhrase(s.cycleLabel)}, including `
+          : `Itemized givers in ${cyclePhrase(s.cycleLabel)}, including `}
+        <MoneyTerm term="In-kind">gifts of goods or services</MoneyTerm>
+        {donors.length ? `, shown ${LIST_PAGE_SIZE} at a time. Tap a name to see each official gift.` : "."}{" "}
         Names appear as they were filed with the state.
       </p>
       {donors.length ? (
@@ -705,7 +712,7 @@ function ReadyView({
           ))}
         </ol>
       ) : (
-        <p className="mt-3 text-sm text-on-dark-muted">No itemized donors in the reports we have loaded for this cycle.</p>
+        <p className="mt-3 text-sm text-on-dark-muted">No itemized donors in the reports we have loaded for {cyclePhrase(s.cycleLabel)}.</p>
       )}
       <MoneyPages page={safeDonorPage} pages={donorPages} onPage={setDonorPage} label="Donor list pages" />
       {donors.length > LIST_PAGE_SIZE ? (
@@ -773,13 +780,13 @@ function ReadyView({
           ))}
         </ul>
       ) : (
-        <p className="mt-3 text-sm text-on-dark-muted">No itemized spending in the reports we have loaded for this cycle.</p>
+        <p className="mt-3 text-sm text-on-dark-muted">No itemized spending in the reports we have loaded for {cyclePhrase(s.cycleLabel)}.</p>
       )}
       {vendors.length ? (
         <>
-          <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">Top vendors paid the most</h4>
+          <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">Top vendors</h4>
           <p className="mt-1 text-xs text-night-muted">
-            All {vendors.length.toLocaleString()} vendors in this cycle, shown {LIST_PAGE_SIZE} at a time, starting with the largest totals.
+            All {counted(vendors.length, "vendor")} in {cyclePhrase(s.cycleLabel)}, shown {LIST_PAGE_SIZE} at a time, starting with the largest totals.
             Tap a vendor to see each official payment.
           </p>
           <ul className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
@@ -890,7 +897,7 @@ function ReadyView({
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
         <a href={billsHref} className="rounded-lg border border-navy-line bg-navy-800 px-4 py-4 hover:border-gold">
           <div className="text-xs tracking-wide text-gold uppercase">Bills patroned</div>
-          <div className="mt-1 font-semibold">See {s.honorific} {s.name.split(" ").slice(-1)}'s bills →</div>
+          <div className="mt-1 font-semibold">See {s.honorific} {familyName(s.name)}'s bills →</div>
         </a>
         <a href={votesHref} className="rounded-lg border border-navy-line bg-navy-800 px-4 py-4 hover:border-gold">
           <div className="text-xs tracking-wide text-gold uppercase">Floor votes</div>
@@ -948,7 +955,7 @@ function Fallback({ s, officialHref }: { s?: FinanceSummary | null; officialHref
   return (
     <div>
       <p className="text-sm text-on-dark-muted">
-        We haven't pulled full filings for this member yet — view the official state committee page for the complete record.
+        We have not pulled full filings for this member yet — view the official state committee page for the complete record.
       </p>
       <a
         href={href}

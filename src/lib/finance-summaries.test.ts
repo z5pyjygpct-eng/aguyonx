@@ -12,6 +12,10 @@ import {
   reportUrl,
   reportXmlUrl,
   sourceLine,
+  counted,
+  cyclePhrase,
+  familiarFirstName,
+  familyName,
   type FinanceIndex,
   type FinanceSummary,
 } from "./finance-summaries.ts";
@@ -173,4 +177,26 @@ test("Kilgore vendors include every payee, with itemized payments for a vendor r
   assert.equal(cygnal?.items?.[0]?.category, "Polling and research");
   assert.equal(cygnal?.items?.[0]?.date, "2026-01-27");
   assert.equal(cygnal?.items?.[0]?.cents, 3_000_000);
+});
+
+test("campaign money copy helpers capitalize months, skip initials, and pluralize counts", () => {
+  assert.equal(cyclePhrase("November 2027 election cycle"), "the November 2027 election cycle");
+  assert.equal(cyclePhrase("March 2026 election cycle"), "the March 2026 election cycle");
+  assert.equal(cyclePhrase(undefined), "this election cycle");
+  assert.equal(cyclePhrase(""), "this election cycle");
+  assert.equal(familiarFirstName("Karen Hamilton"), "Karen");
+  assert.equal(familiarFirstName("Terry G. Kilgore"), "Terry");
+  assert.equal(familiarFirstName("Dan I. Helmer"), "Dan");
+  assert.equal(familiarFirstName("L. Louise Lucas"), "Louise");
+  assert.equal(familiarFirstName("Scott A. Surovell"), "Scott");
+  assert.equal(familiarFirstName("R. Creigh Deeds"), "Creigh");
+  assert.equal(familiarFirstName("H. Otto Wachsmann, Jr."), "Otto");
+  assert.equal(familyName("Karen Hamilton"), "Hamilton");
+  assert.equal(familyName("L. Louise Lucas"), "Lucas");
+  assert.equal(familyName("H. Otto Wachsmann, Jr."), "Wachsmann");
+  assert.equal(familyName("Richard C. \"Rip\" Sullivan, Jr."), "Sullivan");
+  assert.equal(counted(1, "itemized giver"), "1 itemized giver");
+  assert.equal(counted(10, "itemized giver"), "10 itemized givers");
+  assert.equal(counted(1, "vendor"), "1 vendor");
+  assert.equal(counted(62, "vendor"), "62 vendors");
 });

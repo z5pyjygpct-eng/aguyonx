@@ -1,5 +1,5 @@
 import { useId, useState, type ReactNode } from "react";
-import { formatUsd } from "@/lib/finance-summaries";
+import { counted, formatUsd } from "@/lib/finance-summaries";
 import {
   availableMonths,
   barPercent,
@@ -124,8 +124,8 @@ export function TimelineTotals({ years, value }: { years: TimelineYear[]; value:
       inCents = y.raisedCents;
       outCents = y.spentCents;
       period = String(y.year);
-      inNote = `Official report totals · ${formatUsd(y.giftCents)} in ${y.giftCount.toLocaleString()} named gifts`;
-      outNote = `Official report totals · ${formatUsd(y.paymentCents)} in ${y.paymentCount.toLocaleString()} named payments`;
+      inNote = `Official report totals · ${formatUsd(y.giftCents)} in ${counted(y.giftCount, "named gift")}`;
+      outNote = `Official report totals · ${formatUsd(y.paymentCents)} in ${counted(y.paymentCount, "named payment")}`;
     } else {
       const m = y.months?.find((v) => v.month === value.month);
       inCents = m?.giftCents ?? 0;
@@ -133,8 +133,8 @@ export function TimelineTotals({ years, value }: { years: TimelineYear[]; value:
       inLabel = "Named gifts received";
       outLabel = "Named payments made";
       period = `${monthName(value.month)} ${y.year}`;
-      inNote = `${(m?.giftCount ?? 0).toLocaleString()} gifts${m?.donorCount != null ? ` from ${m.donorCount.toLocaleString()} givers` : ""}`;
-      outNote = `${(m?.paymentCount ?? 0).toLocaleString()} payments${m?.vendorCount != null ? ` to ${m.vendorCount.toLocaleString()} vendors` : ""}`;
+      inNote = `${counted(m?.giftCount ?? 0, "gift")}${m?.donorCount != null ? ` from ${counted(m.donorCount, "giver")}` : ""}`;
+      outNote = `${counted(m?.paymentCount ?? 0, "payment")}${m?.vendorCount != null ? ` to ${counted(m.vendorCount, "vendor")}` : ""}`;
     }
   }
   const net = inCents - outCents;

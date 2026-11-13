@@ -302,3 +302,38 @@ export function sourceLine(report?: FinanceLatestReport | FinanceFiling): string
   const amended = amendment ? `Amendment ${amendment}, ` : "";
   return `From the state report ${amended}filed ${formatDate(filed)} (Report ${id})`;
 }
+
+const NAME_SUFFIX = /^(Jr\.?|Sr\.?|II|III|IV|V|VI|2nd|3rd|4th)$/i;
+const NAME_INITIAL = /^[A-Za-z]\.?$/;
+const NAME_NICKNAME = /^["“'].+["”']$/;
+
+function nameTokens(fullName: string): string[] {
+  return fullName.replace(/,/g, " ").trim().split(/\s+/).filter(Boolean);
+}
+
+/** Given name used in short headings such as "Who funds Karen?" Leading initials are skipped. */
+export function familiarFirstName(fullName: string): string {
+  const parts = nameTokens(fullName);
+  const first = parts.find((p) => !NAME_INITIAL.test(p) && !NAME_NICKNAME.test(p) && !NAME_SUFFIX.test(p));
+  return first ?? parts[0] ?? fullName;
+}
+
+/** Last name for short links such as "See Sen. Lucas's bills." Suffixes like Jr. are dropped. */
+export function familyName(fullName: string): string {
+  const parts = nameTokens(fullName);
+  while (parts.length > 1 && (NAME_SUFFIX.test(parts[parts.length - 1]!) || NAME_NICKNAME.test(parts[parts.length - 1]!))) {
+    parts.pop();
+  }
+  return parts[parts.length - 1] ?? fullName;
+}
+
+/** "the November 2027 election cycle" — month names stay capitalized. */
+export function cyclePhrase(cycleLabel?: string): string {
+  const label = (cycleLabel ?? "").trim();
+  return label ? `the ${label}` : "this election cycle";
+}
+
+/** "1 itemized giver" / "10 itemized givers" */
+export function counted(n: number, singular: string, plural = `${singular}s`): string {
+  return `${n.toLocaleString()} ${n === 1 ? singular : plural}`;
+}
