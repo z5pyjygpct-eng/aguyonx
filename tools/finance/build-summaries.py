@@ -7,7 +7,9 @@ Source: Virginia Department of Elections monthly CF CSVs in
 For each sitting legislator, keep only the latest amendment of each filing,
 read Schedule H/G for official totals, and itemize current-cycle gifts and
 spending from the schedule months we have on hand (2022-01 through 2023-01
-and 2026-01 through 2026-10).
+and 2026-01 through 2026-10). Each member's 2021-present history also carries
+itemized gift and payment totals by month (with the top givers and vendors per month)
+for the site's year-and-month filter and raised-vs-spent charts.
 
 Kilgore for Delegate (CC-12-00170, report 495571) is verified against the
 official XML at cfreports.elections.virginia.gov/Report/ReportXML/495571.
@@ -34,6 +36,7 @@ WINDOW_START = date(2021, 1, 1)  # never go back before 2021
 HISTORY_DONORS_PER_YEAR = 25
 HISTORY_VENDORS_PER_YEAR = 15
 HISTORY_ITEMS_PER_ROW = 25
+HISTORY_MONTH_TOP = 10  # top givers / vendors kept per month for the year-and-month filter
 COMMITTEES = WT / "src/content/finance-committees.json"
 DONORS_FILE = WT / "src/content/finance-donors.json"
 OUT = WT / "src/content/finance-summaries.json"
@@ -338,9 +341,16 @@ def build_history(lis_id, meta, prior_committees, winners, schedules, add_txn, i
             years[y] = {
                 "year": y, "raisedCents": 0, "spentCents": 0, "endingBalanceCents": None,
                 "reports": 0, "giftCount": 0, "giftCents": 0, "paymentCount": 0, "paymentCents": 0,
-                "committees": [], "_donors": {}, "_vendors": {},
+                "committees": [], "_donors": {}, "_vendors": {}, "_months": {},
             }
         return years[y]
+
+    def mo(y: dict, d: str) -> dict:
+        m = int(d[5:7])
+        if m not in y["_months"]:
+            y["_months"][m] = {"month": m, "giftCount": 0, "giftCents": 0, "paymentCount": 0, "paymentCents": 0,
+                               "_donors": {}, "_vendors": {}}
+        return y["_months"][m]
 
     report_rows = []
     csv_lines = [["section", "date", "name", "amount_usd", "city", "state", "type", "employer", "occupation",
@@ -381,6 +391,7 @@ def build_history(lis_id, meta, prior_committees, winners, schedules, add_txn, i
                     if not d or d < WINDOW_START.isoformat():
                         continue
                 y = yr(int(d[:4]))
+                m = mo(y, d)
                 csv_lines.append([
                     {"A": "contribution", "B": "in_kind", "D": "expenditure"}[sched], t["date"], t["name"],
                     pretty_usd_header(t["cents"]), t["city"], t["state"], t["kind"] if sched != "D" else "",
@@ -392,6 +403,11 @@ def build_history(lis_id, meta, prior_committees, winners, schedules, add_txn, i
                     y["paymentCount"] += 1
                     y["paymentCents"] += t["cents"]
                     key = fold(t["name"]) or t["name"]
+                    m["paymentCount"] += 1
+                    m["paymentCents"] += t["cents"]
+                    mv = m["_vendors"].setdefault(key, {"name": t["name"], "cents": 0, "count": 0})
+                    mv["cents"] += t["cents"]
+                    mv["count"] += 1
                     v = y["_vendors"].setdefault(key, {"name": t["name"], "cents": 0, "count": 0, "items": []})
                     v["cents"] += t["cents"]
                     v["count"] += 1
@@ -401,6 +417,11 @@ def build_history(lis_id, meta, prior_committees, winners, schedules, add_txn, i
                     y["giftCount"] += 1
                     y["giftCents"] += t["cents"]
                     key = fold(t["name"]) or t["name"]
+                    m["giftCount"] += 1
+                    m["giftCents"] += t["cents"]
+                    md = m["_donors"].setdefault(key, {"name": t["name"], "cents": 0, "count": 0, "kind": t["kind"]})
+                    md["cents"] += t["cents"]
+                    md["count"] += 1
                     dn = y["_donors"].setdefault(key, {"name": t["name"], "cents": 0, "count": 0, "kind": t["kind"],
                                                        "city": t["city"], "state": t["state"], "inKindCents": 0, "gifts": []})
                     dn["cents"] += t["cents"]
@@ -442,6 +463,16 @@ def build_history(lis_id, meta, prior_committees, winners, schedules, add_txn, i
             topv.append(v)
         y["donors"] = top
         y["vendors"] = topv
+        months = []
+        for m in sorted(y.pop("_months").values(), key=lambda v: v["month"]):
+            mdonors = sorted(m.pop("_donors").values(), key=lambda d: (-d["cents"], d["name"]))
+            mvendors = sorted(m.pop("_vendors").values(), key=lambda d: (-d["cents"], d["name"]))
+            m["donorCount"] = len(mdonors)
+            m["vendorCount"] = len(mvendors)
+            m["donors"] = mdonors[:HISTORY_MONTH_TOP]
+            m["vendors"] = mvendors[:HISTORY_MONTH_TOP]
+            months.append(m)
+        y["months"] = months
         if y["endingBalanceCents"] is None:
             y.pop("endingBalanceCents")
         out_years.append(y)
@@ -1133,6 +1164,26 @@ def main() -> None:
             "itemizedCoverage": m.get("itemizedCoverage"),
         })
     index["members"].sort(key=lambda r: (0 if r["slug"] == "terry-g-kilgore" else 1, r["chamber"], r["district"], r["name"]))
+    # All sitting legislators combined, by year and month, for the hub's raised-vs-spent chart.
+    agg: dict[int, dict] = {}
+    for m in members_out.values():
+        for y in ((m.get("history") or {}).get("years") or []):
+            a = agg.setdefault(y["year"], {"year": y["year"], "members": 0, "raisedCents": 0, "spentCents": 0,
+                                           "giftCents": 0, "giftCount": 0, "paymentCents": 0, "paymentCount": 0, "_months": {}})
+            a["members"] += 1
+            for k in ("raisedCents", "spentCents", "giftCents", "giftCount", "paymentCents", "paymentCount"):
+                a[k] += y.get(k) or 0
+            for mo in y.get("months") or []:
+                am = a["_months"].setdefault(mo["month"], {"month": mo["month"], "giftCents": 0, "giftCount": 0,
+                                                           "paymentCents": 0, "paymentCount": 0})
+                for k in ("giftCents", "giftCount", "paymentCents", "paymentCount"):
+                    am[k] += mo.get(k) or 0
+    index["historyTotals"] = []
+    for yv in sorted(agg):
+        a = agg[yv]
+        months = a.pop("_months")
+        a["months"] = [months[k] for k in sorted(months)]
+        index["historyTotals"].append(a)
     (SUM_DIR / "_index.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")))
     # Keep a combined file for local checks; the site loads per-member JSON instead.
     OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")))

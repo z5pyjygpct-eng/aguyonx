@@ -17,11 +17,14 @@ import {
   type FinanceDonor,
   type FinanceFiling,
   type FinanceHistory,
+  type FinanceHistoryMonthGiver,
   type FinanceHistoryYear,
   type FinanceSpendItem,
   type FinanceSummary,
 } from "@/lib/finance-summaries";
 import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
+import { RaisedSpentChart, TimelineFilters, TimelineTotals, type TimelineSelection } from "@/components/site/money-timeline";
+import { monthName, timelineYears } from "@/lib/money-timeline";
 import { loadFinanceSummary } from "@/lib/finance-summaries-load";
 import { cn } from "@/lib/utils";
 
@@ -440,8 +443,8 @@ function VendorRow({ vendor }: { vendor: { name: string; cents: number; count: n
   );
 }
 
-function HistoryYearRow({ y, firstName }: { y: FinanceHistoryYear; firstName: string }) {
-  const [open, setOpen] = useState(false);
+function HistoryYearRow({ y, firstName, defaultOpen = false }: { y: FinanceHistoryYear; firstName: string; defaultOpen?: boolean }) {
+  const [open, setOpen] = useState(defaultOpen);
   const [donorPage, setDonorPage] = useState(1);
   const donorPages = Math.max(1, Math.ceil(y.donors.length / LIST_PAGE_SIZE));
   const safePage = Math.min(donorPage, donorPages);
@@ -510,24 +513,83 @@ function HistoryYearRow({ y, firstName }: { y: FinanceHistoryYear; firstName: st
   );
 }
 
-function MoneyHistory({ h, firstName }: { h: FinanceHistory; firstName: string }) {
-  if (!h.years.length) return null;
-  const earlier = h.committees.filter((c) => !c.current);
+function MonthGiverList({ rows, total, noun, emptyText }: { rows: FinanceHistoryMonthGiver[]; total?: number; noun: "giver" | "vendor"; emptyText: string }) {
+  if (!rows.length) return <p className="mt-2 text-sm text-on-dark-muted">{emptyText}</p>;
   return (
     <>
-      <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Money by year, 2021 to now</h3>
+      <ol className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+        {rows.map((r, i) => (
+          <li key={`${r.name}-${i}`} className="flex items-center justify-between gap-3 px-4 py-3 text-sm">
+            <span className="min-w-0">
+              <span className="block font-semibold">
+                <span className="mr-2 font-mono text-xs text-night-muted">{i + 1}.</span>
+                {r.name}
+              </span>
+              <span className="block text-xs text-night-muted">
+                {noun === "giver" && r.kind ? `${kindLabel(r.kind as DonorKind)} · ` : ""}
+                {r.count} {noun === "giver" ? (r.count === 1 ? "gift" : "gifts") : r.count === 1 ? "payment" : "payments"}
+              </span>
+            </span>
+            <span className={cn("shrink-0 font-serif text-lg font-bold", noun === "giver" ? "text-gold" : "text-[#FF7A85]")}>{formatUsd(r.cents)}</span>
+          </li>
+        ))}
+      </ol>
+      {total != null && total > rows.length ? (
+        <p className="mt-1 text-xs text-night-muted">
+          Top {rows.length} of {total.toLocaleString()} {noun}s that month, by amount.
+        </p>
+      ) : null}
+    </>
+  );
+}
+
+function MonthDetail({ y, month, firstName }: { y: FinanceHistoryYear; month: number; firstName: string }) {
+  const m = y.months?.find((v) => v.month === month);
+  const label = `${monthName(month)} ${y.year}`;
+  return (
+    <div className="mt-4">
+      <h4 className="text-xs font-semibold tracking-wide text-gold uppercase">Top givers to {firstName} in {label}</h4>
+      <MonthGiverList rows={m?.donors ?? []} total={m?.donorCount} noun="giver" emptyText={`No named gifts dated ${label}.`} />
+      <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">Top vendors paid in {label}</h4>
+      <MonthGiverList rows={m?.vendors ?? []} total={m?.vendorCount} noun="vendor" emptyText={`No named payments dated ${label}.`} />
+      <p className="mt-2 text-xs text-night-muted">
+        Named gifts and payments are the lines itemized on state reports, by the date on each line. To see every gift and
+        payment one by one, pick “All of {y.year}” and open the year, or download the CSV below.
+      </p>
+    </div>
+  );
+}
+
+function MoneyHistory({ h, firstName, subject }: { h: FinanceHistory; firstName: string; subject: string }) {
+  const [sel, setSel] = useState<TimelineSelection>({});
+  if (!h.years.length) return null;
+  const earlier = h.committees.filter((c) => !c.current);
+  const years = timelineYears(h.years);
+  const newestFirst = [...years].reverse();
+  const picked = sel.year != null ? years.find((y) => y.year === sel.year) : undefined;
+  return (
+    <>
+      <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Money by year and month, 2021 to now</h3>
       <p className="mt-1 text-sm text-on-dark-muted">
         Official raised and spent totals from every scheduled state report since January 2021
-        {h.through ? `, through ${formatDate(h.through)}` : ""}. Tap a year to see that year's top givers and vendors.
+        {h.through ? `, through ${formatDate(h.through)}` : ""}. Pick a year, then a month, to narrow the chart and the
+        lists of givers and vendors below it.
         {earlier.length
           ? ` Includes ${firstName}'s earlier House or Senate committee${earlier.length > 1 ? "s" : ""}: ${earlier.map((c) => c.committeeName).join(", ")}.`
           : ""}
       </p>
-      <ul className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
-        {h.years.map((y) => (
-          <HistoryYearRow key={y.year} y={y} firstName={firstName} />
-        ))}
-      </ul>
+      <TimelineFilters years={years} value={sel} onChange={setSel} />
+      <TimelineTotals years={years} value={sel} />
+      <RaisedSpentChart years={years} value={sel} onChange={setSel} subject={subject} />
+      {picked && sel.month != null ? (
+        <MonthDetail y={picked} month={sel.month} firstName={firstName} />
+      ) : (
+        <ul className="mt-4 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+          {(picked ? [picked] : newestFirst).map((y) => (
+            <HistoryYearRow key={`${y.year}-${picked ? "one" : "all"}`} y={y} firstName={firstName} defaultOpen={Boolean(picked)} />
+          ))}
+        </ul>
+      )}
       <p className="mt-2 text-xs text-night-muted">{h.note}</p>
       {h.csvPath ? (
         <a
@@ -627,6 +689,8 @@ function ReadyView({
         />
       </div>
       <SourceLine reportId={report?.id} filed={report?.filed} amendment={report?.amendment} extra="We use only the latest amendment of each report." />
+
+      {s.history ? <MoneyHistory h={s.history} firstName={firstName} subject={`${personTitle(s)}'s campaign`} /> : null}
 
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Who funds {firstName}?</h3>
       <p className="mt-1 text-sm text-on-dark-muted">
@@ -789,7 +853,6 @@ function ReadyView({
       ) : null}
       <SourceLine reportId={report?.id} filed={report?.filed} amendment={report?.amendment} />
 
-      {s.history ? <MoneyHistory h={s.history} firstName={firstName} /> : null}
 
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Did they file on time?</h3>
       <p className="mt-1 text-sm text-on-dark-muted">

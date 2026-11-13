@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
 import { DonorView } from "@/components/site/donor-view";
 import { CampaignMoneySection, FeaturedMoneyTeaser } from "@/components/site/money-card";
+import { AllLegislatorsTimeline } from "@/components/site/money-timeline";
 import type { OfficeKind } from "@/lib/campaign-money";
 import { FEATURED_MONEY_SLUG, profileMoneyHref } from "@/lib/finance-summaries";
 import { findIndexRow, loadFinanceIndex, loadFinanceSummary } from "@/lib/finance-summaries-load";
@@ -29,7 +30,7 @@ export const Route = createFileRoute("/campaign-money")({
     const featured = findIndexRow(index, FEATURED_MONEY_SLUG) ?? null;
     const picked = deps.member ? findIndexRow(index, deps.member) ?? null : null;
     const summary = picked ? await loadFinanceSummary(picked.slug) : null;
-    return { featured, picked, summary };
+    return { featured, picked, summary, totals: index.historyTotals ?? [], memberCount: index.memberCount };
   },
   head: () => ({
     meta: [
@@ -46,7 +47,7 @@ export const Route = createFileRoute("/campaign-money")({
 
 function Page() {
   const { q, office, locality, donor, member } = Route.useSearch();
-  const { featured, picked, summary } = Route.useLoaderData();
+  const { featured, picked, summary, totals, memberCount } = Route.useLoaderData();
   const memberSlug = picked?.slug ?? (member || undefined);
   const billsHref = picked ? `${profileMoneyHref(picked.chamber, picked.slug).replace("#campaign-money", "")}#bills` : "#bills";
   const votesHref = picked ? `${profileMoneyHref(picked.chamber, picked.slug).replace("#campaign-money", "")}#votes` : "#votes";
@@ -115,6 +116,8 @@ function Page() {
               </p>
             </div>
           ) : null}
+
+          {!picked && !donor && totals.length ? <AllLegislatorsTimeline totals={totals} memberCount={memberCount} /> : null}
 
           <p className="mt-6 text-xs text-night-muted">
             Source: Virginia Department of Elections campaign finance reports (cfreports.elections.virginia.gov).

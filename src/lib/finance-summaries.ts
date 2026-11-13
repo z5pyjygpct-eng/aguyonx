@@ -63,6 +63,21 @@ export type FinanceSpendItem = {
 
 export type FinanceHistoryVendor = { name: string; cents: number; count: number; items?: FinanceSpendItem[] };
 
+export type FinanceHistoryMonthGiver = { name: string; cents: number; count: number; kind?: DonorKind | string };
+
+/** Itemized gifts and payments dated in one calendar month (from the 2021-present history). */
+export type FinanceHistoryMonth = {
+  month: number;
+  giftCount: number;
+  giftCents: number;
+  paymentCount: number;
+  paymentCents: number;
+  donorCount?: number;
+  vendorCount?: number;
+  donors?: FinanceHistoryMonthGiver[];
+  vendors?: FinanceHistoryMonthGiver[];
+};
+
 export type FinanceHistoryYear = {
   year: number;
   raisedCents: number;
@@ -78,6 +93,20 @@ export type FinanceHistoryYear = {
   committees: string[];
   donors: FinanceDonor[];
   vendors: FinanceHistoryVendor[];
+  months?: FinanceHistoryMonth[];
+};
+
+/** All sitting legislators combined for one year (hub chart). */
+export type FinanceHistoryTotal = {
+  year: number;
+  members: number;
+  raisedCents: number;
+  spentCents: number;
+  giftCents: number;
+  giftCount: number;
+  paymentCents: number;
+  paymentCount: number;
+  months: FinanceHistoryMonth[];
 };
 
 export type FinanceHistoryReport = {
@@ -197,6 +226,7 @@ export type FinanceIndex = {
   memberCount: number;
   readyCount: number;
   members: FinanceIndexRow[];
+  historyTotals?: FinanceHistoryTotal[];
 };
 
 export function committeeUrl(committeeId: string): string {
