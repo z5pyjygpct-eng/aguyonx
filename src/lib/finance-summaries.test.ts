@@ -90,3 +90,61 @@ test("Kilgore spending categories include itemized payees so a category can be o
   assert.equal(polling?.items?.[0]?.item, "Polling");
   assert.equal(polling?.items?.[0]?.cents, 3_000_000);
 });
+
+test("Kilgore donors include itemized gifts so a donor row can be opened", () => {
+  const donors = kilgore.donors ?? [];
+  assert.equal(donors.length, 40);
+  for (const donor of donors) {
+    const gifts = donor.gifts ?? [];
+    assert.ok(gifts.length > 0, `${donor.name} should list itemized gifts`);
+    assert.equal(gifts.length, donor.count);
+    assert.equal(
+      gifts.reduce((sum, gift) => sum + gift.cents, 0),
+      donor.cents,
+      `${donor.name} itemized gifts should add up to the donor total`,
+    );
+    assert.ok(gifts.every((gift) => gift.type === "direct" || gift.type === "inkind"));
+  }
+  const ballard = donors[0];
+  assert.equal(ballard?.name, "Ballard for Delegate");
+  assert.equal(ballard?.donorId, "ballard-for-delegate");
+  assert.equal(ballard?.gifts?.[0]?.cents, 1_500_000);
+  assert.equal(ballard?.gifts?.[0]?.type, "direct");
+  assert.equal(ballard?.gifts?.[0]?.date, "2026-01-02");
+  assert.equal(ballard?.gifts?.[0]?.reportId, "495571");
+  const party = donors.find((d) => d.name === "Republican Party of Virginia Inc.");
+  assert.equal(party?.gifts?.[0]?.type, "inkind");
+  assert.equal(party?.gifts?.[0]?.item, "Printing, postage and mailing");
+  const pace = donors.find((d) => d.name === "Karmin A. Pace");
+  assert.equal(pace?.kind, "individual");
+  assert.equal(pace?.gifts?.[0]?.employer, "requested");
+  assert.equal(pace?.gifts?.[0]?.occupation, "requested");
+});
+
+test("Kilgore vendors include every payee, with itemized payments for a vendor row", () => {
+  const vendors = kilgore.spending?.vendors ?? [];
+  assert.equal(vendors.length, 62);
+  assert.ok(vendors.length > 10);
+  assert.ok((vendors ?? []).every((v, i, all) => i === 0 || all[i - 1]!.cents >= v.cents));
+  for (const vendor of vendors) {
+    const items = vendor.items ?? [];
+    assert.ok(items.length > 0, `${vendor.name} should list itemized payments`);
+    assert.equal(items.length, vendor.count);
+    assert.equal(
+      items.reduce((sum, item) => sum + item.cents, 0),
+      vendor.cents,
+      `${vendor.name} itemized payments should add up to the vendor total`,
+    );
+  }
+  const hayley = vendors[0];
+  assert.equal(hayley?.name, "Hayley Allison");
+  assert.equal(hayley?.cents, 3_734_935);
+  assert.equal(hayley?.count, 13);
+  assert.ok(hayley?.items?.some((item) => item.item === "Campaign work" && item.category === "Consulting and campaign work"));
+  const cygnal = vendors.find((v) => v.name === "Cygnal (IFA Holdings LLC)");
+  assert.equal(cygnal?.cents, 3_000_000);
+  assert.equal(cygnal?.items?.[0]?.item, "Polling");
+  assert.equal(cygnal?.items?.[0]?.category, "Polling and research");
+  assert.equal(cygnal?.items?.[0]?.date, "2026-01-27");
+  assert.equal(cygnal?.items?.[0]?.cents, 3_000_000);
+});

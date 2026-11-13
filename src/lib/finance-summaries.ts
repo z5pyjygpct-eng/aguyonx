@@ -9,6 +9,18 @@ export const FEATURED_MONEY_SLUG = "terry-g-kilgore";
 
 export type DonorKind = "individual" | "pac" | "party" | "candidate";
 
+export type FinanceGiftType = "direct" | "inkind";
+
+export type FinanceGift = {
+  date?: string;
+  cents: number;
+  type: FinanceGiftType;
+  item?: string;
+  employer?: string;
+  occupation?: string;
+  reportId?: string;
+};
+
 export type FinanceDonor = {
   name: string;
   cents: number;
@@ -18,6 +30,7 @@ export type FinanceDonor = {
   state?: string;
   inKindCents?: number;
   donorId?: string;
+  gifts?: FinanceGift[];
 };
 
 export type FinanceFiling = {
@@ -41,10 +54,11 @@ export type FinanceLatestReport = {
 };
 
 export type FinanceSpendItem = {
-  name: string;
+  name?: string;
   item?: string;
   date?: string;
   cents: number;
+  category?: string;
 };
 
 export type FinanceSummary = {
@@ -96,7 +110,7 @@ export type FinanceSummary = {
   size?: { smallCents: number; largeCents: number; rule: string };
   spending?: {
     categories: { name: string; cents: number; items?: FinanceSpendItem[] }[];
-    vendors: { name: string; cents: number; count: number }[];
+    vendors: { name: string; cents: number; count: number; items?: FinanceSpendItem[] }[];
     groupingNote: string;
   };
   inkind?: { name: string; cents: number; date: string; item: string; city?: string; state?: string }[];

@@ -14,6 +14,7 @@ import {
   reportUrl,
   reportXmlUrl,
   type DonorKind,
+  type FinanceDonor,
   type FinanceFiling,
   type FinanceSpendItem,
   type FinanceSummary,
@@ -247,7 +248,7 @@ function SpendingCategory({ category }: { category: { name: string; cents: numbe
 }
 
 
-const DONOR_PAGE_SIZE = 10;
+const LIST_PAGE_SIZE = 10;
 
 function pageItems(page: number, pages: number): Array<number | "gap"> {
   if (pages <= 7) return Array.from({ length: pages }, (_, i) => i + 1);
@@ -262,10 +263,20 @@ function pageItems(page: number, pages: number): Array<number | "gap"> {
   return out;
 }
 
-function DonorPages({ page, pages, onPage }: { page: number; pages: number; onPage: (n: number) => void }) {
+function MoneyPages({
+  page,
+  pages,
+  onPage,
+  label,
+}: {
+  page: number;
+  pages: number;
+  onPage: (n: number) => void;
+  label: string;
+}) {
   if (pages <= 1) return null;
   return (
-    <nav aria-label="Donor list pages" className="mt-3 flex flex-wrap items-center gap-2">
+    <nav aria-label={label} className="mt-3 flex flex-wrap items-center gap-2">
       <span className="font-mono text-xs tracking-widest text-night-muted uppercase">Pages:</span>
       {pageItems(page, pages).map((item, i) =>
         item === "gap" ? (
@@ -294,6 +305,138 @@ function DonorPages({ page, pages, onPage }: { page: number; pages: number; onPa
   );
 }
 
+
+function DonorRow({ donor, index }: { donor: FinanceDonor; index: number }) {
+  const [open, setOpen] = useState(false);
+  const gifts = donor.gifts ?? [];
+  const giftWord = donor.count === 1 ? "gift" : "gifts";
+  return (
+    <li>
+      <button
+        type="button"
+        aria-expanded={open}
+        onClick={() => setOpen((v) => !v)}
+        className="flex min-h-11 w-full items-center justify-between gap-3 px-4 py-3 text-left hover:bg-navy-600/40"
+      >
+        <span className="flex min-w-0 items-start gap-2">
+          <ChevronDown className={`mt-0.5 size-4 shrink-0 text-gold transition-transform ${open ? "" : "-rotate-90"}`} aria-hidden />
+          <span className="min-w-0">
+            <span className="block font-semibold">
+              <span className="mr-2 font-mono text-xs text-night-muted">{index}.</span>
+              {donor.name}
+            </span>
+            <span className="block text-xs text-night-muted">
+              {kindLabel(donor.kind as DonorKind)}
+              {donor.city || donor.state ? ` · ${[donor.city, donor.state].filter(Boolean).join(", ")}` : ""}
+              {donor.count > 1 ? ` · ${donor.count} ${giftWord}` : ""}
+              {donor.inKindCents ? ` · includes ${formatUsd(donor.inKindCents)} in-kind` : ""}
+              {` · ${open ? "Hide gifts" : "See gifts"}`}
+            </span>
+          </span>
+        </span>
+        <span className="shrink-0 font-serif text-xl font-bold text-gold">{formatUsd(donor.cents)}</span>
+      </button>
+      {open ? (
+        <ul className="divide-y divide-navy-line/50 border-t border-navy-line/50 bg-navy-900/40">
+          {gifts.length === 0 ? (
+            <li className="px-4 py-3 pl-10 text-sm text-on-dark-muted">No itemized gifts in the reports we have loaded for this donor.</li>
+          ) : (
+            gifts.map((gift, i) => (
+              <li key={`${gift.date ?? "undated"}-${gift.cents}-${i}`} className="px-4 py-3 pl-10">
+                <div className="flex items-baseline justify-between gap-3 text-sm">
+                  <span className="min-w-0">
+                    <span className="font-semibold">{gift.type === "inkind" ? "In-kind" : "Direct"}</span>
+                    {gift.date ? ` · ${formatShortDate(gift.date)}` : ""}
+                    {gift.item ? ` · ${gift.item}` : ""}
+                  </span>
+                  <span className="shrink-0 font-serif text-base font-bold text-gold">{formatUsd(gift.cents)}</span>
+                </div>
+                {donor.kind === "individual" && (gift.occupation || gift.employer) ? (
+                  <div className="mt-1 text-xs text-on-dark-muted">
+                    {[
+                      gift.occupation ? `Occupation: ${gift.occupation}` : null,
+                      gift.employer ? `Employer: ${gift.employer}` : null,
+                    ]
+                      .filter(Boolean)
+                      .join(" · ")}
+                  </div>
+                ) : null}
+                {gift.reportId ? (
+                  <a
+                    href={reportUrl(gift.reportId)}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-gold hover:underline"
+                  >
+                    State report {gift.reportId}
+                    <ExternalLink className="size-3" aria-hidden />
+                  </a>
+                ) : null}
+              </li>
+            ))
+          )}
+          {donor.donorId ? (
+            <li className="px-4 py-3 pl-10">
+              <Link
+                to="/campaign-money"
+                search={{ donor: donor.donorId }}
+                className="text-sm font-semibold text-gold hover:underline"
+              >
+                See all official gifts from this donor
+              </Link>
+            </li>
+          ) : null}
+        </ul>
+      ) : null}
+    </li>
+  );
+}
+
+function VendorRow({ vendor }: { vendor: { name: string; cents: number; count: number; items?: FinanceSpendItem[] } }) {
+  const [open, setOpen] = useState(false);
+  const items = vendor.items ?? [];
+  return (
+    <li>
+      <button
+        type="button"
+        aria-expanded={open}
+        onClick={() => setOpen((v) => !v)}
+        className="flex min-h-11 w-full items-center justify-between gap-3 px-4 py-3 text-left text-sm hover:bg-navy-600/40"
+      >
+        <span className="flex min-w-0 items-start gap-2">
+          <ChevronDown className={`mt-0.5 size-4 shrink-0 text-gold transition-transform ${open ? "" : "-rotate-90"}`} aria-hidden />
+          <span className="min-w-0">
+            <span className="block font-medium">{vendor.name}</span>
+            <span className="block text-xs text-night-muted">
+              {vendor.count} {vendor.count === 1 ? "payment" : "payments"}
+              {` · ${open ? "Hide payments" : "See payments"}`}
+            </span>
+          </span>
+        </span>
+        <span className="shrink-0 font-serif text-lg font-bold text-gold">{formatUsd(vendor.cents)}</span>
+      </button>
+      {open ? (
+        <ul className="divide-y divide-navy-line/50 border-t border-navy-line/50 bg-navy-900/40">
+          {items.length === 0 ? (
+            <li className="px-4 py-3 pl-10 text-sm text-on-dark-muted">No itemized payments in the reports we have loaded for this vendor.</li>
+          ) : (
+            items.map((payment, i) => (
+              <li key={`${vendor.name}-${payment.date}-${payment.item}-${i}`} className="flex items-baseline justify-between gap-3 px-4 py-3 pl-10 text-xs text-on-dark-muted">
+                <span className="min-w-0">
+                  {payment.item || "Not stated"}
+                  {payment.date ? ` · ${formatShortDate(payment.date)}` : ""}
+                  {payment.category ? ` · ${payment.category}` : ""}
+                </span>
+                <span className="shrink-0 font-serif text-sm font-bold text-gold">{formatUsd(payment.cents)}</span>
+              </li>
+            ))
+          )}
+        </ul>
+      ) : null}
+    </li>
+  );
+}
+
 function ReadyView({
   s,
   billsHref,
@@ -307,12 +450,18 @@ function ReadyView({
 }) {
   const [allFilings, setAllFilings] = useState(false);
   const [donorPage, setDonorPage] = useState(1);
+  const [vendorPage, setVendorPage] = useState(1);
   const donors = s.donors ?? [];
-  const donorPages = Math.max(1, Math.ceil(donors.length / DONOR_PAGE_SIZE));
+  const donorPages = Math.max(1, Math.ceil(donors.length / LIST_PAGE_SIZE));
   const safeDonorPage = Math.min(donorPage, donorPages);
-  const donorSlice = donors.slice((safeDonorPage - 1) * DONOR_PAGE_SIZE, safeDonorPage * DONOR_PAGE_SIZE);
+  const donorSlice = donors.slice((safeDonorPage - 1) * LIST_PAGE_SIZE, safeDonorPage * LIST_PAGE_SIZE);
+  const vendors = s.spending?.vendors ?? [];
+  const vendorPages = Math.max(1, Math.ceil(vendors.length / LIST_PAGE_SIZE));
+  const safeVendorPage = Math.min(vendorPage, vendorPages);
+  const vendorSlice = vendors.slice((safeVendorPage - 1) * LIST_PAGE_SIZE, safeVendorPage * LIST_PAGE_SIZE);
   useEffect(() => {
     setDonorPage(1);
+    setVendorPage(1);
   }, [s.slug]);
   const report = s.latestReport;
   const filings = s.filings ?? [];
@@ -376,41 +525,22 @@ function ReadyView({
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Who funds {firstName}?</h3>
       <p className="mt-1 text-sm text-on-dark-muted">
         All {donors.length.toLocaleString()} itemized givers in this {s.cycleLabel ? s.cycleLabel.toLowerCase() : "cycle"}, including{" "}
-        <MoneyTerm term="In-kind">gifts of goods or services</MoneyTerm>, shown {DONOR_PAGE_SIZE} at a time. Names appear as they were filed with the state.
+        <MoneyTerm term="In-kind">gifts of goods or services</MoneyTerm>, shown {LIST_PAGE_SIZE} at a time. Tap a name to see each official gift.
+        Names appear as they were filed with the state.
       </p>
       {donors.length ? (
-        <ol className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800" start={(safeDonorPage - 1) * DONOR_PAGE_SIZE + 1}>
+        <ol className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800" start={(safeDonorPage - 1) * LIST_PAGE_SIZE + 1}>
           {donorSlice.map((d, i) => (
-            <li key={d.name} className="flex flex-col gap-1 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
-              <div className="min-w-0">
-                <div className="font-semibold">
-                  <span className="mr-2 font-mono text-xs text-night-muted">{(safeDonorPage - 1) * DONOR_PAGE_SIZE + i + 1}.</span>
-                  {d.donorId ? (
-                    <Link to="/campaign-money" search={{ donor: d.donorId }} className="hover:text-gold hover:underline">
-                      {d.name}
-                    </Link>
-                  ) : (
-                    d.name
-                  )}
-                </div>
-                <div className="text-xs text-night-muted">
-                  {kindLabel(d.kind as DonorKind)}
-                  {d.city || d.state ? ` · ${[d.city, d.state].filter(Boolean).join(", ")}` : ""}
-                  {d.count > 1 ? ` · ${d.count} gifts` : ""}
-                  {d.inKindCents ? ` · includes ${formatUsd(d.inKindCents)} in-kind` : ""}
-                </div>
-              </div>
-              <div className="shrink-0 font-serif text-xl font-bold text-gold">{formatUsd(d.cents)}</div>
-            </li>
+            <DonorRow key={d.donorId ?? d.name} donor={d} index={(safeDonorPage - 1) * LIST_PAGE_SIZE + i + 1} />
           ))}
         </ol>
       ) : (
         <p className="mt-3 text-sm text-on-dark-muted">No itemized donors in the reports we have loaded for this cycle.</p>
       )}
-      <DonorPages page={safeDonorPage} pages={donorPages} onPage={setDonorPage} />
-      {donors.length > DONOR_PAGE_SIZE ? (
+      <MoneyPages page={safeDonorPage} pages={donorPages} onPage={setDonorPage} label="Donor list pages" />
+      {donors.length > LIST_PAGE_SIZE ? (
         <p className="mt-2 text-xs text-night-muted">
-          Showing {(safeDonorPage - 1) * DONOR_PAGE_SIZE + 1}–{Math.min(safeDonorPage * DONOR_PAGE_SIZE, donors.length)} of {donors.length.toLocaleString()}
+          Showing {(safeDonorPage - 1) * LIST_PAGE_SIZE + 1}–{Math.min(safeDonorPage * LIST_PAGE_SIZE, donors.length)} of {donors.length.toLocaleString()}
         </p>
       ) : null}
       <SourceLine reportId={report?.id} filed={report?.filed} amendment={report?.amendment} extra={s.itemizedNote} />
@@ -462,9 +592,9 @@ function ReadyView({
 
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">How is the money spent?</h3>
       <p className="mt-1 text-sm text-on-dark-muted">
-        Spending by plain-language category, plus the vendors paid the most in this cycle. Tap a category to see who was
-        paid, what the state filing listed, and the amount. Category groups are ours, built from the state's free-text
-        “item or service” field — they are not official state categories.
+        Spending by plain-language category, plus the vendors paid the most in this cycle. Tap a category or a vendor to
+        see who was paid, what the state filing listed, and the amount. Category groups are ours, built from the state's
+        free-text “item or service” field — they are not official state categories.
       </p>
       {s.spending?.categories.length ? (
         <ul className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
@@ -475,20 +605,24 @@ function ReadyView({
       ) : (
         <p className="mt-3 text-sm text-on-dark-muted">No itemized spending in the reports we have loaded for this cycle.</p>
       )}
-      {s.spending?.vendors.length ? (
+      {vendors.length ? (
         <>
-          <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">Top vendors</h4>
+          <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">Top vendors paid the most</h4>
+          <p className="mt-1 text-xs text-night-muted">
+            All {vendors.length.toLocaleString()} vendors in this cycle, shown {LIST_PAGE_SIZE} at a time, starting with the largest totals.
+            Tap a vendor to see each official payment.
+          </p>
           <ul className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
-            {s.spending.vendors.map((v) => (
-              <li key={v.name} className="flex items-center justify-between gap-3 px-4 py-2.5 text-sm">
-                <span>
-                  {v.name}
-                  <span className="block text-xs text-night-muted">{v.count} {v.count === 1 ? "payment" : "payments"}</span>
-                </span>
-                <span className="shrink-0 font-serif text-lg font-bold text-gold">{formatUsd(v.cents)}</span>
-              </li>
+            {vendorSlice.map((v) => (
+              <VendorRow key={v.name} vendor={v} />
             ))}
           </ul>
+          <MoneyPages page={safeVendorPage} pages={vendorPages} onPage={setVendorPage} label="Vendor list pages" />
+          {vendors.length > LIST_PAGE_SIZE ? (
+            <p className="mt-2 text-xs text-night-muted">
+              Showing {(safeVendorPage - 1) * LIST_PAGE_SIZE + 1}–{Math.min(safeVendorPage * LIST_PAGE_SIZE, vendors.length)} of {vendors.length.toLocaleString()}
+            </p>
+          ) : null}
         </>
       ) : null}
       <SourceLine

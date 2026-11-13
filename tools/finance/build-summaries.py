@@ -506,6 +506,7 @@ def main() -> None:
                     "zip": normalize_zip(zipc),
                     "individual": individual,
                     "occupation": occ,
+                    "employer": (row.get("NameOfEmployer") or "").strip(),
                     "item": item,
                     "kind": donor_type(name, occ, individual),
                     "sched": sched,
@@ -554,6 +555,7 @@ def main() -> None:
                     "state": gft["state"],
                     "inKindCents": 0,
                     "occupation": gft["occupation"],
+                    "gifts": [],
                 }
                 donor_acc[key] = d
             d["cents"] += gft["cents"]
@@ -565,6 +567,21 @@ def main() -> None:
                 d["city"] = gft["city"]
             if len(gft["name"]) > len(d["name"]):
                 d["name"] = gft["name"]
+            gift = {
+                "cents": gft["cents"],
+                "type": "inkind" if gft["sched"] == "B" else "direct",
+            }
+            if gft.get("date"):
+                gift["date"] = gft["date"]
+            if gft.get("item"):
+                gift["item"] = gft["item"]
+            if gft.get("employer"):
+                gift["employer"] = gft["employer"]
+            if gft.get("occupation"):
+                gift["occupation"] = gft["occupation"]
+            if gft.get("reportId"):
+                gift["reportId"] = str(gft["reportId"])
+            d["gifts"].append(gift)
         donors_sorted = sorted(donor_acc.values(), key=lambda d: (-d["cents"], d["name"].lower()))
         top_donors = []
         for d in donors_sorted:
@@ -580,6 +597,11 @@ def main() -> None:
             }
             if slug in indexed_donors:
                 entry["donorId"] = slug
+            entry["gifts"] = sorted(
+                d.get("gifts") or [],
+                key=lambda g: (g.get("date") or "", g.get("cents") or 0),
+                reverse=True,
+            )
             top_donors.append(entry)
 
         origin = {"inStateCents": 0, "outOfStateCents": 0, "unknownCents": 0, "inStateCount": 0, "outOfStateCount": 0, "unknownCount": 0}
@@ -616,12 +638,20 @@ def main() -> None:
             key = fold(s["name"]) or s["name"]
             v = vendor_acc.get(key)
             if v is None:
-                v = {"name": s["name"], "cents": 0, "count": 0}
+                v = {"name": s["name"], "cents": 0, "count": 0, "items": []}
                 vendor_acc[key] = v
             v["cents"] += s["cents"]
             v["count"] += 1
             if len(s["name"]) > len(v["name"]):
                 v["name"] = s["name"]
+            pay = {"cents": s["cents"], "category": cat}
+            if s.get("item"):
+                pay["item"] = s["item"]
+            if s.get("date"):
+                pay["date"] = s["date"]
+            v["items"].append(pay)
+        for v in vendor_acc.values():
+            v["items"] = sorted(v["items"], key=lambda x: (-x["cents"], x.get("date") or ""))
         categories = [
             {
                 "name": name,
@@ -633,7 +663,7 @@ def main() -> None:
             }
             for name, cents in sorted(cat_acc.items(), key=lambda kv: (-kv[1], kv[0]))
         ]
-        vendors = sorted(vendor_acc.values(), key=lambda v: (-v["cents"], v["name"].lower()))[:10]
+        vendors = sorted(vendor_acc.values(), key=lambda v: (-v["cents"], v["name"].lower()))
 
         def on_time(filed: str, due: str) -> bool | None:
             fd, dd = parse_day(filed), parse_day(due)
