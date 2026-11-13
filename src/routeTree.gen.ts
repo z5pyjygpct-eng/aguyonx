@@ -18,6 +18,7 @@ import { Route as CitiesRouteImport } from './routes/cities'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CountiesRouteImport } from './routes/counties'
 import { Route as DelegatesRouteImport } from './routes/delegates'
+import { Route as DigRouteImport } from './routes/dig'
 import { Route as EmergencyMonitorRouteImport } from './routes/emergency-monitor'
 import { Route as FindTheMomentRouteImport } from './routes/find-the-moment'
 import { Route as GeneralAssemblyRouteImport } from './routes/general-assembly'
@@ -206,6 +207,11 @@ const CountiesRoute = CountiesRouteImport.update({
 const DelegatesRoute = DelegatesRouteImport.update({
   id: '/delegates',
   path: '/delegates',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DigRoute = DigRouteImport.update({
+  id: '/dig',
+  path: '/dig',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EmergencyMonitorRoute = EmergencyMonitorRouteImport.update({
@@ -1029,6 +1035,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/counties': typeof CountiesRouteWithChildren
   '/delegates': typeof DelegatesRoute
+  '/dig': typeof DigRoute
   '/emergency-monitor': typeof EmergencyMonitorRoute
   '/find-the-moment': typeof FindTheMomentRoute
   '/general-assembly': typeof GeneralAssemblyRouteWithChildren
@@ -1181,6 +1188,7 @@ export interface FileRoutesByTo {
   '/board-of-education': typeof BoardOfEducationRoute
   '/contact': typeof ContactRoute
   '/delegates': typeof DelegatesRoute
+  '/dig': typeof DigRoute
   '/emergency-monitor': typeof EmergencyMonitorRoute
   '/find-the-moment': typeof FindTheMomentRoute
   '/how-to': typeof HowToRoute
@@ -1330,6 +1338,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/counties': typeof CountiesRouteWithChildren
   '/delegates': typeof DelegatesRoute
+  '/dig': typeof DigRoute
   '/emergency-monitor': typeof EmergencyMonitorRoute
   '/find-the-moment': typeof FindTheMomentRoute
   '/general-assembly': typeof GeneralAssemblyRouteWithChildren
@@ -1487,6 +1496,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/counties'
     | '/delegates'
+    | '/dig'
     | '/emergency-monitor'
     | '/find-the-moment'
     | '/general-assembly'
@@ -1639,6 +1649,7 @@ export interface FileRouteTypes {
     | '/board-of-education'
     | '/contact'
     | '/delegates'
+    | '/dig'
     | '/emergency-monitor'
     | '/find-the-moment'
     | '/how-to'
@@ -1787,6 +1798,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/counties'
     | '/delegates'
+    | '/dig'
     | '/emergency-monitor'
     | '/find-the-moment'
     | '/general-assembly'
@@ -1943,6 +1955,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   CountiesRoute: typeof CountiesRouteWithChildren
   DelegatesRoute: typeof DelegatesRoute
+  DigRoute: typeof DigRoute
   EmergencyMonitorRoute: typeof EmergencyMonitorRoute
   FindTheMomentRoute: typeof FindTheMomentRoute
   GeneralAssemblyRoute: typeof GeneralAssemblyRouteWithChildren
@@ -2127,6 +2140,13 @@ declare module '@tanstack/react-router' {
       path: '/delegates'
       fullPath: '/delegates'
       preLoaderRoute: typeof DelegatesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dig': {
+      id: '/dig'
+      path: '/dig'
+      fullPath: '/dig'
+      preLoaderRoute: typeof DigRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/emergency-monitor': {
@@ -3298,6 +3318,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   CountiesRoute: CountiesRouteWithChildren,
   DelegatesRoute: DelegatesRoute,
+  DigRoute: DigRoute,
   EmergencyMonitorRoute: EmergencyMonitorRoute,
   FindTheMomentRoute: FindTheMomentRoute,
   GeneralAssemblyRoute: GeneralAssemblyRouteWithChildren,
