@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,150 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-13",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Thursday, Nov 12) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, outlet headline matched RSS title, Nov 12 publish time from feed). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Potomac Local, Blue Ridge Leader, WTOP local; Loudoun Times-Mirror and Prince William Times returned HTTP 429, Loudoun Now feed HTTP 404, Patch feed 404 (not covered); no Nov 12 local stories on News page beyond statewide items. 15 candidates checked, 0 failed, 15 kept. Left out: statewide, national, DC, Stafford and Fredericksburg stories; daily debriefs, morning notes and property listings; Dulles and multi-county park items (locality unclear).",
+      "items": [
+        {
+          "id": "police-scanners-are-going-silent-across-the-d-c-area-co-arlnow-2026-11-12",
+          "county": "Arlington",
+          "headline": "Police scanners are going silent across the D.C. area. Could Arlington be next?",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/12/police-scanners-are-going-silent-across-the-d-c-area-could-arlington-be-next/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "great-arlington-bakeoff-bringing-free-samples-from-loca-arlnow-2026-11-12",
+          "county": "Arlington",
+          "headline": "‘Great Arlington Bakeoff’ bringing free samples from local bakers to Central Library",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/12/great-arlington-bakeoff-bringing-free-samples-from-local-bakers-to-central-library/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "holiday-events-in-arlington-tree-lightings-markets-a-wi-arlnow-2026-11-12",
+          "county": "Arlington",
+          "headline": "Holiday events in Arlington: Tree lightings, markets, a winter festival and more",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/12/holiday-events-in-arlington-tree-lightings-markets-a-winter-festival-and-more/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-home-listings-up-22-in-sluggish-october-marke-arlnow-2026-11-12",
+          "county": "Arlington",
+          "headline": "Arlington home listings up 22% in ‘sluggish’ October market",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/12/arlington-home-listings-up-22-in-sluggish-october-market/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-gop-seeks-to-regroup-after-crushing-defeats-f-arlnow-2026-11-12",
+          "county": "Arlington",
+          "headline": "Arlington GOP seeks to regroup after crushing defeats for Republicans nationwide",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/12/arlington-gop-seeks-to-regroup-after-crushing-defeats-for-republicans-nationwide/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "three-arlington-teams-advance-to-football-playoffs-this-arlnow-2026-11-12",
+          "county": "Arlington",
+          "headline": "Three Arlington teams advance to football playoffs this weekend",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/12/three-arlington-teams-advance-to-football-playoffs-this-weekend/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "south-lakes-students-offer-2027-calendar-to-raise-funds-ffxnow-2026-11-12",
+          "county": "Fairfax",
+          "headline": "South Lakes students offer 2027 calendar to raise funds for art project",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/12/south-lakes-students-offer-2027-calendar-to-raise-funds-for-art-project/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-regional-homes-markets-brace-for-quiet-e-ffxnow-2026-11-12",
+          "county": "Fairfax",
+          "headline": "Fairfax County, regional homes markets brace for quiet end to the year",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/12/fairfax-county-regional-homes-markets-brace-for-quiet-end-to-the-year/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "tech-company-relocates-within-herndon-area-to-state-of-ffxnow-2026-11-12",
+          "county": "Fairfax",
+          "headline": "Tech company relocates within Herndon area to ‘state-of-the-art’ headquarters",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/12/tech-company-relocates-within-herndon-area-to-state-of-the-art-headquarters/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "rising-fuel-energy-and-staffing-costs-leave-fcps-starin-ffxnow-2026-11-12",
+          "county": "Fairfax",
+          "headline": "Rising fuel, energy and staffing costs leave FCPS staring at nearly $200M budget gap",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/12/rising-fuel-energy-and-staffing-costs-leave-fcps-staring-at-nearly-200m-budget-gap/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "tysons-targeted-for-potential-mixed-use-development-wit-ffxnow-2026-11-12",
+          "county": "Fairfax",
+          "headline": "Tysons targeted for potential mixed-use development with conservative cultural institute",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/12/tysons-targeted-for-potential-mixed-use-development-with-conservative-cultural-institute/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "teen-dies-days-after-being-struck-by-driver-near-chanti-ffxnow-2026-11-12",
+          "county": "Fairfax",
+          "headline": "Teen dies days after being struck by driver near Chantilly High School",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/12/teen-dies-days-after-being-struck-by-driver-near-chantilly-high-school/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "weekly-crime-report-nov-5-11-annandaletod-2026-11-12",
+          "county": "Fairfax",
+          "headline": "Weekly crime report – Nov. 5-11",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/weekly-crime-report-nov-5-11/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-artist-sobia-sami-opens-second-solo-exhibition-potomaclocal-2026-11-12",
+          "county": "Prince William",
+          "headline": "Manassas artist Sobia Sami opens second solo exhibition at Central Library",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/12/manassas-artist-sobia-sami-opens-second-solo-exhibition-at-central-library/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "new-management-takes-over-purcellville-east-apartments-blueridgelea-2026-11-12",
+          "county": "Loudoun",
+          "headline": "New Management Takes Over Purcellville East Apartments as Repairs Begin",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/new-management-takes-over-purcellville-east-apartments-as-repairs-begin/",
+          "published": "2026-11-12",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-11-12",
       "status": "ok",
