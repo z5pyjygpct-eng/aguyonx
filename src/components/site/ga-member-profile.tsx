@@ -431,7 +431,7 @@ export function GaMemberProfile({ m, meta, finance }: { m: GaMember; meta: GaMet
               </p>
             </div>
           ) : null}
-          <div className="lg:col-span-2">
+          <div className="min-w-0 lg:col-span-2">
             <CampaignMoneySection slug={m.slug} summary={finance} officialHref={campaignMoneyLink(m.lisId)?.href} billsHref="#bills" votesHref="#votes" />
           </div>
           {hasSummary ? (

@@ -190,7 +190,7 @@ export function RaisedSpentChart({
           </li>
         </ul>
       </div>
-      <div className="mt-4 overflow-x-auto">
+      <div className="mt-4 w-full min-w-0 max-w-full overflow-x-auto">
         <div
           className={cn("flex h-56 items-end gap-2 border-b border-navy-line pb-0", monthly ? "min-w-[560px]" : "min-w-[360px]")}
           role="img"
