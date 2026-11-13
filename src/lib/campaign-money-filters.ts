@@ -1,6 +1,6 @@
 import type { CampaignMoneyRecord, OfficeKind } from "./campaign-money-search.ts";
 import type { DonorRecord } from "./finance-donors.ts";
-import type { DonorKind, FinanceGift, FinanceSummary } from "./finance-summaries.ts";
+import type { DonorKind, FinanceDonor, FinanceGift, FinanceSummary } from "./finance-summaries.ts";
 import { moneyMatches, parseMoneyQuery, type MoneyQuery } from "./money-query.ts";
 
 export type DonorTypePill = "individual" | "committee" | "business";
@@ -191,6 +191,31 @@ export function filterDonors(
   }
   hits.sort((a, b) => b.cents - a.cents || a.name.localeCompare(b.name));
   return hits.slice(0, opts.cap ?? 40);
+}
+
+export function filterFinanceDonors(
+  donors: FinanceDonor[],
+  opts: {
+    types?: DonorTypePill[];
+    ranges?: DollarRangePill[];
+    query?: string;
+    money?: MoneyQuery | null;
+  } = {},
+): FinanceDonor[] {
+  const types = opts.types ?? [];
+  const ranges = opts.ranges ?? [];
+  const money = opts.money ?? (opts.query ? parseMoneyQuery(opts.query) : null);
+  const name = (money ? money.rest : opts.query ?? "").trim().toLowerCase();
+  const tokens = name ? name.split(/\s+/).filter(Boolean) : [];
+  const hits: FinanceDonor[] = [];
+  for (const donor of donors) {
+    if (types.length && !types.includes(donorTypePill(donor.kind))) continue;
+    if (!inAnyDollarRange(donor.cents, ranges)) continue;
+    if (money && !moneyMatches(donor.cents, money)) continue;
+    if (tokens.length && !tokens.every((tok) => donor.name.toLowerCase().includes(tok))) continue;
+    hits.push(donor);
+  }
+  return hits;
 }
 
 export function toggleList<T extends string>(list: T[], value: T): T[] {

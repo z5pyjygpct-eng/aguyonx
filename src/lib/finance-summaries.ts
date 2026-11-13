@@ -311,7 +311,7 @@ function nameTokens(fullName: string): string[] {
   return fullName.replace(/,/g, " ").trim().split(/\s+/).filter(Boolean);
 }
 
-/** Given name used in short headings such as "Who funds Karen?" Leading initials are skipped. */
+/** Given name used in short headings such as "Every itemized donor to Karen." Leading initials are skipped. */
 export function familiarFirstName(fullName: string): string {
   const parts = nameTokens(fullName);
   const first = parts.find((p) => !NAME_INITIAL.test(p) && !NAME_NICKNAME.test(p) && !NAME_SUFFIX.test(p));

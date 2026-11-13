@@ -30,6 +30,15 @@ import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
 import { RaisedSpentChart, TimelineFilters, TimelineTotals, type TimelineSelection } from "@/components/site/money-timeline";
 import { monthName, timelineYears } from "@/lib/money-timeline";
 import { loadFinanceSummary } from "@/lib/finance-summaries-load";
+import { historySlice, loadMemberHistory, type HistoryLedger } from "@/lib/campaign-money-history";
+import {
+  DOLLAR_RANGE_PILLS,
+  DONOR_TYPE_PILLS,
+  filterFinanceDonors,
+  toggleList,
+  type DollarRangePill,
+  type DonorTypePill,
+} from "@/lib/campaign-money-filters";
 import { cn } from "@/lib/utils";
 
 const GLOSSARY: Record<string, string> = {
@@ -316,6 +325,81 @@ function MoneyPages({
 }
 
 
+
+const SMALL_GIFT_NOTE =
+  "Gifts of $100 or less are often reported only as a lump sum, without a name, so they may not appear in this list.";
+
+const HISTORY_LIST_NOTE =
+  "Raised and spent by year are the official per-report totals (Schedule H) for scheduled reports whose period ended that year. Itemized gifts and payments are the named rows dated that year. Gifts of $100 or less are often reported only as a lump sum, without a name. Large-contribution (48-hour) reports repeat gifts already on scheduled reports, so they are not counted twice.";
+
+function useHistoryLedger(csvPath: string | null | undefined) {
+  const [ledger, setLedger] = useState<HistoryLedger | null>(null);
+  const [status, setStatus] = useState<"idle" | "loading" | "ready" | "error">(csvPath ? "loading" : "idle");
+  useEffect(() => {
+    if (!csvPath) {
+      setLedger(null);
+      setStatus("idle");
+      return;
+    }
+    let on = true;
+    setStatus("loading");
+    loadMemberHistory(csvPath)
+      .then((data) => {
+        if (on) {
+          setLedger(data);
+          setStatus("ready");
+        }
+      })
+      .catch(() => {
+        if (on) {
+          setLedger(null);
+          setStatus("error");
+        }
+      });
+    return () => {
+      on = false;
+    };
+  }, [csvPath]);
+  return { ledger, status };
+}
+
+function FilterChip({
+  label,
+  pressed,
+  onClick,
+}: {
+  label: string;
+  pressed: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      aria-pressed={pressed}
+      onClick={onClick}
+      className={cn(
+        "inline-flex min-h-9 items-center rounded-full border px-3 py-1.5 text-xs font-medium",
+        pressed
+          ? "border-gold bg-gold text-navy-900"
+          : "border-navy-line bg-navy-800 text-on-dark-muted hover:border-gold hover:text-gold",
+      )}
+    >
+      {label}
+    </button>
+  );
+}
+
+function usePaged<T>(items: T[], resetKey: string) {
+  const [page, setPage] = useState(1);
+  const pages = Math.max(1, Math.ceil(items.length / LIST_PAGE_SIZE));
+  const safe = Math.min(page, pages);
+  useEffect(() => {
+    setPage(1);
+  }, [resetKey]);
+  const slice = items.slice((safe - 1) * LIST_PAGE_SIZE, safe * LIST_PAGE_SIZE);
+  return { page: safe, pages, setPage, slice, start: (safe - 1) * LIST_PAGE_SIZE };
+}
+
 function DonorRow({ donor, index }: { donor: FinanceDonor; index: number }) {
   const [open, setOpen] = useState(false);
   const gifts = donor.gifts ?? [];
@@ -447,12 +531,27 @@ function VendorRow({ vendor }: { vendor: { name: string; cents: number; count: n
   );
 }
 
-function HistoryYearRow({ y, firstName, defaultOpen = false }: { y: FinanceHistoryYear; firstName: string; defaultOpen?: boolean }) {
+function HistoryYearRow({
+  y,
+  firstName,
+  defaultOpen = false,
+  donors,
+  vendors,
+  loading = false,
+}: {
+  y: FinanceHistoryYear;
+  firstName: string;
+  defaultOpen?: boolean;
+  donors?: FinanceDonor[];
+  vendors?: { name: string; cents: number; count: number; items?: FinanceSpendItem[] }[];
+  loading?: boolean;
+}) {
   const [open, setOpen] = useState(defaultOpen);
-  const [donorPage, setDonorPage] = useState(1);
-  const donorPages = Math.max(1, Math.ceil(y.donors.length / LIST_PAGE_SIZE));
-  const safePage = Math.min(donorPage, donorPages);
-  const donorSlice = y.donors.slice((safePage - 1) * LIST_PAGE_SIZE, safePage * LIST_PAGE_SIZE);
+  const allDonors = donors ?? y.donors;
+  const allVendors = vendors ?? y.vendors;
+  const full = donors != null;
+  const donorPager = usePaged(allDonors, `${y.year}-donors-${allDonors.length}`);
+  const vendorPager = usePaged(allVendors, `${y.year}-vendors-${allVendors.length}`);
   return (
     <li>
       <button
@@ -487,29 +586,62 @@ function HistoryYearRow({ y, firstName, defaultOpen = false }: { y: FinanceHisto
             {typeof y.endingBalanceCents === "number" ? ` · money in the bank at the end of the last ${y.year} report: ${formatUsd(y.endingBalanceCents)}` : ""}.
           </p>
           <h4 className="mt-4 text-xs font-semibold tracking-wide text-gold uppercase">
-            Top givers to {firstName} in {y.year}
+            {full ? `All itemized donors in ${y.year}` : `Top givers to ${firstName} in ${y.year}`}
           </h4>
-          {y.donors.length ? (
+          <p className="mt-1 text-xs text-night-muted">
+            {full
+              ? `Every named giver with a gift dated ${y.year}, totaled for the year, shown ${LIST_PAGE_SIZE} at a time. Tap a name to see each official gift. ${SMALL_GIFT_NOTE}`
+              : loading
+                ? `Loading every named donor for ${y.year}…`
+                : `Largest named givers dated ${y.year}. ${SMALL_GIFT_NOTE}`}
+          </p>
+          {allDonors.length ? (
             <>
               <ol className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
-                {donorSlice.map((d, i) => (
-                  <DonorRow key={`${y.year}-${d.name}`} donor={d} index={(safePage - 1) * LIST_PAGE_SIZE + i + 1} />
+                {donorPager.slice.map((d, i) => (
+                  <DonorRow key={`${y.year}-${d.name}`} donor={d} index={donorPager.start + i + 1} />
                 ))}
               </ol>
-              <MoneyPages page={safePage} pages={donorPages} onPage={setDonorPage} label={`${y.year} giver pages`} />
+              <MoneyPages page={donorPager.page} pages={donorPager.pages} onPage={donorPager.setPage} label={`${y.year} donor pages`} />
+              {allDonors.length > LIST_PAGE_SIZE ? (
+                <p className="mt-2 text-xs text-night-muted">
+                  Showing {donorPager.start + 1}–{Math.min(donorPager.start + LIST_PAGE_SIZE, allDonors.length)} of {allDonors.length.toLocaleString()}
+                </p>
+              ) : null}
             </>
           ) : (
-            <p className="mt-2 text-sm text-on-dark-muted">No itemized gifts dated {y.year}.</p>
+            <p className="mt-2 text-sm text-on-dark-muted">
+              {loading ? `Loading every named donor for ${y.year}…` : `No itemized gifts dated ${y.year}.`}
+            </p>
           )}
-          <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">Top vendors paid in {y.year}</h4>
-          {y.vendors.length ? (
-            <ul className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
-              {y.vendors.map((v) => (
-                <VendorRow key={`${y.year}-${v.name}`} vendor={v} />
-              ))}
-            </ul>
+          <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">
+            {full ? `All itemized payments in ${y.year}` : `Top vendors paid in ${y.year}`}
+          </h4>
+          <p className="mt-1 text-xs text-night-muted">
+            {full
+              ? `Every named payee with a payment dated ${y.year}, shown ${LIST_PAGE_SIZE} at a time. Tap a payee to see the purpose, date, and amount of each official payment.`
+              : loading
+                ? `Loading every named payment for ${y.year}…`
+                : `Largest named payees dated ${y.year}.`}
+          </p>
+          {allVendors.length ? (
+            <>
+              <ul className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+                {vendorPager.slice.map((v) => (
+                  <VendorRow key={`${y.year}-${v.name}`} vendor={v} />
+                ))}
+              </ul>
+              <MoneyPages page={vendorPager.page} pages={vendorPager.pages} onPage={vendorPager.setPage} label={`${y.year} payment pages`} />
+              {allVendors.length > LIST_PAGE_SIZE ? (
+                <p className="mt-2 text-xs text-night-muted">
+                  Showing {vendorPager.start + 1}–{Math.min(vendorPager.start + LIST_PAGE_SIZE, allVendors.length)} of {allVendors.length.toLocaleString()}
+                </p>
+              ) : null}
+            </>
           ) : (
-            <p className="mt-2 text-sm text-on-dark-muted">No itemized payments dated {y.year}.</p>
+            <p className="mt-2 text-sm text-on-dark-muted">
+              {loading ? `Loading every named payment for ${y.year}…` : `No itemized payments dated ${y.year}.`}
+            </p>
           )}
         </div>
       ) : null}
@@ -547,54 +679,148 @@ function MonthGiverList({ rows, total, noun, emptyText }: { rows: FinanceHistory
   );
 }
 
-function MonthDetail({ y, month, firstName }: { y: FinanceHistoryYear; month: number; firstName: string }) {
+function MonthDetail({
+  y,
+  month,
+  firstName,
+  donors,
+  vendors,
+  loading = false,
+}: {
+  y: FinanceHistoryYear;
+  month: number;
+  firstName: string;
+  donors?: FinanceDonor[];
+  vendors?: { name: string; cents: number; count: number; items?: FinanceSpendItem[] }[];
+  loading?: boolean;
+}) {
   const m = y.months?.find((v) => v.month === month);
   const label = `${monthName(month)} ${y.year}`;
+  const allDonors = donors ?? [];
+  const allVendors = vendors ?? [];
+  const full = donors != null;
+  const donorPager = usePaged(full ? allDonors : [], `${y.year}-${month}-donors-${allDonors.length}`);
+  const vendorPager = usePaged(full ? allVendors : [], `${y.year}-${month}-vendors-${allVendors.length}`);
   return (
     <div className="mt-4">
-      <h4 className="text-xs font-semibold tracking-wide text-gold uppercase">Top givers to {firstName} in {label}</h4>
-      <MonthGiverList rows={m?.donors ?? []} total={m?.donorCount} noun="giver" emptyText={`No named gifts dated ${label}.`} />
-      <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">Top vendors paid in {label}</h4>
-      <MonthGiverList rows={m?.vendors ?? []} total={m?.vendorCount} noun="vendor" emptyText={`No named payments dated ${label}.`} />
+      <h4 className="text-xs font-semibold tracking-wide text-gold uppercase">
+        {full ? `All itemized donors in ${label}` : `Top givers to ${firstName} in ${label}`}
+      </h4>
+      {full ? (
+        <>
+          <p className="mt-1 text-xs text-night-muted">
+            Every named giver with a gift dated {label}, shown {LIST_PAGE_SIZE} at a time. {SMALL_GIFT_NOTE}
+          </p>
+          {allDonors.length ? (
+            <>
+              <ol className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+                {donorPager.slice.map((d, i) => (
+                  <DonorRow key={`${label}-${d.name}`} donor={d} index={donorPager.start + i + 1} />
+                ))}
+              </ol>
+              <MoneyPages page={donorPager.page} pages={donorPager.pages} onPage={donorPager.setPage} label={`${label} donor pages`} />
+            </>
+          ) : (
+            <p className="mt-2 text-sm text-on-dark-muted">{loading ? `Loading every named donor for ${label}…` : `No named gifts dated ${label}.`}</p>
+          )}
+        </>
+      ) : (
+        <MonthGiverList rows={m?.donors ?? []} total={m?.donorCount} noun="giver" emptyText={loading ? `Loading every named donor for ${label}…` : `No named gifts dated ${label}.`} />
+      )}
+      <h4 className="mt-5 text-xs font-semibold tracking-wide text-gold uppercase">
+        {full ? `All itemized payments in ${label}` : `Top vendors paid in ${label}`}
+      </h4>
+      {full ? (
+        <>
+          <p className="mt-1 text-xs text-night-muted">
+            Every named payee with a payment dated {label}, shown {LIST_PAGE_SIZE} at a time. Tap a payee to see the purpose, date, and amount.
+          </p>
+          {allVendors.length ? (
+            <>
+              <ul className="mt-2 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+                {vendorPager.slice.map((v) => (
+                  <VendorRow key={`${label}-${v.name}`} vendor={v} />
+                ))}
+              </ul>
+              <MoneyPages page={vendorPager.page} pages={vendorPager.pages} onPage={vendorPager.setPage} label={`${label} payment pages`} />
+            </>
+          ) : (
+            <p className="mt-2 text-sm text-on-dark-muted">{loading ? `Loading every named payment for ${label}…` : `No named payments dated ${label}.`}</p>
+          )}
+        </>
+      ) : (
+        <MonthGiverList rows={m?.vendors ?? []} total={m?.vendorCount} noun="vendor" emptyText={loading ? `Loading every named payment for ${label}…` : `No named payments dated ${label}.`} />
+      )}
       <p className="mt-2 text-xs text-night-muted">
         Named gifts and payments are the lines itemized on state reports, by the date on each line. To see every gift and
-        payment one by one, pick “All of {y.year}” and open the year, or download the CSV below.
+        payment one by one for the whole year, pick “All of {y.year}” and open the year, or download the CSV below.
       </p>
     </div>
   );
 }
 
-function MoneyHistory({ h, firstName, subject }: { h: FinanceHistory; firstName: string; subject: string }) {
-  const [sel, setSel] = useState<TimelineSelection>({});
+function MoneyHistory({
+  h,
+  firstName,
+  subject,
+  sel,
+  onChange,
+  ledger,
+  ledgerStatus,
+}: {
+  h: FinanceHistory;
+  firstName: string;
+  subject: string;
+  sel: TimelineSelection;
+  onChange: (next: TimelineSelection) => void;
+  ledger: HistoryLedger | null;
+  ledgerStatus: "idle" | "loading" | "ready" | "error";
+}) {
   if (!h.years.length) return null;
   const earlier = h.committees.filter((c) => !c.current);
   const years = timelineYears(h.years);
   const newestFirst = [...years].reverse();
   const picked = sel.year != null ? years.find((y) => y.year === sel.year) : undefined;
+  const loading = ledgerStatus === "loading";
   return (
     <>
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Money by year and month, 2021 to now</h3>
       <p className="mt-1 text-sm text-on-dark-muted">
         Official raised and spent totals from every scheduled state report since January 2021
         {h.through ? `, through ${formatDate(h.through)}` : ""}. Pick a year, then a month, to narrow the chart and the
-        lists of givers and vendors below it.
+        lists of donors and payments below it. The All donors section under this one follows the year you pick.
         {earlier.length
           ? ` Includes ${firstName}'s earlier House or Senate committee${earlier.length > 1 ? "s" : ""}: ${earlier.map((c) => c.committeeName).join(", ")}.`
           : ""}
       </p>
-      <TimelineFilters years={years} value={sel} onChange={setSel} />
+      <TimelineFilters years={years} value={sel} onChange={onChange} />
       <TimelineTotals years={years} value={sel} />
-      <RaisedSpentChart years={years} value={sel} onChange={setSel} subject={subject} />
+      <RaisedSpentChart years={years} value={sel} onChange={onChange} subject={subject} />
       {picked && sel.month != null ? (
-        <MonthDetail y={picked} month={sel.month} firstName={firstName} />
+        <MonthDetail
+          y={picked}
+          month={sel.month}
+          firstName={firstName}
+          donors={ledger ? (ledger.months.get(`${sel.year}-${String(sel.month).padStart(2, "0")}`)?.donors ?? []) : undefined}
+          vendors={ledger ? (ledger.months.get(`${sel.year}-${String(sel.month).padStart(2, "0")}`)?.vendors ?? []) : undefined}
+          loading={loading}
+        />
       ) : (
         <ul className="mt-4 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
           {(picked ? [picked] : newestFirst).map((y) => (
-            <HistoryYearRow key={`${y.year}-${picked ? "one" : "all"}`} y={y} firstName={firstName} defaultOpen={Boolean(picked)} />
+            <HistoryYearRow
+              key={`${y.year}-${picked ? "one" : "all"}`}
+              y={y}
+              firstName={firstName}
+              defaultOpen={Boolean(picked)}
+              donors={ledger?.years.get(y.year)?.donors}
+              vendors={ledger?.years.get(y.year)?.vendors}
+              loading={loading}
+            />
           ))}
         </ul>
       )}
-      <p className="mt-2 text-xs text-night-muted">{h.note}</p>
+      <p className="mt-2 text-xs text-night-muted">{HISTORY_LIST_NOTE}</p>
       {h.csvPath ? (
         <a
           href={h.csvPath}
@@ -609,30 +835,180 @@ function MoneyHistory({ h, firstName, subject }: { h: FinanceHistory; firstName:
   );
 }
 
+function AggregateDonors({
+  firstName,
+  through,
+  sel,
+  ledger,
+  ledgerStatus,
+  fallbackDonors,
+  cycleLabel,
+  reportId,
+  filed,
+  amendment,
+  itemizedNote,
+}: {
+  firstName: string;
+  through?: string | null;
+  sel: TimelineSelection;
+  ledger: HistoryLedger | null;
+  ledgerStatus: "idle" | "loading" | "ready" | "error";
+  fallbackDonors: FinanceDonor[];
+  cycleLabel?: string;
+  reportId?: string;
+  filed?: string;
+  amendment?: number;
+  itemizedNote?: string;
+}) {
+  const [donorTypes, setDonorTypes] = useState<DonorTypePill[]>([]);
+  const [ranges, setRanges] = useState<DollarRangePill[]>([]);
+  const [query, setQuery] = useState("");
+  const yearPicked = sel.year != null;
+  const monthPicked = yearPicked && sel.month != null;
+  const hasLedger = Boolean(ledger);
+  const source = ledger
+    ? historySlice(ledger, sel).donors
+    : yearPicked
+      ? []
+      : fallbackDonors;
+  const filtered = filterFinanceDonors(source, { types: donorTypes, ranges, query });
+  const pager = usePaged(filtered, `${sel.year ?? "all"}-${sel.month ?? "all"}-${donorTypes.join(",")}-${ranges.join(",")}-${query}-${filtered.length}`);
+  const filtersOn = donorTypes.length > 0 || ranges.length > 0 || Boolean(query.trim());
+
+  const heading = monthPicked
+    ? `Donors in ${monthName(sel.month!)} ${sel.year} only`
+    : yearPicked
+      ? `Donors in ${sel.year} only`
+      : "All donors, 2021 to today (all years combined)";
+
+  const throughLabel = through ? formatDate(through) : "today";
+  const subline = monthPicked
+    ? `Every itemized donor to ${firstName} with a gift dated ${monthName(sel.month!)} ${sel.year}, totaled for that month. Clear the month or year in the filter above to go back to all years combined.`
+    : yearPicked
+      ? `Every itemized donor to ${firstName} with a gift dated ${sel.year}, totaled for that year. Clear the year in the filter above to see all years combined, or open ${sel.year} in Money by year to see payments too.`
+      : `Every itemized donor to ${firstName} from 2021 through today, totaled across all years. To see a single year, open it in Money by year above or pick a year in the filter.`;
+
+  return (
+    <>
+      <h3 className="mt-8 font-serif text-xl font-semibold uppercase">{heading}</h3>
+      <p className="mt-1 text-sm text-on-dark-muted">
+        {ledgerStatus === "loading" && !hasLedger
+          ? "Loading every itemized donor from 2021 through today…"
+          : !hasLedger && ledgerStatus === "error"
+            ? "We could not load the 2021-to-today donor list just now. You can download the CSV from Money by year above."
+            : !hasLedger && !yearPicked
+              ? `We have not loaded the 2021-to-today donor list for this campaign yet. The names below are itemized givers in ${cyclePhrase(cycleLabel)}, as a stand-in.`
+              : subline}{" "}
+        {hasLedger ? (
+          <>
+            Includes <MoneyTerm term="In-kind">gifts of goods or services</MoneyTerm>, shown {LIST_PAGE_SIZE} at a time. Tap a name to see each official gift. Names appear as they were filed with the state. {SMALL_GIFT_NOTE}
+            {through && !yearPicked ? ` Official filings in this list run through ${throughLabel}.` : ""}
+          </>
+        ) : null}
+      </p>
+      <div className="mt-3 flex flex-col gap-2">
+        <label className="sr-only" htmlFor="profile-aggregate-donors-q">
+          Filter this donor list by name or amount
+        </label>
+        <input
+          id="profile-aggregate-donors-q"
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Filter these donors by name, or an amount such as $10k+"
+          className="min-h-11 w-full rounded-md border border-navy-line bg-navy-800 px-3 text-sm text-white placeholder:text-night-muted focus:border-gold focus:outline-none"
+        />
+        <div className="flex flex-wrap gap-2" role="group" aria-label="Donor type">
+          {DONOR_TYPE_PILLS.map((chip) => (
+            <FilterChip
+              key={chip.id}
+              label={chip.label}
+              pressed={donorTypes.includes(chip.id)}
+              onClick={() => setDonorTypes((list) => toggleList(list, chip.id))}
+            />
+          ))}
+        </div>
+        <div className="flex flex-wrap gap-2" role="group" aria-label="Total given">
+          {DOLLAR_RANGE_PILLS.map((chip) => (
+            <FilterChip
+              key={chip.id}
+              label={chip.label}
+              pressed={ranges.includes(chip.id)}
+              onClick={() => setRanges((list) => toggleList(list, chip.id))}
+            />
+          ))}
+        </div>
+        {filtersOn ? (
+          <button
+            type="button"
+            onClick={() => {
+              setDonorTypes([]);
+              setRanges([]);
+              setQuery("");
+            }}
+            className="self-start text-xs font-semibold text-gold hover:underline"
+          >
+            Clear donor filters
+          </button>
+        ) : null}
+      </div>
+      {filtered.length ? (
+        <ol className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800" start={pager.start + 1}>
+          {pager.slice.map((d, i) => (
+            <DonorRow key={d.donorId ?? d.name} donor={d} index={pager.start + i + 1} />
+          ))}
+        </ol>
+      ) : (
+        <p className="mt-3 text-sm text-on-dark-muted">
+          {ledgerStatus === "loading" && !hasLedger
+            ? "Loading every itemized donor from 2021 through today…"
+            : yearPicked && !hasLedger && ledgerStatus !== "error"
+              ? "Loading that year’s donors…"
+              : filtersOn
+                ? "No itemized donors match these filters."
+                : yearPicked
+                  ? `No itemized donors dated ${monthPicked ? `${monthName(sel.month!)} ${sel.year}` : sel.year}.`
+                  : "No itemized donors in the reports we have loaded from 2021 through today."}
+        </p>
+      )}
+      <MoneyPages page={pager.page} pages={pager.pages} onPage={pager.setPage} label="Donor list pages" />
+      {filtered.length > LIST_PAGE_SIZE || (filtersOn && source.length) ? (
+        <p className="mt-2 text-xs text-night-muted">
+          Showing {filtered.length ? pager.start + 1 : 0}–{Math.min(pager.start + LIST_PAGE_SIZE, filtered.length)} of {filtered.length.toLocaleString()}
+          {filtersOn ? ` matching donors (of ${source.length.toLocaleString()} in this view)` : " donors"}
+        </p>
+      ) : null}
+      <SourceLine reportId={reportId} filed={filed} amendment={amendment} extra={itemizedNote} />
+    </>
+  );
+}
+
 function ReadyView({
   s,
   billsHref,
   votesHref,
   variant,
+  sel,
+  onSel,
+  ledger,
+  ledgerStatus,
 }: {
   s: FinanceSummary;
   billsHref: string;
   votesHref: string;
   variant: "profile" | "hub";
+  sel: TimelineSelection;
+  onSel: (next: TimelineSelection) => void;
+  ledger: HistoryLedger | null;
+  ledgerStatus: "idle" | "loading" | "ready" | "error";
 }) {
   const [allFilings, setAllFilings] = useState(false);
-  const [donorPage, setDonorPage] = useState(1);
   const [vendorPage, setVendorPage] = useState(1);
-  const donors = s.donors ?? [];
-  const donorPages = Math.max(1, Math.ceil(donors.length / LIST_PAGE_SIZE));
-  const safeDonorPage = Math.min(donorPage, donorPages);
-  const donorSlice = donors.slice((safeDonorPage - 1) * LIST_PAGE_SIZE, safeDonorPage * LIST_PAGE_SIZE);
   const vendors = s.spending?.vendors ?? [];
   const vendorPages = Math.max(1, Math.ceil(vendors.length / LIST_PAGE_SIZE));
   const safeVendorPage = Math.min(vendorPage, vendorPages);
   const vendorSlice = vendors.slice((safeVendorPage - 1) * LIST_PAGE_SIZE, safeVendorPage * LIST_PAGE_SIZE);
   useEffect(() => {
-    setDonorPage(1);
     setVendorPage(1);
   }, [s.slug]);
   const report = s.latestReport;
@@ -694,33 +1070,21 @@ function ReadyView({
       </div>
       <SourceLine reportId={report?.id} filed={report?.filed} amendment={report?.amendment} extra="We use only the latest amendment of each report." />
 
-      {s.history ? <MoneyHistory h={s.history} firstName={firstName} subject={`${personTitle(s)}'s campaign`} /> : null}
+      {s.history ? <MoneyHistory h={s.history} firstName={firstName} subject={`${personTitle(s)}'s campaign`} sel={sel} onChange={onSel} ledger={ledger} ledgerStatus={ledgerStatus} /> : null}
 
-      <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Who funds {firstName}?</h3>
-      <p className="mt-1 text-sm text-on-dark-muted">
-        {donors.length
-          ? `All ${counted(donors.length, "itemized giver")} in ${cyclePhrase(s.cycleLabel)}, including `
-          : `Itemized givers in ${cyclePhrase(s.cycleLabel)}, including `}
-        <MoneyTerm term="In-kind">gifts of goods or services</MoneyTerm>
-        {donors.length ? `, shown ${LIST_PAGE_SIZE} at a time. Tap a name to see each official gift.` : "."}{" "}
-        Names appear as they were filed with the state.
-      </p>
-      {donors.length ? (
-        <ol className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800" start={(safeDonorPage - 1) * LIST_PAGE_SIZE + 1}>
-          {donorSlice.map((d, i) => (
-            <DonorRow key={d.donorId ?? d.name} donor={d} index={(safeDonorPage - 1) * LIST_PAGE_SIZE + i + 1} />
-          ))}
-        </ol>
-      ) : (
-        <p className="mt-3 text-sm text-on-dark-muted">No itemized donors in the reports we have loaded for {cyclePhrase(s.cycleLabel)}.</p>
-      )}
-      <MoneyPages page={safeDonorPage} pages={donorPages} onPage={setDonorPage} label="Donor list pages" />
-      {donors.length > LIST_PAGE_SIZE ? (
-        <p className="mt-2 text-xs text-night-muted">
-          Showing {(safeDonorPage - 1) * LIST_PAGE_SIZE + 1}–{Math.min(safeDonorPage * LIST_PAGE_SIZE, donors.length)} of {donors.length.toLocaleString()}
-        </p>
-      ) : null}
-      <SourceLine reportId={report?.id} filed={report?.filed} amendment={report?.amendment} extra={s.itemizedNote} />
+      <AggregateDonors
+        firstName={firstName}
+        through={s.history?.through}
+        sel={sel}
+        ledger={ledger}
+        ledgerStatus={ledgerStatus}
+        fallbackDonors={s.donors ?? []}
+        cycleLabel={s.cycleLabel}
+        reportId={report?.id}
+        filed={report?.filed}
+        amendment={report?.amendment}
+        itemizedNote={s.itemizedNote}
+      />
 
       <h3 className="mt-8 font-serif text-xl font-semibold uppercase">Where does the money come from?</h3>
       <p className="mt-1 text-sm text-on-dark-muted">
@@ -1018,6 +1382,12 @@ export function CampaignMoneySection({
 
   const s = loaded;
   const titleWho = s ? personTitle(s) : "this campaign";
+  const { ledger, status: ledgerStatus } = useHistoryLedger(s?.status === "ready" ? s.history?.csvPath : null);
+  const [sel, setSel] = useState<TimelineSelection>({});
+  useEffect(() => {
+    setSel({});
+  }, [s?.slug]);
+  const scoped = ledger ? historySlice(ledger, sel) : null;
 
   return (
     <section id="campaign-money" className={cn("min-w-0 scroll-mt-24 rounded-xl border border-navy-line border-t-4 border-t-[#164A3A] bg-navy-700 p-5 sm:p-7", className)}>
@@ -1038,7 +1408,7 @@ export function CampaignMoneySection({
             embedded
             inputId="profile-campaign-money-q"
             placeholder="Donor or vendor here, or another name / $10k+"
-            scope={s && s.status === "ready" ? { donors: s.donors, vendors: s.spending?.vendors } : undefined}
+            scope={s && s.status === "ready" ? { donors: scoped?.donors ?? s.donors, vendors: scoped?.vendors ?? s.spending?.vendors } : undefined}
           />
         </div>
       ) : null}
@@ -1046,7 +1416,7 @@ export function CampaignMoneySection({
         {status === "loading" ? <p className="text-sm text-on-dark-muted">Loading official campaign finance reports…</p> : null}
         {status === "missing" || (s && s.status === "unavailable") ? <Fallback s={s} officialHref={officialHref} /> : null}
         {status === "ready" && s && s.status === "ready" ? (
-          <ReadyView s={s} billsHref={billsHref} votesHref={votesHref} variant={variant} />
+          <ReadyView s={s} billsHref={billsHref} votesHref={votesHref} variant={variant} sel={sel} onSel={setSel} ledger={ledger} ledgerStatus={ledgerStatus} />
         ) : null}
       </div>
     </section>

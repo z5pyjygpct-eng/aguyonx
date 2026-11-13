@@ -8,6 +8,7 @@ import {
   donorsFromSummaries,
   donorTypePill,
   filterDonors,
+  filterFinanceDonors,
   inDollarRange,
   toggleList,
 } from "./campaign-money-filters.ts";
@@ -71,4 +72,21 @@ test("Kilgore donors can be filtered by official type and aggregate range, with 
 test("toggleList turns a filter pill on and off", () => {
   assert.deepEqual(toggleList(["individual"], "business"), ["individual", "business"]);
   assert.deepEqual(toggleList(["individual", "business"], "individual"), ["business"]);
+});
+
+test("filterFinanceDonors keeps the original donor records and does not cap the list", () => {
+  const donors = [
+    { name: "Ada", cents: 200_000, count: 1, kind: "individual" as const, city: "Richmond" },
+    { name: "Clean Virginia PAC", cents: 2_000_000, count: 2, kind: "pac" as const },
+    { name: "Acme LLC", cents: 600_000, count: 1, kind: "business" as const },
+  ];
+  const onlyPac = filterFinanceDonors(donors, { types: ["committee"] });
+  assert.equal(onlyPac.length, 1);
+  assert.equal(onlyPac[0]?.name, "Clean Virginia PAC");
+  const mid = filterFinanceDonors(donors, { ranges: ["1k-5k"] });
+  assert.equal(mid[0]?.name, "Ada");
+  assert.equal(mid[0]?.city, "Richmond");
+  const named = filterFinanceDonors(donors, { query: "clean $15,000+" });
+  assert.equal(named.length, 1);
+  assert.equal(named[0]?.name, "Clean Virginia PAC");
 });
