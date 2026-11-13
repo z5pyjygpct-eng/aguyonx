@@ -19,6 +19,7 @@ import {
   type FinanceSpendItem,
   type FinanceSummary,
 } from "@/lib/finance-summaries";
+import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
 import { loadFinanceSummary } from "@/lib/finance-summaries-load";
 import { cn } from "@/lib/utils";
 
@@ -850,6 +851,20 @@ export function CampaignMoneySection({
         </span>
       </h2>
       <p className="mt-1 font-serif text-lg font-semibold text-gold">{titleWho}'s campaign money</p>
+      {variant === "profile" ? (
+        <div className="mt-4 rounded-lg border border-navy-line bg-navy-800/80 p-3 sm:p-4">
+          <p className="mb-3 font-mono text-[10px] font-semibold tracking-widest text-gold uppercase sm:text-xs">
+            Search campaign money
+          </p>
+          <CampaignMoneyLookup
+            compact
+            embedded
+            inputId="profile-campaign-money-q"
+            placeholder="Donor or vendor here, or another name / $10k+"
+            scope={s && s.status === "ready" ? { donors: s.donors, vendors: s.spending?.vendors } : undefined}
+          />
+        </div>
+      ) : null}
       <div className="mt-5">
         {status === "loading" ? <p className="text-sm text-on-dark-muted">Loading official campaign finance reports…</p> : null}
         {status === "missing" || (s && s.status === "unavailable") ? <Fallback s={s} officialHref={officialHref} /> : null}

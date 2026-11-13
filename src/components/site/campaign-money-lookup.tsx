@@ -11,9 +11,9 @@ import {
 } from "@/lib/campaign-money";
 import { loadDonors } from "@/lib/global-search-load";
 import type { DonorRecord } from "@/lib/finance-donors";
-import type { FinanceIndexRow } from "@/lib/finance-summaries";
+import type { FinanceDonor, FinanceIndexRow, FinanceSpendItem } from "@/lib/finance-summaries";
 import { loadFinanceIndex } from "@/lib/finance-summaries-load";
-import { parseMoneyQuery, searchByAmount, type AmountHit } from "@/lib/money-query";
+import { parseMoneyQuery, searchByAmount, searchLocalMoney, type AmountHit, type LocalMoneyHit } from "@/lib/money-query";
 import { cn } from "@/lib/utils";
 
 const EXAMPLES = [
@@ -51,15 +51,32 @@ function amountSearch(hit: AmountHit): { member?: string; donor?: string } {
 
 export function CampaignMoneyLookup({
   compact = false,
+  embedded = false,
   initialQuery = "",
   initialKind = "all",
   localityId,
+  inputId,
+  placeholder,
+  scope,
 }: {
   compact?: boolean;
+  embedded?: boolean;
   initialQuery?: string;
   initialKind?: OfficeKind | "all";
   localityId?: string;
+  inputId?: string;
+  placeholder?: string;
+  scope?: {
+    donors?: FinanceDonor[];
+    vendors?: { name: string; cents: number; count?: number; items?: FinanceSpendItem[] }[];
+  };
 }) {
+  const searchInputId = inputId ?? (embedded ? "profile-campaign-money-q" : "campaign-money-q");
+  const searchPlaceholder =
+    placeholder ??
+    (embedded
+      ? "Donor or vendor here, or another name / $10k+"
+      : "Name, district, donor, or $15,000 / 50k / $10k+");
   const [q, setQ] = useState(initialQuery);
   const [submitted, setSubmitted] = useState(initialQuery.trim());
   const [kind, setKind] = useState<OfficeKind | "all">(initialKind);
@@ -121,6 +138,10 @@ export function CampaignMoneyLookup({
     if (kind === "supervisor" || kind === "school-board") list = list.filter((h) => h.kind === "donor");
     return list;
   }, [money, members, donors, kind]);
+  const localHits = useMemo(
+    () => (submitted && scope ? searchLocalMoney(submitted, scope.donors, scope.vendors, 8) : []),
+    [submitted, scope, scope?.donors, scope?.vendors],
+  );
 
   function run(next: string) {
     setQ(next);
@@ -147,13 +168,15 @@ export function CampaignMoneyLookup({
       )}
 
       <form role="search" onSubmit={onSubmit} className={cn("flex flex-col gap-3 sm:flex-row", compact ? "" : "mt-4")}>
-        <label htmlFor="campaign-money-q" className="sr-only">
-          Search for an official campaign committee
+        <label htmlFor={searchInputId} className="sr-only">
+          {embedded
+            ? "Search this campaign's donors and vendors, or another candidate, donor, or dollar amount"
+            : "Search for an official campaign committee"}
         </label>
         <div className="relative min-w-0 flex-1">
           <Search className="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-night-muted" aria-hidden />
           <input
-            id="campaign-money-q"
+            id={searchInputId}
             type="search"
             name="q"
             value={q}
@@ -163,7 +186,7 @@ export function CampaignMoneyLookup({
               if (!next) setSubmitted("");
               else if (next.length >= 2 || /^\d{1,3}$/.test(next) || parseMoneyQuery(next)) setSubmitted(next);
             }}
-            placeholder="Name, district, donor, or $15,000 / 50k / $10k+"
+            placeholder={searchPlaceholder}
             enterKeyHint="search"
             autoComplete="off"
             autoCorrect="off"
@@ -179,6 +202,8 @@ export function CampaignMoneyLookup({
         </button>
       </form>
 
+      {embedded ? null : (
+      <>
       <div className="mt-3 flex flex-wrap gap-2">
         {KIND_CHIPS.map((chip) => (
           <button
@@ -209,25 +234,50 @@ export function CampaignMoneyLookup({
           </button>
         ))}
       </div>
+      </>
+      )}
 
       {submitted ? (
         <div className="mt-5" aria-live="polite">
-          {hits.length === 0 && !amountHits?.length && kind !== "legislator" && localRecords === null ? (
+          {hits.length === 0 && !amountHits?.length && !localHits.length && kind !== "legislator" && localRecords === null ? (
             <p className="text-sm text-on-dark-muted">Loading Board of Supervisors and school board committees…</p>
-          ) : money && amountHits === null ? (
+          ) : money && amountHits === null && !localHits.length ? (
             <p className="text-sm text-on-dark-muted">Looking up dollar amounts…</p>
-          ) : hits.length === 0 && !amountHits?.length ? (
+          ) : hits.length === 0 && !amountHits?.length && !localHits.length ? (
             <p className="text-sm text-on-dark-muted">
-              No official committee or dollar-amount match for "{submitted}." Try a last name, a district like HD 45, or an amount such as $15,000, 50k, or $10k+.
+              No official committee, donor, vendor, or dollar-amount match for "{submitted}." Try a last name, a district like HD 45, or an amount such as $15,000, 50k, or $10k+.
             </p>
           ) : (
             <>
               <p className="font-mono text-xs tracking-widest text-night-muted uppercase">
-                {(hits.length + (amountHits?.length ?? 0))} {(hits.length + (amountHits?.length ?? 0)) === 1 ? "match" : "matches"}
+                {(hits.length + (amountHits?.length ?? 0) + localHits.length)} {(hits.length + (amountHits?.length ?? 0) + localHits.length) === 1 ? "match" : "matches"}
                 {localRecords === null ? " · local committees still loading" : ""}
               </p>
-              {amountHits && amountHits.length > 0 ? (
+              {localHits.length > 0 ? (
                 <ul className="mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800">
+                  {localHits.map((hit: LocalMoneyHit) => (
+                    <li key={`${hit.kind}-${hit.name}`} className="px-4 py-3 sm:px-5">
+                      {hit.donorId ? (
+                        <Link
+                          to="/campaign-money"
+                          search={{ donor: hit.donorId }}
+                          className="font-semibold text-white hover:text-gold hover:underline"
+                        >
+                          {hit.name}
+                        </Link>
+                      ) : (
+                        <span className="font-semibold text-white">{hit.name}</span>
+                      )}
+                      <div className="mt-1 text-xs uppercase tracking-widest text-gold">
+                        {hit.kind === "donor" ? "Donor on this campaign" : "Vendor on this campaign"}
+                      </div>
+                      <div className="text-sm text-on-dark-muted">{hit.snippet}</div>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+              {amountHits && amountHits.length > 0 ? (
+                <ul className={localHits.length > 0 ? "mt-4 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800" : "mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800"}>
                   {amountHits.map((hit) => {
                     const search = amountSearch(hit);
                     return (
@@ -250,7 +300,7 @@ export function CampaignMoneyLookup({
                 </ul>
               ) : null}
               {hits.length > 0 ? (
-              <ul className={amountHits && amountHits.length > 0 ? "mt-4 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800" : "mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800"}>
+              <ul className={(amountHits && amountHits.length > 0) || localHits.length > 0 ? "mt-4 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800" : "mt-3 divide-y divide-navy-line overflow-hidden rounded-lg border border-navy-line bg-navy-800"}>
                 {hits.map((hit) => (
                   <li key={hit.lisId || hit.committeeId} className="px-4 py-3 sm:px-5">
                     <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -309,7 +359,11 @@ export function CampaignMoneyLookup({
           )}
         </div>
       ) : compact ? (
-        <p className="mt-3 text-xs text-night-muted">You do not need the exact committee title.</p>
+        <p className="mt-3 text-xs text-night-muted">
+          {embedded
+            ? "Search this campaign's donors and vendors, or jump to another candidate, donor, or amount such as $15,000 or $10k+."
+            : "You do not need the exact committee title."}
+        </p>
       ) : null}
     </div>
   );

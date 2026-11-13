@@ -1,5 +1,5 @@
 import { formatUsd, type DonorRecord } from "./finance-donors.ts";
-import type { FinanceIndexRow } from "./finance-summaries.ts";
+import type { FinanceDonor, FinanceIndexRow, FinanceSpendItem } from "./finance-summaries.ts";
 
 export type MoneyQueryMode = "min" | "exact";
 
@@ -208,4 +208,78 @@ export function searchByAmount(
   const legCap = Math.min(legs.length, Math.max(Math.ceil(cap / 2), cap - gifts.length));
   const donorCap = Math.min(gifts.length, cap - legCap);
   return [...legs.slice(0, legCap), ...gifts.slice(0, donorCap)];
+}
+
+export type LocalMoneyHit = {
+  kind: "donor" | "vendor";
+  name: string;
+  cents: number;
+  snippet: string;
+  href?: string;
+  donorId?: string;
+  score: number;
+};
+
+type LocalVendor = { name: string; cents: number; count?: number; items?: FinanceSpendItem[] };
+
+/**
+ * Search one campaign's itemized donors and vendors by name or dollar amount,
+ * so a profile search can surface gifts and payments on this page as well as
+ * jumps to other candidates.
+ */
+export function searchLocalMoney(
+  raw: string,
+  donors: FinanceDonor[] | undefined,
+  vendors: LocalVendor[] | undefined,
+  cap = 8,
+): LocalMoneyHit[] {
+  const money = parseMoneyQuery(raw);
+  const name = (money ? money.rest : raw).trim().toLowerCase();
+  const tokens = name ? name.split(/\s+/).filter(Boolean) : [];
+  if (!money && tokens.length === 0) return [];
+
+  const hits: LocalMoneyHit[] = [];
+
+  function nameOk(value: string): boolean {
+    if (!tokens.length) return true;
+    const hay = value.toLowerCase();
+    return tokens.every((tok) => hay.includes(tok));
+  }
+
+  for (const donor of donors ?? []) {
+    if (!nameOk(donor.name)) continue;
+    if (money) {
+      const match = moneyMatches(donor.cents, money);
+      if (!match) continue;
+    }
+    const gifts = donor.count && donor.count > 1 ? ` · ${donor.count} gifts` : "";
+    hits.push({
+      kind: "donor",
+      name: donor.name,
+      cents: donor.cents,
+      snippet: `${formatUsd(donor.cents)} in official gifts${gifts} on this campaign`,
+      href: donor.donorId ? `/campaign-money?donor=${encodeURIComponent(donor.donorId)}` : undefined,
+      donorId: donor.donorId,
+      score: (donor.name.toLowerCase().startsWith(tokens[0] ?? "") ? 12 : 6) + Math.log10(donor.cents / 100 + 1),
+    });
+  }
+
+  for (const vendor of vendors ?? []) {
+    if (!nameOk(vendor.name)) continue;
+    if (money) {
+      const match = moneyMatches(vendor.cents, money);
+      if (!match) continue;
+    }
+    const payments = vendor.count ? ` · ${vendor.count} ${vendor.count === 1 ? "payment" : "payments"}` : "";
+    hits.push({
+      kind: "vendor",
+      name: vendor.name,
+      cents: vendor.cents,
+      snippet: `${formatUsd(vendor.cents)} paid to this vendor${payments} on this campaign`,
+      score: (vendor.name.toLowerCase().startsWith(tokens[0] ?? "") ? 10 : 5) + Math.log10(vendor.cents / 100 + 1),
+    });
+  }
+
+  hits.sort((a, b) => b.score - a.score || b.cents - a.cents || a.name.localeCompare(b.name));
+  return hits.slice(0, cap);
 }

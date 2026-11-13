@@ -3,8 +3,8 @@ import fs from "node:fs";
 import path from "node:path";
 import test from "node:test";
 import { expandDonorFile, type DonorFile } from "./finance-donors.ts";
-import type { FinanceIndex } from "./finance-summaries.ts";
-import { moneyMatches, parseMoneyQuery, searchByAmount } from "./money-query.ts";
+import type { FinanceIndex, FinanceSummary } from "./finance-summaries.ts";
+import { moneyMatches, parseMoneyQuery, searchByAmount, searchLocalMoney } from "./money-query.ts";
 
 test("parses common dollar-amount searches, including k, plus, and greater-than", () => {
   const cases: Array<[string, number, "min" | "exact", string]> = [
@@ -61,4 +61,32 @@ test("amount search finds Kilgore for $50k+ and donors at or above a threshold",
   const named = searchByAmount({ cents: 1_000_000, mode: "min", rest: "Kilgore" }, index.members, donors, 10);
   assert.ok(named.every((h) => /Kilgore/i.test(h.title) || /Kilgore/i.test(h.snippet)));
   assert.ok(named.some((h) => /terry-g-kilgore/.test(h.href)));
+});
+
+test("searchLocalMoney finds Kilgore donors and vendors by name or amount", () => {
+  const kilgore = JSON.parse(
+    fs.readFileSync(path.join(import.meta.dirname, "../content/finance-summaries/terry-g-kilgore.json"), "utf8"),
+  ) as FinanceSummary;
+  const donors = kilgore.donors ?? [];
+  const vendors = kilgore.spending?.vendors ?? [];
+
+  const hayley = searchLocalMoney("Hayley", donors, vendors);
+  assert.ok(hayley.some((h) => h.kind === "vendor" && h.name === "Hayley Allison"));
+  assert.equal(hayley.find((h) => h.name === "Hayley Allison")?.cents, 3_734_935);
+
+  const ballard = searchLocalMoney("Ballard", donors, vendors);
+  assert.ok(ballard.some((h) => h.kind === "donor" && h.name === "Ballard for Delegate"));
+  assert.ok(ballard.some((h) => h.href?.includes("donor=ballard-for-delegate")));
+
+  const cygnal = searchLocalMoney("Cygnal", donors, vendors);
+  assert.ok(cygnal.some((h) => h.kind === "vendor" && /Cygnal/.test(h.name)));
+
+  const amounts = searchLocalMoney("$10k+", donors, vendors);
+  assert.ok(amounts.some((h) => h.kind === "donor" && h.name === "Ballard for Delegate"));
+  assert.ok(amounts.some((h) => h.kind === "vendor" && h.name === "Hayley Allison"));
+  assert.ok(amounts.every((h) => h.cents >= 1_000_000));
+
+  const both = searchLocalMoney("Republican Party", donors, vendors);
+  assert.ok(both.some((h) => h.kind === "donor"));
+  assert.ok(both.some((h) => h.kind === "vendor"));
 });
