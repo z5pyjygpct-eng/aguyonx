@@ -5,7 +5,6 @@ export { formatUsd };
 
 export const REPORT_PAGE_BASE = "https://cfreports.elections.virginia.gov/Report/Index/";
 export const REPORT_XML_BASE = "https://cfreports.elections.virginia.gov/Report/ReportXML/";
-export const FEATURED_MONEY_SLUG = "terry-g-kilgore";
 
 export type DonorKind = "individual" | "pac" | "party" | "candidate" | "business";
 

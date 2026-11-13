@@ -1,12 +1,12 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site/shell";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import { CampaignMoneyLookup } from "@/components/site/campaign-money-lookup";
 import { DonorView } from "@/components/site/donor-view";
-import { CampaignMoneySection, FeaturedMoneyTeaser } from "@/components/site/money-card";
+import { CampaignMoneySection } from "@/components/site/money-card";
 import { AllLegislatorsTimeline } from "@/components/site/money-timeline";
 import type { OfficeKind } from "@/lib/campaign-money";
-import { FEATURED_MONEY_SLUG, profileMoneyHref } from "@/lib/finance-summaries";
+import { profileMoneyHref } from "@/lib/finance-summaries";
 import { findIndexRow, loadFinanceIndex, loadFinanceSummary } from "@/lib/finance-summaries-load";
 
 type Search = { q?: string; office?: OfficeKind; locality?: string; donor?: string; member?: string };
@@ -27,10 +27,9 @@ export const Route = createFileRoute("/campaign-money")({
   loaderDeps: ({ search }: { search: Search }) => ({ member: search.member }),
   loader: async ({ deps }) => {
     const index = await loadFinanceIndex();
-    const featured = findIndexRow(index, FEATURED_MONEY_SLUG) ?? null;
     const picked = deps.member ? findIndexRow(index, deps.member) ?? null : null;
     const summary = picked ? await loadFinanceSummary(picked.slug) : null;
-    return { featured, picked, summary, totals: index.historyTotals ?? [], memberCount: index.memberCount };
+    return { picked, summary, totals: index.historyTotals ?? [], memberCount: index.memberCount };
   },
   head: () => ({
     meta: [
@@ -47,7 +46,7 @@ export const Route = createFileRoute("/campaign-money")({
 
 function Page() {
   const { q, office, locality, donor, member } = Route.useSearch();
-  const { featured, picked, summary, totals, memberCount } = Route.useLoaderData();
+  const { picked, summary, totals, memberCount } = Route.useLoaderData();
   const memberSlug = picked?.slug ?? (member || undefined);
   const billsHref = picked ? `${profileMoneyHref(picked.chamber, picked.slug).replace("#campaign-money", "")}#bills` : "#bills";
   const votesHref = picked ? `${profileMoneyHref(picked.chamber, picked.slug).replace("#campaign-money", "")}#votes` : "#votes";
@@ -92,28 +91,6 @@ function Page() {
                 officialHref={picked.committeeId ? `https://cfreports.elections.virginia.gov/Committee/Index/${picked.committeeId}` : undefined}
                 variant="hub"
               />
-            </div>
-          ) : featured && featured.status === "ready" && featured.cashOnHandCents != null ? (
-            <div className="mt-8 mb-8">
-              <FeaturedMoneyTeaser
-                name={featured.name}
-                honorific={featured.honorific}
-                district={featured.district}
-                chamber={featured.chamber}
-                cashOnHandCents={featured.cashOnHandCents}
-                raisedCycleCents={featured.raisedCycleCents ?? 0}
-                spentCycleCents={featured.spentCycleCents ?? 0}
-                asOf={featured.asOf}
-                memberSlug={FEATURED_MONEY_SLUG}
-              />
-              <p className="mt-3 text-sm text-on-dark-muted">
-                Featured example: {featured.honorific} {featured.name} ({featured.chamber === "house" ? "HD" : "SD"} {featured.district}).
-                The same layout is used for every legislator.{" "}
-                <Link to="/dashboards/house/members/$slug" params={{ slug: "terry-g-kilgore" }} className="font-semibold text-gold hover:underline">
-                  Open his profile
-                </Link>
-                .
-              </p>
             </div>
           ) : null}
 
