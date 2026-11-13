@@ -36678,11 +36678,11 @@ export const LOUDOUN_RECAPS_BACKFILL: LoudounRecap[] = [
     dateLabel: "Thursday, Oct 22, 2026",
     whenWhere: "School Board committee meeting · video 1h 59m",
     official: {
-      votesPosted: false,
-      checkedLabel: CHECKED,
-      note: "Official vote record not yet posted or located on BoardDocs for this meeting (committee meetings often record no votes). Votes will be added only from the BoardDocs minutes.",
+      votesPosted: true,
+      checkedLabel: "Nov 13, 2026, 12:42 PM ET",
+      note: "The BoardDocs minutes for this session are linked below; they record no motions or votes. Per the minutes, the committee was called to order at 4:30 p.m., seven people spoke during public comment (2.01), staff presented a review of the memorandum of understanding (3.01) with a recommendation that the committee approve the revised memorandum dated September 17, 2026, and the meeting adjourned at 6:00 p.m. Minutes adopted November 12, 2026.",
       links: [
-        { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DYVGER437D82") },
+        { label: "Oct 22, 2026 BoardDocs minutes", href: boarddocsMeeting("DYVGER437D82") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
         { label: "Meeting video (Vimeo / LCPS-TV)", href: "https://player.vimeo.com/video/1238510675?rel=0" },
       ],
@@ -36718,8 +36718,8 @@ export const LOUDOUN_RECAPS_BACKFILL: LoudounRecap[] = [
     whenWhere: "School Board meeting · video 45m",
     official: {
       votesPosted: false,
-      checkedLabel: "Nov 12, 2026, 12:41 PM ET",
-      note: "Official vote record for this attendance-zone public hearing and work session has not been located on BoardDocs. As of Nov 12, 2026, the minutes posted under this meeting’s BoardDocs ID (DYDQCJ68A862) are titled for a different October 22 meeting — the Select Committee of the School Board Regarding MOU between LCPS, LCSO, and LPD — and record no motions or votes; they are not applied here. Votes will be added only from the BoardDocs minutes for this meeting.",
+      checkedLabel: "Nov 13, 2026, 12:42 PM ET",
+      note: "Official vote record for this attendance-zone public hearing and work session has not been located on BoardDocs. As of Nov 13, 2026, the minutes posted under this meeting’s BoardDocs ID (DYDQCJ68A862) are still titled for a different October 22 meeting — the Select Committee of the School Board Regarding MOU between LCPS, LCSO, and LPD — and record no motions or votes; they are not applied here. The Select Committee’s own minutes are now posted under BoardDocs ID DYVGER437D82 and are applied on that meeting’s recap. Votes will be added only from the BoardDocs minutes for this meeting.",
       links: [
         { label: "BoardDocs meeting / minutes", href: boarddocsMeeting("DYDQCJ68A862") },
         { label: "BoardDocs (School Board)", href: BOARDDOCS_LCPS },
