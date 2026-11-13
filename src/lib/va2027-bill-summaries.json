@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-13",
   "note": "Plain-language summaries grounded only in official LIS title and summary_plain (or official bill text when noted). Editorial. Missing or thin official sources are pending and are never guessed.",
   "bills": {
     "SB837": {
@@ -2785,6 +2785,36 @@
       "status": "ok",
       "sourceUsed": "lis-summary",
       "generatedAt": "2026-11-10"
+    },
+    "SB853": {
+      "summary": "",
+      "status": "pending",
+      "sourceUsed": "",
+      "generatedAt": "2026-11-13"
+    },
+    "SB854": {
+      "summary": "",
+      "status": "pending",
+      "sourceUsed": "",
+      "generatedAt": "2026-11-13"
+    },
+    "SB855": {
+      "summary": "",
+      "status": "pending",
+      "sourceUsed": "",
+      "generatedAt": "2026-11-13"
+    },
+    "SB856": {
+      "summary": "",
+      "status": "pending",
+      "sourceUsed": "",
+      "generatedAt": "2026-11-13"
+    },
+    "SB857": {
+      "summary": "",
+      "status": "pending",
+      "sourceUsed": "",
+      "generatedAt": "2026-11-13"
     }
   }
 }

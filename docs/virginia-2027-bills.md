@@ -95,9 +95,9 @@ They are not LIS subject codes. Confidence stays the value in the file:
 
 Do not invent a summary, a sponsor, a status, a party, or a subject to fill a hole. Leave the null and let the page say it is missing.
 
-## Capture 2026-11-10
+## Capture 2026-11-13
 
-The CoS watch handed Web a full `bills.json` captured `2026-11-10T08:26:42-05:00`. The install kept both arrays: 21 new filings and 443 continued. SB852 (Bill DeSteph, Republican) is the added new filing, category Energy & Data Centers at the ledger confidence (`high`). Official titles changed for SB851 (`nondiscrimination, integration.`) and SR173 (`Lucas, L. Louise; seeking expulsion from Senate.`). All 21 new filings have `SUMMARY AS INTRODUCED`. Confidence on the previous filings was not changed. Nine continued chief patrons still have no roster party (HB96, HB377, HB382, HB635, HB638, HB1314, SB318, SB638, SB760). Their party stays null. Co-patron party is not filled in.
+The CoS watch handed Web a full `bills.json` captured `2026-11-13T08:25:51-05:00`. The install kept both arrays: 26 new filings and 443 continued. Added SB853 (Saddam Azlan Salim, Democrat, Courts of Justice), SB854, SB855, and SB856 (Bill DeSteph, Republican; Finance and Appropriations, Finance and Appropriations, and Commerce and Labor), and SB857 (Barbara A. Favola, Democrat, Education and Health). Categories are the ledger's: Courts & Justice, Taxation, Taxation, Energy & Data Centers, and Education (K-12). SB852's co-patron list is the only other change. The five new bills have official `SUMMARY AS INTRODUCED` text and no plain-language summary yet; those popup entries stay pending. Nine continued chief patrons still have no roster party. Co-patron party is not filled in.
 
 ## Page
 
