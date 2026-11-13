@@ -86,6 +86,8 @@ export const NEWS: NewsItem[] = [
     people: [],
     scope: "local",
     locations: ["loudoun"],
+  },
+  {
     id: "spanberger-lucas-indictment-absent-agenda-12onyourside-2026-11-10",
     date: "2026-11-10",
     filed: "2026-11-13",
