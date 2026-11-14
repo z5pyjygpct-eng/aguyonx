@@ -64473,5 +64473,123 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Adjournment."
       }
     ]
+  },
+  {
+    "slug": "fxco-sb-ty8Ytc6Y-VU",
+    "meetingId": "fxco-sb-ty8Ytc6Y-VU",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "dateLabel": "Thursday, November 12, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 4h 33m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 14, 2026, 7:55 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=ty8Ytc6Y-VU"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-12-fairfax-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-12-fairfax-county-school-board-meeting.txt",
+      "pdfNote": "55 pages"
+    },
+    "shareContext": "FCPS, Nov 12, 2026",
+    "moments": [
+      {
+        "seconds": 1367,
+        "label": "Regular meeting called to order; presentation of the colors."
+      },
+      {
+        "seconds": 1406,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1579,
+        "label": "Announcements (agenda item 3.02)."
+      },
+      {
+        "seconds": 1610,
+        "label": "Proclamations begin (Veterans Day, School Psychologist Month, World Day of Remembrance for Road Traffic Victims, Family Engagement Month, America’s 250th anniversary)."
+      },
+      {
+        "seconds": 3386,
+        "label": "Purple Star Schools recognition (schools honored for supporting military-connected students)."
+      },
+      {
+        "seconds": 4618,
+        "label": "Community participation (public comment) begins (agenda item 4.01)."
+      },
+      {
+        "seconds": 6746,
+        "label": "Student representative matters (agenda item 5.01)."
+      },
+      {
+        "seconds": 6906,
+        "label": "Academic matters presentation: keeping students on track to meet graduation requirements (agenda item 6.01)."
+      },
+      {
+        "seconds": 8221,
+        "label": "Presentation: secondary course offerings (agenda item 6.02)."
+      },
+      {
+        "seconds": 10074,
+        "label": "Action item 7.01: certification of closed meeting compliance."
+      },
+      {
+        "seconds": 10145,
+        "label": "Action item 7.02: confirmation of actions taken in closed meeting."
+      },
+      {
+        "seconds": 10334,
+        "label": "Action item 7.03: School Board legislative program (state and federal legislative positions)."
+      },
+      {
+        "seconds": 11343,
+        "label": "Action item 7.04: contract award, Willow Springs Elementary School renovation project."
+      },
+      {
+        "seconds": 11780,
+        "label": "Action item 7.05: contract, solar power purchase agreement at 10 school sites (wave 4)."
+      },
+      {
+        "seconds": 12153,
+        "label": "Brief recess before the 7.05 vote."
+      },
+      {
+        "seconds": 12873,
+        "label": "Action item 7.06: amendment to the consultative services contract for the professional development evaluation system."
+      },
+      {
+        "seconds": 13198,
+        "label": "Monitoring report (agenda item 8.01): Executive Limitation 10, learning environment and relationships with students."
+      },
+      {
+        "seconds": 16211,
+        "label": "Consent agenda (agenda item 9)."
+      },
+      {
+        "seconds": 16245,
+        "label": "New business (agenda item 10; no votes this evening)."
+      },
+      {
+        "seconds": 16258,
+        "label": "Board committee reports (agenda item 11)."
+      },
+      {
+        "seconds": 16361,
+        "label": "Adjournment."
+      }
+    ]
   }
 ];

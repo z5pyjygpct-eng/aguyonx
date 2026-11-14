@@ -10424,5 +10424,15 @@
     "duration": "20m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=a22OqF_ms28"
+  },
+  {
+    "id": "fxco-sb-ty8Ytc6Y-VU",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "date": "2026-11-12",
+    "dateLabel": "Nov 12, 2026",
+    "duration": "4h 33m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=ty8Ytc6Y-VU"
   }
 ]
