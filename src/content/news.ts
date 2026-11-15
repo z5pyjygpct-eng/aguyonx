@@ -56,6 +56,18 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "spanberger-reverses-virginia-school-vouchers-wapo-2026-11-13",
+    date: "2026-11-13",
+    filed: "2026-11-15",
+    headline: "Spanberger reverses Virginia plan to participate in Trump’s school vouchers",
+    outlet: "The Washington Post",
+    url: "https://www.washingtonpost.com/dc-md-va/2026/11/13/spanberger-reverse-decision-participate-trumps-school-vouchers/",
+    people: [
+      { name: "Abigail Spanberger", office: "Governor" },
+    ],
+    scope: "statewide",
+  },
+  {
     id: "mason-supervisor-andres-jimenez-thanks-donors-annandaletod-2026-11-14",
     date: "2026-11-14",
     filed: "2026-11-15",
