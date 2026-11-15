@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,45 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-15",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Saturday, Nov 14) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, headline matched page title, Nov 14 publish time confirmed in page metadata). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Potomac Local, Blue Ridge Leader, WTOP local. Loudoun Now feed returned 404, Loudoun Times-Mirror 429, InsideNoVa 403 (not covered). 7 candidate local pages checked, 0 failed verification, 3 kept. Gaps: no verified Arlington or Loudoun items found for Nov 14. Left out: statewide, national, DC, Maryland, Stafford, daily-debrief roundups, a letter to the editor, and an Annandale Today school-board story whose county could not be confirmed.",
+      "items": [
+        {
+          "id": "mason-supervisor-andres-jimenez-thanks-donors-annandaletod-2026-11-14",
+          "county": "Fairfax",
+          "headline": "Mason Supervisor Andres Jimenez thanks donors for continued support",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/mason-supervisor-andres-jimenez-thanks-donors-for-continued-support/",
+          "published": "2026-11-14",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-co-police-add-3-interactive-dashboards-to-wtop-2026-11-14",
+          "county": "Fairfax",
+          "headline": "Fairfax Co. police add 3 interactive dashboards to help expand transparency",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/fairfax-co-police-add-3-interactive-dashboards-to-help-expand-transparency/",
+          "published": "2026-11-14",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "driver-dies-after-single-vehicle-crash-on-lee-high-potomaclocal-2026-11-14",
+          "county": "Prince William",
+          "headline": "Driver dies after single-vehicle crash on Lee Highway in Gainesville",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/14/driver-dies-after-single-vehicle-crash-on-lee-highway-in-gainesville/",
+          "published": "2026-11-14",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Arlington: no verified Nov 14 items",
+        "Loudoun: no verified Nov 14 items (Loudoun Now feed 404, Times-Mirror 429)"
+      ]
+    },
     {
       "date": "2026-11-14",
       "status": "ok",
