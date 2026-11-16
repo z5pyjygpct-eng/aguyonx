@@ -95,7 +95,18 @@ function toCSV() {
 const EM_TITLE = "Emergency Monitor – Live Log | aguyonx.com";
 const EM_DESC = "A live log of emergencies and threats worldwide — cyber, power outages, unrest, terror, infrastructure and elections — sorted by region and updated about every 2 hours, with sources on X.";
 const EM_URL = "https://aguyonx.com/emergency-monitor";
+const PAGE_SHARE_TEXT = "Virginia Emergency Monitor: current alerts in one place.";
 const STALE_MS = 3 * 60 * 60 * 1000;
+
+function xIntentUrl(text: string, url = EM_URL) {
+  return `https://x.com/intent/post?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+}
+
+function alertShareText(it: LogItem, region: string) {
+  const title = (it.title ?? it.text ?? "").trim();
+  if (!title) return `Virginia Emergency Monitor (${region})`;
+  return `${title} (${region}) — Virginia Emergency Monitor`;
+}
 
 export const Route = createFileRoute("/emergency-monitor")({
   head: () => ({
@@ -174,11 +185,22 @@ function EmergencyMonitorPage() {
               Heads up: this log may be stale. The newest entry is more than 3 hours old.
             </p>
           )}
-          <div className="em-noprint flex flex-wrap items-center gap-3" aria-label="Download the log">
-            <span className="text-sm font-semibold text-on-dark-muted">Download:</span>
-            <button type="button" className={btn} aria-label="Download PDF (opens your browser's print dialog)" onClick={() => window.print()}>PDF</button>
-            <button type="button" className={btn} onClick={() => save(`emergency-log-${stamp}.txt`, toText(), "text/plain;charset=utf-8")}>TXT</button>
-            <button type="button" className={btn} onClick={() => save(`emergency-log-${stamp}.csv`, toCSV(), "text/csv;charset=utf-8")}>CSV</button>
+          <div className="em-noprint flex flex-wrap items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3" aria-label="Download the log">
+              <span className="text-sm font-semibold text-on-dark-muted">Download:</span>
+              <button type="button" className={btn} aria-label="Download PDF (opens your browser's print dialog)" onClick={() => window.print()}>PDF</button>
+              <button type="button" className={btn} onClick={() => save(`emergency-log-${stamp}.txt`, toText(), "text/plain;charset=utf-8")}>TXT</button>
+              <button type="button" className={btn} onClick={() => save(`emergency-log-${stamp}.csv`, toCSV(), "text/csv;charset=utf-8")}>CSV</button>
+            </div>
+            <a
+              href={xIntentUrl(PAGE_SHARE_TEXT)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={btn}
+              aria-label="Share this page on X"
+            >
+              Share on X
+            </a>
           </div>
           <p className="em-noprint mt-2 text-xs text-on-dark-muted">PDF opens your browser's print dialog — choose "Save as PDF". Links stay clickable.</p>
 
@@ -236,6 +258,19 @@ function EmergencyMonitorPage() {
                             {(it.links ?? []).map((l, j) => (
                               <span key={j}>{" "}<a href={l.url} target="_blank" rel="noreferrer" className="font-semibold text-gold underline">{l.label ?? "on X"}</a></span>
                             ))}
+                            {(it.title ?? it.text)?.trim() ? (
+                              <span className="em-noprint">{" "}
+                                <a
+                                  href={xIntentUrl(alertShareText(it, name))}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-xs font-semibold text-gold underline"
+                                  aria-label={`Share on X: ${alertShareText(it, name)}`}
+                                >
+                                  Share
+                                </a>
+                              </span>
+                            ) : null}
                           </li>
                         ))}
                       </ul>
