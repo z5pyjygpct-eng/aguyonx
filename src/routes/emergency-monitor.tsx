@@ -259,7 +259,7 @@ function EmergencyMonitorPage() {
                               <span key={j}>{" "}<a href={l.url} target="_blank" rel="noreferrer" className="font-semibold text-gold underline">{l.label ?? "on X"}</a></span>
                             ))}
                             {(it.title ?? it.text)?.trim() ? (
-                              <span className="em-noprint">{" "}
+                              <div className="em-noprint mt-1">
                                 <a
                                   href={xIntentUrl(alertShareText(it, name))}
                                   target="_blank"
@@ -267,9 +267,9 @@ function EmergencyMonitorPage() {
                                   className="text-xs font-semibold text-gold underline"
                                   aria-label={`Share on X: ${alertShareText(it, name)}`}
                                 >
-                                  Share
+                                  Share on X
                                 </a>
-                              </span>
+                              </div>
                             ) : null}
                           </li>
                         ))}
