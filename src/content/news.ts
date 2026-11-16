@@ -56,6 +56,20 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "virginia-democrats-2026-roadmap-2027-majorities-wvtf-2026-11-15",
+    date: "2026-11-15",
+    filed: "2026-11-16",
+    headline: "Virginia Democrats see 2026 votes as a roadmap to bigger majorities in 2027",
+    outlet: "WVTF",
+    url: "https://www.wvtf.org/news/2026-11-15/virginia-democrats-see-2026-votes-as-a-roadmap-to-bigger-majorities-in-2027",
+    people: [
+      { name: "Don Scott", office: "State Delegate" },
+      { name: "Scott Surovell", office: "State Senator" },
+      { name: "Tom Garrett", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
     id: "john-burgess-owner-of-iconic-dragon-song-passes-aw-potomaclocal-2026-11-15",
     date: "2026-11-15",
     filed: "2026-11-16",
