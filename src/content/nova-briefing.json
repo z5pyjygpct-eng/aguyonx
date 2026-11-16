@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,54 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-16",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Sunday, Nov 15) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, headline matched outlet title, Nov 15 publish time confirmed in page metadata). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Potomac Local, Blue Ridge Leader, WTOP local; Loudoun Now (404), Loudoun Times-Mirror, Prince William Times (429) not covered. 4 candidates checked, 0 failed verification, 4 kept. No News-page items from Nov 15.",
+      "items": [
+        {
+          "id": "john-burgess-owner-of-iconic-dragon-song-passes-aw-potomaclocal-2026-11-15",
+          "county": "Prince William",
+          "headline": "John Burgess, owner of iconic ‘Dragon Song,’ passes away",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/15/john-burgess-owner-of-iconic-dragon-song-passes-away/",
+          "published": "2026-11-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "southern-serenity-jewelry-opens-on-battle-street-i-potomaclocal-2026-11-15",
+          "county": "Prince William",
+          "headline": "Southern Serenity Jewelry opens on Battle Street in Old Town Manassas",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/15/southern-serenity-jewelry-opens-on-battle-street-in-old-town-manassas/",
+          "published": "2026-11-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "himalayan-spice-grill-replaces-raaga-in-bailey-s-c-annandaletod-2026-11-15",
+          "county": "Fairfax",
+          "headline": "Himalayan Spice & Grill replaces Raaga in Bailey’s Crossroads",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/himalayan-spice-grill-replaces-raaga-in-baileys-crossroads/",
+          "published": "2026-11-15",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-killed-in-crash-on-little-river-turnpike-annandaletod-2026-11-15",
+          "county": "Fairfax",
+          "headline": "Man killed in crash on Little River Turnpike",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/man-killed-in-crash-on-little-river-turnpike/",
+          "published": "2026-11-15",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Arlington: no verified Nov 15 items",
+        "Loudoun: no verified Nov 15 items (Loudoun Now feed 404, Times-Mirror 429)"
+      ]
+    },
     {
       "date": "2026-11-15",
       "status": "ok",
