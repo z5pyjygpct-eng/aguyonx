@@ -4,7 +4,18 @@ import { Search } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
 import log from "@/content/emergency-log.json";
-import { AMERICA_PLACE_LABEL, classifyAmericaLocation } from "@/lib/emergency-place";
+import {
+  AMERICA_PLACE_LABEL,
+  PINNED_US_STATES,
+  classifyAmericaLocation,
+  countryFromParam,
+  countrySlug,
+  extractCountries,
+  extractUsStates,
+  stateFromParam,
+  stateSlug,
+} from "@/lib/emergency-place";
+import { SOURCE_LABEL, matchesSource, sourceClassesOf, type SourceClass } from "@/lib/emergency-source";
 
 type LogLink = { url: string; label?: string };
 type Severity = "HIGH" | "MEDIUM" | "MONITORING";
@@ -218,24 +229,29 @@ function readHash() {
   }
 }
 
-export type TimeWindow = "24h" | "7d" | "full";
+export type TimeWindow = "2h" | "24h" | "7d" | "full";
 export type EmSearch = {
   window?: TimeWindow;
   region?: string;
   threat?: string;
   type?: string;
+  status?: string;
+  source?: string;
+  state?: string;
+  country?: string;
   q?: string;
 };
 
 const TIME_WINDOWS: { value: TimeWindow; label: string }[] = [
+  { value: "2h", label: "Last 2 hours" },
   { value: "24h", label: "Last 24 hours" },
   { value: "7d", label: "Last 7 days" },
-  { value: "full", label: "Full log" },
+  { value: "full", label: "All" },
 ];
 
 /** Compare each entry window to the newest entry, not wall-clock now, so a given log always yields the same 24h/7d slice (and the same default PDF) until the next 2-hour update. */
 const NEWEST_MS = Date.parse(ENTRIES[0]?.datetime ?? "") || 0;
-const WINDOW_MS: Record<TimeWindow, number> = { "24h": 24 * 60 * 60 * 1000, "7d": 7 * 24 * 60 * 60 * 1000, full: Infinity };
+const WINDOW_MS: Record<TimeWindow, number> = { "2h": 2 * 60 * 60 * 1000, "24h": 24 * 60 * 60 * 1000, "7d": 7 * 24 * 60 * 60 * 1000, full: Infinity };
 
 function inTimeWindow(e: LogEntry, w: TimeWindow) {
   if (w === "full") return true;
@@ -258,6 +274,39 @@ function typeOf(it: LogItem) {
   return it.type ?? "Unspecified";
 }
 
+const STATUS_ORDER = ["New", "Update", "Continuation", "Resolved", "Unspecified"] as const;
+const SOURCE_ORDER: SourceClass[] = ["official", "news", "other"];
+
+/** Title prefix only. The Status field is free-text and is not reliable enough to filter on. MONITORING as a title prefix is omitted (two items; it collides with threat-level MONITORING). */
+function statusOf(it: LogItem) {
+  const t = (it.title ?? it.text ?? "").trim();
+  const m = t.match(/^(NEW|UPDATE|CONTINUATION|RESOLVED)\b/i);
+  if (!m) return "Unspecified";
+  switch (m[1].toUpperCase()) {
+    case "NEW": return "New";
+    case "UPDATE": return "Update";
+    case "CONTINUATION": return "Continuation";
+    case "RESOLVED": return "Resolved";
+    default: return "Unspecified";
+  }
+}
+
+function statusParam(s: string) {
+  return s.toLowerCase();
+}
+function statusFromParam(s: string | undefined) {
+  if (!s) return "";
+  const hit = STATUS_ORDER.find((k) => k.toLowerCase() === s.toLowerCase());
+  return hit ?? "";
+}
+
+function statesOf(it: LogItem, section: string) {
+  return extractUsStates(it.location, section);
+}
+function countriesOf(it: LogItem, section: string) {
+  return extractCountries(it.location, section);
+}
+
 function matchesSearch(it: LogItem, q: string) {
   const s = q.trim().toLowerCase();
   if (!s) return true;
@@ -271,20 +320,37 @@ function matchesThreat(it: LogItem, threat: string) {
 function matchesType(it: LogItem, typ: string) {
   return !typ || typeOf(it) === typ;
 }
+function matchesStatus(it: LogItem, status: string) {
+  return !status || statusOf(it) === status;
+}
 function matchesRegion(section: string, region: string) {
   if (!region || region === "All") return true;
   return section === region;
+}
+function matchesState(it: LogItem, section: string, state: string) {
+  return !state || statesOf(it, section).includes(state);
+}
+function matchesCountry(it: LogItem, section: string, country: string) {
+  return !country || countriesOf(it, section).includes(country);
 }
 
 export const Route = createFileRoute("/emergency-monitor")({
   validateSearch: (s: Record<string, unknown>): EmSearch => {
     const w = s.window;
-    const window: TimeWindow | undefined = w === "7d" || w === "full" || w === "24h" ? w : undefined;
+    const window: TimeWindow | undefined = w === "2h" || w === "7d" || w === "full" || w === "24h" ? w : undefined;
+    const status = typeof s.status === "string" ? statusFromParam(s.status) : "";
+    const source = typeof s.source === "string" && (SOURCE_ORDER as string[]).includes(s.source) ? s.source : "";
+    const state = typeof s.state === "string" ? stateFromParam(s.state) : "";
+    const country = typeof s.country === "string" ? countryFromParam(s.country) : "";
     return {
       ...(window && window !== "24h" ? { window } : {}),
       ...(typeof s.region === "string" && s.region && s.region !== "All" ? { region: s.region } : {}),
       ...(typeof s.threat === "string" && s.threat ? { threat: s.threat } : {}),
       ...(typeof s.type === "string" && s.type ? { type: s.type } : {}),
+      ...(status ? { status: statusParam(status) } : {}),
+      ...(source ? { source } : {}),
+      ...(state ? { state: stateSlug(state) } : {}),
+      ...(country ? { country: countrySlug(country) } : {}),
       ...(typeof s.q === "string" && s.q.trim() ? { q: s.q.slice(0, 120) } : {}),
     };
   },
@@ -323,6 +389,21 @@ function FilterChip({ active, onClick, count, children, attr }: { active: boolea
   );
 }
 
+function FilterGroup({ id, title, hint, activeLabel, defaultOpen, children }: { id: string; title: string; hint?: string; activeLabel?: string; defaultOpen?: boolean; children: ReactNode }) {
+  return (
+    <details className="mt-4 border-t border-navy-line/80 pt-3" defaultOpen={Boolean(defaultOpen) || Boolean(activeLabel)}>
+      <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase [&::-webkit-details-marker]:hidden">
+        <span>{title}{activeLabel ? <span className="ml-2 normal-case tracking-normal text-gold">· {activeLabel}</span> : null}</span>
+        <span className="text-gold" aria-hidden="true">▾</span>
+      </summary>
+      {hint ? <p className="mt-1 text-xs font-sans font-normal normal-case tracking-normal text-on-dark-muted">{hint}</p> : null}
+      <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby={id}>
+        {children}
+      </div>
+    </details>
+  );
+}
+
 function EmergencyMonitorPage() {
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
@@ -330,15 +411,27 @@ function EmergencyMonitorPage() {
   const region = search.region && search.region !== "All" ? search.region : "All";
   const threat = search.threat ?? "";
   const typ = search.type ?? "";
+  const status = statusFromParam(search.status);
+  const source = search.source ?? "";
+  const state = stateFromParam(search.state);
+  const country = countryFromParam(search.country);
   const q = search.q ?? "";
 
   const setSearch = (patch: Partial<Record<keyof EmSearch, string>>) => {
-    const next = { window: windowKey, region, threat, type: typ, q, ...patch };
+    const next = { window: windowKey, region, threat, type: typ, status, source, state, country, q, ...patch };
     const clean: EmSearch = {};
     if (next.window && next.window !== "24h") clean.window = next.window as TimeWindow;
     if (next.region && next.region !== "All") clean.region = next.region;
     if (next.threat) clean.threat = next.threat;
     if (next.type) clean.type = next.type;
+    const nextStatus = statusFromParam(next.status);
+    const nextSource = (SOURCE_ORDER as string[]).includes(next.source) ? next.source : "";
+    const stateVal = !next.state || next.state === "All" ? "" : (stateFromParam(next.state) || (next.state === state ? state : ""));
+    const countryVal = !next.country || next.country === "All" ? "" : (countryFromParam(next.country) || (next.country === country ? country : ""));
+    if (nextStatus) clean.status = statusParam(nextStatus);
+    if (nextSource) clean.source = nextSource;
+    if (stateVal) clean.state = stateSlug(stateVal);
+    if (countryVal) clean.country = countrySlug(countryVal);
     if (next.q?.trim()) clean.q = next.q.trim().slice(0, 120);
     navigate({ search: clean, replace: true, resetScroll: false });
   };
@@ -360,18 +453,23 @@ function EmergencyMonitorPage() {
   }, []);
   useEffect(() => {
     setShowEarlier(false);
-  }, [windowKey, region, threat, typ, q]);
+  }, [windowKey, region, threat, typ, status, source, state, country, q]);
 
   const linked = activeHash ? ALERT_BY_ID.get(activeHash) : undefined;
   const override = Boolean(linked);
 
   const timedEntries = useMemo(() => ENTRIES.filter((e) => inTimeWindow(e, windowKey)), [windowKey]);
 
-  const matchesItem = (section: string, it: LogItem, skip?: "region" | "threat" | "type") => {
+  type Skip = "region" | "threat" | "type" | "status" | "source" | "state" | "country";
+  const matchesItem = (section: string, it: LogItem, skip?: Skip) => {
     if (!matchesSearch(it, q)) return false;
     if (skip !== "region" && !matchesRegion(section, region)) return false;
     if (skip !== "threat" && !matchesThreat(it, threat)) return false;
     if (skip !== "type" && !matchesType(it, typ)) return false;
+    if (skip !== "status" && !matchesStatus(it, status)) return false;
+    if (skip !== "source" && !matchesSource(it.links, source)) return false;
+    if (skip !== "state" && !matchesState(it, section, state)) return false;
+    if (skip !== "country" && !matchesCountry(it, section, country)) return false;
     return true;
   };
 
@@ -388,7 +486,7 @@ function EmergencyMonitorPage() {
 
   const filtered = useMemo(
     () => pack(timedEntries, (section, it) => matchesItem(section, it)),
-    [timedEntries, region, threat, typ, q],
+    [timedEntries, region, threat, typ, status, source, state, country, q],
   );
 
   const displayed = useMemo(() => {
@@ -411,7 +509,7 @@ function EmergencyMonitorPage() {
   const shown = displayed;
   const earlierCount = Math.max(0, shown.length - 1);
 
-  const countIn = (skip?: "region" | "threat" | "type") =>
+  const countIn = (skip?: Skip) =>
     timedEntries.reduce((n, e) => n + displaySections(e).reduce((m, [name, items]) => m + items.filter((it) => matchesItem(name, it, skip)).length, 0), 0);
 
   const regionCounts = useMemo(() => {
@@ -426,7 +524,7 @@ function EmergencyMonitorPage() {
       }
     }
     return c;
-  }, [timedEntries, threat, typ, q]);
+  }, [timedEntries, threat, typ, status, source, state, country, q]);
 
   const threatCounts = useMemo(() => {
     const c: Record<string, number> = {};
@@ -440,7 +538,7 @@ function EmergencyMonitorPage() {
       }
     }
     return c;
-  }, [timedEntries, region, typ, q]);
+  }, [timedEntries, region, typ, status, source, state, country, q]);
 
   const typeCounts = useMemo(() => {
     const c: Record<string, number> = {};
@@ -454,14 +552,81 @@ function EmergencyMonitorPage() {
       }
     }
     return c;
-  }, [timedEntries, region, threat, q]);
+  }, [timedEntries, region, threat, status, source, state, country, q]);
+
+  const statusCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const e of timedEntries) {
+      for (const [name, items] of displaySections(e)) {
+        for (const it of items) {
+          if (!matchesItem(name, it, "status")) continue;
+          const k = statusOf(it);
+          c[k] = (c[k] ?? 0) + 1;
+        }
+      }
+    }
+    return c;
+  }, [timedEntries, region, threat, typ, source, state, country, q]);
+
+  const sourceCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const e of timedEntries) {
+      for (const [name, items] of displaySections(e)) {
+        for (const it of items) {
+          if (!matchesItem(name, it, "source")) continue;
+          for (const k of sourceClassesOf(it.links)) c[k] = (c[k] ?? 0) + 1;
+        }
+      }
+    }
+    return c;
+  }, [timedEntries, region, threat, typ, status, state, country, q]);
+
+  const stateCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const e of timedEntries) {
+      for (const [name, items] of displaySections(e)) {
+        for (const it of items) {
+          if (!matchesItem(name, it, "state")) continue;
+          for (const k of statesOf(it, name)) c[k] = (c[k] ?? 0) + 1;
+        }
+      }
+    }
+    return c;
+  }, [timedEntries, region, threat, typ, status, source, country, q]);
+
+  const countryCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const e of timedEntries) {
+      for (const [name, items] of displaySections(e)) {
+        for (const it of items) {
+          if (!matchesItem(name, it, "country")) continue;
+          for (const k of countriesOf(it, name)) c[k] = (c[k] ?? 0) + 1;
+        }
+      }
+    }
+    return c;
+  }, [timedEntries, region, threat, typ, status, source, state, q]);
+
+  const stateList = useMemo(() => {
+    const rest = Object.keys(stateCounts)
+      .filter((k) => !PINNED_US_STATES.includes(k as (typeof PINNED_US_STATES)[number]) && ((stateCounts[k] ?? 0) > 0 || k === state))
+      .sort((a, b) => (stateCounts[b] ?? 0) - (stateCounts[a] ?? 0) || a.localeCompare(b));
+    const pinned = PINNED_US_STATES.filter((k) => (stateCounts[k] ?? 0) > 0 || k === state || true);
+    return [...pinned, ...rest];
+  }, [stateCounts, state]);
+
+  const countryList = useMemo(() => {
+    return Object.keys(countryCounts)
+      .filter((k) => (countryCounts[k] ?? 0) > 0 || k === country)
+      .sort((a, b) => (countryCounts[b] ?? 0) - (countryCounts[a] ?? 0) || a.localeCompare(b));
+  }, [countryCounts, country]);
 
   const visibleItemCount = filtered.reduce((n, e) => n + e.sections.reduce((m, [, items]) => m + items.length, 0), 0);
   const timedItemCount = timedEntries.reduce((n, e) => n + displaySections(e).reduce((m, [, items]) => m + items.length, 0), 0);
-  const filtersActive = region !== "All" || Boolean(threat) || Boolean(typ) || Boolean(q.trim());
+  const filtersActive = region !== "All" || Boolean(threat) || Boolean(typ) || Boolean(status) || Boolean(source) || Boolean(state) || Boolean(country) || Boolean(q.trim());
 
-  const downloadNote = `Selection: ${windowLabel(windowKey)}${region !== "All" ? `; region ${region}` : ""}${threat ? `; threat ${threat}` : ""}${typ ? `; type ${typ}` : ""}${q.trim() ? `; search “${q.trim()}”` : ""}.`;
-  const fileTag = [windowKey, region !== "All" ? region.toLowerCase().replace(/\s+/g, "-") : "", threat.toLowerCase(), typ.toLowerCase().replace(/\s+/g, "-"), q.trim() ? "search" : ""].filter(Boolean).join("-");
+  const downloadNote = `Selection: ${windowLabel(windowKey)}${region !== "All" ? `; region ${region}` : ""}${threat ? `; threat ${threat}` : ""}${typ ? `; type ${typ}` : ""}${status ? `; status ${status}` : ""}${source ? `; source ${SOURCE_LABEL[source as SourceClass]}` : ""}${state ? `; state ${state}` : ""}${country ? `; country ${country}` : ""}${q.trim() ? `; search “${q.trim()}”` : ""}.`;
+  const fileTag = [windowKey, region !== "All" ? region.toLowerCase().replace(/\s+/g, "-") : "", threat.toLowerCase(), typ.toLowerCase().replace(/\s+/g, "-"), status ? statusParam(status) : "", source, state ? stateSlug(state) : "", country ? countrySlug(country) : "", q.trim() ? "search" : ""].filter(Boolean).join("-");
 
   useEffect(() => {
     if (!activeHash) return;
@@ -561,7 +726,7 @@ function EmergencyMonitorPage() {
               Share on X
             </a>
           </div>
-          <p className="em-noprint mt-2 text-xs text-on-dark-muted">PDF opens your browser's print dialog — choose "Save as PDF". Links stay clickable. Downloads use the time window, filters and search below (default is the last 24 hours, not the full log).</p>
+          <p className="em-noprint mt-2 text-xs text-on-dark-muted">PDF opens your browser's print dialog — choose "Save as PDF". Links stay clickable. Downloads use the same time range, filters and search as the page (default is the last 24 hours, not the full log).</p>
 
           <section className="em-noprint mt-6 rounded-xl border border-navy-line bg-navy-700 p-4 sm:p-5" aria-label="Filters">
             <form role="search" onSubmit={(e) => e.preventDefault()}>
@@ -582,7 +747,8 @@ function EmergencyMonitorPage() {
             </form>
 
             <div className="mt-4">
-              <p id="em-window" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Time window</p>
+              <p id="em-window" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Time range</p>
+              <p className="mt-1 text-xs text-on-dark-muted">This range filters the alerts on this page and the PDF, TXT and CSV downloads. It is measured from the newest log entry, not the clock, so a given log always yields the same slice until the next update.</p>
               <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="em-window">
                 {TIME_WINDOWS.map((w) => (
                   <FilterChip
@@ -655,10 +821,78 @@ function EmergencyMonitorPage() {
               </div>
             </div>
 
+            <FilterGroup id="em-status" title="Status" hint="From the title prefix (NEW, UPDATE, CONTINUATION, RESOLVED). Alerts with no prefix are Unspecified. The free-text Status field is not used." activeLabel={status || undefined} defaultOpen={false}>
+              <FilterChip active={!status} onClick={() => setSearch({ status: "" })} count={countIn("status")} attr={{ "data-status": "All" }}>
+                All statuses
+              </FilterChip>
+              {STATUS_ORDER.filter((k) => k === "Unspecified" || k === "Resolved" ? (statusCounts[k] ?? 0) > 0 || status === k : true).map((k) => (
+                <FilterChip
+                  key={k}
+                  active={status === k}
+                  onClick={() => setSearch({ status: status === k ? "" : k })}
+                  count={statusCounts[k] ?? 0}
+                  attr={{ "data-status": k }}
+                >
+                  {k}
+                </FilterChip>
+              ))}
+            </FilterGroup>
+
+            <FilterGroup id="em-source" title="Source" hint="Official agency or operator, news outlet, or other listed accounts, based on each alert’s X links and a published handle list. Alerts with only unlisted accounts stay under All sources." activeLabel={source ? SOURCE_LABEL[source as SourceClass] : undefined} defaultOpen={false}>
+              <FilterChip active={!source} onClick={() => setSearch({ source: "" })} count={countIn("source")} attr={{ "data-source": "All" }}>
+                All sources
+              </FilterChip>
+              {SOURCE_ORDER.map((k) => (
+                <FilterChip
+                  key={k}
+                  active={source === k}
+                  onClick={() => setSearch({ source: source === k ? "" : k })}
+                  count={sourceCounts[k] ?? 0}
+                  attr={{ "data-source": k }}
+                >
+                  {SOURCE_LABEL[k]}
+                </FilterChip>
+              ))}
+            </FilterGroup>
+
+            <FilterGroup id="em-state" title="US state" hint="From Location, using the same place parser as the USA / Canada / Mexico split. Virginia, D.C. and Maryland stay at the top. Multi-state alerts match each named state." activeLabel={state || undefined} defaultOpen={false}>
+              <FilterChip active={!state} onClick={() => setSearch({ state: "" })} count={countIn("state")} attr={{ "data-state": "All" }}>
+                All states
+              </FilterChip>
+              {stateList.map((k) => (
+                <FilterChip
+                  key={k}
+                  active={state === k}
+                  onClick={() => setSearch({ state: state === k ? "" : k })}
+                  count={stateCounts[k] ?? 0}
+                  attr={{ "data-state": stateSlug(k) }}
+                >
+                  {k}
+                </FilterChip>
+              ))}
+            </FilterGroup>
+
+            <FilterGroup id="em-country" title="Country" hint="From Location. Multi-country alerts match each named country. Unclear or contested places (for example Crimea, unnamed waterways, or “Global”) are left unclassified." activeLabel={country || undefined} defaultOpen={false}>
+              <FilterChip active={!country} onClick={() => setSearch({ country: "" })} count={countIn("country")} attr={{ "data-country": "All" }}>
+                All countries
+              </FilterChip>
+              {countryList.map((k) => (
+                <FilterChip
+                  key={k}
+                  active={country === k}
+                  onClick={() => setSearch({ country: country === k ? "" : k })}
+                  count={countryCounts[k] ?? 0}
+                  attr={{ "data-country": countrySlug(k) }}
+                >
+                  {k}
+                </FilterChip>
+              ))}
+            </FilterGroup>
+
             <p className="mt-4 text-sm text-on-dark-muted" aria-live="polite">
               Showing {visibleItemCount} of {timedItemCount} alerts in the {windowLabel(windowKey).toLowerCase()}.
               {filtersActive ? (
-                <button type="button" onClick={() => setSearch({ region: "All", threat: "", type: "", q: "" })} className="ml-3 font-semibold text-gold underline">
+                <button type="button" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "" })} className="ml-3 font-semibold text-gold underline">
                   Clear filters
                 </button>
               ) : null}
@@ -676,7 +910,7 @@ function EmergencyMonitorPage() {
           {ENTRIES.length > 0 && shown.length === 0 ? (
             <p className="mt-8 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
               No alerts match these filters{q.trim() ? ` for “${q.trim()}”` : ""}.{" "}
-              <button type="button" className="font-semibold text-gold underline" onClick={() => setSearch({ region: "All", threat: "", type: "", q: "", window: "24h" })}>Clear filters</button>
+              <button type="button" className="font-semibold text-gold underline" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "", window: "24h" })}>Clear filters</button>
             </p>
           ) : ENTRIES.length === 0 ? (
             <p className="mt-8 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
