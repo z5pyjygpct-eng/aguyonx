@@ -172,9 +172,21 @@ const ALIAS_GROUPS: AliasGroup[] = [
   { alts: ["atf", "bureau of alcohol tobacco firearms and explosives"], acronym: true },
   { alts: ["dea", "drug enforcement administration"], acronym: true },
   // One-way: typing cyber (or close forms) matches the whole set; typing CISA or ransomware does not.
+  // Keep bare "attack"/"breach" out — they are too broad (military attacks, levee breaches).
+  // Short tokens (hack, cisa, ddos) are matched as whole words only, not prefixes.
   {
-    keys: ["cyber", "cyberattack", "cyber attack", "cyber-attack", "cyber attacks", "cyber-attacks"],
-    alts: ["cyber", "cyberattack", "cyber attack", "cyber-attack", "cyberattacks", "cyber attacks", "ransomware", "hack", "hacked", "hacking", "data breach", "ddos", "d-dos", "malware", "cisa"],
+    keys: ["cyber", "cyberattack", "cyber attack", "cyber-attack", "cyber attacks", "cyber-attacks", "cyberattacks", "cybersecurity", "cybercrime", "cyber crime"],
+    alts: [
+      "cyber", "cyberattack", "cyber attack", "cyber-attack", "cyberattacks", "cyber attacks",
+      "cybersecurity", "cyber security", "cyber crime", "cybercrime", "cybercriminal", "cybercriminals",
+      "cyber incident", "cyber incidents", "cyber threat", "cyber threats", "cyber war", "cyber warfare",
+      "cyber advisory",
+      "ransomware", "malware",
+      "data breach", "data breaches",
+      "ddos", "d-dos", "d dos",
+      "hack", "hacked", "hacking", "hacks", "hacker", "hackers",
+      "cisa",
+    ],
   },
   { alts: ["uk", "united kingdom", "britain", "great britain", "gb", "u.k."] },
   { alts: ["us", "usa", "united states", "united states of america", "america", "u.s.", "u.s.a."] },
@@ -217,7 +229,12 @@ function capsTokensFrom(s: string): string[] {
   const out: string[] = [];
   const re = /\b[A-Z]{2,6}\b/g;
   let m: RegExpExecArray | null;
-  while ((m = re.exec(s))) out.push(foldSearch(m[0]));
+  while ((m = re.exec(s))) {
+    const token = m[0];
+    // "WHO 13" is a TV call sign, not the World Health Organization.
+    if (token === "WHO" && /^\s*\d/.test(s.slice(m.index + token.length))) continue;
+    out.push(foldSearch(token));
+  }
   return out;
 }
 
@@ -260,10 +277,12 @@ export function parseSearchTerms(q: string): SearchTerm[] {
 function makeAlt(value: string, flags: Partial<SearchAlt> = {}): SearchAlt {
   const v = foldSearch(value.replace(/['’]/g, ""));
   const words = tokensFrom(v);
+  const shortToken = !v.includes(" ") && v.length <= 4;
+  const hackToken = HACK_TOKENS.has(v);
   return {
     value: v,
     words: words.length ? words : [v],
-    tokenOnly: Boolean(flags.tokenOnly) || v.length <= 2,
+    tokenOnly: Boolean(flags.tokenOnly) || v.length <= 2 || shortToken || hackToken || Boolean(flags.acronym),
     acronym: Boolean(flags.acronym),
     state: flags.state,
     country: flags.country,
@@ -281,11 +300,19 @@ function expandTerm(term: SearchTerm): SearchAlt[] {
     alts.push(a);
   };
 
-  const mapped = KEY_TO_ALTS.get(key) ?? KEY_TO_ALTS.get(key.replace(/-/g, " "));
+  const mappedRaw = KEY_TO_ALTS.get(key) ?? KEY_TO_ALTS.get(key.replace(/-/g, " "));
+  const typedUpper = /^[A-Z]{2,}$/.test(term.raw.replace(/^@/, "")) || term.raw.startsWith("@");
+  // Acronyms that are also English words (WHO/who, US/us) expand only when typed uppercase or as @WHO.
+  const mapped = mappedRaw && mappedRaw.acronym && COMMON_WORDS.has(key) && !typedUpper ? undefined : mappedRaw;
+  const keyIsAcronym = Boolean(mapped?.acronym) || (ACRONYM_TERMS.has(key) && typedUpper);
   if (mapped) {
-    for (const v of mapped.alts) add(makeAlt(v, { acronym: mapped.acronym && !v.includes(" "), tokenOnly: foldSearch(v).length <= 2 || mapped.acronym && !v.includes(" ") }));
+    for (const v of mapped.alts) {
+      const folded = foldSearch(v);
+      const isAcronym = Boolean(mapped.acronym && !v.includes(" ")) || (ACRONYM_TERMS.has(folded) && !v.includes(" "));
+      add(makeAlt(v, { acronym: isAcronym, tokenOnly: folded.length <= 4 || isAcronym }));
+    }
   } else {
-    add(makeAlt(key, { acronym: ACRONYM_TERMS.has(key), tokenOnly: key.length <= 2 || ACRONYM_TERMS.has(key) }));
+    add(makeAlt(key, { acronym: keyIsAcronym, tokenOnly: key.length <= 4 || keyIsAcronym }));
   }
 
   const stateName = USPS[key] ?? (STATE_NAME_TO_CODE[key] ? key : undefined);
@@ -302,8 +329,11 @@ function expandTerm(term: SearchTerm): SearchAlt[] {
   const country = COUNTRY_CODE[key];
   if (country) add(makeAlt(country, { tokenOnly: true, country }));
 
-  // Handle queries: @NWS or NWSBoston
-  if (term.raw.startsWith("@") || key.length >= 3) {
+  // @handle queries keep handle prefix matching. Do not re-add a loose
+  // prefix alt for 2–4 letter acronyms or short tokens — that undoes token-only.
+  if (term.raw.startsWith("@")) {
+    add(makeAlt(key, { tokenOnly: key.length <= 4 || keyIsAcronym, acronym: keyIsAcronym }));
+  } else if (key.length >= 5 && !keyIsAcronym && !mapped) {
     add(makeAlt(key, { tokenOnly: false, acronym: false }));
   }
 
@@ -371,11 +401,79 @@ function stemsOf(term: string): string[] {
   return out;
 }
 
+/** Whole-token match, including simple plural/stem variants — never prefixes (Hackney, WHO13). */
+function tokenOrPluralInHay(hay: string, term: string): boolean {
+  const forms = new Set(stemsOf(term));
+  forms.add(`${term}s`);
+  forms.add(`${term}es`);
+  if (term.endsWith("y") && term.length >= 3) forms.add(`${term.slice(0, -1)}ies`);
+  for (const n of forms) if (hayHasToken(hay, n)) return true;
+  return false;
+}
+
+const HACK_TOKENS = new Set(["hack", "hacks", "hacked", "hacking", "hacker", "hackers"]);
+
+const CYBER_NEG_CUES = [
+  "no evidence", "no indication", "no sign of", "ruled out", "rules out",
+  "not tied", "not connected", "not a ", "not an ", "was not a ", "is not a ",
+  "wasnt a ", "isnt a ", "denies ", "denied ", "deny ", "denying ",
+];
+
+/** True if `term` appears in the padded hay and at least one occurrence is not negated. */
+function hayHasUnnegated(hay: string, term: string, prefix = true): boolean {
+  const needle = ` ${term}`;
+  const tokenNeedle = ` ${term} `;
+  let from = 0;
+  let found = false;
+  while (from < hay.length) {
+    const i = hay.indexOf(prefix ? needle : tokenNeedle, from);
+    if (i === -1) break;
+    if (!prefix && hay.slice(i, i + tokenNeedle.length) !== tokenNeedle) {
+      from = i + 1;
+      continue;
+    }
+    if (prefix && i + needle.length < hay.length && hay[i + needle.length] !== " " && !hay.slice(i + 1).startsWith(term)) {
+      from = i + 1;
+      continue;
+    }
+    const before = hay.slice(Math.max(0, i - 80), i + 1); // a short window of preceding words
+    const prevWord = before.trim().split(/\s+/).pop() ?? "";
+    const negated = ["no", "not", "without"].includes(prevWord)
+      || before.includes("none of")
+      || CYBER_NEG_CUES.some((cue) => before.includes(cue));
+    if (!negated) found = true;
+    from = i + 1;
+  }
+  return found;
+}
+
+const CYBER_NEIGHBORS = new Set([
+  "attack", "attacks", "attacked", "incident", "incidents", "threat", "threats",
+  "security", "crime", "criminal", "criminals", "war", "warfare", "advisory",
+  "operation", "operations", "defense", "defence", "command", "espionage",
+  "intrusion", "intrusions", "event", "events",
+]);
+
+function cyberWordInContext(hay: string): boolean {
+  const parts = hay.trim().split(/\s+/);
+  for (let i = 0; i < parts.length; i++) {
+    if (parts[i] !== "cyber") continue;
+    const prev = parts[i - 1] ?? "";
+    const next = parts[i + 1] ?? "";
+    if (CYBER_NEIGHBORS.has(prev) || CYBER_NEIGHBORS.has(next)) {
+      const before = ` ${parts.slice(Math.max(0, i - 5), i).join(" ")} `;
+      const negated = CYBER_NEG_CUES.some((cue) => before.endsWith(` ${cue}`) || before.includes(` ${cue}`));
+      if (!negated) return true;
+    }
+  }
+  return false;
+}
+
 function buildIndex(it: SearchableItem, section = ""): SearchIndex {
   const hit = CACHE.get(it);
   if (hit && hit.section === section) return hit;
 
-  const fields = [it.title, it.summary, it.text, it.location, it.status, it.type, it.severity].filter(Boolean).join("\n");
+  const fields = [it.title, it.summary, it.text, it.location, it.type, it.severity].filter(Boolean).join("\n");
   const words = tokensFrom(fields);
   const caps = new Set(capsTokensFrom(fields));
   const handles: string[] = [];
@@ -453,6 +551,11 @@ function ensurePlaces(idx: SearchIndex, it: SearchableItem, section: string): Pl
   return idx.places;
 }
 
+function allowAgencySignals(alt: SearchAlt): boolean {
+  // Lowercase "who" must not match caps WHO / @WHO; uppercase WHO and @WHO still do.
+  return alt.acronym || !COMMON_WORDS.has(alt.value);
+}
+
 function altMatches(idx: SearchIndex, alt: SearchAlt, it: SearchableItem, section: string): boolean {
   if (alt.state || alt.country) {
     if (looksLikePlace(idx, alt)) {
@@ -463,20 +566,40 @@ function altMatches(idx: SearchIndex, alt: SearchAlt, it: SearchableItem, sectio
   }
 
   const v = alt.value;
-  if (alt.acronym || (ACRONYM_TERMS.has(v) && !v.includes(" "))) {
-    if (idx.caps.has(v)) return true;
-    if (idx.handles.some((h) => h === v || (v.length >= 3 && h.startsWith(v)))) return true;
+  const shortAcronym = (alt.acronym || (ACRONYM_TERMS.has(v) && !v.includes(" "))) && v.length <= 4;
+  const longAcronym = (alt.acronym || (ACRONYM_TERMS.has(v) && !v.includes(" "))) && v.length >= 5;
+
+  const handleExact = idx.handles.some((h) => h === v);
+  const handlePrefix = idx.handles.some((h) => h === v || h.startsWith(v));
+
+  if (shortAcronym) {
+    if (allowAgencySignals(alt) && (idx.caps.has(v) || handleExact)) return true;
+    if (alt.words.length > 1 && hayHasPrefix(idx.hay, alt.words.join(" "))) return true;
+    return false;
+  }
+  if (longAcronym) {
+    if (idx.caps.has(v) || handlePrefix) return true;
     if (alt.words.length > 1 && hayHasPrefix(idx.hay, alt.words.join(" "))) return true;
     return false;
   }
 
-  if (alt.words.length > 1) return hayHasPrefix(idx.hay, alt.words.join(" "));
+  // Bare "cyber" is too loose in prose ("police cyber units"). Match the type/threat
+  // field, compound/phrase alts (handled separately), or "cyber" next to a security word.
+  if (v === "cyber") {
+    if (idx.type === "cyber" || idx.threat === "cyber") return true;
+    return cyberWordInContext(idx.hay);
+  }
 
-  if (v.length >= 3 && idx.handles.some((h) => h === v || h.startsWith(v) || h.includes(v))) return true;
+  if (alt.words.length > 1) {
+    const phrase = alt.words.join(" ");
+    if (phrase.startsWith("cyber") || phrase.includes("cyber")) return hayHasUnnegated(idx.hay, phrase, true);
+    return hayHasPrefix(idx.hay, phrase);
+  }
 
-  if (alt.tokenOnly || v.length <= 2) {
-    if (idx.caps.has(v)) return true;
-    if (hayHasToken(idx.hay, v) && !COMMON_WORDS.has(v)) return true;
+  if (HACK_TOKENS.has(v) || alt.tokenOnly || v.length <= 4) {
+    if (allowAgencySignals(alt) && handleExact) return true;
+    if (allowAgencySignals(alt) && idx.caps.has(v)) return true;
+    if (tokenOrPluralInHay(idx.hay, v) && !COMMON_WORDS.has(v)) return true;
     if (v === "official" || v === "news" || v === "other") {
       if (!idx.sources.length) idx.sources = [...sourceClassesOf(it.links)].map((s) => foldSearch(s));
       return idx.sources.includes(v);
@@ -484,7 +607,10 @@ function altMatches(idx: SearchIndex, alt: SearchAlt, it: SearchableItem, sectio
     return idx.region === v || idx.threat === v || idx.type === v || idx.status === v;
   }
 
-  return stemsOf(v).some((n) => hayHasPrefix(idx.hay, n));
+  if (handlePrefix) return true;
+  const terms = stemsOf(v);
+  if (v.startsWith("cyber") || v.includes("cyber")) return terms.some((n) => hayHasUnnegated(idx.hay, n, true));
+  return terms.some((n) => hayHasPrefix(idx.hay, n));
 }
 
 export function itemMatchesQuery(it: SearchableItem, query: CompiledQuery, section = ""): boolean {
@@ -527,7 +653,7 @@ export function highlightNeedles(query: CompiledQuery): HighlightNeedle[] {
   const seen = new Set<string>();
   for (const term of query.and) {
     for (const alt of term.alts) {
-      const tokenOnly = alt.tokenOnly || alt.acronym || alt.value.length <= 2 || Boolean(alt.state) || Boolean(alt.country);
+      const tokenOnly = alt.tokenOnly || alt.acronym || alt.value.length <= 4 || Boolean(alt.state) || Boolean(alt.country);
       const id = `${alt.value}|${tokenOnly}`;
       if (seen.has(id)) continue;
       seen.add(id);
