@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { useEffect, useId, useMemo, useRef, useState, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { Search } from "lucide-react";
+import { ChevronRight, Search, X } from "lucide-react";
+import * as Dialog from "@radix-ui/react-dialog";
 import { SiteShell } from "@/components/site/shell";
 import { LegacyV4 } from "@/components/site/legacy-v4";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
@@ -451,6 +452,86 @@ function FilterChip({ active, onClick, count, children, attr, compact }: { activ
   );
 }
 
+
+const DOTS_TITLE = "Connect the Dots. Don't Connect the Panic.";
+const DOTS_THUMB = "/images/emergency-monitor/connect-the-dots-thumb.webp";
+const DOTS_FULL = "/images/emergency-monitor/connect-the-dots.webp";
+const DOTS_ALT = "Infographic titled Connect the Dots. Don't Connect the Panic, with the subtitle An example. The real skill is knowing which ones matter. A solid line labeled connected: one caused the other links Weather (ice storm warning issued) to Infrastructure (road closed for icy bridge). A dashed red line labeled possible, not proven links Wild Card (viral post, no clear source) to FBI (official statement, hours later). Unconnected dots are labeled Health (flu cases tick up), Cyber Attack (a company's site goes down), Energy (planned power plant repairs), Transportation (flight delays at one airport), Border (monthly crossing numbers out), and Finance (bank app down for an hour). The footer says Most dots never connect. When they do, you'll see it. Train your eye for that, not for the noise, and notes this is an example only, made to train critical thinking and awareness, not to cause panic.";
+const DOTS_BULLETS = [
+  "Most alerts have nothing to do with each other.",
+  "Sometimes one really causes another, like an ice storm warning that leads to a closed road.",
+  "Sometimes two only look linked, like a viral post and an official statement hours later. That's possible, not proven.",
+  "Most dots never connect. When they do, you'll see it. Train your eye for that, not for the noise.",
+  "This is an example to build critical thinking and awareness, not to cause panic.",
+] as const;
+
+function ConnectDotsLightbox({
+  open,
+  onOpenChange,
+  triggerRef,
+}: {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+  triggerRef: { current: HTMLButtonElement | null };
+}) {
+  const titleId = useId();
+  useEffect(() => {
+    if (open) document.body.style.overflow = "hidden";
+    else document.body.style.removeProperty("overflow");
+    return () => {
+      document.body.style.removeProperty("overflow");
+    };
+  }, [open]);
+  return (
+    <Dialog.Root
+      open={open}
+      onOpenChange={onOpenChange}
+    >
+      <Dialog.Portal>
+        <Dialog.Overlay className="em-noprint fixed inset-0 z-50 bg-navy-900/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" />
+        <Dialog.Content
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby={titleId}
+          data-connect-dots-dialog
+          onCloseAutoFocus={(e) => {
+            e.preventDefault();
+            triggerRef.current?.focus();
+          }}
+          className="em-noprint fixed top-1/2 left-1/2 z-50 flex max-h-[min(92vh,56rem)] w-[min(calc(100vw-1.25rem),52rem)] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-xl border border-gold/70 bg-navy-700 shadow-2xl focus:outline-none"
+        >
+          <div className="flex shrink-0 items-start justify-between gap-3 px-4 pt-4 sm:px-5 sm:pt-5">
+            <Dialog.Title id={titleId} className="min-w-0 font-serif text-lg font-bold leading-tight text-white sm:text-2xl">
+              {DOTS_TITLE}
+            </Dialog.Title>
+            <Dialog.Close
+              aria-label="Close Connect the Dots graphic"
+              data-connect-dots-close
+              className="inline-flex size-11 shrink-0 items-center justify-center rounded-md text-gold hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+            >
+              <X className="size-5" aria-hidden />
+            </Dialog.Close>
+          </div>
+          <div className="min-h-0 flex-1 overflow-y-auto px-4 pb-5 sm:px-5">
+            <img
+              src={DOTS_FULL}
+              alt={DOTS_ALT}
+              width={1600}
+              height={1200}
+              className="mt-3 max-h-[min(46vh,28rem)] w-full rounded-lg bg-white object-contain"
+            />
+            <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-[#F6F3EA] sm:text-base">
+              {DOTS_BULLETS.map((b) => (
+                <li key={b}>{b}</li>
+              ))}
+            </ul>
+          </div>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog.Root>
+  );
+}
+
 /** Groups start closed (as they render today); the summary shows the active choice. */
 function FilterGroup({ id, title, hint, activeLabel, children }: { id: string; title: string; hint?: string; activeLabel?: string; children: ReactNode }) {
   return (
@@ -530,9 +611,20 @@ function EmergencyMonitorPage() {
   const [moreFiltersOpen, setMoreFiltersOpen] = useState(moreFromUrl);
   const [downloadOpen, setDownloadOpen] = useState(false);
   const downloadRef = useRef<HTMLDivElement>(null);
+  const [dotsOpen, setDotsOpen] = useState(false);
+  const dotsTriggerRef = useRef<HTMLButtonElement | null>(null);
+  const openDots = (el: HTMLButtonElement | null) => {
+    dotsTriggerRef.current = el;
+    setDotsOpen(true);
+  };
   const [activeHash, setActiveHash] = useState("");
   const stamp = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
   const [now, setNow] = useState<number | null>(null);
+  useEffect(() => {
+    return () => {
+      document.body.style.removeProperty("overflow");
+    };
+  }, []);
   useEffect(() => {
     setNow(Date.now());
     const t = setInterval(() => setNow(Date.now()), 60_000);
@@ -906,7 +998,7 @@ function EmergencyMonitorPage() {
 .em-alert { scroll-margin-top: 9.5rem; }
 @media (min-width: 640px) { .em-alert { scroll-margin-top: 6rem; } }
 `}</style>
-        <div className="em-noprint">
+        <div className="em-noprint relative">
           <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
             <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
             <div className="mx-auto flex w-full max-w-4xl flex-wrap items-end justify-between gap-x-4 gap-y-1.5 px-5 py-2.5 sm:px-8 sm:py-3.5">
@@ -983,7 +1075,32 @@ function EmergencyMonitorPage() {
           </section>
           <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700" data-deep-search aria-label="Deep search">
             <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-            <form role="search" className="mx-auto w-full max-w-4xl px-5 pb-3 pt-1 sm:px-8 sm:pb-4" onSubmit={(e) => { e.preventDefault(); commitQ(qInput); }}>
+            <div className="mx-auto w-full max-w-4xl px-5 pt-1 sm:px-8">
+              <button
+                type="button"
+                data-connect-dots-card
+                aria-haspopup="dialog"
+                aria-expanded={dotsOpen}
+                aria-label="Connect the Dots. Don't Connect the Panic. Tap to enlarge"
+                className="flex h-11 w-full items-center gap-2 rounded-xl border border-navy-line bg-navy-700 px-2 text-left hover:border-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:h-20 sm:gap-3 sm:p-2"
+                onClick={(e) => openDots(e.currentTarget)}
+              >
+                <img
+                  src={DOTS_THUMB}
+                  alt=""
+                  width={480}
+                  height={360}
+                  className="h-8 w-10 shrink-0 rounded-md bg-white object-cover sm:h-16 sm:w-24"
+                />
+                <span className="min-w-0 flex-1">
+                  <span className="block font-serif text-sm font-bold leading-snug text-white sm:hidden">Connect the dots, not the panic</span>
+                  <span className="hidden font-serif text-base font-bold leading-snug text-white sm:block">{DOTS_TITLE}</span>
+                  <span className="mt-0.5 hidden text-[11px] text-on-dark-muted sm:block">Tap to enlarge</span>
+                </span>
+                <ChevronRight className="size-4 shrink-0 text-gold sm:size-5" aria-hidden />
+              </button>
+            </div>
+            <form role="search" className="mx-auto w-full max-w-4xl px-5 pb-3 pt-2 sm:px-8 sm:pb-4 sm:pt-2.5" onSubmit={(e) => { e.preventDefault(); commitQ(qInput); }}>
               <label htmlFor="em-q" className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">
                 Deep search
               </label>
@@ -1041,6 +1158,7 @@ function EmergencyMonitorPage() {
               <p className="mt-1 text-[11px] text-on-dark-muted">Counts are unique stories in the selected time range.</p>
             </form>
           </section>
+          <ConnectDotsLightbox open={dotsOpen} onOpenChange={setDotsOpen} triggerRef={dotsTriggerRef} />
         </div>
         <div className="em-log mx-auto w-full max-w-4xl px-5 py-2 sm:px-8 sm:py-4">
           {stale && (
@@ -1051,7 +1169,7 @@ function EmergencyMonitorPage() {
 
           <section className="em-noprint rounded-xl border border-navy-line bg-navy-700 p-2.5 sm:p-3" aria-label="Filters">
             <div className="flex flex-col gap-2">
-              <div className="flex flex-wrap items-start gap-x-4 gap-y-2">
+              <div className="flex flex-col gap-2">
                 <div>
                   <p id="em-window" className="font-serif text-[10px] tracking-[0.14em] text-night-muted uppercase">Time</p>
                   <div className="mt-1 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-window">
@@ -1069,7 +1187,7 @@ function EmergencyMonitorPage() {
                     ))}
                   </div>
                 </div>
-                <div className="min-w-0 flex-1">
+                <div>
                   <p id="em-region" className="font-serif text-[10px] tracking-[0.14em] text-night-muted uppercase">Region</p>
                   <div className="mt-1 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-region">
                     {REGION_FILTERS.map((r) => (
