@@ -4,7 +4,8 @@ import { Search } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
 import { LegacyV4 } from "@/components/site/legacy-v4";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
-import log from "@/content/emergency-log.json";
+import emergencyHead from "virtual:emergency-head";
+import { EmergencyStore, useEmergencyStore, type LogEntry, type LogItem, type LoadProgress } from "@/lib/emergency-data";
 import {
   AMERICA_PLACE_LABEL,
   PINNED_US_STATES,
@@ -20,18 +21,6 @@ import { SOURCE_LABEL, matchesSource, sourceClassesOf, type SourceClass } from "
 import { collapseLatest, countPackedItems } from "@/lib/emergency-stories";
 import { compileQuery, highlightNeedles, itemMatchesQuery, linkMatchesTerms, quickQueryActive, QUICK_SEARCH_CANDIDATES, countQueries, splitHighlights, type HighlightNeedle } from "@/lib/emergency-search";
 
-type LogLink = { url: string; label?: string };
-type Severity = "HIGH" | "MEDIUM" | "MONITORING";
-type LogItem = {
-  text?: string;
-  links?: LogLink[];
-  severity?: Severity;
-  title?: string;
-  location?: string;
-  type?: "Cyber" | "Power Outage" | "Unrest" | "Terror" | "Infrastructure" | "Election" | "Other";
-  summary?: string;
-  status?: string;
-};
 const SEV_CLASS: Record<string, string> = {
   HIGH: "border-[#b91c1c] bg-[#b91c1c] text-white",
   MEDIUM: "border-[#b45309] bg-[#f59e0b] text-[#1f1300]",
@@ -44,18 +33,9 @@ function details(it: LogItem): [string, string][] {
   return ([["Location", it.location], ["Type", it.type], ["Summary", it.summary], ["Status", it.status]] as [string, string | undefined][])
     .filter((x): x is [string, string] => !!x[1]);
 }
-type LogEntry = {
-  datetime: string; // ISO 8601 with ET offset, e.g. 2026-11-02T14:00:00-05:00
-  regions?: Partial<Record<RawRegion, LogItem[]>>;
-  trending?: LogItem[];
-  threats?: LogItem[];
-};
 const RAW_REGIONS = ["America", "Europe", "Russia", "Middle East", "Africa", "South America"] as const;
 type RawRegion = (typeof RAW_REGIONS)[number];
 
-const ENTRIES: LogEntry[] = [...((log as { entries: LogEntry[] }).entries ?? [])].sort(
-  (a, b) => Date.parse(b.datetime) - Date.parse(a.datetime),
-);
 
 function fmtET(iso: string) {
   const d = new Date(iso);
@@ -72,9 +52,17 @@ function rawSections(e: LogEntry): [string, LogItem[]][] {
   return out;
 }
 
+/** Place classification is pure per location string; cache it (it ran ~10x per item per render). */
+const AMERICA_LABEL_CACHE = new Map<string, string>();
 function displaySection(raw: string, it: LogItem) {
   if (raw !== "America") return raw;
-  return AMERICA_PLACE_LABEL[classifyAmericaLocation(it.location)];
+  const key = it.location ?? "";
+  let label = AMERICA_LABEL_CACHE.get(key);
+  if (label === undefined) {
+    label = AMERICA_PLACE_LABEL[classifyAmericaLocation(it.location)];
+    AMERICA_LABEL_CACHE.set(key, label);
+  }
+  return label;
 }
 
 const DISPLAY_SECTION_ORDER = [
@@ -92,7 +80,16 @@ const DISPLAY_SECTION_ORDER = [
 ] as const;
 
 /** America split into USA / Canada / Mexico / Other North America; other regions unchanged. */
+const DISPLAY_SECTIONS_CACHE = new WeakMap<LogEntry, [string, LogItem[]][]>();
 function displaySections(e: LogEntry): [string, LogItem[]][] {
+  let hit = DISPLAY_SECTIONS_CACHE.get(e);
+  if (!hit) {
+    hit = computeDisplaySections(e);
+    DISPLAY_SECTIONS_CACHE.set(e, hit);
+  }
+  return hit;
+}
+function computeDisplaySections(e: LogEntry): [string, LogItem[]][] {
   const buckets = new Map<string, LogItem[]>();
   for (const [raw, items] of rawSections(e)) {
     for (const it of items) {
@@ -191,15 +188,15 @@ const ALERT_ID = new WeakMap<LogItem, string>();
 const ALERT_BY_ID = new Map<string, AlertMeta>();
 
 /**
- * Stable per-alert anchors. The bot appends a new 2-hour window; it does not
+ * Stable per-alert anchors (assigned per window as windows load; a window's ids never depend on other windows). The bot appends a new 2-hour window; it does not
  * change an earlier window's datetime or the title on that snapshot. Ids are
  * em-<window>-<title-slug>, with -2, -3… only if two items in the same window
  * slug to the same string. Status, severity and links can change on later
  * windows and are not used.
  */
-function assignAlertIds() {
+function assignAlertIds(e: LogEntry) {
   const used = new Map<string, number>();
-  for (const e of ENTRIES) {
+  {
     for (const [section, items] of rawSections(e)) {
       for (const it of items) {
         const label = (it.title ?? it.text ?? "").trim();
@@ -213,7 +210,17 @@ function assignAlertIds() {
     }
   }
 }
-assignAlertIds();
+
+/** Manifest + newest window are bundled; every other window loads on demand. */
+const STORE = new EmergencyStore(emergencyHead, assignAlertIds);
+const HEAD = STORE.head;
+
+/** Compact window datetime -> that window's datetime (for deep links to windows not loaded yet). */
+const WINDOW_BY_COMPACT = new Map<string, string>(HEAD.windows.map(([dt]) => [compactDatetime(dt), dt]));
+function windowOfAlertId(id: string): string | undefined {
+  const m = id.match(/^em-(\d{8}t\d{6}(?:[mp]\d{4}|z))-/);
+  return m ? WINDOW_BY_COMPACT.get(m[1]) : undefined;
+}
 
 function alertId(it: LogItem) {
   return ALERT_ID.get(it) ?? "";
@@ -253,14 +260,31 @@ const TIME_WINDOWS: { value: TimeWindow; label: string }[] = [
 ];
 
 /** Compare each entry window to the newest entry, not wall-clock now, so a given log always yields the same 24h/7d slice (and the same default PDF) until the next 2-hour update. */
-const NEWEST_MS = Date.parse(ENTRIES[0]?.datetime ?? "") || 0;
+const NEWEST_MS = Date.parse(HEAD.newest ?? "") || 0;
 const WINDOW_MS: Record<TimeWindow, number> = { "2h": 2 * 60 * 60 * 1000, "24h": 24 * 60 * 60 * 1000, "7d": 7 * 24 * 60 * 60 * 1000, full: Infinity };
 
-function inTimeWindow(e: LogEntry, w: TimeWindow) {
+function inTimeWindow(e: { datetime: string }, w: TimeWindow) {
   if (w === "full") return true;
   const t = Date.parse(e.datetime);
   if (Number.isNaN(t) || !NEWEST_MS) return true;
   return NEWEST_MS - t <= WINDOW_MS[w];
+}
+
+/** Item counts per time button, from the manifest (no archive download needed). */
+const WINDOW_ITEM_COUNTS: Record<TimeWindow, number> = (() => {
+  const c: Record<TimeWindow, number> = { "2h": 0, "24h": 0, "7d": 0, full: 0 };
+  for (const [datetime, n] of HEAD.windows) for (const w of TIME_WINDOWS) if (inTimeWindow({ datetime }, w.value)) c[w.value] += n;
+  return c;
+})();
+const FILES_FOR_WINDOW: Record<TimeWindow, number[]> = {
+  "2h": STORE.filesFor((datetime) => inTimeWindow({ datetime }, "2h")),
+  "24h": STORE.filesFor((datetime) => inTimeWindow({ datetime }, "24h")),
+  "7d": STORE.filesFor((datetime) => inTimeWindow({ datetime }, "7d")),
+  full: STORE.filesFor(() => true),
+};
+
+function fmtMB(bytes: number) {
+  return bytes >= 1e6 ? `${(bytes / 1e6).toFixed(1)} MB` : `${Math.max(1, Math.round(bytes / 1e3))} KB`;
 }
 
 function windowLabel(w: TimeWindow) {
@@ -303,11 +327,21 @@ function statusFromParam(s: string | undefined) {
   return hit ?? "";
 }
 
+const PLACE_CACHE = new Map<string, string[]>();
+function cachedPlaces(kind: "s" | "c", it: LogItem, section: string) {
+  const key = `${kind}\u0000${section}\u0000${it.location ?? ""}`;
+  let v = PLACE_CACHE.get(key);
+  if (!v) {
+    v = kind === "s" ? extractUsStates(it.location, section) : extractCountries(it.location, section);
+    PLACE_CACHE.set(key, v);
+  }
+  return v;
+}
 function statesOf(it: LogItem, section: string) {
-  return extractUsStates(it.location, section);
+  return cachedPlaces("s", it, section);
 }
 function countriesOf(it: LogItem, section: string) {
-  return extractCountries(it.location, section);
+  return cachedPlaces("c", it, section);
 }
 
 function Marked({ text, terms }: { text?: string; terms: HighlightNeedle[] }) {
@@ -401,25 +435,26 @@ function splitPlaceChips(all: string[], selected: string, pinned: readonly strin
   return { visible, hidden };
 }
 
-function FilterChip({ active, onClick, count, children, attr, compact }: { active: boolean; onClick: () => void; count: number; children: ReactNode; attr?: Record<string, string>; compact?: boolean }) {
+function FilterChip({ active, onClick, count, children, attr, compact }: { active: boolean; onClick: () => void; count: number | null; children: ReactNode; attr?: Record<string, string>; compact?: boolean }) {
   return (
     <button
       type="button"
       {...attr}
-      data-count={count}
+      data-count={count ?? "loading"}
       onClick={onClick}
       aria-pressed={active}
       className={`inline-flex items-center gap-1 rounded-full border font-semibold ${compact ? "min-h-9 px-2.5 text-[13px]" : "min-h-11 px-3 text-sm"} ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
     >
       {children}
-      <span className={`rounded-full px-1.5 text-xs ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`}>{count}</span>
+      <span className={`rounded-full px-1.5 text-xs ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`} aria-label={count == null ? "count loading" : undefined}>{count ?? "…"}</span>
     </button>
   );
 }
 
-function FilterGroup({ id, title, hint, activeLabel, defaultOpen, children }: { id: string; title: string; hint?: string; activeLabel?: string; defaultOpen?: boolean; children: ReactNode }) {
+/** Groups start closed (as they render today); the summary shows the active choice. */
+function FilterGroup({ id, title, hint, activeLabel, children }: { id: string; title: string; hint?: string; activeLabel?: string; children: ReactNode }) {
   return (
-    <details className="mt-4 border-t border-navy-line/80 pt-3" defaultOpen={Boolean(defaultOpen) || Boolean(activeLabel)}>
+    <details className="mt-4 border-t border-navy-line/80 pt-3">
       <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase [&::-webkit-details-marker]:hidden">
         <span>{title}{activeLabel ? <span className="ml-2 normal-case tracking-normal text-gold">· {activeLabel}</span> : null}</span>
         <span className="text-gold" aria-hidden="true">▾</span>
@@ -536,7 +571,27 @@ function EmergencyMonitorPage() {
   const linked = activeHash ? ALERT_BY_ID.get(activeHash) : undefined;
   const override = Boolean(linked);
 
-  const timedEntries = useMemo(() => ENTRIES.filter((e) => inTimeWindow(e, windowKey)), [windowKey]);
+  const snap = useEmergencyStore(STORE);
+  const ENTRIES = snap.entries;
+  const neededFiles = FILES_FOR_WINDOW[windowKey];
+  const rangeReady = neededFiles.every((f) => snap.loaded.has(f));
+  const allLoaded = FILES_FOR_WINDOW.full.every((f) => snap.loaded.has(f));
+  const progress: LoadProgress | null = snap.progress;
+  const loadingRange = !rangeReady;
+  // Load what the selected range needs, after first paint. 2h/24h use only the newest-24h file.
+  useEffect(() => {
+    if (!rangeReady) void STORE.load(neededFiles).catch(() => {});
+  }, [windowKey, rangeReady]);
+  // Deep link to a window that is not loaded yet: fetch the file holding it.
+  const linkedWindow = activeHash ? windowOfAlertId(activeHash) : undefined;
+  useEffect(() => {
+    if (!linkedWindow) return;
+    const files = STORE.filesFor((dt) => dt === linkedWindow);
+    if (!STORE.isLoaded(files)) void STORE.load(files).catch(() => {});
+  }, [linkedWindow]);
+  const linkLoading = Boolean(linkedWindow && !ALERT_BY_ID.has(activeHash) && !STORE.isLoaded(STORE.filesFor((dt) => dt === linkedWindow)));
+
+  const timedEntries = useMemo(() => ENTRIES.filter((e) => inTimeWindow(e, windowKey)), [windowKey, ENTRIES]);
 
   type Skip = "region" | "threat" | "type" | "status" | "source" | "state" | "country";
   const matchesItem = (section: string, it: LogItem, skip?: Skip) => {
@@ -588,7 +643,7 @@ function EmergencyMonitorPage() {
     const next = filtered.filter((e) => e.datetime !== extra.datetime).concat(extra);
     next.sort((a, b) => Date.parse(b.datetime) - Date.parse(a.datetime));
     return next;
-  }, [filtered, linked]);
+  }, [filtered, linked, ENTRIES]);
 
   const shown = displayed;
   const earlierCount = Math.max(0, shown.length - 1);
@@ -715,7 +770,7 @@ function EmergencyMonitorPage() {
   const visibleItemCount = filtered.reduce((n, e) => n + e.sections.reduce((m, [, items]) => m + items.length, 0), 0);
   const timedItemCount = timedEntries.reduce((n, e) => n + displaySections(e).reduce((m, [, items]) => m + items.length, 0), 0);
   const allTimeMatchCount = useMemo(() => {
-    if (!query.and.length || windowKey === "full" || visibleItemCount > 5) return null;
+    if (!query.and.length || windowKey === "full" || visibleItemCount > 5 || !allLoaded) return null;
     let n = 0;
     for (const e of ENTRIES) {
       for (const [name, items] of displaySections(e)) {
@@ -725,7 +780,7 @@ function EmergencyMonitorPage() {
       }
     }
     return n;
-  }, [query, windowKey, visibleItemCount, region, threat, typ, status, source, state, country, q]);
+  }, [query, windowKey, visibleItemCount, region, threat, typ, status, source, state, country, q, ENTRIES, allLoaded]);
 
   const timedItems = useMemo(() => {
     const rows: { it: LogItem; section: string }[] = [];
@@ -794,7 +849,25 @@ function EmergencyMonitorPage() {
     setActiveHash("");
   };
 
-  const newest = ENTRIES[0]?.datetime;
+  const newest = HEAD.newest ?? ENTRIES[0]?.datetime;
+  const loadingNote = loadingRange ? (
+    <span data-em-loading className="inline-flex flex-wrap items-center gap-2">
+      <span>
+        {progress?.error
+          ? `${progress.error}. `
+          : `Loading ${windowKey === "full" ? "the full archive" : windowLabel(windowKey).toLowerCase()}… `}
+        {progress && progress.total > 0 ? `${progress.done} of ${progress.total} files (${fmtMB(progress.bytes)} of ${fmtMB(progress.totalBytes)})` : null}
+      </span>
+      {progress && progress.total > 0 && !progress.error ? (
+        <span className="inline-block h-1.5 w-28 overflow-hidden rounded-full bg-navy-900/70" role="progressbar" aria-label="Loading archive" aria-valuemin={0} aria-valuemax={progress.totalBytes} aria-valuenow={progress.bytes}>
+          <span className="block h-full bg-gold transition-[width]" style={{ width: `${progress.totalBytes ? Math.round((progress.bytes / progress.totalBytes) * 100) : 0}%` }} />
+        </span>
+      ) : null}
+      {progress?.error ? (
+        <button type="button" className="font-semibold text-gold underline" onClick={() => void STORE.load(neededFiles).catch(() => {})}>Retry</button>
+      ) : null}
+    </span>
+  ) : null;
   const stale = newest != null && now != null && now - Date.parse(newest) > STALE_MS;
   return (
     <SiteShell>
@@ -878,16 +951,17 @@ function EmergencyMonitorPage() {
                       className="absolute left-0 z-30 mt-2 w-[min(22rem,calc(100vw-2rem))] rounded-xl border border-navy-line bg-navy-700 p-3 shadow-xl sm:left-auto sm:right-0"
                     >
                       <div className="flex flex-wrap items-center gap-2">
-                        <button type="button" className={btnSm} aria-label="Download PDF (opens your browser's print dialog)" onClick={() => window.print()}>PDF</button>
-                        <button type="button" className={btnSm} onClick={() => save(`emergency-log-${fileTag}-${stamp}.txt`, toText(downloadPack, downloadNote), "text/plain;charset=utf-8")}>TXT</button>
-                        <button type="button" className={btnSm} onClick={() => save(`emergency-log-${fileTag}-${stamp}.csv`, toCSV(downloadPack), "text/csv;charset=utf-8")}>CSV</button>
+                        <button type="button" className={`${btnSm} disabled:cursor-wait disabled:opacity-50`} disabled={loadingRange} aria-label="Download PDF (opens your browser's print dialog)" onClick={() => window.print()}>PDF</button>
+                        <button type="button" className={`${btnSm} disabled:cursor-wait disabled:opacity-50`} disabled={loadingRange} onClick={() => save(`emergency-log-${fileTag}-${stamp}.txt`, toText(downloadPack, downloadNote), "text/plain;charset=utf-8")}>TXT</button>
+                        <button type="button" className={`${btnSm} disabled:cursor-wait disabled:opacity-50`} disabled={loadingRange} onClick={() => save(`emergency-log-${fileTag}-${stamp}.csv`, toCSV(downloadPack), "text/csv;charset=utf-8")}>CSV</button>
                       </div>
+                      {loadingRange ? <p className="mt-2 text-[11px] text-[#F6F3EA]" data-download-loading>{loadingNote}</p> : null}
                       <p id="em-stories" className="mt-3 font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Version</p>
                       <div className="mt-1.5 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-stories">
-                        <FilterChip compact active={storyMode === "latest"} onClick={() => setStoryMode("latest")} count={latestCount} attr={{ "data-stories": "latest" }}>
+                        <FilterChip compact active={storyMode === "latest"} onClick={() => setStoryMode("latest")} count={rangeReady ? latestCount : null} attr={{ "data-stories": "latest" }}>
                           Latest version of each alert
                         </FilterChip>
-                        <FilterChip compact active={storyMode === "history"} onClick={() => setStoryMode("history")} count={historyCount} attr={{ "data-stories": "history" }}>
+                        <FilterChip compact active={storyMode === "history"} onClick={() => setStoryMode("history")} count={rangeReady ? historyCount : null} attr={{ "data-stories": "history" }}>
                           Every update (full history)
                         </FilterChip>
                       </div>
@@ -930,8 +1004,9 @@ function EmergencyMonitorPage() {
               </p>
               {query.and.length ? (
                 <p className="mt-1.5 text-sm text-[#F6F3EA]" data-search-count aria-live="polite">
+                  {loadingRange ? <>{loadingNote}{" "}So far, </> : null}
                   {visibleItemCount} {visibleItemCount === 1 ? "alert matches" : "alerts match"} across the current range and filters.
-                  {windowKey !== "full" && visibleItemCount <= 5 ? (
+                  {windowKey !== "full" && visibleItemCount <= 5 && !loadingRange ? (
                     <>
                       {" "}
                       {allTimeMatchCount != null ? (
@@ -947,7 +1022,7 @@ function EmergencyMonitorPage() {
               <div className="mt-2 flex flex-nowrap gap-2 overflow-x-auto pb-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" data-quick-searches role="group" aria-label="Quick searches">
                 {quickButtons.map((b, i) => {
                   const active = quickQueryActive(q, b.q);
-                  const count = quickCounts[i] ?? 0;
+                  const count = rangeReady ? quickCounts[i] ?? 0 : null;
                   return (
                     <button
                       key={b.id}
@@ -958,7 +1033,7 @@ function EmergencyMonitorPage() {
                       className={`inline-flex shrink-0 items-center gap-1.5 rounded-full border px-2.5 py-1 text-[13px] font-semibold ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
                     >
                       {b.label}
-                      <span className={`rounded-full px-1.5 text-[11px] ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`}>{count}</span>
+                      <span className={`rounded-full px-1.5 text-[11px] ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`} aria-label={count == null ? "count loading" : undefined}>{count ?? "…"}</span>
                     </button>
                   );
                 })}
@@ -986,7 +1061,7 @@ function EmergencyMonitorPage() {
                         key={w.value}
                         active={windowKey === w.value}
                         onClick={() => setSearch({ window: w.value })}
-                        count={ENTRIES.filter((e) => inTimeWindow(e, w.value)).reduce((n, e) => n + displaySections(e).reduce((m, [, items]) => m + items.length, 0), 0)}
+                        count={WINDOW_ITEM_COUNTS[w.value]}
                         attr={{ "data-window": w.value }}
                       >
                         {w.label}
@@ -1003,7 +1078,7 @@ function EmergencyMonitorPage() {
                         key={r}
                         active={region === r}
                         onClick={() => setSearch({ region: r })}
-                        count={regionCounts[r] ?? 0}
+                        count={rangeReady ? regionCounts[r] ?? 0 : null}
                         attr={{ "data-region": r }}
                       >
                         {r}
@@ -1025,7 +1100,7 @@ function EmergencyMonitorPage() {
                   <span className="text-gold" aria-hidden="true">{moreFiltersOpen ? "▴" : "▾"}</span>
                 </button>
                 <p className="text-xs text-on-dark-muted" aria-live="polite">
-                  Showing {visibleItemCount} of {timedItemCount} in the {windowLabel(windowKey).toLowerCase()}.
+                  {loadingRange ? loadingNote : <>Showing {visibleItemCount} of {timedItemCount} in the {windowLabel(windowKey).toLowerCase()}.</>}
                   {filtersActive ? (
                     <button type="button" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "" })} className="ml-2 font-semibold text-gold underline">
                       Clear filters
@@ -1042,7 +1117,7 @@ function EmergencyMonitorPage() {
                 <div>
                   <p id="em-threat" className="font-serif text-[10px] tracking-[0.14em] text-night-muted uppercase">Threat level</p>
                   <div className="mt-1.5 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-threat">
-                    <FilterChip compact active={!threat} onClick={() => setSearch({ threat: "" })} count={countIn("threat")} attr={{ "data-threat": "All" }}>
+                    <FilterChip compact active={!threat} onClick={() => setSearch({ threat: "" })} count={rangeReady ? countIn("threat") : null} attr={{ "data-threat": "All" }}>
                       All levels
                     </FilterChip>
                     {THREAT_ORDER.filter((k) => k === "Unspecified" ? (threatCounts[k] ?? 0) > 0 || threat === k : true).map((k) => (
@@ -1051,7 +1126,7 @@ function EmergencyMonitorPage() {
                         key={k}
                         active={threat === k}
                         onClick={() => setSearch({ threat: threat === k ? "" : k })}
-                        count={threatCounts[k] ?? 0}
+                        count={rangeReady ? threatCounts[k] ?? 0 : null}
                         attr={{ "data-threat": k }}
                       >
                         {k}
@@ -1063,7 +1138,7 @@ function EmergencyMonitorPage() {
                 <div className="mt-3">
                   <p id="em-type" className="font-serif text-[10px] tracking-[0.14em] text-night-muted uppercase">Emergency type</p>
                   <div className="mt-1.5 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-type">
-                    <FilterChip compact active={!typ} onClick={() => setSearch({ type: "" })} count={countIn("type")} attr={{ "data-type": "All" }}>
+                    <FilterChip compact active={!typ} onClick={() => setSearch({ type: "" })} count={rangeReady ? countIn("type") : null} attr={{ "data-type": "All" }}>
                       All types
                     </FilterChip>
                     {TYPE_ORDER.filter((k) => k === "Unspecified" ? (typeCounts[k] ?? 0) > 0 || typ === k : true).map((k) => (
@@ -1072,7 +1147,7 @@ function EmergencyMonitorPage() {
                         key={k}
                         active={typ === k}
                         onClick={() => setSearch({ type: typ === k ? "" : k })}
-                        count={typeCounts[k] ?? 0}
+                        count={rangeReady ? typeCounts[k] ?? 0 : null}
                         attr={{ "data-type": k }}
                       >
                         {k}
@@ -1081,8 +1156,8 @@ function EmergencyMonitorPage() {
                   </div>
                 </div>
 
-                <FilterGroup id="em-status" title="Status" hint="From the title prefix (NEW, UPDATE, CONTINUATION, RESOLVED)." activeLabel={status || undefined} defaultOpen>
-                  <FilterChip active={!status} onClick={() => setSearch({ status: "" })} count={countIn("status")} attr={{ "data-status": "All" }}>
+                <FilterGroup id="em-status" title="Status" hint="From the title prefix (NEW, UPDATE, CONTINUATION, RESOLVED)." activeLabel={status || undefined}>
+                  <FilterChip active={!status} onClick={() => setSearch({ status: "" })} count={rangeReady ? countIn("status") : null} attr={{ "data-status": "All" }}>
                     All statuses
                   </FilterChip>
                   {STATUS_ORDER.filter((k) => k === "Unspecified" || k === "Resolved" ? (statusCounts[k] ?? 0) > 0 || status === k : true).map((k) => (
@@ -1090,7 +1165,7 @@ function EmergencyMonitorPage() {
                       key={k}
                       active={status === k}
                       onClick={() => setSearch({ status: status === k ? "" : k })}
-                      count={statusCounts[k] ?? 0}
+                      count={rangeReady ? statusCounts[k] ?? 0 : null}
                       attr={{ "data-status": k }}
                     >
                       {k}
@@ -1098,8 +1173,8 @@ function EmergencyMonitorPage() {
                   ))}
                 </FilterGroup>
 
-                <FilterGroup id="em-source" title="Source" hint="From each alert’s X links and a published handle list; unlisted accounts stay under All sources." activeLabel={source ? SOURCE_LABEL[source as SourceClass] : undefined} defaultOpen>
-                  <FilterChip active={!source} onClick={() => setSearch({ source: "" })} count={countIn("source")} attr={{ "data-source": "All" }}>
+                <FilterGroup id="em-source" title="Source" hint="From each alert’s X links and a published handle list; unlisted accounts stay under All sources." activeLabel={source ? SOURCE_LABEL[source as SourceClass] : undefined}>
+                  <FilterChip active={!source} onClick={() => setSearch({ source: "" })} count={rangeReady ? countIn("source") : null} attr={{ "data-source": "All" }}>
                     All sources
                   </FilterChip>
                   {SOURCE_ORDER.map((k) => (
@@ -1107,7 +1182,7 @@ function EmergencyMonitorPage() {
                       key={k}
                       active={source === k}
                       onClick={() => setSearch({ source: source === k ? "" : k })}
-                      count={sourceCounts[k] ?? 0}
+                      count={rangeReady ? sourceCounts[k] ?? 0 : null}
                       attr={{ "data-source": k }}
                     >
                       {SOURCE_LABEL[k]}
@@ -1115,8 +1190,8 @@ function EmergencyMonitorPage() {
                   ))}
                 </FilterGroup>
 
-                <FilterGroup id="em-state" title="US state" hint="From Location. Virginia, D.C. and Maryland stay at the top." activeLabel={state || undefined} defaultOpen>
-                  <FilterChip active={!state} onClick={() => setSearch({ state: "" })} count={countIn("state")} attr={{ "data-state": "All" }}>
+                <FilterGroup id="em-state" title="US state" hint="From Location. Virginia, D.C. and Maryland stay at the top." activeLabel={state || undefined}>
+                  <FilterChip active={!state} onClick={() => setSearch({ state: "" })} count={rangeReady ? countIn("state") : null} attr={{ "data-state": "All" }}>
                     All states
                   </FilterChip>
                   {shownStates.map((k) => (
@@ -1124,7 +1199,7 @@ function EmergencyMonitorPage() {
                       key={k}
                       active={state === k}
                       onClick={() => setSearch({ state: state === k ? "" : k })}
-                      count={stateCounts[k] ?? 0}
+                      count={rangeReady ? stateCounts[k] ?? 0 : null}
                       attr={{ "data-state": stateSlug(k) }}
                     >
                       {k}
@@ -1143,8 +1218,8 @@ function EmergencyMonitorPage() {
                   ) : null}
                 </FilterGroup>
 
-                <FilterGroup id="em-country" title="Country" hint="From Location. Unclear or contested places are left unclassified." activeLabel={country || undefined} defaultOpen>
-                  <FilterChip active={!country} onClick={() => setSearch({ country: "" })} count={countIn("country")} attr={{ "data-country": "All" }}>
+                <FilterGroup id="em-country" title="Country" hint="From Location. Unclear or contested places are left unclassified." activeLabel={country || undefined}>
+                  <FilterChip active={!country} onClick={() => setSearch({ country: "" })} count={rangeReady ? countIn("country") : null} attr={{ "data-country": "All" }}>
                     All countries
                   </FilterChip>
                   {shownCountries.map((k) => (
@@ -1152,7 +1227,7 @@ function EmergencyMonitorPage() {
                       key={k}
                       active={country === k}
                       onClick={() => setSearch({ country: country === k ? "" : k })}
-                      count={countryCounts[k] ?? 0}
+                      count={rangeReady ? countryCounts[k] ?? 0 : null}
                       attr={{ "data-country": countrySlug(k) }}
                     >
                       {k}
@@ -1181,8 +1256,16 @@ function EmergencyMonitorPage() {
             </p>
           )}
 
+          {linkLoading ? (
+            <p role="status" className="em-noprint mt-3 rounded-md border border-gold bg-navy-700 px-4 py-2.5 text-sm text-[#F6F3EA]" data-em-link-loading>
+              Loading the linked alert from the archive…
+            </p>
+          ) : null}
+
           <div aria-live="polite" className="em-screen-log">
-          {ENTRIES.length > 0 && shown.length === 0 ? (
+          {loadingRange && shown.length === 0 ? (
+            <p className="mt-3 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-sm text-[#F6F3EA]">{loadingNote}</p>
+          ) : ENTRIES.length > 0 && shown.length === 0 ? (
             <p className="mt-3 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
               No alerts match these filters{q.trim() ? ` for “${q.trim()}”` : ""}.{" "}
               {q.trim() && windowKey !== "full" ? (
@@ -1200,7 +1283,8 @@ function EmergencyMonitorPage() {
               {shown.map((e, idx) => (
                 <li key={e.datetime} className={`em-entry ${idx > 0 && !showEarlier && e.datetime !== linked?.datetime ? "hidden print:block" : ""} rounded-xl border border-navy-line border-l-4 border-l-gold bg-navy-700 px-5 py-5 text-[#F6F3EA]`}>
                   <h2 className="font-serif text-xl font-semibold text-gold"><time dateTime={e.datetime}>{fmtET(e.datetime)}</time></h2>
-                  {e.sections.map(([name, items]) => (
+                  {/* Hidden earlier windows are not rendered until "Show earlier updates" (they were display:none before; print uses .em-print-log). */}
+                  {(idx === 0 || showEarlier || e.datetime === linked?.datetime) && e.sections.map(([name, items]) => (
                     <section key={name} className="mt-4">
                       <h3 className="text-sm font-bold uppercase tracking-wide">{name}</h3>
                       <ul className="mt-1 list-disc space-y-1 pl-5 text-sm leading-relaxed">
