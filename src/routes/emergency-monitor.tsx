@@ -1,6 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { Search, X } from "lucide-react";
+import { ChevronRight, Search, X } from "lucide-react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { SiteShell } from "@/components/site/shell";
 import { LegacyV4 } from "@/components/site/legacy-v4";
@@ -1001,15 +1001,36 @@ function EmergencyMonitorPage() {
           </section>
           <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700" data-deep-search aria-label="Deep search">
             <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-            <form role="search" className="pb-3 pt-1 sm:pb-4" onSubmit={(e) => { e.preventDefault(); commitQ(qInput); }}>
-              <div className="mx-auto w-full max-w-4xl px-5 sm:px-8">
+            <div className="mx-auto w-full max-w-4xl px-5 pt-1 sm:px-8">
+              <button
+                type="button"
+                data-connect-dots-card
+                aria-haspopup="dialog"
+                aria-expanded={dotsOpen}
+                aria-label="Connect the Dots. Don't Connect the Panic. Tap to enlarge"
+                className="flex h-11 w-full items-center gap-2 rounded-xl border border-navy-line bg-navy-700 px-2 text-left hover:border-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:h-20 sm:gap-3 sm:p-2"
+                onClick={(e) => openDots(e.currentTarget)}
+              >
+                <img
+                  src={DOTS_THUMB}
+                  alt=""
+                  width={480}
+                  height={360}
+                  className="h-8 w-10 shrink-0 rounded-md bg-white object-cover sm:h-16 sm:w-24"
+                />
+                <span className="min-w-0 flex-1">
+                  <span className="block font-serif text-sm font-bold leading-snug text-white sm:hidden">Connect the dots, not the panic</span>
+                  <span className="hidden font-serif text-base font-bold leading-snug text-white sm:block">{DOTS_TITLE}</span>
+                  <span className="mt-0.5 hidden text-[11px] text-on-dark-muted sm:block">Tap to enlarge</span>
+                </span>
+                <ChevronRight className="size-4 shrink-0 text-gold sm:size-5" aria-hidden />
+              </button>
+            </div>
+            <form role="search" className="mx-auto w-full max-w-4xl px-5 pb-3 pt-2 sm:px-8 sm:pb-4 sm:pt-2.5" onSubmit={(e) => { e.preventDefault(); commitQ(qInput); }}>
               <label htmlFor="em-q" className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">
                 Deep search
               </label>
-              </div>
-              <div className="relative mt-1.5">
-                <div className="mx-auto w-full max-w-4xl px-5 sm:px-8">
-              <div className="flex w-full items-center gap-3 rounded-xl border-2 border-gold bg-navy-800 px-3.5 shadow-[0_0_0_1px_rgba(245,184,46,0.25)] focus-within:bg-navy-700">
+              <div className="mt-1.5 flex w-full items-center gap-3 rounded-xl border-2 border-gold bg-navy-800 px-3.5 shadow-[0_0_0_1px_rgba(245,184,46,0.25)] focus-within:bg-navy-700">
                 <Search className="size-5 shrink-0 text-gold" aria-hidden />
                 <input
                   id="em-q"
@@ -1021,27 +1042,6 @@ function EmergencyMonitorPage() {
                   className="h-14 w-full min-w-0 bg-transparent text-base text-white placeholder:text-night-muted focus:outline-none sm:text-lg"
                 />
               </div>
-                </div>
-                <button
-                  type="button"
-                  data-connect-dots-card
-                  aria-haspopup="dialog"
-                  aria-expanded={dotsOpen}
-                  className="absolute top-0 right-3 hidden w-[10.75rem] flex-col overflow-hidden rounded-xl border border-navy-line bg-navy-800/95 p-2 text-left shadow-lg hover:border-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold xl:flex"
-                  onClick={(e) => openDots(e.currentTarget)}
-                >
-                  <img
-                    src={DOTS_THUMB}
-                    alt=""
-                    width={480}
-                    height={360}
-                    className="aspect-[4/3] w-full rounded-md bg-white object-cover"
-                  />
-                  <span className="mt-1.5 font-serif text-[13px] font-bold leading-snug text-white">{DOTS_TITLE}</span>
-                  <span className="mt-0.5 text-[11px] font-semibold text-gold">Tap to enlarge</span>
-                </button>
-              </div>
-              <div className="mx-auto w-full max-w-4xl px-5 sm:px-8">
               <p className="mt-1.5 text-xs text-[#F6F3EA]/80">
                 Searches titles, details, places, and sources. Put a phrase in quotes to match it exactly. With several words, results must contain all of them.
               </p>
@@ -1081,17 +1081,6 @@ function EmergencyMonitorPage() {
                 })}
               </div>
               <p className="mt-1 text-[11px] text-on-dark-muted">Counts are unique stories in the selected time range.</p>
-              <p className="mt-1.5 xl:hidden">
-                <button
-                  type="button"
-                  data-connect-dots-link
-                  className="min-h-9 text-sm font-semibold text-gold underline decoration-gold/70 underline-offset-2 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
-                  onClick={(e) => openDots(e.currentTarget)}
-                >
-                  Connect the dots, not the panic
-                </button>
-              </p>
-              </div>
             </form>
           </section>
           <ConnectDotsLightbox open={dotsOpen} onOpenChange={setDotsOpen} triggerRef={dotsTriggerRef} />
