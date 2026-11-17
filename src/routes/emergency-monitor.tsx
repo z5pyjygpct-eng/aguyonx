@@ -95,7 +95,7 @@ function toCSV() {
 const EM_TITLE = "Emergency Monitor – Live Log | aguyonx.com";
 const EM_DESC = "A live log of emergencies and threats worldwide — cyber, power outages, unrest, terror, infrastructure and elections — sorted by region and updated about every 2 hours, with sources on X.";
 const EM_URL = "https://aguyonx.com/emergency-monitor";
-const PAGE_SHARE_TEXT = "Virginia Emergency Monitor: current alerts in one place.";
+const PAGE_SHARE_TEXT = "Emergency Monitor: current alerts in one place.";
 const STALE_MS = 3 * 60 * 60 * 1000;
 
 function xIntentUrl(text: string, url = EM_URL) {
@@ -104,8 +104,8 @@ function xIntentUrl(text: string, url = EM_URL) {
 
 function alertShareText(it: LogItem, region: string) {
   const title = (it.title ?? it.text ?? "").trim();
-  if (!title) return `Virginia Emergency Monitor (${region})`;
-  return `${title} (${region}) — Virginia Emergency Monitor`;
+  if (!title) return `Emergency Monitor (${region})`;
+  return `${title} (${region}) — Emergency Monitor`;
 }
 
 /** Compact a window timestamp (e.g. 2026-11-16T18:15:00-05:00 -> 20261116t181500m0500). */
