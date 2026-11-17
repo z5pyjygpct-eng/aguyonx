@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Search } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
-import { LegacyHero, LegacyV4 } from "@/components/site/legacy-v4";
+import { LegacyV4 } from "@/components/site/legacy-v4";
+import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import log from "@/content/emergency-log.json";
 import {
   AMERICA_PLACE_LABEL,
@@ -371,6 +372,7 @@ export const Route = createFileRoute("/emergency-monitor")({
 });
 
 const btn = "inline-flex min-h-11 items-center rounded-md border border-gold px-4 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900";
+const btnSm = "inline-flex min-h-9 items-center rounded-md border border-gold px-3 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900";
 
 const REGION_FILTERS = ["All", "USA", "Canada", "Mexico", "Other North America", "Europe", "Russia", "Middle East", "Africa", "South America"] as const;
 
@@ -391,7 +393,7 @@ function splitPlaceChips(all: string[], selected: string, pinned: readonly strin
   return { visible, hidden };
 }
 
-function FilterChip({ active, onClick, count, children, attr }: { active: boolean; onClick: () => void; count: number; children: ReactNode; attr?: Record<string, string> }) {
+function FilterChip({ active, onClick, count, children, attr, compact }: { active: boolean; onClick: () => void; count: number; children: ReactNode; attr?: Record<string, string>; compact?: boolean }) {
   return (
     <button
       type="button"
@@ -399,7 +401,7 @@ function FilterChip({ active, onClick, count, children, attr }: { active: boolea
       data-count={count}
       onClick={onClick}
       aria-pressed={active}
-      className={`inline-flex min-h-11 items-center gap-1.5 rounded-full border px-3 text-sm font-semibold ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
+      className={`inline-flex items-center gap-1 rounded-full border font-semibold ${compact ? "min-h-9 px-2.5 text-[13px]" : "min-h-11 px-3 text-sm"} ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
     >
       {children}
       <span className={`rounded-full px-1.5 text-xs ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`}>{count}</span>
@@ -458,6 +460,10 @@ function EmergencyMonitorPage() {
   const [storyMode, setStoryMode] = useState<"latest" | "history">("latest");
   const [moreStates, setMoreStates] = useState(false);
   const [moreCountries, setMoreCountries] = useState(false);
+  const moreFromUrl = Boolean(threat || typ || status || source || state || country);
+  const [moreFiltersOpen, setMoreFiltersOpen] = useState(moreFromUrl);
+  const [downloadOpen, setDownloadOpen] = useState(false);
+  const downloadRef = useRef<HTMLDivElement>(null);
   const [activeHash, setActiveHash] = useState("");
   const stamp = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
   const [now, setNow] = useState<number | null>(null);
@@ -477,6 +483,24 @@ function EmergencyMonitorPage() {
     setMoreStates(false);
     setMoreCountries(false);
   }, [windowKey, region, threat, typ, status, source, state, country, q]);
+  useEffect(() => {
+    if (moreFromUrl) setMoreFiltersOpen(true);
+  }, [moreFromUrl]);
+  useEffect(() => {
+    if (!downloadOpen) return;
+    const onDoc = (e: MouseEvent) => {
+      if (downloadRef.current && !downloadRef.current.contains(e.target as Node)) setDownloadOpen(false);
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setDownloadOpen(false);
+    };
+    document.addEventListener("mousedown", onDoc);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDoc);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [downloadOpen]);
 
   const linked = activeHash ? ALERT_BY_ID.get(activeHash) : undefined;
   const override = Boolean(linked);
@@ -660,6 +684,7 @@ function EmergencyMonitorPage() {
   const visibleItemCount = filtered.reduce((n, e) => n + e.sections.reduce((m, [, items]) => m + items.length, 0), 0);
   const timedItemCount = timedEntries.reduce((n, e) => n + displaySections(e).reduce((m, [, items]) => m + items.length, 0), 0);
   const filtersActive = region !== "All" || Boolean(threat) || Boolean(typ) || Boolean(status) || Boolean(source) || Boolean(state) || Boolean(country) || Boolean(q.trim());
+  const moreFilterCount = [threat, typ, status, source, state, country].filter(Boolean).length;
 
   const downloadNote = `Selection: ${windowLabel(windowKey)}${region !== "All" ? `; region ${region}` : ""}${threat ? `; threat ${threat}` : ""}${typ ? `; type ${typ}` : ""}${status ? `; status ${status}` : ""}${source ? `; source ${SOURCE_LABEL[source as SourceClass]}` : ""}${state ? `; state ${state}` : ""}${country ? `; country ${country}` : ""}${q.trim() ? `; search “${q.trim()}”` : ""}; ${storyMode === "latest" ? "latest version of each alert" : "every update (full history)"}.`;
   const fileTag = [windowKey, region !== "All" ? region.toLowerCase().replace(/\s+/g, "-") : "", threat.toLowerCase(), typ.toLowerCase().replace(/\s+/g, "-"), status ? statusParam(status) : "", source, state ? stateSlug(state) : "", country ? countrySlug(country) : "", q.trim() ? "search" : "", storyMode].filter(Boolean).join("-");
@@ -740,249 +765,295 @@ function EmergencyMonitorPage() {
 @media (min-width: 640px) { .em-alert { scroll-margin-top: 6rem; } }
 `}</style>
         <div className="em-noprint">
-          <LegacyHero trail={[{ label: "Emergency Monitor" }]} kicker="Live log" title="Emergency Monitor – Live Log" width="max-w-4xl">
-            <p className="max-w-xl text-lg">This is a live log, updated about every 2 hours. Newest entries are at the top.</p>
-          </LegacyHero>
+          <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
+            <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
+            <div className="mx-auto flex w-full max-w-4xl flex-wrap items-end justify-between gap-x-4 gap-y-2 px-5 py-3 sm:px-8 sm:py-3.5">
+              <div className="min-w-0">
+                <Breadcrumbs items={[{ label: "Emergency Monitor" }]} className="mb-1.5" />
+                <p className="font-serif text-[11px] font-semibold tracking-[0.18em] text-gold uppercase">Live log</p>
+                <h1 className="mt-0.5 font-serif text-2xl font-bold uppercase leading-tight sm:text-3xl">Emergency Monitor – Live Log</h1>
+                <p className="mt-1 text-xs text-[#F6F3EA]/80">Updated about every 2 hours. Newest entries are at the top.</p>
+              </div>
+              <div className="flex flex-wrap items-center gap-2 pb-0.5" data-download-controls ref={downloadRef}>
+                {newest && (
+                  <p className="mr-1 text-xs text-[#F6F3EA]">
+                    <span className="font-semibold">Last updated:</span>{" "}
+                    <time dateTime={newest}>{fmtET(newest)}</time>
+                  </p>
+                )}
+                <div className="relative">
+                  <button
+                    type="button"
+                    className={btnSm}
+                    aria-expanded={downloadOpen}
+                    aria-haspopup="dialog"
+                    data-download-toggle
+                    onClick={() => setDownloadOpen((v) => !v)}
+                  >
+                    Download
+                  </button>
+                  {downloadOpen ? (
+                    <div
+                      role="dialog"
+                      aria-label="Download the log"
+                      data-download-popover
+                      className="absolute left-0 z-30 mt-2 w-[min(22rem,calc(100vw-2rem))] rounded-xl border border-navy-line bg-navy-700 p-3 shadow-xl sm:left-auto sm:right-0"
+                    >
+                      <div className="flex flex-wrap items-center gap-2">
+                        <button type="button" className={btnSm} aria-label="Download PDF (opens your browser's print dialog)" onClick={() => window.print()}>PDF</button>
+                        <button type="button" className={btnSm} onClick={() => save(`emergency-log-${fileTag}-${stamp}.txt`, toText(downloadPack, downloadNote), "text/plain;charset=utf-8")}>TXT</button>
+                        <button type="button" className={btnSm} onClick={() => save(`emergency-log-${fileTag}-${stamp}.csv`, toCSV(downloadPack), "text/csv;charset=utf-8")}>CSV</button>
+                      </div>
+                      <p id="em-stories" className="mt-3 font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Version</p>
+                      <div className="mt-1.5 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-stories">
+                        <FilterChip compact active={storyMode === "latest"} onClick={() => setStoryMode("latest")} count={latestCount} attr={{ "data-stories": "latest" }}>
+                          Latest version of each alert
+                        </FilterChip>
+                        <FilterChip compact active={storyMode === "history"} onClick={() => setStoryMode("history")} count={historyCount} attr={{ "data-stories": "history" }}>
+                          Every update (full history)
+                        </FilterChip>
+                      </div>
+                      <p className="mt-2 text-[11px] text-on-dark-muted">Downloads and the PDF use this version (latest is the default). The page still shows every update. PDF opens your print dialog — choose “Save as PDF”. Links stay clickable. Follows the time range and filters (default is the last 24 hours).</p>
+                    </div>
+                  ) : null}
+                </div>
+                <a
+                  href={xIntentUrl(PAGE_SHARE_TEXT)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={btnSm}
+                  aria-label="Share this page on X"
+                >
+                  Share on X
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
-        <div className="em-log mx-auto w-full max-w-4xl px-5 py-8 sm:px-8 sm:py-10">
-          {newest && (
-            <p className="em-noprint mb-4 text-sm text-[#F6F3EA]">
-              <span className="font-semibold">Last updated:</span> <time dateTime={newest}>{fmtET(newest)}</time>
-            </p>
-          )}
+        <div className="em-log mx-auto w-full max-w-4xl px-5 py-3 sm:px-8 sm:py-4">
           {stale && (
-            <p role="status" className="em-noprint mb-6 rounded-md border-2 border-[#ff6b7f] bg-[#C8102E] px-4 py-3 text-sm font-semibold text-white">
+            <p role="status" className="em-noprint mb-3 rounded-md border-2 border-[#ff6b7f] bg-[#C8102E] px-4 py-2 text-sm font-semibold text-white">
               Heads up: this log may be stale. The newest entry is more than 3 hours old.
             </p>
           )}
-          <div className="em-noprint" data-download-controls>
-            <div className="flex flex-wrap items-center gap-3">
-              <div className="flex flex-wrap items-center gap-3" aria-label="Download the log">
-                <span className="text-sm font-semibold text-on-dark-muted">Download:</span>
-                <button type="button" className={btn} aria-label="Download PDF (opens your browser's print dialog)" onClick={() => window.print()}>PDF</button>
-                <button type="button" className={btn} onClick={() => save(`emergency-log-${fileTag}-${stamp}.txt`, toText(downloadPack, downloadNote), "text/plain;charset=utf-8")}>TXT</button>
-                <button type="button" className={btn} onClick={() => save(`emergency-log-${fileTag}-${stamp}.csv`, toCSV(downloadPack), "text/csv;charset=utf-8")}>CSV</button>
+
+          <section className="em-noprint rounded-xl border border-navy-line bg-navy-700 p-3" aria-label="Filters">
+            <div className="flex flex-col gap-2.5">
+              <form role="search" onSubmit={(e) => e.preventDefault()}>
+                <label htmlFor="em-q" className="sr-only">Search title, location, or summary</label>
+                <div className="flex items-center gap-2 rounded-lg border border-navy-line bg-navy-800 px-2.5 focus-within:border-gold">
+                  <Search className="size-4 shrink-0 text-gold" aria-hidden />
+                  <input
+                    id="em-q"
+                    type="search"
+                    value={q}
+                    onChange={(e) => setSearch({ q: e.target.value })}
+                    placeholder="Search title, location, or summary"
+                    className="h-10 w-full min-w-0 bg-transparent text-sm text-white placeholder:text-night-muted focus:outline-none"
+                  />
+                </div>
+              </form>
+
+              <div className="flex flex-wrap items-start gap-x-4 gap-y-2">
+                <div>
+                  <p id="em-window" className="font-serif text-[10px] tracking-[0.14em] text-night-muted uppercase">Time</p>
+                  <div className="mt-1 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-window">
+                    {TIME_WINDOWS.map((w) => (
+                      <FilterChip
+                        compact
+                        key={w.value}
+                        active={windowKey === w.value}
+                        onClick={() => setSearch({ window: w.value })}
+                        count={ENTRIES.filter((e) => inTimeWindow(e, w.value)).reduce((n, e) => n + displaySections(e).reduce((m, [, items]) => m + items.length, 0), 0)}
+                        attr={{ "data-window": w.value }}
+                      >
+                        {w.label}
+                      </FilterChip>
+                    ))}
+                  </div>
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p id="em-region" className="font-serif text-[10px] tracking-[0.14em] text-night-muted uppercase">Region</p>
+                  <div className="mt-1 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-region">
+                    {REGION_FILTERS.map((r) => (
+                      <FilterChip
+                        compact
+                        key={r}
+                        active={region === r}
+                        onClick={() => setSearch({ region: r })}
+                        count={regionCounts[r] ?? 0}
+                        attr={{ "data-region": r }}
+                      >
+                        {r}
+                      </FilterChip>
+                    ))}
+                  </div>
+                </div>
               </div>
-              <a
-                href={xIntentUrl(PAGE_SHARE_TEXT)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={btn}
-                aria-label="Share this page on X"
-              >
-                Share on X
-              </a>
-            </div>
-            <div className="mt-3">
-              <p id="em-stories" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Download version</p>
-              <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="em-stories">
-                <FilterChip active={storyMode === "latest"} onClick={() => setStoryMode("latest")} count={latestCount} attr={{ "data-stories": "latest" }}>
-                  Latest version of each alert
-                </FilterChip>
-                <FilterChip active={storyMode === "history"} onClick={() => setStoryMode("history")} count={historyCount} attr={{ "data-stories": "history" }}>
-                  Every update (full history)
-                </FilterChip>
-              </div>
-              <p className="mt-2 text-xs text-on-dark-muted">Downloads and the PDF use this version (latest is the default). The page still shows every update.</p>
-            </div>
-            <p className="mt-2 text-xs text-on-dark-muted">PDF opens your browser's print dialog — choose "Save as PDF". Links stay clickable. Downloads follow the time range and filters (default is the last 24 hours, not the full log).</p>
-          </div>
 
-          <section className="em-noprint mt-6 rounded-xl border border-navy-line bg-navy-700 p-4 sm:p-5" aria-label="Filters">
-            <form role="search" onSubmit={(e) => e.preventDefault()}>
-              <label htmlFor="em-q" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">
-                Search title, location, or summary
-              </label>
-              <div className="mt-1 flex items-center gap-2 rounded-xl border border-navy-line bg-navy-800 px-3 focus-within:border-gold">
-                <Search className="size-4 shrink-0 text-gold" aria-hidden />
-                <input
-                  id="em-q"
-                  type="search"
-                  value={q}
-                  onChange={(e) => setSearch({ q: e.target.value })}
-                  placeholder="outage, Mexico City, cyber"
-                  className="h-12 w-full min-w-0 bg-transparent text-base text-white placeholder:text-night-muted focus:outline-none"
-                />
-              </div>
-            </form>
-
-            <div className="mt-4">
-              <p id="em-window" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Time range</p>
-              <p className="mt-1 text-xs text-on-dark-muted">Filters the page and the downloads; measured from the newest log entry, not the clock.</p>
-              <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="em-window">
-                {TIME_WINDOWS.map((w) => (
-                  <FilterChip
-                    key={w.value}
-                    active={windowKey === w.value}
-                    onClick={() => setSearch({ window: w.value })}
-                    count={ENTRIES.filter((e) => inTimeWindow(e, w.value)).reduce((n, e) => n + displaySections(e).reduce((m, [, items]) => m + items.length, 0), 0)}
-                    attr={{ "data-window": w.value }}
-                  >
-                    {w.label}
-                  </FilterChip>
-                ))}
-              </div>
-            </div>
-
-            <div className="mt-4">
-              <p id="em-region" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Region</p>
-              <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="em-region">
-                {REGION_FILTERS.map((r) => (
-                  <FilterChip
-                    key={r}
-                    active={region === r}
-                    onClick={() => setSearch({ region: r })}
-                    count={regionCounts[r] ?? 0}
-                    attr={{ "data-region": r }}
-                  >
-                    {r}
-                  </FilterChip>
-                ))}
-              </div>
-            </div>
-
-            <div className="mt-4">
-              <p id="em-threat" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Threat level</p>
-              <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="em-threat">
-                <FilterChip active={!threat} onClick={() => setSearch({ threat: "" })} count={countIn("threat")} attr={{ "data-threat": "All" }}>
-                  All levels
-                </FilterChip>
-                {THREAT_ORDER.filter((k) => k === "Unspecified" ? (threatCounts[k] ?? 0) > 0 || threat === k : true).map((k) => (
-                  <FilterChip
-                    key={k}
-                    active={threat === k}
-                    onClick={() => setSearch({ threat: threat === k ? "" : k })}
-                    count={threatCounts[k] ?? 0}
-                    attr={{ "data-threat": k }}
-                  >
-                    {k}
-                  </FilterChip>
-                ))}
-              </div>
-            </div>
-
-            <div className="mt-4">
-              <p id="em-type" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Emergency type</p>
-              <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="em-type">
-                <FilterChip active={!typ} onClick={() => setSearch({ type: "" })} count={countIn("type")} attr={{ "data-type": "All" }}>
-                  All types
-                </FilterChip>
-                {TYPE_ORDER.filter((k) => k === "Unspecified" ? (typeCounts[k] ?? 0) > 0 || typ === k : true).map((k) => (
-                  <FilterChip
-                    key={k}
-                    active={typ === k}
-                    onClick={() => setSearch({ type: typ === k ? "" : k })}
-                    count={typeCounts[k] ?? 0}
-                    attr={{ "data-type": k }}
-                  >
-                    {k}
-                  </FilterChip>
-                ))}
-              </div>
-            </div>
-
-            <FilterGroup id="em-status" title="Status" hint="From the title prefix (NEW, UPDATE, CONTINUATION, RESOLVED)." activeLabel={status || undefined} defaultOpen={false}>
-              <FilterChip active={!status} onClick={() => setSearch({ status: "" })} count={countIn("status")} attr={{ "data-status": "All" }}>
-                All statuses
-              </FilterChip>
-              {STATUS_ORDER.filter((k) => k === "Unspecified" || k === "Resolved" ? (statusCounts[k] ?? 0) > 0 || status === k : true).map((k) => (
-                <FilterChip
-                  key={k}
-                  active={status === k}
-                  onClick={() => setSearch({ status: status === k ? "" : k })}
-                  count={statusCounts[k] ?? 0}
-                  attr={{ "data-status": k }}
-                >
-                  {k}
-                </FilterChip>
-              ))}
-            </FilterGroup>
-
-            <FilterGroup id="em-source" title="Source" hint="From each alert’s X links and a published handle list; unlisted accounts stay under All sources." activeLabel={source ? SOURCE_LABEL[source as SourceClass] : undefined} defaultOpen={false}>
-              <FilterChip active={!source} onClick={() => setSearch({ source: "" })} count={countIn("source")} attr={{ "data-source": "All" }}>
-                All sources
-              </FilterChip>
-              {SOURCE_ORDER.map((k) => (
-                <FilterChip
-                  key={k}
-                  active={source === k}
-                  onClick={() => setSearch({ source: source === k ? "" : k })}
-                  count={sourceCounts[k] ?? 0}
-                  attr={{ "data-source": k }}
-                >
-                  {SOURCE_LABEL[k]}
-                </FilterChip>
-              ))}
-            </FilterGroup>
-
-            <FilterGroup id="em-state" title="US state" hint="From Location. Virginia, D.C. and Maryland stay at the top." activeLabel={state || undefined} defaultOpen={false}>
-              <FilterChip active={!state} onClick={() => setSearch({ state: "" })} count={countIn("state")} attr={{ "data-state": "All" }}>
-                All states
-              </FilterChip>
-              {shownStates.map((k) => (
-                <FilterChip
-                  key={k}
-                  active={state === k}
-                  onClick={() => setSearch({ state: state === k ? "" : k })}
-                  count={stateCounts[k] ?? 0}
-                  attr={{ "data-state": stateSlug(k) }}
-                >
-                  {k}
-                </FilterChip>
-              ))}
-              {hiddenStateCount > 0 ? (
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                 <button
                   type="button"
-                  className="inline-flex min-h-11 items-center rounded-full border border-navy-line px-3 text-sm font-semibold text-gold hover:border-gold"
-                  data-more="state"
-                  aria-expanded={moreStates}
-                  onClick={() => setMoreStates((v) => !v)}
+                  className="inline-flex min-h-9 items-center gap-1.5 rounded-full border border-navy-line bg-navy-800 px-3 text-sm font-semibold text-white hover:border-gold"
+                  data-more-filters
+                  aria-expanded={moreFiltersOpen}
+                  onClick={() => setMoreFiltersOpen((v) => !v)}
                 >
-                  {moreStates ? "Less" : `More (${hiddenStateCount})`}
+                  More filters{moreFilterCount ? ` (${moreFilterCount})` : ""}
+                  <span className="text-gold" aria-hidden="true">{moreFiltersOpen ? "▴" : "▾"}</span>
                 </button>
-              ) : null}
-            </FilterGroup>
+                <p className="text-xs text-on-dark-muted" aria-live="polite">
+                  Showing {visibleItemCount} of {timedItemCount} in the {windowLabel(windowKey).toLowerCase()}.
+                  {filtersActive ? (
+                    <button type="button" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "" })} className="ml-2 font-semibold text-gold underline">
+                      Clear filters
+                    </button>
+                  ) : null}
+                </p>
+              </div>
+            </div>
 
-            <FilterGroup id="em-country" title="Country" hint="From Location. Unclear or contested places are left unclassified." activeLabel={country || undefined} defaultOpen={false}>
-              <FilterChip active={!country} onClick={() => setSearch({ country: "" })} count={countIn("country")} attr={{ "data-country": "All" }}>
-                All countries
-              </FilterChip>
-              {shownCountries.map((k) => (
-                <FilterChip
-                  key={k}
-                  active={country === k}
-                  onClick={() => setSearch({ country: country === k ? "" : k })}
-                  count={countryCounts[k] ?? 0}
-                  attr={{ "data-country": countrySlug(k) }}
-                >
-                  {k}
-                </FilterChip>
-              ))}
-              {hiddenCountryCount > 0 ? (
-                <button
-                  type="button"
-                  className="inline-flex min-h-11 items-center rounded-full border border-navy-line px-3 text-sm font-semibold text-gold hover:border-gold"
-                  data-more="country"
-                  aria-expanded={moreCountries}
-                  onClick={() => setMoreCountries((v) => !v)}
-                >
-                  {moreCountries ? "Less" : `More (${hiddenCountryCount})`}
-                </button>
-              ) : null}
-            </FilterGroup>
+            {moreFiltersOpen ? (
+              <div className="mt-3 border-t border-navy-line/80 pt-3" data-more-filters-panel>
+                <p className="mb-2 text-[11px] text-on-dark-muted">Time range filters the page and the downloads, and is measured from the newest log entry, not the clock.</p>
 
-            <p className="mt-4 text-sm text-on-dark-muted" aria-live="polite">
-              Showing {visibleItemCount} of {timedItemCount} alerts in the {windowLabel(windowKey).toLowerCase()}.
-              {filtersActive ? (
-                <button type="button" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "" })} className="ml-3 font-semibold text-gold underline">
-                  Clear filters
-                </button>
-              ) : null}
-            </p>
+                <div>
+                  <p id="em-threat" className="font-serif text-[10px] tracking-[0.14em] text-night-muted uppercase">Threat level</p>
+                  <div className="mt-1.5 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-threat">
+                    <FilterChip compact active={!threat} onClick={() => setSearch({ threat: "" })} count={countIn("threat")} attr={{ "data-threat": "All" }}>
+                      All levels
+                    </FilterChip>
+                    {THREAT_ORDER.filter((k) => k === "Unspecified" ? (threatCounts[k] ?? 0) > 0 || threat === k : true).map((k) => (
+                      <FilterChip
+                        compact
+                        key={k}
+                        active={threat === k}
+                        onClick={() => setSearch({ threat: threat === k ? "" : k })}
+                        count={threatCounts[k] ?? 0}
+                        attr={{ "data-threat": k }}
+                      >
+                        {k}
+                      </FilterChip>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="mt-3">
+                  <p id="em-type" className="font-serif text-[10px] tracking-[0.14em] text-night-muted uppercase">Emergency type</p>
+                  <div className="mt-1.5 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-type">
+                    <FilterChip compact active={!typ} onClick={() => setSearch({ type: "" })} count={countIn("type")} attr={{ "data-type": "All" }}>
+                      All types
+                    </FilterChip>
+                    {TYPE_ORDER.filter((k) => k === "Unspecified" ? (typeCounts[k] ?? 0) > 0 || typ === k : true).map((k) => (
+                      <FilterChip
+                        compact
+                        key={k}
+                        active={typ === k}
+                        onClick={() => setSearch({ type: typ === k ? "" : k })}
+                        count={typeCounts[k] ?? 0}
+                        attr={{ "data-type": k }}
+                      >
+                        {k}
+                      </FilterChip>
+                    ))}
+                  </div>
+                </div>
+
+                <FilterGroup id="em-status" title="Status" hint="From the title prefix (NEW, UPDATE, CONTINUATION, RESOLVED)." activeLabel={status || undefined} defaultOpen>
+                  <FilterChip active={!status} onClick={() => setSearch({ status: "" })} count={countIn("status")} attr={{ "data-status": "All" }}>
+                    All statuses
+                  </FilterChip>
+                  {STATUS_ORDER.filter((k) => k === "Unspecified" || k === "Resolved" ? (statusCounts[k] ?? 0) > 0 || status === k : true).map((k) => (
+                    <FilterChip
+                      key={k}
+                      active={status === k}
+                      onClick={() => setSearch({ status: status === k ? "" : k })}
+                      count={statusCounts[k] ?? 0}
+                      attr={{ "data-status": k }}
+                    >
+                      {k}
+                    </FilterChip>
+                  ))}
+                </FilterGroup>
+
+                <FilterGroup id="em-source" title="Source" hint="From each alert’s X links and a published handle list; unlisted accounts stay under All sources." activeLabel={source ? SOURCE_LABEL[source as SourceClass] : undefined} defaultOpen>
+                  <FilterChip active={!source} onClick={() => setSearch({ source: "" })} count={countIn("source")} attr={{ "data-source": "All" }}>
+                    All sources
+                  </FilterChip>
+                  {SOURCE_ORDER.map((k) => (
+                    <FilterChip
+                      key={k}
+                      active={source === k}
+                      onClick={() => setSearch({ source: source === k ? "" : k })}
+                      count={sourceCounts[k] ?? 0}
+                      attr={{ "data-source": k }}
+                    >
+                      {SOURCE_LABEL[k]}
+                    </FilterChip>
+                  ))}
+                </FilterGroup>
+
+                <FilterGroup id="em-state" title="US state" hint="From Location. Virginia, D.C. and Maryland stay at the top." activeLabel={state || undefined} defaultOpen>
+                  <FilterChip active={!state} onClick={() => setSearch({ state: "" })} count={countIn("state")} attr={{ "data-state": "All" }}>
+                    All states
+                  </FilterChip>
+                  {shownStates.map((k) => (
+                    <FilterChip
+                      key={k}
+                      active={state === k}
+                      onClick={() => setSearch({ state: state === k ? "" : k })}
+                      count={stateCounts[k] ?? 0}
+                      attr={{ "data-state": stateSlug(k) }}
+                    >
+                      {k}
+                    </FilterChip>
+                  ))}
+                  {hiddenStateCount > 0 ? (
+                    <button
+                      type="button"
+                      className="inline-flex min-h-11 items-center rounded-full border border-navy-line px-3 text-sm font-semibold text-gold hover:border-gold"
+                      data-more="state"
+                      aria-expanded={moreStates}
+                      onClick={() => setMoreStates((v) => !v)}
+                    >
+                      {moreStates ? "Less" : `More (${hiddenStateCount})`}
+                    </button>
+                  ) : null}
+                </FilterGroup>
+
+                <FilterGroup id="em-country" title="Country" hint="From Location. Unclear or contested places are left unclassified." activeLabel={country || undefined} defaultOpen>
+                  <FilterChip active={!country} onClick={() => setSearch({ country: "" })} count={countIn("country")} attr={{ "data-country": "All" }}>
+                    All countries
+                  </FilterChip>
+                  {shownCountries.map((k) => (
+                    <FilterChip
+                      key={k}
+                      active={country === k}
+                      onClick={() => setSearch({ country: country === k ? "" : k })}
+                      count={countryCounts[k] ?? 0}
+                      attr={{ "data-country": countrySlug(k) }}
+                    >
+                      {k}
+                    </FilterChip>
+                  ))}
+                  {hiddenCountryCount > 0 ? (
+                    <button
+                      type="button"
+                      className="inline-flex min-h-11 items-center rounded-full border border-navy-line px-3 text-sm font-semibold text-gold hover:border-gold"
+                      data-more="country"
+                      aria-expanded={moreCountries}
+                      onClick={() => setMoreCountries((v) => !v)}
+                    >
+                      {moreCountries ? "Less" : `More (${hiddenCountryCount})`}
+                    </button>
+                  ) : null}
+                </FilterGroup>
+              </div>
+            ) : null}
           </section>
 
           {override && linked && (
-            <p role="status" className="em-noprint mt-4 rounded-md border border-gold bg-navy-700 px-4 py-3 text-sm text-[#F6F3EA]">
+            <p role="status" className="em-noprint mt-3 rounded-md border border-gold bg-navy-700 px-4 py-2.5 text-sm text-[#F6F3EA]">
               Showing linked alert (filters, search and time window are paused so it stays visible).{" "}
               <button type="button" onClick={clearLinked} className="font-semibold text-gold underline">Clear</button>
             </p>
@@ -990,16 +1061,16 @@ function EmergencyMonitorPage() {
 
           <div aria-live="polite" className="em-screen-log">
           {ENTRIES.length > 0 && shown.length === 0 ? (
-            <p className="mt-8 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
+            <p className="mt-3 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
               No alerts match these filters{q.trim() ? ` for “${q.trim()}”` : ""}.{" "}
               <button type="button" className="font-semibold text-gold underline" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "", window: "24h" })}>Clear filters</button>
             </p>
           ) : ENTRIES.length === 0 ? (
-            <p className="mt-8 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
+            <p className="mt-3 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
               No log entries yet. Check back soon — the log is updated about every 2 hours.
             </p>
           ) : (
-            <ol className="mt-8 space-y-6">
+            <ol className="mt-3 space-y-6">
               {shown.map((e, idx) => (
                 <li key={e.datetime} className={`em-entry ${idx > 0 && !showEarlier && e.datetime !== linked?.datetime ? "hidden print:block" : ""} rounded-xl border border-navy-line border-l-4 border-l-gold bg-navy-700 px-5 py-5 text-[#F6F3EA]`}>
                   <h2 className="font-serif text-xl font-semibold text-gold"><time dateTime={e.datetime}>{fmtET(e.datetime)}</time></h2>
