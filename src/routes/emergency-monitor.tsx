@@ -767,16 +767,25 @@ function EmergencyMonitorPage() {
         <div className="em-noprint">
           <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
             <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-            <div className="mx-auto flex w-full max-w-4xl flex-wrap items-end justify-between gap-x-4 gap-y-2 px-5 py-3 sm:px-8 sm:py-3.5">
+            <div className="mx-auto flex w-full max-w-4xl flex-wrap items-end justify-between gap-x-4 gap-y-1.5 px-5 py-2.5 sm:px-8 sm:py-3.5">
               <div className="min-w-0">
-                <Breadcrumbs items={[{ label: "Emergency Monitor" }]} className="mb-1.5" />
+                <Breadcrumbs items={[{ label: "Emergency Monitor" }]} className="mb-1" />
                 <p className="font-serif text-[11px] font-semibold tracking-[0.18em] text-gold uppercase">Live log</p>
                 <h1 className="mt-0.5 font-serif text-2xl font-bold uppercase leading-tight sm:text-3xl">Emergency Monitor – Live Log</h1>
-                <p className="mt-1 text-xs text-[#F6F3EA]/80">Updated about every 2 hours. Newest entries are at the top.</p>
+                <p className="mt-1 text-xs text-[#F6F3EA]/80">
+                  Updated about every 2 hours. Newest entries are at the top.
+                  {newest ? (
+                    <span className="text-[#F6F3EA] sm:hidden">
+                      {" "}
+                      <span className="font-semibold">Last updated:</span>{" "}
+                      <time dateTime={newest}>{fmtET(newest)}</time>
+                    </span>
+                  ) : null}
+                </p>
               </div>
-              <div className="flex flex-wrap items-center gap-2 pb-0.5" data-download-controls ref={downloadRef}>
+              <div className="flex flex-nowrap items-center gap-2 pb-0.5" data-download-controls ref={downloadRef}>
                 {newest && (
-                  <p className="mr-1 text-xs text-[#F6F3EA]">
+                  <p className="mr-1 hidden text-xs text-[#F6F3EA] sm:block">
                     <span className="font-semibold">Last updated:</span>{" "}
                     <time dateTime={newest}>{fmtET(newest)}</time>
                   </p>
@@ -830,15 +839,15 @@ function EmergencyMonitorPage() {
             </div>
           </section>
         </div>
-        <div className="em-log mx-auto w-full max-w-4xl px-5 py-3 sm:px-8 sm:py-4">
+        <div className="em-log mx-auto w-full max-w-4xl px-5 py-2 sm:px-8 sm:py-4">
           {stale && (
             <p role="status" className="em-noprint mb-3 rounded-md border-2 border-[#ff6b7f] bg-[#C8102E] px-4 py-2 text-sm font-semibold text-white">
               Heads up: this log may be stale. The newest entry is more than 3 hours old.
             </p>
           )}
 
-          <section className="em-noprint rounded-xl border border-navy-line bg-navy-700 p-3" aria-label="Filters">
-            <div className="flex flex-col gap-2.5">
+          <section className="em-noprint rounded-xl border border-navy-line bg-navy-700 p-2.5 sm:p-3" aria-label="Filters">
+            <div className="flex flex-col gap-2">
               <form role="search" onSubmit={(e) => e.preventDefault()}>
                 <label htmlFor="em-q" className="sr-only">Search title, location, or summary</label>
                 <div className="flex items-center gap-2 rounded-lg border border-navy-line bg-navy-800 px-2.5 focus-within:border-gold">
@@ -849,7 +858,7 @@ function EmergencyMonitorPage() {
                     value={q}
                     onChange={(e) => setSearch({ q: e.target.value })}
                     placeholder="Search title, location, or summary"
-                    className="h-10 w-full min-w-0 bg-transparent text-sm text-white placeholder:text-night-muted focus:outline-none"
+                    className="h-9 w-full min-w-0 bg-transparent text-sm text-white placeholder:text-night-muted focus:outline-none sm:h-10"
                   />
                 </div>
               </form>
