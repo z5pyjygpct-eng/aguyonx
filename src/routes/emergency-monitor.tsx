@@ -17,7 +17,7 @@ import {
 } from "@/lib/emergency-place";
 import { SOURCE_LABEL, matchesSource, sourceClassesOf, type SourceClass } from "@/lib/emergency-source";
 import { collapseLatest, countPackedItems } from "@/lib/emergency-stories";
-import { itemMatchesTerms, linkMatchesTerms, parseSearchTerms, splitHighlights } from "@/lib/emergency-search";
+import { compileQuery, highlightNeedles, itemMatchesQuery, linkMatchesTerms, quickQueryActive, QUICK_SEARCH_CANDIDATES, countQueries, splitHighlights, type HighlightNeedle } from "@/lib/emergency-search";
 
 type LogLink = { url: string; label?: string };
 type Severity = "HIGH" | "MEDIUM" | "MONITORING";
@@ -309,11 +309,7 @@ function countriesOf(it: LogItem, section: string) {
   return extractCountries(it.location, section);
 }
 
-function matchesSearch(it: LogItem, terms: string[]) {
-  return itemMatchesTerms(it, terms);
-}
-
-function Marked({ text, terms }: { text?: string; terms: string[] }) {
+function Marked({ text, terms }: { text?: string; terms: HighlightNeedle[] }) {
   if (!text) return null;
   if (!terms.length) return <>{text}</>;
   return (
@@ -382,7 +378,7 @@ export const Route = createFileRoute("/emergency-monitor")({
 
 const btn = "inline-flex min-h-11 items-center rounded-md border border-gold px-4 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900";
 
-const emptySearchTerms: string[] = [];
+const emptySearchTerms: HighlightNeedle[] = [];
 
 const REGION_FILTERS = ["All", "USA", "Canada", "Mexico", "Other North America", "Europe", "Russia", "Middle East", "Africa", "South America"] as const;
 
@@ -466,7 +462,8 @@ function EmergencyMonitorPage() {
     navigate({ search: clean, replace: true, resetScroll: false });
   };
 
-  const searchTerms = useMemo(() => parseSearchTerms(q), [q]);
+  const query = useMemo(() => compileQuery(q), [q]);
+  const searchTerms = useMemo(() => highlightNeedles(query), [query]);
   const [qInput, setQInput] = useState(q);
   const qTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   useEffect(() => {
@@ -519,7 +516,7 @@ function EmergencyMonitorPage() {
 
   type Skip = "region" | "threat" | "type" | "status" | "source" | "state" | "country";
   const matchesItem = (section: string, it: LogItem, skip?: Skip) => {
-    if (!matchesSearch(it, searchTerms)) return false;
+    if (!itemMatchesQuery(it, query, section)) return false;
     if (skip !== "region" && !matchesRegion(section, region)) return false;
     if (skip !== "threat" && !matchesThreat(it, threat)) return false;
     if (skip !== "type" && !matchesType(it, typ)) return false;
@@ -694,7 +691,7 @@ function EmergencyMonitorPage() {
   const visibleItemCount = filtered.reduce((n, e) => n + e.sections.reduce((m, [, items]) => m + items.length, 0), 0);
   const timedItemCount = timedEntries.reduce((n, e) => n + displaySections(e).reduce((m, [, items]) => m + items.length, 0), 0);
   const allTimeMatchCount = useMemo(() => {
-    if (!searchTerms.length || windowKey === "full" || visibleItemCount > 5) return null;
+    if (!query.and.length || windowKey === "full" || visibleItemCount > 5) return null;
     let n = 0;
     for (const e of ENTRIES) {
       for (const [name, items] of displaySections(e)) {
@@ -704,7 +701,22 @@ function EmergencyMonitorPage() {
       }
     }
     return n;
-  }, [searchTerms, windowKey, visibleItemCount, region, threat, typ, status, source, state, country, q]);
+  }, [query, windowKey, visibleItemCount, region, threat, typ, status, source, state, country, q]);
+
+  const timedItems = useMemo(() => {
+    const rows: { it: LogItem; section: string }[] = [];
+    for (const e of timedEntries) {
+      for (const [name, items] of displaySections(e)) {
+        for (const it of items) rows.push({ it, section: name });
+      }
+    }
+    return rows;
+  }, [timedEntries]);
+  const quickButtons = QUICK_SEARCH_CANDIDATES;
+  const quickCounts = useMemo(
+    () => countQueries(timedItems, quickButtons.map((b) => b.q)),
+    [timedItems],
+  );
   const filtersActive = region !== "All" || Boolean(threat) || Boolean(typ) || Boolean(status) || Boolean(source) || Boolean(state) || Boolean(country) || Boolean(q.trim());
 
   const downloadNote = `Selection: ${windowLabel(windowKey)}${region !== "All" ? `; region ${region}` : ""}${threat ? `; threat ${threat}` : ""}${typ ? `; type ${typ}` : ""}${status ? `; status ${status}` : ""}${source ? `; source ${SOURCE_LABEL[source as SourceClass]}` : ""}${state ? `; state ${state}` : ""}${country ? `; country ${country}` : ""}${q.trim() ? `; search “${q.trim()}”` : ""}; ${storyMode === "latest" ? "latest version of each alert" : "every update (full history)"}.`;
@@ -790,8 +802,66 @@ function EmergencyMonitorPage() {
           <LegacyHero trail={[{ label: "Emergency Monitor" }]} kicker="Live log" title="Emergency Monitor – Live Log" width="max-w-4xl">
             <p className="max-w-xl text-lg">This is a live log, updated about every 2 hours. Newest entries are at the top.</p>
           </LegacyHero>
+          <section className="relative -mt-2 bg-gradient-to-r from-navy-900 from-40% to-navy-700 sm:-mt-4" data-deep-search aria-label="Deep search">
+            <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
+            <form role="search" className="mx-auto w-full max-w-4xl px-5 pb-5 sm:px-8 sm:pb-6" onSubmit={(e) => { e.preventDefault(); commitQ(qInput); }}>
+              <label htmlFor="em-q" className="font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">
+                Deep search
+              </label>
+              <div className="mt-2 flex w-full items-center gap-3 rounded-xl border-2 border-gold bg-navy-800 px-3.5 shadow-[0_0_0_1px_rgba(245,184,46,0.25)] focus-within:bg-navy-700">
+                <Search className="size-5 shrink-0 text-gold" aria-hidden />
+                <input
+                  id="em-q"
+                  type="search"
+                  value={qInput}
+                  onChange={(e) => typeQ(e.target.value)}
+                  onBlur={() => commitQ(qInput)}
+                  placeholder='NationalRailEnq, "quoted phrase", or several words'
+                  className="h-14 w-full min-w-0 bg-transparent text-base text-white placeholder:text-night-muted focus:outline-none sm:text-lg"
+                />
+              </div>
+              <p className="mt-2 text-xs text-[#F6F3EA]/80">
+                Matches title, summary, body, location, status, type, threat level, and source handles or labels. Use quotes to keep a phrase together. Words are ANDed.
+              </p>
+              {query.and.length ? (
+                <p className="mt-2 text-sm text-[#F6F3EA]" data-search-count aria-live="polite">
+                  {visibleItemCount} {visibleItemCount === 1 ? "alert matches" : "alerts match"} across the current range and filters.
+                  {windowKey !== "full" && visibleItemCount <= 5 ? (
+                    <>
+                      {" "}
+                      {allTimeMatchCount != null ? (
+                        <>{allTimeMatchCount} {allTimeMatchCount === 1 ? "match" : "matches"} in all time.{" "}</>
+                      ) : null}
+                      <button type="button" className="font-semibold text-gold underline" data-search-all-time onClick={() => setSearch({ window: "full" })}>
+                        Search all time
+                      </button>
+                    </>
+                  ) : null}
+                </p>
+              ) : null}
+              <div className="mt-3 flex flex-nowrap gap-2 overflow-x-auto pb-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" data-quick-searches role="group" aria-label="Quick searches">
+                {quickButtons.map((b, i) => {
+                  const active = quickQueryActive(q, b.q);
+                  const count = quickCounts[i] ?? 0;
+                  return (
+                    <button
+                      key={b.id}
+                      type="button"
+                      data-quick={b.id}
+                      aria-pressed={active}
+                      onClick={() => commitQ(active ? "" : b.q)}
+                      className={`inline-flex shrink-0 items-center gap-1.5 rounded-full border px-2.5 py-1 text-[13px] font-semibold ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
+                    >
+                      {b.label}
+                      <span className={`rounded-full px-1.5 text-[11px] ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`}>{count}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </form>
+          </section>
         </div>
-        <div className="em-log mx-auto w-full max-w-4xl px-5 py-8 sm:px-8 sm:py-10">
+        <div className="em-log mx-auto w-full max-w-4xl px-5 py-6 sm:px-8 sm:py-8">
           {newest && (
             <p className="em-noprint mb-4 text-sm text-[#F6F3EA]">
               <span className="font-semibold">Last updated:</span> <time dateTime={newest}>{fmtET(newest)}</time>
@@ -836,43 +906,6 @@ function EmergencyMonitorPage() {
           </div>
 
           <section className="em-noprint mt-6 rounded-xl border border-navy-line bg-navy-700 p-4 sm:p-5" aria-label="Filters">
-            <form role="search" onSubmit={(e) => { e.preventDefault(); commitQ(qInput); }}>
-              <label htmlFor="em-q" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">
-                Deep search
-              </label>
-              <div className="mt-1 flex items-center gap-2 rounded-xl border border-navy-line bg-navy-800 px-3 focus-within:border-gold">
-                <Search className="size-4 shrink-0 text-gold" aria-hidden />
-                <input
-                  id="em-q"
-                  type="search"
-                  value={qInput}
-                  onChange={(e) => typeQ(e.target.value)}
-                  onBlur={() => commitQ(qInput)}
-                  placeholder='NationalRailEnq, "quoted phrase", or several words'
-                  className="h-12 w-full min-w-0 bg-transparent text-base text-white placeholder:text-night-muted focus:outline-none"
-                />
-              </div>
-              <p className="mt-1.5 text-xs text-on-dark-muted">
-                Matches title, summary, body, location, status, type, threat level, and source handles or labels. Use quotes to keep a phrase together. Words are ANDed.
-              </p>
-              {searchTerms.length ? (
-                <p className="mt-2 text-sm text-[#F6F3EA]" data-search-count aria-live="polite">
-                  {visibleItemCount} {visibleItemCount === 1 ? "alert matches" : "alerts match"} across the current range and filters.
-                  {windowKey !== "full" && visibleItemCount <= 5 ? (
-                    <>
-                      {" "}
-                      {allTimeMatchCount != null ? (
-                        <>{allTimeMatchCount} {allTimeMatchCount === 1 ? "match" : "matches"} in all time.{" "}</>
-                      ) : null}
-                      <button type="button" className="font-semibold text-gold underline" data-search-all-time onClick={() => setSearch({ window: "full" })}>
-                        Search all time
-                      </button>
-                    </>
-                  ) : null}
-                </p>
-              ) : null}
-            </form>
-
             <div className="mt-4">
               <p id="em-window" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Time range</p>
               <p className="mt-1 text-xs text-on-dark-muted">Filters the page and the downloads; measured from the newest log entry, not the clock.</p>
@@ -1080,7 +1113,8 @@ function EmergencyMonitorPage() {
                       <ul className="mt-1 list-disc space-y-1 pl-5 text-sm leading-relaxed">
                         {items.map((it, i) => {
                           const id = alertId(it);
-                          const mark = searchTerms.length && (idx === 0 || showEarlier || e.datetime === linked?.datetime) ? searchTerms : emptySearchTerms;
+                          const markOn = Boolean(query.and.length && (idx === 0 || showEarlier || e.datetime === linked?.datetime));
+                          const mark = markOn ? searchTerms : emptySearchTerms;
                           return (
                           <li key={id || i} id={id || undefined} className="em-alert">
                             {(it.severity || it.title) && (
@@ -1098,7 +1132,7 @@ function EmergencyMonitorPage() {
                             <Marked text={it.text} terms={mark} />
                             {(it.links ?? []).map((l, j) => {
                               const label = l.label ?? "on X";
-                              const handleHit = Boolean(mark.length && linkMatchesTerms(l, mark) && !splitHighlights(label, mark).some((part) => part.hit));
+                              const handleHit = Boolean(markOn && linkMatchesTerms(l, query) && !splitHighlights(label, mark).some((part) => part.hit));
                               return (
                                 <span key={j}>{" "}<a href={l.url} target="_blank" rel="noreferrer" className="font-semibold text-gold underline">{handleHit ? <mark className="em-mark">{label}</mark> : <Marked text={label} terms={mark} />}</a></span>
                               );
