@@ -56,6 +56,16 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "va-sen-louise-lucas-pushes-to-sanction-blanche-patel-mercury-2026-11-17",
+    date: "2026-11-17",
+    headline: "Va. Sen. Louise Lucas pushes to sanction Blanche, Patel over public comments, more headlines",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/17/va-sen-louise-lucas-pushes-to-sanction-blanche-patel-over-public-comments-more-headlines/",
+    people: [{ name: "L. Louise Lucas", office: "State Senator" }],
+    scope: "statewide",
+    locations: ["senate"],
+  },
+  {
     id: "fairfax-school-board-directs-superintendent-to-let-ffxnow-2026-11-16",
     date: "2026-11-16",
     filed: "2026-11-17",
