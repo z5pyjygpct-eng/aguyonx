@@ -1069,6 +1069,25 @@ function EmergencyMonitorPage() {
                     <time dateTime={newest}>{fmtET(newest)}</time>
                   </p>
                 )}
+                <button
+                  type="button"
+                  data-connect-dots-card
+                  data-connect-dots-chip
+                  aria-haspopup="dialog"
+                  aria-expanded={dotsOpen}
+                  aria-label="Connect the Dots. Don't Connect the Panic. Tap to enlarge"
+                  onClick={(e) => openDots(e.currentTarget)}
+                  className={`${btnSm} max-md:hidden max-w-[13.5rem] gap-1.5 text-left`}
+                >
+                  <img
+                    src={DOTS_THUMB}
+                    alt=""
+                    width={480}
+                    height={360}
+                    className="h-6 w-8 shrink-0 rounded-sm bg-white object-cover"
+                  />
+                  <span className="truncate">Connect the Dots</span>
+                </button>
                 <div className="relative">
                   <button
                     type="button"
@@ -1120,7 +1139,7 @@ function EmergencyMonitorPage() {
           </section>
           <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700" data-deep-search aria-label="Deep search">
             <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-            <div className="mx-auto w-full max-w-4xl px-5 pt-1 sm:px-8">
+            <div className="mx-auto w-full max-w-4xl px-5 pt-1 sm:px-8 md:hidden">
               <button
                 type="button"
                 data-connect-dots-card
