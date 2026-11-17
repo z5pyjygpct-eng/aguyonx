@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,240 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-17",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Monday, Nov 16) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, headline matched outlet title, Nov 16 ET publish time confirmed in page metadata). Sources checked: RSS from ARLnow, FFXnow, Annandale Today, Potomac Local, Blue Ridge Leader (no Nov 16 items), WTOP local (no qualifying Nov 16 items), Loudoun Times-Mirror; Loudoun Now and Prince William Times via homepage and article pages (RSS 429; some article pages 429). Capped at 25 kept. 0 failed verification. Excluded: sponsored posts, roundups/debriefs, statewide/national and unclear-locality stories. No News-page items from Nov 16.",
+      "items": [
+        {
+          "id": "fairfax-school-board-directs-superintendent-to-let-ffxnow-2026-11-16",
+          "county": "Fairfax",
+          "headline": "Fairfax school board directs superintendent to let teachers opt out of weapons detection duty",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/16/fairfax-school-board-directs-superintendent-to-let-teachers-opt-out-of-weapons-detection-duty/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "ex-cia-officer-seeks-democratic-nod-for-sully-dist-ffxnow-2026-11-16",
+          "county": "Fairfax",
+          "headline": "Ex-CIA officer seeks Democratic nod for Sully District supervisor",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/16/ex-cia-officer-seeks-democratic-nod-for-sully-district-supervisor/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcps-to-survey-community-on-possible-school-start--ffxnow-2026-11-16",
+          "county": "Fairfax",
+          "headline": "FCPS to survey community on possible school start time change",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/16/fcps-to-survey-community-on-possible-school-start-time-change/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcps-explores-options-to-boost-enrollment-at-lewis-ffxnow-2026-11-16",
+          "county": "Fairfax",
+          "headline": "FCPS explores options to boost enrollment at Lewis, Mount Vernon high schools",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/16/fcps-explores-options-to-boost-enrollment-at-lewis-mount-vernon-high-schools/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcpd-officer-charged-with-shoplifting-from-staffor-ffxnow-2026-11-16",
+          "county": "Fairfax",
+          "headline": "FCPD officer charged with shoplifting from Stafford County Walmart",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/16/fcpd-officer-charged-with-shoplifting-from-stafford-county-walmart/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fcpd-speed-alcohol-likely-factors-in-fatal-little--ffxnow-2026-11-16",
+          "county": "Fairfax",
+          "headline": "FCPD: Speed, alcohol likely factors in fatal Little River Turnpike crash",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/16/fcpd-speed-alcohol-likely-factors-in-fatal-little-river-turnpike-crash/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "ready-to-trot-herndon-s-turkey-trot-5k-returns-thi-ffxnow-2026-11-16",
+          "county": "Fairfax",
+          "headline": "Ready to Trot? Herndon’s Turkey Trot 5K Returns This Saturday!",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/16/ready-to-trot-herndons-turkey-trot-5k-returns-this-saturday-her1/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "a-community-ceremony-remembers-road-traffic-victim-annandaletod-2026-11-16",
+          "county": "Fairfax",
+          "headline": "A community ceremony remembers road traffic victims",
+          "outlet": "Annandale Today",
+          "url": "https://annandaletoday.com/a-community-ceremony-remembers-road-traffic-victims/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "breaking-bicyclist-struck-critically-injured-in-ea-arlnow-2026-11-16",
+          "county": "Arlington",
+          "headline": "BREAKING: Bicyclist struck, critically injured in East Falls Church",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/16/breaking-bicyclist-struck-critically-injured-in-east-falls-church/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "three-arlington-football-teams-fall-in-first-round-arlnow-2026-11-16",
+          "county": "Arlington",
+          "headline": "Three Arlington football teams fall in first round of playoffs, ending seasons",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/16/three-arlington-football-teams-fall-in-first-round-of-playoffs-ending-seasons/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "protesters-challenge-county-leaders-over-officer-i-arlnow-2026-11-16",
+          "county": "Arlington",
+          "headline": "Protesters challenge county leaders over officer-involved shooting on Columbia Pike",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/16/protesters-challenge-county-leaders-over-officer-involved-shooting-on-columbia-pike/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "proposed-radar-survey-could-improve-understanding--arlnow-2026-11-16",
+          "county": "Arlington",
+          "headline": "Proposed radar survey could improve understanding of historic Glencarlyn cemetery",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/16/proposed-radar-survey-could-improve-understanding-of-historic-glencarlyn-cemetery/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "three-notch-d-restaurant-and-bar-opening-this-fall-arlnow-2026-11-16",
+          "county": "Arlington",
+          "headline": "Three Notch’d restaurant and bar opening this fall in Clarendon",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/16/three-notchd-restaurant-and-bar-opening-this-fall-in-clarendon/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "melting-pot-closing-in-ballston-area-after-26-year-arlnow-2026-11-16",
+          "county": "Arlington",
+          "headline": "Melting Pot closing in Ballston area after 26 years",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/16/melting-pot-closing-in-ballston-area-after-26-years/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "aps-to-consider-bus-safety-snow-accumulation-in-de-arlnow-2026-11-16",
+          "county": "Arlington",
+          "headline": "APS to consider bus safety, snow accumulation in deciding on snow days",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/16/aps-to-consider-bus-safety-snow-accumulation-in-deciding-on-snow-days/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-pediatric-center-expands-services-reloca-arlnow-2026-11-16",
+          "county": "Arlington",
+          "headline": "Arlington Pediatric Center expands services, relocates to Columbia Pike",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/16/arlington-pediatric-center-expands-services-relocates-to-columbia-pike/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "teachers-cite-workload-integrity-concerns-as-divis-potomaclocal-2026-11-16",
+          "county": "Prince William",
+          "headline": "Teachers cite workload, integrity concerns as division explores secondary grading guidelines",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/16/teachers-cite-workload-integrity-concerns-as-division-explores-secondary-grading-guidelines/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "ross-snare-announces-bid-for-brentsville-district--potomaclocal-2026-11-16",
+          "county": "Prince William",
+          "headline": "Ross Snare announces bid for Brentsville District supervisor",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/16/ross-snare-announces-bid-for-brentsville-district-supervisor/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-two-charged-in-sudley-manor-drive-s-potomaclocal-2026-11-16",
+          "county": "Prince William",
+          "headline": "Police Blotter: Two charged in Sudley Manor Drive shooting near Manassas",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/16/police-blotter-2026-11-16/",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "woman-alleges-dead-cat-without-eyeballs-found-in-m-pwt-2026-11-16",
+          "county": "Prince William",
+          "headline": "Woman alleges dead cat without eyeballs found in Manassas was abused. Police disagree.",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/woman-alleges-dead-cat-without-eyeballs-found-in-manassas-was-abused-police-disagree/article_7a808707-16fb-480d-b83e-e07c867c95ab.html",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "hu-announces-run-for-sterling-district-supervisor-loudounnow-2026-11-16",
+          "county": "Loudoun",
+          "headline": "Hu Announces Run for Sterling District Supervisor",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/hu-announces-run-for-sterling-district-supervisor/article_112f7f3e-21c1-4125-a193-1a541fcaa63c.html",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "student-seriously-injured-in-fight-at-park-view-hi-loudounnow-2026-11-16",
+          "county": "Loudoun",
+          "headline": "Student Seriously Injured in Fight at Park View High School",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/student-seriously-injured-in-fight-at-park-view-high-school/article_a587d93b-08d4-4af3-825b-8eeb203fd4dd.html",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "water-canning-business-prevails-in-zoning-dispute-ltm-2026-11-16",
+          "county": "Loudoun",
+          "headline": "Water canning business prevails in zoning dispute",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/water-canning-business-prevails-in-zoning-dispute/article_c8fc6072-d681-44a4-a119-e5c9d8f8beae.html",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "serious-leesburg-crash-remains-under-investigation-loudounnow-2026-11-16",
+          "county": "Loudoun",
+          "headline": "Serious Leesburg Crash Remains Under Investigation",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/serious-leesburg-crash-remains-under-investigation/article_66847e03-d9ed-451c-ac4c-3484b9520a83.html",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-accused-of-pulling-knife-on-kids-after-breakin-loudounnow-2026-11-16",
+          "county": "Loudoun",
+          "headline": "Man Accused of Pulling Knife on Kids After Breaking into Home Pleads Guilty",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/man-accused-of-pulling-knife-on-kids-after-breaking-into-home-pleads-guilty/article_bb06061e-d98f-427d-b4db-7befc6d1762c.html",
+          "published": "2026-11-16",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-11-16",
       "status": "ok",
