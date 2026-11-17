@@ -56,6 +56,35 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "virginia-lawmakers-weigh-using-marijuana-taxes-to-f-mercury-2026-11-17",
+    date: "2026-11-17",
+    headline: "Virginia lawmakers weigh using marijuana taxes to fund school substance use programs",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/17/virginia-lawmakers-weigh-using-marijuana-taxes-to-fund-school-substance-use-programs/",
+    people: [],
+    scope: "statewide",
+  },
+  {
+    id: "more-questions-than-answers-historic-bennett-schoo-insidenova-2026-11-16",
+    date: "2026-11-16",
+    filed: "2026-11-17",
+    headline: "'More questions than answers': Historic Bennett School findings to be discussed this week",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/news/bennett-school-update-2bab7c04",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "arlington-expands-digital-equity-work-through-seco-arlington-2026-11-16",
+    date: "2026-11-16",
+    filed: "2026-11-17",
+    headline: "Arlington Expands Digital Equity Work through Second Round of Grants",
+    outlet: "Arlington County",
+    url: "https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/Arlington-Expands-Digital-Equity-Work-through-Second-Round-of-Grants",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "va-sen-louise-lucas-pushes-to-sanction-blanche-patel-mercury-2026-11-17",
     date: "2026-11-17",
     headline: "Va. Sen. Louise Lucas pushes to sanction Blanche, Patel over public comments, more headlines",
