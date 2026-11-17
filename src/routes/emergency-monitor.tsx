@@ -441,13 +441,17 @@ function ConnectDotsLightbox({
   triggerRef: { current: HTMLButtonElement | null };
 }) {
   const titleId = useId();
+  useEffect(() => {
+    if (open) document.body.style.overflow = "hidden";
+    else document.body.style.removeProperty("overflow");
+    return () => {
+      document.body.style.removeProperty("overflow");
+    };
+  }, [open]);
   return (
     <Dialog.Root
       open={open}
-      onOpenChange={(next) => {
-        document.body.style.overflow = next ? "hidden" : "";
-        onOpenChange(next);
-      }}
+      onOpenChange={onOpenChange}
     >
       <Dialog.Portal>
         <Dialog.Overlay className="em-noprint fixed inset-0 z-50 bg-navy-900/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" />
@@ -480,7 +484,7 @@ function ConnectDotsLightbox({
               alt={DOTS_ALT}
               width={1600}
               height={1200}
-              className="mt-3 w-full rounded-lg bg-white object-contain"
+              className="mt-3 max-h-[min(46vh,28rem)] w-full rounded-lg bg-white object-contain"
             />
             <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-[#F6F3EA] sm:text-base">
               {DOTS_BULLETS.map((b) => (
