@@ -16,6 +16,7 @@ import {
   stateSlug,
 } from "@/lib/emergency-place";
 import { SOURCE_LABEL, matchesSource, sourceClassesOf, type SourceClass } from "@/lib/emergency-source";
+import { collapseLatest, countPackedItems } from "@/lib/emergency-stories";
 
 type LogLink = { url: string; label?: string };
 type Severity = "HIGH" | "MEDIUM" | "MONITORING";
@@ -373,6 +374,23 @@ const btn = "inline-flex min-h-11 items-center rounded-md border border-gold px-
 
 const REGION_FILTERS = ["All", "USA", "Canada", "Mexico", "Other North America", "Europe", "Russia", "Middle East", "Africa", "South America"] as const;
 
+/** Visible place chips besides All, before the More toggle. Pins are always included. */
+const PLACE_CHIP_LIMIT = 10;
+
+function splitPlaceChips(all: string[], selected: string, pinned: readonly string[] = []) {
+  const pinSet = new Set<string>(pinned);
+  const visible: string[] = [...pinned];
+  for (const k of all) {
+    if (pinSet.has(k)) continue;
+    if (visible.length >= PLACE_CHIP_LIMIT) break;
+    visible.push(k);
+  }
+  if (selected && all.includes(selected) && !visible.includes(selected)) visible.push(selected);
+  const vis = new Set(visible);
+  const hidden = all.filter((k) => !vis.has(k));
+  return { visible, hidden };
+}
+
 function FilterChip({ active, onClick, count, children, attr }: { active: boolean; onClick: () => void; count: number; children: ReactNode; attr?: Record<string, string> }) {
   return (
     <button
@@ -437,6 +455,9 @@ function EmergencyMonitorPage() {
   };
 
   const [showEarlier, setShowEarlier] = useState(false);
+  const [storyMode, setStoryMode] = useState<"latest" | "history">("latest");
+  const [moreStates, setMoreStates] = useState(false);
+  const [moreCountries, setMoreCountries] = useState(false);
   const [activeHash, setActiveHash] = useState("");
   const stamp = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
   const [now, setNow] = useState<number | null>(null);
@@ -453,6 +474,8 @@ function EmergencyMonitorPage() {
   }, []);
   useEffect(() => {
     setShowEarlier(false);
+    setMoreStates(false);
+    setMoreCountries(false);
   }, [windowKey, region, threat, typ, status, source, state, country, q]);
 
   const linked = activeHash ? ALERT_BY_ID.get(activeHash) : undefined;
@@ -488,6 +511,12 @@ function EmergencyMonitorPage() {
     () => pack(timedEntries, (section, it) => matchesItem(section, it)),
     [timedEntries, region, threat, typ, status, source, state, country, q],
   );
+  const downloadPack = useMemo(
+    () => (storyMode === "latest" ? collapseLatest(filtered) : filtered),
+    [filtered, storyMode],
+  );
+  const latestCount = useMemo(() => countPackedItems(collapseLatest(filtered)), [filtered]);
+  const historyCount = useMemo(() => countPackedItems(filtered), [filtered]);
 
   const displayed = useMemo(() => {
     if (!linked) return filtered;
@@ -621,12 +650,19 @@ function EmergencyMonitorPage() {
       .sort((a, b) => (countryCounts[b] ?? 0) - (countryCounts[a] ?? 0) || a.localeCompare(b));
   }, [countryCounts, country]);
 
+  const stateSplit = useMemo(() => splitPlaceChips(stateList, state, PINNED_US_STATES), [stateList, state]);
+  const countrySplit = useMemo(() => splitPlaceChips(countryList, country), [countryList, country]);
+  const shownStates = moreStates ? stateList : stateSplit.visible;
+  const hiddenStateCount = stateSplit.hidden.length;
+  const shownCountries = moreCountries ? countryList : countrySplit.visible;
+  const hiddenCountryCount = countrySplit.hidden.length;
+
   const visibleItemCount = filtered.reduce((n, e) => n + e.sections.reduce((m, [, items]) => m + items.length, 0), 0);
   const timedItemCount = timedEntries.reduce((n, e) => n + displaySections(e).reduce((m, [, items]) => m + items.length, 0), 0);
   const filtersActive = region !== "All" || Boolean(threat) || Boolean(typ) || Boolean(status) || Boolean(source) || Boolean(state) || Boolean(country) || Boolean(q.trim());
 
-  const downloadNote = `Selection: ${windowLabel(windowKey)}${region !== "All" ? `; region ${region}` : ""}${threat ? `; threat ${threat}` : ""}${typ ? `; type ${typ}` : ""}${status ? `; status ${status}` : ""}${source ? `; source ${SOURCE_LABEL[source as SourceClass]}` : ""}${state ? `; state ${state}` : ""}${country ? `; country ${country}` : ""}${q.trim() ? `; search “${q.trim()}”` : ""}.`;
-  const fileTag = [windowKey, region !== "All" ? region.toLowerCase().replace(/\s+/g, "-") : "", threat.toLowerCase(), typ.toLowerCase().replace(/\s+/g, "-"), status ? statusParam(status) : "", source, state ? stateSlug(state) : "", country ? countrySlug(country) : "", q.trim() ? "search" : ""].filter(Boolean).join("-");
+  const downloadNote = `Selection: ${windowLabel(windowKey)}${region !== "All" ? `; region ${region}` : ""}${threat ? `; threat ${threat}` : ""}${typ ? `; type ${typ}` : ""}${status ? `; status ${status}` : ""}${source ? `; source ${SOURCE_LABEL[source as SourceClass]}` : ""}${state ? `; state ${state}` : ""}${country ? `; country ${country}` : ""}${q.trim() ? `; search “${q.trim()}”` : ""}; ${storyMode === "latest" ? "latest version of each alert" : "every update (full history)"}.`;
+  const fileTag = [windowKey, region !== "All" ? region.toLowerCase().replace(/\s+/g, "-") : "", threat.toLowerCase(), typ.toLowerCase().replace(/\s+/g, "-"), status ? statusParam(status) : "", source, state ? stateSlug(state) : "", country ? countrySlug(country) : "", q.trim() ? "search" : "", storyMode].filter(Boolean).join("-");
 
   useEffect(() => {
     if (!activeHash) return;
@@ -670,15 +706,27 @@ function EmergencyMonitorPage() {
   return (
     <SiteShell>
       <LegacyV4>
-        <style>{`@media print {
-  header, footer, nav, .em-noprint { display: none !important; }
-  body, .em-log, .em-log * { background: #fff !important; color: #000 !important; }
-  .em-log a { color: #0645ad !important; text-decoration: underline; }
-  .em-entry { break-inside: avoid-page; }
-  .em-log .em-sev { -webkit-print-color-adjust: exact; print-color-adjust: exact; border-width: 2px; }
-  .em-log .em-sev-HIGH { background: #b91c1c !important; color: #fff !important; border-color: #b91c1c !important; }
-  .em-log .em-sev-MEDIUM { background: #f59e0b !important; color: #000 !important; border-color: #b45309 !important; }
-  .em-log .em-sev-MONITORING { background: #556274 !important; color: #fff !important; border-color: #475569 !important; }
+        <style>{`@media screen {
+  .em-print-log { display: none !important; }
+}
+@media print {
+  header, footer, nav, .em-noprint, .em-screen-log { display: none !important; }
+  .em-print-log { display: block !important; }
+  body, .em-log, .em-print-log, .em-print-log * { background: #fff !important; color: #000 !important; }
+  .em-print-log { font-size: 9pt; line-height: 1.3; }
+  .em-print-log .em-print-title { font-family: Georgia, "Times New Roman", serif; font-size: 14pt; font-weight: 600; margin: 0 0 0.3em; }
+  .em-print-log .em-print-note { font-size: 8pt; margin: 0 0 0.8em; }
+  .em-print-log h2 { font-size: 11pt; margin: 0.7em 0 0.2em; font-weight: 700; }
+  .em-print-log h3 { font-size: 9pt; margin: 0.45em 0 0.1em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+  .em-print-log ol, .em-print-log ul { margin: 0; padding-left: 1.1em; }
+  .em-print-log .em-print-window { margin: 0 0 0.5em; padding: 0; }
+  .em-print-log li { margin: 0 0 0.35em; padding: 0; break-inside: auto; page-break-inside: auto; }
+  .em-print-log a { color: #0645ad !important; text-decoration: underline; font-size: 8pt; }
+  .em-print-log .em-print-meta { font-size: 8pt; }
+  .em-print-log .em-sev { -webkit-print-color-adjust: exact; print-color-adjust: exact; border-width: 1px; font-size: 7pt; }
+  .em-print-log .em-sev-HIGH { background: #b91c1c !important; color: #fff !important; border-color: #b91c1c !important; }
+  .em-print-log .em-sev-MEDIUM { background: #f59e0b !important; color: #000 !important; border-color: #b45309 !important; }
+  .em-print-log .em-sev-MONITORING { background: #556274 !important; color: #fff !important; border-color: #475569 !important; }
 }
 @keyframes em-alert-flash {
   0% { background-color: rgba(245, 184, 46, 0.45); box-shadow: 0 0 0 3px #f5b82e; }
@@ -697,10 +745,8 @@ function EmergencyMonitorPage() {
           </LegacyHero>
         </div>
         <div className="em-log mx-auto w-full max-w-4xl px-5 py-8 sm:px-8 sm:py-10">
-          <p aria-hidden="true" className="hidden font-serif text-2xl font-semibold print:block">Emergency Monitor – Live Log</p>
-          <p aria-hidden="true" className="hidden text-sm print:block">{downloadNote}</p>
           {newest && (
-            <p className="mb-4 text-sm text-[#F6F3EA]">
+            <p className="em-noprint mb-4 text-sm text-[#F6F3EA]">
               <span className="font-semibold">Last updated:</span> <time dateTime={newest}>{fmtET(newest)}</time>
             </p>
           )}
@@ -709,24 +755,38 @@ function EmergencyMonitorPage() {
               Heads up: this log may be stale. The newest entry is more than 3 hours old.
             </p>
           )}
-          <div className="em-noprint flex flex-wrap items-center gap-3">
-            <div className="flex flex-wrap items-center gap-3" aria-label="Download the log">
-              <span className="text-sm font-semibold text-on-dark-muted">Download:</span>
-              <button type="button" className={btn} aria-label="Download PDF (opens your browser's print dialog)" onClick={() => window.print()}>PDF</button>
-              <button type="button" className={btn} onClick={() => save(`emergency-log-${fileTag}-${stamp}.txt`, toText(filtered, downloadNote), "text/plain;charset=utf-8")}>TXT</button>
-              <button type="button" className={btn} onClick={() => save(`emergency-log-${fileTag}-${stamp}.csv`, toCSV(filtered), "text/csv;charset=utf-8")}>CSV</button>
+          <div className="em-noprint" data-download-controls>
+            <div className="flex flex-wrap items-center gap-3">
+              <div className="flex flex-wrap items-center gap-3" aria-label="Download the log">
+                <span className="text-sm font-semibold text-on-dark-muted">Download:</span>
+                <button type="button" className={btn} aria-label="Download PDF (opens your browser's print dialog)" onClick={() => window.print()}>PDF</button>
+                <button type="button" className={btn} onClick={() => save(`emergency-log-${fileTag}-${stamp}.txt`, toText(downloadPack, downloadNote), "text/plain;charset=utf-8")}>TXT</button>
+                <button type="button" className={btn} onClick={() => save(`emergency-log-${fileTag}-${stamp}.csv`, toCSV(downloadPack), "text/csv;charset=utf-8")}>CSV</button>
+              </div>
+              <a
+                href={xIntentUrl(PAGE_SHARE_TEXT)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={btn}
+                aria-label="Share this page on X"
+              >
+                Share on X
+              </a>
             </div>
-            <a
-              href={xIntentUrl(PAGE_SHARE_TEXT)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={btn}
-              aria-label="Share this page on X"
-            >
-              Share on X
-            </a>
+            <div className="mt-3">
+              <p id="em-stories" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Download version</p>
+              <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="em-stories">
+                <FilterChip active={storyMode === "latest"} onClick={() => setStoryMode("latest")} count={latestCount} attr={{ "data-stories": "latest" }}>
+                  Latest version of each alert
+                </FilterChip>
+                <FilterChip active={storyMode === "history"} onClick={() => setStoryMode("history")} count={historyCount} attr={{ "data-stories": "history" }}>
+                  Every update (full history)
+                </FilterChip>
+              </div>
+              <p className="mt-2 text-xs text-on-dark-muted">Downloads and the PDF use this version (latest is the default). The page still shows every update.</p>
+            </div>
+            <p className="mt-2 text-xs text-on-dark-muted">PDF opens your browser's print dialog — choose "Save as PDF". Links stay clickable. Downloads follow the time range and filters (default is the last 24 hours, not the full log).</p>
           </div>
-          <p className="em-noprint mt-2 text-xs text-on-dark-muted">PDF opens your browser's print dialog — choose "Save as PDF". Links stay clickable. Downloads use the same time range, filters and search as the page (default is the last 24 hours, not the full log).</p>
 
           <section className="em-noprint mt-6 rounded-xl border border-navy-line bg-navy-700 p-4 sm:p-5" aria-label="Filters">
             <form role="search" onSubmit={(e) => e.preventDefault()}>
@@ -748,7 +808,7 @@ function EmergencyMonitorPage() {
 
             <div className="mt-4">
               <p id="em-window" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Time range</p>
-              <p className="mt-1 text-xs text-on-dark-muted">This range filters the alerts on this page and the PDF, TXT and CSV downloads. It is measured from the newest log entry, not the clock, so a given log always yields the same slice until the next update.</p>
+              <p className="mt-1 text-xs text-on-dark-muted">Filters the page and the downloads; measured from the newest log entry, not the clock.</p>
               <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="em-window">
                 {TIME_WINDOWS.map((w) => (
                   <FilterChip
@@ -821,7 +881,7 @@ function EmergencyMonitorPage() {
               </div>
             </div>
 
-            <FilterGroup id="em-status" title="Status" hint="From the title prefix (NEW, UPDATE, CONTINUATION, RESOLVED). Alerts with no prefix are Unspecified. The free-text Status field is not used." activeLabel={status || undefined} defaultOpen={false}>
+            <FilterGroup id="em-status" title="Status" hint="From the title prefix (NEW, UPDATE, CONTINUATION, RESOLVED)." activeLabel={status || undefined} defaultOpen={false}>
               <FilterChip active={!status} onClick={() => setSearch({ status: "" })} count={countIn("status")} attr={{ "data-status": "All" }}>
                 All statuses
               </FilterChip>
@@ -838,7 +898,7 @@ function EmergencyMonitorPage() {
               ))}
             </FilterGroup>
 
-            <FilterGroup id="em-source" title="Source" hint="Official agency or operator, news outlet, or other listed accounts, based on each alert’s X links and a published handle list. Alerts with only unlisted accounts stay under All sources." activeLabel={source ? SOURCE_LABEL[source as SourceClass] : undefined} defaultOpen={false}>
+            <FilterGroup id="em-source" title="Source" hint="From each alert’s X links and a published handle list; unlisted accounts stay under All sources." activeLabel={source ? SOURCE_LABEL[source as SourceClass] : undefined} defaultOpen={false}>
               <FilterChip active={!source} onClick={() => setSearch({ source: "" })} count={countIn("source")} attr={{ "data-source": "All" }}>
                 All sources
               </FilterChip>
@@ -855,11 +915,11 @@ function EmergencyMonitorPage() {
               ))}
             </FilterGroup>
 
-            <FilterGroup id="em-state" title="US state" hint="From Location, using the same place parser as the USA / Canada / Mexico split. Virginia, D.C. and Maryland stay at the top. Multi-state alerts match each named state." activeLabel={state || undefined} defaultOpen={false}>
+            <FilterGroup id="em-state" title="US state" hint="From Location. Virginia, D.C. and Maryland stay at the top." activeLabel={state || undefined} defaultOpen={false}>
               <FilterChip active={!state} onClick={() => setSearch({ state: "" })} count={countIn("state")} attr={{ "data-state": "All" }}>
                 All states
               </FilterChip>
-              {stateList.map((k) => (
+              {shownStates.map((k) => (
                 <FilterChip
                   key={k}
                   active={state === k}
@@ -870,13 +930,24 @@ function EmergencyMonitorPage() {
                   {k}
                 </FilterChip>
               ))}
+              {hiddenStateCount > 0 ? (
+                <button
+                  type="button"
+                  className="inline-flex min-h-11 items-center rounded-full border border-navy-line px-3 text-sm font-semibold text-gold hover:border-gold"
+                  data-more="state"
+                  aria-expanded={moreStates}
+                  onClick={() => setMoreStates((v) => !v)}
+                >
+                  {moreStates ? "Less" : `More (${hiddenStateCount})`}
+                </button>
+              ) : null}
             </FilterGroup>
 
-            <FilterGroup id="em-country" title="Country" hint="From Location. Multi-country alerts match each named country. Unclear or contested places (for example Crimea, unnamed waterways, or “Global”) are left unclassified." activeLabel={country || undefined} defaultOpen={false}>
+            <FilterGroup id="em-country" title="Country" hint="From Location. Unclear or contested places are left unclassified." activeLabel={country || undefined} defaultOpen={false}>
               <FilterChip active={!country} onClick={() => setSearch({ country: "" })} count={countIn("country")} attr={{ "data-country": "All" }}>
                 All countries
               </FilterChip>
-              {countryList.map((k) => (
+              {shownCountries.map((k) => (
                 <FilterChip
                   key={k}
                   active={country === k}
@@ -887,6 +958,17 @@ function EmergencyMonitorPage() {
                   {k}
                 </FilterChip>
               ))}
+              {hiddenCountryCount > 0 ? (
+                <button
+                  type="button"
+                  className="inline-flex min-h-11 items-center rounded-full border border-navy-line px-3 text-sm font-semibold text-gold hover:border-gold"
+                  data-more="country"
+                  aria-expanded={moreCountries}
+                  onClick={() => setMoreCountries((v) => !v)}
+                >
+                  {moreCountries ? "Less" : `More (${hiddenCountryCount})`}
+                </button>
+              ) : null}
             </FilterGroup>
 
             <p className="mt-4 text-sm text-on-dark-muted" aria-live="polite">
@@ -906,7 +988,7 @@ function EmergencyMonitorPage() {
             </p>
           )}
 
-          <div aria-live="polite">
+          <div aria-live="polite" className="em-screen-log">
           {ENTRIES.length > 0 && shown.length === 0 ? (
             <p className="mt-8 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
               No alerts match these filters{q.trim() ? ` for “${q.trim()}”` : ""}.{" "}
@@ -975,6 +1057,53 @@ function EmergencyMonitorPage() {
               </button>
             </div>
           )}
+          </div>
+
+          <div className="em-print-log" aria-hidden="true">
+            <p className="em-print-title">Emergency Monitor – Live Log</p>
+            <p className="em-print-note">{downloadNote}{newest ? ` Last updated ${fmtET(newest)}.` : ""} {countPackedItems(downloadPack)} alerts.</p>
+            {downloadPack.length === 0 ? (
+              <p>No alerts in this selection.</p>
+            ) : (
+              <ol>
+                {downloadPack.map((e) => (
+                  <li key={e.datetime} className="em-print-window">
+                    <h2><time dateTime={e.datetime}>{fmtET(e.datetime)}</time></h2>
+                    {e.sections.map(([name, items]) => (
+                      <section key={name}>
+                        <h3>{name}</h3>
+                        <ul>
+                          {items.map((it, i) => (
+                            <li key={alertId(it) || i}>
+                              {(it.severity || it.title) && (
+                                <div>
+                                  {it.severity && (
+                                    <span className={`em-sev em-sev-${it.severity} mr-1 inline-block rounded border px-1 text-[7pt] font-bold tracking-wide ${SEV_CLASS[it.severity] ?? ""}`}>{it.severity}</span>
+                                  )}
+                                  {it.severity && it.title ? " – " : ""}
+                                  {it.title}
+                                </div>
+                              )}
+                              {details(it).map(([k, v]) => (
+                                <div key={k} className="em-print-meta"><span className="font-semibold">{k}:</span> {v}</div>
+                              ))}
+                              {it.text ? <div className="em-print-meta">{it.text}</div> : null}
+                              {(it.links ?? []).length ? (
+                                <div className="em-print-meta">
+                                  {(it.links ?? []).map((l, j) => (
+                                    <span key={j}>{j > 0 ? " · " : ""}<a href={l.url}>{l.label ?? "on X"}</a></span>
+                                  ))}
+                                </div>
+                              ) : null}
+                            </li>
+                          ))}
+                        </ul>
+                      </section>
+                    ))}
+                  </li>
+                ))}
+              </ol>
+            )}
           </div>
         </div>
       </LegacyV4>
