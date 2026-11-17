@@ -150,7 +150,7 @@ function toCSV(rows: PackedEntry[]) {
 }
 
 const EM_TITLE = "Emergency Monitor – Live Log | aguyonx.com";
-const EM_DESC = "A live log of emergencies and threats worldwide — cyber, power outages, unrest, terror, infrastructure and elections — sorted by region and updated about every 2 hours, with sources on X.";
+const EM_DESC = "A live log of emergencies and threats worldwide — cyber, power outages, unrest, terror, infrastructure and elections — sorted by region and updated regularly, with sources on X.";
 const EM_URL = "https://aguyonx.com/emergency-monitor";
 const PAGE_SHARE_TEXT = "Emergency Monitor: current alerts in one place.";
 const STALE_MS = 3 * 60 * 60 * 1000;
@@ -842,7 +842,7 @@ function EmergencyMonitorPage() {
                 <p className="font-serif text-[11px] font-semibold tracking-[0.18em] text-gold uppercase">Live log</p>
                 <h1 className="mt-0.5 font-serif text-2xl font-bold uppercase leading-tight sm:text-3xl">Emergency Monitor – Live Log</h1>
                 <p className="mt-1 text-xs text-[#F6F3EA]/80">
-                  Updated about every 2 hours. Newest entries are at the top.
+                  Updated regularly. Newest entries are at the top.
                   {newest ? (
                     <span className="text-[#F6F3EA] sm:hidden">
                       {" "}
@@ -926,7 +926,7 @@ function EmergencyMonitorPage() {
                 />
               </div>
               <p className="mt-1.5 text-xs text-[#F6F3EA]/80">
-                Matches title, body, place, status, type, threat, and source handles. Quotes keep a phrase together; words are ANDed.
+                Searches titles, details, places, and sources. Put a phrase in quotes to match it exactly. With several words, results must contain all of them.
               </p>
               {query.and.length ? (
                 <p className="mt-1.5 text-sm text-[#F6F3EA]" data-search-count aria-live="polite">
@@ -1193,7 +1193,7 @@ function EmergencyMonitorPage() {
             </p>
           ) : ENTRIES.length === 0 ? (
             <p className="mt-3 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
-              No log entries yet. Check back soon — the log is updated about every 2 hours.
+              No log entries yet. Check back soon — the log is updated regularly.
             </p>
           ) : (
             <ol className="mt-3 space-y-6">
