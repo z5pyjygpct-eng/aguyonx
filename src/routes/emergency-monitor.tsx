@@ -484,6 +484,7 @@ function FilterChip({ active, onClick, count, children, attr, compact }: { activ
 const DOTS_TITLE = "Connect the Dots. Don't Connect the Panic.";
 const DOTS_THUMB = "/images/emergency-monitor/connect-the-dots-thumb.webp";
 const DOTS_FULL = "/images/emergency-monitor/connect-the-dots.webp";
+const DOTS_PNG = "/images/emergency-monitor/connect-the-dots.png";
 const DOTS_ALT = "Infographic titled Connect the Dots. Don't Connect the Panic, with the subtitle An example. The real skill is knowing which ones matter. A solid line labeled connected: one caused the other links Weather (ice storm warning issued) to Infrastructure (road closed for icy bridge). A dashed red line labeled possible, not proven links Wild Card (viral post, no clear source) to FBI (official statement, hours later). Unconnected dots are labeled Health (flu cases tick up), Cyber Attack (a company's site goes down), Energy (planned power plant repairs), Transportation (flight delays at one airport), Border (monthly crossing numbers out), and Finance (bank app down for an hour). The footer says Most dots never connect. When they do, you'll see it. Train your eye for that, not for the noise, and notes this is an example only, made to train critical thinking and awareness, not to cause panic.";
 const DOTS_BULLETS = [
   "Most alerts have nothing to do with each other.",
@@ -541,13 +542,26 @@ function ConnectDotsLightbox({
             </Dialog.Close>
           </div>
           <div className="min-h-0 flex-1 overflow-y-auto px-4 pb-5 sm:px-5">
-            <img
-              src={DOTS_FULL}
-              alt={DOTS_ALT}
-              width={1600}
-              height={1200}
-              className="mt-3 max-h-[min(46vh,28rem)] w-full rounded-lg bg-white object-contain"
-            />
+            <div className="mt-3 overflow-auto overscroll-contain touch-auto rounded-lg bg-white">
+              <img
+                src={DOTS_FULL}
+                alt={DOTS_ALT}
+                width={1600}
+                height={1200}
+                className="h-auto w-[1600px] max-w-none sm:h-auto sm:w-full sm:max-w-full"
+              />
+            </div>
+            <p className="mt-2">
+              <a
+                href={DOTS_PNG}
+                target="_blank"
+                rel="noopener"
+                data-connect-dots-fullsize
+                className="text-sm font-semibold text-gold underline decoration-gold/70 underline-offset-2 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+              >
+                Open full size
+              </a>
+            </p>
             <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-[#F6F3EA] sm:text-base">
               {DOTS_BULLETS.map((b) => (
                 <li key={b}>{b}</li>
