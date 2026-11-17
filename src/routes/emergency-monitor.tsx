@@ -251,6 +251,7 @@ export type EmSearch = {
   state?: string;
   country?: string;
   q?: string;
+  view?: "top";
 };
 
 const TIME_WINDOWS: { value: TimeWindow; label: string }[] = [
@@ -377,6 +378,32 @@ function matchesCountry(it: LogItem, section: string, country: string) {
   return !country || countriesOf(it, section).includes(country);
 }
 
+/** Highest severity levels in the log: HIGH, plus CRITICAL if it appears later. */
+const TOP_SEVERITIES = new Set(["HIGH", "CRITICAL"]);
+const TOP_ALERTS_LIMIT = 10;
+function isTopSeverity(it: LogItem) {
+  return TOP_SEVERITIES.has((it.severity ?? "").toUpperCase());
+}
+type TopAlertRow = { datetime: string; section: string; item: LogItem };
+/** Newest unique HIGH/CRITICAL stories from every region, newest version only. */
+function collectTopAlerts(entries: LogEntry[], limit = TOP_ALERTS_LIMIT): TopAlertRow[] {
+  const packed = entries.map((e) => ({
+    datetime: e.datetime,
+    sections: displaySections(e).filter(([name]) => name !== "Trending" && name !== "Threats"),
+  }));
+  const out: TopAlertRow[] = [];
+  for (const e of collapseLatest(packed)) {
+    for (const [section, items] of e.sections) {
+      for (const it of items) {
+        if (!isTopSeverity(it)) continue;
+        out.push({ datetime: e.datetime, section, item: it });
+        if (out.length >= limit) return out;
+      }
+    }
+  }
+  return out;
+}
+
 export const Route = createFileRoute("/emergency-monitor")({
   validateSearch: (s: Record<string, unknown>): EmSearch => {
     const w = s.window;
@@ -395,6 +422,7 @@ export const Route = createFileRoute("/emergency-monitor")({
       ...(state ? { state: stateSlug(state) } : {}),
       ...(country ? { country: countrySlug(country) } : {}),
       ...(typeof s.q === "string" && s.q.trim() ? { q: s.q.slice(0, 120) } : {}),
+      ...(s.view === "top" ? { view: "top" as const } : {}),
     };
   },
   head: () => ({
@@ -560,9 +588,10 @@ function EmergencyMonitorPage() {
   const state = stateFromParam(search.state);
   const country = countryFromParam(search.country);
   const q = search.q ?? "";
+  const viewTop = search.view === "top";
 
   const setSearch = (patch: Partial<Record<keyof EmSearch, string>>) => {
-    const next = { window: windowKey, region, threat, type: typ, status, source, state, country, q, ...patch };
+    const next = { window: windowKey, region, threat, type: typ, status, source, state, country, q, view: viewTop ? "top" : "", ...patch };
     const clean: EmSearch = {};
     if (next.window && next.window !== "24h") clean.window = next.window as TimeWindow;
     if (next.region && next.region !== "All") clean.region = next.region;
@@ -577,6 +606,7 @@ function EmergencyMonitorPage() {
     if (stateVal) clean.state = stateSlug(stateVal);
     if (countryVal) clean.country = countrySlug(countryVal);
     if (next.q?.trim()) clean.q = next.q.trim().slice(0, 120);
+    if (next.view === "top") clean.view = "top";
     navigate({ search: clean, replace: true, resetScroll: false });
   };
 
@@ -595,12 +625,12 @@ function EmergencyMonitorPage() {
       clearTimeout(qTimer.current);
       qTimer.current = null;
     }
-    setSearch({ q: value });
+    setSearch({ q: value, ...(value.trim() ? { view: "" } : {}) });
   };
   const typeQ = (value: string) => {
     setQInput(value);
     if (qTimer.current) clearTimeout(qTimer.current);
-    qTimer.current = setTimeout(() => setSearch({ q: value }), 200);
+    qTimer.current = setTimeout(() => setSearch({ q: value, ...(value.trim() ? { view: "" } : {}) }), 200);
   };
 
   const [showEarlier, setShowEarlier] = useState(false);
@@ -640,7 +670,7 @@ function EmergencyMonitorPage() {
     setShowEarlier(false);
     setMoreStates(false);
     setMoreCountries(false);
-  }, [windowKey, region, threat, typ, status, source, state, country, q]);
+  }, [windowKey, region, threat, typ, status, source, state, country, q, viewTop]);
   useEffect(() => {
     if (moreFromUrl) setMoreFiltersOpen(true);
   }, [moreFromUrl]);
@@ -684,6 +714,7 @@ function EmergencyMonitorPage() {
   const linkLoading = Boolean(linkedWindow && !ALERT_BY_ID.has(activeHash) && !STORE.isLoaded(STORE.filesFor((dt) => dt === linkedWindow)));
 
   const timedEntries = useMemo(() => ENTRIES.filter((e) => inTimeWindow(e, windowKey)), [windowKey, ENTRIES]);
+  const topAlerts = useMemo(() => collectTopAlerts(ENTRIES), [ENTRIES]);
 
   type Skip = "region" | "threat" | "type" | "status" | "source" | "state" | "country";
   const matchesItem = (section: string, it: LogItem, skip?: Skip) => {
@@ -899,7 +930,7 @@ function EmergencyMonitorPage() {
     () => countQueries(quickCountItems, quickButtons.map((b) => b.q)),
     [quickCountItems],
   );
-  const filtersActive = region !== "All" || Boolean(threat) || Boolean(typ) || Boolean(status) || Boolean(source) || Boolean(state) || Boolean(country) || Boolean(q.trim());
+  const filtersActive = viewTop || region !== "All" || Boolean(threat) || Boolean(typ) || Boolean(status) || Boolean(source) || Boolean(state) || Boolean(country) || Boolean(q.trim());
   const moreFilterCount = [threat, typ, status, source, state, country].filter(Boolean).length;
 
   const downloadNote = `Selection: ${windowLabel(windowKey)}${region !== "All" ? `; region ${region}` : ""}${threat ? `; threat ${threat}` : ""}${typ ? `; type ${typ}` : ""}${status ? `; status ${status}` : ""}${source ? `; source ${SOURCE_LABEL[source as SourceClass]}` : ""}${state ? `; state ${state}` : ""}${country ? `; country ${country}` : ""}${q.trim() ? `; search “${q.trim()}”` : ""}; ${storyMode === "latest" ? "latest version of each alert" : "every update (full history)"}.`;
@@ -1188,14 +1219,27 @@ function EmergencyMonitorPage() {
                   </div>
                 </div>
                 <div>
+                  <button
+                    type="button"
+                    data-top-alerts
+                    aria-pressed={viewTop}
+                    aria-label="Top Alerts, the 10 most recent HIGH alerts from every region"
+                    onClick={() => setSearch({ view: viewTop ? "" : "top", region: "All" })}
+                    className={`inline-flex min-h-9 items-center gap-1 rounded-full border border-flag bg-flag px-2.5 text-[13px] font-semibold text-white hover:bg-[#a30d25] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-navy-700 ${viewTop ? "ring-2 ring-white ring-offset-2 ring-offset-navy-700" : ""}`}
+                  >
+                    Top Alerts
+                    <span className={`rounded-full px-1.5 text-xs font-bold ${viewTop ? "bg-white text-flag" : "bg-navy-900/40 text-white"}`}>{topAlerts.length}</span>
+                  </button>
+                </div>
+                <div>
                   <p id="em-region" className="font-serif text-[10px] tracking-[0.14em] text-night-muted uppercase">Region</p>
                   <div className="mt-1 flex flex-wrap gap-1.5" role="group" aria-labelledby="em-region">
                     {REGION_FILTERS.map((r) => (
                       <FilterChip
                         compact
                         key={r}
-                        active={region === r}
-                        onClick={() => setSearch({ region: r })}
+                        active={!viewTop && region === r}
+                        onClick={() => setSearch({ region: r, view: "" })}
                         count={rangeReady ? regionCounts[r] ?? 0 : null}
                         attr={{ "data-region": r }}
                       >
@@ -1218,9 +1262,11 @@ function EmergencyMonitorPage() {
                   <span className="text-gold" aria-hidden="true">{moreFiltersOpen ? "▴" : "▾"}</span>
                 </button>
                 <p className="text-xs text-on-dark-muted" aria-live="polite">
-                  {loadingRange ? loadingNote : <>Showing {visibleItemCount} of {timedItemCount} in the {windowLabel(windowKey).toLowerCase()}.</>}
+                  {viewTop ? (
+                    <>The {topAlerts.length} most recent {topAlerts.some((r) => (r.item.severity ?? "").toUpperCase() === "CRITICAL") ? "HIGH and CRITICAL" : "HIGH"} alerts from every region.</>
+                  ) : loadingRange ? loadingNote : <>Showing {visibleItemCount} of {timedItemCount} in the {windowLabel(windowKey).toLowerCase()}.</>}
                   {filtersActive ? (
-                    <button type="button" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "" })} className="ml-2 font-semibold text-gold underline">
+                    <button type="button" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "", view: "" })} className="ml-2 font-semibold text-gold underline">
                       Clear filters
                     </button>
                   ) : null}
@@ -1389,13 +1435,68 @@ function EmergencyMonitorPage() {
               {q.trim() && windowKey !== "full" ? (
                 <button type="button" className="font-semibold text-gold underline" data-search-all-time onClick={() => setSearch({ window: "full" })}>Search all time</button>
               ) : (
-                <button type="button" className="font-semibold text-gold underline" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "", window: "24h" })}>Clear filters</button>
+                <button type="button" className="font-semibold text-gold underline" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "", window: "24h", view: "" })}>Clear filters</button>
               )}
             </p>
           ) : ENTRIES.length === 0 ? (
             <p className="mt-3 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
               No log entries yet. Check back soon — the log is updated regularly.
             </p>
+          ) : viewTop ? (
+            <ol className="mt-3 space-y-6">
+              <li className="em-entry rounded-xl border border-navy-line border-l-4 border-l-flag bg-navy-700 px-5 py-5 text-[#F6F3EA]">
+                <h2 className="font-serif text-xl font-semibold text-gold">Top Alerts</h2>
+                <p className="mt-1 text-sm text-on-dark-muted">The {topAlerts.length} most recent {topAlerts.some((r) => (r.item.severity ?? "").toUpperCase() === "CRITICAL") ? "HIGH and CRITICAL" : "HIGH"} alerts from every region.</p>
+                {topAlerts.length === 0 ? (
+                  <p className="mt-4 text-sm">No HIGH alerts in the current log.</p>
+                ) : (
+                  <ul className="mt-4 list-disc space-y-4 pl-5 text-sm leading-relaxed">
+                    {topAlerts.map(({ datetime, section, item: it }, i) => {
+                      const id = alertId(it);
+                      return (
+                        <li key={id || i} id={id || undefined} className="em-alert" data-top-alert-item>
+                          {(it.severity || it.title) && (
+                            <div className="font-bold">
+                              {it.severity && (
+                                <span className={`em-sev em-sev-${it.severity} mr-1 inline-block rounded border-2 px-1.5 text-xs font-bold tracking-wide ${SEV_CLASS[it.severity] ?? ""}`}>{it.severity}</span>
+                              )}
+                              {it.severity && it.title ? " – " : ""}
+                              {it.title}
+                            </div>
+                          )}
+                          <div className="text-xs font-semibold uppercase tracking-wide text-on-dark-muted">
+                            {section} · <time dateTime={datetime}>{fmtET(datetime)}</time>
+                          </div>
+                          {details(it).map(([k, v]) => (
+                            <div key={k}><span className="font-semibold">{k}:</span> {v}</div>
+                          ))}
+                          {it.text ? <div>{it.text}</div> : null}
+                          {(it.links ?? []).map((l, j) => {
+                            const label = l.label ?? "on X";
+                            return (
+                              <span key={j}>{" "}<a href={l.url} target="_blank" rel="noreferrer" className="font-semibold text-gold underline">{label}</a></span>
+                            );
+                          })}
+                          {(it.title ?? it.text)?.trim() ? (
+                            <div className="em-noprint mt-1">
+                              <a
+                                href={xIntentUrl(alertShareText(it, section), alertShareUrl(it))}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-xs font-semibold text-gold underline"
+                                aria-label={`Share on X: ${alertShareText(it, section)}`}
+                              >
+                                Share on X
+                              </a>
+                            </div>
+                          ) : null}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )}
+              </li>
+            </ol>
           ) : (
             <ol className="mt-3 space-y-6">
               {shown.map((e, idx) => (
@@ -1455,7 +1556,7 @@ function EmergencyMonitorPage() {
               ))}
             </ol>
           )}
-          {earlierCount > 0 && (
+          {earlierCount > 0 && !viewTop && (
             <div className="em-noprint mt-6">
               <button type="button" aria-expanded={showEarlier} onClick={() => setShowEarlier((v) => !v)} className={btn}>
                 {showEarlier ? "Hide earlier updates" : `Show earlier updates (${earlierCount})`}
