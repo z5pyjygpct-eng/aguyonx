@@ -108,6 +108,73 @@ function alertShareText(it: LogItem, region: string) {
   return `${title} (${region}) — Virginia Emergency Monitor`;
 }
 
+/** Compact a window timestamp (e.g. 2026-11-16T18:15:00-05:00 -> 20261116t181500m0500). */
+function compactDatetime(iso: string) {
+  const m = iso.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?(?:([+-])(\d{2}):?(\d{2})|Z)?/);
+  if (!m) return iso.toLowerCase().replace(/[^a-z0-9]+/g, "").slice(0, 24) || "t";
+  const [, Y, Mo, D, h, mi, sec, sign, oh, om] = m;
+  const off = sign && oh ? `${sign === "-" ? "m" : "p"}${oh}${om ?? "00"}` : "z";
+  return `${Y}${Mo}${D}t${h}${mi}${sec ?? "00"}${off}`;
+}
+
+function slugify(s: string, max = 72) {
+  const slug = s
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, max)
+    .replace(/-+$/g, "");
+  return slug || "alert";
+}
+
+type AlertMeta = { id: string; datetime: string; section: string };
+const ALERT_ID = new WeakMap<LogItem, string>();
+const ALERT_BY_ID = new Map<string, AlertMeta>();
+
+/**
+ * Stable per-alert anchors. The bot appends a new 2-hour window; it does not
+ * change an earlier window's datetime or the title on that snapshot. Ids are
+ * em-<window>-<title-slug>, with -2, -3… only if two items in the same window
+ * slug to the same string. Status, severity and links can change on later
+ * windows and are not used.
+ */
+function assignAlertIds() {
+  const used = new Map<string, number>();
+  for (const e of ENTRIES) {
+    for (const [section, items] of sections(e)) {
+      for (const it of items) {
+        const label = (it.title ?? it.text ?? "").trim();
+        const base = `em-${compactDatetime(e.datetime)}-${slugify(label)}`;
+        const n = used.get(base) ?? 0;
+        used.set(base, n + 1);
+        const id = n === 0 ? base : `${base}-${n + 1}`;
+        ALERT_ID.set(it, id);
+        ALERT_BY_ID.set(id, { id, datetime: e.datetime, section });
+      }
+    }
+  }
+}
+assignAlertIds();
+
+function alertId(it: LogItem) {
+  return ALERT_ID.get(it) ?? "";
+}
+
+function alertShareUrl(it: LogItem) {
+  const id = alertId(it);
+  return id ? `${EM_URL}#${id}` : EM_URL;
+}
+
+function readHash() {
+  try {
+    return decodeURIComponent(window.location.hash.replace(/^#/, ""));
+  } catch {
+    return window.location.hash.replace(/^#/, "");
+  }
+}
+
 export const Route = createFileRoute("/emergency-monitor")({
   head: () => ({
     meta: [
@@ -128,6 +195,10 @@ const btn = "inline-flex min-h-11 items-center rounded-md border border-gold px-
 
 type Filter = "All" | Region;
 const FILTERS: Filter[] = ["All", ...REGIONS];
+function filterForAlert(current: Filter, section: string): Filter {
+  if (current === "All" || current === section) return current;
+  return "All";
+}
 function visibleSections(e: LogEntry, f: Filter): [string, LogItem[]][] {
   // Trending and Threats are cross-region, so they show only under "All".
   if (f === "All") return sections(e);
@@ -143,6 +214,7 @@ const COUNTS = Object.fromEntries(FILTERS.map((f) => [f, countItems(f)])) as Rec
 function EmergencyMonitorPage() {
   const [filter, setFilter] = useState<Filter>("All");
   const [showEarlier, setShowEarlier] = useState(false);
+  const [activeHash, setActiveHash] = useState("");
   const shown = ENTRIES.filter((e) => visibleSections(e, filter).length > 0);
   const earlierCount = shown.length - 1;
   const stamp = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" }); // YYYY-MM-DD in ET
@@ -153,6 +225,46 @@ function EmergencyMonitorPage() {
     const t = setInterval(() => setNow(Date.now()), 60_000);
     return () => clearInterval(t);
   }, []);
+  useEffect(() => {
+    const read = () => setActiveHash(readHash());
+    read();
+    window.addEventListener("hashchange", read);
+    return () => window.removeEventListener("hashchange", read);
+  }, []);
+  useEffect(() => {
+    if (!activeHash) return;
+    const meta = ALERT_BY_ID.get(activeHash);
+    if (!meta) return;
+    const nextFilter = filterForAlert(filter, meta.section);
+    const shown = ENTRIES.filter((e) => visibleSections(e, nextFilter).length > 0);
+    const idx = shown.findIndex((e) => e.datetime === meta.datetime);
+    const needsEarlier = idx > 0 && !showEarlier;
+    if (nextFilter !== filter || needsEarlier) {
+      if (nextFilter !== filter) setFilter(nextFilter);
+      if (needsEarlier) setShowEarlier(true);
+      return;
+    }
+    let cancel = false;
+    const run = () => {
+      if (cancel) return;
+      const el = document.getElementById(activeHash);
+      if (!el) return;
+      const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+      el.scrollIntoView({ block: "start", behavior: reduce ? "auto" : "smooth" });
+      el.classList.remove("em-alert-flash");
+      void el.offsetWidth;
+      el.classList.add("em-alert-flash");
+    };
+    let raf2 = 0;
+    const raf1 = requestAnimationFrame(() => {
+      raf2 = requestAnimationFrame(run);
+    });
+    return () => {
+      cancel = true;
+      cancelAnimationFrame(raf1);
+      cancelAnimationFrame(raf2);
+    };
+  }, [activeHash, filter, showEarlier]);
   const newest = ENTRIES[0]?.datetime;
   const stale = newest != null && now != null && now - Date.parse(newest) > STALE_MS;
   return (
@@ -167,7 +279,18 @@ function EmergencyMonitorPage() {
   .em-log .em-sev-HIGH { background: #b91c1c !important; color: #fff !important; border-color: #b91c1c !important; }
   .em-log .em-sev-MEDIUM { background: #f59e0b !important; color: #000 !important; border-color: #b45309 !important; }
   .em-log .em-sev-MONITORING { background: #556274 !important; color: #fff !important; border-color: #475569 !important; }
-}`}</style>
+}
+@keyframes em-alert-flash {
+  0% { background-color: rgba(245, 184, 46, 0.45); box-shadow: 0 0 0 3px #f5b82e; }
+  100% { background-color: transparent; box-shadow: 0 0 0 3px transparent; }
+}
+.em-alert-flash { animation: em-alert-flash 2s ease-out; border-radius: 0.25rem; }
+@media (prefers-reduced-motion: reduce) {
+  .em-alert-flash { animation: none; background-color: rgba(245, 184, 46, 0.25); box-shadow: 0 0 0 3px #f5b82e; }
+}
+.em-alert { scroll-margin-top: 9.5rem; }
+@media (min-width: 640px) { .em-alert { scroll-margin-top: 6rem; } }
+`}</style>
         <div className="em-noprint">
           <LegacyHero trail={[{ label: "Emergency Monitor" }]} kicker="Live log" title="Emergency Monitor – Live Log" width="max-w-4xl">
             <p className="max-w-xl text-lg">This is a live log, updated about every 2 hours. Newest entries are at the top.</p>
@@ -240,8 +363,10 @@ function EmergencyMonitorPage() {
                     <section key={name} className="mt-4">
                       <h3 className="text-sm font-bold uppercase tracking-wide">{name}</h3>
                       <ul className="mt-1 list-disc space-y-1 pl-5 text-sm leading-relaxed">
-                        {items.map((it, i) => (
-                          <li key={i}>
+                        {items.map((it, i) => {
+                          const id = alertId(it);
+                          return (
+                          <li key={id || i} id={id || undefined} className="em-alert">
                             {(it.severity || it.title) && (
                               <div className="font-bold">
                                 {it.severity && (
@@ -261,7 +386,7 @@ function EmergencyMonitorPage() {
                             {(it.title ?? it.text)?.trim() ? (
                               <div className="em-noprint mt-1">
                                 <a
-                                  href={xIntentUrl(alertShareText(it, name))}
+                                  href={xIntentUrl(alertShareText(it, name), alertShareUrl(it))}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                   className="text-xs font-semibold text-gold underline"
@@ -272,7 +397,8 @@ function EmergencyMonitorPage() {
                               </div>
                             ) : null}
                           </li>
-                        ))}
+                          );
+                        })}
                       </ul>
                     </section>
                   ))}
