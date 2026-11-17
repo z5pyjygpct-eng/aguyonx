@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Search } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
@@ -17,6 +17,7 @@ import {
 } from "@/lib/emergency-place";
 import { SOURCE_LABEL, matchesSource, sourceClassesOf, type SourceClass } from "@/lib/emergency-source";
 import { collapseLatest, countPackedItems } from "@/lib/emergency-stories";
+import { itemMatchesTerms, linkMatchesTerms, parseSearchTerms, splitHighlights } from "@/lib/emergency-search";
 
 type LogLink = { url: string; label?: string };
 type Severity = "HIGH" | "MEDIUM" | "MONITORING";
@@ -308,11 +309,20 @@ function countriesOf(it: LogItem, section: string) {
   return extractCountries(it.location, section);
 }
 
-function matchesSearch(it: LogItem, q: string) {
-  const s = q.trim().toLowerCase();
-  if (!s) return true;
-  const hay = [it.title, it.location, it.summary].filter(Boolean).join("\n").toLowerCase();
-  return hay.includes(s);
+function matchesSearch(it: LogItem, terms: string[]) {
+  return itemMatchesTerms(it, terms);
+}
+
+function Marked({ text, terms }: { text?: string; terms: string[] }) {
+  if (!text) return null;
+  if (!terms.length) return <>{text}</>;
+  return (
+    <>
+      {splitHighlights(text, terms).map((part, i) =>
+        part.hit ? <mark key={i} className="em-mark">{part.t}</mark> : <span key={i}>{part.t}</span>,
+      )}
+    </>
+  );
 }
 
 function matchesThreat(it: LogItem, threat: string) {
@@ -371,6 +381,8 @@ export const Route = createFileRoute("/emergency-monitor")({
 });
 
 const btn = "inline-flex min-h-11 items-center rounded-md border border-gold px-4 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900";
+
+const emptySearchTerms: string[] = [];
 
 const REGION_FILTERS = ["All", "USA", "Canada", "Mexico", "Other North America", "Europe", "Russia", "Middle East", "Africa", "South America"] as const;
 
@@ -454,6 +466,28 @@ function EmergencyMonitorPage() {
     navigate({ search: clean, replace: true, resetScroll: false });
   };
 
+  const searchTerms = useMemo(() => parseSearchTerms(q), [q]);
+  const [qInput, setQInput] = useState(q);
+  const qTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => {
+    setQInput(q);
+  }, [q]);
+  useEffect(() => () => {
+    if (qTimer.current) clearTimeout(qTimer.current);
+  }, []);
+  const commitQ = (value: string) => {
+    if (qTimer.current) {
+      clearTimeout(qTimer.current);
+      qTimer.current = null;
+    }
+    setSearch({ q: value });
+  };
+  const typeQ = (value: string) => {
+    setQInput(value);
+    if (qTimer.current) clearTimeout(qTimer.current);
+    qTimer.current = setTimeout(() => setSearch({ q: value }), 200);
+  };
+
   const [showEarlier, setShowEarlier] = useState(false);
   const [storyMode, setStoryMode] = useState<"latest" | "history">("latest");
   const [moreStates, setMoreStates] = useState(false);
@@ -485,7 +519,7 @@ function EmergencyMonitorPage() {
 
   type Skip = "region" | "threat" | "type" | "status" | "source" | "state" | "country";
   const matchesItem = (section: string, it: LogItem, skip?: Skip) => {
-    if (!matchesSearch(it, q)) return false;
+    if (!matchesSearch(it, searchTerms)) return false;
     if (skip !== "region" && !matchesRegion(section, region)) return false;
     if (skip !== "threat" && !matchesThreat(it, threat)) return false;
     if (skip !== "type" && !matchesType(it, typ)) return false;
@@ -659,6 +693,18 @@ function EmergencyMonitorPage() {
 
   const visibleItemCount = filtered.reduce((n, e) => n + e.sections.reduce((m, [, items]) => m + items.length, 0), 0);
   const timedItemCount = timedEntries.reduce((n, e) => n + displaySections(e).reduce((m, [, items]) => m + items.length, 0), 0);
+  const allTimeMatchCount = useMemo(() => {
+    if (!searchTerms.length || windowKey === "full" || visibleItemCount > 5) return null;
+    let n = 0;
+    for (const e of ENTRIES) {
+      for (const [name, items] of displaySections(e)) {
+        for (const it of items) {
+          if (matchesItem(name, it)) n++;
+        }
+      }
+    }
+    return n;
+  }, [searchTerms, windowKey, visibleItemCount, region, threat, typ, status, source, state, country, q]);
   const filtersActive = region !== "All" || Boolean(threat) || Boolean(typ) || Boolean(status) || Boolean(source) || Boolean(state) || Boolean(country) || Boolean(q.trim());
 
   const downloadNote = `Selection: ${windowLabel(windowKey)}${region !== "All" ? `; region ${region}` : ""}${threat ? `; threat ${threat}` : ""}${typ ? `; type ${typ}` : ""}${status ? `; status ${status}` : ""}${source ? `; source ${SOURCE_LABEL[source as SourceClass]}` : ""}${state ? `; state ${state}` : ""}${country ? `; country ${country}` : ""}${q.trim() ? `; search “${q.trim()}”` : ""}; ${storyMode === "latest" ? "latest version of each alert" : "every update (full history)"}.`;
@@ -728,6 +774,7 @@ function EmergencyMonitorPage() {
   .em-print-log .em-sev-MEDIUM { background: #f59e0b !important; color: #000 !important; border-color: #b45309 !important; }
   .em-print-log .em-sev-MONITORING { background: #556274 !important; color: #fff !important; border-color: #475569 !important; }
 }
+.em-mark { background: #f5b82e; color: #0b1c2c; padding: 0 0.12em; border-radius: 0.15em; }
 @keyframes em-alert-flash {
   0% { background-color: rgba(245, 184, 46, 0.45); box-shadow: 0 0 0 3px #f5b82e; }
   100% { background-color: transparent; box-shadow: 0 0 0 3px transparent; }
@@ -789,21 +836,41 @@ function EmergencyMonitorPage() {
           </div>
 
           <section className="em-noprint mt-6 rounded-xl border border-navy-line bg-navy-700 p-4 sm:p-5" aria-label="Filters">
-            <form role="search" onSubmit={(e) => e.preventDefault()}>
+            <form role="search" onSubmit={(e) => { e.preventDefault(); commitQ(qInput); }}>
               <label htmlFor="em-q" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">
-                Search title, location, or summary
+                Deep search
               </label>
               <div className="mt-1 flex items-center gap-2 rounded-xl border border-navy-line bg-navy-800 px-3 focus-within:border-gold">
                 <Search className="size-4 shrink-0 text-gold" aria-hidden />
                 <input
                   id="em-q"
                   type="search"
-                  value={q}
-                  onChange={(e) => setSearch({ q: e.target.value })}
-                  placeholder="outage, Mexico City, cyber"
+                  value={qInput}
+                  onChange={(e) => typeQ(e.target.value)}
+                  onBlur={() => commitQ(qInput)}
+                  placeholder='NationalRailEnq, "quoted phrase", or several words'
                   className="h-12 w-full min-w-0 bg-transparent text-base text-white placeholder:text-night-muted focus:outline-none"
                 />
               </div>
+              <p className="mt-1.5 text-xs text-on-dark-muted">
+                Matches title, summary, body, location, status, type, threat level, and source handles or labels. Use quotes to keep a phrase together. Words are ANDed.
+              </p>
+              {searchTerms.length ? (
+                <p className="mt-2 text-sm text-[#F6F3EA]" data-search-count aria-live="polite">
+                  {visibleItemCount} {visibleItemCount === 1 ? "alert matches" : "alerts match"} across the current range and filters.
+                  {windowKey !== "full" && visibleItemCount <= 5 ? (
+                    <>
+                      {" "}
+                      {allTimeMatchCount != null ? (
+                        <>{allTimeMatchCount} {allTimeMatchCount === 1 ? "match" : "matches"} in all time.{" "}</>
+                      ) : null}
+                      <button type="button" className="font-semibold text-gold underline" data-search-all-time onClick={() => setSearch({ window: "full" })}>
+                        Search all time
+                      </button>
+                    </>
+                  ) : null}
+                </p>
+              ) : null}
             </form>
 
             <div className="mt-4">
@@ -992,7 +1059,11 @@ function EmergencyMonitorPage() {
           {ENTRIES.length > 0 && shown.length === 0 ? (
             <p className="mt-8 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
               No alerts match these filters{q.trim() ? ` for “${q.trim()}”` : ""}.{" "}
-              <button type="button" className="font-semibold text-gold underline" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "", window: "24h" })}>Clear filters</button>
+              {q.trim() && windowKey !== "full" ? (
+                <button type="button" className="font-semibold text-gold underline" data-search-all-time onClick={() => setSearch({ window: "full" })}>Search all time</button>
+              ) : (
+                <button type="button" className="font-semibold text-gold underline" onClick={() => setSearch({ region: "All", threat: "", type: "", status: "", source: "", state: "", country: "", q: "", window: "24h" })}>Clear filters</button>
+              )}
             </p>
           ) : ENTRIES.length === 0 ? (
             <p className="mt-8 rounded-xl border border-navy-line bg-navy-700 px-5 py-6 text-[#F6F3EA]">
@@ -1009,24 +1080,29 @@ function EmergencyMonitorPage() {
                       <ul className="mt-1 list-disc space-y-1 pl-5 text-sm leading-relaxed">
                         {items.map((it, i) => {
                           const id = alertId(it);
+                          const mark = searchTerms.length && (idx === 0 || showEarlier || e.datetime === linked?.datetime) ? searchTerms : emptySearchTerms;
                           return (
                           <li key={id || i} id={id || undefined} className="em-alert">
                             {(it.severity || it.title) && (
                               <div className="font-bold">
                                 {it.severity && (
-                                  <span className={`em-sev em-sev-${it.severity} mr-1 inline-block rounded border-2 px-1.5 text-xs font-bold tracking-wide ${SEV_CLASS[it.severity] ?? ""}`}>{it.severity}</span>
+                                  <span className={`em-sev em-sev-${it.severity} mr-1 inline-block rounded border-2 px-1.5 text-xs font-bold tracking-wide ${SEV_CLASS[it.severity] ?? ""}`}><Marked text={it.severity} terms={mark} /></span>
                                 )}
                                 {it.severity && it.title ? " – " : ""}
-                                {it.title}
+                                <Marked text={it.title} terms={mark} />
                               </div>
                             )}
                             {details(it).map(([k, v]) => (
-                              <div key={k}><span className="font-semibold">{k}:</span> {v}</div>
+                              <div key={k}><span className="font-semibold">{k}:</span> <Marked text={v} terms={mark} /></div>
                             ))}
-                            {it.text}
-                            {(it.links ?? []).map((l, j) => (
-                              <span key={j}>{" "}<a href={l.url} target="_blank" rel="noreferrer" className="font-semibold text-gold underline">{l.label ?? "on X"}</a></span>
-                            ))}
+                            <Marked text={it.text} terms={mark} />
+                            {(it.links ?? []).map((l, j) => {
+                              const label = l.label ?? "on X";
+                              const handleHit = Boolean(mark.length && linkMatchesTerms(l, mark) && !splitHighlights(label, mark).some((part) => part.hit));
+                              return (
+                                <span key={j}>{" "}<a href={l.url} target="_blank" rel="noreferrer" className="font-semibold text-gold underline">{handleHit ? <mark className="em-mark">{label}</mark> : <Marked text={label} terms={mark} />}</a></span>
+                              );
+                            })}
                             {(it.title ?? it.text)?.trim() ? (
                               <div className="em-noprint mt-1">
                                 <a
