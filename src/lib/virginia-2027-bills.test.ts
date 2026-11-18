@@ -6,14 +6,21 @@ import {
   categoryCounts,
   categoryIdsOf,
   continuedFilings,
+  daysSinceFiled,
+  filedDateLabel,
+  filedWindowCounts,
   filterBills,
+  formatFiledDate,
   isContinued,
+  isNewlyFiled,
   isNewFiling,
+  isWithinFiledWindow,
   ledgerProblems,
   matchesFilters,
   matchesQuery,
   newFilings,
   parseBillQuery,
+  parseOfficialFiledDate,
   patronNamesOf,
   patronOptions,
   sortBills,
@@ -342,4 +349,67 @@ test("H.B. and S.D. period forms do not break ordinary name tokens", () => {
   assert.equal(district.districtNumber, 13);
   assert.deepEqual(district.tokens, []);
   assert.equal(district.billPrefix, null);
+});
+
+
+const TODAY = { y: 2026, m: 11, d: 17 };
+
+test("official filed dates parse from LIS M/D/YYYY and never invent a date", () => {
+  assert.deepEqual(parseOfficialFiledDate("11/12/2026"), { y: 2026, m: 11, d: 12 });
+  assert.deepEqual(parseOfficialFiledDate("9/17/2026"), { y: 2026, m: 9, d: 17 });
+  assert.equal(parseOfficialFiledDate(""), null);
+  assert.equal(parseOfficialFiledDate(null), null);
+  assert.equal(parseOfficialFiledDate("2026-11-12"), null);
+  assert.equal(parseOfficialFiledDate("11/31/2026"), null);
+  assert.equal(formatFiledDate("11/12/2026"), "Nov 12, 2026");
+  assert.equal(filedDateLabel(""), "Date not posted");
+  assert.equal(filedDateLabel("not a date"), "Date not posted");
+  assert.equal(daysSinceFiled("11/17/2026", TODAY), 0);
+  assert.equal(daysSinceFiled("11/10/2026", TODAY), 7);
+  assert.equal(daysSinceFiled("10/18/2026", TODAY), 30);
+  assert.equal(daysSinceFiled("", TODAY), null);
+});
+
+test("filed-date windows and New badge use official dates relative to today in Eastern Time", () => {
+  const todayBills = filterBills(bills, { filed: "today" }, TODAY);
+  const week = filterBills(bills, { filed: "7d" }, TODAY);
+  const month = filterBills(bills, { filed: "30d" }, TODAY);
+  assert.deepEqual(todayBills.map((b) => b.bill_number), []);
+  assert.deepEqual(week.map((b) => b.bill_number).sort(), ["SB854", "SB855", "SB856", "SB857"]);
+  assert.ok(week.every((b) => isNewlyFiled(b, TODAY)));
+  assert.equal(month.length, 16);
+  assert.ok(month.every((b) => daysSinceFiled(b.introduction_date, TODAY)! <= 30));
+  assert.equal(month.some((b) => b.bill_number === "HB1534"), false); // 10/16/2026 is 32 days before Nov 17
+  assert.equal(month.some((b) => b.bill_number === "HB1535"), true);
+  const counts = new Map(filedWindowCounts(bills, TODAY).map((row) => [row.value, row.count]));
+  assert.equal(counts.get("today"), 0);
+  assert.equal(counts.get("7d"), 4);
+  assert.equal(counts.get("30d"), 16);
+  assert.equal(isWithinFiledWindow("11/18/2026", "7d", TODAY), false);
+  // Window still ANDs with other filters and does not invent dates for bills that lack one.
+  assert.deepEqual(
+    filterBills(bills, { filed: "7d", party: "R" }, TODAY).map((b) => b.bill_number).sort(),
+    ["SB854", "SB855", "SB856"],
+  );
+  const undated = { ...bills[0]!, bill_number: "SB000", introduction_date: "" };
+  assert.equal(isNewlyFiled(undated, TODAY), false);
+  assert.equal(isWithinFiledWindow(undated.introduction_date, "30d", TODAY), false);
+  assert.equal(filedDateLabel(undated.introduction_date), "Date not posted");
+  assert.equal(ledgerProblems({ ...ledger, new_filings: [...ledger.new_filings, undated] }).some((p) => p.includes("SB000") && p.includes("introduction_date")), false);
+});
+
+test("New 2027 default sort is official filed date, newest first", () => {
+  const sorted = sortBills(bills);
+  assert.equal(sorted[0]?.bill_number, "SB857");
+  assert.equal(sorted[0]?.introduction_date, "11/12/2026");
+  assert.deepEqual(
+    sorted.slice(0, 4).map((b) => b.bill_number),
+    ["SB857", "SB854", "SB855", "SB856"],
+  );
+  const missingFirst = sortBills([
+    { ...bills[0]!, bill_number: "SB000", introduction_date: "" },
+    ...bills,
+  ]);
+  assert.equal(missingFirst[0]?.bill_number, "SB857");
+  assert.equal(missingFirst.at(-1)?.bill_number, "SB000");
 });

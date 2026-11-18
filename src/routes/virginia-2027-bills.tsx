@@ -8,13 +8,19 @@ import { V4Main } from "@/components/site/lcps-v4";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import ledgerJson from "@/content/virginia-2027-bills.json";
 import {
+  calendarDateInZone,
   categoryCounts,
   categoryIdsOf,
   categoryLabel,
   chamberOptions,
   committeeLines,
   continuedFilings,
+  filedDateIso,
+  filedDateLabel,
+  filedWindowCounts,
+  FILED_WINDOWS,
   filterBills,
+  isNewlyFiled,
   measureKindCounts,
   newFilings,
   partyOptions,
@@ -25,6 +31,7 @@ import {
   statusOptions,
   type BillFilters,
   type BillRecord,
+  type FiledWindow,
   type Ledger,
 } from "@/lib/virginia-2027-bills";
 
@@ -39,6 +46,7 @@ export const Route = createFileRoute("/virginia-2027-bills")({
     ...(typeof s.party === "string" && s.party ? { party: s.party } : {}),
     ...(typeof s.status === "string" && s.status ? { status: s.status } : {}),
     ...(s.filing === "continued" ? { filing: "continued" as const } : {}),
+    ...(s.filed === "today" || s.filed === "7d" || s.filed === "30d" ? { filed: s.filed } : {}),
   }),
   head: () => ({
     meta: [
@@ -60,10 +68,12 @@ function Virginia2027BillsPage() {
   const navigate = Route.useNavigate();
   const fresh = useMemo(() => sortBills(newFilings(LEDGER)), []);
   const carried = useMemo(() => sortBills(continuedFilings(LEDGER)), []);
+  const today = useMemo(() => calendarDateInZone(), []);
   const filing = search.filing === "continued" ? "continued" : "new";
   const population = filing === "continued" ? carried : fresh;
   const withheld = LEDGER.new_filings.length - fresh.length + (LEDGER.continued.length - carried.length);
-  const visible = useMemo(() => filterBills(population, { ...search, filing }), [population, search, filing]);
+  const visible = useMemo(() => filterBills(population, { ...search, filing }, today), [population, search, filing, today]);
+  const filedCounts = useMemo(() => filedWindowCounts(population, today), [population, today]);
   const categories = useMemo(() => categoryCounts(LEDGER, population), [population]);
   const patrons = useMemo(() => patronOptions(population), [population]);
   const chambers = useMemo(() => chamberOptions(population), [population]);
@@ -73,7 +83,7 @@ function Virginia2027BillsPage() {
   const withSummary = fresh.filter((b) => b.summary_plain).length;
   const missingParty = fresh.filter((b) => !b.chief_patron_party_code).length;
   const historyEvents = fresh.reduce((n, b) => n + (b.history_event_count ?? 0), 0);
-  const active = Boolean(search.q || search.category || search.patron || search.chamber || search.party || search.status || search.filing);
+  const active = Boolean(search.q || search.category || search.patron || search.chamber || search.party || search.status || search.filing || search.filed);
 
   const setSearch = (patch: { [K in keyof BillFilters]?: BillFilters[K] | "" }) => {
     const next = { ...search, ...patch };
@@ -85,6 +95,7 @@ function Virginia2027BillsPage() {
     if (next.party) clean.party = next.party;
     if (next.status) clean.status = next.status;
     if (next.filing === "continued") clean.filing = "continued";
+    if (next.filed) clean.filed = next.filed;
     navigate({ search: clean, replace: true, resetScroll: false });
   };
 
@@ -156,6 +167,12 @@ function Virginia2027BillsPage() {
                 Continued from 2026: {carried.length} measures with LIS filing class continued_from_2026 (Carried_over yes). These are 2026 measures carried into this session. Carried over is not recorded as a failure. Continued records: editorial categories not all assigned.
               </p>
             ) : null}
+            <FiledWindowPills
+              counts={filedCounts}
+              selected={search.filed ?? ""}
+              onPick={(filed) => setSearch({ filed: filed === search.filed ? "" : filed })}
+            />
+
             <PartyShortcuts parties={parties} selected={search.party ?? ""} onPick={(party) => setSearch({ party })} />
 
             <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -213,7 +230,7 @@ function Virginia2027BillsPage() {
             </div>
 
             <p className="mt-4 text-sm text-on-dark-muted" aria-live="polite">
-              Showing {visible.length} of {population.length} {filing === "continued" ? "continued from 2026" : "new filings"}.
+              Showing {visible.length} of {population.length} {filing === "continued" ? "continued from 2026" : "new filings"}, newest filed first.
               {active ? (
                 <button type="button" onClick={() => navigate({ search: {}, replace: true, resetScroll: false })} className="ml-3 font-semibold text-gold underline">
                   Clear filters
@@ -225,13 +242,13 @@ function Virginia2027BillsPage() {
           <ul className="mt-4 space-y-4">
             {visible.map((bill) => (
               <li key={bill.bill_number}>
-                <BillCard bill={bill} />
+                <BillCard bill={bill} today={today} />
               </li>
             ))}
           </ul>
           {visible.length === 0 ? (
             <p className="mt-4 rounded-xl border border-dashed border-navy-line px-4 py-6 text-sm text-on-dark-muted" role="status">
-              No filings match these filters. Clearing them shows all {fresh.length} new filings.
+              No filings in this list match these filters. Clearing them shows all {filing === "continued" ? carried.length : fresh.length} {filing === "continued" ? "continued records" : "new filings"}.
             </p>
           ) : null}
 
@@ -239,7 +256,7 @@ function Virginia2027BillsPage() {
             <h2 className="font-serif text-xl font-semibold text-white uppercase">Source and what is missing</h2>
             <ul className="mt-3 list-disc space-y-2 pl-5">
               <li>
-                Bill number, title, patrons, chamber, committee, status, introduction date, and links are copied from the LIS capture. Nothing on a card was written to fill a blank.
+                Bill number, title, patrons, chamber, committee, status, official filed date, and links are copied from the LIS capture. The filed date is the official Introduction_date from the session bills file. If LIS has not posted a date, the card says Date not posted. Nothing on a card was written to fill a blank.
               </li>
               <li>
                 Official summaries are on {withSummary} of {fresh.length} new-filing cards. The other {fresh.length - withSummary} have no Summaries.csv row in this capture.
@@ -326,6 +343,47 @@ function FilingShortcuts({ fresh, carried, selected, onPick }: { fresh: number; 
   );
 }
 
+function FiledWindowPills({
+  counts,
+  selected,
+  onPick,
+}: {
+  counts: { value: string; label: string; count: number }[];
+  selected: string;
+  onPick: (filed: FiledWindow | "") => void;
+}) {
+  return (
+    <div className="mt-4">
+      <p id="va2027-filed" className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">
+        Official filed date
+      </p>
+      <p className="mt-1 text-xs text-night-muted">
+        From the official LIS introduction date, counted in Eastern Time. A New badge marks bills filed in the last 7 days.
+      </p>
+      <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="va2027-filed">
+        {FILED_WINDOWS.map((window) => {
+          const count = counts.find((row) => row.value === window.value)?.count ?? 0;
+          const active = selected === window.value;
+          return (
+            <button
+              key={window.value}
+              type="button"
+              data-filed-window={window.value}
+              data-count={count}
+              aria-pressed={active}
+              onClick={() => onPick(active ? "" : window.value)}
+              className={`inline-flex min-h-11 items-center gap-1.5 rounded-full border px-3 text-sm font-semibold ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
+            >
+              {window.label}
+              <span className={`rounded-full px-1.5 text-xs ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`}>{count}</span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 function PartyShortcuts({ parties, selected, onPick }: { parties: { value: string; label: string; count: number }[]; selected: string; onPick: (party: string) => void }) {
   const shortcuts = (["R", "D"] as const).flatMap((code) => {
     const row = parties.find((p) => p.value === code);
@@ -392,7 +450,7 @@ function FilterChip({ active, onClick, count, children, value = "" }: { active: 
   );
 }
 
-function BillCard({ bill }: { bill: BillRecord }) {
+function BillCard({ bill, today }: { bill: BillRecord; today: ReturnType<typeof calendarDateInZone> }) {
   const committees = committeeLines(bill);
   const ids = categoryIdsOf(bill);
   const sponsorRows = bill.sponsors ?? [];
@@ -415,12 +473,30 @@ function BillCard({ bill }: { bill: BillRecord }) {
       data-party={bill.chief_patron_party_code ?? ""}
       data-status={bill.status_label}
       data-patrons={patrons.map((p) => p.member_id).join("|")}
+      data-filed={bill.introduction_date || ""}
+      data-new={isNewlyFiled(bill, today) ? "true" : "false"}
       className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-4 sm:p-5"
     >
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div className="min-w-0 flex-1">
           <p className="font-mono text-xs tracking-widest text-gold uppercase">{bill.measure_kind} · {bill.chamber}</p>
-          <h2 className="mt-1 font-serif text-3xl font-bold text-white">{bill.bill_number}</h2>
+          <div className="mt-1 flex flex-wrap items-center gap-2">
+            <h2 className="font-serif text-3xl font-bold text-white">{bill.bill_number}</h2>
+            {isNewlyFiled(bill, today) ? (
+              <span className="inline-flex min-h-6 items-center rounded-full bg-gold px-2 text-[11px] font-bold tracking-[0.14em] text-navy-900 uppercase" title="Filed in the last 7 days, by the official LIS date">
+                New
+              </span>
+            ) : null}
+          </div>
+          <p className="mt-1 text-sm text-white" data-filed-date={bill.introduction_date || ""}>
+            {filedDateIso(bill.introduction_date) ? (
+              <>
+                Filed <time dateTime={filedDateIso(bill.introduction_date)!}>{filedDateLabel(bill.introduction_date)}</time>
+              </>
+            ) : (
+              <span className="text-on-dark-muted">Date not posted</span>
+            )}
+          </p>
         </div>
         <PlainSummaryModal
           title={`${bill.bill_number} · ${bill.title}`}
@@ -470,8 +546,14 @@ function BillCard({ bill }: { bill: BillRecord }) {
           <dd className="mt-1 text-white">{bill.status_label || MISSING}</dd>
         </div>
         <div>
-          <dt className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Introduced</dt>
-          <dd className="mt-1 text-white">{bill.introduction_date || MISSING}</dd>
+          <dt className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Filed</dt>
+          <dd className="mt-1 text-white">
+            {filedDateIso(bill.introduction_date) ? (
+              <time dateTime={filedDateIso(bill.introduction_date)!}>{filedDateLabel(bill.introduction_date)}</time>
+            ) : (
+              <span className="text-on-dark-muted">Date not posted</span>
+            )}
+          </dd>
         </div>
       </dl>
 
