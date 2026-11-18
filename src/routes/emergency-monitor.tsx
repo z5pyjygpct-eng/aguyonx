@@ -446,7 +446,7 @@ const btnSm = "inline-flex min-h-9 items-center rounded-md border border-gold px
 
 
 const HOWTO_BULLETS = [
-  "This page is a live log of emergency alerts. It is updated about every two hours. The “Last updated” line shows when the newest alert was added.",
+  "This page is a live log of emergency alerts. It is updated about every hour. The “Last updated” line shows when the newest alert was added.",
   "Newest alerts are at the top.",
   "Use the time buttons to show the last 2 hours, the last 24 hours, the last 7 days, or all alerts. The last 24 hours is the usual starting view. These ranges are counted back from the newest alert, not from the clock on your phone.",
   "Use the region pills to focus on one area, or on Trending or Threats. “All” includes every region. Tap More filters to narrow by threat, type, status, source, state, or country. The red Top Alerts button lists the 10 most recent HIGH alerts from every region.",
