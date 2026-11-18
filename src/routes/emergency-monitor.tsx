@@ -1089,7 +1089,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
               </div>
               <div className="flex w-full flex-wrap items-center justify-start gap-2 pb-0.5 md:flex-nowrap md:justify-end" data-download-controls ref={downloadRef}>
                 {newest && (
-                  <p className="mr-1 hidden text-xs text-[#F6F3EA] sm:block">
+                  <p className="mr-1 hidden min-w-0 text-xs leading-snug text-[#F6F3EA] sm:block">
                     <span className="font-semibold">Last updated:</span>{" "}
                     <time dateTime={newest}>{fmtET(newest)}</time>
                   </p>
@@ -1102,7 +1102,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                   aria-expanded={dotsOpen}
                   aria-label="Connect the Dots. Don't Connect the Panic. Tap to enlarge"
                   onClick={(e) => openDots(e.currentTarget)}
-                  className={`${btnSm} max-md:hidden max-w-[13.5rem] gap-1.5 text-left`}
+                  className={`${btnSm} max-md:hidden max-w-[13.5rem] shrink-0 gap-1.5 whitespace-nowrap text-left`}
                 >
                   <img
                     src={DOTS_THUMB}
@@ -1116,7 +1116,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                 <div className="relative">
                   <button
                     type="button"
-                    className={btnSm}
+                    className={`${btnSm} shrink-0 whitespace-nowrap`}
                     aria-expanded={downloadOpen}
                     aria-haspopup="dialog"
                     data-download-toggle
@@ -1154,7 +1154,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                   href={xIntentUrl(PAGE_SHARE_TEXT)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={btnSm}
+                  className={`${btnSm} shrink-0 whitespace-nowrap`}
                   aria-label="Share this page on X"
                 >
                   Share on X
@@ -1165,7 +1165,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                   data-howto-button
                   aria-haspopup="dialog"
                   aria-expanded={howtoOpen}
-                  className={btnSm}
+                  className={`${btnSm} h-auto min-h-9 shrink-0 py-1 leading-tight`}
                   onClick={() => setHowtoOpen(true)}
                 >
                   How to Use Emergency Monitor
