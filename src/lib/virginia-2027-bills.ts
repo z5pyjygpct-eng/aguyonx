@@ -46,6 +46,8 @@ export type BillRecord = {
   status_label: string;
   lis_detail_url: string;
   lis_text_url: string | null;
+  full_text_doc1?: string | null;
+  full_text_date1?: string | null;
   summary_type: string | null;
   summary_plain: string | null;
   categories: CategoryAssignment[];
