@@ -1087,7 +1087,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                   ) : null}
                 </p>
               </div>
-              <div className="flex flex-wrap items-center justify-start gap-2 pb-0.5 max-md:w-full md:ms-auto md:justify-end" data-download-controls ref={downloadRef}>
+              <div className="flex w-full flex-wrap items-center justify-start gap-2 pb-0.5 md:flex-nowrap md:justify-end" data-download-controls ref={downloadRef}>
                 {newest && (
                   <p className="mr-1 hidden text-xs text-[#F6F3EA] sm:block">
                     <span className="font-semibold">Last updated:</span>{" "}
