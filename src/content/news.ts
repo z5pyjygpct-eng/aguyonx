@@ -56,6 +56,28 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "after-lucas-pleads-not-guilty-locke-warns-agains-mercury-2026-11-17",
+    date: "2026-11-17",
+    filed: "2026-11-18",
+    headline: "After Lucas pleads not guilty, Locke warns against Senate inquiry",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/17/after-lucas-pleads-not-guilty-locke-warns-against-senate-inquiry/",
+    people: [
+      { name: "L. Louise Lucas", office: "State Senator" },
+      { name: "Mamie Locke", office: "State Senator" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "democrats-hope-to-make-big-gains-in-the-general-as-cardinal-2026-11-18",
+    date: "2026-11-18",
+    headline: "Democrats hope to make big gains in the General Assembly in 2027, but their hopes rest on replicating the unusual turnout patterns of 2026",
+    outlet: "Cardinal News",
+    url: "https://cardinalnews.org/2026/11/18/democrats-hope-to-make-big-gains-in-the-general-assembly-in-2027-but-their-hopes-rest-on-replicating-the-unusual-turnout-patterns-of-2026/",
+    people: [],
+    scope: "statewide",
+  },
+  {
     id: "breaking-melanie-meren-to-take-on-mckay-for-fa-ffxnow-2026-11-17",
     date: "2026-11-17",
     headline: "BREAKING: Melanie Meren to take on McKay for Fairfax County board chair",
