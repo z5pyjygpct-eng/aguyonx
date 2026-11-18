@@ -1235,7 +1235,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                   onClick={() => setAcronymsOpen(true)}
                   className="text-[15px] font-semibold text-gold underline decoration-gold/70 underline-offset-2 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:text-sm"
                 >
-                  What do these letters mean?
+                  What do these acronyms mean?
                 </button>
               </p>
             </form>
@@ -1253,7 +1253,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
               >
                 <div className="flex items-start justify-between gap-3 px-4 pt-4 sm:px-5 sm:pt-5">
                   <Dialog.Title id="em-acronym-title" className="font-serif text-lg font-bold leading-tight text-white sm:text-xl">
-                    What do these letters mean?
+                    What do these acronyms mean?
                   </Dialog.Title>
                   <Dialog.Close
                     aria-label="Close abbreviation list"
