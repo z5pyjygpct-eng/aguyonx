@@ -542,26 +542,28 @@ function ConnectDotsLightbox({
             </Dialog.Close>
           </div>
           <div className="min-h-0 flex-1 overflow-y-auto px-4 pb-5 sm:px-5">
-            <div className="mt-3 overflow-auto overscroll-contain touch-auto rounded-lg bg-white">
-              <img
-                src={DOTS_FULL}
-                alt={DOTS_ALT}
-                width={1600}
-                height={1200}
-                className="h-auto w-[1600px] max-w-none sm:h-auto sm:w-full sm:max-w-full"
-              />
+            <div className="mt-3 flex flex-col">
+              <p className="mb-2 md:order-2 md:mt-2 md:mb-0">
+                <a
+                  href={DOTS_PNG}
+                  target="_blank"
+                  rel="noopener"
+                  data-connect-dots-fullsize
+                  className="text-sm font-semibold text-gold underline decoration-gold/70 underline-offset-2 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                >
+                  Open full size
+                </a>
+              </p>
+              <div className="overflow-auto overscroll-contain touch-auto rounded-lg bg-white md:order-1">
+                <img
+                  src={DOTS_FULL}
+                  alt={DOTS_ALT}
+                  width={1600}
+                  height={1200}
+                  className="h-auto w-[1600px] max-w-none sm:h-auto sm:w-full sm:max-w-full"
+                />
+              </div>
             </div>
-            <p className="mt-2">
-              <a
-                href={DOTS_PNG}
-                target="_blank"
-                rel="noopener"
-                data-connect-dots-fullsize
-                className="text-sm font-semibold text-gold underline decoration-gold/70 underline-offset-2 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-              >
-                Open full size
-              </a>
-            </p>
             <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-[#F6F3EA] sm:text-base">
               {DOTS_BULLETS.map((b) => (
                 <li key={b}>{b}</li>
