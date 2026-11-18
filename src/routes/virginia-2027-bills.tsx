@@ -2,7 +2,7 @@ import { useMemo, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { ExternalLink, Search } from "lucide-react";
 import { PlainSummaryModal } from "@/components/site/plain-summary-modal";
-import { EDITORIAL_LABEL, PENDING_MESSAGE, summaryFor } from "@/lib/va2027-bill-summaries";
+import { billTextVersionLabel, editorialLabelFor, pendingMessageFor, summaryFor } from "@/lib/va2027-bill-summaries";
 import { SiteShell } from "@/components/site/shell";
 import { V4Main } from "@/components/site/lcps-v4";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
@@ -460,9 +460,12 @@ function BillCard({ bill, today }: { bill: BillRecord; today: ReturnType<typeof 
     : [];
   const patrons = [...chiefRow, ...sponsorRows];
   const rec = summaryFor(bill.bill_number);
+  const billTextLabel = rec.sourceUsed === "bill-text"
+    ? billTextVersionLabel(bill.full_text_date1)
+    : "Bill text";
   const sourceLinks = [
     { label: "Official LIS page", url: bill.lis_detail_url },
-    ...(bill.lis_text_url ? [{ label: "Bill text", url: bill.lis_text_url }] : []),
+    ...(bill.lis_text_url ? [{ label: billTextLabel, url: bill.lis_text_url }] : []),
   ];
   return (
     <article
@@ -502,9 +505,9 @@ function BillCard({ bill, today }: { bill: BillRecord; today: ReturnType<typeof 
           title={`${bill.bill_number} · ${bill.title}`}
           summary={rec.status === "ok" ? rec.summary : null}
           status={rec.status}
-          editorialLabel={EDITORIAL_LABEL}
+          editorialLabel={editorialLabelFor(rec)}
           sourceLinks={sourceLinks}
-          pendingMessage={PENDING_MESSAGE}
+          pendingMessage={pendingMessageFor(bill)}
         />
       </div>
       <p className="mt-2 text-base font-semibold text-white">{bill.title}</p>

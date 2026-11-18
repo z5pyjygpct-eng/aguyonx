@@ -142,7 +142,7 @@ console.log(
     captured_at: raw.meta?.captured_at ?? null,
     summaries_missing: missingSummaries.length,
     summaries_missing_ids: missingSummaries,
-    summaries_note: "Bills without a summaries-file entry render as pending. They are not guessed. Run node scripts/check-bill-summaries.mjs and add official-source drafts.",
+    summaries_note: "Bills without a summaries-file entry render as pending. They are not guessed. After this install, run node scripts/update-va2027-bill-summaries.mjs (it runs the validator).",
     introduction_date_source: "LIS BILLS.CSV Introduction_date (https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV)",
     introduction_date_missing: missingDates.length,
     introduction_date_missing_ids: missingDates,
