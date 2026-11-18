@@ -22,7 +22,8 @@ The install script:
 
 - Requires both `new_2027_filing` (`carried_over: false`) and `continued_from_2026` (`carried_over: true`). A new-only file is refused so the continued set is not dropped.
 - Writes `new_filings` and `continued`. `filing_class` must match `carried_over`. Continued rows may only keep the category `continued-uncategorized`.
-- Requires a bill number, official title, chamber, status, introduction date, and `https://lis.virginia.gov/` detail URL on every row.
+- Requires a bill number, official title, chamber, status, and `https://lis.virginia.gov/` detail URL on every row.
+- Keeps `introduction_date` on every new and continued row. This must be the official LIS `Introduction_date` from `BILLS.CSV`, written `M/D/YYYY`. If LIS has not posted a date, the field is left blank and the page shows “Date not posted”. The installer never fills it from `captured_at`, the file time, or the watch run time. Missing dates are logged as `introduction_date_missing_ids` and do not block the install.
 - Deletes `source_fields` (the raw LIS column echo) before writing.
 - Leaves every other sourced field as it arrived, including null summaries and null committees.
 - Writes `src/content/virginia-2027-bills.json` and does not edit `src/routes/virginia-2027-bills.tsx`.
@@ -37,6 +38,20 @@ Official files the runbook reads (link out; do not vendor them):
 - `https://lis.blob.core.windows.net/lisfiles/20271/Committees.csv`
 
 Party is not in those CSVs. The ledger joins it from chamber roster snapshots. This repo does not publish those snapshots.
+
+## Official filed date (daily 8 AM watch)
+
+The public tracker does not fetch LIS itself. The daily 8 AM changed-bill routine (Chief of Staff bill-watch, CloudAgent `bc-527b98e1-aac5-5696-b2c2-118e59e362fe`) builds the research ledger and hands a full `bills.json` to Web, which runs `scripts/install-virginia-2027-bills.mjs`. That routine lives outside this repo. It must keep carrying the official filed date or the New 2027 “which bills are new?” filters will go blank after a refresh.
+
+How to populate `introduction_date`:
+
+1. Read `https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV` (session code `20271`). The official field is `Introduction_date`, written `M/D/YYYY`.
+2. Copy that value, unchanged, onto **every** row in both filing classes: `new_2027_filing` and `continued_from_2026`. Map it to `introduction_date`.
+3. If LIS has left `Introduction_date` empty for a bill, write an empty string (or omit a guessed value). The installer will store a blank and the page will show “Date not posted”.
+4. Do **not** use `captured_at`, the watch run time, a scrape timestamp, `Full_text_date1`, or a history-event date as a stand-in. Those are not the official filed date.
+5. Do not drop the field during the join, categorize, or install steps. The installer now logs `introduction_date_missing` and `introduction_date_missing_ids` so a stripped refresh is visible in the daily log.
+
+The Nov 13, 2026 capture already has an official `introduction_date` on all 26 new filings and all 443 continued records. Live `BILLS.CSV` on Nov 17, 2026 still matches those dates, with none missing.
 
 ## Shape the page reads
 
@@ -54,7 +69,7 @@ Each row in either array:
 | `measure_kind` | Under the number (House Bill, Senate Bill, Senate Resolution, …) |
 | `title` | Official title, unedited |
 | `chamber` | Chamber filter and card |
-| `introduction_date` | Introduced date, as written (`M/D/YYYY`) |
+| `introduction_date` | Official filed date. This is LIS `BILLS.CSV` column `Introduction_date` (`M/D/YYYY`). Shown on every card as “Filed Nov 12, 2026”. If it is missing or not a real LIS date, the card says “Date not posted”. A small New badge is added when the date is within the last 7 days (America/New_York). |
 | `chief_patron_name`, `chief_patron_id`, `sponsors[]` | Patrons. Role is Delegate if the member id starts with `H`, Senator if it starts with `S`. Anything else is shown without a role word. |
 | `sponsors[].patron_type` | Printed as stored (`1 - Chief Patron`, `2 - Chief Co-Patron`, …) |
 | `chief_patron_party`, `chief_patron_party_code`, `chief_patron_party_source` | Party line, only when the code is present. Co-patrons get a party only if a future row actually carries one. |
@@ -81,8 +96,9 @@ All filters AND together. An empty filter matches every new filing.
 - Filing: omitted or `new` is the 19 new filings. `continued` is only `continued_from_2026`. Party, chamber, patron, status, category, and search then run inside that set. They do not mix the two sets.
 - Party: chief patron party code. The Republican and Democrat buttons set this same filter and read `chief_patron_party_code` inside the selected filing set. A co-patron does not change it. A missing roster party stays blank (`Unavailable`). `missing` is offered in the party menu only when some chief patron in that set has no code.
 - Status: exact `status_label`.
+- Filed date: `filed=today`, `filed=7d`, or `filed=30d`. These are relative to today in America/New_York and use only the official `introduction_date`. A bill with no official date does not match a date window. Counts on the pills are for the current filing set (new or continued) and do not shrink when another filter is on.
 
-Sort is newest `introduction_date` first, then bill number. Sorting does not drop rows. The default page (no query string) shows every new filing.
+Sort is newest official `introduction_date` first, then bill number. Unposted dates sort last. Sorting does not drop rows. The default page (no query string) is the New 2027 view, showing every new filing in that newest-first order.
 
 ## Categories are editorial
 
