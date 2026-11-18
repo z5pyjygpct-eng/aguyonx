@@ -477,8 +477,8 @@ function BillCard({ bill, today }: { bill: BillRecord; today: ReturnType<typeof 
       data-new={isNewlyFiled(bill, today) ? "true" : "false"}
       className="rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-4 sm:p-5"
     >
-      <div className="flex flex-wrap items-start justify-between gap-3">
-        <div className="min-w-0 flex-1">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+        <div className="min-w-0 sm:flex-1">
           <p className="font-mono text-xs tracking-widest text-gold uppercase">{bill.measure_kind} · {bill.chamber}</p>
           <div className="mt-1 flex flex-wrap items-center gap-2">
             <h2 className="font-serif text-3xl font-bold text-white">{bill.bill_number}</h2>
