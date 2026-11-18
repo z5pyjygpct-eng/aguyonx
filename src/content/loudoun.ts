@@ -117,6 +117,20 @@ export const LOUDOUN_BOS: BosMember[] = [
 /** Searchable BOS meeting index — Granicus archive + eScribe (post-migration). */
 export const LOUDOUN_MEETINGS: LoudounMeeting[] = [
   {
+    id: "escribe-91057f16",
+    provider: "escribe",
+    escribeId: "91057f16-68ae-4bb1-9ecb-3dcc04467555",
+    title: "Loudoun BOS Public Hearing",
+    dateLabel: "Nov 12, 2026",
+    duration: "6h 7m",
+    playerUrl:
+      "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=91057f16-68ae-4bb1-9ecb-3dcc04467555",
+    videoUrl:
+      "https://video.isilive.ca/loudouncty/95-Board-of-Supervisors-Public-Hearing-2026-11-12-22-49.mp4",
+    windowsUrl: "/files/find-the-moment/loudoun-bos/escribe-91057f16.json",
+    windowCount: 681,
+  },
+  {
     id: "escribe-e3f455d0",
     provider: "escribe",
     escribeId: "e3f455d0-966e-4b24-8d8d-cd5a02f4721c",

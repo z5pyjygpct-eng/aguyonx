@@ -10101,5 +10101,15 @@ export const HC_FTM_TRANSCRIPTS: FtmTranscript[] = [
     "engine": "whisper.cpp · large-v3-turbo",
     "generated": "2026-11-13",
     "sourceFile": "fxco-sb-ty8Ytc6Y-VU.srt"
+  },
+  {
+    "meetingId": "fxco-sb-9k8cu2i9ABU",
+    "venue": "fairfax-county-schools",
+    "url": "/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-9k8cu2i9ABU.json",
+    "windowCount": 245,
+    "wordCount": 18838,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-11-17",
+    "sourceFile": "fxco-sb-9k8cu2i9ABU.srt"
   }
 ];

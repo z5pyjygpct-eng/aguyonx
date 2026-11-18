@@ -10434,5 +10434,15 @@
     "duration": "4h 33m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=ty8Ytc6Y-VU"
+  },
+  {
+    "id": "fxco-sb-9k8cu2i9ABU",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Comprehensive Planning and Development Committee Meeting",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "duration": "2h 1m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=9k8cu2i9ABU"
   }
 ]

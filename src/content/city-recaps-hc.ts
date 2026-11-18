@@ -64591,5 +64591,71 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Adjournment."
       }
     ]
+  },
+  {
+    "slug": "fxco-sb-9k8cu2i9ABU",
+    "meetingId": "fxco-sb-9k8cu2i9ABU",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Comprehensive Planning and Development Committee Meeting",
+    "dateLabel": "Monday, November 16, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 2h 1m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 18, 2026, 8:15 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=9k8cu2i9ABU"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-16-fairfax-county-school-board-comprehensive-planning-and-development-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-16-fairfax-county-school-board-comprehensive-planning-and-development-committee-meeting.txt",
+      "pdfNote": "30 pages"
+    },
+    "shareContext": "FCPS, Nov 16, 2026",
+    "moments": [
+      {
+        "seconds": 245,
+        "label": "Committee meeting called to order."
+      },
+      {
+        "seconds": 332,
+        "label": "Minutes held until more members arrive; item 1.03: presentation from an energy-as-a-service provider."
+      },
+      {
+        "seconds": 2976,
+        "label": "Approval of minutes (May 19 and September 2026 committee meetings)."
+      },
+      {
+        "seconds": 3069,
+        "label": "Item 1.04: adoption of the P3 (public-private partnership) guidelines."
+      },
+      {
+        "seconds": 4377,
+        "label": "Item 1.05: updates from facilities."
+      },
+      {
+        "seconds": 4850,
+        "label": "Facilities update: division-wide facility condition assessment."
+      },
+      {
+        "seconds": 6654,
+        "label": "Facilities update: Cub Run project status."
+      },
+      {
+        "seconds": 7224,
+        "label": "Adjournment."
+      }
+    ]
   }
 ];

@@ -105,6 +105,7 @@ const ACTION_OCT14 =
 const ACTION_OCT20 =
   "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1976200/10-20-26%20Business%20Meeting%20Action%20Report.pdf";
 const ACTION_NOV5 = doc(2446);
+const ACTION_NOV12 = doc(2599);
 const OCT20_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=22e65f92-8862-46da-afba-f594bd09768a&Agenda=Agenda&lang=English`;
 const OCT14_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=7960f118-c668-45ef-a975-2362de95de1c&Agenda=Agenda&lang=English`;
 const OCT6_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=3a6eea40-36a8-49b2-9488-cedd456be4d9&Agenda=Agenda&lang=English`;
@@ -123,6 +124,183 @@ const boarddocsMeeting = (id: string) =>
   `https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=${id}`;
 
 const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
+
+  // --- 2026-11-18 morning: Nov 12 BOS Public Hearing (Whisper transcript + Action Report memo dated Nov 16, eScribe DocumentId 2599) ---
+  {
+    slug: "bos-2026-11-12-public-hearing",
+    shareEnabled: true,
+    shareContext: "Loudoun BOS, Nov 12, 2026",
+    meetingId: "escribe-91057f16",
+    title: "Board of Supervisors Public Hearing",
+    dateLabel: "Thursday, Nov 12, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 6h 7m",
+    official: {
+      votesPosted: true,
+      checkedLabel: "Nov 18, 2026, 8:15 AM ET",
+      note: "Votes and outcomes below are taken from the county Action Report (memo dated Nov 16, 2026).",
+      links: [
+        { label: "Agenda (eScribe)", href: "https://pub-loudoun.escribemeetings.com/Meeting.aspx?Id=91057f16-68ae-4bb1-9ecb-3dcc04467555&Agenda=Agenda&lang=English" },
+        { label: "Action Report (PDF)", href: ACTION_NOV12 },
+        { label: "Meeting video (eScribe)", href: "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=91057f16-68ae-4bb1-9ecb-3dcc04467555" },
+        { label: "County document folder for Board meetings", href: LASERFICHE_BOS },
+      ],
+    },
+    decisions: [
+      {
+        item: "3.a",
+        action:
+          "Rules suspended (motion by Supervisor Saines, seconded by Chair Randall) so the Board could act on APPL-2026-0006, the appeal regarding LEGI-2025-0053, Dulles North Technology Park: CMPT-2025-0009.",
+        tally: "5-2-2 (Supervisors Kershner and Umstattd opposed; Supervisors Briskman and Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.a",
+        action:
+          "Planning Commission’s denial of LEGI-2025-0053, Dulles North Technology Park: CMPT-2025-0009 affirmed (motion by Supervisor Saines, seconded by Chair Randall).",
+        tally: "6-1-2 (Supervisor Umstattd opposed; Supervisors Briskman and Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.b",
+        action:
+          "Amendments to Chapter 654 of the Codified Ordinances (Noise from Commercial and Industrial Uses) forwarded to the January 20, 2027 Business Meeting for action (motion by Supervisor Saines, seconded by Chair Randall; originally to January 5, 2027, changed by Chair Randall’s friendly amendment). Supervisor Letourneau’s friendly amendment, accepted, directs staff to revise the item language to specify continuous, rather than temporary, noise. Supervisor TeKrony’s friendly amendment to send the item to the December 16, 2026 Transportation and Land Use Committee was not accepted.",
+        tally: "7-1-1, as amended (Supervisor Umstattd opposed; Vice Chair Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.c",
+        action:
+          "Amendments to Chapter 1450 of the Codified Ordinances (Affordable Dwelling Unit covenant recordation updates) adopted, as provided in Attachment 1 to the staff report. Consolidated hearing item.",
+        tally: "8-0-1 (Vice Chair Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.d",
+        action:
+          "Ordinance adopted exempting Cornerstones, Inc., Loudoun Career Fire Fighters Association, and Lower Loudoun Girls Softball League, Inc. from property taxation (Attachment 5 to the staff report). Consolidated hearing item.",
+        tally: "7-0-1-1 (Vice Chair Turner absent; Supervisor Letourneau abstained)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.e",
+        action:
+          "Rules suspended (motion by Supervisor Saines, seconded by Chair Randall) to act on the Chapter 873 amendment.",
+        tally: "8-0-1 (Vice Chair Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.e",
+        action:
+          "Amendment to Chapter 873 of the Codified Ordinances (Personal Property Tax Relief for the Elderly or Totally and Permanently Disabled) adopted, as provided in Attachment 1 to the staff report.",
+        tally: "8-0-1 (Vice Chair Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.f",
+        action:
+          "ALEGI-2026-0003: only the 2026 interim additions listed as numbers 1 and 2 (New Hillsboro and New Ebenezer Agricultural and Forestal Districts) approved, and the amendments to those district ordinances adopted, based on the finding that the added parcels contain agriculturally and forestally significant land. Consolidated hearing item.",
+        tally: "8-0-1 (Vice Chair Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.g",
+        action:
+          "ZOAM-2026-0004, Affordable Housing by Property Tax-Exempt Religious and Nonprofit Organizations, approved as provided in Attachment 1 to the staff report. Consolidated hearing item.",
+        tally: "8-0-1 (Vice Chair Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.h",
+        action:
+          "LEGI-2025-0001, Western Loudoun Recreation Complex (CMPT-2025-0001, CMPT-2025-0003, SPEX-2025-0012, SPEX-2025-0013 and SPEX-2026-0033) forwarded to the December 15, 2026 Business Meeting for action.",
+        tally: "7-0-2 (Supervisors Briskman and Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.i",
+        action:
+          "LEGI-2025-0008, Fox Gate Mixed Use: ZMAP-2025-0009 forwarded to the January 20, 2027 Business Meeting for action.",
+        tally: "8-0-1 (Vice Chair Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.j",
+        action:
+          "LEGI-2026-0008, Old Arcola Residential: ZCPA-2026-0005 forwarded to the December 15, 2026 Business Meeting for action.",
+        tally: "7-0-2 (Supervisors Briskman and Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.k",
+        action:
+          "LEGI-2024-0056, Dulles Technology Park: ZMAP-2024-0018 forwarded to the second Business Meeting in March 2027 for action.",
+        tally: "6-1-2 (Supervisor Umstattd opposed; Supervisors Briskman and Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.l",
+        action:
+          "LEGI-2025-0053, Dulles North Technology Park (ZMAP-2024-0017, CMPT-2025-0009, SPEX-2025-0101 and SPEX-2025-0102) forwarded to the second Business Meeting in March 2027 for action.",
+        tally: "6-1-2 (Supervisor Umstattd opposed; Supervisors Briskman and Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+      {
+        item: "3.m",
+        action:
+          "RDAB-2024-0001, Holiday Drive road abandonment, forwarded to the second Business Meeting in March 2027 for action.",
+        tally: "7-0-2 (Supervisors Briskman and Turner absent)",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+    ],
+    context: [
+      {
+        text: "Chair Randall announced the Consolidated Hearing Agenda to include items 3c, 3d, 3f, and 3g, and opened the public hearing on those items.",
+        source: { label: "Nov 12, 2026 Action Report", href: ACTION_NOV12 },
+      },
+    ],
+    agenda: [
+      {
+        heading: "Hearing items (as published on the eScribe agenda)",
+        dek: "Consolidated Hearing Agenda covered 3.c, 3.d, 3.f and 3.g (per the Action Report). Items were heard out of published order.",
+        items: [
+          { num: "3.a", title: "APPL-2026-0006: appeal regarding LEGI-2025-0053, Dulles North Technology Park: CMPT-2025-0009 (Sterling)", href: doc(2207) },
+          { num: "3.b", title: "Amendments to Chapter 654 of the Codified Ordinances: Noise from Commercial and Industrial Uses (Countywide)", href: doc(2188) },
+          { num: "3.c", title: "Proposed amendments to Chapter 1450 of the Codified Ordinances: Affordable Dwelling Units recordation updates (Countywide)", href: doc(2157) },
+          { num: "3.d", title: "Nonprofit organizations’ requests for property tax exemption by designation (Countywide)", href: doc(2165) },
+          { num: "3.e", title: "Amendment to Chapter 873: Personal Property Tax Relief for Elderly or Disabled (Countywide)", href: doc(2171) },
+          { num: "3.f", title: "ALEGI-2026-0003, Interim Additions to Agricultural and Forestal Districts (Catoctin and Little River)", href: doc(2160) },
+          { num: "3.g", title: "ZOAM-2026-0004, Affordable Housing by Property Tax-Exempt Religious and Nonprofit Organizations (Countywide)", href: doc(2182) },
+          { num: "3.h", title: "LEGI-2025-0001, Western Loudoun Recreation Complex: CMPT-2025-0001, CMPT-2025-0003, SPEX-2025-0012, SPEX-2025-0013 & SPEX-2026-0033 (Catoctin)", href: doc(2232) },
+          { num: "3.i", title: "LEGI-2025-0008, Fox Gate Mixed Use: ZMAP-2025-0009 (Dulles)", href: doc(2221) },
+          { num: "3.j", title: "LEGI-2026-0008, Old Arcola Residential: ZCPA-2026-0005 (Dulles)", href: doc(2199) },
+          { num: "3.k", title: "LEGI-2024-0056, Dulles Technology Park: ZMAP-2024-0018 (Sterling)", href: doc(2212) },
+          { num: "3.l", title: "LEGI-2025-0053, Dulles North Technology Park: ZMAP-2024-0017, CMPT-2025-0009, SPEX-2025-0101 & SPEX-2025-0102 (Sterling)", href: doc(2191) },
+          { num: "3.m", title: "RDAB-2024-0001, Proposed Abandonment of Holiday Drive and Conveyance of the Abandoned Right-of-way (Sterling)", href: doc(2173) },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-11-12-board-of-supervisors-public-hearing.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-11-12-board-of-supervisors-public-hearing.txt",
+      pdfNote: "82 pages",
+    },
+    moments: [
+      { seconds: 1132, label: "Meeting called to order." },
+      { seconds: 1487, item: "2", label: "Consolidated hearing agenda read (3.c, 3.d, 3.f and 3.g); items to be heard out of published order." },
+      { seconds: 1602, item: "2", label: "Call for speakers on the consolidated items; consolidated motions." },
+      { seconds: 2258, item: "3.e", label: "Personal property tax relief for the elderly or disabled (Chapter 873) taken up." },
+      { seconds: 2769, item: "3.b", label: "Noise from commercial and industrial uses (Chapter 654) staff presentation." },
+      { seconds: 6782, item: "3.i", label: "Fox Gate Mixed Use taken up." },
+      { seconds: 8918, item: "3.h", label: "Western Loudoun Recreation Complex staff presentation." },
+      { seconds: 12275, item: "3.j", label: "Old Arcola Residential staff presentation." },
+      { seconds: 14122, label: "Board takes a dinner break." },
+      { seconds: 15963, item: "3.a", label: "Board returns; appeal of the Planning Commission decision on Dulles North Technology Park (commission permit) taken up." },
+      { seconds: 17703, item: "3.l", label: "Dulles North Technology Park rezoning and special exceptions taken up." },
+      { seconds: 19170, item: "3.k", label: "Dulles Technology Park rezoning taken up." },
+      { seconds: 21173, item: "3.m", label: "Holiday Drive road abandonment taken up." },
+      { seconds: 21961, label: "Adjournment." },
+    ],
+  },
 
   // --- 2026-11-07 morning / 2026-11-09 evening: Nov 5 BOS Business Meeting (Whisper transcript + Action Report memo dated Nov 9, eScribe DocumentId 2446) ---
   {

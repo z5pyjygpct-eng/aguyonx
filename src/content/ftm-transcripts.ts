@@ -13618,6 +13618,17 @@ export const FTM_TRANSCRIPTS: FtmTranscript[] = [
     sourceFile: "escribe-e3f455d0.srt",
   },
   {
+    meetingId: "escribe-91057f16",
+    venue: "loudoun-bos",
+    url: "/files/find-the-moment/loudoun-bos/transcripts/escribe-91057f16.json",
+    windowCount: 849,
+    wordCount: 49514,
+    engine: "whisper.cpp \u00b7 large-v3-turbo",
+    generated: "2026-11-17",
+    sourceFile: "escribe-91057f16.srt",
+    note: "2 repeated segments collapsed",
+  },
+  {
     meetingId: "2026-10-20-1237422755",
     venue: "loudoun-lcps",
     url: "/files/find-the-moment/loudoun-lcps/transcripts/2026-10-20-1237422755.json",
