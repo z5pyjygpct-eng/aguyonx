@@ -444,6 +444,21 @@ export const Route = createFileRoute("/emergency-monitor")({
 const btn = "inline-flex min-h-11 items-center rounded-md border border-gold px-4 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900";
 const btnSm = "inline-flex min-h-9 items-center rounded-md border border-gold px-3 text-sm font-semibold text-gold hover:bg-gold hover:text-navy-900";
 
+
+const HOWTO_BULLETS = [
+  "This page is a live log of emergency alerts. It is updated about every two hours. The “Last updated” line shows when the newest alert was added.",
+  "Newest alerts are at the top.",
+  "Use the time buttons to show the last 2 hours, the last 24 hours, the last 7 days, or all alerts. The last 24 hours is the usual starting view. These ranges are counted back from the newest alert, not from the clock on your phone.",
+  "Use the region pills to focus on one area, or on Trending or Threats. “All” includes every region. Tap More filters to narrow by threat, type, status, source, state, or country. The red Top Alerts button lists the 10 most recent HIGH alerts from every region.",
+  "Deep Search looks in titles, details, places, and sources. It narrows the alerts below together with the filters you already picked. Put a phrase in quotes to match those words together, exactly. If you type several words without quotes, every word must appear.",
+  "The numbers on the pills and keyword buttons count the alerts in the time range and filters you have selected.",
+  "Each alert has a “Share on X” link. Tap it to post that one alert.",
+  "The Download button lets you save what you are viewing. Choose PDF (your browser opens a print window — pick “Save as PDF”), or a text or spreadsheet file. Downloads follow the time range and filters.",
+  "Connect the Dots opens a short graphic about checking whether events are really linked. Tap it to enlarge.",
+  "“What do these acronyms mean?” opens a list of the short names used on this page, written out in plain English.",
+];
+
+
 const emptySearchTerms: HighlightNeedle[] = [];
 
 const REGION_FILTERS = ["All", "USA", "Canada", "Mexico", "Other North America", "Europe", "Russia", "Middle East", "Africa", "South America", "Trending", "Threats"] as const;
@@ -660,7 +675,9 @@ function EmergencyMonitorPage() {
   const downloadRef = useRef<HTMLDivElement>(null);
   const [dotsOpen, setDotsOpen] = useState(false);
   const [acronymsOpen, setAcronymsOpen] = useState(false);
+  const [howtoOpen, setHowtoOpen] = useState(false);
   const dotsTriggerRef = useRef<HTMLButtonElement | null>(null);
+  const howtoTriggerRef = useRef<HTMLButtonElement | null>(null);
   const openDots = (el: HTMLButtonElement | null) => {
     dotsTriggerRef.current = el;
     setDotsOpen(true);
@@ -1070,7 +1087,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                   ) : null}
                 </p>
               </div>
-              <div className="flex flex-nowrap items-center gap-2 pb-0.5" data-download-controls ref={downloadRef}>
+              <div className="flex flex-wrap items-center gap-2 pb-0.5" data-download-controls ref={downloadRef}>
                 {newest && (
                   <p className="mr-1 hidden text-xs text-[#F6F3EA] sm:block">
                     <span className="font-semibold">Last updated:</span>{" "}
@@ -1142,6 +1159,17 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                 >
                   Share on X
                 </a>
+                <button
+                  type="button"
+                  ref={howtoTriggerRef}
+                  data-howto-button
+                  aria-haspopup="dialog"
+                  aria-expanded={howtoOpen}
+                  className={btnSm}
+                  onClick={() => setHowtoOpen(true)}
+                >
+                  How to Use Emergency Monitor
+                </button>
               </div>
             </div>
           </section>
@@ -1270,6 +1298,42 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                         <span className="font-semibold">{row.name}</span>
                         {" "}({row.abbr})
                       </li>
+                    ))}
+                  </ul>
+                </div>
+              </Dialog.Content>
+            </Dialog.Portal>
+          </Dialog.Root>
+          <Dialog.Root open={howtoOpen} onOpenChange={setHowtoOpen}>
+            <Dialog.Portal>
+              <Dialog.Overlay className="em-noprint fixed inset-0 z-50 bg-navy-900/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" />
+              <Dialog.Content
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="em-howto-title"
+                data-howto-dialog
+                onCloseAutoFocus={(e) => {
+                  e.preventDefault();
+                  howtoTriggerRef.current?.focus();
+                }}
+                className="em-noprint fixed top-1/2 left-1/2 z-50 flex max-h-[min(92vh,40rem)] w-[min(calc(100vw-1.25rem),36rem)] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-xl border border-gold/70 bg-navy-700 shadow-2xl focus:outline-none"
+              >
+                <div className="flex shrink-0 items-start justify-between gap-3 px-4 pt-4 sm:px-5 sm:pt-5">
+                  <Dialog.Title id="em-howto-title" className="font-serif text-lg font-bold leading-tight text-white sm:text-xl">
+                    How to Use Emergency Monitor
+                  </Dialog.Title>
+                  <Dialog.Close
+                    aria-label="Close how to use Emergency Monitor"
+                    data-howto-close
+                    className="inline-flex size-11 shrink-0 items-center justify-center rounded-md text-gold hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  >
+                    <X className="size-5" aria-hidden />
+                  </Dialog.Close>
+                </div>
+                <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-5 pt-3 sm:px-5">
+                  <ul className="list-disc space-y-3 pl-5 text-base leading-relaxed text-[#F6F3EA]">
+                    {HOWTO_BULLETS.map((line) => (
+                      <li key={line}>{line}</li>
                     ))}
                   </ul>
                 </div>
