@@ -1249,7 +1249,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                 aria-modal="true"
                 aria-labelledby="em-acronym-title"
                 data-acronym-dialog
-                className="em-noprint fixed top-1/2 left-1/2 z-50 max-h-[min(92vh,40rem)] w-[min(calc(100vw-1.25rem),36rem)] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-xl border border-gold/70 bg-navy-700 shadow-2xl focus:outline-none"
+                className="em-noprint fixed top-1/2 left-1/2 z-50 flex max-h-[min(92vh,40rem)] w-[min(calc(100vw-1.25rem),36rem)] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-xl border border-gold/70 bg-navy-700 shadow-2xl focus:outline-none"
               >
                 <div className="flex items-start justify-between gap-3 px-4 pt-4 sm:px-5 sm:pt-5">
                   <Dialog.Title id="em-acronym-title" className="font-serif text-lg font-bold leading-tight text-white sm:text-xl">
@@ -1262,7 +1262,7 @@ a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
                     <X className="size-5" aria-hidden />
                   </Dialog.Close>
                 </div>
-                <div className="overflow-y-auto px-4 pb-5 pt-3 sm:px-5">
+                <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-5 pt-3 sm:px-5">
                   <p className="mb-3 text-[15px] text-[#F6F3EA]/80 sm:text-sm">Abbreviations used on this page and in the current log.</p>
                   <ul className="space-y-2 text-[15px] leading-relaxed text-[#F6F3EA] sm:text-sm">
                     {ACRONYM_GLOSSARY.map((row) => (
