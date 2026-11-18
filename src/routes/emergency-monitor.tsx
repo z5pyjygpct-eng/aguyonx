@@ -21,6 +21,7 @@ import {
 import { SOURCE_LABEL, matchesSource, sourceClassesOf, type SourceClass } from "@/lib/emergency-source";
 import { collapseLatest, countPackedItems } from "@/lib/emergency-stories";
 import { compileQuery, highlightNeedles, itemMatchesQuery, linkMatchesTerms, quickQueryActive, QUICK_SEARCH_CANDIDATES, countQueries, splitHighlights, type HighlightNeedle } from "@/lib/emergency-search";
+import { ACRONYM_GLOSSARY } from "@/lib/emergency-acronyms";
 
 const SEV_CLASS: Record<string, string> = {
   HIGH: "border-[#b91c1c] bg-[#b91c1c] text-white",
@@ -445,7 +446,7 @@ const btnSm = "inline-flex min-h-9 items-center rounded-md border border-gold px
 
 const emptySearchTerms: HighlightNeedle[] = [];
 
-const REGION_FILTERS = ["All", "USA", "Canada", "Mexico", "Other North America", "Europe", "Russia", "Middle East", "Africa", "South America"] as const;
+const REGION_FILTERS = ["All", "USA", "Canada", "Mexico", "Other North America", "Europe", "Russia", "Middle East", "Africa", "South America", "Trending", "Threats"] as const;
 
 /** Visible place chips besides All, before the More toggle. Pins are always included. */
 const PLACE_CHIP_LIMIT = 10;
@@ -472,10 +473,10 @@ function FilterChip({ active, onClick, count, children, attr, compact }: { activ
       data-count={count ?? "loading"}
       onClick={onClick}
       aria-pressed={active}
-      className={`inline-flex items-center gap-1 rounded-full border font-semibold ${compact ? "min-h-9 px-2.5 text-[13px]" : "min-h-11 px-3 text-sm"} ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
+      className={`inline-flex items-center gap-0.5 rounded-full border font-semibold ${compact ? "min-h-9 px-2.5 text-[13px]" : "min-h-11 px-3 text-sm"} ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
     >
       {children}
-      <span className={`rounded-full px-1.5 text-xs ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`} aria-label={count == null ? "count loading" : undefined}>{count ?? "…"}</span>
+      <span className={`rounded-full px-1 text-xs ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`} aria-label={count == null ? "count loading" : undefined}>{count ?? "…"}</span>
     </button>
   );
 }
@@ -658,6 +659,7 @@ function EmergencyMonitorPage() {
   const [downloadOpen, setDownloadOpen] = useState(false);
   const downloadRef = useRef<HTMLDivElement>(null);
   const [dotsOpen, setDotsOpen] = useState(false);
+  const [acronymsOpen, setAcronymsOpen] = useState(false);
   const dotsTriggerRef = useRef<HTMLButtonElement | null>(null);
   const openDots = (el: HTMLButtonElement | null) => {
     dotsTriggerRef.current = el;
@@ -732,9 +734,9 @@ function EmergencyMonitorPage() {
   const timedEntries = useMemo(() => ENTRIES.filter((e) => inTimeWindow(e, windowKey)), [windowKey, ENTRIES]);
   const topAlerts = useMemo(() => collectTopAlerts(ENTRIES), [ENTRIES]);
 
-  type Skip = "region" | "threat" | "type" | "status" | "source" | "state" | "country";
+  type Skip = "region" | "threat" | "type" | "status" | "source" | "state" | "country" | "search";
   const matchesItem = (section: string, it: LogItem, skip?: Skip) => {
-    if (!itemMatchesQuery(it, query, section)) return false;
+    if (skip !== "search" && !itemMatchesQuery(it, query, section)) return false;
     if (skip !== "region" && !matchesRegion(section, region)) return false;
     if (skip !== "threat" && !matchesThreat(it, threat)) return false;
     if (skip !== "type" && !matchesType(it, typ)) return false;
@@ -931,17 +933,20 @@ function EmergencyMonitorPage() {
     return rows;
   }, [timedEntries]);
   const quickButtons = QUICK_SEARCH_CANDIDATES;
-  // Unique stories in the selected time range (latest title version), so 24h badges stay sensible.
+  // Items in the selected time range and board filters (not the search box), so chip
+  // counts move with 2h vs 24h the same way the region totals do.
   const quickCountItems = useMemo(() => {
-    const packed = timedEntries.map((e) => ({ datetime: e.datetime, sections: displaySections(e) }));
     const rows: { it: LogItem; section: string }[] = [];
-    for (const e of collapseLatest(packed)) {
-      for (const [name, items] of e.sections) {
-        for (const it of items) rows.push({ it, section: name });
+    for (const e of timedEntries) {
+      for (const [name, items] of displaySections(e)) {
+        for (const it of items) {
+          if (!matchesItem(name, it, "search")) continue;
+          rows.push({ it, section: name });
+        }
       }
     }
     return rows;
-  }, [timedEntries]);
+  }, [timedEntries, region, threat, typ, status, source, state, country]);
   const quickCounts = useMemo(
     () => countQueries(quickCountItems, quickButtons.map((b) => b.q)),
     [quickCountItems],
@@ -1033,7 +1038,8 @@ function EmergencyMonitorPage() {
   .em-print-log .em-sev-MEDIUM { background: #f59e0b !important; color: #000 !important; border-color: #b45309 !important; }
   .em-print-log .em-sev-MONITORING { background: #556274 !important; color: #fff !important; border-color: #475569 !important; }
 }
-.em-mark { background: #f5b82e; color: #0b1c2c; padding: 0 0.12em; border-radius: 0.15em; }
+.em-mark { background: rgba(245, 184, 46, 0.38); color: inherit; padding: 0 0.12em; border-radius: 0.15em; text-decoration: none; box-shadow: none; cursor: text; }
+a .em-mark { cursor: inherit; color: inherit; text-decoration: none; }
 @keyframes em-alert-flash {
   0% { background-color: rgba(245, 184, 46, 0.45); box-shadow: 0 0 0 3px #f5b82e; }
   100% { background-color: transparent; box-shadow: 0 0 0 3px transparent; }
@@ -1202,7 +1208,7 @@ function EmergencyMonitorPage() {
                   ) : null}
                 </p>
               ) : null}
-              <div className="mt-2 flex flex-nowrap gap-2 overflow-x-auto pb-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" data-quick-searches role="group" aria-label="Quick searches">
+              <div className="mt-2 flex flex-wrap gap-x-1.5 gap-y-1.5" data-quick-searches role="group" aria-label="Quick searches">
                 {quickButtons.map((b, i) => {
                   const active = quickQueryActive(q, b.q);
                   const count = rangeReady ? quickCounts[i] ?? 0 : null;
@@ -1213,18 +1219,63 @@ function EmergencyMonitorPage() {
                       data-quick={b.id}
                       aria-pressed={active}
                       onClick={() => commitQ(active ? "" : b.q)}
-                      className={`inline-flex shrink-0 items-center gap-1.5 rounded-full border px-2.5 py-1 text-[13px] font-semibold ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
+                      className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[13px] font-semibold ${active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold"}`}
                     >
                       {b.label}
-                      <span className={`rounded-full px-1.5 text-[11px] ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`} aria-label={count == null ? "count loading" : undefined}>{count ?? "…"}</span>
+                      <span className={`rounded-full px-1 text-[11px] ${active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold"}`} aria-label={count == null ? "count loading" : undefined}>{count ?? "…"}</span>
                     </button>
                   );
                 })}
               </div>
-              <p className="mt-1 text-[11px] text-on-dark-muted">Counts are unique stories in the selected time range.</p>
+              <p className="mt-1 text-[11px] text-on-dark-muted">Counts follow the selected time range and filters.</p>
+              <p className="mt-1">
+                <button
+                  type="button"
+                  data-acronym-key
+                  onClick={() => setAcronymsOpen(true)}
+                  className="text-[15px] font-semibold text-gold underline decoration-gold/70 underline-offset-2 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:text-sm"
+                >
+                  What do these letters mean?
+                </button>
+              </p>
             </form>
           </section>
           <ConnectDotsLightbox open={dotsOpen} onOpenChange={setDotsOpen} triggerRef={dotsTriggerRef} />
+          <Dialog.Root open={acronymsOpen} onOpenChange={setAcronymsOpen}>
+            <Dialog.Portal>
+              <Dialog.Overlay className="em-noprint fixed inset-0 z-50 bg-navy-900/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" />
+              <Dialog.Content
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="em-acronym-title"
+                data-acronym-dialog
+                className="em-noprint fixed top-1/2 left-1/2 z-50 max-h-[min(92vh,40rem)] w-[min(calc(100vw-1.25rem),36rem)] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-xl border border-gold/70 bg-navy-700 shadow-2xl focus:outline-none"
+              >
+                <div className="flex items-start justify-between gap-3 px-4 pt-4 sm:px-5 sm:pt-5">
+                  <Dialog.Title id="em-acronym-title" className="font-serif text-lg font-bold leading-tight text-white sm:text-xl">
+                    What do these letters mean?
+                  </Dialog.Title>
+                  <Dialog.Close
+                    aria-label="Close abbreviation list"
+                    className="inline-flex size-11 shrink-0 items-center justify-center rounded-md text-gold hover:bg-navy-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  >
+                    <X className="size-5" aria-hidden />
+                  </Dialog.Close>
+                </div>
+                <div className="overflow-y-auto px-4 pb-5 pt-3 sm:px-5">
+                  <p className="mb-3 text-[15px] text-[#F6F3EA]/80 sm:text-sm">Abbreviations used on this page and in the current log.</p>
+                  <ul className="space-y-2 text-[15px] leading-relaxed text-[#F6F3EA] sm:text-sm">
+                    {ACRONYM_GLOSSARY.map((row) => (
+                      <li key={row.abbr}>
+                        <span className="font-semibold">{row.name}</span>
+                        {" "}({row.abbr})
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </Dialog.Content>
+            </Dialog.Portal>
+          </Dialog.Root>
         </div>
         <div className="em-log mx-auto w-full max-w-4xl px-5 py-2 sm:px-8 sm:py-4">
           {stale && (
@@ -1233,6 +1284,7 @@ function EmergencyMonitorPage() {
             </p>
           )}
 
+          <p className="em-noprint mb-2 text-[15px] leading-snug text-on-dark-muted sm:text-sm">Search narrows the alerts below together with these filters.</p>
           <section className="em-noprint rounded-xl border border-navy-line bg-navy-700 p-2.5 sm:p-3" aria-label="Filters">
             <div className="flex flex-col gap-2">
               <div className="flex flex-col gap-2">
@@ -1557,6 +1609,9 @@ function EmergencyMonitorPage() {
                                 <Marked text={it.title} terms={mark} />
                               </div>
                             )}
+                            <div className="text-xs font-semibold uppercase tracking-wide text-on-dark-muted">
+                              <time dateTime={e.datetime}>{fmtET(e.datetime)}</time>
+                            </div>
                             {details(it).map(([k, v]) => (
                               <div key={k}><span className="font-semibold">{k}:</span> <Marked text={v} terms={mark} /></div>
                             ))}

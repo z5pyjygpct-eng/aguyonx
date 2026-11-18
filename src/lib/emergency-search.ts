@@ -657,15 +657,9 @@ export function highlightNeedles(query: CompiledQuery): HighlightNeedle[] {
       const id = `${alt.value}|${tokenOnly}`;
       if (seen.has(id)) continue;
       seen.add(id);
+      // Highlight the typed token or the full alias phrase only — not each word of
+      // an expansion ("emergency" must not light up when the query is FEMA).
       out.push({ value: alt.value, tokenOnly });
-      if (alt.words.length > 1) {
-        for (const w of alt.words) {
-          const wid = `${w}|${w.length <= 2}`;
-          if (seen.has(wid) || w.length < 3) continue;
-          seen.add(wid);
-          out.push({ value: w, tokenOnly: w.length <= 2 });
-        }
-      }
     }
   }
   return out.sort((a, b) => b.value.length - a.value.length);
