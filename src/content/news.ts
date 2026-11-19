@@ -56,6 +56,26 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "spanberger-lawmakers-affordable-housing-proposals-vamercury-2026-11-18",
+    date: "2026-11-18",
+    filed: "2026-11-19",
+    headline: "Spanberger, lawmakers reveal proposals to preserve and build affordable housing in Virginia",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/18/spanberger-lawmakers-reveal-proposals-to-preserve-and-build-affordable-housing-in-virginia/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "supervisors-take-step-stronger-limits-data-center-noise-pwtimes-2026-11-18",
+    date: "2026-11-18",
+    filed: "2026-11-19",
+    headline: "Supervisors take step toward enacting stronger limits on data center noise",
+    outlet: "Prince William Times",
+    url: "https://www.princewilliamtimes.com/localnews/supervisors-take-step-toward-enacting-stronger-limits-on-data-center-noise/article_74548718-14ae-41b1-b539-49d5c6fc6e0f.html",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "juvenile-arrested-in-fight-at-park-view-hs-loudounnow-2026-11-18",
     date: "2026-11-18",
     headline: "Juvenile Arrested in Fight at Park View HS",
