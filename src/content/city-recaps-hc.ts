@@ -64657,5 +64657,201 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Adjournment."
       }
     ]
+  },
+  {
+    "slug": "pwc-bos-3946",
+    "meetingId": "pwc-bos-3946",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "dateLabel": "Tuesday, November 17, 2026",
+    "whenWhere": "Prince William County Board of County Supervisors meeting · video 6h 1m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 19, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Prince William County's adopted Board of County Supervisors minutes / resolutions. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Prince William County, Granicus)",
+          "href": "https://pwcgov.granicus.com/player/clip/3946"
+        },
+        {
+          "label": "Board of County Supervisors page (Prince William County)",
+          "href": "https://www.pwcva.gov/department/board-county-supervisors"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-11-17-prince-william-board-of-county-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-11-17-prince-william-board-of-county-supervisors-meeting.txt",
+      "pdfNote": "83 pages"
+    },
+    "shareContext": "PWC BOCS, Nov 17, 2026",
+    "moments": [
+      {
+        "seconds": 1368,
+        "label": "Invocation / moment of silence."
+      },
+      {
+        "seconds": 1391,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1415,
+        "label": "Approval of minutes."
+      },
+      {
+        "seconds": 1446,
+        "label": "Commendations and proclamations."
+      },
+      {
+        "seconds": 1771,
+        "label": "Commendation: National Museum of the Marine Corps 20th anniversary."
+      },
+      {
+        "seconds": 2333,
+        "label": "Proclamation: Small Business Saturday (Nov 28, 2026)."
+      },
+      {
+        "seconds": 2507,
+        "label": "Proclamation: National Adoption Day (Nov 21, 2026)."
+      },
+      {
+        "seconds": 2739,
+        "label": "Veterans Day 2026 commendation honoring county veterans."
+      },
+      {
+        "seconds": 3028,
+        "label": "Consent agenda."
+      },
+      {
+        "seconds": 3122,
+        "label": "Consent items 6.L, 6.N and 6.O: police department memoranda of agreement with the U.S. Department of Homeland Security, taken separately."
+      },
+      {
+        "seconds": 3226,
+        "label": "Public comment time."
+      },
+      {
+        "seconds": 6618,
+        "label": "Public hearings, including consolidated land use cases."
+      },
+      {
+        "seconds": 7311,
+        "label": "County Executive time."
+      },
+      {
+        "seconds": 7539,
+        "label": "County Attorney time."
+      },
+      {
+        "seconds": 7694,
+        "label": "Agency item 11.A: Principles of Sound Financial Management (proposed and amended)."
+      },
+      {
+        "seconds": 7851,
+        "label": "Agency item 11.B: re-initiate Comprehensive Plan Amendment CPA2023-00005 (Blackburn's Ford Battlefield area)."
+      },
+      {
+        "seconds": 8717,
+        "label": "Agency item 11.C: noise ordinance update (staff and consultant presentation, board discussion)."
+      },
+      {
+        "seconds": 17626,
+        "label": "Supervisors' time."
+      },
+      {
+        "seconds": 17663,
+        "label": "Proposed directive: Bus Rapid Transit (BRT) / transit priorities."
+      },
+      {
+        "seconds": 17737,
+        "label": "Proposed directive: Gainesville District heritage tourism and recreation small area plan."
+      },
+      {
+        "seconds": 21374,
+        "label": "Closed meeting."
+      },
+      {
+        "seconds": 21383,
+        "label": "Certification of the closed meeting."
+      },
+      {
+        "seconds": 21653,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-ivHFf1hNFQ8",
+    "meetingId": "fxco-sb-ivHFf1hNFQ8",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Public Engagement Committee Meeting",
+    "dateLabel": "Tuesday, November 17, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 1h 58m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 19, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=ivHFf1hNFQ8"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-17-fairfax-county-school-board-public-engagement-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-17-fairfax-county-school-board-public-engagement-committee-meeting.txt",
+      "pdfNote": "28 pages"
+    },
+    "shareContext": "FCPS, Nov 17, 2026",
+    "moments": [
+      {
+        "seconds": 648,
+        "label": "Committee meeting called to order."
+      },
+      {
+        "seconds": 660,
+        "label": "Approval of minutes (September 2026 committee meeting)."
+      },
+      {
+        "seconds": 696,
+        "label": "Next item: student engagement and student representation to the School Board."
+      },
+      {
+        "seconds": 2001,
+        "label": "Committee motion and vote on the number of student representatives."
+      },
+      {
+        "seconds": 2050,
+        "label": "Further student representation proposals, including the Student Advisory Council."
+      },
+      {
+        "seconds": 3629,
+        "label": "Discussion of the School Board student leadership development program."
+      },
+      {
+        "seconds": 4520,
+        "label": "Item 1.06 taken early: engagement with underrepresented communities (staff presentation and discussion)."
+      },
+      {
+        "seconds": 6888,
+        "label": "Item 1.05: community advisory committee handbook updates and trainings."
+      },
+      {
+        "seconds": 7086,
+        "label": "Adjournment."
+      }
+    ]
   }
 ];

@@ -10444,5 +10444,25 @@
     "duration": "2h 1m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=9k8cu2i9ABU"
+  },
+  {
+    "id": "pwc-bos-3946",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "duration": "6h 1m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3946?redirect=true"
+  },
+  {
+    "id": "fxco-sb-ivHFf1hNFQ8",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Public Engagement Committee Meeting",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "duration": "1h 58m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=ivHFf1hNFQ8"
   }
 ]
