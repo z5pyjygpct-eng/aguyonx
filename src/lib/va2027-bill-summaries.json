@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-19",
   "note": "Plain-language summaries grounded only in official LIS title and summary_plain, or in official bill text when sourceUsed is bill-text. Editorial. Missing or thin official sources are pending and are never guessed. reviewed:true entries are not auto-overwritten when a later ledger install changes the official source.",
   "bills": {
     "SB837": {
@@ -6106,6 +6106,32 @@
         "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB857/text/SB857",
         "full_text_doc1": "SB857",
         "full_text_date1": "11/12/2026"
+      }
+    },
+    "SB858": {
+      "summary": "This bill would repeal provisions of the Code of Virginia that prohibit certain agreements between an employer and a labor union or labor organization. Those provisions currently prohibit an agreement that denies nonmembers of the union or organization the right to work for the employer. They also prohibit making membership in the union or organization a condition of employment or of continuing employment, and they prohibit the union or organization from acquiring an employment monopoly in any such enterprise.",
+      "status": "ok",
+      "sourceUsed": "lis-summary",
+      "generatedAt": "2026-11-19",
+      "reviewed": false,
+      "sourceFingerprint": {
+        "summary_plain": "Labor and employment; denial or abridgement of right to work; repeal. Repeals provisions of the Code of Virginia that prohibit any agreement or combination between an employer and a labor union or labor organization whereby (i) nonmembers of the union or organization are denied the right to work for the employer, (ii) membership in the union or organization is made a condition of employment or continuation of employment by such employer, or (iii) the union or organization acquires an employment monopoly in any such enterprise.",
+        "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB858/text/SB858",
+        "full_text_doc1": "SB858",
+        "full_text_date1": "11/17/2026"
+      }
+    },
+    "SB859": {
+      "summary": "This bill would set rules for when a party in an appeal to the Court of Appeals or the Supreme Court of Virginia may go forward even if that party did not make a contemporaneous objection in the trial court. A party would be able to overcome that missing objection by showing good cause that the party had no opportunity to state the objection, or that the grounds for the objection were not available. A party could also do so to attain the ends of justice by showing that a miscarriage of justice has occurred, or that the ruling, action, or order violated a requirement or prohibition imposed by a statute or rule and that the violation is material to the judgment, order, sentence, or award on appeal. These provisions would apply only to appeals where the notice of appeal is filed on or after July 1, 2027. The bill also contains technical amendments.",
+      "status": "ok",
+      "sourceUsed": "lis-summary",
+      "generatedAt": "2026-11-19",
+      "reviewed": false,
+      "sourceFingerprint": {
+        "summary_plain": "Preservation of issues for appellate review; contemporaneous objection; exceptions. Provides that, in an appeal to the Court of Appeals or the Supreme Court of Virginia, a party may overcome the absence of a contemporaneous objection in the trial court (i) upon a showing of good cause that (a) such party had no opportunity to state the objection or (b) the grounds for the objection were not available or (ii) to attain the ends of justice upon showing that (a) a miscarriage of justice has occurred or (b) the ruling, action, or order violated a requirement or prohibition imposed by statute or rule and that such violation is material to the judgment, order, sentence, or award on appeal. The bill provides that the provisions will only apply to appeals where the notice of appeal is filed on or after July 1, 2027. The bill contains technical amendments.",
+        "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB859/text/SB859",
+        "full_text_doc1": "SB859",
+        "full_text_date1": "11/17/2026"
       }
     }
   }

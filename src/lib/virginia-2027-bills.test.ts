@@ -39,15 +39,15 @@ const bills = newFilings(ledger);
 const continued = continuedFilings(ledger);
 const mixed = [...bills, ...continued];
 
-test("published ledger keeps 26 new filings and 443 continued records", () => {
-  assert.equal(bills.length, 26);
+test("published ledger keeps 28 new filings and 443 continued records", () => {
+  assert.equal(bills.length, 28);
   assert.equal(continued.length, 443);
-  assert.equal(ledger.new_filings.length, 26);
+  assert.equal(ledger.new_filings.length, 28);
   assert.equal(ledger.continued.length, 443);
   assert.deepEqual(ledgerProblems(ledger), []);
   assert.equal(JSON.stringify(ledger).includes("source_fields"), false);
   assert.equal(ledger.meta.session_code, "20271");
-  assert.equal(new Set(bills.map((b) => b.bill_number)).size, 26);
+  assert.equal(new Set(bills.map((b) => b.bill_number)).size, 28);
   const sb852 = bills.find((b) => b.bill_number === "SB852");
   assert.ok(sb852);
   assert.equal(sb852.title, "Virginia Clean Energy & Community Flood Preparedness Act; repeal, electric utility customer credit.");
@@ -57,6 +57,21 @@ test("published ledger keeps 26 new filings and 443 continued records", () => {
   assert.deepEqual(categoryIdsOf(sb852), ["energy-data-centers"]);
   assert.equal(bills.find((b) => b.bill_number === "SB851")?.title, "Persons with disabilities; nondiscrimination, integration.");
   assert.equal(bills.find((b) => b.bill_number === "SR173")?.title, "Lucas, L. Louise; seeking expulsion from Senate.");
+  const sb858 = bills.find((b) => b.bill_number === "SB858")!;
+  assert.equal(sb858.title, "Labor and employment; denial or abridgement of right to work; repeal.");
+  assert.equal(sb858.chief_patron_name, "Jennifer D. Carroll Foy");
+  assert.equal(sb858.chief_patron_party_code, "D");
+  assert.equal(sb858.introduction_date, "11/17/2026");
+  assert.deepEqual(categoryIdsOf(sb858), ["uncategorized"]);
+  const sb859 = bills.find((b) => b.bill_number === "SB859")!;
+  assert.equal(sb859.title, "Appellate review; preservation of issues, contemporaneous objection, exceptions.");
+  assert.equal(sb859.chief_patron_name, "Jennifer D. Carroll Foy");
+  assert.equal(sb859.chief_patron_party_code, "D");
+  assert.equal(sb859.introduction_date, "11/17/2026");
+  assert.deepEqual(categoryIdsOf(sb859), ["courts-justice"]);
+  assert.ok(sb852.sponsors.some((s) => s.member_name === "Ryan T. McDougle" && s.patron_type === "3 - Co-Patron"));
+  const sb854 = bills.find((b) => b.bill_number === "SB854")!;
+  assert.ok(sb854.sponsors.some((s) => s.member_name === "Ryan T. McDougle" && s.patron_type === "3 - Co-Patron"));
   for (const bill of ledger.new_filings) assert.equal(isNewFiling(bill), true);
   for (const bill of ledger.continued) assert.equal(isContinued(bill), true);
   for (const bill of continued) {
@@ -66,16 +81,16 @@ test("published ledger keeps 26 new filings and 443 continued records", () => {
 });
 
 test("default filters and sort keep every new filing", () => {
-  assert.equal(filterBills(bills, {}).length, 26);
-  assert.equal(filterBills(mixed, {}).length, 26);
+  assert.equal(filterBills(bills, {}).length, 28);
+  assert.equal(filterBills(mixed, {}).length, 28);
   assert.equal(filterBills(mixed, { party: "R" }).length, 8);
   assert.equal(filterBills(continued, {}).length, 0);
   const sorted = sortBills(bills);
-  assert.equal(sorted.length, 26);
+  assert.equal(sorted.length, 28);
   assert.deepEqual(new Set(sorted.map((b) => b.bill_number)), new Set(bills.map((b) => b.bill_number)));
   const newest = sorted[0]!;
-  assert.equal(newest.bill_number, "SB857");
-  assert.equal(newest.introduction_date, "11/12/2026");
+  assert.equal(newest.bill_number, "SB858");
+  assert.equal(newest.introduction_date, "11/17/2026");
 });
 
 test("every bill is findable by its own number, title fragment, patron, category, chamber, party, and status", () => {
@@ -133,7 +148,7 @@ test("chamber, party, and status partitions cover every filing exactly once", ()
       assert.equal(hits.length, count, `${key}=${value}`);
       seen += hits.length;
     }
-    assert.equal(seen, 26, key);
+    assert.equal(seen, 28, key);
   }
 });
 
@@ -155,7 +170,7 @@ test("patron filter keeps co-patron bills and does not invent a party for them",
 
 test("a filter excludes only non-matches", () => {
   const house = filterBills(bills, { chamber: "House" });
-  assert.ok(house.length > 0 && house.length < 26);
+  assert.ok(house.length > 0 && house.length < 28);
   assert.ok(house.every((b) => b.chamber === "House"));
   const senateNumbers = new Set(bills.filter((b) => b.chamber === "Senate").map((b) => b.bill_number));
   for (const bill of house) assert.equal(senateNumbers.has(bill.bill_number), false);
@@ -163,7 +178,7 @@ test("a filter excludes only non-matches", () => {
   assert.equal(filterBills(bills, { category: "not-a-category" }).length, 0);
   const withSummary = bills.filter((b) => b.summary_plain);
   const without = bills.filter((b) => !b.summary_plain);
-  assert.equal(withSummary.length, 26);
+  assert.equal(withSummary.length, 28);
   assert.equal(without.length, 0);
   assert.ok(without.every((b) => b.summary_plain == null));
 });
@@ -172,8 +187,8 @@ test("Republican and Democrat shortcuts follow the chief patron only", () => {
   const republican = filterBills(bills, { party: "R" });
   const democrat = filterBills(bills, { party: "D" });
   assert.deepEqual(republican.map((b) => b.bill_number).sort(), ["HB1532", "HB1533", "HB1534", "SB852", "SB854", "SB855", "SB856", "SR173"]);
-  assert.equal(democrat.length, 18);
-  assert.equal(republican.length + democrat.length, 26);
+  assert.equal(democrat.length, 20);
+  assert.equal(republican.length + democrat.length, 28);
   assert.ok(republican.every((b) => b.chief_patron_party_code === "R" && b.chief_patron_party === "Republican"));
   assert.ok(democrat.every((b) => b.chief_patron_party_code === "D" && b.chief_patron_party === "Democrat"));
   for (const number of ["SB839", "SB841", "SB843"]) {
@@ -187,12 +202,12 @@ test("Republican and Democrat shortcuts follow the chief patron only", () => {
   assert.deepEqual(filterBills(bills, { party: "D", q: "Favola" }).map((b) => b.bill_number).sort(), ["SB837", "SB844", "SB851", "SB857"]);
   assert.equal(filterBills(bills, { party: "R", q: "Favola" }).length, 0);
   assert.deepEqual(filterBills(bills, { party: "R", q: "Cherry" }).map((b) => b.bill_number).sort(), ["HB1532", "HB1533"]);
-  assert.equal(filterBills(bills, {}).length, 26);
+  assert.equal(filterBills(bills, {}).length, 28);
   const energy = filterBills(bills, { category: "energy-data-centers" }).map((b) => b.bill_number);
   assert.ok(energy.includes("SB852") && energy.includes("SB856"));
 });
 
-test("continued subset stays separate from the 26 new filings", () => {
+test("continued subset stays separate from the 28 new filings", () => {
   assert.equal(filterBills(mixed, { filing: "continued" }).length, 443);
   assert.equal(filterBills(mixed, { filing: "continued", party: "R" }).length, 140);
   assert.equal(filterBills(mixed, { filing: "continued", party: "D" }).length, 294);
@@ -320,7 +335,7 @@ test("forgiving bill-number formats for real ledger bills, including leading zer
 });
 
 test("bare bill prefixes select every bill of that kind; HR is absent from this ledger", () => {
-  assert.equal(hits("SB").length, 195);
+  assert.equal(hits("SB").length, 197);
   assert.ok(hits("SB").every((id) => id.startsWith("SB")));
   assert.equal(hits("HB").length, 259);
   assert.ok(hits("HB").every((id) => id.startsWith("HB")));
@@ -377,17 +392,17 @@ test("filed-date windows and New badge use official dates relative to today in E
   const todayBills = filterBills(bills, { filed: "today" }, TODAY);
   const week = filterBills(bills, { filed: "7d" }, TODAY);
   const month = filterBills(bills, { filed: "30d" }, TODAY);
-  assert.deepEqual(todayBills.map((b) => b.bill_number), []);
-  assert.deepEqual(week.map((b) => b.bill_number).sort(), ["SB854", "SB855", "SB856", "SB857"]);
+  assert.deepEqual(todayBills.map((b) => b.bill_number).sort(), ["SB858", "SB859"]);
+  assert.deepEqual(week.map((b) => b.bill_number).sort(), ["SB854", "SB855", "SB856", "SB857", "SB858", "SB859"]);
   assert.ok(week.every((b) => isNewlyFiled(b, TODAY)));
-  assert.equal(month.length, 16);
+  assert.equal(month.length, 18);
   assert.ok(month.every((b) => daysSinceFiled(b.introduction_date, TODAY)! <= 30));
   assert.equal(month.some((b) => b.bill_number === "HB1534"), false); // 10/16/2026 is 32 days before Nov 17
   assert.equal(month.some((b) => b.bill_number === "HB1535"), true);
   const counts = new Map(filedWindowCounts(bills, TODAY).map((row) => [row.value, row.count]));
-  assert.equal(counts.get("today"), 0);
-  assert.equal(counts.get("7d"), 4);
-  assert.equal(counts.get("30d"), 16);
+  assert.equal(counts.get("today"), 2);
+  assert.equal(counts.get("7d"), 6);
+  assert.equal(counts.get("30d"), 18);
   assert.equal(isWithinFiledWindow("11/18/2026", "7d", TODAY), false);
   // Window still ANDs with other filters and does not invent dates for bills that lack one.
   assert.deepEqual(
@@ -403,17 +418,17 @@ test("filed-date windows and New badge use official dates relative to today in E
 
 test("New 2027 default sort is official filed date, newest first", () => {
   const sorted = sortBills(bills);
-  assert.equal(sorted[0]?.bill_number, "SB857");
-  assert.equal(sorted[0]?.introduction_date, "11/12/2026");
+  assert.equal(sorted[0]?.bill_number, "SB858");
+  assert.equal(sorted[0]?.introduction_date, "11/17/2026");
   assert.deepEqual(
     sorted.slice(0, 4).map((b) => b.bill_number),
-    ["SB857", "SB854", "SB855", "SB856"],
+    ["SB858", "SB859", "SB857", "SB854"],
   );
   const missingFirst = sortBills([
     { ...bills[0]!, bill_number: "SB000", introduction_date: "" },
     ...bills,
   ]);
-  assert.equal(missingFirst[0]?.bill_number, "SB857");
+  assert.equal(missingFirst[0]?.bill_number, "SB858");
   assert.equal(missingFirst.at(-1)?.bill_number, "SB000");
 });
 
@@ -442,7 +457,7 @@ test("Left in Committee status line replaces Continued from prior session only w
 });
 
 test("status filter and default view stay honest for Left in Committee cards", () => {
-  assert.equal(filterBills(mixed, {}).length, 26);
+  assert.equal(filterBills(mixed, {}).length, 28);
   assert.equal(filterBills(mixed, { filing: "continued" }).length, 443);
   const transport = "Left in Committee (Transportation), 11/17/2026";
   const hits = filterBills(mixed, { filing: "continued", status: transport });
