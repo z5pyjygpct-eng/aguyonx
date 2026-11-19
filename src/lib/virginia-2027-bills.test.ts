@@ -7,6 +7,7 @@ import {
   categoryIdsOf,
   continuedFilings,
   daysSinceFiled,
+  displayStatus,
   filedDateLabel,
   filedWindowCounts,
   filterBills,
@@ -16,6 +17,7 @@ import {
   isNewFiling,
   isWithinFiledWindow,
   ledgerProblems,
+  leftInCommitteeStatus,
   matchesFilters,
   matchesQuery,
   newFilings,
@@ -24,6 +26,7 @@ import {
   patronNamesOf,
   patronOptions,
   sortBills,
+  statusOptions,
   type BillFilters,
   type Ledger,
 } from "./virginia-2027-bills.ts";
@@ -412,4 +415,47 @@ test("New 2027 default sort is official filed date, newest first", () => {
   ]);
   assert.equal(missingFirst[0]?.bill_number, "SB857");
   assert.equal(missingFirst.at(-1)?.bill_number, "SB000");
+});
+
+test("Left in Committee status line replaces Continued from prior session only when failed and official action exist", () => {
+  const left = continued.filter((b) => leftInCommitteeStatus(b));
+  assert.equal(left.length, 216);
+  assert.ok(left.every((b) => b.status?.failed === true));
+  assert.ok(left.every((b) => (b.status?.last_house_action ?? "").startsWith("Left in Committee ")));
+  assert.ok(left.every((b) => b.status_label === "Continued from prior session"));
+  const hb1003 = continued.find((b) => b.bill_number === "HB1003")!;
+  assert.equal(displayStatus(hb1003), "Left in Committee (Transportation), 11/17/2026");
+  assert.equal(hb1003.status_label, "Continued from prior session");
+  const unchanged = continued.filter((b) => !leftInCommitteeStatus(b));
+  assert.equal(unchanged.length, 227);
+  assert.ok(unchanged.every((b) => displayStatus(b) === b.status_label));
+  assert.ok(unchanged.every((b) => displayStatus(b) === "Continued from prior session"));
+  // failed=true but not a Left in Committee action: keep the stored label
+  for (const id of ["HB1238", "SB228", "SB393"]) {
+    const bill = continued.find((b) => b.bill_number === id)!;
+    assert.equal(bill.status?.failed, true);
+    assert.equal(leftInCommitteeStatus(bill), null);
+    assert.equal(displayStatus(bill), "Continued from prior session");
+  }
+  // new filings are untouched
+  assert.ok(bills.every((b) => displayStatus(b) === b.status_label));
+});
+
+test("status filter and default view stay honest for Left in Committee cards", () => {
+  assert.equal(filterBills(mixed, {}).length, 26);
+  assert.equal(filterBills(mixed, { filing: "continued" }).length, 443);
+  const transport = "Left in Committee (Transportation), 11/17/2026";
+  const hits = filterBills(mixed, { filing: "continued", status: transport });
+  assert.equal(hits.length, 8);
+  assert.ok(hits.every((b) => displayStatus(b) === transport));
+  assert.equal(filterBills(mixed, { filing: "continued", status: "Continued from prior session" }).length, 227);
+  const options = statusOptions(continued);
+  const leftOpts = options.filter((o) => o.value.startsWith("Left in Committee ("));
+  const prior = options.find((o) => o.value === "Continued from prior session");
+  assert.equal(leftOpts.reduce((n, o) => n + o.count, 0), 216);
+  assert.equal(prior?.count, 227);
+  assert.equal(options.reduce((n, o) => n + o.count, 0), 443);
+  // A status filter from the new-filing set still matches by the displayed label
+  const referred = bills[0]!.status_label;
+  assert.equal(filterBills(bills, { status: referred }).length, statusOptions(bills).find((o) => o.value === referred)?.count);
 });

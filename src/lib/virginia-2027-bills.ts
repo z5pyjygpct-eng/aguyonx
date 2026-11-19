@@ -23,6 +23,22 @@ export type CategoryAssignment = {
   evidence_source: string;
 };
 
+export type BillLisStatus = {
+  carried_over?: boolean;
+  passed?: boolean;
+  passed_house?: boolean;
+  passed_senate?: boolean;
+  failed?: boolean;
+  approved?: boolean;
+  vetoed?: boolean;
+  emergency?: boolean;
+  last_house_action?: string | null;
+  last_house_action_date?: string | null;
+  last_senate_action?: string | null;
+  last_senate_action_date?: string | null;
+  status_label?: string;
+};
+
 export type BillRecord = {
   bill_number: string;
   measure_kind: string;
@@ -44,6 +60,8 @@ export type BillRecord = {
   senate_committee_id: string | null;
   senate_committee_name: string | null;
   status_label: string;
+  /** Official LIS status flags and last actions from BILLS.CSV. Not invented. */
+  status?: BillLisStatus;
   lis_detail_url: string;
   lis_text_url: string | null;
   full_text_doc1?: string | null;
@@ -96,6 +114,29 @@ export const FILED_WINDOWS: { value: FiledWindow; label: string; days: number }[
 /** Bills filed in this many days (inclusive) get a small "New" badge. */
 export const NEW_BADGE_DAYS = 7;
 export const DISPLAY_TIME_ZONE = "America/New_York";
+
+const LEFT_IN_COMMITTEE_PREFIX = "Left in Committee ";
+
+/**
+ * Official LIS "Left in Committee <committee>" line for cards with status.failed.
+ * Uses last_house_action and last_house_action_date only. Returns null when
+ * those official words are not present, so the stored status_label is kept.
+ */
+export function leftInCommitteeStatus(bill: BillRecord): string | null {
+  if (!bill.status?.failed) return null;
+  const action = bill.status.last_house_action?.trim() ?? "";
+  if (!action.startsWith(LEFT_IN_COMMITTEE_PREFIX)) return null;
+  const committee = action.slice(LEFT_IN_COMMITTEE_PREFIX.length).trim();
+  if (!committee) return null;
+  const date = bill.status.last_house_action_date?.trim() ?? "";
+  return date ? `Left in Committee (${committee}), ${date}` : `Left in Committee (${committee})`;
+}
+
+/** Status text shown on the card and used by the status filter. */
+export function displayStatus(bill: BillRecord): string {
+  return leftInCommitteeStatus(bill) || bill.status_label || "";
+}
+
 
 export type CalendarDate = { y: number; m: number; d: number };
 
@@ -376,7 +417,7 @@ export function matchesFilters(bill: BillRecord, f: BillFilters, today?: Calenda
       if (bill.chief_patron_party_code) return false;
     } else if (bill.chief_patron_party_code !== f.party) return false;
   }
-  if (f.status && bill.status_label !== f.status) return false;
+  if (f.status && displayStatus(bill) !== f.status) return false;
   if (f.filed && !isWithinFiledWindow(bill.introduction_date, f.filed, today ?? calendarDateInZone())) return false;
   if (!matchesQuery(bill, f.q)) return false;
   return true;
@@ -572,7 +613,7 @@ export function partyOptions(bills: BillRecord[]): Counted[] {
 }
 
 export function statusOptions(bills: BillRecord[]): Counted[] {
-  return counted(bills, (b) => b.status_label || null, (_b, value) => value);
+  return counted(bills, (b) => displayStatus(b) || null, (_b, value) => value);
 }
 
 export type CommitteeLine = { label: string };

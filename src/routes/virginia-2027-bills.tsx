@@ -15,6 +15,7 @@ import {
   chamberOptions,
   committeeLines,
   continuedFilings,
+  displayStatus,
   filedDateIso,
   filedDateLabel,
   filedWindowCounts,
@@ -474,7 +475,7 @@ function BillCard({ bill, today }: { bill: BillRecord; today: ReturnType<typeof 
       data-categories={ids.join("|")}
       data-chamber={bill.chamber}
       data-party={bill.chief_patron_party_code ?? ""}
-      data-status={bill.status_label}
+      data-status={displayStatus(bill)}
       data-patrons={patrons.map((p) => p.member_id).join("|")}
       data-filed={bill.introduction_date || ""}
       data-new={isNewlyFiled(bill, today) ? "true" : "false"}
@@ -546,7 +547,7 @@ function BillCard({ bill, today }: { bill: BillRecord; today: ReturnType<typeof 
         </div>
         <div>
           <dt className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Status</dt>
-          <dd className="mt-1 text-white">{bill.status_label || MISSING}</dd>
+          <dd className="mt-1 break-words text-white">{displayStatus(bill) || MISSING}</dd>
         </div>
         <div>
           <dt className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">Filed</dt>
