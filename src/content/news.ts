@@ -56,6 +56,35 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "jones-fcc-robocalls-wric-2026-11-19",
+    date: "2026-11-19",
+    headline: "AG Jay Jones urges FCC to strengthen fight against illegal robocalls",
+    outlet: "WRIC ABC 8News",
+    url: "https://www.wric.com/news/virginia-news/ag-jay-jones-urges-fcc-to-strengthen-fight-against-illegal-robocalls/",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-opt-tax-comment-letter-oag-2026-11-17",
+    date: "2026-11-17",
+    filed: "2026-11-19",
+    headline: "Attorney General Jones Opposes Trump Administration’s Attempt to Impose Unlawful $100,000 Tax on International Students",
+    outlet: "Office of the Attorney General",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3157-attorney-general-jones-opposes-trump-administrations-attempt-to-impose-unlawful-100-000-tax-on-international-students",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "miyares-special-prosecutor-lucas-spanberger-wjla-2026-11-17",
+    date: "2026-11-17",
+    filed: "2026-11-19",
+    headline: "Former top cop for Virginia calls for special prosecutor to investigate Sen. Louise Lucas",
+    outlet: "WJLA 7News",
+    url: "https://wjla.com/news/local/louise-lucas-top-cop-attorney-general-virginia-governor-abigail-spanberger-cannabis-license-drug-operation-jason-miyares",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }, { name: "Jay Jones", office: "Attorney General" }, { name: "Louise Lucas", office: "State Senator" }],
+    scope: "statewide",
+  },
+  {
     id: "spanberger-lawmakers-affordable-housing-proposals-vamercury-2026-11-18",
     date: "2026-11-18",
     filed: "2026-11-19",
