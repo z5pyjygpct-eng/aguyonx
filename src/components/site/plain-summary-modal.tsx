@@ -70,9 +70,9 @@ export function PlainSummaryModal({
           aria-modal="true"
           aria-labelledby={titleId}
           aria-describedby={labelId}
-          className="fixed top-1/2 left-1/2 z-50 flex max-h-[min(90vh,40rem)] w-[min(calc(100vw-1.5rem),36rem)] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-xl border border-gold/70 bg-navy-700 p-5 shadow-2xl focus:outline-none sm:p-6"
+          className="fixed top-1/2 left-1/2 z-50 flex max-h-[min(90vh,40rem)] w-[min(calc(100vw-1.5rem),36rem)] -translate-x-1/2 -translate-y-1/2 flex-col overflow-hidden rounded-xl border border-gold/70 bg-navy-700 shadow-2xl focus:outline-none"
         >
-          <div className="flex shrink-0 items-start justify-between gap-3">
+          <div className="flex shrink-0 items-start justify-between gap-3 px-5 pt-5 sm:px-6 sm:pt-6">
             <Dialog.Title id={titleId} className="min-w-0 font-serif text-xl font-bold leading-tight text-white sm:text-2xl">
               {title}
             </Dialog.Title>
@@ -83,14 +83,14 @@ export function PlainSummaryModal({
               <X className="size-5" aria-hidden />
             </Dialog.Close>
           </div>
-          <p id={labelId} className="mt-3 shrink-0 text-xs font-semibold tracking-wide text-gold uppercase">
+          <p id={labelId} className="mt-3 shrink-0 px-5 text-xs font-semibold tracking-wide text-gold uppercase sm:px-6">
             {editorialLabel}
           </p>
-          <div className="mt-3 min-h-0 flex-1 overflow-y-auto">
+          <div className="mt-3 min-h-0 flex-1 overflow-y-auto overscroll-contain px-5 sm:px-6">
             <p className="text-base leading-relaxed text-[#F6F3EA]">{body}</p>
           </div>
           {sourceLinks.length > 0 ? (
-            <p className="mt-3 flex shrink-0 flex-wrap gap-x-4 gap-y-2 border-t border-gold/30 pt-2 text-sm">
+            <p className="mt-3 flex shrink-0 flex-wrap gap-x-4 gap-y-2 border-t border-gold/30 px-5 pt-2 pb-5 text-sm sm:px-6 sm:pb-6">
               {sourceLinks.map((link) => (
                 <a
                   key={`${link.label}:${link.url}`}
