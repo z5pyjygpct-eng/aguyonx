@@ -134,7 +134,7 @@ const ext = { target: "_blank", rel: "noopener noreferrer" } as const;
 /** Text with the matched search words highlighted. */
 function Hi({ text, terms }: { text: string; terms?: Term[] }) {
   if (!terms?.length) return <>{text}</>;
-  return <>{highlight(text, terms).map((p, i) => (p.hit ? <mark key={i} className="rounded-sm bg-gold px-0.5 text-navy-900">{p.t}</mark> : <span key={i}>{p.t}</span>))}</>;
+  return <span>{highlight(text, terms).map((p, i) => (p.hit ? <mark key={i} className="rounded-sm bg-gold px-0.5 text-navy-900">{p.t}</mark> : p.t))}</span>;
 }
 const membersOf = (r: Race): Member[] => r.current_members ?? (r.current_member ? [r.current_member] : []);
 
