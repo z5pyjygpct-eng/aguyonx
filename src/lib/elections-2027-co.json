@@ -28,6 +28,18 @@
    "locality_id": "prince-william"
   },
   {
+   "label": "Henrico County Voter Registration and Elections",
+   "url": "https://henrico.gov/registrar/programs/candidates/",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "henrico"
+  },
+  {
+   "label": "Chesterfield County General Registrar",
+   "url": "https://www.chesterfield.gov/registrar",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "chesterfield"
+  },
+  {
    "label": "Albemarle County Voter Registration and Elections",
    "url": "https://www.albemarle.org/government/elections",
    "status": "not reachable at build time",
@@ -173,6 +185,47 @@
      "office": "Clerk of the Circuit Court",
      "next": "Nov. 2031 (8-year term)",
      "source_url": "https://www.manassasva.gov/voter_registration_and_elections/elected_officials.php"
+    }
+   ]
+  },
+  {
+   "id": "henrico",
+   "name": "Henrico",
+   "kind": "county",
+   "body": "Constitutional Officers",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "ballot_source_label": "ELECT calendar",
+   "note": "Henrico elects a sheriff and a commonwealth's attorney in 2027.",
+   "note_source_url": "https://henrico.gov/registrar/elected-officials/",
+   "off_cycle": [
+    {
+     "office": "Clerk of the Circuit Court",
+     "next": "Nov. 2031 (8-year term)",
+     "source_url": "https://henrico.gov/registrar/elected-officials/"
+    },
+    {
+     "office": "Treasurer and Commissioner of the Revenue",
+     "next": "not elected in Henrico (county-manager form; an appointed director of finance carries out both offices' duties)",
+     "source_url": "https://henrico.gov/government/county-manager-form-of-government/"
+    }
+   ]
+  },
+  {
+   "id": "chesterfield",
+   "name": "Chesterfield",
+   "kind": "county",
+   "body": "Constitutional Officers",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "ballot_source_label": "ELECT calendar",
+   "note": "Chesterfield elects all four four-year constitutional offices in 2027.",
+   "note_source_url": "https://www.chesterfield.gov/registrar",
+   "off_cycle": [
+    {
+     "office": "Clerk of the Circuit Court",
+     "next": "Nov. 2031 (eight-year term that began Jan. 2024, per the county's 2023 investiture notice)",
+     "source_url": "https://www.chesterfield.gov/m/newsflash/home/detail/4253"
     }
    ]
   },
@@ -333,6 +386,78 @@
      "source_url": "https://www.manassasparkva.gov/government/local___state_elected_officials.php"
     }
    ],
+   "candidates": []
+  },
+  {
+   "id": "henrico-sheriff",
+   "locality": "Henrico",
+   "locality_id": "henrico",
+   "body": "Constitutional Officers",
+   "seat": "Sheriff",
+   "seats": 1,
+   "source_url": "https://henrico.gov/registrar/elected-officials/",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
+   "candidates": []
+  },
+  {
+   "id": "henrico-commonwealth-s-attorney",
+   "locality": "Henrico",
+   "locality_id": "henrico",
+   "body": "Constitutional Officers",
+   "seat": "Commonwealth's Attorney",
+   "seats": 1,
+   "source_url": "https://henrico.gov/registrar/elected-officials/",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
+   "candidates": []
+  },
+  {
+   "id": "chesterfield-sheriff",
+   "locality": "Chesterfield",
+   "locality_id": "chesterfield",
+   "body": "Constitutional Officers",
+   "seat": "Sheriff",
+   "seats": 1,
+   "source_url": "https://www.chesterfield.gov/registrar",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
+   "candidates": []
+  },
+  {
+   "id": "chesterfield-commonwealth-s-attorney",
+   "locality": "Chesterfield",
+   "locality_id": "chesterfield",
+   "body": "Constitutional Officers",
+   "seat": "Commonwealth's Attorney",
+   "seats": 1,
+   "source_url": "https://www.chesterfield.gov/registrar",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
+   "candidates": []
+  },
+  {
+   "id": "chesterfield-treasurer",
+   "locality": "Chesterfield",
+   "locality_id": "chesterfield",
+   "body": "Constitutional Officers",
+   "seat": "Treasurer",
+   "seats": 1,
+   "source_url": "https://www.chesterfield.gov/registrar",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
+   "candidates": []
+  },
+  {
+   "id": "chesterfield-commissioner-of-the-revenue",
+   "locality": "Chesterfield",
+   "locality_id": "chesterfield",
+   "body": "Constitutional Officers",
+   "seat": "Commissioner of the Revenue",
+   "seats": 1,
+   "source_url": "https://www.chesterfield.gov/registrar",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
    "candidates": []
   },
   {
