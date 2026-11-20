@@ -122,3 +122,39 @@ test("party counts use only the filing's party and treat school board blanks as 
   const sb: Entry = { office: "sb", status: "contested", localityIds: [], localityName: null, race: { ...base, candidates: [c(null), c(null)] } };
   assert.deepEqual(partyCount(sb), { R: 0, D: 0, Other: 0, nonpartisan: 2, total: 2 });
 });
+
+test("official filed-date windows count days in Eastern Time and never guess a date", async () => {
+  const { candidateInWindow, isNewCandidate, hasOfficialDate, todayET, filedWindowCandidateCount, candidatesWithoutDate, parseDirSearch, toFilters } = await import("./elections-2027.ts");
+  const src = "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/";
+  const c = (d: string | null, u: string | null = src) => ({ name: "n", incumbent: false, party: "D", party_source_url: u, filing_source_url: src, filed_date: d, filed_date_source_url: u });
+  // 11:30 PM ET on Nov 19 is already Nov 20 in UTC; ET day must still be Nov 19.
+  const late = todayET(new Date("2026-11-20T04:30:00Z"));
+  assert.deepEqual(late, { y: 2026, m: 11, d: 19 });
+  // 12:30 AM ET Nov 20 (05:30 UTC) is Nov 20.
+  assert.deepEqual(todayET(new Date("2026-11-20T05:30:00Z")), { y: 2026, m: 11, d: 20 });
+  assert.equal(candidateInWindow(c("11/19/2026"), "today", late), true);
+  assert.equal(candidateInWindow(c("11/18/2026"), "today", late), false);
+  assert.equal(candidateInWindow(c("11/12/2026"), "7d", late), true);
+  assert.equal(candidateInWindow(c("11/11/2026"), "7d", late), false);
+  assert.equal(candidateInWindow(c("10/20/2026"), "30d", late), true);
+  assert.equal(candidateInWindow(c("10/05/2026"), "45d", late), true);
+  assert.equal(candidateInWindow(c("10/04/2026"), "45d", late), false);
+  assert.equal(candidateInWindow(c("9/20/2026"), "60d", late), true);
+  assert.equal(candidateInWindow(c("9/19/2026"), "60d", late), false);
+  assert.equal(candidateInWindow(c("11/20/2026"), "60d", late), false, "future date is never in a window");
+  assert.equal(isNewCandidate(c("11/13/2026"), late), true);
+  // No date, a bad date, or a date without its source never counts.
+  for (const bad of [c(null), c("2026-11-19"), c("2/30/2026"), c("11/19/2026", null)]) {
+    assert.equal(hasOfficialDate(bad), false);
+    assert.equal(candidateInWindow(bad, "60d", late), false);
+  }
+  const race = { id: "r", seat: "S", seats: 1, source_url: src, filing_source_url: src, candidates: [c("11/19/2026"), c("10/30/2026"), c(null)] };
+  const es: Entry[] = [{ office: "bos", race, status: "D", localityIds: ["loudoun"], localityName: "Loudoun" }];
+  const f = { ...EMPTY, today: late };
+  assert.deepEqual(["today", "7d", "30d", "45d", "60d"].map((w) => filedWindowCandidateCount(es, f, w as never)), [1, 1, 2, 2, 2]);
+  assert.equal(candidatesWithoutDate(es), 1);
+  assert.equal(filterEntries(es, { ...f, filed: "today" }).length, 1);
+  assert.equal(filterEntries(es, { ...f, filed: "today", localities: ["albemarle"] }).length, 0, "combines with other pills");
+  assert.equal(toFilters(parseDirSearch({ r_filed: "45d" })).filed, "45d");
+  assert.equal(parseDirSearch({ r_filed: "90d" }).r_filed, undefined);
+});

@@ -13,6 +13,8 @@ Sources (official only; nothing from VPAP or the news):
     the build stops so a parser for that list can be added; it never falls back to another source.
   - Current General Assembly member + party: src/lib/ga-members-2026-{house,senate}.json (built from LIS by tools/ga-members).
 Rules: a seat, candidate or party appears only if an official source says so; every record keeps its source URL.
+Candidate records (once an official list exists) carry filed_date exactly as the official record prints it (M/D/YYYY) and
+filed_date_source_url; if the record has no date, both are null. Never derive a date from anything else.
 Adding a county = add it to LOCALITIES (its seats are read from the ELECT calendars) and CO, then re-run.
 Usage: python3 tools/elections-2027/build.py
 """

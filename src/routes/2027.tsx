@@ -13,7 +13,7 @@ import BOS from "@/lib/elections-2027-bos.json";
 import CO from "@/lib/elections-2027-co.json";
 import { cn } from "@/lib/utils";
 import { LocalityChart, StatewideChart } from "@/components/site/elections-2027-charts";
-import { entriesForLocality, facetCount, filterEntries, flatten, groupEntries, isOpen as isOpenFiled, localityOptions, OFFICE_LABEL, OFFICE_ORDER, parseDirSearch, PARTY_LABEL, raceTitle, STATUS_LABEL, toFilters, toggle, type Entry, type OfficeFile, type PartyFilter, type StatusFilter } from "@/lib/elections-2027";
+import { candidatesWithoutDate, entriesForLocality, facetCount, FILED_WINDOWS, filedWindowCandidateCount, isNewCandidate, todayET, type FiledWindow, filterEntries, flatten, groupEntries, isOpen as isOpenFiled, localityOptions, OFFICE_LABEL, OFFICE_ORDER, parseDirSearch, PARTY_LABEL, raceTitle, STATUS_LABEL, toFilters, toggle, type Entry, type OfficeFile, type PartyFilter, type StatusFilter } from "@/lib/elections-2027";
 
 /**
  * /2027 election. Data: src/lib/elections-2027-{house,senate,sb,bos,co}.json,
@@ -24,7 +24,7 @@ import { entriesForLocality, facetCount, filterEntries, flatten, groupEntries, i
  */
 type Office = "house" | "senate" | "sb" | "bos" | "co";
 type Filter = "contested" | "one" | "none" | "open" | "incD" | "incR";
-type Cand = { name: string; incumbent: boolean; party: string | null; endorsement?: string | null; party_source_url: string | null; filing_source_url: string };
+type Cand = { name: string; incumbent: boolean; party: string | null; endorsement?: string | null; party_source_url: string | null; filing_source_url: string; filed_date?: string | null; filed_date_source_url?: string | null };
 type Race = {
   id: string; seat: string; seats: number; source_url: string; filing_source_url: string; local_filing_source_url?: string; candidates: Cand[];
   shared_with?: { locality_id: string | null; locality: string; source_url: string }[];
@@ -43,7 +43,7 @@ const OFFICES: { id: Office; label: string }[] = [
   { id: "co", label: "Constitutional Officers" },
 ];
 const FILTERS = new Set<string>(["contested", "one", "none", "open", "incD", "incR"]);
-type S = { office?: Office; loc?: string; f?: Filter; q?: string; seat?: string; r_office?: string; r_loc?: string; r_status?: string; r_party?: string; r_q?: string };
+type S = { office?: Office; loc?: string; f?: Filter; q?: string; seat?: string; r_office?: string; r_loc?: string; r_status?: string; r_party?: string; r_q?: string; r_filed?: string };
 
 export const Route = createFileRoute("/2027")({
   validateSearch: (s: Record<string, unknown>): S => ({
@@ -233,7 +233,7 @@ function PillRow({ label, children }: { label: string; children: ReactNode }) {
   );
 }
 
-function FiledCandidate({ c, e }: { c: Cand; e: Entry }) {
+function FiledCandidate({ c, e, today }: { c: Cand; e: Entry; today: ReturnType<typeof todayET> }) {
   const where = e.race.locality ?? "Statewide";
   return (
     <li className="rounded-md border border-navy-line bg-navy-800 px-3 py-2 text-sm">
@@ -241,14 +241,18 @@ function FiledCandidate({ c, e }: { c: Cand; e: Entry }) {
         {c.name}
         {c.party ? <span className={cn("rounded-sm px-1.5 text-[11px] font-bold text-white", PARTY_BADGE[c.party] ?? PARTY_BADGE.Other)}>{PARTY_LABEL[(c.party as PartyFilter)] ?? c.party}</span> : null}
         <span className="text-xs font-normal text-on-dark-muted">{c.incumbent ? "Incumbent" : isOpenFiled(e.race) ? "Open seat" : "Challenger"}</span>
+        {isNewCandidate(c, today) ? <span className="inline-flex min-h-5 items-center rounded-full bg-gold px-2 text-[10px] font-bold tracking-[0.14em] text-navy-900 uppercase" title="Filed in the last 7 days, by the official filing date">New</span> : null}
       </p>
       <p className="text-xs text-on-dark-muted">{OFFICE_LABEL[e.office]} · {raceTitle(e)} · {where}</p>
-      <a href={c.filing_source_url} target="_blank" rel="noopener noreferrer" className="text-xs text-gold underline">Official filing</a>
+      <p className="text-xs text-on-dark-muted">
+        {c.filed_date && c.filed_date_source_url ? <>Filed {c.filed_date} (<a href={c.filed_date_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">official record</a>) · </> : "No official filed date · "}
+        <a href={c.filing_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Official filing</a>
+      </p>
     </li>
   );
 }
 
-function RaceRow({ e }: { e: Entry }) {
+function RaceRow({ e, today }: { e: Entry; today: ReturnType<typeof todayET> }) {
   const st = e.status;
   const label = st === "none" ? "No filing yet" : st === "contested" ? "Contested" : st === "unopposed" ? "Unopposed" : `${PARTY_LABEL[st as PartyFilter]} only`;
   return (
@@ -259,7 +263,7 @@ function RaceRow({ e }: { e: Entry }) {
       </div>
       {e.race.shared_with?.length ? <p className="text-xs text-on-dark-muted">Also on the ballot in {e.race.shared_with.map((s) => s.locality).join(" and ")} (shared office).</p> : null}
       {e.race.candidates.length ? (
-        <ul className="mt-2 grid gap-2 sm:grid-cols-2">{e.race.candidates.map((c) => <FiledCandidate key={c.name} c={c} e={e} />)}</ul>
+        <ul className="mt-2 grid gap-2 sm:grid-cols-2">{e.race.candidates.map((c) => <FiledCandidate key={c.name} c={c} e={e} today={today} />)}</ul>
       ) : (
         <p className="text-xs text-on-dark-muted">No candidate is on an official list yet. <a href={e.race.filing_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Check the Virginia Department of Elections candidate lists</a></p>
       )}
@@ -294,11 +298,13 @@ function RosterCard({ c }: { c: (typeof CANDIDATES_2027)[number] }) {
 
 function RaceDirectory({ s }: { s: S }) {
   const navigate = Route.useNavigate();
-  const f = toFilters(s);
+  const today = useMemo(() => todayET(), []);
+  const f = toFilters(s, today);
   const [rq, setRq] = useState(s.r_q ?? "");
-  const shown = useMemo(() => filterEntries(ENTRIES, f), [s.r_office, s.r_loc, s.r_status, s.r_party, s.r_q]); // eslint-disable-line react-hooks/exhaustive-deps
+  const shown = useMemo(() => filterEntries(ENTRIES, f), [s.r_office, s.r_loc, s.r_status, s.r_party, s.r_q, s.r_filed]); // eslint-disable-line react-hooks/exhaustive-deps
   const groups = groupEntries(shown);
-  const anyFilter = !!(s.r_office || s.r_loc || s.r_status || s.r_party || s.r_q);
+  const anyFilter = !!(s.r_office || s.r_loc || s.r_status || s.r_party || s.r_q || s.r_filed);
+  const noDate = candidatesWithoutDate(ENTRIES);
   const set = (patch: Partial<S>) => navigate({ search: (p: S) => ({ ...p, ...patch }), replace: true, resetScroll: false });
   const filed = shown.reduce((n, e) => n + e.race.candidates.length, 0);
   return (
@@ -317,7 +323,7 @@ function RaceDirectory({ s }: { s: S }) {
               placeholder="Name, district or locality" className="h-11 w-full min-w-0 bg-transparent text-base text-white placeholder:text-night-muted focus:outline-none" />
           </div>
         </form>
-        {anyFilter ? <button type="button" onClick={() => { setRq(""); set({ r_office: undefined, r_loc: undefined, r_status: undefined, r_party: undefined, r_q: undefined }); }} className="self-start text-sm text-gold underline lg:self-center">Clear all filters</button> : null}
+        {anyFilter ? <button type="button" onClick={() => { setRq(""); set({ r_office: undefined, r_loc: undefined, r_status: undefined, r_party: undefined, r_q: undefined, r_filed: undefined }); }} className="self-start text-sm text-gold underline lg:self-center">Clear all filters</button> : null}
       </div>
       <PillRow label="Office">
         {OFFICE_ORDER.map((o) => <Pill key={o} active={f.offices.includes(o)} count={facetCount(ENTRIES, f, "offices", o)} onClick={() => set({ r_office: toggle(f.offices, o) })}>{OFFICE_LABEL[o]}</Pill>)}
@@ -331,6 +337,15 @@ function RaceDirectory({ s }: { s: S }) {
       <PillRow label="Party of a filed candidate">
         {(Object.keys(PARTY_LABEL) as PartyFilter[]).map((k) => <Pill key={k} active={f.parties.includes(k)} count={facetCount(ENTRIES, f, "parties", k)} onClick={() => set({ r_party: toggle(f.parties, k) })}>{PARTY_LABEL[k]}</Pill>)}
       </PillRow>
+      <PillRow label="Official filed date">
+        {FILED_WINDOWS.map((w) => {
+          const active = f.filed === w.value;
+          return <Pill key={w.value} active={active} count={filedWindowCandidateCount(ENTRIES, f, w.value)} onClick={() => set({ r_filed: active ? undefined : (w.value as FiledWindow) })}>{w.label}</Pill>;
+        })}
+      </PillRow>
+      <p className="mt-1 text-xs text-night-muted">
+        Counts are candidates. Dates come from the filing date on the Virginia Department of Elections or county registrar record, counted in Eastern Time. A New badge marks candidates who filed in the last 7 days. Candidates without an official date are left out of these pills{noDate ? ` (${noDate} right now)` : ""}.
+      </p>
       <p className="mt-4 text-sm text-on-dark-muted" role="status">{shown.length} races · {filed} candidates on official lists{f.localities.length ? " · House and Senate districts are not tied to one locality, so they are hidden" : ""}</p>
       {groups.length ? (
         <div className="mt-3 space-y-2">
@@ -345,7 +360,7 @@ function RaceDirectory({ s }: { s: S }) {
                     <summary className="flex cursor-pointer items-center justify-between gap-2 px-3 py-2 text-sm font-semibold">
                       {l.label}<span className="rounded-full bg-navy-900/60 px-2 font-mono text-xs text-gold">{l.entries.length}</span>
                     </summary>
-                    <ul className="divide-y divide-navy-line px-3">{l.entries.map((e) => <RaceRow key={e.office + e.race.id} e={e} />)}</ul>
+                    <ul className="divide-y divide-navy-line px-3">{l.entries.map((e) => <RaceRow key={e.office + e.race.id} e={e} today={today} />)}</ul>
                   </details>
                 ))}
               </div>
