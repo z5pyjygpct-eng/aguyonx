@@ -8,9 +8,13 @@ Sources (official only; nothing from VPAP or the news):
   - Which seats are on the Nov. 2, 2027 ballot: Virginia Department of Elections (ELECT) ballot calendars (PDFs below), parsed
     live for every county in LOCALITIES; constitutional offices from Va. Code 24.2-217 plus each locality's own government pages.
   - Candidate filings: ELECT candidate lists (https://www.elections.virginia.gov/casting-a-ballot/candidate-list/) and each
-    county's general registrar / elections office pages (FILING_PAGES). The builder checks them on every run. As long as no
-    official Nov. 2027 list is posted, every seat is built with no candidates ("No filing yet"). If an official 2027 list appears,
-    the build stops so a parser for that list can be added; it never falls back to another source.
+    county's general registrar / elections office pages (FILING_PAGES). The builder checks them on every run.
+  - Until official Nov. 2027 ballot lists are posted, races are filled with registered 2027 campaign committees from ELECT's
+    campaign finance reporting system (registrations.py; each labeled "Registered campaign committee, not yet on the ballot" and
+    linked to its official committee record). Ballot lists take precedence: when the check finds a posted 2027 list, the build
+    no longer stops; it records the list in "ballot_list_posted" so the page flags it, and a parser for that list then replaces
+    the registrations. It never falls back to VPAP or news.
+  - House and Senate district coverage of each locality: ELECT registrant counts by district and precinct (registrations.py).
   - Current General Assembly member + party: src/lib/ga-members-2026-{house,senate}.json (built from LIS by tools/ga-members).
 Rules: a seat, candidate or party appears only if an official source says so; every record keeps its source URL.
 Candidate records (once an official list exists) carry filed_date exactly as the official record prints it (M/D/YYYY) and
@@ -18,8 +22,10 @@ filed_date_source_url; if the record has no date, both are null. Never derive a 
 Adding a county = add it to LOCALITIES (its seats are read from the ELECT calendars) and CO, then re-run.
 Usage: python3 tools/elections-2027/build.py
 """
-import datetime as dt, html, json, re, subprocess, sys, time
+import datetime as dt, html, json, os, re, subprocess, sys, time
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import registrations as REG
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "src/lib"
@@ -185,16 +191,18 @@ def text(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"(?s)<script.*?</script>|<style.*?</style>", " ", s)))).strip()
 
 def check_filings():
-    """Confirm no official Nov. 2027 candidate list exists. Returns the list of pages checked (label, url, status)."""
+    """Check for an official Nov. 2027 candidate list. Returns (pages checked, posted lists). A posted list no longer stops the build:
+    it is returned so the data and page flag it (ballot lists take precedence over registrations)."""
     page = fetch(ELECT_CANDS)
     if page is None:
         raise SystemExit(f"could not read {ELECT_CANDS}")
     lists = [(h, text(t)) for h, t in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', page, re.S) if "candidate-list" in h or "candidatelist" in h]
     assert any("2026" in t for _, t in lists), "ELECT candidate-list page changed shape"
     hits = [(h, t) for h, t in lists if "2027" in h + t]
+    posted = [{"label": f"Virginia Department of Elections: {t}", "url": h if h.startswith("http") else ELECT + h} for h, t in hits]
     if hits:
-        raise SystemExit(f"ELECT has posted a 2027 candidate list {hits}: add a parser for it before rebuilding")
-    checked = [{"label": "Virginia Department of Elections candidate lists", "url": ELECT_CANDS, "status": "no Nov. 2027 list posted"}]
+        print(f"FLAG: ELECT has posted a 2027 candidate list {hits}: it takes precedence; add its parser so it replaces registrations", file=sys.stderr)
+    checked = [{"label": "Virginia Department of Elections candidate lists", "url": ELECT_CANDS, "status": "2027 list posted" if hits else "no Nov. 2027 list posted"}]
     for lid, (label, url) in FILING_PAGES.items():
         p = fetch(url)
         if p is None:
@@ -203,9 +211,12 @@ def check_filings():
             continue
         t = text(p)
         if re.search(r"2027[^.]{0,120}(candidate list|candidates (&|and) (sample ballots|referendums))|(candidate list|candidates (&|and) (sample ballots|referendums))[^.]{0,120}2027", t, re.I):
-            raise SystemExit(f"{label} may list 2027 candidates ({url}): review and add a parser before rebuilding")
+            print(f"FLAG: {label} may list 2027 candidates ({url}): it takes precedence; review and add a parser", file=sys.stderr)
+            posted.append({"label": label, "url": url, "locality_id": lid})
+            checked.append({"label": label, "url": url, "status": "may list 2027 candidates", "locality_id": lid})
+            continue
         checked.append({"label": label, "url": url, "status": "no Nov. 2027 list posted", "locality_id": lid})
-    return checked
+    return checked, posted
 
 def elect_seats(pdf_url):
     """Parse an ELECT county calendar PDF -> {county: [(district, seats_in_2027)]} (only districts with a 2027 seat)."""
@@ -294,12 +305,16 @@ def constitutional():
     return races
 
 def main():
-    checked = check_filings()
+    checked, posted = check_filings()
     common = {"election": "2027-11-02", "as_of": AS_OF, "source_url": ELECT_CANDS, "filings_checked": checked,
-              "filings_note": "No official candidate list for the Nov. 2, 2027 election has been posted yet."}
+              "filings_note": ("An official candidate list for the Nov. 2, 2027 election appears to be posted; it takes precedence over the registrations shown."
+                               if posted else "No official candidate list for the Nov. 2, 2027 election has been posted yet."),
+              "ballot_list_posted": posted,
+              "registrations_source_url": REG.CF_INDEX, "registrations_label": REG.LABEL,
+              "registrations_note": "Registered 2027 campaign committees (official state record); ballot lists not yet posted."}
+    files = {}
     for kind, n, prefix in (("house", 100, "HD"), ("senate", 40, "SD")):
-        data = {"office": kind, **common, "ballot_source_url": ELECT_5YR, "races": chamber(kind, n, prefix)}
-        (OUT / f"elections-2027-{kind}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
+        files[kind] = {"office": kind, **common, "ballot_source_url": ELECT_5YR, "races": chamber(kind, n, prefix)}
     for office, pdf in (("sb", ELECT_CSB), ("bos", ELECT_BOS)):
         races, none = local(office, elect_seats(pdf))
         locs = [{"id": L["id"], "name": L["name"], "kind": L["kind"], "body": L[office]["label"], "on_2027": L[office]["on_2027"],
@@ -309,7 +324,7 @@ def main():
         if office == "sb":
             data["nonpartisan_note"] = "Virginia law (§ 22.1-57.3(E)) has no party nomination process for school board."
             data["nonpartisan_source_url"] = "https://law.lis.virginia.gov/vacode/title22.1/chapter5/section22.1-57.3/"
-        (OUT / f"elections-2027-{office}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
+        files[office] = data
     name = {L["id"]: L["name"] for L in LOCALITIES}
     co_locs = []
     for L in LOCALITIES:
@@ -320,8 +335,78 @@ def main():
                         **({"linked": [{"office": o, "locality_id": cty, "locality": name[cty], "race_id": f"{cty}-{re.sub(r'[^a-z0-9]+', '-', o.lower()).strip('-')}"}
                                        for o, cty in c["linked"]]} if c.get("linked") else {}),
                         "off_cycle": c["off_cycle"]})
-    co = {"office": "co", **common, "ballot_source_url": ELECT_5YR, "terms_source_url": VACODE_217, "localities": co_locs, "races": constitutional(), "no_2027": []}
-    (OUT / "elections-2027-co.json").write_text(json.dumps(co, indent=1, ensure_ascii=False) + "\n")
+    files["co"] = {"office": "co", **common, "ballot_source_url": ELECT_5YR, "terms_source_url": VACODE_217, "localities": co_locs, "races": constitutional(), "no_2027": []}
+
+    # Shared offices: a city resident's committee for sheriff / commonwealth's attorney belongs in the county race.
+    linked = {}
+    for L in LOCALITIES:
+        for label, county in CO[L["id"]].get("linked", []):
+            linked[(L["id"], label)] = f"{county}-{re.sub(r'[^a-z0-9]+', '-', label.lower()).strip('-')}"
+    for label in (SHERIFF, CA):  # Manassas Park shares both offices with Prince William (MANASSAS_PARK_CO)
+        linked[("manassas-park", label)] = f"prince-william-{re.sub(r'[^a-z0-9]+', '-', label.lower()).strip('-')}"
+    report = REG.build(files, linked)
+
+    # Current members, from official member lists only: the House of Delegates and Senate of Virginia member lists, and county
+    # board / school board pages (registrations.LOCAL_MEMBERS, each name confirmed on the live page). Party: Senate list prints it;
+    # for the House, party comes from LIS (Legislative Information System) when the LIS member for the district has the same last name.
+    ga = REG.ga_members(fetch)
+    for kind, url in (("house", REG.HOUSE_MEMBERS_URL), ("senate", REG.SENATE_MEMBERS_URL)):
+        for r in files[kind]["races"]:
+            lis = MEMBERS[kind].get(r["district"])
+            off = ga[kind].get(r["district"])
+            if not off:
+                r["current_member"] = None
+                r["current_members"] = []
+                r["members_source_url"] = url
+                continue
+            same = lis and REG.last_name(lis["name"]) == REG.last_name(off[0])
+            party = off[1] or (lis["party"] if same else None)
+            r["current_member"] = {"name": off[0], "party": party, "slug": lis["slug"] if same else None, "source_url": url,
+                                   "party_source_url": url if off[1] else (LIS_SRC if same and party else None)}
+            r["current_members"] = [r["current_member"]]
+            r["members_source_url"] = url
+    lm, misses = REG.local_members(fetch)
+    for off in ("bos", "sb", "co"):
+        for r in files[off]["races"]:
+            key = (off, r["locality_id"], r["seat"])
+            src = REG.LOCAL_MEMBERS.get((off, r["locality_id"]))
+            r["current_members"] = lm.get(key, [])
+            if r["current_members"]:
+                r["members_source_url"] = src[0]
+    report["member_misses"] = misses
+    report["boards_without_roster"] = sorted({f"{L['name']} {L[o]['label']}" for L in LOCALITIES for o in ("bos", "sb")
+                                              if L[o]["on_2027"] and (o, L["id"]) not in REG.LOCAL_MEMBERS})
+    # Incumbent = a registered committee's candidate has the same last name as a current member of that seat (official roster).
+    for d in files.values():
+        for r in d["races"]:
+            names = {REG.last_name(m["name"]) for m in r.get("current_members", [])}
+            r["members_known"] = bool(r.get("current_members"))
+            for c in r["candidates"]:
+                c["incumbent"] = REG.last_name(c["name"]) in names
+            r["candidates"].sort(key=lambda c: (not c["incumbent"], c["name"].lower()))
+
+    # House / Senate districts that include part or all of each covered locality.
+    cov = REG.coverage(fetch)
+    for kind in ("house", "senate"):
+        races = {r["district"]: r for r in files[kind]["races"]}
+        for r in races.values():
+            r["localities"] = []
+        for L in LOCALITIES:
+            for c in cov[kind][L["id"]]:
+                races[c["district"]]["localities"].append({"locality_id": L["id"], "locality": L["name"], "coverage": c["coverage"],
+                                                           "precincts": c["precincts"], "locality_precincts": c["locality_precincts"], "source_url": c["source_url"]})
+        files[kind]["coverage_source_url"] = cov["sources"][0 if kind == "house" else 1]
+        files[kind]["coverage_source_label"] = REG.COVERAGE_SOURCE_LABEL
+        files[kind]["coverage_page_url"] = REG.REG_STATS_PAGE
+        files[kind]["districts_source_url"] = REG.SCV_ORDER
+    for k, d in files.items():
+        (OUT / f"elections-2027-{k}.json").write_text(json.dumps(d, indent=1, ensure_ascii=False) + "\n")
+    rp = os.environ.get("ELECTIONS_2027_REPORT")
+    if rp:
+        Path(rp).write_text(json.dumps({**report, "coverage": {k: cov[k] for k in ("house", "senate")}, "coverage_sources": cov["sources"]}, indent=1, ensure_ascii=False))
+    print("registrations: considered", report["considered"], "matched", report["matched"], "unmatched", len(report["unmatched"]),
+          "final-report excluded", report["excluded_final"], "special-cycle excluded", len(report["excluded_other_cycle"]),
+          "local outside covered localities", report["out_of_scope_local"], "statement unreadable", len(report["soo_unreadable"]))
     for f in ("house", "senate", "sb", "bos", "co"):
         d = json.loads((OUT / f"elections-2027-{f}.json").read_text())
         by = {}

@@ -47,6 +47,10 @@
   }
  ],
  "filings_note": "No official candidate list for the Nov. 2, 2027 election has been posted yet.",
+ "ballot_list_posted": [],
+ "registrations_source_url": "https://apps.elections.virginia.gov/SBE_CSV/CF/",
+ "registrations_label": "Registered campaign committee, not yet on the ballot",
+ "registrations_note": "Registered 2027 campaign committees (official state record); ballot lists not yet posted.",
  "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
  "races": [
   {
@@ -58,11 +62,44 @@
     "name": "Timmy French",
     "party": "R",
     "slug": "timmy-french",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Timothy Frank French",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6e961c89-9b1f-485f-b3c2-15982bda915d",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "TIMMY FRENCH FOR THE SENATE OF VIRGINIA",
+     "committee_code": "CC-23-00380",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/6e961c89-9b1f-485f-b3c2-15982bda915d",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6e961c89-9b1f-485f-b3c2-15982bda915d",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/13/2026",
+     "district_record": "State Senate - 1st District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Timmy French",
+     "party": "R",
+     "slug": "timmy-french",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd2",
@@ -73,11 +110,44 @@
     "name": "Mark D. Obenshain",
     "party": "R",
     "slug": "mark-d-obenshain",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Mark D. Obenshain",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d4e207c7-2e74-e111-86d3-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Mark Obenshain",
+     "committee_code": "CC-12-00166",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d4e207c7-2e74-e111-86d3-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d4e207c7-2e74-e111-86d3-984be103f032",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 2nd District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Mark D. Obenshain",
+     "party": "R",
+     "slug": "mark-d-obenshain",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd3",
@@ -88,11 +158,101 @@
     "name": "Christopher T. Head",
     "party": "R",
     "slug": "christopher-t-head",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Christopher Tracy Head",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/38347a21-4449-4c2d-a776-567809610490",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Chris Head",
+     "committee_code": "CC-22-00569",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/38347a21-4449-4c2d-a776-567809610490",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/38347a21-4449-4c2d-a776-567809610490",
+     "office_sought_record": "Member Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 3rd District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Antwhon Suiter",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/178a172a-b2a1-4bad-a2ab-6fa20c7fb77c",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Antwhon Suiter for VA",
+     "committee_code": "CC-26-00027",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/178a172a-b2a1-4bad-a2ab-6fa20c7fb77c",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/178a172a-b2a1-4bad-a2ab-6fa20c7fb77c",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "11/16/2026",
+     "district_record": "State Senate - 3rd District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Jade D Harris",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1a69f8b3-972e-464d-89e8-f00597c14152",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Jade Harris for Virginia Senate",
+     "committee_code": "CC-23-00239",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1a69f8b3-972e-464d-89e8-f00597c14152",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1a69f8b3-972e-464d-89e8-f00597c14152",
+     "office_sought_record": "Member Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 3rd District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Thomas Norment Jr.",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f83a6ad-e774-e111-86d3-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Tommy Norment",
+     "committee_code": "CC-12-00205",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f83a6ad-e774-e111-86d3-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f83a6ad-e774-e111-86d3-984be103f032",
+     "office_sought_record": "Member Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 3rd District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Christopher T. Head",
+     "party": "R",
+     "slug": "christopher-t-head",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd4",
@@ -103,11 +263,44 @@
     "name": "David R. Suetterlein",
     "party": "R",
     "slug": "david-r-suetterlein",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Patricia White-Boyd",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e489e6c4-1da0-41d5-9710-a609281d8d0a",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Trish White-Boyd For Senate",
+     "committee_code": "CC-23-00727",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e489e6c4-1da0-41d5-9710-a609281d8d0a",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e489e6c4-1da0-41d5-9710-a609281d8d0a",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 4th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "David R. Suetterlein",
+     "party": "R",
+     "slug": "david-r-suetterlein",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd5",
@@ -118,11 +311,63 @@
     "name": "T. Travis Hackworth",
     "party": "R",
     "slug": "t-travis-hackworth",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Thurman Travis Hackworth",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0ba0c973-e94e-4ddf-85f8-04b0d24ab652",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Hackworth for Virginia",
+     "committee_code": "CC-21-00027",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0ba0c973-e94e-4ddf-85f8-04b0d24ab652",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0ba0c973-e94e-4ddf-85f8-04b0d24ab652",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 5th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Lora Brown",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ecca630f-ea70-4669-a565-02e487a04739",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Lora Brown for Virginia",
+     "committee_code": "CC-26-00039",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ecca630f-ea70-4669-a565-02e487a04739",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ecca630f-ea70-4669-a565-02e487a04739",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/13/2026",
+     "district_record": "State Senate - 5th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "T. Travis Hackworth",
+     "party": "R",
+     "slug": "t-travis-hackworth",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd6",
@@ -133,11 +378,63 @@
     "name": "Todd E. Pillion",
     "party": "R",
     "slug": "todd-e-pillion",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Todd E. Pillion",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/f50a3979-fe40-e911-9f1a-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Dr. Todd Pillion.",
+     "committee_code": "CC-19-00371",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/f50a3979-fe40-e911-9f1a-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/f50a3979-fe40-e911-9f1a-984be103f032",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 6th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Jessica J. Watts",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/82d7e666-c74b-474f-8839-7815e52e5b0c",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Jessica Watts",
+     "committee_code": "CC-25-00928",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/82d7e666-c74b-474f-8839-7815e52e5b0c",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/82d7e666-c74b-474f-8839-7815e52e5b0c",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/11/2026",
+     "district_record": "State Senate - 6th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Todd E. Pillion",
+     "party": "R",
+     "slug": "todd-e-pillion",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd7",
@@ -148,11 +445,44 @@
     "name": "William M. Stanley Jr.",
     "party": "R",
     "slug": "william-m-stanley-jr",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "William (Bill) M Stanley",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e085e916-5373-e111-86d3-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Stanley For Senate",
+     "committee_code": "CC-12-00109",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e085e916-5373-e111-86d3-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e085e916-5373-e111-86d3-984be103f032",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/13/2026",
+     "district_record": "State Senate - 7th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "William M. Stanley Jr.",
+     "party": "R",
+     "slug": "william-m-stanley-jr",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd8",
@@ -163,11 +493,63 @@
     "name": "Mark J. Peake",
     "party": "R",
     "slug": "mark-j-peake",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Mark Joseph Peake",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a7597861-5849-e611-a5f2-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Peake for Senate",
+     "committee_code": "CC-16-00292",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a7597861-5849-e611-a5f2-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a7597861-5849-e611-a5f2-984be103f032",
+     "office_sought_record": "Member Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 8th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Craig Alan Cooper",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b8490dfa-06ca-4efe-abcf-093b35d92a0e",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Cooper4VA",
+     "committee_code": "CC-26-00128",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/b8490dfa-06ca-4efe-abcf-093b35d92a0e",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b8490dfa-06ca-4efe-abcf-093b35d92a0e",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 8th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Mark J. Peake",
+     "party": "R",
+     "slug": "mark-j-peake",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd9",
@@ -178,11 +560,63 @@
     "name": "Tammy Brankley Mulchi",
     "party": "R",
     "slug": "tammy-brankley-mulchi",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Frank Miller Ruff Jr.",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/16986516-69cb-e111-b0b8-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Ruff for Senate",
+     "committee_code": "CC-12-01161",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/16986516-69cb-e111-b0b8-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/16986516-69cb-e111-b0b8-984be103f032",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 9th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Patricia Marie Rassbach",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/9d2cd985-b57e-44dd-9134-9cda866bd6f5",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Committee to elect Paddy Rassbach",
+     "committee_code": "CC-26-00503",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/9d2cd985-b57e-44dd-9134-9cda866bd6f5",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/9d2cd985-b57e-44dd-9134-9cda866bd6f5",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "8/12/2026",
+     "district_record": "State Senate - 9th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Tammy Brankley Mulchi",
+     "party": "R",
+     "slug": "tammy-brankley-mulchi",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd10",
@@ -193,11 +627,110 @@
     "name": "Luther H. Cifers III",
     "party": "R",
     "slug": "luther-h-cifers-iii",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Luther Henry Cifers III",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/034b032c-a64b-415b-96af-ab64509a80e6",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Luther Cifers for Virginia",
+     "committee_code": "CC-24-00542",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/034b032c-a64b-415b-96af-ab64509a80e6",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/034b032c-a64b-415b-96af-ab64509a80e6",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 10th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Bryan P Hamlet",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0c102857-1b3c-4c8c-b7f5-60dc0cc0f8c4",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Bryan Hamlet",
+     "committee_code": "CC-24-00544",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0c102857-1b3c-4c8c-b7f5-60dc0cc0f8c4",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0c102857-1b3c-4c8c-b7f5-60dc0cc0f8c4",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 10th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "John Joseph McGuire III",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/adecf8c6-8ba5-4c8c-a91e-6a99dd43a56a",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of John McGuire SD10",
+     "committee_code": "CC-22-00162",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/adecf8c6-8ba5-4c8c-a91e-6a99dd43a56a",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/adecf8c6-8ba5-4c8c-a91e-6a99dd43a56a",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 10th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Joseph Shayne Snavely",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/81c3be66-4efd-40e3-909a-414e61b29024",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Shayne Snavely",
+     "committee_code": "CC-24-00469",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/81c3be66-4efd-40e3-909a-414e61b29024",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/81c3be66-4efd-40e3-909a-414e61b29024",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "1/15/2026",
+     "district_record": "State Senate - 10th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Luther H. Cifers III",
+     "party": "R",
+     "slug": "luther-h-cifers-iii",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "henrico",
+     "locality": "Henrico",
+     "coverage": "part",
+     "precincts": 1,
+     "locality_precincts": 90,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd11",
@@ -208,11 +741,53 @@
     "name": "R. Creigh Deeds",
     "party": "D",
     "slug": "r-creigh-deeds",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Philip Andrew Hamilton",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e074453c-9a19-4d7e-98fe-7a9f9e9632da",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Hamilton for Senate II",
+     "committee_code": "CC-25-00903",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e074453c-9a19-4d7e-98fe-7a9f9e9632da",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e074453c-9a19-4d7e-98fe-7a9f9e9632da",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 11th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "R. Creigh Deeds",
+     "party": "D",
+     "slug": "r-creigh-deeds",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "albemarle",
+     "locality": "Albemarle",
+     "coverage": "all",
+     "precincts": 30,
+     "locality_precincts": 30,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd12",
@@ -223,11 +798,148 @@
     "name": "Glen H. Sturtevant Jr.",
     "party": "R",
     "slug": "glen-h-sturtevant-jr",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Glen H. Sturtevant Jr.",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d5b80a14-35c4-e411-9733-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Glen Sturtevant",
+     "committee_code": "CC-15-00124",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d5b80a14-35c4-e411-9733-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d5b80a14-35c4-e411-9733-984be103f032",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 12th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Celvin Richardson",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b3ceb261-f1e7-4089-bab6-6c214ad8d07f",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Celvin Richardson",
+     "committee_code": "CC-26-00103",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/b3ceb261-f1e7-4089-bab6-6c214ad8d07f",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b3ceb261-f1e7-4089-bab6-6c214ad8d07f",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 12th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Laura Lee Thompson",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8087d0ff-a243-40c3-90f4-3a5449c12309",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Laura Thompson for Senate",
+     "committee_code": "CC-26-00032",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8087d0ff-a243-40c3-90f4-3a5449c12309",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8087d0ff-a243-40c3-90f4-3a5449c12309",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "12",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Natan Mckenzie",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2184398f-b50d-4078-8899-51694e91f4ed",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "SUPPORTERS OF NATAN MCKENZIE",
+     "committee_code": "CC-23-00406",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2184398f-b50d-4078-8899-51694e91f4ed",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2184398f-b50d-4078-8899-51694e91f4ed",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 12th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Randolph Todd Critzer Jr.",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/98250dab-63e3-4045-b7f6-50b7832ea65f",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Critzer for Virginia",
+     "committee_code": "CC-26-00181",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/98250dab-63e3-4045-b7f6-50b7832ea65f",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/98250dab-63e3-4045-b7f6-50b7832ea65f",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 12th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Tiawana Michelle Giles",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e4014fd3-0ba4-4766-a066-e20593d1d7ae",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Tiawana Giles",
+     "committee_code": "CC-25-00907",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e4014fd3-0ba4-4766-a066-e20593d1d7ae",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e4014fd3-0ba4-4766-a066-e20593d1d7ae",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 12th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Glen H. Sturtevant Jr.",
+     "party": "R",
+     "slug": "glen-h-sturtevant-jr",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "chesterfield",
+     "locality": "Chesterfield",
+     "coverage": "part",
+     "precincts": 47,
+     "locality_precincts": 78,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd13",
@@ -238,11 +950,33 @@
     "name": "Lashrecse D. Aird",
     "party": "D",
     "slug": "lashrecse-d-aird",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Lashrecse D. Aird",
+     "party": "D",
+     "slug": "lashrecse-d-aird",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "henrico",
+     "locality": "Henrico",
+     "coverage": "part",
+     "precincts": 21,
+     "locality_precincts": 90,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd14",
@@ -253,11 +987,33 @@
     "name": "Lamont Bagby",
     "party": "D",
     "slug": "lamont-bagby",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Lamont Bagby",
+     "party": "D",
+     "slug": "lamont-bagby",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "henrico",
+     "locality": "Henrico",
+     "coverage": "part",
+     "precincts": 13,
+     "locality_precincts": 90,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd15",
@@ -268,11 +1024,33 @@
     "name": "Michael J. Jones",
     "party": "D",
     "slug": "michael-j-jones",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Michael J. Jones",
+     "party": "D",
+     "slug": "michael-j-jones",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "chesterfield",
+     "locality": "Chesterfield",
+     "coverage": "part",
+     "precincts": 31,
+     "locality_precincts": 78,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd16",
@@ -283,11 +1061,72 @@
     "name": "Schuyler T. VanValkenburg",
     "party": "D",
     "slug": "schuyler-t-vanvalkenburg",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Alex McMurtrie Jr.",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/90f5eff3-05de-e411-924b-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Alex McMurtrie Jr. for State Senate",
+     "committee_code": "CC-15-00320",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/90f5eff3-05de-e411-924b-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/90f5eff3-05de-e411-924b-984be103f032",
+     "office_sought_record": "Member Senate of Virginia",
+     "latest_report_filed": "7/3/2026",
+     "district_record": "State Senate - 16th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Siobhan Stolle Dunnavant",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/45893cdd-91b7-e411-97fb-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Siobhan Dunnavant",
+     "committee_code": "CC-15-00113",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/45893cdd-91b7-e411-97fb-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/45893cdd-91b7-e411-97fb-984be103f032",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/8/2026",
+     "district_record": "State Senate - 16th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Schuyler T. VanValkenburg",
+     "party": "D",
+     "slug": "schuyler-t-vanvalkenburg",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "henrico",
+     "locality": "Henrico",
+     "coverage": "part",
+     "precincts": 56,
+     "locality_precincts": 90,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd17",
@@ -298,11 +1137,101 @@
     "name": "Emily M. Jordan",
     "party": "R",
     "slug": "emily-m-jordan",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Emily Jordan",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/353c7afe-e2b8-481e-8ce1-db57015c60f2",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Emily Jordan",
+     "committee_code": "CC-23-00140",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/353c7afe-e2b8-481e-8ce1-db57015c60f2",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/353c7afe-e2b8-481e-8ce1-db57015c60f2",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 17th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Danielle Noel Gibeson",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/baa3183b-bc3e-e911-9f1a-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Danielle Noel Gibeson",
+     "committee_code": "CC-19-00250",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/baa3183b-bc3e-e911-9f1a-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/baa3183b-bc3e-e911-9f1a-984be103f032",
+     "office_sought_record": "Member Senate of Virginia",
+     "latest_report_filed": "1/13/2026",
+     "district_record": "State Senate - 17th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Michael Williamson",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5f4bb6e0-87a2-4072-bc93-8afb98947578",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Williamson for Virginia",
+     "committee_code": "CC-26-00088",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5f4bb6e0-87a2-4072-bc93-8afb98947578",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5f4bb6e0-87a2-4072-bc93-8afb98947578",
+     "office_sought_record": "State Senate",
+     "latest_report_filed": "11/19/2026",
+     "district_record": "17",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Traci L Dippert",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/64b06043-76c1-e311-996a-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Dippert for Senate",
+     "committee_code": "CC-14-00137",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/64b06043-76c1-e311-996a-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/64b06043-76c1-e311-996a-984be103f032",
+     "office_sought_record": "Member Senate of Virginia",
+     "latest_report_filed": "7/13/2026",
+     "district_record": "State Senate - 17th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Emily M. Jordan",
+     "party": "R",
+     "slug": "emily-m-jordan",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd18",
@@ -313,11 +1242,24 @@
     "name": "L. Louise Lucas",
     "party": "D",
     "slug": "l-louise-lucas",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "L. Louise Lucas",
+     "party": "D",
+     "slug": "l-louise-lucas",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd19",
@@ -328,11 +1270,63 @@
     "name": "Christie New Craig",
     "party": "R",
     "slug": "christie-new-craig",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Christie New Craig",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1259a4c7-57f3-4f81-ba93-001f5182956d",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Christie New Craig for Senate",
+     "committee_code": "CC-23-00831",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1259a4c7-57f3-4f81-ba93-001f5182956d",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1259a4c7-57f3-4f81-ba93-001f5182956d",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/16/2026",
+     "district_record": "State Senate - 19th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Flourette Ketner",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fffee150-b92b-e911-8236-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Flo Ketner",
+     "committee_code": "CC-19-00175",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fffee150-b92b-e911-8236-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fffee150-b92b-e911-8236-984be103f032",
+     "office_sought_record": "Member Senate of Virginia",
+     "latest_report_filed": "7/1/2026",
+     "district_record": "State Senate - 19th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Christie New Craig",
+     "party": "R",
+     "slug": "christie-new-craig",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd20",
@@ -343,11 +1337,44 @@
     "name": "Bill DeSteph",
     "party": "R",
     "slug": "bill-desteph",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "William Robert DeSteph Jr",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fd046388-ecc7-e411-9733-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Bill DeSteph for Senate",
+     "committee_code": "CC-15-00187",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fd046388-ecc7-e411-9733-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fd046388-ecc7-e411-9733-984be103f032",
+     "office_sought_record": "Member Senate Of Virginia",
+     "latest_report_filed": "10/16/2026",
+     "district_record": "State Senate - 20th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Bill DeSteph",
+     "party": "R",
+     "slug": "bill-desteph",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd21",
@@ -358,11 +1385,63 @@
     "name": "Angelia Williams Graves",
     "party": "D",
     "slug": "angelia-williams-graves",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Angelia Williams Graves",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cc07e4d4-0ddd-467e-b8ea-a3c8401949d0",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Angelia Williams Graves",
+     "committee_code": "CC-22-00658",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cc07e4d4-0ddd-467e-b8ea-a3c8401949d0",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cc07e4d4-0ddd-467e-b8ea-a3c8401949d0",
+     "office_sought_record": "Senate",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "21",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "John Saul Edwards",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2ad0bb36-477f-e111-9bed-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Edwards for Virginia State Senate",
+     "committee_code": "CC-12-00417",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2ad0bb36-477f-e111-9bed-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2ad0bb36-477f-e111-9bed-984be103f032",
+     "office_sought_record": "Member Senate Of Virginia",
+     "latest_report_filed": "7/6/2026",
+     "district_record": "State Senate - 21st District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Angelia Williams Graves",
+     "party": "D",
+     "slug": "angelia-williams-graves",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd22",
@@ -373,11 +1452,24 @@
     "name": "Aaron R. Rouse",
     "party": "D",
     "slug": "aaron-r-rouse",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Aaron R. Rouse",
+     "party": "D",
+     "slug": "aaron-r-rouse",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd23",
@@ -388,11 +1480,44 @@
     "name": "Mamie E. Locke",
     "party": "D",
     "slug": "mamie-e-locke",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Mamie E Locke",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c1c31aa7-b236-486b-a66f-68c60d0a8ce1",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Locke for Senate",
+     "committee_code": "CC-25-00878",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c1c31aa7-b236-486b-a66f-68c60d0a8ce1",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c1c31aa7-b236-486b-a66f-68c60d0a8ce1",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 23rd District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Mamie E. Locke",
+     "party": "D",
+     "slug": "mamie-e-locke",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd24",
@@ -403,11 +1528,44 @@
     "name": "J.D. \"Danny\" Diggs",
     "party": "R",
     "slug": "j-d-diggs",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Joseph Daniel Diggs",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/210afa47-f3ae-47ab-aff0-a390454d32e1",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Diggs for Senate",
+     "committee_code": "CC-22-00138",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/210afa47-f3ae-47ab-aff0-a390454d32e1",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/210afa47-f3ae-47ab-aff0-a390454d32e1",
+     "office_sought_record": "Member Senate Of Virginia",
+     "latest_report_filed": "7/13/2026",
+     "district_record": "State Senate - 24th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "J.D. \"Danny\" Diggs",
+     "party": "R",
+     "slug": "j-d-diggs",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd25",
@@ -418,11 +1576,63 @@
     "name": "Richard H. Stuart",
     "party": "R",
     "slug": "richard-h-stuart",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Richard Henry Stuart",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c584846f-8e72-e111-86d3-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Stuart for Senate",
+     "committee_code": "CC-12-00084",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c584846f-8e72-e111-86d3-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c584846f-8e72-e111-86d3-984be103f032",
+     "office_sought_record": "Member Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 25th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Jolicia A Ward",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cbd8920c-e287-4f50-9ae2-ebb9b71c7742",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "JoliciaforVA",
+     "committee_code": "CC-23-00359",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cbd8920c-e287-4f50-9ae2-ebb9b71c7742",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cbd8920c-e287-4f50-9ae2-ebb9b71c7742",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "State Senate - 25th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Richard H. Stuart",
+     "party": "R",
+     "slug": "richard-h-stuart",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd26",
@@ -433,11 +1643,63 @@
     "name": "Ryan T. McDougle",
     "party": "R",
     "slug": "ryan-t-mcdougle",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Ryan Todd McDougle",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5ac15738-ed78-e111-86d3-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "McDougle for Virginia",
+     "committee_code": "CC-12-00287",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5ac15738-ed78-e111-86d3-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5ac15738-ed78-e111-86d3-984be103f032",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 26th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Pamela Ranea Garner",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0487141b-aa4b-4b6a-8794-f3c00ad570e1",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Pam Garner",
+     "committee_code": "CC-23-00620",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0487141b-aa4b-4b6a-8794-f3c00ad570e1",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0487141b-aa4b-4b6a-8794-f3c00ad570e1",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/1/2026",
+     "district_record": "State Senate - 26th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Ryan T. McDougle",
+     "party": "R",
+     "slug": "ryan-t-mcdougle",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd27",
@@ -448,11 +1710,82 @@
     "name": "Tara A. Durant",
     "party": "R",
     "slug": "tara-a-durant",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Tara Anne Durant",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/99d78ceb-bbfe-4439-bc7a-5ca246e439f3",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Tara Durant",
+     "committee_code": "CC-22-00215",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/99d78ceb-bbfe-4439-bc7a-5ca246e439f3",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/99d78ceb-bbfe-4439-bc7a-5ca246e439f3",
+     "office_sought_record": "Member Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 27th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Joel Griffin",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5438e951-b20b-440c-860b-04d8c71c9179",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Joel Griffin for Virginia",
+     "committee_code": "CC-23-00482",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5438e951-b20b-440c-860b-04d8c71c9179",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5438e951-b20b-440c-860b-04d8c71c9179",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/9/2026",
+     "district_record": "State Senate - 27th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Monica Gary",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e458b638-f22f-4cb6-8ec5-d7323f0b1251",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Gary for Virginia",
+     "committee_code": "CC-25-00871",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e458b638-f22f-4cb6-8ec5-d7323f0b1251",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e458b638-f22f-4cb6-8ec5-d7323f0b1251",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 27th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Tara A. Durant",
+     "party": "R",
+     "slug": "tara-a-durant",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd28",
@@ -463,11 +1796,63 @@
     "name": "Bryce E. Reeves",
     "party": "R",
     "slug": "bryce-e-reeves",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Bryce Reeves",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/9f05685b-a7c7-e111-b0b8-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Bryce Reeves",
+     "committee_code": "CC-12-01096",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/9f05685b-a7c7-e111-b0b8-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/9f05685b-a7c7-e111-b0b8-984be103f032",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 28th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Jude Melton",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/367e9ed0-681f-43c2-b020-e90730e419d1",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Jude Melton For VA",
+     "committee_code": "CC-26-00205",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/367e9ed0-681f-43c2-b020-e90730e419d1",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/367e9ed0-681f-43c2-b020-e90730e419d1",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/7/2026",
+     "district_record": "State Senate - 28th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Bryce E. Reeves",
+     "party": "R",
+     "slug": "bryce-e-reeves",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   },
   {
    "id": "sd29",
@@ -478,11 +1863,33 @@
     "name": "Jeremy S. McPike",
     "party": "D",
     "slug": "jeremy-s-mcpike",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Jeremy S. McPike",
+     "party": "D",
+     "slug": "jeremy-s-mcpike",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "prince-william",
+     "locality": "Prince William",
+     "coverage": "part",
+     "precincts": 43,
+     "locality_precincts": 103,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd30",
@@ -493,11 +1900,61 @@
     "name": "Danica A. Roem",
     "party": "D",
     "slug": "danica-a-roem",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Danica Anthony Roem",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/dfd293a5-eadf-4fed-88d8-9a6a7fd9dc01",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Danica Roem for Senate",
+     "committee_code": "CC-22-00280",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/dfd293a5-eadf-4fed-88d8-9a6a7fd9dc01",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/dfd293a5-eadf-4fed-88d8-9a6a7fd9dc01",
+     "office_sought_record": "State Senate",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "30",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Danica A. Roem",
+     "party": "D",
+     "slug": "danica-a-roem",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "prince-william",
+     "locality": "Prince William",
+     "coverage": "part",
+     "precincts": 30,
+     "locality_precincts": 103,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    },
+    {
+     "locality_id": "manassas",
+     "locality": "Manassas",
+     "coverage": "all",
+     "precincts": 6,
+     "locality_precincts": 6,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd31",
@@ -508,11 +1965,33 @@
     "name": "Russet W. Perry",
     "party": "D",
     "slug": "russet-w-perry",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Russet W. Perry",
+     "party": "D",
+     "slug": "russet-w-perry",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "loudoun",
+     "locality": "Loudoun",
+     "coverage": "part",
+     "precincts": 55,
+     "locality_precincts": 107,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd32",
@@ -523,11 +2002,72 @@
     "name": "Kannan Srinivasan",
     "party": "D",
     "slug": "kannan-srinivasan",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Janet Howell",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/4018f6d6-20cc-e111-b0b8-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Janet Howell",
+     "committee_code": "CC-12-01138",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/4018f6d6-20cc-e111-b0b8-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/4018f6d6-20cc-e111-b0b8-984be103f032",
+     "office_sought_record": "Member Senate of Virginia",
+     "latest_report_filed": "7/7/2026",
+     "district_record": "State Senate - 32nd District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Sreedhar R NagiReddi",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/96096a12-42c2-4285-be51-2739a70d1177",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "SreeForVirginia",
+     "committee_code": "CC-24-00531",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/96096a12-42c2-4285-be51-2739a70d1177",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/96096a12-42c2-4285-be51-2739a70d1177",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 32nd District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Kannan Srinivasan",
+     "party": "D",
+     "slug": "kannan-srinivasan",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "loudoun",
+     "locality": "Loudoun",
+     "coverage": "part",
+     "precincts": 53,
+     "locality_precincts": 107,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd33",
@@ -538,11 +2078,41 @@
     "name": "Jennifer D. Carroll Foy",
     "party": "D",
     "slug": "jennifer-d-carroll-foy",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Jennifer D. Carroll Foy",
+     "party": "D",
+     "slug": "jennifer-d-carroll-foy",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "fairfax-county",
+     "locality": "Fairfax County",
+     "coverage": "part",
+     "precincts": 20,
+     "locality_precincts": 265,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    },
+    {
+     "locality_id": "prince-william",
+     "locality": "Prince William",
+     "coverage": "part",
+     "precincts": 31,
+     "locality_precincts": 103,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd34",
@@ -553,11 +2123,53 @@
     "name": "Scott A. Surovell",
     "party": "D",
     "slug": "scott-a-surovell",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Scott Anthony Surovell",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6f5e1a37-3bd2-e411-924b-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Surovell for State Senate",
+     "committee_code": "CC-15-00273",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/6f5e1a37-3bd2-e411-924b-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6f5e1a37-3bd2-e411-924b-984be103f032",
+     "office_sought_record": "Senate",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "034",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Scott A. Surovell",
+     "party": "D",
+     "slug": "scott-a-surovell",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "fairfax-county",
+     "locality": "Fairfax County",
+     "coverage": "part",
+     "precincts": 47,
+     "locality_precincts": 265,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd35",
@@ -568,11 +2180,72 @@
     "name": "David W. Marsden",
     "party": "D",
     "slug": "david-w-marsden",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "David Marsden",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e94b89b0-1ecd-e111-b0b8-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Marsden for Senate",
+     "committee_code": "CC-12-01232",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e94b89b0-1ecd-e111-b0b8-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e94b89b0-1ecd-e111-b0b8-984be103f032",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 35th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Alis Wang",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/841ebd8b-8730-41eb-bf68-2234d4369d58",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Alis Wang for Virginia",
+     "committee_code": "CC-25-00860",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/841ebd8b-8730-41eb-bf68-2234d4369d58",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/841ebd8b-8730-41eb-bf68-2234d4369d58",
+     "office_sought_record": "Member, Senate Of Virginia",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "State Senate - 35th District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "David W. Marsden",
+     "party": "D",
+     "slug": "david-w-marsden",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "fairfax-county",
+     "locality": "Fairfax County",
+     "coverage": "part",
+     "precincts": 54,
+     "locality_precincts": 265,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd36",
@@ -583,11 +2256,33 @@
     "name": "Stella G. Pekarsky",
     "party": "D",
     "slug": "stella-g-pekarsky",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Stella G. Pekarsky",
+     "party": "D",
+     "slug": "stella-g-pekarsky",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "fairfax-county",
+     "locality": "Fairfax County",
+     "coverage": "part",
+     "precincts": 49,
+     "locality_precincts": 265,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd37",
@@ -598,11 +2293,41 @@
     "name": "Saddam Azlan Salim",
     "party": "D",
     "slug": "saddam-azlan-salim",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Saddam Azlan Salim",
+     "party": "D",
+     "slug": "saddam-azlan-salim",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "fairfax-county",
+     "locality": "Fairfax County",
+     "coverage": "part",
+     "precincts": 40,
+     "locality_precincts": 265,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    },
+    {
+     "locality_id": "fairfax-city",
+     "locality": "Fairfax City",
+     "coverage": "all",
+     "precincts": 6,
+     "locality_precincts": 6,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd38",
@@ -613,11 +2338,33 @@
     "name": "Jennifer B. Boysko",
     "party": "D",
     "slug": "jennifer-b-boysko",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Jennifer B. Boysko",
+     "party": "D",
+     "slug": "jennifer-b-boysko",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "fairfax-county",
+     "locality": "Fairfax County",
+     "coverage": "part",
+     "precincts": 48,
+     "locality_precincts": 265,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd39",
@@ -628,11 +2375,53 @@
     "name": "Elizabeth Bennett-Parker",
     "party": "D",
     "slug": "elizabeth-bennett-parker",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Adam Ebbin",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d98149ca-20a4-e111-8def-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Ebbin for Virginia",
+     "committee_code": "CC-12-00942",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d98149ca-20a4-e111-8def-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d98149ca-20a4-e111-8def-984be103f032",
+     "office_sought_record": "State Senate",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "39",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Elizabeth Bennett-Parker",
+     "party": "D",
+     "slug": "elizabeth-bennett-parker",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": [
+    {
+     "locality_id": "fairfax-county",
+     "locality": "Fairfax County",
+     "coverage": "part",
+     "precincts": 7,
+     "locality_precincts": 265,
+     "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ]
   },
   {
    "id": "sd40",
@@ -643,11 +2432,28 @@
     "name": "Barbara A. Favola",
     "party": "D",
     "slug": "barbara-a-favola",
-    "source_url": "https://lis.virginia.gov/"
+    "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Barbara A. Favola",
+     "party": "D",
+     "slug": "barbara-a-favola",
+     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    }
+   ],
+   "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+   "members_known": true,
+   "localities": []
   }
- ]
+ ],
+ "coverage_source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv",
+ "coverage_source_label": "Virginia Department of Elections, registered voters by House and Senate district and precinct (current districts drawn by the Supreme Court of Virginia, Dec. 2021, first used 2023)",
+ "coverage_page_url": "https://www.elections.virginia.gov/resultsreports/registration-statistics/2026-registration-statistics/",
+ "districts_source_url": "https://www.vacourts.gov/static/courts/scv/districting/redistricting_final.pdf"
 }

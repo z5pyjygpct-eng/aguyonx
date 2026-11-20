@@ -49,16 +49,16 @@ test("pills in one row widen (OR) and rows narrow (AND)", () => {
   const lou = filterEntries(all, { ...EMPTY, localities: ["loudoun"] });
   const ffx = filterEntries(all, { ...EMPTY, localities: ["fairfax-county"] });
   const both = filterEntries(all, { ...EMPTY, localities: ["loudoun", "fairfax-county"] });
-  assert.equal(both.length, lou.length + ffx.length);
+  assert.equal(both.length, new Set([...lou, ...ffx].map((e) => e.office + e.race.id)).size);
   const louBos = filterEntries(all, { ...EMPTY, localities: ["loudoun"], offices: ["bos"] });
   assert.ok(louBos.length > 0 && louBos.every((e) => e.office === "bos" && e.race.locality_id === "loudoun"));
   assert.equal(facetCount(all, EMPTY, "localities", "loudoun"), lou.length);
 });
 
 test("shared offices show under the city too, without a duplicate race", () => {
-  const city = filterEntries(all, { ...EMPTY, localities: ["fairfax-city"] });
+  const city = filterEntries(all, { ...EMPTY, localities: ["fairfax-city"], offices: ["bos", "sb", "co"] });
   assert.deepEqual(city.map((e) => e.race.id).sort(), ["fairfax-county-commonwealth-s-attorney", "fairfax-county-sheriff"]);
-  const man = filterEntries(all, { ...EMPTY, localities: ["manassas"] });
+  const man = filterEntries(all, { ...EMPTY, localities: ["manassas"], offices: ["bos", "sb", "co"] });
   assert.deepEqual(man.map((e) => e.race.id).sort(), ["prince-william-commonwealth-s-attorney", "prince-william-sheriff"]);
   assert.ok(!all.some((e) => e.race.id.startsWith("fairfax-city-") || e.race.id.startsWith("manassas-")));
 });
@@ -67,7 +67,7 @@ test("search matches district number, office, locality and seat", () => {
   const q = (s: string) => filterEntries(all, { ...EMPTY, q: s });
   assert.deepEqual(q("House District 45").map((e) => e.race.id), ["hd45"]);
   assert.ok(q("45").some((e) => e.race.id === "hd45") && q("45").some((e) => e.race.id === "sd45") === false);
-  assert.ok(q("henrico").length === 12);
+  assert.equal(q("henrico").filter((e) => e.race.locality_id).length, 12);
   assert.ok(q("sheriff").every((e) => e.office === "co"));
   assert.ok(q("Hunter Mill").length === 2);
   const withMember = all.find((e) => e.race.current_member)!;
@@ -98,7 +98,7 @@ test("URL query round-trips and drops unknown values", () => {
 test("Loudoun + Contested is a valid, shareable view", () => {
   const f = toFilters(parseDirSearch({ r_loc: "loudoun", r_status: "contested" }));
   const out: Entry[] = filterEntries(all, f);
-  assert.ok(out.every((e) => e.race.locality_id === "loudoun" && e.status === "contested"));
+  assert.ok(out.length > 0 && out.every((e) => e.localityIds.includes("loudoun") && e.status === "contested"));
 });
 
 test("chart statuses line up with the filter statuses", async () => {
@@ -113,14 +113,14 @@ test("chart statuses line up with the filter statuses", async () => {
   assert.equal(t.contested + t.one + t.unopposed + t.none, all.length);
 });
 
-test("party counts use only the filing's party and treat school board blanks as nonpartisan", async () => {
+test("party counts use only the record's party; a blank party is 'Party not listed', never R, D or Other", async () => {
   const { partyCount } = await import("./elections-2027.ts");
   const base = { id: "x", seat: "X", seats: 1, source_url: "https://a", filing_source_url: "https://b" };
   const c = (party: string | null) => ({ name: "n", incumbent: false, party, party_source_url: null, filing_source_url: "u" });
   const e: Entry = { office: "bos", status: "contested", localityIds: [], localityName: null, race: { ...base, candidates: [c("R"), c("D"), c("D"), c("Other")] } };
-  assert.deepEqual(partyCount(e), { R: 1, D: 2, Other: 1, nonpartisan: 0, total: 4 });
+  assert.deepEqual(partyCount(e), { R: 1, D: 2, Other: 1, notListed: 0, total: 4 });
   const sb: Entry = { office: "sb", status: "contested", localityIds: [], localityName: null, race: { ...base, candidates: [c(null), c(null)] } };
-  assert.deepEqual(partyCount(sb), { R: 0, D: 0, Other: 0, nonpartisan: 2, total: 2 });
+  assert.deepEqual(partyCount(sb), { R: 0, D: 0, Other: 0, notListed: 2, total: 2 });
 });
 
 test("official filed-date windows count days in Eastern Time and never guess a date", async () => {
@@ -157,4 +157,53 @@ test("official filed-date windows count days in Eastern Time and never guess a d
   assert.equal(filterEntries(es, { ...f, filed: "today", localities: ["albemarle"] }).length, 0, "combines with other pills");
   assert.equal(toFilters(parseDirSearch({ r_filed: "45d" })).filed, "45d");
   assert.equal(parseDirSearch({ r_filed: "90d" }).r_filed, undefined);
+});
+
+test("every filled seat is a registered campaign committee linked to its official record", () => {
+  let n = 0;
+  for (const e of all) for (const c of e.race.candidates) {
+    n++;
+    assert.equal(c.filing_kind, "registration", c.name);
+    assert.equal(c.label, "Registered campaign committee, not yet on the ballot");
+    assert.match(c.committee_url ?? "", /^https:\/\/cfreports\.elections\.virginia\.gov\/Committee\/Index\//, c.name);
+    assert.ok(c.party === null || ["D", "R", "Other"].includes(c.party), c.name);
+    if (c.party) assert.ok(c.party_source_url, "a party always has its record");
+    assert.equal(c.filed_date, null, "the committee record prints no registration date, so none is invented");
+    if (e.office !== "house" && e.office !== "senate") assert.match(c.statement_url ?? "", /StatementOfOrganization/, "local match uses the Statement of Organization");
+  }
+  assert.ok(n > 100, `registrations loaded (${n})`);
+});
+
+test("current members come only from official member lists", () => {
+  for (const e of all) for (const m of e.race.current_members ?? []) {
+    assert.match(m.source_url, /house\.vga\.virginia\.gov|apps\.senate\.virginia\.gov|loudoun\.gov|fairfaxcounty\.gov|fcps\.edu|pwcva\.gov|henrico\.gov|oneccps\.org/, m.name);
+  }
+  assert.equal(all.find((e) => e.race.id === "hd10")!.race.current_member!.name, "Dan Helmer");
+});
+
+test("coverage: House and Senate districts per locality come from the official registrant file, with full or part coverage", async () => {
+  const { districtsForLocality } = await import("./elections-2027.ts");
+  const ids = (o: "house" | "senate", l: string) => districtsForLocality(all, o, l).map((x) => `${x.e.race.district}:${x.cov.coverage}`);
+  assert.deepEqual(ids("house", "loudoun"), ["26:part", "27:part", "28:part", "29:part", "30:part"]);
+  assert.deepEqual(ids("senate", "loudoun"), ["31:part", "32:part"]);
+  assert.deepEqual(ids("house", "fairfax-city"), ["11:all"]);
+  assert.deepEqual(ids("senate", "fairfax-city"), ["37:all"]);
+  assert.deepEqual(ids("house", "manassas"), ["20:all"]);
+  assert.deepEqual(ids("senate", "manassas"), ["30:all"]);
+  assert.deepEqual(ids("senate", "albemarle"), ["11:all"]);
+  for (const l of ["loudoun", "fairfax-county", "prince-william", "henrico", "chesterfield", "albemarle", "fairfax-city", "manassas"]) {
+    for (const o of ["house", "senate"] as const) {
+      const d = districtsForLocality(all, o, l);
+      assert.ok(d.length > 0, `${o} ${l}`);
+      for (const x of d) assert.match(x.cov.source_url, /^https:\/\/www\.elections\.virginia\.gov\/media\/registration-statistics\/.*Daily_Registrant_Count_By_(House|Senate)_/, `${o} ${l}`);
+      // "all" only when the locality sits in exactly one district of that chamber
+      assert.ok(d.every((x) => (x.cov.coverage === "all") === (d.length === 1)), `${o} ${l}`);
+    }
+  }
+});
+
+test("the locality pill also filters House and Senate races to the districts touching that locality", () => {
+  const lou = filterEntries(all, { ...EMPTY, localities: ["loudoun"], offices: ["house", "senate"] });
+  assert.deepEqual(lou.map((e) => e.race.id).sort(), ["hd26", "hd27", "hd28", "hd29", "hd30", "sd31", "sd32"]);
+  assert.ok(!filterEntries(all, { ...EMPTY, localities: ["loudoun"] }).some((e) => e.race.id === "hd10"));
 });

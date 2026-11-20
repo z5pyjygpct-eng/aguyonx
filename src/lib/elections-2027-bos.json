@@ -47,6 +47,10 @@
   }
  ],
  "filings_note": "No official candidate list for the Nov. 2, 2027 election has been posted yet.",
+ "ballot_list_posted": [],
+ "registrations_source_url": "https://apps.elections.virginia.gov/SBE_CSV/CF/",
+ "registrations_label": "Registered campaign committee, not yet on the ballot",
+ "registrations_note": "Registered 2027 campaign committees (official state record); ballot lists not yet posted.",
  "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
  "localities": [
   {
@@ -135,7 +139,80 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Phyllis J Randall",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f0e5872-7496-e411-b268-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Phyllis Randall",
+     "committee_code": "CC-14-00415",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f0e5872-7496-e411-b268-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f0e5872-7496-e411-b268-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/0f0e5872-7496-e411-b268-984be103f032/pdf/cfreports",
+     "residence": "Loudoun County",
+     "office_sought_record": "Chairman Board Of Supervisors",
+     "latest_report_filed": "7/14/2026",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Gary Lawrence Katz",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/856e8de6-8a47-4cdf-8f67-3e15ff93732a",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Katz for Chair",
+     "committee_code": "CC-23-02353",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/856e8de6-8a47-4cdf-8f67-3e15ff93732a",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/856e8de6-8a47-4cdf-8f67-3e15ff93732a",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/856e8de6-8a47-4cdf-8f67-3e15ff93732a/pdf/cfreports",
+     "residence": "Loudoun County",
+     "office_sought_record": "Chairman Board Of Supervisors",
+     "latest_report_filed": "7/10/2026",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Samuel Robert Kroiz",
+     "incumbent": false,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/bd86fbff-c12e-436d-8ba6-44db6105c492",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Sam4Chairman",
+     "committee_code": "CC-23-00626",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/bd86fbff-c12e-436d-8ba6-44db6105c492",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/bd86fbff-c12e-436d-8ba6-44db6105c492",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/bd86fbff-c12e-436d-8ba6-44db6105c492/pdf/cfreports",
+     "residence": "Loudoun County",
+     "office_sought_record": "Chairman Board Of Supervisors",
+     "latest_report_filed": "7/3/2026",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Phyllis J. Randall",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/m/directory/department?did=4"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
+   "members_known": true
   },
   {
    "id": "loudoun-algonkian",
@@ -147,7 +224,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Debbie Rose",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e810cef5-fc20-4824-998b-94217c4a89a6",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Rose for Supervisor",
+     "committee_code": "CC-23-00788",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e810cef5-fc20-4824-998b-94217c4a89a6",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e810cef5-fc20-4824-998b-94217c4a89a6",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e810cef5-fc20-4824-998b-94217c4a89a6/pdf/cfreports",
+     "residence": "Loudoun County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "1/15/2026",
+     "district_record": "Election - Algonkian District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Juli E. Briskman",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/m/directory/department?did=4"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
+   "members_known": true
   },
   {
    "id": "loudoun-ashburn",
@@ -159,7 +267,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Michael R Turner",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/9ee73c78-f793-e811-b888-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Mike Turner for Ashburn.",
+     "committee_code": "CC-18-00343",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/9ee73c78-f793-e811-b888-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/9ee73c78-f793-e811-b888-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/9ee73c78-f793-e811-b888-984be103f032/pdf/cfreports",
+     "residence": "LOUDOUN COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/12/2026",
+     "district_record": "Election - ASHBURN DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Michael R. Turner",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/m/directory/department?did=4"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
+   "members_known": true
   },
   {
    "id": "loudoun-broad-run",
@@ -171,7 +310,59 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Sylvia Glass",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cae9cf5c-0ca7-e811-a517-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Sylvia Glass",
+     "committee_code": "CC-18-00388",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cae9cf5c-0ca7-e811-a517-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cae9cf5c-0ca7-e811-a517-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/cae9cf5c-0ca7-e811-a517-984be103f032/pdf/cfreports",
+     "residence": "LOUDOUN COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - BROAD RUN DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Shawn Williams",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/08fd10ba-47cf-e111-b0b8-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Shawn Williams",
+     "committee_code": "CC-12-01279",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/08fd10ba-47cf-e111-b0b8-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/08fd10ba-47cf-e111-b0b8-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/08fd10ba-47cf-e111-b0b8-984be103f032/pdf/cfreports",
+     "residence": "LOUDOUN COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "Election - BROAD RUN DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Sylvia R. Glass",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/m/directory/department?did=4"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
+   "members_known": true
   },
   {
    "id": "loudoun-catoctin",
@@ -183,7 +374,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Caleb A. Kershner",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7bf2c602-c6ab-493e-bfe6-9928c3ab1a16",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Caleb 4 Catoctin",
+     "committee_code": "CC-23-01089",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7bf2c602-c6ab-493e-bfe6-9928c3ab1a16",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7bf2c602-c6ab-493e-bfe6-9928c3ab1a16",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/7bf2c602-c6ab-493e-bfe6-9928c3ab1a16/pdf/cfreports",
+     "residence": "Loudoun County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/10/2026",
+     "district_record": "Election - Catoctin District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Caleb A. Kershner",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/m/directory/department?did=4"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
+   "members_known": true
   },
   {
    "id": "loudoun-dulles",
@@ -195,7 +417,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Matthew Letourneau",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/df4b4c73-ebc9-e111-b0b8-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Matt Letourneau",
+     "committee_code": "CC-12-01135",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/df4b4c73-ebc9-e111-b0b8-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/df4b4c73-ebc9-e111-b0b8-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/df4b4c73-ebc9-e111-b0b8-984be103f032/pdf/cfreports",
+     "residence": "LOUDOUN COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/13/2026",
+     "district_record": "Election - DULLES DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Matthew F. Letourneau",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/m/directory/department?did=4"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
+   "members_known": true
   },
   {
    "id": "loudoun-leesburg",
@@ -207,7 +460,59 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Kristen Coles Umstattd",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ab4cf133-c567-4742-acf0-03e195c382c8",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Kristen4Leesburg",
+     "committee_code": "CC-23-00577",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ab4cf133-c567-4742-acf0-03e195c382c8",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ab4cf133-c567-4742-acf0-03e195c382c8",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/ab4cf133-c567-4742-acf0-03e195c382c8/pdf/cfreports",
+     "residence": "Loudoun County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/12/2026",
+     "district_record": "Election - Leesburg District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Charles Jonathan Mattia",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fb0c70b0-bdcb-4cfa-b01d-1031a66eb7a3",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Mattia For Board",
+     "committee_code": "CC-26-00355",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fb0c70b0-bdcb-4cfa-b01d-1031a66eb7a3",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fb0c70b0-bdcb-4cfa-b01d-1031a66eb7a3",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/fb0c70b0-bdcb-4cfa-b01d-1031a66eb7a3/pdf/cfreports",
+     "residence": "Loudoun County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/3/2026",
+     "district_record": "Election - Leesburg District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Kristen C. Umstattd",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/m/directory/department?did=4"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
+   "members_known": true
   },
   {
    "id": "loudoun-little-river",
@@ -219,7 +524,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Laura Ann TeKrony",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/139b42a5-e7ba-4bc1-9be2-6fb3e0bc4187",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Laura A. TeKrony",
+     "committee_code": "CC-23-01821",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/139b42a5-e7ba-4bc1-9be2-6fb3e0bc4187",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/139b42a5-e7ba-4bc1-9be2-6fb3e0bc4187",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/139b42a5-e7ba-4bc1-9be2-6fb3e0bc4187/pdf/cfreports",
+     "residence": "Loudoun County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "Election - Little River District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Laura A. TeKrony",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/m/directory/department?did=4"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
+   "members_known": true
   },
   {
    "id": "loudoun-sterling",
@@ -231,7 +567,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Eugene Anthony Delgaudio",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2242d421-88e0-e411-a05b-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Eugene Delgaudio",
+     "committee_code": "CC-15-00354",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2242d421-88e0-e411-a05b-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2242d421-88e0-e411-a05b-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/2242d421-88e0-e411-a05b-984be103f032/pdf/cfreports",
+     "residence": "LOUDOUN COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/7/2026",
+     "district_record": "Election - STERLING DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Koran T. Saines",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/m/directory/department?did=4"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
+   "members_known": true
   },
   {
    "id": "fairfax-county-chair",
@@ -243,7 +610,16 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Jeffrey C. McKay",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-braddock",
@@ -255,7 +631,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Sabrina Mattin",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/91a9a550-0c56-4eb3-9b2c-acaaf8a1bec7",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Sabrina Mattin for Braddock Supervisor",
+     "committee_code": "CC-25-00768",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/91a9a550-0c56-4eb3-9b2c-acaaf8a1bec7",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/91a9a550-0c56-4eb3-9b2c-acaaf8a1bec7",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/91a9a550-0c56-4eb3-9b2c-acaaf8a1bec7/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Braddock District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Rachna Sizemore Heizer",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-dranesville",
@@ -267,7 +674,59 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "James Norman Bierman Jr.",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8c5d956f-3e75-46f2-b9ab-646249cdd54f",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Jimmy Bierman for Supervisor",
+     "committee_code": "CC-22-00732",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8c5d956f-3e75-46f2-b9ab-646249cdd54f",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8c5d956f-3e75-46f2-b9ab-646249cdd54f",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/8c5d956f-3e75-46f2-b9ab-646249cdd54f/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/13/2026",
+     "district_record": "Election - Dranesville District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "John William Foust",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1822f9f1-c4c9-e111-b0b8-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "John Foust for Supervisor",
+     "committee_code": "CC-12-01061",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1822f9f1-c4c9-e111-b0b8-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1822f9f1-c4c9-e111-b0b8-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/1822f9f1-c4c9-e111-b0b8-984be103f032/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/9/2026",
+     "district_record": "Election - Dranesville District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "James N. Bierman, Jr.",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-franconia",
@@ -279,7 +738,16 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Rodney L. Lusk",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-hunter-mill",
@@ -291,7 +759,16 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Walter L. Alcorn",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-mason",
@@ -303,7 +780,59 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Andres Jimenez",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/21227eb7-c2ef-49dc-aa47-3f148a6cb3b3",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Andres for Supervisor",
+     "committee_code": "CC-22-00726",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/21227eb7-c2ef-49dc-aa47-3f148a6cb3b3",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/21227eb7-c2ef-49dc-aa47-3f148a6cb3b3",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/21227eb7-c2ef-49dc-aa47-3f148a6cb3b3/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Mason District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Jeremy G. Allen",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d0e9ee75-12f4-472e-8d94-67dbeacf4f29",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Jeremy Allen",
+     "committee_code": "CC-22-00764",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d0e9ee75-12f4-472e-8d94-67dbeacf4f29",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d0e9ee75-12f4-472e-8d94-67dbeacf4f29",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/d0e9ee75-12f4-472e-8d94-67dbeacf4f29/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/8/2026",
+     "district_record": "Election - Mason District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Andres F. Jimenez",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-mount-vernon",
@@ -315,7 +844,80 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Dan G Storck",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d025b22b-6ab0-e411-97fb-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Dan Storck for Supervisor",
+     "committee_code": "CC-15-00117",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d025b22b-6ab0-e411-97fb-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d025b22b-6ab0-e411-97fb-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/d025b22b-6ab0-e411-97fb-984be103f032/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Mount Vernon District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Christopher Thomas Morgan",
+     "incumbent": false,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ff7de629-107b-4164-9cf2-a4b75708efbe",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Christopher Morgan for Fairfax County",
+     "committee_code": "CC-23-00897",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ff7de629-107b-4164-9cf2-a4b75708efbe",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ff7de629-107b-4164-9cf2-a4b75708efbe",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/ff7de629-107b-4164-9cf2-a4b75708efbe/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Mount Vernon District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Maritza Zermeno",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e2ae4732-2971-46ff-b167-69fa188f6887",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "MZ4MV",
+     "committee_code": "CC-23-00757",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e2ae4732-2971-46ff-b167-69fa188f6887",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e2ae4732-2971-46ff-b167-69fa188f6887",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e2ae4732-2971-46ff-b167-69fa188f6887/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/12/2026",
+     "district_record": "Election - Mount Vernon District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Daniel G. Storck",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-providence",
@@ -327,7 +929,16 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Dalia A. Palchik",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-springfield",
@@ -339,7 +950,80 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Alberto Vega",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d432f736-59b3-4794-a5ad-adf3a28aed83",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Albert Vega",
+     "committee_code": "CC-22-00302",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d432f736-59b3-4794-a5ad-adf3a28aed83",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d432f736-59b3-4794-a5ad-adf3a28aed83",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/d432f736-59b3-4794-a5ad-adf3a28aed83/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Springfield District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "John Nowadly",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b1372a2f-6e85-46cb-808f-83d92cf179e0",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of John Nowadly",
+     "committee_code": "CC-23-00154",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/b1372a2f-6e85-46cb-808f-83d92cf179e0",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b1372a2f-6e85-46cb-808f-83d92cf179e0",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/b1372a2f-6e85-46cb-808f-83d92cf179e0/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Springfield District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Natalie Thao Ngan Nguyen Woodruff",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fe4d5ff7-3ef4-4e89-81f9-23c030b7e6bb",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Natalie Nguyen Woodruff",
+     "committee_code": "CC-26-00015",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fe4d5ff7-3ef4-4e89-81f9-23c030b7e6bb",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fe4d5ff7-3ef4-4e89-81f9-23c030b7e6bb",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/fe4d5ff7-3ef4-4e89-81f9-23c030b7e6bb/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "Election - Springfield District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Pat Herrity",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-sully",
@@ -351,7 +1035,16 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Kathy L. Smith",
+     "party": null,
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
+   "members_known": true
   },
   {
    "id": "prince-william-chair",
@@ -363,7 +1056,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Deshundra Jefferson",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8f8e0473-da18-4ed1-8efe-581f6d2a29fd",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Committee to Elect Deshundra",
+     "committee_code": "CC-23-00174",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8f8e0473-da18-4ed1-8efe-581f6d2a29fd",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8f8e0473-da18-4ed1-8efe-581f6d2a29fd",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/8f8e0473-da18-4ed1-8efe-581f6d2a29fd/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Chairman - Board Of Supervisors",
+     "latest_report_filed": "7/13/2026",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Deshundra Jefferson",
+     "party": null,
+     "source_url": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+   ],
+   "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
+   "members_known": true
   },
   {
    "id": "prince-william-brentsville",
@@ -375,7 +1099,59 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Thomas T Gordy",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/005d646c-69d4-4dcc-ab82-52a3a7725d05",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Gordy for Brentsville",
+     "committee_code": "CC-23-00703",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/005d646c-69d4-4dcc-ab82-52a3a7725d05",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/005d646c-69d4-4dcc-ab82-52a3a7725d05",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/005d646c-69d4-4dcc-ab82-52a3a7725d05/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Brentsville District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "James Richard Gehlsen",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/3bb904ae-1999-400b-81d4-b1fb38084882",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Elect Jim Gehlsen",
+     "committee_code": "CC-23-00921",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3bb904ae-1999-400b-81d4-b1fb38084882",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/3bb904ae-1999-400b-81d4-b1fb38084882",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/3bb904ae-1999-400b-81d4-b1fb38084882/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/10/2026",
+     "district_record": "Election - Brentsville District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Tom Gordy",
+     "party": null,
+     "source_url": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+   ],
+   "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
+   "members_known": true
   },
   {
    "id": "prince-william-coles",
@@ -387,7 +1163,80 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Yesli Vega",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0155bd76-dc02-e911-8e39-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Yesli Vega",
+     "committee_code": "CC-18-00564",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0155bd76-dc02-e911-8e39-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0155bd76-dc02-e911-8e39-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/0155bd76-dc02-e911-8e39-984be103f032/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Coles District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Idris Jibowu-O'Connor",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7c90fcea-3e90-497d-9e3f-52cc7497db21",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Idris for Supervisor",
+     "committee_code": "CC-23-00353",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7c90fcea-3e90-497d-9e3f-52cc7497db21",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7c90fcea-3e90-497d-9e3f-52cc7497db21",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/7c90fcea-3e90-497d-9e3f-52cc7497db21/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Coles District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Lisa Zargarpur",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/3b792341-63b0-4e8d-ac9d-5407ac64f27d",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Lisa For Supervisor",
+     "committee_code": "CC-26-00318",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3b792341-63b0-4e8d-ac9d-5407ac64f27d",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/3b792341-63b0-4e8d-ac9d-5407ac64f27d",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/3b792341-63b0-4e8d-ac9d-5407ac64f27d/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Coles District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Yesli Vega",
+     "party": null,
+     "source_url": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+   ],
+   "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
+   "members_known": true
   },
   {
    "id": "prince-william-gainesville",
@@ -399,7 +1248,16 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "George Stewart",
+     "party": null,
+     "source_url": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+   ],
+   "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
+   "members_known": true
   },
   {
    "id": "prince-william-neabsco",
@@ -411,7 +1269,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Victor Sean Angry",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0b197897-0439-e911-936e-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Victor Angry",
+     "committee_code": "CC-19-00301",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0b197897-0439-e911-936e-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0b197897-0439-e911-936e-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/0b197897-0439-e911-936e-984be103f032/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Neabsco District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Victor S. Angry",
+     "party": null,
+     "source_url": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+   ],
+   "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
+   "members_known": true
   },
   {
    "id": "prince-william-occoquan",
@@ -423,7 +1312,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Kenny Allen Boddye",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7488ffa4-ebb5-e811-bffd-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Boddye for Supervisor",
+     "committee_code": "CC-18-00418",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7488ffa4-ebb5-e811-bffd-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7488ffa4-ebb5-e811-bffd-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/7488ffa4-ebb5-e811-bffd-984be103f032/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Occoquan District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Kenny A. Boddye",
+     "party": null,
+     "source_url": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+   ],
+   "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
+   "members_known": true
   },
   {
    "id": "prince-william-potomac",
@@ -435,7 +1355,59 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Andrea Olivia Bailey",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/60b57784-04a1-e411-b268-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Andrea Bailey",
+     "committee_code": "CC-15-00011",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/60b57784-04a1-e411-b268-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/60b57784-04a1-e411-b268-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/60b57784-04a1-e411-b268-984be103f032/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "Election - Potomac District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Verndell C Robinson",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b40a78e6-4ef2-4020-bb26-82e92301da10",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Vern Robinson for Supervisor",
+     "committee_code": "CC-23-00978",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/b40a78e6-4ef2-4020-bb26-82e92301da10",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b40a78e6-4ef2-4020-bb26-82e92301da10",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/b40a78e6-4ef2-4020-bb26-82e92301da10/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Potomac District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Andrea O. Bailey",
+     "party": null,
+     "source_url": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+   ],
+   "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
+   "members_known": true
   },
   {
    "id": "prince-william-woodbridge",
@@ -447,7 +1419,59 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Margaret Angela Franklin",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/01005f4b-cab6-e811-bffd-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Margaret For Woodbridge",
+     "committee_code": "CC-18-00416",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/01005f4b-cab6-e811-bffd-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/01005f4b-cab6-e811-bffd-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/01005f4b-cab6-e811-bffd-984be103f032/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Woodbridge District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Oriella Abigail Mejia",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c18320bf-c7e5-4c76-af61-0ef3660a28c9",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Oriella Mejia",
+     "committee_code": "CC-26-00485",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c18320bf-c7e5-4c76-af61-0ef3660a28c9",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c18320bf-c7e5-4c76-af61-0ef3660a28c9",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/c18320bf-c7e5-4c76-af61-0ef3660a28c9/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Woodbridge District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Jeannie LaCroix",
+     "party": null,
+     "source_url": "https://www.pwcva.gov/department/board-county-supervisors"
+    }
+   ],
+   "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
+   "members_known": true
   },
   {
    "id": "henrico-brookland",
@@ -459,7 +1483,80 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Daniel John Schmitt",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0e1fc415-7983-e811-add8-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Dan Schmitt",
+     "committee_code": "CC-18-00299",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0e1fc415-7983-e811-add8-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0e1fc415-7983-e811-add8-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/0e1fc415-7983-e811-add8-984be103f032/pdf/cfreports",
+     "residence": "Henrico County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/7/2026",
+     "district_record": "Election - Brookland District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Benjamin Steven Dessart",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8ac810c2-1008-e711-b7b5-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Ben Dessart for Supervisor",
+     "committee_code": "CC-17-00175",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8ac810c2-1008-e711-b7b5-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8ac810c2-1008-e711-b7b5-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/8ac810c2-1008-e711-b7b5-984be103f032/pdf/cfreports",
+     "residence": "HENRICO COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "Election - BROOKLAND DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "John Steven Burkarth",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/92fcf958-585c-e911-b2a4-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Steven Burkarth",
+     "committee_code": "CC-19-00600",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/92fcf958-585c-e911-b2a4-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/92fcf958-585c-e911-b2a4-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/92fcf958-585c-e911-b2a4-984be103f032/pdf/cfreports",
+     "residence": "HENRICO COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - BROOKLAND DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Daniel J. Schmitt",
+     "party": null,
+     "source_url": "https://henrico.gov/supervisors/"
+    }
+   ],
+   "members_source_url": "https://henrico.gov/supervisors/",
+   "members_known": true
   },
   {
    "id": "henrico-fairfield",
@@ -471,7 +1568,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Delta R. Bowers",
+     "incumbent": false,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a286c860-a454-e911-b2a4-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Delta R. Bowers",
+     "committee_code": "CC-19-00529",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a286c860-a454-e911-b2a4-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a286c860-a454-e911-b2a4-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a286c860-a454-e911-b2a4-984be103f032/pdf/cfreports",
+     "residence": "HENRICO COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "1/8/2026",
+     "district_record": "Election - FAIRFIELD DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Roscoe D. Cooper III",
+     "party": null,
+     "source_url": "https://henrico.gov/supervisors/"
+    }
+   ],
+   "members_source_url": "https://henrico.gov/supervisors/",
+   "members_known": true
   },
   {
    "id": "henrico-three-chopt",
@@ -483,7 +1611,16 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": []
+   "candidates": [],
+   "current_members": [
+    {
+     "name": "Misty D. Roundtree",
+     "party": null,
+     "source_url": "https://henrico.gov/supervisors/"
+    }
+   ],
+   "members_source_url": "https://henrico.gov/supervisors/",
+   "members_known": true
   },
   {
    "id": "henrico-tuckahoe",
@@ -495,7 +1632,59 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Joseph (Jody) K Rogish",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/aee78d00-ede0-41a1-b42d-d7c21f924c0c",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Jody Rogish for Tuckahoe",
+     "committee_code": "CC-23-00499",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/aee78d00-ede0-41a1-b42d-d7c21f924c0c",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/aee78d00-ede0-41a1-b42d-d7c21f924c0c",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/aee78d00-ede0-41a1-b42d-d7c21f924c0c/pdf/cfreports",
+     "residence": "Henrico County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/11/2026",
+     "district_record": "Election - Tuckahoe District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Anne-Marie J. Leake",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7df43e69-0315-48f9-a466-07748e98216d",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Anne-Marie J. Leake",
+     "committee_code": "CC-23-00565",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7df43e69-0315-48f9-a466-07748e98216d",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7df43e69-0315-48f9-a466-07748e98216d",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/7df43e69-0315-48f9-a466-07748e98216d/pdf/cfreports",
+     "residence": "Henrico County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "1/14/2026",
+     "district_record": "Election - Tuckahoe District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Jody K. Rogish",
+     "party": null,
+     "source_url": "https://henrico.gov/supervisors/"
+    }
+   ],
+   "members_source_url": "https://henrico.gov/supervisors/",
+   "members_known": true
   },
   {
    "id": "henrico-varina",
@@ -507,7 +1696,38 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Tyrone Edward Nelson",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a89cea71-65ae-e111-89db-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Tyrone Nelson",
+     "committee_code": "CC-12-00981",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a89cea71-65ae-e111-89db-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a89cea71-65ae-e111-89db-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a89cea71-65ae-e111-89db-984be103f032/pdf/cfreports",
+     "residence": "Henrico County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "Election - Varina District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Tyrone E. Nelson",
+     "party": null,
+     "source_url": "https://henrico.gov/supervisors/"
+    }
+   ],
+   "members_source_url": "https://henrico.gov/supervisors/",
+   "members_known": true
   },
   {
    "id": "chesterfield-bermuda",
@@ -519,7 +1739,52 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Jim A Ingle Jr.",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ac6d8a91-2436-e911-936e-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Jim Ingle",
+     "committee_code": "CC-19-00297",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ac6d8a91-2436-e911-936e-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ac6d8a91-2436-e911-936e-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/ac6d8a91-2436-e911-936e-984be103f032/pdf/cfreports",
+     "residence": "CHESTERFIELD COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/6/2026",
+     "district_record": "Election - BERMUDA DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Murtaza Khalid Khan",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a757b41b-335a-e911-b2a4-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Murti Khan",
+     "committee_code": "CC-19-00560",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a757b41b-335a-e911-b2a4-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a757b41b-335a-e911-b2a4-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a757b41b-335a-e911-b2a4-984be103f032/pdf/cfreports",
+     "residence": "CHESTERFIELD COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/8/2026",
+     "district_record": "Election - BERMUDA DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [],
+   "members_known": false
   },
   {
    "id": "chesterfield-clover-hill",
@@ -531,7 +1796,31 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Jessica Lynn Schneider",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d5fc0614-c557-4bd5-b897-d2953d9044b7",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Jessica L Schneider",
+     "committee_code": "CC-22-00741",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d5fc0614-c557-4bd5-b897-d2953d9044b7",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d5fc0614-c557-4bd5-b897-d2953d9044b7",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/d5fc0614-c557-4bd5-b897-d2953d9044b7/pdf/cfreports",
+     "residence": "Chesterfield County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/14/2026",
+     "district_record": "Election - Clover Hill District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [],
+   "members_known": false
   },
   {
    "id": "chesterfield-dale",
@@ -543,7 +1832,9 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": []
+   "candidates": [],
+   "current_members": [],
+   "members_known": false
   },
   {
    "id": "chesterfield-matoaca",
@@ -555,7 +1846,31 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Kevin Carroll",
+     "incumbent": false,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2424590a-e214-e911-94e1-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Kevin Carroll",
+     "committee_code": "CC-19-00056",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2424590a-e214-e911-94e1-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2424590a-e214-e911-94e1-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/2424590a-e214-e911-94e1-984be103f032/pdf/cfreports",
+     "residence": "Chesterfield County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/5/2026",
+     "district_record": "Election - Matoaca District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [],
+   "members_known": false
   },
   {
    "id": "chesterfield-midlothian",
@@ -567,7 +1882,52 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Erin Phelan",
+     "incumbent": false,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/dd6e059d-566d-479f-a12b-565bace2461d",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Candidate Campaign Committee of Erin Phelan for Supervisor",
+     "committee_code": "CC-23-01487",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/dd6e059d-566d-479f-a12b-565bace2461d",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/dd6e059d-566d-479f-a12b-565bace2461d",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/dd6e059d-566d-479f-a12b-565bace2461d/pdf/cfreports",
+     "residence": "Chesterfield County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "2/14/2025",
+     "district_record": "Election - Midlothian District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Mark Miller",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/bc0e4c6c-5987-488c-8e72-3c8f658a3f77",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Mark Miller",
+     "committee_code": "CC-22-00547",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/bc0e4c6c-5987-488c-8e72-3c8f658a3f77",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/bc0e4c6c-5987-488c-8e72-3c8f658a3f77",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/bc0e4c6c-5987-488c-8e72-3c8f658a3f77/pdf/cfreports",
+     "residence": "Chesterfield County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/5/2026",
+     "district_record": "Election - Midlothian District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [],
+   "members_known": false
   },
   {
    "id": "albemarle-rivanna",
@@ -579,7 +1939,52 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.albemarle.org/government/elections",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Jerrod M Smith",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cba8c706-8c1e-e911-94e1-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Jerrod Smith BOS Campaign Commitee",
+     "committee_code": "CC-19-00173",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cba8c706-8c1e-e911-94e1-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cba8c706-8c1e-e911-94e1-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/cba8c706-8c1e-e911-94e1-984be103f032/pdf/cfreports",
+     "residence": "ALBEMARLE COUNTY",
+     "office_sought_record": "Member Board of Supervisors",
+     "latest_report_filed": "7/12/2026",
+     "district_record": "Election - RIVANNA DISTRICT",
+     "filed_date": null,
+     "filed_date_source_url": null
+    },
+    {
+     "name": "Thomas J A Fadeley",
+     "incumbent": false,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/53677ba7-154b-4c09-98db-dd77d1c37a39",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "TJFadeleyforRivannaSupervisor",
+     "committee_code": "CC-23-00741",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/53677ba7-154b-4c09-98db-dd77d1c37a39",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/53677ba7-154b-4c09-98db-dd77d1c37a39",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/53677ba7-154b-4c09-98db-dd77d1c37a39/pdf/cfreports",
+     "residence": "Albemarle County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/10/2025",
+     "district_record": "Election - Rivanna District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [],
+   "members_known": false
   },
   {
    "id": "albemarle-scottsville",
@@ -591,7 +1996,31 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.albemarle.org/government/elections",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Michael Pruitt",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/239d6a12-0f28-4e9d-a56d-a491fe927dff",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Mike Pruitt for Albemarle County",
+     "committee_code": "CC-22-00646",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/239d6a12-0f28-4e9d-a56d-a491fe927dff",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/239d6a12-0f28-4e9d-a56d-a491fe927dff",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/239d6a12-0f28-4e9d-a56d-a491fe927dff/pdf/cfreports",
+     "residence": "Albemarle County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/15/2026",
+     "district_record": "Election - Scottsville District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [],
+   "members_known": false
   },
   {
    "id": "albemarle-white-hall",
@@ -603,7 +2032,31 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.albemarle.org/government/elections",
-   "candidates": []
+   "candidates": [
+    {
+     "name": "Ann Huckle Mallek",
+     "incumbent": false,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0c26d9e7-268e-e111-9bed-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Ann Mallek for Supervisor",
+     "committee_code": "CC-12-00823",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0c26d9e7-268e-e111-9bed-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0c26d9e7-268e-e111-9bed-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/0c26d9e7-268e-e111-9bed-984be103f032/pdf/cfreports",
+     "residence": "Albemarle County",
+     "office_sought_record": "Member Board Of Supervisors",
+     "latest_report_filed": "7/6/2026",
+     "district_record": "Election - White Hall District",
+     "filed_date": null,
+     "filed_date_source_url": null
+    }
+   ],
+   "current_members": [],
+   "members_known": false
   }
  ],
  "no_2027": [
