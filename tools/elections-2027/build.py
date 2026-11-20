@@ -376,13 +376,14 @@ def main():
     report["member_misses"] = misses
     report["boards_without_roster"] = sorted({f"{L['name']} {L[o]['label']}" for L in LOCALITIES for o in ("bos", "sb")
                                               if L[o]["on_2027"] and (o, L["id"]) not in REG.LOCAL_MEMBERS})
-    # Incumbent = a registered committee's candidate has the same last name as a current member of that seat (official roster).
+    # Incumbent = a registered committee's candidate is a current member of that seat (official roster): same last name and
+    # same first initial (registrations.same_person).
     for d in files.values():
         for r in d["races"]:
-            names = {REG.last_name(m["name"]) for m in r.get("current_members", [])}
-            r["members_known"] = bool(r.get("current_members"))
+            mems = r.get("current_members", [])
+            r["members_known"] = bool(mems)
             for c in r["candidates"]:
-                c["incumbent"] = REG.last_name(c["name"]) in names
+                c["incumbent"] = any(REG.same_person(c["name"], m["name"]) for m in mems)
             r["candidates"].sort(key=lambda c: (not c["incumbent"], c["name"].lower()))
 
     # House / Senate districts that include part or all of each covered locality.
@@ -399,11 +400,21 @@ def main():
         files[kind]["coverage_source_label"] = REG.COVERAGE_SOURCE_LABEL
         files[kind]["coverage_page_url"] = REG.REG_STATS_PAGE
         files[kind]["districts_source_url"] = REG.SCV_ORDER
+    # Counting rule: residence inside the seat + a 2027 activity signal (registrations.apply_rule); "Check" flags.
+    report["rule"] = REG.apply_rule(files, cov["statewide"])
+    common_rule = ("Counted: committees on the Nov. 2027 cycle, not closed, with a residence inside the seat and a 2027 signal "
+                   "(registered in 2026 or later, a 2026 Statement of Organization naming 2027, money raised on a 2026 report, or the "
+                   "seat's current officeholder). Committees the Department of Elections carried forward from earlier races with none "
+                   "of these are not counted.")
+    for d in files.values():
+        d["registrations_rule"] = common_rule
     for k, d in files.items():
         (OUT / f"elections-2027-{k}.json").write_text(json.dumps(d, indent=1, ensure_ascii=False) + "\n")
     rp = os.environ.get("ELECTIONS_2027_REPORT")
     if rp:
         Path(rp).write_text(json.dumps({**report, "coverage": {k: cov[k] for k in ("house", "senate")}, "coverage_sources": cov["sources"]}, indent=1, ensure_ascii=False))
+    print("rule: kept", report["rule"]["kept"], "dropped", len(report["rule"]["dropped"]), "check", report["rule"]["check"],
+          "residence unreadable (kept)", len(report["rule"]["residence_unreadable_kept"]))
     print("registrations: considered", report["considered"], "matched", report["matched"], "unmatched", len(report["unmatched"]),
           "final-report excluded", report["excluded_final"], "special-cycle excluded", len(report["excluded_other_cycle"]),
           "local outside covered localities", report["out_of_scope_local"], "statement unreadable", len(report["soo_unreadable"]))

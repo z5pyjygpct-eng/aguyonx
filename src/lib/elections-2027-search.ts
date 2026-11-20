@@ -6,7 +6,7 @@
  * ignored; small typos are allowed (edit distance 1 for words of 5-7 letters, 2 for 8+; exact for shorter words).
  * Every term must match somewhere in the race (AND).
  */
-import { isOpen, OFFICE_LABEL, raceTitle, type Entry } from "./elections-2027.ts";
+import { isCheck, memberNotFiled, OFFICE_LABEL, raceTitle, type Entry } from "./elections-2027.ts";
 
 export const norm = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 export const words = (s: string) => norm(s).split(" ").filter(Boolean);
@@ -40,16 +40,18 @@ export function wordMatches(q: string, w: string): boolean {
 export type Chamber = "house" | "senate";
 export type Term =
   | { kind: "district"; chamber: Chamber | null; n: number; raw: string }
-  | { kind: "status"; value: "open" | "contested" | "none" | "one"; raw: string }
+  | { kind: "status"; value: "member" | "check" | "contested" | "none" | "one"; raw: string }
   | { kind: "party"; value: "D" | "R" | "Other" | "none"; raw: string }
   | { kind: "office"; value: Entry["office"]; raw: string }
   | { kind: "word"; w: string; raw: string };
 
 const CHAMBER_WORDS: Record<string, Chamber> = { hd: "house", house: "house", delegate: "house", delegates: "house", hod: "house", sd: "senate", senate: "senate", senator: "senate" };
 const PHRASES: [RegExp, Term][] = [
+  [/\bmember not filed( yet)?\b/, { kind: "status", value: "member", raw: "member not filed" }],
+  // "open seat" searches land on seats whose sitting member has not filed yet; the page never labels them open.
+  [/\bopen seats?\b/, { kind: "status", value: "member", raw: "member not filed" }],
   [/\bno (filing|filings|committee|committees|registration|registrations)( yet)?\b/, { kind: "status", value: "none", raw: "no filing" }],
   [/\bnot filed\b/, { kind: "status", value: "none", raw: "no filing" }],
-  [/\bopen seats?\b/, { kind: "status", value: "open", raw: "open" }],
   [/\bone party( only)?\b/, { kind: "status", value: "one", raw: "one party" }],
   [/\bparty not listed\b|\bno party\b/, { kind: "party", value: "none", raw: "party not listed" }],
   [/\bhouse of delegates\b/, { kind: "office", value: "house", raw: "house of delegates" }],
@@ -59,7 +61,7 @@ const PHRASES: [RegExp, Term][] = [
   [/\bconstitutional officers?\b/, { kind: "office", value: "co", raw: "constitutional officers" }],
 ];
 const SINGLE: Record<string, Term> = {
-  open: { kind: "status", value: "open", raw: "open" }, contested: { kind: "status", value: "contested", raw: "contested" },
+  open: { kind: "status", value: "member", raw: "member not filed" }, check: { kind: "status", value: "check", raw: "check" }, contested: { kind: "status", value: "contested", raw: "contested" },
   unopposed: { kind: "status", value: "one", raw: "unopposed" },
   republican: { kind: "party", value: "R", raw: "republican" }, republicans: { kind: "party", value: "R", raw: "republican" }, gop: { kind: "party", value: "R", raw: "republican" },
   democrat: { kind: "party", value: "D", raw: "democrat" }, democrats: { kind: "party", value: "D", raw: "democrat" }, democratic: { kind: "party", value: "D", raw: "democrat" },
@@ -102,7 +104,8 @@ function termMatches(e: Entry, t: Term, ws: string[]): boolean {
     case "district":
       return (e.office === "house" || e.office === "senate") && e.race.district === t.n && (!t.chamber || t.chamber === e.office);
     case "status":
-      if (t.value === "open") return isOpen(e.race);
+      if (t.value === "member") return memberNotFiled(e.race);
+      if (t.value === "check") return isCheck(e.race);
       if (t.value === "contested") return e.status === "contested";
       if (t.value === "none") return e.status === "none";
       return ["D", "R", "Other", "unopposed"].includes(e.status);

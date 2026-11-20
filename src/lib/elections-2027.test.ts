@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import test from "node:test";
 import {
-  EMPTY, facetCount, filterEntries, flatten, groupEntries, isOpen, localityOptions, matches, OFFICE_ORDER, parseDirSearch, statusOf, toFilters, toggle,
+  countText, EMPTY, facetCount, filterEntries, flatten, groupEntries, isCheck, localityOptions, memberNotFiled, partyCount, seatPill, STATUS_LABEL, matches, OFFICE_ORDER, parseDirSearch, statusOf, toFilters, toggle,
   type Entry, type Office, type OfficeFile, type Race,
 } from "./elections-2027.ts";
 
@@ -28,13 +28,14 @@ test("every race keeps an official seat source and filing source", () => {
   }
 });
 
-test("status comes only from filings: no filing is never contested or open", () => {
+test("status comes only from filings: no filing is never contested, and no seat is ever called open", () => {
   const blank: Race = { id: "x", seat: "X", seats: 1, source_url: "https://a", filing_source_url: "https://b", candidates: [] };
   assert.equal(statusOf(blank, "bos"), "none");
-  assert.equal(isOpen(blank), false);
+  assert.equal(memberNotFiled(blank), false, "no roster -> no member claim");
+  assert.equal(memberNotFiled({ ...blank, members_known: true }), true);
   const two: Race = { ...blank, candidates: [{ name: "A", incumbent: false, party: "D", party_source_url: "u", filing_source_url: "u" }, { name: "B", incumbent: true, party: "R", party_source_url: "u", filing_source_url: "u" }] };
   assert.equal(statusOf(two, "bos"), "contested");
-  assert.equal(isOpen(two), false);
+  assert.equal(memberNotFiled({ ...two, members_known: true }), false);
   assert.equal(statusOf({ ...two, seats: 2 }, "sb"), "unopposed");
 });
 
@@ -206,4 +207,94 @@ test("the locality pill also filters House and Senate races to the districts tou
   const lou = filterEntries(all, { ...EMPTY, localities: ["loudoun"], offices: ["house", "senate"] });
   assert.deepEqual(lou.map((e) => e.race.id).sort(), ["hd26", "hd27", "hd28", "hd29", "hd30", "sd31", "sd32"]);
   assert.ok(!filterEntries(all, { ...EMPTY, localities: ["loudoun"] }).some((e) => e.race.id === "hd10"));
+});
+
+// ---- Stricter 2027 counting rule (tools/elections-2027/registrations.py apply_rule) ----
+const H = (n: number) => all.find((e) => e.office === "house" && e.race.district === n)!.race;
+const S = (n: number) => all.find((e) => e.office === "senate" && e.race.district === n)!.race;
+const names = (r: Race) => r.candidates.map((c) => c.name.toLowerCase());
+
+test("stricter rule: HD 30 counts only McAuliff (D) and Higgins (R); Dippert (Culpeper, old district) and Banse (dormant 2023) are dropped", () => {
+  const r = H(30);
+  assert.equal(r.candidates.length, 2);
+  assert.ok(names(r).some((n) => n.includes("mcauliff")) && names(r).some((n) => n.includes("higgins")));
+  assert.ok(!names(r).some((n) => n.includes("dippert") || n.includes("banse")));
+  assert.deepEqual(partyCount({ office: "house", race: r, status: statusOf(r, "house"), localityIds: [], localityName: null }), { R: 1, D: 1, Other: 0, notListed: 0, total: 2 });
+});
+
+test("stricter rule: HD 27 drops the stale Khan committee and says 'Member not filed', never 'Open seat'", () => {
+  const r = H(27);
+  assert.ok(!names(r).some((n) => n.includes("khan")));
+  assert.equal(r.candidates.length, 0);
+  assert.ok(r.members_known && r.current_member);
+  assert.equal(memberNotFiled(r), true);
+  assert.equal(seatPill(r), "Member not filed");
+});
+
+test("residence check applies to House and Senate seats too (pre-2023 districts with the same number are dropped)", () => {
+  assert.ok(!names(H(29)).some((n) => n.includes("turben")), "Turben (Winchester) is not in the current HD 29");
+  assert.ok(!names(S(32)).some((n) => n.includes("howell")), "Howell (Fairfax) is not in the current SD 32");
+  assert.ok(!names(S(17)).some((n) => n.includes("dippert")), "Dippert (Culpeper) is not in the current SD 17");
+});
+
+test("every counted committee carries a 2027 activity signal and is on a 2027-cycle, non-final record", () => {
+  for (const e of all) {
+    for (const c of e.race.candidates) {
+      if (c.filing_kind !== "registration") continue;
+      assert.ok(c.activity && c.activity.length > 0, `${e.race.id} ${c.name}`);
+      assert.ok(c.activity!.every((a) => /^(registered in 20\d\d|Statement of Organization amended in 20\d\d naming 2027|raised \$[\d,]+ on 2026 reports|current officeholder)$/.test(a)), `${e.race.id} ${c.name} ${c.activity}`);
+      assert.doesNotMatch(c.office_sought_record ?? "", /do not use/i);
+      assert.match(c.committee_url ?? "", /^https:\/\/cfreports\.elections\.virginia\.gov\/Committee\/Index\//);
+      assert.equal(c.label, "Registered campaign committee, not yet on the ballot");
+    }
+  }
+});
+
+test("Loudoun totals under the stricter rule: 19 committees (7 Republican, 8 Democrat, 4 other party)", () => {
+  const seen = new Set<string>();
+  const t = { R: 0, D: 0, Other: 0, none: 0 };
+  for (const e of all.filter((x) => x.localityIds.includes("loudoun"))) {
+    if (e.office !== "house" && e.office !== "senate" && e.race.locality_id !== "loudoun") continue;
+    for (const c of e.race.candidates) {
+      if (seen.has(c.committee_code!)) continue;
+      seen.add(c.committee_code!);
+      t[(c.party === "R" || c.party === "D" ? c.party : c.party ? "Other" : "none") as keyof typeof t]++;
+    }
+  }
+  assert.deepEqual(t, { R: 7, D: 8, Other: 4, none: 0 });
+});
+
+test("Check flags: Briskman (Algonkian, final after 2026 money) and Saines (Sterling, 'Do Not Use') show Check with a plain note", () => {
+  const bos = (seat: string) => all.find((e) => e.office === "bos" && e.race.id === `loudoun-${seat}`)!.race;
+  for (const [seat, who, word] of [["algonkian", "Briskman", /final/], ["sterling", "Saines", /Do Not Use/]] as const) {
+    const r = bos(seat);
+    assert.ok(isCheck(r), seat);
+    assert.equal(seatPill(r), "Check");
+    assert.match(r.check!.member, new RegExp(who));
+    assert.match(r.check!.note, word);
+    assert.match(r.check!.note, /Virginia Department of Elections/);
+    assert.equal(memberNotFiled(r), false, "a Check seat is not also 'Member not filed'");
+  }
+});
+
+test("no 'Open seat' label survives: status pills, filters and search use 'Member not filed yet'", () => {
+  for (const v of Object.values(STATUS_LABEL)) assert.doesNotMatch(v, /open/i);
+  assert.ok(!("open" in STATUS_LABEL));
+  assert.deepEqual(parseDirSearch({ r_status: "open" }), {});
+  const mnf = filterEntries(all, { ...EMPTY, statuses: ["member"] });
+  assert.ok(mnf.length > 0 && mnf.every((e) => e.race.members_known && !e.race.candidates.some((c) => c.incumbent)));
+  assert.ok(mnf.some((e) => e.race.id === "hd27"));
+});
+
+test("simple chart helpers: plain counts and one status pill per seat", () => {
+  assert.equal(countText({ R: 1, D: 1, Other: 0, notListed: 0, total: 2 }), "Republican 1 · Democrat 1");
+  assert.equal(countText({ R: 0, D: 0, Other: 0, notListed: 0, total: 0 }), "No counted committees");
+  const base: Race = { id: "x", seat: "X", seats: 1, source_url: "https://a", filing_source_url: "https://b", candidates: [] };
+  const c = (incumbent: boolean, party: string | null) => ({ name: "A", incumbent, party, party_source_url: "u", filing_source_url: "u" });
+  assert.equal(seatPill(base), "None filed");
+  assert.equal(seatPill({ ...base, members_known: true }), "Member not filed");
+  assert.equal(seatPill({ ...base, candidates: [c(true, "D")] }), "Incumbent only");
+  assert.equal(seatPill({ ...base, candidates: [c(false, "R")] }), "One filed");
+  assert.equal(seatPill({ ...base, candidates: [c(true, "D"), c(false, "R")] }), "Contested");
+  assert.equal(seatPill({ ...base, seats: 3, candidates: [c(false, null), c(false, null)] }), "One filed");
 });
