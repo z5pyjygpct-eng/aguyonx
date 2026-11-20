@@ -104,12 +104,12 @@ function Tile({ r, office, dim, selected, onPick, wide }: { r: Race; office: Off
   return (
     <button type="button" onClick={onPick} aria-label={label} aria-pressed={selected}
       className={cn("relative flex flex-col items-center justify-center rounded-md border-2 font-serif font-bold transition",
-        wide ? "min-h-16 px-2 py-2 text-base leading-tight" : "aspect-square text-lg sm:text-xl",
-        t.cls, dim && "opacity-20", selected && "ring-4 ring-white ring-offset-2 ring-offset-navy-800")}>
+        wide ? "min-h-16 px-2 py-2 text-base leading-tight" : "aspect-square min-h-8 min-w-8 text-sm leading-none sm:text-base lg:text-lg",
+        t.cls, dim && "opacity-20", selected && (wide ? "ring-4 ring-white ring-offset-2 ring-offset-navy-800" : "ring-2 ring-white ring-offset-2 ring-offset-navy-800"))}>
       <span className={wide ? "text-center" : ""}>{wide ? r.seat : r.district}</span>
       {wide && r.seats > 1 ? <span className="font-sans text-[11px] font-semibold">{r.seats} seats</span> : null}
-      <span aria-hidden className="absolute top-0.5 right-1 font-sans text-[10px] font-bold opacity-80">{t.letter}</span>
-      {open ? <span aria-hidden className="absolute bottom-0.5 left-1 font-sans text-[9px] font-bold uppercase opacity-90">open</span> : null}
+      <span aria-hidden className={cn("absolute font-sans font-bold opacity-80", wide ? "top-0.5 right-1 text-[10px]" : "top-px right-0.5 text-[8px] lg:text-[10px]")}>{t.letter}</span>
+      {open ? <span aria-hidden className={cn("absolute font-sans font-bold uppercase opacity-90", wide ? "bottom-0.5 left-1 text-[9px]" : "bottom-px left-0.5 text-[7px] lg:text-[9px]")}>open</span> : null}
     </button>
   );
 }
@@ -190,16 +190,18 @@ function statusWord(st: Status) {
   return st === "none" ? "No registered committee yet" : st === "contested" ? "Contested (registrations)" : st === "unopposed" ? "One registered committee" : `${PARTY_LABEL[st as PartyFilter]} only (registrations)`;
 }
 
-function Card({ r, office, asOf, onClose }: { r: Race; office: Office; asOf: string; onClose: () => void }) {
+/** inline: render as a panel in the page flow (House / Senate: below the full-width grid), with no backdrop or bottom sheet. */
+function Card({ r, office, asOf, onClose, inline }: { r: Race; office: Office; asOf: string; onClose: () => void; inline?: boolean }) {
   const e = ENTRY_BY_KEY.get(`${office}:${r.id}`)!;
   const st = statusOf(r, office);
   const title = `${r.locality ? `${r.locality} ${r.body} · ` : ""}${office === "house" ? "House District " + r.district : office === "senate" ? "Senate District " + r.district : r.seat}`;
   const today = todayET();
   return (
     <>
-      <button type="button" aria-label="Close" onClick={onClose} className="fixed inset-0 z-40 bg-black/50 lg:hidden" />
-      <section role="dialog" aria-label={title}
-        className="fixed inset-x-0 bottom-0 z-50 max-h-[80vh] overflow-y-auto rounded-t-2xl border-t-4 border-gold bg-navy-700 p-5 shadow-2xl lg:static lg:z-auto lg:max-h-none lg:rounded-[10px] lg:border lg:border-navy-line lg:border-t-4 lg:border-t-gold lg:shadow-none">
+      {inline ? null : <button type="button" aria-label="Close" onClick={onClose} className="fixed inset-0 z-40 bg-black/50 lg:hidden" />}
+      <section role={inline ? "region" : "dialog"} aria-label={title} id={inline ? "seat-panel" : undefined}
+        className={inline ? "scroll-mt-24 rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5"
+          : "fixed inset-x-0 bottom-0 z-50 max-h-[80vh] overflow-y-auto rounded-t-2xl border-t-4 border-gold bg-navy-700 p-5 shadow-2xl lg:static lg:z-auto lg:max-h-none lg:rounded-[10px] lg:border lg:border-navy-line lg:border-t-4 lg:border-t-gold lg:shadow-none"}>
         <div className="flex items-start justify-between gap-3">
           <div>
             <p className="font-mono text-xs tracking-widest text-gold uppercase">{statusWord(st)}{isOpen(r) ? " · open seat" : ""}</p>
@@ -462,6 +464,11 @@ function Election2027Page() {
   const visibleIds = new Set(visible.map((r) => r.id));
   const count = (f: Filter) => scoped.filter((r) => matches(r, office, f, s.q, gaLoc)).length;
   const sel = d.races.find((r) => r.id === s.seat);
+  useEffect(() => {
+    // House / Senate: the panel is below the grid; on narrow screens bring it into view after a tap.
+    if (!sel || local || typeof window === "undefined" || window.innerWidth >= 768) return;
+    document.getElementById("seat-panel")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }, [sel?.id, local]); // eslint-disable-line react-hooks/exhaustive-deps
   const pick = (id: string) => navigate({ search: (p: S) => ({ ...p, seat: p.seat === id ? undefined : id }), replace: true, resetScroll: false });
   const close = () => navigate({ search: (p: S) => ({ ...p, seat: undefined }), replace: true, resetScroll: false });
   const base: S = { office, ...(s.loc ? { loc: s.loc } : {}), ...(s.q ? { q: s.q } : {}) };
@@ -556,13 +563,15 @@ function Election2027Page() {
 
           {!local ? (
             <>
-              <div className="mt-4 lg:grid lg:grid-cols-[minmax(0,620px)_1fr] lg:items-start lg:gap-6">
-                <div className="grid grid-cols-5 gap-1.5 sm:grid-cols-10 sm:gap-2">
+              {/* Full-width seat grid: 20 across on tablets and up (House 20 x 5, Senate 20 x 2), 10 across on phones so every square
+                  stays at least 32px. The district panel sits below the grid. */}
+              <div className="mt-4">
+                <div className="grid grid-cols-10 gap-1 md:grid-cols-20 lg:gap-1.5" data-seat-grid={office}>
                   {d.races.map((r) => <Tile key={r.id} r={r} office={office} dim={!visibleIds.has(r.id)} selected={sel?.id === r.id} onPick={() => pick(r.id)} />)}
                 </div>
-                <div className="lg:sticky lg:top-20">
-                  {sel ? <Card r={sel} office={office} asOf={d.as_of} onClose={close} /> : (
-                    <p className="hidden rounded-[10px] border border-dashed border-navy-line p-5 text-sm text-on-dark-muted lg:block">Tap a district number to see its registered committees and current member.</p>
+                <div className="mt-4">
+                  {sel ? <Card r={sel} office={office} asOf={d.as_of} onClose={close} inline /> : (
+                    <p className="rounded-[10px] border border-dashed border-navy-line p-4 text-sm text-on-dark-muted">Tap a district number to see its registered committees and current member here.</p>
                   )}
                 </div>
               </div>
