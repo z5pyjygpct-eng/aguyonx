@@ -56,6 +56,34 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "jones-weekly-roundup-acima-oag-2026-11-20",
+    date: "2026-11-20",
+    headline: "What Virginians Are Seeing: Attorney General Jay Jones Shares Weekly Roundup of Actions Taken",
+    outlet: "Office of the Attorney General (press release)",
+    url: "https://www.oag.state.va.us/media-center/news-releases/3159-what-virginians-are-seeing-attorney-general-jay-jones-shares-weekly-roundup-of-actions-taken-19",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-voter-protection-section-fox-2026-11-18",
+    date: "2026-11-18",
+    headline: "Virginia AG Jay Jones launches voter protection unit amid dead felon row",
+    outlet: "Fox News",
+    url: "https://www.foxnews.com/politics/dem-ag-targets-trump-voting-while-state-sends-rights-letters-dead-people",
+    people: [{ name: "Jay Jones", office: "Attorney General" }, { name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-midterm-results-13newsnow-2026-11-04",
+    date: "2026-11-04",
+    filed: "2026-11-20",
+    headline: "Spanberger calls Virginia midterm election results 'extraordinary' as Democrats make sweeping gains",
+    outlet: "13NewsNow",
+    url: "https://www.13newsnow.com/article/news/local/virginia/abigail-spanberger-virginia-midterm-election-results-reaction/291-85e4fcbb-de04-45fa-8c00-fdfc6d567cfb",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }, { name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
     id: "loudoun-launches-data-center-dashboard-including-m-ltm-2026-11-19",
     date: "2026-11-19",
     filed: "2026-11-20",
