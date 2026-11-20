@@ -3,8 +3,12 @@
  * the official filings in the data, filter with combinable pills (OR inside a group, AND across groups), and group by office then
  * locality. Pure functions so they can be tested without the page.
  */
+import { calendarDateInZone, daysSinceFiled, parseOfficialFiledDate, type CalendarDate } from "./virginia-2027-bills.ts";
+
 export type Office = "house" | "senate" | "sb" | "bos" | "co";
-export type Cand = { name: string; incumbent: boolean; party: string | null; endorsement?: string | null; party_source_url: string | null; filing_source_url: string };
+/** filed_date: the official filing date exactly as the Virginia Department of Elections or county registrar record prints it (M/D/YYYY),
+ * with the record's URL. Missing = no official date; such candidates never count toward the date pills. */
+export type Cand = { name: string; incumbent: boolean; party: string | null; endorsement?: string | null; party_source_url: string | null; filing_source_url: string; filed_date?: string | null; filed_date_source_url?: string | null };
 export type Race = {
   id: string; seat: string; seats: number; source_url: string; filing_source_url: string; local_filing_source_url?: string; candidates: Cand[];
   shared_with?: { locality_id: string | null; locality: string; source_url: string }[];
@@ -55,7 +59,24 @@ export function localityOptions(files: Record<Office, OfficeFile>): { id: string
   return [...seen].map(([id, name]) => ({ id, name }));
 }
 
-export type DirFilters = { offices: Office[]; localities: string[]; statuses: StatusFilter[]; parties: PartyFilter[]; q: string };
+export type FiledWindow = "today" | "7d" | "30d" | "45d" | "60d";
+/** Same windows and day math as the /virginia-2027-bills tracker (days counted in America/New_York, inclusive), plus 45 and 60 days. */
+export const FILED_WINDOWS: { value: FiledWindow; label: string; days: number }[] = [
+  { value: "today", label: "Filed today", days: 0 }, { value: "7d", label: "Last 7 days", days: 7 }, { value: "30d", label: "Last 30 days", days: 30 },
+  { value: "45d", label: "Last 45 days", days: 45 }, { value: "60d", label: "Last 60 days", days: 60 },
+];
+export const NEW_BADGE_DAYS = 7;
+export const todayET = (now: Date = new Date()): CalendarDate => calendarDateInZone(now);
+export function candidateInWindow(c: Cand, w: FiledWindow, today: CalendarDate): boolean {
+  if (!c.filed_date || !c.filed_date_source_url) return false;
+  const days = daysSinceFiled(c.filed_date, today);
+  if (days == null || days < 0) return false;
+  return days <= FILED_WINDOWS.find((x) => x.value === w)!.days;
+}
+export const isNewCandidate = (c: Cand, today: CalendarDate) => candidateInWindow(c, "7d", today);
+export const hasOfficialDate = (c: Cand) => !!(c.filed_date_source_url && parseOfficialFiledDate(c.filed_date));
+
+export type DirFilters = { offices: Office[]; localities: string[]; statuses: StatusFilter[]; parties: PartyFilter[]; q: string; filed?: FiledWindow; today?: CalendarDate };
 export const EMPTY: DirFilters = { offices: [], localities: [], statuses: [], parties: [], q: "" };
 
 export function statusMatches(e: Entry, s: StatusFilter): boolean {
@@ -86,9 +107,17 @@ export function matches(e: Entry, f: DirFilters): boolean {
   if (f.localities.length && !f.localities.some((l) => e.localityIds.includes(l))) return false;
   if (f.statuses.length && !f.statuses.some((s) => statusMatches(e, s))) return false;
   if (f.parties.length && !f.parties.some((p) => partyMatches(e, p))) return false;
+  if (f.filed && !e.race.candidates.some((c) => candidateInWindow(c, f.filed!, f.today ?? todayET()))) return false;
   return queryMatches(e, f.q);
 }
 export const filterEntries = (es: Entry[], f: DirFilters) => es.filter((e) => matches(e, f));
+
+/** Date pill count = candidates (not races) with an official filed date in the window, among races matching the other filters. */
+export function filedWindowCandidateCount(es: Entry[], f: DirFilters, w: FiledWindow): number {
+  const today = f.today ?? todayET();
+  return filterEntries(es, { ...f, filed: undefined }).reduce((n, e) => n + e.race.candidates.filter((c) => candidateInWindow(c, w, today)).length, 0);
+}
+export const candidatesWithoutDate = (es: Entry[]) => es.reduce((n, e) => n + e.race.candidates.filter((c) => !hasOfficialDate(c)).length, 0);
 
 /** Pill count = races that would show if this one value were added to (or is already in) its group, other groups unchanged. */
 export function facetCount<K extends "offices" | "localities" | "statuses" | "parties">(es: Entry[], f: DirFilters, key: K, value: DirFilters[K][number]): number {
@@ -117,8 +146,9 @@ const OFFICES = new Set<string>(OFFICE_ORDER);
 const STATUSES = new Set<string>(["contested", "one", "none", "open"]);
 const PARTIES = new Set<string>(["D", "R", "Other"]);
 const list = (v: unknown) => (typeof v === "string" ? v.split(",").map((x) => x.trim()).filter(Boolean) : []);
-/** URL query <-> filters. Keys: r_office, r_loc, r_status, r_party, r_q (comma-separated values). Unknown values are dropped. */
-export function parseDirSearch(s: Record<string, unknown>): Partial<Record<"r_office" | "r_loc" | "r_status" | "r_party" | "r_q", string>> {
+type DirKey = "r_office" | "r_loc" | "r_status" | "r_party" | "r_q" | "r_filed";
+/** URL query <-> filters. Keys: r_office, r_loc, r_status, r_party (comma-separated), r_q, r_filed (one window). Unknown values are dropped. */
+export function parseDirSearch(s: Record<string, unknown>): Partial<Record<DirKey, string>> {
   const out: Record<string, string> = {};
   const o = list(s.r_office).filter((x) => OFFICES.has(x));
   const l = list(s.r_loc).filter((x) => /^[a-z0-9-]{1,40}$/.test(x));
@@ -129,10 +159,12 @@ export function parseDirSearch(s: Record<string, unknown>): Partial<Record<"r_of
   if (st.length) out.r_status = [...new Set(st)].join(",");
   if (p.length) out.r_party = [...new Set(p)].join(",");
   if (typeof s.r_q === "string" && s.r_q.trim()) out.r_q = s.r_q.slice(0, 80);
+  if (typeof s.r_filed === "string" && FILED_WINDOWS.some((w) => w.value === s.r_filed)) out.r_filed = s.r_filed;
   return out;
 }
-export function toFilters(s: Partial<Record<"r_office" | "r_loc" | "r_status" | "r_party" | "r_q", string>>): DirFilters {
-  return { offices: list(s.r_office) as Office[], localities: list(s.r_loc), statuses: list(s.r_status) as StatusFilter[], parties: list(s.r_party) as PartyFilter[], q: s.r_q ?? "" };
+export function toFilters(s: Partial<Record<DirKey, string>>, today?: CalendarDate): DirFilters {
+  return { offices: list(s.r_office) as Office[], localities: list(s.r_loc), statuses: list(s.r_status) as StatusFilter[], parties: list(s.r_party) as PartyFilter[], q: s.r_q ?? "",
+    ...(s.r_filed ? { filed: s.r_filed as FiledWindow } : {}), ...(today ? { today } : {}) };
 }
 export function toggle<T extends string>(cur: T[], v: T): string | undefined {
   const next = cur.includes(v) ? cur.filter((x) => x !== v) : [...cur, v];
