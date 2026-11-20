@@ -24,6 +24,7 @@ export const NAV_PRIMARY = [
  * News is not repeated here: its canonical place is the primary nav (Scott-approved order). */
 export const NAV_TOOLS = [
   { to: "/nova-briefing", label: "Daily NoVA Briefing" },
+  { to: "/emergency-monitor", label: "Emergency Monitor" },
   { to: "/library", label: "Research Library" },
   { to: "/library/foia", label: "FOIA letter desk" },
   { to: "/2027", label: "2027 election" },
