@@ -47,6 +47,10 @@ PWC_OFFICIALS = "https://www.pwcvotes.org/elected-officials"
 PWC_SHERIFF = "https://www.pwcva.gov/department/sheriffs-office"
 PWC_CA = "https://www.pwcva.gov/department/commonwealth-attorney/"
 PWC_CLERK = "https://www.pwcva.gov/department/circuit-court/circuit-court-clerks-role/"
+HENRICO_OFFICIALS = "https://henrico.gov/registrar/elected-officials/"  # CA + Sheriff '27, Clerk '31
+HENRICO_FORM = "https://henrico.gov/government/county-manager-form-of-government/"  # treasurer / commissioner of the revenue do not exist
+CHES_REGISTRAR = "https://www.chesterfield.gov/registrar"  # constitutional officers with "Next Election"
+CHES_INVESTITURE = "https://www.chesterfield.gov/m/newsflash/home/detail/4253"  # 2023 investiture: clerk on an eight-year term from Jan. 2024
 PWC_OFFICIAL_STATEMENT = "https://emma.msrb.org/P11911146-P11459990-.pdf"  # county's own disclosure: no elected treasurer / commissioner of the revenue
 
 # County general registrar / elections office pages checked for an official Nov. 2027 candidate list.
@@ -54,6 +58,8 @@ FILING_PAGES = {
     "loudoun": ("Loudoun County Office of Elections", "https://www.loudoun.gov/4150/Candidates-Campaigns"),
     "fairfax-county": ("Fairfax County Office of Elections", "https://www.fairfaxcounty.gov/elections/sample-ballots"),
     "prince-william": ("Prince William County Office of Elections", "https://www.pwcvotes.org/ontheballot"),
+    "henrico": ("Henrico County Voter Registration and Elections", "https://henrico.gov/registrar/programs/candidates/"),
+    "chesterfield": ("Chesterfield County General Registrar", CHES_REGISTRAR),
     "albemarle": ("Albemarle County Voter Registration and Elections", "https://www.albemarle.org/government/elections"),
 }
 
@@ -83,6 +89,16 @@ LOCALITIES = [
     {"id": "manassas", "name": "Manassas", "kind": "city",
      "bos": {"label": "City Council", "on_2027": False, "next": "Nov. 7, 2028", "ballot_source": ELECT_CC},
      "sb": {"label": "School Board", "on_2027": False, "next": "Nov. 7, 2028", "ballot_source": ELECT_CITYSB}},
+    {"id": "henrico", "name": "Henrico", "kind": "county", "elect": "Henrico",
+     "bos": {"label": "Board of Supervisors", "on_2027": True, "ballot_source": ELECT_BOS,
+             "note": "All five district supervisors are up in 2027.", "note_source": ELECT_BOS},
+     "sb": {"label": "School Board", "on_2027": True, "ballot_source": ELECT_CSB,
+            "note": "All five district seats are up in 2027.", "note_source": ELECT_CSB}},
+    {"id": "chesterfield", "name": "Chesterfield", "kind": "county", "elect": "Chesterfield",
+     "bos": {"label": "Board of Supervisors", "on_2027": True, "ballot_source": ELECT_BOS,
+             "note": "All five district supervisors are up in 2027.", "note_source": ELECT_BOS},
+     "sb": {"label": "School Board", "on_2027": True, "ballot_source": ELECT_CSB,
+            "note": "All five district seats are up in 2027.", "note_source": ELECT_CSB}},
     {"id": "albemarle", "name": "Albemarle", "kind": "county", "elect": "Albemarle",
      "bos": {"label": "Board of Supervisors", "on_2027": True, "ballot_source": ELECT_BOS,
              "note": "Staggered terms: Rivanna, Scottsville and White Hall are up in 2027; Jack Jouett, Rio and Samuel Miller in 2029.",
@@ -130,6 +146,15 @@ CO = {
                                {**CLERK_2031, "source_url": MANASSAS_CO}],
                  "note": "City voters vote in the Prince William County races for sheriff and commonwealth's attorney (shared offices, next election 2027).",
                  "note_source": MANASSAS_CO},
+    "henrico": {"on_2027": True, "ballot_source": ELECT_5YR, "ballot_source_label": "ELECT calendar",
+                "offices": [(SHERIFF, HENRICO_OFFICIALS, []), (CA, HENRICO_OFFICIALS, [])],
+                "off_cycle": [{**CLERK_2031, "source_url": HENRICO_OFFICIALS},
+                              {"office": "Treasurer and Commissioner of the Revenue", "next": "not elected in Henrico (county-manager form; an appointed director of finance carries out both offices' duties)", "source_url": HENRICO_FORM}],
+                "note": "Henrico elects a sheriff and a commonwealth's attorney in 2027.", "note_source": HENRICO_OFFICIALS},
+    "chesterfield": {"on_2027": True, "ballot_source": ELECT_5YR, "ballot_source_label": "ELECT calendar",
+                     "offices": [(SHERIFF, CHES_REGISTRAR, []), (CA, CHES_REGISTRAR, []), (TREAS, CHES_REGISTRAR, []), (COR, CHES_REGISTRAR, [])],
+                     "off_cycle": [{"office": "Clerk of the Circuit Court", "next": "Nov. 2031 (eight-year term that began Jan. 2024, per the county's 2023 investiture notice)", "source_url": CHES_INVESTITURE}],
+                     "note": "Chesterfield elects all four four-year constitutional offices in 2027.", "note_source": CHES_REGISTRAR},
     "albemarle": {"on_2027": True, "ballot_source": ELECT_5YR, "ballot_source_label": "ELECT calendar",
                   "offices": [(SHERIFF, ALBEMARLE_CO, []), (CA, ALBEMARLE_CO, [])],
                   "off_cycle": [{**CLERK_2031, "source_url": ALBEMARLE_CO},
@@ -175,7 +200,7 @@ def check_filings():
             checked.append({"label": label, "url": url, "status": "not reachable at build time", "locality_id": lid})
             continue
         t = text(p)
-        if re.search(r"2027[^.]{0,200}candidate|candidate[^.]{0,200}2027", t, re.I):
+        if re.search(r"2027[^.]{0,120}(candidate list|candidates (&|and) (sample ballots|referendums))|(candidate list|candidates (&|and) (sample ballots|referendums))[^.]{0,120}2027", t, re.I):
             raise SystemExit(f"{label} may list 2027 candidates ({url}): review and add a parser before rebuilding")
         checked.append({"label": label, "url": url, "status": "no Nov. 2027 list posted", "locality_id": lid})
     return checked
