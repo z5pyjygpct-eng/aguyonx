@@ -1,8 +1,40 @@
 {
  "office": "co",
  "election": "2027-11-02",
- "as_of": "2026-11-09",
- "source_url": "https://www.vpap.org/elections/local/",
+ "as_of": "2026-11-19",
+ "source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+ "filings_checked": [
+  {
+   "label": "Virginia Department of Elections candidate lists",
+   "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "status": "no Nov. 2027 list posted"
+  },
+  {
+   "label": "Loudoun County Office of Elections",
+   "url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "loudoun"
+  },
+  {
+   "label": "Fairfax County Office of Elections",
+   "url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "fairfax-county"
+  },
+  {
+   "label": "Prince William County Office of Elections",
+   "url": "https://www.pwcvotes.org/ontheballot",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "prince-william"
+  },
+  {
+   "label": "Albemarle County Voter Registration and Elections",
+   "url": "https://www.albemarle.org/government/elections",
+   "status": "not reachable at build time",
+   "locality_id": "albemarle"
+  }
+ ],
+ "filings_note": "No official candidate list for the Nov. 2, 2027 election has been posted yet.",
  "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
  "terms_source_url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-217/",
  "localities": [
@@ -25,6 +57,29 @@
    ]
   },
   {
+   "id": "fairfax-county",
+   "name": "Fairfax County",
+   "kind": "county",
+   "body": "Constitutional Officers",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "ballot_source_label": "ELECT calendar",
+   "note": "Fairfax County elects a sheriff and a commonwealth's attorney in 2027 (terms end Dec. 31, 2027). City of Fairfax voters vote in both races.",
+   "note_source_url": "https://www.fairfaxcounty.gov/elections/information-candidates",
+   "off_cycle": [
+    {
+     "office": "Clerk of the Circuit Court",
+     "next": "Nov. 2031 (8-year term)",
+     "source_url": "https://www.fairfaxcounty.gov/circuit/more-about-circuit-court"
+    },
+    {
+     "office": "Treasurer and Commissioner of the Revenue",
+     "next": "not elected in Fairfax County (the county's Department of Tax Administration and Department of Finance carry out both offices' duties)",
+     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/sites/boardofsupervisors/files/Assets/Items%20for%20Consideration_October%2017%2C%202023%20FINAL.pdf"
+    }
+   ]
+  },
+  {
    "id": "fairfax-city",
    "name": "Fairfax City",
    "kind": "city",
@@ -33,7 +88,21 @@
    "ballot_source_url": "https://www.fairfaxva.gov/Government/Council/All-Elected-Officials",
    "ballot_source_label": "City of Fairfax",
    "note": "City voters vote in the Fairfax County races for sheriff and commonwealth's attorney (shared offices, terms expire Dec. 31, 2027).",
-   "note_source_url": "https://www.fairfaxva.gov/Government/Council/All-Elected-Officials",
+   "note_source_url": "https://www.fairfaxva.gov/Government/About-the-City/Shared-City-and-County-Officials",
+   "linked": [
+    {
+     "office": "Sheriff",
+     "locality_id": "fairfax-county",
+     "locality": "Fairfax County",
+     "race_id": "fairfax-county-sheriff"
+    },
+    {
+     "office": "Commonwealth's Attorney",
+     "locality_id": "fairfax-county",
+     "locality": "Fairfax County",
+     "race_id": "fairfax-county-commonwealth-s-attorney"
+    }
+   ],
    "off_cycle": [
     {
      "office": "Treasurer and Commissioner of the Revenue",
@@ -43,7 +112,30 @@
     {
      "office": "Clerk of the Circuit Court",
      "next": "Nov. 2031 (8-year term)",
-     "source_url": "https://www.fairfaxva.gov/Government/Council/All-Elected-Officials"
+     "source_url": "https://www.fairfaxva.gov/Government/About-the-City/Shared-City-and-County-Officials"
+    }
+   ]
+  },
+  {
+   "id": "prince-william",
+   "name": "Prince William",
+   "kind": "county",
+   "body": "Constitutional Officers",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "ballot_source_label": "ELECT calendar",
+   "note": "Prince William elects a sheriff and a commonwealth's attorney in 2027. Both offices also serve the cities of Manassas and Manassas Park, whose voters vote in these races.",
+   "note_source_url": "https://www.pwcva.gov/department/sheriffs-office",
+   "off_cycle": [
+    {
+     "office": "Clerk of the Circuit Court",
+     "next": "Nov. 2031 (8-year term)",
+     "source_url": "https://www.pwcva.gov/department/circuit-court/circuit-court-clerks-role/"
+    },
+    {
+     "office": "Treasurer and Commissioner of the Revenue",
+     "next": "not elected in Prince William (the county's appointed chief financial officer carries out both offices' duties)",
+     "source_url": "https://emma.msrb.org/P11911146-P11459990-.pdf"
     }
    ]
   },
@@ -57,6 +149,20 @@
    "ballot_source_label": "City of Manassas",
    "note": "City voters vote in the Prince William County races for sheriff and commonwealth's attorney (shared offices, next election 2027).",
    "note_source_url": "https://www.manassasva.gov/voter_registration_and_elections/elected_officials.php",
+   "linked": [
+    {
+     "office": "Sheriff",
+     "locality_id": "prince-william",
+     "locality": "Prince William",
+     "race_id": "prince-william-sheriff"
+    },
+    {
+     "office": "Commonwealth's Attorney",
+     "locality_id": "prince-william",
+     "locality": "Prince William",
+     "race_id": "prince-william-commonwealth-s-attorney"
+    }
+   ],
    "off_cycle": [
     {
      "office": "Treasurer and Commissioner of the Revenue",
@@ -102,7 +208,9 @@
    "body": "Constitutional Officers",
    "seat": "Sheriff",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/localities/loudoun-county-va/elections/",
+   "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
    "candidates": []
   },
   {
@@ -112,23 +220,10 @@
    "body": "Constitutional Officers",
    "seat": "Commonwealth's Attorney",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Bob Anderson",
-     "incumbent": true,
-     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular",
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular"
-    },
-    {
-     "name": "Ryan David Ruzic",
-     "incumbent": false,
-     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular",
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular"
-    }
-   ]
+   "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "candidates": []
   },
   {
    "id": "loudoun-treasurer",
@@ -137,7 +232,9 @@
    "body": "Constitutional Officers",
    "seat": "Treasurer",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/localities/loudoun-county-va/elections/",
+   "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
    "candidates": []
   },
   {
@@ -147,62 +244,95 @@
    "body": "Constitutional Officers",
    "seat": "Commissioner of the Revenue",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/localities/loudoun-county-va/elections/",
+   "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
    "candidates": []
   },
   {
-   "id": "fairfax-city-sheriff",
-   "locality": "Fairfax City",
-   "locality_id": "fairfax-city",
+   "id": "fairfax-county-sheriff",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
    "body": "Constitutional Officers",
    "seat": "Sheriff",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/localities/fairfax-county-va/elections/",
+   "source_url": "https://www.fairfaxcounty.gov/news/2023-inauguration",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "shared_with": [
+    {
+     "locality_id": "fairfax-city",
+     "locality": "Fairfax City",
+     "source_url": "https://www.fairfaxcounty.gov/elections/information-candidates"
+    }
+   ],
    "candidates": []
   },
   {
-   "id": "fairfax-city-commonwealth-s-attorney",
-   "locality": "Fairfax City",
-   "locality_id": "fairfax-city",
+   "id": "fairfax-county-commonwealth-s-attorney",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
    "body": "Constitutional Officers",
    "seat": "Commonwealth's Attorney",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular",
-   "candidates": [
+   "source_url": "https://www.fairfaxcounty.gov/news/2023-inauguration",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "shared_with": [
     {
-     "name": "Steve Descano",
-     "incumbent": true,
-     "filing_source_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular",
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular"
+     "locality_id": "fairfax-city",
+     "locality": "Fairfax City",
+     "source_url": "https://www.fairfaxcounty.gov/elections/information-candidates"
+    }
+   ],
+   "candidates": []
+  },
+  {
+   "id": "prince-william-sheriff",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
+   "body": "Constitutional Officers",
+   "seat": "Sheriff",
+   "seats": 1,
+   "source_url": "https://www.pwcvotes.org/elected-officials",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "shared_with": [
+    {
+     "locality_id": "manassas",
+     "locality": "Manassas",
+     "source_url": "https://www.manassasva.gov/voter_registration_and_elections/elected_officials.php"
     },
     {
-     "name": "Brittany Dunn-Pirio",
-     "incumbent": false,
-     "filing_source_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular",
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular"
+     "locality_id": null,
+     "locality": "Manassas Park",
+     "source_url": "https://www.manassasparkva.gov/government/local___state_elected_officials.php"
     }
-   ]
-  },
-  {
-   "id": "manassas-sheriff",
-   "locality": "Manassas",
-   "locality_id": "manassas",
-   "body": "Constitutional Officers",
-   "seat": "Sheriff",
-   "seats": 1,
-   "vpap_url": "https://www.vpap.org/localities/prince-william-county-va/elections/",
+   ],
    "candidates": []
   },
   {
-   "id": "manassas-commonwealth-s-attorney",
-   "locality": "Manassas",
-   "locality_id": "manassas",
+   "id": "prince-william-commonwealth-s-attorney",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
    "body": "Constitutional Officers",
    "seat": "Commonwealth's Attorney",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/localities/prince-william-county-va/elections/",
+   "source_url": "https://www.pwcvotes.org/elected-officials",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "shared_with": [
+    {
+     "locality_id": "manassas",
+     "locality": "Manassas",
+     "source_url": "https://www.manassasva.gov/voter_registration_and_elections/elected_officials.php"
+    },
+    {
+     "locality_id": null,
+     "locality": "Manassas Park",
+     "source_url": "https://www.manassasparkva.gov/government/local___state_elected_officials.php"
+    }
+   ],
    "candidates": []
   },
   {
@@ -212,7 +342,9 @@
    "body": "Constitutional Officers",
    "seat": "Sheriff",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/localities/albemarle-county-va/elections/",
+   "source_url": "https://www.albemarle.org/government/elections/elected-officials",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.albemarle.org/government/elections",
    "candidates": []
   },
   {
@@ -222,7 +354,9 @@
    "body": "Constitutional Officers",
    "seat": "Commonwealth's Attorney",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/localities/albemarle-county-va/elections/",
+   "source_url": "https://www.albemarle.org/government/elections/elected-officials",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.albemarle.org/government/elections",
    "candidates": []
   }
  ],

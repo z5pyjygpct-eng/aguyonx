@@ -1,8 +1,41 @@
 {
  "office": "senate",
  "election": "2027-11-02",
- "as_of": "2026-10-18",
- "source_url": "https://www.vpap.org/elections/senate/candidates/general/",
+ "as_of": "2026-11-19",
+ "source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+ "filings_checked": [
+  {
+   "label": "Virginia Department of Elections candidate lists",
+   "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "status": "no Nov. 2027 list posted"
+  },
+  {
+   "label": "Loudoun County Office of Elections",
+   "url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "loudoun"
+  },
+  {
+   "label": "Fairfax County Office of Elections",
+   "url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "fairfax-county"
+  },
+  {
+   "label": "Prince William County Office of Elections",
+   "url": "https://www.pwcvotes.org/ontheballot",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "prince-william"
+  },
+  {
+   "label": "Albemarle County Voter Registration and Elections",
+   "url": "https://www.albemarle.org/government/elections",
+   "status": "not reachable at build time",
+   "locality_id": "albemarle"
+  }
+ ],
+ "filings_note": "No official candidate list for the Nov. 2, 2027 election has been posted yet.",
+ "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
  "races": [
   {
    "id": "sd1",
@@ -15,23 +48,9 @@
     "slug": "timmy-french",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-1/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Emily Scott",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Timmy French",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd2",
@@ -44,16 +63,9 @@
     "slug": "mark-d-obenshain",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-2/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Mark Obenshain",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd3",
@@ -66,23 +78,9 @@
     "slug": "christopher-t-head",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-3/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Antwhon Suiter",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Christopher Head",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd4",
@@ -95,23 +93,9 @@
     "slug": "david-r-suetterlein",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-4/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Trish White-Boyd",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Dave Suetterlein",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd5",
@@ -124,23 +108,9 @@
     "slug": "t-travis-hackworth",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-5/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Lora Brown",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Travis Hackworth",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd6",
@@ -153,23 +123,9 @@
     "slug": "todd-e-pillion",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-6/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jessica Watts",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Todd Pillion",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd7",
@@ -182,23 +138,9 @@
     "slug": "william-m-stanley-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-7/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Maeve McCulloch",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Bill Stanley",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd8",
@@ -211,23 +153,9 @@
     "slug": "mark-j-peake",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-8/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Craig Cooper",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Mark Peake",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd9",
@@ -240,37 +168,9 @@
     "slug": "tammy-brankley-mulchi",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-9/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jasmine Lipscomb",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Paddy Rassbach",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Tina Wyatt Younger",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Tammy Mulchi",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd10",
@@ -283,16 +183,9 @@
     "slug": "luther-h-cifers-iii",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-10/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Luther Henry Cifers, III",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd11",
@@ -305,23 +198,9 @@
     "slug": "r-creigh-deeds",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-11/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Creigh Deeds",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Philip Hamilton",
-     "incumbent": false,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd12",
@@ -334,51 +213,9 @@
     "slug": "glen-h-sturtevant-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-12/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Randolph Todd Critzer, Jr",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Tiawana Giles",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Natan McKenzie",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Celvin Anthony Richardson",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Laura Lee Thompson",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Glen Sturtevant",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd13",
@@ -391,16 +228,9 @@
     "slug": "lashrecse-d-aird",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-13/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Lashrecse Aird",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd14",
@@ -413,16 +243,9 @@
     "slug": "lamont-bagby",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-14/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Lamont Bagby",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd15",
@@ -435,23 +258,9 @@
     "slug": "michael-j-jones",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-15/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Michael Jones",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "John R Thomas",
-     "incumbent": false,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd16",
@@ -464,23 +273,9 @@
     "slug": "schuyler-t-vanvalkenburg",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-16/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Schuyler VanValkenburg",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Spencer Stuart Philips",
-     "incumbent": false,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd17",
@@ -493,23 +288,9 @@
     "slug": "emily-m-jordan",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-17/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Michael Williamson",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Emily Jordan",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd18",
@@ -522,16 +303,9 @@
     "slug": "l-louise-lucas",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-18/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Louise Lucas",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd19",
@@ -544,23 +318,9 @@
     "slug": "christie-new-craig",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-19/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Therese Nicole Morin",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Christie New Craig",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd20",
@@ -573,23 +333,9 @@
     "slug": "bill-desteph",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-20/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Becky Winstead-Roberts",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Bill DeSteph",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd21",
@@ -602,16 +348,9 @@
     "slug": "angelia-williams-graves",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-21/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Angelia Williams Graves",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd22",
@@ -624,23 +363,9 @@
     "slug": "aaron-r-rouse",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-22/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Aaron Rouse",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Bobby Dyer",
-     "incumbent": false,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd23",
@@ -653,16 +378,9 @@
     "slug": "mamie-e-locke",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-23/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Mamie Locke",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd24",
@@ -675,37 +393,9 @@
     "slug": "j-d-diggs",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-24/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Mark Downey",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Jason Lee Parker",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Lena Weisman",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Danny Diggs",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd25",
@@ -718,23 +408,9 @@
     "slug": "richard-h-stuart",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-25/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Hannah Tiffany",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Richard Stuart",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd26",
@@ -747,23 +423,9 @@
     "slug": "ryan-t-mcdougle",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-26/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Pam Garner",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Ryan McDougle",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd27",
@@ -776,23 +438,9 @@
     "slug": "tara-a-durant",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-27/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Monica Gary",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Tara Durant",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd28",
@@ -805,30 +453,9 @@
     "slug": "bryce-e-reeves",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-28/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jude Melton",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Danielle Noel Gibeson",
-     "incumbent": false,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Bryce Reeves",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd29",
@@ -841,16 +468,9 @@
     "slug": "jeremy-s-mcpike",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-29/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jeremy McPike",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd30",
@@ -863,16 +483,9 @@
     "slug": "danica-a-roem",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-30/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Danica Roem",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd31",
@@ -885,16 +498,9 @@
     "slug": "russet-w-perry",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-31/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Russet Perry",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd32",
@@ -907,16 +513,9 @@
     "slug": "kannan-srinivasan",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-32/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Kannan Srinivasan",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd33",
@@ -929,16 +528,9 @@
     "slug": "jennifer-d-carroll-foy",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-33/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jennifer Carroll Foy",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd34",
@@ -951,16 +543,9 @@
     "slug": "scott-a-surovell",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-34/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Scott Surovell",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd35",
@@ -973,30 +558,9 @@
     "slug": "david-w-marsden",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-35/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Paul Gilbert",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Dave Marsden",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    },
-    {
-     "name": "Alis Wang",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd36",
@@ -1009,16 +573,9 @@
     "slug": "stella-g-pekarsky",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-36/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Stella Pekarsky",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd37",
@@ -1031,16 +588,9 @@
     "slug": "saddam-azlan-salim",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-37/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Saddam Azlan Salim",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd38",
@@ -1053,16 +603,9 @@
     "slug": "jennifer-b-boysko",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-38/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jennifer Boysko",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd39",
@@ -1075,16 +618,9 @@
     "slug": "elizabeth-bennett-parker",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-39/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Elizabeth Bennett-Parker",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "sd40",
@@ -1097,16 +633,9 @@
     "slug": "barbara-a-favola",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/state-senate-40/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Barbara Favola",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/senate/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/senate/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   }
  ]
 }

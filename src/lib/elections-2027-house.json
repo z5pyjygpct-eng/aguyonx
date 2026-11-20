@@ -1,8 +1,41 @@
 {
  "office": "house",
  "election": "2027-11-02",
- "as_of": "2026-10-18",
- "source_url": "https://www.vpap.org/elections/house/candidates/general/",
+ "as_of": "2026-11-19",
+ "source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+ "filings_checked": [
+  {
+   "label": "Virginia Department of Elections candidate lists",
+   "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "status": "no Nov. 2027 list posted"
+  },
+  {
+   "label": "Loudoun County Office of Elections",
+   "url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "loudoun"
+  },
+  {
+   "label": "Fairfax County Office of Elections",
+   "url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "fairfax-county"
+  },
+  {
+   "label": "Prince William County Office of Elections",
+   "url": "https://www.pwcvotes.org/ontheballot",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "prince-william"
+  },
+  {
+   "label": "Albemarle County Voter Registration and Elections",
+   "url": "https://www.albemarle.org/government/elections",
+   "status": "not reachable at build time",
+   "locality_id": "albemarle"
+  }
+ ],
+ "filings_note": "No official candidate list for the Nov. 2, 2027 election has been posted yet.",
+ "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
  "races": [
   {
    "id": "hd1",
@@ -15,23 +48,9 @@
     "slug": "patrick-a-hope",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-1/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Patrick Hope",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Breanna Helen Tatel",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd2",
@@ -44,16 +63,9 @@
     "slug": "adele-y-mcclure",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-2/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Adele McClure",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd3",
@@ -66,16 +78,9 @@
     "slug": "alfonso-h-lopez",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-3/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Alfonso Lopez",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd4",
@@ -88,16 +93,9 @@
     "slug": "charniele-l-herring",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-4/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Charniele Herring",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd5",
@@ -110,23 +108,9 @@
     "slug": "kirk-mcpike",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-5/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Kirk McPike",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Glen Pine",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd6",
@@ -139,16 +123,9 @@
     "slug": "richard-c-sullivan-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-6/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Rip Sullivan",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd7",
@@ -161,16 +138,9 @@
     "slug": "karen-keys-gamarra",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-7/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Karen Keys-Gamarra",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd8",
@@ -183,16 +153,9 @@
     "slug": "irene-shin",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-8/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Irene Shin",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd9",
@@ -205,16 +168,9 @@
     "slug": "karrie-k-delaney",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-9/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Karrie Delaney",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd10",
@@ -227,16 +183,9 @@
     "slug": "dan-i-helmer",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-10/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Dan Helmer",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd11",
@@ -249,23 +198,9 @@
     "slug": "gretchen-m-bulova",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-11/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Gretchen M Bulova",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Vanessa Cardenas",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd12",
@@ -278,16 +213,9 @@
     "slug": "holly-m-seibold",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-12/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Holly Seibold",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd13",
@@ -300,16 +228,9 @@
     "slug": "marcus-b-simon",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-13/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Marcus Simon",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd14",
@@ -322,23 +243,9 @@
     "slug": "vivian-e-watts",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-14/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "John M Forrest",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Vivian Watts",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd15",
@@ -351,16 +258,9 @@
     "slug": "laura-jane-cohen",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-15/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Laura Jane Cohen",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd16",
@@ -373,16 +273,9 @@
     "slug": "paul-e-krizek",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-16/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Paul Krizek",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd17",
@@ -395,16 +288,9 @@
     "slug": "garrett-mcguire",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-17/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Garrett McGuire",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd18",
@@ -417,16 +303,9 @@
     "slug": "kathy-k-l-tran",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-18/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Kathy Tran",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd19",
@@ -439,16 +318,9 @@
     "slug": "rozia-a-henson-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-19/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Rozia Henson",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd20",
@@ -456,7 +328,8 @@
    "seat": "HD20",
    "seats": 1,
    "current_member": null,
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-20/elections-redirect/?year_and_type=2027regular",
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "candidates": []
   },
   {
@@ -470,16 +343,9 @@
     "slug": "joshua-e-thomas",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-21/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Josh Thomas",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd22",
@@ -492,16 +358,9 @@
     "slug": "elizabeth-r-guzman",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-22/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Elizabeth Guzman",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd23",
@@ -514,23 +373,9 @@
     "slug": "margaret-a-franklin",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-23/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Margaret Angela Franklin",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Vern Robinson",
-     "incumbent": false,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd24",
@@ -543,16 +388,9 @@
     "slug": "luke-e-torian",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-24/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Luke Torian",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd25",
@@ -565,16 +403,9 @@
     "slug": "briana-d-sewell",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-25/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Briana Sewell",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd26",
@@ -587,16 +418,9 @@
     "slug": "jj-singh",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-26/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "JJ Singh",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd27",
@@ -609,16 +433,9 @@
     "slug": "atoosa-r-reaser",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-27/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Atoosa Reaser",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd28",
@@ -631,16 +448,9 @@
     "slug": "david-a-reid",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-28/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "David Reid",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd29",
@@ -653,16 +463,9 @@
     "slug": "marty-martinez",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-29/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Marty Martinez",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd30",
@@ -675,16 +478,9 @@
     "slug": "john-chilton-mcauliff",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-30/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "John Chilton McAuliff",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd31",
@@ -697,23 +493,9 @@
     "slug": "delores-oates",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-31/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Shane Boswell",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Delores Oates",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd32",
@@ -726,16 +508,9 @@
     "slug": "bill-wiley",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-32/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Bill Wiley",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd33",
@@ -748,23 +523,9 @@
     "slug": "justin-pence",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-33/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Catherine Elizabeth Rec",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Justin L Pence",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd34",
@@ -777,23 +538,9 @@
     "slug": "tony-o-wilt",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-34/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Andrew Payton",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Tony Wilt",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd35",
@@ -806,23 +553,9 @@
     "slug": "chris-s-runion",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-35/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jena Lisa Crisler",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Chris Runion",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd36",
@@ -835,23 +568,9 @@
     "slug": "ellen-h-mclaughlin",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-36/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Makayla Venable",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Ellen McLaughlin",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd37",
@@ -864,16 +583,9 @@
     "slug": "terry-l-austin",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-37/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Terry Austin",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd38",
@@ -886,16 +598,9 @@
     "slug": "sam-rasoul",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-38/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Sam Rasoul",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd39",
@@ -908,23 +613,9 @@
     "slug": "will-davis",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-39/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Eric Klotz",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Will Davis",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd40",
@@ -937,37 +628,9 @@
     "slug": "joseph-p-mcnamara",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-40/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Grayson Cotes",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Kiesha Preston",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Soren Roberts",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Joe McNamara",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd41",
@@ -980,16 +643,9 @@
     "slug": "lily-v-franklin",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-41/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Lily Franklin",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd42",
@@ -1002,23 +658,9 @@
     "slug": "jason-s-ballard",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-42/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Emily Traud",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Jason Ballard",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd43",
@@ -1031,23 +673,9 @@
     "slug": "james-w-morefield",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-43/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Melanie Protti-Lawrence",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Will Morefield",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd44",
@@ -1060,23 +688,9 @@
     "slug": "israel-d-o-quinn",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-44/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Cindy Green",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Israel O'Quinn",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd45",
@@ -1089,23 +703,9 @@
     "slug": "terry-g-kilgore",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-45/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Christopher Lee Brooks",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Terry Kilgore",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd46",
@@ -1118,23 +718,9 @@
     "slug": "mitchell-cornett",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-46/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Sherri Burris",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Mitchell D Cornett",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd47",
@@ -1147,23 +733,9 @@
     "slug": "wren-m-williams",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-47/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Yvonne Rorrer",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Wren Williams",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd48",
@@ -1176,23 +748,9 @@
     "slug": "eric-phillips",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-48/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Melody Ann Cartwright",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Eric Phillips",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd49",
@@ -1205,30 +763,9 @@
     "slug": "madison-whittle",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-49/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Bryan Hale",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Hubert Pannell",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Madison John Redd Whittle",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd50",
@@ -1241,30 +778,9 @@
     "slug": "thomas-c-wright-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-50/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Earnadette Powell Farrar",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Tommy Wright",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Trudy Berry",
-     "incumbent": false,
-     "party": "Other",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd51",
@@ -1277,16 +793,9 @@
     "slug": "eric-r-zehr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-51/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Eric Zehr",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd52",
@@ -1299,23 +808,9 @@
     "slug": "wendell-s-walker",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-52/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Rise Marie Hayes",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Wendell Walker",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd53",
@@ -1328,23 +823,9 @@
     "slug": "timothy-p-griffin",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-53/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Sam Soghor",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Tim Griffin",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd54",
@@ -1357,16 +838,9 @@
     "slug": "katrina-callsen",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-54/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Katrina Callsen",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd55",
@@ -1379,16 +853,9 @@
     "slug": "amy-j-laufer",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-55/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Amy Laufer",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd56",
@@ -1401,23 +868,9 @@
     "slug": "thomas-a-garrett-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-56/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jessica Robinson",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Tom Garrett",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd57",
@@ -1430,16 +883,9 @@
     "slug": "may-nivar",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-57/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "May Nivar",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd58",
@@ -1452,16 +898,9 @@
     "slug": "rodney-t-willett",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-58/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Rodney Willett",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd59",
@@ -1474,30 +913,9 @@
     "slug": "hyland-f-fowler-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-59/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Alayzia Coney",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Stan Scott",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Buddy Fowler",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd60",
@@ -1510,23 +928,9 @@
     "slug": "scott-a-wyatt",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-60/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Erin Doss",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Scott Wyatt",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd61",
@@ -1539,16 +943,9 @@
     "slug": "michael-j-webert",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-61/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Michael Webert",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd62",
@@ -1561,23 +958,9 @@
     "slug": "karen-hamilton",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-62/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Sara Ratcliffe",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Karen Hamilton",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd63",
@@ -1590,23 +973,9 @@
     "slug": "phillip-a-scott",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-63/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Forrest Miller",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Phillip Scott",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd64",
@@ -1619,16 +988,9 @@
     "slug": "stacey-annie-carroll",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-64/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Stacey Annie Carroll",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd65",
@@ -1641,23 +1003,9 @@
     "slug": "joshua-g-cole",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-65/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Joshua Cole",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Jannan Holmes",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd66",
@@ -1670,23 +1018,9 @@
     "slug": "nicole-cole",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-66/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Nicole Cole",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Zachary Hulo",
-     "incumbent": false,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd67",
@@ -1699,23 +1033,9 @@
     "slug": "hillary-pugh-kent",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-67/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Paige Conner Totaro",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Hillary Pugh Kent",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd68",
@@ -1728,23 +1048,9 @@
     "slug": "m-keith-hodges",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-68/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Elaine Walters",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Keith Hodges",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd69",
@@ -1757,16 +1063,9 @@
     "slug": "mark-c-downey",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-69/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Scott Williams",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd70",
@@ -1779,16 +1078,9 @@
     "slug": "shelly-a-simonds",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-70/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Shelly Simonds",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd71",
@@ -1801,16 +1093,9 @@
     "slug": "jessica-l-anderson",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-71/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jessica Anderson",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd72",
@@ -1823,23 +1108,9 @@
     "slug": "r-lee-ware",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-72/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Bilal Raychouni",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Lee Ware",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd73",
@@ -1852,16 +1123,9 @@
     "slug": "leslie-chambers-mehta",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-73/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Leslie Mehta",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd74",
@@ -1874,30 +1138,9 @@
     "slug": "mike-a-cherry",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-74/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jonas James Eppert",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Steve Stepp",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Mike Cherry",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd75",
@@ -1910,16 +1153,9 @@
     "slug": "lindsey-dougherty",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-75/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Lindsey Dougherty",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd76",
@@ -1932,16 +1168,9 @@
     "slug": "debra-d-gardner",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-76/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Debra Gardner",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd77",
@@ -1954,16 +1183,9 @@
     "slug": "charlie-schmidt",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-77/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Charlie Schmidt",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd78",
@@ -1976,16 +1198,9 @@
     "slug": "betsy-b-carr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-78/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Betsy Carr",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd79",
@@ -1998,16 +1213,9 @@
     "slug": "rae-cousins",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-79/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Rae Cousins",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd80",
@@ -2020,16 +1228,9 @@
     "slug": "destiny-levere-bolling",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-80/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Destiny LeVere Bolling",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd81",
@@ -2042,16 +1243,9 @@
     "slug": "delores-l-mcquinn",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-81/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Delores McQuinn",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd82",
@@ -2064,16 +1258,9 @@
     "slug": "kimberly-pope-adams",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-82/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Kimberly Pope Adams",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd83",
@@ -2086,30 +1273,9 @@
     "slug": "h-otto-wachsmann-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-83/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Naomi Celeste Dawkins",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Mary Person",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Otto Wachsmann",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd84",
@@ -2122,23 +1288,9 @@
     "slug": "nadarius-e-clark",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-84/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jessica R Burgess",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Nadarius Clark",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd85",
@@ -2151,16 +1303,9 @@
     "slug": "marcia-s-price",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-85/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Cia Price",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd86",
@@ -2173,16 +1318,9 @@
     "slug": "virgil-thornton",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-86/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Virgil Gene Thornton, Sr",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd87",
@@ -2195,16 +1333,9 @@
     "slug": "jeion-a-ward",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-87/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jeion Ward",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd88",
@@ -2217,16 +1348,9 @@
     "slug": "don-scott",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-88/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Don Scott",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd89",
@@ -2239,16 +1363,9 @@
     "slug": "karen-r-carnegie",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-89/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Karen Robins Carnegie",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd90",
@@ -2261,23 +1378,9 @@
     "slug": "james-a-leftwich",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-90/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Rodney Nickens",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Jay Leftwich",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd91",
@@ -2290,16 +1393,9 @@
     "slug": "c-e-cliff-hayes-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-91/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Cliff Hayes",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd92",
@@ -2312,16 +1408,9 @@
     "slug": "bonita-g-anthony",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-92/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Bonita Anthony",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd93",
@@ -2334,16 +1423,9 @@
     "slug": "jackie-h-glass",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-93/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Jackie Glass",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd94",
@@ -2356,16 +1438,9 @@
     "slug": "phil-m-hernandez",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-94/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Phil Hernandez",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd95",
@@ -2378,16 +1453,9 @@
     "slug": "alex-q-askew",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-95/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Alex Askew",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd96",
@@ -2400,16 +1468,9 @@
     "slug": "kelly-k-convirs-fowler",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-96/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Kelly Fowler",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd97",
@@ -2422,16 +1483,9 @@
     "slug": "michael-b-feggans",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-97/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Michael Feggans",
-     "incumbent": true,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd98",
@@ -2444,23 +1498,9 @@
     "slug": "andrew-rice",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-98/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Cheryl Smith",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Andrew Rice",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd99",
@@ -2473,23 +1513,9 @@
     "slug": "anne-ferrell-tata",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-99/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Josh Cohen",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Anne Ferrell Tata",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   },
   {
    "id": "hd100",
@@ -2502,23 +1528,9 @@
     "slug": "robert-s-bloxom-jr",
     "source_url": "https://lis.virginia.gov/"
    },
-   "vpap_url": "https://www.vpap.org/offices/house-of-delegates-100/elections-redirect/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Ashley Joynes",
-     "incumbent": false,
-     "party": "D",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    },
-    {
-     "name": "Rob Bloxom, Jr",
-     "incumbent": true,
-     "party": "R",
-     "party_source_url": "https://www.vpap.org/elections/house/candidates/general/",
-     "filing_source_url": "https://www.vpap.org/elections/house/candidates/general/"
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "candidates": []
   }
  ]
 }
