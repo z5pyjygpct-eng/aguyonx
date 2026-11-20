@@ -28,6 +28,18 @@
    "locality_id": "prince-william"
   },
   {
+   "label": "Henrico County Voter Registration and Elections",
+   "url": "https://henrico.gov/registrar/programs/candidates/",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "henrico"
+  },
+  {
+   "label": "Chesterfield County General Registrar",
+   "url": "https://www.chesterfield.gov/registrar",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "chesterfield"
+  },
+  {
    "label": "Albemarle County Voter Registration and Elections",
    "url": "https://www.albemarle.org/government/elections",
    "status": "not reachable at build time",

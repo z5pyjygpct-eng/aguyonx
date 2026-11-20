@@ -28,6 +28,18 @@
    "locality_id": "prince-william"
   },
   {
+   "label": "Henrico County Voter Registration and Elections",
+   "url": "https://henrico.gov/registrar/programs/candidates/",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "henrico"
+  },
+  {
+   "label": "Chesterfield County General Registrar",
+   "url": "https://www.chesterfield.gov/registrar",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "chesterfield"
+  },
+  {
    "label": "Albemarle County Voter Registration and Elections",
    "url": "https://www.albemarle.org/government/elections",
    "status": "not reachable at build time",
@@ -80,6 +92,26 @@
    "body": "City Council",
    "on_2027": false,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CityCncl26-31-November.pdf"
+  },
+  {
+   "id": "henrico",
+   "name": "Henrico",
+   "kind": "county",
+   "body": "Board of Supervisors",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "note": "All five district supervisors are up in 2027.",
+   "note_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf"
+  },
+  {
+   "id": "chesterfield",
+   "name": "Chesterfield",
+   "kind": "county",
+   "body": "Board of Supervisors",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "note": "All five district supervisors are up in 2027.",
+   "note_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf"
   },
   {
    "id": "albemarle",
@@ -415,6 +447,126 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "candidates": []
+  },
+  {
+   "id": "henrico-brookland",
+   "locality": "Henrico",
+   "locality_id": "henrico",
+   "body": "Board of Supervisors",
+   "seat": "Brookland",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
+   "candidates": []
+  },
+  {
+   "id": "henrico-fairfield",
+   "locality": "Henrico",
+   "locality_id": "henrico",
+   "body": "Board of Supervisors",
+   "seat": "Fairfield",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
+   "candidates": []
+  },
+  {
+   "id": "henrico-three-chopt",
+   "locality": "Henrico",
+   "locality_id": "henrico",
+   "body": "Board of Supervisors",
+   "seat": "Three Chopt",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
+   "candidates": []
+  },
+  {
+   "id": "henrico-tuckahoe",
+   "locality": "Henrico",
+   "locality_id": "henrico",
+   "body": "Board of Supervisors",
+   "seat": "Tuckahoe",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
+   "candidates": []
+  },
+  {
+   "id": "henrico-varina",
+   "locality": "Henrico",
+   "locality_id": "henrico",
+   "body": "Board of Supervisors",
+   "seat": "Varina",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
+   "candidates": []
+  },
+  {
+   "id": "chesterfield-bermuda",
+   "locality": "Chesterfield",
+   "locality_id": "chesterfield",
+   "body": "Board of Supervisors",
+   "seat": "Bermuda",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
+   "candidates": []
+  },
+  {
+   "id": "chesterfield-clover-hill",
+   "locality": "Chesterfield",
+   "locality_id": "chesterfield",
+   "body": "Board of Supervisors",
+   "seat": "Clover Hill",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
+   "candidates": []
+  },
+  {
+   "id": "chesterfield-dale",
+   "locality": "Chesterfield",
+   "locality_id": "chesterfield",
+   "body": "Board of Supervisors",
+   "seat": "Dale",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
+   "candidates": []
+  },
+  {
+   "id": "chesterfield-matoaca",
+   "locality": "Chesterfield",
+   "locality_id": "chesterfield",
+   "body": "Board of Supervisors",
+   "seat": "Matoaca",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
+   "candidates": []
+  },
+  {
+   "id": "chesterfield-midlothian",
+   "locality": "Chesterfield",
+   "locality_id": "chesterfield",
+   "body": "Board of Supervisors",
+   "seat": "Midlothian",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountyBOS.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
    "candidates": []
   },
   {
