@@ -32,3 +32,6 @@ tools/weekly/drafts/
 
 # Combined finance summary (site loads per-member JSON under src/content/finance-summaries/)
 src/content/finance-summaries.json
+
+# Emergency Monitor runtime data (built by scripts/build-emergency-data.mjs at vite build)
+public/emergency-data/

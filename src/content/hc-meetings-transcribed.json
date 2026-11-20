@@ -10424,5 +10424,55 @@
     "duration": "20m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=a22OqF_ms28"
+  },
+  {
+    "id": "fxco-sb-ty8Ytc6Y-VU",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "date": "2026-11-12",
+    "dateLabel": "Nov 12, 2026",
+    "duration": "4h 33m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=ty8Ytc6Y-VU"
+  },
+  {
+    "id": "fxco-sb-9k8cu2i9ABU",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Comprehensive Planning and Development Committee Meeting",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "duration": "2h 1m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=9k8cu2i9ABU"
+  },
+  {
+    "id": "pwc-bos-3946",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "duration": "6h 1m",
+    "provider": "granicus-page",
+    "playerUrl": "https://pwcgov.granicus.com/player/clip/3946?redirect=true"
+  },
+  {
+    "id": "fxco-sb-ivHFf1hNFQ8",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Public Engagement Committee Meeting",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "duration": "1h 58m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=ivHFf1hNFQ8"
+  },
+  {
+    "id": "fxco-bos-4333",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "duration": "7h 5m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/4333?redirect=true"
   }
 ]

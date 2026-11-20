@@ -68,6 +68,26 @@ export const CANDIDATES_2027: Candidate2027[] = [
     officeSought: "Fairfax Braddock District Supervisor (reelection)",
     locality: "Fairfax County",
     status: "declared",
+  },  {
+    id: "rodney-willett",
+    name: "Rodney Willett",
+    officeSought: "House of Delegates, District 58 (reelection)",
+    locality: "Henrico",
+    status: "declared",
+  },
+  {
+    id: "schuyler-vanvalkenburg",
+    name: "Schuyler VanValkenburg",
+    officeSought: "Virginia Senate, District 16 (reelection)",
+    locality: "Henrico",
+    status: "declared",
+  },
+  {
+    id: "kimberly-pope-adams",
+    name: "Kimberly Pope Adams",
+    officeSought: "House of Delegates, District 82 (reelection)",
+    locality: "Petersburg, Surry, Dinwiddie, Prince George",
+    status: "declared",
   },
 ];
 

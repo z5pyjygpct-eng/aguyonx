@@ -14,6 +14,8 @@ import { appEnvPlugin } from "./scripts/app-env-plugin.mjs";
 import { isMigrationFile } from "./scripts/migration-plan.mjs";
 // @ts-expect-error JS module alongside the TS vite config
 import { buildFtmPacks } from "./scripts/ftm-packs.mjs";
+// @ts-expect-error JS module alongside the TS vite config
+import { buildEmergencyData } from "./scripts/build-emergency-data.mjs";
 
 /** The files `src/lib/db.ts` globs — same directory, same non-recursive scope. */
 function hasGlobbedMigrations(root: string): boolean {
@@ -169,6 +171,31 @@ function ftmPacksPlugin(): Plugin {
   };
 }
 
+/**
+ * Emergency Monitor data (scripts/build-emergency-data.mjs): the page bundles only
+ * `virtual:emergency-head` (manifest + newest window); every other window is written to
+ * public/emergency-data/ (git-ignored, content-hashed) and fetched on demand. Built once per
+ * process, before Vite copies public/. See docs/emergency-archive-format.md.
+ */
+function emergencyDataPlugin(): Plugin {
+  const ID = "virtual:emergency-head";
+  let head: unknown = null;
+  const ensure = () => (head ??= buildEmergencyData());
+  return {
+    name: "aguyonx:emergency-data",
+    buildStart() {
+      ensure();
+    },
+    resolveId(id) {
+      return id === ID ? "\0" + ID : null;
+    },
+    load(id) {
+      if (id !== "\0" + ID) return null;
+      return `export default ${JSON.stringify(ensure())};`;
+    },
+  };
+}
+
 // `0.0.0.0:8080` is the live-preview contract — don't change host/port.
 // The dev server starts once `src/router.tsx` and `src/routes/` exist — see
 // AGENTS.md § "First scaffold".
@@ -196,6 +223,7 @@ export default defineConfig(({ command, isPreview }) => ({
     // PWA head + ?install=1 tutorial page; runs before Start/Nitro.
     grokPwaPlugin(),
     ftmPacksPlugin(),
+    emergencyDataPlugin(),
     tailwindcss(),
     // Loaders get their own chunks so recap/article lookups stay out of the main bundle.
     tanstackStart({ router: { codeSplittingOptions: { defaultBehavior: [["loader"], ["component"], ["errorComponent"], ["notFoundComponent"]] } } }),

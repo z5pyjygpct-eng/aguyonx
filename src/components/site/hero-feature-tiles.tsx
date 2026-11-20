@@ -23,7 +23,7 @@ type HeroTile = { to: LinkProps["to"]; kicker: string; title: string; tone: Tone
 export const HERO_TILES: HeroTile[] = [
   { to: "/how-to", kicker: "New here?", title: "How to use this website", tone: "gold" },
   { to: "/virginia-2027-bills", kicker: "New • Updated daily as filed", title: "Virginia 2027 bills", tone: "blue" },
-  { to: "/emergency-monitor", kicker: "Live · Updated every 2 hours", title: "Emergency Monitoring", tone: "red", wide: true },
+  { to: "/emergency-monitor", kicker: "Live · Updated every hour", title: "Emergency Monitoring", tone: "red", wide: true },
   { to: "/campaign-money", kicker: "State filings · Official records", title: "Campaign Finance", tone: "green", wide: true },
 ];
 

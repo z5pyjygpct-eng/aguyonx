@@ -351,11 +351,11 @@ function buildIndex(): SearchDoc[] {
   docs.push({
     id: "page-emergency-monitor",
     title: "Emergency Monitor – Live Log",
-    snippet: "A live log of world events by region, updated about every 2 hours.",
+    snippet: "A live log of world events by region, updated about every hour.",
     shelf: "Page",
     href: "/emergency-monitor",
     titleFields: "Emergency Monitor Live Log",
-    body: "Emergency monitor live log updated about every 2 hours.",
+    body: "Emergency monitor live log updated about every hour.",
     districtNumber: null,
   });
 

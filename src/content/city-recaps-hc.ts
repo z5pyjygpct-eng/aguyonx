@@ -64473,5 +64473,527 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Adjournment."
       }
     ]
+  },
+  {
+    "slug": "fxco-sb-ty8Ytc6Y-VU",
+    "meetingId": "fxco-sb-ty8Ytc6Y-VU",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Meeting",
+    "dateLabel": "Thursday, November 12, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 4h 33m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 14, 2026, 7:55 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=ty8Ytc6Y-VU"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-12-fairfax-county-school-board-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-12-fairfax-county-school-board-meeting.txt",
+      "pdfNote": "55 pages"
+    },
+    "shareContext": "FCPS, Nov 12, 2026",
+    "moments": [
+      {
+        "seconds": 1367,
+        "label": "Regular meeting called to order; presentation of the colors."
+      },
+      {
+        "seconds": 1406,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1579,
+        "label": "Announcements (agenda item 3.02)."
+      },
+      {
+        "seconds": 1610,
+        "label": "Proclamations begin (Veterans Day, School Psychologist Month, World Day of Remembrance for Road Traffic Victims, Family Engagement Month, America’s 250th anniversary)."
+      },
+      {
+        "seconds": 3386,
+        "label": "Purple Star Schools recognition (schools honored for supporting military-connected students)."
+      },
+      {
+        "seconds": 4618,
+        "label": "Community participation (public comment) begins (agenda item 4.01)."
+      },
+      {
+        "seconds": 6746,
+        "label": "Student representative matters (agenda item 5.01)."
+      },
+      {
+        "seconds": 6906,
+        "label": "Academic matters presentation: keeping students on track to meet graduation requirements (agenda item 6.01)."
+      },
+      {
+        "seconds": 8221,
+        "label": "Presentation: secondary course offerings (agenda item 6.02)."
+      },
+      {
+        "seconds": 10074,
+        "label": "Action item 7.01: certification of closed meeting compliance."
+      },
+      {
+        "seconds": 10145,
+        "label": "Action item 7.02: confirmation of actions taken in closed meeting."
+      },
+      {
+        "seconds": 10334,
+        "label": "Action item 7.03: School Board legislative program (state and federal legislative positions)."
+      },
+      {
+        "seconds": 11343,
+        "label": "Action item 7.04: contract award, Willow Springs Elementary School renovation project."
+      },
+      {
+        "seconds": 11780,
+        "label": "Action item 7.05: contract, solar power purchase agreement at 10 school sites (wave 4)."
+      },
+      {
+        "seconds": 12153,
+        "label": "Brief recess before the 7.05 vote."
+      },
+      {
+        "seconds": 12873,
+        "label": "Action item 7.06: amendment to the consultative services contract for the professional development evaluation system."
+      },
+      {
+        "seconds": 13198,
+        "label": "Monitoring report (agenda item 8.01): Executive Limitation 10, learning environment and relationships with students."
+      },
+      {
+        "seconds": 16211,
+        "label": "Consent agenda (agenda item 9)."
+      },
+      {
+        "seconds": 16245,
+        "label": "New business (agenda item 10; no votes this evening)."
+      },
+      {
+        "seconds": 16258,
+        "label": "Board committee reports (agenda item 11)."
+      },
+      {
+        "seconds": 16361,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-9k8cu2i9ABU",
+    "meetingId": "fxco-sb-9k8cu2i9ABU",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Comprehensive Planning and Development Committee Meeting",
+    "dateLabel": "Monday, November 16, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 2h 1m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 18, 2026, 8:15 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=9k8cu2i9ABU"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-16-fairfax-county-school-board-comprehensive-planning-and-development-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-16-fairfax-county-school-board-comprehensive-planning-and-development-committee-meeting.txt",
+      "pdfNote": "30 pages"
+    },
+    "shareContext": "FCPS, Nov 16, 2026",
+    "moments": [
+      {
+        "seconds": 245,
+        "label": "Committee meeting called to order."
+      },
+      {
+        "seconds": 332,
+        "label": "Minutes held until more members arrive; item 1.03: presentation from an energy-as-a-service provider."
+      },
+      {
+        "seconds": 2976,
+        "label": "Approval of minutes (May 19 and September 2026 committee meetings)."
+      },
+      {
+        "seconds": 3069,
+        "label": "Item 1.04: adoption of the P3 (public-private partnership) guidelines."
+      },
+      {
+        "seconds": 4377,
+        "label": "Item 1.05: updates from facilities."
+      },
+      {
+        "seconds": 4850,
+        "label": "Facilities update: division-wide facility condition assessment."
+      },
+      {
+        "seconds": 6654,
+        "label": "Facilities update: Cub Run project status."
+      },
+      {
+        "seconds": 7224,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "pwc-bos-3946",
+    "meetingId": "pwc-bos-3946",
+    "venue": "pwc-bos",
+    "title": "Prince William Board of County Supervisors Meeting",
+    "dateLabel": "Tuesday, November 17, 2026",
+    "whenWhere": "Prince William County Board of County Supervisors meeting · video 6h 1m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 19, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Prince William County's adopted Board of County Supervisors minutes / resolutions. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Prince William County, Granicus)",
+          "href": "https://pwcgov.granicus.com/player/clip/3946"
+        },
+        {
+          "label": "Board of County Supervisors page (Prince William County)",
+          "href": "https://www.pwcva.gov/department/board-county-supervisors"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-11-17-prince-william-board-of-county-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/pwc-bos/transcripts/coraggio-transcript-pwc-bos-2026-11-17-prince-william-board-of-county-supervisors-meeting.txt",
+      "pdfNote": "83 pages"
+    },
+    "shareContext": "PWC BOCS, Nov 17, 2026",
+    "moments": [
+      {
+        "seconds": 1368,
+        "label": "Invocation / moment of silence."
+      },
+      {
+        "seconds": 1391,
+        "label": "Pledge of Allegiance."
+      },
+      {
+        "seconds": 1415,
+        "label": "Approval of minutes."
+      },
+      {
+        "seconds": 1446,
+        "label": "Commendations and proclamations."
+      },
+      {
+        "seconds": 1771,
+        "label": "Commendation: National Museum of the Marine Corps 20th anniversary."
+      },
+      {
+        "seconds": 2333,
+        "label": "Proclamation: Small Business Saturday (Nov 28, 2026)."
+      },
+      {
+        "seconds": 2507,
+        "label": "Proclamation: National Adoption Day (Nov 21, 2026)."
+      },
+      {
+        "seconds": 2739,
+        "label": "Veterans Day 2026 commendation honoring county veterans."
+      },
+      {
+        "seconds": 3028,
+        "label": "Consent agenda."
+      },
+      {
+        "seconds": 3122,
+        "label": "Consent items 6.L, 6.N and 6.O: police department memoranda of agreement with the U.S. Department of Homeland Security, taken separately."
+      },
+      {
+        "seconds": 3226,
+        "label": "Public comment time."
+      },
+      {
+        "seconds": 6618,
+        "label": "Public hearings, including consolidated land use cases."
+      },
+      {
+        "seconds": 7311,
+        "label": "County Executive time."
+      },
+      {
+        "seconds": 7539,
+        "label": "County Attorney time."
+      },
+      {
+        "seconds": 7694,
+        "label": "Agency item 11.A: Principles of Sound Financial Management (proposed and amended)."
+      },
+      {
+        "seconds": 7851,
+        "label": "Agency item 11.B: re-initiate Comprehensive Plan Amendment CPA2023-00005 (Blackburn's Ford Battlefield area)."
+      },
+      {
+        "seconds": 8717,
+        "label": "Agency item 11.C: noise ordinance update (staff and consultant presentation, board discussion)."
+      },
+      {
+        "seconds": 17626,
+        "label": "Supervisors' time."
+      },
+      {
+        "seconds": 17663,
+        "label": "Proposed directive: Bus Rapid Transit (BRT) / transit priorities."
+      },
+      {
+        "seconds": 17737,
+        "label": "Proposed directive: Gainesville District heritage tourism and recreation small area plan."
+      },
+      {
+        "seconds": 21374,
+        "label": "Closed meeting."
+      },
+      {
+        "seconds": 21383,
+        "label": "Certification of the closed meeting."
+      },
+      {
+        "seconds": 21653,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-sb-ivHFf1hNFQ8",
+    "meetingId": "fxco-sb-ivHFf1hNFQ8",
+    "venue": "fairfax-county-schools",
+    "title": "Fairfax County School Board Public Engagement Committee Meeting",
+    "dateLabel": "Tuesday, November 17, 2026",
+    "whenWhere": "Fairfax County School Board meeting · video 1h 58m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 19, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from the Fairfax County School Board's approved minutes (FCPS BoardDocs). Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (YouTube)",
+          "href": "https://www.youtube.com/watch?v=ivHFf1hNFQ8"
+        },
+        {
+          "label": "School Board page (FCPS)",
+          "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-17-fairfax-county-school-board-public-engagement-committee-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-17-fairfax-county-school-board-public-engagement-committee-meeting.txt",
+      "pdfNote": "28 pages"
+    },
+    "shareContext": "FCPS, Nov 17, 2026",
+    "moments": [
+      {
+        "seconds": 648,
+        "label": "Committee meeting called to order."
+      },
+      {
+        "seconds": 660,
+        "label": "Approval of minutes (September 2026 committee meeting)."
+      },
+      {
+        "seconds": 696,
+        "label": "Next item: student engagement and student representation to the School Board."
+      },
+      {
+        "seconds": 2001,
+        "label": "Committee motion and vote on the number of student representatives."
+      },
+      {
+        "seconds": 2050,
+        "label": "Further student representation proposals, including the Student Advisory Council."
+      },
+      {
+        "seconds": 3629,
+        "label": "Discussion of the School Board student leadership development program."
+      },
+      {
+        "seconds": 4520,
+        "label": "Item 1.06 taken early: engagement with underrepresented communities (staff presentation and discussion)."
+      },
+      {
+        "seconds": 6888,
+        "label": "Item 1.05: community advisory committee handbook updates and trainings."
+      },
+      {
+        "seconds": 7086,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4333",
+    "meetingId": "fxco-bos-4333",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "dateLabel": "Tuesday, November 17, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 7h 5m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 20, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4333"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-11-17-fairfax-county-board-of-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-11-17-fairfax-county-board-of-supervisors-meeting.txt",
+      "pdfNote": "107 pages"
+    },
+    "shareContext": "Fairfax BOS, Nov 17, 2026",
+    "moments": [
+      {
+        "seconds": 5,
+        "label": "Meeting opens; presentations."
+      },
+      {
+        "seconds": 564,
+        "label": "Resolution recognizing the county Health Department director's service."
+      },
+      {
+        "seconds": 1867,
+        "label": "Proclamation: November 2026 as Veterans and Military Families Month."
+      },
+      {
+        "seconds": 3098,
+        "label": "Resolution recognizing Thomas Jefferson High School students for a student-safety walking tool."
+      },
+      {
+        "seconds": 4210,
+        "label": "Resolution recognizing student technology founders (Tech of Tomorrow)."
+      },
+      {
+        "seconds": 4855,
+        "label": "Board appointments to citizen boards, authorities, commissions and advisory groups."
+      },
+      {
+        "seconds": 4891,
+        "label": "Matters presented by Board members."
+      },
+      {
+        "seconds": 9855,
+        "label": "Items presented by the County Executive: administrative items 1–9."
+      },
+      {
+        "seconds": 10009,
+        "label": "Closed session."
+      },
+      {
+        "seconds": 10688,
+        "label": "Public hearings begin."
+      },
+      {
+        "seconds": 10912,
+        "label": "Public hearing: RZ-2025-PR-00004 (Tysons A, LLC), Providence District."
+      },
+      {
+        "seconds": 11468,
+        "label": "Public hearing: Cityline Partners / Galerie Development amendments, Providence District."
+      },
+      {
+        "seconds": 12300,
+        "label": "Public hearings: K. Hovnanian at Lincoln Park rezonings and proffer amendments, Sully District."
+      },
+      {
+        "seconds": 12706,
+        "label": "Public hearing: SE-2025-DR-00005 (CVP Operations VA LLC), Dranesville District."
+      },
+      {
+        "seconds": 13246,
+        "label": "Public hearing: SE-2026-SU-00012 (home health special exception), Sully District."
+      },
+      {
+        "seconds": 13709,
+        "label": "Public hearings: EYA Development rezoning and proffer amendments, Hunter Mill District."
+      },
+      {
+        "seconds": 14367,
+        "label": "Public hearing: SE-2025-MA-00043 (Fairfax County Water Authority), Mason District."
+      },
+      {
+        "seconds": 15195,
+        "label": "Public hearing: AF-2026-MV-00003 (Belmont Bay Farms II agricultural and forestal district), Mount Vernon District."
+      },
+      {
+        "seconds": 15547,
+        "label": "Public hearing: Public Facilities Policy Plan (Phase II) and Comprehensive Plan map updates."
+      },
+      {
+        "seconds": 16247,
+        "label": "Public hearing: Site-Specific Plan Amendment 2025-II-2M (Vinson Hall), McLean."
+      },
+      {
+        "seconds": 16305,
+        "label": "Public hearing: proposal to vacate and abandon Redskin Drive, Sully District."
+      },
+      {
+        "seconds": 16478,
+        "label": "Public hearing: conveying land rights at 8243 Gregory Drive to VDOT."
+      },
+      {
+        "seconds": 16677,
+        "label": "Public hearing: conveying land rights at 8323 and 8333 Richmond Highway to VDOT."
+      },
+      {
+        "seconds": 16944,
+        "label": "Public hearing: ordinance amending Chapter 4 (Taxation and Finance), Articles 7.2 and 17.1."
+      },
+      {
+        "seconds": 17078,
+        "label": "Public hearing: Zoning Ordinance amendment on accessory living units."
+      },
+      {
+        "seconds": 23425,
+        "label": "Public comment."
+      },
+      {
+        "seconds": 25493,
+        "label": "Adjournment."
+      }
+    ]
   }
 ];
