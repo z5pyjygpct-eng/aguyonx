@@ -10131,5 +10131,15 @@ export const HC_FTM_TRANSCRIPTS: FtmTranscript[] = [
     "engine": "whisper.cpp · large-v3-turbo",
     "generated": "2026-11-18",
     "sourceFile": "fxco-sb-ivHFf1hNFQ8.srt"
+  },
+  {
+    "meetingId": "fxco-bos-4333",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4333.json",
+    "windowCount": 1051,
+    "wordCount": 61476,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-11-19",
+    "sourceFile": "fxco-bos-4333.srt"
   }
 ];

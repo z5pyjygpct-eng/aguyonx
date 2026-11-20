@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19",
+  "generatedAt": "2026-11-20",
   "note": "Plain-language summaries grounded only in official LIS title and summary_plain, or in official bill text when sourceUsed is bill-text. Editorial. Missing or thin official sources are pending and are never guessed. reviewed:true entries are not auto-overwritten when a later ledger install changes the official source.",
   "bills": {
     "SB837": {
@@ -1004,7 +1004,7 @@
       }
     },
     "HB1315": {
-      "summary": "This bill would amend several listed sections of the Code of Virginia relating to the authority of fire marshals. In those amended sections, a fire marshal, as defined in § 27-34.2:1, would be included as a law-enforcement officer. The sections being amended include provisions on assault and battery, stalking, arrest without a warrant, strip searches, search warrants for a tracking device, and coverage of firefighters and law-enforcement officers under § 65.2-102.",
+      "summary": "This bill would amend several listed sections of the Code of Virginia relating to the authority of fire marshals. In those amended sections, a fire marshal, as defined in \u00a7 27-34.2:1, would be included as a law-enforcement officer. The sections being amended include provisions on assault and battery, stalking, arrest without a warrant, strip searches, search warrants for a tracking device, and coverage of firefighters and law-enforcement officers under \u00a7 65.2-102.",
       "status": "ok",
       "sourceUsed": "bill-text",
       "generatedAt": "2026-11-17",
@@ -5426,7 +5426,7 @@
       }
     },
     "SB708": {
-      "summary": "This bill would add a new § 54.1-2971.2 requiring informed consent before a hysterectomy or oophorectomy. At least two weeks before the patient signs the consent, the physician would have to give the patient notice that the patient may withhold or withdraw consent to the procedure without losing the right to future care or treatment and without losing any state or federally funded benefits to which the patient might otherwise be entitled, a referral to the HERS Foundation and its website, and color diagrams of the pelvic organs, including the pelvic support system, nerves, and blood supply. The written consent would have to include a statement that the patient understood the information and was advised that the procedure will render the patient permanently sterile. The requirement would not apply in a life-threatening emergency when prior written informed consent is not possible.",
+      "summary": "This bill would add a new \u00a7 54.1-2971.2 requiring informed consent before a hysterectomy or oophorectomy. At least two weeks before the patient signs the consent, the physician would have to give the patient notice that the patient may withhold or withdraw consent to the procedure without losing the right to future care or treatment and without losing any state or federally funded benefits to which the patient might otherwise be entitled, a referral to the HERS Foundation and its website, and color diagrams of the pelvic organs, including the pelvic support system, nerves, and blood supply. The written consent would have to include a statement that the patient understood the information and was advised that the procedure will render the patient permanently sterile. The requirement would not apply in a life-threatening emergency when prior written informed consent is not possible.",
       "status": "ok",
       "sourceUsed": "bill-text",
       "generatedAt": "2026-11-17",
@@ -5440,7 +5440,7 @@
       }
     },
     "SB709": {
-      "summary": "This bill would amend and reenact § 59.1-284.42 of the Code of Virginia, relating to the Cloud Computing Cluster Infrastructure Grant Fund and performance agreements. The bill would strike language providing that a performance agreement may also include commitments related to accelerated permitting, property tax classifications, and other such issues to which the parties agree. A performance agreement would remain an agreement entered into on or after January 1, 2023, between a qualified company, a locality identified in a memorandum of understanding, and VEDP that commits the locality to provide local funds, either as annual cash grants or via the expenditure of local funds, for infrastructure costs related to the qualified company.",
+      "summary": "This bill would amend and reenact \u00a7 59.1-284.42 of the Code of Virginia, relating to the Cloud Computing Cluster Infrastructure Grant Fund and performance agreements. The bill would strike language providing that a performance agreement may also include commitments related to accelerated permitting, property tax classifications, and other such issues to which the parties agree. A performance agreement would remain an agreement entered into on or after January 1, 2023, between a qualified company, a locality identified in a memorandum of understanding, and VEDP that commits the locality to provide local funds, either as annual cash grants or via the expenditure of local funds, for infrastructure costs related to the qualified company.",
       "status": "ok",
       "sourceUsed": "bill-text",
       "generatedAt": "2026-11-17",
@@ -5454,7 +5454,7 @@
       }
     },
     "SB710": {
-      "summary": "This bill would amend § 58.1-322.03 of the Code of Virginia, relating to the Virginia standard deduction and its sunset. For taxpayers who have not itemized deductions for the taxable year on a federal income tax return, the bill's text would provide a standard deduction of $8,750 for single individuals and $17,500 for married persons for taxable years beginning on and after January 1, 2025, but before January 1, 2027. For taxable years beginning on and after January 1, 2027, the standard deduction would be $3,000 for single individuals and $6,000 for married persons. One-half of such amounts would apply in the case of a married individual filing a separate return.",
+      "summary": "This bill would amend \u00a7 58.1-322.03 of the Code of Virginia, relating to the Virginia standard deduction and its sunset. For taxpayers who have not itemized deductions for the taxable year on a federal income tax return, the bill's text would provide a standard deduction of $8,750 for single individuals and $17,500 for married persons for taxable years beginning on and after January 1, 2025, but before January 1, 2027. For taxable years beginning on and after January 1, 2027, the standard deduction would be $3,000 for single individuals and $6,000 for married persons. One-half of such amounts would apply in the case of a married individual filing a separate return.",
       "status": "ok",
       "sourceUsed": "bill-text",
       "generatedAt": "2026-11-17",
@@ -5858,7 +5858,7 @@
       }
     },
     "SB811": {
-      "summary": "This bill would amend § 54.1-2957 of the Code of Virginia relating to clinical nurse specialists, practice agreements, and consultation requirements. A clinical nurse specialist licensed by the Boards of Medicine and Nursing who does not prescribe controlled substances or devices may practice in the practice category in which the specialist is certified and licensed without a written or electronic practice agreement. A prescribing clinical nurse specialist who has practiced fewer than 1,000 hours as a prescribing clinical nurse specialist would have to practice in consultation with a supervising prescribing clinical nurse specialist who has practiced for at least two years, or a licensed physician, in accordance with a written or electronic practice agreement. A prescribing clinical nurse specialist who has completed 1,000 hours of work as a prescribing clinical nurse specialist may practice without a practice agreement upon receipt of an attestation from the supervising prescribing clinical nurse specialist or the licensed physician. A prescribing clinical nurse specialist authorized to practice without a practice agreement would have to consult and collaborate with, and refer patients to, such other health care providers as may be appropriate for the care of the patient.",
+      "summary": "This bill would amend \u00a7 54.1-2957 of the Code of Virginia relating to clinical nurse specialists, practice agreements, and consultation requirements. A clinical nurse specialist licensed by the Boards of Medicine and Nursing who does not prescribe controlled substances or devices may practice in the practice category in which the specialist is certified and licensed without a written or electronic practice agreement. A prescribing clinical nurse specialist who has practiced fewer than 1,000 hours as a prescribing clinical nurse specialist would have to practice in consultation with a supervising prescribing clinical nurse specialist who has practiced for at least two years, or a licensed physician, in accordance with a written or electronic practice agreement. A prescribing clinical nurse specialist who has completed 1,000 hours of work as a prescribing clinical nurse specialist may practice without a practice agreement upon receipt of an attestation from the supervising prescribing clinical nurse specialist or the licensed physician. A prescribing clinical nurse specialist authorized to practice without a practice agreement would have to consult and collaborate with, and refer patients to, such other health care providers as may be appropriate for the care of the patient.",
       "status": "ok",
       "sourceUsed": "bill-text",
       "generatedAt": "2026-11-17",
@@ -5899,7 +5899,7 @@
       }
     },
     "SB829": {
-      "summary": "This bill would amend § 58.1-3912 of the Code of Virginia, relating to real property tax bills, disclosure, and resource protection areas. Beginning with tax year 2027, in any locality subject to the provisions of the Chesapeake Bay Preservation Act, the locality would have to state on the face of each real property tax bill whether the property is designated as a resource protection area. That designation would follow criteria developed by the State Water Control Board pursuant to § 62.1-44.15:72.",
+      "summary": "This bill would amend \u00a7 58.1-3912 of the Code of Virginia, relating to real property tax bills, disclosure, and resource protection areas. Beginning with tax year 2027, in any locality subject to the provisions of the Chesapeake Bay Preservation Act, the locality would have to state on the face of each real property tax bill whether the property is designated as a resource protection area. That designation would follow criteria developed by the State Water Control Board pursuant to \u00a7 62.1-44.15:72.",
       "status": "ok",
       "sourceUsed": "bill-text",
       "generatedAt": "2026-11-17",
@@ -5926,7 +5926,7 @@
       }
     },
     "SB833": {
-      "summary": "This bill would amend §§ 4.1-212.1 and 18.2-323.1 of the Code of Virginia, relating to open containers. As amended, it would be unlawful for any person to consume an alcoholic beverage while driving a motor vehicle or to knowingly or intentionally possess any alcoholic beverage other than in the manufacturer's unopened original container in a motor vehicle in the passenger area upon a public highway of the Commonwealth, including the shoulder. A violation would be punishable as a Class 4 misdemeanor. The bill would also provide that the amount reserved equal to 2.5 percent of Federal-aid funds apportioned under 23 U.S.C. 104(b)(1) and (b)(2) for the National Highway Performance Program and the Surface Transportation Block Grant Program shall be deposited to the Virginia Highway Safety Improvement Program established pursuant to § 33.2-373.",
+      "summary": "This bill would amend \u00a7\u00a7 4.1-212.1 and 18.2-323.1 of the Code of Virginia, relating to open containers. As amended, it would be unlawful for any person to consume an alcoholic beverage while driving a motor vehicle or to knowingly or intentionally possess any alcoholic beverage other than in the manufacturer's unopened original container in a motor vehicle in the passenger area upon a public highway of the Commonwealth, including the shoulder. A violation would be punishable as a Class 4 misdemeanor. The bill would also provide that the amount reserved equal to 2.5 percent of Federal-aid funds apportioned under 23 U.S.C. 104(b)(1) and (b)(2) for the National Highway Performance Program and the Surface Transportation Block Grant Program shall be deposited to the Virginia Highway Safety Improvement Program established pursuant to \u00a7 33.2-373.",
       "status": "ok",
       "sourceUsed": "bill-text",
       "generatedAt": "2026-11-17",
@@ -6132,6 +6132,32 @@
         "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB859/text/SB859",
         "full_text_doc1": "SB859",
         "full_text_date1": "11/17/2026"
+      }
+    },
+    "SB860": {
+      "summary": "This bill concerns virtual currency fraud investigations and recovery. It would create a process to recover virtual currency in connection with a violation of certain criminal offenses. Virtual currency is defined in the bill.",
+      "status": "ok",
+      "sourceUsed": "lis-summary",
+      "generatedAt": "2026-11-20",
+      "reviewed": false,
+      "sourceFingerprint": {
+        "summary_plain": "Virtual currency fraud investigations and recovery. Creates a process to recover virtual currency, defined in the bill, in connection with a violation of certain criminal offenses.",
+        "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB860/text/SB860",
+        "full_text_doc1": "SB860",
+        "full_text_date1": "11/18/2026"
+      }
+    },
+    "SB861": {
+      "summary": "This bill would prohibit a person who owns real property adjacent to a motor sports facility from bringing an action for private nuisance against that facility in certain cases. The prohibition would apply if the motor sports facility was constructed and had operated or hosted races before the date that the person purchased, built upon, improved, or otherwise acquired that real property. Motor sports facility is defined in the bill.",
+      "status": "ok",
+      "sourceUsed": "lis-summary",
+      "generatedAt": "2026-11-20",
+      "reviewed": false,
+      "sourceFingerprint": {
+        "summary_plain": "Motor sports facility; action for private nuisance; civil immunity. Prohibits person who owns real property adjacent to a motor sports facility, as defined in the bill, from bringing an action for private nuisance against such motor sports facility if such motor sports facility was constructed and had operated or hosted races prior to the date that such person purchased, built upon, improved, or otherwise acquired such real property.",
+        "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB861/text/SB861",
+        "full_text_doc1": "SB861",
+        "full_text_date1": "11/18/2026"
       }
     }
   }

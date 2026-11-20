@@ -10464,5 +10464,15 @@
     "duration": "1h 58m",
     "provider": "youtube",
     "playerUrl": "https://www.youtube.com/watch?v=ivHFf1hNFQ8"
+  },
+  {
+    "id": "fxco-bos-4333",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "duration": "7h 5m",
+    "provider": "granicus-page",
+    "playerUrl": "https://video.fairfaxcounty.gov/player/clip/4333?redirect=true"
   }
 ]

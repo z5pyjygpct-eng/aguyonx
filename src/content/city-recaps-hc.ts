@@ -64853,5 +64853,147 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Adjournment."
       }
     ]
+  },
+  {
+    "slug": "fxco-bos-4333",
+    "meetingId": "fxco-bos-4333",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Meeting",
+    "dateLabel": "Tuesday, November 17, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 7h 5m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 20, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4333"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-11-17-fairfax-county-board-of-supervisors-meeting.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-11-17-fairfax-county-board-of-supervisors-meeting.txt",
+      "pdfNote": "107 pages"
+    },
+    "shareContext": "Fairfax BOS, Nov 17, 2026",
+    "moments": [
+      {
+        "seconds": 5,
+        "label": "Meeting opens; presentations."
+      },
+      {
+        "seconds": 564,
+        "label": "Resolution recognizing the county Health Department director's service."
+      },
+      {
+        "seconds": 1867,
+        "label": "Proclamation: November 2026 as Veterans and Military Families Month."
+      },
+      {
+        "seconds": 3098,
+        "label": "Resolution recognizing Thomas Jefferson High School students for a student-safety walking tool."
+      },
+      {
+        "seconds": 4210,
+        "label": "Resolution recognizing student technology founders (Tech of Tomorrow)."
+      },
+      {
+        "seconds": 4855,
+        "label": "Board appointments to citizen boards, authorities, commissions and advisory groups."
+      },
+      {
+        "seconds": 4891,
+        "label": "Matters presented by Board members."
+      },
+      {
+        "seconds": 9855,
+        "label": "Items presented by the County Executive: administrative items 1–9."
+      },
+      {
+        "seconds": 10009,
+        "label": "Closed session."
+      },
+      {
+        "seconds": 10688,
+        "label": "Public hearings begin."
+      },
+      {
+        "seconds": 10912,
+        "label": "Public hearing: RZ-2025-PR-00004 (Tysons A, LLC), Providence District."
+      },
+      {
+        "seconds": 11468,
+        "label": "Public hearing: Cityline Partners / Galerie Development amendments, Providence District."
+      },
+      {
+        "seconds": 12300,
+        "label": "Public hearings: K. Hovnanian at Lincoln Park rezonings and proffer amendments, Sully District."
+      },
+      {
+        "seconds": 12706,
+        "label": "Public hearing: SE-2025-DR-00005 (CVP Operations VA LLC), Dranesville District."
+      },
+      {
+        "seconds": 13246,
+        "label": "Public hearing: SE-2026-SU-00012 (home health special exception), Sully District."
+      },
+      {
+        "seconds": 13709,
+        "label": "Public hearings: EYA Development rezoning and proffer amendments, Hunter Mill District."
+      },
+      {
+        "seconds": 14367,
+        "label": "Public hearing: SE-2025-MA-00043 (Fairfax County Water Authority), Mason District."
+      },
+      {
+        "seconds": 15195,
+        "label": "Public hearing: AF-2026-MV-00003 (Belmont Bay Farms II agricultural and forestal district), Mount Vernon District."
+      },
+      {
+        "seconds": 15547,
+        "label": "Public hearing: Public Facilities Policy Plan (Phase II) and Comprehensive Plan map updates."
+      },
+      {
+        "seconds": 16247,
+        "label": "Public hearing: Site-Specific Plan Amendment 2025-II-2M (Vinson Hall), McLean."
+      },
+      {
+        "seconds": 16305,
+        "label": "Public hearing: proposal to vacate and abandon Redskin Drive, Sully District."
+      },
+      {
+        "seconds": 16478,
+        "label": "Public hearing: conveying land rights at 8243 Gregory Drive to VDOT."
+      },
+      {
+        "seconds": 16677,
+        "label": "Public hearing: conveying land rights at 8323 and 8333 Richmond Highway to VDOT."
+      },
+      {
+        "seconds": 16944,
+        "label": "Public hearing: ordinance amending Chapter 4 (Taxation and Finance), Articles 7.2 and 17.1."
+      },
+      {
+        "seconds": 17078,
+        "label": "Public hearing: Zoning Ordinance amendment on accessory living units."
+      },
+      {
+        "seconds": 23425,
+        "label": "Public comment."
+      },
+      {
+        "seconds": 25493,
+        "label": "Adjournment."
+      }
+    ]
   }
 ];
