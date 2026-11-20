@@ -47,7 +47,7 @@ export const Route = createFileRoute("/virginia-2027-bills")({
     ...(typeof s.party === "string" && s.party ? { party: s.party } : {}),
     ...(typeof s.status === "string" && s.status ? { status: s.status } : {}),
     ...(s.filing === "continued" ? { filing: "continued" as const } : {}),
-    ...(s.filed === "today" || s.filed === "7d" || s.filed === "30d" ? { filed: s.filed } : {}),
+    ...(s.filed === "today" || s.filed === "7d" || s.filed === "30d" || s.filed === "older30" ? { filed: s.filed } : {}),
   }),
   head: () => ({
     meta: [
@@ -359,7 +359,7 @@ function FiledWindowPills({
         Official filed date
       </p>
       <p className="mt-1 text-xs text-night-muted">
-        From the official LIS introduction date, counted in Eastern Time. A New badge marks bills filed in the last 7 days.
+        From the official LIS introduction date, counted in Eastern Time. A New badge marks bills filed in the last 7 days. Older than 30 days shows bills filed more than 30 days before today.
       </p>
       <div className="mt-2 flex flex-wrap gap-2" role="group" aria-labelledby="va2027-filed">
         {FILED_WINDOWS.map((window) => {

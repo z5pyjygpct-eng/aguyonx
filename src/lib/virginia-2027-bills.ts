@@ -103,12 +103,14 @@ export type Ledger = {
 
 export type FilingSet = "new" | "continued";
 
-export type FiledWindow = "today" | "7d" | "30d";
+export type FiledWindow = "today" | "7d" | "30d" | "older30";
 
 export const FILED_WINDOWS: { value: FiledWindow; label: string; days: number }[] = [
   { value: "today", label: "Filed today", days: 0 },
   { value: "7d", label: "Last 7 days", days: 7 },
   { value: "30d", label: "Last 30 days", days: 30 },
+  // older30 is the complement of 30d: more than 30 days before today (days > 30).
+  { value: "older30", label: "Older than 30 days", days: 30 },
 ];
 
 /** Bills filed in this many days (inclusive) get a small "New" badge. */
@@ -475,6 +477,7 @@ export function isWithinFiledWindow(
   if (window === "today") return days === 0;
   if (window === "7d") return days <= NEW_BADGE_DAYS;
   if (window === "30d") return days <= 30;
+  if (window === "older30") return days > 30;
   return false;
 }
 

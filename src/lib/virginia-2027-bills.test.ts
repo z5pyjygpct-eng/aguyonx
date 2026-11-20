@@ -413,11 +413,27 @@ test("filed-date windows and New badge use official dates relative to today in E
   assert.ok(month.every((b) => daysSinceFiled(b.introduction_date, TODAY)! <= 30));
   assert.equal(month.some((b) => b.bill_number === "HB1534"), false); // 10/16/2026 is 32 days before Nov 17
   assert.equal(month.some((b) => b.bill_number === "HB1535"), true);
+  const older = filterBills(bills, { filed: "older30" }, TODAY);
+  assert.equal(older.length, 10);
+  assert.ok(older.every((b) => daysSinceFiled(b.introduction_date, TODAY)! > 30));
+  assert.equal(older.some((b) => b.bill_number === "HB1534"), true);
+  assert.equal(older.some((b) => b.bill_number === "HB1535"), false);
   const counts = new Map(filedWindowCounts(bills, TODAY).map((row) => [row.value, row.count]));
   assert.equal(counts.get("today"), 2);
   assert.equal(counts.get("7d"), 6);
   assert.equal(counts.get("30d"), 18);
+  assert.equal(counts.get("older30"), 10);
   assert.equal(isWithinFiledWindow("11/18/2026", "7d", TODAY), false);
+  // 30 days is still Last 30 days; the next day is Older than 30 days. No gap or overlap.
+  assert.equal(daysSinceFiled("10/18/2026", TODAY), 30);
+  assert.equal(isWithinFiledWindow("10/18/2026", "30d", TODAY), true);
+  assert.equal(isWithinFiledWindow("10/18/2026", "older30", TODAY), false);
+  assert.equal(daysSinceFiled("10/17/2026", TODAY), 31);
+  assert.equal(isWithinFiledWindow("10/17/2026", "30d", TODAY), false);
+  assert.equal(isWithinFiledWindow("10/17/2026", "older30", TODAY), true);
+  // Future official dates, like undated bills, match neither window.
+  assert.equal(isWithinFiledWindow("11/18/2026", "30d", TODAY), false);
+  assert.equal(isWithinFiledWindow("11/18/2026", "older30", TODAY), false);
   // Window still ANDs with other filters and does not invent dates for bills that lack one.
   assert.deepEqual(
     filterBills(bills, { filed: "7d", party: "R" }, TODAY).map((b) => b.bill_number).sort(),
@@ -426,8 +442,50 @@ test("filed-date windows and New badge use official dates relative to today in E
   const undated = { ...bills[0]!, bill_number: "SB000", introduction_date: "" };
   assert.equal(isNewlyFiled(undated, TODAY), false);
   assert.equal(isWithinFiledWindow(undated.introduction_date, "30d", TODAY), false);
+  assert.equal(isWithinFiledWindow(undated.introduction_date, "older30", TODAY), false);
   assert.equal(filedDateLabel(undated.introduction_date), "Date not posted");
   assert.equal(ledgerProblems({ ...ledger, new_filings: [...ledger.new_filings, undated] }).some((p) => p.includes("SB000") && p.includes("introduction_date")), false);
+});
+
+test("Older than 30 days is the complement of Last 30 days on the current filing set", () => {
+  // Live page today: Friday, Nov 20, 2026, America/New_York.
+  const asOf = { y: 2026, m: 11, d: 20 };
+  assert.equal(daysSinceFiled("10/21/2026", asOf), 30);
+  assert.equal(isWithinFiledWindow("10/21/2026", "30d", asOf), true);
+  assert.equal(isWithinFiledWindow("10/21/2026", "older30", asOf), false);
+  assert.equal(daysSinceFiled("10/20/2026", asOf), 31);
+  assert.equal(isWithinFiledWindow("10/20/2026", "30d", asOf), false);
+  assert.equal(isWithinFiledWindow("10/20/2026", "older30", asOf), true);
+  const month = filterBills(bills, { filed: "30d" }, asOf);
+  const older = filterBills(bills, { filed: "older30" }, asOf);
+  assert.equal(month.length, 19);
+  assert.equal(older.length, 11);
+  assert.equal(month.length + older.length, bills.length);
+  const monthIds = new Set(month.map((b) => b.bill_number));
+  const olderIds = new Set(older.map((b) => b.bill_number));
+  for (const bill of bills) {
+    const inMonth = monthIds.has(bill.bill_number);
+    const inOlder = olderIds.has(bill.bill_number);
+    assert.equal(inMonth && inOlder, false, bill.bill_number);
+    assert.equal(inMonth || inOlder, true, bill.bill_number);
+  }
+  assert.deepEqual(
+    older.map((b) => b.bill_number).sort(),
+    ["HB1532", "HB1533", "HB1534", "HB1535", "SB837", "SB838", "SB839", "SB840", "SB841", "SB842", "SB843"],
+  );
+  const counts = new Map(filedWindowCounts(bills, asOf).map((row) => [row.value, row.count]));
+  assert.equal(counts.get("30d"), 19);
+  assert.equal(counts.get("older30"), 11);
+  // Pill counts stay on the full current filing set and do not shrink when another filter is on.
+  assert.deepEqual(
+    filterBills(bills, { filed: "older30", party: "R" }, asOf).map((b) => b.bill_number).sort(),
+    ["HB1532", "HB1533", "HB1534"],
+  );
+  assert.equal(counts.get("older30"), 11);
+  const continuedCounts = new Map(filedWindowCounts(continued, asOf).map((row) => [row.value, row.count]));
+  assert.equal(continuedCounts.get("30d"), 0);
+  assert.equal(continuedCounts.get("older30"), 443);
+  assert.equal(filterBills(continued, { filed: "older30", filing: "continued" }, asOf).length, 443);
 });
 
 test("New 2027 default sort is official filed date, newest first", () => {
