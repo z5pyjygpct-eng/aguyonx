@@ -76,7 +76,7 @@ function matches(r: Race, office: Office, f?: Filter, q?: string) {
   if (f === "contested" && st !== "contested") return false;
   if (f === "one" && !["D", "R", "Other", "unopposed"].includes(st)) return false;
   if (f === "none" && st !== "none") return false;
-  if (f === "open" && !isOpen(r)) return false;
+  if (f === "open" && (!isOpen(r) || !r.candidates.length)) return false;
   if (f === "incD" && incParty(r, office) !== "D") return false;
   if (f === "incR" && incParty(r, office) !== "R") return false;
   if (q) {
@@ -111,7 +111,7 @@ function Tile({ r, office, dim, selected, onPick, wide }: { r: Race; office: Off
   const st = statusOf(r, office);
   const t = TILE[st];
   const open = isOpen(r) && st !== "none";
-  const label = `${r.locality ? r.locality + " " : ""}${wide ? r.seat : r.seat}${r.seats > 1 ? ` (${r.seats} seats)` : ""}: ${t.label}${isOpen(r) ? ", open seat" : ""}, ${r.candidates.length} filed`;
+  const label = `${r.locality ? r.locality + " " : ""}${wide ? r.seat : r.seat}${r.seats > 1 ? ` (${r.seats} seats)` : ""}: ${t.label}${open ? ", open seat" : ""}, ${r.candidates.length} filed`;
   return (
     <button type="button" onClick={onPick} aria-label={label} aria-pressed={selected}
       className={cn("relative flex flex-col items-center justify-center rounded-md border-2 font-serif font-bold transition",
@@ -167,7 +167,7 @@ function Card({ r, office, asOf, onClose }: { r: Race; office: Office; asOf: str
         className="fixed inset-x-0 bottom-0 z-50 max-h-[80vh] overflow-y-auto rounded-t-2xl border-t-4 border-gold bg-navy-700 p-5 shadow-2xl lg:static lg:z-auto lg:max-h-none lg:rounded-[10px] lg:border lg:border-navy-line lg:border-t-4 lg:border-t-gold lg:shadow-none">
         <div className="flex items-start justify-between gap-3">
           <div>
-            <p className="font-mono text-xs tracking-widest text-gold uppercase">{TILE[st].label}{isOpen(r) ? " · open seat" : ""}</p>
+            <p className="font-mono text-xs tracking-widest text-gold uppercase">{TILE[st].label}{isOpen(r) && st !== "none" ? " · open seat" : ""}</p>
             <h3 className="mt-1 font-serif text-2xl font-bold uppercase">{title}</h3>
             {r.seats > 1 ? <p className="text-sm text-on-dark-muted">{r.seats} seats · top {r.seats} win</p> : null}
           </div>
