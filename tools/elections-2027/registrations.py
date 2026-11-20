@@ -15,6 +15,23 @@ Registrations (filled into the races until official ballot lists are posted):
   - Registration date: neither the report file nor the Statement of Organization prints the date the committee registered, so
     filed_date stays null. It is never derived from report dates.
   - Limitation: a committee that registered but has not filed any report yet does not appear in the report files.
+  - Counting rule (apply_rule, run after current members are attached). A placed committee is counted only when ALL hold:
+      1. ElectionCycle 11/2027, latest report not final, office not labeled "Do Not Use" (checked in build());
+      2. residence check: the Statement of Organization's "County or City of Residence" is inside the seat. For House and
+         Senate seats that means a locality the current district includes (Department of Elections registrants by district
+         and precinct, all localities statewide), which drops committees left over from the pre-2023 districts that share a
+         number; for local seats the residence is the locality (already required to place it);
+      3. a 2027 activity signal, at least one of:
+         (a) registered in 2026 or later (committee ID CC-26-... or newer), or a Statement of Organization amended in 2026+
+             that names 2027 as the election year;
+         (b) raised more than $0 on a report covering 2026 (Schedule H "contributions and receipts received", latest
+             amendment of each reporting period; https://apps.elections.virginia.gov/SBE_CSV/CF/<YYYY_MM>/ScheduleH.csv);
+         (c) the committee belongs to the seat's current officeholder (official member list; same last name and first initial).
+    The Department of Elections moves every open committee to the next cycle automatically, so without (3) committees from
+    2019/2023/2025 runs would be counted as 2027 candidates. Dropped committees are listed in the build report with the reason.
+  - "Check" flag: the seat's current officeholder has no counted committee, but has a committee for this seat whose record
+    carries a Department of Elections record-keeping flag (latest report marked final after raising money in 2026, or the office
+    labeled "Do Not Use"). Shown as "Check" with a short explanation instead of "Member not filed yet".
 
 Coverage (which House and Senate districts include part or all of each locality):
   - Department of Elections registrant counts by House and by Senate district, precinct by precinct, under the current districts
@@ -27,6 +44,7 @@ from pathlib import Path
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 CF_CSV = "https://apps.elections.virginia.gov/SBE_CSV/CF/{ym}/Report.csv"
 CF_INDEX = "https://apps.elections.virginia.gov/SBE_CSV/CF/"
+CF_SCHED_H = "https://apps.elections.virginia.gov/SBE_CSV/CF/{ym}/ScheduleH.csv"
 COMMITTEE_URL = "https://cfreports.elections.virginia.gov/Committee/Index/{guid}"
 SOO_URL = "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/{guid}/pdf/cfreports"
 REG_STATS_PAGE = "https://www.elections.virginia.gov/resultsreports/registration-statistics/2026-registration-statistics/"
@@ -66,6 +84,8 @@ def months(today):
         yield f"{y}_{m:02d}"
         y, m = (y + (m == 12), m % 12 + 1)
 
+ALL_REPORTS = {}  # ReportId -> report row (candidate committees), filled by latest_committees()
+
 def latest_committees(today=None):
     """Latest report per candidate committee across the monthly files; returns (rows, source_urls)."""
     today = today or dt.date.today()
@@ -81,10 +101,43 @@ def latest_committees(today=None):
             if r.get("CommitteeType") != "Candidate Campaign Committee":
                 continue
             key = (r.get("SubmittedDate") or r.get("FilingDate") or "", int(r.get("ReportId") or 0))
+            ALL_REPORTS[r.get("ReportId")] = r
             code = r["CommitteeCode"]
             if code not in latest or key > latest[code][0]:
                 latest[code] = (key, r)
     return [v[1] for v in latest.values()], urls
+
+def receipts_2026(today=None):
+    """{CommitteeCode: dollars} raised on reports covering 2026 (period ending 1/1/2026 or later), using Schedule H
+    "ContributionsAndReceiptsReceived" and only the latest amendment of each reporting period. Needs latest_committees() first."""
+    today = today or dt.date.today()
+    h, urls = {}, []
+    for ym in months(today):
+        if ym < "2026_01":
+            continue
+        cur = ym == f"{today.year}_{today.month:02d}"
+        dest = CACHE / (f"ScheduleH-{ym}-{today.isoformat()}.csv" if cur else f"ScheduleH-{ym}.csv")
+        p = _get(CF_SCHED_H.format(ym=ym), dest)
+        if p is None:
+            continue
+        urls.append(CF_SCHED_H.format(ym=ym))
+        for r in csv.DictReader(io.StringIO(p.read_bytes().decode("cp1252", errors="replace"))):
+            try:
+                h[r["ReportId"]] = float(r.get("ContributionsAndReceiptsReceived") or 0)
+            except ValueError:
+                pass
+    per = {}
+    for rid, r in ALL_REPORTS.items():
+        if (r.get("EndDate") or "")[:10] < "2026-01-01" or rid not in h:
+            continue
+        k = (r["CommitteeCode"], (r.get("StartDate") or "")[:10], (r.get("EndDate") or "")[:10], r.get("FilingType") or "")
+        key = (r.get("SubmittedDate") or r.get("FilingDate") or "", int(rid or 0))
+        if k not in per or key > per[k][0]:
+            per[k] = (key, h[rid])
+    out = {}
+    for (code, *_), (_, v) in per.items():
+        out[code] = round(out.get(code, 0.0) + v, 2)
+    return out, urls
 
 def soo_text(guid):
     txt = CACHE / "soo" / f"{guid}.txt"
@@ -105,7 +158,7 @@ def prefetch_soo(guids):
         list(ex.map(soo_text, guids))
 
 def soo_fields(guid):
-    """Residence locality from the committee's Statement of Organization (None if unreadable)."""
+    """Residence locality, election year and amendment date from the committee's Statement of Organization (None if unreadable)."""
     t = soo_text(guid)
     if not t:
         return None
@@ -114,13 +167,20 @@ def soo_fields(guid):
         for i, l in enumerate(L):
             if label in l:
                 j = i - 1
-                while j >= 0 and (not L[j].strip() or L[j].strip() == "Election"):
+                while j >= 0 and (not L[j].strip() or L[j].strip() == "Election" or (L[j].strip().startswith("X ") and "November" in L[j])):
                     j -= 1
                 return L[j], l
         return None, None
     v, lab = before("County or City of Residence")
     res = v[:lab.find("Voter Identification") - 3].strip() if v else None
-    return {"residence": res}
+    year = None
+    v, lab = before("Political Party")
+    if v:
+        yrs = [x for x in re.split(r"\s{2,}", v.strip()) if re.fullmatch(r"\d{4}", x)]
+        year = yrs[0] if yrs else None
+    m = re.search(r"Date Changes Took Effect.*?\n\s*(\d{1,2}/\d{1,2}/\d{4})", t, re.S)
+    return {"residence": res, "year": year, "amended": not re.search(r"X\s+NEW", t),
+            "changes_effective": m.group(1) if m else None}
 
 def _mdy(ts):
     m = re.match(r"(\d{4})-(\d{2})-(\d{2})", ts or "")
@@ -179,10 +239,16 @@ def dist_name(d):
     d = re.sub(r"(?i)^election\s*-\s*", "", d or "").strip()
     return re.sub(r"(?i)\s+(magisterial\s+)?district$", "", d).strip()
 
+LATEST_ROWS = []  # latest report row of every candidate committee (any cycle), set by build()
+RAISED = {}       # CommitteeCode -> dollars raised on 2026 reports, set by build()
+
 def build(files, linked):
     """files: {office: data dict with races}. linked: {(city_id, seat_label): county_race_id}. Fills candidates in place.
     Returns a report dict (matched counts, unmatched, sources)."""
     rows, urls = latest_committees()
+    LATEST_ROWS[:] = rows
+    raised, h_urls = receipts_2026()
+    RAISED.clear(); RAISED.update(raised)
     by_id = {r["id"]: (off, r) for off, d in files.items() for r in d["races"]}
     house = {r["district"]: r for r in files["house"]["races"]}
     senate = {r["district"]: r for r in files["senate"]["races"]}
@@ -190,11 +256,11 @@ def build(files, linked):
     for off in ("bos", "sb", "co"):
         for r in files[off]["races"]:
             local_idx.setdefault((off, r["locality_id"]), []).append(r)
-    rep = {"report_files": urls, "considered": 0, "excluded_final": 0, "excluded_other_cycle": [], "matched": 0,
+    rep = {"report_files": urls, "receipts_files": h_urls, "considered": 0, "excluded_final": 0, "excluded_other_cycle": [], "matched": 0,
            "unmatched": [], "out_of_scope_local": 0, "soo_unreadable": []}
     placed = []
     prefetch_soo([r["AccountId"].strip("{}").lower() for r in rows if r.get("ElectionCycle") == "11/2027" and r.get("IsFinalReport") != "True"
-                  and not ga_kind(r["OfficeSought"] or "") and local_kind(r["OfficeSought"] or "")])
+                  and (ga_kind(r["OfficeSought"] or "") in ("house", "senate") or local_kind(r["OfficeSought"] or ""))])
     for r in rows:
         cyc = r.get("ElectionCycle", "")
         if not cyc.endswith("/2027"):
@@ -211,6 +277,9 @@ def build(files, linked):
             continue
         rep["considered"] += 1
         office = r["OfficeSought"] or ""
+        if office.lower().startswith("do not use"):
+            rep["unmatched"].append({**rec, "reason": "office record is labeled 'Do Not Use' by the Department of Elections"})
+            continue
         gk = ga_kind(office)
         target = None
         if gk == "ambiguous":
@@ -224,6 +293,10 @@ def build(files, linked):
                 rep["unmatched"].append({**rec, "reason": "no valid district number in the record"})
                 continue
             target = (gk, table[n])
+            soo = soo_fields(guid) or {}
+            if soo.get("residence"):
+                rec["residence"] = soo["residence"]
+            rec["statement_url"] = SOO_URL.format(guid=guid)
         else:
             lk = local_kind(office)
             if lk is None:
@@ -276,14 +349,17 @@ def build(files, linked):
             "party_source_url": rec["committee_url"] if code else None,
             "filing_kind": "registration", "label": LABEL, "committee_name": rec["committee_name"], "committee_code": rec["committee_code"],
             "committee_url": rec["committee_url"], "filing_source_url": rec["committee_url"],
-            **({"statement_url": rec["statement_url"], "residence": rec["residence"]} if rec.get("statement_url") else {}),
+            **({"statement_url": rec["statement_url"]} if rec.get("statement_url") else {}),
+            **({"residence": rec["residence"]} if rec.get("residence") else {}),
             "office_sought_record": rec["office_sought"], "latest_report_filed": rec["latest_report_filed"], "district_record": rec["district"] or None,
             "filed_date": None, "filed_date_source_url": None,
+            "_soo": soo_fields(guid) or {}, "_raised_2026": raised.get(rec["committee_code"], 0.0),
         }))
     for race, c in placed:
         dup = next((x for x in race["candidates"] if x.get("filing_kind") == "registration" and x["name"].lower() == c["name"].lower()), None)
         if dup:
-            dup.setdefault("other_committees", []).append({"committee_name": c["committee_name"], "committee_url": c["committee_url"]})
+            dup.setdefault("other_committees", []).append({"committee_name": c["committee_name"], "committee_url": c["committee_url"],
+                                                           "committee_code": c["committee_code"], "_soo": c["_soo"], "_raised_2026": c["_raised_2026"]})
             continue
         race["candidates"].append(c)
         rep["matched"] += 1
@@ -312,6 +388,7 @@ def coverage(fetch_text):
             if not m or len(toks) < 2:
                 continue  # rows with no district (a handful of unassigned registrants) do not define coverage
             per.setdefault(m.group(1).strip(), {}).setdefault(int(toks[-1]), set()).add(r["PrecinctCode"])
+        out.setdefault("statewide", {})[chamber] = {d: sorted(n for n, ds in per.items() if d in ds) for d in {d for ds in per.values() for d in ds}}
         cov = {}
         for lid, nm in REGFILE_NAME.items():
             ds = per.get(nm)
@@ -332,12 +409,20 @@ FFX_SB_URL = "https://www.fcps.edu/school-board/school-board-members"
 PWC_BOS_URL = "https://www.pwcva.gov/department/board-county-supervisors"
 HENRICO_BOS_URL = "https://henrico.gov/supervisors/"
 CHES_SB_URL = "https://oneccps.org/page/school-board"
+LOUDOUN_CO_URL = "https://www.loudoun.gov/89/Constitutional-Officers"
+# Loudoun County FY2024 Annual Comprehensive Financial Report, directory of officials (school board terms run to Dec. 31, 2027).
+# The school division's own site blocks automated reads, so the county's official report is the roster the build box can read.
+LOUDOUN_SB_URL = "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR"
 # (office, locality_id, seat) -> names exactly as the official page prints them; each is checked against the live page at build
 # time and dropped if the page does not show it. Boards not listed here have no official roster the build box can read yet.
 LOCAL_MEMBERS = {
     ("bos", "loudoun"): (LOUDOUN_BOS_URL, {"Chair": ["Phyllis J. Randall"], "Algonkian": ["Juli E. Briskman"], "Ashburn": ["Michael R. Turner"],
                                            "Broad Run": ["Sylvia R. Glass"], "Catoctin": ["Caleb A. Kershner"], "Dulles": ["Matthew F. Letourneau"],
                                            "Leesburg": ["Kristen C. Umstattd"], "Little River": ["Laura A. TeKrony"], "Sterling": ["Koran T. Saines"]}),
+    ("sb", "loudoun"): (LOUDOUN_SB_URL, {"At-Large": ["Anne Donohue"], "Ashburn": ["Deana Griffiths"], "Catoctin": ["Kari LaBell"],
+                                         "Little River": ["Dr. Sumera Rashid"]}),
+    ("co", "loudoun"): (LOUDOUN_CO_URL, {"Sheriff": ["Mike Chapman"], "Commonwealth's Attorney": ["Bob Anderson"], "Treasurer": ["Henry C. Eickelberg"],
+                                         "Commissioner of the Revenue": ["Bob Wertz"]}),
     ("bos", "fairfax-county"): (FFX_BOS_URL, {"Chair": ["Jeffrey C. McKay"], "Sully": ["Kathy L. Smith"], "Braddock": ["Rachna Sizemore Heizer"],
                                               "Dranesville": ["James N. Bierman, Jr."], "Franconia": ["Rodney L. Lusk"], "Hunter Mill": ["Walter L. Alcorn"],
                                               "Mason": ["Andres F. Jimenez"], "Mount Vernon": ["Daniel G. Storck"], "Providence": ["Dalia A. Palchik"],
@@ -358,6 +443,10 @@ def _page_text(fetch_text, url):
     p = fetch_text(url)
     if not p:
         return None
+    if p.startswith("%PDF"):
+        path = fetch_text(url, binary=True)
+        t = subprocess.run(["pdftotext", "-layout", str(path), "-"], capture_output=True, text=True).stdout
+        return re.sub(r"\s+", " ", t)
     t = re.sub(r"(?s)<script.*?</script>|<style.*?</style>", " ", p)
     import html as _h
     return re.sub(r"\s+", " ", _h.unescape(re.sub(r"<[^>]+>", " ", t)))
@@ -399,3 +488,131 @@ def local_members(fetch_text):
                 else:
                     misses.append({"office": off, "locality_id": lid, "seat": seat, "name": n, "source_url": url})
     return out, misses
+
+
+# ---- Counting rule (see module docstring) ----
+def norm_locality(name):
+    """Statement of Organization residence -> the registrant file's locality name ("CITY OF WINCHESTER" -> "WINCHESTER CITY")."""
+    n = re.sub(r"\s+", " ", (name or "").upper().replace(",", " ")).strip()
+    n = re.sub(r"^(THE )?COUNTY OF (.+)$", r"\2 COUNTY", n)
+    n = re.sub(r"^(THE )?CITY OF (.+)$", r"\2 CITY", n)
+    n = n.replace("SAINT ", "ST ").replace("ST. ", "ST ")
+    return n or None
+
+def residence_in_district(residence, localities):
+    """True / False when the residence is a recognizable locality; None when it cannot be read (not dropped on that alone)."""
+    n = norm_locality(residence)
+    if not n:
+        return None
+    known = {x.replace("ST. ", "ST ") for x in localities}
+    if n in known:
+        return True
+    if not re.search(r"(COUNTY|CITY)$", n):
+        # bare name ("Loudoun", "Winchester"): accept a match on either suffix
+        return any(k in (n + " COUNTY", n + " CITY") for k in known) or None
+    return False
+
+NICK = {"bob": "robert", "rob": "robert", "bobby": "robert", "mike": "michael", "bill": "william", "will": "william", "jim": "james",
+        "jimmy": "james", "tom": "thomas", "dick": "richard", "rick": "richard", "chuck": "charles", "ted": "edward", "ned": "edward",
+        "peggy": "margaret", "liz": "elizabeth", "beth": "elizabeth", "kate": "katherine", "kathy": "katherine", "sandy": "sandra",
+        "tony": "anthony", "pat": "patrick", "jack": "john", "hank": "henry", "larry": "lawrence", "jerry": "gerald", "andy": "andrew"}
+def first_initial(n):
+    toks = [t for t in re.sub(r"[.,\"()]", " ", clean_name(n)).split() if t]
+    if not toks:
+        return ""
+    t = toks[0].lower()
+    return NICK.get(t, t)[0]
+
+def same_person(a, b):
+    """Clean match of a committee's candidate to an official member name: same last name and same first initial."""
+    return bool(a and b) and last_name(a) == last_name(b) and first_initial(a) == first_initial(b)
+
+def _activity(code, soo, raised):
+    sig = []
+    m = re.match(r"CC-(\d{2})-", code or "")
+    if m and int(m.group(1)) >= 26:
+        sig.append("registered in 20" + m.group(1))
+    ce = (soo or {}).get("changes_effective") or ""
+    if (soo or {}).get("year") == "2027" and ce[-4:].isdigit() and int(ce[-4:]) >= 2026 and (soo or {}).get("amended"):
+        sig.append("Statement of Organization amended in " + ce[-4:] + " naming 2027")
+    if raised > 0:
+        sig.append(f"raised ${raised:,.0f} on 2026 reports")
+    return sig
+
+def apply_rule(files, statewide_cov):
+    """Drop placed committees that fail the counting rule; set race["check"] for record-keeping flags. Returns a report dict."""
+    rep = {"kept": 0, "dropped": [], "residence_unreadable_kept": [], "check": []}
+    for off, d in files.items():
+        for race in d["races"]:
+            keep = []
+            for c in race["candidates"]:
+                if c.get("filing_kind") != "registration":
+                    keep.append(c)
+                    continue
+                pool = [(c["committee_code"], c.pop("_soo", {}), c.pop("_raised_2026", 0.0))]
+                for o in c.get("other_committees", []):
+                    pool.append((o.get("committee_code"), o.pop("_soo", {}), o.pop("_raised_2026", 0.0)))
+                    o.pop("committee_code", None)
+                sig = []
+                for code, soo, raised in pool:
+                    sig += [x for x in _activity(code, soo, raised) if x not in sig]
+                if c.get("incumbent"):
+                    sig.append("current officeholder")
+                why = None
+                if off in ("house", "senate"):
+                    ok = residence_in_district(c.get("residence"), statewide_cov[off].get(race["district"], []))
+                    if ok is False:
+                        why = f"residence ({c.get('residence')}) is outside the current {('House' if off == 'house' else 'Senate')} District {race['district']}; committee is from the pre-2023 district with the same number"
+                    elif ok is None and not c.get("incumbent"):
+                        rep["residence_unreadable_kept"].append({"race": race["id"], "name": c["name"], "committee_code": c["committee_code"]})
+                if not why and not sig:
+                    why = "no 2027 activity: registered before 2026, no 2026 Statement of Organization naming 2027, $0 raised on 2026 reports, and not the current officeholder"
+                if why:
+                    rep["dropped"].append({"race": race["id"], "name": c["name"], "party": c.get("party"), "committee_code": c["committee_code"],
+                                           "committee_url": c["committee_url"], "reason": why})
+                    continue
+                c["activity"] = sig
+                keep.append(c)
+            race["candidates"] = keep
+            rep["kept"] += sum(1 for c in keep if c.get("filing_kind") == "registration")
+            flag = check_flag(off, race)
+            if flag:
+                race["check"] = flag
+                rep["check"].append({"race": race["id"], **flag})
+    return rep
+
+def check_flag(off, race):
+    """The current officeholder has no counted committee but has a flagged record for this seat (final after 2026 money, or 'Do Not Use')."""
+    members = race.get("current_members") or ([race["current_member"]] if race.get("current_member") else [])
+    if not members or any(c.get("incumbent") for c in race["candidates"]):
+        return None
+    for m in members:
+        for r in LATEST_ROWS:
+            if not same_person(r.get("CandidateName"), m["name"]):
+                continue
+            office = (r.get("OfficeSought") or "").lower()
+            dnu = office.startswith("do not use")
+            if off in ("house", "senate"):
+                gk = ga_kind(re.sub(r"(?i)^do not use\s*", "", r.get("OfficeSought") or ""))
+                dm = re.search(r"\d+", r.get("District") or "")
+                if gk != off or not dm or int(dm.group()) != race["district"]:
+                    continue
+            else:
+                lk = local_kind(re.sub(r"(?i)^do not use\s*", "", r.get("OfficeSought") or ""))
+                kind = lk[0] if isinstance(lk, tuple) else lk
+                if kind != off:
+                    continue
+                if off != "co" and race["seat"] not in ("Chair", "At-Large") and dist_name(r.get("District")).lower() != race["seat"].lower():
+                    continue
+                soo = soo_fields(r["AccountId"].strip("{}").lower()) or {}
+                if RESIDENCE.get((soo.get("residence") or "").strip().lower()) != race.get("locality_id"):
+                    continue
+            url = COMMITTEE_URL.format(guid=r["AccountId"].strip("{}").lower())
+            raised = RAISED.get(r["CommitteeCode"], 0.0)
+            if dnu:
+                return {"label": "Check", "member": m["name"], "committee_url": url,
+                        "note": f"{m['name']}'s committee is labeled \"Do Not Use\" in the Virginia Department of Elections record, so it is not counted."}
+            if r.get("IsFinalReport") == "True" and raised > 0:
+                return {"label": "Check", "member": m["name"], "committee_url": url,
+                        "note": f"{m['name']} raised ${raised:,.0f} on 2026 reports, but the latest report is marked final in the Virginia Department of Elections record, so it is not counted."}
+    return None

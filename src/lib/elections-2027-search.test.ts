@@ -24,7 +24,9 @@ test("query parsing: district forms", () => {
 
 test("query parsing: status, party and office words", () => {
   const k = (q: string) => parseQuery(q).map((t) => `${t.kind}:${"value" in t ? t.value : "w" in t ? t.w : ""}`);
-  assert.deepEqual(k("open"), ["status:open"]);
+  assert.deepEqual(k("open"), ["status:member"]);
+  assert.deepEqual(k("member not filed"), ["status:member"]);
+  assert.deepEqual(k("check"), ["status:check"]);
   assert.deepEqual(k("Contested"), ["status:contested"]);
   assert.deepEqual(k("no filing"), ["status:none"]);
   assert.deepEqual(k("Republican"), ["party:R"]);
@@ -70,7 +72,7 @@ test("names, localities, seats, offices and status words", () => {
   assert.ok(ids("Kershner").includes("loudoun-catoctin"));
   assert.ok(searchEntries(all, "contested").entries.every((e) => e.status === "contested"));
   assert.ok(searchEntries(all, "no filing").entries.every((e) => e.status === "none"));
-  assert.ok(searchEntries(all, "open").entries.every((e) => e.race.members_known && e.race.candidates.length));
+  assert.ok(searchEntries(all, "member not filed").entries.every((e) => e.race.members_known && !e.race.candidates.some((c) => c.incumbent)));
   assert.equal(searchEntries(all, "zzqqxx").entries.length, 0);
   assert.equal(searchEntries(all, "").entries.length, all.length);
 });

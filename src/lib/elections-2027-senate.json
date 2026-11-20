@@ -81,11 +81,17 @@
      "committee_code": "CC-23-00380",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/6e961c89-9b1f-485f-b3c2-15982bda915d",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6e961c89-9b1f-485f-b3c2-15982bda915d",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/6e961c89-9b1f-485f-b3c2-15982bda915d/pdf/cfreports",
+     "residence": "Shenandoah County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/13/2026",
      "district_record": "State Senate - 1st District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $84,366 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -129,11 +135,17 @@
      "committee_code": "CC-12-00166",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d4e207c7-2e74-e111-86d3-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d4e207c7-2e74-e111-86d3-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/d4e207c7-2e74-e111-86d3-984be103f032/pdf/cfreports",
+     "residence": "Rockingham County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/14/2026",
      "district_record": "State Senate - 2nd District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $49,203 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -177,11 +189,17 @@
      "committee_code": "CC-22-00569",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/38347a21-4449-4c2d-a776-567809610490",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/38347a21-4449-4c2d-a776-567809610490",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/38347a21-4449-4c2d-a776-567809610490/pdf/cfreports",
+     "residence": "Botetourt County",
      "office_sought_record": "Member Senate Of Virginia",
      "latest_report_filed": "7/14/2026",
      "district_record": "State Senate - 3rd District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $79,150 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Antwhon Suiter",
@@ -196,49 +214,18 @@
      "committee_code": "CC-26-00027",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/178a172a-b2a1-4bad-a2ab-6fa20c7fb77c",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/178a172a-b2a1-4bad-a2ab-6fa20c7fb77c",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/178a172a-b2a1-4bad-a2ab-6fa20c7fb77c/pdf/cfreports",
+     "residence": "Staunton City",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "11/16/2026",
      "district_record": "State Senate - 3rd District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Jade D Harris",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1a69f8b3-972e-464d-89e8-f00597c14152",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Jade Harris for Virginia Senate",
-     "committee_code": "CC-23-00239",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1a69f8b3-972e-464d-89e8-f00597c14152",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1a69f8b3-972e-464d-89e8-f00597c14152",
-     "office_sought_record": "Member Senate Of Virginia",
-     "latest_report_filed": "7/14/2026",
-     "district_record": "State Senate - 3rd District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Thomas Norment Jr.",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f83a6ad-e774-e111-86d3-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Tommy Norment",
-     "committee_code": "CC-12-00205",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f83a6ad-e774-e111-86d3-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f83a6ad-e774-e111-86d3-984be103f032",
-     "office_sought_record": "Member Senate Of Virginia",
-     "latest_report_filed": "7/14/2026",
-     "district_record": "State Senate - 3rd District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $180 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -282,11 +269,17 @@
      "committee_code": "CC-23-00727",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e489e6c4-1da0-41d5-9710-a609281d8d0a",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e489e6c4-1da0-41d5-9710-a609281d8d0a",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e489e6c4-1da0-41d5-9710-a609281d8d0a/pdf/cfreports",
+     "residence": "Roanoke City",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 4th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $734 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -330,11 +323,17 @@
      "committee_code": "CC-21-00027",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0ba0c973-e94e-4ddf-85f8-04b0d24ab652",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0ba0c973-e94e-4ddf-85f8-04b0d24ab652",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/0ba0c973-e94e-4ddf-85f8-04b0d24ab652/pdf/cfreports",
+     "residence": "Tazewell County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/14/2026",
      "district_record": "State Senate - 5th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $44,731 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Lora Brown",
@@ -349,11 +348,16 @@
      "committee_code": "CC-26-00039",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ecca630f-ea70-4669-a565-02e487a04739",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ecca630f-ea70-4669-a565-02e487a04739",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/ecca630f-ea70-4669-a565-02e487a04739/pdf/cfreports",
+     "residence": "Montgomery County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/13/2026",
      "district_record": "State Senate - 5th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026"
+     ]
     }
    ],
    "current_members": [
@@ -397,11 +401,17 @@
      "committee_code": "CC-19-00371",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/f50a3979-fe40-e911-9f1a-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/f50a3979-fe40-e911-9f1a-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/f50a3979-fe40-e911-9f1a-984be103f032/pdf/cfreports",
+     "residence": "Washington County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/14/2026",
      "district_record": "State Senate - 6th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $204,950 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Jessica J. Watts",
@@ -416,11 +426,16 @@
      "committee_code": "CC-25-00928",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/82d7e666-c74b-474f-8839-7815e52e5b0c",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/82d7e666-c74b-474f-8839-7815e52e5b0c",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/82d7e666-c74b-474f-8839-7815e52e5b0c/pdf/cfreports",
+     "residence": "Bristol City",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/11/2026",
      "district_record": "State Senate - 6th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $105 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -464,11 +479,17 @@
      "committee_code": "CC-12-00109",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e085e916-5373-e111-86d3-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e085e916-5373-e111-86d3-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e085e916-5373-e111-86d3-984be103f032/pdf/cfreports",
+     "residence": "Franklin County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/13/2026",
      "district_record": "State Senate - 7th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $109,750 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -512,11 +533,17 @@
      "committee_code": "CC-16-00292",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a7597861-5849-e611-a5f2-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a7597861-5849-e611-a5f2-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a7597861-5849-e611-a5f2-984be103f032/pdf/cfreports",
+     "residence": "Lynchburg City",
      "office_sought_record": "Member Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 8th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $128,843 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Craig Alan Cooper",
@@ -531,11 +558,16 @@
      "committee_code": "CC-26-00128",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/b8490dfa-06ca-4efe-abcf-093b35d92a0e",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b8490dfa-06ca-4efe-abcf-093b35d92a0e",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/b8490dfa-06ca-4efe-abcf-093b35d92a0e/pdf/cfreports",
+     "residence": "Bedford County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 8th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026"
+     ]
     }
    ],
    "current_members": [
@@ -567,25 +599,6 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "candidates": [
     {
-     "name": "Frank Miller Ruff Jr.",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/16986516-69cb-e111-b0b8-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Ruff for Senate",
-     "committee_code": "CC-12-01161",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/16986516-69cb-e111-b0b8-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/16986516-69cb-e111-b0b8-984be103f032",
-     "office_sought_record": "Member, Senate Of Virginia",
-     "latest_report_filed": "7/15/2026",
-     "district_record": "State Senate - 9th District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
      "name": "Patricia Marie Rassbach",
      "incumbent": false,
      "party": "D",
@@ -598,11 +611,17 @@
      "committee_code": "CC-26-00503",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/9d2cd985-b57e-44dd-9134-9cda866bd6f5",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/9d2cd985-b57e-44dd-9134-9cda866bd6f5",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/9d2cd985-b57e-44dd-9134-9cda866bd6f5/pdf/cfreports",
+     "residence": "Mecklenburg County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "8/12/2026",
      "district_record": "State Senate - 9th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027"
+     ]
     }
    ],
    "current_members": [
@@ -646,68 +665,18 @@
      "committee_code": "CC-24-00542",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/034b032c-a64b-415b-96af-ab64509a80e6",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/034b032c-a64b-415b-96af-ab64509a80e6",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/034b032c-a64b-415b-96af-ab64509a80e6/pdf/cfreports",
+     "residence": "Prince Edward County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/14/2026",
      "district_record": "State Senate - 10th District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Bryan P Hamlet",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0c102857-1b3c-4c8c-b7f5-60dc0cc0f8c4",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Bryan Hamlet",
-     "committee_code": "CC-24-00544",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0c102857-1b3c-4c8c-b7f5-60dc0cc0f8c4",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0c102857-1b3c-4c8c-b7f5-60dc0cc0f8c4",
-     "office_sought_record": "Member, Senate Of Virginia",
-     "latest_report_filed": "7/14/2026",
-     "district_record": "State Senate - 10th District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "John Joseph McGuire III",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/adecf8c6-8ba5-4c8c-a91e-6a99dd43a56a",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of John McGuire SD10",
-     "committee_code": "CC-22-00162",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/adecf8c6-8ba5-4c8c-a91e-6a99dd43a56a",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/adecf8c6-8ba5-4c8c-a91e-6a99dd43a56a",
-     "office_sought_record": "Member, Senate Of Virginia",
-     "latest_report_filed": "7/15/2026",
-     "district_record": "State Senate - 10th District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Joseph Shayne Snavely",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/81c3be66-4efd-40e3-909a-414e61b29024",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Shayne Snavely",
-     "committee_code": "CC-24-00469",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/81c3be66-4efd-40e3-909a-414e61b29024",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/81c3be66-4efd-40e3-909a-414e61b29024",
-     "office_sought_record": "Member, Senate Of Virginia",
-     "latest_report_filed": "1/15/2026",
-     "district_record": "State Senate - 10th District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $85,879 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -760,11 +729,16 @@
      "committee_code": "CC-25-00903",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e074453c-9a19-4d7e-98fe-7a9f9e9632da",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e074453c-9a19-4d7e-98fe-7a9f9e9632da",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e074453c-9a19-4d7e-98fe-7a9f9e9632da/pdf/cfreports",
+     "residence": "Albemarle County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 11th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $2,447 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -817,11 +791,17 @@
      "committee_code": "CC-15-00124",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d5b80a14-35c4-e411-9733-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d5b80a14-35c4-e411-9733-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/d5b80a14-35c4-e411-9733-984be103f032/pdf/cfreports",
+     "residence": "Chesterfield County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/14/2026",
      "district_record": "State Senate - 12th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $152,719 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Celvin Richardson",
@@ -836,11 +816,18 @@
      "committee_code": "CC-26-00103",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/b3ceb261-f1e7-4089-bab6-6c214ad8d07f",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b3ceb261-f1e7-4089-bab6-6c214ad8d07f",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/b3ceb261-f1e7-4089-bab6-6c214ad8d07f/pdf/cfreports",
+     "residence": "Chesterfield County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 12th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $545 on 2026 reports"
+     ]
     },
     {
      "name": "Laura Lee Thompson",
@@ -855,11 +842,18 @@
      "committee_code": "CC-26-00032",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8087d0ff-a243-40c3-90f4-3a5449c12309",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8087d0ff-a243-40c3-90f4-3a5449c12309",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/8087d0ff-a243-40c3-90f4-3a5449c12309/pdf/cfreports",
+     "residence": "Chesterfield County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "12",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $28,973 on 2026 reports"
+     ]
     },
     {
      "name": "Natan Mckenzie",
@@ -874,11 +868,17 @@
      "committee_code": "CC-23-00406",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2184398f-b50d-4078-8899-51694e91f4ed",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2184398f-b50d-4078-8899-51694e91f4ed",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/2184398f-b50d-4078-8899-51694e91f4ed/pdf/cfreports",
+     "residence": "Chesterfield County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 12th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $5,813 on 2026 reports"
+     ]
     },
     {
      "name": "Randolph Todd Critzer Jr.",
@@ -893,11 +893,18 @@
      "committee_code": "CC-26-00181",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/98250dab-63e3-4045-b7f6-50b7832ea65f",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/98250dab-63e3-4045-b7f6-50b7832ea65f",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/98250dab-63e3-4045-b7f6-50b7832ea65f/pdf/cfreports",
+     "residence": "Chesterfield County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 12th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $31,275 on 2026 reports"
+     ]
     },
     {
      "name": "Tiawana Michelle Giles",
@@ -912,11 +919,16 @@
      "committee_code": "CC-25-00907",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e4014fd3-0ba4-4766-a066-e20593d1d7ae",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e4014fd3-0ba4-4766-a066-e20593d1d7ae",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e4014fd3-0ba4-4766-a066-e20593d1d7ae/pdf/cfreports",
+     "residence": "Chesterfield County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 12th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $350 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -1066,46 +1078,7 @@
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": [
-    {
-     "name": "Alex McMurtrie Jr.",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/90f5eff3-05de-e411-924b-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Alex McMurtrie Jr. for State Senate",
-     "committee_code": "CC-15-00320",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/90f5eff3-05de-e411-924b-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/90f5eff3-05de-e411-924b-984be103f032",
-     "office_sought_record": "Member Senate of Virginia",
-     "latest_report_filed": "7/3/2026",
-     "district_record": "State Senate - 16th District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Siobhan Stolle Dunnavant",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/45893cdd-91b7-e411-97fb-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Siobhan Dunnavant",
-     "committee_code": "CC-15-00113",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/45893cdd-91b7-e411-97fb-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/45893cdd-91b7-e411-97fb-984be103f032",
-     "office_sought_record": "Member, Senate Of Virginia",
-     "latest_report_filed": "7/8/2026",
-     "district_record": "State Senate - 16th District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [
     {
      "name": "Schuyler T. VanValkenburg",
@@ -1156,30 +1129,17 @@
      "committee_code": "CC-23-00140",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/353c7afe-e2b8-481e-8ce1-db57015c60f2",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/353c7afe-e2b8-481e-8ce1-db57015c60f2",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/353c7afe-e2b8-481e-8ce1-db57015c60f2/pdf/cfreports",
+     "residence": "Isle Of Wight County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 17th District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Danielle Noel Gibeson",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/baa3183b-bc3e-e911-9f1a-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Danielle Noel Gibeson",
-     "committee_code": "CC-19-00250",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/baa3183b-bc3e-e911-9f1a-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/baa3183b-bc3e-e911-9f1a-984be103f032",
-     "office_sought_record": "Member Senate of Virginia",
-     "latest_report_filed": "1/13/2026",
-     "district_record": "State Senate - 17th District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $180,404 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Michael Williamson",
@@ -1194,30 +1154,18 @@
      "committee_code": "CC-26-00088",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5f4bb6e0-87a2-4072-bc93-8afb98947578",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5f4bb6e0-87a2-4072-bc93-8afb98947578",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/5f4bb6e0-87a2-4072-bc93-8afb98947578/pdf/cfreports",
+     "residence": "Suffolk City",
      "office_sought_record": "State Senate",
      "latest_report_filed": "11/19/2026",
      "district_record": "17",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Traci L Dippert",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/64b06043-76c1-e311-996a-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Dippert for Senate",
-     "committee_code": "CC-14-00137",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/64b06043-76c1-e311-996a-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/64b06043-76c1-e311-996a-984be103f032",
-     "office_sought_record": "Member Senate of Virginia",
-     "latest_report_filed": "7/13/2026",
-     "district_record": "State Senate - 17th District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $20,133 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -1289,30 +1237,17 @@
      "committee_code": "CC-23-00831",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1259a4c7-57f3-4f81-ba93-001f5182956d",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1259a4c7-57f3-4f81-ba93-001f5182956d",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/1259a4c7-57f3-4f81-ba93-001f5182956d/pdf/cfreports",
+     "residence": "Chesapeake City",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/16/2026",
      "district_record": "State Senate - 19th District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Flourette Ketner",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fffee150-b92b-e911-8236-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Flo Ketner",
-     "committee_code": "CC-19-00175",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fffee150-b92b-e911-8236-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fffee150-b92b-e911-8236-984be103f032",
-     "office_sought_record": "Member Senate of Virginia",
-     "latest_report_filed": "7/1/2026",
-     "district_record": "State Senate - 19th District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $204,689 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1356,11 +1291,17 @@
      "committee_code": "CC-15-00187",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fd046388-ecc7-e411-9733-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fd046388-ecc7-e411-9733-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/fd046388-ecc7-e411-9733-984be103f032/pdf/cfreports",
+     "residence": "Virginia Beach City",
      "office_sought_record": "Member Senate Of Virginia",
      "latest_report_filed": "10/16/2026",
      "district_record": "State Senate - 20th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $225,381 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1404,30 +1345,17 @@
      "committee_code": "CC-22-00658",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cc07e4d4-0ddd-467e-b8ea-a3c8401949d0",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cc07e4d4-0ddd-467e-b8ea-a3c8401949d0",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/cc07e4d4-0ddd-467e-b8ea-a3c8401949d0/pdf/cfreports",
+     "residence": "Norfolk City",
      "office_sought_record": "Senate",
      "latest_report_filed": "7/15/2026",
      "district_record": "21",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "John Saul Edwards",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2ad0bb36-477f-e111-9bed-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Edwards for Virginia State Senate",
-     "committee_code": "CC-12-00417",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2ad0bb36-477f-e111-9bed-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2ad0bb36-477f-e111-9bed-984be103f032",
-     "office_sought_record": "Member Senate Of Virginia",
-     "latest_report_filed": "7/6/2026",
-     "district_record": "State Senate - 21st District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $125,615 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1499,11 +1427,17 @@
      "committee_code": "CC-25-00878",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c1c31aa7-b236-486b-a66f-68c60d0a8ce1",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c1c31aa7-b236-486b-a66f-68c60d0a8ce1",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/c1c31aa7-b236-486b-a66f-68c60d0a8ce1/pdf/cfreports",
+     "residence": "Hampton City",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 23rd District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $263,460 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1547,11 +1481,17 @@
      "committee_code": "CC-22-00138",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/210afa47-f3ae-47ab-aff0-a390454d32e1",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/210afa47-f3ae-47ab-aff0-a390454d32e1",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/210afa47-f3ae-47ab-aff0-a390454d32e1/pdf/cfreports",
+     "residence": "York County",
      "office_sought_record": "Member Senate Of Virginia",
      "latest_report_filed": "7/13/2026",
      "district_record": "State Senate - 24th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $259,450 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1595,30 +1535,17 @@
      "committee_code": "CC-12-00084",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c584846f-8e72-e111-86d3-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c584846f-8e72-e111-86d3-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/c584846f-8e72-e111-86d3-984be103f032/pdf/cfreports",
+     "residence": "King George County",
      "office_sought_record": "Member Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 25th District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Jolicia A Ward",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cbd8920c-e287-4f50-9ae2-ebb9b71c7742",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "JoliciaforVA",
-     "committee_code": "CC-23-00359",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cbd8920c-e287-4f50-9ae2-ebb9b71c7742",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/cbd8920c-e287-4f50-9ae2-ebb9b71c7742",
-     "office_sought_record": "Member, Senate Of Virginia",
-     "latest_report_filed": "7/14/2026",
-     "district_record": "State Senate - 25th District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $44,933 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1662,11 +1589,17 @@
      "committee_code": "CC-12-00287",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5ac15738-ed78-e111-86d3-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5ac15738-ed78-e111-86d3-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/5ac15738-ed78-e111-86d3-984be103f032/pdf/cfreports",
+     "residence": "Hanover County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 26th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $359,690 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Pamela Ranea Garner",
@@ -1681,11 +1614,16 @@
      "committee_code": "CC-23-00620",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0487141b-aa4b-4b6a-8794-f3c00ad570e1",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0487141b-aa4b-4b6a-8794-f3c00ad570e1",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/0487141b-aa4b-4b6a-8794-f3c00ad570e1/pdf/cfreports",
+     "residence": "Gloucester County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/1/2026",
      "district_record": "State Senate - 26th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "Statement of Organization amended in 2026 naming 2027"
+     ]
     }
    ],
    "current_members": [
@@ -1729,49 +1667,17 @@
      "committee_code": "CC-22-00215",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/99d78ceb-bbfe-4439-bc7a-5ca246e439f3",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/99d78ceb-bbfe-4439-bc7a-5ca246e439f3",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/99d78ceb-bbfe-4439-bc7a-5ca246e439f3/pdf/cfreports",
+     "residence": "Stafford County",
      "office_sought_record": "Member Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 27th District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Joel Griffin",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5438e951-b20b-440c-860b-04d8c71c9179",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Joel Griffin for Virginia",
-     "committee_code": "CC-23-00482",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5438e951-b20b-440c-860b-04d8c71c9179",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5438e951-b20b-440c-860b-04d8c71c9179",
-     "office_sought_record": "Member, Senate Of Virginia",
-     "latest_report_filed": "7/9/2026",
-     "district_record": "State Senate - 27th District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Monica Gary",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e458b638-f22f-4cb6-8ec5-d7323f0b1251",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Gary for Virginia",
-     "committee_code": "CC-25-00871",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e458b638-f22f-4cb6-8ec5-d7323f0b1251",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e458b638-f22f-4cb6-8ec5-d7323f0b1251",
-     "office_sought_record": "Member, Senate Of Virginia",
-     "latest_report_filed": "7/15/2026",
-     "district_record": "State Senate - 27th District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $8,006 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1815,11 +1721,17 @@
      "committee_code": "CC-12-01096",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/9f05685b-a7c7-e111-b0b8-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/9f05685b-a7c7-e111-b0b8-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/9f05685b-a7c7-e111-b0b8-984be103f032/pdf/cfreports",
+     "residence": "Orange County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 28th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $145,304 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Jude Melton",
@@ -1834,11 +1746,16 @@
      "committee_code": "CC-26-00205",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/367e9ed0-681f-43c2-b020-e90730e419d1",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/367e9ed0-681f-43c2-b020-e90730e419d1",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/367e9ed0-681f-43c2-b020-e90730e419d1/pdf/cfreports",
+     "residence": "Orange County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/7/2026",
      "district_record": "State Senate - 28th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026"
+     ]
     }
    ],
    "current_members": [
@@ -1919,11 +1836,17 @@
      "committee_code": "CC-22-00280",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/dfd293a5-eadf-4fed-88d8-9a6a7fd9dc01",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/dfd293a5-eadf-4fed-88d8-9a6a7fd9dc01",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/dfd293a5-eadf-4fed-88d8-9a6a7fd9dc01/pdf/cfreports",
+     "residence": "Manassas Park City",
      "office_sought_record": "State Senate",
      "latest_report_filed": "7/15/2026",
      "district_record": "30",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $134,292 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -2007,46 +1930,7 @@
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "candidates": [
-    {
-     "name": "Janet Howell",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/4018f6d6-20cc-e111-b0b8-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Janet Howell",
-     "committee_code": "CC-12-01138",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/4018f6d6-20cc-e111-b0b8-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/4018f6d6-20cc-e111-b0b8-984be103f032",
-     "office_sought_record": "Member Senate of Virginia",
-     "latest_report_filed": "7/7/2026",
-     "district_record": "State Senate - 32nd District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Sreedhar R NagiReddi",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/96096a12-42c2-4285-be51-2739a70d1177",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "SreeForVirginia",
-     "committee_code": "CC-24-00531",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/96096a12-42c2-4285-be51-2739a70d1177",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/96096a12-42c2-4285-be51-2739a70d1177",
-     "office_sought_record": "Member, Senate Of Virginia",
-     "latest_report_filed": "7/15/2026",
-     "district_record": "State Senate - 32nd District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [
     {
      "name": "Kannan Srinivasan",
@@ -2142,11 +2026,17 @@
      "committee_code": "CC-15-00273",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/6f5e1a37-3bd2-e411-924b-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6f5e1a37-3bd2-e411-924b-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/6f5e1a37-3bd2-e411-924b-984be103f032/pdf/cfreports",
+     "residence": "Fairfax County",
      "office_sought_record": "Senate",
      "latest_report_filed": "7/14/2026",
      "district_record": "034",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $435,356 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -2199,11 +2089,17 @@
      "committee_code": "CC-12-01232",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e94b89b0-1ecd-e111-b0b8-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e94b89b0-1ecd-e111-b0b8-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e94b89b0-1ecd-e111-b0b8-984be103f032/pdf/cfreports",
+     "residence": "Fairfax County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 35th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $64,740 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Alis Wang",
@@ -2218,11 +2114,16 @@
      "committee_code": "CC-25-00860",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/841ebd8b-8730-41eb-bf68-2234d4369d58",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/841ebd8b-8730-41eb-bf68-2234d4369d58",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/841ebd8b-8730-41eb-bf68-2234d4369d58/pdf/cfreports",
+     "residence": "Fairfax County",
      "office_sought_record": "Member, Senate Of Virginia",
      "latest_report_filed": "7/15/2026",
      "district_record": "State Senate - 35th District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $50,006 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -2394,11 +2295,16 @@
      "committee_code": "CC-12-00942",
      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d98149ca-20a4-e111-8def-984be103f032",
      "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d98149ca-20a4-e111-8def-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/d98149ca-20a4-e111-8def-984be103f032/pdf/cfreports",
+     "residence": "Alexandria City",
      "office_sought_record": "State Senate",
      "latest_report_filed": "7/15/2026",
      "district_record": "39",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $8,033 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -2455,5 +2361,6 @@
  "coverage_source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv",
  "coverage_source_label": "Virginia Department of Elections, registered voters by House and Senate district and precinct (current districts drawn by the Supreme Court of Virginia, Dec. 2021, first used 2023)",
  "coverage_page_url": "https://www.elections.virginia.gov/resultsreports/registration-statistics/2026-registration-statistics/",
- "districts_source_url": "https://www.vacourts.gov/static/courts/scv/districting/redistricting_final.pdf"
+ "districts_source_url": "https://www.vacourts.gov/static/courts/scv/districting/redistricting_final.pdf",
+ "registrations_rule": "Counted: committees on the Nov. 2027 cycle, not closed, with a residence inside the seat and a 2027 signal (registered in 2026 or later, a 2026 Statement of Organization naming 2027, money raised on a 2026 report, or the seat's current officeholder). Committees the Department of Elections carried forward from earlier races with none of these are not counted."
 }

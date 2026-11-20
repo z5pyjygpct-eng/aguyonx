@@ -14,7 +14,11 @@ export type Cand = {
   filing_kind?: "registration" | "ballot"; label?: string; party_label?: string | null; committee_name?: string; committee_code?: string; committee_url?: string;
   statement_url?: string; residence?: string; latest_report_filed?: string | null; office_sought_record?: string; district_record?: string | null;
   other_committees?: { committee_name: string; committee_url: string }[];
+  /** Why the committee counts under the 2027 rule (plain words), e.g. "raised $1,200 on 2026 reports", "current officeholder". */
+  activity?: string[];
 };
+/** The seat's current officeholder has a Virginia Department of Elections record-keeping flag (final report after 2026 money, or "Do Not Use"). */
+export type CheckFlag = { label: string; member: string; note: string; committee_url: string };
 export type Member = { name: string; party: string | null; slug?: string | null; source_url: string; party_source_url?: string | null };
 export type Coverage = { locality_id: string; locality: string; coverage: "all" | "part"; precincts: number; locality_precincts: number; source_url: string };
 export type Race = {
@@ -24,11 +28,12 @@ export type Race = {
   current_member?: Member | null; current_members?: Member[]; members_known?: boolean; members_source_url?: string;
   /** House / Senate only: covered localities this district includes all or part of (official registrant-by-precinct data). */
   localities?: Coverage[];
+  check?: CheckFlag | null;
 };
 export type Loc = { id: string; name: string; kind: string; body: string; on_2027: boolean };
 export type OfficeFile = { races: Race[]; localities?: Loc[] };
 export type Status = "contested" | "D" | "R" | "Other" | "unopposed" | "none";
-export type StatusFilter = "contested" | "one" | "none" | "open";
+export type StatusFilter = "contested" | "one" | "none" | "member" | "check";
 export type PartyFilter = "D" | "R" | "Other" | "none";
 
 export const OFFICE_ORDER: Office[] = ["house", "senate", "bos", "sb", "co"];
@@ -37,8 +42,9 @@ export const OFFICE_LABEL: Record<Office, string> = {
 };
 /** Statuses are computed from registered campaign committees until ballot lists are posted, and the labels say so. */
 export const STATUS_LABEL: Record<StatusFilter, string> = {
-  contested: "Contested (registrations)", one: "One party only (registrations)", none: "No registered committee yet", open: "Open seat (registrations)",
+  contested: "Contested (registrations)", one: "One party only (registrations)", none: "No registered committee yet", member: "Member not filed yet", check: "Check record",
 };
+export const MEMBER_NOT_FILED_NOTE = "The current officeholder (official member list) has no counted 2027 committee yet. It does not mean the seat is vacant: no official record says the member is leaving or not running.";
 export const PARTY_LABEL: Record<PartyFilter, string> = { D: "Democrat", R: "Republican", Other: "Other party", none: "Party not listed" };
 
 /** Status from the registrations in the data. Partisan seats: two or more different listed parties = contested; one listed party
@@ -54,9 +60,11 @@ export function statusOf(r: Race, office: Office): Status {
   if (unlisted) return r.candidates.length > r.seats ? "contested" : "unopposed";
   return [...named][0] as Status;
 }
-/** Open seat = at least one registered committee, the seat's current member is known from an official roster, and none of the
- * registered candidates is that member. Without an official roster the page never calls a seat open. */
-export const isOpen = (r: Race) => !!r.members_known && r.candidates.length > 0 && !r.candidates.some((c) => c.incumbent);
+/** The page never calls a seat "open": no official record of vacancies or retirements exists yet, and a sitting member whose committee
+ * is still on an older cycle is not leaving. Instead: "Member not filed yet" = the current member is known from an official roster
+ * and has no counted 2027 committee (and no record-keeping flag); "Check" = the member's committee carries a Department of Elections flag. */
+export const isCheck = (r: Race) => !!r.check && !r.candidates.some((c) => c.incumbent);
+export const memberNotFiled = (r: Race) => !!r.members_known && !r.candidates.some((c) => c.incumbent) && !isCheck(r);
 
 export type Entry = { office: Office; race: Race; status: Status; localityIds: string[]; localityName: string | null };
 
@@ -103,7 +111,8 @@ export function statusMatches(e: Entry, s: StatusFilter): boolean {
   if (s === "contested") return e.status === "contested";
   if (s === "one") return ["D", "R", "Other", "unopposed"].includes(e.status);
   if (s === "none") return e.status === "none";
-  return isOpen(e.race);
+  if (s === "check") return isCheck(e.race);
+  return memberNotFiled(e.race);
 }
 export function partyMatches(e: Entry, p: PartyFilter): boolean {
   return e.race.candidates.some((c) => (p === "none" ? !c.party : p === "Other" ? !!c.party && c.party !== "D" && c.party !== "R" : c.party === p));
@@ -164,7 +173,7 @@ export function groupEntries(es: Entry[]): Group[] {
 }
 
 const OFFICES = new Set<string>(OFFICE_ORDER);
-const STATUSES = new Set<string>(["contested", "one", "none", "open"]);
+const STATUSES = new Set<string>(["contested", "one", "none", "member", "check"]);
 const PARTIES = new Set<string>(["D", "R", "Other", "none"]);
 const list = (v: unknown) => (typeof v === "string" ? v.split(",").map((x) => x.trim()).filter(Boolean) : []);
 type DirKey = "r_office" | "r_loc" | "r_status" | "r_party" | "r_q" | "r_filed";
@@ -204,12 +213,13 @@ export function chartStatus(e: Entry): ChartStatus {
   if (e.status === "unopposed") return "unopposed";
   return "one";
 }
-export type Tally = Record<ChartStatus, number> & { open: number; races: number; candidates: number };
+export type Tally = Record<ChartStatus, number> & { memberNotFiled: number; check: number; races: number; candidates: number };
 export function tally(es: Entry[]): Tally {
-  const t: Tally = { contested: 0, one: 0, unopposed: 0, none: 0, open: 0, races: es.length, candidates: 0 };
+  const t: Tally = { contested: 0, one: 0, unopposed: 0, none: 0, memberNotFiled: 0, check: 0, races: es.length, candidates: 0 };
   for (const e of es) {
     t[chartStatus(e)]++;
-    if (isOpen(e.race)) t.open++;
+    if (memberNotFiled(e.race)) t.memberNotFiled++;
+    if (isCheck(e.race)) t.check++;
     t.candidates += e.race.candidates.length;
   }
   return t;
@@ -237,4 +247,22 @@ export const sumParty = (cs: PartyCount[]): PartyCount =>
 export function districtsForLocality(es: Entry[], office: "house" | "senate", id: string): { e: Entry; cov: Coverage }[] {
   return es.filter((e) => e.office === office).flatMap((e) => (e.race.localities ?? []).filter((l) => l.locality_id === id).map((cov) => ({ e, cov })))
     .sort((a, b) => (a.e.race.district ?? 0) - (b.e.race.district ?? 0));
+}
+
+/** One short status pill per seat for the simple charts (the Loudoun mockup): Contested = more counted committees than seats;
+ * Incumbent only / One filed = committees fill the seats, with or without the current member; with none counted: Check (record
+ * flag), Member not filed (sitting member known, no counted committee) or None filed. */
+export type SeatPill = "Contested" | "Incumbent only" | "One filed" | "Member not filed" | "Check" | "None filed";
+export function seatPill(r: Race): SeatPill {
+  const n = r.candidates.length;
+  if (n > r.seats) return "Contested";
+  if (n > 0) return r.candidates.some((c) => c.incumbent) ? "Incumbent only" : "One filed";
+  if (isCheck(r)) return "Check";
+  if (memberNotFiled(r)) return "Member not filed";
+  return "None filed";
+}
+/** Plain-text counts: "Republican 1 · Democrat 1" (zeros left out), or "No counted committees". */
+export function countText(c: PartyCount): string {
+  const parts = [["Republican", c.R], ["Democrat", c.D], ["Other", c.Other], ["Party not listed", c.notListed]] as const;
+  return parts.filter(([, n]) => n > 0).map(([l, n]) => `${l} ${n}`).join(" · ") || "No counted committees";
 }

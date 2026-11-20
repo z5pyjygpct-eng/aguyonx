@@ -144,7 +144,7 @@
    "candidates": [
     {
      "name": "Anne Pogue Donohue",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -161,32 +161,22 @@
      "latest_report_filed": "7/15/2026",
      "district_record": null,
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Elizabeth Ann Huck",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c08bfccf-e103-e511-b522-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Beth Huck",
-     "committee_code": "CC-15-00488",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c08bfccf-e103-e511-b522-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c08bfccf-e103-e511-b522-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/c08bfccf-e103-e511-b522-984be103f032/pdf/cfreports",
-     "residence": "LOUDOUN COUNTY",
-     "office_sought_record": "Member School Board At Large",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $112 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Anne Donohue",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR",
+   "members_known": true
   },
   {
    "id": "loudoun-ashburn",
@@ -201,7 +191,7 @@
    "candidates": [
     {
      "name": "Deana Griffiths",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -218,32 +208,22 @@
      "latest_report_filed": "7/7/2026",
      "district_record": "Election - Ashburn District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Harris Mahedavi",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8c9b533c-d0d6-e811-b5bf-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Harris",
-     "committee_code": "CC-18-00488",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8c9b533c-d0d6-e811-b5bf-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/8c9b533c-d0d6-e811-b5bf-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/8c9b533c-d0d6-e811-b5bf-984be103f032/pdf/cfreports",
-     "residence": "LOUDOUN COUNTY",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/13/2026",
-     "district_record": "Election - ASHBURN DISTRICT",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $594 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Deana Griffiths",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR",
+   "members_known": true
   },
   {
    "id": "loudoun-catoctin",
@@ -258,7 +238,7 @@
    "candidates": [
     {
      "name": "Karen Lee LaBell",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -275,11 +255,21 @@
      "latest_report_filed": "7/14/2026",
      "district_record": "Election - Catoctin District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Kari LaBell",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR",
+   "members_known": true
   },
   {
    "id": "loudoun-little-river",
@@ -294,7 +284,7 @@
    "candidates": [
     {
      "name": "Sumera Rashid",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -311,11 +301,21 @@
      "latest_report_filed": "7/11/2026",
      "district_record": "Election - Little River District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Dr. Sumera Rashid",
+     "party": null,
+     "source_url": "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR"
+    }
+   ],
+   "members_source_url": "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR",
+   "members_known": true
   },
   {
    "id": "fairfax-county-at-large",
@@ -328,27 +328,6 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
    "candidates": [
-    {
-     "name": "Robert Kyle McDaniel",
-     "incumbent": true,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Elect Kyle McDaniel",
-     "committee_code": "CC-23-00457",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22/pdf/cfreports",
-     "residence": "Fairfax County",
-     "office_sought_record": "Member School Board At Large",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
     {
      "name": "Ryan Leighton McElveen",
      "incumbent": true,
@@ -368,49 +347,35 @@
      "latest_report_filed": "7/9/2026",
      "district_record": null,
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $210 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
-     "name": "Lawrence L Webb",
+     "name": "Robert Kyle McDaniel",
      "incumbent": false,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6673f562-393c-44e2-b4b6-cf124b42d6b4",
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
      "filing_kind": "registration",
      "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Webb for School Board At Large",
-     "committee_code": "CC-23-00399",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/6673f562-393c-44e2-b4b6-cf124b42d6b4",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6673f562-393c-44e2-b4b6-cf124b42d6b4",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/6673f562-393c-44e2-b4b6-cf124b42d6b4/pdf/cfreports",
+     "committee_name": "Elect Kyle McDaniel",
+     "committee_code": "CC-23-00457",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22/pdf/cfreports",
      "residence": "Fairfax County",
      "office_sought_record": "Member School Board At Large",
      "latest_report_filed": "7/15/2026",
      "district_record": null,
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Peter C Gabor",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c777768b-32ae-439e-9e0a-c0391ceefb84",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Gabor for the Board",
-     "committee_code": "CC-23-02059",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c777768b-32ae-439e-9e0a-c0391ceefb84",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c777768b-32ae-439e-9e0a-c0391ceefb84",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/c777768b-32ae-439e-9e0a-c0391ceefb84/pdf/cfreports",
-     "residence": "Fairfax County",
-     "office_sought_record": "Member School Board At Large",
-     "latest_report_filed": "7/13/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $2,898 on 2026 reports"
+     ]
     },
     {
      "name": "Russell K. Brooks",
@@ -431,7 +396,11 @@
      "latest_report_filed": "11/9/2026",
      "district_record": null,
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027"
+     ]
     }
    ],
    "current_members": [
@@ -484,7 +453,12 @@
      "latest_report_filed": "7/19/2026",
      "district_record": "Election - Braddock District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $42,425 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Alexa Krezel",
@@ -505,28 +479,10 @@
      "latest_report_filed": "7/26/2026",
      "district_record": "Election - Braddock District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Megan O'Brien McLaughlin",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fac33de1-2f5b-e211-9152-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Megan McLaughlin",
-     "committee_code": "CC-13-00020",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fac33de1-2f5b-e211-9152-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fac33de1-2f5b-e211-9152-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/fac33de1-2f5b-e211-9152-984be103f032/pdf/cfreports",
-     "residence": "Fairfax County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/10/2026",
-     "district_record": "Election - Braddock District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $800 on 2026 reports"
+     ]
     },
     {
      "name": "Saundra Tarulli Davis",
@@ -547,7 +503,12 @@
      "latest_report_filed": "7/15/2026",
      "district_record": "Election - Braddock District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $30,157 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -590,7 +551,11 @@
      "latest_report_filed": "7/15/2026",
      "district_record": "Election - Dranesville District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $938 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -633,7 +598,11 @@
      "latest_report_filed": "7/15/2026",
      "district_record": "Election - Franconia District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $7,803 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -665,7 +634,13 @@
     }
    ],
    "members_source_url": "https://www.fcps.edu/school-board/school-board-members",
-   "members_known": true
+   "members_known": true,
+   "check": {
+    "label": "Check",
+    "member": "Melanie K. Meren",
+    "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/b48d19f2-fd04-e811-8018-984be103f032",
+    "note": "Melanie K. Meren raised $38,146 on 2026 reports, but the latest report is marked final in the Virginia Department of Elections record, so it is not counted."
+   }
   },
   {
    "id": "fairfax-county-mason",
@@ -718,28 +693,10 @@
      "latest_report_filed": "7/15/2026",
      "district_record": "Election - Mount Vernon District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Harold Earl Sims Jr",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/866b746d-8855-4891-abe0-88d7ebb132d8",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Harold Sims",
-     "committee_code": "CC-23-00487",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/866b746d-8855-4891-abe0-88d7ebb132d8",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/866b746d-8855-4891-abe0-88d7ebb132d8",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/866b746d-8855-4891-abe0-88d7ebb132d8/pdf/cfreports",
-     "residence": "Fairfax County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "1/15/2026",
-     "district_record": "Election - Mount Vernon District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -782,28 +739,11 @@
      "latest_report_filed": "7/15/2026",
      "district_record": "Election - Providence District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Anthony Arthur Sabio",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/345edd49-849e-4571-a980-d3f9e0212fc6",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Sabio 4 Fairfax",
-     "committee_code": "CC-23-00548",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/345edd49-849e-4571-a980-d3f9e0212fc6",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/345edd49-849e-4571-a980-d3f9e0212fc6",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/345edd49-849e-4571-a980-d3f9e0212fc6/pdf/cfreports",
-     "residence": "Fairfax County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/10/2025",
-     "district_record": "Election - Providence District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $23,802 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -846,28 +786,11 @@
      "latest_report_filed": "8/24/2026",
      "district_record": "Election - Springfield District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Peter Bixby-Eberhardt",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e2114578-62f8-4c01-a82b-312299a28b0d",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Peter Bixby for Fairfax County School Board",
-     "committee_code": "CC-23-02086",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e2114578-62f8-4c01-a82b-312299a28b0d",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e2114578-62f8-4c01-a82b-312299a28b0d",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e2114578-62f8-4c01-a82b-312299a28b0d/pdf/cfreports",
-     "residence": "Fairfax County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "10/15/2026",
-     "district_record": "Election - Springfield District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $2,720 on 2026 reports",
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -910,7 +833,11 @@
      "latest_report_filed": "7/15/2026",
      "district_record": "Election - Sully District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $16,323 on 2026 reports",
+      "current officeholder"
+     ]
     },
     {
      "name": "Molly Ozimek-Maier Sullivan",
@@ -931,7 +858,12 @@
      "latest_report_filed": "7/15/2026",
      "district_record": "Election - Sully District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $10,694 on 2026 reports"
+     ]
     }
    ],
    "current_members": [
@@ -974,7 +906,10 @@
      "latest_report_filed": "7/15/2026",
      "district_record": null,
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $700 on 2026 reports"
+     ]
     }
    ],
    "current_members": [],
@@ -991,27 +926,6 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
    "candidates": [
-    {
-     "name": "Adele E Jackson",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/bc5f6b5d-5d86-e911-88a1-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Adele Jackson",
-     "committee_code": "CC-19-00874",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/bc5f6b5d-5d86-e911-88a1-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/bc5f6b5d-5d86-e911-88a1-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/bc5f6b5d-5d86-e911-88a1-984be103f032/pdf/cfreports",
-     "residence": "Prince William County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/12/2026",
-     "district_record": "Election - Brentsville District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
     {
      "name": "Erica Tredinnick",
      "incumbent": false,
@@ -1031,28 +945,10 @@
      "latest_report_filed": "7/3/2026",
      "district_record": "Election - Brentsville District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "John O'Leary",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/12d98ff2-49cf-e111-b0b8-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of John O'Leary",
-     "committee_code": "CC-12-01292",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/12d98ff2-49cf-e111-b0b8-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/12d98ff2-49cf-e111-b0b8-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/12d98ff2-49cf-e111-b0b8-984be103f032/pdf/cfreports",
-     "residence": "PRINCE WILLIAM COUNTY",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/6/2026",
-     "district_record": "Election - BRENTSVILLE DISTRICT",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $250 on 2026 reports"
+     ]
     }
    ],
    "current_members": [],
@@ -1088,7 +984,12 @@
      "latest_report_filed": "7/29/2026",
      "district_record": "Election - Coles District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "registered in 2026",
+      "Statement of Organization amended in 2026 naming 2027",
+      "raised $1,100 on 2026 reports"
+     ]
     }
    ],
    "current_members": [],
@@ -1124,7 +1025,10 @@
      "latest_report_filed": "7/9/2026",
      "district_record": "Election - Gainesville District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $257 on 2026 reports"
+     ]
     }
    ],
    "current_members": [],
@@ -1141,69 +1045,6 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
    "candidates": [
-    {
-     "name": "Diane Lillian Raulston",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/eeca5a86-6444-e611-a5f2-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Diane Raulston.",
-     "committee_code": "CC-16-00283",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/eeca5a86-6444-e611-a5f2-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/eeca5a86-6444-e611-a5f2-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/eeca5a86-6444-e611-a5f2-984be103f032/pdf/cfreports",
-     "residence": "Prince William County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/13/2026",
-     "district_record": "Election - Neabsco District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Julie Boyer",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/f3ad5030-c783-e911-acc7-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Julie Lucas",
-     "committee_code": "CC-19-00829",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/f3ad5030-c783-e911-acc7-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/f3ad5030-c783-e911-acc7-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/f3ad5030-c783-e911-acc7-984be103f032/pdf/cfreports",
-     "residence": "PRINCE WILLIAM COUNTY",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/13/2026",
-     "district_record": "Election - NEABSCO DISTRICT",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Padreus Dennard Pratter",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/35a667ce-fbed-4f27-9b15-702392a97774",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Padreus Pratter",
-     "committee_code": "CC-22-00110",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/35a667ce-fbed-4f27-9b15-702392a97774",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/35a667ce-fbed-4f27-9b15-702392a97774",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/35a667ce-fbed-4f27-9b15-702392a97774/pdf/cfreports",
-     "residence": "Prince William County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/15/2026",
-     "district_record": "Election - Neabsco District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
     {
      "name": "Tracy LaMar Blake",
      "incumbent": false,
@@ -1223,7 +1064,10 @@
      "latest_report_filed": "7/14/2026",
      "district_record": "Election - Neabsco District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $200 on 2026 reports"
+     ]
     }
    ],
    "current_members": [],
@@ -1259,28 +1103,10 @@
      "latest_report_filed": "7/14/2026",
      "district_record": "Election - Occoquan District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Ryan Wilson Kirkpatrick",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d06030b5-e9e6-48e4-9145-dbc5dcd9c1b1",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Ryan Kirkpatrick for School Board",
-     "committee_code": "CC-23-00915",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d06030b5-e9e6-48e4-9145-dbc5dcd9c1b1",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/d06030b5-e9e6-48e4-9145-dbc5dcd9c1b1",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/d06030b5-e9e6-48e4-9145-dbc5dcd9c1b1/pdf/cfreports",
-     "residence": "Prince William County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/13/2026",
-     "district_record": "Election - Occoquan District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $400 on 2026 reports"
+     ]
     }
    ],
    "current_members": [],
@@ -1316,7 +1142,10 @@
      "latest_report_filed": "7/13/2026",
      "district_record": "Election - Potomac District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $1,500 on 2026 reports"
+     ]
     }
    ],
    "current_members": [],
@@ -1332,29 +1161,7 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "candidates": [
-    {
-     "name": "Shantell Eyvette Rock",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a8b383d6-9221-445c-9a82-814c8d8d6beb",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Rock For Woodbridge District Schools",
-     "committee_code": "CC-23-00215",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a8b383d6-9221-445c-9a82-814c8d8d6beb",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a8b383d6-9221-445c-9a82-814c8d8d6beb",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a8b383d6-9221-445c-9a82-814c8d8d6beb/pdf/cfreports",
-     "residence": "Prince William County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/15/2026",
-     "district_record": "Election - Woodbridge District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [],
    "members_known": false
   },
@@ -1368,29 +1175,7 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [
-    {
-     "name": "Kristal Kristi\" Briggs Kinsella\"",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0d2cc826-c049-e911-9f1a-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Kinsella for Brookland",
-     "committee_code": "CC-19-00389",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0d2cc826-c049-e911-9f1a-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/0d2cc826-c049-e911-9f1a-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/0d2cc826-c049-e911-9f1a-984be103f032/pdf/cfreports",
-     "residence": "Henrico County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/6/2026",
-     "district_record": "Election - Brookland District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [],
    "members_known": false
   },
@@ -1404,29 +1189,7 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [
-    {
-     "name": "Ryan Edward Young",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fb2a5c75-5937-4c2d-a618-744ba0542e72",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Young for School Board",
-     "committee_code": "CC-23-02174",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fb2a5c75-5937-4c2d-a618-744ba0542e72",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fb2a5c75-5937-4c2d-a618-744ba0542e72",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/fb2a5c75-5937-4c2d-a618-744ba0542e72/pdf/cfreports",
-     "residence": "Henrico County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "10/5/2026",
-     "district_record": "Election - Fairfield District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [],
    "members_known": false
   },
@@ -1440,29 +1203,7 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [
-    {
-     "name": "Madison Irving",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e06c7b16-dbcd-4080-b9b2-1e52aff8c789",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Madison Irving",
-     "committee_code": "CC-23-00016",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e06c7b16-dbcd-4080-b9b2-1e52aff8c789",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e06c7b16-dbcd-4080-b9b2-1e52aff8c789",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e06c7b16-dbcd-4080-b9b2-1e52aff8c789/pdf/cfreports",
-     "residence": "Henrico County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "1/12/2026",
-     "district_record": "Election - Three Chopt District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [],
    "members_known": false
   },
@@ -1476,29 +1217,7 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [
-    {
-     "name": "Marcie F Shea",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/64a47a80-dd23-e911-8236-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Marcie Shea for School Board",
-     "committee_code": "CC-19-00187",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/64a47a80-dd23-e911-8236-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/64a47a80-dd23-e911-8236-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/64a47a80-dd23-e911-8236-984be103f032/pdf/cfreports",
-     "residence": "Henrico County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/12/2026",
-     "district_record": "Election - Tuckahoe District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [],
    "members_known": false
   },
@@ -1526,29 +1245,7 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": [
-    {
-     "name": "Antonia Saunders",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c8229902-5a0a-49a7-9d61-1651eced02a4",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Antonia Saunders",
-     "committee_code": "CC-22-00768",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c8229902-5a0a-49a7-9d61-1651eced02a4",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c8229902-5a0a-49a7-9d61-1651eced02a4",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/c8229902-5a0a-49a7-9d61-1651eced02a4/pdf/cfreports",
-     "residence": "Chesterfield County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/14/2026",
-     "district_record": "Election - Bermuda District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [
     {
      "name": "Ann C. Coker",
@@ -1569,71 +1266,7 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": [
-    {
-     "name": "Arika Phillips",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/15ea8aa7-f818-e911-94e1-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Arika Phillips For CCPS School Board",
-     "committee_code": "CC-19-00127",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/15ea8aa7-f818-e911-94e1-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/15ea8aa7-f818-e911-94e1-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/15ea8aa7-f818-e911-94e1-984be103f032/pdf/cfreports",
-     "residence": "CHESTERFIELD COUNTY",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/9/2026",
-     "district_record": "Election - CLOVER HILL DISTRICT",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Dorothy Lynne Heffron",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c61b5242-f444-e911-9f1a-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Dot Heffron for School Board",
-     "committee_code": "CC-19-00342",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c61b5242-f444-e911-9f1a-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/c61b5242-f444-e911-9f1a-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/c61b5242-f444-e911-9f1a-984be103f032/pdf/cfreports",
-     "residence": "Chesterfield County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "8/29/2026",
-     "district_record": "Election - Clover Hill District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Mirelys Corsoro",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/63e9a276-c615-4e7a-9ebe-55244c85b0fa",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Millie Corsoro",
-     "committee_code": "CC-23-00560",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/63e9a276-c615-4e7a-9ebe-55244c85b0fa",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/63e9a276-c615-4e7a-9ebe-55244c85b0fa",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/63e9a276-c615-4e7a-9ebe-55244c85b0fa/pdf/cfreports",
-     "residence": "Chesterfield County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/8/2026",
-     "district_record": "Election - Clover Hill District",
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [
     {
      "name": "Christina Brady",
@@ -1674,28 +1307,10 @@
      "latest_report_filed": "7/15/2026",
      "district_record": "Election - Dale District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Charletta H Barringer-Brown",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6ee1a4a6-191b-4064-a6bc-1082e65cea52",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Dr. Charletta Barringer-Brown for School Board",
-     "committee_code": "CC-23-00841",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/6ee1a4a6-191b-4064-a6bc-1082e65cea52",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/6ee1a4a6-191b-4064-a6bc-1082e65cea52",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/6ee1a4a6-191b-4064-a6bc-1082e65cea52/pdf/cfreports",
-     "residence": "Chesterfield County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/15/2026",
-     "district_record": "Election - Dale District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1738,28 +1353,10 @@
      "latest_report_filed": "7/6/2026",
      "district_record": "Election - Matoaca District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Traci Noelle Franssen",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a086fcde-a478-483a-9ee0-6e9d98515ed9",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Traci Franssen",
-     "committee_code": "CC-23-01367",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a086fcde-a478-483a-9ee0-6e9d98515ed9",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a086fcde-a478-483a-9ee0-6e9d98515ed9",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a086fcde-a478-483a-9ee0-6e9d98515ed9/pdf/cfreports",
-     "residence": "Chesterfield County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/8/2026",
-     "district_record": "Election - Matoaca District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1802,28 +1399,10 @@
      "latest_report_filed": "7/6/2026",
      "district_record": "Election - Midlothian District",
      "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Lauranett Lorraine Lee",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/f7999d6d-d61e-4c88-92d3-3b2a2b07c4b6",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Lauranett L. Lee for School Board",
-     "committee_code": "CC-22-00537",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/f7999d6d-d61e-4c88-92d3-3b2a2b07c4b6",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/f7999d6d-d61e-4c88-92d3-3b2a2b07c4b6",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/f7999d6d-d61e-4c88-92d3-3b2a2b07c4b6/pdf/cfreports",
-     "residence": "Chesterfield County",
-     "office_sought_record": "Member School Board",
-     "latest_report_filed": "7/27/2024",
-     "district_record": "Election - Midlothian District",
-     "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
     }
    ],
    "current_members": [
@@ -1846,50 +1425,7 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.albemarle.org/government/elections",
-   "candidates": [
-    {
-     "name": "Allison Spillman",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/628a0c25-4562-4b6f-8a92-b85558195e68",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Elect Allison Spillman",
-     "committee_code": "CC-23-00438",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/628a0c25-4562-4b6f-8a92-b85558195e68",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/628a0c25-4562-4b6f-8a92-b85558195e68",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/628a0c25-4562-4b6f-8a92-b85558195e68/pdf/cfreports",
-     "residence": "Albemarle County",
-     "office_sought_record": "Member School Board At Large",
-     "latest_report_filed": "1/16/2025",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Margaret Scalia Bryce",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7e30caf9-6185-45d4-85c8-6a45d86867ea",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Meg Bryce for School Board",
-     "committee_code": "CC-22-00789",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7e30caf9-6185-45d4-85c8-6a45d86867ea",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/7e30caf9-6185-45d4-85c8-6a45d86867ea",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/7e30caf9-6185-45d4-85c8-6a45d86867ea/pdf/cfreports",
-     "residence": "Albemarle County",
-     "office_sought_record": "Member School Board At Large",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
+   "candidates": [],
    "current_members": [],
    "members_known": false
   },
@@ -1951,7 +1487,10 @@
      "latest_report_filed": "7/10/2026",
      "district_record": "Election - White Hall District",
      "filed_date": null,
-     "filed_date_source_url": null
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $0 on 2026 reports"
+     ]
     }
    ],
    "current_members": [],
@@ -1975,5 +1514,6 @@
   }
  ],
  "nonpartisan_note": "Virginia law (§ 22.1-57.3(E)) has no party nomination process for school board.",
- "nonpartisan_source_url": "https://law.lis.virginia.gov/vacode/title22.1/chapter5/section22.1-57.3/"
+ "nonpartisan_source_url": "https://law.lis.virginia.gov/vacode/title22.1/chapter5/section22.1-57.3/",
+ "registrations_rule": "Counted: committees on the Nov. 2027 cycle, not closed, with a residence inside the seat and a 2027 signal (registered in 2026 or later, a 2026 Statement of Organization naming 2027, money raised on a 2026 report, or the seat's current officeholder). Committees the Department of Elections carried forward from earlier races with none of these are not counted."
 }
