@@ -57,7 +57,7 @@
    "body": "Constitutional Officers",
    "on_2027": true,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "ELECT calendar",
+   "ballot_source_label": "Department of Elections calendar",
    "note": "Loudoun elects all four four-year constitutional offices in 2027. The Clerk of the Circuit Court has an eight-year term.",
    "note_source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
    "off_cycle": [
@@ -75,7 +75,7 @@
    "body": "Constitutional Officers",
    "on_2027": true,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "ELECT calendar",
+   "ballot_source_label": "Department of Elections calendar",
    "note": "Fairfax County elects a sheriff and a commonwealth's attorney in 2027 (terms end Dec. 31, 2027). City of Fairfax voters vote in both races.",
    "note_source_url": "https://www.fairfaxcounty.gov/elections/information-candidates",
    "off_cycle": [
@@ -135,7 +135,7 @@
    "body": "Constitutional Officers",
    "on_2027": true,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "ELECT calendar",
+   "ballot_source_label": "Department of Elections calendar",
    "note": "Prince William elects a sheriff and a commonwealth's attorney in 2027. Both offices also serve the cities of Manassas and Manassas Park, whose voters vote in these races.",
    "note_source_url": "https://www.pwcva.gov/department/sheriffs-office",
    "off_cycle": [
@@ -195,7 +195,7 @@
    "body": "Constitutional Officers",
    "on_2027": true,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "ELECT calendar",
+   "ballot_source_label": "Department of Elections calendar",
    "note": "Henrico elects a sheriff and a commonwealth's attorney in 2027.",
    "note_source_url": "https://henrico.gov/registrar/elected-officials/",
    "off_cycle": [
@@ -218,7 +218,7 @@
    "body": "Constitutional Officers",
    "on_2027": true,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "ELECT calendar",
+   "ballot_source_label": "Department of Elections calendar",
    "note": "Chesterfield elects all four four-year constitutional offices in 2027.",
    "note_source_url": "https://www.chesterfield.gov/registrar",
    "off_cycle": [
@@ -236,7 +236,7 @@
    "body": "Constitutional Officers",
    "on_2027": true,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "ELECT calendar",
+   "ballot_source_label": "Department of Elections calendar",
    "note": "Albemarle elects a sheriff and a commonwealth's attorney.",
    "note_source_url": "https://www.albemarle.org/government/elections/elected-officials",
    "off_cycle": [

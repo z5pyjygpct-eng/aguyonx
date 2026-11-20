@@ -12,6 +12,7 @@ import SB from "@/lib/elections-2027-sb.json";
 import BOS from "@/lib/elections-2027-bos.json";
 import CO from "@/lib/elections-2027-co.json";
 import { cn } from "@/lib/utils";
+import { facetCount, filterEntries, flatten, groupEntries, isOpen as isOpenFiled, localityOptions, OFFICE_LABEL, OFFICE_ORDER, parseDirSearch, PARTY_LABEL, raceTitle, STATUS_LABEL, toFilters, toggle, type Entry, type OfficeFile, type PartyFilter, type StatusFilter } from "@/lib/elections-2027";
 
 /**
  * /2027 election. Data: src/lib/elections-2027-{house,senate,sb,bos,co}.json,
@@ -41,7 +42,7 @@ const OFFICES: { id: Office; label: string }[] = [
   { id: "co", label: "Constitutional Officers" },
 ];
 const FILTERS = new Set<string>(["contested", "one", "none", "open", "incD", "incR"]);
-type S = { office?: Office; loc?: string; f?: Filter; q?: string; seat?: string };
+type S = { office?: Office; loc?: string; f?: Filter; q?: string; seat?: string; r_office?: string; r_loc?: string; r_status?: string; r_party?: string; r_q?: string };
 
 export const Route = createFileRoute("/2027")({
   validateSearch: (s: Record<string, unknown>): S => ({
@@ -50,6 +51,7 @@ export const Route = createFileRoute("/2027")({
     ...(typeof s.f === "string" && FILTERS.has(s.f) ? { f: s.f as Filter } : {}),
     ...(typeof s.q === "string" && s.q.trim() ? { q: s.q.slice(0, 80) } : {}),
     ...(typeof s.seat === "string" && s.seat ? { seat: s.seat } : {}),
+    ...parseDirSearch(s),
   }),
   head: () => ({ meta: [{ title: "2027 election · A Guy on X" }, { name: "robots", content: "noindex" }] }),
   component: Election2027Page,
@@ -188,7 +190,7 @@ function Card({ r, office, asOf, onClose }: { r: Race; office: Office; asOf: str
         ) : <p className="mt-4 rounded-md border border-dashed border-navy-line px-3 py-3 text-sm text-on-dark-muted">No filing yet. No official candidate list for this seat as of {fmtDate(asOf)}.</p>}
         {r.candidates.some((c) => c.incumbent) ? <p className="mt-2 text-xs text-on-dark-muted"><span className="text-gold">*</span> Incumbent</p> : null}
         {(office === "house" || office === "senate") && isOpen(r) ? (
-          <p className="mt-2 text-xs text-on-dark-muted">{r.current_member ? `Current member: ${r.current_member.name} (${r.current_member.party}), from the Legislative Information System. No official 2027 filing yet.` : "Seat currently vacant in our LIS member data."}</p>
+          <p className="mt-2 text-xs text-on-dark-muted">{r.current_member ? `Current member: ${r.current_member.name} (${r.current_member.party}), from the Legislative Information System. No official 2027 filing yet.` : "Seat currently vacant in our Legislative Information System member data."}</p>
         ) : null}
         {r.shared_with?.length ? (
           <p className="mt-2 text-xs text-on-dark-muted">Shared office: voters in {r.shared_with.map((x, i) => (
@@ -197,7 +199,7 @@ function Card({ r, office, asOf, onClose }: { r: Race; office: Office; asOf: str
         ) : null}
         {r.note ? <p className="mt-2 text-xs text-[#F6F3EA]">Note: {r.note} {r.note_source_url ? <a href={r.note_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Source</a> : null}</p> : null}
         <p className="mt-3 border-t border-navy-line pt-2 text-xs text-on-dark-muted">
-          Seat on the ballot: <a href={r.source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">{office === "co" ? "official source" : "ELECT calendar"}</a>. Filings: <a href={r.filing_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">ELECT candidate lists</a>
+          Seat on the ballot: <a href={r.source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">{office === "co" ? "official source" : "Department of Elections calendar"}</a>. Filings: <a href={r.filing_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Department of Elections candidate lists</a>
           {r.local_filing_source_url ? <>, <a href={r.local_filing_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">{r.locality} elections office</a></> : null}, as of {fmtDate(asOf)}.
         </p>
       </section>
@@ -205,31 +207,156 @@ function Card({ r, office, asOf, onClose }: { r: Race; office: Office; asOf: str
   );
 }
 
-function ContestedList({ races, office, onPick }: { races: Race[]; office: Office; onPick: (id: string) => void }) {
-  const rows = races.filter((r) => statusOf(r, office) === "contested");
+const DIR_FILES = { house: HOUSE, senate: SENATE, sb: SB, bos: BOS, co: CO } as unknown as Record<Office, OfficeFile>;
+const ENTRIES = flatten(DIR_FILES);
+const LOC_OPTIONS = localityOptions(DIR_FILES);
+const ELECT_LISTS = "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/";
+const PARTY_BADGE: Record<string, string> = { D: "bg-[#2563c9]", R: "bg-flag", Other: "bg-slate-500" };
+
+function Pill({ active, onClick, count, children }: { active: boolean; onClick: () => void; count: number; children: ReactNode }) {
   return (
-    <section className="mt-8" aria-labelledby="contested-h">
-      <h2 id="contested-h" className="font-serif text-2xl font-semibold uppercase">Contested races <span className="font-mono text-sm text-gold">{rows.length}</span></h2>
-      {rows.length ? (
-        <ul className="mt-3 divide-y divide-navy-line rounded-[10px] border border-navy-line bg-navy-700">
-          {rows.map((r) => {
-            const by = (p: string) => r.candidates.filter((c) => (c.party ?? "Other") === p).map((c) => c.name + (c.incumbent ? "*" : "")).join(", ");
-            return (
-              <li key={r.id}>
-                <button type="button" onClick={() => onPick(r.id)} className="grid w-full grid-cols-[4.5rem_1fr] gap-x-3 px-4 py-2 text-left text-sm hover:bg-navy-600 sm:grid-cols-[7rem_1fr_1fr]">
-                  <span className="font-serif font-bold text-gold">{r.locality ? `${r.locality} · ` : ""}{r.seat}</span>
-                  {office === "sb" ? <span className="text-white">{r.candidates.map((c) => c.name + (c.incumbent ? "*" : "")).join(", ")}</span> : (
-                    <>
-                      <span className="min-w-0 text-white"><span className="mr-1 text-xs font-bold text-[#7fa8ee]">D</span>{by("D") || "—"}</span>
-                      <span className="col-start-2 min-w-0 text-white sm:col-start-auto"><span className="mr-1 text-xs font-bold text-[#f08a9a]">R</span>{by("R") || "—"}{by("Other") ? <span className="ml-2 text-on-dark-muted">· Other: {by("Other")}</span> : null}</span>
-                    </>
-                  )}
-                </button>
-              </li>
-            );
-          })}
-        </ul>
-      ) : <p className="mt-2 text-sm text-on-dark-muted">None with the current filters.</p>}
+    <button type="button" onClick={onClick} aria-pressed={active}
+      className={cn("inline-flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border px-3 text-sm font-semibold whitespace-nowrap",
+        active ? "border-gold bg-gold text-navy-900" : "border-navy-line bg-navy-800 text-white hover:border-gold")}>
+      {children}
+      <span className={cn("rounded-full px-1.5 text-xs", active ? "bg-navy-900/15" : "bg-navy-900/60 text-gold")}>{count}</span>
+    </button>
+  );
+}
+function PillRow({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <div className="mt-3">
+      <p className="font-serif text-[11px] tracking-[0.14em] text-night-muted uppercase">{label}</p>
+      <div role="group" aria-label={label} className="-mx-4 mt-1 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0">{children}</div>
+    </div>
+  );
+}
+
+function FiledCandidate({ c, e }: { c: Cand; e: Entry }) {
+  const where = e.race.locality ?? "Statewide";
+  return (
+    <li className="rounded-md border border-navy-line bg-navy-800 px-3 py-2 text-sm">
+      <p className="flex flex-wrap items-center gap-2 font-semibold text-white">
+        {c.name}
+        {c.party ? <span className={cn("rounded-sm px-1.5 text-[11px] font-bold text-white", PARTY_BADGE[c.party] ?? PARTY_BADGE.Other)}>{PARTY_LABEL[(c.party as PartyFilter)] ?? c.party}</span> : null}
+        <span className="text-xs font-normal text-on-dark-muted">{c.incumbent ? "Incumbent" : isOpenFiled(e.race) ? "Open seat" : "Challenger"}</span>
+      </p>
+      <p className="text-xs text-on-dark-muted">{OFFICE_LABEL[e.office]} · {raceTitle(e)} · {where}</p>
+      <a href={c.filing_source_url} target="_blank" rel="noopener noreferrer" className="text-xs text-gold underline">Official filing</a>
+    </li>
+  );
+}
+
+function RaceRow({ e }: { e: Entry }) {
+  const st = e.status;
+  const label = st === "none" ? "No filing yet" : st === "contested" ? "Contested" : st === "unopposed" ? "Unopposed" : `${PARTY_LABEL[st as PartyFilter]} only`;
+  return (
+    <li className="py-2">
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <p className="font-semibold text-white">{raceTitle(e)}{e.race.seats > 1 ? <span className="ml-1 text-xs font-normal text-on-dark-muted">({e.race.seats} seats)</span> : null}</p>
+        <span className={cn("rounded-full border px-2 text-xs font-semibold", TILE[st].cls)}>{label}{isOpenFiled(e.race) ? " · open seat" : ""}</span>
+      </div>
+      {e.race.shared_with?.length ? <p className="text-xs text-on-dark-muted">Also on the ballot in {e.race.shared_with.map((s) => s.locality).join(" and ")} (shared office).</p> : null}
+      {e.race.candidates.length ? (
+        <ul className="mt-2 grid gap-2 sm:grid-cols-2">{e.race.candidates.map((c) => <FiledCandidate key={c.name} c={c} e={e} />)}</ul>
+      ) : (
+        <p className="text-xs text-on-dark-muted">No candidate is on an official list yet. <a href={e.race.filing_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Check the Virginia Department of Elections candidate lists</a></p>
+      )}
+    </li>
+  );
+}
+
+function RosterCard({ c }: { c: (typeof CANDIDATES_2027)[number] }) {
+  const clips = newsForCandidate(c.name);
+  return (
+    <li id={`file-${c.id}`} className="scroll-mt-24 rounded-md border border-navy-line bg-navy-800 px-4 py-3">
+      <p className="flex flex-wrap items-center gap-2 font-semibold">
+        {c.name}
+        <span className="rounded-sm bg-[#2563c9] px-1.5 text-[11px] font-bold text-white" title="Party as reported in public news coverage, not an official filing">Democrat</span>
+        {c.status ? <span className="text-xs font-normal text-on-dark-muted">{c.status === "declared" ? "Declared, per news reports" : "Potential, per news reports"}</span> : null}
+      </p>
+      <p className="text-sm text-on-dark-muted">{c.officeSought}{c.locality ? ` · ${c.locality}` : ""}</p>
+      <p className="mt-1 text-xs text-on-dark-muted">Not on an official candidate list yet, so incumbent or open-seat status is not shown. <a href={ELECT_LISTS} target="_blank" rel="noopener noreferrer" className="text-gold underline">Official lists</a></p>
+      {clips.length ? (
+        <details className="mt-1 text-sm">
+          <summary className="cursor-pointer text-xs font-semibold text-gold">News ({clips.length})</summary>
+          <ul className="mt-2 space-y-1 border-t border-navy-line pt-2">
+            {clips.map((item) => (
+              <li key={item.id}><a href={item.url} target="_blank" rel="noopener noreferrer" className="text-sm hover:text-gold"><span className="font-mono text-xs text-on-dark-muted">{formatNewsDate(item.date)}</span> · {item.headline} <span className="font-mono text-[10px] tracking-widest text-on-dark-muted uppercase">{item.outlet}</span></a></li>
+            ))}
+          </ul>
+        </details>
+      ) : null}
+    </li>
+  );
+}
+
+function RaceDirectory({ s }: { s: S }) {
+  const navigate = Route.useNavigate();
+  const f = toFilters(s);
+  const [rq, setRq] = useState(s.r_q ?? "");
+  const shown = useMemo(() => filterEntries(ENTRIES, f), [s.r_office, s.r_loc, s.r_status, s.r_party, s.r_q]); // eslint-disable-line react-hooks/exhaustive-deps
+  const groups = groupEntries(shown);
+  const anyFilter = !!(s.r_office || s.r_loc || s.r_status || s.r_party || s.r_q);
+  const set = (patch: Partial<S>) => navigate({ search: (p: S) => ({ ...p, ...patch }), replace: true, resetScroll: false });
+  const filed = shown.reduce((n, e) => n + e.race.candidates.length, 0);
+  return (
+    <section id="races" className="mt-10 scroll-mt-24" aria-labelledby="races-h">
+      <h2 id="races-h" className="font-serif text-2xl font-semibold uppercase">Races and candidates <span className="font-mono text-sm text-gold">{shown.length}</span></h2>
+      <p className="mt-1 max-w-3xl text-sm text-on-dark-muted">
+        Every tracked seat on the Nov. 2, 2027 ballot. Candidates appear only once an official list names them.
+        Pick filters to narrow the list; tap a group to open it.
+      </p>
+      <div className="mt-3 flex flex-col gap-2 lg:flex-row lg:items-center">
+        <form role="search" onSubmit={(e) => e.preventDefault()} className="lg:w-80">
+          <label htmlFor="races-q" className="sr-only">Search races by name, district or locality</label>
+          <div className="flex items-center gap-2 rounded-[10px] border border-navy-line bg-navy-700 px-3 focus-within:border-gold">
+            <Search className="size-4 shrink-0 text-gold" aria-hidden />
+            <input id="races-q" type="search" value={rq} onChange={(e) => { setRq(e.target.value); set({ r_q: e.target.value.trim() ? e.target.value.slice(0, 80) : undefined }); }}
+              placeholder="Name, district or locality" className="h-11 w-full min-w-0 bg-transparent text-base text-white placeholder:text-night-muted focus:outline-none" />
+          </div>
+        </form>
+        {anyFilter ? <button type="button" onClick={() => { setRq(""); set({ r_office: undefined, r_loc: undefined, r_status: undefined, r_party: undefined, r_q: undefined }); }} className="self-start text-sm text-gold underline lg:self-center">Clear all filters</button> : null}
+      </div>
+      <PillRow label="Office">
+        {OFFICE_ORDER.map((o) => <Pill key={o} active={f.offices.includes(o)} count={facetCount(ENTRIES, f, "offices", o)} onClick={() => set({ r_office: toggle(f.offices, o) })}>{OFFICE_LABEL[o]}</Pill>)}
+      </PillRow>
+      <PillRow label="Locality">
+        {LOC_OPTIONS.map((l) => <Pill key={l.id} active={f.localities.includes(l.id)} count={facetCount(ENTRIES, f, "localities", l.id)} onClick={() => set({ r_loc: toggle(f.localities, l.id) })}>{l.name}</Pill>)}
+      </PillRow>
+      <PillRow label="Status">
+        {(Object.keys(STATUS_LABEL) as StatusFilter[]).map((k) => <Pill key={k} active={f.statuses.includes(k)} count={facetCount(ENTRIES, f, "statuses", k)} onClick={() => set({ r_status: toggle(f.statuses, k) })}>{STATUS_LABEL[k]}</Pill>)}
+      </PillRow>
+      <PillRow label="Party of a filed candidate">
+        {(Object.keys(PARTY_LABEL) as PartyFilter[]).map((k) => <Pill key={k} active={f.parties.includes(k)} count={facetCount(ENTRIES, f, "parties", k)} onClick={() => set({ r_party: toggle(f.parties, k) })}>{PARTY_LABEL[k]}</Pill>)}
+      </PillRow>
+      <p className="mt-4 text-sm text-on-dark-muted" role="status">{shown.length} races · {filed} candidates on official lists{f.localities.length ? " · House and Senate districts are not tied to one locality, so they are hidden" : ""}</p>
+      {groups.length ? (
+        <div className="mt-3 space-y-2">
+          {groups.map((g) => (
+            <details key={g.office} className="rounded-[10px] border border-navy-line bg-navy-700" data-group={g.office}>
+              <summary className="flex cursor-pointer items-center justify-between gap-2 px-4 py-3 font-serif text-lg font-semibold uppercase">
+                {g.label}<span className="rounded-full bg-navy-900/60 px-2 font-mono text-sm text-gold">{g.count}</span>
+              </summary>
+              <div className="space-y-2 px-3 pb-3">
+                {g.localities.map((l) => (
+                  <details key={l.id} className="rounded-md border border-navy-line bg-navy-800/60" data-locality={l.id}>
+                    <summary className="flex cursor-pointer items-center justify-between gap-2 px-3 py-2 text-sm font-semibold">
+                      {l.label}<span className="rounded-full bg-navy-900/60 px-2 font-mono text-xs text-gold">{l.entries.length}</span>
+                    </summary>
+                    <ul className="divide-y divide-navy-line px-3">{l.entries.map((e) => <RaceRow key={e.office + e.race.id} e={e} />)}</ul>
+                  </details>
+                ))}
+              </div>
+            </details>
+          ))}
+        </div>
+      ) : <p className="mt-3 rounded-md border border-dashed border-navy-line px-3 py-3 text-sm text-on-dark-muted">No races match these filters.</p>}
+
+      <h3 id="files-h" className="mt-10 font-serif text-xl font-semibold uppercase">Our candidate files</h3>
+      <p className="mt-1 max-w-3xl text-sm text-on-dark-muted">{CANDIDATES_2027_DEK} These names come from public news coverage, not official filings.</p>
+      <ul className="mt-3 grid gap-3 md:grid-cols-2">{CANDIDATES_2027.map((c) => <RosterCard key={c.id} c={c} />)}</ul>
+      <p className="mt-3 text-sm"><Link to="/news" className="text-gold underline">All news</Link></p>
     </section>
   );
 }
@@ -261,7 +388,7 @@ function Election2027Page() {
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-8">
           <p className="max-w-3xl text-sm text-[#F6F3EA]">
             Who has filed for the Nov. 2, 2027 general election. Tap a seat to see the candidates. A blank seat means no filing yet.{" "}
-            <span className="text-on-dark-muted">Official sources only: <a href={d.source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Virginia Department of Elections candidate lists</a> (none posted yet for Nov. 2, 2027) and <a href={d.ballot_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">ELECT ballot calendars</a>{local ? ", plus county elections offices" : ""}, as of {fmtDate(d.as_of)}.</span>
+            <span className="text-on-dark-muted">Official sources only: <a href={d.source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Virginia Department of Elections candidate lists</a> (none posted yet for Nov. 2, 2027) and <a href={d.ballot_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Department of Elections ballot calendars</a>{local ? ", plus county elections offices" : ""}, as of {fmtDate(d.as_of)}.</span>
           </p>
 
           <nav aria-label="Office" className="-mx-4 mt-5 flex gap-1 overflow-x-auto border-b border-navy-line px-4 sm:mx-0 sm:px-0">
@@ -343,7 +470,7 @@ function Election2027Page() {
                   <section key={l.id} className="rounded-[10px] border border-navy-line bg-navy-700 p-4" aria-label={`${l.name} ${l.body}`}>
                     <div className="flex flex-wrap items-baseline justify-between gap-2">
                       <h2 className="font-serif text-xl font-bold uppercase">{l.name} <span className="font-sans text-sm font-normal normal-case text-on-dark-muted">· {l.body}</span></h2>
-                      {l.on_2027 ? <a href={l.ballot_source_url} target="_blank" rel="noopener noreferrer" className="text-xs text-gold underline">On the 2027 ballot ({l.ballot_source_label ?? "ELECT calendar"})</a> : null}
+                      {l.on_2027 ? <a href={l.ballot_source_url} target="_blank" rel="noopener noreferrer" className="text-xs text-gold underline">On the 2027 ballot ({l.ballot_source_label ?? "Department of Elections calendar"})</a> : null}
                     </div>
                     {l.on_2027 ? (
                       <>
@@ -383,31 +510,7 @@ function Election2027Page() {
             </div>
           )}
 
-          <ContestedList races={visible} office={office} onPick={pick} />
-
-          <section id="files" className="mt-12 rounded-[10px] border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5" aria-labelledby="files-h">
-            <h2 id="files-h" className="font-serif text-2xl font-semibold uppercase">Candidate files</h2>
-            <p className="mt-1 max-w-3xl text-sm text-on-dark-muted">{CANDIDATES_2027_DEK}</p>
-            <ul className="mt-4 grid gap-3 md:grid-cols-2">
-              {CANDIDATES_2027.map((c) => {
-                const clips = newsForCandidate(c.name);
-                return (
-                  <li key={c.id} id={`file-${c.id}`} className="scroll-mt-24 rounded-md border border-navy-line bg-navy-800 px-4 py-3">
-                    <p className="flex items-center gap-2 font-semibold">{c.name}<span className="inline-flex size-5 items-center justify-center rounded-sm bg-[#2563c9] text-[11px] font-bold text-white">D</span></p>
-                    <p className="text-sm text-on-dark-muted">{c.officeSought}{c.locality ? ` · ${c.locality}` : ""}{c.status ? ` · ${c.status}` : ""}</p>
-                    {clips.length ? (
-                      <ul className="mt-2 space-y-1 border-t border-navy-line pt-2">
-                        {clips.map((item) => (
-                          <li key={item.id}><a href={item.url} target="_blank" rel="noopener noreferrer" className="text-sm hover:text-gold"><span className="font-mono text-xs text-on-dark-muted">{formatNewsDate(item.date)}</span> · {item.headline} <span className="font-mono text-[10px] tracking-widest text-on-dark-muted uppercase">{item.outlet}</span></a></li>
-                        ))}
-                      </ul>
-                    ) : null}
-                  </li>
-                );
-              })}
-            </ul>
-            <p className="mt-3 text-sm"><Link to="/news" className="text-gold underline">News shelf</Link></p>
-          </section>
+          <RaceDirectory s={s} />
         </div>
       </V4Main>
     </SiteShell>
