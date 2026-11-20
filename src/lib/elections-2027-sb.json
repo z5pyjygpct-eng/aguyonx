@@ -1,8 +1,41 @@
 {
  "office": "sb",
  "election": "2027-11-02",
- "as_of": "2026-10-18",
- "source_url": "https://www.vpap.org/elections/local/",
+ "as_of": "2026-11-19",
+ "source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+ "filings_checked": [
+  {
+   "label": "Virginia Department of Elections candidate lists",
+   "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "status": "no Nov. 2027 list posted"
+  },
+  {
+   "label": "Loudoun County Office of Elections",
+   "url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "loudoun"
+  },
+  {
+   "label": "Fairfax County Office of Elections",
+   "url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "fairfax-county"
+  },
+  {
+   "label": "Prince William County Office of Elections",
+   "url": "https://www.pwcvotes.org/ontheballot",
+   "status": "no Nov. 2027 list posted",
+   "locality_id": "prince-william"
+  },
+  {
+   "label": "Albemarle County Voter Registration and Elections",
+   "url": "https://www.albemarle.org/government/elections",
+   "status": "not reachable at build time",
+   "locality_id": "albemarle"
+  }
+ ],
+ "filings_note": "No official candidate list for the Nov. 2, 2027 election has been posted yet.",
+ "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
  "localities": [
   {
    "id": "loudoun",
@@ -15,12 +48,32 @@
    "note_source_url": "https://www.loudoun.gov/CivicAlerts.aspx?AID=8150&ARC=15798"
   },
   {
+   "id": "fairfax-county",
+   "name": "Fairfax County",
+   "kind": "county",
+   "body": "School Board",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "note": "All 12 seats are up in 2027: three at-large seats (elected countywide, top three win) and one seat for each of the nine districts.",
+   "note_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf"
+  },
+  {
    "id": "fairfax-city",
    "name": "Fairfax City",
    "kind": "city",
    "body": "School Board",
    "on_2027": false,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CITY-SCHOOL-BOARD-ELECTIONS.pdf"
+  },
+  {
+   "id": "prince-william",
+   "name": "Prince William",
+   "kind": "county",
+   "body": "School Board",
+   "on_2027": true,
+   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "note": "The chairman at-large and all seven district seats are up in 2027.",
+   "note_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf"
   },
   {
    "id": "manassas",
@@ -37,29 +90,11 @@
    "body": "School Board",
    "on_2027": true,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
-   "note": "Staggered terms: At-Large, Rivanna, Scottsville and White Hall are up in 2027; Jack Jouett, Rio and Samuel Miller in 2029."
+   "note": "Staggered terms: At-Large, Rivanna, Scottsville and White Hall are up in 2027; Jack Jouett, Rio and Samuel Miller in 2029.",
+   "note_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf"
   }
  ],
  "races": [
-  {
-   "id": "loudoun-ashburn",
-   "locality": "Loudoun",
-   "locality_id": "loudoun",
-   "body": "School Board",
-   "seat": "Ashburn",
-   "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/loudoun-county-school-board-ashburn/elections/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Deana Griffiths",
-     "incumbent": true,
-     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-school-board-ashburn/elections/?year_and_type=2027regular",
-     "party": null,
-     "endorsement": null,
-     "party_source_url": null
-    }
-   ]
-  },
   {
    "id": "loudoun-at-large",
    "locality": "Loudoun",
@@ -67,17 +102,22 @@
    "body": "School Board",
    "seat": "At-Large",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/loudoun-county-school-board-at-large/elections/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Anne Pogue Donohue",
-     "incumbent": true,
-     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-school-board-at-large/elections/?year_and_type=2027regular",
-     "party": null,
-     "endorsement": null,
-     "party_source_url": null
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "candidates": []
+  },
+  {
+   "id": "loudoun-ashburn",
+   "locality": "Loudoun",
+   "locality_id": "loudoun",
+   "body": "School Board",
+   "seat": "Ashburn",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "candidates": []
   },
   {
    "id": "loudoun-catoctin",
@@ -86,17 +126,10 @@
    "body": "School Board",
    "seat": "Catoctin",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/loudoun-county-school-board-catoctin/elections/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Kari LaBell",
-     "incumbent": true,
-     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-school-board-catoctin/elections/?year_and_type=2027regular",
-     "party": null,
-     "endorsement": null,
-     "party_source_url": null
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "candidates": []
   },
   {
    "id": "loudoun-little-river",
@@ -105,38 +138,238 @@
    "body": "School Board",
    "seat": "Little River",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/loudoun-county-school-board-little-river/elections/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Sumera Rashid",
-     "incumbent": true,
-     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-school-board-little-river/elections/?year_and_type=2027regular",
-     "party": null,
-     "endorsement": null,
-     "party_source_url": null
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-at-large",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "At-Large",
+   "seats": 3,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-braddock",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "Braddock",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-dranesville",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "Dranesville",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-franconia",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "Franconia",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-hunter-mill",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "Hunter Mill",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-mason",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "Mason",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-mount-vernon",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "Mount Vernon",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-providence",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "Providence",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-springfield",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "Springfield",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "fairfax-county-sully",
+   "locality": "Fairfax County",
+   "locality_id": "fairfax-county",
+   "body": "School Board",
+   "seat": "Sully",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
+   "candidates": []
+  },
+  {
+   "id": "prince-william-chair",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
+   "body": "School Board",
+   "seat": "Chair",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "candidates": []
+  },
+  {
+   "id": "prince-william-brentsville",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
+   "body": "School Board",
+   "seat": "Brentsville",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "candidates": []
+  },
+  {
+   "id": "prince-william-coles",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
+   "body": "School Board",
+   "seat": "Coles",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "candidates": []
+  },
+  {
+   "id": "prince-william-gainesville",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
+   "body": "School Board",
+   "seat": "Gainesville",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "candidates": []
+  },
+  {
+   "id": "prince-william-neabsco",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
+   "body": "School Board",
+   "seat": "Neabsco",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "candidates": []
+  },
+  {
+   "id": "prince-william-occoquan",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
+   "body": "School Board",
+   "seat": "Occoquan",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "candidates": []
+  },
+  {
+   "id": "prince-william-potomac",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
+   "body": "School Board",
+   "seat": "Potomac",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "candidates": []
+  },
+  {
+   "id": "prince-william-woodbridge",
+   "locality": "Prince William",
+   "locality_id": "prince-william",
+   "body": "School Board",
+   "seat": "Woodbridge",
+   "seats": 1,
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
+   "candidates": []
   },
   {
    "id": "albemarle-at-large",
-   "note": "VPAP still marks Allison Spillman as the incumbent. She resigned in August 2026 and the School Board appointed David Storm to the seat until the next election.",
-   "note_source_url": "https://www.29news.com/2026/09/25/albemarle-school-board-appoints-david-storm-at-large-seat/",
    "locality": "Albemarle",
    "locality_id": "albemarle",
    "body": "School Board",
    "seat": "At-Large",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/albemarle-county-school-board-at-large/elections/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Allison Spillman",
-     "incumbent": false,
-     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-school-board-at-large/elections/?year_and_type=2027regular",
-     "party": null,
-     "endorsement": null,
-     "party_source_url": null
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.albemarle.org/government/elections",
+   "candidates": []
   },
   {
    "id": "albemarle-rivanna",
@@ -145,17 +378,10 @@
    "body": "School Board",
    "seat": "Rivanna",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/albemarle-county-school-board-rivanna/elections/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Judy N Le",
-     "incumbent": true,
-     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-school-board-rivanna/elections/?year_and_type=2027regular",
-     "party": null,
-     "endorsement": null,
-     "party_source_url": null
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.albemarle.org/government/elections",
+   "candidates": []
   },
   {
    "id": "albemarle-scottsville",
@@ -164,17 +390,10 @@
    "body": "School Board",
    "seat": "Scottsville",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/albemarle-county-school-board-scottsville/elections/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Ellen Moore Osborne",
-     "incumbent": true,
-     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-school-board-scottsville/elections/?year_and_type=2027regular",
-     "party": null,
-     "endorsement": null,
-     "party_source_url": null
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.albemarle.org/government/elections",
+   "candidates": []
   },
   {
    "id": "albemarle-white-hall",
@@ -183,17 +402,10 @@
    "body": "School Board",
    "seat": "White Hall",
    "seats": 1,
-   "vpap_url": "https://www.vpap.org/offices/albemarle-county-school-board-white-hall/elections/?year_and_type=2027regular",
-   "candidates": [
-    {
-     "name": "Rebecca Berlin",
-     "incumbent": true,
-     "filing_source_url": "https://www.vpap.org/offices/albemarle-county-school-board-white-hall/elections/?year_and_type=2027regular",
-     "party": null,
-     "endorsement": null,
-     "party_source_url": null
-    }
-   ]
+   "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
+   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
+   "local_filing_source_url": "https://www.albemarle.org/government/elections",
+   "candidates": []
   }
  ],
  "no_2027": [
@@ -201,17 +413,17 @@
    "locality": "Fairfax City",
    "locality_id": "fairfax-city",
    "body": "School Board",
-   "next": "Nov. 3, 2026, then 2028",
+   "next": "Nov. 7, 2028",
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CITY-SCHOOL-BOARD-ELECTIONS.pdf"
   },
   {
    "locality": "Manassas",
    "locality_id": "manassas",
    "body": "School Board",
-   "next": "Nov. 3, 2026, then 2028",
+   "next": "Nov. 7, 2028",
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/CITY-SCHOOL-BOARD-ELECTIONS.pdf"
   }
  ],
- "nonpartisan_note": "VPAP does not display party identification for school board elections; Virginia law (§ 22.1-57.3(E)) has no party nomination process for school board.",
+ "nonpartisan_note": "Virginia law (§ 22.1-57.3(E)) has no party nomination process for school board.",
  "nonpartisan_source_url": "https://law.lis.virginia.gov/vacode/title22.1/chapter5/section22.1-57.3/"
 }
