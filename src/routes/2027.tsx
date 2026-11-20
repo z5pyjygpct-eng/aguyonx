@@ -12,7 +12,8 @@ import SB from "@/lib/elections-2027-sb.json";
 import BOS from "@/lib/elections-2027-bos.json";
 import CO from "@/lib/elections-2027-co.json";
 import { cn } from "@/lib/utils";
-import { facetCount, filterEntries, flatten, groupEntries, isOpen as isOpenFiled, localityOptions, OFFICE_LABEL, OFFICE_ORDER, parseDirSearch, PARTY_LABEL, raceTitle, STATUS_LABEL, toFilters, toggle, type Entry, type OfficeFile, type PartyFilter, type StatusFilter } from "@/lib/elections-2027";
+import { LocalityChart, StatewideChart } from "@/components/site/elections-2027-charts";
+import { entriesForLocality, facetCount, filterEntries, flatten, groupEntries, isOpen as isOpenFiled, localityOptions, OFFICE_LABEL, OFFICE_ORDER, parseDirSearch, PARTY_LABEL, raceTitle, STATUS_LABEL, toFilters, toggle, type Entry, type OfficeFile, type PartyFilter, type StatusFilter } from "@/lib/elections-2027";
 
 /**
  * /2027 election. Data: src/lib/elections-2027-{house,senate,sb,bos,co}.json,
@@ -361,6 +362,32 @@ function RaceDirectory({ s }: { s: S }) {
   );
 }
 
+function GlanceCharts({ s }: { s: S }) {
+  const navigate = Route.useNavigate();
+  const f = toFilters(s);
+  const picked = f.localities.length ? LOC_OPTIONS.filter((l) => f.localities.includes(l.id)) : LOC_OPTIONS.filter((l) => l.id === "loudoun");
+  const asOf = (HOUSE as { as_of: string }).as_of;
+  return (
+    <section className="mt-6" aria-labelledby="glance-h">
+      <h2 id="glance-h" className="font-serif text-2xl font-semibold uppercase">At a glance</h2>
+      <div className="mt-3 grid gap-4 lg:grid-cols-2">
+        <StatewideChart office="house" n="1" entries={ENTRIES.filter((e) => e.office === "house")} asOf={asOf} sourceUrl={ELECT_LISTS} />
+        <StatewideChart office="senate" n="2" entries={ENTRIES.filter((e) => e.office === "senate")} asOf={asOf} sourceUrl={ELECT_LISTS} />
+      </div>
+      <PillRow label="Locality chart">
+        {LOC_OPTIONS.map((l) => (
+          <Pill key={l.id} active={f.localities.includes(l.id)} count={entriesForLocality(ENTRIES, l.id).length}
+            onClick={() => navigate({ search: (p: S) => ({ ...p, r_loc: toggle(f.localities, l.id) }), replace: true, resetScroll: false })}>{l.name}</Pill>
+        ))}
+      </PillRow>
+      {!f.localities.length ? <p className="mt-1 text-xs text-on-dark-muted">Showing Loudoun. Pick a locality to switch; the same picks filter the race list below.</p> : null}
+      <div className="mt-3 grid gap-4 lg:grid-cols-2">
+        {picked.map((l, i) => <LocalityChart key={l.id} id={l.id} name={l.name} n={String(3 + i)} all={ENTRIES} asOf={asOf} sourceUrl={ELECT_LISTS} />)}
+      </div>
+    </section>
+  );
+}
+
 function Election2027Page() {
   const s = Route.useSearch();
   const navigate = Route.useNavigate();
@@ -390,6 +417,8 @@ function Election2027Page() {
             Who has filed for the Nov. 2, 2027 general election. Tap a seat to see the candidates. A blank seat means no filing yet.{" "}
             <span className="text-on-dark-muted">Official sources only: <a href={d.source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Virginia Department of Elections candidate lists</a> (none posted yet for Nov. 2, 2027) and <a href={d.ballot_source_url} target="_blank" rel="noopener noreferrer" className="text-gold underline">Department of Elections ballot calendars</a>{local ? ", plus county elections offices" : ""}, as of {fmtDate(d.as_of)}.</span>
           </p>
+
+          <GlanceCharts s={s} />
 
           <nav aria-label="Office" className="-mx-4 mt-5 flex gap-1 overflow-x-auto border-b border-navy-line px-4 sm:mx-0 sm:px-0">
             {OFFICES.map((o) => (
