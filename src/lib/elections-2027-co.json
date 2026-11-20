@@ -1,56 +1,8 @@
 {
  "office": "co",
  "election": "2027-11-02",
- "as_of": "2026-11-19",
- "source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
- "filings_checked": [
-  {
-   "label": "Virginia Department of Elections candidate lists",
-   "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "status": "no Nov. 2027 list posted"
-  },
-  {
-   "label": "Loudoun County Office of Elections",
-   "url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "status": "no Nov. 2027 list posted",
-   "locality_id": "loudoun"
-  },
-  {
-   "label": "Fairfax County Office of Elections",
-   "url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "status": "no Nov. 2027 list posted",
-   "locality_id": "fairfax-county"
-  },
-  {
-   "label": "Prince William County Office of Elections",
-   "url": "https://www.pwcvotes.org/ontheballot",
-   "status": "no Nov. 2027 list posted",
-   "locality_id": "prince-william"
-  },
-  {
-   "label": "Henrico County Voter Registration and Elections",
-   "url": "https://henrico.gov/registrar/programs/candidates/",
-   "status": "no Nov. 2027 list posted",
-   "locality_id": "henrico"
-  },
-  {
-   "label": "Chesterfield County General Registrar",
-   "url": "https://www.chesterfield.gov/registrar",
-   "status": "no Nov. 2027 list posted",
-   "locality_id": "chesterfield"
-  },
-  {
-   "label": "Albemarle County Voter Registration and Elections",
-   "url": "https://www.albemarle.org/government/elections",
-   "status": "not reachable at build time",
-   "locality_id": "albemarle"
-  }
- ],
- "filings_note": "No official candidate list for the Nov. 2, 2027 election has been posted yet.",
- "ballot_list_posted": [],
- "registrations_source_url": "https://apps.elections.virginia.gov/SBE_CSV/CF/",
- "registrations_label": "Registered campaign committee, not yet on the ballot",
- "registrations_note": "Registered 2027 campaign committees (official state record); ballot lists not yet posted.",
+ "as_of": "2026-11-09",
+ "source_url": "https://www.vpap.org/elections/local/",
  "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
  "terms_source_url": "https://law.lis.virginia.gov/vacode/title24.2/chapter2/section24.2-217/",
  "localities": [
@@ -61,7 +13,7 @@
    "body": "Constitutional Officers",
    "on_2027": true,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "Department of Elections calendar",
+   "ballot_source_label": "ELECT calendar",
    "note": "Loudoun elects all four four-year constitutional offices in 2027. The Clerk of the Circuit Court has an eight-year term.",
    "note_source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
    "off_cycle": [
@@ -69,29 +21,6 @@
      "office": "Clerk of the Circuit Court",
      "next": "Nov. 2031 (8-year term)",
      "source_url": "https://www.loudoun.gov/89/Constitutional-Officers"
-    }
-   ]
-  },
-  {
-   "id": "fairfax-county",
-   "name": "Fairfax County",
-   "kind": "county",
-   "body": "Constitutional Officers",
-   "on_2027": true,
-   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "Department of Elections calendar",
-   "note": "Fairfax County elects a sheriff and a commonwealth's attorney in 2027 (terms end Dec. 31, 2027). City of Fairfax voters vote in both races.",
-   "note_source_url": "https://www.fairfaxcounty.gov/elections/information-candidates",
-   "off_cycle": [
-    {
-     "office": "Clerk of the Circuit Court",
-     "next": "Nov. 2031 (8-year term)",
-     "source_url": "https://www.fairfaxcounty.gov/circuit/more-about-circuit-court"
-    },
-    {
-     "office": "Treasurer and Commissioner of the Revenue",
-     "next": "not elected in Fairfax County (the county's Department of Tax Administration and Department of Finance carry out both offices' duties)",
-     "source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/sites/boardofsupervisors/files/Assets/Items%20for%20Consideration_October%2017%2C%202023%20FINAL.pdf"
     }
    ]
   },
@@ -104,21 +33,7 @@
    "ballot_source_url": "https://www.fairfaxva.gov/Government/Council/All-Elected-Officials",
    "ballot_source_label": "City of Fairfax",
    "note": "City voters vote in the Fairfax County races for sheriff and commonwealth's attorney (shared offices, terms expire Dec. 31, 2027).",
-   "note_source_url": "https://www.fairfaxva.gov/Government/About-the-City/Shared-City-and-County-Officials",
-   "linked": [
-    {
-     "office": "Sheriff",
-     "locality_id": "fairfax-county",
-     "locality": "Fairfax County",
-     "race_id": "fairfax-county-sheriff"
-    },
-    {
-     "office": "Commonwealth's Attorney",
-     "locality_id": "fairfax-county",
-     "locality": "Fairfax County",
-     "race_id": "fairfax-county-commonwealth-s-attorney"
-    }
-   ],
+   "note_source_url": "https://www.fairfaxva.gov/Government/Council/All-Elected-Officials",
    "off_cycle": [
     {
      "office": "Treasurer and Commissioner of the Revenue",
@@ -128,30 +43,7 @@
     {
      "office": "Clerk of the Circuit Court",
      "next": "Nov. 2031 (8-year term)",
-     "source_url": "https://www.fairfaxva.gov/Government/About-the-City/Shared-City-and-County-Officials"
-    }
-   ]
-  },
-  {
-   "id": "prince-william",
-   "name": "Prince William",
-   "kind": "county",
-   "body": "Constitutional Officers",
-   "on_2027": true,
-   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "Department of Elections calendar",
-   "note": "Prince William elects a sheriff and a commonwealth's attorney in 2027. Both offices also serve the cities of Manassas and Manassas Park, whose voters vote in these races.",
-   "note_source_url": "https://www.pwcva.gov/department/sheriffs-office",
-   "off_cycle": [
-    {
-     "office": "Clerk of the Circuit Court",
-     "next": "Nov. 2031 (8-year term)",
-     "source_url": "https://www.pwcva.gov/department/circuit-court/circuit-court-clerks-role/"
-    },
-    {
-     "office": "Treasurer and Commissioner of the Revenue",
-     "next": "not elected in Prince William (the county's appointed chief financial officer carries out both offices' duties)",
-     "source_url": "https://emma.msrb.org/P11911146-P11459990-.pdf"
+     "source_url": "https://www.fairfaxva.gov/Government/Council/All-Elected-Officials"
     }
    ]
   },
@@ -165,20 +57,6 @@
    "ballot_source_label": "City of Manassas",
    "note": "City voters vote in the Prince William County races for sheriff and commonwealth's attorney (shared offices, next election 2027).",
    "note_source_url": "https://www.manassasva.gov/voter_registration_and_elections/elected_officials.php",
-   "linked": [
-    {
-     "office": "Sheriff",
-     "locality_id": "prince-william",
-     "locality": "Prince William",
-     "race_id": "prince-william-sheriff"
-    },
-    {
-     "office": "Commonwealth's Attorney",
-     "locality_id": "prince-william",
-     "locality": "Prince William",
-     "race_id": "prince-william-commonwealth-s-attorney"
-    }
-   ],
    "off_cycle": [
     {
      "office": "Treasurer and Commissioner of the Revenue",
@@ -193,54 +71,13 @@
    ]
   },
   {
-   "id": "henrico",
-   "name": "Henrico",
-   "kind": "county",
-   "body": "Constitutional Officers",
-   "on_2027": true,
-   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "Department of Elections calendar",
-   "note": "Henrico elects a sheriff and a commonwealth's attorney in 2027.",
-   "note_source_url": "https://henrico.gov/registrar/elected-officials/",
-   "off_cycle": [
-    {
-     "office": "Clerk of the Circuit Court",
-     "next": "Nov. 2031 (8-year term)",
-     "source_url": "https://henrico.gov/registrar/elected-officials/"
-    },
-    {
-     "office": "Treasurer and Commissioner of the Revenue",
-     "next": "not elected in Henrico (county-manager form; an appointed director of finance carries out both offices' duties)",
-     "source_url": "https://henrico.gov/government/county-manager-form-of-government/"
-    }
-   ]
-  },
-  {
-   "id": "chesterfield",
-   "name": "Chesterfield",
-   "kind": "county",
-   "body": "Constitutional Officers",
-   "on_2027": true,
-   "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "Department of Elections calendar",
-   "note": "Chesterfield elects all four four-year constitutional offices in 2027.",
-   "note_source_url": "https://www.chesterfield.gov/registrar",
-   "off_cycle": [
-    {
-     "office": "Clerk of the Circuit Court",
-     "next": "Nov. 2031 (eight-year term that began Jan. 2024, per the county's 2023 investiture notice)",
-     "source_url": "https://www.chesterfield.gov/m/newsflash/home/detail/4253"
-    }
-   ]
-  },
-  {
    "id": "albemarle",
    "name": "Albemarle",
    "kind": "county",
    "body": "Constitutional Officers",
    "on_2027": true,
    "ballot_source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
-   "ballot_source_label": "Department of Elections calendar",
+   "ballot_source_label": "ELECT calendar",
    "note": "Albemarle elects a sheriff and a commonwealth's attorney.",
    "note_source_url": "https://www.albemarle.org/government/elections/elected-officials",
    "off_cycle": [
@@ -265,76 +102,8 @@
    "body": "Constitutional Officers",
    "seat": "Sheriff",
    "seats": 1,
-   "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": [
-    {
-     "name": "Eric Scott Noble",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a3b1d96f-d473-e411-9388-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Noble For Sheriff",
-     "committee_code": "CC-14-00377",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a3b1d96f-d473-e411-9388-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a3b1d96f-d473-e411-9388-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a3b1d96f-d473-e411-9388-984be103f032/pdf/cfreports",
-     "residence": "LOUDOUN COUNTY",
-     "office_sought_record": "Sheriff",
-     "latest_report_filed": "7/7/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Justin Peter Hannah",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/191ef978-9a21-e911-94e1-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Hannah For Sheriff",
-     "committee_code": "CC-19-00176",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/191ef978-9a21-e911-94e1-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/191ef978-9a21-e911-94e1-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/191ef978-9a21-e911-94e1-984be103f032/pdf/cfreports",
-     "residence": "LOUDOUN COUNTY",
-     "office_sought_record": "Sheriff",
-     "latest_report_filed": "7/14/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Michael Louis Chapman",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b6110e92-261c-e611-ab63-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Michael L. Mike\" Chapman\"",
-     "committee_code": "CC-16-00183",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/b6110e92-261c-e611-ab63-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/b6110e92-261c-e611-ab63-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/b6110e92-261c-e611-ab63-984be103f032/pdf/cfreports",
-     "residence": "Loudoun County",
-     "office_sought_record": "Sheriff",
-     "latest_report_filed": "7/8/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
+   "vpap_url": "https://www.vpap.org/localities/loudoun-county-va/elections/",
+   "candidates": []
   },
   {
    "id": "loudoun-commonwealth-s-attorney",
@@ -343,97 +112,23 @@
    "body": "Constitutional Officers",
    "seat": "Commonwealth's Attorney",
    "seats": 1,
-   "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
+   "vpap_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular",
    "candidates": [
     {
-     "name": "Buta Biberaj",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a2c482f8-9bbd-e811-bffd-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Buta Biberaj",
-     "committee_code": "CC-18-00442",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a2c482f8-9bbd-e811-bffd-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a2c482f8-9bbd-e811-bffd-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a2c482f8-9bbd-e811-bffd-984be103f032/pdf/cfreports",
-     "residence": "Loudoun County",
-     "office_sought_record": "Commonwealth's Attorney",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "M Nicole Wittmann",
-     "incumbent": false,
+     "name": "Bob Anderson",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular",
      "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/05145bc9-5e3b-e911-936e-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Nicole Wittmann",
-     "committee_code": "CC-19-00311",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/05145bc9-5e3b-e911-936e-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/05145bc9-5e3b-e911-936e-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/05145bc9-5e3b-e911-936e-984be103f032/pdf/cfreports",
-     "residence": "LOUDOUN COUNTY",
-     "office_sought_record": "Commonwealth's Attorney",
-     "latest_report_filed": "7/6/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Robert Donald Anderson",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a72ade19-8bfa-4df4-beac-f490c5840f59",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Bob Anderson",
-     "committee_code": "CC-23-01045",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a72ade19-8bfa-4df4-beac-f490c5840f59",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a72ade19-8bfa-4df4-beac-f490c5840f59",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a72ade19-8bfa-4df4-beac-f490c5840f59/pdf/cfreports",
-     "residence": "Loudoun County",
-     "office_sought_record": "Commonwealth's Attorney",
-     "latest_report_filed": "10/30/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular"
     },
     {
      "name": "Ryan David Ruzic",
      "incumbent": false,
+     "filing_source_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular",
      "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/119aace9-9317-4b68-a3c3-edd20d7212da",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Ryan Ruzic For Loudoun",
-     "committee_code": "CC-26-00147",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/119aace9-9317-4b68-a3c3-edd20d7212da",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/119aace9-9317-4b68-a3c3-edd20d7212da",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/119aace9-9317-4b68-a3c3-edd20d7212da/pdf/cfreports",
-     "residence": "Loudoun County",
-     "office_sought_record": "Commonwealth's Attorney",
-     "latest_report_filed": "7/14/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
+     "party_source_url": "https://www.vpap.org/offices/loudoun-county-commonwealths-attorney/elections/?year_and_type=2027regular"
     }
-   ],
-   "current_members": [],
-   "members_known": false
+   ]
   },
   {
    "id": "loudoun-treasurer",
@@ -442,34 +137,8 @@
    "body": "Constitutional Officers",
    "seat": "Treasurer",
    "seats": 1,
-   "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": [
-    {
-     "name": "Henry Charles Eickelberg",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/56188992-d0c0-446a-bafb-f2de85f7927d",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Eickelberg for Treasurer",
-     "committee_code": "CC-23-00709",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/56188992-d0c0-446a-bafb-f2de85f7927d",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/56188992-d0c0-446a-bafb-f2de85f7927d",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/56188992-d0c0-446a-bafb-f2de85f7927d/pdf/cfreports",
-     "residence": "Loudoun County",
-     "office_sought_record": "Treasurer",
-     "latest_report_filed": "7/13/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
+   "vpap_url": "https://www.vpap.org/localities/loudoun-county-va/elections/",
+   "candidates": []
   },
   {
    "id": "loudoun-commissioner-of-the-revenue",
@@ -478,452 +147,63 @@
    "body": "Constitutional Officers",
    "seat": "Commissioner of the Revenue",
    "seats": 1,
-   "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.loudoun.gov/4150/Candidates-Campaigns",
-   "candidates": [
-    {
-     "name": "Robert Sheldon Wertz Jr",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2430e1b3-609b-e111-8def-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Bob Wertz",
-     "committee_code": "CC-12-00342",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2430e1b3-609b-e111-8def-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/2430e1b3-609b-e111-8def-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/2430e1b3-609b-e111-8def-984be103f032/pdf/cfreports",
-     "residence": "Loudoun County",
-     "office_sought_record": "Commissioner Of Revenue",
-     "latest_report_filed": "7/10/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Sridhar Srinivasan Amudhanar",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/62caf385-469f-e811-a517-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends Of Sri Amudhanar",
-     "committee_code": "CC-18-00375",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/62caf385-469f-e811-a517-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/62caf385-469f-e811-a517-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/62caf385-469f-e811-a517-984be103f032/pdf/cfreports",
-     "residence": "Loudoun County",
-     "office_sought_record": "Commissioner Of Revenue",
-     "latest_report_filed": "7/12/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
+   "vpap_url": "https://www.vpap.org/localities/loudoun-county-va/elections/",
+   "candidates": []
   },
   {
-   "id": "fairfax-county-sheriff",
-   "locality": "Fairfax County",
-   "locality_id": "fairfax-county",
+   "id": "fairfax-city-sheriff",
+   "locality": "Fairfax City",
+   "locality_id": "fairfax-city",
    "body": "Constitutional Officers",
    "seat": "Sheriff",
    "seats": 1,
-   "source_url": "https://www.fairfaxcounty.gov/news/2023-inauguration",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "shared_with": [
-    {
-     "locality_id": "fairfax-city",
-     "locality": "Fairfax City",
-     "source_url": "https://www.fairfaxcounty.gov/elections/information-candidates"
-    }
-   ],
-   "candidates": [
-    {
-     "name": "Stacey Ann Kincaid",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a5df8a29-f2f5-e211-a92f-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Stacey Kincaid for Sheriff",
-     "committee_code": "CC-13-00424",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a5df8a29-f2f5-e211-a92f-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a5df8a29-f2f5-e211-a92f-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a5df8a29-f2f5-e211-a92f-984be103f032/pdf/cfreports",
-     "residence": "Fairfax County",
-     "office_sought_record": "Sheriff",
-     "latest_report_filed": "7/8/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
+   "vpap_url": "https://www.vpap.org/localities/fairfax-county-va/elections/",
+   "candidates": []
   },
   {
-   "id": "fairfax-county-commonwealth-s-attorney",
-   "locality": "Fairfax County",
-   "locality_id": "fairfax-county",
+   "id": "fairfax-city-commonwealth-s-attorney",
+   "locality": "Fairfax City",
+   "locality_id": "fairfax-city",
    "body": "Constitutional Officers",
    "seat": "Commonwealth's Attorney",
    "seats": 1,
-   "source_url": "https://www.fairfaxcounty.gov/news/2023-inauguration",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
-   "shared_with": [
-    {
-     "locality_id": "fairfax-city",
-     "locality": "Fairfax City",
-     "source_url": "https://www.fairfaxcounty.gov/elections/information-candidates"
-    }
-   ],
+   "vpap_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular",
    "candidates": [
     {
-     "name": "Stephen Thomas Descano Jr",
-     "incumbent": false,
+     "name": "Steve Descano",
+     "incumbent": true,
+     "filing_source_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular",
      "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/11acdaa6-a09c-e811-a517-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Steve Descano",
-     "committee_code": "CC-18-00369",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/11acdaa6-a09c-e811-a517-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/11acdaa6-a09c-e811-a517-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/11acdaa6-a09c-e811-a517-984be103f032/pdf/cfreports",
-     "residence": "Fairfax County",
-     "office_sought_record": "Commonwealth's Attorney",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
+     "party_source_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular"
+    },
+    {
+     "name": "Brittany Dunn-Pirio",
+     "incumbent": false,
+     "filing_source_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular",
+     "party": "D",
+     "party_source_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/?year_and_type=2027regular"
     }
-   ],
-   "current_members": [],
-   "members_known": false
+   ]
   },
   {
-   "id": "prince-william-sheriff",
-   "locality": "Prince William",
-   "locality_id": "prince-william",
+   "id": "manassas-sheriff",
+   "locality": "Manassas",
+   "locality_id": "manassas",
    "body": "Constitutional Officers",
    "seat": "Sheriff",
    "seats": 1,
-   "source_url": "https://www.pwcvotes.org/elected-officials",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "shared_with": [
-    {
-     "locality_id": "manassas",
-     "locality": "Manassas",
-     "source_url": "https://www.manassasva.gov/voter_registration_and_elections/elected_officials.php"
-    },
-    {
-     "locality_id": null,
-     "locality": "Manassas Park",
-     "source_url": "https://www.manassasparkva.gov/government/local___state_elected_officials.php"
-    }
-   ],
-   "candidates": [
-    {
-     "name": "Glendell Hill",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/92cb3f00-b6ac-e411-97fb-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Glen Hill for Sheriff",
-     "committee_code": "CC-15-00101",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/92cb3f00-b6ac-e411-97fb-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/92cb3f00-b6ac-e411-97fb-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/92cb3f00-b6ac-e411-97fb-984be103f032/pdf/cfreports",
-     "residence": "Prince William County",
-     "office_sought_record": "Sheriff",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
+   "vpap_url": "https://www.vpap.org/localities/prince-william-county-va/elections/",
+   "candidates": []
   },
   {
-   "id": "prince-william-commonwealth-s-attorney",
-   "locality": "Prince William",
-   "locality_id": "prince-william",
+   "id": "manassas-commonwealth-s-attorney",
+   "locality": "Manassas",
+   "locality_id": "manassas",
    "body": "Constitutional Officers",
    "seat": "Commonwealth's Attorney",
    "seats": 1,
-   "source_url": "https://www.pwcvotes.org/elected-officials",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
-   "shared_with": [
-    {
-     "locality_id": "manassas",
-     "locality": "Manassas",
-     "source_url": "https://www.manassasva.gov/voter_registration_and_elections/elected_officials.php"
-    },
-    {
-     "locality_id": null,
-     "locality": "Manassas Park",
-     "source_url": "https://www.manassasparkva.gov/government/local___state_elected_officials.php"
-    }
-   ],
-   "candidates": [
-    {
-     "name": "Matthew Brian Lowery",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5dc62750-b745-44e0-837b-c94283907441",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Matt Lowery",
-     "committee_code": "CC-23-00076",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5dc62750-b745-44e0-837b-c94283907441",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/5dc62750-b745-44e0-837b-c94283907441",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/5dc62750-b745-44e0-837b-c94283907441/pdf/cfreports",
-     "residence": "Prince William County",
-     "office_sought_record": "Commonwealth's Attorney",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Tracey Alma Lenox",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/85f37e53-d72f-e911-8236-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Tracey Lenox",
-     "committee_code": "CC-19-00261",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/85f37e53-d72f-e911-8236-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/85f37e53-d72f-e911-8236-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/85f37e53-d72f-e911-8236-984be103f032/pdf/cfreports",
-     "residence": "MANASSAS CITY",
-     "office_sought_record": "Commonwealth's Attorney",
-     "latest_report_filed": "7/5/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
-  },
-  {
-   "id": "henrico-sheriff",
-   "locality": "Henrico",
-   "locality_id": "henrico",
-   "body": "Constitutional Officers",
-   "seat": "Sheriff",
-   "seats": 1,
-   "source_url": "https://henrico.gov/registrar/elected-officials/",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [
-    {
-     "name": "Alisa Gregory",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/800b8216-265d-e911-b2a4-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Supporters of Alisa Gregory for Sheriff",
-     "committee_code": "CC-19-00607",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/800b8216-265d-e911-b2a4-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/800b8216-265d-e911-b2a4-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/800b8216-265d-e911-b2a4-984be103f032/pdf/cfreports",
-     "residence": "Henrico County",
-     "office_sought_record": "Sheriff",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
-  },
-  {
-   "id": "henrico-commonwealth-s-attorney",
-   "locality": "Henrico",
-   "locality_id": "henrico",
-   "body": "Constitutional Officers",
-   "seat": "Commonwealth's Attorney",
-   "seats": 1,
-   "source_url": "https://henrico.gov/registrar/elected-officials/",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [],
-   "current_members": [],
-   "members_known": false
-  },
-  {
-   "id": "chesterfield-sheriff",
-   "locality": "Chesterfield",
-   "locality_id": "chesterfield",
-   "body": "Constitutional Officers",
-   "seat": "Sheriff",
-   "seats": 1,
-   "source_url": "https://www.chesterfield.gov/registrar",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": [
-    {
-     "name": "Karl Stephen Leonard",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fcdb89f1-3872-e311-898b-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Karl Leonard",
-     "committee_code": "CC-13-00603",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fcdb89f1-3872-e311-898b-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fcdb89f1-3872-e311-898b-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/fcdb89f1-3872-e311-898b-984be103f032/pdf/cfreports",
-     "residence": "Chesterfield County",
-     "office_sought_record": "Sheriff",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
-  },
-  {
-   "id": "chesterfield-commonwealth-s-attorney",
-   "locality": "Chesterfield",
-   "locality_id": "chesterfield",
-   "body": "Constitutional Officers",
-   "seat": "Commonwealth's Attorney",
-   "seats": 1,
-   "source_url": "https://www.chesterfield.gov/registrar",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": [
-    {
-     "name": "Erin Bumgarner Barr",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ca5cdfbf-cba1-429e-97d0-8a2cd175cee5",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Erin Barr",
-     "committee_code": "CC-22-00573",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ca5cdfbf-cba1-429e-97d0-8a2cd175cee5",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/ca5cdfbf-cba1-429e-97d0-8a2cd175cee5",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/ca5cdfbf-cba1-429e-97d0-8a2cd175cee5/pdf/cfreports",
-     "residence": "Chesterfield County",
-     "office_sought_record": "Commonwealth's Attorney",
-     "latest_report_filed": "7/5/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
-  },
-  {
-   "id": "chesterfield-treasurer",
-   "locality": "Chesterfield",
-   "locality_id": "chesterfield",
-   "body": "Constitutional Officers",
-   "seat": "Treasurer",
-   "seats": 1,
-   "source_url": "https://www.chesterfield.gov/registrar",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": [
-    {
-     "name": "Rebecca Rae Longnaker",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/3f851c9c-182e-e911-8236-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Rebecca Longnaker",
-     "committee_code": "CC-19-00245",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3f851c9c-182e-e911-8236-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/3f851c9c-182e-e911-8236-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/3f851c9c-182e-e911-8236-984be103f032/pdf/cfreports",
-     "residence": "Chesterfield County",
-     "office_sought_record": "Treasurer",
-     "latest_report_filed": "7/6/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
-  },
-  {
-   "id": "chesterfield-commissioner-of-the-revenue",
-   "locality": "Chesterfield",
-   "locality_id": "chesterfield",
-   "body": "Constitutional Officers",
-   "seat": "Commissioner of the Revenue",
-   "seats": 1,
-   "source_url": "https://www.chesterfield.gov/registrar",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.chesterfield.gov/registrar",
-   "candidates": [
-    {
-     "name": "Jenefer Smith Hughes",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a53ce58e-b713-e711-8413-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Friends of Jenefer Hughes",
-     "committee_code": "CC-17-00212",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a53ce58e-b713-e711-8413-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a53ce58e-b713-e711-8413-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a53ce58e-b713-e711-8413-984be103f032/pdf/cfreports",
-     "residence": "CHESTERFIELD COUNTY",
-     "office_sought_record": "Commissioner of Revenue",
-     "latest_report_filed": "7/31/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
+   "vpap_url": "https://www.vpap.org/localities/prince-william-county-va/elections/",
+   "candidates": []
   },
   {
    "id": "albemarle-sheriff",
@@ -932,55 +212,8 @@
    "body": "Constitutional Officers",
    "seat": "Sheriff",
    "seats": 1,
-   "source_url": "https://www.albemarle.org/government/elections/elected-officials",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.albemarle.org/government/elections",
-   "candidates": [
-    {
-     "name": "Chanses R Bryant",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1c3df6d0-cf59-e811-97f2-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Chan Bryant for Sheriff",
-     "committee_code": "CC-18-00218",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1c3df6d0-cf59-e811-97f2-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1c3df6d0-cf59-e811-97f2-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/1c3df6d0-cf59-e811-97f2-984be103f032/pdf/cfreports",
-     "residence": "Albemarle County",
-     "office_sought_record": "Sheriff",
-     "latest_report_filed": "7/13/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    },
-    {
-     "name": "Charles Tyson Milnor",
-     "incumbent": false,
-     "party": "R",
-     "party_label": "Republican",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/44d2eb4b-cb7a-48aa-84c4-59c68264441e",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Ty Milnor for Sheriff",
-     "committee_code": "CC-26-00138",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/44d2eb4b-cb7a-48aa-84c4-59c68264441e",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/44d2eb4b-cb7a-48aa-84c4-59c68264441e",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/44d2eb4b-cb7a-48aa-84c4-59c68264441e/pdf/cfreports",
-     "residence": "Albemarle County",
-     "office_sought_record": "Sheriff",
-     "latest_report_filed": "7/13/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null
-    }
-   ],
-   "current_members": [],
-   "members_known": false
+   "vpap_url": "https://www.vpap.org/localities/albemarle-county-va/elections/",
+   "candidates": []
   },
   {
    "id": "albemarle-commonwealth-s-attorney",
@@ -989,12 +222,8 @@
    "body": "Constitutional Officers",
    "seat": "Commonwealth's Attorney",
    "seats": 1,
-   "source_url": "https://www.albemarle.org/government/elections/elected-officials",
-   "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
-   "local_filing_source_url": "https://www.albemarle.org/government/elections",
-   "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "vpap_url": "https://www.vpap.org/localities/albemarle-county-va/elections/",
+   "candidates": []
   }
  ],
  "no_2027": []
