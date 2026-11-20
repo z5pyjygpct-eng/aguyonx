@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,140 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-20",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Thursday, Nov 19) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, headline matched outlet title, Nov 19 ET publish time confirmed in page metadata; none already in items.csv). Sources checked: RSS from ARLnow, FFXnow, Potomac Local, Blue Ridge Leader, WTOP local and Loudoun Times-Mirror; Loudoun Now via homepage (RSS 429; 4 homepage articles returned 429 or no date metadata and were left out); InsideNoVA, Prince William Times and Fairfax County Times not covered. Excluded: debriefs/morning notes, sponsored posts, business openings, event/lifestyle items, statewide/national stories, and unclear-locality items. news.ts items dated Nov 19 were all statewide, so none mirrored in.",
+      "items": [
+        {
+          "id": "loudoun-launches-data-center-dashboard-including-m-ltm-2026-11-19",
+          "county": "Loudoun",
+          "headline": "Loudoun launches data center dashboard, including map of campus locations",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/business_and_economy/real_estate_and_development/loudoun-launches-data-center-dashboard-including-map-of-campus-locations/article_a8c5341f-a110-40de-9d57-85fc70fd90e1.html",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "chamber-forum-touts-data-center-industry-benefits-loudounnow-2026-11-19",
+          "county": "Loudoun",
+          "headline": "Chamber Forum Touts Data Center Industry Benefits",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/chamber-forum-touts-data-center-industry-benefits/article_a61c19fb-8468-4254-804f-996ff611e087.html",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "randall-announces-bid-for-fourth-term-as-loudoun-c-blueridgeleader-2026-11-19",
+          "county": "Loudoun",
+          "headline": "Randall Announces Bid for Fourth Term as Loudoun County Chair",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/randall-announces-bid-for-fourth-term-as-loudoun-county-chair/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "spanberger-unveils-housing-cost-bills-in-woodbridg-potomaclocal-2026-11-19",
+          "county": "Prince William",
+          "headline": "Spanberger unveils housing-cost bills in Woodbridge",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/19/spanberger-unveils-housing-cost-bills-woodbridge/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-woodbridge-man-held-without-bond-af-potomaclocal-2026-11-19",
+          "county": "Prince William",
+          "headline": "Police Blotter: Woodbridge man held without bond after Wingstop robbery in Dumfries",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/19/police-blotter-2026-11-19/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-city-planning-commission-deadlocks-on-mixe-ffxnow-2026-11-19",
+          "county": "Fairfax",
+          "headline": "Fairfax City planning commission deadlocks on mixed-use proposal near judicial complex",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/19/fairfax-city-planning-commission-deadlocks-on-mixed-use-proposal-near-judicial-complex/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-wants-to-figure-out-why-approved-ho-ffxnow-2026-11-19",
+          "county": "Fairfax",
+          "headline": "Fairfax County wants to figure out why approved housing isn’t getting built",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/19/fairfax-county-wants-to-figure-out-why-approved-housing-isnt-getting-built/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "older-idylwood-apartments-acquired-with-commitment-ffxnow-2026-11-19",
+          "county": "Fairfax",
+          "headline": "Older Idylwood apartments acquired with commitment to preserve affordability",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/19/older-idylwood-apartments-acquired-with-commitment-to-preserve-affordability/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-city-moves-forward-with-potential-retail-t-ffxnow-2026-11-19",
+          "county": "Fairfax",
+          "headline": "Fairfax City moves forward with potential retail tax expected to fund school updates",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/19/fairfax-city-moves-forward-with-potential-retail-tax-expected-to-fund-school-updates/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-board-oks-senior-living-project-at-current-ffxnow-2026-11-19",
+          "county": "Fairfax",
+          "headline": "County board OKs senior living project at current site of Shipgarten in Tysons",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/19/county-board-oks-senior-living-project-at-current-site-of-shipgarten-in-tysons/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "arlington-lawmaker-carries-housing-legislation-for-arlnow-2026-11-19",
+          "county": "Arlington",
+          "headline": "Arlington lawmaker carries housing legislation for governor’s new affordability agenda",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/19/arlington-lawmaker-carries-housing-legislation-for-governors-new-affordability-agenda/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "authorities-investigate-possible-dumping-incident-arlnow-2026-11-19",
+          "county": "Arlington",
+          "headline": "Authorities investigate possible dumping incident in Clarendon",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/19/authorities-investigate-dumping-incident-in-clarendon/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "water-tower-near-dominion-hills-approved-to-be-tor-arlnow-2026-11-19",
+          "county": "Arlington",
+          "headline": "Water tower near Dominion Hills approved to be torn down and replaced",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/19/water-tower-near-dominion-hills-will-be-torn-down-and-replaced/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "new-report-on-history-of-arlington-s-governance-te-arlnow-2026-11-19",
+          "county": "Arlington",
+          "headline": "New report on history of Arlington’s governance tees up future discussions",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/19/new-report-on-history-of-arlingtons-governance-tees-up-future-discussions/",
+          "published": "2026-11-19",
+          "tier": "Reported Claim"
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "status": "ok",
