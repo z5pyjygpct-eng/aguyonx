@@ -117,6 +117,34 @@ export const LOUDOUN_BOS: BosMember[] = [
 /** Searchable BOS meeting index — Granicus archive + eScribe (post-migration). */
 export const LOUDOUN_MEETINGS: LoudounMeeting[] = [
   {
+    id: "escribe-84e92081",
+    provider: "escribe",
+    escribeId: "84e92081-0b3f-47be-bd67-8c11aa49730c",
+    title: "Loudoun BOS Business Meeting",
+    dateLabel: "Nov 17, 2026",
+    duration: "6h 46m",
+    playerUrl:
+      "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=84e92081-0b3f-47be-bd67-8c11aa49730c",
+    videoUrl:
+      "https://video.isilive.ca/loudouncty/96-Board-of-Supervisors-Business-Meeting-2026-11-17-20-59.mp4",
+    windowsUrl: "/files/find-the-moment/loudoun-bos/escribe-84e92081.json",
+    windowCount: 765,
+  },
+  {
+    id: "escribe-91057f16",
+    provider: "escribe",
+    escribeId: "91057f16-68ae-4bb1-9ecb-3dcc04467555",
+    title: "Loudoun BOS Public Hearing",
+    dateLabel: "Nov 12, 2026",
+    duration: "6h 7m",
+    playerUrl:
+      "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=91057f16-68ae-4bb1-9ecb-3dcc04467555",
+    videoUrl:
+      "https://video.isilive.ca/loudouncty/95-Board-of-Supervisors-Public-Hearing-2026-11-12-22-49.mp4",
+    windowsUrl: "/files/find-the-moment/loudoun-bos/escribe-91057f16.json",
+    windowCount: 681,
+  },
+  {
     id: "escribe-e3f455d0",
     provider: "escribe",
     escribeId: "e3f455d0-966e-4b24-8d8d-cd5a02f4721c",

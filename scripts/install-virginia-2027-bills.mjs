@@ -11,6 +11,9 @@
  * Does not edit React components and does not download or copy raw LIS CSVs.
  *
  * A new-only file is refused, so a daily refresh cannot drop the continued set.
+ * introduction_date (official LIS Introduction_date) is kept on both filing
+ * classes. A missing official date is left blank, never invented, and logged.
+
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -40,6 +43,19 @@ const problems = [];
 const seen = new Set();
 const fresh = [];
 const carried = [];
+const missingDates = [];
+
+function officialFiledDate(value) {
+  const raw = String(value ?? "").trim();
+  const match = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(raw);
+  if (!match) return "";
+  const month = Number(match[1]);
+  const day = Number(match[2]);
+  const year = Number(match[3]);
+  const utc = new Date(Date.UTC(year, month - 1, day));
+  if (utc.getUTCFullYear() !== year || utc.getUTCMonth() !== month - 1 || utc.getUTCDate() !== day) return "";
+  return raw;
+}
 
 for (const [i, bill] of rows.entries()) {
   const id = bill?.bill_number || `row ${i}`;
@@ -49,14 +65,17 @@ for (const [i, bill] of rows.entries()) {
   if (!isNew && !isContinued) {
     problems.push(`${id} filing_class (${bill?.filing_class}) does not match Carried_over (${bill?.carried_over}).`);
   }
-  if (!bill?.bill_number || !bill?.title || !bill?.chamber || !bill?.status_label || !bill?.introduction_date) {
-    problems.push(`${id} is missing bill number, title, chamber, status, or introduction date.`);
+  if (!bill?.bill_number || !bill?.title || !bill?.chamber || !bill?.status_label) {
+    problems.push(`${id} is missing bill number, title, chamber, or status.`);
   }
   if (!String(bill?.lis_detail_url || "").startsWith("https://lis.virginia.gov/")) {
     problems.push(`${id} is missing an official lis.virginia.gov detail url.`);
   }
   if (seen.has(bill?.bill_number)) problems.push(`${id} is a duplicate bill number.`);
   if (bill?.bill_number) seen.add(bill.bill_number);
+  // Keep official LIS Introduction_date for both new and continued rows.
+  // Never fill a blank from captured_at or the watch run time.
+  if (!officialFiledDate(bill?.introduction_date)) missingDates.push(id);
   if (isContinued) {
     const ids = new Set([...(bill.category_ids ?? []), ...(bill.categories ?? []).map((c) => c?.category_id)].filter(Boolean));
     for (const categoryId of ids) {
@@ -87,6 +106,10 @@ function publish(bill) {
     delete summary.summary_text_html;
     next.summary = summary;
   }
+  // introduction_date is the official LIS BILLS.CSV Introduction_date.
+  // Preserve it on every new and continued row. If LIS has no date, leave it
+  // empty so the page can say "Date not posted". Do not substitute captured_at.
+  next.introduction_date = officialFiledDate(next.introduction_date);
   return next;
 }
 
@@ -119,6 +142,10 @@ console.log(
     captured_at: raw.meta?.captured_at ?? null,
     summaries_missing: missingSummaries.length,
     summaries_missing_ids: missingSummaries,
-    summaries_note: "Bills without a summaries-file entry render as pending. They are not guessed. Run node scripts/check-bill-summaries.mjs and add official-source drafts.",
+    summaries_note: "Bills without a summaries-file entry render as pending. They are not guessed. After this install, run node scripts/update-va2027-bill-summaries.mjs (it runs the validator).",
+    introduction_date_source: "LIS BILLS.CSV Introduction_date (https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV)",
+    introduction_date_missing: missingDates.length,
+    introduction_date_missing_ids: missingDates,
+    introduction_date_note: "Copy Introduction_date onto every new_2027_filing and continued_from_2026 row as introduction_date. Leave it blank if LIS has no value. The page shows 'Date not posted'. Never fill it from captured_at, file mtime, or the watch run time.",
   }),
 );

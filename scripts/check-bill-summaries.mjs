@@ -2,14 +2,18 @@
 /**
  * Validate src/lib/va2027-bill-summaries.json against the installed tracker ledger.
  * Reports bills with no entry, pending vs ok counts, sentence-count issues, and
- * digits or $ in an ok summary that are not in the official LIS title/summary.
+ * digits or $ in an ok summary that are not in the official source used for that
+ * entry (LIS title/summary, or stored official bill text when sourceUsed is
+ * bill-text). Also verifies stored bill-text copies against their SHA-256 hash.
  *
  * Usage: node scripts/check-bill-summaries.mjs
  * Exit 1 when a problem is found (missing ok-or-pending entry, bad sentence count,
- * or an unsourced digit/$). Pending entries are allowed.
+ * unsourced digit/$, or a bill-text source-file/hash problem). Pending entries are
+ * allowed.
  */
 import fs from "node:fs";
 import path from "node:path";
+import { officialTextForCheck } from "./va2027-summary-source.mjs";
 
 const root = process.cwd();
 const ledger = JSON.parse(fs.readFileSync(path.join(root, "src/content/virginia-2027-bills.json"), "utf8"));
@@ -27,12 +31,7 @@ const pending = [];
 const ok = [];
 const sentenceIssues = [];
 const digitIssues = [];
-
-function officialText(bill) {
-  return [bill.title, bill.summary_plain, bill.summary?.summary_text_plain, bill.summary_type]
-    .filter(Boolean)
-    .join("\n");
-}
+const sourceIssues = [];
 
 function sentences(text) {
   const clean = String(text || "")
@@ -63,7 +62,9 @@ for (const bill of bills) {
   ok.push(id);
   const n = sentences(row.summary).length;
   if (n < 3 || n > 5) sentenceIssues.push({ id, sentences: n, summary: row.summary });
-  const src = tokens(officialText(bill));
+  const { text: official, issues } = officialTextForCheck(root, bill, row);
+  for (const issue of issues) sourceIssues.push({ id, issue });
+  const src = tokens(official);
   for (const tok of tokens(row.summary)) {
     if (![...src].some((s) => s === tok || s.includes(tok) || tok.includes(s))) {
       digitIssues.push({ id, token: tok, summary: row.summary });
@@ -82,8 +83,9 @@ const report = {
   pending_ids: pending,
   sentence_issues: sentenceIssues,
   unsourced_digits: digitIssues,
+  source_issues: sourceIssues,
   extra_ids: extra,
 };
 
 console.log(JSON.stringify(report, null, 2));
-if (missing.length || sentenceIssues.length || digitIssues.length) process.exit(1);
+if (missing.length || sentenceIssues.length || digitIssues.length || sourceIssues.length) process.exit(1);

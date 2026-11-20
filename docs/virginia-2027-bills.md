@@ -22,7 +22,8 @@ The install script:
 
 - Requires both `new_2027_filing` (`carried_over: false`) and `continued_from_2026` (`carried_over: true`). A new-only file is refused so the continued set is not dropped.
 - Writes `new_filings` and `continued`. `filing_class` must match `carried_over`. Continued rows may only keep the category `continued-uncategorized`.
-- Requires a bill number, official title, chamber, status, introduction date, and `https://lis.virginia.gov/` detail URL on every row.
+- Requires a bill number, official title, chamber, status, and `https://lis.virginia.gov/` detail URL on every row.
+- Keeps `introduction_date` on every new and continued row. This must be the official LIS `Introduction_date` from `BILLS.CSV`, written `M/D/YYYY`. If LIS has not posted a date, the field is left blank and the page shows “Date not posted”. The installer never fills it from `captured_at`, the file time, or the watch run time. Missing dates are logged as `introduction_date_missing_ids` and do not block the install.
 - Deletes `source_fields` (the raw LIS column echo) before writing.
 - Leaves every other sourced field as it arrived, including null summaries and null committees.
 - Writes `src/content/virginia-2027-bills.json` and does not edit `src/routes/virginia-2027-bills.tsx`.
@@ -37,6 +38,20 @@ Official files the runbook reads (link out; do not vendor them):
 - `https://lis.blob.core.windows.net/lisfiles/20271/Committees.csv`
 
 Party is not in those CSVs. The ledger joins it from chamber roster snapshots. This repo does not publish those snapshots.
+
+## Official filed date (daily 8 AM watch)
+
+The public tracker does not fetch LIS itself. The daily 8 AM changed-bill routine (Chief of Staff bill-watch, CloudAgent `bc-527b98e1-aac5-5696-b2c2-118e59e362fe`) builds the research ledger and hands a full `bills.json` to Web, which runs `scripts/install-virginia-2027-bills.mjs`. That routine lives outside this repo. It must keep carrying the official filed date or the New 2027 “which bills are new?” filters will go blank after a refresh.
+
+How to populate `introduction_date`:
+
+1. Read `https://lis.blob.core.windows.net/lisfiles/20271/BILLS.CSV` (session code `20271`). The official field is `Introduction_date`, written `M/D/YYYY`.
+2. Copy that value, unchanged, onto **every** row in both filing classes: `new_2027_filing` and `continued_from_2026`. Map it to `introduction_date`.
+3. If LIS has left `Introduction_date` empty for a bill, write an empty string (or omit a guessed value). The installer will store a blank and the page will show “Date not posted”.
+4. Do **not** use `captured_at`, the watch run time, a scrape timestamp, `Full_text_date1`, or a history-event date as a stand-in. Those are not the official filed date.
+5. Do not drop the field during the join, categorize, or install steps. The installer now logs `introduction_date_missing` and `introduction_date_missing_ids` so a stripped refresh is visible in the daily log.
+
+The Nov 13, 2026 capture already has an official `introduction_date` on all 26 new filings and all 443 continued records. Live `BILLS.CSV` on Nov 17, 2026 still matches those dates, with none missing.
 
 ## Shape the page reads
 
@@ -54,7 +69,7 @@ Each row in either array:
 | `measure_kind` | Under the number (House Bill, Senate Bill, Senate Resolution, …) |
 | `title` | Official title, unedited |
 | `chamber` | Chamber filter and card |
-| `introduction_date` | Introduced date, as written (`M/D/YYYY`) |
+| `introduction_date` | Official filed date. This is LIS `BILLS.CSV` column `Introduction_date` (`M/D/YYYY`). Shown on every card as “Filed Nov 12, 2026”. If it is missing or not a real LIS date, the card says “Date not posted”. A small New badge is added when the date is within the last 7 days (America/New_York). |
 | `chief_patron_name`, `chief_patron_id`, `sponsors[]` | Patrons. Role is Delegate if the member id starts with `H`, Senator if it starts with `S`. Anything else is shown without a role word. |
 | `sponsors[].patron_type` | Printed as stored (`1 - Chief Patron`, `2 - Chief Co-Patron`, …) |
 | `chief_patron_party`, `chief_patron_party_code`, `chief_patron_party_source` | Party line, only when the code is present. Co-patrons get a party only if a future row actually carries one. |
@@ -81,8 +96,9 @@ All filters AND together. An empty filter matches every new filing.
 - Filing: omitted or `new` is the 19 new filings. `continued` is only `continued_from_2026`. Party, chamber, patron, status, category, and search then run inside that set. They do not mix the two sets.
 - Party: chief patron party code. The Republican and Democrat buttons set this same filter and read `chief_patron_party_code` inside the selected filing set. A co-patron does not change it. A missing roster party stays blank (`Unavailable`). `missing` is offered in the party menu only when some chief patron in that set has no code.
 - Status: exact `status_label`.
+- Filed date: `filed=today`, `filed=7d`, or `filed=30d`. These are relative to today in America/New_York and use only the official `introduction_date`. A bill with no official date does not match a date window. Counts on the pills are for the current filing set (new or continued) and do not shrink when another filter is on.
 
-Sort is newest `introduction_date` first, then bill number. Sorting does not drop rows. The default page (no query string) shows every new filing.
+Sort is newest official `introduction_date` first, then bill number. Unposted dates sort last. Sorting does not drop rows. The default page (no query string) is the New 2027 view, showing every new filing in that newest-first order.
 
 ## Categories are editorial
 
@@ -97,7 +113,7 @@ Do not invent a summary, a sponsor, a status, a party, or a subject to fill a ho
 
 ## Capture 2026-11-13
 
-The CoS watch handed Web a full `bills.json` captured `2026-11-13T08:25:51-05:00`. The install kept both arrays: 26 new filings and 443 continued. Added SB853 (Saddam Azlan Salim, Democrat, Courts of Justice), SB854, SB855, and SB856 (Bill DeSteph, Republican; Finance and Appropriations, Finance and Appropriations, and Commerce and Labor), and SB857 (Barbara A. Favola, Democrat, Education and Health). Categories are the ledger's: Courts & Justice, Taxation, Taxation, Energy & Data Centers, and Education (K-12). SB852's co-patron list is the only other change. The five new bills have official `SUMMARY AS INTRODUCED` text and no plain-language summary yet; those popup entries stay pending. Nine continued chief patrons still have no roster party. Co-patron party is not filled in.
+The CoS watch handed Web a full `bills.json` captured `2026-11-13T08:25:51-05:00`. The install kept both arrays: 26 new filings and 443 continued. Added SB853 (Saddam Azlan Salim, Democrat, Courts of Justice), SB854, SB855, and SB856 (Bill DeSteph, Republican; Finance and Appropriations, Finance and Appropriations, and Commerce and Labor), and SB857 (Barbara A. Favola, Democrat, Education and Health). Categories are the ledger's: Courts & Justice, Taxation, Taxation, Energy & Data Centers, and Education (K-12). SB852's co-patron list is the only other change. The five new bills (SB853–SB857) have official `SUMMARY AS INTRODUCED` text. Their plain-language summaries are now written from those official summaries (`sourceUsed: lis-summary`, `reviewed: false`). Nine continued bills whose official LIS summary was only a thin heading (HB1315, HB1520, SB708, SB709, SB710, SB811, SB821, SB829, SB833) have plain-language summaries written from the official bill text (`sourceUsed: bill-text`, `reviewed: false`). Nine continued chief patrons still have no roster party. Co-patron party is not filled in.
 
 ## Page
 
@@ -112,16 +128,36 @@ Each bill card has a gold **Summary of Bill** button (navy lettering) that opens
 
 `src/lib/va2027-bill-summaries.json`
 
-The file is keyed by bill number (`SB852`, `HB1532`, …). Each entry has `summary`, `status` (`ok` or `pending`), `sourceUsed` (`lis-summary`, `bill-text`, or `title`), and `generatedAt`.
+The file is keyed by bill number (`SB852`, `HB1532`, …). Each entry has `summary`, `status` (`ok` or `pending`), `sourceUsed` (`lis-summary`, `bill-text`, or `title`), `generatedAt`, `reviewed` (`true` or `false`), and `sourceFingerprint`. The fingerprint records the official source the entry was generated from: `summary_plain`, `lis_text_url`, `full_text_doc1`, and `full_text_date1`. Entries written from official bill text also store `textHash`, the SHA-256 of the exact official text copy kept in `src/lib/va2027-bill-text-sources/{bill}.txt`.
 
-If a bill in `src/content/virginia-2027-bills.json` has **no** entry in the summaries file, the page still shows the button and the modal says the summary is pending. It never leaves the modal blank and never invents a summary. The same pending message is used when an entry exists but `status` is `pending`.
+If a bill in `src/content/virginia-2027-bills.json` has **no** entry in the summaries file, the page still shows the button and the modal says the summary is pending. It never leaves the modal blank and never invents a summary. The pending sentence depends on what LIS has actually posted:
 
-### How a new bill gets a summary (daily path)
+- If LIS has posted an official summary (`summary_plain`) or a bill-text link, the modal says we have not written a plain-language summary yet and points to the official summary and/or text below. It does **not** claim LIS is missing a summary when one is already on the card.
+- If LIS has posted neither an official summary nor a bill-text link, the modal says LIS has not posted a summary yet, so we have not written one.
 
-The daily tracker updater (CloudAgent `bc-527b98e1-aac5-5696-b2c2-118e59e362fe`, via the CoS 8 AM bill-watch) already refreshes the research ledger and installs `src/content/virginia-2027-bills.json`. That install does **not** write the summaries file. After each install:
+Published summaries written from the official LIS summary use the usual editorial label. Summaries written from official bill text use this label: “Plain-language summary written from the bill text by aguyonx, not an official LIS summary.” The bill-text link in that modal also shows the official text version date (`full_text_date1`).
 
-1. Run `node scripts/check-bill-summaries.mjs`. The script lists every bill that has no summaries-file entry, plus any `ok` summary that is too short/long or that contains a digit or `$` not present in the official LIS title or official summary.
-2. For each missing bill, read the official LIS summary (`summary_plain` / Summaries.csv) and, if that is missing or only a short heading, the official bill text at `lis_text_url`. Write a 3–5 sentence plain-language summary at about an 8th-grade reading level. Use only facts in that official text. Do not invent effects, costs, numbers, dates, or a stance. Prefer “would” over “will.” If the official summary and text are still too thin to support three grounded sentences, store `status: "pending"` and leave `summary` empty.
-3. Add the entry to `src/lib/va2027-bill-summaries.json`, run the validator again, and include the summaries file in the same preview/production change as the ledger only after the validator is clean.
+### How a new bill gets a summary (daily 8 AM path)
 
-The install script itself prints `summaries_missing` and `summaries_missing_ids` so a missing entry is visible in the daily log. It does not fail the install, because a new filing should still go on the tracker as pending rather than block the update.
+The daily tracker updater (CloudAgent `bc-527b98e1-aac5-5696-b2c2-118e59e362fe`, via the CoS 8 AM bill-watch) already refreshes the research ledger and installs `src/content/virginia-2027-bills.json`. That install does **not** write or overwrite the summaries file. After each install, the routine must run this exact command from the website repo root:
+
+```bash
+node scripts/update-va2027-bill-summaries.mjs
+```
+
+That script compares each bill’s current `summary_plain`, `lis_text_url`, `full_text_doc1`, and `full_text_date1` to the stored `sourceFingerprint`. It then:
+
+- Adds a `pending` stub (`reviewed: false`) for a ledger bill that has no summaries-file entry. It does not invent a summary.
+- Flags an entry whose official source changed. It **never** overwrites an entry marked `reviewed: true`, including the summary text and the stored fingerprint.
+- Does not auto-overwrite an unreviewed draft either; those source changes are flagged for a person to update.
+- Runs `node scripts/check-bill-summaries.mjs` at the end. Exit 1 means there is a new pending stub, a source change to review, or a validator failure.
+
+`check-bill-summaries.mjs` lists every bill that has no summaries-file entry, plus any `ok` summary that is too short or long (not 3–5 sentences) or that contains a digit or `$` not present in the official source used for that entry. For `sourceUsed: lis-summary` (and `title`) that official source is the LIS title and official summary. For `sourceUsed: bill-text` it also includes the stored official bill-text copy, and the checker fails if that file is missing or its SHA-256 does not match `sourceFingerprint.textHash`. A failing summary must stay `pending`. Never publish a summary that fails the check.
+
+When writing or updating a summary by hand:
+
+1. Read the official LIS summary (`summary_plain` / Summaries.csv) and, if that is missing or only a short heading, the official bill text at `lis_text_url` (keep a copy under `src/lib/va2027-bill-text-sources/` and record `textHash` plus `full_text_date1`). Write a 3–5 sentence plain-language summary at about an 8th-grade reading level. Use only facts in that official text. Do not invent effects, costs, numbers, dates, or a stance. Prefer “would” over “will.” If the official summary and text are still too thin to support three grounded sentences, store `status: "pending"` and leave `summary` empty.
+2. Set `sourceUsed` to `lis-summary` or `bill-text`, store the current `sourceFingerprint`, and leave `reviewed: false` until Scott formally marks the entry reviewed. Existing reviewed entries stay `reviewed: true`.
+3. Run `node scripts/check-bill-summaries.mjs` again, and include the summaries file (and any new bill-text source copies) in the same preview/production change as the ledger only after the validator is clean.
+
+The install script itself prints `summaries_missing` and `summaries_missing_ids` so a missing entry is visible in the daily log. It does not fail the install, because a new filing should still go on the tracker as pending rather than block the update. The 8 AM update script then creates the pending stub and surfaces the gap.

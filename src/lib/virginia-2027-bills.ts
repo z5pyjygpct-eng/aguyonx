@@ -23,6 +23,22 @@ export type CategoryAssignment = {
   evidence_source: string;
 };
 
+export type BillLisStatus = {
+  carried_over?: boolean;
+  passed?: boolean;
+  passed_house?: boolean;
+  passed_senate?: boolean;
+  failed?: boolean;
+  approved?: boolean;
+  vetoed?: boolean;
+  emergency?: boolean;
+  last_house_action?: string | null;
+  last_house_action_date?: string | null;
+  last_senate_action?: string | null;
+  last_senate_action_date?: string | null;
+  status_label?: string;
+};
+
 export type BillRecord = {
   bill_number: string;
   measure_kind: string;
@@ -44,8 +60,12 @@ export type BillRecord = {
   senate_committee_id: string | null;
   senate_committee_name: string | null;
   status_label: string;
+  /** Official LIS status flags and last actions from BILLS.CSV. Not invented. */
+  status?: BillLisStatus;
   lis_detail_url: string;
   lis_text_url: string | null;
+  full_text_doc1?: string | null;
+  full_text_date1?: string | null;
   summary_type: string | null;
   summary_plain: string | null;
   categories: CategoryAssignment[];
@@ -83,6 +103,43 @@ export type Ledger = {
 
 export type FilingSet = "new" | "continued";
 
+export type FiledWindow = "today" | "7d" | "30d";
+
+export const FILED_WINDOWS: { value: FiledWindow; label: string; days: number }[] = [
+  { value: "today", label: "Filed today", days: 0 },
+  { value: "7d", label: "Last 7 days", days: 7 },
+  { value: "30d", label: "Last 30 days", days: 30 },
+];
+
+/** Bills filed in this many days (inclusive) get a small "New" badge. */
+export const NEW_BADGE_DAYS = 7;
+export const DISPLAY_TIME_ZONE = "America/New_York";
+
+const LEFT_IN_COMMITTEE_PREFIX = "Left in Committee ";
+
+/**
+ * Official LIS "Left in Committee <committee>" line for cards with status.failed.
+ * Uses last_house_action and last_house_action_date only. Returns null when
+ * those official words are not present, so the stored status_label is kept.
+ */
+export function leftInCommitteeStatus(bill: BillRecord): string | null {
+  if (!bill.status?.failed) return null;
+  const action = bill.status.last_house_action?.trim() ?? "";
+  if (!action.startsWith(LEFT_IN_COMMITTEE_PREFIX)) return null;
+  const committee = action.slice(LEFT_IN_COMMITTEE_PREFIX.length).trim();
+  if (!committee) return null;
+  const date = bill.status.last_house_action_date?.trim() ?? "";
+  return date ? `Left in Committee (${committee}), ${date}` : `Left in Committee (${committee})`;
+}
+
+/** Status text shown on the card and used by the status filter. */
+export function displayStatus(bill: BillRecord): string {
+  return leftInCommitteeStatus(bill) || bill.status_label || "";
+}
+
+
+export type CalendarDate = { y: number; m: number; d: number };
+
 export type BillFilters = {
   q?: string;
   category?: string;
@@ -92,6 +149,8 @@ export type BillFilters = {
   status?: string;
   /** Omitted or "new" is the default list. "continued" is the carried-over set only. */
   filing?: FilingSet;
+  /** Official LIS filed-date window, relative to today in America/New_York. */
+  filed?: FiledWindow;
 };
 
 export type Counted = { value: string; label: string; count: number };
@@ -346,7 +405,7 @@ export function matchesQuery(bill: BillRecord, q: string | undefined): boolean {
   return true;
 }
 
-export function matchesFilters(bill: BillRecord, f: BillFilters): boolean {
+export function matchesFilters(bill: BillRecord, f: BillFilters, today?: CalendarDate): boolean {
   if (f.filing === "continued") {
     if (!isContinued(bill)) return false;
   } else if (!isNewFiling(bill)) return false;
@@ -358,20 +417,104 @@ export function matchesFilters(bill: BillRecord, f: BillFilters): boolean {
       if (bill.chief_patron_party_code) return false;
     } else if (bill.chief_patron_party_code !== f.party) return false;
   }
-  if (f.status && bill.status_label !== f.status) return false;
+  if (f.status && displayStatus(bill) !== f.status) return false;
+  if (f.filed && !isWithinFiledWindow(bill.introduction_date, f.filed, today ?? calendarDateInZone())) return false;
   if (!matchesQuery(bill, f.q)) return false;
   return true;
 }
 
-export function filterBills(bills: BillRecord[], f: BillFilters): BillRecord[] {
-  return bills.filter((b) => matchesFilters(b, f));
+export function filterBills(bills: BillRecord[], f: BillFilters, today?: CalendarDate): BillRecord[] {
+  const asOf = today ?? calendarDateInZone();
+  return bills.filter((b) => matchesFilters(b, f, asOf));
 }
 
-/** Introduction dates in the ledger are M/D/YYYY. Unparseable dates sort last. */
+/**
+ * Official LIS Introduction_date, as written in BILLS.CSV: M/D/YYYY.
+ * Returns null instead of guessing when the value is missing or not a real calendar date.
+ */
+export function parseOfficialFiledDate(value: string | null | undefined): CalendarDate | null {
+  const match = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec((value ?? "").trim());
+  if (!match) return null;
+  const m = Number(match[1]);
+  const d = Number(match[2]);
+  const y = Number(match[3]);
+  const utc = new Date(Date.UTC(y, m - 1, d));
+  if (utc.getUTCFullYear() !== y || utc.getUTCMonth() !== m - 1 || utc.getUTCDate() !== d) return null;
+  return { y, m, d };
+}
+
+export function calendarDateInZone(now: Date = new Date(), timeZone = DISPLAY_TIME_ZONE): CalendarDate {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+  }).formatToParts(now);
+  const num = (type: string) => Number(parts.find((part) => part.type === type)?.value);
+  return { y: num("year"), m: num("month"), d: num("day") };
+}
+
+function utcDay(date: CalendarDate): number {
+  return Date.UTC(date.y, date.m - 1, date.d);
+}
+
+/** Whole calendar days from the official filed date to `today`. Null if the date is missing or invalid. */
+export function daysSinceFiled(value: string | null | undefined, today: CalendarDate): number | null {
+  const filed = parseOfficialFiledDate(value);
+  if (!filed) return null;
+  return Math.round((utcDay(today) - utcDay(filed)) / 86_400_000);
+}
+
+export function isWithinFiledWindow(
+  value: string | null | undefined,
+  window: FiledWindow,
+  today: CalendarDate,
+): boolean {
+  const days = daysSinceFiled(value, today);
+  if (days == null || days < 0) return false;
+  if (window === "today") return days === 0;
+  if (window === "7d") return days <= NEW_BADGE_DAYS;
+  if (window === "30d") return days <= 30;
+  return false;
+}
+
+export function isNewlyFiled(bill: Pick<BillRecord, "introduction_date">, today: CalendarDate): boolean {
+  return isWithinFiledWindow(bill.introduction_date, "7d", today);
+}
+
+export function filedWindowCounts(bills: BillRecord[], today: CalendarDate): Counted[] {
+  return FILED_WINDOWS.map((window) => ({
+    value: window.value,
+    label: window.label,
+    count: bills.filter((bill) => isWithinFiledWindow(bill.introduction_date, window.value, today)).length,
+  }));
+}
+
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+/** Readable form of the official date, or null when LIS has not posted one. */
+export function formatFiledDate(value: string | null | undefined): string | null {
+  const filed = parseOfficialFiledDate(value);
+  if (!filed) return null;
+  return `${MONTHS[filed.m - 1]} ${filed.d}, ${filed.y}`;
+}
+
+/** Shown on every card. Missing official dates stay "Date not posted". Never invent a date. */
+export function filedDateLabel(value: string | null | undefined): string {
+  return formatFiledDate(value) ?? "Date not posted";
+}
+
+export function filedDateIso(value: string | null | undefined): string | null {
+  const filed = parseOfficialFiledDate(value);
+  if (!filed) return null;
+  return `${String(filed.y)}-${String(filed.m).padStart(2, "0")}-${String(filed.d).padStart(2, "0")}`;
+}
+
+/** Official filed dates in the ledger are M/D/YYYY. Unparseable or missing dates sort last. */
 export function introductionTime(value: string | null | undefined): number {
-  const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec((value ?? "").trim());
-  if (!m) return Number.NEGATIVE_INFINITY;
-  return Date.UTC(Number(m[3]), Number(m[1]) - 1, Number(m[2]));
+  const filed = parseOfficialFiledDate(value);
+  if (!filed) return Number.NEGATIVE_INFINITY;
+  return utcDay(filed);
 }
 
 /** Newest introduction date first, then bill number A→Z. Does not drop rows. */
@@ -470,7 +613,7 @@ export function partyOptions(bills: BillRecord[]): Counted[] {
 }
 
 export function statusOptions(bills: BillRecord[]): Counted[] {
-  return counted(bills, (b) => b.status_label || null, (_b, value) => value);
+  return counted(bills, (b) => displayStatus(b) || null, (_b, value) => value);
 }
 
 export type CommitteeLine = { label: string };
@@ -515,7 +658,10 @@ export function ledgerProblems(ledger: Ledger): string[] {
     if (!bill.title) problems.push(`${id} missing title`);
     if (!bill.chamber) problems.push(`${id} missing chamber`);
     if (!bill.status_label) problems.push(`${id} missing status_label`);
-    if (!bill.introduction_date) problems.push(`${id} missing introduction_date`);
+    // Official LIS Introduction_date may be missing; the page shows "Date not posted" and never invents a date.
+    if (bill.introduction_date && !parseOfficialFiledDate(bill.introduction_date)) {
+      problems.push(`${id} introduction_date is not an official M/D/YYYY LIS date`);
+    }
     if (!bill.lis_detail_url?.startsWith("https://lis.virginia.gov/")) problems.push(`${id} missing official LIS url`);
     if (bill.lis_text_url && !bill.lis_text_url.startsWith("https://")) problems.push(`${id} text url is not https`);
     if (seen.has(bill.bill_number)) problems.push(`${id} duplicate bill_number`);

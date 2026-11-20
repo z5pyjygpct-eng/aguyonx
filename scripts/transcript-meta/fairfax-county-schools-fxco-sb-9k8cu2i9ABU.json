@@ -1,0 +1,21 @@
+{
+  "windowsFile": "public/files/find-the-moment/fairfax-county-schools/transcripts/fxco-sb-9k8cu2i9ABU.json",
+  "outBase": "public/files/find-the-moment/fairfax-county-schools/transcripts/coraggio-transcript-fairfax-county-schools-2026-11-16-fairfax-county-school-board-comprehensive-planning-and-development-committee-meeting",
+  "title": "Fairfax County School Board Comprehensive Planning and Development Committee Meeting, Monday, November 16, 2026",
+  "shortTitle": "School Board Comprehensive Planning and Development Committee Meeting \u00b7 Nov 16, 2026",
+  "date": "Monday, November 16, 2026",
+  "place": "Fairfax County School Board, Virginia",
+  "length": "2h 1m (video)",
+  "links": [
+    {
+      "label": "Official meeting video (YouTube)",
+      "href": "https://www.youtube.com/watch?v=9k8cu2i9ABU"
+    },
+    {
+      "label": "Official School Board page (FCPS)",
+      "href": "https://www.fcps.edu/about-fcps/leadership/school-board"
+    }
+  ],
+  "engine": "whisper.cpp, model large-v3-turbo",
+  "generated": "2026-11-17"
+}
