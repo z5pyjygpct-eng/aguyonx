@@ -47,7 +47,7 @@ function PartyRow({ label, e, max, tip }: { label: string; e: Entry; max: number
   const status = CHART_STATUS_LABEL[chartStatus(e)];
   return (
     <li title={tip} className="grid grid-cols-[minmax(0,8.5rem)_1fr] items-center gap-x-3 gap-y-0.5 text-sm sm:grid-cols-[minmax(0,13rem)_1fr_7rem]">
-      <span className="truncate font-semibold">{label}</span>
+      <span className="font-semibold leading-tight">{label}</span>
       {nonpartisanRow ? (
         <span className="flex items-center gap-2">
           <span className="text-xs text-[#4b5872]">Nonpartisan</span>
