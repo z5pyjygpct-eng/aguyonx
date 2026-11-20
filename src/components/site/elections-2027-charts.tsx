@@ -15,7 +15,7 @@ export const REGISTRATIONS_SUBTITLE = "registered 2027 campaign committees (offi
 const CF_SOURCE = "Virginia Department of Elections campaign finance reports and Statements of Organization";
 export const RULE_TEXT =
   "A committee counts if it is on the Virginia Department of Elections Nov. 2027 cycle, has not filed a final report, its Statement of Organization lists a residence inside the seat, and it shows a 2027 signal: registered in 2026 or later, a 2026 Statement of Organization naming 2027, money raised on a 2026 report, or it belongs to the seat's current officeholder. Committees carried forward automatically from earlier races with none of these are not counted.";
-const PILL_NOTE = "“Member not filed” means the current officeholder (official member list) has no counted 2027 committee yet; it does not mean the seat is open. “Check” means the officeholder's committee carries a Virginia Department of Elections record-keeping flag (a final report, or “Do Not Use”) that needs review.";
+const PILL_NOTE = "“Member not filed” means the current officeholder (official member list) has no counted 2027 committee yet; it does not mean the seat is vacant. “Check” means the officeholder's committee carries a Virginia Department of Elections record-keeping flag (a final report, or “Do Not Use”) that needs review.";
 const fmtDate = (iso: string) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 const sum = (es: Entry[]) => sumParty(es.map(partyCount));
 const keyOf = (p: string | null): PartyKey => (p === "R" || p === "D" ? p : p ? "Other" : "none");
