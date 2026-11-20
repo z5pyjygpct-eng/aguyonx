@@ -96,7 +96,7 @@ All filters AND together. An empty filter matches every new filing.
 - Filing: omitted or `new` is the 19 new filings. `continued` is only `continued_from_2026`. Party, chamber, patron, status, category, and search then run inside that set. They do not mix the two sets.
 - Party: chief patron party code. The Republican and Democrat buttons set this same filter and read `chief_patron_party_code` inside the selected filing set. A co-patron does not change it. A missing roster party stays blank (`Unavailable`). `missing` is offered in the party menu only when some chief patron in that set has no code.
 - Status: exact `status_label`.
-- Filed date: `filed=today`, `filed=7d`, or `filed=30d`. These are relative to today in America/New_York and use only the official `introduction_date`. A bill with no official date does not match a date window. Counts on the pills are for the current filing set (new or continued) and do not shrink when another filter is on.
+- Filed date: `filed=today`, `filed=7d`, `filed=30d`, or `filed=older30`. These are relative to today in America/New_York and use only the official `introduction_date`. Last 30 days is 30 days or fewer. Older than 30 days is the complement: more than 30 days before today, with no gap or overlap at the 30-day boundary. A bill with no official date does not match a date window. Counts on the pills are for the current filing set (new or continued) and do not shrink when another filter is on.
 
 Sort is newest official `introduction_date` first, then bill number. Unposted dates sort last. Sorting does not drop rows. The default page (no query string) is the New 2027 view, showing every new filing in that newest-first order.
 
