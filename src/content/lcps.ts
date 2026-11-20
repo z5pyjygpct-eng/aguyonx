@@ -67,6 +67,20 @@ const BOARDDOCS_PUBLIC =
 /** School Board meetings + committees/closed/appeals — CY2025 + 2026 YTD (lean lazy-load). */
 export const LCPS_MEETINGS: LcpsMeeting[] = [
   {
+    id: "2026-11-19-1247456761",
+    vimeoId: "1247456761",
+    title: "School Business Partnership Executive Council",
+    dateLabel: "Nov 19, 2026",
+    duration: "1h 2m",
+    playerUrl: "https://player.vimeo.com/video/1247456761?rel=0",
+    boardDocsUrl: BOARDDOCS_PUBLIC,
+    lcpsTvUrl: LCPS_TV,
+    windowsUrl: "/files/find-the-moment/loudoun-lcps/1247456761.json",
+    windowCount: 129,
+    kind: "committee",
+    committeeName: "School Business Partnership Executive Council",
+  },
+  {
     id: "2026-11-18-1248149241",
     vimeoId: "1248149241",
     title: "Minority Student Achievement Advisory Committee (MSAAC) Meeting",
