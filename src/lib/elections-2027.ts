@@ -21,7 +21,7 @@ export const OFFICE_ORDER: Office[] = ["house", "senate", "bos", "sb", "co"];
 export const OFFICE_LABEL: Record<Office, string> = {
   house: "House of Delegates", senate: "State Senate", bos: "Board of Supervisors", sb: "School Board", co: "Constitutional Officers",
 };
-export const STATUS_LABEL: Record<StatusFilter, string> = { contested: "Contested", one: "One party only", none: "No filing yet", open: "Open seat" };
+export const STATUS_LABEL: Record<StatusFilter, string> = { contested: "Contested", one: "One party only / unopposed", none: "No filing yet", open: "Open seat" };
 export const PARTY_LABEL: Record<PartyFilter, string> = { D: "Democrat", R: "Republican", Other: "Other" };
 
 export function statusOf(r: Race, office: Office): Status {
@@ -137,4 +137,42 @@ export function toFilters(s: Partial<Record<"r_office" | "r_loc" | "r_status" | 
 export function toggle<T extends string>(cur: T[], v: T): string | undefined {
   const next = cur.includes(v) ? cur.filter((x) => x !== v) : [...cur, v];
   return next.length ? next.join(",") : undefined;
+}
+
+/** Chart status: the four buckets the charts color by. Same rules as the filters: "one" and "unopposed" together are the
+ * "One party only / unopposed" filter; "contested" and "none" match their filters exactly. School board races have no party
+ * on the ballot, so a filled school board seat is either contested (more candidates than seats) or unopposed. */
+export type ChartStatus = "contested" | "one" | "unopposed" | "none";
+export const CHART_STATUS_ORDER: ChartStatus[] = ["contested", "one", "unopposed", "none"];
+export const CHART_STATUS_LABEL: Record<ChartStatus, string> = { contested: "Contested", one: "One party only", unopposed: "Unopposed", none: "No filing yet" };
+export function chartStatus(e: Entry): ChartStatus {
+  if (e.status === "none") return "none";
+  if (e.status === "contested") return "contested";
+  if (e.status === "unopposed") return "unopposed";
+  return "one";
+}
+export type Tally = Record<ChartStatus, number> & { open: number; races: number; candidates: number };
+export function tally(es: Entry[]): Tally {
+  const t: Tally = { contested: 0, one: 0, unopposed: 0, none: 0, open: 0, races: es.length, candidates: 0 };
+  for (const e of es) {
+    t[chartStatus(e)]++;
+    if (isOpen(e.race)) t.open++;
+    t.candidates += e.race.candidates.length;
+  }
+  return t;
+}
+/** Races on a locality's 2027 ballot, including county races its voters share (e.g. a city voting in the county sheriff race). */
+export const entriesForLocality = (es: Entry[], id: string) => es.filter((e) => e.localityIds.includes(id));
+
+/** Party counts for the Republican vs Democrat charts. Party only from the official filing record; none = nonpartisan (school board). */
+export type PartyCount = { R: number; D: number; Other: number; nonpartisan: number; total: number };
+export function partyCount(e: Entry): PartyCount {
+  const c: PartyCount = { R: 0, D: 0, Other: 0, nonpartisan: 0, total: e.race.candidates.length };
+  for (const x of e.race.candidates) {
+    if (x.party === "R") c.R++;
+    else if (x.party === "D") c.D++;
+    else if (x.party) c.Other++;
+    else c.nonpartisan++;
+  }
+  return c;
 }

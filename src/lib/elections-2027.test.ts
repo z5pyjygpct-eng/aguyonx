@@ -100,3 +100,25 @@ test("Loudoun + Contested is a valid, shareable view", () => {
   const out: Entry[] = filterEntries(all, f);
   assert.ok(out.every((e) => e.race.locality_id === "loudoun" && e.status === "contested"));
 });
+
+test("chart statuses line up with the filter statuses", async () => {
+  const { chartStatus, statusMatches, tally } = await import("./elections-2027.ts");
+  for (const e of all) {
+    const k = chartStatus(e);
+    assert.equal(k === "contested", statusMatches(e, "contested"), e.race.id);
+    assert.equal(k === "none", statusMatches(e, "none"), e.race.id);
+    assert.equal(k === "one" || k === "unopposed", statusMatches(e, "one"), e.race.id);
+  }
+  const t = tally(all);
+  assert.equal(t.contested + t.one + t.unopposed + t.none, all.length);
+});
+
+test("party counts use only the filing's party and treat school board blanks as nonpartisan", async () => {
+  const { partyCount } = await import("./elections-2027.ts");
+  const base = { id: "x", seat: "X", seats: 1, source_url: "https://a", filing_source_url: "https://b" };
+  const c = (party: string | null) => ({ name: "n", incumbent: false, party, party_source_url: null, filing_source_url: "u" });
+  const e: Entry = { office: "bos", status: "contested", localityIds: [], localityName: null, race: { ...base, candidates: [c("R"), c("D"), c("D"), c("Other")] } };
+  assert.deepEqual(partyCount(e), { R: 1, D: 2, Other: 1, nonpartisan: 0, total: 4 });
+  const sb: Entry = { office: "sb", status: "contested", localityIds: [], localityName: null, race: { ...base, candidates: [c(null), c(null)] } };
+  assert.deepEqual(partyCount(sb), { R: 0, D: 0, Other: 0, nonpartisan: 2, total: 2 });
+});
