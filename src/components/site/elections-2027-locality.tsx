@@ -62,7 +62,9 @@ function Incumbents({ row }: { row: LocalRow }) {
             <a href={i.member.source_url} {...ext} className="font-semibold text-white underline decoration-navy-line underline-offset-4 hover:decoration-gold">{i.member.name}</a>
             {sb ? null : <PartyBadge party={i.party} label={i.partyLabel} source={i.partySource} title={i.partyTitle} />}
           </p>
-          {!i.filed && !row.check ? <p className="mt-1"><NoFilingTag /></p> : null}
+          {i.runningFor ? (
+            <p className="mt-1"><a href={i.runningFor.committee_url ?? undefined} {...ext} title="Registered for another 2027 office, so not presumed to run for this seat" className="inline-flex rounded-full border border-gold/60 px-2 py-0.5 text-[11px] font-medium text-gold">Running for {i.runningFor.office}, not this seat</a></p>
+          ) : !i.filed && !row.check ? <p className="mt-1"><NoFilingTag /></p> : null}
         </div>
       ))}
       {row.check && row.race.check ? <p className="text-xs text-[#fcd34d]"><span className="font-bold">! Check:</span> {row.race.check.note} <a href={row.race.check.committee_url} {...ext} className="text-gold underline">Committee record</a></p> : null}
@@ -174,7 +176,7 @@ export function LocalityPage({ slug, s }: { slug: string; s: LocalitySearch }) {
               </ul>
             ) : null}
             <p className="mt-5 text-xs text-on-dark-muted">
-              "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. {PRESUMED_NOTE} As of {fmtDate(asOf)}.{" "}
+              "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. {PRESUMED_NOTE}{own && sum.runningElsewhere ? ` Exception: ${sum.runningElsewhere === 1 ? "1 current member is" : `${sum.runningElsewhere} current members are`} registered for another 2027 office and not presumed to run for ${sum.runningElsewhere === 1 ? "that seat" : "those seats"}.` : ""} As of {fmtDate(asOf)}.{" "}
               <a href={REG_SOURCE} {...ext} className="inline-flex items-center gap-1 text-gold underline">Virginia Department of Elections campaign finance reports <ExternalLink className="size-3" aria-hidden /></a>
             </p>
           </div>

@@ -411,6 +411,20 @@ def main():
         files[kind]["districts_source_url"] = REG.SCV_ORDER
     # Counting rule: residence inside the seat + a 2027 activity signal (registrations.apply_rule); "Check" flags.
     report["rule"] = REG.apply_rule(files, cov["statewide"])
+    # A current member registered for another 2027 office: keep them as the seat's member, mark them as not running for it.
+    races_by_id = {(k, r["id"]): r for k, d in files.items() for r in d["races"]}  # race ids repeat across offices
+    report["running_elsewhere"] = []
+    for d in files.values():
+        for r in d["races"]:
+            for m in r.get("current_members", []):
+                rx = REG.RUNNING_ELSEWHERE.get((d["office"], r.get("locality_id"), r["seat"], m["name"]))
+                if not rx:
+                    continue
+                t = races_by_id.get((rx["office_id"], rx["race_id"]))
+                c = next((c for c in (t or {}).get("candidates", []) if REG.same_person(c["name"], m["name"])), None)
+                if c:
+                    m["running_for"] = {"office_id": rx["office_id"], "race_id": rx["race_id"], "office": rx["office"], "committee_url": c.get("committee_url")}
+                report["running_elsewhere"].append({"race": r["id"], "member": m["name"], "target": rx["race_id"], "confirmed": bool(c)})
     common_rule = ("Counted: committees on the Nov. 2027 cycle, not closed, with a residence inside the seat and a 2027 signal "
                    "(registered in 2026 or later, a 2026 Statement of Organization naming 2027, money raised on a 2026 report, or the "
                    "seat's current officeholder). Committees the Department of Elections carried forward from earlier races with none "

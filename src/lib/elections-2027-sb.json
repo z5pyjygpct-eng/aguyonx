@@ -1013,7 +1013,13 @@
     {
      "name": "Lisa A. Zargarpur",
      "party": null,
-     "source_url": "https://www.pwcs.edu/about/school_board/"
+     "source_url": "https://www.pwcs.edu/about/school_board/",
+     "running_for": {
+      "office_id": "bos",
+      "race_id": "prince-william-coles",
+      "office": "Board of County Supervisors, Coles District",
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3b792341-63b0-4e8d-ac9d-5407ac64f27d"
+     }
     }
    ],
    "members_source_url": "https://www.pwcs.edu/about/school_board/",
