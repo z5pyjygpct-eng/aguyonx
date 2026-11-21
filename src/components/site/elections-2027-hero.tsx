@@ -1,5 +1,8 @@
 import { HeroSearch } from "@/components/site/hero-search";
 import { Breadcrumbs, type Crumb } from "@/components/site/breadcrumbs";
+import { HowToUseModal } from "@/components/site/how-to-use-modal";
+import { E27_HOWTO_CLOSE, E27_HOWTO_TITLE, e27HowtoBullets } from "@/lib/election-2027-howto";
+import HOUSE from "@/lib/elections-2027-house.json";
 
 /**
  * 2027 Election hero, per Scott's mockups: same hero as the location dashboards (dashboard-template.tsx: gradient, red stripe,
@@ -19,7 +22,10 @@ export function Election2027Hero({ crumbs, label, searchId = "dash-q", asOf }: {
           <span>2027 <span className="text-gold">Election</span></span>
           <span className="inline-flex items-center rounded-md border-2 border-on-dark-muted/60 bg-navy-700/70 px-4 py-1.5 text-xl font-semibold tracking-[0.08em] text-on-dark-muted sm:text-3xl">{label}</span>
         </h1>
-        {asOf ? <p className="mt-4 text-sm font-medium text-on-dark-muted" data-as-of={asOf}>As of {fmtAsOf(asOf)} · from official state and county records</p> : null}
+        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
+          <HowToUseModal title={E27_HOWTO_TITLE} closeLabel={E27_HOWTO_CLOSE} bullets={e27HowtoBullets(asOf ?? (HOUSE as { as_of: string }).as_of)} />
+          {asOf ? <p className="text-sm font-medium text-on-dark-muted" data-as-of={asOf}>As of {fmtAsOf(asOf)} · from official state and county records</p> : null}
+        </div>
         <div className="mt-7"><HeroSearch id={searchId} placeholder="Search all or choose below" /></div>
       </div>
     </section>

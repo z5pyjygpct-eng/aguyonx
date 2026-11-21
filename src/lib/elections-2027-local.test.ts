@@ -188,3 +188,11 @@ test("data: Briskman is shown running for Loudoun Chair (editor's report, same p
   const g = localGaps(localSections("loudoun", files).shown);
   assert.equal(g.total, g.R + g.D + g.other + g.schoolBoard);
 });
+
+test("How to Use 2027 Election Dashboard: bullets carry the data date and cover every feature Scott listed", async () => {
+  const { e27HowtoBullets, E27_HOWTO_TITLE } = await import("./election-2027-howto.ts");
+  const b = e27HowtoBullets("2026-11-19");
+  assert.equal(E27_HOWTO_TITLE, "How to Use 2027 Election Dashboard");
+  const all = b.join(" ");
+  for (const w of ["November 19, 2026", "official state and county records", "seat chart", "Tap a square", "Republican Challenger Gaps", "“gap”", "Board of Supervisors", "run again", "not put them on the ballot", "$ Finances", "search bar", "News box"]) assert.ok(all.includes(w), w);
+});
