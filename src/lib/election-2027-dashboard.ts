@@ -5,8 +5,8 @@
 export type E27Button = { label: string; slug: string; to: string; search?: Record<string, string>; hash?: string; soon?: boolean };
 
 export const E27_GA: E27Button[] = [
-  { label: "Virginia Delegates", slug: "house", to: "/2027/races", search: { office: "house" } },
-  { label: "Virginia Senate", slug: "senate", to: "/2027/races", search: { office: "senate" } },
+  { label: "Virginia Delegates", slug: "house", to: "/2027/delegates" },
+  { label: "Virginia Senate", slug: "senate", to: "/2027/senate" },
 ];
 
 /** Ids are the locality ids in src/lib/elections-2027-{bos,sb,co}.json. */

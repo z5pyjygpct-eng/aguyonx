@@ -1,8 +1,7 @@
 import { createFileRoute, Link, redirect } from "@tanstack/react-router";
 import { ArrowRight, ExternalLink, List, Users } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
-import { HeroSearch } from "@/components/site/hero-search";
-import { Breadcrumbs } from "@/components/site/breadcrumbs";
+import { Election2027Hero } from "@/components/site/elections-2027-hero";
 import { election2027News } from "@/lib/news-2027-elections";
 import { E27_GA, E27_LOCAL, E27_NEWS_SHOWN, type E27Button } from "@/lib/election-2027-dashboard";
 
@@ -58,17 +57,7 @@ function Page() {
   return (
     <SiteShell>
       <main className="agx-dark flex-1 bg-navy-800 text-white">
-        <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
-          <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
-          <div className="mx-auto max-w-7xl px-5 pt-6 pb-10 sm:px-8 lg:pb-12">
-            <Breadcrumbs items={[{ label: "2027 Election" }]} />
-            <p className="mt-6 font-serif text-sm font-semibold tracking-[0.18em] text-gold uppercase">2027 Election</p>
-            <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">
-              2027 Election <span className="text-gold">Dashboard</span>
-            </h1>
-            <div className="mt-7"><HeroSearch id="dash-q" placeholder="Search all or choose below" /></div>
-          </div>
-        </section>
+        <Election2027Hero crumbs={[{ label: "2027 Election" }]} label="Dashboard" />
         <section className="mx-auto max-w-7xl px-4 py-10 sm:px-8">
           <div className="grid min-w-0 gap-6 lg:grid-cols-2">
             <div id="general-assembly" className={CARD}>
