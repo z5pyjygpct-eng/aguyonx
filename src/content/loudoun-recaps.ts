@@ -106,6 +106,7 @@ const ACTION_OCT20 =
   "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1976200/10-20-26%20Business%20Meeting%20Action%20Report.pdf";
 const ACTION_NOV5 = doc(2446);
 const ACTION_NOV12 = doc(2599);
+const ACTION_NOV17 = doc(2683);
 const OCT20_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=22e65f92-8862-46da-afba-f594bd09768a&Agenda=Agenda&lang=English`;
 const OCT14_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=7960f118-c668-45ef-a975-2362de95de1c&Agenda=Agenda&lang=English`;
 const OCT6_AGENDA_HTML = `${ESCRIBE}/Meeting.aspx?Id=3a6eea40-36a8-49b2-9488-cedd456be4d9&Agenda=Agenda&lang=English`;
@@ -124,6 +125,337 @@ const boarddocsMeeting = (id: string) =>
   `https://go.boarddocs.com/vsba/loudoun/Board.nsf/goto?open&id=${id}`;
 
 const LOUDOUN_RECAPS_RAW: LoudounRecap[] = [
+
+  // --- 2026-11-21 morning: Nov 17 BOS Business Meeting (Whisper transcript + Action Report memo dated Nov 19, eScribe DocumentId 2683) ---
+  {
+    slug: "bos-2026-11-17-business",
+    shareEnabled: true,
+    shareContext: "Loudoun BOS, Nov 17, 2026",
+    meetingId: "escribe-84e92081",
+    title: "Board of Supervisors Business Meeting",
+    dateLabel: "Tuesday, Nov 17, 2026",
+    whenWhere: "Board Room, Government Center, Leesburg · video 6h 46m",
+    official: {
+      votesPosted: true,
+      checkedLabel: "Nov 21, 2026, 8:00 AM ET",
+      note: "Votes and outcomes below are taken from the county Action Report (memo dated Nov 19, 2026).",
+      links: [
+        { label: "Agenda (eScribe)", href: "https://pub-loudoun.escribemeetings.com/Meeting.aspx?Id=84e92081-0b3f-47be-bd67-8c11aa49730c&Agenda=Agenda&lang=English" },
+        { label: "Action Report (PDF)", href: ACTION_NOV17 },
+        { label: "Meeting video (eScribe)", href: "https://pub-loudoun.escribemeetings.com/VideoStream.aspx?MeetingId=84e92081-0b3f-47be-bd67-8c11aa49730c" },
+        { label: "County document folder for Board meetings", href: LASERFICHE_BOS },
+      ],
+    },
+    decisions: [
+      {
+        item: "4",
+        action:
+          "Consent agenda approved: 7a, 11a, 11b, 11c, 11d, 11e, 11f, 11g, 11h, 11i, 11j, 14a, 14d, 14f, 14g, and 14h.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "7.a",
+        action:
+          "Proclamation adopted recognizing November 20, 2026, as Transgender Day of Remembrance. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.a",
+        action:
+          "Award authority of the Public Safety and Emergency Preparedness Equipment and Related Services contract with Safeware, Inc. increased by $3,500,000, for a new total contract value of $5,500,000 through September 30, 2028. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.b",
+        action:
+          "Award authority of the Parks and Recreation Merchant Card Processing Services contract (credit card services) with CardConnect increased by $295,543, for a new contract value of $1,295,542. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.c",
+        action:
+          "Occupational Health Services contract with INOVA Health Care Services renewed for January 1, 2027, through December 31, 2027, in the estimated amount of $2,900,000. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.d",
+        action:
+          "Public Safety Two-Way Radios and Related Equipment contract with Motorola Solutions, Inc. renewed for January 24, 2027, through January 23, 2028, in the amount of $7,151,000. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.e",
+        action:
+          "Information Technology Products and Software Services contract with GuidePoint Security, LLC renewed in the amount of $10,000,000 for December 20, 2026, through August 21, 2028. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.f",
+        action:
+          "Advanced Technology Solutions Aggregator contract with GuidePoint Security, LLC renewed in the amount of $8,000,000 for January 1, 2027, through December 31, 2027. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.g",
+        action:
+          "Geotechnical Engineering and Soil Scientist Services task order contracts with Terracon Consultants, Inc. and Froehling and Robertson, Inc. renewed, total estimated amount $10,000,000, for December 1, 2026, through November 30, 2027. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.h",
+        action:
+          "Traffic Engineering and Operation Services task order contracts with Vanasse Hangen Brustlin, Inc., Jacobs Engineering Group Inc., and Kimley-Horn and Associates, Inc. renewed, total estimated amount $10,000,000, for December 1, 2026, through November 30, 2027. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.i",
+        action:
+          "Contract awarded to Branch Civil, Inc. for construction of the Shellhorn Road (Route 643) Extension from Moran Road to Pacific Boulevard (Route 1036) in the total amount of $23,867,085, and the FY 2027 Capital Improvement Program amended by moving $22,104,831 from the CIP Contingency account to the Shellhorn Road Extension Project in the Capital Projects Fund. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "11.j",
+        action:
+          "Office of the Commonwealth’s Attorney’s Financial and Cyber-Crimes Prevention Positions request sent to the Fiscal Year 2028 budget process. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.a",
+        action:
+          "Appointments confirmed: Jonathan Wymer as an at-large representative to the Arts Advisory Committee (term expires 12/31/2027), and Alice Frazier reappointed as an at-large representative to the Economic Development Authority (term expires 11/16/2030). Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.b",
+        action:
+          "Rules suspended so the Board could act on the Economic Development Advisory Commission nomination (motion by Supervisor Letourneau, seconded by Chair Randall).",
+        tally: "9-0",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.b",
+        action:
+          "Daphne Hart confirmed as an at-large representative (recently vacated seat) to the Economic Development Advisory Commission (motion by Supervisor Letourneau, seconded by Chair Randall).",
+        tally: "9-0",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.d",
+        action:
+          "Administrative Items Report of November 17, 2026 approved: FY 2027 budget adjustments (General Fund increased by $189,100, Capital Projects Fund by $3,702,583, and Disposable Plastic Bag Tax Fund by $30,000); Leave Year definition change in Chapter 6 of the Human Resources Policy Handbook, effective December 17, 2026; 364-day timeline extensions to December 30, 2027, for Planning Commission action on LEGI-2025-0033, Ashburn North Substation (CMPT-2025-0007) and LEGI-2025-0034, Loudoun Business Park (CMPT-2025-0008 & CMPT-2026-0010); and a written statement and Board pin submitted for the Banneker Elementary School Commemorative Time Capsule. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.e",
+        action:
+          "Board supports legislation authorizing localities to fine data centers that fail to notify them of diesel generator use during emergencies (motion by Supervisor TeKrony, seconded by Supervisor Briskman), with Supervisor Saines’ accepted friendly amendment adding “and look at ways to fine data centers if they fail to notify the locality.”",
+        tally: "9-0, as amended",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.e",
+        action:
+          "Board supports legislation amending Virginia Code Section 15.2-980 so civil fines for noise violations from properties using 25 megawatts or more of electrical power (generated onsite or offsite) do not exceed $5,000 for the first offense and $10,000 for each subsequent offense, paid to the locality and used for noise control improvements for residential properties within one-quarter mile of the property (motion by Supervisor Saines, seconded by Chair Randall; Vice Chair Turner’s friendly amendment adding “noise” before violations was accepted).",
+        tally: "8-1, as amended (Supervisor Umstattd opposed)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.e",
+        action:
+          "Policy Statement for Transmission Infrastructure; Electric Utility in the 2027 Legislative Program amended (motion by Chair Randall, seconded by Supervisor Kershner): support legislation to shift new transmission costs to the rate classes of high-energy customers; protect conserved lands, historic landmarks, and landowners from new transmission infrastructure; increase utility transparency in transmission line applications; and support legislation on eight listed topics, from corridor priority and existing rights-of-way (§ 56-46.1) to large-load interconnection, service, and demand management (new § 56-596.8).",
+        tally: "8-0-0-1 (Supervisor Briskman abstained)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.e",
+        action:
+          "Motion divided at Supervisor Letourneau’s request. Motion 1 (Supervisor TeKrony, seconded by Chair Randall): strike the language “support legislation that extends the expiration date for the state’s sales and use tax exemption for data centers from 2035 to 2050.”",
+        tally: "9-0",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.e",
+        action:
+          "Motion 2 (Supervisor TeKrony, seconded by Chair Randall): add “support legislation that allows the state’s sales and use tax exemption to be conditional based on environmental and energy efficiency … until it expires in 2035,” with Supervisor Umstattd’s accepted friendly amendment removing “as prescribed by the locality.”",
+        tally: "9-0, as amended",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.e",
+        action:
+          "Draft 2027 Legislative Program (Attachment 1) endorsed (motion by Chair Randall, seconded by Supervisor Saines).",
+        tally: "7-2 (Supervisors Kershner and Letourneau opposed)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.f",
+        action:
+          "Staff authorized to advertise and schedule a January 13, 2027 public hearing on amendments to Chapter 466 of the Codified Ordinances (Operation of Vehicles), updating the list of snow emergency routes in § 466.06. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.g",
+        action:
+          "Resolution of Intent to Amend the Loudoun County Zoning Ordinance (ZOAM-2026-0001), Zoning Map (ZMAP-2026-0007), and Facilities Standards Manual (DOAM-2026-0003) adopted. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.h",
+        action:
+          "PCOR-2026-0094, University Center LIHTC: Planning Commission and Board public hearings waived for the forthcoming Zoning Concept Plan Amendment to the proffers of ZMAP-2021-0022, University Center Lakeview, and its land development application fee reduced by $7,869, to a total fee of $18,361. Consent item.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.i",
+        action:
+          "Tentative Collective Bargaining Agreement between the International Association of Fire Fighters Local 3756 and Loudoun County ratified, effective July 1, 2027, through June 30, 2030, with the Board’s good faith commitment to appropriate the needed funding, subject to annual appropriation and budget adoption. Listed as a consent item in the Action Report.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.j",
+        action:
+          "Staff directed to initiate a Zoning Concept Plan Amendment of Moorefield Station on behalf of the Claude Moore Charitable Foundation and coordinate proffer revisions (park and amenities at Moorefield Station Community Park, acceleration of Moorefield Boulevard and the second traffic study, the library space proffer trigger, and other minor changes); application fees of $26,230 and the Planning Commission public hearing waived. Listed as a consent item in the Action Report.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.k",
+        action:
+          "Staff directed to retain the Fleetwood Road Improvement project in the Projects Identified for Future Development section of the Capital Improvement Program for a future CIP development process. Listed as a consent item in the Action Report.",
+        tally: "6-0-3 (Supervisors Kershner, Letourneau, and Saines absent)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.l",
+        action:
+          "Expansion of the food waste composting service, as recommended by the Loudoun County Food Scraps Diversion Feasibility Study (Table 1 of the Action Item), sent to the Fiscal Year 2028 budget development process (motion by Supervisor Saines, seconded by Chair Randall).",
+        tally: "9-0",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        item: "14.m",
+        action:
+          "Resolution adopted pausing Board consideration of legislative applications for data centers and substations, with the exception of ZRTD applications (Attachment 2) (motion by Supervisor Briskman, seconded by Supervisor TeKrony), with Supervisor TeKrony’s accepted friendly amendment removing “and be responsive to the operational requirements of data centers and substations to help further economic growth and enlargement of the tax base” from the 6th Whereas.",
+        tally: "7-1-0-1, as amended (Supervisor Umstattd opposed; Supervisor Kershner abstained)",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+    ],
+    context: [
+      {
+        text: "Items 10.a (Electrical Infrastructure Phase 2, CPAM-2026-0003) and 10.b (data center informational fact sheet and dashboard) were information items with staff presentations and Board requests; no votes.",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        text: "Item 14.b records nominations only for the Agricultural District Advisory Committee, Board of Equalization, Disability Services Board, and Loudoun Water Board; the only 14.b votes were the rules suspension and Economic Development Advisory Commission confirmation listed above. Item 14.c (Economic Development Advisory Commission nominations) records nominations only, no vote.",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        text: "Under 14.e, the Chair, with the agreement of the full Board, asked staff to draft a letter to the county’s federal representatives about the federal Office of Management and Budget’s proposed rewrite of the Uniform Guidance (2 CFR Part 200).",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+      {
+        text: "The Action Report lists no closed session for this meeting.",
+        source: { label: "Nov 17, 2026 Action Report", href: ACTION_NOV17 },
+      },
+    ],
+    agenda: [
+      {
+        heading: "Ceremonial resolutions",
+        items: [
+          { num: "7.a", title: "Proclamation to Recognize November 20, 2026, as Transgender Day of Remembrance (Approval only)", href: doc(2527) },
+        ],
+      },
+      {
+        heading: "Information items",
+        items: [
+          { num: "10.a", title: "CPAM-2026-0003, Electrical Infrastructure Phase 2", href: doc(2516) },
+          { num: "10.b", title: "Response to Board Member Initiative – Data Center Informational Fact Sheet", href: doc(2508) },
+        ],
+      },
+      {
+        heading: "Finance/GOED Committee reports",
+        items: [
+          { num: "11.a", title: "Award Authority Increase / Public Safety and Emergency Preparedness Equipment and Related Services", href: doc(2513) },
+          { num: "11.b", title: "Award Authority Increase / Parks Recreation and Community Services Merchant Card Processing Services", href: doc(2497) },
+          { num: "11.c", title: "Contract Renewal / Occupational Health Services", href: doc(2512) },
+          { num: "11.d", title: "Contract Renewal / Public Safety Two-Way Radios and Related Equipment", href: doc(2500) },
+          { num: "11.e", title: "Contract Renewal / Information Technology Products and Software Services", href: doc(2499) },
+          { num: "11.f", title: "Contract Renewal / Advanced Technology Solutions Aggregator", href: doc(2498) },
+          { num: "11.g", title: "Contract Renewal / Geotechnical Engineering and Soil Scientist Services", href: doc(2528) },
+          { num: "11.h", title: "Contract Renewal / Traffic Engineering and Operation Services", href: doc(2529) },
+          { num: "11.i", title: "Contract Award and FY 2027 Capital Improvement Program Amendment / Construction of Shellhorn Road (Formerly known as Sterling Boulevard) Extension", href: doc(2530) },
+          { num: "11.j", title: "Financial and Cyber-Crimes Prevention Positions", href: doc(2526) },
+        ],
+      },
+      {
+        heading: "Action items",
+        dek: "Approved on consent per the Action Report: 7a, 11a–11j, 14a, 14d, 14f, 14g and 14h.",
+        items: [
+          { num: "14.a", title: "Appointments: Confirmations", href: doc(2476) },
+          { num: "14.b", title: "Appointments: Nominations", href: doc(2478) },
+          { num: "14.c", title: "Economic Development Advisory Commission Nominations", href: doc(2521) },
+          { num: "14.d.1", title: "Fiscal Year 2027 Budget Adjustments", href: doc(2520) },
+          { num: "14.d.2", title: "HR Policy Handbook Leave Year Definition", href: doc(2523) },
+          { num: "14.d.3", title: "Timeline Extension – LEGI-2025-0033, Ashburn North Substation: CMPT-2025-0007", href: doc(2506) },
+          { num: "14.d.4", title: "Timeline Extension – LEGI-2025-0034, Loudoun Business Park: CMPT-2025-0008 & CMPT-2026-0010", href: doc(2507) },
+          { num: "14.d.5", title: "Participation in the Banneker Elementary School Commemorative Time Capsule Submission", href: doc(2537) },
+          { num: "14.e", title: "Legislative Report, 2027 Legislative Program", href: doc(2535) },
+          { num: "14.f", title: "Authorization to Advertise: Proposed Amendments to Chapter 466 of the Codified Ordinances of Loudoun County - Operation of Vehicles, Snow Emergency Routes", href: doc(2493) },
+          { num: "14.g", title: "Resolution of Intent to Amend the Loudoun County Zoning Ordinance (ZOAM-2026-0001), Zoning Map (ZMAP-2026-0007), and Facilities Standards Manual (DOAM-2026-0003)", href: doc(2485) },
+          { num: "14.h", title: "PCOR-2026-0094, University Center LIHTC Public Hearing Waiver", href: doc(2504) },
+          { num: "14.i", title: "Ratification of the Tentative Collective Bargaining Agreement between the International Association of Fire Fighters Local 3756 and Loudoun County, Virginia", href: doc(2489) },
+          { num: "14.j", title: "Board-Initiated Proffer Amendment for Moorefield Station", href: doc(2514) },
+          { num: "14.k", title: "Fleetwood Road Improvements Study", href: doc(2480) },
+          { num: "14.l", title: "Response to Board Member Initiative: Food Scraps Composting Program Expansion", href: doc(2501) },
+          { num: "14.m", title: "Resolution to Pause Board of Supervisors Consideration of Legislative Applications for Data Centers and Substations", href: doc(2532) },
+        ],
+      },
+    ],
+    transcriptDownloads: {
+      pdfUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-11-17-board-of-supervisors-business-meeting.pdf",
+      txtUrl: "/files/find-the-moment/loudoun-bos/transcripts/coraggio-transcript-loudoun-bos-2026-11-17-board-of-supervisors-business-meeting.txt",
+      pdfNote: "94 pages",
+    },
+    moments: [
+      { seconds: 478, label: "Board convenes; quorum noted." },
+      { seconds: 757, item: "2", label: "Words of inspiration." },
+      { seconds: 959, item: "2", label: "Pledge of Allegiance." },
+      { seconds: 977, item: "4", label: "Consent agenda items read." },
+      { seconds: 1140, item: "4", label: "Consent agenda motion and discussion." },
+      { seconds: 2051, item: "5", label: "Chair's Voice for a Cause." },
+      { seconds: 2578, item: "10.a", label: "Information item: Electrical Infrastructure Phase 2 (CPAM-2026-0003) presentation." },
+      { seconds: 4625, item: "10.b", label: "Information item: data center informational fact sheet." },
+      { seconds: 6772, item: "14.l", label: "Food scraps composting program expansion taken up." },
+      { seconds: 7845, item: "8", label: "Public input session: first speaker called." },
+      { seconds: 14504, label: "Board takes a dinner break." },
+      { seconds: 16758, item: "14.m", label: "Board returns; resolution to pause data center and substation applications taken up." },
+      { seconds: 18347, item: "14.m", label: "Vote on the pause resolution." },
+      { seconds: 18480, item: "14.e", label: "2027 Legislative Program item taken up." },
+      { seconds: 19221, item: "14.e", label: "Legislative Program motions begin." },
+      { seconds: 22492, item: "14.e", label: "Motion to endorse the Draft 2027 Legislative Program." },
+      { seconds: 22595, item: "14.b", label: "Board appointment nominations, including the Economic Development Advisory Commission." },
+      { seconds: 22932, item: "9", label: "Disclosures and Board comments." },
+      { seconds: 24360, label: "Adjournment." },
+    ],
+  },
 
   // --- 2026-11-18 morning: Nov 12 BOS Public Hearing (Whisper transcript + Action Report memo dated Nov 16, eScribe DocumentId 2599) ---
   {
