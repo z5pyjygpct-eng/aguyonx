@@ -13,7 +13,12 @@ function Page() {
   const navigate = Route.useNavigate();
   return (
     <SiteShell>
-      <ChamberPage office="senate" s={s} onSeat={(id) => navigate({ search: (p) => ({ ...p, seat: id }), replace: true, resetScroll: false })} />
+      <ChamberPage
+        office="senate"
+        s={s}
+        onSeat={(id) => navigate({ search: (p) => ({ ...p, seat: id }), replace: true, resetScroll: false })}
+        onCounty={(id) => navigate({ search: (p) => ({ ...p, county: id }), replace: true, resetScroll: false })}
+      />
     </SiteShell>
   );
 }

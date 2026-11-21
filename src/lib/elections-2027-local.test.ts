@@ -194,5 +194,5 @@ test("How to Use 2027 Election Dashboard: bullets carry the data date and cover 
   const b = e27HowtoBullets("2026-11-19");
   assert.equal(E27_HOWTO_TITLE, "How to Use 2027 Election Dashboard");
   const all = b.join(" ");
-  for (const w of ["November 19, 2026", "official state and county records", "seat chart", "Tap a square", "Republican Challenger Gaps", "“gap”", "Board of Supervisors", "run again", "not put them on the ballot", "$ Finances", "search bar", "News box"]) assert.ok(all.includes(w), w);
+  for (const w of ["November 19, 2026", "official state and county records", "seat chart", "Tap a square", "Republican Challenger Gaps", "“gap”", "Board of Supervisors", "run again", "not put them on the ballot", "$ Finances", "search bar", "News box", "Filter by county or city"]) assert.ok(all.includes(w), w);
 });

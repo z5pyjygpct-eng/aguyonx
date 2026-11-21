@@ -17,5 +17,6 @@ export function e27HowtoBullets(asOf: string): string[] {
     "Tap “$ Finances” next to a name to see that person’s campaign money reports on the Virginia Department of Elections website. If there is no link, we could not find an official committee for that person, and we never guess.",
     "Use the search bar at the top to look for a name, a district, or a topic anywhere on the site. Results show up right under the box.",
     "The gold News box on the main dashboard page lists recent news stories about the 2027 elections. Tap a headline to read the story, or tap All 2027 Election Related News for the full list.",
+    "On the Delegates and Senate pages, use Filter by county or city, just above the seat chart, to type or pick a county or city. The chart keeps every square and highlights the districts that include that place. A short list under the filter names each district. The four buttons then show counts for that place, labeled so you can still see the statewide totals. You can share the view; the address includes ?county= and the locality’s id (for example, loudoun).",
   ];
 }
