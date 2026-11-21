@@ -4,8 +4,7 @@ import { cn } from "@/lib/utils";
 import HOUSE from "@/lib/elections-2027-house.json";
 import SENATE from "@/lib/elections-2027-senate.json";
 import type { Cand, Race } from "@/lib/elections-2027";
-import { MEMBER_NOT_FILED_NOTE } from "@/lib/elections-2027";
-import { CHAMBER_VIEWS, rowsForView, unclearSeats, VIEW_BY_ID, VIEW_GROUPS, type ChallengerRow, type ChamberView } from "@/lib/elections-2027-challengers";
+import { CHAMBER_VIEWS, NO_FILING_TAG, PRESUMED_NOTE, rowsForView, unclearSeats, VIEW_BY_ID, VIEW_GROUPS, type ChallengerRow, type ChamberView } from "@/lib/elections-2027-challengers";
 import { Card, Legend, MEMBER_ROUTE, REG_SOURCE, Tile, ext } from "@/components/site/elections-2027-seats";
 import { Election2027Hero } from "@/components/site/elections-2027-hero";
 
@@ -75,6 +74,10 @@ function Names({ cs, empty = "—" }: { cs: Cand[]; empty?: string }) {
   );
 }
 
+export function NoFilingTag() {
+  return <span className="inline-flex rounded-full border border-navy-line px-2 py-0.5 text-[11px] font-medium text-on-dark-muted" title={PRESUMED_NOTE}>{NO_FILING_TAG}</span>;
+}
+
 function Incumbent({ row, office }: { row: ChallengerRow; office: ChamberOffice }) {
   const m = row.incumbent;
   return (
@@ -82,7 +85,7 @@ function Incumbent({ row, office }: { row: ChallengerRow; office: ChamberOffice 
       <p className="font-semibold text-white">
         {m.slug ? <Link to={`${MEMBER_ROUTE[office]}/${m.slug}` as never} className="underline decoration-navy-line underline-offset-4 hover:decoration-gold">{m.name}</Link> : m.name}
       </p>
-      {row.status === "not-filed" ? <p className="mt-1"><span className="inline-flex rounded-full bg-[#c7d2fe] px-2 py-0.5 text-[11px] font-bold text-navy-900" title={MEMBER_NOT_FILED_NOTE}>Incumbent not filed yet</span></p> : null}
+      {row.status === "not-filed" ? <p className="mt-1"><NoFilingTag /></p> : null}
       {row.status === "check" && row.race.check ? (
         <p className="mt-1 text-xs text-[#fcd34d]"><span className="font-bold">! Check:</span> {row.race.check.note} <a href={row.race.check.committee_url} {...ext} className="text-gold underline">Committee record</a></p>
       ) : null}
@@ -165,13 +168,13 @@ export function ChamberPage({ office, s, onSeat }: { office: ChamberOffice; s: C
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-8">
         <div className={CARD}>
           <h2 className="font-serif text-2xl font-semibold uppercase">{office === "house" ? "House of Delegates: 100 districts" : "State Senate: 40 districts"}</h2>
-          <p className="mt-2 text-sm text-on-dark-muted">Each square is a district, colored by the registered 2027 campaign committees in it. Tap a district to see its committees and current member.{v ? " Squares not in the list below are dimmed." : ""}</p>
-          <Legend office={office} />
+          <p className="mt-2 text-sm text-on-dark-muted">Each square is a district, colored by its registered 2027 campaign committees plus the incumbent, who is presumed to run. Tap a district to see its committees and current member.{v ? " Squares not in the list below are dimmed." : ""}</p>
+          <Legend office={office} presumed />
           <div className="mt-4 grid grid-cols-10 gap-1 md:grid-cols-20 lg:gap-1.5" data-seat-grid={office}>
-            {d.races.map((r) => <Tile key={r.id} r={r} office={office} dim={!!v && !inView.has(r.id)} selected={sel?.id === r.id} onPick={() => onSeat(sel?.id === r.id ? undefined : r.id)} />)}
+            {d.races.map((r) => <Tile key={r.id} r={r} office={office} dim={!!v && !inView.has(r.id)} selected={sel?.id === r.id} onPick={() => onSeat(sel?.id === r.id ? undefined : r.id)} presumed />)}
           </div>
           <div className="mt-4">
-            {sel ? <Card r={sel} office={office} asOf={d.as_of} onClose={() => onSeat(undefined)} inline /> : (
+            {sel ? <Card r={sel} office={office} asOf={d.as_of} onClose={() => onSeat(undefined)} inline presumed /> : (
               <p className="rounded-[10px] border border-dashed border-navy-line p-4 text-sm text-on-dark-muted">Tap a district number to see its registered committees and current member here.</p>
             )}
           </div>
@@ -180,7 +183,7 @@ export function ChamberPage({ office, s, onSeat }: { office: ChamberOffice; s: C
         <div className={cn(CARD, "mt-6")}>
           <ViewButtons office={office} s={s} counts={counts} />
           <p className="mt-5 text-xs text-on-dark-muted">
-            "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. As of {fmtDate(d.as_of)}.{" "}
+            "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. {PRESUMED_NOTE} As of {fmtDate(d.as_of)}.{" "}
             <a href={REG_SOURCE} {...ext} className="inline-flex items-center gap-1 text-gold underline">Virginia Department of Elections campaign finance reports <ExternalLink className="size-3" aria-hidden /></a>
           </p>
           {unclear.length ? (

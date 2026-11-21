@@ -1,6 +1,6 @@
 /**
- * 2027 Election Dashboard (/2027) buttons. Localities with 2027 race data link to the race directory
- * filtered to that locality; the rest link to a plain "Coming soon" page (/2027/$locality). No counts here.
+ * 2027 Election Dashboard (/2027) buttons. Every locality links to its /2027/<slug> page (one shared template);
+ * "soon" localities have no own 2027 race data yet and show the Coming soon tag. No counts here.
  */
 export type E27Button = { label: string; slug: string; to: string; search?: Record<string, string>; hash?: string; soon?: boolean };
 
@@ -22,12 +22,7 @@ const LOCAL: { label: string; slug: string; soon?: boolean }[] = [
   { label: "Prince William", slug: "prince-william" },
 ];
 
-export const E27_LOCAL: E27Button[] = LOCAL.map((l) =>
-  l.soon
-    ? { label: l.label, slug: l.slug, to: `/2027/${l.slug}`, soon: true }
-    : { label: l.label, slug: l.slug, to: "/2027/races", search: { r_loc: l.slug }, hash: "races" },
-);
+export const E27_LOCAL: E27Button[] = LOCAL.map((l) => ({ label: l.label, slug: l.slug, to: `/2027/${l.slug}`, ...(l.soon ? { soon: true } : {}) }));
 
 export const E27_SOON = new Map(E27_LOCAL.filter((b) => b.soon).map((b) => [b.slug, b.label]));
-export const E27_LIVE = new Map(E27_LOCAL.filter((b) => !b.soon).map((b) => [b.slug, b]));
 export const E27_NEWS_SHOWN = 10;
