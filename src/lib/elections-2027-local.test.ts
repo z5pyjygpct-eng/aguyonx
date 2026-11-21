@@ -73,3 +73,34 @@ test("real data: Loudoun shows all three offices with Algonkian and Sterling Che
   assert.ok(ffx.rows.find((r) => r.seat === "Hunter Mill")!.check);
   assert.equal(LOCAL_VIEWS.length, 3);
 });
+
+test("roster party from the Department of Elections record: label (Independent) and a title naming the election and the listed name", () => {
+  const r: Race = { ...race("ca", [], [cand("Erin Bumgarner Barr", "Other", true)]), current_members: [{ name: "Erin B. Barr", party: "Other", party_label: "Independent", source_url: "roster", party_source_url: "elect.xlsx", party_election: "Nov. 7, 2023 general", party_elect_name: "Erin B. Barr" }] };
+  const i = toLocalRow(r, "co").incumbents[0];
+  assert.equal(i.party, "Other");
+  assert.equal(i.partyLabel, "Independent");
+  assert.equal(i.partySource, "elect.xlsx");
+  assert.equal(i.partyTitle, "Party from the Virginia Department of Elections candidate list, Nov. 7, 2023 general");
+  const w: Race = { ...race("tc", [], []), current_members: [{ name: "Misty D. Roundtree", party: "D", party_label: "Democratic", source_url: "roster", party_source_url: "elect.xlsx", party_election: "Nov. 7, 2023 general", party_elect_name: "Misty D. Whitehead", party_note: "Earlier name." }] };
+  assert.equal(toLocalRow(w, "bos").incumbents[0].partyTitle, "Party from the Virginia Department of Elections candidate list, Nov. 7, 2023 general (listed as Misty D. Whitehead). Earlier name.");
+});
+
+test("data: rosters loaded for every covered board and office; partisan seats carry an ELECT-sourced party, School Board seats none", () => {
+  const load = (o: string) => JSON.parse(fs.readFileSync(path.join(import.meta.dirname, `elections-2027-${o}.json`), "utf8")) as { races: Race[] };
+  for (const o of ["bos", "sb", "co"]) {
+    for (const r of load(o).races) {
+      assert.ok((r.current_members ?? []).length > 0, `${r.id} has a roster`);
+      for (const m of r.current_members ?? []) {
+        if (o === "sb") assert.equal(m.party, null, `${r.id} ${m.name} is non-partisan`);
+        else assert.match(m.party_source_url ?? "", /^https:\/\/(www|enr)\.elections\.virginia\.gov\//, `${r.id} ${m.name} party source`);
+      }
+    }
+  }
+  const co = load("co").races;
+  const leonard = co.find((r) => r.id === "chesterfield-sheriff")!.candidates.find((c) => c.name === "Karl Stephen Leonard")!;
+  assert.equal(leonard.incumbent, true);
+  const al = load("sb").races.find((r) => r.id === "fairfax-county-at-large")!;
+  assert.equal(al.candidates.find((c) => c.name === "Robert Kyle McDaniel")!.incumbent, true);
+  const hd20 = load("house").races.find((r) => r.district === 20)!;
+  assert.equal(hd20.current_member!.party, "D");
+});

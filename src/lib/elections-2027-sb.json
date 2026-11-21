@@ -329,6 +329,31 @@
    "local_filing_source_url": "https://www.fairfaxcounty.gov/elections/sample-ballots",
    "candidates": [
     {
+     "name": "Robert Kyle McDaniel",
+     "incumbent": true,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Elect Kyle McDaniel",
+     "committee_code": "CC-23-00457",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Member School Board At Large",
+     "latest_report_filed": "7/15/2026",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null,
+     "activity": [
+      "raised $2,898 on 2026 reports",
+      "current officeholder"
+     ]
+    },
+    {
      "name": "Ryan Leighton McElveen",
      "incumbent": true,
      "party": "D",
@@ -351,30 +376,6 @@
      "activity": [
       "raised $210 on 2026 reports",
       "current officeholder"
-     ]
-    },
-    {
-     "name": "Robert Kyle McDaniel",
-     "incumbent": false,
-     "party": "Other",
-     "party_label": "Independent",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Elect Kyle McDaniel",
-     "committee_code": "CC-23-00457",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22/pdf/cfreports",
-     "residence": "Fairfax County",
-     "office_sought_record": "Member School Board At Large",
-     "latest_report_filed": "7/15/2026",
-     "district_record": null,
-     "filed_date": null,
-     "filed_date_source_url": null,
-     "activity": [
-      "raised $2,898 on 2026 reports"
      ]
     },
     {
@@ -889,7 +890,7 @@
    "candidates": [
     {
      "name": "Babur Lateef",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -908,12 +909,20 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $700 on 2026 reports"
+      "raised $700 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Babur B. Lateef",
+     "party": null,
+     "source_url": "https://www.pwcs.edu/about/school_board/"
+    }
+   ],
+   "members_source_url": "https://www.pwcs.edu/about/school_board/",
+   "members_known": true
   },
   {
    "id": "prince-william-brentsville",
@@ -928,7 +937,7 @@
    "candidates": [
     {
      "name": "Erica Tredinnick",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -947,12 +956,20 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $250 on 2026 reports"
+      "raised $250 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Erica C. Tredinnick",
+     "party": null,
+     "source_url": "https://www.pwcs.edu/about/school_board/"
+    }
+   ],
+   "members_source_url": "https://www.pwcs.edu/about/school_board/",
+   "members_known": true
   },
   {
    "id": "prince-william-coles",
@@ -992,8 +1009,15 @@
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Lisa A. Zargarpur",
+     "party": null,
+     "source_url": "https://www.pwcs.edu/about/school_board/"
+    }
+   ],
+   "members_source_url": "https://www.pwcs.edu/about/school_board/",
+   "members_known": true
   },
   {
    "id": "prince-william-gainesville",
@@ -1008,7 +1032,7 @@
    "candidates": [
     {
      "name": "Jennifer Taylor Wall",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -1027,12 +1051,20 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $257 on 2026 reports"
+      "raised $257 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Jennifer T. Wall",
+     "party": null,
+     "source_url": "https://www.pwcs.edu/about/school_board/"
+    }
+   ],
+   "members_source_url": "https://www.pwcs.edu/about/school_board/",
+   "members_known": true
   },
   {
    "id": "prince-william-neabsco",
@@ -1047,7 +1079,7 @@
    "candidates": [
     {
      "name": "Tracy LaMar Blake",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -1066,12 +1098,20 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $200 on 2026 reports"
+      "raised $200 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Tracy L. Blake",
+     "party": null,
+     "source_url": "https://www.pwcs.edu/about/school_board/"
+    }
+   ],
+   "members_source_url": "https://www.pwcs.edu/about/school_board/",
+   "members_known": true
   },
   {
    "id": "prince-william-occoquan",
@@ -1086,7 +1126,7 @@
    "candidates": [
     {
      "name": "Richard M. Jessie Jr",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -1105,12 +1145,20 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $400 on 2026 reports"
+      "raised $400 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Richard M. Jessie",
+     "party": null,
+     "source_url": "https://www.pwcs.edu/about/school_board/"
+    }
+   ],
+   "members_source_url": "https://www.pwcs.edu/about/school_board/",
+   "members_known": true
   },
   {
    "id": "prince-william-potomac",
@@ -1125,7 +1173,7 @@
    "candidates": [
     {
      "name": "Justin David Wilk",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -1144,12 +1192,20 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $1,500 on 2026 reports"
+      "raised $1,500 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Justin David Wilk",
+     "party": null,
+     "source_url": "https://www.pwcs.edu/about/school_board/"
+    }
+   ],
+   "members_source_url": "https://www.pwcs.edu/about/school_board/",
+   "members_known": true
   },
   {
    "id": "prince-william-woodbridge",
@@ -1162,8 +1218,15 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
    "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Loree Y. Williams",
+     "party": null,
+     "source_url": "https://www.pwcs.edu/about/school_board/"
+    }
+   ],
+   "members_source_url": "https://www.pwcs.edu/about/school_board/",
+   "members_known": true
   },
   {
    "id": "henrico-brookland",
@@ -1176,8 +1239,15 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
    "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Kristi B. Kinsella",
+     "party": null,
+     "source_url": "https://henricoschools.us/school-board/"
+    }
+   ],
+   "members_source_url": "https://henricoschools.us/school-board/",
+   "members_known": true
   },
   {
    "id": "henrico-fairfield",
@@ -1189,9 +1259,41 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "candidates": [
+    {
+     "name": "Ryan Edward Young",
+     "incumbent": true,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fb2a5c75-5937-4c2d-a618-744ba0542e72",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Young for School Board",
+     "committee_code": "CC-23-02174",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fb2a5c75-5937-4c2d-a618-744ba0542e72",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/fb2a5c75-5937-4c2d-a618-744ba0542e72",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/fb2a5c75-5937-4c2d-a618-744ba0542e72/pdf/cfreports",
+     "residence": "Henrico County",
+     "office_sought_record": "Member School Board",
+     "latest_report_filed": "10/5/2026",
+     "district_record": "Election - Fairfield District",
+     "filed_date": null,
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Ryan E. Young",
+     "party": null,
+     "source_url": "https://henricoschools.us/school-board/"
+    }
+   ],
+   "members_source_url": "https://henricoschools.us/school-board/",
+   "members_known": true
   },
   {
    "id": "henrico-three-chopt",
@@ -1203,9 +1305,41 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "candidates": [
+    {
+     "name": "Madison Irving",
+     "incumbent": true,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e06c7b16-dbcd-4080-b9b2-1e52aff8c789",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Friends of Madison Irving",
+     "committee_code": "CC-23-00016",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e06c7b16-dbcd-4080-b9b2-1e52aff8c789",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/e06c7b16-dbcd-4080-b9b2-1e52aff8c789",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/e06c7b16-dbcd-4080-b9b2-1e52aff8c789/pdf/cfreports",
+     "residence": "Henrico County",
+     "office_sought_record": "Member School Board",
+     "latest_report_filed": "1/12/2026",
+     "district_record": "Election - Three Chopt District",
+     "filed_date": null,
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Madison T. Irving",
+     "party": null,
+     "source_url": "https://henricoschools.us/school-board/"
+    }
+   ],
+   "members_source_url": "https://henricoschools.us/school-board/",
+   "members_known": true
   },
   {
    "id": "henrico-tuckahoe",
@@ -1217,9 +1351,41 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "candidates": [
+    {
+     "name": "Marcie F Shea",
+     "incumbent": true,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/64a47a80-dd23-e911-8236-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Marcie Shea for School Board",
+     "committee_code": "CC-19-00187",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/64a47a80-dd23-e911-8236-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/64a47a80-dd23-e911-8236-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/64a47a80-dd23-e911-8236-984be103f032/pdf/cfreports",
+     "residence": "Henrico County",
+     "office_sought_record": "Member School Board",
+     "latest_report_filed": "7/12/2026",
+     "district_record": "Election - Tuckahoe District",
+     "filed_date": null,
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Marcie F. Shea",
+     "party": null,
+     "source_url": "https://henricoschools.us/school-board/"
+    }
+   ],
+   "members_source_url": "https://henricoschools.us/school-board/",
+   "members_known": true
   },
   {
    "id": "henrico-varina",
@@ -1232,8 +1398,15 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
    "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Alicia S. Atkins",
+     "party": null,
+     "source_url": "https://henricoschools.us/school-board/"
+    }
+   ],
+   "members_source_url": "https://henricoschools.us/school-board/",
+   "members_known": true
   },
   {
    "id": "chesterfield-bermuda",
@@ -1425,9 +1598,41 @@
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/2027_2031CountySchoolBoard.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.albemarle.org/government/elections",
-   "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "candidates": [
+    {
+     "name": "Allison Spillman",
+     "incumbent": true,
+     "party": "Other",
+     "party_label": "Independent",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/628a0c25-4562-4b6f-8a92-b85558195e68",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Elect Allison Spillman",
+     "committee_code": "CC-23-00438",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/628a0c25-4562-4b6f-8a92-b85558195e68",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/628a0c25-4562-4b6f-8a92-b85558195e68",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/628a0c25-4562-4b6f-8a92-b85558195e68/pdf/cfreports",
+     "residence": "Albemarle County",
+     "office_sought_record": "Member School Board At Large",
+     "latest_report_filed": "1/16/2025",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Allison L. Spillman",
+     "party": null,
+     "source_url": "https://www.albemarle.org/government/elections/elected-officials"
+    }
+   ],
+   "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",
+   "members_known": true
   },
   {
    "id": "albemarle-rivanna",
@@ -1440,8 +1645,15 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.albemarle.org/government/elections",
    "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Judy N. Le",
+     "party": null,
+     "source_url": "https://www.albemarle.org/government/elections/elected-officials"
+    }
+   ],
+   "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",
+   "members_known": true
   },
   {
    "id": "albemarle-scottsville",
@@ -1454,8 +1666,15 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.albemarle.org/government/elections",
    "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Ellen Osborne",
+     "party": null,
+     "source_url": "https://www.albemarle.org/government/elections/elected-officials"
+    }
+   ],
+   "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",
+   "members_known": true
   },
   {
    "id": "albemarle-white-hall",
@@ -1493,8 +1712,15 @@
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Rebecca Ann Berlin",
+     "party": null,
+     "source_url": "https://www.albemarle.org/government/elections/elected-officials"
+    }
+   ],
+   "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",
+   "members_known": true
   }
  ],
  "no_2027": [

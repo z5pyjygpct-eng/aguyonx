@@ -8,7 +8,7 @@
 import { isCheck, type Cand, type Member, type Race } from "./elections-2027.ts";
 
 export type LocalOffice = "bos" | "sb" | "co";
-export type LocalIncumbent = { member: Member; party: string | null; partySource: string | null; filed: boolean };
+export type LocalIncumbent = { member: Member; party: string | null; partyLabel: string | null; partySource: string | null; partyTitle: string | null; filed: boolean };
 export type LocalRow = {
   race: Race;
   office: LocalOffice;
@@ -56,7 +56,11 @@ export function toLocalRow(r: Race, office: LocalOffice, sharedFrom?: string): L
     const own = incCands.find((c) => (c.incumbent ? matchMember(c, ms) === m : sameName(m.name, c.name)));
     const party = m.party ?? (office === "sb" ? null : own?.party ?? null);
     const partySource = m.party ? (m.party_source_url ?? m.source_url) : party ? (own?.committee_url ?? own?.party_source_url ?? null) : null;
-    return { member: m, party, partySource, filed: !!own };
+    const partyLabel = m.party ? (m.party_label ?? null) : party ? (own?.party_label ?? null) : null;
+    const partyTitle = m.party && m.party_election
+      ? `Party from the Virginia Department of Elections candidate list, ${m.party_election}${m.party_elect_name && m.party_elect_name !== m.name ? ` (listed as ${m.party_elect_name})` : ""}${m.party_note ? `. ${m.party_note}` : ""}`
+      : m.party && m.party_note ? m.party_note : party ? "Party as listed in the official record" : null;
+    return { member: m, party, partyLabel, partySource, partyTitle, filed: !!own };
   });
   const rest = r.candidates.filter((c) => !ownOf(c));
   const single = incumbents.length === 1 && office !== "sb" ? incumbents[0].party : null;
