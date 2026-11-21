@@ -30,11 +30,11 @@ export const isLocality = (slug: string) => E27_LOCAL.some((b) => b.slug === slu
 const CARD = "min-w-0 rounded-xl border border-navy-line border-t-4 border-t-gold bg-navy-700 p-5 sm:p-7";
 const fmtDate = (iso: string) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 
-function PartyBadge({ party, label, source }: { party: string | null; label?: string | null; source?: string | null }) {
+function PartyBadge({ party, label, source, title }: { party: string | null; label?: string | null; source?: string | null; title?: string | null }) {
   const word = party === "D" ? "Democrat" : party === "R" ? "Republican" : party ? (label && label !== "Other" ? label : "Independent / Other") : "Party not listed";
   const cls = party === "D" ? "bg-[#2563c9] text-white" : party === "R" ? "bg-flag text-white" : party ? "bg-slate-500 text-white" : "border border-navy-line text-on-dark-muted";
   const el = <span className={cn("inline-flex rounded-sm px-1.5 py-px text-[11px] font-bold whitespace-nowrap", cls)}>{word}</span>;
-  return source ? <a href={source} {...ext} title="Party as listed in the official record" className="inline-flex">{el}</a> : el;
+  return source ? <a href={source} {...ext} title={title ?? "Party as listed in the official record"} className="inline-flex">{el}</a> : el;
 }
 
 function Person({ c, badge }: { c: Cand; badge: boolean }) {
@@ -60,7 +60,7 @@ function Incumbents({ row }: { row: LocalRow }) {
         <div key={i.member.name}>
           <p className="flex flex-wrap items-center gap-x-2 gap-y-1">
             <a href={i.member.source_url} {...ext} className="font-semibold text-white underline decoration-navy-line underline-offset-4 hover:decoration-gold">{i.member.name}</a>
-            {sb ? null : <PartyBadge party={i.party} source={i.partySource} />}
+            {sb ? null : <PartyBadge party={i.party} label={i.partyLabel} source={i.partySource} title={i.partyTitle} />}
           </p>
           {!i.filed && !row.check ? <p className="mt-1"><NoFilingTag /></p> : null}
         </div>

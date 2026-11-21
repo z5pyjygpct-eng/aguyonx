@@ -177,7 +177,7 @@ test("every filled seat is a registered campaign committee linked to its officia
 
 test("current members come only from official member lists", () => {
   for (const e of all) for (const m of e.race.current_members ?? []) {
-    assert.match(m.source_url, /house\.vga\.virginia\.gov|apps\.senate\.virginia\.gov|loudoun\.gov|fairfaxcounty\.gov|fcps\.edu|pwcva\.gov|henrico\.gov|oneccps\.org/, m.name);
+    assert.match(m.source_url, /house\.vga\.virginia\.gov|apps\.senate\.virginia\.gov|loudoun\.gov|fairfaxcounty\.gov|fcps\.edu|pwcva\.gov|pwcvotes\.org|pwcs\.edu|henrico\.gov|henricoschools\.us|oneccps\.org|chesterfield\.gov|albemarle\.org/, m.name);
   }
   assert.equal(all.find((e) => e.race.id === "hd10")!.race.current_member!.name, "Dan Helmer");
 });

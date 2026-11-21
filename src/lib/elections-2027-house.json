@@ -1070,10 +1070,11 @@
    "seats": 1,
    "current_member": {
     "name": "Sonia Vásquez Luna",
-    "party": null,
+    "party": "D",
     "slug": null,
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": null
+    "party_source_url": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General/ballot-items/01000000-f030-c43d-73f4-08df1fee5331",
+    "party_note": "Democratic in the Nov. 3, 2026 special election (ELECT results, unofficial until certified)"
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1081,10 +1082,11 @@
    "current_members": [
     {
      "name": "Sonia Vásquez Luna",
-     "party": null,
+     "party": "D",
      "slug": null,
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": null
+     "party_source_url": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General/ballot-items/01000000-f030-c43d-73f4-08df1fee5331",
+     "party_note": "Democratic in the Nov. 3, 2026 special election (ELECT results, unofficial until certified)"
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",

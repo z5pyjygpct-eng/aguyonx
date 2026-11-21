@@ -363,6 +363,9 @@ def main():
             party = off[1] or (lis["party"] if same else None)
             r["current_member"] = {"name": off[0], "party": party, "slug": lis["slug"] if same else None, "source_url": url,
                                    "party_source_url": url if off[1] else (LIS_SRC if same and party else None)}
+            gp = REG.GA_PARTY.get((kind, r["district"]))
+            if not party and gp and REG.last_name(off[0]) == gp["last"].lower():
+                r["current_member"].update({k: gp[k] for k in ("party", "party_source_url", "party_note")})
             r["current_members"] = [r["current_member"]]
             r["members_source_url"] = url
     lm, misses = REG.local_members(fetch)
@@ -377,13 +380,19 @@ def main():
     report["boards_without_roster"] = sorted({f"{L['name']} {L[o]['label']}" for L in LOCALITIES for o in ("bos", "sb")
                                               if L[o]["on_2027"] and (o, L["id"]) not in REG.LOCAL_MEMBERS})
     # Incumbent = a registered committee's candidate is a current member of that seat (official roster): same last name and
-    # same first initial (registrations.same_person).
+    # same first initial (registrations.same_person), or same last name with every given name on the roster in the committee's name
+    # (a member who goes by a middle name: roster "Kyle McDaniel", committee "Robert Kyle McDaniel").
+    def given_in(c, m):
+        tok = lambda n: [t for t in re.sub(r"[.,\"()]", " ", n.lower()).split() if t not in ("jr", "sr", "ii", "iii", "iv", "dr")]
+        mt, ct = tok(m), set(tok(c))
+        g = [t for t in mt[:-1] if len(t) > 1]
+        return bool(g) and REG.last_name(c) == REG.last_name(m) and all(t in ct for t in g)
     for d in files.values():
         for r in d["races"]:
             mems = r.get("current_members", [])
             r["members_known"] = bool(mems)
             for c in r["candidates"]:
-                c["incumbent"] = any(REG.same_person(c["name"], m["name"]) for m in mems)
+                c["incumbent"] = any(REG.same_person(c["name"], m["name"]) or given_in(c["name"], m["name"]) for m in mems)
             r["candidates"].sort(key=lambda c: (not c["incumbent"], c["name"].lower()))
 
     # House / Senate districts that include part or all of each covered locality.

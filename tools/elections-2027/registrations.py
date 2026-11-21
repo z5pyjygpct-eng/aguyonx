@@ -413,7 +413,19 @@ LOUDOUN_CO_URL = "https://www.loudoun.gov/89/Constitutional-Officers"
 # Loudoun County FY2024 Annual Comprehensive Financial Report, directory of officials (school board terms run to Dec. 31, 2027).
 # The school division's own site blocks automated reads, so the county's official report is the roster the build box can read.
 LOUDOUN_SB_URL = "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR"
-# (office, locality_id, seat) -> names exactly as the official page prints them; each is checked against the live page at build
+ALBEMARLE_OFFICIALS_URL = "https://www.albemarle.org/government/elections/elected-officials"  # BOS, School Board, constitutional officers
+CHES_BOS_URL = "https://www.chesterfield.gov/1218/Board-of-Supervisors"
+CHES_REGISTRAR_URL = "https://www.chesterfield.gov/registrar"  # constitutional officers, each with party and "Next Election"
+HENRICO_SB_URL = "https://henricoschools.us/school-board/"
+HENRICO_OFFICIALS_URL = "https://henrico.gov/registrar/elected-officials/"
+PWC_SB_URL = "https://www.pwcs.edu/about/school_board/"
+PWC_OFFICIALS_URL = "https://www.pwcvotes.org/elected-officials"
+FFX_SHERIFF_URL = "https://www.fairfaxcounty.gov/sheriff/"
+FFX_CA_URL = "https://www.fairfaxcounty.gov/commonwealthattorney/about-us"
+# Official pages that refuse the build box's reads (Akamai "Access Denied"): a text copy of the page, read through a web reader on the
+# date in the file name, is kept in snapshots/ and used only when the live read fails. Each record keeps the live URL as its source.
+SNAPSHOTS = {ALBEMARLE_OFFICIALS_URL: "albemarle-elected-officials-2026-11-20.txt"}
+# (office, locality_id, seat) -> names exactly as the official page prints them; a seat may carry its own page as (url, [names]); each is checked against the live page at build
 # time and dropped if the page does not show it. Boards not listed here have no official roster the build box can read yet.
 LOCAL_MEMBERS = {
     ("bos", "loudoun"): (LOUDOUN_BOS_URL, {"Chair": ["Phyllis J. Randall"], "Algonkian": ["Juli E. Briskman"], "Ashburn": ["Michael R. Turner"],
@@ -437,10 +449,113 @@ LOCAL_MEMBERS = {
                                            "Tuckahoe": ["Jody K. Rogish"], "Fairfield": ["Roscoe D. Cooper III"]}),
     ("sb", "chesterfield"): (CHES_SB_URL, {"Midlothian": ["Lisa M. Hudgins"], "Matoaca": ["Steven A. Paranto"], "Bermuda": ["Ann C. Coker"],
                                            "Clover Hill": ["Christina Brady"], "Dale": ["Dominique R. Chatters"]}),
+    ("bos", "chesterfield"): (CHES_BOS_URL, {"Midlothian": ["Mark S. Miller"], "Matoaca": ["Kevin Carroll"], "Bermuda": ["Jim Ingle"],
+                                             "Clover Hill": ["Jessica Schneider"], "Dale": ["LeQuan M. Hylton"]}),
+    ("co", "chesterfield"): (CHES_REGISTRAR_URL, {"Sheriff": ["Karl S. Leonard"], "Commonwealth's Attorney": ["Erin B. Barr"],
+                                                  "Treasurer": ["Rebecca R. Longnaker"], "Commissioner of the Revenue": ["Jenefer S. Hughes"]}),
+    ("bos", "albemarle"): (ALBEMARLE_OFFICIALS_URL, {"Rivanna": ["Bea LaPisto-Kirtley"], "Scottsville": ["Mike O. Pruitt"], "White Hall": ["Ann H. Mallek"]}),
+    ("sb", "albemarle"): (ALBEMARLE_OFFICIALS_URL, {"At-Large": ["Allison L. Spillman"], "Rivanna": ["Judy N. Le"], "Scottsville": ["Ellen Osborne"],
+                                                    "White Hall": ["Rebecca Ann Berlin"]}),
+    ("co", "albemarle"): (ALBEMARLE_OFFICIALS_URL, {"Sheriff": ["Chan Bryant"], "Commonwealth's Attorney": ["Jim Hingeley"]}),
+    ("sb", "henrico"): (HENRICO_SB_URL, {"Brookland": ["Kristi B. Kinsella"], "Fairfield": ["Ryan E. Young"], "Three Chopt": ["Madison T. Irving"],
+                                         "Tuckahoe": ["Marcie F. Shea"], "Varina": ["Alicia S. Atkins"]}),
+    ("sb", "prince-william"): (PWC_SB_URL, {"Chair": ["Babur B. Lateef"], "Brentsville": ["Erica C. Tredinnick"], "Coles": ["Lisa A. Zargarpur"],
+                                            "Gainesville": ["Jennifer T. Wall"], "Neabsco": ["Tracy L. Blake"], "Occoquan": ["Richard M. Jessie"],
+                                            "Potomac": ["Justin David Wilk"], "Woodbridge": ["Loree Y. Williams"]}),
+    ("co", "fairfax-county"): (FFX_SHERIFF_URL, {"Sheriff": ["Stacey A. Kincaid"], "Commonwealth's Attorney": (FFX_CA_URL, ["Steve T. Descano"])}),
+    ("co", "prince-william"): (PWC_OFFICIALS_URL, {"Sheriff": ["Glen Hill"], "Commonwealth's Attorney": ["Amy K. Ashworth"]}),
+    ("co", "henrico"): (HENRICO_OFFICIALS_URL, {"Sheriff": ["Alisa A. Gregory"], "Commonwealth's Attorney": ["Shannon L. Taylor"]}),
 }
+
+# Incumbent party for partisan seats (Board of Supervisors, constitutional officers; never School Board), from the Department of
+# Elections (ELECT) candidate list for the election the member won, which prints each candidate's party. ELECT's results pages for
+# these local races print no party, so the candidate list is the ELECT record that does. (office, locality_id, seat) ->
+# (name as ELECT printed it, party, source_url, election). Entries whose ELECT name differs from the roster name carry a note.
+_EL = "https://www.elections.virginia.gov/media/castyourballot/candidatelist/"
+EL_2023 = _EL + "2023-november-general/2023-local-candidates.xlsx"
+EL_2025_NOV = _EL + "2025/2025NG-Local-09-30-2025.xlsx"
+EL_2025_DEC = _EL + "2025/2025-December-Special-Fairfax-County-Board-of-Supervisors-Candidates-List.xlsx"
+EL_2026_MAR = _EL + "2026/3-10-2026-Candidate-List.xlsx"
+EL_2026_NOV = _EL + "2026/2026-November-Local-Offices-Candidate-List-(rev-10-9-2026).xlsx"
+_P = {"Democratic": "D", "Republican": "R"}
+def _pp(rows):
+    return {k: {"elect_name": n, "party": _P.get(p, "Other"), "party_label": p, "party_source_url": u, "election": e, **({"party_note": note} if note else {})}
+            for k, (n, p, u, e, note) in rows.items()}
+G23, S25N, S25D, S26M, S26N = "Nov. 7, 2023 general", "Nov. 4, 2025 special", "Dec. 2025 special", "Mar. 10, 2026 special", "Nov. 3, 2026 special"
+LOCAL_PARTY = _pp({
+    ("bos", "loudoun", "Chair"): ("Phyllis J. Randall", "Democratic", EL_2023, G23, None),
+    ("bos", "loudoun", "Algonkian"): ("Juli E. Briskman", "Democratic", EL_2023, G23, None),
+    ("bos", "loudoun", "Ashburn"): ('Michael R. "Mike" Turner', "Democratic", EL_2023, G23, None),
+    ("bos", "loudoun", "Broad Run"): ("Sylvia R. Glass", "Democratic", EL_2023, G23, None),
+    ("bos", "loudoun", "Catoctin"): ("Caleb A. Kershner", "Republican", EL_2023, G23, None),
+    ("bos", "loudoun", "Dulles"): ("Matthew F. Letourneau", "Republican", EL_2023, G23, None),
+    ("bos", "loudoun", "Leesburg"): ("Kristen C. Umstattd", "Democratic", EL_2023, G23, None),
+    ("bos", "loudoun", "Little River"): ("Laura A. TeKrony", "Democratic", EL_2023, G23, None),
+    ("bos", "loudoun", "Sterling"): ("Koran T. Saines", "Democratic", EL_2023, G23, None),
+    ("co", "loudoun", "Sheriff"): ('Michael L. "Mike" Chapman', "Republican", EL_2023, G23, None),
+    ("co", "loudoun", "Commonwealth's Attorney"): ('R. D. "Bob" Anderson', "Republican", EL_2023, G23, None),
+    ("co", "loudoun", "Treasurer"): ("Henry C. Eickelberg", "Republican", EL_2023, G23, None),
+    ("co", "loudoun", "Commissioner of the Revenue"): ('Robert S. "Bob" Wertz Jr.', "Republican", EL_2023, G23, None),
+    ("bos", "fairfax-county", "Chair"): ("Jeffrey C. McKay", "Democratic", EL_2023, G23, None),
+    ("bos", "fairfax-county", "Braddock"): ("Rachna Sizemore Heizer", "Democratic", EL_2025_DEC, S25D, None),
+    ("bos", "fairfax-county", "Dranesville"): ('James N. "Jimmy" Bierman, Jr.', "Democratic", EL_2023, G23, None),
+    ("bos", "fairfax-county", "Franconia"): ("Rodney L. Lusk", "Democratic", EL_2023, G23, None),
+    ("bos", "fairfax-county", "Hunter Mill"): ("Walter L. Alcorn", "Democratic", EL_2023, G23, None),
+    ("bos", "fairfax-county", "Mason"): ("Andres F. Jimenez", "Democratic", EL_2023, G23, None),
+    ("bos", "fairfax-county", "Mount Vernon"): ('Daniel G. "Dan" Storck', "Democratic", EL_2023, G23, None),
+    ("bos", "fairfax-county", "Providence"): ("Dalia A. Palchik", "Democratic", EL_2023, G23, None),
+    ("bos", "fairfax-county", "Springfield"): ('Patrick S. "Pat" Herrity', "Republican", EL_2023, G23, None),
+    ("bos", "fairfax-county", "Sully"): ("Kathy L. Smith", "Democratic", EL_2023, G23, None),
+    ("co", "fairfax-county", "Sheriff"): ("Stacey Ann Kincaid", "Democratic", EL_2023, G23, None),
+    ("co", "fairfax-county", "Commonwealth's Attorney"): ("Steve T. Descano", "Democratic", EL_2023, G23, None),
+    ("bos", "prince-william", "Chair"): ("Deshundra L. Jefferson", "Democratic", EL_2023, G23, None),
+    ("bos", "prince-william", "Brentsville"): ('Thomas T. "Tom" Gordy', "Republican", EL_2023, G23, None),
+    ("bos", "prince-william", "Coles"): ("Yesli I. Vega", "Republican", EL_2023, G23, None),
+    ("bos", "prince-william", "Gainesville"): ("George T. Stewart", "Democratic", EL_2025_NOV, S25N, None),
+    ("bos", "prince-william", "Neabsco"): ("Victor S. Angry", "Democratic", EL_2023, G23, None),
+    ("bos", "prince-william", "Occoquan"): ("Kenny Allen Boddye", "Democratic", EL_2023, G23, None),
+    ("bos", "prince-william", "Potomac"): ("Andrea O. Bailey", "Democratic", EL_2023, G23, None),
+    ("bos", "prince-william", "Woodbridge"): ("Jeannie M. LaCroix", "Republican", EL_2026_MAR, S26M, None),
+    ("co", "prince-william", "Sheriff"): ("Glen Hill", "Republican", EL_2023, G23, None),
+    ("co", "prince-william", "Commonwealth's Attorney"): ("Amy K. Ashworth", "Democratic", EL_2023, G23, None),
+    ("bos", "henrico", "Brookland"): ("Dan J. Schmitt", "Republican", EL_2023, G23, None),
+    ("bos", "henrico", "Fairfield"): ("Roscoe D. Cooper III", "Democratic", EL_2023, G23, None),
+    ("bos", "henrico", "Three Chopt"): ("Misty D. Whitehead", "Democratic", EL_2023, G23,
+        "Listed by ELECT under her earlier name, Misty D. Whitehead. Henrico County's FY2025 Popular Annual Financial Report says Misty Roundtree "
+        "was elected Three Chopt supervisor in November 2023 (https://henrico.gov/pdfs/finance/PAFR/Henrico-County-FY25-PAFR.pdf); the only "
+        "2023 Three Chopt candidates were Misty D. Whitehead (Democratic) and Thomas M. Branin (Republican). She noted the name change at the "
+        "Oct. 22, 2024 board meeting (https://henricocountyva.new.swagit.com/videos/318344)."),
+    ("bos", "henrico", "Tuckahoe"): ("Jody K. Rogish", "Democratic", EL_2023, G23, None),
+    ("bos", "henrico", "Varina"): ("Tyrone E. Nelson", "Democratic", EL_2023, G23, None),
+    ("co", "henrico", "Sheriff"): ("Alisa A. Gregory", "Democratic", EL_2023, G23, None),
+    ("co", "henrico", "Commonwealth's Attorney"): ("Shannon L. Taylor", "Democratic", EL_2023, G23, None),
+    ("bos", "chesterfield", "Bermuda"): ("Jim A. Ingle", "Republican", EL_2023, G23, None),
+    ("bos", "chesterfield", "Clover Hill"): ("Jessica L. Schneider", "Democratic", EL_2023, G23, None),
+    ("bos", "chesterfield", "Dale"): ("LeQuan M. Hylton", "Democratic", EL_2026_NOV, S26N,
+        "Appointed interim Dale supervisor after Jim Holland's death (https://www.chesterfield.gov/1244/Dale-District---Holland); the only "
+        "candidate on the ballot in the Nov. 3, 2026 special election (unofficial ELECT results: "
+        "https://enr.elections.virginia.gov/results/public/chesterfield-county/elections/2026-November-General)."),
+    ("bos", "chesterfield", "Matoaca"): ("Kevin P. Carroll", "Republican", EL_2023, G23, None),
+    ("bos", "chesterfield", "Midlothian"): ("Mark S. Miller", "Democratic", EL_2023, G23, None),
+    ("co", "chesterfield", "Sheriff"): ("Karl S. Leonard", "Republican", EL_2023, G23, None),
+    ("co", "chesterfield", "Commonwealth's Attorney"): ("Erin B. Barr", "Independent", EL_2023, G23, None),
+    ("co", "chesterfield", "Treasurer"): ("Rebecca R. Longnaker", "Republican", EL_2023, G23, None),
+    ("co", "chesterfield", "Commissioner of the Revenue"): ("Jenefer S. Hughes", "Democratic", EL_2023, G23, None),
+    ("bos", "albemarle", "Rivanna"): ("Bea LaPisto Kirtley", "Democratic", EL_2023, G23, None),
+    ("bos", "albemarle", "Scottsville"): ("Mike O. D. Pruitt", "Democratic", EL_2023, G23, None),
+    ("bos", "albemarle", "White Hall"): ("Ann Huckle Mallek", "Democratic", EL_2023, G23, None),
+    ("co", "albemarle", "Sheriff"): ("Chan R. Bryant", "Democratic", EL_2023, G23, None),
+    ("co", "albemarle", "Commonwealth's Attorney"): ("Jim M. Hingeley", "Democratic", EL_2023, G23, None),
+})
+# House / Senate seats whose member list and LIS give no party: ELECT results for the member's own election.
+GA_PARTY = {("house", 20): {"last": "Luna", "party": "D",
+                             "party_source_url": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General/ballot-items/01000000-f030-c43d-73f4-08df1fee5331",
+                             "party_note": "Democratic in the Nov. 3, 2026 special election (ELECT results, unofficial until certified)"}}
 
 def _page_text(fetch_text, url):
     p = fetch_text(url)
+    if (not p or "Access Denied" in p[:2000]) and url in SNAPSHOTS:
+        return re.sub(r"\s+", " ", (Path(__file__).resolve().parent / "snapshots" / SNAPSHOTS[url]).read_text())
     if not p:
         return None
     if p.startswith("%PDF"):
@@ -479,14 +594,26 @@ def ga_members(fetch_text):
 def local_members(fetch_text):
     """{(office, locality_id, seat): [{name, source_url}]} for names confirmed on the live official page; plus a list of misses."""
     out, misses = {}, []
+    texts = {}
+    def page(u):
+        if u not in texts:
+            texts[u] = _page_text(fetch_text, u)
+        return texts[u]
     for (off, lid), (url, seats) in LOCAL_MEMBERS.items():
-        t = _page_text(fetch_text, url)
         for seat, names in seats.items():
+            u, names = names if isinstance(names, tuple) else (url, names)
+            t = page(u)
             for n in names:
                 if t and n in t:
-                    out.setdefault((off, lid, seat), []).append({"name": n, "party": None, "source_url": url})
+                    m = {"name": n, "party": None, "source_url": u}
+                    pr = LOCAL_PARTY.get((off, lid, seat)) if off != "sb" else None  # School Board seats are non-partisan
+                    if pr and (last_name(pr["elect_name"]).split("-")[-1] == last_name(n).split("-")[-1] or pr.get("party_note")):
+                        m.update({"party": pr["party"], "party_label": pr["party_label"], "party_source_url": pr["party_source_url"],
+                                  "party_election": pr["election"], "party_elect_name": pr["elect_name"],
+                                  **({"party_note": pr["party_note"]} if pr.get("party_note") else {})})
+                    out.setdefault((off, lid, seat), []).append(m)
                 else:
-                    misses.append({"office": off, "locality_id": lid, "seat": seat, "name": n, "source_url": url})
+                    misses.append({"office": off, "locality_id": lid, "seat": seat, "name": n, "source_url": u})
     return out, misses
 
 

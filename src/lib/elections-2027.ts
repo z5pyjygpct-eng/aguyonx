@@ -19,7 +19,11 @@ export type Cand = {
 };
 /** The seat's current officeholder has a Virginia Department of Elections record-keeping flag (final report after 2026 money, or "Do Not Use"). */
 export type CheckFlag = { label: string; member: string; note: string; committee_url: string };
-export type Member = { name: string; party: string | null; slug?: string | null; source_url: string; party_source_url?: string | null };
+export type Member = {
+  name: string; party: string | null; slug?: string | null; source_url: string; party_source_url?: string | null;
+  /** Party as the official record prints it ("Independent"), the election it comes from, and a note when the record's name differs. */
+  party_label?: string | null; party_election?: string | null; party_elect_name?: string | null; party_note?: string | null;
+};
 export type Coverage = { locality_id: string; locality: string; coverage: "all" | "part"; precincts: number; locality_precincts: number; source_url: string };
 export type Race = {
   id: string; seat: string; seats: number; source_url: string; filing_source_url: string; local_filing_source_url?: string; candidates: Cand[];

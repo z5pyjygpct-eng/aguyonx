@@ -298,8 +298,12 @@
    "current_members": [
     {
      "name": "Mike Chapman",
-     "party": null,
-     "source_url": "https://www.loudoun.gov/89/Constitutional-Officers"
+     "party": "R",
+     "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
+     "party_label": "Republican",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Michael L. \"Mike\" Chapman"
     }
    ],
    "members_source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
@@ -371,8 +375,12 @@
    "current_members": [
     {
      "name": "Bob Anderson",
-     "party": null,
-     "source_url": "https://www.loudoun.gov/89/Constitutional-Officers"
+     "party": "R",
+     "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
+     "party_label": "Republican",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "R. D. \"Bob\" Anderson"
     }
    ],
    "members_source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
@@ -418,8 +426,12 @@
    "current_members": [
     {
      "name": "Henry C. Eickelberg",
-     "party": null,
-     "source_url": "https://www.loudoun.gov/89/Constitutional-Officers"
+     "party": "R",
+     "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
+     "party_label": "Republican",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Henry C. Eickelberg"
     }
    ],
    "members_source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
@@ -464,8 +476,12 @@
    "current_members": [
     {
      "name": "Bob Wertz",
-     "party": null,
-     "source_url": "https://www.loudoun.gov/89/Constitutional-Officers"
+     "party": "R",
+     "source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
+     "party_label": "Republican",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Robert S. \"Bob\" Wertz Jr."
     }
    ],
    "members_source_url": "https://www.loudoun.gov/89/Constitutional-Officers",
@@ -488,9 +504,45 @@
      "source_url": "https://www.fairfaxcounty.gov/elections/information-candidates"
     }
    ],
-   "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "candidates": [
+    {
+     "name": "Stacey Ann Kincaid",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a5df8a29-f2f5-e211-a92f-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Stacey Kincaid for Sheriff",
+     "committee_code": "CC-13-00424",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a5df8a29-f2f5-e211-a92f-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/a5df8a29-f2f5-e211-a92f-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/a5df8a29-f2f5-e211-a92f-984be103f032/pdf/cfreports",
+     "residence": "Fairfax County",
+     "office_sought_record": "Sheriff",
+     "latest_report_filed": "7/8/2026",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Stacey A. Kincaid",
+     "party": "D",
+     "source_url": "https://www.fairfaxcounty.gov/sheriff/",
+     "party_label": "Democratic",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Stacey Ann Kincaid"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/sheriff/",
+   "members_known": true
   },
   {
    "id": "fairfax-county-commonwealth-s-attorney",
@@ -512,7 +564,7 @@
    "candidates": [
     {
      "name": "Stephen Thomas Descano Jr",
-     "incumbent": false,
+     "incumbent": true,
      "party": "D",
      "party_label": "Democratic",
      "endorsement": null,
@@ -531,12 +583,24 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $34,309 on 2026 reports"
+      "raised $34,309 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Steve T. Descano",
+     "party": "D",
+     "source_url": "https://www.fairfaxcounty.gov/commonwealthattorney/about-us",
+     "party_label": "Democratic",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Steve T. Descano"
+    }
+   ],
+   "members_source_url": "https://www.fairfaxcounty.gov/sheriff/",
+   "members_known": true
   },
   {
    "id": "prince-william-sheriff",
@@ -560,9 +624,45 @@
      "source_url": "https://www.manassasparkva.gov/government/local___state_elected_officials.php"
     }
    ],
-   "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "candidates": [
+    {
+     "name": "Glendell Hill",
+     "incumbent": true,
+     "party": "R",
+     "party_label": "Republican",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/92cb3f00-b6ac-e411-97fb-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Glen Hill for Sheriff",
+     "committee_code": "CC-15-00101",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/92cb3f00-b6ac-e411-97fb-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/92cb3f00-b6ac-e411-97fb-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/92cb3f00-b6ac-e411-97fb-984be103f032/pdf/cfreports",
+     "residence": "Prince William County",
+     "office_sought_record": "Sheriff",
+     "latest_report_filed": "7/15/2026",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Glen Hill",
+     "party": "R",
+     "source_url": "https://www.pwcvotes.org/elected-officials",
+     "party_label": "Republican",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Glen Hill"
+    }
+   ],
+   "members_source_url": "https://www.pwcvotes.org/elected-officials",
+   "members_known": true
   },
   {
    "id": "prince-william-commonwealth-s-attorney",
@@ -587,8 +687,19 @@
     }
    ],
    "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Amy K. Ashworth",
+     "party": "D",
+     "source_url": "https://www.pwcvotes.org/elected-officials",
+     "party_label": "Democratic",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Amy K. Ashworth"
+    }
+   ],
+   "members_source_url": "https://www.pwcvotes.org/elected-officials",
+   "members_known": true
   },
   {
    "id": "henrico-sheriff",
@@ -600,9 +711,45 @@
    "source_url": "https://henrico.gov/registrar/elected-officials/",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
-   "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "candidates": [
+    {
+     "name": "Alisa Gregory",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/800b8216-265d-e911-b2a4-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Supporters of Alisa Gregory for Sheriff",
+     "committee_code": "CC-19-00607",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/800b8216-265d-e911-b2a4-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/800b8216-265d-e911-b2a4-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/800b8216-265d-e911-b2a4-984be103f032/pdf/cfreports",
+     "residence": "Henrico County",
+     "office_sought_record": "Sheriff",
+     "latest_report_filed": "7/15/2026",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
+    }
+   ],
+   "current_members": [
+    {
+     "name": "Alisa A. Gregory",
+     "party": "D",
+     "source_url": "https://henrico.gov/registrar/elected-officials/",
+     "party_label": "Democratic",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Alisa A. Gregory"
+    }
+   ],
+   "members_source_url": "https://henrico.gov/registrar/elected-officials/",
+   "members_known": true
   },
   {
    "id": "henrico-commonwealth-s-attorney",
@@ -615,8 +762,19 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://henrico.gov/registrar/programs/candidates/",
    "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Shannon L. Taylor",
+     "party": "D",
+     "source_url": "https://henrico.gov/registrar/elected-officials/",
+     "party_label": "Democratic",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Shannon L. Taylor"
+    }
+   ],
+   "members_source_url": "https://henrico.gov/registrar/elected-officials/",
+   "members_known": true
   },
   {
    "id": "chesterfield-sheriff",
@@ -631,7 +789,7 @@
    "candidates": [
     {
      "name": "Karl Stephen Leonard",
-     "incumbent": false,
+     "incumbent": true,
      "party": "R",
      "party_label": "Republican",
      "endorsement": null,
@@ -650,12 +808,24 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $22,760 on 2026 reports"
+      "raised $22,760 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Karl S. Leonard",
+     "party": "R",
+     "source_url": "https://www.chesterfield.gov/registrar",
+     "party_label": "Republican",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Karl S. Leonard"
+    }
+   ],
+   "members_source_url": "https://www.chesterfield.gov/registrar",
+   "members_known": true
   },
   {
    "id": "chesterfield-commonwealth-s-attorney",
@@ -670,7 +840,7 @@
    "candidates": [
     {
      "name": "Erin Bumgarner Barr",
-     "incumbent": false,
+     "incumbent": true,
      "party": "Other",
      "party_label": "Independent",
      "endorsement": null,
@@ -689,12 +859,24 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $608 on 2026 reports"
+      "raised $608 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Erin B. Barr",
+     "party": "Other",
+     "source_url": "https://www.chesterfield.gov/registrar",
+     "party_label": "Independent",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Erin B. Barr"
+    }
+   ],
+   "members_source_url": "https://www.chesterfield.gov/registrar",
+   "members_known": true
   },
   {
    "id": "chesterfield-treasurer",
@@ -709,7 +891,7 @@
    "candidates": [
     {
      "name": "Rebecca Rae Longnaker",
-     "incumbent": false,
+     "incumbent": true,
      "party": "R",
      "party_label": "Republican",
      "endorsement": null,
@@ -728,12 +910,24 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $1 on 2026 reports"
+      "raised $1 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Rebecca R. Longnaker",
+     "party": "R",
+     "source_url": "https://www.chesterfield.gov/registrar",
+     "party_label": "Republican",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Rebecca R. Longnaker"
+    }
+   ],
+   "members_source_url": "https://www.chesterfield.gov/registrar",
+   "members_known": true
   },
   {
    "id": "chesterfield-commissioner-of-the-revenue",
@@ -748,7 +942,7 @@
    "candidates": [
     {
      "name": "Jenefer Smith Hughes",
-     "incumbent": false,
+     "incumbent": true,
      "party": "D",
      "party_label": "Democratic",
      "endorsement": null,
@@ -767,12 +961,24 @@
      "filed_date": null,
      "filed_date_source_url": null,
      "activity": [
-      "raised $60 on 2026 reports"
+      "raised $60 on 2026 reports",
+      "current officeholder"
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Jenefer S. Hughes",
+     "party": "D",
+     "source_url": "https://www.chesterfield.gov/registrar",
+     "party_label": "Democratic",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Jenefer S. Hughes"
+    }
+   ],
+   "members_source_url": "https://www.chesterfield.gov/registrar",
+   "members_known": true
   },
   {
    "id": "albemarle-sheriff",
@@ -785,6 +991,30 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.albemarle.org/government/elections",
    "candidates": [
+    {
+     "name": "Chanses R Bryant",
+     "incumbent": true,
+     "party": "D",
+     "party_label": "Democratic",
+     "endorsement": null,
+     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1c3df6d0-cf59-e811-97f2-984be103f032",
+     "filing_kind": "registration",
+     "label": "Registered campaign committee, not yet on the ballot",
+     "committee_name": "Chan Bryant for Sheriff",
+     "committee_code": "CC-18-00218",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1c3df6d0-cf59-e811-97f2-984be103f032",
+     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/1c3df6d0-cf59-e811-97f2-984be103f032",
+     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/1c3df6d0-cf59-e811-97f2-984be103f032/pdf/cfreports",
+     "residence": "Albemarle County",
+     "office_sought_record": "Sheriff",
+     "latest_report_filed": "7/13/2026",
+     "district_record": null,
+     "filed_date": null,
+     "filed_date_source_url": null,
+     "activity": [
+      "current officeholder"
+     ]
+    },
     {
      "name": "Charles Tyson Milnor",
      "incumbent": false,
@@ -812,8 +1042,19 @@
      ]
     }
    ],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Chan Bryant",
+     "party": "D",
+     "source_url": "https://www.albemarle.org/government/elections/elected-officials",
+     "party_label": "Democratic",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Chan R. Bryant"
+    }
+   ],
+   "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",
+   "members_known": true
   },
   {
    "id": "albemarle-commonwealth-s-attorney",
@@ -826,8 +1067,19 @@
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
    "local_filing_source_url": "https://www.albemarle.org/government/elections",
    "candidates": [],
-   "current_members": [],
-   "members_known": false
+   "current_members": [
+    {
+     "name": "Jim Hingeley",
+     "party": "D",
+     "source_url": "https://www.albemarle.org/government/elections/elected-officials",
+     "party_label": "Democratic",
+     "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
+     "party_election": "Nov. 7, 2023 general",
+     "party_elect_name": "Jim M. Hingeley"
+    }
+   ],
+   "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",
+   "members_known": true
   }
  ],
  "no_2027": [],
