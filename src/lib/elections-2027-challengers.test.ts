@@ -79,3 +79,16 @@ for (const office of ["house", "senate"] as const) {
     }
   });
 }
+
+import { presumedNoFiling, presumedStatus } from "./elections-2027-challengers.ts";
+test("presumed rule: a not-filed incumbent counts toward the seat color, a filed one is not double counted, no incumbent = raw status", () => {
+  assert.equal(presumedStatus(D_NOT_FILED_EMPTY), "D");
+  assert.equal(presumedStatus(R_NOT_FILED_IND), "contested");
+  assert.equal(presumedStatus(D_CHECK_WITH_R), "contested");
+  assert.equal(presumedStatus(R_ALONE), "R");
+  assert.equal(presumedStatus(VACANT), "D");
+  assert.equal(presumedNoFiling(D_NOT_FILED_EMPTY), true);
+  assert.equal(presumedNoFiling(R_ALONE), false);
+  // gaps unchanged by the presumption
+  assert.deepEqual(gapRows(ALL, "D").map((r) => r.district), [5]);
+});

@@ -8,6 +8,7 @@ import CO from "@/lib/elections-2027-co.json";
 import { cn } from "@/lib/utils";
 import { isNewCandidate, todayET, flatten, isCheck, localityOptions, MEMBER_NOT_FILED_NOTE, memberNotFiled, partyCount, PARTY_LABEL, statusOf, type Cand, type Entry, type Member, type OfficeFile, type PartyFilter, type Race, type Status } from "@/lib/elections-2027";
 import { highlight, type Term } from "@/lib/elections-2027-search";
+import { NO_FILING_TAG, PRESUMED_NOTE, presumedNoFiling, presumedStatus } from "@/lib/elections-2027-challengers";
 
 /** Shared 2027 seat grid pieces (status tiles, legend, district panel) used by /2027/races, /2027/delegates and /2027/senate. Moved unchanged from the /2027 route. */
 
@@ -24,12 +25,13 @@ export const TILE: Record<Status, { cls: string; letter: string; label: string }
   none: { cls: "bg-navy-800 text-on-dark-muted border-dashed border-navy-line", letter: "–", label: "No registered committee yet" },
 };
 
-export function Tile({ r, office, dim, selected, onPick, wide }: { r: Race; office: Office; dim: boolean; selected: boolean; onPick: () => void; wide?: boolean }) {
-  const st = statusOf(r, office);
+/** presumed: Scott's incumbents-run rule (Delegates / Senate pages): color by presumedStatus and show "no 2027 filing yet" as a muted dot. */
+export function Tile({ r, office, dim, selected, onPick, wide, presumed }: { r: Race; office: Office; dim: boolean; selected: boolean; onPick: () => void; wide?: boolean; presumed?: boolean }) {
+  const st = presumed ? presumedStatus(r) : statusOf(r, office);
   const t = TILE[st];
-  const mnf = memberNotFiled(r);
+  const mnf = presumed ? presumedNoFiling(r) && !isCheck(r) : memberNotFiled(r);
   const chk = isCheck(r);
-  const label = `${r.locality ? r.locality + " " : ""}${r.seat}${r.seats > 1 ? ` (${r.seats} seats)` : ""}: ${t.label}${mnf ? ", member not filed yet" : chk ? ", check record" : ""}, ${r.candidates.length} counted committees`;
+  const label = `${r.locality ? r.locality + " " : ""}${r.seat}${r.seats > 1 ? ` (${r.seats} seats)` : ""}: ${presumed ? t.label.replace(" (registrations)", "") : t.label}${mnf ? (presumed ? ", incumbent presumed to run, no 2027 filing yet" : ", member not filed yet") : chk ? ", check record" : ""}, ${r.candidates.length} counted committees`;
   return (
     <button type="button" onClick={onPick} aria-label={label} aria-pressed={selected}
       className={cn("relative flex flex-col items-center justify-center rounded-md border-2 font-serif font-bold transition",
@@ -38,20 +40,24 @@ export function Tile({ r, office, dim, selected, onPick, wide }: { r: Race; offi
       <span className={wide ? "text-center" : ""}>{wide ? r.seat : r.district}</span>
       {wide && r.seats > 1 ? <span className="font-sans text-[11px] font-semibold">{r.seats} seats</span> : null}
       <span aria-hidden className={cn("absolute font-sans font-bold opacity-80", wide ? "top-0.5 right-1 text-[10px]" : "top-px right-0.5 text-[8px] lg:text-[10px]")}>{t.letter}</span>
-      {mnf ? <span aria-hidden className={cn("absolute rounded-full bg-[#c7d2fe] ring-1 ring-navy-900", wide ? "bottom-1 left-1 size-2" : "bottom-0.5 left-0.5 size-1.5 lg:size-2")} /> : null}
+      {mnf ? <span aria-hidden className={cn("absolute rounded-full ring-1 ring-navy-900", presumed ? "bg-white/50" : "bg-[#c7d2fe]", wide ? "bottom-1 left-1 size-2" : "bottom-0.5 left-0.5 size-1.5 lg:size-2")} /> : null}
       {chk ? <span aria-hidden className={cn("absolute font-sans font-bold text-[#fcd34d]", wide ? "bottom-0 left-1 text-[11px]" : "bottom-0 left-0.5 text-[9px] lg:text-[11px]")}>!</span> : null}
     </button>
   );
 }
 
-export function Legend({ office }: { office: Office }) {
+export function Legend({ office, presumed }: { office: Office; presumed?: boolean }) {
   const keys: Status[] = office === "sb" ? ["contested", "unopposed", "none"] : ["contested", "D", "R", "Other", "none"];
   return (
     <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-on-dark-muted" aria-label="Tile legend">
       {keys.map((k) => (
-        <li key={k} className="flex items-center gap-1.5"><span className={cn("inline-flex size-4 items-center justify-center rounded-sm border text-[9px] font-bold", TILE[k].cls)}>{TILE[k].letter}</span>{TILE[k].label}</li>
+        <li key={k} className="flex items-center gap-1.5"><span className={cn("inline-flex size-4 items-center justify-center rounded-sm border text-[9px] font-bold", TILE[k].cls)}>{TILE[k].letter}</span>{presumed ? (k === "none" ? "No incumbent party or committee in the record" : TILE[k].label.replace(" (registrations)", "")) : TILE[k].label}</li>
       ))}
-      <li className="flex items-center gap-1.5"><span className="inline-block size-2 rounded-full bg-[#c7d2fe]" aria-hidden /> = Member not filed yet (the current member has no counted 2027 committee; the seat is not vacant)</li>
+      {presumed ? (
+        <li className="flex items-center gap-1.5"><span className="inline-block size-2 rounded-full bg-white/50" aria-hidden /> = {NO_FILING_TAG} (the incumbent is presumed to run and counts toward the seat color)</li>
+      ) : (
+        <li className="flex items-center gap-1.5"><span className="inline-block size-2 rounded-full bg-[#c7d2fe]" aria-hidden /> = Member not filed yet (the current member has no counted 2027 committee; the seat is not vacant)</li>
+      )}
       <li className="flex items-center gap-1.5"><span className="text-[11px] font-bold text-[#fcd34d]" aria-hidden>!</span> = Check (the member's committee has a Virginia Department of Elections record flag)</li>
     </ul>
   );
@@ -131,9 +137,10 @@ export function statusWord(st: Status) {
 }
 
 /** inline: render as a panel in the page flow (House / Senate: below the full-width grid), with no backdrop or bottom sheet. */
-export function Card({ r, office, asOf, onClose, inline }: { r: Race; office: Office; asOf: string; onClose: () => void; inline?: boolean }) {
+export function Card({ r, office, asOf, onClose, inline, presumed }: { r: Race; office: Office; asOf: string; onClose: () => void; inline?: boolean; presumed?: boolean }) {
   const e = ENTRY_BY_KEY.get(`${office}:${r.id}`)!;
-  const st = statusOf(r, office);
+  const st = presumed ? presumedStatus(r) : statusOf(r, office);
+  const pnf = presumed && presumedNoFiling(r);
   const title = `${r.locality ? `${r.locality} ${r.body} · ` : ""}${office === "house" ? "House District " + r.district : office === "senate" ? "Senate District " + r.district : r.seat}`;
   const today = todayET();
   return (
@@ -144,18 +151,18 @@ export function Card({ r, office, asOf, onClose, inline }: { r: Race; office: Of
           : "fixed inset-x-0 bottom-0 z-50 max-h-[80vh] overflow-y-auto rounded-t-2xl border-t-4 border-gold bg-navy-700 p-5 shadow-2xl lg:static lg:z-auto lg:max-h-none lg:rounded-[10px] lg:border lg:border-navy-line lg:border-t-4 lg:border-t-gold lg:shadow-none"}>
         <div className="flex items-start justify-between gap-3">
           <div>
-            <p className="font-mono text-xs tracking-widest text-gold uppercase">{statusWord(st)}{seatSuffix(r)}</p>
+            <p className="font-mono text-xs tracking-widest text-gold uppercase">{presumed ? statusWord(st).replace(" (registrations)", "") : statusWord(st)}{pnf ? (isCheck(r) ? " · check record" : " · incumbent presumed to run") : seatSuffix(r)}</p>
             <h3 className="mt-1 font-serif text-2xl font-bold uppercase">{title}</h3>
             <p className="text-sm text-on-dark-muted">{rdLine(r, office)}{r.seats > 1 ? ` · ${r.seats} seats, top ${r.seats} win` : ""}</p>
           </div>
           <button type="button" onClick={onClose} aria-label="Close district card" className="rounded-md p-1 text-gold hover:bg-navy-600"><X className="size-5" /></button>
         </div>
         <div className="mt-2"><MemberLine r={r} office={office} /></div>
-        <SeatNote r={r} />
+        {pnf && !isCheck(r) ? <p className="mt-1 text-xs text-on-dark-muted">{NO_FILING_TAG}. {PRESUMED_NOTE}</p> : <SeatNote r={r} />}
         {r.localities?.length ? <p className="mt-1 text-xs text-on-dark-muted">Covers {r.localities.map((l) => `${l.coverage === "all" ? "all" : "part"} of ${l.locality}`).join(", ")} (among the localities this page tracks).</p> : null}
         {r.candidates.length ? (
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">{r.candidates.map((c) => <RegCandidate key={c.committee_code ?? c.name} c={c} e={e} today={today} />)}</ul>
-        ) : <p className="mt-3 rounded-md border border-dashed border-navy-line px-3 py-3 text-sm text-on-dark-muted">No registered 2027 campaign committee for this seat in the official state record as of {fmtDate(asOf)}, and no official ballot list yet.</p>}
+        ) : <p className="mt-3 rounded-md border border-dashed border-navy-line px-3 py-3 text-sm text-on-dark-muted">No registered 2027 campaign committee for this seat in the official state record as of {fmtDate(asOf)}, and no official ballot list yet.{pnf ? " The incumbent is presumed to run." : ""}</p>}
         {r.shared_with?.length ? (
           <p className="mt-2 text-xs text-on-dark-muted">Shared office: voters in {r.shared_with.map((x, i) => (
             <span key={x.locality}>{i ? (i === r.shared_with!.length - 1 ? " and " : ", ") : ""}{x.locality} <a href={x.source_url} {...ext} className="text-gold underline">(source)</a></span>

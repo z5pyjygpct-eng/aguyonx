@@ -5,7 +5,7 @@
  * 2027 cycle, residence inside the seat, 2027 activity). Registrations are not ballot listings. Nothing is inferred:
  * a seat whose roster member or party is missing is reported as unclear and left out of both parties' lists.
  */
-import { isCheck, memberNotFiled, type Cand, type Member, type Race } from "./elections-2027.ts";
+import { isCheck, memberNotFiled, statusOf, type Cand, type Member, type Race, type Status } from "./elections-2027.ts";
 
 export type MajorParty = "D" | "R";
 export type IncumbentStatus = "filed" | "not-filed" | "check";
@@ -103,3 +103,20 @@ export const VIEW_BY_ID = new Map(CHAMBER_VIEWS.map((v) => [v.id, v]));
 export function rowsForView(races: Race[], v: ChamberView): ChallengerRow[] {
   return v.kind === "gaps" ? gapRows(races, v.party) : challengerRows(races, v.party);
 }
+
+/**
+ * Scott's rule (Nov 20, 2026): "It is safely assumed that incumbents will be the candidate running for either party... that is the
+ * general rule whether or not you see an official filing." An incumbent with no counted 2027 committee is presumed to run, so the
+ * seat is colored as if the incumbent's party were in the race. Display only: no committee is added to any list.
+ */
+export const PRESUMED_NOTE = "Incumbents are presumed to run for their seat unless officially reported otherwise, whether or not they have a 2027 filing yet.";
+export const NO_FILING_TAG = "No 2027 filing yet";
+
+export function presumedStatus(r: Race): Status {
+  const inc = incumbentOf(r);
+  if (!inc || r.candidates.some((c) => c.incumbent)) return statusOf(r, "house");
+  const virtual: Cand = { name: inc.member.name, party: inc.party, incumbent: true, party_source_url: null, filing_source_url: "" };
+  return statusOf({ ...r, candidates: [...r.candidates, virtual] }, "house");
+}
+/** True when the incumbent is presumed to run but has no counted 2027 committee (shown as a muted "No 2027 filing yet" tag). */
+export const presumedNoFiling = (r: Race) => !!incumbentOf(r) && !r.candidates.some((c) => c.incumbent);

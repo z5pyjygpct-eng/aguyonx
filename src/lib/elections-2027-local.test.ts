@@ -1,0 +1,75 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import test from "node:test";
+import type { Cand, Race } from "./elections-2027.ts";
+import { endorsementFor, LOCAL_VIEWS, localSections, matchMember, sameName, summarize, toLocalRow, type LocalFile, type LocalOffice } from "./elections-2027-local.ts";
+
+const cand = (name: string, party: string | null, incumbent = false): Cand => ({ name, party, incumbent, party_source_url: null, filing_source_url: "x", committee_url: `cf/${name}` });
+const race = (id: string, members: { name: string; party?: string | null }[], candidates: Cand[], extra: Partial<Race> = {}): Race => ({
+  id, seat: id, seats: 1, source_url: "x", filing_source_url: "x", candidates, locality_id: "t", members_known: members.length > 0,
+  current_members: members.map((m) => ({ name: m.name, party: m.party ?? null, source_url: "roster" })), ...extra,
+});
+
+test("BOS incumbent party: roster party first, then the incumbent's own committee record, else not listed", () => {
+  const a = toLocalRow(race("a", [{ name: "Ann A", party: "R" }], [cand("Ann A", "D", true)]), "bos");
+  assert.equal(a.incumbents[0].party, "R");
+  const b = toLocalRow(race("b", [{ name: "Bob B" }], [cand("Robert B", "D", true)]), "bos");
+  assert.equal(b.incumbents[0].party, "D");
+  assert.equal(b.incumbents[0].partySource, "cf/Robert B");
+  assert.equal(b.incumbents[0].filed, true);
+  const c = toLocalRow(race("c", [{ name: "Cy C" }], []), "bos");
+  assert.equal(c.incumbents[0].party, null);
+  assert.equal(c.incumbents[0].filed, false);
+});
+
+test("challengers vs same-party (possible primary) for BOS/CO; School Board never splits by party or shows incumbent party", () => {
+  const r = race("d", [{ name: "Dee D" }], [cand("Dee D", "D", true), cand("Rex R", "R"), cand("Dan D", "D"), cand("Ivy I", "Other")]);
+  const bos = toLocalRow(r, "bos");
+  assert.deepEqual(bos.challengers.map((c) => c.name), ["Rex R", "Ivy I"]);
+  assert.deepEqual(bos.same.map((c) => c.name), ["Dan D"]);
+  const sb = toLocalRow(r, "sb");
+  assert.deepEqual(sb.challengers.map((c) => c.name), ["Rex R", "Dan D", "Ivy I"]);
+  assert.equal(sb.same.length, 0);
+  assert.equal(sb.incumbents[0].party, null);
+});
+
+test("multi-seat: committees match roster members by name; an unflagged committee with a member's name is that member's, not a challenger", () => {
+  const r = race("al", [{ name: "Kyle McDaniel" }, { name: "Ryan McElveen" }, { name: "Ilryong Moon" }], [cand("Ryan Leighton McElveen", "D", true), cand("Robert Kyle McDaniel", "Other"), cand("Russ Brooks", "D")], { seats: 3 });
+  const row = toLocalRow(r, "sb");
+  assert.deepEqual(row.incumbents.map((i) => i.filed), [true, true, false]);
+  assert.deepEqual(row.challengers.map((c) => c.name), ["Russ Brooks"]);
+  assert.equal(sameName("Kyle McDaniel", "Robert Kyle McDaniel"), true);
+  assert.equal(sameName("Kyle McDaniel", "Robert McDaniel"), false);
+  assert.equal(matchMember(cand("Ryan Leighton McElveen", "D", true), r.current_members!)?.name, "Ryan McElveen");
+});
+
+test("no roster: no incumbent is invented; every counted committee is a challenger", () => {
+  const row = toLocalRow(race("n", [], [cand("Karl L", "R")]), "co");
+  assert.equal(row.incumbents.length, 0);
+  assert.deepEqual(row.challengers.map((c) => c.name), ["Karl L"]);
+});
+
+test("School Board endorsements: none recorded means a dash (no guessing)", () => {
+  assert.equal(endorsementFor("loudoun-at-large", "Anne Pogue Donohue"), null);
+});
+
+const load = (o: LocalOffice) => JSON.parse(fs.readFileSync(path.join(import.meta.dirname, `elections-2027-${o}.json`), "utf8")) as LocalFile;
+const files = { bos: load("bos"), sb: load("sb"), co: load("co") };
+
+test("real data: Loudoun shows all three offices with Algonkian and Sterling Check flags; Hanover has none; cities only show the shared county races", () => {
+  const l = localSections("loudoun", files).shown;
+  assert.deepEqual(l.map((x) => [x.view, x.rows.length]), [["bos", 9], ["sb", 4], ["co", 4]]);
+  assert.deepEqual(l[0].rows.filter((r) => r.check).map((r) => r.seat).sort(), ["Algonkian", "Sterling"]);
+  assert.equal(localSections("hanover", files).shown.length, 0);
+  for (const c of ["fairfax-city", "manassas"]) {
+    const x = localSections(c, files);
+    assert.deepEqual(x.shown.map((s) => s.view), ["co"]);
+    assert.ok(x.shown[0].rows.every((r) => !!r.sharedFrom));
+    assert.deepEqual(x.offBallot.map((o) => o.body).sort(), ["City Council", "School Board"]);
+    assert.equal(summarize(x.shown).seats, 0);
+  }
+  const ffx = localSections("fairfax-county", files).shown.find((s) => s.view === "sb")!;
+  assert.ok(ffx.rows.find((r) => r.seat === "Hunter Mill")!.check);
+  assert.equal(LOCAL_VIEWS.length, 3);
+});
