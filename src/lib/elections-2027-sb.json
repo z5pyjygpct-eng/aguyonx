@@ -408,7 +408,14 @@
     {
      "name": "Kyle McDaniel",
      "party": null,
-     "source_url": "https://www.fcps.edu/school-board/school-board-members"
+     "source_url": "https://www.fcps.edu/school-board/school-board-members",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/20ca7eca-c89e-4a74-8a6d-650fe8f1ca22",
+      "committee_name": "Elect Kyle McDaniel",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     },
     {
      "name": "Ryan McElveen",
@@ -418,7 +425,14 @@
     {
      "name": "Ilryong Moon",
      "party": null,
-     "source_url": "https://www.fcps.edu/school-board/school-board-members"
+     "source_url": "https://www.fcps.edu/school-board/school-board-members",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8a6701cd-a50e-e911-8e39-984be103f032",
+      "committee_name": "Moon for School Board",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2025-07-10",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.fcps.edu/school-board/school-board-members",
@@ -631,7 +645,14 @@
     {
      "name": "Melanie K. Meren",
      "party": null,
-     "source_url": "https://www.fcps.edu/school-board/school-board-members"
+     "source_url": "https://www.fcps.edu/school-board/school-board-members",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/b48d19f2-fd04-e811-8018-984be103f032",
+      "committee_name": "Friends of Melanie Meren",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-11-12",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.fcps.edu/school-board/school-board-members",
@@ -658,7 +679,14 @@
     {
      "name": "Ricardy Anderson",
      "party": null,
-     "source_url": "https://www.fcps.edu/school-board/school-board-members"
+     "source_url": "https://www.fcps.edu/school-board/school-board-members",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/255b43a7-4323-e911-8236-984be103f032",
+      "committee_name": "Ricardy for School Board",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-09",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.fcps.edu/school-board/school-board-members",
@@ -1014,6 +1042,13 @@
      "name": "Lisa A. Zargarpur",
      "party": null,
      "source_url": "https://www.pwcs.edu/about/school_board/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1d602550-9080-e811-a648-984be103f032",
+      "committee_name": "Lisa for Coles",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2026-05-18",
+      "do_not_use": false
+     },
      "running_for": {
       "office_id": "bos",
       "race_id": "prince-william-coles",
@@ -1249,7 +1284,14 @@
     {
      "name": "Kristi B. Kinsella",
      "party": null,
-     "source_url": "https://henricoschools.us/school-board/"
+     "source_url": "https://henricoschools.us/school-board/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0d2cc826-c049-e911-9f1a-984be103f032",
+      "committee_name": "Kinsella for Brookland",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2026-07-06",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://henricoschools.us/school-board/",
@@ -1408,7 +1450,14 @@
     {
      "name": "Alicia S. Atkins",
      "party": null,
-     "source_url": "https://henricoschools.us/school-board/"
+     "source_url": "https://henricoschools.us/school-board/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0bb0421e-5b46-e911-9f1a-984be103f032",
+      "committee_name": "Friends of Alicia Atkins",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2024-12-11",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://henricoschools.us/school-board/",
@@ -1429,7 +1478,14 @@
     {
      "name": "Ann C. Coker",
      "party": null,
-     "source_url": "https://oneccps.org/page/school-board"
+     "source_url": "https://oneccps.org/page/school-board",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c03860e3-a728-e911-8236-984be103f032",
+      "committee_name": "Friends of Ann Coker",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2026-08-19",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://oneccps.org/page/school-board",
@@ -1450,7 +1506,14 @@
     {
      "name": "Christina Brady",
      "party": null,
-     "source_url": "https://oneccps.org/page/school-board"
+     "source_url": "https://oneccps.org/page/school-board",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ae80ac4c-6b70-4a74-9176-ad9c30a1791d",
+      "committee_name": "Christina Brady for Clover Hill",
+      "election_cycle": "11/2026",
+      "latest_report_filed": "2026-11-11",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://oneccps.org/page/school-board",
@@ -1655,7 +1718,14 @@
     {
      "name": "Judy N. Le",
      "party": null,
-     "source_url": "https://www.albemarle.org/government/elections/elected-officials"
+     "source_url": "https://www.albemarle.org/government/elections/elected-officials",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/719e6f58-9c81-4baa-8df6-4474e7a84ebc",
+      "committee_name": "Friends of Judy Le 2023",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2023-12-07",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",
@@ -1676,7 +1746,14 @@
     {
      "name": "Ellen Osborne",
      "party": null,
-     "source_url": "https://www.albemarle.org/government/elections/elected-officials"
+     "source_url": "https://www.albemarle.org/government/elections/elected-officials",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/95f01e01-b5a3-4d34-b010-f1d91673ae8e",
+      "committee_name": "Friends of Ellen Osborne 2023",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2023-12-04",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",
@@ -1722,7 +1799,14 @@
     {
      "name": "Rebecca Ann Berlin",
      "party": null,
-     "source_url": "https://www.albemarle.org/government/elections/elected-officials"
+     "source_url": "https://www.albemarle.org/government/elections/elected-officials",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cd2e96be-8042-4a87-afdd-dc7cd991f99f",
+      "committee_name": "Rebecca Berlin for School Board",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2023-12-06",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",

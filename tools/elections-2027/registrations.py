@@ -179,8 +179,14 @@ def soo_fields(guid):
         yrs = [x for x in re.split(r"\s{2,}", v.strip()) if re.fullmatch(r"\d{4}", x)]
         year = yrs[0] if yrs else None
     m = re.search(r"Date Changes Took Effect.*?\n\s*(\d{1,2}/\d{1,2}/\d{4})", t, re.S)
+    office = district = None
+    v, lab = before("Office Sought")
+    if v:
+        parts = [x.strip() for x in re.split(r"\s{2,}", v.strip()) if x.strip()]
+        office = parts[0] if parts else None
+        district = parts[1] if len(parts) > 1 else None
     return {"residence": res, "year": year, "amended": not re.search(r"X\s+NEW", t),
-            "changes_effective": m.group(1) if m else None}
+            "changes_effective": m.group(1) if m else None, "office": office, "district": district}
 
 def _mdy(ts):
     m = re.match(r"(\d{4})-(\d{2})-(\d{2})", ts or "")
@@ -561,6 +567,19 @@ STALE_COMMITTEES = {
 # has their counted committee.
 RUNNING_ELSEWHERE = {
     ("sb", "prince-william", "Coles", "Lisa A. Zargarpur"): {"office_id": "bos", "race_id": "prince-william-coles", "office": "Board of County Supervisors, Coles District"},
+    ("bos", "loudoun", "Algonkian", "Juli E. Briskman"): {"office_id": "bos", "race_id": "loudoun-chair", "office": "Board of Supervisors Chair"},
+}
+# Candidacies reported by the editor that are not (yet) a registered committee for that seat in the official record. Shown apart from
+# registrations, never counted as one, each with what the official record says. (office, race id) -> entries.
+_BRISKMAN_CF = "https://cfreports.elections.virginia.gov/Committee/Index/21c0c1c3-f8b4-e811-bffd-984be103f032"
+ANNOUNCED = {
+    ("bos", "loudoun-chair"): [{
+        "name": "Juli E. Briskman", "party": "D", "party_label": "Democratic", "basis": "editor", "reported": "2026-11-20",
+        "finance_committee_url": _BRISKMAN_CF,
+        "record_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/21c0c1c3-f8b4-e811-bffd-984be103f032/pdf/cfreports",
+        "note": "Running for Chair per our editor (Nov. 20, 2026); not yet a registered Chair committee. The official state record, checked "
+                "Nov. 20, 2026, shows no Briskman committee for Chair: her only committee, Briskman for Supervisor (CC-18-00409), lists "
+                "Member Board of Supervisors, Algonkian District on its Statement of Organization and filed a final report on Aug. 25, 2026."}],
 }
 GA_PARTY = {("house", 20): {"last": "Luna", "party": "D",
                              "party_source_url": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General/ballot-items/01000000-f030-c43d-73f4-08df1fee5331",
@@ -725,11 +744,74 @@ def apply_rule(files, statewide_cov):
                 keep.append(c)
             race["candidates"] = keep
             rep["kept"] += sum(1 for c in keep if c.get("filing_kind") == "registration")
+            members = race.get("current_members") or ([race["current_member"]] if race.get("current_member") else [])
+            for m in members:
+                if not any(c.get("incumbent") and same_person(c["name"], m["name"]) for c in keep) and \
+                   not any(c.get("incumbent") for c in keep if len(members) == 1):
+                    fc = member_committee(off, race, m)
+                    if fc:
+                        m["finance_committee"] = fc
             flag = check_flag(off, race)
             if flag:
                 race["check"] = flag
                 rep["check"].append({"race": race["id"], **flag})
     return rep
+
+_TITLES = {"mr", "mrs", "ms", "miss", "dr", "jr", "sr", "ii", "iii", "iv", "hon"}
+def _ptoks(n):
+    return [t for t in re.sub(r"[.,\"()]", " ", clean_name(n or "")).replace("-", " ").lower().split() if t not in _TITLES]
+
+def finance_person(committee_candidate, member):
+    """Committee candidate is the roster member (finance link only): same full last name (hyphenated names too), and the same first
+    initial (nicknames mapped) or every roster given name in the committee's candidate name. The seat checks still apply."""
+    c, mt = _ptoks(committee_candidate), _ptoks(member)
+    if not c or not mt:
+        return False
+    lastparts = re.sub(r"[.,\"()]", " ", [t for t in re.sub(r"[.,]", " ", member).split() if t.lower() not in _TITLES][-1]).replace("-", " ").lower().split()
+    if c[-len(lastparts):] != lastparts:
+        return False
+    given = [t for t in mt[:-len(lastparts)] if len(t) > 1]
+    return same_person(committee_candidate, member) or NICK.get(c[0], c[0])[0] == NICK.get(mt[0], mt[0])[0] or (bool(given) and all(t in c for t in given))
+
+def member_committee(off, race, m):
+    """A current member with no counted 2027 committee: their most recent official candidate committee for this same seat in the
+    Department of Elections record (same matching as check_flag; for constitutional offices, the same office too). None if the
+    record has none. Used only for the campaign finance link, never to count a candidacy."""
+    best = None
+    for r in LATEST_ROWS:
+        if not finance_person(r.get("CandidateName"), m["name"]):
+            continue
+        # Office and district from the committee's Statement of Organization (report rows often abbreviate or leave them blank,
+        # e.g. "SD", "na"); the report row only when the statement is unreadable.
+        soo = soo_fields(r["AccountId"].strip("{}").lower()) or {}
+        sought = re.sub(r"(?i)^do not use\s*", "", soo.get("office") or r.get("OfficeSought") or "")
+        district = (soo.get("district") or r.get("District") or "") if soo.get("office") else (r.get("District") or "")
+        if not sought.strip():
+            continue
+        if off in ("house", "senate"):
+            dm = re.search(r"\d+", district)
+            # "Member House Of Delegates - Ptr" is still a House committee; the district must match the seat.
+            if ga_kind(re.sub(r"(?i)\s*-\s*ptr$", "", sought)) != off or not dm or int(dm.group()) != race["district"]:
+                continue
+        else:
+            lk = local_kind(sought)
+            kind = lk[0] if isinstance(lk, tuple) else lk
+            if kind != off or (off == "co" and (not isinstance(lk, tuple) or lk[1] != race["seat"])):
+                continue
+            if off != "co" and race["seat"] not in ("Chair", "At-Large") and dist_name(district).lower() != race["seat"].lower():
+                continue
+            soo = soo_fields(r["AccountId"].strip("{}").lower()) or {}
+            if RESIDENCE.get((soo.get("residence") or "").strip().lower()) != race.get("locality_id"):
+                continue
+        key = (r.get("SubmittedDate") or r.get("FilingDate") or "", int(r.get("ReportId") or 0))
+        if best is None or key > best[0]:
+            best = (key, r)
+    if not best:
+        return None
+    r = best[1]
+    return {"committee_url": COMMITTEE_URL.format(guid=r["AccountId"].strip("{}").lower()), "committee_name": r.get("CommitteeName"),
+            "election_cycle": r.get("ElectionCycle"), "latest_report_filed": (r.get("SubmittedDate") or r.get("FilingDate") or "")[:10] or None,
+            "do_not_use": (r.get("OfficeSought") or "").lower().startswith("do not use")}
 
 def check_flag(off, race):
     """The current officeholder has no counted committee but has a flagged record for this seat (final after 2026 money, or 'Do Not Use')."""

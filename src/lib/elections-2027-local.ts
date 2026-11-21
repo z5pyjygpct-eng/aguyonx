@@ -5,11 +5,11 @@
  * state campaign finance record (official), otherwise "Party not listed". Challengers are counted committee registrations
  * (stricter 2027 rule), not ballot listings. Incumbents are presumed to run (Scott's rule) whether or not they have filed.
  */
-import { isCheck, type Cand, type Member, type Race } from "./elections-2027.ts";
+import { isCheck, memberFinanceUrl, type Announced, type Cand, type Member, type Race } from "./elections-2027.ts";
 
 export type LocalOffice = "bos" | "sb" | "co";
 /** runningFor: the member is registered for another 2027 office, so they are not presumed to run for this seat. */
-export type LocalIncumbent = { member: Member; party: string | null; partyLabel: string | null; partySource: string | null; partyTitle: string | null; filed: boolean; runningFor: Member["running_for"] | null };
+export type LocalIncumbent = { member: Member; party: string | null; partyLabel: string | null; partySource: string | null; partyTitle: string | null; filed: boolean; runningFor: Member["running_for"] | null; financeUrl: string | null };
 export type LocalRow = {
   race: Race;
   office: LocalOffice;
@@ -20,6 +20,8 @@ export type LocalRow = {
   challengers: Cand[];
   /** Same party as the single incumbent: possible primary. Always empty for School Board. */
   same: Cand[];
+  /** Candidacies reported by our editor, not registered committees for this seat (shown apart, never counted). */
+  announced: { a: Announced; sameParty: boolean }[];
   check: boolean;
   /** Shared office: the race belongs to another locality (a city voting in its county's race). */
   sharedFrom?: string;
@@ -61,12 +63,13 @@ export function toLocalRow(r: Race, office: LocalOffice, sharedFrom?: string): L
     const partyTitle = m.party && m.party_election
       ? `Party from the Virginia Department of Elections candidate list, ${m.party_election}${m.party_elect_name && m.party_elect_name !== m.name ? ` (listed as ${m.party_elect_name})` : ""}${m.party_note ? `. ${m.party_note}` : ""}`
       : m.party && m.party_note ? m.party_note : party ? "Party as listed in the official record" : null;
-    return { member: m, party, partyLabel, partySource, partyTitle, filed: !!own, runningFor: m.running_for ?? null };
+    return { member: m, party, partyLabel, partySource, partyTitle, filed: !!own, runningFor: m.running_for ?? null, financeUrl: memberFinanceUrl(r, m, own) };
   });
   const rest = r.candidates.filter((c) => !ownOf(c));
   const single = incumbents.length === 1 && office !== "sb" ? incumbents[0].party : null;
   const isSame = (c: Cand) => !!single && c.party === single;
-  return { race: r, office, seat: r.seat, incumbents, challengers: rest.filter((c) => !isSame(c)), same: rest.filter(isSame), check: isCheck(r), ...(sharedFrom ? { sharedFrom } : {}) };
+  return { race: r, office, seat: r.seat, incumbents, challengers: rest.filter((c) => !isSame(c)), same: rest.filter(isSame),
+    announced: (r.announced ?? []).map((a) => ({ a, sameParty: !!single && a.party === single })), check: isCheck(r), ...(sharedFrom ? { sharedFrom } : {}) };
 }
 
 export type LocalView = { id: LocalOffice; label: (loc: LocInfo | undefined) => string };
@@ -107,6 +110,29 @@ export function summarize(sections: LocalSection[]): LocalSummary {
     challengers: rows.reduce((n, r) => n + r.challengers.length + r.same.length, 0),
     runningElsewhere: rows.reduce((n, r) => n + r.incumbents.filter((i) => i.runningFor).length, 0),
   };
+}
+
+/**
+ * Landing-tile gap summary for one locality (own races only): seats whose current member has no registered challenger yet.
+ * Board of Supervisors / City Council and Constitutional Officers are split by the incumbent's party; School Board is nonpartisan,
+ * so its seats count as "unchallenged". Counted per incumbent; a member running for another office is not counted for that seat.
+ * A same-party registration (possible primary) is not a challenger from the other side, so it does not close a gap.
+ */
+export type LocalGaps = { R: number; D: number; other: number; schoolBoard: number; total: number };
+export function localGaps(sections: LocalSection[]): LocalGaps {
+  const g: LocalGaps = { R: 0, D: 0, other: 0, schoolBoard: 0, total: 0 };
+  for (const r of sections.flatMap((s) => s.rows.filter((x) => !x.sharedFrom))) {
+    if (r.challengers.length) continue;
+    for (const i of r.incumbents) {
+      if (i.runningFor) continue;
+      if (r.office === "sb") g.schoolBoard++;
+      else if (i.party === "R") g.R++;
+      else if (i.party === "D") g.D++;
+      else g.other++;
+      g.total++;
+    }
+  }
+  return g;
 }
 
 /**

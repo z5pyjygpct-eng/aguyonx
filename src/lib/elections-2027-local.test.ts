@@ -2,8 +2,8 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import test from "node:test";
-import type { Cand, Race } from "./elections-2027.ts";
-import { endorsementFor, LOCAL_VIEWS, localSections, matchMember, sameName, summarize, toLocalRow, type LocalFile, type LocalOffice } from "./elections-2027-local.ts";
+import { candFinanceUrl, isFinanceUrl, memberFinanceUrl, type Cand, type Race } from "./elections-2027.ts";
+import { endorsementFor, LOCAL_VIEWS, localGaps, localSections, matchMember, sameName, summarize, toLocalRow, type LocalFile, type LocalOffice } from "./elections-2027-local.ts";
 
 const cand = (name: string, party: string | null, incumbent = false): Cand => ({ name, party, incumbent, party_source_url: null, filing_source_url: "x", committee_url: `cf/${name}` });
 const race = (id: string, members: { name: string; party?: string | null }[], candidates: Cand[], extra: Partial<Race> = {}): Race => ({
@@ -131,4 +131,60 @@ test("data: Franklin's stale Woodbridge committee is dropped with a reason; Zarg
   assert.equal(sbc.incumbents[0].member.name, "Lisa A. Zargarpur");
   assert.equal(sbc.incumbents[0].runningFor!.race_id, "prince-william-coles");
   assert.equal(sbc.incumbents[0].runningFor!.office_id, "bos");
+});
+
+test("tile gaps: per incumbent with no challenger; partisan split by incumbent party; School Board counts as unchallenged; same-party and running-elsewhere do not count", () => {
+  const sec = (view: LocalOffice, rows: ReturnType<typeof toLocalRow>[]) => ({ view, label: view, rows });
+  const bos = [
+    toLocalRow(race("a", [{ name: "Ann A", party: "R" }], [cand("Ann A", "R", true)]), "bos"),
+    toLocalRow(race("b", [{ name: "Bob B", party: "D" }], [cand("Bob B", "D", true), cand("Dan D", "D")]), "bos"),
+    toLocalRow(race("c", [{ name: "Cy C", party: "D" }], [cand("Rex R", "R")]), "bos"),
+    toLocalRow(race("e", [{ name: "Eve E", party: null }], []), "bos"),
+  ];
+  const run = race("f", [{ name: "Fay F", party: "D" }], []);
+  run.current_members![0].running_for = { office_id: "bos", race_id: "chair", office: "Chair" };
+  bos.push(toLocalRow(run, "bos"));
+  const sb = [toLocalRow(race("s1", [{ name: "Sue S" }, { name: "Sal T" }], [], { seats: 2 }), "sb"), toLocalRow(race("s2", [{ name: "Sam U" }], [cand("Ivy I", null)]), "sb")];
+  assert.deepEqual(localGaps([sec("bos", bos), sec("sb", sb)]), { R: 1, D: 1, other: 1, schoolBoard: 2, total: 5 });
+});
+
+test("finance links: only official committee pages; incumbents fall back to their latest official committee, then their own check flag; never guessed", () => {
+  const ok = "https://cfreports.elections.virginia.gov/Committee/Index/21c0c1c3-f8b4-e811-bffd-984be103f032";
+  assert.equal(isFinanceUrl(ok), true);
+  assert.equal(isFinanceUrl("https://example.com/Committee/Index/21c0c1c3-f8b4-e811-bffd-984be103f032"), false);
+  assert.equal(candFinanceUrl({ committee_url: "cf/x" }), null);
+  const r = race("g", [{ name: "Gil G", party: "D" }], []);
+  const m = r.current_members![0];
+  assert.equal(memberFinanceUrl(r, m), null);
+  m.finance_committee = { committee_url: ok, committee_name: "Friends of Gil" };
+  assert.equal(memberFinanceUrl(r, m), ok);
+  m.finance_committee = null;
+  r.check = { label: "x", member: "Gil G", note: "n", committee_url: ok };
+  assert.equal(memberFinanceUrl(r, m), ok);
+  r.check = { label: "x", member: "Someone Else", note: "n", committee_url: ok };
+  assert.equal(memberFinanceUrl(r, m), null);
+});
+
+test("data: every finance link in the data is an official committee page, and every counted committee has one", () => {
+  for (const o of ["house", "senate", "bos", "sb", "co"]) {
+    const races = (JSON.parse(fs.readFileSync(path.join(import.meta.dirname, `elections-2027-${o}.json`), "utf8")) as { races: Race[] }).races;
+    for (const r of races) {
+      for (const c of r.candidates) assert.ok(candFinanceUrl(c), `${o} ${r.id} ${c.name}`);
+      for (const m of r.current_members ?? (r.current_member ? [r.current_member] : [])) if (m.finance_committee) assert.ok(isFinanceUrl(m.finance_committee.committee_url), m.name);
+    }
+  }
+});
+
+test("data: Briskman is shown running for Loudoun Chair (editor's report, same party as Randall) and the Algonkian seat is marked, citing the official record", () => {
+  const chair = toLocalRow(files.bos.races.find((r) => r.id === "loudoun-chair")!, "bos");
+  assert.equal(chair.incumbents[0].member.name, "Phyllis J. Randall");
+  assert.deepEqual(chair.announced.map((x) => [x.a.name, x.sameParty]), [["Juli E. Briskman", true]]);
+  assert.match(chair.announced[0].a.note, /CC-18-00409.*Algonkian District.*final report/);
+  assert.ok(!chair.challengers.some((c) => /Briskman/.test(c.name)) && !chair.same.some((c) => /Briskman/.test(c.name)));
+  const alg = toLocalRow(files.bos.races.find((r) => r.id === "loudoun-algonkian")!, "bos");
+  assert.equal(alg.incumbents[0].runningFor!.race_id, "loudoun-chair");
+  assert.equal(alg.incumbents[0].runningFor!.basis, "editor");
+  assert.equal(alg.incumbents[0].financeUrl, "https://cfreports.elections.virginia.gov/Committee/Index/21c0c1c3-f8b4-e811-bffd-984be103f032");
+  const g = localGaps(localSections("loudoun", files).shown);
+  assert.equal(g.total, g.R + g.D + g.other + g.schoolBoard);
 });

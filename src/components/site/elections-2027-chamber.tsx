@@ -3,7 +3,8 @@ import { ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
 import HOUSE from "@/lib/elections-2027-house.json";
 import SENATE from "@/lib/elections-2027-senate.json";
-import type { Cand, Race } from "@/lib/elections-2027";
+import { candFinanceUrl, memberFinanceUrl, type Cand, type Race } from "@/lib/elections-2027";
+import { FinanceLink } from "@/components/site/finance-link";
 import { CHAMBER_VIEWS, NO_FILING_TAG, PRESUMED_NOTE, rowsForView, unclearSeats, VIEW_BY_ID, VIEW_GROUPS, type ChallengerRow, type ChamberView } from "@/lib/elections-2027-challengers";
 import { Card, Legend, MEMBER_ROUTE, REG_SOURCE, Tile, ext } from "@/components/site/elections-2027-seats";
 import { Election2027Hero } from "@/components/site/elections-2027-hero";
@@ -65,9 +66,12 @@ function Names({ cs, empty = "—" }: { cs: Cand[]; empty?: string }) {
   return (
     <ul className="space-y-1">
       {cs.map((c) => (
-        <li key={c.committee_code ?? c.name}>
-          <a href={c.committee_url ?? c.filing_source_url} {...ext} className="font-semibold text-white underline decoration-navy-line underline-offset-4 hover:decoration-gold">{c.name}</a>
-          {c.party !== "D" && c.party !== "R" ? <span className="text-xs text-on-dark-muted"> ({c.party === "Other" && c.party_label ? c.party_label : c.party ? "other party" : "party not listed"})</span> : null}
+        <li key={c.committee_code ?? c.name} className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <span>
+            <a href={c.committee_url ?? c.filing_source_url} {...ext} className="font-semibold text-white underline decoration-navy-line underline-offset-4 hover:decoration-gold">{c.name}</a>
+            {c.party !== "D" && c.party !== "R" ? <span className="text-xs text-on-dark-muted"> ({c.party === "Other" && c.party_label ? c.party_label : c.party ? "other party" : "party not listed"})</span> : null}
+          </span>
+          <FinanceLink url={candFinanceUrl(c)} name={c.name} />
         </li>
       ))}
     </ul>
@@ -82,14 +86,19 @@ function Incumbent({ row, office }: { row: ChallengerRow; office: ChamberOffice 
   const m = row.incumbent;
   return (
     <div>
-      <p className="font-semibold text-white">
+      <p className="flex flex-wrap items-center gap-x-2 gap-y-1 font-semibold text-white">
         {m.slug ? <Link to={`${MEMBER_ROUTE[office]}/${m.slug}` as never} className="underline decoration-navy-line underline-offset-4 hover:decoration-gold">{m.name}</Link> : m.name}
+        <FinanceLink url={memberFinanceUrl(row.race, m, row.race.candidates.find((c) => c.incumbent))} name={m.name} />
       </p>
       {row.status === "not-filed" ? <p className="mt-1"><NoFilingTag /></p> : null}
       {row.status === "check" && row.race.check ? (
         <p className="mt-1 text-xs text-[#fcd34d]"><span className="font-bold">! Check:</span> {row.race.check.note} <a href={row.race.check.committee_url} {...ext} className="text-gold underline">Committee record</a></p>
       ) : null}
-      {row.same.length ? <p className="mt-1 text-xs text-on-dark-muted">Also registered, same party: {row.same.map((c) => c.name).join(", ")}</p> : null}
+      {row.same.length ? (
+        <div className="mt-1 text-xs text-on-dark-muted">Also registered, same party:{" "}
+          {row.same.map((c) => <span key={c.committee_code ?? c.name} className="mr-2 inline-flex flex-wrap items-center gap-x-1.5">{c.name} <FinanceLink url={candFinanceUrl(c)} name={c.name} /></span>)}
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -164,7 +173,7 @@ export function ChamberPage({ office, s, onSeat }: { office: ChamberOffice; s: C
   const label = LABEL[office];
   return (
     <main className="agx-dark flex-1 bg-navy-800 text-white">
-      <Election2027Hero crumbs={[{ label: "2027 Election Dashboard", to: "/2027" }, { label }]} label={label} />
+      <Election2027Hero crumbs={[{ label: "2027 Election Dashboard", to: "/2027" }, { label }]} label={label} asOf={d.as_of} />
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-8">
         <div className={CARD}>
           <h2 className="font-serif text-2xl font-semibold uppercase">{office === "house" ? "House of Delegates: 100 districts" : "State Senate: 40 districts"}</h2>

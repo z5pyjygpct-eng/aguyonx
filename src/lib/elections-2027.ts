@@ -24,8 +24,13 @@ export type Member = {
   /** Party as the official record prints it ("Independent"), the election it comes from, and a note when the record's name differs. */
   party_label?: string | null; party_election?: string | null; party_elect_name?: string | null; party_note?: string | null;
   /** Registered for a different 2027 office: still this seat's current member, but not presumed to run for this seat. */
-  running_for?: { office_id: string; race_id: string; office: string; committee_url?: string | null } | null;
+  /** basis "editor": a candidacy reported by our editor, not (yet) a registered committee for that office; note says what the official record shows. */
+  running_for?: { office_id: string; race_id: string; office: string; committee_url?: string | null; basis?: string; note?: string } | null;
+  /** The member's most recent official committee for this seat when they have no counted 2027 committee (campaign finance link only). */
+  finance_committee?: { committee_url: string; committee_name: string; election_cycle?: string | null; latest_report_filed?: string | null; do_not_use?: boolean } | null;
 };
+/** A candidacy reported by our editor that is not a registered committee for this seat in the official record. Never counted as a registration. */
+export type Announced = { name: string; party: string | null; party_label?: string | null; basis: string; reported: string; finance_committee_url?: string | null; record_url?: string | null; note: string };
 export type Coverage = { locality_id: string; locality: string; coverage: "all" | "part"; precincts: number; locality_precincts: number; source_url: string };
 export type Race = {
   /** Committees dropped on review (e.g. stale: the registrant now holds another office), with the reason and its source. */
@@ -37,7 +42,21 @@ export type Race = {
   /** House / Senate only: covered localities this district includes all or part of (official registrant-by-precinct data). */
   localities?: Coverage[];
   check?: CheckFlag | null;
+  announced?: Announced[];
 };
+
+/** Campaign finance links go only to an official committee page on the state's campaign finance reports site. */
+const CF_COMMITTEE = /^https:\/\/cfreports\.elections\.virginia\.gov\/Committee\/Index\/[0-9a-f-]{36}$/i;
+export const isFinanceUrl = (u?: string | null): u is string => !!u && CF_COMMITTEE.test(u);
+export const candFinanceUrl = (c: Pick<Cand, "committee_url">): string | null => (isFinanceUrl(c.committee_url) ? c.committee_url : null);
+/**
+ * A current member's campaign finance page: their own counted 2027 committee, else their most recent official committee for this seat
+ * (finance_committee, from the state record), else the committee on the race's check flag when it is theirs. Never guessed: null otherwise.
+ */
+export function memberFinanceUrl(r: Race, m: Member, own?: Cand | null): string | null {
+  const urls = [own?.committee_url, m.finance_committee?.committee_url, r.check && r.check.member === m.name ? r.check.committee_url : null];
+  return urls.find(isFinanceUrl) ?? null;
+}
 export type Loc = { id: string; name: string; kind: string; body: string; on_2027: boolean };
 export type OfficeFile = { races: Race[]; localities?: Loc[] };
 export type Status = "contested" | "D" | "R" | "Other" | "unopposed" | "none";
