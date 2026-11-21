@@ -548,6 +548,20 @@ LOCAL_PARTY = _pp({
     ("co", "albemarle", "Commonwealth's Attorney"): ("Jim M. Hingeley", "Democratic", EL_2023, G23, None),
 })
 # House / Senate seats whose member list and LIS give no party: ELECT results for the member's own election.
+# Committees dropped as stale on review (approved by the editor): the registrant now holds another office, so a leftover committee
+# for the old seat is not a 2027 candidacy. (race id, committee name) -> reason + source.
+STALE_COMMITTEES = {
+    ("prince-william-woodbridge", "Margaret Angela Franklin"): {
+        "reason": "Stale: Margaret Angela Franklin left the Woodbridge supervisor seat and is now the member for House of Delegates District 23; "
+                  "her old Woodbridge supervisor committee is not a 2027 candidacy.",
+        "source_url": HOUSE_MEMBERS_URL},
+}
+# Current members registered for a different 2027 office: listed as the seat's current member, but not presumed to run for it.
+# (office, locality_id, seat, roster name) -> the race they are registered for. The build keeps the mark only if that race really
+# has their counted committee.
+RUNNING_ELSEWHERE = {
+    ("sb", "prince-william", "Coles", "Lisa A. Zargarpur"): {"office_id": "bos", "race_id": "prince-william-coles", "office": "Board of County Supervisors, Coles District"},
+}
 GA_PARTY = {("house", 20): {"last": "Luna", "party": "D",
                              "party_source_url": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General/ballot-items/01000000-f030-c43d-73f4-08df1fee5331",
                              "party_note": "Democratic in the Nov. 3, 2026 special election (ELECT results, unofficial until certified)"}}
@@ -673,6 +687,15 @@ def apply_rule(files, statewide_cov):
         for race in d["races"]:
             keep = []
             for c in race["candidates"]:
+                stale = STALE_COMMITTEES.get((race["id"], c["name"]))
+                if stale:
+                    for x in [c] + c.get("other_committees", []):
+                        x.pop("_soo", None); x.pop("_raised_2026", None)
+                    rep["dropped"].append({"race": race["id"], "name": c["name"], "party": c.get("party"), "committee_code": c.get("committee_code"),
+                                           "committee_url": c.get("committee_url"), "reason": stale["reason"]})
+                    race.setdefault("excluded", []).append({"name": c["name"], "party": c.get("party"), "committee_url": c.get("committee_url"),
+                                                            "reason": stale["reason"], "source_url": stale["source_url"]})
+                    continue
                 if c.get("filing_kind") != "registration":
                     keep.append(c)
                     continue

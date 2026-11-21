@@ -8,7 +8,8 @@
 import { isCheck, type Cand, type Member, type Race } from "./elections-2027.ts";
 
 export type LocalOffice = "bos" | "sb" | "co";
-export type LocalIncumbent = { member: Member; party: string | null; partyLabel: string | null; partySource: string | null; partyTitle: string | null; filed: boolean };
+/** runningFor: the member is registered for another 2027 office, so they are not presumed to run for this seat. */
+export type LocalIncumbent = { member: Member; party: string | null; partyLabel: string | null; partySource: string | null; partyTitle: string | null; filed: boolean; runningFor: Member["running_for"] | null };
 export type LocalRow = {
   race: Race;
   office: LocalOffice;
@@ -60,7 +61,7 @@ export function toLocalRow(r: Race, office: LocalOffice, sharedFrom?: string): L
     const partyTitle = m.party && m.party_election
       ? `Party from the Virginia Department of Elections candidate list, ${m.party_election}${m.party_elect_name && m.party_elect_name !== m.name ? ` (listed as ${m.party_elect_name})` : ""}${m.party_note ? `. ${m.party_note}` : ""}`
       : m.party && m.party_note ? m.party_note : party ? "Party as listed in the official record" : null;
-    return { member: m, party, partyLabel, partySource, partyTitle, filed: !!own };
+    return { member: m, party, partyLabel, partySource, partyTitle, filed: !!own, runningFor: m.running_for ?? null };
   });
   const rest = r.candidates.filter((c) => !ownOf(c));
   const single = incumbents.length === 1 && office !== "sb" ? incumbents[0].party : null;
@@ -96,7 +97,7 @@ export function localSections(slug: string, files: Record<LocalOffice, LocalFile
   return { shown, offBallot };
 }
 
-export type LocalSummary = { seats: number; incumbentsKnown: number; incumbentsFiled: number; challengers: number };
+export type LocalSummary = { seats: number; incumbentsKnown: number; incumbentsFiled: number; challengers: number; runningElsewhere: number };
 export function summarize(sections: LocalSection[]): LocalSummary {
   const rows = sections.flatMap((s) => s.rows.filter((r) => !r.sharedFrom));
   return {
@@ -104,6 +105,7 @@ export function summarize(sections: LocalSection[]): LocalSummary {
     incumbentsKnown: rows.reduce((n, r) => n + r.incumbents.length, 0),
     incumbentsFiled: rows.reduce((n, r) => n + r.incumbents.filter((i) => i.filed).length, 0),
     challengers: rows.reduce((n, r) => n + r.challengers.length + r.same.length, 0),
+    runningElsewhere: rows.reduce((n, r) => n + r.incumbents.filter((i) => i.runningFor).length, 0),
   };
 }
 

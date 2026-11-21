@@ -1320,30 +1320,6 @@
    "local_filing_source_url": "https://www.pwcvotes.org/ontheballot",
    "candidates": [
     {
-     "name": "Margaret Angela Franklin",
-     "incumbent": false,
-     "party": "D",
-     "party_label": "Democratic",
-     "endorsement": null,
-     "party_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/01005f4b-cab6-e811-bffd-984be103f032",
-     "filing_kind": "registration",
-     "label": "Registered campaign committee, not yet on the ballot",
-     "committee_name": "Margaret For Woodbridge",
-     "committee_code": "CC-18-00416",
-     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/01005f4b-cab6-e811-bffd-984be103f032",
-     "filing_source_url": "https://cfreports.elections.virginia.gov/Committee/Index/01005f4b-cab6-e811-bffd-984be103f032",
-     "statement_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/01005f4b-cab6-e811-bffd-984be103f032/pdf/cfreports",
-     "residence": "Prince William County",
-     "office_sought_record": "Member Board Of Supervisors",
-     "latest_report_filed": "7/15/2026",
-     "district_record": "Election - Woodbridge District",
-     "filed_date": null,
-     "filed_date_source_url": null,
-     "activity": [
-      "raised $2,600 on 2026 reports"
-     ]
-    },
-    {
      "name": "Oriella Abigail Mejia",
      "incumbent": false,
      "party": "D",
@@ -1380,7 +1356,16 @@
     }
    ],
    "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
-   "members_known": true
+   "members_known": true,
+   "excluded": [
+    {
+     "name": "Margaret Angela Franklin",
+     "party": "D",
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/01005f4b-cab6-e811-bffd-984be103f032",
+     "reason": "Stale: Margaret Angela Franklin left the Woodbridge supervisor seat and is now the member for House of Delegates District 23; her old Woodbridge supervisor committee is not a 2027 candidacy.",
+     "source_url": "https://house.vga.virginia.gov/members"
+    }
+   ]
   },
   {
    "id": "henrico-brookland",

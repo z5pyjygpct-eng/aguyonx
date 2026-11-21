@@ -104,3 +104,31 @@ test("data: rosters loaded for every covered board and office; partisan seats ca
   const hd20 = load("house").races.find((r) => r.district === 20)!;
   assert.equal(hd20.current_member!.party, "D");
 });
+
+test("running for another office: still the seat's member, tagged runningFor, never counted as filed; summary counts it", () => {
+  const r: Race = { ...race("sbc", [], [cand("Doug K", "D")]), current_members: [{ name: "Lisa Z", party: null, source_url: "roster", running_for: { office_id: "bos", race_id: "bc", office: "Board of County Supervisors, Coles District", committee_url: "cf/Lisa" } }] };
+  const row = toLocalRow(r, "sb");
+  assert.equal(row.incumbents[0].member.name, "Lisa Z");
+  assert.equal(row.incumbents[0].filed, false);
+  assert.equal(row.incumbents[0].runningFor!.race_id, "bc");
+  assert.deepEqual(row.challengers.map((c) => c.name), ["Doug K"]);
+});
+
+test("data: Franklin's stale Woodbridge committee is dropped with a reason; Zargarpur is a Coles supervisor challenger and runs elsewhere on the School Board", () => {
+  const load = (o: string) => JSON.parse(fs.readFileSync(path.join(import.meta.dirname, `elections-2027-${o}.json`), "utf8")) as { races: Race[] };
+  const bos = load("bos").races, sb = load("sb").races;
+  const wb = bos.find((r) => r.id === "prince-william-woodbridge")!;
+  assert.ok(!wb.candidates.some((c) => c.name === "Margaret Angela Franklin"));
+  const ex = wb.excluded!.find((x) => x.name === "Margaret Angela Franklin")!;
+  assert.match(ex.reason, /^Stale: .*House of Delegates District 23/);
+  assert.match(ex.source_url, /^https:\/\/house\.vga\.virginia\.gov\//);
+  const wbRow = toLocalRow(wb, "bos");
+  assert.equal(wbRow.incumbents[0].member.name, "Jeannie LaCroix");
+  assert.ok(!wbRow.challengers.some((c) => c.name === "Margaret Angela Franklin"));
+  const coles = toLocalRow(bos.find((r) => r.id === "prince-william-coles")!, "bos");
+  assert.ok(coles.challengers.some((c) => c.name === "Lisa Zargarpur"));
+  const sbc = toLocalRow(sb.find((r) => r.id === "prince-william-coles")!, "sb");
+  assert.equal(sbc.incumbents[0].member.name, "Lisa A. Zargarpur");
+  assert.equal(sbc.incumbents[0].runningFor!.race_id, "prince-william-coles");
+  assert.equal(sbc.incumbents[0].runningFor!.office_id, "bos");
+});

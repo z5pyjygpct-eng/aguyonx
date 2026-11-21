@@ -23,9 +23,13 @@ export type Member = {
   name: string; party: string | null; slug?: string | null; source_url: string; party_source_url?: string | null;
   /** Party as the official record prints it ("Independent"), the election it comes from, and a note when the record's name differs. */
   party_label?: string | null; party_election?: string | null; party_elect_name?: string | null; party_note?: string | null;
+  /** Registered for a different 2027 office: still this seat's current member, but not presumed to run for this seat. */
+  running_for?: { office_id: string; race_id: string; office: string; committee_url?: string | null } | null;
 };
 export type Coverage = { locality_id: string; locality: string; coverage: "all" | "part"; precincts: number; locality_precincts: number; source_url: string };
 export type Race = {
+  /** Committees dropped on review (e.g. stale: the registrant now holds another office), with the reason and its source. */
+  excluded?: { name: string; party: string | null; committee_url?: string | null; reason: string; source_url: string }[];
   id: string; seat: string; seats: number; source_url: string; filing_source_url: string; local_filing_source_url?: string; candidates: Cand[];
   shared_with?: { locality_id: string | null; locality: string; source_url: string }[];
   district?: number; locality?: string; locality_id?: string; body?: string; note?: string; note_source_url?: string;
