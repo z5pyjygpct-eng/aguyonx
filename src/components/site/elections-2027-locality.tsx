@@ -4,7 +4,8 @@ import { cn } from "@/lib/utils";
 import BOS from "@/lib/elections-2027-bos.json";
 import SB from "@/lib/elections-2027-sb.json";
 import CO from "@/lib/elections-2027-co.json";
-import type { Cand } from "@/lib/elections-2027";
+import { candFinanceUrl, type Cand } from "@/lib/elections-2027";
+import { FinanceLink } from "@/components/site/finance-link";
 import { PRESUMED_NOTE } from "@/lib/elections-2027-challengers";
 import { endorsementFor, LOCAL_VIEW_IDS, localSections, summarize, type LocalFile, type LocalOffice, type LocalRow, type LocalSection } from "@/lib/elections-2027-local";
 import { REG_SOURCE, ext } from "@/components/site/elections-2027-seats";
@@ -42,6 +43,7 @@ function Person({ c, badge }: { c: Cand; badge: boolean }) {
     <span className="inline-flex flex-wrap items-center gap-x-2 gap-y-1">
       <a href={c.committee_url ?? c.filing_source_url} {...ext} className="font-semibold text-white underline decoration-navy-line underline-offset-4 hover:decoration-gold">{c.name}</a>
       {badge ? <PartyBadge party={c.party} label={c.party_label} /> : null}
+      <FinanceLink url={candFinanceUrl(c)} name={c.name} />
     </span>
   );
 }
@@ -61,14 +63,38 @@ function Incumbents({ row }: { row: LocalRow }) {
           <p className="flex flex-wrap items-center gap-x-2 gap-y-1">
             <a href={i.member.source_url} {...ext} className="font-semibold text-white underline decoration-navy-line underline-offset-4 hover:decoration-gold">{i.member.name}</a>
             {sb ? null : <PartyBadge party={i.party} label={i.partyLabel} source={i.partySource} title={i.partyTitle} />}
+            <FinanceLink url={i.financeUrl} name={i.member.name} />
           </p>
           {i.runningFor ? (
-            <p className="mt-1"><a href={i.runningFor.committee_url ?? undefined} {...ext} title="Registered for another 2027 office, so not presumed to run for this seat" className="inline-flex rounded-full border border-gold/60 px-2 py-0.5 text-[11px] font-medium text-gold">Running for {i.runningFor.office}, not this seat</a></p>
+            <>
+              <p className="mt-1">
+                {i.runningFor.committee_url
+                  ? <a href={i.runningFor.committee_url} {...ext} title="Registered for another 2027 office, so not presumed to run for this seat" className="inline-flex rounded-full border border-gold/60 px-2 py-0.5 text-[11px] font-medium text-gold">Running for {i.runningFor.office}, not this seat</a>
+                  : <span title={i.runningFor.note ?? "Running for another 2027 office, so not presumed to run for this seat"} className="inline-flex rounded-full border border-gold/60 px-2 py-0.5 text-[11px] font-medium text-gold">Running for {i.runningFor.office}, not this seat</span>}
+              </p>
+              {i.runningFor.note ? <p className="mt-1 text-xs text-on-dark-muted">{i.runningFor.note}</p> : null}
+            </>
           ) : !i.filed && !row.check ? <p className="mt-1"><NoFilingTag /></p> : null}
         </div>
       ))}
       {row.check && row.race.check ? <p className="text-xs text-[#fcd34d]"><span className="font-bold">! Check:</span> {row.race.check.note} <a href={row.race.check.committee_url} {...ext} className="text-gold underline">Committee record</a></p> : null}
-      {row.same.length ? <p className="text-xs text-on-dark-muted">Also registered, same party (possible primary): {row.same.map((c) => c.name).join(", ")}</p> : null}
+      {row.same.length ? (
+        <div className="text-xs text-on-dark-muted">Also registered, same party (possible primary):{" "}
+          {row.same.map((c) => <span key={c.committee_code ?? c.name} className="mr-2 inline-flex flex-wrap items-center gap-x-1.5">{c.name} <FinanceLink url={candFinanceUrl(c)} name={c.name} /></span>)}
+        </div>
+      ) : null}
+      {row.announced.map(({ a, sameParty }) => (
+        <div key={a.name} className="rounded-md border border-gold/40 bg-navy-900/40 px-2 py-1.5 text-xs text-on-dark-muted" data-announced={a.name}>
+          <p className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <span>{sameParty ? "Also running, same party (possible primary):" : "Also running:"}</span>
+            <span className="font-semibold text-white">{a.name}</span>
+            {sb ? null : <PartyBadge party={a.party} label={a.party_label} />}
+            <span className="inline-flex rounded-full bg-gold px-2 py-0.5 text-[11px] font-bold text-navy-900">Running for {row.seat}</span>
+            <FinanceLink url={a.finance_committee_url} name={a.name} />
+          </p>
+          <p className="mt-1">{a.note}{a.record_url ? <> <a href={a.record_url} {...ext} className="text-gold underline">Statement of Organization</a></> : null}</p>
+        </div>
+      ))}
       {row.race.seats > 1 ? <p className="text-xs text-on-dark-muted">{row.race.seats} seats; the top {row.race.seats} win.</p> : null}
     </div>
   );
@@ -144,7 +170,7 @@ export function LocalityPage({ slug, s }: { slug: string; s: LocalitySearch }) {
   const asOf = FILES.bos.as_of;
   return (
     <main className="agx-dark flex-1 bg-navy-800 text-white">
-      <Election2027Hero crumbs={[{ label: "2027 Election Dashboard", to: "/2027" }, { label: name }]} label={name} />
+      <Election2027Hero crumbs={[{ label: "2027 Election Dashboard", to: "/2027" }, { label: name }]} label={name} asOf={asOf} />
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-8">
         {shown.length ? (
           <div className={CARD}>
@@ -176,7 +202,7 @@ export function LocalityPage({ slug, s }: { slug: string; s: LocalitySearch }) {
               </ul>
             ) : null}
             <p className="mt-5 text-xs text-on-dark-muted">
-              "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. {PRESUMED_NOTE}{own && sum.runningElsewhere ? ` Exception: ${sum.runningElsewhere === 1 ? "1 current member is" : `${sum.runningElsewhere} current members are`} registered for another 2027 office and not presumed to run for ${sum.runningElsewhere === 1 ? "that seat" : "those seats"}.` : ""} As of {fmtDate(asOf)}.{" "}
+              "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. {PRESUMED_NOTE}{own && sum.runningElsewhere ? ` Exception: ${sum.runningElsewhere === 1 ? "1 current member is" : `${sum.runningElsewhere} current members are`} running for another 2027 office and not presumed to run for ${sum.runningElsewhere === 1 ? "that seat" : "those seats"}.` : ""} As of {fmtDate(asOf)}.{" "}
               <a href={REG_SOURCE} {...ext} className="inline-flex items-center gap-1 text-gold underline">Virginia Department of Elections campaign finance reports <ExternalLink className="size-3" aria-hidden /></a>
             </p>
           </div>

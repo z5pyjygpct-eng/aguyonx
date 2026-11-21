@@ -414,6 +414,9 @@ def main():
     # A current member registered for another 2027 office: keep them as the seat's member, mark them as not running for it.
     races_by_id = {(k, r["id"]): r for k, d in files.items() for r in d["races"]}  # race ids repeat across offices
     report["running_elsewhere"] = []
+    for (o, rid), ann in REG.ANNOUNCED.items():
+        if (o, rid) in races_by_id:
+            races_by_id[(o, rid)]["announced"] = ann
     for d in files.values():
         for r in d["races"]:
             for m in r.get("current_members", []):
@@ -422,8 +425,13 @@ def main():
                     continue
                 t = races_by_id.get((rx["office_id"], rx["race_id"]))
                 c = next((c for c in (t or {}).get("candidates", []) if REG.same_person(c["name"], m["name"])), None)
+                a = next((a for a in REG.ANNOUNCED.get((rx["office_id"], rx["race_id"]), []) if REG.same_person(a["name"], m["name"])), None)
                 if c:
                     m["running_for"] = {"office_id": rx["office_id"], "race_id": rx["race_id"], "office": rx["office"], "committee_url": c.get("committee_url")}
+                elif a:
+                    m["running_for"] = {"office_id": rx["office_id"], "race_id": rx["race_id"], "office": rx["office"], "committee_url": None,
+                                        "basis": a["basis"], "note": a["note"]}
+                    c = a
                 report["running_elsewhere"].append({"race": r["id"], "member": m["name"], "target": rx["race_id"], "confirmed": bool(c)})
     common_rule = ("Counted: committees on the Nov. 2027 cycle, not closed, with a residence inside the seat and a 2027 signal "
                    "(registered in 2026 or later, a 2026 Statement of Organization naming 2027, money raised on a 2026 report, or the "

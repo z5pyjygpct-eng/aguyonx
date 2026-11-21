@@ -6,8 +6,9 @@ import SB from "@/lib/elections-2027-sb.json";
 import BOS from "@/lib/elections-2027-bos.json";
 import CO from "@/lib/elections-2027-co.json";
 import { cn } from "@/lib/utils";
-import { isNewCandidate, todayET, flatten, isCheck, localityOptions, MEMBER_NOT_FILED_NOTE, memberNotFiled, partyCount, PARTY_LABEL, statusOf, type Cand, type Entry, type Member, type OfficeFile, type PartyFilter, type Race, type Status } from "@/lib/elections-2027";
+import { candFinanceUrl, memberFinanceUrl, isNewCandidate, todayET, flatten, isCheck, localityOptions, MEMBER_NOT_FILED_NOTE, memberNotFiled, partyCount, PARTY_LABEL, statusOf, type Cand, type Entry, type Member, type OfficeFile, type PartyFilter, type Race, type Status } from "@/lib/elections-2027";
 import { highlight, type Term } from "@/lib/elections-2027-search";
+import { FinanceLink } from "@/components/site/finance-link";
 import { NO_FILING_TAG, PRESUMED_NOTE, presumedNoFiling, presumedStatus } from "@/lib/elections-2027-challengers";
 
 /** Shared 2027 seat grid pieces (status tiles, legend, district panel) used by /2027/races, /2027/delegates and /2027/senate. Moved unchanged from the /2027 route. */
@@ -87,6 +88,7 @@ export function MemberLine({ r, office, terms }: { r: Race; office: Office; term
         <span key={m.name}>
           {i ? ", " : ""}<span className="font-semibold text-white"><Hi text={m.name} terms={terms} /></span>
           {m.party ? ` (${PARTY_WORD(m.party)})` : ""}
+          {" "}<FinanceLink url={memberFinanceUrl(r, m, r.candidates.find((c) => c.incumbent && (ms.length === 1 || c.name.split(" ").pop() === m.name.split(" ").pop())))} name={m.name} />
           {m.slug && (office === "house" || office === "senate") ? <> <Link to={`${MEMBER_ROUTE[office]}/${m.slug}` as never} className="text-gold underline">member file</Link></> : null}
         </span>
       ))}
@@ -106,6 +108,7 @@ export function RegCandidate({ c, e, today, terms }: { c: Cand; e: Entry; today:
           {c.party === "Other" && c.party_label ? c.party_label : PARTY_WORD(c.party)}
         </span>
         <span className="text-xs font-normal text-on-dark-muted">{c.incumbent ? "Current member" : e.race.members_known ? "Challenger" : ""}</span>
+        <FinanceLink url={candFinanceUrl(c)} name={c.name} />
         {isNewCandidate(c, today) ? <span className="inline-flex min-h-5 items-center rounded-full bg-gold px-2 text-[10px] font-bold tracking-[0.14em] text-navy-900 uppercase" title="Registered in the last 7 days, by the official date">New</span> : null}
       </p>
       <p className="text-xs text-[#F6F3EA]">{c.label ?? "Registered campaign committee, not yet on the ballot"}</p>

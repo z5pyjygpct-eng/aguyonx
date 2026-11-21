@@ -5,7 +5,10 @@ import { Breadcrumbs, type Crumb } from "@/components/site/breadcrumbs";
  * 2027 Election hero, per Scott's mockups: same hero as the location dashboards (dashboard-template.tsx: gradient, red stripe,
  * gold serif kicker, 4xl/6xl serif title) with "2027" white + "Election" gold and an outlined label box (Dashboard, Delegates, Senate).
  */
-export function Election2027Hero({ crumbs, label, searchId = "dash-q" }: { crumbs: Crumb[]; label: string; searchId?: string }) {
+const fmtAsOf = (iso: string) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+
+/** asOf: the data date (YYYY-MM-DD) of the official records shown on the page, printed under the title. */
+export function Election2027Hero({ crumbs, label, searchId = "dash-q", asOf }: { crumbs: Crumb[]; label: string; searchId?: string; asOf?: string }) {
   return (
     <section className="relative bg-gradient-to-r from-navy-900 from-40% to-navy-700">
       <span aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-flag" />
@@ -16,6 +19,7 @@ export function Election2027Hero({ crumbs, label, searchId = "dash-q" }: { crumb
           <span>2027 <span className="text-gold">Election</span></span>
           <span className="inline-flex items-center rounded-md border-2 border-on-dark-muted/60 bg-navy-700/70 px-4 py-1.5 text-xl font-semibold tracking-[0.08em] text-on-dark-muted sm:text-3xl">{label}</span>
         </h1>
+        {asOf ? <p className="mt-4 text-sm font-medium text-on-dark-muted" data-as-of={asOf}>As of {fmtAsOf(asOf)} · from official state and county records</p> : null}
         <div className="mt-7"><HeroSearch id={searchId} placeholder="Search all or choose below" /></div>
       </div>
     </section>

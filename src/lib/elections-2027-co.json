@@ -695,7 +695,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Amy K. Ashworth"
+     "party_elect_name": "Amy K. Ashworth",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/393cc109-5c0f-e911-8e39-984be103f032",
+      "committee_name": "Friends of Amy Ashworth",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.pwcvotes.org/elected-officials",
@@ -770,7 +777,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Shannon L. Taylor"
+     "party_elect_name": "Shannon L. Taylor",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/128dd92a-c9c9-e111-b0b8-984be103f032",
+      "committee_name": "Taylor For VA",
+      "election_cycle": "11/2019",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://henrico.gov/registrar/elected-officials/",
@@ -1075,7 +1089,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Jim M. Hingeley"
+     "party_elect_name": "Jim M. Hingeley",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8e9dd654-0fbd-4916-96d8-ef9aa51cd62e",
+      "committee_name": "Jim for Albemarle",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2023-12-06",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",

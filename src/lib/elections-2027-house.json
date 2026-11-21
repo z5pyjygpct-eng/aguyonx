@@ -142,7 +142,14 @@
     "party": "D",
     "slug": "adele-y-mcclure",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3bcb7642-30c6-4bbb-ad4c-1e9cbcf84cae",
+     "committee_name": "Adele for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-14",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -153,7 +160,14 @@
      "party": "D",
      "slug": "adele-y-mcclure",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3bcb7642-30c6-4bbb-ad4c-1e9cbcf84cae",
+      "committee_name": "Adele for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-14",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -170,7 +184,14 @@
     "party": "D",
     "slug": "alfonso-h-lopez",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/453cdf80-34cd-e111-b0b8-984be103f032",
+     "committee_name": "Lopez for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -181,7 +202,14 @@
      "party": "D",
      "slug": "alfonso-h-lopez",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/453cdf80-34cd-e111-b0b8-984be103f032",
+      "committee_name": "Lopez for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -198,7 +226,14 @@
     "party": "D",
     "slug": "charniele-l-herring",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c1d29300-29cc-e111-b0b8-984be103f032",
+     "committee_name": "Friends of Charniele Herring",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -209,7 +244,14 @@
      "party": "D",
      "slug": "charniele-l-herring",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c1d29300-29cc-e111-b0b8-984be103f032",
+      "committee_name": "Friends of Charniele Herring",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -235,7 +277,14 @@
     "party": "D",
     "slug": "kirk-mcpike",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/40c88d84-e0bd-4f2b-b195-4a2c0b2cc4d1",
+     "committee_name": "Kirk McPike for Virginia",
+     "election_cycle": "2/2026",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -297,7 +346,14 @@
      "party": "D",
      "slug": "kirk-mcpike",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/40c88d84-e0bd-4f2b-b195-4a2c0b2cc4d1",
+      "committee_name": "Kirk McPike for Virginia",
+      "election_cycle": "2/2026",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -314,7 +370,14 @@
     "party": "D",
     "slug": "richard-c-sullivan-jr",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cc95380c-d405-e411-93f7-984be103f032",
+     "committee_name": "Rip Sullivan for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -325,7 +388,14 @@
      "party": "D",
      "slug": "richard-c-sullivan-jr",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cc95380c-d405-e411-93f7-984be103f032",
+      "committee_name": "Rip Sullivan for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -438,7 +508,14 @@
     "party": "D",
     "slug": "irene-shin",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/14e3beca-e495-4d1c-9a04-276b8837b333",
+     "committee_name": "Friends of Irene Shin",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-11-19",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -449,7 +526,14 @@
      "party": "D",
      "slug": "irene-shin",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/14e3beca-e495-4d1c-9a04-276b8837b333",
+      "committee_name": "Friends of Irene Shin",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-11-19",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -475,7 +559,14 @@
     "party": "D",
     "slug": "karrie-k-delaney",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7d2f0e7b-a758-e611-8e71-984be103f032",
+     "committee_name": "Karrie Delaney for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -486,7 +577,14 @@
      "party": "D",
      "slug": "karrie-k-delaney",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7d2f0e7b-a758-e611-8e71-984be103f032",
+      "committee_name": "Karrie Delaney for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -512,7 +610,14 @@
     "party": "D",
     "slug": "dan-i-helmer",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e7f614c0-cd95-e811-b888-984be103f032",
+     "committee_name": "Helmer for Virginia",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -523,7 +628,14 @@
      "party": "D",
      "slug": "dan-i-helmer",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e7f614c0-cd95-e811-b888-984be103f032",
+      "committee_name": "Helmer for Virginia",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -549,7 +661,14 @@
     "party": "D",
     "slug": "gretchen-m-bulova",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1b71b887-ae70-4c25-892f-22301c4509bb",
+     "committee_name": "Friends of Gretchen Bulova",
+     "election_cycle": "1/2026",
+     "latest_report_filed": "2026-07-14",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -585,7 +704,14 @@
      "party": "D",
      "slug": "gretchen-m-bulova",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1b71b887-ae70-4c25-892f-22301c4509bb",
+      "committee_name": "Friends of Gretchen Bulova",
+      "election_cycle": "1/2026",
+      "latest_report_filed": "2026-07-14",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -880,7 +1006,14 @@
     "party": "D",
     "slug": "laura-jane-cohen",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e9ecadc9-3f1e-4b5a-a001-3dd3d02395bb",
+     "committee_name": "Friends of Laura Jane Cohen",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -891,7 +1024,14 @@
      "party": "D",
      "slug": "laura-jane-cohen",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e9ecadc9-3f1e-4b5a-a001-3dd3d02395bb",
+      "committee_name": "Friends of Laura Jane Cohen",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -917,7 +1057,14 @@
     "party": "D",
     "slug": "paul-e-krizek",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ab3bf033-f4a6-e411-b268-984be103f032",
+     "committee_name": "Krizek for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -928,7 +1075,14 @@
      "party": "D",
      "slug": "paul-e-krizek",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ab3bf033-f4a6-e411-b268-984be103f032",
+      "committee_name": "Krizek for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -954,7 +1108,14 @@
     "party": "D",
     "slug": "garrett-mcguire",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/43f8ea86-5e0c-45e7-8235-4a24036537ce",
+     "committee_name": "Friends of Garrett McGuire",
+     "election_cycle": "1/2026",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -965,7 +1126,14 @@
      "party": "D",
      "slug": "garrett-mcguire",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/43f8ea86-5e0c-45e7-8235-4a24036537ce",
+      "committee_name": "Friends of Garrett McGuire",
+      "election_cycle": "1/2026",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -991,7 +1159,14 @@
     "party": "D",
     "slug": "kathy-k-l-tran",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7291f1d5-fbfc-e611-aa5a-984be103f032",
+     "committee_name": "Kathy Tran for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1002,7 +1177,14 @@
      "party": "D",
      "slug": "kathy-k-l-tran",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7291f1d5-fbfc-e611-aa5a-984be103f032",
+      "committee_name": "Kathy Tran for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -1028,7 +1210,14 @@
     "party": "D",
     "slug": "rozia-a-henson-jr",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1a98e344-62e6-4b7e-8843-f7c229e7354a",
+     "committee_name": "Henson For VA",
+     "election_cycle": "11/2027",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1039,7 +1228,14 @@
      "party": "D",
      "slug": "rozia-a-henson-jr",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1a98e344-62e6-4b7e-8843-f7c229e7354a",
+      "committee_name": "Henson For VA",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -1074,7 +1270,14 @@
     "slug": null,
     "source_url": "https://house.vga.virginia.gov/members",
     "party_source_url": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General/ballot-items/01000000-f030-c43d-73f4-08df1fee5331",
-    "party_note": "Democratic in the Nov. 3, 2026 special election (ELECT results, unofficial until certified)"
+    "party_note": "Democratic in the Nov. 3, 2026 special election (ELECT results, unofficial until certified)",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1d4263cf-43e3-4b1c-9943-df6c457ce5ec",
+     "committee_name": "Sonia Vasquez Luna for Delegate",
+     "election_cycle": "11/2026",
+     "latest_report_filed": "2026-11-13",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1086,7 +1289,14 @@
      "slug": null,
      "source_url": "https://house.vga.virginia.gov/members",
      "party_source_url": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General/ballot-items/01000000-f030-c43d-73f4-08df1fee5331",
-     "party_note": "Democratic in the Nov. 3, 2026 special election (ELECT results, unofficial until certified)"
+     "party_note": "Democratic in the Nov. 3, 2026 special election (ELECT results, unofficial until certified)",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1d4263cf-43e3-4b1c-9943-df6c457ce5ec",
+      "committee_name": "Sonia Vasquez Luna for Delegate",
+      "election_cycle": "11/2026",
+      "latest_report_filed": "2026-11-13",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -1120,7 +1330,14 @@
     "party": "D",
     "slug": "joshua-e-thomas",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/bb5304c6-eb71-4978-8dc7-a9bf4f8a41c5",
+     "committee_name": "Josh Thomas for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1131,7 +1348,14 @@
      "party": "D",
      "slug": "joshua-e-thomas",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/bb5304c6-eb71-4978-8dc7-a9bf4f8a41c5",
+      "committee_name": "Josh Thomas for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -1244,7 +1468,14 @@
     "party": "D",
     "slug": "margaret-a-franklin",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a245c3cf-848f-4e90-ba7c-3d75044514ad",
+     "committee_name": "Margaret for Virginia",
+     "election_cycle": "1/2026",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1255,7 +1486,14 @@
      "party": "D",
      "slug": "margaret-a-franklin",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a245c3cf-848f-4e90-ba7c-3d75044514ad",
+      "committee_name": "Margaret for Virginia",
+      "election_cycle": "1/2026",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -1344,7 +1582,14 @@
     "party": "D",
     "slug": "briana-d-sewell",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/28ce0306-06d5-4a75-87d3-11570eb808b5",
+     "committee_name": "Friends of Briana Sewell",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1355,7 +1600,14 @@
      "party": "D",
      "slug": "briana-d-sewell",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/28ce0306-06d5-4a75-87d3-11570eb808b5",
+      "committee_name": "Friends of Briana Sewell",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -1381,7 +1633,14 @@
     "party": "D",
     "slug": "jj-singh",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/37f1783c-8fe9-4cb1-b66f-428e06e010db",
+     "committee_name": "Friends of JJ Singh",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-14",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1392,7 +1651,14 @@
      "party": "D",
      "slug": "jj-singh",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/37f1783c-8fe9-4cb1-b66f-428e06e010db",
+      "committee_name": "Friends of JJ Singh",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-14",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -1418,7 +1684,14 @@
     "party": "D",
     "slug": "atoosa-r-reaser",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1faafb30-7bcf-40f8-82fb-e20190c0fd83",
+     "committee_name": "Elect Atoosa Reaser",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1429,7 +1702,14 @@
      "party": "D",
      "slug": "atoosa-r-reaser",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/1faafb30-7bcf-40f8-82fb-e20190c0fd83",
+      "committee_name": "Elect Atoosa Reaser",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -1455,7 +1735,14 @@
     "party": "D",
     "slug": "david-a-reid",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7bd18a27-b3d1-e611-a9fb-984be103f032",
+     "committee_name": "REID FOR DELEGATE",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-14",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1466,7 +1753,14 @@
      "party": "D",
      "slug": "david-a-reid",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7bd18a27-b3d1-e611-a9fb-984be103f032",
+      "committee_name": "REID FOR DELEGATE",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-14",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -1492,7 +1786,14 @@
     "party": "D",
     "slug": "marty-martinez",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/61308ea1-eb2f-4b2e-9ce9-56a395b6e81f",
+     "committee_name": "Marty for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-14",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1503,7 +1804,14 @@
      "party": "D",
      "slug": "marty-martinez",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/61308ea1-eb2f-4b2e-9ce9-56a395b6e81f",
+      "committee_name": "Marty for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-14",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -2067,7 +2375,14 @@
     "party": "D",
     "slug": "sam-rasoul",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fd45966d-314e-e311-8b11-984be103f032",
+     "committee_name": "Friends of Sam Rasoul for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-13",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -2078,7 +2393,14 @@
      "party": "D",
      "slug": "sam-rasoul",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fd45966d-314e-e311-8b11-984be103f032",
+      "committee_name": "Friends of Sam Rasoul for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-13",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -2252,7 +2574,14 @@
     "party": "D",
     "slug": "lily-v-franklin",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fd38283e-18b0-4474-b68e-9f0d2fbd4dca",
+     "committee_name": "Lily For Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -2288,7 +2617,14 @@
      "party": "D",
      "slug": "lily-v-franklin",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/fd38283e-18b0-4474-b68e-9f0d2fbd4dca",
+      "committee_name": "Lily For Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -2674,7 +3010,14 @@
     "party": "R",
     "slug": "wren-m-williams",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/07708018-67b8-402a-91aa-18c56611d56f",
+     "committee_name": "Wren Williams for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -2685,7 +3028,14 @@
      "party": "R",
      "slug": "wren-m-williams",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/07708018-67b8-402a-91aa-18c56611d56f",
+      "committee_name": "Wren Williams for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -3352,7 +3702,14 @@
     "party": "D",
     "slug": "may-nivar",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/6216fb8f-f364-42c5-bc38-4c66006559bc",
+     "committee_name": "Friends of May Nivar",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -3388,7 +3745,14 @@
      "party": "D",
      "slug": "may-nivar",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/6216fb8f-f364-42c5-bc38-4c66006559bc",
+      "committee_name": "Friends of May Nivar",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -3414,7 +3778,14 @@
     "party": "D",
     "slug": "rodney-t-willett",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7df69742-0c4f-e911-9f1a-984be103f032",
+     "committee_name": "Willett for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -3425,7 +3796,14 @@
      "party": "D",
      "slug": "rodney-t-willett",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7df69742-0c4f-e911-9f1a-984be103f032",
+      "committee_name": "Willett for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -3934,7 +4312,14 @@
     "party": "D",
     "slug": "joshua-g-cole",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cfb7de61-5d42-44e4-ad48-ed9945849051",
+     "committee_name": "Cole 4 VA",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -3970,7 +4355,14 @@
      "party": "D",
      "slug": "joshua-g-cole",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/cfb7de61-5d42-44e4-ad48-ed9945849051",
+      "committee_name": "Cole 4 VA",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -3987,7 +4379,14 @@
     "party": "D",
     "slug": "nicole-cole",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2a87544a-514a-41f7-82d8-15c9024ca610",
+     "committee_name": "Nicole Cole for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4023,7 +4422,14 @@
      "party": "D",
      "slug": "nicole-cole",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2a87544a-514a-41f7-82d8-15c9024ca610",
+      "committee_name": "Nicole Cole for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -4119,7 +4525,14 @@
     "party": "R",
     "slug": "m-keith-hodges",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/33b2c041-4ecf-e111-b0b8-984be103f032",
+     "committee_name": "Friends of Keith Hodges",
+     "election_cycle": "11/2027",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4156,7 +4569,14 @@
      "party": "R",
      "slug": "m-keith-hodges",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/33b2c041-4ecf-e111-b0b8-984be103f032",
+      "committee_name": "Friends of Keith Hodges",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -4173,7 +4593,14 @@
     "party": "D",
     "slug": "mark-c-downey",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8b3a192e-96ed-e811-94a7-984be103f032",
+     "committee_name": "Downey for Virginia",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-08-31",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4209,7 +4636,14 @@
      "party": "D",
      "slug": "mark-c-downey",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8b3a192e-96ed-e811-94a7-984be103f032",
+      "committee_name": "Downey for Virginia",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-08-31",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -4232,7 +4666,14 @@
     "party": "D",
     "slug": "shelly-a-simonds",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3e6493c5-f684-e711-b338-984be103f032",
+     "committee_name": "Simonds for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-13",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4243,7 +4684,14 @@
      "party": "D",
      "slug": "shelly-a-simonds",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3e6493c5-f684-e711-b338-984be103f032",
+      "committee_name": "Simonds for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-13",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -4260,7 +4708,14 @@
     "party": "D",
     "slug": "jessica-l-anderson",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/29ab9c72-f155-41d7-8d68-ca105c7968cd",
+     "committee_name": "Jessica Anderson for VA House of Delegates",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-23",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4296,7 +4751,14 @@
      "party": "D",
      "slug": "jessica-l-anderson",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/29ab9c72-f155-41d7-8d68-ca105c7968cd",
+      "committee_name": "Jessica Anderson for VA House of Delegates",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-23",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -4401,7 +4863,14 @@
     "party": "D",
     "slug": "leslie-chambers-mehta",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e0010a28-6fae-4920-8c28-48f3e6baeaf0",
+     "committee_name": "Leslie Mehta for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4412,7 +4881,14 @@
      "party": "D",
      "slug": "leslie-chambers-mehta",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e0010a28-6fae-4920-8c28-48f3e6baeaf0",
+      "committee_name": "Leslie Mehta for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -4676,7 +5152,14 @@
     "party": "D",
     "slug": "charlie-schmidt",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a925e6f0-c77d-4134-9897-31ba0d7aa394",
+     "committee_name": "Friends of Charlie Schmidt",
+     "election_cycle": "1/2026",
+     "latest_report_filed": "2026-07-16",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4687,7 +5170,14 @@
      "party": "D",
      "slug": "charlie-schmidt",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a925e6f0-c77d-4134-9897-31ba0d7aa394",
+      "committee_name": "Friends of Charlie Schmidt",
+      "election_cycle": "1/2026",
+      "latest_report_filed": "2026-07-16",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -4767,7 +5257,14 @@
     "party": "D",
     "slug": "rae-cousins",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0af17aea-fc9e-4152-acaf-382ca6106228",
+     "committee_name": "Friends of Rae C. Cousins",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4778,7 +5275,14 @@
      "party": "D",
      "slug": "rae-cousins",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0af17aea-fc9e-4152-acaf-382ca6106228",
+      "committee_name": "Friends of Rae C. Cousins",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -4795,7 +5299,14 @@
     "party": "D",
     "slug": "destiny-levere-bolling",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/787abc45-a439-42c8-97f0-e2b8f56e40fe",
+     "committee_name": "Destiny for Virginia",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4806,7 +5317,14 @@
      "party": "D",
      "slug": "destiny-levere-bolling",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/787abc45-a439-42c8-97f0-e2b8f56e40fe",
+      "committee_name": "Destiny for Virginia",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -4903,7 +5421,14 @@
     "party": "D",
     "slug": "kimberly-pope-adams",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/bb516e4c-4262-470d-8e26-e77951ecb75e",
+     "committee_name": "Kim Adams for Virginia",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -4914,7 +5439,14 @@
      "party": "D",
      "slug": "kimberly-pope-adams",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/bb516e4c-4262-470d-8e26-e77951ecb75e",
+      "committee_name": "Kim Adams for Virginia",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5033,7 +5565,14 @@
     "party": "D",
     "slug": "nadarius-e-clark",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3151ff6f-45b4-482a-9006-3b71e9ea5dc6",
+     "committee_name": "Nadarius Clark for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5070,7 +5609,14 @@
      "party": "D",
      "slug": "nadarius-e-clark",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3151ff6f-45b4-482a-9006-3b71e9ea5dc6",
+      "committee_name": "Nadarius Clark for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5142,7 +5688,14 @@
     "party": "D",
     "slug": "virgil-thornton",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/99555ee8-e4e9-4ccc-87af-ce4874c3284b",
+     "committee_name": "Friends of Virgil Thornton, Sr.",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5153,7 +5706,14 @@
      "party": "D",
      "slug": "virgil-thornton",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/99555ee8-e4e9-4ccc-87af-ce4874c3284b",
+      "committee_name": "Friends of Virgil Thornton, Sr.",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5278,7 +5838,14 @@
     "party": "D",
     "slug": "karen-r-carnegie",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/011bcedf-49ee-4128-a1c9-9b927ce69415",
+     "committee_name": "Carnegie for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5314,7 +5881,14 @@
      "party": "D",
      "slug": "karen-r-carnegie",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/011bcedf-49ee-4128-a1c9-9b927ce69415",
+      "committee_name": "Carnegie for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5331,7 +5905,14 @@
     "party": "R",
     "slug": "james-a-leftwich",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/42a30ff3-95c7-e211-b0eb-984be103f032",
+     "committee_name": "Leftwich for Delegate",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-02",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5342,7 +5923,14 @@
      "party": "R",
      "slug": "james-a-leftwich",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/42a30ff3-95c7-e211-b0eb-984be103f032",
+      "committee_name": "Leftwich for Delegate",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-02",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5467,7 +6055,14 @@
     "party": "D",
     "slug": "jackie-h-glass",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c166fb0d-b9c0-4784-b52a-ef294c101f31",
+     "committee_name": "Jackie Glass for Delegate",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-10-08",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5478,7 +6073,14 @@
      "party": "D",
      "slug": "jackie-h-glass",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/c166fb0d-b9c0-4784-b52a-ef294c101f31",
+      "committee_name": "Jackie Glass for Delegate",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-10-08",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5495,7 +6097,14 @@
     "party": "D",
     "slug": "phil-m-hernandez",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/483d4fbf-d6ac-4b7d-8ed8-0637df7ecec8",
+     "committee_name": "Phil for VA",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5531,7 +6140,14 @@
      "party": "D",
      "slug": "phil-m-hernandez",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/483d4fbf-d6ac-4b7d-8ed8-0637df7ecec8",
+      "committee_name": "Phil for VA",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5548,7 +6164,14 @@
     "party": "D",
     "slug": "alex-q-askew",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d347eb38-5c51-e911-9f1a-984be103f032",
+     "committee_name": "Friends of Alex Askew",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5559,7 +6182,14 @@
      "party": "D",
      "slug": "alex-q-askew",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/d347eb38-5c51-e911-9f1a-984be103f032",
+      "committee_name": "Friends of Alex Askew",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5631,7 +6261,14 @@
     "party": "D",
     "slug": "michael-b-feggans",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/754b05b0-848a-45ac-85d1-6d14de58ef7c",
+     "committee_name": "Michael Feggans for Virginia",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5642,7 +6279,14 @@
      "party": "D",
      "slug": "michael-b-feggans",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/754b05b0-848a-45ac-85d1-6d14de58ef7c",
+      "committee_name": "Michael Feggans for Virginia",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5659,7 +6303,14 @@
     "party": "R",
     "slug": "andrew-rice",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/083d219d-8905-48b1-9e5e-161b0bc2f367",
+     "committee_name": "Friends of Andrew Rice",
+     "election_cycle": "3/2026",
+     "latest_report_filed": "2026-07-01",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5670,7 +6321,14 @@
      "party": "R",
      "slug": "andrew-rice",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/083d219d-8905-48b1-9e5e-161b0bc2f367",
+      "committee_name": "Friends of Andrew Rice",
+      "election_cycle": "3/2026",
+      "latest_report_filed": "2026-07-01",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
@@ -5687,7 +6345,14 @@
     "party": "R",
     "slug": "anne-ferrell-tata",
     "source_url": "https://house.vga.virginia.gov/members",
-    "party_source_url": "https://lis.virginia.gov/"
+    "party_source_url": "https://lis.virginia.gov/",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/4a53db03-a3b8-4471-a806-d8ea63fb0c88",
+     "committee_name": "Friends of Anne Ferrell Tata",
+     "election_cycle": "11/2025",
+     "latest_report_filed": "2026-07-13",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -5748,7 +6413,14 @@
      "party": "R",
      "slug": "anne-ferrell-tata",
      "source_url": "https://house.vga.virginia.gov/members",
-     "party_source_url": "https://lis.virginia.gov/"
+     "party_source_url": "https://lis.virginia.gov/",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/4a53db03-a3b8-4471-a806-d8ea63fb0c88",
+      "committee_name": "Friends of Anne Ferrell Tata",
+      "election_cycle": "11/2025",
+      "latest_report_filed": "2026-07-13",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",

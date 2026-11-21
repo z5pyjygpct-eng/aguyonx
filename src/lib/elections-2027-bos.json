@@ -178,7 +178,19 @@
     }
    ],
    "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Juli E. Briskman",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "editor",
+     "reported": "2026-11-20",
+     "finance_committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/21c0c1c3-f8b4-e811-bffd-984be103f032",
+     "record_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/21c0c1c3-f8b4-e811-bffd-984be103f032/pdf/cfreports",
+     "note": "Running for Chair per our editor (Nov. 20, 2026); not yet a registered Chair committee. The official state record, checked Nov. 20, 2026, shows no Briskman committee for Chair: her only committee, Briskman for Supervisor (CC-18-00409), lists Member Board of Supervisors, Algonkian District on its Statement of Organization and filed a final report on Aug. 25, 2026."
+    }
+   ]
   },
   {
    "id": "loudoun-algonkian",
@@ -199,7 +211,22 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Juli E. Briskman"
+     "party_elect_name": "Juli E. Briskman",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/21c0c1c3-f8b4-e811-bffd-984be103f032",
+      "committee_name": "Briskman for Supervisor",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2026-08-25",
+      "do_not_use": false
+     },
+     "running_for": {
+      "office_id": "bos",
+      "race_id": "loudoun-chair",
+      "office": "Board of Supervisors Chair",
+      "committee_url": null,
+      "basis": "editor",
+      "note": "Running for Chair per our editor (Nov. 20, 2026); not yet a registered Chair committee. The official state record, checked Nov. 20, 2026, shows no Briskman committee for Chair: her only committee, Briskman for Supervisor (CC-18-00409), lists Member Board of Supervisors, Algonkian District on its Statement of Organization and filed a final report on Aug. 25, 2026."
+     }
     }
    ],
    "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
@@ -589,7 +616,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Jeffrey C. McKay"
+     "party_elect_name": "Jeffrey C. McKay",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e493291c-59fd-e811-8e39-984be103f032",
+      "committee_name": "Friends of Jeff McKay.",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-14",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
@@ -614,7 +648,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2025/2025-December-Special-Fairfax-County-Board-of-Supervisors-Candidates-List.xlsx",
      "party_election": "Dec. 2025 special",
-     "party_elect_name": "Rachna Sizemore Heizer"
+     "party_elect_name": "Rachna Sizemore Heizer",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7d1fb041-12d9-45a1-a3ae-f264d79ab478",
+      "committee_name": "Friends of Rachna Sizemore Heizer 2025",
+      "election_cycle": "12/2029",
+      "latest_report_filed": "2026-08-24",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
@@ -715,7 +756,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Walter L. Alcorn"
+     "party_elect_name": "Walter L. Alcorn",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/24b89014-df1f-e911-94e1-984be103f032",
+      "committee_name": "Friends of Walter Alcorn",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-06",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
@@ -842,7 +890,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Dalia A. Palchik"
+     "party_elect_name": "Dalia A. Palchik",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/2751f6ad-ec1f-e911-94e1-984be103f032",
+      "committee_name": "Friends of Dalia Palchik.",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
@@ -894,7 +949,14 @@
      "party_label": "Republican",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Patrick S. \"Pat\" Herrity"
+     "party_elect_name": "Patrick S. \"Pat\" Herrity",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/05779fad-a574-4bb0-9b8a-a9ec76467034",
+      "committee_name": "Friends of Pat Herrity III",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
@@ -919,7 +981,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Kathy L. Smith"
+     "party_elect_name": "Kathy L. Smith",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7186c012-aeab-e411-97fb-984be103f032",
+      "committee_name": "Kathy Smith For Supervisor",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-12",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
@@ -1148,7 +1217,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2025/2025NG-Local-09-30-2025.xlsx",
      "party_election": "Nov. 4, 2025 special",
-     "party_elect_name": "George T. Stewart"
+     "party_elect_name": "George T. Stewart",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5ca5ddf2-97f6-458c-98c6-7f8ab561ad0c",
+      "committee_name": "George For Gainesville",
+      "election_cycle": "11/2029",
+      "latest_report_filed": "2026-08-03",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
@@ -1352,7 +1428,14 @@
      "party_label": "Republican",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2026/3-10-2026-Candidate-List.xlsx",
      "party_election": "Mar. 10, 2026 special",
-     "party_elect_name": "Jeannie M. LaCroix"
+     "party_elect_name": "Jeannie M. LaCroix",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e83cac37-3094-4ce7-8223-caa25d02e99e",
+      "committee_name": "Jeannie4Woodbridge",
+      "election_cycle": "3/2026",
+      "latest_report_filed": "2026-07-14",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
@@ -1437,7 +1520,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Roscoe D. Cooper III"
+     "party_elect_name": "Roscoe D. Cooper III",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/77c6e3af-a62e-4688-be9a-6d06bbe1f753",
+      "committee_name": "Friends Of Roscoe D. Cooper III",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2023-12-14",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://henrico.gov/supervisors/",
@@ -1693,7 +1783,14 @@
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2026/2026-November-Local-Offices-Candidate-List-(rev-10-9-2026).xlsx",
      "party_election": "Nov. 3, 2026 special",
      "party_elect_name": "LeQuan M. Hylton",
-     "party_note": "Appointed interim Dale supervisor after Jim Holland's death (https://www.chesterfield.gov/1244/Dale-District---Holland); the only candidate on the ballot in the Nov. 3, 2026 special election (unofficial ELECT results: https://enr.elections.virginia.gov/results/public/chesterfield-county/elections/2026-November-General)."
+     "party_note": "Appointed interim Dale supervisor after Jim Holland's death (https://www.chesterfield.gov/1244/Dale-District---Holland); the only candidate on the ballot in the Nov. 3, 2026 special election (unofficial ELECT results: https://enr.elections.virginia.gov/results/public/chesterfield-county/elections/2026-November-General).",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/4e39411d-58cf-4d55-af4c-6302bf11d264",
+      "committee_name": "Friends of LeQuan Hylton",
+      "election_cycle": "11/2026",
+      "latest_report_filed": "2026-11-12",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.chesterfield.gov/1218/Board-of-Supervisors",
@@ -1820,7 +1917,14 @@
      "party_label": "Democratic",
      "party_source_url": "https://www.elections.virginia.gov/media/castyourballot/candidatelist/2023-november-general/2023-local-candidates.xlsx",
      "party_election": "Nov. 7, 2023 general",
-     "party_elect_name": "Bea LaPisto Kirtley"
+     "party_elect_name": "Bea LaPisto Kirtley",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/55fe84c3-914c-423b-8c0b-fb02c6f8ec03",
+      "committee_name": "Bea LaPisto Kirtley for Supervisor Committee",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2024-07-10",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://www.albemarle.org/government/elections/elected-officials",

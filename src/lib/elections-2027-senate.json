@@ -251,7 +251,14 @@
     "party": "R",
     "slug": "david-r-suetterlein",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ce1dd23c-eade-e411-924b-984be103f032",
+     "committee_name": "Suetterlein for Senate",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-16",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -288,7 +295,14 @@
      "party": "R",
      "slug": "david-r-suetterlein",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/ce1dd23c-eade-e411-924b-984be103f032",
+      "committee_name": "Suetterlein for Senate",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-16",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -593,7 +607,14 @@
     "party": "R",
     "slug": "tammy-brankley-mulchi",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/952089f3-2bbc-43fb-b7ee-7d37356e8fcf",
+     "committee_name": "Mulchi4Senate",
+     "election_cycle": "1/2028",
+     "latest_report_filed": "2026-07-21",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -630,7 +651,14 @@
      "party": "R",
      "slug": "tammy-brankley-mulchi",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/952089f3-2bbc-43fb-b7ee-7d37356e8fcf",
+      "committee_name": "Mulchi4Senate",
+      "election_cycle": "1/2028",
+      "latest_report_filed": "2026-07-21",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -711,7 +739,14 @@
     "party": "D",
     "slug": "r-creigh-deeds",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3104e684-02ca-e111-b0b8-984be103f032",
+     "committee_name": "Deeds for State Senate",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -747,7 +782,14 @@
      "party": "D",
      "slug": "r-creigh-deeds",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3104e684-02ca-e111-b0b8-984be103f032",
+      "committee_name": "Deeds for State Senate",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -963,7 +1005,14 @@
     "party": "D",
     "slug": "lashrecse-d-aird",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f8c31a6-68e5-4faf-a8e9-216d9b63a09d",
+     "committee_name": "Friends of Lashrecse Aird",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-16",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -974,7 +1023,14 @@
      "party": "D",
      "slug": "lashrecse-d-aird",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/0f8c31a6-68e5-4faf-a8e9-216d9b63a09d",
+      "committee_name": "Friends of Lashrecse Aird",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-16",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -1000,7 +1056,14 @@
     "party": "D",
     "slug": "lamont-bagby",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7f918f85-4b57-45f8-92cd-dc88a9245ae6",
+     "committee_name": "Friends of Lamont",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1011,7 +1074,14 @@
      "party": "D",
      "slug": "lamont-bagby",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/7f918f85-4b57-45f8-92cd-dc88a9245ae6",
+      "committee_name": "Friends of Lamont",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -1037,7 +1107,14 @@
     "party": "D",
     "slug": "michael-j-jones",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/340791cc-d869-45ad-bfe9-9da716cebad0",
+     "committee_name": "Mike Jones for State Senate",
+     "election_cycle": "11/2027",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1048,7 +1125,14 @@
      "party": "D",
      "slug": "michael-j-jones",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/340791cc-d869-45ad-bfe9-9da716cebad0",
+      "committee_name": "Mike Jones for State Senate",
+      "election_cycle": "11/2027",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -1074,7 +1158,14 @@
     "party": "D",
     "slug": "schuyler-t-vanvalkenburg",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3f70077a-84a5-4493-94e2-f58647c1366a",
+     "committee_name": "VanValkenburg For Virginia",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1085,7 +1176,14 @@
      "party": "D",
      "slug": "schuyler-t-vanvalkenburg",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/3f70077a-84a5-4493-94e2-f58647c1366a",
+      "committee_name": "VanValkenburg For Virginia",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -1191,7 +1289,14 @@
     "party": "D",
     "slug": "l-louise-lucas",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/228051b7-ad1f-4fcc-8248-d232ce53c3a9",
+     "committee_name": "L. Louise Lucas Campaign",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1202,7 +1307,14 @@
      "party": "D",
      "slug": "l-louise-lucas",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/228051b7-ad1f-4fcc-8248-d232ce53c3a9",
+      "committee_name": "L. Louise Lucas Campaign",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -1381,7 +1493,14 @@
     "party": "D",
     "slug": "aaron-r-rouse",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/bfa44b26-a836-4022-8292-f5026215a435",
+     "committee_name": "Rouse for Senate",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1392,7 +1511,14 @@
      "party": "D",
      "slug": "aaron-r-rouse",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/bfa44b26-a836-4022-8292-f5026215a435",
+      "committee_name": "Rouse for Senate",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -1781,7 +1907,14 @@
     "party": "D",
     "slug": "jeremy-s-mcpike",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/849aaad3-3b7a-e411-9388-984be103f032",
+     "committee_name": "McPike for Senate",
+     "election_cycle": "11/2019",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1792,7 +1925,14 @@
      "party": "D",
      "slug": "jeremy-s-mcpike",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/849aaad3-3b7a-e411-9388-984be103f032",
+      "committee_name": "McPike for Senate",
+      "election_cycle": "11/2019",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -1889,7 +2029,14 @@
     "party": "D",
     "slug": "russet-w-perry",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a83e0c52-fe37-4367-9ae8-c28322dfc112",
+     "committee_name": "Friends of Russet Perry",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-10-28",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1900,7 +2047,14 @@
      "party": "D",
      "slug": "russet-w-perry",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/a83e0c52-fe37-4367-9ae8-c28322dfc112",
+      "committee_name": "Friends of Russet Perry",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-10-28",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -1926,7 +2080,14 @@
     "party": "D",
     "slug": "kannan-srinivasan",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/82833f7a-2240-4709-ad16-283de71095fc",
+     "committee_name": "Kannan for Virginia",
+     "election_cycle": "1/2025",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1937,7 +2098,14 @@
      "party": "D",
      "slug": "kannan-srinivasan",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/82833f7a-2240-4709-ad16-283de71095fc",
+      "committee_name": "Kannan for Virginia",
+      "election_cycle": "1/2025",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -1963,7 +2131,14 @@
     "party": "D",
     "slug": "jennifer-d-carroll-foy",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/86d4c2b7-f7ad-4e82-a915-409d85979ec5",
+     "committee_name": "Jennifer Carroll Foy for State Senate",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -1974,7 +2149,14 @@
      "party": "D",
      "slug": "jennifer-d-carroll-foy",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/86d4c2b7-f7ad-4e82-a915-409d85979ec5",
+      "committee_name": "Jennifer Carroll Foy for State Senate",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -2158,7 +2340,14 @@
     "party": "D",
     "slug": "stella-g-pekarsky",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/dbe3c39d-e9fa-4241-8ad6-eae0a9c0c97d",
+     "committee_name": "Friends of Stella G Pekarsky",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -2169,7 +2358,14 @@
      "party": "D",
      "slug": "stella-g-pekarsky",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/dbe3c39d-e9fa-4241-8ad6-eae0a9c0c97d",
+      "committee_name": "Friends of Stella G Pekarsky",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -2195,7 +2391,14 @@
     "party": "D",
     "slug": "saddam-azlan-salim",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e7a265c4-b0ab-4888-912b-af0dfadbe6ec",
+     "committee_name": "Friends of Saddam Azlan Salim",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-15",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -2206,7 +2409,14 @@
      "party": "D",
      "slug": "saddam-azlan-salim",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/e7a265c4-b0ab-4888-912b-af0dfadbe6ec",
+      "committee_name": "Friends of Saddam Azlan Salim",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-15",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -2240,7 +2450,14 @@
     "party": "D",
     "slug": "jennifer-b-boysko",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/04e7e9eb-a6e2-e811-94a7-984be103f032",
+     "committee_name": "Friends of Jennifer Boysko",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-11-07",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -2251,7 +2468,14 @@
      "party": "D",
      "slug": "jennifer-b-boysko",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/04e7e9eb-a6e2-e811-94a7-984be103f032",
+      "committee_name": "Friends of Jennifer Boysko",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-11-07",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -2277,7 +2501,14 @@
     "party": "D",
     "slug": "elizabeth-bennett-parker",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/4023c208-0fd7-437d-a04f-233d2aa293b9",
+     "committee_name": "Friends of Elizabeth Bennett-Parker",
+     "election_cycle": "2/2026",
+     "latest_report_filed": "2026-07-10",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -2313,7 +2544,14 @@
      "party": "D",
      "slug": "elizabeth-bennett-parker",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/4023c208-0fd7-437d-a04f-233d2aa293b9",
+      "committee_name": "Friends of Elizabeth Bennett-Parker",
+      "election_cycle": "2/2026",
+      "latest_report_filed": "2026-07-10",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
@@ -2339,7 +2577,14 @@
     "party": "D",
     "slug": "barbara-a-favola",
     "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+    "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+    "finance_committee": {
+     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5b294cca-cecd-e111-b0b8-984be103f032",
+     "committee_name": "Favola for State Senate",
+     "election_cycle": "11/2023",
+     "latest_report_filed": "2026-07-07",
+     "do_not_use": false
+    }
    },
    "source_url": "https://www.elections.virginia.gov/media/boardpapers/calendar/Five_year_election_day_calendar-2026_2030.pdf",
    "filing_source_url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/",
@@ -2350,7 +2595,14 @@
      "party": "D",
      "slug": "barbara-a-favola",
      "source_url": "https://apps.senate.virginia.gov/Senator/index.php",
-     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php"
+     "party_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
+     "finance_committee": {
+      "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/5b294cca-cecd-e111-b0b8-984be103f032",
+      "committee_name": "Favola for State Senate",
+      "election_cycle": "11/2023",
+      "latest_report_filed": "2026-07-07",
+      "do_not_use": false
+     }
     }
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",

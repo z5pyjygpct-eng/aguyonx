@@ -4,6 +4,14 @@ import { SiteShell } from "@/components/site/shell";
 import { Election2027Hero } from "@/components/site/elections-2027-hero";
 import { election2027News } from "@/lib/news-2027-elections";
 import { E27_GA, E27_LOCAL, E27_NEWS_SHOWN, type E27Button } from "@/lib/election-2027-dashboard";
+import HOUSE from "@/lib/elections-2027-house.json";
+import SENATE from "@/lib/elections-2027-senate.json";
+import BOS from "@/lib/elections-2027-bos.json";
+import SB from "@/lib/elections-2027-sb.json";
+import CO from "@/lib/elections-2027-co.json";
+import type { Race } from "@/lib/elections-2027";
+import { rowsForView, VIEW_BY_ID } from "@/lib/elections-2027-challengers";
+import { localGaps, localSections, type LocalFile, type LocalOffice } from "@/lib/elections-2027-local";
 
 /**
  * /2027: 2027 Election Dashboard landing page. Same hero, search bar, column cards, tiles and gold News box
@@ -26,9 +34,49 @@ function fmt(d: string) {
   return new Date(Date.UTC(y, m - 1, day)).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
 }
 
+/**
+ * Gap badges: computed from the same data and logic as the Delegates / Senate "Challenger Gaps" views and the locality tables, so
+ * they update with every data build. Coming-soon tiles get none.
+ */
+type Pill = { key: string; text: string; cls: string };
+type TileGaps = { pills: Pill[]; aria: string };
+const PILL_R = "bg-flag text-white", PILL_D = "bg-[#2563c9] text-white", PILL_O = "bg-slate-500 text-white";
+const GA_DATA: Record<string, Race[]> = { house: (HOUSE as unknown as { races: Race[] }).races, senate: (SENATE as unknown as { races: Race[] }).races };
+const LOCAL_FILES = { bos: BOS, sb: SB, co: CO } as unknown as Record<LocalOffice, LocalFile>;
+const AS_OF = (HOUSE as { as_of: string }).as_of;
+const seats = (n: number) => `${n} ${n === 1 ? "seat" : "seats"}`;
+
+function gaGaps(races: Race[]): TileGaps {
+  const r = rowsForView(races, VIEW_BY_ID.get("r-gaps")!).length;
+  const d = rowsForView(races, VIEW_BY_ID.get("d-gaps")!).length;
+  return {
+    pills: [{ key: "R", text: `R gaps ${r}`, cls: PILL_R }, { key: "D", text: `D gaps ${d}`, cls: PILL_D }],
+    aria: `No challenger yet: ${seats(r)} held by Republicans, ${seats(d)} held by Democrats`,
+  };
+}
+function tileGaps(b: E27Button): TileGaps | null {
+  if (b.soon) return null;
+  if (GA_DATA[b.slug]) return gaGaps(GA_DATA[b.slug]);
+  const { shown } = localSections(b.slug, LOCAL_FILES);
+  if (!shown.some((s) => s.rows.some((r) => !r.sharedFrom))) return null;
+  const g = localGaps(shown);
+  const partisan = shown.some((s) => s.view !== "sb" && s.rows.some((r) => !r.sharedFrom));
+  const sb = shown.some((s) => s.view === "sb" && s.rows.some((r) => !r.sharedFrom));
+  const pills: Pill[] = [];
+  const words: string[] = [];
+  if (partisan) {
+    pills.push({ key: "R", text: `R ${g.R}`, cls: PILL_R }, { key: "D", text: `D ${g.D}`, cls: PILL_D });
+    words.push(`${seats(g.R)} held by Republicans`, `${seats(g.D)} held by Democrats`);
+    if (g.other) { pills.push({ key: "O", text: `Other ${g.other}`, cls: PILL_O }); words.push(`${seats(g.other)} held by others or party not listed`); }
+  }
+  if (sb) { pills.push({ key: "SB", text: `School Board ${g.schoolBoard}`, cls: PILL_O }); words.push(`${seats(g.schoolBoard)} on the School Board`); }
+  return { pills, aria: `No challenger yet: ${words.join(", ")}` };
+}
+
 const TILE = "flex min-h-[72px] items-center gap-4 rounded-xl border border-navy-line bg-navy-800 px-5 py-3";
 
 function Tile({ b, icon: Icon }: { b: E27Button; icon: typeof Users }) {
+  const gaps = tileGaps(b);
   return (
     <Link
       to={b.to as never}
@@ -42,6 +90,12 @@ function Tile({ b, icon: Icon }: { b: E27Button; icon: typeof Users }) {
       </span>
       <span className="min-w-0 flex-1">
         <span className="block text-lg font-semibold">{b.label}</span>
+        {gaps ? (
+          <span className="mt-1.5 flex flex-wrap items-center gap-1.5" aria-label={gaps.aria} role="note" data-gaps={b.slug}>
+            <span aria-hidden className="text-xs text-on-dark-muted">No challenger yet:</span>
+            {gaps.pills.map((p) => <span key={p.key} aria-hidden className={`inline-flex whitespace-nowrap rounded-full px-2 py-0.5 font-mono text-xs font-bold ${p.cls}`}>{p.text}</span>)}
+          </span>
+        ) : null}
         {b.soon ? <span className="mt-1 inline-flex whitespace-nowrap rounded-full bg-on-dark-muted px-3 py-0.5 text-xs font-bold text-navy-800">Coming soon</span> : null}
       </span>
       <ArrowRight className={`size-5 shrink-0 ${b.soon ? "text-night-muted" : "text-gold"}`} aria-hidden />
@@ -57,7 +111,7 @@ function Page() {
   return (
     <SiteShell>
       <main className="agx-dark flex-1 bg-navy-800 text-white">
-        <Election2027Hero crumbs={[{ label: "2027 Election" }]} label="Dashboard" />
+        <Election2027Hero crumbs={[{ label: "2027 Election" }]} label="Dashboard" asOf={AS_OF} />
         <section className="mx-auto max-w-7xl px-4 py-10 sm:px-8">
           <div className="grid min-w-0 gap-6 lg:grid-cols-2">
             <div id="general-assembly" className={CARD}>
@@ -100,7 +154,7 @@ function Page() {
             )}
           </section>
           <p className="mt-8 text-sm text-night-muted">
-            "Coming soon" means we have no 2027 race data posted for that locality yet. Race data comes only from official records (Virginia Department of Elections and each locality's elections office).
+            "No challenger yet" counts seats where the current officeholder has no registered 2027 challenger from another party (or any challenger, for the nonpartisan School Board) in the state's campaign finance records. R and D are the officeholder's party. "Coming soon" means we have no 2027 race data posted for that locality yet. Race data comes only from official records (Virginia Department of Elections and each locality's elections office).
           </p>
         </section>
       </main>
