@@ -580,6 +580,13 @@ ANNOUNCED = {
         "note": "Running for Chair per our editor (Nov. 20, 2026); not yet a registered Chair committee. The official state record, checked "
                 "Nov. 20, 2026, shows no Briskman committee for Chair: her only committee, Briskman for Supervisor (CC-18-00409), lists "
                 "Member Board of Supervisors, Algonkian District on its Statement of Organization and filed a final report on Aug. 25, 2026."}],
+    ("bos", "loudoun-sterling"): [{
+        "name": "Vicky Hu", "party": "D", "party_label": "Democratic", "basis": "editor", "reported": "2026-11-16",
+        "note": "Announced a run for Sterling District Supervisor in Loudoun Now on Nov. 16, 2026 "
+                "(https://www.loudounnow.com/news/hu-announces-run-for-sterling-district-supervisor/article_112f7f3e-21c1-4125-a193-1a541fcaa63c.html). "
+                "She is seeking the Democratic nomination, challenging incumbent Koran T. Saines in the 2027 Democratic primary. "
+                "This is her own announcement, not an official filing: she is not on the ballot, and no registered 2027 committee for her "
+                "appears in the official state campaign finance record used for this dashboard."}],
 }
 GA_PARTY = {("house", 20): {"last": "Luna", "party": "D",
                              "party_source_url": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General/ballot-items/01000000-f030-c43d-73f4-08df1fee5331",

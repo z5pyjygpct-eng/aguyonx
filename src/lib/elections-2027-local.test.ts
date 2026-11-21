@@ -189,6 +189,25 @@ test("data: Briskman is shown running for Loudoun Chair (editor's report, same p
   assert.equal(g.total, g.R + g.D + g.other + g.schoolBoard);
 });
 
+test("data: Vicky Hu is an announced Democratic primary challenger to Saines in Sterling, not a counted committee", () => {
+  const st = toLocalRow(files.bos.races.find((r) => r.id === "loudoun-sterling")!, "bos");
+  assert.equal(st.incumbents[0].member.name, "Koran T. Saines");
+  assert.equal(st.incumbents[0].party, "D");
+  assert.deepEqual(st.announced.map((x) => [x.a.name, x.a.party, x.a.party_label, x.sameParty]), [["Vicky Hu", "D", "Democratic", true]]);
+  assert.equal(st.announced[0].a.basis, "editor");
+  assert.equal(st.announced[0].a.reported, "2026-11-16");
+  assert.match(st.announced[0].a.note, /Loudoun Now.*Nov\. 16, 2026/);
+  assert.match(st.announced[0].a.note, /Democratic primary/);
+  assert.match(st.announced[0].a.note, /not an official filing/);
+  assert.match(st.announced[0].a.note, /not on the ballot/);
+  assert.match(st.announced[0].a.note, /no registered 2027 committee/);
+  assert.ok(st.announced[0].a.note.includes("https://www.loudounnow.com/news/hu-announces-run-for-sterling-district-supervisor/article_112f7f3e-21c1-4125-a193-1a541fcaa63c.html"));
+  assert.equal(st.announced[0].a.finance_committee_url ?? null, null);
+  assert.equal(st.challengers.length, 0);
+  assert.ok(!st.same.some((c) => /Hu/.test(c.name)) && !st.challengers.some((c) => /Hu/.test(c.name)));
+  assert.equal(JSON.stringify(st.race).toLowerCase().includes("vpap"), false);
+});
+
 test("How to Use 2027 Election Dashboard: bullets carry the data date and cover every feature Scott listed", async () => {
   const { e27HowtoBullets, E27_HOWTO_TITLE } = await import("./election-2027-howto.ts");
   const b = e27HowtoBullets("2026-11-19");
