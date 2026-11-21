@@ -2,6 +2,8 @@ import { useMemo, type ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { ExternalLink, Search } from "lucide-react";
 import { PlainSummaryModal } from "@/components/site/plain-summary-modal";
+import { HowToUseModal } from "@/components/site/how-to-use-modal";
+import { BILLS_HOWTO_BULLETS, BILLS_HOWTO_CLOSE, BILLS_HOWTO_TITLE } from "@/lib/va2027-bills-howto";
 import { billTextVersionLabel, editorialLabelFor, pendingMessageFor, summaryFor } from "@/lib/va2027-bill-summaries";
 import { SiteShell } from "@/components/site/shell";
 import { V4Main } from "@/components/site/lcps-v4";
@@ -111,6 +113,9 @@ function Virginia2027BillsPage() {
             <h1 className="mt-2 font-serif text-4xl font-bold uppercase leading-[1.05] sm:text-6xl">
               Virginia 2027 <span className="text-gold">bills</span>
             </h1>
+            <div className="mt-4">
+              <HowToUseModal title={BILLS_HOWTO_TITLE} closeLabel={BILLS_HOWTO_CLOSE} bullets={BILLS_HOWTO_BULLETS} />
+            </div>
             <p className="mt-4 max-w-3xl text-base text-on-dark-muted sm:text-lg">
               {fresh.length} new filings for the {LEDGER.meta.session_label}. Continued 2026 measures stay off this list until you choose Continued from 2026.
             </p>
