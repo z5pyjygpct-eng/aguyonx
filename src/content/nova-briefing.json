@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,122 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-21",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Friday, Nov 20) local clips for Fairfax, Loudoun, Prince William and Arlington, verified live (HTTP 200, headline matched outlet RSS/page title, Nov 20 publish time confirmed in page metadata; none already in items.csv or news.ts). Sources checked: RSS from ARLnow, FFXnow, Potomac Local, WTOP local and Loudoun Times-Mirror; Blue Ridge Leader feed returned no Nov 20 items; Loudoun Now feed returned 404 and InsideNoVA, Prince William Times and Fairfax County Times were not covered. Excluded: debriefs/morning notes, business openings, event/lifestyle items, polls, statewide/national stories, and unclear-locality items. news.ts items dated Nov 20 were all statewide, so none mirrored in.",
+      "items": [
+        {
+          "id": "potential-gas-leaks-at-swanson-middle-school-have-arlnow-2026-11-20",
+          "county": "Arlington",
+          "headline": "Potential gas leaks at Swanson Middle School have led to repeated evacuations",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/20/potential-gas-leaks-at-swanson-middle-school-have-led-to-repeated-evacuations/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-who-shot-new-owner-of-his-family-s-mount-verno-ffxnow-2026-11-20",
+          "county": "Fairfax",
+          "headline": "Man who shot new owner of his family’s Mount Vernon home will go to prison",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/20/man-who-shot-new-owner-of-his-familys-mount-vernon-home-will-go-to-prison/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-s-newly-retired-health-director-lauded-for-ffxnow-2026-11-20",
+          "county": "Fairfax",
+          "headline": "Fairfax’s newly retired health director lauded for career of life-saving service",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/20/fairfax-countys-newly-retired-health-director-lauded-for-career-of-life-saving-service/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "now-police-search-underway-after-reported-robbery-ffxnow-2026-11-20",
+          "county": "Fairfax",
+          "headline": "NOW: Police search underway after reported robbery in Scotts Run area of Tysons",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/20/now-police-search-underway-after-robbery-in-scotts-run-area-of-tysons/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-pleads-guilty-in-girlfriend-s-stabbing-death-o-ffxnow-2026-11-20",
+          "county": "Fairfax",
+          "headline": "Man pleads guilty in girlfriend’s stabbing death outside her Annandale workplace",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/20/man-pleads-guilty-in-girlfriends-stabbing-death-outside-her-annandale-workplace/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "how-fairfax-nurses-are-ensuring-kids-fighting-canc-wtop-2026-11-20",
+          "county": "Fairfax",
+          "headline": "How Fairfax nurses are ensuring kids fighting cancer don’t go hungry",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/how-fairfax-nurses-are-ensuring-kids-fighting-cancer-dont-go-hungry/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "back-in-the-u-s-manassas-cops-nab-deported-suspect-potomaclocal-2026-11-20",
+          "county": "Prince William",
+          "headline": "Back in the U.S.: Manassas cops nab deported suspect on aggravated sexual battery charge",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/20/manassas-police-arrest-freddy-ramos-guerra-aggravated-sexual-battery/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-d-c-man-arrested-in-2022-woodbridge-potomaclocal-2026-11-20",
+          "county": "Prince William",
+          "headline": "Police Blotter: D.C. man arrested in 2022 Woodbridge felony eluding case",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/20/police-blotter-2026-11-20/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "three-crashes-in-one-week-at-devlin-road-and-jenne-potomaclocal-2026-11-20",
+          "county": "Prince William",
+          "headline": "Three crashes in one week at Devlin Road and Jennell Drive in Bristow work zone",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/20/three-crashes-one-week-devlin-road-jennell-drive-bristow/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "potomac-avenue-paving-in-quantico-sends-traffic-to-potomaclocal-2026-11-20",
+          "county": "Prince William",
+          "headline": "Potomac Avenue paving in Quantico sends traffic to Broadway Street gate",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/20/quantico-potomac-avenue-paving-broadway-street-gate/",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "loudoun-s-state-legislative-program-takes-shape-ltm-2026-11-20",
+          "county": "Loudoun",
+          "headline": "Loudoun’s state legislative program takes shape",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/politics_and_government/levels_of_government/county/loudoun-s-state-legislative-program-takes-shape/article_4daceeaa-cf10-4034-a91f-45d494cdbbc1.html",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "county-confronts-another-increase-in-youth-overdos-ltm-2026-11-20",
+          "county": "Loudoun",
+          "headline": "County confronts another increase in youth overdoses",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/county-confronts-another-increase-in-youth-overdoses/article_e63a714d-5c5e-4b27-b5e4-c5a079be44db.html",
+          "published": "2026-11-20",
+          "tier": "Reported Claim"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "status": "ok",
