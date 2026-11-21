@@ -546,3 +546,12 @@ test("status filter and default view stay honest for Left in Committee cards", (
   const referred = bills[0]!.status_label;
   assert.equal(filterBills(bills, { status: referred }).length, statusOptions(bills).find((o) => o.value === referred)?.count);
 });
+
+test("How to Use 2027 Virginia Bills: bullets name only filters that exist on the page", async () => {
+  const { BILLS_HOWTO_BULLETS, BILLS_HOWTO_TITLE } = await import("./va2027-bills-howto.ts");
+  const { FILED_WINDOWS } = await import("./virginia-2027-bills.ts");
+  assert.equal(BILLS_HOWTO_TITLE, "How to Use 2027 Virginia Bills");
+  const all = BILLS_HOWTO_BULLETS.join(" ");
+  for (const w of FILED_WINDOWS) assert.ok(all.includes(w.label), w.label);
+  for (const w of ["New 2027 filings", "Continued from 2026", "Chief patron party", "Patron, Chamber, Party, and Status", "Summary of Bill", "Left in Committee", "LIS"]) assert.ok(all.includes(w), w);
+});
