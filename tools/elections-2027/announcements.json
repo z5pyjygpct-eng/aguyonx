@@ -1,0 +1,16 @@
+{
+  "note": "Manual sourced announcements for counted 2027 candidates. These are the candidate's own public announcements, not official filings or ballot status. tools/elections-2027/build.py applies them after the official-record rebuild so the weekday data refresh does not wipe them. Each entry matches office + race_id + name (same-person).",
+  "candidates": [
+    {
+      "office": "house",
+      "race_id": "hd14",
+      "name": "Vivian E. Watts",
+      "announcement": {
+        "date": "2026-11-20",
+        "text": "Announced re-election Nov 20, 2026",
+        "source_url": "https://x.com/TylerEnglander/status/2123870156665536861",
+        "source_label": "Her press release, via Tyler Englander (8News Capitol)"
+      }
+    }
+  ]
+}

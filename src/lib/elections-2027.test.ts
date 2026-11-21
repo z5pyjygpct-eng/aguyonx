@@ -298,3 +298,25 @@ test("simple chart helpers: plain counts and one status pill per seat", () => {
   assert.equal(seatPill({ ...base, candidates: [c(true, "D"), c(false, "R")] }), "Contested");
   assert.equal(seatPill({ ...base, seats: 3, candidates: [c(false, null), c(false, null)] }), "One filed");
 });
+
+test("manual announcement overrides land on the matching counted candidate and do not change the filing label", () => {
+  const raw = JSON.parse(fs.readFileSync(path.join(import.meta.dirname, "../../tools/elections-2027/announcements.json"), "utf8")) as {
+    candidates: { office: Office; race_id: string; name: string; announcement: { date: string; text: string; source_url: string; source_label: string } }[];
+  };
+  assert.ok(raw.candidates.length > 0);
+  for (const item of raw.candidates) {
+    const race = files[item.office].races.find((r) => r.id === item.race_id);
+    assert.ok(race, item.race_id);
+    const c = race!.candidates.find((x) => x.name === item.name);
+    assert.ok(c, item.name);
+    assert.equal(c!.filing_kind, "registration");
+    assert.equal(c!.label, "Registered campaign committee, not yet on the ballot");
+    assert.deepEqual(c!.announcement, item.announcement);
+    assert.match(c!.announcement!.source_url, /^https:\/\//);
+  }
+  const watts = H(14).candidates.find((c) => c.name === "Vivian E. Watts");
+  assert.ok(watts?.incumbent);
+  assert.equal(watts!.announcement?.text, "Announced re-election Nov 20, 2026");
+  assert.equal(watts!.announcement?.date, "2026-11-20");
+  assert.equal(watts!.announcement?.source_url, "https://x.com/TylerEnglander/status/2123870156665536861");
+});

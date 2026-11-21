@@ -947,7 +947,13 @@
      "activity": [
       "raised $24,140 on 2026 reports",
       "current officeholder"
-     ]
+     ],
+     "announcement": {
+      "date": "2026-11-20",
+      "text": "Announced re-election Nov 20, 2026",
+      "source_url": "https://x.com/TylerEnglander/status/2123870156665536861",
+      "source_label": "Her press release, via Tyler Englander (8News Capitol)"
+     }
     },
     {
      "name": "Eric Johnson",

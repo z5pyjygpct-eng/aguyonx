@@ -16,7 +16,10 @@ export type Cand = {
   other_committees?: { committee_name: string; committee_url: string }[];
   /** Why the committee counts under the 2027 rule (plain words), e.g. "raised $1,200 on 2026 reports", "current officeholder". */
   activity?: string[];
+  /** The candidate's own public announcement, not an official filing or ballot status. Kept through data rebuilds by tools/elections-2027/announcements.json. */
+  announcement?: CandidateAnnouncement;
 };
+export type CandidateAnnouncement = { date: string; text: string; source_url: string; source_label: string };
 /** The seat's current officeholder has a Virginia Department of Elections record-keeping flag (final report after 2026 money, or "Do Not Use"). */
 export type CheckFlag = { label: string; member: string; note: string; committee_url: string };
 export type Member = {

@@ -112,6 +112,12 @@ export function RegCandidate({ c, e, today, terms }: { c: Cand; e: Entry; today:
         {isNewCandidate(c, today) ? <span className="inline-flex min-h-5 items-center rounded-full bg-gold px-2 text-[10px] font-bold tracking-[0.14em] text-navy-900 uppercase" title="Registered in the last 7 days, by the official date">New</span> : null}
       </p>
       <p className="text-xs text-[#F6F3EA]">{c.label ?? "Registered campaign committee, not yet on the ballot"}</p>
+      {c.announcement ? (
+        <p className="text-xs text-on-dark-muted" data-announcement={c.name}>
+          {c.announcement.text}{" "}
+          <a href={c.announcement.source_url} {...ext} className="text-gold underline">{c.announcement.source_label}</a>
+        </p>
+      ) : null}
       <p className="text-xs text-on-dark-muted">
         {c.committee_name ? <><Hi text={c.committee_name} terms={terms} /> · </> : null}
         {c.filed_date && c.filed_date_source_url ? <>Registered {c.filed_date} · </> : "Registration date not in the official record · "}

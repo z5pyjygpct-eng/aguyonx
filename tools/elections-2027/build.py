@@ -14,6 +14,9 @@ Sources (official only; nothing from VPAP or the news):
     linked to its official committee record). Ballot lists take precedence: when the check finds a posted 2027 list, the build
     no longer stops; it records the list in "ballot_list_posted" so the page flags it, and a parser for that list then replaces
     the registrations. It never falls back to VPAP or news.
+  - Optional sourced announcements (the candidate's own public announcement, not an official filing) are
+    re-applied from tools/elections-2027/announcements.json after the official-record rebuild, so a data
+    refresh does not wipe them.
   - House and Senate district coverage of each locality: ELECT registrant counts by district and precinct (registrations.py).
   - Current General Assembly member + party: src/lib/ga-members-2026-{house,senate}.json (built from LIS by tools/ga-members).
 Rules: a seat, candidate or party appears only if an official source says so; every record keeps its source URL.
@@ -304,6 +307,34 @@ def constitutional():
             assert rid in ids, rid
     return races
 
+
+ANNOUNCEMENTS = Path(__file__).resolve().parent / "announcements.json"
+
+def apply_announcements(files):
+    """Attach optional sourced announcements from announcements.json onto counted candidates.
+
+    These are the candidate's own public announcements, not official filings or ballot status.
+    Applied after the official-record rebuild so the weekday data refresh keeps them.
+    """
+    data = json.loads(ANNOUNCEMENTS.read_text())
+    missing = []
+    applied = 0
+    for item in data.get("candidates", []):
+        office, rid, name, ann = item["office"], item["race_id"], item["name"], item["announcement"]
+        for k in ("date", "text", "source_url", "source_label"):
+            if not ann.get(k):
+                raise SystemExit(f"announcement for {name} in {office}/{rid} is missing {k}")
+        race = next((r for r in files.get(office, {}).get("races", []) if r["id"] == rid), None)
+        cand = next((c for c in (race or {}).get("candidates", []) if REG.same_person(c["name"], name)), None)
+        if not cand:
+            missing.append(f"{office}/{rid} ({name})")
+            continue
+        cand["announcement"] = {"date": ann["date"], "text": ann["text"], "source_url": ann["source_url"], "source_label": ann["source_label"]}
+        applied += 1
+    if missing:
+        raise SystemExit("announcement override(s) did not match a counted candidate: " + "; ".join(missing))
+    return applied
+
 def main():
     checked, posted = check_filings()
     common = {"election": "2027-11-02", "as_of": AS_OF, "source_url": ELECT_CANDS, "filings_checked": checked,
@@ -439,6 +470,9 @@ def main():
                    "of these are not counted.")
     for d in files.values():
         d["registrations_rule"] = common_rule
+    n_ann = apply_announcements(files)
+    if n_ann:
+        print("announcements applied", n_ann)
     for k, d in files.items():
         (OUT / f"elections-2027-{k}.json").write_text(json.dumps(d, indent=1, ensure_ascii=False) + "\n")
     rp = os.environ.get("ELECTIONS_2027_REPORT")
