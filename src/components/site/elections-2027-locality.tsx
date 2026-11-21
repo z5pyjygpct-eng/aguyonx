@@ -12,6 +12,7 @@ import { REG_SOURCE, ext } from "@/components/site/elections-2027-seats";
 import { Election2027Hero } from "@/components/site/elections-2027-hero";
 import { NoFilingTag } from "@/components/site/elections-2027-chamber";
 import { E27_LOCAL } from "@/lib/election-2027-dashboard";
+import { AnnouncedName, ASTERISK_NOTE } from "@/components/site/elections-2027-announced";
 
 /**
  * /2027/<slug>: one locality template (Scott's local mockup). Hero with the locality name box, site search, button group from
@@ -48,9 +49,16 @@ function Person({ c, badge }: { c: Cand; badge: boolean }) {
   );
 }
 
-function Challengers({ cs, badge }: { cs: Cand[]; badge: boolean }) {
-  if (!cs.length) return <span className="text-on-dark-muted" aria-label="none">—</span>;
-  return <ul className="space-y-1.5">{cs.map((c) => <li key={c.committee_code ?? c.name}><Person c={c} badge={badge} /></li>)}</ul>;
+/** Filed challengers first, then announced candidates (asterisk + note; Scott, Nov 21, 2026: same Challenger slot, clearly marked). */
+function Challengers({ row, badge }: { row: LocalRow; badge: boolean }) {
+  const cs = row.challengers;
+  if (!cs.length && !row.announced.length) return <span className="text-on-dark-muted" aria-label="none">—</span>;
+  return (
+    <ul className="space-y-1.5">
+      {cs.map((c) => <li key={c.committee_code ?? c.name}><Person c={c} badge={badge} /></li>)}
+      {row.announced.map(({ a, sameParty }) => <li key={`a:${a.name}`}><AnnouncedName a={a} badge={badge} sameParty={sameParty} /></li>)}
+    </ul>
+  );
 }
 
 function Incumbents({ row }: { row: LocalRow }) {
@@ -83,18 +91,6 @@ function Incumbents({ row }: { row: LocalRow }) {
           {row.same.map((c) => <span key={c.committee_code ?? c.name} className="mr-2 inline-flex flex-wrap items-center gap-x-1.5">{c.name} <FinanceLink url={candFinanceUrl(c)} name={c.name} /></span>)}
         </div>
       ) : null}
-      {row.announced.map(({ a, sameParty }) => (
-        <div key={a.name} className="rounded-md border border-gold/40 bg-navy-900/40 px-2 py-1.5 text-xs text-on-dark-muted" data-announced={a.name}>
-          <p className="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <span>{sameParty ? "Also running, same party (possible primary):" : "Also running:"}</span>
-            <span className="font-semibold text-white">{a.name}</span>
-            {sb ? null : <PartyBadge party={a.party} label={a.party_label} />}
-            <span className="inline-flex rounded-full bg-gold px-2 py-0.5 text-[11px] font-bold text-navy-900">Running for {row.seat}</span>
-            <FinanceLink url={a.finance_committee_url} name={a.name} />
-          </p>
-          <p className="mt-1">{a.note}{a.record_url ? <> <a href={a.record_url} {...ext} className="text-gold underline">Statement of Organization</a></> : null}</p>
-        </div>
-      ))}
       {row.race.seats > 1 ? <p className="text-xs text-on-dark-muted">{row.race.seats} seats; the top {row.race.seats} win.</p> : null}
     </div>
   );
@@ -130,7 +126,7 @@ function Section({ sec }: { sec: LocalSection }) {
             <tr key={r.race.id} className="align-top">
               <td className="py-3 pr-3">{seatCell(r)}</td>
               <td className="py-3 pr-3"><Incumbents row={r} /></td>
-              <td className="py-3 pr-3"><Challengers cs={r.challengers} badge={!sb} /></td>
+              <td className="py-3 pr-3"><Challengers row={r} badge={!sb} /></td>
               {sb ? <td className="py-3 pr-3"><SupportedBy row={r} /></td> : null}
             </tr>
           ))}
@@ -142,7 +138,7 @@ function Section({ sec }: { sec: LocalSection }) {
             {seatCell(r)}
             <dl className="mt-2 grid grid-cols-[minmax(0,6.5rem)_minmax(0,1fr)] gap-x-3 gap-y-2 text-sm">
               <dt className="text-xs font-semibold text-on-dark-muted uppercase">Incumbent</dt><dd className="min-w-0"><Incumbents row={r} /></dd>
-              <dt className="text-xs font-semibold text-on-dark-muted uppercase">Challenger(s)</dt><dd className="min-w-0"><Challengers cs={r.challengers} badge={!sb} /></dd>
+              <dt className="text-xs font-semibold text-on-dark-muted uppercase">Challenger(s)</dt><dd className="min-w-0"><Challengers row={r} badge={!sb} /></dd>
               {sb ? <><dt className="text-xs font-semibold text-on-dark-muted uppercase">Supported by</dt><dd className="min-w-0"><SupportedBy row={r} /></dd></> : null}
             </dl>
           </li>
@@ -202,7 +198,7 @@ export function LocalityPage({ slug, s }: { slug: string; s: LocalitySearch }) {
               </ul>
             ) : null}
             <p className="mt-5 text-xs text-on-dark-muted">
-              "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. {PRESUMED_NOTE}{own && sum.runningElsewhere ? ` Exception: ${sum.runningElsewhere === 1 ? "1 current member is" : `${sum.runningElsewhere} current members are`} running for another 2027 office and not presumed to run for ${sum.runningElsewhere === 1 ? "that seat" : "those seats"}.` : ""} As of {fmtDate(asOf)}.{" "}
+              "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. {PRESUMED_NOTE}{own && sum.runningElsewhere ? ` Exception: ${sum.runningElsewhere === 1 ? "1 current member is" : `${sum.runningElsewhere} current members are`} running for another 2027 office and not presumed to run for ${sum.runningElsewhere === 1 ? "that seat" : "those seats"}.` : ""} {ASTERISK_NOTE} As of {fmtDate(asOf)}.{" "}
               <a href={REG_SOURCE} {...ext} className="inline-flex items-center gap-1 text-gold underline">Virginia Department of Elections campaign finance reports <ExternalLink className="size-3" aria-hidden /></a>
             </p>
           </div>

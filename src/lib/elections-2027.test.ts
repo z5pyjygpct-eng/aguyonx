@@ -17,8 +17,12 @@ test("every race from all five official files is in the directory once", () => {
   assert.equal(new Set(all.map((e) => e.office + ":" + e.race.id)).size, total);
 });
 
-test("no VPAP source survives anywhere in the data", () => {
-  for (const o of OFFICE_ORDER) assert.doesNotMatch(JSON.stringify(files[o]), /vpap/i, o);
+test("no VPAP source survives anywhere in the official data (only announced, uncounted candidates may cite a VPAP listing)", () => {
+  for (const o of OFFICE_ORDER) {
+    const stripped = { ...files[o], races: files[o].races.map(({ announced: _a, ...r }) => r) };
+    assert.doesNotMatch(JSON.stringify(stripped), /vpap/i, o);
+    for (const r of files[o].races) for (const a of r.announced ?? []) if (/vpap/i.test(JSON.stringify(a))) assert.match(a.source_url ?? "", /^https:\/\/www\.vpap\.org\//, `${o} ${r.id} ${a.name}`);
+  }
 });
 
 test("every race keeps an official seat source and filing source", () => {

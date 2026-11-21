@@ -1000,6 +1000,19 @@
      "locality_precincts": 265,
      "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_House_2026_11_01_053921.csv"
     }
+   ],
+   "announced": [
+    {
+     "name": "John Michael Forrest",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://annandaletoday.com/doge-victim-launches-campaign-for-the-house-of-delegates/",
+     "source_label": "Annandale Today",
+     "note": "Announced 2027 candidate per Annandale Today; no counted 2027 committee in the state campaign finance data used here."
+    }
    ]
   },
   {
@@ -1512,6 +1525,19 @@
      "precincts": 13,
      "locality_precincts": 103,
      "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_House_2026_11_01_053921.csv"
+    }
+   ],
+   "announced": [
+    {
+     "name": "Vern Robinson",
+     "party": "R",
+     "party_label": "Republican",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
     }
    ]
   },
@@ -2568,7 +2594,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Grayson Cotes",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd41",
@@ -2924,7 +2963,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Heather Lynn Moses",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd46",
@@ -3124,7 +3176,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Maeve McCulloch",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd49",
@@ -4148,7 +4213,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Tony Boll",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd63",
@@ -4373,7 +4451,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Jannan Holmes",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.fredericksburgfreepress.com/2026/09/19/fredericksburg-councilor-holmes-to-run-for-virginia-house-of-delegates/",
+     "source_label": "Fredericksburg Free Press",
+     "note": "Announced 2027 candidate per Fredericksburg Free Press; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd66",
@@ -4440,7 +4531,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Zachary Hulo",
+     "party": "R",
+     "party_label": "Republican",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd67",
@@ -4660,7 +4764,31 @@
     "member": "Mark C. Downey",
     "committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/8b3a192e-96ed-e811-94a7-984be103f032",
     "note": "Mark C. Downey raised $90,391 on 2026 reports, but the latest report is marked final in the Virginia Department of Elections record, so it is not counted."
-   }
+   },
+   "announced": [
+    {
+     "name": "Joshua Hughes",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    },
+    {
+     "name": "Scott Williams",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd70",
@@ -4970,6 +5098,19 @@
      "precincts": 16,
      "locality_precincts": 78,
      "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_House_2026_11_01_053921.csv"
+    }
+   ],
+   "announced": [
+    {
+     "name": "Steve Stepp",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
     }
    ]
   },
@@ -5941,7 +6082,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Rodney Nickens",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd91",
@@ -6158,7 +6312,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "John B. Lapetina Jr.",
+     "party": "R",
+     "party_label": "Republican",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd95",
@@ -6339,7 +6506,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Cheryl Smith",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "hd99",
@@ -6485,7 +6665,20 @@
    ],
    "members_source_url": "https://house.vga.virginia.gov/members",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Ashley Joynes",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/house/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   }
  ],
  "coverage_source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_House_2026_11_01_053921.csv",

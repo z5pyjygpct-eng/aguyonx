@@ -727,6 +727,30 @@
      "locality_precincts": 90,
      "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
     }
+   ],
+   "announced": [
+    {
+     "name": "Mark Earley Jr.",
+     "party": "R",
+     "party_label": "Republican",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": "2026-11-10",
+     "source_url": "https://www.virginiascope.com/earley-is-attempting-a-comeback-to-richmond/",
+     "source_label": "Virginia Scope",
+     "note": "Announced 2027 candidate per Virginia Scope (2026-11-10); no counted 2027 committee in the state campaign finance data used here."
+    },
+    {
+     "name": "Jessica Robinson",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/senate/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
    ]
   },
   {
@@ -1146,6 +1170,19 @@
      "locality_precincts": 78,
      "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
     }
+   ],
+   "announced": [
+    {
+     "name": "John R. Thomas",
+     "party": "R",
+     "party_label": "Republican",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/senate/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
    ]
   },
   {
@@ -1196,6 +1233,19 @@
      "precincts": 56,
      "locality_precincts": 90,
      "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ],
+   "announced": [
+    {
+     "name": "Spencer Stuart Philips",
+     "party": "R",
+     "party_label": "Republican",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/senate/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
     }
    ]
   },
@@ -1427,7 +1477,20 @@
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Becky Winstead-Roberts",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/senate/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "sd21",
@@ -1523,7 +1586,20 @@
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Bobby Dyer",
+     "party": "R",
+     "party_label": "Republican",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/senate/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "sd23",
@@ -1631,7 +1707,42 @@
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Lena Weisman",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/senate/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    },
+    {
+     "name": "Mark Downey",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": "2026-08-13",
+     "source_url": "https://yournews.com/2026/08/14/7162668/downey-joins-race-for-virginia-senate-seat/",
+     "source_label": "The Center Square",
+     "note": "Announced 2027 candidate per The Center Square (2026-08-13); no counted 2027 committee in the state campaign finance data used here."
+    },
+    {
+     "name": "Jason Parker",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.williamsburgwatch.com/p/labor-leader-files-paperwork-to-run",
+     "source_label": "Williamsburg Watch",
+     "note": "Announced 2027 candidate per Williamsburg Watch; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "sd25",
@@ -1817,7 +1928,20 @@
    ],
    "members_source_url": "https://apps.senate.virginia.gov/Senator/index.php",
    "members_known": true,
-   "localities": []
+   "localities": [],
+   "announced": [
+    {
+     "name": "Joshua Cole",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": "2026-11-18",
+     "source_url": "https://www.fredericksburgfreepress.com/2026/11/18/joshua-cole-announces-campaign-for-state-senate/",
+     "source_label": "Fredericksburg Free Press",
+     "note": "Announced 2027 candidate per Fredericksburg Free Press (2026-11-18); no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "sd28",
@@ -2327,6 +2451,30 @@
      "precincts": 54,
      "locality_precincts": 265,
      "source_url": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Senate_2026_11_01_054109.csv"
+    }
+   ],
+   "announced": [
+    {
+     "name": "Paul Gilbert",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/elections/senate/candidates/general/?competition=all&party_in_power=all&year=2027",
+     "source_label": "VPAP 2027 candidate list",
+     "note": "Announced 2027 candidate per VPAP 2027 candidate list; no counted 2027 committee in the state campaign finance data used here."
+    },
+    {
+     "name": "Matt Mullin",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": "2026-11-16",
+     "source_url": "https://www.mattmullinforva.com/news/news-1",
+     "source_label": "His campaign's announcement",
+     "note": "Announced 2027 candidate per His campaign's announcement (2026-11-16); no counted 2027 committee in the state campaign finance data used here."
     }
    ]
   },

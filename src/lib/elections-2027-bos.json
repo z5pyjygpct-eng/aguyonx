@@ -187,6 +187,9 @@
      "basis": "editor",
      "reported": "2026-11-20",
      "finance_committee_url": "https://cfreports.elections.virginia.gov/Committee/Index/21c0c1c3-f8b4-e811-bffd-984be103f032",
+     "date": null,
+     "source_url": "https://www.ffxnow.com/2026/08/28/n-va-political-leaders-scramble-to-meet-evolving-public-sentiment-on-data-centers/",
+     "source_label": "FFXnow",
      "record_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/21c0c1c3-f8b4-e811-bffd-984be103f032/pdf/cfreports",
      "note": "Running for Chair per our editor (Nov. 20, 2026); not yet a registered Chair committee. The official state record, checked Nov. 20, 2026, shows no Briskman committee for Chair: her only committee, Briskman for Supervisor (CC-18-00409), lists Member Board of Supervisors, Algonkian District on its Statement of Organization and filed a final report on Aug. 25, 2026."
     }
@@ -513,7 +516,20 @@
     }
    ],
    "members_source_url": "https://www.loudoun.gov/m/directory/department?did=4",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Zach Cummings",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/loudoun-county-supervisor-leesburg/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "loudoun-little-river",
@@ -603,6 +619,9 @@
      "party_label": "Democratic",
      "basis": "editor",
      "reported": "2026-11-16",
+     "date": "2026-11-16",
+     "source_url": "https://www.loudounnow.com/news/hu-announces-run-for-sterling-district-supervisor/article_112f7f3e-21c1-4125-a193-1a541fcaa63c.html",
+     "source_label": "Loudoun Now",
      "note": "Announced a run for Sterling District Supervisor in Loudoun Now on Nov. 16, 2026 (https://www.loudounnow.com/news/hu-announces-run-for-sterling-district-supervisor/article_112f7f3e-21c1-4125-a193-1a541fcaa63c.html). She is seeking the Democratic nomination, challenging incumbent Koran T. Saines in the 2027 Democratic primary. This is her own announcement, not an official filing: she is not on the ballot, and no registered 2027 committee for her appears in the official state campaign finance record used for this dashboard."
     }
    ]
@@ -637,7 +656,20 @@
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Melanie Meren",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": "2026-11-17",
+     "source_url": "https://www.ffxnow.com/2026/11/17/breaking-melanie-meren-to-take-on-mckay-for-fairfax-county-board-chair/",
+     "source_label": "FFXnow",
+     "note": "Announced 2027 candidate per FFXnow (2026-11-17); no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "fairfax-county-braddock",
@@ -879,7 +911,20 @@
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Cisco Minthorn",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/fairfax-county-supervisor-mount-vernon/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "fairfax-county-providence",
@@ -911,7 +956,20 @@
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Bryan W. Graham",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/fairfax-county-supervisor-providence/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "fairfax-county-springfield",
@@ -1002,7 +1060,20 @@
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/boardofsupervisors/",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "William Moore",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.ffxnow.com/2026/11/16/ex-cia-officer-seeks-democratic-nod-for-sully-district-supervisor/",
+     "source_label": "FFXnow",
+     "note": "Announced 2027 candidate per FFXnow; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "prince-william-chair",
@@ -1105,7 +1176,31 @@
     }
    ],
    "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Muhammed Abdullateef",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/prince-william-county-supervisor-brentsville/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    },
+    {
+     "name": "Gabriel Yossick",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/prince-william-county-supervisor-brentsville/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "prince-william-coles",
@@ -1392,7 +1487,42 @@
     }
    ],
    "members_source_url": "https://www.pwcva.gov/department/board-county-supervisors",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Kimberlee Jimale Short",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/prince-william-county-supervisor-potomac/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    },
+    {
+     "name": "Sean Spence",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/prince-william-county-supervisor-potomac/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    },
+    {
+     "name": "Neville Anthony Welch",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/prince-william-county-supervisor-potomac/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "prince-william-woodbridge",

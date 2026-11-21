@@ -215,3 +215,38 @@ test("How to Use 2027 Election Dashboard: bullets carry the data date and cover 
   const all = b.join(" ");
   for (const w of ["November 19, 2026", "official state and county records", "seat chart", "Tap a square", "Republican Challenger Gaps", "“gap”", "Board of Supervisors", "run again", "not put them on the ballot", "$ Finances", "search bar", "News box", "Filter by county or city"]) assert.ok(all.includes(w), w);
 });
+
+test("announced sweep (Nov 21, 2026): every announced candidate cites a named https source, is not a counted committee, and school board ones carry no party", async () => {
+  const { announcedLine } = await import("./elections-2027.ts");
+  const offices = ["house", "senate", "bos", "sb", "co"] as const;
+  let n = 0;
+  for (const o of offices) {
+    const races = (JSON.parse(fs.readFileSync(path.join(import.meta.dirname, `elections-2027-${o}.json`), "utf8")) as { races: Race[] }).races;
+    for (const r of races) {
+      for (const a of r.announced ?? []) {
+        n++;
+        assert.match(a.source_url ?? "", /^https:\/\//, `${o} ${r.id} ${a.name}`);
+        assert.ok(a.source_label && !/^https?:/.test(a.source_label), `${o} ${r.id} ${a.name} label`);
+        const last = a.name.split(" ").filter((t) => !/^(jr\.?|sr\.?|ii|iii)$/i.test(t)).pop()!.toLowerCase();
+        const first = a.name.split(" ")[0].toLowerCase();
+        assert.ok(!r.candidates.some((c) => c.name.toLowerCase().includes(last) && c.name.toLowerCase().includes(first)), `${o} ${r.id} ${a.name} is already counted`);
+        if (o === "sb") assert.equal(a.party, null, `${r.id} ${a.name} school board party`);
+        assert.match(announcedLine(a), /^\* Announced.*, not yet officially filed with the state$/);
+      }
+    }
+  }
+  assert.ok(n >= 40, `announced count ${n}`);
+  assert.equal(announcedLine({ date: "2026-11-16" }), "* Announced Nov 16, 2026, not yet officially filed with the state");
+  assert.equal(announcedLine({ date: null }), "* Announced, not yet officially filed with the state");
+});
+
+test("announced: Hu (Loudoun Now) and Briskman sit in the Challenger slot data; Ashburn school board has Hutchison; counts unchanged", () => {
+  const st = toLocalRow(files.bos.races.find((r) => r.id === "loudoun-sterling")!, "bos");
+  assert.equal(st.announced[0].a.source_label, "Loudoun Now");
+  assert.equal(st.announced[0].a.date, "2026-11-16");
+  const chair = toLocalRow(files.bos.races.find((r) => r.id === "loudoun-chair")!, "bos");
+  assert.equal(chair.announced[0].a.source_label, "FFXnow");
+  const ash = toLocalRow(files.sb.races.find((r) => r.id === "loudoun-ashburn")!, "sb");
+  assert.deepEqual(ash.announced.map((x) => [x.a.name, x.a.party]), [["Zeina Hutchison", null]]);
+  assert.equal(ash.challengers.length, 0);
+});

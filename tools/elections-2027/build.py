@@ -4,7 +4,8 @@
 Writes one JSON per office type to src/lib/:
   elections-2027-house.json, elections-2027-senate.json, elections-2027-sb.json, elections-2027-bos.json, elections-2027-co.json
 
-Sources (official only; nothing from VPAP or the news):
+Sources (official only; nothing from VPAP or the news). Exception: race.announced (registrations.ANNOUNCED + announced-candidates.json)
+lists announced, uncounted candidates with a cited public source (news, the candidate, or a VPAP listing), shown with an asterisk:
   - Which seats are on the Nov. 2, 2027 ballot: Virginia Department of Elections (ELECT) ballot calendars (PDFs below), parsed
     live for every county in LOCALITIES; constitutional offices from Va. Code 24.2-217 plus each locality's own government pages.
   - Candidate filings: ELECT candidate lists (https://www.elections.virginia.gov/casting-a-ballot/candidate-list/) and each
