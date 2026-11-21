@@ -35,8 +35,10 @@ import { Route as VideosRouteImport } from './routes/videos'
 import { Route as Virginia2027BillsRouteImport } from './routes/virginia-2027-bills'
 import { Route as R2027IndexRouteImport } from './routes/2027.index'
 import { Route as R2027LocalityRouteImport } from './routes/2027.$locality'
+import { Route as R2027DelegatesRouteImport } from './routes/2027.delegates'
 import { Route as R2027NewsRouteImport } from './routes/2027.news'
 import { Route as R2027RacesRouteImport } from './routes/2027.races'
+import { Route as R2027SenateRouteImport } from './routes/2027.senate'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
 import { Route as CitiesIndexRouteImport } from './routes/cities.index'
@@ -296,6 +298,11 @@ const R2027LocalityRoute = R2027LocalityRouteImport.update({
   path: '/2027/$locality',
   getParentRoute: () => rootRouteImport,
 } as any)
+const R2027DelegatesRoute = R2027DelegatesRouteImport.update({
+  id: '/2027/delegates',
+  path: '/2027/delegates',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const R2027NewsRoute = R2027NewsRouteImport.update({
   id: '/2027/news',
   path: '/2027/news',
@@ -304,6 +311,11 @@ const R2027NewsRoute = R2027NewsRouteImport.update({
 const R2027RacesRoute = R2027RacesRouteImport.update({
   id: '/2027/races',
   path: '/2027/races',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const R2027SenateRoute = R2027SenateRouteImport.update({
+  id: '/2027/senate',
+  path: '/2027/senate',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ArticlesIndexRoute = ArticlesIndexRouteImport.update({
@@ -1063,8 +1075,10 @@ export interface FileRoutesByFullPath {
   '/videos': typeof VideosRoute
   '/virginia-2027-bills': typeof Virginia2027BillsRoute
   '/2027/$locality': typeof R2027LocalityRoute
+  '/2027/delegates': typeof R2027DelegatesRoute
   '/2027/news': typeof R2027NewsRoute
   '/2027/races': typeof R2027RacesRoute
+  '/2027/senate': typeof R2027SenateRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
@@ -1215,8 +1229,10 @@ export interface FileRoutesByTo {
   '/videos': typeof VideosRoute
   '/virginia-2027-bills': typeof Virginia2027BillsRoute
   '/2027/$locality': typeof R2027LocalityRoute
+  '/2027/delegates': typeof R2027DelegatesRoute
   '/2027/news': typeof R2027NewsRoute
   '/2027/races': typeof R2027RacesRoute
+  '/2027/senate': typeof R2027SenateRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
   '/data/republicans-vs-democrats': typeof DataRepublicansVsDemocratsRoute
@@ -1370,8 +1386,10 @@ export interface FileRoutesById {
   '/videos': typeof VideosRoute
   '/virginia-2027-bills': typeof Virginia2027BillsRoute
   '/2027/$locality': typeof R2027LocalityRoute
+  '/2027/delegates': typeof R2027DelegatesRoute
   '/2027/news': typeof R2027NewsRoute
   '/2027/races': typeof R2027RacesRoute
+  '/2027/senate': typeof R2027SenateRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
@@ -1530,8 +1548,10 @@ export interface FileRouteTypes {
     | '/videos'
     | '/virginia-2027-bills'
     | '/2027/$locality'
+    | '/2027/delegates'
     | '/2027/news'
     | '/2027/races'
+    | '/2027/senate'
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
@@ -1682,8 +1702,10 @@ export interface FileRouteTypes {
     | '/videos'
     | '/virginia-2027-bills'
     | '/2027/$locality'
+    | '/2027/delegates'
     | '/2027/news'
     | '/2027/races'
+    | '/2027/senate'
     | '/articles/$slug'
     | '/dashboards/general-assembly'
     | '/data/republicans-vs-democrats'
@@ -1836,8 +1858,10 @@ export interface FileRouteTypes {
     | '/videos'
     | '/virginia-2027-bills'
     | '/2027/$locality'
+    | '/2027/delegates'
     | '/2027/news'
     | '/2027/races'
+    | '/2027/senate'
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
@@ -1995,8 +2019,10 @@ export interface RootRouteChildren {
   VideosRoute: typeof VideosRoute
   Virginia2027BillsRoute: typeof Virginia2027BillsRoute
   R2027LocalityRoute: typeof R2027LocalityRoute
+  R2027DelegatesRoute: typeof R2027DelegatesRoute
   R2027NewsRoute: typeof R2027NewsRoute
   R2027RacesRoute: typeof R2027RacesRoute
+  R2027SenateRoute: typeof R2027SenateRoute
   DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
   DataRepublicansVsDemocratsRoute: typeof DataRepublicansVsDemocratsRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
@@ -2287,6 +2313,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof R2027LocalityRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/2027/delegates': {
+      id: '/2027/delegates'
+      path: '/2027/delegates'
+      fullPath: '/2027/delegates'
+      preLoaderRoute: typeof R2027DelegatesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/2027/news': {
       id: '/2027/news'
       path: '/2027/news'
@@ -2299,6 +2332,13 @@ declare module '@tanstack/react-router' {
       path: '/2027/races'
       fullPath: '/2027/races'
       preLoaderRoute: typeof R2027RacesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/2027/senate': {
+      id: '/2027/senate'
+      path: '/2027/senate'
+      fullPath: '/2027/senate'
+      preLoaderRoute: typeof R2027SenateRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/articles/': {
@@ -3374,8 +3414,10 @@ const rootRouteChildren: RootRouteChildren = {
   VideosRoute: VideosRoute,
   Virginia2027BillsRoute: Virginia2027BillsRoute,
   R2027LocalityRoute: R2027LocalityRoute,
+  R2027DelegatesRoute: R2027DelegatesRoute,
   R2027NewsRoute: R2027NewsRoute,
   R2027RacesRoute: R2027RacesRoute,
+  R2027SenateRoute: R2027SenateRoute,
   DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,
   DataRepublicansVsDemocratsRoute: DataRepublicansVsDemocratsRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
