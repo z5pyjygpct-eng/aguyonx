@@ -9,6 +9,6 @@ export const BILLS_HOWTO_BULLETS = [
   "The Chief patron party buttons show bills by the party of the lawmaker who introduced the bill (the chief patron), taken from the official member list. Co-patrons do not change this.",
   "The category buttons (like K-12 Education, Taxation & Revenue, or Energy & Data Centers) are our own topic labels, not official state subjects. A bill can be in more than one category. You can also narrow the list with the Patron, Chamber, Party, and Status menus. Tap Clear filters to start over.",
   "Use the search box to find a bill by its number (like SB837), a word in its title, or a lawmaker’s name.",
-  "Tap “Summary of Bill” on a card to read a short plain-language summary. We write it from the official LIS summary or the bill text, and it is clearly labeled as ours, not official. If we have not written one yet, it says so. Links to the official LIS page and the bill text are on every card.",
+  "Tap “Summary of Bill” on a card to read a short plain-language summary. We write it from the official LIS summary or the bill text, and it is clearly labeled as ours, not official. If we have not written one yet, it says so. Each card also links to the official LIS page and, when LIS has posted it, the bill text.",
   "The Status line tells you where a bill stands. For example, “Left in Committee” means the committee did not act on the bill, so it did not move forward. The committee’s name and the date come straight from LIS.",
 ] as const;
