@@ -93,7 +93,14 @@ function ViewButtons({ office, s, counts, fullCounts, scopeLabel }: {
   );
 }
 
-function Names({ cs, empty = "—" }: { cs: Cand[]; empty?: string }) {
+function partyWord(p: string | null | undefined, label?: string | null) {
+  if (p === "D") return "Democrat";
+  if (p === "R") return "Republican";
+  if (p === "Other" && label) return label;
+  return p ? "other party" : "party not listed";
+}
+
+function Names({ cs, empty = "—", showParty = false }: { cs: Cand[]; empty?: string; showParty?: boolean }) {
   if (!cs.length) return <span className="text-on-dark-muted" aria-label="none">{empty}</span>;
   return (
     <ul className="space-y-1">
@@ -101,7 +108,7 @@ function Names({ cs, empty = "—" }: { cs: Cand[]; empty?: string }) {
         <li key={c.committee_code ?? c.name} className="flex flex-wrap items-center gap-x-2 gap-y-1">
           <span>
             <a href={c.committee_url ?? c.filing_source_url} {...ext} className="font-semibold text-white underline decoration-navy-line underline-offset-4 hover:decoration-gold">{c.name}</a>
-            {c.party !== "D" && c.party !== "R" ? <span className="text-xs text-on-dark-muted"> ({c.party === "Other" && c.party_label ? c.party_label : c.party ? "other party" : "party not listed"})</span> : null}
+            {showParty || (c.party !== "D" && c.party !== "R") ? <span className="text-xs font-normal text-on-dark-muted"> ({partyWord(c.party, c.party_label)})</span> : null}
           </span>
           <FinanceLink url={candFinanceUrl(c)} name={c.name} />
         </li>
@@ -114,12 +121,13 @@ export function NoFilingTag() {
   return <span className="inline-flex rounded-full border border-navy-line px-2 py-0.5 text-[11px] font-medium text-on-dark-muted" title={PRESUMED_NOTE}>{NO_FILING_TAG}</span>;
 }
 
-function Incumbent({ row, office }: { row: ChallengerRow; office: ChamberOffice }) {
+function Incumbent({ row, office, showParty }: { row: ChallengerRow; office: ChamberOffice; showParty?: boolean }) {
   const m = row.incumbent;
   return (
     <div>
       <p className="flex flex-wrap items-center gap-x-2 gap-y-1 font-semibold text-white">
         {m.slug ? <Link to={`${MEMBER_ROUTE[office]}/${m.slug}` as never} className="underline decoration-navy-line underline-offset-4 hover:decoration-gold">{m.name}</Link> : m.name}
+        {showParty ? <span className="font-normal text-on-dark-muted">({PARTY[row.party]})</span> : null}
         <FinanceLink url={memberFinanceUrl(row.race, m, row.race.candidates.find((c) => c.incumbent))} name={m.name} />
       </p>
       {row.status === "not-filed" ? <p className="mt-1"><NoFilingTag /></p> : null}
@@ -291,14 +299,14 @@ function CountyDistrictList({ office, matches, s, onSeat }: {
               </button>
               <span className="text-xs text-on-dark-muted">{districtCoverageText(cov)}</span>
             </div>
-            {row ? <div className="mt-2 text-sm"><Incumbent row={row} office={office} /></div> : member ? (
-              <p className="mt-2 text-sm font-semibold text-white">{member.name}{member.party ? ` (${PARTY[member.party as "D" | "R"] ?? "other party"})` : ""}</p>
+            {row ? <div className="mt-2 text-sm"><Incumbent row={row} office={office} showParty /></div> : member ? (
+              <p className="mt-2 text-sm font-semibold text-white">{member.name} <span className="font-normal text-on-dark-muted">({partyWord(member.party, member.party_label)})</span></p>
             ) : (
               <p className="mt-2 text-sm text-on-dark-muted">Current member not on the official member list.</p>
             )}
             <div className="mt-2 text-sm">
               <p className="text-xs font-semibold tracking-wide text-on-dark-muted uppercase">Challengers</p>
-              <div className="mt-1"><Names cs={challengers} empty="None registered yet" /></div>
+              <div className="mt-1"><Names cs={challengers} empty="None registered yet" showParty /></div>
             </div>
           </li>
         );
