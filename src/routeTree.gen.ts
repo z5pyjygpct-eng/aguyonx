@@ -10,7 +10,6 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as R2027RouteImport } from './routes/2027'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ArticlesRouteImport } from './routes/articles'
 import { Route as BoardOfEducationRouteImport } from './routes/board-of-education'
@@ -34,6 +33,10 @@ import { Route as TipsRouteImport } from './routes/tips'
 import { Route as VaViolentCrimeOutcomesRouteImport } from './routes/va-violent-crime-outcomes'
 import { Route as VideosRouteImport } from './routes/videos'
 import { Route as Virginia2027BillsRouteImport } from './routes/virginia-2027-bills'
+import { Route as R2027IndexRouteImport } from './routes/2027.index'
+import { Route as R2027LocalityRouteImport } from './routes/2027.$locality'
+import { Route as R2027NewsRouteImport } from './routes/2027.news'
+import { Route as R2027RacesRouteImport } from './routes/2027.races'
 import { Route as ArticlesIndexRouteImport } from './routes/articles.index'
 import { Route as ArticlesSlugRouteImport } from './routes/articles.$slug'
 import { Route as CitiesIndexRouteImport } from './routes/cities.index'
@@ -168,11 +171,6 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const R2027Route = R2027RouteImport.update({
-  id: '/2027',
-  path: '/2027',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
@@ -286,6 +284,26 @@ const VideosRoute = VideosRouteImport.update({
 const Virginia2027BillsRoute = Virginia2027BillsRouteImport.update({
   id: '/virginia-2027-bills',
   path: '/virginia-2027-bills',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const R2027IndexRoute = R2027IndexRouteImport.update({
+  id: '/2027/',
+  path: '/2027/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const R2027LocalityRoute = R2027LocalityRouteImport.update({
+  id: '/2027/$locality',
+  path: '/2027/$locality',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const R2027NewsRoute = R2027NewsRouteImport.update({
+  id: '/2027/news',
+  path: '/2027/news',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const R2027RacesRoute = R2027RacesRouteImport.update({
+  id: '/2027/races',
+  path: '/2027/races',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ArticlesIndexRoute = ArticlesIndexRouteImport.update({
@@ -1021,7 +1039,6 @@ const GeneralAssemblySenateRecapsSlugRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
   '/board-of-education': typeof BoardOfEducationRoute
@@ -1045,6 +1062,9 @@ export interface FileRoutesByFullPath {
   '/va-violent-crime-outcomes': typeof VaViolentCrimeOutcomesRoute
   '/videos': typeof VideosRoute
   '/virginia-2027-bills': typeof Virginia2027BillsRoute
+  '/2027/$locality': typeof R2027LocalityRoute
+  '/2027/news': typeof R2027NewsRoute
+  '/2027/races': typeof R2027RacesRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
@@ -1060,6 +1080,7 @@ export interface FileRoutesByFullPath {
   '/mockups/search': typeof MockupsSearchRoute
   '/mockups/tips': typeof MockupsTipsRoute
   '/mockups/voter-guide': typeof MockupsVoterGuideRoute
+  '/2027/': typeof R2027IndexRoute
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
@@ -1176,7 +1197,6 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/board-of-education': typeof BoardOfEducationRoute
   '/contact': typeof ContactRoute
@@ -1194,6 +1214,9 @@ export interface FileRoutesByTo {
   '/va-violent-crime-outcomes': typeof VaViolentCrimeOutcomesRoute
   '/videos': typeof VideosRoute
   '/virginia-2027-bills': typeof Virginia2027BillsRoute
+  '/2027/$locality': typeof R2027LocalityRoute
+  '/2027/news': typeof R2027NewsRoute
+  '/2027/races': typeof R2027RacesRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/dashboards/general-assembly': typeof DashboardsGeneralAssemblyRoute
   '/data/republicans-vs-democrats': typeof DataRepublicansVsDemocratsRoute
@@ -1205,6 +1228,7 @@ export interface FileRoutesByTo {
   '/mockups/search': typeof MockupsSearchRoute
   '/mockups/tips': typeof MockupsTipsRoute
   '/mockups/voter-guide': typeof MockupsVoterGuideRoute
+  '/2027': typeof R2027IndexRoute
   '/articles': typeof ArticlesIndexRoute
   '/cities': typeof CitiesIndexRoute
   '/counties': typeof CountiesIndexRoute
@@ -1322,7 +1346,6 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/2027': typeof R2027Route
   '/about': typeof AboutRoute
   '/articles': typeof ArticlesRouteWithChildren
   '/board-of-education': typeof BoardOfEducationRoute
@@ -1346,6 +1369,9 @@ export interface FileRoutesById {
   '/va-violent-crime-outcomes': typeof VaViolentCrimeOutcomesRoute
   '/videos': typeof VideosRoute
   '/virginia-2027-bills': typeof Virginia2027BillsRoute
+  '/2027/$locality': typeof R2027LocalityRoute
+  '/2027/news': typeof R2027NewsRoute
+  '/2027/races': typeof R2027RacesRoute
   '/articles/$slug': typeof ArticlesSlugRoute
   '/cities/$city': typeof CitiesCityRouteWithChildren
   '/counties/loudoun': typeof CountiesLoudounRouteWithChildren
@@ -1361,6 +1387,7 @@ export interface FileRoutesById {
   '/mockups/search': typeof MockupsSearchRoute
   '/mockups/tips': typeof MockupsTipsRoute
   '/mockups/voter-guide': typeof MockupsVoterGuideRoute
+  '/2027/': typeof R2027IndexRoute
   '/articles/': typeof ArticlesIndexRoute
   '/cities/': typeof CitiesIndexRoute
   '/counties/': typeof CountiesIndexRoute
@@ -1479,7 +1506,6 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/2027'
     | '/about'
     | '/articles'
     | '/board-of-education'
@@ -1503,6 +1529,9 @@ export interface FileRouteTypes {
     | '/va-violent-crime-outcomes'
     | '/videos'
     | '/virginia-2027-bills'
+    | '/2027/$locality'
+    | '/2027/news'
+    | '/2027/races'
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
@@ -1518,6 +1547,7 @@ export interface FileRouteTypes {
     | '/mockups/search'
     | '/mockups/tips'
     | '/mockups/voter-guide'
+    | '/2027/'
     | '/articles/'
     | '/cities/'
     | '/counties/'
@@ -1634,7 +1664,6 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/2027'
     | '/about'
     | '/board-of-education'
     | '/contact'
@@ -1652,6 +1681,9 @@ export interface FileRouteTypes {
     | '/va-violent-crime-outcomes'
     | '/videos'
     | '/virginia-2027-bills'
+    | '/2027/$locality'
+    | '/2027/news'
+    | '/2027/races'
     | '/articles/$slug'
     | '/dashboards/general-assembly'
     | '/data/republicans-vs-democrats'
@@ -1663,6 +1695,7 @@ export interface FileRouteTypes {
     | '/mockups/search'
     | '/mockups/tips'
     | '/mockups/voter-guide'
+    | '/2027'
     | '/articles'
     | '/cities'
     | '/counties'
@@ -1779,7 +1812,6 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
-    | '/2027'
     | '/about'
     | '/articles'
     | '/board-of-education'
@@ -1803,6 +1835,9 @@ export interface FileRouteTypes {
     | '/va-violent-crime-outcomes'
     | '/videos'
     | '/virginia-2027-bills'
+    | '/2027/$locality'
+    | '/2027/news'
+    | '/2027/races'
     | '/articles/$slug'
     | '/cities/$city'
     | '/counties/loudoun'
@@ -1818,6 +1853,7 @@ export interface FileRouteTypes {
     | '/mockups/search'
     | '/mockups/tips'
     | '/mockups/voter-guide'
+    | '/2027/'
     | '/articles/'
     | '/cities/'
     | '/counties/'
@@ -1935,7 +1971,6 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  R2027Route: typeof R2027Route
   AboutRoute: typeof AboutRoute
   ArticlesRoute: typeof ArticlesRouteWithChildren
   BoardOfEducationRoute: typeof BoardOfEducationRoute
@@ -1959,6 +1994,9 @@ export interface RootRouteChildren {
   VaViolentCrimeOutcomesRoute: typeof VaViolentCrimeOutcomesRoute
   VideosRoute: typeof VideosRoute
   Virginia2027BillsRoute: typeof Virginia2027BillsRoute
+  R2027LocalityRoute: typeof R2027LocalityRoute
+  R2027NewsRoute: typeof R2027NewsRoute
+  R2027RacesRoute: typeof R2027RacesRoute
   DashboardsGeneralAssemblyRoute: typeof DashboardsGeneralAssemblyRoute
   DataRepublicansVsDemocratsRoute: typeof DataRepublicansVsDemocratsRoute
   FindTheMomentLocalityRoute: typeof FindTheMomentLocalityRoute
@@ -1967,6 +2005,7 @@ export interface RootRouteChildren {
   MockupsSearchRoute: typeof MockupsSearchRoute
   MockupsTipsRoute: typeof MockupsTipsRoute
   MockupsVoterGuideRoute: typeof MockupsVoterGuideRoute
+  R2027IndexRoute: typeof R2027IndexRoute
   DashboardsIndexRoute: typeof DashboardsIndexRoute
   ApiWeeklyConfirmRoute: typeof ApiWeeklyConfirmRoute
   ApiWeeklySubscribeRoute: typeof ApiWeeklySubscribeRoute
@@ -2071,13 +2110,6 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/2027': {
-      id: '/2027'
-      path: '/2027'
-      fullPath: '/2027'
-      preLoaderRoute: typeof R2027RouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -2239,6 +2271,34 @@ declare module '@tanstack/react-router' {
       path: '/virginia-2027-bills'
       fullPath: '/virginia-2027-bills'
       preLoaderRoute: typeof Virginia2027BillsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/2027/': {
+      id: '/2027/'
+      path: '/2027'
+      fullPath: '/2027/'
+      preLoaderRoute: typeof R2027IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/2027/$locality': {
+      id: '/2027/$locality'
+      path: '/2027/$locality'
+      fullPath: '/2027/$locality'
+      preLoaderRoute: typeof R2027LocalityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/2027/news': {
+      id: '/2027/news'
+      path: '/2027/news'
+      fullPath: '/2027/news'
+      preLoaderRoute: typeof R2027NewsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/2027/races': {
+      id: '/2027/races'
+      path: '/2027/races'
+      fullPath: '/2027/races'
+      preLoaderRoute: typeof R2027RacesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/articles/': {
@@ -3290,7 +3350,6 @@ const LibraryRouteWithChildren =
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  R2027Route: R2027Route,
   AboutRoute: AboutRoute,
   ArticlesRoute: ArticlesRouteWithChildren,
   BoardOfEducationRoute: BoardOfEducationRoute,
@@ -3314,6 +3373,9 @@ const rootRouteChildren: RootRouteChildren = {
   VaViolentCrimeOutcomesRoute: VaViolentCrimeOutcomesRoute,
   VideosRoute: VideosRoute,
   Virginia2027BillsRoute: Virginia2027BillsRoute,
+  R2027LocalityRoute: R2027LocalityRoute,
+  R2027NewsRoute: R2027NewsRoute,
+  R2027RacesRoute: R2027RacesRoute,
   DashboardsGeneralAssemblyRoute: DashboardsGeneralAssemblyRoute,
   DataRepublicansVsDemocratsRoute: DataRepublicansVsDemocratsRoute,
   FindTheMomentLocalityRoute: FindTheMomentLocalityRoute,
@@ -3322,6 +3384,7 @@ const rootRouteChildren: RootRouteChildren = {
   MockupsSearchRoute: MockupsSearchRoute,
   MockupsTipsRoute: MockupsTipsRoute,
   MockupsVoterGuideRoute: MockupsVoterGuideRoute,
+  R2027IndexRoute: R2027IndexRoute,
   DashboardsIndexRoute: DashboardsIndexRoute,
   ApiWeeklyConfirmRoute: ApiWeeklyConfirmRoute,
   ApiWeeklySubscribeRoute: ApiWeeklySubscribeRoute,

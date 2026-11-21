@@ -26,7 +26,7 @@ export const NAV_TOOLS = [
   { to: "/nova-briefing", label: "Daily NoVA Briefing" },
   { to: "/library", label: "Research Library" },
   { to: "/library/foia", label: "FOIA letter desk" },
-  { to: "/2027", label: "2027 election" },
+  { to: "/2027", label: "2027 Election Dashboard" },
   { to: "/virginia-2027-bills", label: "Virginia 2027 bills" },
   { to: "/data/republicans-vs-democrats", label: "Visual Data" },
   { to: "/va-violent-crime-outcomes", label: "VA Violent Crime Outcomes" },
@@ -48,7 +48,7 @@ export const NAV_OFFICES = [
   { to: "/senators", label: "Senators" },
   { to: "/general-assembly", label: "Gen. Assembly" },
   { to: "/counties", label: "Counties" },
-  { to: "/2027", label: "2027 election" },
+  { to: "/2027", label: "2027 Election Dashboard" },
 ] as const;
 export const NAV_DESK = [
   { to: "/about", label: "About" },

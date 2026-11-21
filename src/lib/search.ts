@@ -432,7 +432,7 @@ function buildIndex(): SearchDoc[] {
       title: c.name,
       snippet: [c.officeSought, loc, status].filter(Boolean).join(" · "),
       shelf: "2027",
-      href: "/2027",
+      href: "/2027/races",
       titleFields: `${c.name} ${c.officeSought} ${loc} ${status} 2027 Democrat Democrats candidate`,
       body: `${c.officeSought} ${loc} ${status} 2027 election name file`,
       districtNumber: null,
