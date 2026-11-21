@@ -223,7 +223,20 @@
     }
    ],
    "members_source_url": "https://www.loudoun.gov/DocumentCenter/View/211930/FY2024-Loudoun-ACFR",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Zeina Hutchison",
+     "party": null,
+     "party_label": null,
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/loudoun-county-school-board-ashburn/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "loudoun-catoctin",
@@ -436,7 +449,31 @@
     }
    ],
    "members_source_url": "https://www.fcps.edu/school-board/school-board-members",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Joyti Jiandani",
+     "party": null,
+     "party_label": null,
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/fairfax-county-school-board-at-large/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    },
+    {
+     "name": "Deborah Kilpatrick",
+     "party": null,
+     "party_label": null,
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/fairfax-county-school-board-at-large/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "fairfax-county-braddock",
@@ -628,7 +665,20 @@
     }
    ],
    "members_source_url": "https://www.fcps.edu/school-board/school-board-members",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Jeremiah Brooks",
+     "party": null,
+     "party_label": null,
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/fairfax-county-school-board-franconia/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "fairfax-county-hunter-mill",
@@ -830,7 +880,20 @@
     }
    ],
    "members_source_url": "https://www.fcps.edu/school-board/school-board-members",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Tamara O'Neil",
+     "party": null,
+     "party_label": null,
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/fairfax-county-school-board-springfield/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "fairfax-county-sully",
@@ -1058,7 +1121,20 @@
     }
    ],
    "members_source_url": "https://www.pwcs.edu/about/school_board/",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Ben Baldwin",
+     "party": null,
+     "party_label": null,
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/prince-william-county-school-board-coles/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "prince-william-gainesville",

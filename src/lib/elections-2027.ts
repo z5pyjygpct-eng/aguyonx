@@ -33,7 +33,18 @@ export type Member = {
   finance_committee?: { committee_url: string; committee_name: string; election_cycle?: string | null; latest_report_filed?: string | null; do_not_use?: boolean } | null;
 };
 /** A candidacy reported by our editor that is not a registered committee for this seat in the official record. Never counted as a registration. */
-export type Announced = { name: string; party: string | null; party_label?: string | null; basis: string; reported: string; finance_committee_url?: string | null; record_url?: string | null; note: string };
+export type Announced = {
+  name: string; party: string | null; party_label?: string | null; basis: string; reported: string; finance_committee_url?: string | null; record_url?: string | null; note: string;
+  /** Day the candidacy was announced, when the source states it (ISO). */
+  date?: string | null;
+  /** A public source that states the candidacy (news report, the candidate's own announcement, or VPAP's 2027 listing), and its short name. */
+  source_url?: string | null; source_label?: string | null;
+};
+/** Asterisk line for an announced candidate (Scott, Nov 21, 2026): announced, not counted, not yet officially filed. */
+export function announcedLine(a: Pick<Announced, "date">): string {
+  const d = a.date ? new Date(a.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : null;
+  return `* Announced${d ? ` ${d}` : ""}, not yet officially filed with the state`;
+}
 export type Coverage = { locality_id: string; locality: string; coverage: "all" | "part"; precincts: number; locality_precincts: number; source_url: string };
 export type Race = {
   /** Committees dropped on review (e.g. stale: the registrant now holds another office), with the reason and its source. */

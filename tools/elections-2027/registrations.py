@@ -575,19 +575,32 @@ _BRISKMAN_CF = "https://cfreports.elections.virginia.gov/Committee/Index/21c0c1c
 ANNOUNCED = {
     ("bos", "loudoun-chair"): [{
         "name": "Juli E. Briskman", "party": "D", "party_label": "Democratic", "basis": "editor", "reported": "2026-11-20",
-        "finance_committee_url": _BRISKMAN_CF,
+        "finance_committee_url": _BRISKMAN_CF, "date": None,
+        "source_url": "https://www.ffxnow.com/2026/08/28/n-va-political-leaders-scramble-to-meet-evolving-public-sentiment-on-data-centers/",
+        "source_label": "FFXnow",
         "record_url": "https://cf.elections.virginia.gov/Printable/StatementOfOrganization/21c0c1c3-f8b4-e811-bffd-984be103f032/pdf/cfreports",
         "note": "Running for Chair per our editor (Nov. 20, 2026); not yet a registered Chair committee. The official state record, checked "
                 "Nov. 20, 2026, shows no Briskman committee for Chair: her only committee, Briskman for Supervisor (CC-18-00409), lists "
                 "Member Board of Supervisors, Algonkian District on its Statement of Organization and filed a final report on Aug. 25, 2026."}],
     ("bos", "loudoun-sterling"): [{
-        "name": "Vicky Hu", "party": "D", "party_label": "Democratic", "basis": "editor", "reported": "2026-11-16",
+        "name": "Vicky Hu", "party": "D", "party_label": "Democratic", "basis": "editor", "reported": "2026-11-16", "date": "2026-11-16",
+        "source_url": "https://www.loudounnow.com/news/hu-announces-run-for-sterling-district-supervisor/article_112f7f3e-21c1-4125-a193-1a541fcaa63c.html",
+        "source_label": "Loudoun Now",
         "note": "Announced a run for Sterling District Supervisor in Loudoun Now on Nov. 16, 2026 "
                 "(https://www.loudounnow.com/news/hu-announces-run-for-sterling-district-supervisor/article_112f7f3e-21c1-4125-a193-1a541fcaa63c.html). "
                 "She is seeking the Democratic nomination, challenging incumbent Koran T. Saines in the 2027 Democratic primary. "
                 "This is her own announcement, not an official filing: she is not on the ballot, and no registered 2027 committee for her "
                 "appears in the official state campaign finance record used for this dashboard."}],
 }
+# Announced candidates from the Nov. 21, 2026 sweep (announced-candidates.json): public announcements or VPAP listings with no counted
+# 2027 committee in the state campaign finance data. Merged here so every rebuild keeps them; never counted as registrations.
+_PARTY_LABEL = {"D": "Democratic", "R": "Republican"}
+for _e in json.loads((Path(__file__).resolve().parent / "announced-candidates.json").read_text())["candidates"]:
+    _src = _e["source_label"] + (" (" + _e["date"] + ")" if _e.get("date") else "")
+    ANNOUNCED.setdefault((_e["office"], _e["race_id"]), []).append({
+        "name": _e["name"], "party": _e.get("party"), "party_label": _PARTY_LABEL.get(_e.get("party")), "basis": "announced",
+        "reported": "2026-11-21", "date": _e.get("date"), "source_url": _e["source_url"], "source_label": _e["source_label"],
+        "note": f"Announced 2027 candidate per {_src}; no counted 2027 committee in the state campaign finance data used here."})
 GA_PARTY = {("house", 20): {"last": "Luna", "party": "D",
                              "party_source_url": "https://enr.elections.virginia.gov/results/public/Virginia/elections/2026-November-General/ballot-items/01000000-f030-c43d-73f4-08df1fee5331",
                              "party_note": "Democratic in the Nov. 3, 2026 special election (ELECT results, unofficial until certified)"}}

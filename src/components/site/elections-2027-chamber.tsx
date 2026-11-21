@@ -4,11 +4,12 @@ import { ChevronDown, ExternalLink, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import HOUSE from "@/lib/elections-2027-house.json";
 import SENATE from "@/lib/elections-2027-senate.json";
-import { candFinanceUrl, memberFinanceUrl, type Cand, type Coverage, type Race } from "@/lib/elections-2027";
+import { candFinanceUrl, memberFinanceUrl, type Announced, type Cand, type Coverage, type Race } from "@/lib/elections-2027";
 import { FinanceLink } from "@/components/site/finance-link";
 import { CHAMBER_VIEWS, NO_FILING_TAG, PRESUMED_NOTE, rowsForView, toRow, unclearSeats, VIEW_BY_ID, VIEW_GROUPS, type ChallengerRow, type ChamberView } from "@/lib/elections-2027-challengers";
 import { Card, Legend, MEMBER_ROUTE, REG_SOURCE, Tile, ext } from "@/components/site/elections-2027-seats";
 import { Election2027Hero } from "@/components/site/elections-2027-hero";
+import { AnnouncedName, ASTERISK_NOTE } from "@/components/site/elections-2027-announced";
 import {
   chamberLocalityOptions,
   districtCoverageText,
@@ -117,6 +118,19 @@ function Names({ cs, empty = "—", showParty = false }: { cs: Cand[]; empty?: s
   );
 }
 
+/** Filed names, then announced candidates (asterisk + note) in the same slot. Announced never change the counts or statuses. */
+function WithAnnounced({ cs, ann, empty = "—", showParty = false, same }: { cs: Cand[]; ann: Announced[]; empty?: string; showParty?: boolean; same?: string | null }) {
+  if (!ann.length) return <Names cs={cs} empty={empty} showParty={showParty} />;
+  return (
+    <div className="space-y-1">
+      {cs.length ? <Names cs={cs} showParty={showParty} /> : null}
+      <ul className="space-y-1">{ann.map((a) => <li key={a.name}><AnnouncedName a={a} sameParty={!!same && a.party === same} /></li>)}</ul>
+    </div>
+  );
+}
+const annOf = (r: Race, pick: (p: string | null) => boolean) => (r.announced ?? []).filter((a) => pick(a.party));
+const isMajorP = (p: string | null) => p === "D" || p === "R";
+
 export function NoFilingTag() {
   return <span className="inline-flex rounded-full border border-navy-line px-2 py-0.5 text-[11px] font-medium text-on-dark-muted" title={PRESUMED_NOTE}>{NO_FILING_TAG}</span>;
 }
@@ -133,6 +147,11 @@ function Incumbent({ row, office, showParty }: { row: ChallengerRow; office: Cha
       {row.status === "not-filed" ? <p className="mt-1"><NoFilingTag /></p> : null}
       {row.status === "check" && row.race.check ? (
         <p className="mt-1 text-xs text-[#fcd34d]"><span className="font-bold">! Check:</span> {row.race.check.note} <a href={row.race.check.committee_url} {...ext} className="text-gold underline">Committee record</a></p>
+      ) : null}
+      {annOf(row.race, (p) => p === row.party).length ? (
+        <div className="mt-1 text-xs text-on-dark-muted">Also running, same party (possible primary):
+          <ul className="mt-1 space-y-1">{annOf(row.race, (p) => p === row.party).map((a) => <li key={a.name}><AnnouncedName a={a} /></li>)}</ul>
+        </div>
       ) : null}
       {row.same.length ? (
         <div className="mt-1 text-xs text-on-dark-muted">Also registered, same party:{" "}
@@ -177,8 +196,8 @@ function ViewList({ office, v, rows, s, scopeLabel }: { office: ChamberOffice; v
                 <tr key={r.seat} className="align-top">
                   <td className="py-3 pr-3">{seatLink(r)}</td>
                   <td className="py-3 pr-3"><Incumbent row={r} office={office} /></td>
-                  <td className="py-3 pr-3"><Names cs={r.opposite} /></td>
-                  <td className="py-3 pr-3"><Names cs={r.other} /></td>
+                  <td className="py-3 pr-3"><WithAnnounced cs={r.opposite} ann={annOf(r.race, (p) => p === opp)} /></td>
+                  <td className="py-3 pr-3"><WithAnnounced cs={r.other} ann={annOf(r.race, (p) => !isMajorP(p))} /></td>
                 </tr>
               ))}
             </tbody>
@@ -189,8 +208,8 @@ function ViewList({ office, v, rows, s, scopeLabel }: { office: ChamberOffice; v
                 <div className="flex items-baseline justify-between gap-3">{seatLink(r)}</div>
                 <dl className="mt-2 grid grid-cols-[minmax(0,7.5rem)_minmax(0,1fr)] gap-x-3 gap-y-2 text-sm">
                   <dt className="text-xs font-semibold text-on-dark-muted uppercase">{cols[0]}</dt><dd className="min-w-0"><Incumbent row={r} office={office} /></dd>
-                  <dt className="text-xs font-semibold text-on-dark-muted uppercase">{cols[1]}</dt><dd className="min-w-0"><Names cs={r.opposite} /></dd>
-                  <dt className="text-xs font-semibold text-on-dark-muted uppercase">Other</dt><dd className="min-w-0"><Names cs={r.other} /></dd>
+                  <dt className="text-xs font-semibold text-on-dark-muted uppercase">{cols[1]}</dt><dd className="min-w-0"><WithAnnounced cs={r.opposite} ann={annOf(r.race, (p) => p === opp)} /></dd>
+                  <dt className="text-xs font-semibold text-on-dark-muted uppercase">Other</dt><dd className="min-w-0"><WithAnnounced cs={r.other} ann={annOf(r.race, (p) => !isMajorP(p))} /></dd>
                 </dl>
               </li>
             ))}
@@ -306,7 +325,7 @@ function CountyDistrictList({ office, matches, s, onSeat }: {
             )}
             <div className="mt-2 text-sm">
               <p className="text-xs font-semibold tracking-wide text-on-dark-muted uppercase">Challengers</p>
-              <div className="mt-1"><Names cs={challengers} empty="None registered yet" showParty /></div>
+              <div className="mt-1"><WithAnnounced cs={challengers} ann={race.announced ?? []} empty="None registered yet" showParty same={member?.party ?? null} /></div>
             </div>
           </li>
         );
@@ -369,7 +388,7 @@ export function ChamberPage({ office, s, onSeat, onCounty }: {
         <div className={cn(CARD, "mt-6")}>
           <ViewButtons office={office} s={s} counts={counts} fullCounts={fullCounts} scopeLabel={scopeLabel} />
           <p className="mt-5 text-xs text-on-dark-muted">
-            "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. {PRESUMED_NOTE} As of {fmtDate(d.as_of)}.{" "}
+            "Challengers" are registered 2027 campaign committees in the state's campaign finance records, not certified ballot candidates; official ballot lists are not posted yet. {PRESUMED_NOTE} {ASTERISK_NOTE} As of {fmtDate(d.as_of)}.{" "}
             <a href={REG_SOURCE} {...ext} className="inline-flex items-center gap-1 text-gold underline">Virginia Department of Elections campaign finance reports <ExternalLink className="size-3" aria-hidden /></a>
           </p>
           {unclear.length ? (

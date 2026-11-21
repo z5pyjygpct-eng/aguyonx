@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { AnnouncedCard } from "@/components/site/elections-2027-announced";
 import { X } from "lucide-react";
 import HOUSE from "@/lib/elections-2027-house.json";
 import SENATE from "@/lib/elections-2027-senate.json";
@@ -172,6 +173,9 @@ export function Card({ r, office, asOf, onClose, inline, presumed }: { r: Race; 
         {r.candidates.length ? (
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">{r.candidates.map((c) => <RegCandidate key={c.committee_code ?? c.name} c={c} e={e} today={today} />)}</ul>
         ) : <p className="mt-3 rounded-md border border-dashed border-navy-line px-3 py-3 text-sm text-on-dark-muted">No registered 2027 campaign committee for this seat in the official state record as of {fmtDate(asOf)}, and no official ballot list yet.{pnf ? " The incumbent is presumed to run." : ""}</p>}
+        {r.announced?.length ? (
+          <ul className="mt-2 grid gap-2 sm:grid-cols-2">{r.announced.map((a) => <AnnouncedCard key={a.name} a={a} badge={office !== "sb"} />)}</ul>
+        ) : null}
         {r.shared_with?.length ? (
           <p className="mt-2 text-xs text-on-dark-muted">Shared office: voters in {r.shared_with.map((x, i) => (
             <span key={x.locality}>{i ? (i === r.shared_with!.length - 1 ? " and " : ", ") : ""}{x.locality} <a href={x.source_url} {...ext} className="text-gold underline">(source)</a></span>

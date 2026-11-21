@@ -600,7 +600,20 @@
     }
    ],
    "members_source_url": "https://www.fairfaxcounty.gov/sheriff/",
-   "members_known": true
+   "members_known": true,
+   "announced": [
+    {
+     "name": "Brittany Dunn-Pirio",
+     "party": "D",
+     "party_label": "Democratic",
+     "basis": "announced",
+     "reported": "2026-11-21",
+     "date": null,
+     "source_url": "https://www.vpap.org/offices/fairfax-county-commonwealths-attorney/elections/",
+     "source_label": "VPAP",
+     "note": "Announced 2027 candidate per VPAP; no counted 2027 committee in the state campaign finance data used here."
+    }
+   ]
   },
   {
    "id": "prince-william-sheriff",

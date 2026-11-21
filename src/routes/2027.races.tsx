@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { AnnouncedCard } from "@/components/site/elections-2027-announced";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight, Search, X } from "lucide-react";
 import { SiteShell } from "@/components/site/shell";
@@ -136,6 +137,8 @@ function RaceRow({ e, today, terms, locs = [], card }: { e: Entry; today: Return
       ) : (
         <p className="mt-1 text-xs text-on-dark-muted">No registered 2027 campaign committee in the official state record yet, and no official ballot list. <a href={e.race.filing_source_url} {...ext} className="text-gold underline">Department of Elections candidate lists</a></p>
       )}
+      {e.race.announced?.length ? <ul className="mt-2 grid gap-2 sm:grid-cols-2">{e.race.announced.map((a) => <AnnouncedCard key={a.name} a={a} badge={e.office !== "sb"} />)}</ul> : null}
+
     </li>
   );
 }
