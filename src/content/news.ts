@@ -56,6 +56,20 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "lucas-indictment-virginia-legislators-pilotonline-2026-11-21",
+    date: "2026-11-21",
+    filed: "2026-11-22",
+    headline: "Lucas’ indictment references talks with Virginia legislators; here’s what some said about the allegations",
+    outlet: "The Virginian-Pilot",
+    url: "https://www.pilotonline.com/2026/11/21/lucas-indictment-virginia-legislators/",
+    people: [
+      { name: "L. Louise Lucas", office: "State Senator" },
+      { name: "Scott Surovell", office: "State Senator" },
+    ],
+    scope: "statewide",
+    locations: ["senate"],
+  },
+  {
     id: "lcps-launches-violence-prevention-initiative-ltm-2026-11-21",
     date: "2026-11-21",
     filed: "2026-11-22",
