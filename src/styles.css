@@ -170,3 +170,22 @@
 .agx-legacy h2.font-serif { text-transform: uppercase; font-weight: 600; }
 .agx-legacy .rounded-md.border-border.bg-card { border-radius: var(--radius-xl); }
 .agx-legacy details > summary { color: var(--color-gold); }
+
+
+/* Visible scrollbar in the bill summary modal so long text is clearly scrollable, not cut off. */
+.plain-summary-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-gold) transparent;
+}
+.plain-summary-scroll::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.plain-summary-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.plain-summary-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--color-gold);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
