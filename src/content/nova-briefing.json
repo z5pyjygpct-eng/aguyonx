@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,82 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-22",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Saturday, Nov 21) local clips for Loudoun, Prince William and Arlington, verified live (HTTP 200, headline matched page title/h1, Nov 21 ET publish time confirmed in page metadata; none already in items.csv, loudoun-news-seen.csv or news.ts). Sources checked: RSS from ARLnow, FFXnow, Potomac Local, WTOP local and Blue Ridge Leader; homepages of Loudoun Times-Mirror, Loudoun Now and Prince William Times. Gaps: no verified Fairfax County item for Nov 21 (FFXnow and Potomac Local had nothing dated Nov 21); no Prince William item from Potomac Local; Loudoun Now feed returned 404, InsideNoVA blocked (403), Fairfax County Times not reachable. Excluded: statewide/national/other-locality items (measles death, WTOP DC/Maryland items), events/lifestyle/business PR/opinion/photo galleries, and items not dated Nov 21. news.ts had no Nov 21 items. Not capped.",
+      "items": [
+        {
+          "id": "lcps-launches-violence-prevention-initiative-ltm-2026-11-21",
+          "county": "Loudoun",
+          "headline": "LCPS launches violence prevention initiative",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/education/lcps-launches-violence-prevention-initiative/article_22b03f17-8ec6-457e-be50-76eee9704172.html",
+          "published": "2026-11-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "crews-extinguish-commercial-fire-in-sterling-loudounnow-2026-11-21",
+          "county": "Loudoun",
+          "headline": "Crews Extinguish Commercial Fire in Sterling",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/public_safety/crews-extinguish-commercial-fire-in-sterling/article_8624c42c-2b92-4729-a5b4-2d738ccaeb90.html",
+          "published": "2026-11-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "lcps-launches-initiative-to-address-youth-violence-brl-2026-11-21",
+          "county": "Loudoun",
+          "headline": "LCPS Launches Initiative to Address Youth Violence and Student Safety",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/lcps-launches-initiative-to-address-youth-violence-and-student-safety/",
+          "published": "2026-11-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "17-year-old-charged-with-malicious-wounding-after-brl-2026-11-21",
+          "county": "Loudoun",
+          "headline": "17-Year-Old Charged with Malicious Wounding After Fight at Park View High School",
+          "outlet": "Blue Ridge Leader",
+          "url": "https://blueridgeleader.com/17-year-old-charged-with-malicious-wounding-after-fight-at-park-view-high-school/",
+          "published": "2026-11-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "local-water-regulator-won-t-press-micron-on-foreve-pwt-2026-11-21",
+          "county": "Prince William",
+          "headline": "Local water regulator won’t press Micron on ‘forever chemicals’",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/local-water-regulator-won-t-press-micron-on-forever-chemicals/article_4a206713-c1eb-46ce-a1aa-5e0e034b31c1.html",
+          "published": "2026-11-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "judge-blocks-memorial-circle-arch-in-arlington-cou-arlnow-2026-11-21",
+          "county": "Arlington",
+          "headline": "Judge blocks Memorial Circle arch in Arlington County’s lawsuit, with no end date set",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/21/judge-blocks-memorial-circle-arch-in-arlington-countys-lawsuit-with-no-end-date-set/",
+          "published": "2026-11-21",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "new-gunfire-damages-building-car-in-green-valley-arlnow-2026-11-21",
+          "county": "Arlington",
+          "headline": "NEW: Gunfire damages building, car in Green Valley",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/21/new-gunfire-damages-building-car-in-green-valley/",
+          "published": "2026-11-21",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Fairfax: no verified Nov 21 item (FFXnow, Potomac Local, WTOP feeds had none; Fairfax County Times unreachable)",
+        "Prince William: only one item (Prince William Times); Potomac Local had no Nov 21 items",
+        "InsideNoVA blocked (HTTP 403); Loudoun Now RSS 404 (homepage used)"
+      ]
+    },
     {
       "date": "2026-11-21",
       "status": "ok",
