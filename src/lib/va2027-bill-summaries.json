@@ -6159,6 +6159,32 @@
         "full_text_doc1": "SB861",
         "full_text_date1": "11/18/2026"
       }
+    },
+    "SB862": {
+      "summary": "This bill would require any application for the construction of an electrical transmission line of 138 kilovolts or more to include an explanation. The explanation would have to say why the need for that line cannot instead be met through the use of grid-enhancing technologies within existing electrical transmission corridors or routes. Grid-enhancing technologies are defined in existing law.",
+      "status": "ok",
+      "sourceUsed": "lis-summary",
+      "generatedAt": "2026-11-21",
+      "reviewed": false,
+      "sourceFingerprint": {
+        "summary_plain": "Electric utilities; construction of certain transmission lines; grid-enhancing technologies. Provides that any application for the construction of an electrical transmission line of 138 kilovolts or more shall include an explanation of why the need for such line cannot instead be met through the use of grid-enhancing technologies, as defined in existing law, within existing electrical transmission corridors or routes.",
+        "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB862/text/SB862",
+        "full_text_doc1": "SB862",
+        "full_text_date1": "11/19/2026"
+      }
+    },
+    "SB863": {
+      "summary": "This bill would require certain listed schools, child care providers, health and social services providers, and other qualified entities to enroll their employees and volunteers in the Virginia Rap Back Service. That requirement would apply when the entity employs people or allows volunteers and already requires a fingerprint-based criminal background check as a condition of that work. The bill would also require non-interscholastic youth sports or athletics organizations to have all applicants for a job or volunteer authorization as a non-interscholastic athletics coach undergo certain criminal history records checks. Non-interscholastic athletics coach is defined in the bill. Any entity required to enroll people in the Virginia Rap Back Service would have to enroll employees and volunteers who were already working there before the bill takes effect, and who stay on after that date, by July 1, 2028.",
+      "status": "ok",
+      "sourceUsed": "lis-summary",
+      "generatedAt": "2026-11-21",
+      "reviewed": false,
+      "sourceFingerprint": {
+        "summary_plain": "Employees and volunteers of public and nonpublic schools, childcare entities, youth athletics, and other providers; certain background and criminal record checks; enrollment in Virginia Rap Back Service and criminal history record monitoring; requirements; penalty. Requires each school board, governing board or administrator of any private elementary or secondary school accredited pursuant to applicable law, child care provider under the authority of the Board of Education, community services board or behavioral health authority established pursuant to applicable law, local board of social services subject to the provisions of applicable law, or health care provider, certified nursing facility, nursing home, adult day center, assisted living facility, child-placing agency, or other qualified entity or provider, as those terms are defined by applicable law, that (i) employs or permits persons to serve as volunteers and (ii) requires a fingerprint-based criminal background check as a condition of such employment or volunteer service to enroll individuals it employs or permits to serve as volunteers in the Virginia Rap Back Service established pursuant to applicable law. The bill also establishes requirements for the employment or authorization to work on a volunteer basis as a non-interscholastic athletics coach, as that term is defined by the bill, by each non-interscholastic youth sports or athletics organization, including requiring all applicants for employment or authorization to work on a volunteer basis as a non-interscholastic athletics coach to undergo certain criminal history records checks in accordance with applicable law. Finally, the bill directs any entity required to enroll individuals in the Virginia Rap Back Service in accordance with the provisions of the bill to ensure that each individual employed or authorized to serve as a volunteer by such entity prior to the effective date of the bill and who maintains continuous employment or authorization to serve as a volunteer after the effective date of the bill, is enrolled in the Virginia Rap Back Service in accordance with the provisions of the bill by no later than July 1, 2028.",
+        "lis_text_url": "https://lis.virginia.gov/bill-details/20271/SB863/text/SB863",
+        "full_text_doc1": "SB863",
+        "full_text_date1": "11/19/2026"
+      }
     }
   }
 }
