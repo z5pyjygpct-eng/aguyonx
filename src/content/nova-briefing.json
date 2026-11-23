@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,38 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-23",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Sunday, Nov 22) local clips, verified live (HTTP 200, headline matched og:title, Nov 22 ET publish time in page metadata). Sources checked: RSS from ARLnow, FFXnow, Potomac Local, WTOP local; Loudoun Times-Mirror and Prince William Times RSS returned 429. News page had no Nov 22 items. Excluded: Stafford (Hartwood data center town hall), Chesterfield (house explosion), Manassas Park Flannel Fest (event), Potomac Local 'Anna Crutchfield Day' (paywalled, locality unclear), DC/Maryland/national items. Not capped.",
+      "items": [
+        {
+          "id": "manassas-housing-advisory-board-permanent-potomaclocal-2026-11-22",
+          "county": "Prince William",
+          "headline": "Manassas City Council moves to make Housing Advisory Board permanent",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/22/manassas-moves-to-make-housing-advisory-board-permanent/",
+          "published": "2026-11-22",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "atf-employee-playing-cop-mclean-wtop-2026-11-22",
+          "county": "Fairfax",
+          "headline": "ATF employee accused of playing cop, pulling over drivers in McLean",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/atf-employee-accused-of-playing-cop-pulling-over-drivers-in-mclean/",
+          "published": "2026-11-22",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Loudoun: no verified Nov 22 item (Loudoun Times-Mirror/Loudoun Now/Loudoun.com feeds blocked, 429 or unreachable)",
+        "Arlington: no Nov 22 item in ARLnow feed (newest Nov 21)",
+        "Fairfax: only one item (WTOP); FFXnow feed had nothing dated Nov 22",
+        "Prince William Times RSS 429"
+      ]
+    },
     {
       "date": "2026-11-22",
       "status": "ok",

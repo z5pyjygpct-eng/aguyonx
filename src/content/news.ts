@@ -56,6 +56,28 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "manassas-housing-advisory-board-permanent-potomaclocal-2026-11-22",
+    date: "2026-11-22",
+    filed: "2026-11-23",
+    headline: "Manassas City Council moves to make Housing Advisory Board permanent",
+    outlet: "Potomac Local",
+    url: "https://www.potomaclocal.com/2026/11/22/manassas-moves-to-make-housing-advisory-board-permanent/",
+    people: [],
+    scope: "local",
+    locations: ["prince-william"],
+  },
+  {
+    id: "atf-employee-playing-cop-mclean-wtop-2026-11-22",
+    date: "2026-11-22",
+    filed: "2026-11-23",
+    headline: "ATF employee accused of playing cop, pulling over drivers in McLean",
+    outlet: "WTOP",
+    url: "https://wtop.com/virginia/2026/11/atf-employee-accused-of-playing-cop-pulling-over-drivers-in-mclean/",
+    people: [],
+    scope: "local",
+    locations: ["fairfax-county"],
+  },
+  {
     id: "lucas-indictment-virginia-legislators-pilotonline-2026-11-21",
     date: "2026-11-21",
     filed: "2026-11-22",
