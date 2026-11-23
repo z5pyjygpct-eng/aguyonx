@@ -89,6 +89,62 @@ export const CANDIDATES_2027: Candidate2027[] = [
     locality: "Petersburg, Surry, Dinwiddie, Prince George",
     status: "declared",
   },
+  {
+    id: "phyllis-randall",
+    name: "Phyllis Randall",
+    officeSought: "Loudoun Chair (reelection)",
+    locality: "Loudoun County",
+    status: "declared",
+  },
+  {
+    id: "andres-jimenez",
+    name: "Andres Jimenez",
+    officeSought: "Fairfax Mason District Supervisor (reelection)",
+    locality: "Fairfax County",
+    status: "declared",
+  },
+  {
+    id: "melanie-meren",
+    name: "Melanie Meren",
+    officeSought: "Fairfax Board of Supervisors Chair (Democratic primary)",
+    locality: "Fairfax County",
+    status: "declared",
+  },
+  {
+    id: "bryan-graham",
+    name: "Bryan Graham",
+    officeSought: "Fairfax Providence District Supervisor",
+    locality: "Fairfax County",
+    status: "declared",
+  },
+  {
+    id: "kathy-smith",
+    name: "Kathy Smith",
+    officeSought: "Fairfax Sully District Supervisor (reelection)",
+    locality: "Fairfax County",
+    status: "declared",
+  },
+  {
+    id: "walter-alcorn",
+    name: "Walter Alcorn",
+    officeSought: "Fairfax Hunter Mill District Supervisor (reelection)",
+    locality: "Fairfax County",
+    status: "declared",
+  },
+  {
+    id: "dan-storck",
+    name: "Dan Storck",
+    officeSought: "Fairfax Mount Vernon District Supervisor (reelection)",
+    locality: "Fairfax County",
+    status: "declared",
+  },
+  {
+    id: "natalie-nguyen-woodruff",
+    name: "Natalie Nguyen Woodruff",
+    officeSought: "Fairfax Springfield District Supervisor (planning to run)",
+    locality: "Fairfax County",
+    status: "potential",
+  },
 ];
 
 export function newsForCandidate(name: string): NewsItem[] {
