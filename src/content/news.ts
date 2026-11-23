@@ -56,6 +56,31 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "va-school-health-committee-nurse-every-school-virginiamercury-2026-11-23",
+    date: "2026-11-23",
+    filed: "2026-11-23",
+    headline: "Va. school health committee OKs plan to require a nurse in every school; funding concerns linger",
+    outlet: "Virginia Mercury",
+    url: "https://virginiamercury.com/2026/11/23/va-school-health-committee-oks-plan-to-require-a-nurse-in-every-school-funding-concerns-lingering/",
+    people: [
+      { name: "Barbara Favola", office: "State Senator" },
+      { name: "Stella Pekarsky", office: "State Senator" },
+      { name: "Mike Cherry", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
+    id: "fairfax-county-staff-recommends-approval-edsall-substation-annandaletoday-2026-11-22",
+    date: "2026-11-22",
+    filed: "2026-11-23",
+    headline: "Fairfax County staff recommends approval of the Edsall Substation",
+    outlet: "Annandale Today",
+    url: "https://annandaletoday.com/fairfax-county-staff-recommends-approval-of-the-edsall-substation/",
+    people: [],
+    scope: "local",
+    locations: ["fairfax-county"],
+  },
+  {
     id: "manassas-housing-advisory-board-permanent-potomaclocal-2026-11-22",
     date: "2026-11-22",
     filed: "2026-11-23",
