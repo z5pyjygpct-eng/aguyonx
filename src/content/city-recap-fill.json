@@ -68787,5 +68787,89 @@
     "href": "https://pwcgov.granicus.com/MinutesViewer.php?view_id=23&clip_id=3946"
    }
   ]
+ },
+ "pwc-sb-6eODMDxi8gk": {
+  "decisions": [
+   {
+    "item": "1.02",
+    "action": "1.02 Approval of Agenda: Motion by Richard M Jessie, second by Lisa A Zargarpur.",
+    "tally": "Motion Passed 7-0",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LPZ5765B5"
+    }
+   },
+   {
+    "item": "2.01",
+    "action": "2.01 Closed Session Motion: Motion by Richard M Jessie, second by Lisa A Zargarpur.",
+    "tally": "Motion Passed 7-0",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LPZ5765B5"
+    }
+   },
+   {
+    "item": "8.01",
+    "action": "8.01 Closed Session Certification: Motion by Richard M Jessie, second by Lisa A Zargarpur.",
+    "tally": "Motion Passed 8-0",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LPZ5765B5"
+    }
+   },
+   {
+    "item": "9.01",
+    "action": "9.01 Approval of Appointments and Releases of Specific Employees: Motion by Richard M Jessie, second by Tracy L Blake.",
+    "tally": "Motion Passed 8-0",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LPZ5765B5"
+    }
+   },
+   {
+    "item": "9.02",
+    "action": "9.02 Grievance Appeal for Employee T27-004: Motion by Richard M Jessie, second by Jennifer Wall.",
+    "tally": "Motion Passed 8-0",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LPZ5765B5"
+    }
+   },
+   {
+    "item": "9.03",
+    "action": "9.03 Request for Religious Exemption from Compulsory School Attendance in Case Number RE26-9: Motion by Richard M Jessie, second by Jennifer Wall.",
+    "tally": "Motion Passed 8-0",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LPZ5765B5"
+    }
+   },
+   {
+    "item": "12.01",
+    "action": "12.01 Adoption of Consent Agenda (4): Motion by Richard M Jessie, second by Lisa A Zargarpur.",
+    "tally": "Motion Passed 8-0",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LPZ5765B5"
+    }
+   },
+   {
+    "item": "13.01",
+    "action": "13.01 Approval of Acknowledgements & Recognitions (1): Motion by Richard M Jessie, second by Lisa A Zargarpur.",
+    "tally": "Motion Passed 7-0 (Abstain: Erica C Tredinnick)",
+    "source": {
+     "label": "Official minutes (PWCS BoardDocs)",
+     "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LPZ5765B5"
+    }
+   }
+  ],
+  "noVotesRecorded": false,
+  "votesSource": "boarddocs",
+  "links": [
+   {
+    "label": "Official minutes (PWCS BoardDocs): School Board Meeting",
+    "href": "https://go.boarddocs.com/vsba/pwcs/Board.nsf/goto?open&id=DY9LPZ5765B5"
+   }
+  ]
  }
 }
