@@ -85,13 +85,13 @@ test("published ledger keeps 32 new filings and 443 continued records", () => {
   assert.equal(sb861.introduction_date, "11/18/2026");
   assert.deepEqual(categoryIdsOf(sb861), ["uncategorized"]);
   const sb862 = bills.find((b) => b.bill_number === "SB862")!;
-  assert.equal(sb862.title, "Electric utilities; construction of certain transmission lines; grid-enhancing technologies.");
+  assert.equal(sb862.title, "Electric utilities; construction of certain transmission lines, grid-enhancing technologies.");
   assert.equal(sb862.chief_patron_name, "Russet Perry");
   assert.equal(sb862.chief_patron_party_code, "D");
   assert.equal(sb862.introduction_date, "11/19/2026");
   assert.deepEqual(categoryIdsOf(sb862), ["uncategorized"]);
   const sb863 = bills.find((b) => b.bill_number === "SB863")!;
-  assert.equal(sb863.title, "Employees and volunteers of public and nonpublic schools, childcare entities, youth athletics, and other providers; certain background and criminal record checks; enrollment in Virginia Rap Back Service and criminal history record monitoring; requirements; penalty.");
+  assert.equal(sb863.title, "Schools, Childcare & Youth Orgs., volunteers & staff; Virginia Rap Back & criminal history reqmnts.");
   assert.equal(sb863.chief_patron_name, "Russet Perry");
   assert.equal(sb863.chief_patron_party_code, "D");
   assert.equal(sb863.introduction_date, "11/19/2026");
