@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,149 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-24",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Monday, Nov 23) local clips from ARLnow, FFXnow, Potomac Local and WTOP RSS, verified live (HTTP 200, headline matched page title, Nov 23 ET publish date). Loudoun Now RSS had only a press release; Loudoun Times-Mirror and Prince William Times returned 429. Excluded: statewide/national items on News page (Spanberger zoning, AG v. SpaceX/xAI, nurse-in-every-school, AG immigration), W&OD e-bike ban (multi-locality), Falls Church items, Stafford/Fredericksburg items, ATF Reston follow-up (already covered Nov 22), listings/ads/daily digests. Not capped.",
+      "items": [
+        {
+          "id": "man-accused-of-punching-officer-who-tried-to-break-up-claren-arlnow-2026-11-23",
+          "county": "Arlington",
+          "headline": "Man accused of punching officer who tried to break up Clarendon fight",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/23/man-accused-of-punching-officer-who-tried-to-break-up-clarendon-fight/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "acfd-warrants-served-cleanup-required-after-illegal-dumping-arlnow-2026-11-23",
+          "county": "Arlington",
+          "headline": "ACFD: Warrants served, cleanup required after illegal dumping in Clarendon",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/23/acfd-warrants-served-cleanup-required-after-dumping-incident-in-clarendon/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "latest-design-for-dca-pedestrian-bridge-includes-more-protec-arlnow-2026-11-23",
+          "county": "Arlington",
+          "headline": "Latest design for DCA pedestrian bridge includes more protection from sun and rain",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/23/latest-design-for-dca-pedestrian-bridge-includes-more-protection-from-sun-and-rain/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "man-accused-of-leaving-dead-body-in-fairfax-city-parking-lot-ffxnow-2026-11-23",
+          "county": "Fairfax",
+          "headline": "Man accused of leaving dead body in Fairfax City parking lot",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/23/man-accused-of-leaving-dead-body-in-fairfax-city-parking-lot/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-city-explores-granting-naming-rights-for-park-facili-ffxnow-2026-11-23",
+          "county": "Fairfax",
+          "headline": "Fairfax City explores granting naming rights for park facilities, amenities",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/23/fairfax-city-explores-naming-rights-for-park-facilities-amenities/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "carvana-might-open-showroom-dealership-in-springfield-ffxnow-2026-11-23",
+          "county": "Fairfax",
+          "headline": "Carvana might open showroom, dealership in Springfield",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/23/carvana-may-open-showroom-dealership-in-springfield/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "former-fairfax-democrats-chair-to-campaign-for-providence-di-ffxnow-2026-11-23",
+          "county": "Fairfax",
+          "headline": "Former Fairfax Democrats chair to campaign for Providence District supervisor",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/23/former-fairfax-democrats-chair-to-campaign-for-providence-district-supervisor/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "watch-two-arrested-after-33-000-fine-wine-heist-in-lorton-wtop-2026-11-23",
+          "county": "Fairfax",
+          "headline": "WATCH: Two arrested after $33,000 fine wine heist in Lorton",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/watch-two-arrested-after-33000-fine-wine-heist-in-lorton/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-co-orchestra-director-named-finalist-for-2027-grammy-wtop-2026-11-23",
+          "county": "Fairfax",
+          "headline": "Fairfax Co. orchestra director named finalist for 2027 Grammy Music Educator Award",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/fairfax-co-orchestra-director-named-finalist-for-grammy-music-educator-award/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "deputies-identify-man-who-was-shot-killed-in-sterling-1-arre-wtop-2026-11-23",
+          "county": "Loudoun",
+          "headline": "Deputies identify man who was shot, killed in Sterling; 1 arrested",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/1-killed-in-shooting-in-cascades-area-of-loudoun-county/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "husband-charged-in-wife-s-aldie-death-changes-legal-course-wtop-2026-11-23",
+          "county": "Loudoun",
+          "headline": "Husband charged in wife’s Aldie death changes legal course",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/husband-charged-in-wifes-aldie-death-changes-legal-course/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-blotter-17-year-old-shot-at-apartments-near-manassas-potomaclocal-2026-11-23",
+          "county": "Prince William",
+          "headline": "Police Blotter: 17-year-old shot at apartments near Manassas",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/23/police-blotter-2026-11-23/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-park-city-offices-closed-nov-25-27-for-thanksgiving-potomaclocal-2026-11-23",
+          "county": "Prince William",
+          "headline": "Manassas Park city offices closed Nov. 25-27 for Thanksgiving",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/23/manassas-park-city-offices-closed-thanksgiving-nov-25-27/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "new-costello-park-playground-opens-nov-23-in-manassas-park-potomaclocal-2026-11-23",
+          "county": "Prince William",
+          "headline": "New Costello Park playground opens Nov. 23 in Manassas Park",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/23/manassas-park-costello-park-new-playground-opens-nov-23/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-county-offices-closed-nov-26-27-for-thanksgiv-potomaclocal-2026-11-23",
+          "county": "Prince William",
+          "headline": "Prince William County offices closed Nov. 26-27 for Thanksgiving",
+          "outlet": "Potomac Local",
+          "url": "https://www.potomaclocal.com/2026/11/23/prince-william-county-offices-closed-thanksgiving-nov-26-27/",
+          "published": "2026-11-23",
+          "tier": "Reported Claim"
+        }
+      ]
+    },
     {
       "date": "2026-11-23",
       "status": "ok",
