@@ -56,6 +56,37 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "planning-commission-votes-against-permit-novec-deimos-substation-ltm-2026-11-23",
+    date: "2026-11-23",
+    filed: "2026-11-24",
+    headline: "Loudoun County Planning Commission votes against permit for NOVEC-Deimos substation",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/business_and_economy/real_estate_and_development/planning-commission-votes-against-permit-for-novec-deimos-substation/article_7af90c2e-510f-417f-ae01-858f51fc560b.html",
+    people: [],
+    scope: "local",
+    locations: ["loudoun"],
+  },
+  {
+    id: "three-new-data-centers-manassas-tech-park-ii-western-prince-william-insidenova-2026-11-23",
+    date: "2026-11-23",
+    filed: "2026-11-24",
+    headline: "Three new data centers, part of 'Manassas Tech Park II,' pitched for western Prince William",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/news/three-new-data-centers-dubbed-manassas-tech-park-ii-pitched-for-western-prince-william-near-manassas-4cc64b85",
+    people: [],
+    scope: "local",
+  },
+  {
+    id: "faster-e-bikes-motorized-vehicles-banned-wod-trail-ffxnow-2026-11-23",
+    date: "2026-11-23",
+    filed: "2026-11-24",
+    headline: "Faster e-bikes, some motorized vehicles officially banned from W&OD Trail",
+    outlet: "FFXnow",
+    url: "https://www.ffxnow.com/2026/11/23/faster-e-bikes-some-motorized-vehicles-officially-banned-from-wod-trail/",
+    people: [],
+    scope: "local",
+  },
+  {
     id: "whro-spanberger-budget-amendments-meeting-2026-11-23",
     date: "2026-11-23",
     filed: "2026-11-24",
