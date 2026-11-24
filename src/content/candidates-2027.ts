@@ -145,6 +145,20 @@ export const CANDIDATES_2027: Candidate2027[] = [
     locality: "Fairfax County",
     status: "potential",
   },
+  {
+    id: "josh-cole",
+    name: "Josh Cole",
+    officeSought: "State Senate, District 27 (currently Del., Stafford)",
+    locality: "Stafford",
+    status: "declared",
+  },
+  {
+    id: "may-nivar",
+    name: "May Nivar",
+    officeSought: "House of Delegates, District 57 (reelection)",
+    locality: "Henrico and Goochland",
+    status: "declared",
+  },
 ];
 
 export function newsForCandidate(name: string): NewsItem[] {
