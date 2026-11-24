@@ -10141,5 +10141,15 @@ export const HC_FTM_TRANSCRIPTS: FtmTranscript[] = [
     "engine": "whisper.cpp · large-v3-turbo",
     "generated": "2026-11-19",
     "sourceFile": "fxco-bos-4333.srt"
+  },
+  {
+    "meetingId": "pwc-sb-6eODMDxi8gk",
+    "venue": "pwc-schools",
+    "url": "/files/find-the-moment/pwc-schools/transcripts/pwc-sb-6eODMDxi8gk.json",
+    "windowCount": 390,
+    "wordCount": 23975,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-11-23",
+    "sourceFile": "pwc-sb-6eODMDxi8gk.srt"
   }
 ];

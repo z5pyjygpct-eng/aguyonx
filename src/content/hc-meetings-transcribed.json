@@ -10474,5 +10474,15 @@
     "duration": "7h 5m",
     "provider": "granicus-page",
     "playerUrl": "https://video.fairfaxcounty.gov/player/clip/4333?redirect=true"
+  },
+  {
+    "id": "pwc-sb-6eODMDxi8gk",
+    "venue": "pwc-schools",
+    "title": "Prince William County School Board Meeting",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "duration": "2h 41m",
+    "provider": "youtube",
+    "playerUrl": "https://www.youtube.com/watch?v=6eODMDxi8gk"
   }
 ]
