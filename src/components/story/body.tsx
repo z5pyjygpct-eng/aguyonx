@@ -102,7 +102,20 @@ function Block({ block, citations }: { block: BodyBlock; citations: Citation[] }
           <p className="font-mono text-xs font-bold tracking-widest text-gold uppercase">
             {block.title}
           </p>
-          <p className="mt-2 text-base leading-relaxed text-[#F6F3EA]">{block.text}</p>
+          <p className="mt-2 text-base leading-relaxed text-[#F6F3EA]">
+            {block.text}
+            {block.link ? (
+              <>
+                {" "}
+                <a
+                  href={block.link.href}
+                  className="font-semibold text-gold underline hover:text-gold-hover"
+                >
+                  {block.link.label}
+                </a>
+              </>
+            ) : null}
+          </p>
         </aside>
       );
     default:

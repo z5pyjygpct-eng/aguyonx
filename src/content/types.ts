@@ -23,7 +23,7 @@ export type BodyBlock =
   | { type: "image"; src: string; alt: string; caption?: string }
   | { type: "x"; url: string; handle: string; name: string; date: string; text: string }
   | { type: "chart"; chart: "hearings" }
-  | { type: "callout"; title: string; text: string };
+  | { type: "callout"; title: string; text: string; link?: { href: string; label: string } };
 
 export type Story = {
   slug: string;

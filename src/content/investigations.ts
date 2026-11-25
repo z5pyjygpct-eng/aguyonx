@@ -2,8 +2,171 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    "slug": "norton-islamic-center-foia-2026",
+    "related": [
+      {
+        "type": "investigation",
+        "title": "The Man Behind 702 Park Avenue (Ayman Nassar investigation)",
+        "href": "/investigations/ayman-nassar-norton-islamic-center-2026"
+      },
+      {
+        "type": "link",
+        "title": "Email FOIA requests to Jeff Shupe, City Manager",
+        "href": "mailto:jeffs@nortonva.org",
+        "note": "jeffs@nortonva.org"
+      }
+    ],
+    "kind": "investigation",
+    "title": "FOIA's for the Norton, VA Islamic Center",
+    "dek": "FOIA's should be sent to: Jeff Shupe, City Manager - jeffs@nortonva.org. Ready-made Virginia Freedom of Information Act requests any Virginia resident can copy and send to get the emails, texts, permits, money records and meeting records behind the planned Islamic center at 702 Park Avenue NW.",
+    "date": "2026-11-25",
+    "displayDate": "November 25, 2026",
+    "topic": "Accountability",
+    "kicker": "Norton / Wise County",
+    "image": "/images/investigations/norton-islamic-center-foia-2026.png",
+    "imageAlt": "Cover of FOIA's for the Norton, VA Islamic Center",
+    "access": "public",
+    "readMinutes": 20,
+    "body": [
+      {
+        "type": "callout",
+        "title": "FOIA's should be sent to",
+        "text": "Jeff Shupe, City Manager -",
+        "link": {
+          "href": "mailto:jeffs@nortonva.org",
+          "label": "jeffs@nortonva.org"
+        }
+      },
+      {
+        "type": "h2",
+        "text": "The short version"
+      },
+      {
+        "type": "p",
+        "text": "Our investigation, The Man Behind 702 Park Avenue, showed who Ayman Nassar is and what his group plans for downtown Norton. What happened inside City Hall is in public records, and any Virginia resident can ask for them. This guide gives you 13 ready-made Virginia Freedom of Information Act (FOIA) requests, plus one deed request to the circuit court clerk. Copy one, fill in your name and address, and send it.",
+        "cites": [
+          "c1"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Every request covers January 1, 2025 through the day you send it, names the officials to search, lists the record types (emails, texts, WhatsApp and other messages, voicemails, calendars, minutes, recordings, permits and payments), and asks for a cost estimate first. Requests 1 to 9 go to the City of Norton. Requests 10 to 13 go to the Norton Treasurer and Commissioner of the Revenue, the Virginia Department of Corrections and Wise County."
+      },
+      {
+        "type": "h2",
+        "text": "Key points"
+      },
+      {
+        "type": "p",
+        "text": "1. Who to send it to. The City of Norton's FOIA page names Jeff Shupe, City Manager, jeffs@nortonva.org, as the person who takes records requests.",
+        "cites": [
+          "c2"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "2. The clock. The city must respond within five working days, and can take seven more working days if it tells you in writing why it needs them. Not answering at all counts as a denial under Va. Code § 2.2-3704(E).",
+        "cites": [
+          "c3"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "3. The cost. The city can charge only its actual cost to search for and copy records, must offer an estimate first, and may ask for a deposit if the estimate tops $200.",
+        "cites": [
+          "c3"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "4. Who's named. Every council request names Mayor Joseph Fawbush, Vice Mayor Mark A. Caruso, Councilman Robert Fultz, Jr., Councilman Stacy Salyers and Councilman Chris Jones, and asks the city to search personal email and phones used for city business. Virginia's definition of a public record covers any record \"in the transaction of public business,\" however it is stored.",
+        "cites": [
+          "c4"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "5. Richmond and the prisons. Norton and Wise County are represented by Delegate Terry G. Kilgore (House District 45) and Senator Todd E. Pillion (Senate District 6). The requests ask the city, the county and the Department of Corrections for their messages with both, and ask Corrections for its approvals of ILIA's programs at Red Onion and Wallens Ridge state prisons.",
+        "cites": [
+          "c5",
+          "c6"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "6. Who can file. Virginia FOIA is for Virginia citizens and for media that reach Virginia. Pick one or two requests, split the rest with neighbors, and don't send duplicates."
+      },
+      {
+        "type": "callout",
+        "title": "What this guide does not do",
+        "text": "It does not target anyone for their religion. Words like \"Islam\" and \"mosque\" are search terms tied to this property and this group so the clerk can find the records. It is a guide for residents, not legal advice."
+      },
+      {
+        "type": "p",
+        "text": "The PDF has the full step-by-step instructions, all 14 requests, where to send each one, what to do with what you get, and every law cited. The plain-text file has just the requests, ready to copy."
+      }
+    ],
+    "citations": [
+      {
+        "id": "c1",
+        "label": "The Man Behind 702 Park Avenue (Ayman Nassar investigation)",
+        "href": "/investigations/ayman-nassar-norton-islamic-center-2026"
+      },
+      {
+        "id": "c2",
+        "label": "City of Norton: Freedom of Information Act",
+        "href": "https://www.nortonva.gov/89/Freedom-of-Information-Act"
+      },
+      {
+        "id": "c3",
+        "label": "Va. Code § 2.2-3704",
+        "href": "https://law.lis.virginia.gov/vacode/title2.2/chapter37/section2.2-3704/"
+      },
+      {
+        "id": "c4",
+        "label": "Va. Code § 2.2-3701 (definition of public records)",
+        "href": "https://law.lis.virginia.gov/vacode/title2.2/chapter37/section2.2-3701/"
+      },
+      {
+        "id": "c5",
+        "label": "Virginia House of Delegates: Delegate Terry G. Kilgore, 45th District",
+        "href": "https://house.vga.virginia.gov/members/H0056"
+      },
+      {
+        "id": "c6",
+        "label": "Senate of Virginia: District descriptions (District 6, Todd E. Pillion)",
+        "href": "https://senate.virginia.gov/Senator/DistrictDescriptionListing.php"
+      }
+    ],
+    "documents": [
+      {
+        "id": "pdf",
+        "title": "FOIA's for the Norton, VA Islamic Center (PDF)",
+        "href": "/files/investigations/norton-islamic-center-foia-2026.pdf",
+        "kind": "pdf"
+      },
+      {
+        "id": "txt",
+        "title": "Copy-and-paste requests only (plain text)",
+        "href": "/files/investigations/norton-islamic-center-foia-2026-requests.txt",
+        "kind": "txt"
+      },
+      {
+        "id": "email",
+        "title": "Email the City's FOIA contact: jeffs@nortonva.org",
+        "href": "mailto:jeffs@nortonva.org",
+        "kind": "link"
+      }
+    ]
+  },
+  {
     "slug": "ayman-nassar-norton-islamic-center-2026",
     "related": [
+      {
+        "type": "investigation",
+        "title": "FOIA's for the Norton, VA Islamic Center (ready-made records requests)",
+        "href": "/investigations/norton-islamic-center-foia-2026"
+      },
       {
         "type": "graphic",
         "title": "Timeline graphic: Ayman Nassar, ILIA and the Aafia Siddiqui case, 2008 to 2026",
