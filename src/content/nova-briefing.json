@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,190 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-25",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Tuesday, Nov 24) local stories from ARLnow, FFXnow, Potomac Local and WTOP RSS plus Loudoun Now, Loudoun Times-Mirror and Prince William Times section pages, each verified live (HTTP 200, headline matched page title, Nov 24 ET publish date). Excluded: statewide/multi-locality items (ICE court ruling, Dulles Toll Road, VRE board service cuts, Dulles United bag drop, Centreville ICE lawsuit), Stafford items, daily digests/notes, ads, opinion, same-story duplicates from second outlets (Cascades shooting WTOP/LTM, Leesburg impersonation LTM, Catharpin fire Potomac Local, Manassas Tech Park II Potomac Local). InsideNoVA returned 403 and Loudoun Now RSS had only a press release/letters, so Loudoun Now section page was used; Patch RSS 404. Not capped; 19 kept of about 46 candidates screened.",
+      "items": [
+        {
+          "id": "cascades-homicide-suspect-identified-charged-with-second-deg-loudounnow-2026-11-24",
+          "county": "Loudoun",
+          "headline": "Cascades Homicide Suspect Identified, Charged with Second Degree Murder",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/cascades-homicide-suspect-identified-charged-with-second-degree-murder/article_dbaf8e24-a574-4204-a89a-84575e770d0f.html",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "2-arrested-in-leesburg-for-impersonating-federal-agents-loudounnow-2026-11-24",
+          "county": "Loudoun",
+          "headline": "2 Arrested in Leesburg For Impersonating Federal Agents",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/2-arrested-in-leesburg-for-impersonating-federal-agents/article_c6d6f0cf-7f49-46d5-ac5d-b10245926056.html",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "cummings-announces-run-for-leesburg-district-supervisor-seat-loudounnow-2026-11-24",
+          "county": "Loudoun",
+          "headline": "Cummings Announces Run for Leesburg District Supervisor Seat",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/cummings-announces-run-for-leesburg-district-supervisor-seat/article_d4eaf816-3c28-455a-8619-bc1031579921.html",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "mattia-announces-run-for-leesburg-district-supervisor-seat-loudounnow-2026-11-24",
+          "county": "Loudoun",
+          "headline": "Mattia Announces Run for Leesburg District Supervisor Seat",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/mattia-announces-run-for-leesburg-district-supervisor-seat/article_338e56b8-76d1-414e-928c-bdf4f8925ebd.html",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "south-riding-man-charged-in-friend-s-death-said-shooting-was-ltm-2026-11-24",
+          "county": "Loudoun",
+          "headline": "South Riding man charged in friend's death said shooting was an accident",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/public_safety/crime_and_courts/south-riding-man-charged-in-friends-death-said-shooting-was-an-accident/article_8eeb79d5-02e9-4af0-91ff-3fe490198fc0.html",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "just-in-unfounded-bomb-threats-at-multiple-fairfax-schools-u-ffxnow-2026-11-24",
+          "county": "Fairfax",
+          "headline": "JUST IN: Unfounded bomb threats at multiple Fairfax schools under investigation",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/24/just-in-unfounded-bomb-threats-at-multiple-fairfax-schools-under-investigation/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "transformative-plan-to-redevelop-south-side-of-wiehle-metro-ffxnow-2026-11-24",
+          "county": "Fairfax",
+          "headline": "‘Transformative’ plan to redevelop south side of Wiehle Metro station finds support",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/24/redevelopment-plan-for-south-side-of-wiehle-metro-station-wins-praise/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "vienna-officials-welcome-colombian-cafe-beauty-spa-and-more-ffxnow-2026-11-24",
+          "county": "Fairfax",
+          "headline": "Vienna officials welcome Colombian cafe, beauty spa and more to town",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/24/vienna-officials-welcome-colombian-cafe-beauty-spa-and-more-to-town/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "how-thanksgiving-2026-will-affect-transit-trash-and-more-in-ffxnow-2026-11-24",
+          "county": "Fairfax",
+          "headline": "How Thanksgiving 2026 will affect transit, trash and more in Fairfax County",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/24/how-thanksgiving-2026-will-affect-transit-trash-and-more-in-fairfax-county/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "updated-catharpin-house-fire-leaves-1-dead-4-injured-includi-pwt-2026-11-24",
+          "county": "Prince William",
+          "headline": "UPDATED: Catharpin house fire leaves 1 dead, 4 injured, including 3 firefighters",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/updated-catharpin-house-fire-leaves-1-dead-4-injured-including-3-firefighters/article_71386785-ab47-4981-b339-f9c1e2d1a543.html",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "prince-william-county-employees-ratify-first-union-contract-pwt-2026-11-24",
+          "county": "Prince William",
+          "headline": "Prince William County employees ratify first union contract",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/prince-william-county-employees-ratify-first-union-contract/article_3c0d595e-6c0c-4147-bf9d-c8146cc5a3f4.html",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "destination-place-new-townhomes-on-the-occoquan-river-advanc-pwt-2026-11-24",
+          "county": "Prince William",
+          "headline": "‘Destination Place,’ new townhomes on the Occoquan River, advances",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/destination-place-new-townhomes-on-the-occoquan-river-advances/article_b653d621-3ce4-4f08-9fb4-257d36a31a98.html",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "vre-pitches-weekend-service-52-trains-by-2030-to-manassas-co-potomaclocal-2026-11-24",
+          "county": "Prince William",
+          "headline": "VRE pitches weekend service, 52 trains by 2030 to Manassas council",
+          "outlet": "Potomac Local News",
+          "url": "https://www.potomaclocal.com/2026/11/24/vre-pitches-weekend-service-52-trains-by-2030-to-manassas-council/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "some-prince-william-co-leaders-want-stricter-noise-rules-to-wtop-2026-11-24",
+          "county": "Prince William",
+          "headline": "Some Prince William Co. leaders want stricter noise rules to address data center concerns",
+          "outlet": "WTOP",
+          "url": "https://wtop.com/virginia/2026/11/some-prince-william-co-leaders-want-stricter-noise-rules-to-address-data-center-concerns/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "supervisors-approve-potomac-lofts-condos-and-other-rezonings-potomaclocal-2026-11-24",
+          "county": "Prince William",
+          "headline": "Supervisors approve Potomac Lofts condos and other rezonings",
+          "outlet": "Potomac Local News",
+          "url": "https://www.potomaclocal.com/2026/11/24/supervisors-approve-potomac-lofts-condos-and-other-rezonings/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "three-men-arrested-after-police-find-guns-drugs-in-car-parke-arlnow-2026-11-24",
+          "county": "Arlington",
+          "headline": "Three men arrested after police find guns, drugs in car parked in Crystal City",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/24/three-men-arrested-after-police-find-guns-drugs-in-car-parked-in-crystal-city/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "panel-emphasizes-preservation-over-redevelopment-at-apartmen-arlnow-2026-11-24",
+          "county": "Arlington",
+          "headline": "Panel emphasizes preservation over redevelopment at apartment complex near Ballston",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/24/panel-emphasizes-preservation-over-redevelopment-at-apartment-complex-near-ballston/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "thanksgiving-brings-pause-in-trash-pickup-closures-to-county-arlnow-2026-11-24",
+          "county": "Arlington",
+          "headline": "Thanksgiving brings pause in trash pickup, closures to county offices in Arlington",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/24/thanksgiving-brings-pause-in-trash-pickup-closures-to-county-offices-in-arlington/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "thanksgiving-eve-events-arlington-turkey-trot-bring-road-clo-arlnow-2026-11-24",
+          "county": "Arlington",
+          "headline": "‘Thanksgiving Eve’ events, Arlington Turkey Trot bring road closures this week",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/24/thanksgiving-eve-events-arlington-turkey-trot-bring-road-closures-this-week/",
+          "published": "2026-11-24",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "InsideNoVA (HTTP 403)",
+        "Patch Loudoun/Fairfax/Arlington RSS (404)",
+        "Official BOS/school-board sources not separately checked this run; no feed items from them"
+      ]
+    },
     {
       "date": "2026-11-24",
       "status": "ok",
