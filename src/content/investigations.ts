@@ -2,6 +2,217 @@ import type { Story } from "@/content/types";
 
 export const INVESTIGATIONS: Story[] = [
   {
+    "slug": "ayman-nassar-norton-islamic-center-2026",
+    "related": [
+      {
+        "type": "graphic",
+        "title": "Timeline graphic: Ayman Nassar, ILIA and the Aafia Siddiqui case, 2008 to 2026",
+        "href": "/images/investigations/ayman-nassar-norton-islamic-center-2026-timeline.png"
+      }
+    ],
+    "kind": "investigation",
+    "title": "The Man Behind 702 Park Avenue",
+    "dek": "Who bought the old Bank of America building in Norton: Ayman Nassar of the Islamic Leadership Institute of America, his own words, his chairmanship of the Aafia Foundation, his ties to CAIR, his 19 days on a Maryland hate-crimes commission, and what Norton residents can ask for next",
+    "date": "2026-11-25",
+    "displayDate": "November 25, 2026",
+    "topic": "Accountability",
+    "kicker": "Norton / Wise County",
+    "image": "/images/investigations/ayman-nassar-norton-islamic-center-2026.png",
+    "imageAlt": "Cover of The Man Behind 702 Park Avenue",
+    "access": "public",
+    "readMinutes": 35,
+    "body": [
+      {
+        "type": "h2",
+        "text": "The short version"
+      },
+      {
+        "type": "p",
+        "text": "Bottom line. The man who bought the old Bank of America building at 702 Park Avenue in Norton is Ayman Nassar, founder and chief executive of the Islamic Leadership Institute of America (ILIA), a Maryland nonprofit. He is also chairman of the Aafia Foundation, a group that calls Aafia Siddiqui's conviction wrongful. Siddiqui is serving 86 years in federal prison for trying to kill U.S. soldiers and FBI agents in Afghanistan in 2008, and in 2022 a gunman took four people hostage in a Texas synagogue to demand her release. In 2024 Maryland's attorney general put Nassar on the state hate-crimes commission, and he resigned 19 days later after critics published his social media posts. On video, in a 2022 lecture, he called people who promote same-sex relationships \"evil people\" who \"will be destroyed in this life and the hereafter.\" His group says its prison program already teaches Islam to inmates at Red Onion and Wallens Ridge state prisons in Wise County.",
+        "cites": [
+          "c1",
+          "c2",
+          "c3",
+          "c4",
+          "c5",
+          "c6"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "None of that made the Norton purchase illegal. The building sits in a business district that allows churches and schools, the $300,000 sale was between private parties, and no city board had to vote. Norton residents are entitled to know who they are dealing with and to ask the city and the state for records. They are not entitled to block a lawful purchase because they dislike the buyer's religion, and this paper does not argue that they should.",
+        "cites": [
+          "c7",
+          "c8"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Nine findings"
+      },
+      {
+        "type": "p",
+        "text": "1. Nassar chairs the Aafia Foundation. The foundation's own website lists \"A Nassar, Chairman,\" and says Siddiqui \"was unfairly imprisoned and tortured for being wrongfully convicted.\" Its 2021 tax return, the only one the IRS has posted in full, lists another man as chairman, so we can confirm the role today but not when it began.",
+        "cites": [
+          "c3"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "2. Under U.S. law, Aafia Siddiqui is a convicted felon. A Manhattan federal jury convicted her on February 3, 2010, including attempted murder of U.S. officers and employees, and she was sentenced on September 23, 2010 to 86 years. In 2004 the FBI director called her \"an al Qaeda operative and facilitator.\" The Federal Bureau of Prisons lists a projected release date of June 30, 2082.",
+        "cites": [
+          "c2",
+          "c9"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "3. Siddiqui's release was the demand in a 2022 synagogue hostage-taking. On January 15, 2022, a gunman held four people at Congregation Beth Israel in Colleyville, Texas, and demanded her release. Nothing we found ties Nassar to that attack.",
+        "cites": [
+          "c10"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "4. His posts say what critics claimed, but we saw them only in a critic's screenshots. The Middle East Forum published screenshots of five LinkedIn posts in August 2024. In them Nassar wrote that \"Palestinians are taken as body organ donors then murdered,\" that \"Biden is indeed a traitor to our values. I feel ashamed to be an American,\" and that \"If you are working in America, everyday two hours of your 8-hour workday is dedicated to murdering children and creating chaos across the globe.\" The posts are no longer online and we found no archived copies. In the coverage we read, he did not deny writing them; he said critics \"mischaracterized my work and affiliations.\"",
+        "cites": [
+          "c11"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "5. His words on gay people are on video, and the critics' summary goes further than the tape. In an October 9, 2022 webinar he said \"They are evil people and they will be destroyed in this life and the hereafter.\" He said \"will,\" describing God's judgment in the Quran's account of Lot, not \"must,\" and he used \"animals\" as a comparison, not as a label for gay people.",
+        "cites": [
+          "c6"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "6. His CAIR (Council on American-Islamic Relations) tie is real but small. He said in a 2014 interview that he volunteered there among more than a dozen nonprofits, and his website lists CAIR's Maryland chapter among his engagements. We found no record that he was a CAIR officer, board member or employee.",
+        "cites": [
+          "c12"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "7. The Maryland job lasted 19 days. Attorney General Anthony Brown, not the governor, named Nassar an acting commissioner on July 31, 2024, and accepted his resignation on August 19. Nassar called the criticism \"a coordinated Islamophobic campaign of hate and online bullying.\"",
+        "cites": [
+          "c4",
+          "c5"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "8. ILIA is small and runs largely on donations. In 2025 it reported $303,099 in revenue and $410,539 in assets and paid Nassar $61,248 as \"CEO Chairman of the Board.\" Its return says it amended its articles for operations in Virginia.",
+        "cites": [
+          "c13"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "9. ILIA says it already teaches Islamic studies at Red Onion and Wallens Ridge, with Muslim Chaplain Services of Virginia. We found no Department of Corrections record of the arrangement; that is one of the records requests in the paper.",
+        "cites": [
+          "c14"
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "What this does not mean",
+        "text": "It does not mean Nassar has been charged with any crime; we did not search court records and make no claim either way. It does not mean every Muslim in Wise County shares his views. It does not mean CAIR, Maryland's attorney general or Norton's city government did anything unlawful."
+      },
+      {
+        "type": "p",
+        "text": "The full paper has a dated timeline from 2008 to 2026, every quote with where we saw it, his own defense, ILIA's tax returns year by year, a verified-versus-claimed table, what we could not verify, the records residents can request, and all 62 sources."
+      }
+    ],
+    "citations": [
+      {
+        "id": "c1",
+        "label": "Cardinal News: Islamic institute closes on Norton building (Oct 29, 2026)",
+        "href": "https://cardinalnews.org/2026/10/29/an-islamic-institute-has-closed-on-its-purchase-of-a-building-in-downtown-norton-and-is-proceeding-with-opening-a-community-center-there-its-founder-said/"
+      },
+      {
+        "id": "c2",
+        "label": "U.S. Attorney, S.D.N.Y.: Siddiqui sentenced to 86 years (Sep 23, 2010)",
+        "href": "https://www.justice.gov/archive/usao/nys/pressreleases/September10/siddiquiaafiasentencingpr.pdf"
+      },
+      {
+        "id": "c3",
+        "label": "The Aafia Foundation: About Us",
+        "href": "https://www.aafia.org/about-us"
+      },
+      {
+        "id": "c4",
+        "label": "WBAL-TV: Maryland AG announces hate crime commission appointments (Aug 1, 2024)",
+        "href": "https://www.wbal.com/maryland-ag-announces-appointments-to-commission-on-hate-crime-response-and-prevention"
+      },
+      {
+        "id": "c5",
+        "label": "The Daily Record: Muslim member of MD hate crime commission resigns (Aug 19, 2024)",
+        "href": "https://thedailyrecord.com/2024/08/19/muslim-member-of-md-hate-crime-commission-resigns-after-accusations-of-antisemitism/"
+      },
+      {
+        "id": "c6",
+        "label": "\"Gender Identity and Islam with Ayman Nassar\" webinar (Oct 9, 2022), quote at 45:35",
+        "href": "https://www.youtube.com/watch?v=MnlbiCrQIXE"
+      },
+      {
+        "id": "c7",
+        "label": "Cardinal News: Plans to open an Islamic center in Norton (Oct 27, 2026)",
+        "href": "https://cardinalnews.org/2026/10/27/plans-to-open-an-islamic-center-in-norton-have-caused-an-uproar-nothing-has-been-approved-by-city-officials/"
+      },
+      {
+        "id": "c8",
+        "label": "City of Norton: Oct 20, 2026 council minutes (Nov 10 packet)",
+        "href": "https://www.nortonva.gov/ArchiveCenter/ViewFile/Item/3380"
+      },
+      {
+        "id": "c9",
+        "label": "CNN transcript: Ashcroft and Mueller news conference (May 26, 2004)",
+        "href": "https://www.cnn.com/2004/US/05/26/terror.threat.transcript/"
+      },
+      {
+        "id": "c10",
+        "label": "BBC News: Colleyville hostage-taker inquest (Aug 24, 2024)",
+        "href": "https://www.bbc.com/news/articles/cj4x1n1d45no"
+      },
+      {
+        "id": "c11",
+        "label": "Middle East Forum: Maryland hate crimes panel appointment (Aug 15, 2024)",
+        "href": "https://www.meforum.org/articles/maryland-ag-replaces-one-hater-with-another-to-serve-on-hate-crimes-panel"
+      },
+      {
+        "id": "c12",
+        "label": "Wendt Partners: CEO Profile with Ayman Nassar (Aug 30, 2014)",
+        "href": "https://www.wendtpartners.com/blog/ceo-profile-with-ayman-nassar-innovation-in-leadership-development"
+      },
+      {
+        "id": "c13",
+        "label": "ILIA Form 990, tax year 2025 (ProPublica)",
+        "href": "https://projects.propublica.org/nonprofits/organizations/270447273/202621349349301512/full"
+      },
+      {
+        "id": "c14",
+        "label": "ILIA: Distance Learning, Red Onion (Oct 24, 2025)",
+        "href": "https://news.islamicleadership.org/2025/distance-learning-red-onion"
+      }
+    ],
+    "documents": [
+      {
+        "id": "pdf",
+        "title": "The Man Behind 702 Park Avenue: Ayman Nassar investigation (PDF)",
+        "href": "/files/investigations/ayman-nassar-norton-islamic-center-2026.pdf",
+        "kind": "pdf"
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline graphic, 2008 to 2026 (PNG)",
+        "href": "/images/investigations/ayman-nassar-norton-islamic-center-2026-timeline.png",
+        "kind": "link"
+      }
+    ]
+  },
+  {
     "slug": "va-gop-website-analysis-2026",
     "related": [],
     "kind": "investigation",
