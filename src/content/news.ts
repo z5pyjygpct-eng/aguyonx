@@ -56,6 +56,36 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "jones-media-clips-x-accountable-release-oag-2026-11-24",
+    date: "2026-11-24",
+    filed: "2026-11-25",
+    headline: "MEDIA CLIPS: Attorney General Jay Jones Holds X Accountable for Child Exploitation and Non-Consensual Images",
+    outlet: "Office of the Attorney General (press release)",
+    url: "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3164-media-clips-attorney-general-jay-jones-holds-x-accountable-for-child-exploitation-and-non-consensual-images",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-231m-affordable-housing-wdbj7-2026-11-24",
+    date: "2026-11-24",
+    filed: "2026-11-25",
+    headline: "Governor announces $231M to bolster affordable housing and lower costs",
+    outlet: "WDBJ7",
+    url: "https://www.wdbj7.com/2026/11/24/governor-announces-231m-bolster-affordable-housing-lower-costs/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "jones-fourth-circuit-287g-statement-release-oag-2026-11-23",
+    date: "2026-11-23",
+    filed: "2026-11-25",
+    headline: "Attorney General Jones Statement on Fourth Circuit's Decision Regarding Virginia's 287(g) Law",
+    outlet: "Office of the Attorney General (press release)",
+    url: "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3163-attorney-general-jones-statement-on-fourth-circuits-decision-regarding-virginias-287-g-law",
+    people: [{ name: "Jay Jones", office: "Attorney General" }],
+    scope: "statewide",
+  },
+  {
     id: "cascades-homicide-suspect-identified-charged-with-second-deg-loudounnow-2026-11-24",
     date: "2026-11-24",
     filed: "2026-11-25",
