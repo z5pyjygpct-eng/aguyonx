@@ -65037,5 +65037,117 @@ export const HC_RECAPS: CityRecap[] = [
         "label": "Public comment / public hearing begins."
       }
     ]
+  },
+  {
+    "slug": "fxco-bos-4347",
+    "meetingId": "fxco-bos-4347",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Land Use Committee",
+    "dateLabel": "Tuesday, November 24, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 24m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 26, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4347"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-11-24-fairfax-county-board-of-supervisors-land-use-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-11-24-fairfax-county-board-of-supervisors-land-use-committee.txt",
+      "pdfNote": "24 pages"
+    },
+    "shareContext": "Fairfax BOS, Nov 24, 2026",
+    "moments": [
+      {
+        "seconds": 6,
+        "label": "Called to order."
+      },
+      {
+        "seconds": 15,
+        "label": "Minutes of the previous meeting."
+      },
+      {
+        "seconds": 29,
+        "label": "Staff presentation: building height Zoning Ordinance amendment."
+      },
+      {
+        "seconds": 820,
+        "label": "Staff presentation: accessory structures Zoning Ordinance amendment."
+      },
+      {
+        "seconds": 1955,
+        "label": "Update on the Housing Action Plans (housing and economic competitiveness task forces)."
+      },
+      {
+        "seconds": 5061,
+        "label": "Adjournment."
+      }
+    ]
+  },
+  {
+    "slug": "fxco-bos-4345",
+    "meetingId": "fxco-bos-4345",
+    "venue": "fairfax-county-bos",
+    "title": "Fairfax County Board of Supervisors Budget Policy Committee",
+    "dateLabel": "Tuesday, November 24, 2026",
+    "whenWhere": "Fairfax County Board of Supervisors meeting · video 1h 28m",
+    "official": {
+      "votesPosted": false,
+      "checkedLabel": "Nov 26, 2026, 8:00 AM ET",
+      "note": "Official votes for this meeting have not been added yet. They will be copied only from Fairfax County's adopted Board of Supervisors minutes / Board Summary. Nothing is inferred from video or transcript.",
+      "links": [
+        {
+          "label": "meeting video (Fairfax County)",
+          "href": "https://video.fairfaxcounty.gov/player/clip/4345"
+        },
+        {
+          "label": "Board of Supervisors page (Fairfax County)",
+          "href": "https://www.fairfaxcounty.gov/boardofsupervisors/"
+        }
+      ]
+    },
+    "decisions": [],
+    "context": [],
+    "agenda": [],
+    "transcriptDownloads": {
+      "pdfUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-11-24-fairfax-county-board-of-supervisors-budget-policy-committee.pdf",
+      "txtUrl": "/files/find-the-moment/fairfax-county-bos/transcripts/coraggio-transcript-fairfax-county-bos-2026-11-24-fairfax-county-board-of-supervisors-budget-policy-committee.txt",
+      "pdfNote": "24 pages"
+    },
+    "shareContext": "Fairfax BOS, Nov 24, 2026",
+    "moments": [
+      {
+        "seconds": 7,
+        "label": "Meeting opens; agenda overview."
+      },
+      {
+        "seconds": 26,
+        "label": "Agenda item 1: tax relief for seniors and people with disabilities."
+      },
+      {
+        "seconds": 1514,
+        "label": "Agenda item 2: administration of the tax rebate."
+      },
+      {
+        "seconds": 2217,
+        "label": "Agenda item 3: retirement systems and boards consolidation overview."
+      },
+      {
+        "seconds": 5294,
+        "label": "Adjournment."
+      }
+    ]
   }
 ];

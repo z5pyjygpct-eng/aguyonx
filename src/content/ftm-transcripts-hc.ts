@@ -10151,5 +10151,25 @@ export const HC_FTM_TRANSCRIPTS: FtmTranscript[] = [
     "engine": "whisper.cpp · large-v3-turbo",
     "generated": "2026-11-23",
     "sourceFile": "pwc-sb-6eODMDxi8gk.srt"
+  },
+  {
+    "meetingId": "fxco-bos-4347",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4347.json",
+    "windowCount": 218,
+    "wordCount": 13790,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-11-25",
+    "sourceFile": "fxco-bos-4347.srt"
+  },
+  {
+    "meetingId": "fxco-bos-4345",
+    "venue": "fairfax-county-bos",
+    "url": "/files/find-the-moment/fairfax-county-bos/transcripts/fxco-bos-4345.json",
+    "windowCount": 220,
+    "wordCount": 14519,
+    "engine": "whisper.cpp · large-v3-turbo",
+    "generated": "2026-11-25",
+    "sourceFile": "fxco-bos-4345.srt"
   }
 ];
