@@ -97,7 +97,8 @@ test("published ledger keeps 32 new filings and 443 continued records", () => {
   assert.equal(sb863.introduction_date, "11/19/2026");
   assert.deepEqual(categoryIdsOf(sb863), ["uncategorized"]);
   const sb843 = bills.find((b) => b.bill_number === "SB843")!;
-  assert.ok(sb843.sponsors.some((s) => s.member_name === "Sam Rasoul" && s.patron_type === "3 - Co-Patron"));
+  assert.ok(sb843.sponsors.some((s) => s.member_name === "Stella G. Pekarsky" && s.patron_type === "3 - Co-Patron"));
+  assert.ok(sb843.sponsors.some((s) => s.member_name === "Sam Rasoul" && s.patron_type === "4 - Co-Patron"));
   for (const bill of ledger.new_filings) assert.equal(isNewFiling(bill), true);
   for (const bill of ledger.continued) assert.equal(isContinued(bill), true);
   for (const bill of continued) {
