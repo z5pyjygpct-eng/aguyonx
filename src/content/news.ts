@@ -56,6 +56,36 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "governor-spanberger-announces-action-to-protect-medicaid-coverage-governor-2026-11-25",
+    date: "2026-11-25",
+    filed: "2026-11-26",
+    headline: "Governor Spanberger Announces Action to Protect Medicaid Coverage for Virginians",
+    outlet: "Office of the Governor (press release)",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/november-releases/name-1130208-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "governor-announces-move-protect-virginians-losing-healthcare-coverage-wdbj7-2026-11-25",
+    date: "2026-11-25",
+    filed: "2026-11-26",
+    headline: "Governor announces move to protect Virginians from losing healthcare coverage",
+    outlet: "WDBJ7",
+    url: "https://www.wdbj7.com/2026/11/25/governor-announces-move-protect-virginians-losing-healthcare-coverage/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "spanberger-joins-volunteers-at-the-giving-heart-to-prepare-t-wric-2026-11-25",
+    date: "2026-11-25",
+    filed: "2026-11-26",
+    headline: "Spanberger joins volunteers at The Giving Heart to prepare Thanksgiving meals",
+    outlet: "WRIC ABC 8News",
+    url: "https://www.wric.com/news/local-news/richmond/spanberger-volunteers-giving-heart-prepare-thanksgiving-meals/",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
     id: "loudoun-sheriff-s-office-to-end-jail-agreement-with-ice-loudounnow-2026-11-25",
     date: "2026-11-25",
     filed: "2026-11-26",
