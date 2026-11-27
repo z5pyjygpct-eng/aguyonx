@@ -56,6 +56,35 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "governor-spanberger-first-gentleman-welcome-pamunkey-matt-governor-2026-11-25",
+    date: "2026-11-25",
+    filed: "2026-11-27",
+    headline: "Governor Spanberger, First Gentleman Welcome Pamunkey, Mattaponi Tribes for 349th Tax Tribute Ceremony",
+    outlet: "Office of the Governor (press release)",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/november-releases/name-1130207-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
+    id: "candidates-enter-board-of-supervisors-races-fairfaxtimes-2026-11-27",
+    date: "2026-11-27",
+    headline: "Candidates enter Board of Supervisors races",
+    outlet: "Fairfax County Times",
+    url: "https://www.fairfaxtimes.com/articles/candidates-enter-board-of-supervisors-races/article_6aa5befc-d9fd-42b9-901f-c6ca55f319f8.html",
+    people: [{ name: "Jeff McKay", office: "Fairfax official" }],
+    scope: "local",
+  },
+  {
+    id: "muhammed-abdullateef-joins-democratic-race-for-brentsville-s-potomaclocal-2026-11-26",
+    date: "2026-11-26",
+    filed: "2026-11-27",
+    headline: "Muhammed Abdullateef joins Democratic race for Brentsville supervisor",
+    outlet: "Potomac Local",
+    url: "https://www.potomaclocal.com/2026/11/26/muhammed-abdullateef-joins-democratic-race-for-brentsville-supervisor/",
+    people: [{ name: "Muhammed Abdullateef", office: "Prince William official" }],
+    scope: "local",
+  },
+  {
     id: "900-push-through-rain-to-finish-ashburn-farm-s-turkey-trot-r-loudounnow-2026-11-26",
     date: "2026-11-26",
     filed: "2026-11-27",
