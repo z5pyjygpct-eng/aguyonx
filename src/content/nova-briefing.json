@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,73 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-27",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Thursday, Nov 26, Thanksgiving) local stories from ARLnow, FFXnow, Potomac Local RSS plus Loudoun Now and Prince William Times pages, each verified live (HTTP 200, headline matched, Nov 26 ET publish date). Thin holiday news day. Excluded: regional weather roundup (Potomac Local), Fredericksburg item, Prince William Times high-school sports, Loudoun Times-Mirror items dated Nov 27, Abdullateef Brentsville item (same story already on News from InsideNova Nov 25), digests. No verification failures. No existing news.ts stories dated Nov 26 about the four localities.",
+      "items": [
+        {
+          "id": "900-push-through-rain-to-finish-ashburn-farm-s-turkey-trot-r-loudounnow-2026-11-26",
+          "county": "Loudoun",
+          "headline": "900 Push Through Rain to Finish Ashburn Farm’s Turkey Trot Races",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/900-push-through-rain-to-finish-ashburn-farm-s-turkey-trot-races/article_6c91fd45-0e24-48e0-982f-dfa3f22e7a7a.html",
+          "published": "2026-11-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "leesburg-gets-38k-to-replace-trees-damaged-by-fiber-optic-pr-loudounnow-2026-11-26",
+          "county": "Loudoun",
+          "headline": "Leesburg Gets $38K to Replace Trees Damaged by Fiber-optic Project",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/leesburg-gets-38k-to-replace-trees-damaged-by-fiber-optic-project/article_19b1bc4b-1302-4edd-a835-a1fd24924337.html",
+          "published": "2026-11-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "thanksgiving-storm-dumps-inches-of-rain-fells-trees-loudounnow-2026-11-26",
+          "county": "Loudoun",
+          "headline": "Thanksgiving Storm Dumps Inches of Rain, Fells Trees",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/thanksgiving-storm-dumps-inches-of-rain-fells-trees/article_e46a3085-66bc-4c4a-96d0-c2059bfdda1a.html",
+          "published": "2026-11-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "thanksgiving-storm-knocks-out-trees-thousands-without-power-ffxnow-2026-11-26",
+          "county": "Fairfax",
+          "headline": "Thanksgiving storm knocks out trees, thousands without power in Fairfax",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/26/thanksgiving-storm-knocks-out-trees-thousands-without-power-in-fairfax/",
+          "published": "2026-11-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "tree-falls-onto-car-on-gw-parkway-as-thanksgiving-storm-knoc-arlnow-2026-11-26",
+          "county": "Arlington",
+          "headline": "Tree falls onto car on GW Parkway as Thanksgiving storm knocks out power in parts of Arlington",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/26/tree-falls-onto-car-on-gw-parkway-as-thanksgiving-storm-knocks-out-power-in-parts-of-arlington/",
+          "published": "2026-11-26",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "manassas-school-board-member-sara-brescia-files-for-recount-potomaclocal-2026-11-26",
+          "county": "Prince William",
+          "headline": "Manassas School Board member Sara Brescia files for recount",
+          "outlet": "Potomac Local News",
+          "url": "https://www.potomaclocal.com/2026/11/26/manassas-school-board-member-sara-brescia-files-for-recount/",
+          "published": "2026-11-26",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": [
+        "Loudoun Times-Mirror: no Nov 26 items found in feed",
+        "Prince William Times: only sports items dated Nov 26",
+        "InsideNova: blocked (HTTP 403) this run"
+      ]
+    },
     {
       "date": "2026-11-26",
       "status": "ok",
