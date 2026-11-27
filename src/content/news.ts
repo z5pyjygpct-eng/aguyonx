@@ -56,6 +56,18 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "aapi-voting-trends-in-swing-states-likely-shared-in-virginia-wvtf-2026-11-27",
+    date: "2026-11-27",
+    headline: "AAPI voting trends in swing states likely shared in Virginia",
+    outlet: "WVTF",
+    url: "https://www.wvtf.org/news/2026-11-27/aapi-voting-trends-in-swing-states-likely-shared-in-virginia",
+    people: [
+      { name: "Kathy Tran", office: "State Delegate" },
+      { name: "May Nivar", office: "State Delegate" },
+    ],
+    scope: "statewide",
+  },
+  {
     id: "governor-spanberger-first-gentleman-welcome-pamunkey-matt-governor-2026-11-25",
     date: "2026-11-25",
     filed: "2026-11-27",
