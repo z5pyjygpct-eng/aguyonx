@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "counties": [
     "Loudoun",
     "Fairfax",
@@ -8,6 +8,114 @@
     "Arlington"
   ],
   "editions": [
+    {
+      "date": "2026-11-28",
+      "status": "ok",
+      "source": "verified-outlets",
+      "note": "Prior-day (Friday, Nov 27) local stories from ARLnow, FFXnow, Potomac Local RSS plus Loudoun Now, Loudoun Times-Mirror and Prince William Times pages, each verified live (HTTP 200, headline matched, Nov 27 ET publish date). Excluded: daily digests/morning notes, lifestyle/sports/features, non-four-locality items (Spotsylvania, Fredericksburg, statewide). Loudoun Now/PW Times/InsideNova/LTM RSS were rate-limited (429/403), so those outlets were read from their homepages. No verification failures.",
+      "items": [
+        {
+          "id": "lcps-eyes-later-night-sport-lights-at-loudoun-valley-hs-loudounnow-2026-11-27",
+          "county": "Loudoun",
+          "headline": "LCPS Eyes Later Night Sport Lights at Loudoun Valley HS",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/lcps-eyes-later-night-sport-lights-at-loudoun-valley-hs/article_68bf4e89-9b3b-4694-aa51-ddbee482fbb4.html",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "some-leesburg-residents-hit-for-back-taxes-after-billing-sna-loudounnow-2026-11-27",
+          "county": "Loudoun",
+          "headline": "Some Leesburg Residents Hit for Back Taxes after Billing Snafu",
+          "outlet": "Loudoun Now",
+          "url": "https://www.loudounnow.com/news/leesburg/some-leesburg-residents-hit-for-back-taxes-after-billing-snafu/article_d6cc0710-5477-4f39-8f93-692f39c8ad6d.html",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "two-loudoun-villages-are-en-route-to-the-national-register-w-loudountimes-2026-11-27",
+          "county": "Loudoun",
+          "headline": "Two Loudoun villages are en route to the National Register. What does that mean?",
+          "outlet": "Loudoun Times-Mirror",
+          "url": "https://www.loudountimes.com/news/community/two-loudoun-villages-are-en-route-to-the-national-register-what-does-that-mean/article_18f0713f-c5d4-438d-9c4b-f88729f21dc3.html",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "fairfax-county-board-considers-tweaking-income-asset-limits-ffxnow-2026-11-27",
+          "county": "Fairfax",
+          "headline": "Fairfax County board considers tweaking income, asset limits for tax relief program",
+          "outlet": "FFXnow",
+          "url": "https://www.ffxnow.com/2026/11/27/fairfax-county-board-considers-tweaking-income-asset-limits-for-tax-relief-program/",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "candidates-enter-board-of-supervisors-races-fairfaxtimes-2026-11-27",
+          "county": "Fairfax",
+          "headline": "Candidates enter Board of Supervisors races",
+          "outlet": "Fairfax County Times",
+          "url": "https://www.fairfaxtimes.com/articles/candidates-enter-board-of-supervisors-races/article_6aa5befc-d9fd-42b9-901f-c6ca55f319f8.html",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "dominion-valley-fire-damages-2-townhomes-displacing-7-reside-pwtimes-2026-11-27",
+          "county": "Prince William",
+          "headline": "Dominion Valley fire damages 2 townhomes, displacing 7 residents",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/dominion-valley-fire-damages-2-townhomes-displacing-7-residents/article_3ff68463-0a6b-4127-a780-b7c229a24b60.html",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "police-looking-for-missing-endangered-13-year-old-woodbridge-pwtimes-2026-11-27",
+          "county": "Prince William",
+          "headline": "Police looking for missing, endangered 13-year-old Woodbridge girl",
+          "outlet": "Prince William Times",
+          "url": "https://www.princewilliamtimes.com/localnews/police-looking-for-missing-endangered-13-year-old-woodbridge-girl/article_d00ecb40-fa3e-4dec-80e7-c3b103ddd9f7.html",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "flight-schools-warn-west-side-space-crunch-could-cost-manass-potomaclocal-2026-11-27",
+          "county": "Prince William",
+          "headline": "Flight schools warn west-side space crunch could cost Manassas airport tower staffing",
+          "outlet": "Potomac Local News",
+          "url": "https://www.potomaclocal.com/2026/11/27/flight-schools-warn-west-side-space-crunch-could-cost-manassas-airport-tower-staffing/",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "outage-knocks-out-power-to-more-than-2-600-in-rosslyn-area-f-arlnow-2026-11-27",
+          "county": "Arlington",
+          "headline": "Outage knocks out power to more than 2,600 in Rosslyn area Friday night",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/27/outage-knocks-out-power-to-more-than-2600-in-rosslyn-area-friday-night/",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "just-in-police-investigating-shooting-in-douglas-park-arlnow-2026-11-27",
+          "county": "Arlington",
+          "headline": "JUST IN: Police investigating shooting in Douglas Park",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/27/just-in-police-investigating-shooting-in-douglas-park/",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        },
+        {
+          "id": "culpepper-garden-changes-dining-service-to-cut-costs-diversi-arlnow-2026-11-27",
+          "county": "Arlington",
+          "headline": "Culpepper Garden changes dining service to cut costs, diversify options",
+          "outlet": "ARLnow",
+          "url": "https://www.arlnow.com/2026/11/27/culpepper-garden-changes-dining-service-to-cut-costs-diversify-options/",
+          "published": "2026-11-27",
+          "tier": "Reported Claim"
+        }
+      ],
+      "gaps": []
+    },
     {
       "date": "2026-11-27",
       "status": "ok",
