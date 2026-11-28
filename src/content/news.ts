@@ -56,6 +56,38 @@ export function peopleSearchText(people: NewsPerson[]): string {
 /** Public-outlet headlines only. Never invent stories. Fairfax GOP would be advocacy if used. */
 export const NEWS: NewsItem[] = [
   {
+    id: "electric-shock-gloves-used-at-loudoun-jail-loudountimes-2026-11-27",
+    date: "2026-11-27",
+    filed: "2026-11-28",
+    headline: "Electric shock gloves used at Loudoun jail",
+    outlet: "Loudoun Times-Mirror",
+    url: "https://www.loudountimes.com/news/politics_and_government/levels_of_government/county/electric-shock-gloves-used-at-loudoun-jail/article_6408d091-7340-4fbc-a8d3-9a425c1d4b5b.html",
+    people: [{ name: "Phyllis Randall", office: "Loudoun Chair" }],
+    scope: "local",
+    locations: ["loudoun"],
+  },
+  {
+    id: "short-joins-democratic-race-for-potomac-district-supervisor-insidenova-2026-11-27",
+    date: "2026-11-27",
+    filed: "2026-11-28",
+    headline: "Short joins Democratic race for Potomac District supervisor in Prince William County",
+    outlet: "InsideNoVa",
+    url: "https://www.insidenova.com/news/kim-short-joins-race-for-potomac-district-supervisor-in-prince-william-county-e135eeb7/",
+    people: [],
+    scope: "local",
+    locations: ["prince-william"],
+  },
+  {
+    id: "governor-spanberger-declares-state-of-emergency-coastal-storm-governor-2026-11-27",
+    date: "2026-11-27",
+    filed: "2026-11-28",
+    headline: "Governor Spanberger Declares State of Emergency for Severe Coastal Storm",
+    outlet: "Office of the Governor (press release)",
+    url: "https://www.governor.virginia.gov/newsroom/news-releases/2026/november-releases/name-1130229-en.html",
+    people: [{ name: "Abigail Spanberger", office: "Governor" }],
+    scope: "statewide",
+  },
+  {
     id: "lcps-eyes-later-night-sport-lights-at-loudoun-valley-hs-loudounnow-2026-11-27",
     date: "2026-11-27",
     headline: "LCPS Eyes Later Night Sport Lights at Loudoun Valley HS",
